@@ -1,0 +1,22 @@
+﻿Title:Stringi 2
+Author:marcin
+When:19 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Stringi to naprawdę temat bywa rzeka,<br />
+jedne są bardzo krótkie niesłychanie,<br />
+zakończone nicością niespodziewanie,<br />
+w innych zaś nieskończość treści czeka,</p>
+<p>Wiele wbiło się w myśli moje głęboko,<br />
+nawet te co przypadkiem źle dobrane,<br />
+co niezręczne, co były szybko usuwane,<br />
+nawet ich obecność dziś widzę szeroko,</p>
+<p>Bez nich zawsze nudno i szaro by było,<br />
+bo wiele akcji ludziom robić pozwalają,<br />
+i choć wiele na chwilę tylko się pojawiło,</p>
+<!--break-->
+<p>To na koniec stwierdzić trzeba dosadnie,<br />
+że stringi z C to mieszanka wybuchowa,<br />
+o nich należy wiedzę zdobywać dokładnie.</p>

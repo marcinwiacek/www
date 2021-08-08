@@ -1,0 +1,205 @@
+﻿Title:Acer Swift 1 - czy w ogóle ma sens? (2021)
+Author:marcin
+When:21 May 2021
+Taxonomy:polski,polski blog,salon24.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1136871,acer-swift-1-czy-ma-sens>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dziś mam przyjemność przedstawić komputer Acer Swift 1 SF114-32, który pojawił się w 2018 roku, a więc jeszcze przed korona-szaleństwem. Testowana konfiguracja ma na pokładzie 4-rdzeniowy procesor Intel Pentium Silver N5000, 4 GB RAM niewiadomej produkcji, dysk SSD 256 GB od WD, obudowę koloru czarnego (<a href="https://www.youtube.com/watch?v=chuxwg2JO1k" target="_blank" rel="nofollow noopener">wygląda jak na tej niemieckiej recenzji</a>) i Windows 10 Home (bez S).<br />
+</p>
+<!--break-->
+<h1>(Dziwna?) strategia firmy Acer i jej konkurentów<br />
+</h1>
+<p>Acer Swift 1 jest z założenia modelem podstawowym, pozycjonowanym mniej więcej na równi z Chromebookami. Teoretycznie podobne konstrukcje skazane są na ogromny sukces – energooszczędny procesor o TDP 6W w połączeniu z dobrym ekranem, pasywnym chłodzeniem, mocną baterią i solidną obudową powinien umożliwić stworzenie taniego, wygodnego i wystarczającego do typowych zadań urządzenia, które będzie mieć znacznie większe możliwości niż tablet czy telefon.<br />
+<br />
+Czy Acerowi udało się wyprodukować taki ideał czy cierpi on z powodu jakichś sztucznych ograniczeń?</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/lNBBnZ0gqpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Wersja SF114-32 sprzed trzech lat jako ostatnia występuje w kolorze czarnym (ten został później najwyraźniej zarezerwowany dla modeli biznesowych z procesorami Intela) i jako ostatnia szczyci się klasyczną stabilną obudową (późniejsze mają coś, czego nie toleruję, czyli unoszenie dołu urządzenia przez końcówkę klapy matrycy).<br />
+<br />
+Problemem tej generacji okazuje się loteria w doborze ekranów – <a href="https://laptopmedia.com/review/acer-swift-1-sf114-32-review-a-budget-machine-done-right/" target="_blank" rel="nofollow noopener">w recenzji na laptopmedia.com</a> testowany wariant występował z matrycą BOE NV140FHM-N48, <a href="https://www.notebookcheck.net/Acer-Swift-1-SF114-32-N5000-SSD-FHD-Laptop-Review.303606.0.html" target="_blank" rel="nofollow noopener">z kolei notebookcheck.net dostał model z ekranem AUO B140HAN04.0,</a> a <a href="https://community.acer.com/en/discussion/comment/862609/" target="_blank" rel="nofollow noopener">na forach można przeczytać jeszcze o używaniu N140HCA-EAC</a>. Jest to problem, gdyż druga i trzecia matryca działają z PWM (jest nawet <a href="https://youtu.be/7_YhOMBbatQ?t=123" target="_blank" rel="nofollow noopener">wideo na YouTube, gdzie najwyraźniej widać dokładnie ten efekt</a>), a zarówno przedstawiciele firmy i pracownicy sklepów nie potrafią jasno powiedzieć, co gdzie zamontowano (i o ile w Polsce przy zakupie wysyłkowym jest możliwość sprawdzenia produktu, o tyle w innych miejscach nie wygląda to tak słodko i teoretycznie można trafić na minę).<br />
+<br />
+Ograniczeniem wielu wariantów jest również 4GB RAM, albo użycie Windows 10 Home zamiast Windows 10 Home S (o tym dalej).<br />
+<br />
+Zastanawia mnie też w tym momencie, dlaczego określona kategoria laptopów (tzn. urządzenia w okolicy 1 kg) jest traktowana tak bardzo po macoszemu przez większość producentów.<br />
+<br />
+Skoro firma Clevo potrafiła umieścić w obudowie z MIL-STD-810G baterię 73Wh, do tego „pełne” ważące swoje chłodzenie, to dlaczego problemem jest skonstruowanie wariantu ze słabszym procesorem? Ktoś mógłby w tym miejscu powiedzieć, że przecież mocniejszy układ to samo dobro. <a href="https://www.purepc.pl/hyperbook-l14-ultra-test-laptopa-z-dlugim-czasem-pracy-na-baterii" target="_blank" rel="nofollow noopener">Recenzja Hyperbooka L14 z Intelem 10 generacji na purepc.pl</a> wskazuje na temperatury do 88 C, ale już <a href="https://www.notebookcheck.net/Schenker-VIA-14-laptop-in-review-Lightweight-magnesium-ultrabook-with-extremely-long-battery-life.530814.0.html" target="_blank" rel="nofollow noopener">notebookcheck.net przy VIA 14 Late 2020</a> z Intelem 11 generacji mówi o 98 C (a to jest ten sam kadłubek i jakoś ciężko mi uwierzyć w tak mocne różnice). Duża wydajność uzyskiwana jest wyłącznie dzięki absurdalnemu zwiększeniu TDP, i choć recenzenci wskazują na istnienie aplikacji producenta do jego kontroli (tylko do Windows), bardzo mi brakuje testu, w którym ktoś sprawdza, czy wentylator faktycznie nie włącza się również przy najniższych ustawieniach. Inną kwestią jest matryca (teoretycznie doskonała; w praktyce jednak im więcej sprzętu przechodzi przez moje ręce, tym bardziej mam obawy o prawdziwość zapewnień producentów i testerów) albo deficyt wariantu czarnego (ma go Hyperbook i może ze dwóch innych dostawców).<br />
+<br />
+W przypadku Clevo jest jeszcze kadłubek z Celeronem / Pentium N, ale kosztuje dosyć sporo, ma małą baterię 36Wh i wygląda na to, że jest w ofercie tylko po to, żeby tam być (brak w ogóle w Internecie jakichkolwiek jego recenzji i najwyraźniej nikt nie traktuje go na poważnie).<br />
+<br />
+A firma Apple albo LG? Dlaczego tak mocno wzbraniają się przed wypuszczeniem modelu w czerni z matowym wyświetlaczem?<br />
+<br />
+Lenovo? Jest X1 Nano, ale ten wygląda bardziej jak pokaz możliwości czy zabawka dla prezesów / fanów technologii niż poważna maszyna do pracy.<br />
+<br />
+A inni?<br />
+<br />
+Najwyraźniej wszyscy próbują wymusić kupowanie laptopów co najmniej 2x lub 3x droższych od Swift 1, a te potrafią być głośnymi, gorącymi, budzącymi irytację klockami (żeby było śmieszniej, sam Acer w cenie Swift 1 potrafi budować Chromebooki z trochę lepszą konfiguracją sprzętową).<br />
+</p>
+<h1>Propozycja z Chin, a z Tajwanu<br />
+</h1>
+<p><a href="?q=node/441">Kilka dni temu miałem możliwość przyjrzeć się pewnemu taniemu laptopowi chińskiej produkcji</a> (made in Lenovo), sprzedawanemu przez pewną firmę o niemieckich korzeniach (Medion). <br />
+<br />
+W Internecie mogłem znaleźć tylko <a href="https://www.chip.de/test/Medion-Akoya-E4253-im-Test-Laptop_158057135.html" target="_blank" rel="nofollow noopener">opisy modelu Akoya E4253</a> (nie wskazywały na większe uchybienia), a do mnie trafiła jego tańsza odmiana Akoya E4251. Różnice polegały m.in. na braku czytnika linii papilarnych, użyciu procesora Intel Celeron zamiast Pentium, wykorzystaniu wlutowanej pamięci eMMC zamiast dysku SSD, a także (co zdyskwalifikowało całą konstrukcję) użyciu ekranu IPS z mocnym efektem PWM (200 Hz w całym zakresie). Ten ostatni feler był szczególnie przykry, gdyż urządzenie z Windows 10 Home S wyglądało i sprawowało się nad wyraz poprawnie (co ciekawe, serwis Mediona za bardzo nie wiedział, o co w ogóle mi chodzi).<br />
+<br />
+Acer Swift 1 jest konstrukcją z tej samej półki, i zawiera warianty zarówno z dyskami eMMC (kość lutowana na płycie głównej), jak i dyskami SSD (wymienne). Dostęp do tego ostatniego w przypadku produktu tajwańskiego wymaga odkręcenia całej klapy od dołu (w Medionie była do tego klapka serwisowa), inna jest również filozofia czytnika kart pamięci (w Acerze wspierane są karty SD, a nie tylko microSD; do tego wystają one z obudowy) czy układu klawiatury (klawisze PageDown i PageUp są małe, a nie z boku).<br />
+<br />
+Na plus konstrukcji Acera należy zaliczyć większą baterię (producent mówi o 17h pracy, Medion wspomina jedynie o 8,5h) i stabilniejszą konstrukcję klapy matrycy, obecność metalu w środku obudowy (bywa zimny w dotyku, ale zwiększa sztywność), jak również dostępność podświetlenia klawiatury (jeden poziom).<br />
+</p>
+<h1>Windows i UEFI</h1>
+<p><a href="?q=node/441">Przy wspomnianym wcześniej Medionie miałem do czynienia z Windows w wersji Home S</a>, która została sztucznie ograniczona do obsługi aplikacji z Microsoft Store. Było to niezbyt wygodne (brak wielu programów, dostępność sterowników wyłącznie z Windows Update), ale wydaje się, że pozwoliło na znaczące poprawienie wydajności urządzenia.<br />
+<br />
+SF114-32 był dostępny zarówno z Windows 10 Home, jak i Windows 10 Home S, a domyślny system operacyjny testowanego wariantu (Home S bez S) należy uznać za jeden z jego słabszych elementów.<br />
+<br />
+Po co są aż trzy usługi do uaktualnień przeglądarki Edge? Dlaczego brakuje spójności wizualnej? Czemu w komputerach bez ekranu dotykowego jest proponowana usługa pisma odręcznego? Dlaczego na dysku instalowane są bezużyteczne sterowniki albo komponenty? Czy instalacja każdej poprawki musi być aż tak ekscytująca?<br />
+<br />
+Król jest nagi, i nawet oczekiwany przez wielu update o nazwie „Sun Valley” niewiele pomoże, jeżeli nie zostanie mocno zmieniona architektura całości.<br />
+<br />
+<a href="https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-10-s-enable-s-mode" target="_blank" rel="nofollow noopener">Teoretycznie mógłbym pobrać wersję instalacyjną Home i dodać tam odpowiednie polityki,</a> ale… wątpliwości budzą kwestie prawne - czy taki system jest jeszcze legalny, skoro mam licencję na „pełną” wersję?<br />
+<br />
+Testowane urządzenie wyglądało na nowe (prawdopodobnie leżak magazynowy po zwrocie), niemniej jednak przed testami zainstalowałem wszystko na czysto (standardowe Windows 10 Home 64-bit ENG), pozwoliłem na aktualizacje z Windows Update (zmienił się nawet UEFI), dodałem kilka sterowników (głównie od Intela), włączyłem wszystkie funkcje bezpieczeństwa, wyłączyłem swap, hibernację... i na tym się skończyło.<br />
+<br />
+Przez długi czas nie udało się co prawda do końca ustawić imDisk (problemy z harmonogramem zadań), ale ogólnie dostałem całkiem sprawną platformę – może niezbyt ładną wizualnie, za to nie sprawiającą większych problemów.<br />
+<br />
+Po kilku dniach wykorzystanie miejsca wynosiło ok. 30 GB, a licznik zużycia dysku wskazywał ok. 700 GB zapisów przy TBW 200 TB (później ta wartość praktycznie przestała rosnąć).<br />
+<br />
+Od czasu do czasu widoczny był problem z brakiem RAM (przypomnę, że celowo wyłączyłem swap) – system i karta graficzna zajmowały ok. 1,6 GB, a wykonywanie operacji w tle i otwarcie kilku ciężkich zakładek w Firefox bywało zbyt obciążające (stąd musiałem przerzucić się na Edge, który sprawuje się o niebo lepiej).<br />
+<br />
+UEFI 1.15 od Insyde Corp. również sprawił mi problem – po zainstalowaniu VeraCrypt wszystko przez długi czas działało poprawnie, za to w pewnym momencie Windows niespodziewanie bez żadnego powodu zaczął pokazywać błędy (nie chcę przytaczać tu starego suchara, że system się ustabilizował, ale tak to właśnie wyglądało i mogło być spowodowane którąś poprawką Microsoftu). Komputer po restarcie przechodził do trybu naprawy, który nie kończył się sukcesem, gdyż dysk systemowy był na tym etapie zaszyfrowany i procedury naprawcze nie miały do niego dostępu. Zauważyłem, że w UEFI na liście wpisów startowych pojawił się wpis z opisem null. Po dodaniu pliku startowego VeraCrypt do listy zaufanych i wybraniu wpisu startowego VeraCrypt jako pierwszego (to ten z napisem null), nie można było wejść do UEFI (należało odszyfrować dysk, upewnić się, że kolejność startowa jest zmieniona, i dopiero wtedy ponownie zaszyfrować dysk). Warto zauważyć, że stan strony Acera wskazuje na bardzo dobre wsparcie, z drugiej strony <a href="https://community.acer.com/en/discussion/comment/646830/" target="_blank" rel="nofollow noopener">opisany problem widoczny jest od 2019 i nic z nim nie zrobiono</a>.<br />
+<br />
+Z drobiazgów – w UEFI brakuje funkcji wyłączenia różnych urządzeń, takich jak kamera, Wi-FI czy Bluetooth (dostępna jest wyłącznie dezaktywacja TPM), nie można również wystartować z pamięci USB z bezpośrednio nagranym obrazem ISO (musimy użyć np. Rufusa, który nie tylko skopiuje obraz, ale doda również odpowiednią partycję rozruchową).<br />
+<br />
+<b>Moja ocena dopracowania strony programowej – co najwyżej 7/10 (winny jest głównie Microsoft, ale i Acer ma swoje za uszami).</b><br />
+</p>
+<h1>Czas pracy na baterii</h1>
+<p>Do celów testowych w systemie Windows zbudowałem profil energetyczny oparty na profilu Power Saver, wyłączyłem w nim Turbo w procesorze (w ustawieniach profilu na baterii włączyłem maksymalnie 99% mocy procesora), ustawiłem wyłączanie dysku po najkrótszym możliwym czasie (1 minuta), do tego włączyłem Battery Saver i ograniczyłem procesy w tle. Następnie w Device Managerze wyłączyłem kartę WiFI (według systemu działała w stanie energetycznym D0 i cały czas pobierała energię), podobnie zrobiłem z czytnikiem linii papilarnych (działał w trybie D2), Bluetooth (D3), kamerą (D3) i TPM (ten zdezaktywowałem w UEFI).<br />
+<br />
+Stepping procesora B0, wersja mikrokodu w moim wypadku to 34, nominalne TDP 6 W albo 25 A, a limity energetyczne zostały ustawione odpowiednio na 8 W (28 sec) i 15 W (na krótko). W trybie idle temperatura wynosiła ok. 34 C, a zużycie energii wahało się między 1.9 W i 3.1 W.<br />
+<br />
+Dysk SSD WDC PC SN520 SDAPNUW-256G-1014 w trybie idle grzał się do ok. 37 C i według specyfikacji zużywał do 1.4 A (średnio 75 mW, w trybie low power 25 mW, w trybie sleep 2.5 mW). Ciekawostką jest w nim obecność kluczy B i M (wszystko wskazuje, że pracował w standardzie NVM Express 1.3 / trybie PCIe 2.0 x2, ale nie dam sobie za to głowy uciąć, szczególnie, że na różnych forach można poczytać o <a href="https://community.acer.com/en/discussion/551365/has-anyone-been-able-to-use-an-nvme-drive-in-their-swift-1" target="_blank" rel="nofollow noopener">niezgodnościach dysków NVME z różnymi wariantami SF114-32</a>), dodatkowo testowany egzemplarz posiadał firmware 20110000 (i chociaż Dell wydaje się mieć na swojej stronie pakiety firmware do SN520, to WD w aplikacji firmowej pisze o braku jakichkolwiek uaktualnień).<br />
+<br />
+Przy okazji - plusem SSD jest oczywiście prędkość i możliwość łatwej wymiany, minusem możliwe większe zużycie energii niż przy eMMC (z chęcią bym kiedyś poczytał jakieś bardzo techniczne i dogłębne opracowanie na ten temat). Inną różnicą jest łatwa dostępność informacji o stopniu zużycia SSD, podczas gdy <a href="https://www.cnx-software.com/2019/08/16/wear-estimation-emmc-flash-memory/" target="_blank" rel="nofollow noopener">w przypadku eMMC odpowiednia funkcjonalność dopiero się pojawia</a>.<br />
+<br />
+Mogę potwierdzić, że ogniwo Panasonic AP15O5L 48 Whr przy zużyciu 1% (według HWiNFO) i pracy offline bez żadnych problemów pozwala osiągnąć deklarowane 17 h (matryca pomiędzy 10, a 70% jasności; do tego czasami włączone podświetlenie klawiatury), a system czasem potrafi przewidywać nawet 20 h 41 min.<br />
+<br />
+Przy przeglądaniu stron (Internet dostarczony kablem z telefonu) notowałem realne czasy rzędu 8 – 10 h, a oglądanie filmów w przeglądarce dodatkowo je zmniejszało (zużycie procesora bywa wtedy w granicach 50%, obciążona jest też karta graficzna).<br />
+<br />
+W trybie standby zużycie baterii potrafi osiągnąć ok. 1% na 2 h. <br />
+<br />
+Ładowanie jest wykonywane z użyciem ładowarki podobnej jak przy telefonach i wymaga ok. 2 – 2,5 h. Nie jest ono liniowe i mniej więcej powyżej 90% wyraźnie spowalnia, co chyba powinno zwiększyć żywotność baterii (czy tak czy inaczej, po 4 czy 5 pełnych ładowaniach z poziomu 10% stopień zużycia ogniwa zwiększył się o 0.2%).<br />
+<br />
+<b>W tym obszarze nie ma co narzekać i wydziwiać – mocne 10/10 (inna sprawa, że apetyt rośnie w miarę jedzenia i nie miałbym nic przeciwko jeszcze większej baterii).</b><br />
+</p>
+<h1>Ekran<br />
+</h1>
+<p>O loterii matryc wspomniałem i nie chciałbym do tego wracać.<br />
+<br />
+AUO403D (albo jak kto woli B140HAN04.0) w testowanym egzemplarzu również sprawiła mi spore problemy – przez długi czas nie mogłem znaleźć ustawień, przy których obraz byłby akceptowalny dla moich oczu.<br />
+<br />
+Na pierwszy rzut oka wszystko wyglądało jak należy (IPS, brak PWM, wrażenie dużej jasności), i nie zwracałem uwagi na takie drobiazgi jak stopień pokrycia barw (w tej półce cenowej nie ma co oczekiwać cudu). Z jednej strony obraz próbował naśladować to, co widziałem w starszych Dellach (jako jednego z ekranów wzorcowych użyłem modelu SHP1453-LQ156M1, a ten był zamontowany właśnie w komputerze amerykańskiego producenta), z drugiej czymś się jednak różnił.<br />
+<br />
+Z czasem zacząłem podejrzewać negatywny wpływ co najmniej jednego z poniższych czynników (są uporządkowane według stopnia uciążliwości):</p>
+<ol>
+<li>matowość - Acer pisze o „technologii” ComfyView, co oznacza używanie powłoki matowej. Myślę, że w tym wypadku jest to kwestia dyskusyjna i lekkie naginanie rzeczywistości. Szyby wprawdzie nie ma, ale po porównaniu stopnia odbicia światła z innymi ekranami stwierdzam, że wspomniana matryca wypada raczej średnio. Niepożądany efekt widoczny jest głównie przy czerni, ale… również nawet pod lekkim kątem (co powoduje, że największy atut technologii IPS, jakim są szerokie kąty widzenia, zupełnie traci na znaczeniu).</li>
+<li>temperatura barw - w innych urządzeniach są zdecydowanie cieplejsze, tu nie pomogło operowanie tzw. night light i ustawieniami w panelu sterowania karty graficznej (żeby było śmieszniej, wyglądało to lepiej w Medionie)</li>
+<li>kontrast – najwyraźniej za niski do proponowanego poziomu powłoki matowej</li>
+<li>matryca jest 6-bitowa, podczas gdy karta graficzna działa tylko w trybie True Color - wymagany jest FRC, który jest formą migania obrazu</li>
+<li>nierówne podświetlenie w co najmniej dwóch miejscach przy dolnej krawędzi (tzw. bleeding) – teoretycznie widoczne tylko przy czerni, ale na swój sposób wpływające na odbiór całości</li>
+</ol>
+<p>Po dłuższych eksperymentach zauważyłem kilka rzeczy:</p>
+<ol>
+<li>tryb ciemny jest mocno niewskazany, co bezpośrednio wynika z półmatu - obraz na ekranie wygląda o niebo lepiej, gdy wszystko jest jasne lub białe (zwiększa to zużycie energii).</li>
+<li>„night light” powinno być mocne – ustawiłem 40</li>
+<li>czcionki przy domyślnym poziomie skalowania 150% są za małe i za cienkie – zmieniłem na 165%</li>
+<li>Clear Type powinno być ustawione na „najgrubsze” czcionki<br />
+ </li>
+</ol>
+<p>Po opisanych wyżej zmianach mogłem jakoś pracować, zdecydowanie bez fajerwerków, choć dosyć sprawnie.</p>
+<p>Zupełnie przypadkiem udałem się też do jednego ze sklepów, gdzie bardzo dokładnie porównałem wystawione komputery. Obecny tam Acer Swift 3 moim zdaniem wykazywał cechy podobne jak testowana maszyna, tzn. obraz był mniej matowy i bardziej „zimny” niż w laptopach innych firm.</p>
+<p>Przypadek, a może taka jest jakość i standard Acera? Nie wydaje mi się, żeby problem związany był ogólnie z produktami AUO – do celów porównawczych znalazłem <a href="https://www.notebookcheck.net/Review-Update-HP-EliteBook-Folio-1040-G1-F2R72UT-Ultrabook.115419.0.html" target="_blank" rel="nofollow noopener">starszą matrycę tej firmy (model AUO123D)</a> i ta zrobiła na mnie lepsze wrażenie, choć była tylko w technologii TN.</p>
+<p><b>Moja bardzo subiektywna ocena - najwyżej 7/10, inna osoba mogłaby dać spokojnie 10/10 (jeżeli ktoś chce wyrobić swoje własne zdanie, to <a href="https://www.notebookcheck.net/Acer-Swift-1-SF114-32-N5000-SSD-FHD-Laptop-Review.303606.0.html" target="_blank" rel="nofollow noopener">zapraszam do profesjonalnego testu matrycy na notebookcheck.net</a>).</b><br />
+</p>
+<h1>Klawiatura</h1>
+<p>Niektóre recenzje modelu SF114-32 wspominają o uginaniu się klawiszy w środkowej części. Mogę potwierdzić, że nie jest to tragiczne, choć rzeczywiście delikatnie zauważalne.</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/dmz6E_FDbpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Włącznik urządzenia jest w rogu klawiatury i nie uważam tego za najbardziej szczęśliwą lokalizację - gdy piszemy w nocy przy wyłączonym podświetleniu, zbyt łatwo możemy w niego trafić (dla porównania: Medion miał go z boku). Do tego dochodzą małe strzałki i mały Page Down i Page Up (jest to taki układ jak np. w Dellach, tymczasem w Medionie czy różnych HP wydzielono wszystko z boku i wygląda to bardziej intuicyjne).<br />
+<br />
+Jeszcze inną kwestią jest konieczność wymiany całej pokrywy, gdy chcemy zmienić układ klawiatury (generowanie elektrośmieci w dzisiejszym świecie powinno być stanowczo napiętnowane). <br />
+<br />
+Samo pisanie jest komfortowe – klawisze mają precyzyjny skok i nie są zbyt głośne (Medion jest głośniejszy), na duży plus należy zaliczyć obecność podświetlenia (ale, co jest ciekawe, włączenie trybu dużych liter czy bloku numerycznego nie jest niczym sygnalizowane).<br />
+<br />
+<b>8/10 albo 9/10 (odejmuję punkty za układ klawiszy i bezmyślne kopiowanie tego, co akurat jest złe u Della i innych).</b><br />
+</p>
+<h1>Komfort<br />
+</h1>
+<p>Ryzen ani M1 to nie jest, jednakże prędkość działania podstawowych aplikacji (LibreOffice, Firefox, Edge, etc.) jest bardziej niż wystarczająca… o ile zaakceptujemy tak oczywiste fakty, jak brak możliwości otwierania stu zakładek w przeglądarce naraz czy „zamyślenie” np. przy ładowaniu głównej strony YouTube.<br />
+<br />
+Dalej jest już tylko lepiej. Na laptopie wygodnie się pisze, dźwięk z głośników jest naprawdę niezły, niesamowity komfort daje pełna cisza ze strony układu chłodzenia, możliwość otwierania na płasko i duża sztywność metalowej obudowy. Co najważniejsze, dzięki brakowi wentylacji i niewielkim temperaturom urządzenie bez większych obaw może stać na kolanach albo na łóżku. <br />
+<br />
+Czy naprawdę potrzeba czegoś więcej?<br />
+<br />
+Nie chcę tu pisać laurek jak w tekstach sponsorowanych, ale całość jest ładna i elegancka, waży tylko 1,3 kg i wygląda na konstrukcję ze znacznie wyższej półki. Nie można wprawdzie otwierać obudowy jedną ręką, ale nawet lista portów jest „bardziej pro” niż w znanym i lubianym sprzęcie „dla profesjonalistów” – mamy HDMI, USB-C, 2xUSB3 (jedno z funkcją ładowania urządzeń zewnętrznych), USB2, czytnik kart, złącze słuchawkowe i blokadę Kensingtona.<br />
+<br />
+Żeby nie było zbyt słodko – producent zadbał o takie drobiazgi jak szybkie wyłączanie ekranu (Fn+F6), ale nie wyeliminował sporadycznego mrugania obrazu (dzieje się to nieregularnie i zdarza raz na kilka godzin, w przypadku Windows 10 21H1 chyba trochę częściej; wygląda na to, jakby ekran był jednorazowo wyłączany na kilka milisekund, co może sugerować usterkę sterowników karty graficznej albo błąd związany z oszczędzaniem energii).<br />
+<br />
+Ciekawostką jest to, że dostępna jest wyłącznie kontrolka ładowania i pracy urządzenia (ta ostatnia mruga w trybie standby albo jest cały czas włączona, gdy laptop działa)… nie ma nic więcej – użytkownik nie dostaje informacji zwrotnej np. gdy wyłączy touchpada (Fn+F7). Ciekawe podejście.<br />
+<br />
+<b>9/10 albo 10/10 (nie odejmuję punktów za jakość matrycy, bo na upartego można ją wymienić; sugerowałbym też przeniesienie głośników na górę).</b><br />
+</p>
+<h1><b>Podsumowanie</b></h1>
+<p>Świat stanął na głowie, dosłownie i w przenośni.<br />
+<br />
+Jednym z trendów w IT jest dostarczanie sprzętu wyłącznie liczącym się odbiorcom, którzy najczęściej mieszkają w Azji, wykorzystują zakupione urządzenia do granic możliwości i niszczą je w kilkanaście czy kilkadziesiąt dni (mówię o tzw. „kopaniu walut”).<br />
+<br />
+Cały czas widać nie tylko niedobory mocy przerobowych różnych fabryk, ale również sztuczne podwyższanie cen, papierowe premiery i projektowanie, i sprzedawanie absurdalnych produktów.<br />
+<br />
+Na pewno są to czasy, gdzie zbyt wiele rzeczy wciska się na siłę. Przypomnijmy sobie „darmową” promocję polegającą na możliwości uaktualnienia Windows 7 do Windows 10. Teoretycznie było to dostępne tylko do określonej daty, w praktyce nawet dzisiaj nie ma przeszkód technicznych, żeby z tego skorzystać (choć prawnie bywa to wątpliwe). To samo dzieje się w wielu obszarach – promocja goni promocję, sponsorowane recenzje to norma, a korporacje dwoją się i troją, żebyśmy migrowali na nowe „lepsze” wydania, i korzystali z „najlepszych” i „najbardziej darmowych” produktów (które dziwnym trafem są zawsze ich produkcji).<br />
+<br />
+Coraz częściej dochodzi do otwartej wojny wielkich firm, i przykładem tego może być blokowanie pewnych rzeczy w iOS 14.5. Z jednej strony skutki tego potrafią być pozytywne, z drugiej strony nie można zapominać, że Apple również mocno uzależnia użytkowników od siebie (chip T2, lutowane dyski, itd.).<br />
+<br />
+Ciężkie jest w tej sytuacji życie producentów laptopów. Z jednej strony wiele urządzeń schodzi na pniu, z drugiej szanowni klienci nie są jakoś specjalnie wdzięczni i nie chcą kupować wszystkiego jak leci, tylko wciąż oczekują czegoś nowego (czytaj: myślą o AMD albo Linuxie). Przy sprzęcie mobilnym dochodzi używanie go w różnych warunkach środowiskowych i żądanie darmowych poprawek i napraw gwarancyjnych (co oznacza, że nie można przesadzać z tzw. planowanym postarzaniem).<br />
+<br />
+Laptopy w obecnej formie osiągnęły kres swojego rozwoju dobre kilka lat temu, i obecnie bardzo często widzimy regres (kolejne wydania, które wyglądają znacznie lepiej na papierze, są droższe i gorsze albo nie wnoszą żadnych realnych nowości).<br />
+<br />
+Starsze konstrukcje uznanych marek z „dobrych” serii spokojnie można używać nawet dziś, szczególnie, że słowem klucz w inżynierii oprogramowania jest termin „optymalizacja” (choć dla wielu to może być szok, oryginalnie oznacza on mniej więcej tyle, że w kolejnej wersji dostajemy więcej za mniej).<br />
+<br />
+Nowe wydania LG Gram czy Hyperbook L14 jasno pokazują, że nie trzeba rezygnować z różnych funkcjonalności, z kolei produkty Apple czy nieliczne modele z Ryzenami udowadniają, że wydajność nie musi być dostępna wyłącznie na papierze. Bardzo ciekawe jest przy tym to, że jak na razie tylko Macbooki potrafią łączyć prędkość z ciszą (to świadczy o tym, jak bardzo producenci tkwią w ślepych uliczkach albo związani są niekorzystnymi umowami, które nie pozwalają im produkować niczego innego).<br />
+<br />
+Urządzenia pokroju Medion E425x czy Swift 1 należą do zupełnie innej grupy. Nie są szybkie i wydajne, ale nie o to w nich chodzi. Często zawierają procesory w przestarzałym procesie 14 nm, mimo to pozwalają na wykonywanie wielu typowych czynności (bez grania!) i w ogóle nie absorbują użytkownika swoją obecnością.<br />
+<br />
+Chcemy mieć idealną ciszę, a nie możemy kupić Apple? Potrzebujemy rozsądnego czasu pracy na baterii, a nie jest to dla nas warte zbyt dużych pieniędzy?<br />
+<br />
+Kiedyś kojarzyłem Acera z tanimi, trzeszczącymi i nieprzyjemnymi plastikami, obecnie odrzucił mnie poziomem wsparcia (brak informacji od serwisu o matrycach) i przyciągnął tym, że model SF114-32 jest nieźle zbalansowany i bardzo kompletny. Ta maszyna to nieźle wykonany wół roboczy. Został przeznaczony do zadań, które nie wymagają zbyt dużej mocy obliczeniowej, i bardzo dobrze się z tego wywiązuje. Bez wstydu można go używać jako drugiego czy trzeciego komputera w domu, warsztacie, sklepie czy szkole (np. do pisania, prezentacji czy uruchamiania różnych aplikacji do diagnostyki)… o ile będzie pasować nam matryca. <br />
+<br />
+Czy użytkownik jest w stanie wtedy wybaczyć różne drobne problemy (np. błąd UEFI) i przymknąć oczy na lutowany RAM?<br />
+<br />
+To pytanie jest bez sensu i powinno być raczej sformułowane:<br />
+<br />
+Czy cena jest na tyle atrakcyjna, żeby użytkownik wybaczył różne drobne problemy (np. błąd UEFI) i przymknął oczy na lutowany RAM?<br />
+<br />
+Najwyraźniej tak, i musi być popyt nawet na jednokanałowe 4GB czy dwurdzeniowe CPU, skoro te powstają. Pamiętajmy, że alternatywą są Chromebooki (z bardzo różną jakością matryc i częstym brakiem możliwości wgrania innego systemu niż Chrome OS), laptopy używane czy urządzenia co najmniej 2x droższe, ewentualnie tablety (nie chcę nawet gdybać, ale bardzo ciekawie zrobiłoby się na rynku, gdyby iPad miał dostęp do „normalnych” aplikacji z Mac OS).<br />
+<br />
+Przy takim postawieniu spraw wszystko jest właściwie jasne – zarówno Medion Akoya E425x, jak i Swift 1, kosztują podobnie (1000 – 2000 PLN), i produkt tajwański wydaje się bardziej przyszłościowy, bo zamiast na rocznym abonamencie na Office 365 skupia się na tym, co chyba ważniejsze, czyli przyzwoitym czasie pracy na baterii i stabilności obudowy.<br />
+<br />
+Należy też pamiętać, że Lenovo zaczyna produkować do swoich produktów nawet najbardziej podstawowe komponenty elektroniczne, a stąd bezpośrednia droga do tego, żeby blokować jakiekolwiek naprawy w zewnętrznych serwisach (nie chcę szerzyć tzw. FUD, ale również komputerki z serii Akoya mogą być w pewnym momencie jednorazówkami, i Apple mogłoby się tutaj sporo nauczyć).</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/e42aIb3VbHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Ze swojej strony nie polecałbym wersji z kością eMMC – najczęściej niemożliwe jest oszacowanie stopnia jej zużycia, a wymiana czy usunięcie będzie wymagać wizyty w serwisie (swoją drogą, w telefonach używane są pamięci UFS i nie mogę zrozumieć niechęci producentów do stosowania ich w tanich laptopach; same kostki pamięci eMMC mogłyby też znaleźć się na karcie SD, a ta w czytniku na płycie głównej).<br />
+<br />
+Nie chciałbym przy tym pisać, że „kiedyś to było lepiej”, ale starszy Swift 1 wydaje się być&nbsp; nawet lepszy niż aktualny - obecny SF114-34 ma szybkie ładowanie i procesor w technologii 10 nm, nowszą kartę Wi-fi, etc., ale nie jest dostępny w kolorze czarnym, do tego dół pokrywy z matrycą jest tam podstawką, szacowany czas pracy to „ledwo” 15 h, brak jest czytnika kart, i użytkownik ma tylko trzy porty USB. <br />
+<br />
+Martwi zwłaszcza konstrukcja nowej obudowy - w klasycznym rozwiązaniu zawiasy matrycy nie wystają poza jej obrys i nie pracują cały czas, w nowym na pewno muszą przenosić znacznie większe obciążenia.<br />
+<br />
+Do wad tej linii sprzętu wciąż trzeba dopisać brak konfiguracji z matrycą o niskim poborze energii (tzw. SLP), baterią o wydłużonej trwałości czy kościami AMD. Szczególnie to ostatnie nie cieszy - nawet w tak prostym systemie jak Swift 1 mamy Intel ME, co może budzić różnego rodzaju obawy (nie chodzi tylko o kwestie energetyczne).<br />
+<br />
+A o tym, jak duże jest zapotrzebowanie na czarną wersję, najlepiej świadczy fakt, że została całkiem wyprzedana, a inne warianty kolorystyczne SF114-32 wciąż można dostać.<br />
+<br />
+Według mnie Acer w 2018 miał bardzo dobry produkt, najwyraźniej jednak nie chciał pójść za ciosem i go poprawić, tylko wolał promować nie do końca korzystne dla użytkownika trendy. <br />
+<br />
+Czy jest to rozsądne w sytuacji, gdy <a href="https://www.pcworld.pl/news/Sprzedaz-laptopow-rosnie-Chromebooki-i-Windows-przed-MacBookami,427602.html" target="_blank" rel="nofollow noopener">firma wydaje się być dopiero na piątym miejscu pod względem ilości sprzedawanych laptopów</a>?<br />
+<br />
+Wielka szkoda.<br />
+</p>

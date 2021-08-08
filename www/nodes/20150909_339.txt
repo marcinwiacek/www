@@ -1,0 +1,38 @@
+﻿Title:xxx
+Author:marcin
+When:09 Sep 2015
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Gdy poznasz różne życiowe brudy,<br />
+nocne pociągi, dworce czy nudy,<br />
+Chciwość, kurewstwo, mocne chcice,<br />
+dzieci, co na wierzchu noszą cyce,</p>
+<p>Gdy ludzie nie kryją swej pogardy,<br />
+bo przeciwnik żeś silny i twardy,<br />
+I nie masz na wierzchu oznak bogactwa,<br />
+nie robisz też wielkiego matactwa,</p>
+<p>Gdy szukasz wciąż tej cipki właściwej,<br />
+smakujesz miłości dosyć uczciwej,<br />
+Różne metody ciągle rozwijasz,<br />
+jak nie udaje się, interes zwijasz,</p>
+<!--break-->
+<p>Gdy kochasz kogoś i ktoś ciebie zgnoi,<br />
+poszczuje wrednie, bo prawdy się boi,<br />
+Pokaże co warte lata chwały,<br />
+zniszczy śmiejąc się żeś taki mały,</p>
+<p>Zamknie drogę do tego co było,<br />
+puści w niebyt co się zdarzyło,<br />
+Nie kryjąc się, żeś był zabawką,<br />
+gównem, niczym, dla Pani przystawką,</p>
+<p>Gdy odwrócą się starzy znajomi,<br />
+jak wołasz, to są głusi i chromi,<br />
+Udają, że nie jesteś dla nich modny,<br />
+że kontakt passe i niewygodny,</p>
+<p>Gdy potencjał częściowo marnujesz,<br />
+duszę łatać po ciosach próbujesz,<br />
+Drobiazgi musisz wciąż rozwiązywać,<br />
+zamiast ciekawe rzeczy nazywać,</p>
+<p>To przychodzi jedyne pytanie,<br />
+jak żyć i co się wkrótce dostanie...</p>

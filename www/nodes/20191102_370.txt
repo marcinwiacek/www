@@ -1,0 +1,14 @@
+﻿Title:Gdy na was patrzę (2019, ISBN 978-83-8189-313-8)
+Author:marcin
+When:07 Nov 2019
+Taxonomy:Polski,Polski blog,książka 4,wiersz,poem,English,English blog,EPUB,PDF
+SkipMain:true
+
+<p><img src=sites/default/files/370/gdynawaspatrze.png align=right width=150 style="margin:10px"></p>
+<p><i>Czwarta kniga już gotowa, niechaj żyje nowomowa... Czwarta kniga już dostępna, cena w miarę też przystępna...
+Bo nie chodzi o profity, tylko natchnień ruch przyzwoity...</i>
+<!--cena także już przystępna-->
+<p>Książka ma prawie 300 stron i zbiera publikowane i niepublikowane wiersze z lat 2004-2019 (przy czym wszystkie
+zostały gruntownie przeredagowane).
+<!--break-->
+<p><a href=https://ridero.eu/pl/books/gdy_na_was_patrze/>Link</a>

@@ -1,0 +1,50 @@
+﻿Title:Nowoczesność czyli LTE i Cordova ? (2013)
+Author:marcin
+When:14 Dec 2013
+Taxonomy:Polski,Polski blog,Android,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/Nowoczesnosc-czyli-LTE-i-Cordova,50987.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Ostatnio miałem okazję "pobawić się" przez chwilę S4 mini i9195 z LTE. I chociaż telefon ten nie obsługuje wszystkich sieci używanych w Polsce (konkretnie TD-LTE w paśmie 38), to ja akurat chciałem sprawdzić sobie zasięg w Play. Wejście do menu i konsternacja - opcji LTE brak. Krótkie googlowanie, użycie aplikacji <a href=https://play.google.com/store/apps/details?id=com.kabasoft.util.servicemodeshortcut&hl=pl>ServiceMode Shortcut</a> i jest....ikonka 4G. Niewątpliwie pomimo bałaganu (używanie wielu pasm, brak urządzeń "wielomodowych", ich blokowanie programowe, itd.
+<!--break-->
+itd.) jesteśmy świadkami pewnej rewolucji... I chociaż niektórzy operatorzy oferują niskie prędkości (więcej można osiągnąć nawet na HSDPA+), to z czasem ta technologia zdecydowanie może spowodować zmianę sposobu korzystania z różnych urządzeń (o ile rozwiązane zostanie "kilka" problemów typu zasilanie)....
+
+<p>A aplikacje ? Czy dalej będą natywne czy wszystko będzie siecią ?
+
+<p>Ostatnio potrzebowałem sprawdzić sobie jeden z aspektów - daje się bowiem zauważyć, iż niektórzy programiści już teraz korzystają z takich frameworków jak <a href=http://cordova.apache.org/>Cordova</a>. Czy wprowadza on opóźnienia przy dostępie do bazy danych na Androidzie ?
+
+<p>W tym celu przygotowalem dwie aplikacje – jedna korzystająca z ostatniej Cordovy (3.2.0), wtyczki <a href=https://github.com/lite4cordova/Cordova-SQLitePlugin>CordovaSQLLitePlugin</a> i <a href=http://sqlcipher.net/>SQL Ciphera</a> (bądź co bądź dane powinny być szyfrowane, prawda ?) i druga korzystająca z SQL Ciphera (kod javowy androidowy). Wyniki są następujące:
+
+<ul>
+<li>mało operacji, czyli otwarcie bazy, stworzenie tabeli, zrobienie w jednej transakcji 100 Insert, zrobienie 100 Insert w 100 transakcjach i zrobienie Select – kod „czysty” ok. 9230 ms, Cordova ok. 9379 ms (sa to wartości uśrednione z 5 pomiarów), czyli różnica wynosi ok. 1,6%
+
+<li>to samo co w 1, ale ze zwiększeniem ilości Insert (10000 w transakcji, 100 w oddzielnych transakcjach) – Cordova średnio 24630 ms, Android średnio 10827 ms (różnica 56% na korzyść Androida)
+
+<li>to samo co w 1, ale ze zwiększeniem ilości Insert (20000 w jednej transakcji w kodzie Androidowym + 100 w 100 transakcjach, 10000 w jednej transakcji+10000 w jednej transakcji+100 w 100 transakcjach w Cordovie, tutaj wystąpił problem z timeoutem, stąd uzycie 2 x10000 Insertów) – Cordova średnio 42136 ms, występowały pewne problemy pamięciowe, natomiast Android średnio 14260 ms (różnica 66% na korzyść Androida)
+
+<li>otwarcie bazy, stworzenie tabeli, zrobienie w jednej transakcji 100 Insert, zrobienie 100 Insert w 100 transakcjach i zrobienie 100 Select w 100 transakcjach – Android ok. 9103 ms, Cordova ok. 9786 ms (6,9% różnicy na korzyść Androida)
+</ul>
+
+<p>Ktoś mógłby powiedzieć, że przecież to jak udowadnianie, że koło jest okrągłe...i pewnie tak, bo aplikacje webowe w dalszym ciągu wydają się mocno przegrywać, niemniej jednak czasem trzeba mieć jakieś konkretne argumenty, prawda ? I nic to, że w rzeczywistości można nie potrzebować 10000 operacji Insert, ważne, że różnica bywa hmmm dosyć szokująca. 
+
+<p>A Cordova to czasem tylko <b>jeden z wielu frameworków używanych przy aplikacjach webowych</b> - jest jeszcze jQuery, Dojo, itd. które zapewne też dodają to i owo i które też mogą mieć swoje błędy i przypadłości... Ale to już pewnie temat na inny raz (można zresztą poczytać z jakimi podstawowymi błędami walczyłem kiedyś tworząc aplikację pod Firefox OS: <a href=?q=node/242>Katedra czy bazar, korpo czy anarchia ?....</a>).
+
+<p>Jeszcze tylko krótkie wypunktowanie, czyli jak "proste" było przygotowanie aplikacji webowej tym razem:
+
+<ul>
+<li>pobieramy source.zip z <a href=http://cordova.apache.org/>http://cordova.apache.org/</a> (w chwili pisania 3.2.0)
+<li>rozpakowywujemy cordova-android.zip
+<li>pobieramy ant z <a href=http://ant.apache.org/bindownload.cgi>http://ant.apache.org/bindownload.cgi</a>
+<li>dodajemy ścieżkę do tools i platform-tools z Android SDK i ścieżkę ant do PATH
+<li>do katalogu frameworks z cordova-android dodajemy SQLCipher z <a href=http://sqlcipher.net/sqlcipher-for-android/>http://sqlcipher.net/sqlcipher-for-android/</a> (dodajemy icudt46l.zip do assets i biblioteki do libs)
+<li>do katalogu frameworks z cordova-android dodajemy CordovaSQLLitePlugin z <a href=https://github.com/lite4cordova/Cordova-SQLitePlugin>https://github.com/lite4cordova/Cordova-SQLitePlugin</a> (m.in. na podstawie informacji z <a href=http://brodyspark.blogspot.com/2012/12/using-sqlcipher-for-android-with.html>http://brodyspark.blogspot.com/2012/12/using-sqlcipher-for-android-with.html</a> - do config.xml w res\xml należy dodać 
+
+<code>&lt;feature name="SQLitePlugin"&gt;
+&lt;param name="android-package" value="org.pgsqlite.SQLitePlugin" /&gt;
+&lt;/feature&gt;</code>
+
+do src\org\pgsqlite spatchowany SQLitePlugin.java, do assets\www spatchowany SQLitePlugin.js)<li>używamy create z bin z cordova-android do stworzenia nowego projektu androidowego (można z niego pobrać CordovaSQL.java i pliki z assets)
+<li>w katalogu framework w cordova-android kompilujemy plik jar
+<li>tworzymy nowy projekt androidowy z plikiem jar z poprzedniego punktu, bibliotekami sqlcipher, odpowiednim layoutem zawierającym org.apache.cordova.CordovaWebView, odpowiednim plikiem config.xml w res\xml i plikami inicjującymi Cordovę w pliku java
+</ul>
+
+<p>Proste, prawda ? Dlatego oba projekty też podaję w wersji źródłowej: <a href=sites/default/files/280/cordovasql.rar>Cordova</a>, <a href=sites/default/files/280/plainsql.rar>Android</a>

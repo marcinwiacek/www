@@ -1,0 +1,27 @@
+﻿Title:Bezpieczeństwo w praktyce....czyli krótki przegląd zabezpieczeń w kilku sklepach (2014)
+Author:marcin
+When:06 Jan 2014
+Taxonomy:Polski,Polski blog,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/Bezpieczenstwo-w-praktyce.czyli-krotki-przeglad-zabezpieczen-w-kilku-sklepach,51380.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Załóżmy, że teoretycznie SSL i HTTPS jest niezłamane...
+<!--break-->
+Czy sklepy internetowe we właściwy sposób dbają o dane Klientów i pozwalają im dokonywać zakupów tak aby wszystkim wokół nie było wiadomo co kupują ?
+
+<p>Pomyślałem, że zrobię krótkie podsumowanie kilku wybranych serwisów z naciskiem na te sprzedające ebooki (bądź co bądź są twory elektroniczne, więc i sklepy powinny być raczej nowoczesne):
+
+<ul><li><a href=https://woblink.com>woblink.com</a> - jest HTTPS, w mailu jest informacja co zostało zakupione + faktura z danymi (ale za to rejestrując się można podać tylko emaila)<li><a href=https://virtualo.pl>virtualo.pl</a> - przeglądanie częściowo po HTTPS, w mailu jest informacja co zostało zakupione (ale za to rejestrując się można podać tylko maila i nick)
+<li><a href=http://eclicto.pl>eclicto.pl</a> - nie ma HTTPS do przeglądania produktów (jest do części stron takich jak logowanie, itp.), w mailu jest informacja co zostało zakupione
+<li><a href=http://www.allegro.pl>Allegro</a> - brak możliwości przeglądania w trybie HTTPS (tryb ten pojawia się przy części stron z danymi użytkowników), możliwość wyłączenia niektórych powiadomień mailem, ale w mailu "Kupiłeś przez Kup Teraz" jest informacja o zakupie i dane sprzedającego, a w mailu "Wybrałeś sposób zapłaty i dostawy Twoich zakupów" i "Sprzedający .... otrzymał Twoją wpłatę" informacja o danych osoby kupującej. Podobnie z <a href=http://ebooki.allegro.pl/>serwisu ebooki.allegro</a> przesyłana jest mailem informacja co zostało kupione + faktura z pełnymi danymi
+<li><a href=http://gandalf.com.pl>gandalf.com.pl</a> - nie ma HTTPS do przeglądania produktów (jest do części stron takich jak logowanie, itp.), w mailu jest hasło do konta i przesyłana jest faktura z danymi osoby kupującej
+<li><a href=http://merlin.pl>merlin.pl</a> - brak HTTPS do przeglądania produktów (jest do części stron takich jak logowanie, itp.), mailem przesyłane są pełne dane kupującego + informacja co zostało zakupione
+<li><a href=http://publio.pl>publio.pl</a> - nie ma HTTPS do przeglądania produktów (jest do części stron takich jak logowanie, itp. ale tylko częściowy), w mailu jest informacja co zostało zakupione + link do strony, gdzie można pobrać ebooka (bez logowania !)
+<li><a href=http://BezKartek.pl>BezKartek.pl</a> - HTTPS używa niepoświadczonego certyfikatu, w mailu przesyłana jest informacja o tym, co zostało zakupione
+<li><a href=http://aros.pl>aros.pl</a> - sprzedaje tradycyjne książki, HTTPS używa niepoświadczonego certyfikatu z dziwnym adresem serwera, w mailu jest informacja o tym, co zostało zakupione + link do strony, gdzie można sprawdzić dane osoby kupującej, nie trzeba się za to rejestrować
+</ul>
+
+<p>Powiem tak - w dobie stosunkowo łatwego do podsłuchania WIFI i innych ciekawostek czy naprawdę tak trudno wykupić jest poświadczony certyfikat + przesyłać mailem np. tylko numer zamówienia (albo przynajmniej dać użytkownikom opcję wyłączenia powiadomień) ?
+
+<p>Czy naprawdę należy się w tym momencie obawiać Wielkiego Brata w sytuacji, gdy sami podajemy wszystko na tacy ? Ktoś powie, że to nieistotne co czytamy, niemniej jednak wybór lektur może powiedzieć dużo o danej osobie. Podobnie możliwość pobrania plików podpisanych czyimś adresem email bez autoryzacji.... brrr....
+
+<p>Kurtyna....

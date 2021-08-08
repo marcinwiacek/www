@@ -1,0 +1,30 @@
+﻿Title:Polska
+Author:marcin
+When:22 Oct 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Chwila wśród kątów rodzinnych,<br />
+rozkosz z rozrywek niewinnych,<br />
+zbieranie sił przed walką życia,<br />
+prężenie się i mycie okrycia,</p>
+<p>spokój, co do głębi przenika,<br />
+ale smutek, że Polska tak znika,<br />
+że nikogo, kto czas zajmuje,<br />
+tak do szpiku wciąż intryguje,</p>
+<p>rozdarcie pomiędzy światami,<br />
+myślenie innymi słowami,<br />
+wymieniać tak można bez końca,<br />
+żyję i wieść ta jest tak kojąca,</p>
+<p>jestem Polakiem, zawsze wstaję,<br />
+ciągle odradzam się, choć dostaję,<br />
+choć masz firmę, dolary, władzę,<br />
+ja przekonań swoich nie zdradzę,</p>
+<!--break-->
+<p>choćby źle tak dalej się działo,<br />
+wiem, że stąd jest umysł mój i ciało,<br />
+że nieraz byliśmy pod ścianą,<br />
+ale później w bitwie wygraną,</p>
+<p>Polska to nie kupa kamieni,<br />
+żadna szmata tego nie zmieni...</p>

@@ -1,0 +1,216 @@
+﻿Title:Ubuntu 10.04 - Linux dla ludzi ? (2010)
+Author:marcin
+When:09 May 2010
+Taxonomy:Polski,benchmark.pl,Linux,Polski artykuł,x86,OS
+
+<p align=justify><a name=gora></a>Pod koniec kwietnia pojawiła się kolejna wersja jednej z najpopularniejszych dystrybucji Linuxa. Co może ona zaoferować przeciętnemu użytkownikowi ? </p>
+
+<p align=justify>Postaram się odpowiedzieć na to pytanie testując ją na różnych konfiguracjach celowo rozpoczynając od bardzo słabej zbliżonej do netbookowej: jednordzeniowy procesor o prędkości ok. 1Ghz, RAM 256MB-512MB, mały i wolny dysk, zintegrowana karta graficzna Intela... Artykuł powstał na podstawie doświadczeń z dystrybucją 9.x uaktualnioną do 10 oraz z 10 zainstalowaną "na świeżo".</p>
+<!--teaser-->
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst z pewnym zmianami został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Ubuntu_10.04_-_Linux_dla_ludzi_.-2928.html
+>opublikowany w serwisie benchmark.pl</a>,<br>jego <b>znacznym</b> rozszerzeniem jest tekst <a href=?q=node/159>Ubuntu 10.04 i Mint 9 - rozwiązania dla ludzi ?</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<table style="border-collapse:separate;" cellspacing="0" cellpadding="2" border="0" align="right" width=300><tbody><tr><td>&nbsp;</td><td bgcolor="#e6eaee"><strong>Spis treści</strong></td></tr><tr><td>&nbsp;</td><td bgcolor="#f0f4f9"><ol><li><a href="#1">Wybór wersji</a><li><a href="#2">Instalacja</a><li><a href="#3">Środowisko</a><li><a href="#4">Przeglądarka</a><li><a href="#5">Inne programy</a><li><a href="#6">KDE</a><li><a href="#7">Sprzęt</a><li><a href="#8">Inne dystrybucje Linuxa</a><li><a href="#9">Podsumowanie</a></ol></td></tr></tbody></table>
+
+<p align=justify><a name=gora></a>Pod koniec kwietnia pojawiła się kolejna wersja jednej z najpopularniejszych dystrybucji Linuxa. Co może ona zaoferować przeciętnemu użytkownikowi ? </p>
+
+<p align=justify>Postaram się odpowiedzieć na to pytanie testując ją na różnych konfiguracjach celowo rozpoczynając od bardzo słabej zbliżonej do netbookowej: jednordzeniowy procesor o prędkości ok. 1Ghz, RAM 256MB-512MB, mały i wolny dysk, zintegrowana karta graficzna Intela... Artykuł powstał na podstawie doświadczeń z dystrybucją 9.x uaktualnioną do 10 oraz z 10 zainstalowaną "na świeżo".</p>
+
+<h1><a name=1></a>Wybór wersji</h1>
+
+<p align=justify>Po wejściu na <a href=http://www.ubuntu.com/>stronę Ubuntu</a> i kliknięciu na odnośnik Download mamy dostęp do różnych wersji - "głównej", "Netbook edition", "Kubuntu", "Edubuntu", "Xubuntu", itd. itd.</p>
+
+<p align=justify>Ja jednak miałem trochę specyficzną potrzebę - potrzebowałem możliwie małego modułu uruchomionego z płyty CD, który pobrałby wszystkie pakiety przez sieć. Pomógł google (hasło "ubuntu network installation"), z którego pierwszy odnośnik zaprowadził na stronę <a href=https://help.ubuntu.com/community/Installation>"Installation"</a>, a stamtąd do pliku <a href=http://archive.ubuntu.com/ubuntu/dists/lucid/main/installer-i386/current/images/netboot/mini.iso>mini.iso</a> (tylko 13 MB !)</p>
+
+<p align=justify>Po wypaleniu obrazu na płycie uruchomiłem z niej komputer...</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=2></a>Instalacja</h1>
+
+<p align=justify>Na ekranie komputera pojawił się niezbyt zachęcający komunikat:</p>
+
+<img src=sites/default/files/156/ubuntu1.png width=600>
+
+<p align=justify>Trzeba było nacisnąć jakiś klawisz, żeby zobaczyć "właściwe" menu startowe:</p>
+
+<img src=sites/default/files/156/ubuntu2.png width=600>
+
+<p align=justify>Potem pojawia się już instalator tekstowy znany chociażby z Debiana (niewątpliwie wygląda to archaicznie, ale z drugiej strony brak grafiki pomógł w zmniejszeniu wielkości płyty). Wpierw wybieramy język, a później klawiaturę:</p>
+
+<img src=sites/default/files/156/ubuntu3.png width=600>
+
+<p align=justify>Widać tutaj niestety pewne braki w lokalizacji, ale też dużą ilość obsługiwanych wariantów.</p>
+
+<p align=justify>Później konfigurujemy ustawienia sieci (ja wykorzystywałem połączenie przez Ethernet i nie wiem, czy możliwe jest użycie w tym procesie WiFi) i wybieramy lokalizację serwera z plikami. Następnym krokiem są odpowiedzi na pytania związane z ustawieniami zegara, partycjonowaniem dysku (tu proponowany jest ext4) i znacznie dłuższe już pobieranie podstawowego systemu (tutaj brakuje informacji o przewidywanym czasie całej tej operacji).</p>
+
+<p align=justify>Po wykonaniu tego konieczne jest podanie danych logowania użytkownika (nazwa i hasło) i wskazanie, czy jego katalog domowy ma być szyfrowany. Wtedy instalator wykonuje ulubione pobieranie kolejnej porcji plików (związane z konfigurowaniem menedżera pakietów apt)...</P>
+
+<p align=justify>Następnie wybieramy, czy aktualizacje mają być pobierane automatycznie i na dysku pojawiają się (cóż za zaskoczenie) kolejne porcje plików.</p>
+
+<p align=justify>Później decydujemy o tym, jakie grupy pakietów mają być pobrane. Ja wybrałem "Ubuntu Netbook" i wtedy można było już pójść na dłuższą kawę (tym razem od początku do końca pasek postępu jest z odliczaniem)...</p>
+
+<p align=justify>I wreszcie koniec - instalacja boot-loadera, konfiguracja zegara i prośba o wyciagnięcie płyty z napędu</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=3></a>Środowisko</h1>
+
+<p align=justify>Po starcie komputera wpierw wybieramy użytkownika, jego środowisko graficzne i podajemy hasło. Można również ustawić system tak, aby ktoś był logowany automatycznie.</p>
+
+<img src=sites/default/files/156/ubuntu4.png width=600>
+
+<img src=sites/default/files/156/ubuntu5.png width=600>
+
+<p align=justify>Tutaj widać standardowe środowisko "Ubuntu network edition" oparte na Gnome. Wersja "2D" (której używam dalej) różni się tym, że programy (sygnalizowane tutaj ikonami na pulpicie, które notabene można wyłączyć) mogą być pokazywane normalnie w menu (podobnie jak w Windows w menu Start).</p>
+
+<img src=sites/default/files/156/ubuntu6.png width=600>
+
+<p align=justify>Niestety ustawienia są rozproszone po wielu menu. Fakt, że są one czytelne, ale mnie osobiście się to nie podoba (podobną "przypadłość" <a href=?q=node/107>krytykowałem dla Windows 7</a>). Bardzo brakuje np. menedżera urządzeń.</p>
+
+<table><tr><td valign=top><img src=sites/default/files/156/ubuntu14.png width=300></td>
+<td valign=top><img src=sites/default/files/156/ubuntu15.png width=300></td></tr></table>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=4></a>Przeglądarka</h1>
+
+<p align=justify>Domyślną przeglądarką jest FireFox:</p>
+
+<img src=sites/default/files/156/ubuntu11.png width=600>
+
+<p align=justify>Poniżej ilość pamięci po jej uruchomieniu. Jak widać można dosyć efektywnie wykorzystać nawet jej niewielką ilość (co niezbyt udaje się pewnemu innemu popularnemu systemowi)... Z drugiej strony muszę tutaj uczciwie dodać, iż zdarzały się wtedy czasem "zacięcia". Do "cudów" widocznych np. w <a href=http://www.kolibrios.org/>KolibriOS</a> tutaj niestety daleko, jako typowy użytkownik nie chciałem kompilować jądra ani robić innych podobnych czynności i po prostu podniosłem ilość RAM o kolejne 256MB.</p>
+
+<img src=sites/default/files/156/ubuntu12.png width=500>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=5></a>Inne programy</h1>
+
+<p align=justify>Kilka liczb: jądro jest w wersji 2.6.32, KDE 4.4.2, Gnome 2.30, Firefox 3.6.3, OpenOffice 3.2.0. Wszystkie w miarę nowe, a Ubuntu oczywiście dba o automatyczne aktualizacje :)</p>
+
+<p align=justify>Gdy chcemy więcej: instalacja dodatków do Firefoxa nie różni się od tego co znamy w Windows - Flash Player, Ad-Block czy nawet Silverlight (implementowany przez Moonlighta) to kwestia kilku kliknięć myszy. Przy braku Midnight Commandera w terminalu system wskazał mi, jaką komendą go dodać. Z kolei OpenOffice standardowo nie był spolszczony - trzeba było tylko wejść w systemowe menu "Języki", a brakujący dodatek został zaproponowany. Mamy też Centrum Oprogramowania Ubuntu. Znalazłem w nim np. <a href=?q=gammu>"swoje" Gammu</a>.</p>
+
+<img src=sites/default/files/156/ubuntu10.png width=600>
+
+<p align=justify>Przeprowadziłem kilka testów - chciałem np. obejrzeć sobie pliki PDF. System proponuje standardowo aplikację "Document Viewer". Otworzyłem sobie w niej chociażby <a href=?q=node/87>moją pracę dyplomową</a> (pokazane zostało to niżej). Formatowanie, obrazki, itp. elementy były zachowane, brakowało jedynie załączonego w zbiorze archiwum.</p>
+
+<img src=sites/default/files/156/ubuntu16.png width=600>
+
+<p align=justify>W tej sytuacji otworzyłem Centrum Oprogramowania Ubuntu, wpisałem hasło "Acrobat Reader" i już po chwili miałem pełną obsługę tego formatu. Niestety po tej operacji przestał działać "dwuklik" na liście ściągniętych plików w FireFoxie.</p>
+
+<p align=justify>Spróbowałem również <a href=?q=node/95>plików CHM (format pomocy w Windows)</a> - standardowo nie działały, pomogło znów Centrum (tym razem z hasłem "CHM"). Ciekawostką było to, iż FireFox po zainstalowaniu przeglądarki (xCHM) nie widział jej w oknie "Otwieranie", ale dwuklik na plik w "Pobieranie plików" już działał. Niestety nie udało mi się poprawnie odczytać bardziej skomplikowanych zbiorów (z JavaScript, skomplikowanymi stylami, itp.) takich jak mojej konwersji <a href=/zips/books/myhtmlib.chm>The HTML Reference Library 4.0 (autorstwa Stephena Le Hunte)</a>. Po prostu tam wymagana jest pełna emulacja funkcjonalności IE, a obecnie chyba nie ma takiej aplikacji poza IE, która to potrafi ;)</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=6></a>KDE</h1>
+
+<p align=justify>Gnome jest popularne, ale bardziej rozpowszechnione jest KDE. Chciałem je dodać. W tym celu uruchomiłem "Menedżer pakietów Synaptic", wybrałem "Środowisko Graficzne KDE" na liście grup pakietów, aplikację "plasma-netbook" na liście pakietów i już można było próbować przelogować się do nowego środowiska. Piszę "próbować", gdyż komputer zawieszał się po początkowym ekranie logowania.</p>
+
+<p align=justify>Z tego względu zastosowałem rozwiązanie brutalne polegające na powtórnej instalacji całości (tym razem wybierając w instalatorze zestawy "Kubuntu netbook" i "Ubuntu Netbook", a później ekran oparty na Gnome jako startowy). Rezultat jak na obrazku, zajęte 385MB RAM i 39MB pamięci wymiany. Widać też kompletny brak lokalizacji - konieczne było znów wejście w menu "Języki".</p>
+
+<img src=sites/default/files/156/ubuntu17.png width=600>
+
+<p align=justify>W tej konfiguracji KDE niestety zaczęło "rządzić" np. ustawieniami fontów różnych aplikacji, w Gnome zabrakło np. wpisów do konfiguratora KDE...</p>
+
+<img src=sites/default/files/156/ubuntu18.png width=600>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=7></a>Sprzęt</h1>
+
+<p align=justify>Ostatnio w Sieci pojawił się artykuł <a href=http://www.phoronix.com/scan.php?page=article&item=linux_windows_part1&num=11>Is Windows 7 Actually Faster Than Ubuntu 10.04?</a> (po angielsku), który próbuje porównać sterowniki Intela, Nvidii i ATI z tymi dla Windows 7. Nie wypada to najlepiej dla tego Linuxa, niemniej jednak moim zdaniem pokazuje, iż ta dystrybucja nie jest całkiem "osierocona".</p>
+
+<p align=justify>Ja na karcie zintegrowanej Intela miałem inny problem - jak uruchomić akcelerację 3D z "zamkniętymi" sterownikami Intela ? Brak było zbioru konfiguracyjnego X.Org oraz narzędzia. Należało "tylko" zalogować się do konsoli, zatrzymać interfejs graficzny ("sudo service gdm stop"), użyć komendy "sudo Xorg -configure", w sekcji "Device" zamienić sterownik z "vesa" na "intel", dodać wpisy do sekcji "Monitor" wygenerowane np. przez komendę "gtf" i uaktywnić je w sekcji "Screen". Moim zdaniem troszkę przerażające dla przeciętnego użytkownika...</p>
+
+<p align=justify>Inne podstawowe dzisiaj urządzenia (myszki, pendrive, Bluetooth, itp.) działały oczywiście bez problemu. Bez niczego (ale też bez dodatkowych efektów jak Windows) mogłem również słuchać dźwięku z <a href=?q=node/110>karty dźwiękowej X-Fi Go!</a>.</p>
+
+<p align=justify>Jeśli chodzi o partycje - brak jest wsparcia dla exFAT (nowy system plików Microsoftu, który w Viście i XP <a href=?q=node/108#3>wymaga doinstalowania dodatków</a>). Z kolei na partycjach NTFS rozpoznawane i tworzone były poprawnie różnego rodzaju <a href=?q=node/111#1>odnośniki</a>, jest również dostępna obsługa <a href=?q=node/111#2>alternatywnych strumieni</a> (przez komendę "getfattr").</p>
+
+<p align=justify>Z dużych plusów - poprawnie działa hibernacja.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=8></a>Inne dystrybucje Linuxa</h1>
+
+<p align=justify>Nie chciałem spędzić zbyt dużo czasu i wysiłku na konfigurację całości. W podobnej konfiguracji próbowałem również <a href=http://www.mandriva.org>Mandrivę</a> (również z Gnome). Tam na początku były problemy z obrazem (migoczący obraz), problem z Flashem (podobno pojawił się wraz z FireFoxem 3.6.3), ale później non-stop pracujący dysk praktycznie uniemożliwiał zrobienie czegokolwiek... Do tego ta komercja (dosyć nachalne próby przekonania do zakupu płatnych kodeków, itd. itd.).</p>
+
+<p align=justify>Był również <a href=http://www.debian.org>Debian</a>. Tutaj z kolei przeciętnego użytkownika będzie odstraszać "archaiczność" podstawowych aplikacji i pewne problemy z pobieraniem ich najnowszych wersji. Ta dystrybucja po prostu stawia na sprawdzone rozwiązania, a nie testowanie nowości na użytkownikach.</p>
+
+<p align=justify>Innych nie sprawdzałem po skosztowaniu Ubuntu, nie używałem także innych środowisk graficznych celowo poprzestając tylko na wspomnianych dwóch najpopularniejszych.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=9></a>Podsumowanie</h1>
+
+<p align=justify>Wiele lat temu różni ludzie stworzyli zasady tworzenia obecnych systemów operacyjnych, z których mniej lub bardziej korzysta Windows lub praktycznie wszystkie rozwiązania unixopodobne (do których zalicza się Ubuntu). Niektóre z nich traktowałbym trochę jako nonsensy, które mogłyby już przejść do lamusa. Ot chociażby konieczność "instalowania" różnych aplikacji i totalne współdzielenie przez nie różnych katalogów i plików. Albo fakt, iż sterowniki do praktycznie dowolnych urządzeń mogą skutecznie zawiesić komputer (wykorzystywana jest bowiem architektura monolityczna jądra). Jeżeli więc oczekujesz takich "cudów" jak automatyczne restartowanie się sterowników w przypadku błędu (jak np. w <a href=http://www.minix3.org/>Minixie 3</a>), Ubuntu na pewno nie będzie dla Ciebie.</p>
+
+<p align=justify>Daje się zauważyć brak wsparcia dla różnych rozwiązań własnościowych (np. systemów plików). Trzeba napisać tutaj wyraźnie, iż nie jest to wina twórców, ale bardziej różnych firm, które z uporem maniaka je wprowadzają.</p>
+
+<p align=justify>Kolejną bolączką testowanego systemu jest (paradoksalnie) klęska urodzaju - nie udało się w 100% "bezboleśnie" połączyć np. różnych środowisk graficznych, również nie wszystkie aplikacje są w 100% przyjazne (chociażby instalator, który mógłby pozwolić na ustawienie wszystkich parameterów i później przeprowadzać całą instalację całkowicie bez ingerencji użytkownika). Krytykuję to tutaj, ale chcę też wyraźnie zaznaczyć, iż moim zdaniem Ubuntu 10.04 dla przeciętnego zjadacza chleba przyzwyczajonego do interfejsu Windows XP będzie mieć obecnie podobną ilość problemów tego typu jak Windows 7.</p>
+
+<p align=justify>Przechodząc jakby poziom wyżej - mam pewne wątpliwości co do przyszłego rozwoju najpopularniejszego środowiska KDE i działań firmy Nokia względem Linuxa (<a href=?q=node/21>szczególnie z uwagi na sposób, w jaki zostali potraktowani np. użytkownicy modelu N900, ale nie tylko</a>), niemniej jednak do 2014 roku (moment, w których przestanie być wspierany Windows XP) jest jeszcze dłuższa chwila i można różne rzeczy zmienić "na plus" (a wtedy Microsoft naprawdę będzie mieć powody do obaw).</p>
+
+<p align=justify>Gdzie można się spodziewać jeszcze POTENCJALNYCH problemów ? Widziałbym je tam, gdzie nie zaglądałem i gdzie nie sprawdziłem jakości danego rozwiązania. Mówię np. o Wine, VmWare oraz sterownikach do akcelerometrów chroniących klasyczne dyski twarde w urządzeniach przenośnych (takich jak w rozwiązaniu HP 3D DriveGuard).</p>
+
+<p align=justify>Z pozytywów wskazałbym rozsądne wymagania sprzętowe (ok. 3,5GB dysku w wersji z Gnome+KDE, 256 lub od razu lepiej 512MB RAM).</p>
+
+<p align=justify>Dla kogo więc ta dystrybucja Linuxa jest odpowiednia ?</p>
+
+<p align=justify>Jeśli nie widzisz świata poza Windows, Ubuntu nie będzie dla Ciebie. Po prostu zabraknie Ci instalowania antywirusa, konfigurowania firewalla, szukania "sztuczek" w Rejestrze, itp.</p>
+
+<p align=justify>Z kolei typowe potrzeby (Internet, poczta, komunikator, od czasu do czasu jakiś dokument, itp.) na pełno zostaną w pełni zaspokojone. Są tylko cztery warunki:</p>
+
+<ul>
+<li><div align=justify>słowo Linux nie może doprowadzać Cię z automatu do choroby</div>
+<li><div align=justify>musisz mieć w pogotowiu jakiegoś informatyka lub też informatyczkę i czasami możesz potrzebować kilka minut ich pracy (choć trzeba przyznać, iż może to być bardzo rzadkie)</div>
+<li><div align=justify>należy zapomnieć o niektórych aplikacjach znanych z Windows</div>
+<li><div align=justify>konieczne jest zaakceptowanie pewnych unixowych standardów - np. to że system rozróżnia wielkość liter przy nazwach plików</div>
+</ul>
+
+<p align=justify>Zachwycona moim zdaniem będzie osoba posiadająca minimum średnio podstawową wiedzę techniczną (szczególnie jeśli nie ma zbyt dużej dawki wolnego czasu). Opcji jest naprawdę dużo...system nadaje się też świetnie do zainstalowania w maszynie wirtualnej i wykorzystywania do różnych "dziwnych" celów :)</p>
+
+<p align=justify>Uniksowi puryści niewątpliwie skierują swoje kroki w stronę innych dystrybucji... Wszak kto to słyszał, żeby CD-ROM się sam montował...</p>
+
+<p align=justify>Jeżeli miałbym zastosować porównanie do przeglądarek:</p>
+
+<ul><li><div align=justify>Windows byłby tutaj Internet Explorerem 7 lub nawet 8 (zamkniętym, zgodnym z samym sobą, <a href=http://www.microsoft.com/poland/ie8serfujbezpiecznie/>blokującym AŻ "1000 złośliwych ataków szkodliwych witryn i prób wyłudzenia informacji", gdy "Ty oglądasz jak ktoś czochra lemura"</a>)</div>
+<li><div align=justify><a href=http://www.mandriva.org>Mandriva</a> Chromem (ma potencjał, ale ciągle niebezpiecznie dryfuje w stronę zbytniej moim zdaniem komercji)</div>
+<li><div align=justify><a href=http://www.debian.org>Debian</a> IceWeaselem (starszą kopią FireFoxa, która przeszła setki weryfikacji)</div>
+<li><div align=justify>...a Ubuntu właśnie Firefoxem (wiele dodatków, wiele możliwości, czasem tu i tam trzeba coś podszlifować).</div></ul>
+
+<p align=justify>Moim zdaniem hasło reklamowe "Ubuntu - Linux dla ludzi" pasuje tutaj jak ulał. Postawiłbym solidne 3/5 (podobnie jak <a href=?q=node/107>zrobiłem to jakiś czas w przypadku Windows 7</a>). Z uwagi na cenę równą 0 PLN ocenę podwyższam do 4.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+<!--comments-->
+Title:rób ładne zrzuty
+ID:107
+Author:Anonymous (not verified)
+When:18 May 2010
+
+<p>Chłopie na przyszłość rób zrzuty ekranów z ładniejszymi motywami w użyciu. Tak wyglądał gnome 5 lat temu... Takie screeny nikogo nie zachęca...</p>
+<!--comment-->
+Title:No i jeszcze ta paleta
+ID:130
+Author:Anonymous (not verified)
+When:22 May 2010
+
+<p>No i jeszcze ta paleta kolorów... To wygląda jak jakieś archaiczne 256. W recenzji powinieneś używać domyślnych motywów, te Twoje są ohydne i negują zmiany funkcjonalności przygotowywane pod wersję 10.10.</p>
+<p>Poza tym: IceWeasel to nie "starsza kopia Firefoksa" tylko kompilacja by Debian ze zmienionym logiem i nazwą, by pozbyć się zastrzeżonej zawartości z programu.</p>
+<!--comment-->
+Title:Jak doinstalować &quot;zamknięte&quot; sterowniki video?
+ID:175
+Author:Anonymous (not verified)
+When:30 Jun 2010
+
+<p>Artykuł bardzo fajny, ale może ktoś napisze dokładnie jak doinstalować np sterowniki do grafiki Intela, może autor rozwinie ten temat bo zaczął w rozdziale Sprzęt? Dla początkujących użytkowników Ubuntu to zbyt wiele.<br />
+pozdrawiam</p>
+<!--comment-->
+Title:Super artykuł. Może teraz
+ID:3896
+Author:Anonymous (not verified)
+When:17 Oct 2010
+
+<p>Super artykuł. Może teraz sprobuje linuxa ;) Narazie jestem na mac i bardzo mi się podoba.</p>
+<p><a>Pogoda lublin</a></p>

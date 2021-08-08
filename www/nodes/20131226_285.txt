@@ -1,0 +1,47 @@
+﻿Title:300h czuwania w telefonie ? (2013)
+Author:marcin
+When:26 Dec 2013
+Taxonomy:Polski,Polski blog,GSM,Android,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/300h-czuwania-w-telefonie,51198.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>300 h czasu czuwania ? 400 h ? 600 h ?
+
+<!--break-->
+<p>Przymuszony do wypoczynku z chusteczkami u boku postanowiłem sprawdzić, czy warunki laboratoryjne można odtworzyć w rzeczywistości (i przy okazji w ogóle zmniejszyć zużycie prądu). Padło na S4 mini i9192 Duos Samsunga i żeby nie było zbyt łatwo chciałem to zrobić na stockowym ROMie/kernelu bez roota.
+
+<p>Dla tego modelu <a href=http://www.samsung.com/africa_en/consumer/mobile-phone/mobile-phone/smart-phone/GT-I9192ZKAXFE-spec>dla WCDMA podawane jest właśnie 300 h</a>.
+
+<p>Chociaż wygląda to trochę jak lizanie cukierków przez szybę, to wpierw do kosza poszły wszystkie elementy zużywające energię:
+
+<ul>
+<li>widgety (zostały usunięte z ekranu startowego)
+<li>kolorowe animowane tło (zostało zastąpione czarnym jednolitym kolorem z uwagi na to, że ekran Super Amoled zużywa wtedy mniej energii): Ustawienia -> Wyświetlacz -> Tapeta
+<li>wygaszacz ekranu: Ustawienia -> Wyświetlacz -> Wygaszacz ekranu
+<li>druga karta SIM (obecnie jest używana tylko wtedy gdy jest potrzebna): Ustawienia -> Moje urządzenie -> Menedżer kart SIM -> SIM2
+<li>transmisja danych: Ustawienia -> Moje urządzenie -> Menedżer kart SIM -> Sieć do obsługi danych (w takim trybie zamiast MMS będą dostarczane powiadomienia w formie SMS)
+<li>WCDMA dla pierwszej karty SIM: Ustawienia -> Połączenia -> Więcej sieci -> Sieci komórkowe -> Tryb pracy sieci -> Tylko GSM
+<li>inteligentny ekran: Ustawienia -> Moje urządzenie -> Inteligenty ekran
+<li>wsparcie dla różnych gestów: Ustawienia -> Moje urządzenie -> Ruchy i gesty
+<li>podświetlenie klawiszy pod ekranem: Ustawienia -> Moje urządzenie -> Wyświetlacz -> Podświetl. klawiszy dot.
+<li>synchronizacja z kontem Google: Ustawienie -> Konta -> Google
+<li>GPS i lokalizacja: Ustawienia -> Więcej -> Usługi lokalizacji, Ustawienia -> Konta -> Google -> Ustawienia lokalizacji, Ustawienia Google -> lokalizacja
+<li>Wifi: Ustawienia -> Połączenia -> Wifi
+<li>Bluetooth: Ustawienia -> Połączenia -> Bluetooth
+</ul>
+<p>Równocześnie ekran jest wygaszany tak szybko jak to możliwe (Ustawienia -> Moje urządzenie -> Wyświetlacz -> Wygaszenie ekranu) i jest wygaszany w trakcie połączenia (Ustawienia -> Moje urządzenie -> Połączenie -> Wyłącz ekran podczas poł.), pozostawiłem również włączone opcje oszczędzania energii w Ustawienia -> Tryb oszczędzania energii, nie mogłem jednakże zrezygnować z funkcji automatycznego dostosowywania jasności (Ustawienia -> Moje urządzenie -> Wyświetlacz -> Jasność)
+
+<p>Następnie zabrałem się za opcje w Google Play (wyłączyłem autoaktualizację i powiadomienia o zmianach, podobnie w Samsung Hub) i wyłączyłem część nieużywanych aplikacji (po wejściu do Ustawienia -> Więcej -> Menedżer aplikacji klikałem na aplikację i wybierałem Wyłącz).
+
+<p>Dodatkowo w opcji używanego routera Wifi zostawiłem tylko pasmo 5 Ghz (na 2,5 Ghz telefon łączył się w standardzie "g" zamiast "n", co ostatecznie <a href=https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest&hl=pl>potwierdziłem SpeedTestem</a> i co wydłużało pobieranie danych).
+
+<p>Wyłączyłem także np. opcję zliczania ilości danych w Avaście. Teraz po restarcie urządzenia i ręcznym "ubiciu" procesów "ELM Agent", "Aktualizacja oprogramowania" i "Usługi Google" w Ustawienia -> Więcej -> Menedżer aplikacji -> Uruchomione mogę zobaczyć:
+
+<p><img src=sites/default/files/285/Screenshot_2013-12-26-17-56-02.png>
+
+<p>I co mi teraz pokazuje <a href=https://play.google.com/store/apps/details?id=com.uzumapps.wakelockdetector&hl=pl>aplikacja "Wakelock Detector"</a> ? Ano po wyłączeniu ekranu telefon przechodzi mi w tzw. Deep sleep":
+
+<p><img src=sites/default/files/285/Screenshot_2013-12-26-19-00-47.png>
+
+<p>i po nocy (orientacyjnie 6 - 8 h) mam "zjedzone" jakieś ok. 2% baterii. Da się ? Da się. Czy te wszystkie operacje są normalne ? Nie są. Dlaczego ? Telefon z pudełka nie powinien mieć masy uaktualniaczy i "zamulaczy", a te niestety stały się obecnie normą, pewnym remedium mogłoby być również użycie Androida 4.4.x zamiast 4.2.2 (m.in. z uwagi na ART), ale tam z kolei został usunięty moduł do kontroli uprawnień obecny np. w Androidzie 4.3 i 4.4.x dla S4 mini pojawi się "kiedyś" (i nie ma pewności, jakich "wrażeń" dostarczy jego implementacja).
+
+<p>Mówiąc inaczej - chociaż w przypadku i9192 istnieją podejrzenia o błędny hardware (polecam <a href=http://forum.xda-developers.com/showthread.php?t=2572781>wątek "Hell untraceable wakelocks on i9192"</a>), to problemem obecnie jest software i dążenia korporacji, aby dane często i gęsto synchronizować... Czyli nic nowego w sumie i szkoda, że często jedynym sposobem obrony Androidowców jest root lub Cyanogen, które też miewają swoje skutki uboczne (ale to już osobny temat)...

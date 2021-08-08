@@ -1,0 +1,183 @@
+﻿Title:Po(d)stęp (2019)
+Author:marcin
+When:16 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,x86
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Podstep,104804.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Ten wpis miał być oryginalnie o oprogramowaniu, ale postanowiłem go rozszerzyć po lekturze <a href="https://www.dobreprogramy.pl/Procesorowa-spychologia.-Tak-kosztem-klienta-bawia-sie-Intel-i-producenci-laptopow,News,104835.html" target="_blank" rel="noopener">https://www.dobreprogramy.pl/Procesorowa-spychologia.-Tak-kosztem-klie...</a> i <a href="https://antyweb.pl/podroz-do-czasow-kiedy-internet-byl-jeszcze-w-naszych-rekach/." target="_blank" rel="noopener" rel="nofollow">https://antyweb.pl/podroz-do-czasow-kiedy-internet-byl-jeszcze-w-naszy...</a></p>
+
+<!--break-->
+
+<p>W pierwszym z tych wpisów autor narzeka na Intela i producentów urządzeń przenośnych, w drugim wskazano esej Kate Wagner pod tytułem &quot;404 Page Not Found&quot; (i przedstawiono <a href="?q=node/372" target="_blank" rel="noopener">etapy upadku Internetu, o których wspominałem</a>, czyli romantyczne budowanie sieci, dzielenie się wiedzą i przejęcie tego wszystkiego przez kilka firm).</p>
+
+<p>Przypomniał mi się <a href="https://www.polityka.pl/tygodnikpolityka/rynek/1708352,1,korporacje-silniejsze-od-rzadow.read" target="_blank" rel="noopener" rel="nofollow">artykuł z Polityki z 2017 roku</a> i trzy fragmenty (powinienem zacytować cały tekst, ale wtedy pewnie musiałbym zapłacić tantiemy):</p>
+
+<p><i>&quot;Kapitał przestał szukać najbardziej produktywnych inwestycji. Szuka najwyżej oprocentowanego długu, który powstaje w&#160;wyniku złych inwestycji – nie dobrych. (...) pasożytujący na gospodarce i&#160;państwach system finansowy zatruwa i&#160;stopniowo zabija nosiciela. Buduje potęgę kapitału finansowego kosztem wszystkich innych kapitałów – ludzkich, politycznych, ekologicznych, kulturowych, demograficznych, społecznych.&quot;</i></p>
+
+<p><i>&quot;</i><i>w&#160;sprawach zasadniczych system jest regulowany przez uzgodnienia między finansowymi superkorporacjami, a&#160;nie przez rządy, parlamenty i&#160;rynek. Konkurencję o&#160;to, kto lepiej trafi w&#160;potrzeby klientów, zastąpił mechanizm negocjacji między korporacjami. To sprawiło, że gospodarka przestała być efektywna&quot;</i></p>
+
+<p><i>&quot;</i><i>Sklepiki faktycznie walczą na rynku. Dla finansowych superkorporacji żadnego rynku nie ma. Są za duże, by upaść, zbyt nieliczne, żeby realnie konkurować, zbyt powiązane i&#160;zżyte, by nawzajem robić sobie krzywdę.&quot;</i></p>
+
+<p>Możemy się zastanawiać kto jest winny złego projektowania chłodzenia, można też w nieskończoność wymieniać inne grzechy producentów sprzętu mobilnego:</p>
+
+<ul><li>wkładanie piszczących cewek,</li>
+
+<li>dodawanie ładowarek o zbyt małej mocy,</li>
+
+<li>przyciemnianie ekranów z użyciem PWM (to zmora dla mnie i innych ludzi wrażliwych na efekt migania),</li>
+
+<li>sprzedawanie dysków SSD bez żadnej gwarancji działania (konia z rzędem, kto dojdzie ile teoretycznie danych można zapisać na Samsungu PM981a),</li><li>nieużywanie chłodzenia do VRM,</li>
+
+<li>wciskanie przestarzałych rozwiązań (eMMC),</li>
+
+<li>blokowanie chłodzenia papierem (stickery na dyskach SSD),<br/></li><li>dodawanie bloatware (czasem nawet do UEFI),</li>
+
+<li>wkładanie baterii z bardzo cienką obudową (puchnące ogniwa niszczą wszystko)<br/></li>
+
+<li>czy moje ulubione, czyli dodawanie nowego modelu sprzętu w dniu jego premiery do programu serwisowego.</li></ul>
+
+<p>To oczywiście tylko fragment listy, ale mam nadzieję, że chociaż trochę pokazałem, jak wielkim problemem jest zakup jakiegokolwiek sprzętu (bardzo polecam tutaj <a href="#" target="_blank" rel="noopener" rel="nofollow">https://www.notebookcheck.net,</a> który dosyć ładnie pokazuje wiele z tych mankamentów).</p>
+
+<p>Pan Urbaniak poniekąd trochę mnie ubiegł - w oryginalnej wersji mojego tekstu pisałem &quot;...Równocześnie czytam sobie tu i tam recenzje urządzeń przenośnych/wszelkiego rodzaju mniejszych i większych notebooków (gdzie przewija się słowo throttling albo undervolting oznaczające sytuacje, gdzie producent celowo obniża wydajność sprzętu)...&quot;</p>
+
+<p>Jak się zastanowić, to oczywiście winne są wskazane w &quot;Polityce&quot; superkorporacje i dlatego jeśli ktoś z nas chciałbym wybrać sprzęt z Ryzenem, to modeli jest tyle co kot napłakał, a największą ofertę ma jedna z azjatyckich firm (sprawdza się, gdy mówiłem, że wszystkich nas czeka używanie wyrobów chińskich).</p>
+
+<p>Na &quot;Wykopie&quot; ostatnio czytałem, że działania przeciw Google prowadzi 50 stanów USA. Czy to coś zmieni? Wątpię (apropo tej firmy i jej wpływu na środowisko - właśnie przeczytałem, że w projekcie Chrome ot tak usunięto <a href="https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/74qPbL7VLa4" target="_blank" rel="noopener" rel="nofollow">buildy Jumbo</a>, które u mnie pozwalały skrócić czas budowania z 4h do 1h)</p>
+
+<p>Czy ktoś podzieli Facebooka albo zrobi coś z jakością Boeinga? W drugim wypadku być może, ale w pierwszym...</p>
+
+<p>Megakorporacje &quot;myślą&quot; o sobie i nie bądźmy zdziwieni, że coraz więcej energii idzie na trenowanie SI albo że kolejny gigant został złapany na oszustwie.</p>
+
+<p>(alternatywnie zamiast &quot;zdziwieni&quot; możemy użyć &quot;zszokowani&quot; - bardzo lubię to robiące obecnie karierę słowo, które dla wielu oznacza ni mniej ni więcej zrobienie zdziwionego i mądrego wyrazu twarzy, gdy coś nie idzie zgodnie z jedyną słuszną linią skryptu, stacji telewizyjnej czy partii)</p>
+
+<p>Przypomnijmy sobie seriale Netflixa &quot;Mars&quot; czy &quot;Brudna forsa&quot;, zobaczmy jaka walka polityczna toczy się o „Iwana groźnego z Treblinki” (a jak ktoś chce słowa pisanego, to zapraszam chociażby do lektury &quot;Chciwości&quot; Marca Elsberga)</p><p>To wszystko nie dzieje się daleko obok nas, inna sprawa, że winni jesteśmy MY - MY WSZYSCY.</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/TMrtLsQbaok?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center>
+
+<p><b>MYŚL</b></p>
+
+<p>Wiele wyborów jest nam narzuconych (zgoda), ale wiele wynika też z tego co MY sami robimy - wszystko zaczyna się od tego czy idziemy i bezmyślnie sięgamy na półkę czy robimy jakikolwiek research i z masy tandety wybieramy coś mniej tandentnego (albo jeszcze lepiej: czy próbujemy wpierw wykorzystać to co już mamy).</p>
+
+<p>Ktoś mógłby przypomnieć, że pisałem już kilka razy, że dochodzimy do pewnej ściany:</p>
+
+<ul><li>na polu smartphonów (wyginający się Pixel 4, rysujące się ekrany iPhone, odgrzewane kotlety i Android i iOS od lat z tymi samymi problemami i ograniczeniami),</li><li>na polu x86 (Intel...),</li>
+
+<li>na polu systemów operacyjnych (Windows 10 i jego <i>neverending story</i>, ale również stare nienaprawione problemy Linuxa, brak powszechnego użycia dobrych mikrokerneli, walki o różne standardy sandboxów, itp.),</li>
+
+<li>na polu HTML (zauważył to nawet wujek G., który będzie oznaczał długo ładujące się strony)</li>
+
+<li>na polu dysków (1TB SSD spokojnie wystarcza do wielu typowych zastosowań i mam wrażenie, że pojemności długo nie będą rosły)<br/></li>
+
+<li>i w wielu innych sprawach...</li></ul>
+
+<p>To się wszystko zgadza - z drugiej strony na każdej półce cenowej jest i szmelc i coś co posłuży chociaż trochę dłużej, a ja się cieszę, bo istniejących ograniczeń często nie da się inaczej pokonać niż przez porządną inżynierską robotę (która powoduje ból tyłka wszelkiej maści &quot;fachowców&quot; broniących obecnej tandety i w końcu ich wyeliminuje).</p>
+
+<p><b>POPIERAJ SWOJE</b></p>
+
+<p>Dotyczy to technologii, dotyczy żywności i właściwie każdego obszaru naszego życia. Popieramy lokalnych producentów i inicjatywy, jest dobrze. Jest dobrze, to okolica się rozwija. Rozumiemy się?</p>
+
+<p><b>POPIERAJ WYB&#211;R</b></p>
+
+<p>Na tym portalu widzieliśmy ostatnimi czasy nagonkę na Linuxa. Powiem krótko: Manjaro jest takie jest, autor też wygląda na inteligentnego człowieka z wiedzą i po prostu wyraźnie się nudzi. Zdobył te swoje 500 komentarzy i kolejną odznakę, czy jednak zrobił dobrze tak otwarcie podważając jedną z niewielu realnych alternatyw do Windows?</p>
+
+<p>Sformułuję to inaczej - forma części tych &quot;wpisów&quot; przypomina działania lobbystów, którzy chcą coś zdyskredytować nie zważając na konsekwencje (niektórzy nazywają ich pożytecznymi idiotami, jeśli ci robią to za darmo).</p>
+
+<p><i>Po nas choćby i potop.</i></p>
+
+<p>Jak napisałem, autor wydaje wykazywać się wiedzą i doświadczeniem (nie chcę absolutnie go obrażać), ale spokojnie mógłby to wykorzystać pokazując, że istnieje coś &quot;poza&quot; jedynym słusznym systemem i jak to ustawić żeby to działało.</p>
+
+<p>I żeby było jasne - zasada popierania wyboru dotyczy oczywiście każdego aspektu życia, od polityki zaczynając.</p><p><b>PISZ</b></p>
+
+<p>Proszę zauważyć, że nie neguję, że bolączki Open Source są ogromne. Są, ale bardzo duży problem mamy chociażby przez Intela - Phoronix pokazał, że po poprawce jednego błędu JCC <a href="https://www.phoronix.com/scan.php?page=article&amp;item=jcc-firefox-chrome&amp;num=1" target="_blank" rel="noopener" rel="nofollow">nowy mikrokod CPU upośledza przeglądarki nawet o 21% ...</a></p>
+
+<p>To oczywiście tylko cyferki (średnie spowolnienie to około 5%), ale... zapewne każdy z nas konfigurację przeglądarki zaczyna od instalacji jednego z adblocków, a w telefonie wyłącza wszystko co niepotrzebne i drenuje baterię.</p>
+
+<p>Rozumiem, że standardem jest ograniczenie odpowiedzialności twórców sprzętu i programistów za cokolwiek (brak gwarancji na karty graficzne używane w pracy ciągłej, przyzwyczajenie do śmieciowych aktualizacji Androida, itp.), ale aż chce się zapytać - dlaczego my z ludzi, którzy w każdym polskim pisemku komputerowym mieli kącik programowania, zmieniliśmy się w (za przeproszeniem) baranów, którzy tylko łykają to co przychodzi z innych miejsc świata?</p>
+
+<p>Każdy z nas ma masę swoich sposobów na problemy - PISZMY O NICH. Jak będziemy pisać, to będziemy wymieniać się rozwiązaniami i kolejni będą mieli łatwiej. Będziemy pisać, będzie dobrze. Będzie dobrze, będzie można na tym budować dalej. Rozumiemy się? (tutaj pytania do pana Urbaniaka - gdzie zobaczymy który laptop jak się sprawował i jakie miał wyniki Pańskich testów?)</p>
+
+<p>Przykładowe tematy - jak zakładać katalog TEMP (/tmp) na dysku w pamięci RAM (bardzo sobie chwalę), jak na inne sposoby oszczędzać zapisy na SSD...</p>
+
+<p>Nie masz wiedzy technicznej? Nie stój jak za przeproszeniem baran - pomóż chociażby z Wikipedią (ostatnio potrzeba tam było pracy przy artykule <a href="https://en.wikipedia.org/wiki/No-go_area" target="_blank" rel="noopener" rel="nofollow">https://en.wikipedia.org/wiki/No-go_area</a>...)</p>
+
+<p><b>MIEJ PLAN B</b></p>
+
+<p>Staraj się używać sprzętu od różnych dostawców i zastanów się coby było gdyby... gdyby dzisiaj szlag trafił Twoje posty na Insta czy filmy na YouTube. Czy masz ich kopię?</p>
+
+<p>Gdybyś zapomniał telefonu, czy masz swoje SMS? Czy było w nich coś ważnego?</p>
+
+<p>I najważniejsze - czy masz do tego wszystkiego dostęp bez chmury? czy Twoje klucze szyfrowania są zapisane tak że nie powinny ulec uszkodzeniu?</p>
+
+<p><b>KILKA SŁ&#211;W NA NIEDZIELĘ Z MOJEGO BARDZO MAŁEGO OGR&#211;DKA<br/></b></p>
+
+<p><b>Gorąco chciałbym podziękować wszystkim, którzy skomentowali </b><a href="?q=node/372" target="_blank" rel="noopener">CMS do serwowania WWW w kilkunastu KB ? Sobieski na GitHubie i w moim ...</a>.</p>
+
+<p>Komentarze mógłbym podzielić na kilka grup:</p>
+
+<ol><li>wskazanie oczywistego niedomagania (kwestia tego, że kod mógłby wyglądać lepiej i oddzielać warstwy, co delikatnie sam zasugerowałem pisząc o refaktoringu)</li>
+
+<li>pokazanie, że można korzystać z tego co jest gotowe (pierwsze co zrobiłem to oczywiście research, przy którym nie znalazłem tego co chciałem)</li>
+
+<li>słowo motywujące</li></ol>
+
+<p>Tak się składa, że w swojej zawodowej pracy wielokrotnie zajmowałem się m.in. debugowaniem kodu witryn czy też aplikacji www i mógłbym wskazać kilka typowych zachowań:</p>
+
+<ol><li>nauczyłem się technologii X, ona jest najlepsza i nic innego się nie liczy (tak mi wmówiono na kursie czy studiach i koniec kropka)</li>
+
+<li>a u mnie działa - użytkownicy mają się dostosować do tego co napisałem (a nie ja do wymagań)<br/></li>
+
+<li>nie wiem co z tym zrobić</li></ol>
+
+<p>Szczególnie to ostatnie jest przerażające - wielu adeptów sztuki programowania klepie kod w czymś tam, kompiluje go do czegoś tam i ogólnie robi wszystko metodą prób i błędów. Nikt nie myśli o poprawności algorytmicznej czy tym czy coś w ogóle ma sens, a kod i cała sytuacja trochę przypomina mi się mój malutki research z 2013, gdzie &quot;proste&quot; rozwiązanie wymagało &quot;prostych&quot; kroków:</p>
+
+<ul><li><i>pobieramy source.zip z <a href="http://cordova.apache.org/" target="_blank" rel="noopener" rel="nofollow">http://cordova.apache.org/</a> (w chwili pisania 3.2.0)<br/></i></li>
+
+<li><i>rozpakowywujemy cordova-android.zip<br/></i></li>
+
+<li><i>pobieramy ant z <a href="http://ant.apache.org/bindownload.cgi" target="_blank" rel="noopener" rel="nofollow">http://ant.apache.org/bindownload.cgi</a><br/></i></li>
+
+<li><i>dodajemy ścieżkę do tools i platform-tools z Android SDK i ścieżkę ant do PATH<br/></i></li>
+
+<li><i>do katalogu frameworks z cordova-android dodajemy SQLCipher z <a href="http://sqlcipher.net/sqlcipher-for-android/" target="_blank" rel="noopener" rel="nofollow">http://sqlcipher.net/sqlcipher-for-android/</a> (dodajemy icudt46l.zip do assets i biblioteki do libs)<br/></i></li>
+
+<li><i>do katalogu frameworks z cordova-android dodajemy CordovaSQLLitePlugin z <a href="https://github.com/lite4cordova/Cordova-SQLitePlugin" target="_blank" rel="noopener" rel="nofollow">https://github.com/lite4cordova/Cordova-SQLitePlugin</a> (m.in. na podstawie informacji z <a href="http://brodyspark.blogspot.com/2012/12/using-sqlcipher-for-android-with.html" target="_blank" rel="noopener" rel="nofollow">http://brodyspark.blogspot.com/2012/12/using-sqlcipher-for-android-wit...</a> - do config.xml w res\xml należy dodać </i><br/><i>&lt;feature name=&quot;SQLitePlugin&quot;&gt;<br/>&lt;param name=&quot;android-package&quot; value=&quot;org.pgsqlite.SQLitePlugin&quot; /&gt;<br/>&lt;/feature&gt;</i></p>
+
+<p><i>do src\org\pgsqlite spatchowany SQLitePlugin.java, do assets\www spatchowany SQLitePlugin.js)</i></p><p></li>
+
+<li><i>używamy create z bin z cordova-android do stworzenia nowego projektu androidowego (można z niego pobrać CordovaSQL.java i pliki z assets)<br/></i></li>
+
+<li><i>w katalogu framework w cordova-android kompilujemy plik jar<br/></i></li>
+
+<li><i>tworzymy nowy projekt androidowy z plikiem jar z poprzedniego punktu, bibliotekami sqlcipher, odpowiednim layoutem zawierającym org.apache.cordova.CordovaWebView, odpowiednim plikiem config.xml w res\xml i plikami inicjującymi Cordovę w pliku java</i><br/></li></ul>
+
+<p>W artykule <a href="?q=node/280" target="_blank" rel="noopener">https://www.dobreprogramy.pl/marcinw2/Nowoczesnosc-czyli-LTE-i-Cordova...</a> porównałem to do prostego kodu androidowego, który był mniejszy, szybszy i robił to samo.</p>
+
+<p>I właśnie dlatego chciałbym zadać pytanie: a co to jest to &quot;profesjonalne&quot; pisanie stron www?</p>
+
+<p>Inny portal właśnie <a href="https://antyweb.pl/webmasterzy-nienawidza-takich-serwisow-i-narzedzi-ale-coz/" target="_blank" rel="noopener" rel="nofollow">zarekomendował 8b Website Builder</a>. I faktycznie, na video wygląda to ładnie:</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/aH060U-c-s4?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p>Jeden z komentujących artykuł skwitował to dosadnie (to tylko część):</p>
+
+<p><i>&quot;ok, bez niczego: 17 requestów, 1.05MB skompresowanych danych pobranych, w tym 7 skryptów, łącznie prawie 540kB zminifikowanego kodu do wykonania, całość z <a href="http://disq.us/url?url=http%3A%2F%2Fcdn.ampproject.org%3A3OG7W6R7nZLoReWYfBQ8xMJR85U&amp;cuid=1295742" target="_blank" rel="noopener" rel="nofollow">cdn.ampproject.org</a>, finish w 2.59</i></p>
+
+<p><i>po włączeniu standardowych blokad 4 requesty, 493kB pobranych danych, brak JS, finish w 1.27, strona nie jest w pełni funkcjonalna</i></p><p><i>dopuszczenie zasobów z domeny <a href="http://disq.us/url?url=http%3A%2F%2Fcdn.ampproject.org%3A3OG7W6R7nZLoReWYfBQ8xMJR85U&amp;cuid=1295742" target="_blank" rel="noopener" rel="nofollow">cdn.ampproject.org</a> prowadzi do 13 requestów, 999kB pobranych danych, skrypty oczywiście jak w pierwszym wypadku, finish w 1.53&quot;</i></p>
+
+<p>Sobieski jest jaki jest, ale w fazie pierwszej w całości przeszedłem z zajmującego z bazą kilka(naście) MB kombajnu na kilkadziesiąt KB - czy nie to jest najważniejsze? </p>
+
+<p>Refaktoring kodu i dopieszczanie jest w planach (wszystko zależy oczywiście od czasu wolnego).</p>
+
+<p>Na koniec mądrości życzę w wykorzystaniu tego co już mamy w naszych domach i firmach... Bo potencjał tam jeszcze duży... </p><p>Tyle ode mnie i jeszcze raz zapytam się każdego z osobna pokazując znaną wszystkim kukiełkę:</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/TMrtLsQbaok?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p>PS. Żeby nie było wątpliwości - ten wpis z konieczności jest ogólny, ja sam natomiast lubię piękne rzeczy (np. cienkie laptopy) i uwielbiam postęp, ale z drugiej strony do dnia dzisiejszego mój pulpit spokojnie mógłby wyglądać tak:</p>
+
+<center><img src="sites/default/files/375/librecalc.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>(obrazek ze strony <a href="https://reactos.org/gallery" target="_blank" rel="noopener" rel="nofollow">https://reactos.org/gallery</a> - próbowałem sam zainstalować ten &quot;system&quot; na Hyper-V i samemu zrobić podobny, ale niestety musiałem sobie dać spokój; myślę jednak, że autorzy nie będą mieli nic przeciwko jeśli go użyję w celach nazwijmy to poglądowych)</p>
+
+<p>Postęp to nie zawsze ładniejsze ikonki czy kolejny numerek wersji...&#160;&nbsp;</p>

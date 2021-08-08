@@ -1,0 +1,141 @@
+﻿Title:Sterowniki do Intela w Windows 10 20H1 są gotowe... (2020)
+Author:marcin
+When:8 May 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Windows
+
+<p><img align=right src="sites/default/files/399/error1.png" style="width:300px" alt="image" title="image" />
+
+<p>Poniższy wpis skompletowałem na podstawie doświadczenia, które miałem przyjemność przeżyć z najbardziej dopracowanym i stabilnym systemem świata... i pisanymi od lat sterownikami bardzo znanej i lubianej ostatnio korporacji.</p>
+
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Sterowniki-do-Intela-w-Windows-sa-gotowe-a-takie-ladne-hamerykanskie,107802.html>opublikowany w serwisie dobreprogramy.pl</a> pod tytułem "Sterowniki do Intela w Windows 10 są gotowe... a takie ładne, hamerykanskie..."</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Poniższy wpis skompletowałem na podstawie doświadczenia, które miałem przyjemność przeżyć z najbardziej dopracowanym i stabilnym systemem świata... i pisanymi od lat sterownikami bardzo znanej i lubianej ostatnio korporacji.</p>
+
+<p>Sugeruję, żeby listę czynności przejść skrótowo, natomiast skupić się na wnioskach.</p>
+
+<p>No to zaczynamy:</p>
+
+<p><b>Pacjent:</b> jeden ze starszych modeli businesowych (zgodnie z teorią tych podobno lepiej wspieranych i wykonanych) firmy Dell z kartą Intela i NVidii</p>
+
+<p><b>Trzewia pacjenta: </b>Windows 10 1909 64-bit (ostatni stabilny)</p>
+
+<p><b>Powód do wszczęcia zabiegu:</b></p>
+
+<p>&quot;We heard how much our users want the freedom to upgrade their systems to our regularly released generic graphics drivers and enable our latest game enhancements, feature updates, and fixes. As of this release, Intel Graphics DCH drivers are now unlocked to upgrade freely between Computer Manufacturer (OEM) drivers and the Intel generic graphics drivers on Download Center&quot;</p>
+
+<p>Pojawia się tu informacja o dobrym wujku, który pochylił się nad boleściami i płaczami tysięcy użytkowników i w swej łaskawości po latach mordęgi pozwolił im pobrać ok. 300 MB i nacieszyć się najświeższą wersją swojego dzieła (nomen omen tej informacji zabrakło w tekście <a href="https://www.dobreprogramy.pl/Intel-gotowy-na-Windowsa-10-20H1.-Wydano-nowe-sterowniki-graficzne,News,107790.html" target="_blank" rel="noopener">https://www.dobreprogramy.pl/Intel-gotowy-na-Windowsa-10-20H1.-Wydano-...</a>, co jest niestety ogromnym niedociągnięciem)</p>
+
+<p><b>Procedura:</b></p><p>Po sprawdzeniu, że pacjent ma wszystkie możliwe uaktualnienia i pobraniu pakietu ze strony Intela uruchomiłem w nim setup, co poskutkowało komunikatem:</p>
+
+<p><center><img src="sites/default/files/399/error1.png" style="width:608px;height:341px;" alt="image" title="image" /></center>
+
+<p>W tej sytuacji wykonałem procedurę odinstalowania pakietu &quot;Intel Graphics Driver&quot; poprzez Apps &amp; Features. Jeszcze tylko restart i w Device Managerze mogłem zobaczyć wpis, że mam zainstalowaną kartę graficzną Intela ze sterownikiem w odinstalowanej wersji.</p>
+
+<p>Jeszcze tylko sprawdzenie Windows Update (instaluje się Intel(R) Corporation - MEDIA) i mogłem przystąpić do instalacji &quot;nowej&quot; wersji sterowników. Click, click i reboot.</p>
+
+<p>Dwie rzeczy widać na pierwszy rzut oka - brak wpisu w Apps &amp; Features i brak opcji menu do przejścia do panelu sterowania sterowników (Intel Command Center). Zauważyłem, że usługa Intel HD Graphics Control Panel Service działa, więc jak mniemam dla mojego dobra i lepszego &quot;user experience&quot; powinienem wrócić do wersji OEM.</p>
+
+<p>Ale... ale... zajrzyjmy jeszcze do Microsoft Store.</p>
+
+<p>&quot;We asked, you answered. You&#39;re tired of our &#39;old, boring, corporate-looking&#39; Graphics Control Panel. We were too and we designed a completely new one from the ground up! We&#39;re incorporating the changes you - the gamers, home theater enthusiasts, professionals, and everyday tinkerers requested. Using a phased approach, we&#39;re rolling out something we&#39;re proud to share with you.&quot;</p>
+
+<p>Install...&#160;</p>
+
+<p>I co się ukazało moim oczom?</p>
+
+<p>Ano wszystkie opcje ze &quot;starego&quot; panelu, było też kilka nowych (tak niezbędnych jak włączone domyślnie pokazywanie ofert od developerów):</p>
+
+<p><center><img src="sites/default/files/399/info1.png" style="width:608px;height:363px;" alt="image" title="image" /></center>
+
+<p>Anyway, popatrzyłem, podumałem i zdecydowałem, że może za stary grzyb jestem na takie wspaniałości i dla świętego spokoju może jednak warto spróbować wrócić do starszej pobłogosławionej przez producenta laptopa wersji.</p>
+
+<p>Klik, klik i...</p>
+
+<center><img src="sites/default/files/399/error2.png" style="width:608px;height:241px;" alt="image" title="image" /></center>
+
+<p>Jołki, połki, przeca ściągałem plik w grudniu. Noż kruca bomba.</p>
+
+<p>No dobrze, to idziemy zgodnie z taktyką &quot;Pokaż kotku co masz w środku&quot; - po rozpakowaniu pacjenta stało się jasne, że &quot;najnowsza&quot; wersja 26.20.100.7263 działa do Microsoft Windows* 10-64 (19H1).</p>
+
+<p>I jak żyć?</p>
+
+<center><img src="sites/default/files/399/dm1.png" style="width:357px;height:405px;" alt="image" title="image" /></center>
+
+<p>Device Manager, Update Driver, Browse my computer for driver software, Browse for drivers on your computer (z wybraniem katalogu, gdzie rozpakowałem &quot;stary&quot; sterownik od Della)</p>
+
+<center><img src="sites/default/files/399/dm2.png" style="width:526px;height:405px;" alt="image" title="image" /></center>
+
+<p>Fajny ten komunikat - wiem, że najlepszy sterownik jest zainstalowany (co oczywiście niekoniecznie może być prawdą, bo sterownik może mieć nowe błędy regresji) i wiem, że podobnie jak w przypadku MS Office mogę poczuć się lepiej (tam mnie zawsze śmieszy informacja, że jestem właścicielem danej aplikacji)</p>
+
+<p>Może wobec tego &quot;Roll back driver&quot;?</p>
+
+<center><img src="sites/default/files/399/un1.png" style="width:584px;height:392px;" alt="image" title="image" /></center>
+
+<p>Podumał, podumał i wrócił do wersji 7263 (której oczywiście dalej nie można zainstalować z pakietu od Della) </p>
+
+<center><img src="sites/default/files/399/dm1.png" style="width:357px;height:405px;" alt="image" title="image" /></center>
+
+<p>&quot;Uninstall Device&quot;? (jest napisane, że Advanced, więc pewnie coś dla mnie)</p><p>Sekundka i karta graficzna Intela zniknęła z Device Manager.</p>
+
+<p>Teraz szybciutko &quot;Scan for hardware changes&quot; i karta magicznie wróciła (sterownik 8187)</p><p>Jeszcze raz &quot;Uninstall Device&quot; i reboot.&#160;</p>
+
+<p>To samo.</p>
+
+<center><img src="sites/default/files/399/un1.png" style="width:584px;height:392px;" alt="image" title="image" /></center>
+
+<p>A może to samo z zaznaczeniem &quot;Delete the driver software for this device&quot;?</p>
+
+<p>Karty brak, znowu &quot;Scan for hardware changes&quot;... i jest wersja 7263, którą właśnie podobno odinstalowałem (a może jednak nie?)&#160;</p>
+
+<p>No to spróbujmy czegoś innego - Update Driver, Browse my computer for driver software, Let me pick from a list of available drivers on my computer, Have disk... (i tu wybieram katalog Graphics wewnątrz katalogu ze &quot;starym&quot; sterownikem).</p>
+
+<p>Restart, a co ciekawe na moim dysku zadomowiła się kolejna wersja sterownika Intela z dnia 25 września 2019.</p>
+
+<center><img src="sites/default/files/399/xx.png" style="width:525px;height:405px;" alt="image" title="image" /></center>
+
+<p>Jeszcze restart... i mam możliwość odinstalowania sterownika Intela z &quot;Apps &amp; Features&quot;, mam też &quot;stary&quot; Panel Sterowania Intela (a pakietu od Della dalej nie mogę zainstalować, bo jest niezgodny).</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>veri kuuull</p>
+
+<p>Wersja alfa Windows NT 3.1 powstała gdzieś około 1991, a dziś mamy maj 2020. Firma tak duża jak Microsoft zdecydowanie miała czas i środki, żeby móc stworzyć piękną intrastrukturę do tego, żeby użytkownik jasno mógł wskazywać jakie sterowniki mają być uruchomione (a już najlepiej żeby można było je trzymać w różnych katalogach i np. wybierać przy starcie systemu, który ma być użyty).</p>
+
+<p>Obecna struktura to taki misz-masz stworzony w czasach, gdy dyski były małe, a wszystko się współdzieliło (oczywiście dzisiaj gentlemani nie rozmawiają o rozmiarach, więc 300 MB w tę czy drugą stronę to pryszcz).</p>
+
+<p>Mnie pozostaje tylko podziękować, że dla Microsoftu pracowali kiedyś ludzie, którzy mieli wiedzę techniczną i siłę przebicia do tego, żeby opracować i wprowadzić różne mechanizmy, dzięki którym możemy sobie radzić z tym najbardziej dopracowanym w dziejach i najbardziej lekkim systemie operacyjnym.</p>
+
+<p>Jak to mówią: Te funkcje to funkcje na miarę naszych możliwości, którymi bohatersko pokonuje się trudności nieznane w żadnym innym systemie!</p><p>Niby nie powinienem się czepiać, niby wszystko działa, ale... śmieszy mnie to, że w każdym, ale to każdym OS mamy różne takie drobne problemy. Fajnie się to rozwiązuje, ale...</p>
+
+<p>Żeby mnie nie posądzać o stronniczość: najnowsze microcode CPU dla mojego procesora dostarczane jest już przez Microsoft jakiś szósty miesiąc (tzn. sześć miesięcy temu <a href="?q=node/378">zainstalowałem je sobie w myśl zasady &quot;zrób to sam&quot;</a>, a do dziś nie dostałem pakietu z Windows Update). Pozostaje mi tylko się cieszyć, że będzie ono zapewnie doskonale i profesjonalnie sprawdzone przez armię testerów, którzy rzecz jasna wypróbują każdą kombinację możliwych instrukcji.</p>
+
+<p>Drugim problemem, który widzę, jest dostarczanie &quot;specjalnych&quot; wersji sterowników nawet przez głównych producentów. Oczywiście niektórzy stwierdzą, że przecież te są optymalizowane do granic możliwości... a ja sobie wtedy myślę, że tak - pewnie producent laptopa zmienił projekt procesora Intela i zamówił sobie kilka milionów egzemplarzy różnych wersji używanych w tym modelu albo (co bardziej prawdopodobne) zatrudnił profesjonalny team do zabaw z kodem samego sterownika.</p>
+
+<p>Przypominają mi się trochę czasy, gdy zmieniałem ID urządzeń w sterownikach po to, żeby te nagle zaczęły działać z moim sprzętem...</p>
+
+<p>Tak sobie też myślę, że dobrze byłoby dożyć kiedyś czasów, gdzie producent laptopa zdecyduje się dać możliwość wyłączenia albo włączenia wszystkich urządzeń na PCI, które tenże laptop ma.</p>
+
+<p>Chcę kartę Nvidii? ON</p>
+
+<p>Chcę Intela? Nvidia OFF</p>
+
+<p>Nie chcę USB? (no w terenie tak może być) OFF</p>
+
+<p>Nie chcę Intel ME? (no w sumie po co w domowej maszynie) OFF</p>
+
+<p>itd. itd.</p>
+
+<p>Chciałbym też dożyć czasów, gdy producent sprzętu nie będzie wychodził przed szereg i w imię dodawania swojego logo czy zwiększania sprzedaży nie będzie mnie legalnie zmuszał do tego, żebym używał &quot;jego&quot; sterowników albo &quot;jego&quot; kart Wifi.</p>
+
+<p>I żeby korporacja A nie zrzucała winy na B (a bo to wina Intela), a B na A (nie, nie, to jednak OEM).</p>
+
+<p>Proszę zauważyć, że nie użyłem słowa Linux - chcę jednak zauważyć, że tam podobnych szopek z brandowaniem jakby nie ma (są związane z tym, że jądro jest dosyć monolityczne, ale to jednak inna bajka...) </p>
+
+<p>Tak sobie myślę, że gdyby nie czepialscy niewykształceni ludzie od Open Source, to jednak dzisiaj dalej byśmy się bawili z crapware, BIOSami z błędną obsługą ACPI... a tak to korporacje jednak mają pewną motywację, żeby chociaż równać do poziomu, który im się narzuca.</p>
+
+<p>I owszem, może otwarte sterowniki w pingwinie nie są idealne, ale są.</p>
+
+<p>PS. Bardzo bym chciał zobaczyć podobną konkurencję w obszarze sprzętu - AMD pokazało chipset B550 (bez PCI4, co oznacza &quot;wyjce&quot; na X570, jeśli nam to potrzebne), zapowiedziało teoretyczny brak wsparcia w starszych chipsetach dla nowych Ryzenów (jakby nie można było mieć możliwości wyboru AGSY stosownie do procesora, co powinno rozwiązać problem małego BIOS) i obowiązkowe funkcje zabezpieczające w nowych businesowych Ryzenach (które pewnie jako jedyne wejdą do różnych lapków)...producenci też zaczęli nas raczyć tym, co kochamy w AMD - małymi bateriami, brakiem TB3 i jednokanałowymi pamięciami.&#160;</p>
+
+<p>veri kulll&#160;&nbsp;</p>

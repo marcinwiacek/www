@@ -1,0 +1,68 @@
+﻿Title:Przepisy polskie - stan A.D. 2012 technicznym okiem (2012)
+Author:marcin
+When:17 Mar 2012
+Taxonomy:Polski,Polski artykuł,Android,drogowe
+
+<p>Dawno, dawno temu popełniłem dosyć prostą <a href=?q=node/185>aplikację "Przepisy drogowe" na platformę Android</a>. Aplikacja prosta, bezpłatna (ale ze wskazaniem na możliwość złożenia dotacji na jej rozwój), całkiem nieźle oceniona w swojej kategorii (pierwsza dziesiątka).
+
+<!--break-->
+<p>Jednym z jej elementów były/są ujednolicone wersje Ustawy o ruchu drogowym (tzw. Kodeksu Drogowego) i Ustawy o kierujących pojazdami.
+
+<p>I chociaż do dnia dzisiejszego ilość środków pieniężnych uzyskanych za jej tworzenie jest ujemna (nikt nie pokwapił się o złożenie nawet 1 grosza, a konto w Android Markecie zwanym teraz Google Play założyć trzeba było), pomyślałem, że jednak warto całość rozszerzać (wszak cel jest szczytny ;)).
+
+<p><b>Zacząłem zgłębiać temat przepisów, a raczej sposobu ich publikacji. Czy można to jakoś zautomatyzować ? Czy trzeba polegać na ręcznym składaniu całości wersji ujednoliconych ?</b>
+
+<p>Chwila googlowania i widać jak na dłoni, że powstał <a href=http://dziennikustaw.gov.pl/>dziennikustaw.gov.pl</a>. Można na nim przeczytać:
+
+<p><i>Zgodnie z ustawą z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych (Dz. U. z 2011 r. Nr 197, poz. 1172, z późn. zm.), Dziennik Ustaw Rzeczypospolitej Polskiej (Dziennik Ustaw) wydaje Prezes Rady Ministrów przy pomocy Rządowego Centrum Legislacji.</i>
+
+<p><i>Od 1 stycznia 2012 r. Dziennik Ustaw wydawany jest w formie elektronicznej, z zachowaniem kolejności pozycji w danym roku kalendarzowym. W Dzienniku Ustaw ogłaszane są akty normatywne i inne akty prawne. Dniem ogłoszenia aktu jest dzień jego ogłoszenia w postaci elektronicznej na stronie internetowej organu wydającego Dziennik Ustaw. Dzień ogłoszenia aktu w postaci elektronicznej umieszczony jest w obrębie nagłówka strony.</i>
+
+<p>Nie ma już tutaj znanych z <a href=http://isap.sejm.gov.pl/>isap.sejm.gov.pl</a> "ciekawych" zastrzeżeń:
+
+<p><i>ISAP nie jest źródłem prawa. Jedyne źródło prawa na terenie Rzeczypospolitej Polskiej stanowią, na podstawie ustawy z dnia 20 lipca 2000 r. "O ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych" (Dz.U. 2007 r. Nr 68, poz. 449) akty prawne ogłaszane i wydawane w Dzienniku Ustaw i Monitorze Polskim</i>
+
+<p><i>Nie zezwala się na komercyjne używanie, kopiowanie i inne wykorzystywanie danych znajdujących się w bazie danych ISAP.</i>
+
+<p>(ciekawe było zwłaszcza sformuowanie <i>"inne wykorzystywanie danych"</i>)
+
+<p>Skoro isap to "przeszłość", to warto wrócić do <a href=http://dziennikustaw.gov.pl/>dziennikustaw.gov.pl</a>. I co się okazuje ? Są PDFy i czasami XMLe. PDFy pozwalają na kopiowanie tekstu (i tu pojawia się pierwszy "issue" - starsze Dz.U. były "traktowane" OCRem i widać bardzo ciekawe "kwiatki"), XMLe natomiast zawierają podpisaną elektronicznie wersję tychże PDFów.
+
+<p>Ale przecież nie o to chodziło - chociaż idea jest zacna i można całość przeszukiwać, brakuje dosyć mocno "wartości dodanej" czyli przede wszystkim możliwości sprawdzenia, jak dany akt prawny wyglądał w dniu X.
+
+<p>Kolejna chwila googlowania i okazuje się, że Dz. U. oraz akty prawa miejscowego są obecnie tworzone na podstawie XMLi z opisem struktury logicznej (podział na poszczególne elementy takie jak punkty, rozdziały, itp.) oraz informacją o tym, jak dany akt wpływa na inne (co w nich zmienia). <b>Rewolucja, prawda ?</b>
+
+<p>I o ile XMLe można znaleźć w przypadku aktów prawa miejscowego (samorządy są do tego prawnie zmuszone), o tyle w przypadku Dz. U. nie jest tak różowo i obecnie dostępne są i będą jedynie PDFy. Polecam tutaj lekturę "<a href=http://dziennikustaw.gov.pl/DU/2011/s/289/1699/1>Rozporządzenia Prezesa Rady Ministrów z dnia 27 grudnia 2011 r. w sprawie wymagań technicznych dla dokumentów elektronicznych zawierających akty normatywne i inne akty prawne, dzienników urzędowych wydawanych w postaci elektronicznej oraz środków komunikacji elektronicznej i informatycznych nośników danych</a>" oraz "Ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych" (która była kilka razy zmieniana).
+
+<p>Skoro XMLi brak, to może chociaż gdzieś można znaleźć informację o ich formacie ? Po chwili można zauważyć <a href=http://dziennikustaw.gov.pl/DU/2008/s/75/451/1>"Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 25 kwietnia 2008 r. w sprawie wymagań technicznych dokumentów elektronicznych zawierających akty normatywne i inne akty prawne, elektronicznej formy dzienników urzędowych oraz środków komunikacji elektronicznej i informatycznych nośników danych</a>.
+
+<p>Bardzo ciekawa jest tam kwestia załączenia pliku XSD (opisującego poprawne znaczniki wewnątrz XML) z zewnętrznego PRYWATNEGO serwera (o tym skandalu szerzej pisał Piotr Waglowski w <a href=http://prawo.vagla.pl/node/7841>tekście "Dziennik Ustaw nr 75 z 2008 roku, poz 451, strona 4216..."</a>), jeżeli jednak szerzej zastanowić się nad zaproponowanymi tam rozwiązaniami, to np.:
+
+<ul><li>plik XSD jest "z lekka niekompletny"
+<li>w opisie znaczników brakuje mi jakby możliwości zmiany w jakimś innym akcie prawnym daty obowiązywania jakiegoś elementu (przykład - zmiany w "Ustawie o kierujących pojazdami" wymuszają podobną operację)
+<li>nazwy polskie ("nr") są przeplatane w angielskimi ("id")
+</ul>
+
+<p>Chwila spojrzenia na przykładowe XMLe prawa miejscowego (można się posłużyć np. portalem <a href=http://www.prawomiejscowe.pl/>www.prawomiejscowe.pl</a> tworzonym przez firmę zewnętrzną) i widać pewne różnice. Ot pierwszy drobiazg - zamiast XMLi mamy jakieś pliki ZIPX, LAPX, itd. (od razu podpowiem - na szczęście zawierają one wspomniane XMLe). Kolejny rzut oka wewnątrz i widać już coś "grubszego" - format nie do końca odpowiada temu wymienionego wcześniej.
+
+<p>Pomocne okazuja się znowu google i widać, że istnieje coś takiego jak "Edytor Aktów Prawnych EDAP". Po wejściu na <a href=http://bip.msw.gov.pl/portal/bip/185/18658/Edytor_Aktow_Prawnych_EDAP__wersja_z_dnia_31_marca_2010_r.html>odpowiednią podstronę MSW</a> można nawet znaleźć schemę XSD.
+
+<p>I co się okazuje ? Schema jest jakby taka sama, ale mocno inna. Co więcej - z grubsza odpowiada formatowi XMLi z prawem miejscowym. Ciekawym okazuje się, że wewnątrz tiretów pojawiają się nowe jednostki (co chyba nie do końca jest zgodne z zasadami techniki prawodawczej określonymi w <a href=http://dziennikustaw.gov.pl/DU/2002/s/100/908/1>Rozporządzeniu Prezesa Rady Ministrów z dnia 20 czerwca 2002 r. w sprawie „Zasad techniki prawodawczej”</a>). Podobnie niejasnym okazuje się chociażby format identyfikatorów.
+
+<p>I rzecz najciekawsza - wydaje się, że jest to ten "właściwy" plik do walidacji, ale zawiera odwołania do zewnętrznych plików i niestety okazuje się bezużyteczny (a w każdym razie "standardowe" edytory XML mają problem z jego użyciem)
+
+<p><b>I co z tego wynika ?</b> XML sam w sobie jest formatem otwartym mającym swoje wady (choćby wielkość, zwykle nie do końca duża czytelność, itp.) i zalety (powiązanie ze schemami do sprawdzenia albo z arkuszami XSLT opisującymi sposób wizualizacji), decyzja o jego użyciu jest jednakże niewątpliwie pozytywnym krokiem milowym w kierunku tworzenia społeczeństwa informacyjnego.
+
+<p>Problemem jest fakt wylania dziecka z kąpielą - jaką zaletę z XML może zobaczyć zwykły obywatel, skoro nie wszystkie akty są publikowane z jego użyciem i skoro do dzisiaj nie ma chyba nigdzie pełnych informacji o sposobie jego wykorzystania ? (wiedzę tajemną na pewno "posiada" kilka edytorów komercyjnych) 
+
+<p>Żeby nie było wątpliwości co do zalet (i nie mówię tego, aby się chwalić) - kod do wyświetlenia pliku z wersją jednolitą "Ustawy o kierujących pojazdami" oraz stworzenia pierwszych wersji plików XML z ogólnodostępnych źródeł udało mi się przygotować dosłownie w kilka dni (ot takie mało ćwiczonko "relaksacyjne"). Użyłem formatu z Rozporządzenia z 25 kwietnia 2008.
+
+<p>Wyszły na jaw takie ciekawostki jak formalny błąd w Dz. U. z 2011 r. Nr 92, poz. 530 (jest tam mowa o zmianie tekstu w treści Ustawy i jeżeli dosłownie zastosować opisaną tam regułę, to w treści oryginalnej Ustawy nie można znaleźć odpowiedniego tekstu do zastąpienia) czy obecność elementów wyglądających jak tiret wewnątrz tiretu.
+
+<p>I jest to tylko przedsmak - całość spokojnie możnaby rozszerzyć o szukanie, porównywanie wersji, itp.
+
+<p>Jest tylko jedno małe "ale" - całość miałaby duży sens przy pełnej bazie aktów prawnych....A czy jest sens zajmować się tym, skoro <a href=?q=node/185>wspomniane Przepisy drogowe</a> są darmowe ? Czy jest sens dublować coś, co być może zostanie udostępnione ? (miejmy nadzieję, że nieodpłatnie)
+
+<p>Może więc warto uczynić aplikację płatną ? Tylko czy wtedy taka baza różniłaby się czymś mocno od baz komercyjnych już dostępnych ? (które to nomen omen stały się jakby źródłem prawa dla różnych osób - przykładem niech będzie <a href=http://lexdroid.pl/faq.html>aplikacja Polskie Kodeksy Pro dla Androida</a> aktualizowana w oparciu o Lexa)
+
+<p><b>Pytań jest dużo, odpowiedzi mało...</b>i nie chodzi mi tutaj o narzekanie, ale pokazanie pewnego "backgroundu". Z drugiej strony - może nie powinienem się tym zajmować, skoro artykułem pierwszej potrzeby stały się dziś dosyć nieskomplikowane rozrywki takie jak telewizje muzyczne ? (odnoszę się tutaj oczywiście do przetargu na multipleksy cyfrowe ;))

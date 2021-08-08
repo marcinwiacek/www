@@ -1,0 +1,28 @@
+﻿Title:Windows 7 Beta 1
+Author:marcin
+When:18 Jan 2009
+Taxonomy:English,Windows 7,English article,OS
+SkipMain:true
+
+<p>Here is list of problems with beta 1 (build 7000). I was using laters VMWare Player, 10 GB HDD + 1 GB RAM (PC with 3 GB RAM and C2D 7300).</p>
+<p>Installation and upgrade</p>
+<ol><li>No extended partition creating during setup
+</li><li>No directory selecting for system (it's always installed in Windows directory on selected disk)
+</li><li>There is created additional partition 200 MB
+</li></ol><p>Security and privacy</p>
+<ol><li>There is disabled by default displaying files extensions...
+<!--break-->
+</li><li>There are still available shares C$, D$, E$,...
+</li><li>when I click "Run as administrator" and run some application, I don't have later clear info, that this application has got admin privileges (it would be good to have something like "(Admin mode)" added to window title)
+</li><li>when I run cmd and later chkdsk, it displays, that, that needs admin privileges. Can't it simply display disk info only then ?
+</li><li>there is great SysInternals Suite available on MS page. You have such tool like ProcessExplorer there. I was very surprised, that it's still not used instead of Task Manager. And I'm very surprised - when ran it in limited mode, it can display some info about all processes (at least exe names, cpu usage, etc.). Task Manager needs clicking button "show processes from all users".
+</li></ol><p>Other topic</p>
+<ol><li>when you start system, it displays "Starting Windows" (without system version - something like "Starting Windows 7")
+</li><li>When you try to enter "C:\Documents and Settings" (it's link to other directory) in explorer, you receive info about error
+</li><li>When you enable displaying hidden files, you can see desktop.ini on the desktop
+</li><li>Default ethernet controler in VMWare Player (Vid 1022, pid 2000) is not supported by default. I had to change card type in VMWare Player to make it working...
+</li><li>You can't enable animation for network card (in XP in icon in the tray there are displayed blue screens instead of black, when there is transfer)
+</li><li>when you set higher DPI, there are problems in Alt-Tab window, Control Panel &amp; Taskbar (yes, there is a lot of free space), many windows are not scaled (example: Device Properties)
+</li><li>open Network ans Sharing Center, click Local Area Connection. You receive "CoInitialize has not been called" message box. Click "See full map", click Local Area Connection. It works.
+</li><li>Explorer - it displays the same info, when you try to enter link directory (C:\documents and settings) and when you try to enter directory, where you don't have access (c:\system volume information")
+</li></ol><p>and finally performance. Worse than in XP run in the same config...</p>

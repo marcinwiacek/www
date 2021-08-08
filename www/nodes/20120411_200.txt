@@ -1,0 +1,14 @@
+﻿Title:Android Market - aplikacja APN wersja 2 (2012)
+Author:marcin
+When:11 Apr 2012
+Taxonomy:Polski,Polski blog,Android,GSM,APN
+
+<p><a href="?q=node/195">Jakiś czas temu napisałem proste narzędzie APN do ustawiania APNów używanego przeze mnie operatora MVNO</a>. Przy jego pisaniu wyszło na jaw, że w systemie Android podobne operacje wykonywane są bezpośrednio na niezbyt udokumentowanej bazie danych.</p>
+<p>Z przyjemnością mogę powiedzieć, że narzędzie zostało uaktualnione o kolejnych operatorów i ma w sobie teraz APNy i ustawienia Plus, mBank mobile, T-Mobile.pl, Play, Aero2. Mogę go także uaktualnić o dane kolejnych sieci.</p>
+<!--break-->
+<p>Narzędzie ma teraz opcje nie tylko do dopisywania własnych ustawień do bazy Androida, ale również pełnego zmieniania w niej wpisów (jeżeli aplikacja ma dane, to usuwane są wpisy systemu i w przypadku braku APN o nazwie jak we własnych danych są one dodawane) oraz...automatycznego wywoływania tej funkcji po starcie telefonu i wpisaniu PIN (ta funkcja jest opcjonalna i domyślnie wyłączona).</p>
+<p>Wychodzi tutaj na jaw prymitywizm Androida - nie można zrezygnować ze startu jakiegoś kodu po starcie telefonu (niewielka część APN jest więc zawsze startowana i wydłuża czas uruchamiania urządzenia), zaletą jest możliwość resetu do ustawień zaszytych w systemie (przynajmniej mój telefon to ma).</p>
+<p>Aplikacji ponownie nie testowałem w Androidzie 4 - ROMy dla mojego telefonu wydają się delikatnie mówiąc rozczarowywujące, a zakup nowego telefonu nie wnosi dla mnie zbyt dużej "wartości dodanej" (szczególnie, że może pojawić się wkrótce Tizen).</p>
+<p>PS. Wspomniane wyżej kwestie to nie jedyny problem tego systemu. Przykładowo ostatnio próbowałem sprawdzić, czy można wysłać SMSy z dowolnymi ustawieniami nagłówków (podobnie jak w obecnych od wielu lat modemach AT). I co ? To "nowoczesne" rozwiązanie tego NIE MA. Żenada.</p>
+<p>PS2. Podobną żenadą jest brak wszystkich funkcjonalności dobrego skądinąd Blueza (a przynajmniej nie udało mi się znaleźć sensownej opcji łączenia z użyciem RFCOMM)</p>
+<p>PS3. Przypomina się w tym miejscu artykulik <a href="http://www.telepolis.pl/news.php?id=24555">http://www.telepolis.pl/news.php?id=24555</a>. Mówiąc krótko - w systemie Google dosyć słabo jest z wieloma rzeczami, podobnie sam zauważam procesy od aplikacji, które teoretycznie nie powinny ich mieć (a przynajmniej trudno sensownie wytłumaczyć ich obecność)</p>

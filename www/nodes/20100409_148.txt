@@ -1,0 +1,22 @@
+﻿Title:Ona...
+Author:marcin
+When:09 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Gdy Ciebie w pobliżu widuję,<br />
+jedno wspomnienie przywołuję.<br />
+Gdy przy radosnym składaniu życzenia wigilijnego<br />
+nie wstydziłaś się dotknąć lica mego niedzisiejszego.<br />
+Gest zwykły, normalny, na pewno już zapomniany,<br />
+lecz dla mnie był wtedy tak mocno niespodziewany.<br />
+Z wdzięcznością będę to wspominać dlatego,<br />
+że nikt inny nie miał ochoty zrobić wtedy tego.<br />
+Jest też inne, jak żeś na czarno ubrana kiedyś się pokazała,<br />
+spojrzenie kotki, gdyś opiętą pierś do przodu dumnie wypinała.<br />
+W talii szerokim błyszczącym paskiem byłaś przepasana,<br />
+<!--break-->
+przez co pierś podwójnie była widoczna i wyeksponowana.<br />
+Faceci podświadomie myślami wokół Ciebie krążyli,<br />
+gdy Ciebie tak seksowną tego dnia wtedy zobaczyli.</p>

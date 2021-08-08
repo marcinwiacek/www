@@ -1,0 +1,10 @@
+﻿Title:Report 2007-07-01
+Author:marcin
+When:02 Jul 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>There has been Gammu+ 0.28 released. There is promised shared MMS/SMS API inside and some other changes. This is still test release, but there is next big step into first stable version done. If somebody will want, I will allow for using it under GPL/LGPL3 (and this is not possible for Gammu without "+").</p>
+<!--break-->
+<p>I have passed exam connected with diploma work and I can say now, that my studies have been end. I have money from first salary. I can say, that this is time of big changes and I have closed some chapter... I will work on Gammu+ in my free time. There is still a lot to and I hope to meet many people, who will want to help in it. wxWidgets are rather difficult for programmers, but I hope to make nice GUI with full functionality (yeah, yeah, it was promissed long time ago, but work, although slower, goes in good direction and successful end).</p>
+<p>I will want to change phone in few next months. This won't be probably Symbian phone - I don't see anything meeting my requirements and I don't have money for two devices.</p>

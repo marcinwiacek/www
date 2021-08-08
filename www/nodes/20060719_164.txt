@@ -1,0 +1,26 @@
+﻿Title: KMobileTools call for developers
+Author:marcin
+When:19 Jul 2006
+Taxonomy:English,English blog,GSM,Nokia
+
+<p>Request from some developers moved here from gammu.org</p>
+<p><a href="http://www.kmobiletools.org">KMobileTools</a> is a userfriendly GUI for accessing your mobile phone, using an own AT based engine and a gammu engine. It offers a nice <a href="http://apidox.kmobiletools.org">API</a> itself and will be directly integrated into <a href="http://pim.kde.org">KDE's PIM stuff</a>.</p>
+<!--break-->
+<p>Unfortunately, the project is progressing way too slow and the gammu engine is broken right now due to lack of developers. The gammu engine is an important milestone for the project in order to support as many mobile phone models as possible.</p>
+<p>Current work to do is: </p>
+<ul><li>Finishing and bugfixing AT engine (the more advanced at this time)
+</li><li>Doing a lot of work to get Gammu engine working
+</li><li>Fixing API codebase (i'll do this one by myself, but if anyone wants to help, it's really welcome..)
+</li></ul><p>If anyone would like to implement another engine (ie. gnokii), even this can be done easily, but more important would be fixing the existing stuff :-)</p>
+<p>We don't require extraordinary coding skills:</p>
+<ul><li>ordinary C or C++ knowledge
+</li><li><a href="http://doc.trolltech.com"></a>QT API/<a href="http://developer.kde.org/documentation/library"></a>KDE API (but they are really easy to learn, if you already know a object oriented language).
+</li></ul><p>Anyway, it depends on the task you want to do:</p>
+<ul><li>for Gammu you'll need C skills
+</li><li>for AT Engine only C++, and a bit more advanced QT skills
+</li><li>for kioslaves an advanced kde knowledge
+</li></ul><p>and so on. Please talk to us directly for further information.</p>
+<p>If you are interested in joining the KMobileTools team (believe us - it's fun!), you can contact us on <a href="irc://irc.freenode.org/kmobiletools">IRC</a> (irc.freenode.org #kmobiletools) or via email under one of these addresses:</p>
+<p>   marco (at) kmobiletools (dot) org<br />
+   bochi (at) kmobiletools (dot) org</p>
+<p>All contributors are more than welcome :-)</p>

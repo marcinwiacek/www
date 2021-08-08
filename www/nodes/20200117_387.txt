@@ -1,0 +1,111 @@
+﻿Title:Też miałem przyjemność z Mozillą... Nie jest dobrze, moim zdaniem oczywiście. (2020)
+Author:marcin
+When:17 Jan 2020
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Android,TrueFenix,Chrome
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Tez-mialem-przyjemnosc-z-Mozilla-Nie-jest-dobrze-moim-zdaniem-oczywiscie,105807.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Tym wpisem nie mam zamiaru się chwalić, tylko na swoim skromnym przykładzie chciałbym potwierdzić, że źle się dzieje w państwie duńskim.</p>
+<!--break-->
+<p>Paradoksalnie zacznę od Google Chrome. To ogromny projekt, a mówiąc dosadniej kobyła. </p>
+
+<p>Znają go wszyscy, a ja przez ostatnie kilka lat zgłaszałem tam trochę uzupełnień głównie do części napisanej w Javie (Android) - były to w większości optymalizacje i tzw. refaktoring kodu (tu uciąć 1000 linijek kodu, tam 1500, takie tam zabawy).</p>
+
+<p>Oprócz kodu dosyć aktywnie podawałem tam wiele informacji o stosunkowo prostych błędach interface użytkownika czy błędach renderowania (dużo ich widziałem niejako przy okazji swoich głównych projektów).</p>
+
+<p>Linki są na mojej stronie, bardzo duże rozczarowanie wzbudziło we mnie chociażby:</p>
+
+<ul><li>decyzja o <a href="https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/DP9TQszzQLI" target="_blank" rel="noopener" rel="nofollow">wyłączeniu tzw. buildów Jumbo</a> - tą decyzją Google wydłużyło czas kompilacji projektu o dobre kilkaset procent (np. z godziny do ponad czterech), w zamian jedynie proponując dostęp do swoich serwerów, ale... uwaga! tylko dla części konfiguracji. Nie muszę chyba dodawać, jak podobne działanie wpływa na zużycie energii elektrycznej i środowisko naturalne (w takich dużych projektach kompilacje robi się setki lub tysiące razy dziennie).<br/></li>
+
+<li><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=118639" target="_blank" rel="noopener" rel="nofollow">brak implementacji keydown i keyup </a>- pomimo ogromnego zainteresowania użytkowników nikt wewnątrz firmy nie chce przyjąć żadnej opcji i tego poprawić.</li>
+
+<li>wstrzymywanie zmian ulepszających napisane wieki temu elementy interfejsu - np. taka pierdółka czyli <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962309" target="_blank" rel="noopener" rel="nofollow">zwijanie czy rozwijanie grup w oknie historii</a> wisi do dzisiaj</li>
+
+<li>błędy regresji i podstawowe problemy ze zrozumieniem kodu przez osoby sprawdzające moje poprawki<br/></li></ul>
+
+<p>Mógłbym podawać więcej przykładów, zauważyłem, że z czasem tzw. responsywność inżynierów zaczęła maleć, a błędy coraz częściej sprawdzali ludzie z pewnego państwa z Azji (co niestety odbiło się na jakości dyskusji).</p>
+
+<p>Z miesiąca na miesiąc widziałem, że część inżynierów (reagujących naprawdę rewelacyjnie) odchodzi z tego projektu, a niektórzy pozostali stopniowo zaczęli zachowywać się coraz bardziej nazwijmy to zapobiegawczo w akceptowaniu jakiegokolwiek kodu.</p>
+
+<p>Przyszedł grudzień 2019 i pojawił się chociażby <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1033655" target="_blank" rel="noopener" rel="nofollow">błąd, przy którym część użytkowników mogło stracić swoje dane...</a>. Zmiany w Chrome nie są normalnie wprowadzane z dnia na dzień i jeżeli coś takiego przeszło, to albo</p>
+
+<ul><li>nie było w ogóle testowane (nie wierzę, że nie przyjęto scenariusza, żeby zaktualizować aplikację z danymi) albo</li>
+
+<li>mówiąc kolokwialnie zostało przepchnięte bokiem w ostatniej chwili</li></ul>
+
+<p>Źle, źle i jeszcze raz źle.</p><p>Myślę, że stopień skomplikowania kodu przekroczył pewne granice - starsi inżynierowie powoli odchodzą (z CV, gdzie jest wpis o pracy w Google, nie jest to trudne), młodsi mają bardzo dużo do nauki.</p>
+
+<p>Sytuacji nie poprawia fakt, że spora część kodu została napisana w starszej Javie (wiem, wiem, że to nie Cobol, ale wszyscy zaczynają cieplej myśleć o Kotlinie niż o utrzymywaniu tysięcy linijek w Javie).</p>
+
+<p>Widzę, że część firm wzięła ten kod i zmienia go u siebie na swoją modłę (np. taki Brave ma repozytorium na GitHub). Jest to tragedia - czasami zajmuje się tym garstka ludzi, którzy oprócz rozwijania nowości muszą się zajmować portowaniem zmian od Google.</p>
+
+<p>Nie lubię tych forków, gdyż każda, ale to każda firma stawia sobie za cel dodanie swoich, czasem bardzo nachalnych, funkcji (tak samo zrobił Microsoft - mamy te wszystkie integracje).</p>
+
+<p>Gdzie jest w tym użytkownik?</p>
+
+<p>W tym momencie wrócę do Mozilli. Zdarza mi się używać jej aplikacji, i owszem czytałem o różnych problemach... ale jakoś mnie nie obchodziły.</p>
+
+<p>Zgłosiłem kilka błędów do zespołu zajmującego się wersją Preview, i wróciłem do nich teraz w styczniu 2020.</p>
+
+<p>Zespół pisze w swoim GitHubie, że jest mały, nie ma zasobów, itp.</p>
+
+<p>Jak tak można? Chcą zdobyć użytkowników czy nie?</p>
+
+<p>Myślę, że powinni zachęcać ludzi do zgłaszania ulepszeń, a nie odstraszać.</p>
+
+<p>Jeden z moich zgłoszonych błędów dotyczył tego, że nie działa JetStream 2. Po prawie trzech miesiącach i moim followup dostałem informację, że w sumie problem jest taki, że Gecko pyta się o to, że wykonywać dalej wolny skrypt, czy nie (i nie dostaje odpowiedzi).</p>
+
+<p>Dodanie tego to w najprostszej wersji trzy linijki kodu, nie muszę chyba dodawać, że nie zadziało się to do dziś (o tym jeszcze poniżej).</p>
+
+<p>Udało mi się przeprocesować jeszcze trzy zmiany, i niestety okazało się, że na tym chyba koniec - problem był nawet w zmianie na dwie linijki kodu (jeśli dobrze zrozumiałem aż trzeba było się zastanawiać, czy URL bar ma mieć tekst w jednej czy dwóch linijkach)</p>
+
+<p>Czy widzieliście kiedyś przeglądarkę, która miałaby element do wpisywania URL w dwóch linijkach?</p>
+
+<p>Myślę, że aplikacja mobilna powinna być priorytetem, tymczasem w mojej ocenie okazuje się, że błędy będące faktycznie podstawą (JetStream2) są na dole listy, a zewnętrzne zmiany często są wręcz niemile widziane.</p>
+
+<p>Powiedziałbym, że to może być zrozumiałe (ludzie z zewnątrz mogą nie znać zasad, pisać niskiej jakości kod, etc.), ale im dalej w las (kod), tym więcej grzybków.</p>
+
+<p>Zacząłem się bawić kodem i już na pierwszy rzut znalazłem miejsce do różnych optymalizacji czy przeróbek na lepsze.</p><p>Kilka zrzutów ekranu (widać ekran główny, gdzie obszar jest lepiej rozdysponowany; ustawienia, gdzie wszystko jest logiczne; historię ze zwijalnym obszarem):</p>
+
+<p><center><img src="sites/default/files/387/1.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/387/2.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/387/3.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/387/4.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/387/5.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/387/6.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/387/7.png" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Mój plan jest prosty - w wolnym czasie zamierzam popracować trochę na GUI, robiąc go logicznym i prostym do bólu, a potem przejść niżej.</p>
+
+<p>Kilka przykładów:</p>
+
+<ul><li>Chcę usunąć kolekcje - zrobić zamiast nich foldery zakładek (po co dwa obiekty?)</li>
+
+<li>Chcę dodać zmienialną stronę główną - nie ma już tej wielkiej części z logiem (bądź co bądź użytkownik wie, czego używa), ale jest miejsce na najczęściej otwierane, itp.</li>
+
+<li>Chcę usunąć telemetrię, która istotnie może spowalniać całość</li>
+
+<li>Chcę usunąć błędy, które są widoczne na pierwszy rzut oka<br/></li></ul>
+
+<p>Na dzień dzisiejszy potwierdzam, że źle się dzieje w państwie duńskim i polityczna poprawność w Mozilli zasłoniła pracę inżynierską - mają niezłą podstawę, ale co najmniej kilka projektów mobilnych (stąd niepotrzebny podział zasobów) i dużo, ale to dużo &quot;misji&quot;.</p>
+
+<p>W mojej ocenie to obecnie korporacja, która ma w nazwie &quot;fundacja&quot;.</p>
+
+<p>Stąd mój projekt, który jest teraz eksperymentem (ma mi pokazać, czy w krótkim czasie można coś z tego wszystkiego zrobić), ale mógłby przerodzić się w coś większego. Całość planuję umieścić na GitHub. Nie interesuje mnie, czy ktoś tu napisze, że się chwalę, że się chcę dowartościować, itp.</p>
+
+<p>Napisanie przeglądarki to dzisiaj gigantyczna robota, nie zmienia to faktu, że podobne zabawy z kodem dają solidną dawkę wiedzy do innych projektów.</p>
+
+<p>Miałem już w życiu dwie podobne sytuacje:</p>
+
+<ol><li>w 1999 zrobiłem fork projektu Gnokii, potem napisałem swój, który zmieniałem do 2007 (wtedy pojawił się iOS i projekt zaczął tracić rację bytu; kod jest zmieniany i używany do dziś)</li>
+
+<li>ok. 2011 zrobiłem coś lepiej niż inni - pewne rzeczy wtedy zaczęte służą mnie i tysiącom użytkowników do dziś</li></ol>
+
+<p>Jeżeli się teraz uda, to może za jakiś czas będzie seria artykułów.</p>

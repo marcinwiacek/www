@@ -1,0 +1,82 @@
+﻿Title:Krótkie spojrzenie na Samsung DEX... (2020)
+Author:marcin
+When:13 Dec 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Krotkie-spojrzenie-na-Samsung-DEX,112258.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Począwszy od Galaxy S8 Samsung wbudowuje w wiele swoich urządzeń tryb DEX, który przynajmniej w teorii pozwala na używanie telefonu z zewnętrznymi urządzeniami peryferyjnymi w charakterze zamiennika komputera.</p>
+
+<p>Początkowo wymagało to stacji dokującej z wentylatorem chłodzącym, obecnie doszły również inne opcje:</p>
+<!--break-->
+
+<ul><li>przez przejściówkę USB-HDMI (wtedy klawiatura i myszka muszą działać przez Bluetooth)</li>
+
+<li>przez dedykowany hub (wszystko po kablu)</li>
+
+<li>przez Wifi (+ Bluetooth, jak mniemam)</li>
+
+<li>przez zwykły kabel USB (w systemach Windows / Mac)</li></ul>
+
+<p>Ponieważ jakiś czas zamiast niezniszczalnego Galaxy S7 zacząłem trenować model S9 i znudziło mi się już znajdowanie niekonwekwencji w oprogramowaniu wewnętrznym (np. drobiazgi w trybie Secure-Folder, drobne błędy logiczne w ekranach, niemożliwośc zmiany funkcji przycisku Bixby, itp.), to pobrałem odpowiednią aplikację ze strony Samsunga w wersji Windows (ok. 100 MB), zaistalowałem ją i uruchomiłem.</p>
+
+<p>I tu pierwsza uwaga: w telefonie musi być włączona aplikacja &quot;Dex on PC&quot;.</p>
+
+<p>Następnie musimy zaakceptować połączenie: </p>
+
+<center><img src="sites/default/files/427/1.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>I już na ekranie komputera możemy się cieszyć okienkiem z pulpitem</p>
+
+<center><img src="sites/default/files/427/2.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Moja druga uwaga: ustawienia w Settings i launcherze wydają się być oddzielne od tych &quot;wewnętrznych&quot;, ale już np. mój motyw kolorystyczny został zamieniony również w menu telefonu.</p>
+
+<center><img src="sites/default/files/427/3.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Spróbowałem kilku aplikacji i te miały odmienny interface niż w telefonie (z uwagi na większy rozmiar ekranu najwyraźniej działały w trybie tabletowym). </p>
+
+<p>Możliwe jest np. wyświetlenie dwóch aplikacji obok siebie.</p>
+
+<center><img src="sites/default/files/427/4.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Moja trzecia uwaga: żeby uzyskać polskie litery, musiałem zmienić ustawienia klawiatury fizycznej.</p>
+
+<p>I czwarta: LCD na komputerze to jednak nie AMOLED i tryb &quot;biały&quot; wygląda o niebo lepiej.</p>
+
+<p>Próbowałem apki Netflixa, ale ta uraczyła mnie następującym komunikatem:</p>
+
+<center><img src="sites/default/files/427/5.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Jak się okazuje z opisów w pomocy, możliwe byłoby jej używanie w innych trybach Dex (tzn. nie poprzez komputer). Z polskiego na nasze: prawa autorskie.</p>
+
+<p>Sprawdziłem VOD TVP i ta zadziałała nawet w trybie pełnoekranowym, ale po jej użyciu musiałem zrestartować pulpit DEX, bo nie mogłem klikać myszą w launcherze systemowym.</p>
+
+<center><img src="sites/default/files/427/6.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Obecnie mamy tu właściwie wszystkie funkcjonalności - jest dźwięk przez głośniki komputera (mikrofonu i kamery nie sprawdzałem), są ikony systemowe, powiadomienia, możliwość wykonywania połączeń, itp.</p>
+
+<center><img src="sites/default/files/427/7.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Irytują natomiast błędy w aplikacjach - ten tryb nie jest transparentny i te najwyraźniej wymagają pracy programistów. Przykładem dla mnie było ciągłe włączanie opcji zawijania tekstu w WPS Office.</p>
+
+<p>Jeśli do tego dodać wyczuwalne opóźnienie pomiędzy akcją użytkownika i reakcją oraz drobne, ale dokuczliwe błędy od Samsunga, to dla mnie jasne się staje, że ten tryb jest obecnie bardzo dobry, jeżeli chcemy coś zrobić dorywczo, ewentualnie użyć go np. z telewizorem (na komputerze znacznie lepiej sprawdzą się aplikacje natywne).</p>
+
+<p>Poniżej przykład takiego błędu - w pewnym momencie w ustawieniach samej aplikacji nie widziałem możliwości zapisu ani wyjścia:</p>
+
+<center><img src="sites/default/files/427/8.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Innym będzie to, że pulpit DEX pokazany w okienku aplikacji Windows jest skalowany (tzn. wielkość czcionek, itp. dotyczy trybu pełnoekranowego, a w okienku mamy miniaturki).</p>
+
+<p>W trakcie pracy z DEX nie mogłem też np. zablokować samego telefonu, a na jego ekranie pojawiały się artefakty graficzne albo widziałem wynik akcji zainicjowanej z komputera (tak było np. ze sprawdzeniem aktualizacji oprogramowania urządzenia).</p>
+
+<p>Warto dodać, że jeszcze w zeszłym roku Samsung miał program beta pozwalający na uruchomienie w tym trybie Ubuntu 16.04 w wersji ARM (obraz zajmował coś około 20 GB), niestety z tego zrezygnował.</p>
+
+<p>Czy powodem były względy techniczne czy ideologiczne?</p>
+
+<p>Patrząc na jakość działania wersji androidowej, nie jestem całkiem pewien.</p>
+
+<p>Do tego należy pamiętać, że obecnie nawet generyczny Android zawiera analogiczne rozwiązanie... Ja tu widzę pewien potencjał, i właściwie wydaje to się dla mnie jednym z dwóch sensownych powodów inwestowania w mocny procesor ARM w telefonie (drugim są gry).</p>
+
+<p>Ale sam DEX w obecnej postaci... to jednak zabawka, którą warto wypróbować, ale chyba nic więcej.&#160;&nbsp;</p>
+           

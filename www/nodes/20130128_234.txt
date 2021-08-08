@@ -1,0 +1,55 @@
+﻿Title:O pisaniu systemów słów kilka... (2013)
+Author:marcin
+When:28 Jan 2013
+Taxonomy:Polski,Polski blog,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2013/01/o-pisaniu-systemow-slow-kilka.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Symbian odszedł do krainy wiecznych programów, a z nim pojawily się wspomnienia (<a href=http://www.spidersweb.pl/2013/01/najwazniejsze-w-tygodniu-koniec-symbiana-a-my-wspominamy-nasze-z-nim-historie.html>http://www.spidersweb.pl/2013/01/najwazniejsze-w-tygodniu-koniec-symbiana-a-my-wspominamy-nasze-z-nim-historie.html</a>)... Pamiętam czasy Nokii 7650, 3650 (to ta z okrągłą klawiaturą, którą sympatycznie można było używać zamiast pilota do TV z uwagi na wbudowaną podczerwień), miło wspominam możliwość instalacji gier, programów...
+<!--break-->
+To było COŚ, jednakże z czasem zaczęły irytować problemy z certyfikatami, zwisy aplikacji, no i Nokia, która dosyć mocno dbała o  nieudostępnianie netmonitora i nie przygotowała na czas przyzwocie działającej wersji dotykowej.
+
+<p>Teraz w systemach najbardziej popularny jest Android, czyli dosyć slamazarna wersja Javy postawiona na dosyć dobrych korzeniach (jądro linuksowe). Platforma ta cierpi na dużo problemów czyli braki uaktualnień (skutkujące tysiącem ROMów, w których najczęściej coś działa, a coś już nie), brak łatwego określenia co i kiedy i gdzie może wymieniać dane z Internetem (ważne m.in. dlatego, że transmisja danych oznacza szybsze zużywanie energii), nazwijmy to liberalne traktowanie zasad bezpieczeństwa (mamy określanie uprawnień, ale w domyślnych kompilacjach nie można ich zabierać, jak również nie można np. zabronić aplikacjom dostępu do jakichś plików na dyskach) oraz nastawienie na reklamy i zbieranie danych o użytkownikach.
+
+<p>A co na dekstopach ? Ano ciągle najważniejszy jest Windows, czyli obecnie prymitywizm widoku ze starymi problemami platformy NT (rozrost API, brak modularności, itp.)
+
+<p>Ostatnio nawet niektóre dystrybucje Linuxa zaczynają się jakby do niego upodabniać (zgadzam się z niektórymi argumentami na <a href=http://www.dobreprogramy.pl/Zwalczaj-ogien-ogniem-desktopowy-Linux-coraz-mniej-uniksowy-coraz-bardziej-jak-Windows,Aktualnosc,38877.html>http://www.dobreprogramy.pl/Zwalczaj-ogien-ogniem-desktopowy-Linux-coraz-mniej-uniksowy-coraz-bardziej-jak-Windows,Aktualnosc,38877.html</a>).
+
+<p>Wiecie co ? Te systemy to też już dinozaury, chociaż jeszcze tego nie widać. Dlaczego ?
+
+<p>Ano z kilku powodów:
+
+<ul>
+<li>praktycznie wszystkie sterowniki mają dostęp do wszystkiego
+
+<li>struktura sprzyja wspóldzieleniu wszystkiego (badźmy realistami - w Windows wiele osób nie ustawia np. uprawnień do katalogów i później np. przeglądarka www może odczytywać np. pliki z filmami)
+
+<li>są mało modularne
+
+<li>ciężko w nich zapanować nad tym, co i jak system robi, gdzie wysyła, itp. (a w każdym razie zajmuje to dużo czasu)
+
+<li>przy starcie systemu startuje często wiele niepotrzebnych usług
+</ul>
+
+<p>Marzy mi się, żeby w systemie kolejnej generacji:
+
+<ul>
+<li>główny system zawierał mikrojądro, zestaw naprawdę podstawowych sterowników i bibliotek (praktycznie wszystkie z minimalnymi uprawnieniami)
+
+<li>wersje instalacyjne aplikacji znajdowały się w pojedyńczych plikach (jak msi, deb, rpm czy apk), przy instalacji system podawał jasno, że "doinstalowany" zostanie taki a taki sterownik, aplikacja będzie łączyć się z takimi i takimi adresami i mieć dostęp do takich i takich plików na dyskach z plikami użytkownika oraz skorzysta z takich i takich uprawnień (to ostatnie jak w Androidzie). Dodatkowo w oknie instalacji będzie można sobie od razu wybrać, do jakich dysków/katalogów użytkownika aplikacja ma mieć dostęp.
+</ul>
+
+<p>Gdzie tu nowość ? 
+
+<ol><li>wszystkie pliki (danych i binarek) aplikacji będą zapisywane w katalogu stworzonym przez system (taka piaskownica) i nic nie pójdzie realnie do katalogu systemu ("instalacja" sterowników będzie tylko ich rejestracją), 
+
+<li>wymiana danych między aplikacjami będzie możliwa przez sieć na localhost, pliki użytkownika i schowek (nie ma dostępu do plików innej aplikacji wliczając jej TEMP), 
+
+<li>podobnie to system dostarczy aplikację do odejmowania uprawnień i wreszcie to system zajmie się aktualizacjami (aplikację będą podawać odpowiednie dane w paczce instalacyjnej).
+</ol>
+
+<p>Mówiąc krótko - instaluję przysłowiowego Worda, on podaje systemowi link do aktualizacji, prosi o dostęp do plików doc, docx i nic więcej (użytkownik będzie mógł oczywiście później na swoich dyskach zaznaczyć, że np. nie daje temu Wordowi dostępu do jakiegoś dysku). Chcę Firefoxa, podaje systemowi link do aktualizacji, prosi o dostęp do portu 80, 443 i plików z rozszerzeniem htm, js, css, gif, jpg, itp. (ale żeby mógł je odczytać/zapisać poza swoją "piaskownicą", będzie trzeba dać mu uprawnienie do dysku z plikami użytkownika).
+
+<p>Taki Android na sterydach, w którym podstawą byłaby modularność...i np. sterownik drukarki nie mógłby odwoływać się do plików programu z pocztą albo wszystkich urządzeń USB. Możnaby go potraktować jako mniej skomplikowany Qubes (<a href=http://qubes-os.org>http://qubes-os.org</a>).
+
+<p>Tyle wizji (która może się nie spełnić), na dzień dzisiejszy polecam lekturę o systemie Minix3 (praktyczna testowa implementacja idei szybkiego mikrojądra, którą nomen omen zajęła się UE - <a href=http://www.minix3.org/>http://www.minix3.org/</a>), Debian GNU/Hurd (Debian z mikrojądrem GNU Mach, który od wydania 7 Debiana ma być podobno stabilny - <a href=http://www.debian.org/ports/hurd/>http://www.debian.org/ports/hurd/</a>), ReactOS (Windows nie od Microsoft - <a href=http://www.reactos.org/>http://www.reactos.org/</a>), Haiku (<a href=http://www.haiku-os.org/>http://www.haiku-os.org/</a>) czy KolibriOS (<a href=http://kolibrios.org/>http://kolibrios.org/</a>). Te systemy są może i ograniczone, ale pod pewnymi względami mogą pokazywać kierunki rozwoju systemów operacyjnych...

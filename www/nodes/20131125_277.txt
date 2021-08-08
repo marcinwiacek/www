@@ -1,0 +1,143 @@
+﻿Title:Uwięzieni w Maszynie ? Moment przed rewolucją ? (2013)
+Author:marcin
+When:25 Nov 2013
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Android,GSM,x86,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/Uwiezieni-w-Maszynie-Moment-przed-rewolucja,49528.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<b><i>Nie kupuj diesla do miasta, bo zapcha mu się filtr cząstek stałych... Nie kupuj urządzenia z Androidem, jeśli chcesz mieć jakiekolwiek wsparcie (no chyba że Nexusa)... Urządzenia Apple są dla myślących inaczej...</i></b>
+<!--break-->
+
+<br>&nbsp;<p>itd. itd.
+
+<p>Ostatnio czytałem artykuł <a href=http://www.wykop.pl/ramka/1746968/jak-maszyny-ucza-sie-nami-sterowac-uwiezieni-w-maszynie/>Jak maszyny uczą się nami sterować?
+Uwięzieni w Maszynie</a>. Zgadzam się z jego częścią i dlatego postanowiłem zwrócić (ponownie) uwagę na niekorzystne trendy (podając kilka drobnych linków m.in. do jakichś własnych poradników i przemyśleń).
+
+<p>Post może/zapewne nie trafi na główną, nie chodzi o narzekanie i może to będą banały, ale...
+
+<p>No właśnie - mam wrażenie, że jesteśmy dosyć mocno na rozstaju dróg. Co gorsza, wydaje się, że technologia zaczyna nas dominować, a wiedza już zdobyta przez ludzkość zaczyna zamierać.
+
+<p><h2>Planowane postarzanie ?</h2>
+
+<p>....czyli takie projektowanie urządzeń, aby nie były zbyt trwałe... Jeden z ulubionych przeze mnie przykładów to główne wiązki elektryczne samochodów pewnego znanego koncernu, które gniły, gdyż bywały kładzione w rynience, gdzie najczęściej zbierała się na stałe woda. 
+
+<p>A dyski SSD czy pamięci flash ? Wiele rozwiązań nie sprzyja ich długowieczności....
+
+<p>Użytkownicy dali sobie też wmówić, że np. takie smartphony czy tablety to w sumie jednorazówki, bo nie mogą mieć wsparcia producenta w kwestii uaktualnień (nie oszukujmy się, że CyanogenMod czy AOSP rozwiązuje problem). A jeśli nawet jakieś jest to stwarza problemy....
+
+<p>Co nam to wszystko daje ? Dużo śmieci...
+
+<p><h2>Problemy z bezpieczeństwem ?</h2>
+
+<p>Sztandarowym przykładem jest Android, gdzie zbytnio nie ma kontroli nad tym, co, gdzie i jak jest wymieniane i gdzie poprawki leżą.... Ktoś zaraz odpowie: ale to Linux albo że jest Knox Samsunga. Częściowo jest to prawda (np. jądro jest linuksowe), niemniej jednak wszyscy wiemy że udostępnienie którejś tam wersji systemu dla jakiegoś urządzenia jest zazwyczaj wielkim świętem we wszystkich portalach IT.
+
+<p>Gdzie jest częściowo źródło problemu ? Komponenty linuksowe są wykorzystywane w sposób specyficzny, w przypadku każdego modelu każdy producent (np. Samsung) przygotowuje kilkanaście wersji praktycznie identycznego firmware i na poprawki nie ma często czasu (i stąd np. S4 mini, które lagują w grach)... Czas jest za to na tworzenie kolejnych blokad, a cierpi zazwyczaj Klient (o <a href=?q=node/263>podążaniu przez Samsunga drogą Nokii już pisałem</a>)
+
+<p><h2>Problemy z głupotą ?</h2>
+
+<p>Już jakiś czas widziałem liczniki wody z nadajnikiem radiowym w blokach. Liczniki zakładane były na rury z ciepłą i zimną wodą (czyli cztery na lokal, co np. przy stu lokalach daje 400 małych nadajników które jak chcę wierzyć odczytywane są zapewne tylko dwa razy w roku). 
+
+<p>A to, że np. telefony działające przy włączonych wszystkich opcjach muszą się przełączać często co najmniej między 3 pasmami i technologiami ? Czasem jest ich więcej - np. pewna znana sieć <a href=?q=node/275>uruchomiła ostatnio z pompą sieć LTE</a> i obecnie telefony z jej kartą mogą przełączać się między 4 sieciami, z których każda działa na 3 czy 4 częstotliwościach (co z pewnością dobrze wpływa na zużycie prądu przez urządzenia mobilne). 
+
+<p>Użytkownicy dają się też łapać na lep sloganów - np. ważne jest że coś obsługuje LTE... Ale wielu nie patrzy, czy jest to TD-LTE (TDD) czy FD-LTE (FDD) i na jakiej częstotliwości. I tak kupowane są modemy, które zapewne w Polsce LTE nigdy nie ujrzą... Żeby nie było wątpliwości tak mi wyszło po krótkim googlowaniu (czy na tej liście są błędy nie mam pojęcia, gdyż poza Aero2 nie widzę konkretnego info na stronach UKE i operatorów):
+
+<ul>
+<li><a href=http://aero2.pl/bdi.html>Aero2</a> - terminal "kategorii 3 obsługujący transmisję danych w technologii TD-LTE w paśmie 2500MHz (pasmo 38)"
+<li><a href=http://www.playmobile.pl>Play</a> - 1800 Mhz, FD-LTE
+<li><a href=http://www.plus.pl>Plus</a> - 1800 Mhz, FD-LTE
+<li><a href=http://www.cyfrowypolsat.pl/oferta/internet/index.cp>Cyfrowy Polsat</a> - 1800 Mhz, FD-LTE
+<li><a href=http://www.orange.pl>Orange</a> - 800/1800 Mhz, FD-LTE
+</ul>
+
+<p>Wyścig ilości rdzeni i RAMu ? Trwa w najlepsze, a telefony dalej się "zacinają" na zwykłej liście kontaktów.
+
+<p>Prawa autorskie albo patenty ? Idea poniekąd słuszna, żeby płacić za twory umysłu ich twórcom. Tylko czy pieniądze trafiają rzeczywiście do nich ? Czy nie tracą na tym wszyscy i nie jest tak, że z uwagi na bardzo niewygodne systemy DRM użytkownicy wybierają hmmm darmowe źródła treści ?
+
+<p>A "drobne" niedociągnięcia w oprogramowaniu ? Mamy np. rewelacyjny i wspaniały system operacyjny, w którym próba usunięcia pliku skutkuje takim malowniczym komunikatem (działo się na liście wyszukiwania na dysku podłączonego urządzenia z innymi bardzo popularnym systemem):
+
+<p><center><img src=sites/default/files/277/kod.png></center>
+
+<p>Żeby nie było, że mówię tylko o Windows - <a href=https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA8HM&hl=pl>Asphalt 8 na Androida</a> stał się darmowy. Zajmuje w tej wersji ok. 1,5 GB (w przeciwieństwie do wersji na iOS ważącej ok. 800 MB). I teraz zastanówmy się - hitem są urządzenia z 8 GB pamięci flash, gdzie dostępne jest na aplikacje jeszcze mniej przestrzeni. 1,5 GB nie można ulokować na karcie pamięci (nie, bo nie - aplikacja nie ma tej opcji, wspaniały system operacyjny bez "roota" również tego nie robi pomimo że hmmm ma opcję "Przenieś na kartę").... Śmieszne ? I od razu podpowiem - nie chodzi o ochronę praw autorskich, we wspaniałym systemie operacyjnym te 1,5GB danych jest dostępne dla każdej aplikacji.
+
+<p><h2>Ekologia ?</h2>
+
+<p>To może warto wspomnieć bramki ViaToll z generatorami diesla albo choćby jeszcze raz przypomnieć wspomniane DPFy... Inwigilacja ? To masa sprzętu, prądu, mocy obliczeniowej....
+
+<p>A nowy czynnik do klimatyzacji HFO-1234yf, który jest już używany ? Sam producent nie poleca zbliżać do pojazdu, w którym się znajduje, gdy ten płonie... A że płoną i auta i czasem autobusy, to rzecz znana nie od dziś...
+
+<p>Hybrydy ? Większość spala o więcej paliwa niż jeżdżące do dziś kilkunastoletnie diesle (które to niestety zostały zastąpione znacznie bardziej skomplikowanymi następcami). Żeby nie było wątpliwości - obecnie również silniki benzynowe mają mieć podobnież filtry cząstek stałych (to nie żart !), bo czasami emitują tych cząstek więcej niż diesle (znalezione bodajże w Auto Świecie). I szkoda tylko, że obecnie jest coraz mniej mechaników, którzy są w stanie zrobić coś samodzielnie bez komputera i że obecne "auta" często nie są w stanie dojechać samodzielnie do celu inaczej niż na lawecie.
+
+<p><h2>Nowoczesność ?</h2>
+
+<p>Windows Phone i Windows 8 mocno promują ideę interfejsów, które są uproszczone wizualnie i funkcjonalnie wręcz do przesady (o ile na telefonach może i ma to rację bytu, o tyle na desktopach....). 
+
+<p>W jednym z popularnych czasopism ostatnio przeczytałem na temat innego systemu: 
+
+<b><i>"iOS7 wygląda zupełnie inaczej: z filcu, skóry, kól zębatych czy obiektywów oraz innych tekstur i symboli, które w początkach cyfrowej ery sugerowały wysoką jakość systemu i urządzenia, bez żalu zrezygnowano, stawiając na nowoczesne wzornictwo z bardziej abstrakcyjnymi, minimalistycznymi i przyjaznymi elementami graficznymi"</i></b> (Chip 12/2013, cytuję zgodnie z tzw. prawem cytatu). Wydaje mi się, że prymitywizm nowej wersji niekoniecznie jest tak odbierany przez znaczącą część populacji...
+
+<p>Na każdym prawie kroku mam wrażenie, że ludzi traktuje się chyba tak jakby nie do końca rozumieli słowo drukowane, zacytuję ten sam numer: <b><i>"iOS7 daje przy tym dostęp do licznych nowych funkcji"</i></b> (a stronę dalej: <b><i>"zyskał nowe funkcje, ale brakuje w nim poważniejszych zmian"</i></b>). Moim zdaniem to jednak dosyć mocno się wyklucza, podobne smaczki można znaleźć praktycznie non-stop w telewizji czy portalach z tzw. mainstreamowego nurtu.
+
+<p>Daliśmy sobie wmówić płacenie za wiele niepotrzebnych rzeczy - ot abonament za telewizję czyli płacenie za wiele niepotrzebnych nam kanałów tylko dlatego bo nie są one udostępniane solo (ewentualnie płacenie abonamentów za dostępne za darmo kanały DVB-T). 
+
+<p>Albo wszelkiego rodzaju opłaty za kopiowanie (tak, tak, są w cenie nośników i innych dóbr), udostępnianie, odtwarzanie, itd. itd. Przy ACTA ludzie protestowali.... A teraz ? TPP i inne, a wszyscy nabierają wody w usta.... Liczniki energii elektrycznej ? Wszyscy się zgadzają.
+
+<p><h2>Czy to wszystko nie świadczy o tym, że zagubiliśmy gdzieś istotę tego, do czego ma nam być potrzebna technologia ?</h2>
+
+<p>Pozwolę sobie odesłać teraz do filmu (skojarzenie z pewną firmą średnio celowe): <a href=http://joemonster.org/filmy/57132/iDiots>iDiots</a>
+
+<p>Ktoś mi powie - ale ludzie generalnie zbojkowali Windows 8, filtry cząstek stałych też wydają się być wycinane, itd.
+
+<p>Ktoś inny powie - a co mi do tego... Mnie to przecież nie dotyczy, przecież to wszystko służy do uzyskania bezpieczeństwa, itd. itd.
+
+<p><h2>Moja odpowiedź jest prosta</h2>
+
+<p>Częściowo ludzie się opierają (i np. widać to w <a href=http://www.frazpc.pl/aktualnosci/925182,pr-raport-specjalny-skapca-notebooki.html>podsumowaniu Skąpca</a> dotyczącym notebooków) i to budzi nadzieję, częściowo jednak sobie odpuszczają. Należy mieć świadomość, że nawet jeśli Ty czegoś nie używasz, to to przyjdzie do Ciebie i może spowodować kalectwo czy nawet utratę życia. Wrócę znów do czynnika klimatyzacji, który może być użyty w autobusie, którym jedziesz. 
+
+<p>Albo możesz być przymuszony do tego, aby tracić swoje pieniądze np. poprzez obowiązkową w wielu miejscach wymianę kart na karty z płatnościami zbliżeniowymi (celowo nie rozwijam dalej tematu).
+
+<p>Albo wreszcie okaże się, że na coś ciężko zarobiłeś, a i tak nie możesz z tego korzystać - to już też się dzieje.
+
+<p>I dlatego jeśli nie chcesz protestować (zgodnie z prawem oczywiście), to zajmij się chociaż podwyższaniem swoich kwalifikacji, promuj dobre oprogramowanie i dobre pomysły, wytykaj błędy i niechlujstwo, itd. itd.
+
+<p>Przy braku sprzeciwu na pewne zjawiska wkrótce może się ziścić rzecz opisana tutaj: <a href=http://www.gnu.org/philosophy/right-to-read.pl.html>Prawo do czytania</a> (bo ta stąd już w sumie jest: <a href=http://di.com.pl/news/49136,0,Inwigilacja_zaczyna_sie_od_spluczki_-_IT_Fiction-Marcin_Maj.html>Inwigilacja zaczyna się od spłuczki - IT Fiction</a>)
+
+<p>Czy sytuacja może się zmienić ? Na pewno ludzkość czeka szok wraz z masowym upowszechnieniem się takich rozwiązań jak pasywne domy czy pełna możliwość własnej produkcji energii.
+
+<p>A ze swojej strony dorzucę kilka m.in. swoich linków:
+
+<ul>
+<li><a href=?q=node/189>Notebook A.D. 2012, czyli o czym trzeba mieć świadomość...</a> (krótki poradnik zakupu komputerów przenośnych powstały na podstawie bardzo dużej ilości doświadczeń)
+
+<li><a href=?q=node/111>Skonfiguruj system plików w Windows - 12 przydatnych wskazówek dla mniej początkujących</a> - tekst już stary, ale aktualny, warto jeszcze wiedzieć, że z użyciem samego systemu Windows 7 spartycjonować sobie można również karty pamięci/pendrive:
+
+<br>&nbsp;<p>uruchamiamy z linii komend:
+
+<p><b>diskpart</b>
+
+<p>wyszukujemy i wybieramy dysk (zamiast 2 podajemy właściwą cyferkę):
+
+<p><b>list disk</b>
+<br><b>select disk 2</b>
+
+<p>wyszukujemy i wybieramy partycję (zamiast 1 podajemy właściwą cyferkę, komendę należy powtórzyć dla każdej partycji):
+
+<p><b>list partition</b>
+<br><b>select partition 1</b>
+<br><b>delete partition</b>
+
+<p>jeśli chcemy stworzyć jedną wielką partycję, to:
+
+<p><b>create partition primary</b>
+
+<p>i wyjście:
+
+<p><b>exit</b>
+
+<p>nie jest problemem również tworzeniem z użyciem darmowego oprogramowania RAMDisku, na którym można zapisywać np. katalog TEMP albo pliki przeglądarki (jeśli są one kopiowane tam na starcie systemu i zapisywane przy wyłączeniu, to możemy sobie znacznie przyspieszyć maszynę lub oszczędzić wielu cykli zapisu na dysku): <a href=http://sq9jdo.pl/2_1.html>Przykładowy manual</a>
+
+<li><a href=?q=node/109>Far Manager, czyli jak mógłby teraz wyglądać Norton Commander... </a> - ktoś powie, że jest Total Commander i inne i nie chciałbym dyskutować o gustach, niemniej jednak warto wiedzieć, iż można zarządzać plikami narzędziem darmowym....
+
+<li><a href=?q=node/166>Klonujemy komputer - maszyny wirtualne</a> - przegląd rozwiązań, w sumie nadal dosyć aktualny
+
+<li><a href=?q=node/242>Katedra czy bazar, korpo czy anarchia ? Czyli trochę o Windows, Linuxie, ale również Tizenie i Firefox OS.... (2013)</a> (trochę o aktualnych trendach)
+
+</ul>

@@ -1,0 +1,200 @@
+﻿Title:Samsung jest lata świetlne za konkurencją. Pokażę to na przykładach. (2019)
+Author:marcin
+When:11 Sep 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Android
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Samsung-jest-lata-swietlne-za-konkurencja-Pokaze-to-na-przykladach,103222.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Zazwyczaj nie oglądam prezentacji wielkich firm, ale w tym roku zdecydowałem się na obejrzenie streamingu z obu Galaxy Unpacked 2019, jak również relacji z WWDC 2019 i Apple Special Event.</p>
+
+<p>W obu wypadkach widać, że firmy wyczerpały chyba swój potencjał, a w każdym razie rok 2019 można uznać za rok odgrzewanych kotletów i absurdalnych cen za wybrakowane towary.</p>
+
+<p>Postaram się to pokazać na przykładzie Samsunga.</p><p>Zacznijmy od początku...</p>
+
+<p><b>Ekran</b></p>
+<!--break-->
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/n4O3Ry14rVA?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Tak było we flagowcach Samsunga i te czasy mamy chyba na szczęście za nami.</p>
+
+<p>Fanboje Samsunga obecnie zachwycają się jasnością (tak, tej nie można odmówić), ale przy okazji zapominają o tym, że producent zaczyna odwalać fuszerkę jeżeli chodzi o PPI - w 2016 oferował PPI 577 w Galaxy S7, obecnie we flagowych (podobno) urządzeniach jest ono pomiędzy 401 i 550: 401 w Note 10, 438 w S10e, 498 w Note 10+, 505 w S10 5G, 552 w S10+, 550 w S10.</p>
+
+<p>Pójdźmy dalej - w 2016 oferowany był S7 z płaskim ekranem, co dostajemy w zamian w 2019? Ano jest to &quot;zaledwie S10e&quot;, którego (żeby było śmiesznie) zbojkotowali nawet niektórzy producenci folii matowych.</p>
+
+<p>Jeżeli miałbym to porównywać z Apple, to ten w obecnej generacji iPhone 11 oferuje PPI do 458. To wyraźnie pokazuje, że obaj producenci chyba wyraźnie stwierdzili, że poprzednie ekrany były zbyt dobre i należy je trochę pogorszyć... oferując (mówię tu o Samsungu) towar niepełnowartościowy, czyli z dziurką / zbyt gwałtownie reagującymi krawędziami z boku albo towar, który na starcie trzeba poprawiać (Galaxy Fold).</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/x-ROgEEBSEU?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Myślę, że to ostatnie urządzenie niestety dokładnie pokazuje chęć bycia pierwszym za wszelką cenę i związane z tym problemy z jakością (jak Sammy stał się tak jakby trochę kolosem na glinianych nóżkach).</p><p>A gdzie chociażby 120 Hz?</p>
+
+<p><i>Płaczcie i płaćcie ciesząc się, że w ogóle macie ekran </i>(a mówiąc inaczej wróciliśmy do czasu Galaxy S5 i jego PPI 432)</p>
+
+<p><b>Bateria</b></p>
+
+<p>Śmieszna sprawa, bo dawno dawno temu w czasach &quot;cegieł&quot; Centertela czy chociażby pierwszych generacji GSM baterie bywały podłączane jak w starszych notebookach czyli przez podpinanie. Producent oferował wtedy zazwyczaj różne modele, a te dawały na przykład różną pojemność albo funkcję wibracji. Było to rozwiązanie bardzo wygodne - każdy mógł sobie kupić tyle ogniw ile chciał, a w przypadku &quot;spuchnięcia&quot; baterii mógł łatwo ją wymienić bez uszkodzenia urządzenia.</p>
+
+<p>Co mamy dzisiaj?</p>
+
+<p>Ogniwa litowo-jonowe potrafią zniszczyć całe telefony albo powodują, że użytkownik przez lenistwo albo brak zaufania do serwisów decyduje się na wymianę słuchawki.</p>
+
+<p><i>Ekologia pełną gębą.</i></p>
+
+<p>Uwaga na marginesie - tak się składa, że ostatnio miałem przyjemność zajrzenia do czyjejś szuflady i znalazłem tam taki hit jak Nokia 6230 (nieznających <a href="https://www.mobile-review.com/preview/nokia-6230-en.shtml" target="_blank" rel="noopener" rel="nofollow">odsyłam przewrotnie do pewnej rosyjskiej witryny</a>, która w czasach świetności tego urządzenia była niczym Watykan albo Jerozolima dla chrześcijan). Telefon ten miał być następcą tak kultowej Nokii 6310i (a może bardziej 7110), ale niestety nie dane mi było go włączyć, bo... zgodnie ze słowami właściela <i>wszystkie baterie szlag trafił</i>, a mówiąc dokładniej oryginalne ogniwa BL-5C renomowanej firmy z prostych stały się mocne napuchnięte i trzeba było je wyrzucić.</p>
+
+<p>Dlaczego o tym piszę?</p>
+
+<p>Jestem ciekaw, co za kilka lat pozostanie z tych wszystkich pochomikowanych w szufladach zabaweczek szczególnie że ogniwa wewnętrzne często mają cieńsze obudowy niż poprzednicy (problem mogłyby zapewne rozwiązać ogniwa litowo-polimerowe, ale tych oczywiście nie stosuje się z uwagi na koszty).</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/_Cd2WIxKRDk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Pewien przedsmak mieliśmy z Note 7 (ten model pokazał niestety, że z jakością u Sammiego bywa różnie), czy fala podobnych przypadków czeka nas gdy S6 i modele późniejsze zaczną się starzeć?</p>
+
+<p>Może w tej sytuacji warto byłoby pokazywać w menu telefonów przynajmniej numer seryjny i producenta baterii? (+zużycie jak robi to Apple)</p>
+
+<p>Przy okazji - grafenu jak nie ma tak nie ma... No i modele podobnież flagowe mają mniejsze baterie niż te ze średniej półki (np. taki A70 ma 4500 mAh, M30s 6000 mAh).</p><p>Kurtyna... a jak ktoś chce zobaczyć więcej, to polecam poszukać <i>swollen battery</i> na YouTube.</p>
+
+<p><b>Karty pamięci</b></p>
+
+<p>Nie korzystałem z żadnej od dawna, ale do pana wafla - dlaczego modele flagowe mają sloty hybrydowe (dwie karty SIM lub karta SIM+karta pamięci) a modele średnie sloty, gdzie można włożyć dwie karty SIM+kartę pamięci?</p>
+
+<p>Czy ktoś mi może wytłumaczyć ten fenomen?</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/a_lQdg8yAwM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>I dlaczego usuwa się w ogóle sloty z najdroższych modeli? (odpowiedź jest oczywiście jasna i chodzi o to, żeby sprzedawać kości pamięci z marżami jak podstawki pod monitory)</p>
+
+<p>A swoją drogą zawsze zastanawiało mnie dlaczego w telefonach nie ma licznika zużycia pamięci flash jak w dyskach SSD.</p>
+
+<p><b>Diody powiadomień</b></p>
+
+<p>Były, nie ma. Kurtyna.<b><br/></b></p>
+
+<p><b>Radio FM</b></p>
+
+<p>Kolejna śmieszna rzecz - w różnych modelach nieszczęsne radyjko jest zaszyte w sprzęcie, ale producent nie decyduje się na jego włączenie.</p>
+
+<p>O obecności DAB+ nawet nie wspomnę - LG zrobiło LGK520K, a Samsung nie może.</p>
+
+<p><b>Promieniowanie i złącze do zewnętrznej anteny</b></p>
+
+<p>Jest coś co się nazywa SAR. Parametr ten określa jak duże promieniowanie wytwarzane jest przez urządzenie w skrajnych laboratoryjnych testach (to coś jak mierzenie norm spalin w trakcie homologacji samochodów).</p>
+
+<p> Porównajmy sobie popularne &quot;eski&quot; certyfikowane według norm europejskich (Head SAR określa promieniowanie w stronę głowy, Body SAR w kierunku ciała):</p>
+
+<ul>
+<li>S GT-i9000 - Head SAR : 0.268 W/Kg, Body SAR : 0.51 W/Kg</li>
+<li>S4 mini GT-i9192 - Head SAR : 0.298 W/Kg, Body SAR : 0.361 W/Kg</li>
+<li>S4 mini duos GT-i9195 - Head SAR : 0.332 W/Kg, Body SAR : 0.323 W/Kg</li>
+<li>S7 duos SM-930FD - Head SAR : 0.406 W/Kg, Body SAR : 0.621 W/Kg</li>
+</ul>
+
+<p>W 2017 normy idą trochę w górę:</p>
+
+<ul>
+<li>S8 SM-950F - Head SAR : 0.315 W/Kg, Body SAR : 1.27 W/Kg</li>
+<li>S8+ SM-955F - Head SAR : 0.26 W/Kg, Body SAR : 1.0 W/Kg</li>
+<li>Note 8 SM-N950F - Head SAR : 0.173 W/Kg, Body SAR : 1.29 W/Kg</li>
+</ul>
+
+<p>żeby po roku jeszcze wzrosnąć (S9 wydaje się wyjątkiem od reguły):</p>
+
+<ul>
+<li>S9 SM-960F - Head SAR : 0.362 W/Kg, Body SAR : 1.18 W/Kg</li>
+<li>S9+ SM-965F - Head SAR : 0.294 W/Kg, Body SAR : 1.350 W/Kg</li>
+<li>Note 9 SM-N960F - Head SAR : 0.381 W/Kg, Body SAR : 1.509 W/Kg</li>
+</ul>
+
+<p>a w 2019 generalnie osiągnąć szczyty:</p>
+
+<ul>
+<li>S10e SM-970F - Head SAR : 0.582 W/Kg, Body SAR : 1.575 W/Kg</li>
+<li>S10 SM-973F - Head SAR : 0.477 W/Kg, Body SAR : 1.593 W/Kg</li>
+<li>S10e SM-975F - Head SAR : 0.516 W/Kg, Body SAR : 1.582 W/Kg</li>
+<li>Note 10 SM-970F - Head SAR : 0.209 W/Kg, Body SAR : 1.523 W/Kg</li>
+<li>Note 10+ SM-N975F - Head SAR : 0.187 W/Kg, Body SAR : 1.404 W/Kg</li>
+</ul>
+
+<p>Nieważne, że liczby są jeszcze dalekie do góry normy (2 W/Kg), liczy się fakt, że kolejne modele dysponujące tak naprawdę podobnymi funkcjami nadawczo-odbiorczymi (pomijam LTE) mają coraz wyższe promieniowanie.</p>
+
+<p>Może to wynikać z dwóch rzeczy - dodatkowy narzut jest związany np. z funkcjami ładowania bezprzewodowego albo materiałami obudów (nie jestem specjalistą, ale jako laik bardzo chciałbym zobaczyć dokładny raport, gdzie podane są wyniki dla transmisji na kolejnych pasmach i np. przy samej transmisji komórkowej).</p>
+
+<p>Pomimo pewnych wątpliwości zapytam się w tym momencie - czym Samsung różni się dzisiaj od Apple czy chińskich konkurentów? (i gdzie są lata inwestycji w anteny z których ta firma kiedyś słynęła ?) Czy ładowanie indukcyjne (wrzucone nawet do S10e z niedużą baterią) i inne bajery są tak kosmiczne że nie można było zadbać o zdrowie psychiczne użytkowników dając bardziej szczegółowe raporty? I czy konieczne jest powielanie Google z jego kolejnymi Pixelami (pierwsze modele były bardzo przyjazne w tym zakresie, ostatnie mają wysokie wartości) i ukrywanie wielkości SAR w menu urządzeń (Pixele je mają...)?</p>
+
+<p>Dlaczego Samsungu? Dlaczego? Dlaczego tak tego się wstydzisz? I dlaczego nie można sobie podłączyć anteny jak kiedyś?</p>
+
+<p><b>Jack</b></p>
+
+<p>Wiemy o co chodzi. Kurtyna.</p>
+
+<p><b>Procesory</b></p>
+
+<p>Sammy niestety ciągle odstaje od Apple (zarówno rozwiązania autorskie jak i Snapdragony mają mniejsze wartości w benchmarkach).</p>
+
+<p>Jeżeli chodzi o grafikę, <a href="https://antyweb.pl/samsung-galaxy-s12-z-grafika-amd-radeon/" target="_blank" rel="noopener" rel="nofollow">pomóc może sojusz z AMD</a>, niemniej jednak rezultatów można oczekiwać dopiero za jakiś czas (być może w okolicy 2021).</p>
+
+<p><b>Wodoszczelność i naprawialność.<br/></b></p>
+
+<p>Przy obecnej strategii producenta bardziej atrakcyjne stają się urządzenia z niskiej półki, a te nie mają formalnej certyfikacji wodoszczelności i normy IP.</p>
+
+<p>Do tego dochodzi niska ocena iFixit - przykładowo Galaxy S5 dostał 5/10 punktów, a obecnie praktycznie każdy model ma tylko 3/10 (Note 9 otrzymał 4/10, ale producent naprawił to w kolejnej generacji).</p>
+
+<p>Dla porównania - urządzenia Apple dostają zazwyczaj 6/10 (a przynajmniej dotyczy to generacji z 2018, bo urządzenia z tego roku nie zostały jeszcze ocenione), a <a href="https://www.dobreprogramy.pl/Fairphone-3.-Rozbierzesz-go-w-kilka-minut-ale-czy-jest-wart-tej-ceny,News,103641.html" target="_blank" rel="noopener">FairPhone 10/10</a>.</p>
+
+<p>Szach mat - kupujcie i płaczcie.</p>
+
+<p><b>Kamery</b></p>
+
+<p>Z roku na rok widoczny jest pewien postęp (dodano regulowane przesłony, moduł szerokątny i kamerę ToF).</p>
+
+<p>Problemem okazuje się to, że główna kamera pozostaje dosyć podobna do tego co oferował S7, a np. bardzo ciekawe ToF jest dostępne jedyne w wielkiej jak patelnia słuchawce Note 10+.</p>
+
+<p>Niezbyt dobre są też usterki które nie powinny się pojawiać (np. “Warning: Camera failed” w S10).</p>
+
+<p>Konkurencja idzie jednak dalej - Apple w iPhone Pro w obu wersjach daje to co ma najlepsze, Huawei (sorki, ale na tym portalu musiałem o nich napisać!) lepiej poczyna sobie z trybem nocnym i zoomem, Oppo jako pierwsze (?) pokazało przednią kamerę pod ekranem.</p>
+
+<p>Newsy oczywiście mówią, że Galaxy S11 będzie przełomem - że dostarczy 48 albo więcej megapikseli i że w ogóle będzie super i naj.</p>
+
+<p>Pożyjemy, zobaczymy, na razie jeśli chcesz kupić topowy S10E albo Note 10, to nie dostaniesz tego co ulubiony producent ma w ofercie.<b><br/></b></p>
+
+<p><b>Poprawki</b></p>
+
+<p>Im więcej modeli, tym więcej pracy włożyć, im więcej pracy trzeba włożyć, tym więcej trzeba zarobić na opłacenie kosztów (a ponieważ ludzie nie są skorzy do wymiany słuchawek, to można jedynie wypuszczać coraz tańsze modele, które mają skusić biedniejszych), więcej modeli to znowu więcej pracy...</p>
+
+<p>Trzeba powiedzieć sobie jasno - Samsung w porównaniu do Apple jest w epoce kamienia łupanego i ludziom to się nie podoba.</p>
+
+<p>Było to widoczne chociażby przy okazji modelu S7 i S7 Edge (zostały przeniesione na dół listy supportu, a po protestach szybko wróciły na poprzednie miejsce), jest widoczne gdy np. ostatnie modele dostają wolniej poprawki niż wcześniejsze.<b><br/></b></p>
+
+<p><b>Podczerwień</b></p>
+
+<p>Była, nie ma. Samsung znów może się dużo uczyć od innych.</p>
+
+<p><b>Dual SIM, eSIM i 5G</b></p>
+
+<p>Dawno dawno temu Samsung wypuścił model Galaxy S4 mini, w którym trzeba było wybrać - albo dwie karty SIM albo LTE.</p>
+
+<p>Obecnie mamy do czynienia z sytuacją, gdzie słuchawki 5G są na jedną kartę i mam wrażenie, że jest to bardziej sztuczne ograniczenie niż realny problem technologiczny.</p>
+
+<p>O eSIM nie ma chyba nawet co marzyć w przypadku koreańskiego producenta... (swoją drogą Pixele okazują się wyznaczać nowe kierunki rozwoju, co kiedyś nie było takie oczywiste i to Google nadganiał konkurencję)</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Wpis był pisany na szybko i chciałem zasygnalizować pewien trend, który jest dosyć jasny - <b>serie Galaxy Note i Galaxy S tracą swoją pozycję na rzecz średniaków i większość z tegorocznych modeli to tzw. przejściówki, które musiały być pokazane z uwagi na oczekiwany cykl wydawniczy.</b></p>
+
+<p><b>To nie są te same znane i lubiane słuchawki, które można brać w ciemno i konieczne jest dokładne porównywanie specyfikacji, żeby zobaczyć co zostało wykastrowane a co nie poszło pod nóż.</b></p>
+
+<p>I żeby było jasne - co najmniej 2 lub 3 z pięciu to są bardzo dobre urządzenia, ale już nie tak topowe jak wskazuje ich nazwa (<b>bezapelacyjnie topową słuchawką jest za to Galaxy Fold, ale tylko z uwagi na ekran</b>).</p><p>Oczywiście ktoś mógłby powiedzieć <i>widziałeś je przez szybkę w sklepie </i>tymczasem widziałem i używałem i na dzień dzisiejszy nie dziwię się, że S7 i S7 Edge ciągle osiągają tak wysokie ceny (ba! schodzą na pniu!) i tak naprawdę z ich większych bolączek można wymienić chyba tylko brak DEX albo naturalne zużycie ekranów czy baterii (<a href="http://www.benchmark.pl/testy_i_recenzje/samsung-galaxy-s7-vs-samsung-galaxy-a50-pojedynek-sprawdz-ktory-jest-lepszy.html" target="_blank" rel="noopener" rel="nofollow">doskonale pokazuje to porównanie z A50</a>). Myślę, że jakość tej generacji jest dostrzegana przez samego producenta, który poniekąd zdecydował się je wspierać jakiś czas.</p>
+
+<p><i>Kiedyś to Samsung robił telefony...</i></p>
+
+<p>Szkoda, że te czasy minęły i teraz nakłady idą na reklamę, a nie na R&amp;D (i mamy takie faile, jak używanie zdjęć z cyfrówek do promowania możliwości konkretnych modułów w telefonach).</p>
+
+<p>I szkoda, że ta strategia chyba działa (<a href="https://www.androidcentral.com/samsungs-market-share-europe-jumped-over-40-q2-2019" target="_blank" rel="noopener" rel="nofollow">Android Central podaje</a>, że Samsung ma coraz większy udział w europejskim rynku, wzrosło Xiaomi, z oczywistych względów mocno stracił Huawei, straciło też jakby nie było drogie Apple).</p>
+
+<p>Sammy z firmy mającej swój specyficzny smaczek przeszedł w stronę masówki. Zmianę strategii doskonale pokazuje usunięcie Ingenius ze swojego oficjalnego profilu - filmy <a href="https://www.youtube.com/watch?v=vOzqDxwKxvs" target="_blank" rel="noopener" rel="nofollow">zostały zmirrorowane przez licznych fanów</a>, niesmak pozostał.</p>
+
+<p><i>Kasa misiu, kasa...</i></p>
+
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/-4dNo6ASqbM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>PS. Przy okazji - podobną średnią opinię mam o Galaxy Book S, w którym oczywiście MUSI być Windows i w którym MUSI być mała bateria i MUSI być ekran z szybą (tymczasem np. na Kickstarterze można znaleźć NexDocka 2, który za mniejsze pieniądze zamienia telefon w urządzenie, które dla wielu użytkowników będzie po prostu lepsze).</p>

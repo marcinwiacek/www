@@ -1,0 +1,321 @@
+﻿Title:Czy tani laptop z Celeronem + Windows S da radę? (+ kilka słów o Ubuntu) (2021)
+Author:marcin
+When:25 Mar 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Czy-tani-laptop-z-Celeronem-Windows-S-da-rade-kilka-slow-o-Ubuntu,113977.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>1. nie kupować &quot;chińczyków&quot;</p>
+<p>2. nie kupować Intela</p>
+<p>3. nie kupować tanich marek</p>
+<p>4. nie płacić podatku od Microsoft</p>
+<p>5. wincyj rdzenióf</p>
+
+<p>Dzisiaj opowiem o urządzeniu, które łamie wszystkie te zasady. I to łamie bezczelnie, to bo jak wiemy ze starej szkoły, wszystko, co dobre, jest tylko z Tajwanu albo Japonii (napisze ktoś w komentarzach, do jakich filmów piję?)</p>
+<!--break-->
+<p>Zacznijmy od składników tego dania.</p>
+
+<p><b>Celeron<br/></b></p>
+
+<p>Pierwszy Celeron oparty na rdzeniu Covington pojawił się w 1998, w formie cartridge, który wciskało się w Slot 1 (poniżej bez czarnej obudowy). Nie zdobył zbyt wielkiej popularności z uwagi na stosunkowo niską wydajność - było to właściwie Pentium II bez pamięci podręcznej drugiego poziomu.</p>
+
+<center><a title="Konstantin Lanzet, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:KL_Intel_Celeron_Covington.jpg"><img src="sites/default/files/441/celek.jpg" style="width:608px;height:368px;" alt="image" title="image" /></a></center>
+
+<p>Pamięć tę dodano w modelach opartych na rdzeniach Mendocino, co dla producenta okazało się pewnym problemem - tani model 300A po zmianie częstotliwości FSB z 66 Mhz na 100 Mhz (dokonywanej w wielu wypadkach przez zablokowanie jednego pinu) potrafił przewyższyć &quot;pełne&quot; i odpowiednio droższe Pentium II. Dobre to były czasy dla overclockerów, a sukces produktu odwrotnie proporcjonalny do zadowolenia Intela (co widać po kolejnych modelach Celeronów, które nie były już &quot;tak udane&quot;).</p>
+
+<p>Potem przyszły czasy dominacji AMD (Athlony i Durony), pojawiły się procesory Core i rywalizacja w dużej mierze przeniosła się do strefy mobilnej (gdzie AMD radziło się zdecydowanie słabo, po Turionach zakopując się w Phenomach i innych tego typu wynalazkach). </p>
+
+<p>Obecnie w 2021 świat wygląda inaczej i czasy są niepolityczne (do jakiego filmu piję?) - Zen w kolejnych odsłonach jest wciąż ciepło przyjmowany pomimo oczywistych niedomagań x86, na komórkach i w boksie Apple mówi się o ARM-ach, a Pentium i Celeron to marki okrutnie budżetowe.</p>
+
+<p>W omawianym urządzeniu umieszczono przedstawiciela tej ostatniej rodziny - Celeron N4020 powstał pod koniec 2019 najprawdopodobniej również jako kastrat (ma tylko dwa rdzenie bez HT, cache 4 MB, taktowanie 1,1 - 2,8 Ghz, obsługę 8 GB RAM i brak możliwości overclockingu). To karzełek w stosunku chociażby do i5, mający z przodkami wspólną głównie nazwę, ale mogący również pochwalić się TDP 6 W (tutaj 9W na 28 sec. i 15W na krótko), &quot;kartą graficzną&quot; Intel UHD 600 i wbudowaną kartą Wifi. W tym momencie można oczywiście stwierdzić, że przecież &quot;pełnoprawne&quot; x86 czy M1 zjadają go na śniadanie i &quot;to&quot; nie racji bytu. Nie do końca to jest prawda - na jego podstawie można zbudować tani, niespecjalnie wydajny komputer, który będzie dosyć energooszczędny i chłodny, a na dodatek pozwoli na skorzystanie z 32 i 64-bitowych aplikacji x86.</p>
+<p>Jeżeli mówimy orientacyjnie o wydajności, to proszę bardzo: <a href="https://askgeek.io/en/cpus/Intel/Celeron-N4020" target="_blank" rel="noopener" rel="nofollow">https://askgeek.io/en/cpus/Intel/Celeron-N4020</a></p>
+<p>Mnie się trochę w tym momencie przypomniały czasy Core Duo, Core 2 Duo i Turionów X2 (ze względu na ilość rdzeni). Od tamtego czasu trochę się zmieniło (mamy chociażby nieśmiertelne 14 nm), skojarzenie w głowie pozostało...</p>
+
+<p><b>Medion</b></p>
+
+<p>Przez niektórych kojarzony ze &quot;starą dobrą niemiecką firmą&quot; (która trzyma jakość podobnie jak &quot;das Auto&quot; od VW), od 2011 przejęty większościowo przez chińskie Lenovo.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/qG4IaHgqH00?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Produkty Mediona pojawiają się często np. w Lidlach czy Aldi (można je dostać w wielu krajach - np. Niemczech, Holandii, Hiszpanii, Włoszech, Belgii, a nawet... Szwajcarii).</p>
+
+<p>Urządzenia z serii Akoya porównywalne do oglądanego nie mają zbyt wielu recenzji w sieci - znalazłem m.in. <a href="https://www.chip.de/test/Medion-Akoya-E4253-im-Test-Laptop_158057135.html" target="_blank" rel="noopener" rel="nofollow">co nieco na stronie niemieckiego Chipa</a> (moje subiektywne wrażenie - jakość Komputer Świat), <a href="https://www.notebookcheck.net/Medion-Akoya-E4253-Laptop-Review-Long-Runtime-for-a-Small-Amount-of-Money.432008.0.html" target="_blank" rel="noopener" rel="nofollow">recenzja innego modelu E4253</a> pojawiła się też na notebookcheck.</p>
+
+<p><b>Akoya E4251</b></p>
+
+<p>E4251 to dosyć szerokie określenie na całą serię z wariantami z pamięciami eMMC, SSD, 4GB RAM, 8 GB RAM, Celeronem, Pentium, itp. Na stronie supportu naliczyłem 32 wersje, testowana miała wspomnianego Celerona N4020, 4GB RAM DDR4 2400 i &quot;dysk&quot; eMMC 64 GB DA4064 od Sandiska, zaopatrzono ją również w Windows 10 Home S i roczny abonament na Office-365.</p>
+
+<p>Zdjęcia do jednej z wersji (wszystkie wyglądają tak samo): <a href="https://www.medion.com/de/shop/p/einsteiger-notebooks-medion-akoya-e4251-intel-pentium-silver-n5030-windows-10-home-35-6-cm-14--fhd-display-256-gb-ssd-8-gb-ram-notebook-30030459A1" target="_blank" rel="noopener" rel="nofollow">https://www.medion.com/de/shop/p/einsteiger-notebooks-medion-akoya-e42...</a></p>
+
+<p><b>Wykonanie i złącza</b></p>
+
+<p>Krótko mówiąc wszystko jest w pełnej czerni, niezupełnie błyszczącej, ale też nie matowej. Zewnętrzne powierzchnie wykonano z metalu (są zimne i producent coś wspomina o aluminium), środek i boki wyglądają mi bardziej na plastik (część leżąca jest z jednego kawałka). Jest prosto, schludnie, bez zbędnych świecidełek. Jeżeli mam być szczery, przypomniały mi się laptopy HP z okolic 2007 roku (nc6320, nx6325, itp.). Nie będę pisał nic o gwiezdnej czerni, głębi blasku ani podobnych tego typu rzeczach. Jak dla mnie nie sprawia to tandetnego wrażenia, a nawet wprost przeciwnie... jest dosyć eleganckie (chociaż, szczególnie na zewnątrz, daje się zauważyć lekką palcówkę).</p>
+
+<p>Z lewej strony umieszczono</p>
+
+<ul><li>USB-C 3.2 z funkcją Display-Port, </li>
+<li>USB-A 3.2,</li><li>mini HDMI,</li>
+<li>bolec do ładowarki</li></ul>
+
+<p>z prawej </p>
+
+<ul><li>USB-A 2.0</li>
+<li>złącze do kart microSD (czytnik Realtec SU08G, w którym kartę wciska się w całości w obudowę aż do kliku, a wyjmuje przez dociśnięcie paznokciem, a ona wtedy &quot;wyskakuje&quot;)</li>
+<li>jack do słuchawek / mikrofonu</li></ul>
+
+<p>a od dołu jest klapka i możliwość podłączenia SSD na M.2 (tylko klucz B, ale głowy nie dam sobie uciąć, bo nie zaglądałem). Wybór złączy wygląda znacznie lepiej niż w sprzęcie dla profesjonalistów pewnej innej znanej firmy, podobnie jak tam od dołu nie ma kratek wentylacyjnych.</p>
+
+<p>Nie wiem, jak model E4251 będzie się starzał, ale <a href="https://archiwum.allegro.pl/oferta/medion-e4251-matowy-n4000-4gb-ddr4-64gb-ssd-win10-i8955033990.html" target="_blank" rel="noopener" rel="nofollow">na tej aukcji można zobaczyć połamaną obudowę</a>. Dodatkowo Daniel Rakowiecki na swoim kanale miał zastrzeżenia do IdeaPada za 2800 PLN (również ze stajni Lenovo) - czy jest to więc reguła czy wyjątek związany ze średnią budową zawiasów? </p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Blxiric7Srw?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Na pewno na starcie widać lekko chwiejącą się klapę matrycy, przy złączach delikatne jakby ryski, niewyrobione złącza USB-A (urządzenia trzeba wręcz wyrywać) i trzeszczenie obudowy (czasem z okolic klapki na dodatkowy dysk, a czasem tak sobie).</p>
+
+<p>Ogólnie naprawdę do zaakceptowania i aż żal mi było się rozstawać z tym urządzeniem.</p>
+
+<p><b>BIOS / UEFI<br/></b></p>
+
+<p>Tekstowy AMI.</p>
+
+<p>Z jednej strony powrót do przeszłości, z drugiej strony wszystko jasne, proste i czytelne, i obudziło we mnie myśl &quot;skoro tam wchodzę może raz czy dwa razy w życiu, to po co producenci pakują do UEFI cały interfejs graficzny i narzekają, że kości na płycie są za małe na kolejne mikrokody?&quot;</p>
+
+<p>Wchodzimy przez F2.</p>
+
+<p>W opcjach nie ma żadnych opcji wyłączenia urządzeń (mikrofon, kamera, Bluetooth, Wifi, TPM), nie widziałem ustawienia do przestawienia startowania dysku na legacy (ale w laptopie nie było dysku SSD i może stąd brak opcji), za to zauważyłem włączony Secure Mode, możliwość ustawienia Num Lock na starcie i włączenia cichego startu (wtedy na ekranie nie pokazują się komunikaty startowe AMI), a nawet opcję do przyspieszenia startu (np. rezygnacji ze startu z sieci) i &quot;ship mode&quot;. Nie miałem pojęcia, co to ostatnie jest za cudo, ale <a href="https://support.hp.com/ph-en/document/c01297640" target="_blank" rel="noopener" rel="nofollow">oświecił mnie dokument HP</a> - w tym trybie wyłączony komputer ma pobierać mniej energii z baterii (co jak mniemam oznacza, że wszystko będzie wtedy wyłączone).</p>
+
+<p>Ogólnie bez fajerwerków, ale i większej przykrości (na stronie producenta bez uaktualnień). Bravo, bravissimo za opcję ze statkiem!</p>
+
+<p><b>Klawiatura</b></p><p>Głośna jak klawiatury mechaniczne i bez podświetlenia. Ma duże napisy, duży i wyczuwalny skok, delikatnie ugina się na środku (w granicach przyzwoitości). Jeśli miałbym porównywać - prezentuje jakość klawiatury stacjonarnej, którą kiedyś kupiłem za 19 PLN w Auchan. </p>
+
+<p>Z ważniejszych rzeczy - wyłącznik urządzenia jest jednym z klawiszy (czasem trzeba go przytrzymać 10 sekund i to jest normalne), PgUp, Home, End i PgDn są oddzielne, strzałki góra / dół małe, z Fn można sobie zmieniać jasność i głośność, ale nie ma wyłącznika opcji bezprzewodowych.</p>
+
+<p>Stary styl. Jest moc, jest OK (głośność pisania średnia).</p><p><b>Touchpad</b></p><p>Działa i można go wyłączyć kombinacją klawiszy z Fn.</p>
+
+<p><b>Dźwięk</b></p>
+
+<p>Jest. Intela. Do tego małe pierdzidełka stereo.</p>
+
+<p><b>Kamera i mikrofon</b></p>
+
+<p>Są. Nie sprawdzałem i myślę, że kamerę warto profilaktycznie czymś zakleić.</p>
+
+<p><b>Windows 10 S na dzień dobry<br/></b></p>
+
+<p>Po latach wzrostu Microsoft zaczął odcinać kupony i zwalniać co lepszych pracowników (ewentualnie ci zaczęli odchodzić do konkurencji albo na emerytury). W tym czasie zmieniali się też CEO i mieliśmy misz-masz strategii (o ile pierwotnie seria NT miała spory sens, i z generacją XP wszystko było w miarę spójne, to potem było już tylko gorzej, czego świadectwem jest obecnie nawet oddzielna aplikacja do uaktualnień przeglądarki Edge).</p>
+
+<p>Nie udało się firmie wejść na rynek mobilny, i w przypadku systemów operacyjnych ma właściwie tylko dwa rozwiązania - zacząć wszystko totalnie od nowa (i ryzykować wku... istotne zdenerwowanie użytkowników) albo dalej ciągnąć wózek, na którym problemy zależności i bagaż kompatybilności wywołują dreszcz emocji dosłownie u każdego.</p>
+
+<p>Pewne rzeczy dzieją się w tym świecie równolegle i nowym elementem tej historii ma być &quot;The New Windows&quot; (ewentualnie zwany &quot;Windows 10X&quot;), czyli kolejna odsłona Windows 10, w której &quot;stare&quot; aplikacje win32 mają zostać skonteneryzowane.</p>
+
+<p>To może być przyszłość - na razie główną bolączką obecnej wersji pozostaje jej podatność na uszkodzenie przez aplikacje czy sterowniki firm trzecich. Microsoft postanowił coś z tym zrobić i już jakiś czas przygotował edycję Windows 10, w której pozwala jedynie na uruchamianie pobłogosławionych przez siebie programów, sterowników, itp. (przy czym nadal daje dostęp do działań wykonywanych normalnie przez administratora)</p>
+
+<p>Czy w założeniach rozwiązywało to wszystkie problemy architektoniczne i usuwało bolączki platformy? Niezbyt.</p>
+
+<p>Czy było dobrą odpowiedzią na chromebooki? Może nie miażdzącą, ale niezłą.</p>
+
+<p>Akoya posiada taki system w wersji Home - z zainstalowanej wersji można migrować do &quot;normalnego&quot; Windows 10 Home, a z powrotem jest to chyba już niemożliwe (piszę chyba, gdyż spotkałem się z informacją, że wystarczy zrobić kopię systemu przed &quot;opuszczeniem&quot; wersji S i potem ją odtworzyć). </p>
+
+<p>Jak każdy normalny i grzeczny typowy zjadacz chleba (celowo nie piszę konsument) swoją przygodę rozpocząłem od konfiguracji wstępnej (język, strefa czasowa, układ klawiatury, itp.), a potem odwiedziłem Windows Update i migrowałem do Windows 10 20H2. Wszystko poszło OK. Zająłem się wtedy konfiguracją takich rzeczy jak</p>
+
+<ul><li>ustawienia prywatności (wyłączenie przez nowy Panel Sterowania mikrofonu, kamery, itp.), </li>
+
+<li>wyłączenie pliku swap i hybrid-sleep (w trosce o zużycie dysku),</li>
+
+<li>&quot;usunięcie&quot; Internet Explorera 11,</li>
+
+<li>zainstalowanie uaktualnień z Microsoft Store, </li>
+
+<li>włączenie takich funkcji bezpieczeństwa jak &quot;Core Integrity&quot; i &quot;Force randomisation for images (Mandatory ASLR)&quot;,</li>
+
+<li>wyłączenie usługi Search, itp. </li></ul>
+
+<p>Poza oczywistymi idiotyzmami (np. możliwość pobrania terminala Microsoftu ze sklepu, chociaż linia komend jest zablokowana) i microsoft-yzmami wszystko zakończyło się w miarę dobrze. Nie było to szczególnie uciążliwe i wymagało jakichś dwóch godzinek, a po wszystkim miałem na pokładzie ostatnią wersję Edge i urządzenie, na którym nic w tle nie optymalizowało dla mojego dobra całego mojego życia.</p>
+
+<p>Przy 4 GB RAM i ok. 32 GB wolnego miejsca na dysku bez większych problemów mogłem edytować teksty, przeglądać strony www i robić różne rzeczy, do których zazwyczaj używa się komputera klasy chromebook. Nie napiszę, że konsumowałem treści, bo nie lubię tego określenia, ale w sumie wszystko się do tego sprowadzało. Nie miałem przy tym dostępu do linii komend, edytora Rejestru czy ulubionych aplikacji, ale jakoś dało się to przeboleć... zaś Edge z zainstalowanym uBlock Origin (<a href="https://github.com/NanoAdblocker/NanoCore/issues/362#issuecomment-709428210" target="_blank" rel="noopener" rel="nofollow">nie nano adblocker z uwagi na wątpliwości</a> i nie AdBlock) nie blokował mi tylu reklam co Firefox (OK - prawdopodobnie to też można obejść) i pomimo dostępności RAM tylko raz zaczął renderować co którąś literkę. Ogólnie bez przykrości i odruchu obrzydzenia, a nawet wprost przeciwnie - wrażenie prędkości podobne jak na komórce, a absolutna cisza ze strony pasywnego układu chłodzenia tylko zwiększyła komfort (co już zresztą dawno zauważyłem po <a href="?q=node/382">wyłączeniu wentylatorów w Dellu Precisionie</a>).</p>
+
+<p>W sam raz dla użytkownika, którzy się cieszy &quot;łooo panie! Tu nawet Internety są&quot;, </p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/wSvKeeP601c?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>albo dla tego, który chce tylko edytować dokumenty w MS Wordzie czy pokazywać coś w PowerPoincie.</p>
+
+<p><b>Bloatware?</b></p>
+
+<p>W tle mignął mi jakiś jeden link do Mediona, na dysku zobaczyłem instrukcje obsługi w PDF + archiwum z kompletem sterowników, poza tym dostałem też <a href="https://support.microsoft.com/en-us/office/activate-office-5bd38f38-db92-448b-a982-ad170b1e187e?ui=en-us&amp;rs=en-us&amp;ad=us#bkmk_afolb" target="_blank" rel="noopener" rel="nofollow">Office-365 na 1 rok </a>(okres można rozpocząć 6 miesięcy od aktywacji Windows).</p>
+
+<p>Zero problemu.</p><p><b>Ekran</b></p>
+
+<p>Producent mocno reklamuje, że użyta została matryca o rozdzielczości Full HD wykonana w technologii IPS. Nie oczekiwałem cudów, ale na pierwszy rzut oka wszystko wyglądało bardzo poprawnie (o wiele lepiej niż można się spodziewać w tej klasie).</p>
+
+<p>Ponieważ kilka doświadczeń w życiu już zdobyłem, to postanowiłem się dokładniej przyjrzeć, co misio ma w środku (<a href="?q=node/402">dawno temu pisałem zresztą o różnych ustawieniach i pułapkach</a> związanych z ekranami i matrycami LCD). Windows S nie pomagał mi w dotarciu do tego, co to za matryca, więc skorzystałem z Panelu Sterowania i Device Managera.</p>
+
+<center><img src="sites/default/files/441/grafa.png" style="width:355px;height:405px;" alt="image" title="image" /></center>
+
+<p>Otworzyłem kaczkę i wyszukałem BOE0718 - pierwszy link odesłał mnie do <a href="https://www.panelook.com/NV140FHM-N62_BOE_14.0_LCM_overview_31703.html" target="_blank" rel="noopener" rel="nofollow">https://www.panelook.com/NV140FHM-N62_BOE_14.0_LCM_overview_31703.html</a>, gdzie mogłem poczytać o tym, iż NV140FHM-N62 ma 300 cd/m2, kontrast 800:1, pokrycie sRGB 92% i czas odpowiedzi 30 ms. Skorzystałem też z panelu sterowania karty graficznej i zapisałem informacje o systemie do pliku. Znalazły się tam dane EDID, które porównałem z <a href="https://github.com/linuxhw/EDID/blob/master/Digital/BOE/BOE0718/BDB132D8D518" target="_blank" rel="noopener" rel="nofollow">https://github.com/linuxhw/EDID/blob/master/Digital/BOE/BOE0718/BDB132...</a>. Wszystko pasowało jak ulał.</p>
+
+<p>Wtedy jeszcze zobaczyłem <a href="https://www.notebookcheck.net/Asus-ZenBook-UX430UN-i7-8550U-GeForce-MX150-Laptop-Review.289492.0.html" target="_blank" rel="noopener" rel="nofollow">recenzję laptopa Asusa z NV140FHM-N62 na notebookcheck</a> (PWM 200 Hz &lt; 99% jasności) i <a href="https://laptopmedia.com/us/screen/boe-nv140fhm-n62/" target="_blank" rel="noopener" rel="nofollow">potwierdziłem na laptopmedia</a>, że przy tej matrycy jest również informacja o PWM 200 Hz. Dane były kompletne i mogłem sądzić, że w tym laptopie jest tak samo. Wstydliwa tajemnica wyszła na jaw i nawet kamery w iPadzie i Samsungu S9 zaczęły pokazywać paski, których nie powinno być (w przypadku iPada po uruchomieniu urządzenia działo się to tylko za pierwszym razem, gdy włączyłem apkę aparatu).</p>
+
+<p>Kontrast 800:1 (zgodnie z laptopmedia 1200:1), niezłe pokrycie i czas odpowiedzi, wystarczająca jasność... nosz kurcze, w budżetowym laptopie to bajka, ale z drugiej strony czy można wybaczyć tak mocne PWM? </p>
+
+<p>Marzenia o tanim i dobrym sprzęcie (do pewnych zastosowań oczywiście) prysły jak bańka mydlana.</p>
+
+<p>W tej sytuacji opcją pozostawałoby:</p>
+
+<ul><li>używanie z jasnością 100% przez ustawienie jej na 100% i wyłączenie przyciemniania w saver-mode (przy czym wtedy oczywiście wszystko się szybciej zużywa, pochłania więcej energii, a samo podświetlenie powoduje, że czarny to nie czarny) + zabawa kolorami (żeby choć trochę zniwelować efekt jasności) + wyłączenie dynamicznej regulacji jasności w panelu sterowania karty graficznej</li>
+
+<li>spróbowanie narzędzi do kontroli częstotliwości PWM, które zmieniają odpowiedni rejestr karty graficznej (kiedyś miałem takie w Windows 7)</li>
+</ul>
+
+<p>Przyznam się szczerze, że nóż się w takich momentach w kieszeni otwiera - <a href="https://www.notebookcheck.net/Why-Pulse-Width-Modulation-PWM-is-such-a-headache.270240.0.html" target="_blank" rel="noopener" rel="nofollow">coś takiego jest niebezpieczne dla zdrowia</a> (sam też <a href="?q=node/402">pisałem</a>) i w idealnym świecie powinno być prawnie zakazane (popłynąłem trochę). PWM stosują bez wyjątku wszyscy producenci (tak, tak, ktoś sprawdził nawet MacBooka Air z procesorem Intela i <a href="https://www.notebookcheck.com/Apple-MacBook-Air-2020-Retina-Display-wieder-mit-PWM.459575.0.html" target="_blank" rel="noopener" rel="nofollow">efekt był widoczny poniżej 75%</a>), a często i gęsto nawet w ramach jednego modelu i jednej specyfikacji można trafić na zupełnie inne ekrany (nawet jeśli laptop ma matrycę Full HD IPS, to teoretycznie może to być BOE, LG albo coś innego). Z uwagi na to nie chcę pisać, że Lenovo / Medion zawiniły - problem jest znacznie szerszy.</p>
+
+<p><u><b>Zdecydowanie nie OK, przynajmniej w przypadku tego egzemplarza (inne egzemplarze E4251 z innymi matrycami mogą być w porządku).</b></u></p>
+
+<p><b>Schody i schodki</b></p>
+
+<p>Miesiąc miodowy się skończył, zauroczenie przeszło, pacjent przeżył - zacząłem się zastanawiać, do czego w takim razie mógłby być taki laptop z takim systemem.</p>
+
+<p>Gry? Grać nie grałem, za to ktoś inny spróbował GTA V na czymś podobnym</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/l8Pb1rEUEkA?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Nie jest to demon (tylko 12 EU!), dodatkowo gry przecież przychodzą ze Steama albo innej usługi... w Windows S nie można ich tak po prostu sobie posadzić.</p>
+
+<p>Siłą tego systemu są (głównie) aplikacje - może więc warto byłoby sobie przejść na wersję Home, a potem ewentualnie wrócić? Wydaje się, że znalazłem dosyć aktualny dokument od mało-miękkiego <a href="https://docs.microsoft.com/en-us/education/windows/test-windows10s-for-edu" target="_blank" rel="noopener" rel="nofollow">https://docs.microsoft.com/en-us/education/windows/test-windows10s-for...</a>, w którym mówi wyraźnie o tym, że jest oddzielny instalator do wersji S, ale lepiej go nie używać przy kodzie aktywacyjnym do Home. Zapaliła mi się w głowie ogromna czerwona latarnia - Microsoft nie byłby chyba sobą, gdyby nie skomplikował prostej sprawy, prawda?</p>
+
+<p>Pozwolę sobie tutaj wbić malutką szpilkę - &quot;standardowego&quot; Windows można pewnie zmodyfikować jakimś skryptem, tylko, że wtedy mogłyby wchodzić w grę kwestie prawne (w S zobaczyłem nawet jakiś komponent od McAfee). Cyrki z licencjami występują nie od dzisiaj (chociażby sprawa OEM-ów czy darmowego ugpradu z Windows 7 na 10), tak samo nie od dziś występują problemy z wersją instalacyjną. Dawno, dawno temu producenci kazali sobie płacić za płytki, a partycja Recovery była przecież podatna na uszkodzenia... jeśli mówimy o obecnym Windows bardziej ogólnie, to niewiele się zmieniło i np. opcja &quot;Reinstall your PC&quot; z Panelu Sterowania wymaga, żeby &quot;Windows Recovery Environment&quot; miał oddzielny wpis w UEFI i wpis ten był połączony z wpisem startującym Windows. </p>
+
+<p>Krótki crash kurs - Microsoft przechowuje te dane w bazach w plikach w formacie REG (Rejestru), chociaż cały świat migruje na pliki tekstowe (XML, JSON, itd.). Bardzo dużo poradników z tym związanych rozpoczyna się od słów &quot;należy uruchomić linię komend&quot; i wykonać &quot;x&quot;, &quot;y&quot;, i &quot;z&quot;. Jak to wykonać w Windows S?</p>
+
+<p>Po wpisaniu w Panelu Sterowania &quot;Advanced Startup&quot; i przejściu do tego trybu, wybraniu Troubleshoot, Advanced Options, Command Prompt i podaniu hasła użytkownika mamy dostęp do linii komend. Można tam pobawić się bazą wpisów startowych, np. &quot;<b>bcdedit /enum all</b>&quot; pokaże nam wszystkie wpisy, a &quot;<b>bcdedit /set {current} recoverysequence {GUID}</b>&quot; <a href="https://www.ubackup.com/windows-10/windows-10-recovery-environment-missing-5740.html" target="_blank" rel="noopener" rel="nofollow">zmieni parametr recoverysequency we wpisie startującym Windows na {GUI...</a> (gdzie {GUID} powinniśmy pobrać z wpisu &quot;Windows Recovery Environment&quot;). </p>
+
+<p>Tyle dygresji, a morał jest taki - skoro chcemy skorzystac z opcji recovery, to pewnie coś jest uszkodzone, i skoro nie można uruchomić &quot;<b>reagentc</b>&quot;, to wypadałoby, żeby soft jednak potrafił się naprawić... Microsoft przez ostatnie lata dużo zrobił w celu poprawy systemu, ale wiele rzeczy nadal jest żenująco nieporadne. Firma przy tym rozwija PowerShell, narzędzia konsolowe i dodaje podsystem linuksowy, co powoduje, że skryptowanie przestaje się różnić od tego z linuksów, a to oznacza, że to jest dobre i potrzeba (to zresztą bardzo częsty agument, że w Windows wszystko robi się graficznie, a wszędzie indziej nie). W Windows S widać tu niekonsekwencję - w opisanej konsoli mogłem utworzyć sobie działający plik bat (normalnie system blokuje takie pliki). Czyżby w tym trybie można odpalać każdą aplikację?</p>
+
+<p>Kolejną niekonsekwencją jest to, że producent tak dba o nasze bezpieczeństwo, a nie dodał BitLockera (nie zapominajmy, że VeraCrypt tu nie posadzimy). O niektórych wyłączonych opcjach już pisałem, i wspomnę jeszcze tylko, że Security Processor (TPM) nie zawsze pokazuje swój status. To powoduje, że Windows S nie będzie dobrym wyborem dla firm (nie zapominajmy o pakietach do drukarek, które występują tylko w wydaniu z Windows Update).</p>
+
+<p>Libre Office? Dostępny w wersji płatnej (kompilacja od firmy trzeciej). Paint .net? Nieeee... hwinfo? Też nie.</p>
+
+<p>I końca nie widać.</p><p>Windows S po samym wprowadzeniu na rynek <a href="https://www.laptopmag.com/articles/windows-10-s-hacked" target="_blank" rel="noopener" rel="nofollow">został &quot;złamany&quot; w 3 godziny</a> - nie wiem, jak wygląda to w 2021, ale... ładnie wyglądające założenia okazały się zbawieniem i równocześnie koszmarem.</p>
+
+<p>Do tego dochodzi fakt, że do uruchamiania tego wszystkiego (wraz z Office rzecz jasna i plikami od Mediona) potrzeba ok. 30 GB. Część z tego miejsca jest zajęta zupełnie niepotrzebnie - np. plik hibernacji pozostaje, gdy ją całkiem wyłączymy. Porównajmy sobie to z innymi wywołującymi gorące emocje systemami, która z dodatkami typu przeglądarka, edytor i arkusz kalkulacyjny potrafią zejść do 10 GB.</p>
+
+<p>Może więc Windows 10 S jest ładny / ładniejszy niż konkurencja? Kompatybilność wsteczna powoduje, że w samym systemie są &quot;stare&quot; okienka rodem z Windows 95 (Device Manager), są stare okienka rodem z Windows NT, są też nowe ich wersje, dostosowane do ekranów dotykowych, ale niespójne z resztą, która czasem jest ostra, czasem nieostra, czasem się dobrze skaluje, a czasem nie.</p>
+
+<p>Czy jest to więc rozwiązanie technologiczne na miarę XXI wieku? O problemach z Windows Update słyszymy nie od dziś, do tego dochodzi skamielina, czyli NTFS (ReFS chyba się już nie doczekamy) i takie kwiatki, jak konieczność czekania w nieskończoność na otwarcie tak prostego okna jak log systemowy (pliki do tego są binarne, bo przecież tak się kiedyś robiło...)</p>
+
+<p><b><u>Ogólnie nie OK, całość ratuje tylko fakt, że działa bez większych zawieszek.</u></b></p>
+
+<p><b>A może podejść do tego inaczej? (nie myślę o &quot;think different&quot;)</b></p>
+
+<p>Używanie tego urządzenia może być pewnym wyzwaniem z uwagi na ekran. Tu i tam można poczytać o wartościach z rejestru 0xc6204 i magicznym rejestrze 0xC8254 (np. <a href="https://127001.me/post/eliminate-backlight-flicker-with-i915/" target="_blank" rel="noopener" rel="nofollow">link1</a>, <a href="https://bbs.archlinux.org/viewtopic.php?id=259313" target="_blank" rel="noopener" rel="nofollow">link2</a>), który w starszych Intelach pozwalał na zabawy z częstotliwością PWM. Żeby jednak to sobie sprawdzić bez rozbijania Windows S, trzeba było mieć jakąś dystrybucję Linuxa. Stary się trochę robię, więc zachciało mi się chwilę pobawić, idąc przy tym po najmniejszej linii oporu.</p>
+
+<p>Wpierw pomyślałem, że użyję pamięci USB 8 GB do nagrania instalatora Ubuntu. Pobrałem sobie ISO systemu, potem sprawdziłem sumę i zainstalowałem standardową apkę do nagrywania obrazów:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sha256 -d file.iso
+sudo apt install usb-creator-gtk</code></pre>
+
+<p>Odpaliłem ją (&quot;Make Startup Disk&quot;), nagrałem obraz i wystartowałem Akoyę z pamięci (F10). Tam wybrałem opcję &quot;Try Ubuntu&quot;... i się okazało, że nie ma pakietu &quot;intel-gpu-tools&quot; i kernel najwyraźniej nie ma wszystkich komponentów do operacji na rejestrach (problemem mógł być też Secure Boot, ale to wyszło później). Ślepa uliczka.</p>
+
+<p>Pomyślałem, że wykorzystam kartę microSD 8 GB i zainstaluję tam system. Też ślepa uliczka - zarówno UEFI jak i GRUB nie widziały bootloadera na karcie (nie sprawdzałem, czy czytnik kart nie był rozpoznawany w tym momencie czy chodziło o brak partycji EFI na karcie).</p>
+
+<p>Trochę myślenia i idea, żeby zainstalować system z obrazu ISO na dysk twardy Virtualbox (format VDI) i ten zapisać na hoście na pamięć USB. Okazuje się, że minimalna wielkość dysku dla instalatora Ubuntu to obecnie 8,6 GB. To oznacza, że musiałem zadeklarować większy dysk (10GB), zainstalować wszystko i spróbować opcji</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">vboxmanage internalcommands converttoraw disk.vdi disk.img</code></pre>
+
+<p>Wszystko byłoby dobrze, ale... dostałem plik wynikowy 9,6 GB, a &quot;<b>VBoxManage modifyhd plik.vdi --resize 8GB</b>&quot; oczywiście nie zadziałało.</p>
+
+<p>Kolejną pomysłą było to, żeby obraz wystartować w maszynie VirtualBox, dołączyć pamięć USB i zainstalować tam system. Odpaliłem ulubionego Synaptica, wybrałem pakiety &quot;virtualbox&quot; i &quot;virtualbox-ext-pack&quot;, skonfigurowałem i odpaliłem maszynę... virtualbox nie widział pamięci USB (nie może było jej podmontować). Nosz kurka wodna! Strzeliłem się w czoło, bo przypomniałem sobie, że należy dodać użytkownika do odpowiedniej grupy.</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo adduser $USER vboxusers</code></pre>
+
+<p>Poszło... Wolno, ale poszło... A potem odpalił... Musiałem mieć tylko dysk twardy &gt; 8,6 GB, a na pamięci USB stworzyć partycję EFI i właściwą na ext4 na system (UEFI Mediona wydaje się nie obsługiwać trybu legacy).</p>
+
+<p>Zrobiłem jeszcze <a href="?q=node/376">szacher-macher ze swapem</a> i przystąpiłem do testów.</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo apt-get install intel-gpu-tools
+sudo intel_reg read 0xC8254
+&gt; Couldn&#39;t map MMIO region</code></pre>
+
+<p>Konieczne okazało się wyłączenie secure mode w UEFI.</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo intel_reg read 0xc8254
+&gt; 0x00017700
+sudo intel_reg read 0xc6204
+&gt; 0x00000000</code></pre>
+
+<p>Teoretycznie skrypt z <a href="https://github.com/edio/intelpwm-udev" target="_blank" rel="noopener" rel="nofollow">https://github.com/edio/intelpwm-udev</a> powinien pozwolić na zmianę z 200 np. na 2000 Hz... przeszedłem nawet do źródeł tematu: na stronie <a href="https://01.org/linuxgraphics/documentation/hardware-specification-prms" target="_blank" rel="noopener" rel="nofollow">https://01.org/linuxgraphics/documentation/hardware-specification-prms</a> znalazłem <a href="https://01.org/sites/default/files/documentation/intel-gfx-prm-osrc-bxt-vol07-display.pdf" target="_blank" rel="noopener" rel="nofollow">plik 1</a> (mówi, że PWM clock frequency = 19.2 MHz) i <a href="https://01.org/sites/default/files/documentation/intel-gfx-prm-osrc-bxt-vol02b-commandreference-registers.pdf" target="_blank" rel="noopener" rel="nofollow">plik 2 </a>(mówi, że rejestr 0xc8254 określa częstotliwość jako wartość rejestru = PWM clock frequency / częstotliwość, co w tym wypadku = 19200000 Hz / 200 Hz = 96000 = 17700 hex; a rejestr 0xc8258 określa, jaka część impulsu jest wypełniona). Jak zacząłem analizować te formuły, to wyszło mi na to, że to najwyraźniej ślepa uliczka - nawet jeśli zmiana częstotliwości byłaby możliwa, to i tak przecież nie wyeliminowałbym samego problemu, tylko przesunąłbym szkodliwość jego oddziaływania. I tyle w tym temacie. Narzędzi do Windows 10 jest kilka (PWM tool, PWMHelper, etc.) i wydają się działać na zasadzie zmiany 0xc8254.</p>
+
+<p>Nie patrzyłem na wszystkie funkcje (czas), sprawdziłem tylko sobie, co jeszcze mogę dowiedzieć się o wbudowanym dysku (i wyszło na to, że nie ma info o zużyciu, o czym wcześniej nie wiedziałem)</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo mmc extcsd read /dev/mmcblk0</code></pre>
+
+<p>Aaaa, Firefox 86 pokazał w MotionMark 53.07 +-8,7% (nie chcę gdybać dlaczego).</p>
+
+<p>Mały przerywnik - proszę zobaczyć, ile rzeczy byłem w stanie zrobić, korzystając tylko z darmowego softu. A jeśli coś jest przynajmniej tak samo dobre jak komercyjne, to po co przepłacać? (a bardziej na poważnie - gdyby nie projekty Open Source, to pewnie do dnia dzisiejszego nie mielibyśmy nawet pojęcia o różnych funkcjach sprzętu ani grzeszkach producentów, którzy potrafią iść na skróty, jeśli chodzi o traktowanie specyfikacji czy bezpieczeństwo).</p>
+
+<p>I mała dygresja - po zabawach z Ubuntu może się okazać, że w UEFI jest wpis o bootloaderze tego systemu, chociaż nie był on w ogóle na dysku. Możemy go usunąć z linii komend z &quot;Windows Recovery Environment&quot; (zamiast GUID podstawiamy odpowiedni napis):</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">bcdedit /enum firmware
+bcdedit /delete {GUID}</code></pre>
+
+<p>ale wróci jak bumerang, jeśli na którymś z dysków Windows w katalogu EFI pozostał katalog ubuntu. <a href="https://smarttechnicalworld.com/remove-grub-bootloader-from-windows/" target="_blank" rel="noopener" rel="nofollow">W takich wypadkach należy sprawdzić</a>, czy wszystkie dyski zostały zamontowane, zamontować je (x to będzie zapewne numer partycji System):</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">diskpart
+list vol
+select volume x
+assign letter=Z:</code></pre>
+
+<p>i następnie pousuwać, co trzeba, komendą <b>rmdir</b>.</p>
+
+<p><b>Bateria</b></p>
+
+<p>Zasilacz przypomina przerośnięty zasilacz do telefonów bezprzewodowych i podobnego sprzętu i podaje 12V 3A. To wystarcza do wolnego ładowania (orientacyjnie 3,5 h).</p>
+
+<p>41 Wh w technologii polimerowej według producenta starcza do 8,5 h. Mnie udało się uzyskać czasy rzędu 5 - 6 h (w obu systemach). </p><p>Jeśli chodzi o Windows, to ustawiłem sobie maksymalnie oszczędzanie energii w Panelu Sterowania, powyłączałem niepotrzebne usługi systemowe, jak również wyłączyłem Bluetooth i kartę Wifi (z Internetu korzystałem przez telefon podłączony kablem), i wtedy w ostatecznym rozrachunku procesor często zwalniał poniżej 1 Ghz.</p>
+
+<p>OK jak na tę cenę.</p><p><b>Podsumowanie</b></p>
+
+<p>Nie chcę wracać do tego, co do znudzenia pisałem w poprzednich wpisach blogowych, ale... rynek laptopów Intela to jakiś dziki zachód - najdroższe nowe konstrukcje kosztują tyle co dobry samochód, lepiej wykonany sprzęt znanych firm to jakieś 6000 - 8000 PLN, coś szybszego, ale uniwersalnego, to wydatek rzędu 3000 - 2000 PLN, a Celerono-Pentiumowe &quot;okazje&quot; potrafią być wystawiane w cenie nawet 2000 - 2500 PLN.</p>
+
+<p>W komplecie często dostajemy <a href="?q=node/426">absurdalne zużycie energii przez wyłączony komputer</a>, <a href="?q=node/430">temperatury rzędu 100 stopni C</a> i masę niepotrzebnych / niebezpiecznych elementów, takich jak Intel ME czy rozbuchane UEFI. Ciekawie się robi, gdy czasem widać panów i panie, którzy nie wiedzą, co robić z piniędzmi, a mają koszmarnie drogie laptopiki rozmiaru Akoi, na których niewiele da się zrobić, bo te zaczynają odlatywać niczym odrzutowiec. Kpiną w tym momencie są reklamy pana od &quot;I&#39;m Mac and I&#39;m PC&quot;, np. ta</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/8HebkohrCns?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>(nie lepiej robić to na dużym monitorze? AMD nie jest lepsze ze swoją Vegą? I przy graniu można zapomnieć o mobilności, na którą tak zwraca uwagę Intel)</p>
+
+<p>albo ta</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/9gtRRMd2_UI?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>(wszystko miałoby sens, gdyby producenci dawali opcję fabrycznego naklejenia folii matowej; do tego dotyk swoją energię zużywa)</p><p>ewentualnie ta</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/nYSm_HOg2kg?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>(jeżeli mamy dwa ekrany, to czas pracy na baterii spada; do tego znów - dla części społeczeństwa odbicia na ekranie to katorga)</p>
+
+<p>Reklamy, jak i inne porównania, jasno pokazują, że weszliśmy w ślepą uliczkę - według nich np. przykładowy sprzęt z Intelem i MacBook są tak samo dobre, bo <a href="https://antyweb.pl/intel-chcial-dopiec-laptopom-z-apple-m1-i-polegl/" target="_blank" rel="noopener" rel="nofollow">działają 10h na baterii</a> (czyli Maluch i Porsche są tak samo dobre, bo mają cztery koła).</p>
+
+<p>Urządzenia z procesorami AMD liczą się średnio (a w każdym razie jest ich średnio dużo), pewnym remedium są za to konstrukcje Apple, ale te również mają swoje za uszami - od <a href="?q=node/434">braku bezpieczeństwa &quot;by design&quot;</a> (nie są to moje słowa) poprzez <a href="?q=node/438">śmieszne decyzje projektowe</a> na powielaniu starych błędów i planowanym postarzaniu skończywszy.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/u7LOljirF6g?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Nikt nad tym nie panuje i szkoda, że <a href="https://www.dobreprogramy.pl/443052,Silny_Ogor,Uzytkownik.html" target="_blank" rel="noopener">osoby pokroju pewnego pana</a> skupiają się na udowadnianiu, że inżynieria oprogramowania leży i kwiczy tylko w wybranych obszarach (pan wspomina, że w różnych dystrybucjach Linuxa co i rusz słyszy się o błędach, a &quot;zapomina&quot;, że podobne problemy w zamkniętym kodzie przechodzą bez słowa, bo i &quot;dobrych&quot; badaczy jest jednak jakby mniej i nie mają dostępu do wersji źródłowej). Doszliśmy do tego, że jedyną metodą na ogarnięcie tego szamba jest cofnięcie się i uproszczenie spraw - <a href="https://www.dobreprogramy.pl/Ufaja-tylko-Linuksowi-Google-pozbywa-sie-UEFI-i-Intel-Management-Engine,News,83961.html" target="_blank" rel="noopener">przykład to NERF i podobnież 32-krotne przyspieszenie rozruchu</a>.</p>
+
+<p>Strategią biznesową producenta modelu E4251 jest w tej sytuacji dostarczanie tańszych podzespołów i składanie tego, co się tylko da. Właściwie jest to dosyć logiczne i szkoda, że inni jakoś nie chcą tego mocno podchwycić - dzisiaj wystarczyłoby zamykać różne SoC w obudowach wielkości kart kredytowych (coś jak kiedyś robił Intel), wyprowadzać na zewnątrz złącza do zasilania, USB, grafiki, itp. i dodawać klawiaturę, ekran i baterię. A może nawet dawać dwa Pentiumy o TDP 6 W? Dostalibyśmy 12 W, zero problemów z chłodzeniem i 8 wątków. </p>
+
+<p>Nie zapominajmy również, że na rynku mamy przynajmniej dwie konstrukcje 14-calowe z baterią 73 Wh i &quot;normalnym&quot; procesorem (a przez to &quot;normalnym&quot; ciężkim układem chłodzenia), które ważą ok. 1 kg - dlaczego nie można kupić czegoś takiego z Celeronem i dlaczego Akoya waży 1,4 kg?</p>
+
+<p>W Medionie nie ma za dużo do wymiany - chcesz więcej RAM? Nie można. Nowe Wifi? Tylko przez USB. To jest oczywiście kij, marchewką pozostaje zaś cena. Roczny abonament na Office-365 to jakieś orientacyjne 300 PLN, Windows 10 Home OEM to ok. 220 PLN (nie patrzę na &quot;okazje&quot; z różnych miejsc). Nowa Akoya w testowanej konfiguracji kosztuje ok. 1100 - 1300 PLN - z prostej arytmetyki wychodzi na to, że nowy sprzęt wart jest 600 PLN. Gdybyśmy chcieli zejść z ceny, to <a href="https://allegro.pl/oferta/lekki-i-szybki-laptop-14-fhd-do-pracy-nauki-domu-9476919070?reco_id=9d2cc079-8965-11eb-b450-0c42a10e6cb8&amp;sid=1cd3d0f84797ee9dbaaf52fac42b60e8c157c38c529f4e34b5162f65fddea227" target="_blank" rel="noopener" rel="nofollow">starsza używana Akoya E4242 z 2GB RAM i Atomem</a> z Windows Home kosztuje obecnie 719 PLN (czyli sprzęt to 719 - 220 PLN = 500 PLN)</p>
+
+<p>Według mojej skromnej oceny Windows S daje radę... trzeba jednak ciągle pamiętać, że jest to skamielina, której wstydzi się sam producent (i która nie potrafi nawet zaszyfrować dysku). Do uzyskania większej stabilności i bezpieczeństwa system ten wymaga ograniczania bazy programowej, za to przynajmniej nie sprawia większych problemów. Ktoś mógłby powiedzieć, że potrzebny byłby tam jeszcze antywirus czy coś podobnego, ale tych zwyczajnie nie ma... i szczerze mówiąc nie wiem, co by było, gdyby jakiś szkodnik przedostał się przez zabezpieczenia Microsoft.</p><p>Zamiana na wersję Home jest średnim pomysłem - (przynajmniej według producenta) dostajemy więcej procesów i obciążenia sprzętu, i więcej możliwości infekcji, za to jednak będziemy mogli używać specjalistycznych aplikacji.</p>
+
+<p>Sam sprzęt zapowiadał się rewelacyjnie - bezgłośny i autentycznie śliczny laptop z baterią trzymającą 5 - 6 h w domu sprawdziłby się idealnie jako druga czy trzecia maszyna w domu / serwisie / itp. Celeron N4020 i dysk eMMC wbrew pozorom często były wystarczające (pomijam scenariusz z szyfrowaniem dysku, bo tego nie sprawdziłem), a ja przestałem się dziwić, że Intel chce outsorcować w 7nm produkcję przede wszystkim tanich procesorów. Można sobie oczywiście gdybać nad zmianami (np. bateria 73Wh, Pentium 6000, szybkie ładowanie, większa stabilność ekranu i może minimalnie lepsze spasowanie złącz USB), ale nawet obecnie projekt tego laptopa jest naprawdę udany (z podobnych widziałem tylko <a href="https://www.asus.com/us/laptops/for-home/everyday-use/asus-l410/" target="_blank" rel="noopener" rel="nofollow">https://www.asus.com/us/laptops/for-home/everyday-use/asus-l410/</a>, ale tamten wydaje się być niedostępny). Chcę tutaj wyraźnie zaznaczyć, że M1, Zen czy coś innego są oczywiście szybsze (a mocy nigdy za wiele), za to... z drugiej strony tak naprawdę nie zawsze każdy potrzebuje tej mocy, gdy nie gra ani nie edytuje video.</p>
+
+<p>Gdyby ktoś miałby mi sprzedać coś takiego jak Akoa w cenie 600 PLN, szarpałbym jak Reksio szynkę... o ile matryca byłaby znośna. Przy dodatkowym podatku 500 PLN dla Microsoft byłby to nadal zakup do rozważenia pod względem opłacalności (powiedziałbym, że na granicy, ale dalej w granicach rozsądku). </p>
+
+<p>Więc czemu, ach czemu Herr mein-frend? Kto panu tak to sp... schrzanił? (uprzedzając komentarze o niskiej kulturze osobistej, wszem i wobec piszę, że nie chcę nikogo obrazić, tylko nawiązuję do znanych powiedzonek)</p>
+
+<p>Gdybym mógł, za ekran przyznałbym złotą malinę (swoją drogą, w tym roku nominowano do niej &quot;365 dni&quot;). Bez niego musimy mieć zewnętrzny monitor ewentualnie używać Akoi w charakterze skrzynki, do której łączymy się zdalnie - wtedy opłacalność wydania 1100 PLN stoi pod znakiem zapytania (można znaleźć znacznie lepsze alternatywy). </p>
+
+<p>PS. Gdyby do ceny sprzętu dorzucić jakąś drobną kwotę na inną zmianę jasności/matrycę, dalej byłoby to w porządku (już w 2016 można było nabyć laptopa z ekranem SHP1453-LQ156M1 z jasnością 393 cd/m2, brakiem PWM i kontrastem 1700:1, i w 2021 analogiczne parametry byłyby bajką). Pamiętajmy też o jednej rzeczy - istnieją droższe warianty tego modelu, i tam na metce pojawia się nawet 2100 PLN (według mojej skromnej oceny pewne rzeczy tyle kosztują i to jest w porządku, ale z drugiej strony lepiej wtedy dopłacić do czegoś bardziej uniwersalnego i szybszego).</p>
+
+<p>PS2. Nie wiem, czy powstanie kolejny wpis o tym urządzeniu, i czy będę miał chęć i możliwość sprawdzenia go dogłębnie z Linuxem czy &quot;normalnym&quot; Windows 10 (wtedy mógłbym zrobić porządne benchmarki).&#160;&nbsp;</p>

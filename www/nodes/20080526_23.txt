@@ -1,0 +1,27 @@
+﻿Title:Report 2008-05-25
+Author:marcin
+When:26 May 2008
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Hi,</p>
+<p>In the time, when we have various widely commented things on the world (Olimpic Games in China, ACTA regulations about ending P2P, Microsoft Windows Vista), Gammu history still can continue (although it's difficult - see info <a href="http://article.gmane.org/gmane.linux.drivers.gammu/5467">here</a>) and continues.</p>
+<p>Today there was released new release 0.40 for Gammu+. It brings new important features:</p>
+<!--break-->
+<ul><li>partial support for SyncML based backups. It works without any problems for example with some Symbian devices (tested on N82).
+</li><li>(thanks to voices in mailing list) extended command line with ability for making backups
+</li><li>support for OBEX default Inbox
+</li></ul><p>You can ask now: what are standards used for communication and how they're supported by Gammu/Gammu+ ?</p>
+<ul><li>AT commands - many manufacturers extensions available in Gammu
+</li><li>FBUS/PHONET binary protocol - available in Gammu/Gammu+. Some details (like caller groups) can be not fully supported by Gammu+.
+</li><li>Alcatel binary protocol - Gammu
+</li><li>OBEX - module for it is using many hardcoded values in Gammu, in Gammu+ there is done much more flexible XML parsing and it works without any problems with many devices (use such connections like "blueobexfolders" and "blueobexinbox")
+</li><li>SyncML - some first things added in Gammu+, some things already working. Connection "bluesyncmlserver", currently works with standard Nokia host ("PC Suite") and databases for everything excluding SMS (for SMS you have to create new settings with host "PC Suite 2" and "SMS" database - see below).
+</li><li>IrMC - implemented in Gammu, I will do it for Gammu+ after SyncML
+</li></ul><p>Few words of explanation for SyncML: in N82 open Tools\Sync application and enable things for backup in "PC Suite" profile. If you want to backup some SMS, create new profile for bluetooth with host "PC Suite 2" and "SMS" database (for SMS).</p>
+<p>What next ? It depends on people. If there will be some bug reports or suggestion, I will try to work on them first. If there will be some donations, it could help in development. If nothing will change, I will work on SyncML restore, IrMC, ending some Series 40 features and some other. Please note, that current SyncML backup is initial and there are many places for improvements too :)</p>
+<p>From other things:</p>
+<ul><li>my list of Vista related problems grows - <a href="?q=node/6">see here</a>
+</li><li>I have started creating own N82 review - <a href="?q=node/1">see here</a>
+</li><li>I didn't manage Gammu to compile under win32. There was some try to help from Michal's friend, but I didn't have time for this and it (help) wasn't too usefull for me.
+</li></ul>

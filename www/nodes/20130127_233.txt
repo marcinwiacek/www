@@ -1,0 +1,38 @@
+﻿Title:Po co ta cała informatyzacja czyli m.in. o zniesieniu Sądów w Polsce... (2013)
+Author:marcin
+When:27 Jan 2013
+Taxonomy:Polski,Polski blog,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2013/01/po-co-ta-cala-informatyzacja-czyli-m-in-o-zniesieniu-sadow-w-polsce.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Po co stworzono komputery ? Cóż za niemądre pytanie - w celu przetwarzania danych...a złośliwi dodają, że w celu rozwiązania problemów, których nie było, gdy nie było komputerów.
+
+<p>Pytanie jest dosyć zasadne i naszło mnie po przeczytaniu Wykopu <a href=http://www.wykop.pl/link/1388475/informatyzacja-po-polsku-to-totalna-porazka/>http://www.wykop.pl/link/1388475/informatyzacja-po-polsku-to-totalna-porazka/</a>
+
+<!--break-->
+<p>A dlaczego ? Znacie stronę <a href=http://dziennikustaw.gov.pl>http://dziennikustaw.gov.pl</a> ? A znaliście <a href=http://isap.sejm.gov.pl/>http://isap.sejm.gov.pl/</a> ?
+
+<p>Nowa strona nie zawiera treści ujednoliconych aktów prawnych (co jakiś czas np. do Ustaw dochodzą zmiany i czasem publikuje się treść ujednoliconą, czyli zawierającą te zmiany), w niektórych PDFach brak załączników, ale przynajmniej można z nich skopiować tekst (inna sprawa, że ten w przypadku starszych roczników bywa delikatnie mówiąc kiepskiej jakości) i mamy roczniki Dziennika Ustaw od 1918.
+
+<p>A zastanawialiście jak powstają PDFy ? Ano obecnie są generowane mniejszym lub większym automatem z XMLów, jednakże XMLe te nie są publikowane...czyli mówiąc krótko Państwo tworzy setki plików i ich nie udostępnia. Ktoś może oczywiście powiedzieć, że nie powinno się rezygnować z zysku z tytułu korzystania z nich. OK, ale zastanówmy co dałoby ich publikowanie ? Przy jasnej strukturze możnaby doprowadzić właśnie do automatycznego tworzenia wersji ujednoliconych aktów prawnych, programiści mogliby stworzyć przeglądarki, programy do porównywania i wyszukiwania błędów formalnych i inne.
+
+<p>Przyznam się szczerze, że chciałbym zobaczyć używaną tutaj schemę XML i mieć pewność, że to jest ta "właściwa".
+
+<p>Pisałem o tym roku temu (<a href=?q=node/196>http://www.mwiacek.com/www/?q=node/196</a>) i szkoda, że niewiele się zmieniło w tym zakresie. Owszem, jeden z prawników Pan Piotr Waglowski informuje, że we współtworzonym przez niego systemie do konsultacji pojawiła się propozycja kolejnej schemy XML (<a href=http://prawo.vagla.pl/node/9879>http://prawo.vagla.pl/node/9879</a>). Czy ten projekt zakończy się spektakularnym sukcesem ? Zobaczymy (nawiasem mówiąc polecam śledzić serwis <a href=http://prawo.vagla.pl>http://prawo.vagla.pl</a>, w którym pojawiają się interesujące teksty m.in. o kwestiach prawno-technologicznych)
+
+<p>Jest to wszystko o tyle ważne, że ustawodawcy czasem sami wydają się mieć problem ze zrozumieniem istniejącego porządku prawnego. Ot przykładowo ostatnio prawdopodobnie omyłkowo zniesiono część Sądów w Polsce: proszę poczytać <a href=http://maclawyer.pl/2013/01/od-1-stycznia-2013-r-w-polsce-nie-istnieja-sady/>http://maclawyer.pl/2013/01/od-1-stycznia-2013-r-w-polsce-nie-istnieja-sady/</a> lub <a href=http://www.iustitia.pl/index.php/uchwaly/638-stanowisko-zarzadu-ssp-iustitia-w-przedmiocie-mozliwosci-funkcjonowania-sadow-po-dniu-1-stycznia-2013-r>http://www.iustitia.pl/index.php/uchwaly/638-stanowisko-zarzadu-ssp-iustitia-w-przedmiocie-mozliwosci-funkcjonowania-sadow-po-dniu-1-stycznia-2013-r</a>
+
+<p>Mamy takie kwiatki jak ostatnio z Ustawą o kierujących pojazdami - jej wejście w życie było przesuwane dwa razy (ostatnią nowelizację opublikowano w Dzienniku Ustaw 2 dni przed dniem obowiązywania, a zaczęła obowiązywać dzień przed...).
+
+<p>Owszem, mamy portale i strony www, ale są one często niespójne i czasem prawdopodobnie niezgodne z prawem (np. jeszcze jakiś czas temu ISAP podawał, że "Nie zezwala się na komercyjne używanie, kopiowanie i inne wykorzystywanie danych znajdujących się w bazie danych ISAP"), a procedury korzystania z nich przypominają drogę przez mękę. O takich "problemach" jak podpisywanie cyfrowo plików lub używanie https do przesyłania danych osobowych nawet nie wspomnę...
+
+<p>Na różnych stronach można poczytać sobie akty prawa miejscowego, ale te XMLe też często wołają o przysłowiową pomstę do nieba.
+
+<P>A "EWUŚ" ?
+
+<p>Czy naprawdę tak to ma wyglądać ?
+
+<p>Dobrze, że przynajmniej nie mamy już chyba kwiatków takich jak w Dzienniku Ustaw nr 75 z 2008 roku, poz 451, strona 4216 (gdzie wpisano, że źródłem prawa jest zawartość strony umieszczonej na PRYWATNYM serwerze - <a href=http://prawo.vagla.pl/node/7841>http://prawo.vagla.pl/node/7841</a>).
+
+<p>Ehhh....nic się znów nie stało Polacy, a Państwo zdaje egzamin ? Tylko po co kurcze w takim razie ta informatyzacja ?
+
+<p>PS. i dla odmiany jeden chyba dosyć pozytywny przykład - <a href=http://www.orzeczenia.ms.gov.pl/>http://www.orzeczenia.ms.gov.pl/</a>

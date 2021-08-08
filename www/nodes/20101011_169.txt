@@ -1,0 +1,313 @@
+﻿Title:Co można dostać od Mavericka ? (Ubuntu 10.10) (2010)
+Author:marcin
+When:11 Oct 2010
+Taxonomy:Polski,benchmark.pl,Linux,Polski artykuł,OS
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Co_mozna_dostac_od_Mavericka_._Ubuntu_10.10-3333.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><a href=https://wiki.ubuntu.com/MaverickMeerkat/ReleaseNotes>Ubuntu 10.10 to ostatnia wersja popularnej dystrybucji Linuxa</a>. Czym różni się od wersji 10.04 ? (o której szerzej pisałem w <a href=?q=node/159>artykule Ubuntu 10.04 i Mint 9 - rozwiązania dla ludzi ?</a>)</p>
+<!--break-->
+
+<h1>Instalacja</h1>
+
+<p align=justify>Na www.ubuntu.com klikamy na przycisk "Download Ubuntu", aby być przeniesionym do strony z różnymi wersjami instalacyjnymi (32-bitową, 64-bitową, itd.). Niewiele się tu zmieniło, moim zdaniem dużym minusem jest brak wyświetlania sumy MD5 pobieranego pliku po kliknięciu na jego nazwie. Rozwiązanie jest trochę mało eleganckie - należy wejść oddzielnie na http://releases.ubuntu.com/10.10/ i ją sobie samemu sprawdzić. </p>
+
+<p align=justify>Można też niestety napotkać na inny problem - pliki z http://releases.ubuntu.com/10.10/ mogą być ściągane tylko częściowo. Rozwiązaniem okazało się ich pobranie z serwera FTP (ftp://ftp.ukc.mirrorservice.org/sites/releases.ubuntu.com//maverick/).</p>
+
+<p align=justify>Kolejna kwestia dotyczy aktualizacji na zainstalowanym już systemie - w wersji 64-bitowej zdarzyło się, że program aktualizacyjny pokazywał błąd (i od razu sposób jego eliminacji, czyli komendę <font face="Courier New">apt-get install -f</font>)</p>
+
+<p align=justify>Oprócz nowej instalacji dostępna jest też oczywiście opcja uaktualnienia z poprzednich wydań:</p>
+
+<img width=500 src=sites/default/files/169/u1010_1.png>
+<img width=500 src=sites/default/files/169/u1010_2.png>
+<img width=400 src=sites/default/files/169/u1010_3.png>
+<img width=400 src=sites/default/files/169/u1010_4.png>
+<img width=400 src=sites/default/files/169/u1010_5.png>
+<img width=400 src=sites/default/files/169/u1010_6.png>
+
+<p align=justify>Wersja działająca na partycji NTFS dalej zakłada partycję wymiany (u mnie 268 MB) i kopiuje na dysk twardy płytę instalacyjną (w moim wypadku ok. 700 MB). Moim zdaniem jest to marnowanie miejsca...</p>
+
+<h1>Nowe wersje</h1>
+
+Zmieniło się kilka numerków. Domyślnie instalowane są np.
+
+<ul><li>Chromium 6.0.472.63 (59945)
+<li>Firefox 3.6.10
+<li>OpenOffice.org 3.2.1 - OOO320m19 (Build:9505)
+<li>jądro 2.6.35-22 (w wersji 10.04 była dostępna oficjalnie wyłącznie wersja 2.6.32)
+<li>XOrg 1.9.0
+<li>GNOME 2.32
+<li>Evolution 2.30
+</ul>
+
+<p align=justify>Mamy nową wersję Centrum Oprogramowania Ubuntu - zawiera ono również oprogramowanie PŁATNE.</p>
+
+<img width=400 src=sites/default/files/169/u1010_7.png>
+<img width=400 src=sites/default/files/169/u1010_8.png>
+
+<p align=justify>Menedżer aktualizacji nie wymaga teraz podania hasła administratora po kliknięciu na przycisk Sprawdź (do odświeżenia listy pakietów).</p>
+
+<h1>Wygląd</h1>
+
+<p align=justify>Na potrzeby tego wydania została stworzona nowa czcionka o nazwie Ubuntu. Szerzej o niej można przeczytać np. <a href=http://font.ubuntu.com/>tutaj</a></p>
+
+<p align=justify>Ubuntu Netbook Edition zawiera z kolei nowy interfejs graficzny o nazwie <a href=http://www.markshuttleworth.com/archives/383>Unity</a>.</p>
+
+<h1>Domyślne programy</h1>
+
+<p align=justify>Domyślna przeglądarka to nadal FireFox. Niestety zaczyna ona odstawać trochę np. od Chromium - ta ostatnia jest szybsza w różnych benchmarkach i wydaje się lepiej skalować niektóre grafiki.</p>
+
+<img width=800 src=sites/default/files/169/u1010_9.png>
+
+<p align=justify>Można tam już blokować reklamy - instalacja AdBlocka to kilka kliknięć: wchodzimy na stronę https://chrome.google.com/extensions/, wyszukujemy frazę "AdBlock", klikamy na "Install", potwierdzamy, przechodzimy do Tools\Extensions i dostosowujemy ustawienia...</p>
+
+<p align=justify>Podobnie nie ma bardzo dużych problemów z Flashem:</p>
+
+<ul><li>instalujemy go w systemie: <font face="Courier New">sudo apt-get install flashplugin-installer</font>
+<li>tworzymy jego dowiązanie dla Chromium: <font face="Courier New">sudo ln -s /usr/lib/flashplugin-installer/libflashplayer.so /usr/lib/chromium-browser/plugins</font>
+<li>modyfikujemy skrót uruchamiający Chromium dodając tam <font face="Courier New">--enable-plugins</font>
+</ul>
+
+<p align=justify>...i Javą:</p>
+
+<ul><li>instalujemy ją w systemie: <font face="Courier New">sudo add-apt-repository "deb http://archive.canonical.com/ubuntu maverick partner"</font>, <font face="Courier New">sudo apt-get update</font> i <font face="Courier New">sudo apt-get install sun-java6-jdk</font>
+<li>tworzymy jej dowiązanie dla Chromium: <font face="Courier New">sudo ln -s /usr/lib/jvm/java-6-sun/jre/lib/i386/libnpjp2.so /usr/lib/chromium-browser/plugins/</font>
+<li>modyfikujemy skrót uruchamiający Chromium dodając tam <font face="Courier New">--enable-plugins</font>
+</ul>
+
+<p align=justify>Z kolei domyślną przeglądarka plików multimedialnych jest Odtwarzacz Multimedialny. Niestety nie radzi sobie on domyślnie z płytami DVD (wynika to poniekąd z filozofii tworzenia tej dystrybucji, a nie złej woli jej twórców). Rozwiązaniem jest zainstalowanie odpowiedniej wtyczki ręcznie:</p>
+
+<ul><li><font face="Courier New">apt-get install libdvdread4</font>
+<li><font face="Courier New">sudo /usr/share/doc/libdvdread4/install-css.sh</font>
+</ul>
+
+<p align=justify>Nawet wtedy jednak możemy się spotkać ze złą jakością obrazu (jego drżeniem). Rozwiązaniem wydaje się użycie np. aplikacji "VLC Media Player"</p>
+
+<p align=justify>Domyślna przeglądarka plików graficznych to teraz natomiast Shotwell...</p>
+
+<h1>32 czy 64 bity ?</h1>
+
+<p align=justify>System 64-bitowy nie jest rekomendowany przez producenta. Czy warto jednakże się nim zainteresować ?</p>
+
+<p align=justify>Nie zauważyłem większych różnic funkcjonalnych (co nie znaczy, że ich nie ma), wersja 64-bit po zainstalowaniu zajmowała u mnie więcej miejsca (347,7 MB RAM i 2948 MB na dysku w porównaniu do 208,2 MB RAM i 2693 MB na dysku). Spróbowałem zrobić kilka prostych testów wydajności:</p>
+
+<table border=1 cellpadding=0 cellspacing=0>
+ <tr>
+  <td rowspan=2  align=center valign=center><b>Komenda</b></td>
+  <td rowspan=2  align=center valign=center><b>Test</b></td>
+  <td rowspan=2  align=center valign=center><b>Jednostki</b></td>
+  <td colspan=3 align=center valign=center><b>1 komputer (karta Nvidii)</b></td>
+  <td colspan=3 align=center valign=center><b>2 komputer (karta Intela)</b></td>
+ </tr>
+ <tr>
+  <td align=center valign=center><b>64-bit</b></td>
+  <td align=center valign=center><b>32-bit</b></td>
+  <td align=center valign=center><b>Przewaga wersji 64-bit</b></td>
+  <td align=center valign=center><b>64-bit</b></td>
+  <td align=center valign=center><b>32-bit</b></td>
+  <td align=center valign=center><b>Przewaga wersji 64-bit</b></td>
+ </tr>
+ <tr>
+  <td rowspan=3 align=center valign=center><font face="Courier New">phoronix-test-suite benchmark unigine</font></td>
+  <td align=center>Sanctuary</td>
+  <td align=center>FPS</td>
+  <td align=right>16,64</td>
+  <td align=right>16,65</td>
+  <td align=right>-0,06%</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td align=center>Tropics</td>
+  <td align=center>FPS</td>
+  <td align=right>13,86</td>
+  <td align=right>14,74</td>
+  <td align=right>-6,35%</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td align=center>Heaven</td>
+  <td align=center>FPS</td>
+  <td align=right>3,21</td>
+  <td align=right>3,25</td>
+  <td align=right>-1,25%</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td rowspan=6 align=center valign=center><font face="Courier New">phoronix-test-suite benchmark x-testing</font></td>
+  <td align=center>X11 perf</td>
+  <td align=center>op/s</td>
+  <td align=right>8110</td>
+  <td align=right>8107</td>
+  <td align=right>0,04%</td>
+  <td align=right>1823</td>
+  <td align=right>1813</td>
+  <td align=right>0,55%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>Triangle slammer</td>
+  <td align=center>s</td>
+  <td align=right>328,21</td>
+  <td align=right>328,57</td>
+  <td align=right>0,11%</td>
+  <td align=right>336,56</td>
+  <td align=right>334</td>
+  <td align=right>-0,76%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>Render bench</td>
+  <td align=center>s</td>
+  <td align=right>25,87</td>
+  <td align=right>32,86</td>
+  <td align=right>27,02%</td>
+  <td align=right>28,94</td>
+  <td align=right>35,83</td>
+  <td align=right>23,81%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>Qgears2</td>
+  <td align=center>FPS</td>
+  <td align=right>29,52</td>
+  <td align=right>26,34</td>
+  <td align=right>10,77%</td>
+  <td align=right>57,44</td>
+  <td align=right>55,96</td>
+  <td align=right>2,58%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>Qgears2</td>
+  <td align=center>FPS</td>
+  <td align=right>179,62</td>
+  <td align=right>143,08</td>
+  <td align=right>20,34%</td>
+  <td align=right>50,46</td>
+  <td align=right>44,63</td>
+  <td align=right>11,55%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>Qgears2</td>
+  <td align=center>FPS</td>
+  <td align=right>41,72</td>
+  <td align=right>41,98</td>
+  <td align=right>-0,62%</td>
+  <td align=right>31,34</td>
+  <td align=right>30,17</td>
+  <td align=right>3,73%</td>
+ </tr>
+ <tr>
+  <td rowspan=4  align=center valign=center><font face="Courier New">phoronix-test-suite benchmark compression</font></td>
+  <td  align=center valign=center>7-Zip Compression</td>
+  <td  align=center>MIPS</td>
+  <td align=right>3054</td>
+  <td align=right>2591</td>
+  <td align=right>15,16%</td>
+  <td align=right>3046</td>
+  <td align=right>2588</td>
+  <td align=right>15,04%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>gzip compression</td>
+  <td  align=center>s</td>
+  <td align=right>56,29</td>
+  <td align=right>53,27</td>
+  <td align=right>-5,37%</td>
+  <td align=right>63,12</td>
+  <td align=right>95,08</td>
+  <td align=right>50,63%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>Paraller BZIP2 compression</td>
+  <td align=center >s</td>
+  <td align=right>38,68</td>
+  <td align=right>66,07</td>
+  <td align=right>70,81%</td>
+  <td align=right>44,39</td>
+  <td align=right>81,63</td>
+  <td align=right>83,89%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center>LZMA compression</td>
+  <td  align=center>s</td>
+  <td align=right>263,80</td>
+  <td align=right>285,02</td>
+  <td align=right>8,04%</td>
+  <td align=right>266,12</td>
+  <td align=right>345,18</td>
+  <td align=right>29,71%</td>
+ </tr>
+ <tr>
+  <td align=center valign=center><font face="Courier New">phoronix-test-suite test tscp</font></td>
+  <td  align=center>TSCP</td>
+  <td  align=center>NPS</td>
+  <td align=right>210896</td>
+  <td align=right>226620</td>
+  <td align=right>-7,46%</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align=right>9,37%</td>
+  <td></td>
+  <td></td>
+  <td align=right>22,07%</td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+</table>
+
+<p align=justify>Należy jednak pamiętać, iż wyniki zależą tutaj od naprawdę wielu czynników - sposobu obsługi instrukcji 64-bitowych przez procesor, jądro, itd.</p>
+
+<h1>Wsparcie</h1>
+
+<p align=justify>Wersja 10.04 w wersji biurkowej będzie miała wsparcie do kwietnia 2013, a 10.10 do kwietnia 2012 (czyli krócej niż 10.04).</p>
+
+<h1>VirtualBox</h1>
+
+<p align=justify>Dodatki z VirtualBoxa (szerzej o VirtualBoxie i innych maszynach wirtualnych pisałem w <a href=?q=node/166>artykule "Klonujemy komputer - maszyny wirtualne"</a>) można dodać na dwa sposoby:</p>
+
+<ul><li><font face="Courier New">sudo apt-get install virtualbox-ose-guest-x11</font> (wersja Open Source, pozwoli na włączenie efektów graficznych pulpitu, ale VirtualBox będzie mieć problemy z odświeżaniem pulpitu)
+<li>instalując je w VirtualBox 3.2.10 lub późniejszym (nie pozwoli na włączenie efektów graficznych pulpitu, ale VirtualBox będzie poprawnie odświeżać pulpit symulowanego systemu)
+</ul>
+
+<h1>Podsumowanie</h1>
+
+<p align=justify>Ubuntu 10.10 to przykład ewolucji - zbudowany ogólnie tak samo jak Ubuntu 10.04, ale zawiera tu i tam nowsze komponenty i elementy. Oprócz wymienionych wcześniej mamy obsługę multitouch i inne, ale nadal widoczne są również pewne niedoróbki znane z wersji 10.04 jak chociażby:</p>
+
+<ul><li>przy kopiowaniu tekstu z okna do okna okno źródłowe musi być otwarte
+<li>brak jest domyślnie menedżera urządzeń, który w prosty sposób pokaże do czego mamy zainstalowane sterowniki, a do czego nie
+<li>brak jest domyślnych sterowników do takich technologii jak HP Drive Guard wyłączająca dysk przy wstrząsach (rozwiązania z http://lukaszklich.pl/2010/05/24/o-hp-3d-driveguard-w-lucid/ nie testowałem)
+</ul>
+
+<p align=justify>Należy jednak przypomnieć, iż system ten jest DARMOWY i jeśli weźmiemy pod uwagę ten fakt, to stosunek jakości do ceny jest BARDZO DOBRY.</p>
+
+<p align=justify>Mówiąc inaczej: Ubuntu ma pewne ograniczenia np. z uwagi na swoje korzenie (co <a href=?q=node/7>starałem się kiedyś udowadniać</a>), ale z drugiej nie ma wielu problemów znanych z systemów sprzedawanych za ciężkie pieniądze (będąc bardziej dosłownym - <a href=?q=node/107>Windows 7 również nie jest idealny</a>). Rozwiązanie to może nie wprowadza tak oczekiwanej przez wielu rewolucji, ale niewątpliwie ma szansę zdobyć uznanie.</p>

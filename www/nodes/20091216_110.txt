@@ -1,0 +1,95 @@
+﻿Title:Sound Blaster X-Fi Go! - X-Fi dla każdego! (2009)
+Author:marcin
+When:16 Dec 2009
+Taxonomy:Polski,benchmark.pl,Polski artykuł,x86
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Sound_Blaster_X-Fi_Go._-_X-Fi_dla_kazdego.-2530.html
+>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify>Przedstawiona tutaj karta dźwiękowa jest podłączana pod USB i obecna na rynku od długiego czasu (sierpień 2008). Co w niej takiego ciekawego?</p>
+
+<p align=justify>Zawiera w sobie również pamięć flash (pojemności 1GB), jest wprawdzie mała, ale w nazwie ma dumne określenie X-Fi jak inne bardzo dobrze oceniane karty dźwiękowe (ale stacjonarne !) firmy Creative.</p>
+
+<p align=justify>Czy można je porównywać ?<a href="http://pl.europe.creative.com/products/product.asp?category=1&amp;subcategory=208&amp;product=17872&amp;utm_source=pl.europe.creative.com&amp;utm_medium=Banner&amp;utm_content=FeaturePg_SoundBlasterXFiGoProductInfo&amp;utm_campaign=FeaturePage"></a></p>
+<!--break-->
+
+<h1>Zawartość zestawu</h1>
+<p align=justify>W pudełku znalazłem instrukcję w różnych językach, informacje o wsparciu technicznym, krótki przedłużacz USB, słuchawki douszne z mikrofonem i samą kartę.</p>
+
+<p><img height="260" src="sites/default/files/110/sb1.jpg" alt="" /></p>
+
+<p align=justify>Na zdjęciu przedstawiłem kartę, przedłużacz i dla porównania wielkości kartę SIM.</p>
+
+<p align=justify>X-Fi Go! jest cała czarna - z góry w kolorze piano-black (czarny błyszczący, na którym bardzo znać odciski palców i niestety szybko pojawiają się ryski), z dołu jest czarna i matowa. Ma blokadę zapisu przesuwanym przyciskiem i diodę sygnalizującą włączenie zasilania. Do tego dwa złącza 3,5mm - jedno na mikrofon, drugie na słuchawki/głośniki. Zatyczka do złącza USB jest przyczepiona na stałe krótkim  (na mój gust za krótkim) sznurkiem.</p>
+
+<p style="text-align: center;"><img height="120" width="400" alt="" src="sites/default/files/110/note.png" /></p>
+
+<p align=justify>Ciekawostką jest ostrzeżenie na opakowaniu przedłużacza. Czy jest to wynik politycznej poprawności czy coś więcej ?</p>
+
+<h1>Instalacja</h1>
+<p align=justify>Zgodnie z instrukcją: po włożeniu karty w złącze USB powinna zostać wykryta pamięć flash, na której domyślnie znajdują się sterowniki. Po ich zainstalowaniu i restarcie systemu wszystkie funkcje dźwiękowe mają być już dostępne. Udało mi się niestety znaleźć jeden komputer (z Windows XP), na którym pamięć flash nie chciała się w ogóle zainstalować, jak również dostępne tylko niektóre funkcje dźwiękowe. Do chwili obecnej nie wiem, czy był to problem tego konkretnego systemu czy urządzenia.</p>
+
+<p align=justify>Zdecydowałem się instalację przedostatniej wersji ze strony producenta z uwagi na to, iż na liście komponentów zawiera &quot;Entertainment Mode&quot; (cokolwiek by to nie znaczyło). Ciekawostką jest, że później <a href="?q=node/108#1">Microsoft Update</a> zaproponował mi aktualizację sterownika urządzenia do ostatniej opublikowanej.</p>
+
+<p>W Panelu Sterowania pojawia się kilka wpisów:</p>
+<ul>
+    <li>&quot;Host Open AL&quot;</li>
+    <li>&quot;Creative Audio Control Panel&quot;</li>
+    <li>&quot;Creative Software AutoUpdate&quot;</li>
+    <li>&quot;Sound Blaster X-Fi Go!&quot;.</li>
+
+    <li>&quot;Create Sound Blaster Properties&quot; (ten w Windows 7)</li>
+</ul>
+
+<p align=justify>Menedżer Urządzeń wskazywał zaś zainstalowane urządzenia pod hubem USB zgodnie z obrazkiem poniżej (przy czym raportowane zużycie prądu to 160mA):</p>
+
+<p><img height="91" width="200" src="sites/default/files/110/go1.png" alt="" /></p>
+
+<p>W Windows XP (bez &quot;Creative Software AutoUpdate&quot;):</p>
+<ul>
+    <li>całość zajmowała na dysku twardym 134MB</li>
+
+    <li>w systemie pojawiły się dwa serwisy systemowe (jeden włączony na stałe - 2760K pamięci RAM)</li>
+    <li>msconfig pokazywał trzy wpisy startowe (co ciekawe po ich wyłączeniu wszystko działa bez zarzutu)</li>
+</ul>
+
+
+<h1>Funkcje dźwiękowe</h1>
+
+<p align=justify>Otrzymujemy aplikację Audio Control Panel (wersji polskiej nie zauważyłem), z której można ustawić większość opcji.</p>
+
+<p><img height="513" width="400" src="sites/default/files/110/cp1.png" alt="" /></p>
+<p>Na początek informacja o urządzeniu.</p>
+<p><img height="513" width="400" src="sites/default/files/110/cp2.png" alt="" /></p>
+
+<p align=justify>Mamy możliwość wybrania, czy korzystamy ze słuchawek czy głośników w standardzie 2/2.1 (karta nie obsługuje np. dźwięku 5.1 i stąd jest mniejsza niż np. X-Fi Surround 5.1). Do tego automatyczna regulacja głośności (tak, aby pomiędzy dźwiękami najgłośniejszymi i najcichszymi nie było zbyt dużo różnic).</p>
+<p><img height="513" width="400" src="sites/default/files/110/cp3.png" alt="" /></p>
+<p>Tutaj efekty EAX pozwalające na zasymulowanie konkretnego otoczenia...</p>
+<p><img height="512" width="400" src="sites/default/files/110/cp4.png" alt="" /></p>
+<p>Kolejna możliwość dodania &quot;przestrzenności&quot; do dźwięku</p>
+<p><img height="512" width="400" src="sites/default/files/110/cp5.png" alt="" /><br />
+<br />
+<img height="513" width="400" src="sites/default/files/110/cp6.png" alt="" /></p>
+<p>W opcjach związanych z mikrofonem ciekawa jest możliwość zamiany głosu na inny w czasie rzeczywistym. Z efektów podobnych w działaniu do EAX mamy tylko &quot;Concert Hall&quot;.</p>
+
+<p><img height="513" width="400" src="sites/default/files/110/cp7.png" alt="" /></p>
+<p>Częstotliwość próbkowania to zawsze 48 Khz, przy wybraniu 24-bitowej konwersji powinniśmy osiągnąć większe zużycie procesora, ale też lepszą jakość audio (u mnie z kolei było przeciwnie i wtedy miałem w słuchawkach trzaski)</p>
+<p><img height="513" width="400" src="sites/default/files/110/cp8.png" alt="" /></p>
+<p>Na koniec możliwość czyszczenia dźwięku z szumów.</p>
+<p>Opcje te zostały powielone w drugiej aplikacji (Creative Console Launcher).</p>
+<p><img height="380" width="490" src="sites/default/files/110/em1.png" alt="" /></p>
+<p>Ma ona dodatkowo equalizer</p>
+<p><img height="381" width="490" src="sites/default/files/110/em2.png" alt="" /></p>
+<p>i możliwość sterowania basami.</p>
+<p align=justify>W Windows NT 6.x jest jeszcze <a href="http://pl.europe.creative.com/corporate/pressroom/releases/detail.asp?ref=12682">Creative Alchemy</a> zapewniającą obsługę dźwięku przestrzennego w różnych grach (dokładniej: gdy aplikacja chce skorzystać z EAX lub DirectSound3D, odpowiednie wywołania są zamieniane na odwołania OpenAL, które można obsłużyć sprzętowo w najnowszych &quot;okienkach&quot;)</p>
+
+<h1>Podsumowanie</h1>
+
+<p align=justify>Urządzenie jest przeznaczone dla tych użytkowników, którzy nie korzystają z rozbudowanego zestawu głośników, chcą mieć lepszy dźwięk niż w popularnych kartach zintegrowanych i muszą wykorzystać USB. Spełnia swoją rolę bardzo dobrze nie nagrzewając się przy tym w ogóle.</p>
+
+<p align=justify>Problemem w przypadku tego typu produktów jest oczywiście wykorzystanie wewnętrzych głośników np. w notebookach (ale to wynika ze sposobu podłączenia). Jest tutaj wprawdzie dodatkowy bonus (czyli pamięć flash, która może się przydać, gdy pod ręką nie mamy &quot;właściwego&quot; pendrive), odniosłem jednakże bardzo wrażenie, iż jego wydajność nie jest zbyt duża (np. przy kopiowaniu jednego dużego pliku osiągałem ok. 680 Kb/s). Z chęcią widziałbym też zaślepki na złącza 3,5mm.</p>
+
+<p align=justify>Ostatecznie mogę stwierdzić, iż nie oczekiwałem tutaj cudów, ale muszę też przyznać, iż przy takim stopniu miniaturyzacji efekty są naprawdę niezłe. Jeden punkt odejmuję wyłącznie za problemy z instalacją, oprogramowaniem i za &quot;piano-black&quot;.</p>
+
+<p align=justify>Karta kosztuje ok. 170-180 PLN i nie jest to mało, ale jeszcze do zaakceptowania (może być przy tym naprawdę świetnym prezentem). Dla porównania: bardziej zaawansowany (ale też na USB) X-Fi Surround 5.1 kosztuje ok. 50 PLN więcej i ma sporo większe rozmiary. Za ok. 40-50 PLN mniej możemy z kolei nabyć prostszego Sound Blastera Play! (też w formacie pamięci flash).</p>
+
+<p align = justify>Co mógłbym od razu polecić producentowi ? Dodanie czytnika kart microSD zamiast pamięci flash (ale tak, żeby cała karta była wkładana wewnątrz urządzenia) przy zachowaniu zabezpieczenia przy zapisie, dodanie miejsca na jeden &quot;cienki&quot; paluszek AAA oraz radia FM i zrobienie z całości dodatkowo odtwarzacza MP3. Sukces murowany.</p>

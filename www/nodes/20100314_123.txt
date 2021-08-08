@@ -1,0 +1,26 @@
+﻿Title:Commercial
+Author:marcin
+When:14 Mar 2010
+Taxonomy:English,License
+SkipMain:true
+
+<p>Source for <a href="?q=gplus">Gammu+</a> is distributed under dual license:</p>
+<ol><li>
+<div align="justify"><a href="?q=lgpl21">GNU LESSER GENERAL PUBLIC LICENSE 2.1</a> can be be used by anyone for each (commecional/non commercial) usage. Please note, that this license allows to use this source under <a href="?q=gpl2">GNU GENERAL PUBLIC LICENSE 2</a> too.<br />To clarify: we speak about <a href="?q=lgpl21">GNU LESSER GENERAL PUBLIC LICENSE version 2.1</a> and <a href="?q=gpl2">GNU GENERAL PUBLIC LICENSE version 2</a> and not about these licenses  in other versions.</div>
+</li>
+<!--break-->
+<li>
+<div align="justify">Source written by Marcin Wiącek and received from other developers can be licensed for some concrete projects under commercial license. <br />If some of developers don't agree for using their source under it license, should clear tell it. No info means agreement for using this license. Short fixes (few lines - about five or less) for source, which can be distributed under this license, can be distributed under this license. Source, which can't be distributed under this license, will be marked with clear info or disabled from compilation using compiler preprocessor directives set in config file. <br />commercial license can be used ONLY AFTER signed paper agreement with Marcin Wiącek. This license is not given for everyone. It's available only for CONCRETE NAMED projects written by CONCRETE PEOPLE/COMPANIES.</div>
+</li>
+</ol><p align="justify">Some files in the distribution can't be licensed under <a href="?q=lgpl21">LGPL 2.1</a>/commercial license. We speak here about some 3rd' party scripts (which use compiled Gammu+ to make some tasks), some documentation, multimedia files (which of course are not required for compiling software), kernel patches and similar. Each such file contains adequate copying info.</p>
+<p align="justify">Some source parts can be used under some other than <a href="?q=lgpl21">LGPL 2.1</a>/commercial license. Each such part contains adequate copying info.</p>
+<table width="100%" cellpadding="8"><tr><td bgcolor="#E9E9E9" align="justify">
+<center><b>COMMERCIAL LICENSE</b></center>
+<p align="justify">You can use, redistribute in source/binary form, sell, modify, link some parts of <a href="?q=gplus">Gammu+</a> with your project (and only with it) under this license after signing paper agreement with Marcin Wiącek. You agree, that:</p>
+<ol><li>Not all <a href="?q=gplus">Gammu+</a> parts are covered by this license. Parts, which can't be used with this license, are marked in <a href="?q=gplus">Gammu+</a> as distributed under <a href="?q=lgpl21">LGPL 2.1</a> or other licenses only.
+</li><li>All original copyright notices and associated disclaimers must be available in (modified) source. This copying file (on newer version) with info, that commercial license is used, must be available in (modified) source.
+</li><li>Compiled version of your application must have in on prominent place (it can be About box, start info, documentation, etc.) info:<br /><b>Contains Gammu+ parts licensed for this project under commercial license by Marcin Wiacek and others</b>
+</li><li>You agree, that THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+</li><li>You can have some support from Marcin Wiącek only for original source taken from Gammu+. It includes new/changed parts added by you to original Gammu+ and released under <a href="?q=lgpl21">LGPL 2.1</a>
+</li></ol></td>
+</tr></table>

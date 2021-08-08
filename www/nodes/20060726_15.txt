@@ -1,0 +1,72 @@
+﻿Title:Nokia keypad codes (2006)
+Author:marcin
+When:26 Jul 2006
+Taxonomy:English,GSM,Nokia,English article
+
+<p>This page describes keypad codes in Nokia phones.</p>
+<p>There are given numeric representation, but also codes using chars. How to read them ?</p>
+<p>Look, where you have char on phone keypad and press numeric key connected with it. And the same for each next. Example: <b>*efr0#</b> = <b>*3370#</b></p>
+<table width="100%" style="border-collapse:separate;"><tr><td colspan="2">
+<h1>Phone information</h1>
+</td>
+</tr><tr><td>
+<b>*#0000#</b><br /><b>*#9999# *#170602112302# *#682371158412125#</b><br /><b>*#3110# *#3810# *#5190# *#6120# *#837# *#6190# *#8110#</b></td>
+<!--break-->
+<td>Show firmware version, firmware date and in new models language package details (in new models it's rather used only <b>*#0000#</b>, in older like Nokia 2110 - codes from second group, in other older - codes contains model number like from third group)</td>
+</tr><tr><td><b>*#srn0# (*#7760#)</b></td>
+<td>Show Serial Number (Nokia 6150)</td>
+</tr><tr><td><b>*#date# (*#3283#)</b></td>
+<td>Show date of production (Nokia 2110)</td>
+</tr><tr><td><b>*#bta0# (*#2820#)</b></td>
+<td>Show Bluetooth info (address and sometimes other)</td>
+</tr><tr><td><b>*#mac0wlan# (*#62209526#)</b></td>
+<td>Show MAC address of the WLAN adapter</td>
+</tr><tr><td><b>*#war0anty# (*#92702689#) *#warranty# (*#92772689#)</b></td>
+<td>Enter Warranty menu. Values for this menu can be changed using for example flashers. In Nokia 3110 required additional numbers and OK:
+<ul><li>6232 : Display Month and Year of Manufacture
+</li><li>7332 : Display date of the last repairing, if found ('DATE NOT SAVED'...)
+</li><li>7832 : Display date when the phone was purchased ('DATE NOT SAVED'...)
+</li><li>9268 : Display Serial Number
+</li><li>37832 : Set the Purchasing Date MMYY (Warning: You can only do this once)
+</li><li>87267 : Transfers ALL phone numbers, pictures, sounds from one phone to another
+</li></ul></td>
+</tr><tr><td colspan="2">
+<h1>Deleting phone settings</h1>
+</td>
+</tr><tr><td><b>*#dwallet# (*#3925538#) *#res0wallet# (*#7370925538#)</b></td>
+<td>Deleting Wallet 1.0/2.0 content</td>
+</tr><tr><td><b>*#delset# (*#335738#)</b></td>
+<td>Deleting read-only MMS/WAP settings</td>
+</tr><tr><td><b>*#opr0logo# (*#67705646#)</b></td>
+<td>Deleting operator logo. Work in some models (like Nokia 3310/3315 with firmware 4.06 or higher) only</td>
+</tr><tr><td><b>*#7780#</b></td>
+<td>Restoring factory settings (in Symbian phones restore ini files to original state, doesn't delete user things like files, 3rd party applications)</td>
+</tr><tr><td><b>*#res0# (*#7370#)</b></td>
+<td>Restoring factory settings (in Symbian phones reformats drive C to original state, delete all user things like files, 3rd party applications) [Does not work on Nokia 6230i with v03.88 firmware.]</td>
+</tr><tr><td colspan="2">
+<h1>GSM phones specific</h1>
+</td>
+</tr><tr><td><b>*#06#</b></td>
+<td>Show phone IMEI</td>
+</tr><tr><td><b>#pw+</b><u>MasterCode</u><b>+</b><u>Y</u><b>#</b></td>
+<td>Code for disabling simlock level <i><u>Y</u></i>. If <i><u>MasterCode</u></i> is correct, you will see "SIM protection turn off". If code was wrong or counter is locked (too many tries of using with incorrect code) or there is no simlock you will see "Code error". In some models, when phone is not simlocked, you can see "SIM was not restricted".<br /><b>TIP:</b> to check simlock state better use software (like Gammu) or check if phone work with SIM card from other network. When counter is locked, you have to unlock phone using flashers or similiar tools.</td>
+</tr><tr><td><b>*pw+</b><u>code</u><b>+</b><u>Y</u><b>#</b></td>
+<td>Code for enabling simlock (at least in DCT3 phones)</td>
+</tr><tr><td><b>*#sim0clock#</b></td>
+<td>Code for checking SIM card ability to disabling clock (DCT3 phones)</td>
+</tr><tr><td><b>*efr0# (*3370#) #efr0# (#3370#)</b></td>
+<td>First code for enabling EFR codec, second for disabling it</td>
+</tr><tr><td><b>*hrc0# (*4720#) #hrc0# (#4720#)</b></td>
+<td>First code for enabling HR codec, second for disabling it</td>
+</tr><tr><td><b>*#pcc0# (*#7220#) *#pce0# (*#7230#)</b></td>
+<td>First code for enabling PCCCH channel (GPRS related Packet Common Control Channel) support, second for disabling it</td>
+</tr><tr><td colspan="2">
+<h1>Analog phones specific</h1>
+</td>
+</tr><tr><td><b>*3001#12345# *#639#</b></td>
+<td>Menu for programming NAM number (and sometimes enabling net monitor)</td>
+</tr><tr><td><b>*#evrc# (*#3872#)</b></td>
+<td>(collected from Net) code for Enhanced Variable Rate Codec (Nokia 6185)</td>
+</tr><tr><td><b>*#slot1# *#slot2#</b></td>
+<td>(collected from Net) Nokia 6185 or 6188</td>
+</tr></table>

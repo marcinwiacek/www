@@ -1,0 +1,257 @@
+﻿Title:Protokół ABOUT (1999)
+Author:marcin
+When:23 Apr 1999
+Taxonomy:Polski,Polski artykuł,x86
+
+<p align="justify"><a name="Top" id="Top"></a>"Większość" współczesnych przeglądarek "reaguje" na adresy rozpoczynające się od ABOUT: Nie służą one do uzyskania dostępu do jakiejś nowej usługi w Internecie - rozszerzają natomiast możliwości przeglądarki (dzięki nim po wpisaniu odpowiedniego adresu można uzyskać np. informacje o wersji używanego programu). Udogodnienie to zostało pierwsze wprowadzone w <a href="http://home.netscape.com">Netscape Navigatorze</a>.
+<!--break-->
+Poniżej opisałem, na co dokładnie on pozwala (jak również jego konkurent, <a href="http://www.microsoft.com/ie">Internet Explorer</a>). Innych nie przedstawiałem, gdyż tego nie obsługują (no, może poza <a href="http://www.naf.cz/arachne/">Arachne</a> - ale tam "działa" tylko adres <a href="ABOUT:" target="BOCZNA">ABOUT:</a>) i zazwyczaj pokazują błąd.</p>
+<table border="" cellspacing="0" cellpadding="0"><tr><td colspan="2"><b></b><center>Pisownia adresów w tabelkach</center></td>
+</tr><tr><td colspan="2"><center>Jeżeli część adresu jest podana</center></td>
+</tr><tr><td><center>małymi literami</center></td>
+<td><center>musisz ją wpisać literami dokładnie tej wielkości</center></td>
+</tr><tr><td><center><i>pochyłą czcionką</i></center></td>
+<td><center>zamiast tych liter trzeba podać odpowiednie wartości (np. <i>plik</i> zastępujemy jego nazwą)</center></td>
+</tr><tr><td><center>WIELKIMI LITERAMI</center></td>
+<td><center>wielkość liter nie ma znaczenia dla przeglądarki</center></td>
+</tr></table><p align="justify"> <br />Jeżeli przy którymś adresie nie ma odnośnika (na wydruku: brak podkreślenia), oznacza to, że nie może być on podany w dokumencie (tylko w polu "Location" lub oknie "Open"). W kolumnie "Wersja" podawałem wersję przeglądarki, w której adres na pewno działał:</p>
+<ul><li>w pierwszym wierszu wersję, od której był obecny (jeśli nie byłem jej pewien, stawiałem przed nim znak zapytania)</li>
+<li>w drugim wierszu ostatnią wersję, w której był obecny (brak drugiego wiersza oznacza, że ciągle tam jest)</li>
+</ul><p><img src="sites/default/files/102/nc4.gif" height="16" width="16" /><b><a href="http://home.netscape.com">Netscape Navigator/Communicator</a></b></p>
+<p>Sprawdzałem następujące wersje dla Windows: 1.2N (16 bitowa), 2.01 (16 bitowa), 3.00 (32 bitowa), 3.01 (16 bitowa), 4.01 (32 bitowa), 4.05 (32 bitowa), 4.5 (32 bitowa).</p>
+<p>W wersji dla <a href="http://www.redhat.com">RedHat Linux</a> <a href="http://home.netscape.com">Netscape Communicator</a> 4.05 na niektóre adresy z tej tabeli (nierozpoznawane przez siebie) reaguje napisem: "Whatchew talkin''bout, Willis ?"</p>
+<p>Polska wersja tego programu <a href="http://www.sylaba.pl">Sylaba Komunikator</a> (sprawdzałem wersję 32-bitową 4.5) zachowuje się tak samo.</p>
+<table border="" cellspacing="0" cellpadding="0"><tr valign="CENTER"><td><center>Adres</center></td>
+<td><center>Opis i uwagi</center></td>
+<td><center>Wersja</center></td>
+</tr><tr><td><center>ABOUT:CACHE</center></td>
+<td><center>statystyka pamięci cache</center></td>
+<td><center>2.01</center></td>
+</tr><tr><td><center>ABOUT:MEMORY-CACHE</center></td>
+<td><center>statystyka cache w pamięci</center></td>
+<td><center>2.01</center></td>
+</tr><tr><td><center>ABOUT:IMAGE-CACHE</center></td>
+<td><center>statystyka cache dotyczącego obrazków</center></td>
+<td><center>2.01</center></td>
+</tr><tr><td><center>ABOUT:GLOBAL</center></td>
+<td><center>informacje dotyczące dokumentów ściągniętych <nobr>z Internetu</nobr><br /><br />(i znajdujących się na dysku twardym)</center></td>
+<td><center>2.01</center></td>
+</tr><tr><td><center><a href="ABOUT:FONTS" target="BOCZNA">ABOUT:FONTS</a></center></td>
+<td><center>informacje o wyświetlaniu dynamicznych czcionek <nobr>w dokumentach</nobr><br /><br />(menu "Help", opcja "About Font Displayers")</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:SECURITY?ADVISOR" target="BOCZNA">ABOUT:SECURITY?ADVISOR</a></center></td>
+<td><center>informacje o stopniu zabezpieczenia pakietu<br /><br />(menu "Communicator", opcja "Security Info")</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:PICS" target="BOCZNA">ABOUT:PICS</a></center></td>
+<td><center>Prawdę mówiąc, nie wiem, do czego on służy<br /><br />(uruchamia się interpreter Javy, pokazuje kilka błędów, i to wszystko...)</center></td>
+<td><center>?4.5</center></td>
+</tr><tr><td rowspan="2">
+<center><a href="ABOUT:blank" target="BOCZNA">ABOUT:blank</a></center>
+</td>
+<td><center>w nagłówku przeglądarki wyświetla adres<br /><br />ABOUT:BLANK i pustą stronę</center></td>
+<td><center>1.2N<br />3.01</center></td>
+</tr><tr><td><center>W nagłówku przeglądarki wyświetla adres ABOUT:BLANK i nie zmienia wyświetlanej strony/wyświetla pustą, gdy otwierane jest nowe okno przeglądarki</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:editfilenew" target="BOCZNA">ABOUT:editfilenew</a></center></td>
+<td><center>w nagłówku przeglądarki wyświetla<br /><br />adres file:///Untitled i pustą stronę</center></td>
+<td><center>3.01</center></td>
+</tr><tr><td><center><a href="ABOUT:" target="BOCZNA">ABOUT:</a></center></td>
+<td><center>informacje <nobr>o przeglądarce</nobr><br /><br />(menu "Help", opcja "About Netscape..." lub "About Communicator...") </center></td>
+<td><center>1.2N</center></td>
+</tr><tr><td><center><a href="ABOUT:license" target="BOCZNA">ABOUT:license</a></center></td>
+<td><center>wyświetla licencję</center></td>
+<td><center>1.2N</center></td>
+</tr><tr><td><center><a href="ABOUT:qtlogo" target="BOCZNA">ABOUT:qtlogo</a></center></td>
+<td><center>rysunek (logo Quick Time)</center></td>
+<td><center>3.01</center></td>
+</tr><tr><td><center><a href="ABOUT:logo" target="BOCZNA">ABOUT:logo</a></center></td>
+<td><center>rysunek (logo Netscape)</center></td>
+<td><center>1.2N</center></td>
+</tr><tr><td><center><a href="ABOUT:rsalogo" target="BOCZNA">ABOUT:rsalogo</a></center></td>
+<td><center>rysunek (logo RSA)</center></td>
+<td><center>1.2N</center></td>
+</tr><tr><td><center><a href="ABOUT:coslogo" target="BOCZNA">ABOUT:coslogo</a></center></td>
+<td><center>rysunek</center></td>
+<td><center>4.01<br />4.05</center></td>
+</tr><tr><td><center><a href="ABOUT:tdlogo" target="BOCZNA">ABOUT:tdlogo</a></center></td>
+<td><center>rysunek (logo czcionek TrueDoc)</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:visilogo" target="BOCZNA">ABOUT:visilogo</a></center></td>
+<td><center>rysunek (logo Visigenic)</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:odilogo" target="BOCZNA">ABOUT:odilogo</a></center></td>
+<td><center>rysunek (logo Object Design)</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:mclogo" target="BOCZNA">ABOUT:mclogo</a></center></td>
+<td><center>rysunek</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:ncclogo" target="BOCZNA">ABOUT:ncclogo</a></center></td>
+<td><center>rysunek (logo NetCast)</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:insologo" target="BOCZNA">ABOUT:insologo</a></center></td>
+<td><center>rysunek (logo Inso)</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:symlogo" target="BOCZNA">ABOUT:symlogo</a></center></td>
+<td><center>rysunek (logo Symantec)</center></td>
+<td><center>?4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:mmlogo" target="BOCZNA">ABOUT:mmlogo</a></center></td>
+<td><center>rysunek (logo Macromedia)</center></td>
+<td><center>?4.01</center></td>
+</tr><tr><td><center><a href="ABOUT:hslogo" target="BOCZNA">ABOUT:hslogo</a></center></td>
+<td><center>rysunek (logo Beatnik)</center></td>
+<td><center>?4.5</center></td>
+</tr><tr><td><center><a href="ABOUT:fclogo" target="BOCZNA">ABOUT:fclogo</a></center></td>
+<td><center>rysunek (logo Full Circle Talkback)</center></td>
+<td><center>?4.5</center></td>
+</tr><tr><td><center><a href="ABOUT:javalogo" target="BOCZNA">ABOUT:javalogo</a></center></td>
+<td><center>rysunek (logo Javy)<br /><br />od wersji 4.04 nie jest wyświetlany pod adresem <a href="ABOUT:" target="BOCZNA">ABOUT:</a></center></td>
+<td><center>?3.01</center></td>
+</tr><tr><td rowspan="4"><center><a href="ABOUT:SECURITY?BANNER-SECURE" target="BOCZNA">ABOUT:SECURITY?BANNER-SECURE</a></center></td>
+<td><center>rysunek (cały klucz z listwy okna przeglądarki na niebieskim pasku)</center></td>
+<td><center>2.01<br />2.01</center></td>
+</tr><tr><td><center>rysunek (cały klucz z listwy okna przeglądarki)</center></td>
+<td><center>3.01<br />3.01</center></td>
+</tr><tr><td><center>rysunek (cały klucz, który w poprzednich wersjach był na listwie okna przeglądarki)</center></td>
+<td><center>4.01<br />4.01</center>
+</td>
+</tr><tr><td><center>kłódka</center></td>
+<td><center>4.05</center></td>
+</tr><tr><td rowspan="3"><center><a href="ABOUT:SECURITY?BANNER-MIXED" target="BOCZNA">ABOUT:SECURITY?BANNER-MIXED</a></center></td>
+<td><center>rysunek (złamany klucz z listwy okna przeglądarki)</center></td>
+<td><center>2.01<br />3.01</center></td>
+</tr><tr><td><center>rysunek (złamany klucz na szarym tle, który w poprzednich wersjach jest/był na listwie okna przeglądarki)</center></td>
+<td><center>3.00<br />4.01</center></td>
+</tr><tr><td><center>przekreślona kłódka</center></td>
+<td><center>4.05</center></td>
+</tr><tr><td rowspan="3"><center><a href="ABOUT:SECURITY?BANNER-INSECURE" target="BOCZNA">ABOUT:SECURITY?BANNER-INSECURE</a></center></td>
+<td><center>rysunek (złamany klucz z listwy okna przeglądarki)</center></td>
+<td><center>2.01<br />3.01</center></td>
+</tr><tr><td><center>rysunek (złamany klucz, który w poprzednich wersjach był na listwie<br />
+okna przeglądarki)</center></td>
+<td><center>4.01<br />4.01</center></td>
+</tr><tr><td><center>otwarta kłódka</center></td>
+<td><center>4.05</center></td>
+</tr><tr><td rowspan="2"><center><a href="ABOUT:SECURITY?BANNER-PAYMENT" target="BOCZNA">ABOUT:SECURITY?BANNER-PAYMENT</a></center></td>
+<td><center>rysunek (cały klucz z listwy okna przeglądarki<br /><br />na niebieskim pasku z pieniędzmi po prawej stronie)</center></td>
+<td><center>3.01<br />3.01</center></td>
+</tr><tr><td><center>komunikat o błędzie</center></td>
+<td><center>4.01</center></td>
+</tr><tr><td>
+<ol><li>
+<a href="ABOUT:SECURITY?SUBJECT-LOGO" target="BOCZNA">ABOUT:SECURITY?SUBJECT-LOGO</a></li>
+<li>
+<a href="ABOUT:SECURITY?ISSUER-LOGO" target="BOCZNA">ABOUT:SECURITY?ISSUER-LOGO</a></li>
+</ol></td>
+<td><center>rysunek (wyświetlany zamiast rysunku o nieznanym dla przeglądarki formacie danych)</center></td>
+<td><center>2.01</center></td>
+</tr><tr><td><center><a href="ABOUT:plugins" target="BOCZNA">ABOUT:plugins</a></center></td>
+<td><center>informacje <nobr>o zainstalowanych</nobr> wtyczkach<br /><br />(menu "Help", opcja "About Plug-ins")</center></td>
+<td><center>2.01</center></td>
+</tr><tr><td><center><a href="ABOUT:mozilla" target="BOCZNA">ABOUT:mozilla</a></center></td>
+<td><center>sentencja <nobr>od autorów</nobr></center></td>
+<td><center>1.2N</center></td>
+</tr><tr><td rowspan="2"><center><a href="ABOUT:authors" target="BOCZNA">ABOUT:authors</a></center></td>
+<td><center>nazwiska autorów</center></td>
+<td><center>1.2N<br />2.01</center></td>
+</tr><tr><td><center>informacja, że strona została już usunięta</center></td>
+<td><center>3.01</center></td>
+</tr><tr><td><center><a href="ABOUT:DOCUMENT" target="BOCZNA">ABOUT:DOCUMENT</a></center></td>
+<td><center>informacje <nobr>o dokumencie</nobr> wyświetlane <nobr>w oddzielnym</nobr> oknie <br />(menu "View",<br /><br />opcja "Document Info", "Frame Info" lub "Page Info")</center>
+</td>
+<td><center>2.01</center></td>
+</tr><tr><td><center><a href="ABOUT:WYSIWYG:about.htm" target="BOCZNA">ABOUT:WYSIWYG:<i>plik</i></a></center></td>
+<td rowspan="2"><center>informacje o podanym <i>pliku</i><br /><br />(stronie kodowej, strukturze, itd.)</center></td>
+<td><center>3.01</center></td>
+</tr><tr><td><center><a href="ABOUT:VIEW-SOURCE:about.htm" target="BOCZNA">ABOUT:VIEW-SOURCE:<i>plik</i></a></center></td>
+<td><center>2.01</center></td>
+</tr><tr><td align="center">
+<ol><li><a href="ABOUT:ari" target="BOCZNA">ABOUT:ari</a></li>
+<li><a href="ABOUT:atotic" target="BOCZNA">ABOUT:atotic</a></li>
+<li><a href="ABOUT:blythe" target="BOCZNA">ABOUT:blythe</a></li>
+<li><a href="ABOUT:chouck" target="BOCZNA">ABOUT:chouck</a></li>
+<li><a href="ABOUT:dmose" target="BOCZNA">ABOUT:dmose</a></li>
+<li><a href="ABOUT:ebina" target="BOCZNA">ABOUT:ebina</a></li>
+<li><a href="ABOUT:hagan" target="BOCZNA">ABOUT:hagan</a></li>
+<li><a href="ABOUT:jeff" target="BOCZNA">ABOUT:jeff</a></li>
+<li><a href="ABOUT:jg" target="BOCZNA">ABOUT:jg</a></li>
+<li><a href="ABOUT:jwz" target="BOCZNA">ABOUT:jwz</a></li>
+<li><a href="ABOUT:kipp" target="BOCZNA">ABOUT:kipp</a></li>
+<li><a href="ABOUT:marca" target="BOCZNA">ABOUT:marca</a></li>
+<li><a href="ABOUT:mlm" target="BOCZNA">ABOUT:mlm</a></li>
+<li><a href="ABOUT:montulli" target="BOCZNA">ABOUT:montulli</a></li>
+<li><a href="ABOUT:mtoy" target="BOCZNA">ABOUT:mtoy</a></li>
+<li><a href="ABOUT:paquin" target="BOCZNA">ABOUT:paquin</a></li>
+<li><a href="ABOUT:robm" target="BOCZNA">ABOUT:robm</a></li>
+<li><a href="ABOUT:sharoni" target="BOCZNA">ABOUT:sharoni</a></li>
+<li><a href="ABOUT:sk" target="BOCZNA">ABOUT:sk</a></li>
+<li><a href="ABOUT:timm" target="BOCZNA">ABOUT:timm</a></li>
+</ol></td>
+<td><center>Próbuje wyświetlić stronę<br />któregoś z autorów</center></td>
+<td><center>1.2N</center></td>
+</tr><tr><td rowspan="5">
+<center><a href="ABOUT:cokolwiek" target="BOCZNA">ABOUT:<i>cokolwiek</i></a></center>
+</td>
+<td><center>Gdy <i>cokolwiek</i> to inny tekst niż wszystkie<br /><br />w powyższych wierszach tej tabeli (pierwsza kolumna), to</center></td>
+</tr><tr><td><center>wyświetlany jest tekst "Yeah, whatever..."</center></td>
+<td>
+<center>1.2N<br />1.2N</center>
+</td>
+</tr><tr><td>
+<center>ABOUT:<i>cokolwiek</i> jest traktowane jako tekst i tytuł dokumentu<br /><nobr>do wyświetlania</nobr></center>
+</td>
+<td><center>2.01<br />4.05</center></td>
+</tr><tr><td><center>wyświetlany jest znak zapytania</center></td>
+<td><center>4.5</center></td>
+</tr><tr><td>
+<center>(a więc wpisanie któregoś <nobr>z powyższych</nobr> adresów niewłaściwą wielkością liter lub <nobr>w niewłaściwej</nobr> wersji nie powinno spowodywać wyświetlenia komunikatu <nobr>o błędzie)</nobr> - ale nie zawsze (np. w wersji 4.01 wpisanie adresu <a href="ABOUT:SECURITY?BANNER-PAYMENT" target="BOCZNA">ABOUT:SECURITY?BANNER-PAYMENT</a> wywołuje okienko z komunikatem, że nie jest poprawny).</center>
+</td>
+</tr></table><p align="justify"> <br />Treść wyświetlanych stron i ich adresy umieszczone są w pliku NETSCAPE.EXE</p>
+<p><img src="sites/default/files/102/ie4.gif" height="16" width="16" /><b><a href="http://www.microsoft.com/ie">Microsoft Internet Explorer</a></b></p>
+<p align="justify"><a href="http://www.microsoft.com/ie">Explorer</a> 3.0 (wersja 16 bitowa) nie pokazuje błędu, gdy próbujemy w dokumencie wskazać odnośnik z którymś z adresów (wyświetla stronę CACHE\_BLANK_.HTM mającą standardowo tytuł "Microsoft Internet Explorer" i nie zawierającej żadnej treści). Gdy podamy adres w polu "Address", pokaże, że nie obsługuje takiego protokołu (tak samo się stanie, gdy <nobr>w dokumencie</nobr> wstawimy odnośnik z którymś adresem z powyżej wymienionych).</p>
+<p align="justify"><a href="http://www.microsoft.com/ie">Explorer</a> 3.02 (wersja 32 bitowa) pokazuje, że nie obsługuje takiego protokołu.</p>
+<p align="justify"><a href="http://www.microsoft.com/ie">Explorer</a> 4 (wersja 32 bitowa) pozwala na korzystanie z niektórych powyższych adresów (np. about:blank). Ich listę można znaleźć w Rejestrze pod adresem HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\AboutURLs. Tam też można odczytać "prawdziwe" adresy stron, które przeglądarka wyświetla. Zostały one zebrane w tabelce poniżej. Jeśli w przeglądarce zostanie podany inny adres zaczynający się od ABOUT:, wypisze go ona jako tekst dokumentu w dokumencie wywołującym lub ramce, w której powinien znaleźć się dokument wywoływany.</p>
+<p></p><table border="" width="100%" cellspacing="0" cellpadding="0"><tr><td>
+<center><b>Adres</b></center>
+</td>
+<td>
+<center><b>Opis i uwagi</b></center>
+</td>
+</tr><tr><td>
+<center> <a href="ABOUT:BLANK" target="BOCZNA">ABOUT:BLANK</a></center>
+</td>
+<td>
+<center>Wyświetla pustą stronę</center>
+</td>
+</tr><tr><td>
+<center><a href="ABOUT:MOZILLA" target="BOCZNA">ABOUT:MOZILLA</a></center>
+</td>
+<td>
+<center>"Odpowiedź" na ten sam adres w przeglądarce Netscape Navigator/Communicator</center>
+</td>
+</tr><tr><td>
+<ol><li>
+<a href="ABOUT:NAVIGATIONCANCELED" target="BOCZNA">ABOUT:NAVIGATIONCANCELED</a></li>
+<li>
+<a href="ABOUT:NAVIGATIONFAILURE" target="BOCZNA">ABOUT:NAVIGATIONFAILURE</a></li>
+<li>
+<a href="ABOUT:DESKTOPITEMNAVIGATIONFAILURE" target="BOCZNA">ABOUT:DESKTOPITEMNAVIGATIONFAILURE</a></li>
+<li>
+<a href="ABOUT:" target="BOCZNA">ABOUT:</a></li>
+</ol></td>
+<td>
+<center>???</center>
+</td>
+</tr><tr><td>
+<center><a href="ABOUT:OFFLINEINFORMATION" target="BOCZNA">ABOUT:OFFLINEINFORMATION</a></center>
+</td>
+<td>
+<center>Wyświetlana, gdy próbujesz odczytać stronę WWW, której nie w pamięci cache (a wybrałeś pracę offline)</center>
+</td>
+</tr><tr><td>
+<center><a href="ABOUT:POSTNOTCACHED" target="BOCZNA">ABOUT:POSTNOTCACHED</a></center>
+</td>
+<td>
+<center>Wyświetlana, gdy strona WWW w pamięci cache jest "przedawniona" (i musisz się łączyć z Internetem, aby ją załadować)</center>
+</td>
+</tr></table><p align="justify"> <br />Podobnie zachowuje się <a href="http://www.microsoft.com/ie">Internet Explorer</a> 5.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br /></p>

@@ -1,0 +1,146 @@
+﻿Title:Windows 8 - Steven why ? (2012)
+Author:marcin
+When:04 Mar 2012
+Taxonomy:Polski,Polski artykuł,OS,Windows,x86,benchmark.pl
+
+<p>No i stało się. Windows 8 Consumer Preview dla x86 jest dostępny. Według producenta ma to być największa rewolucja od czasów Windows 95.
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.benchmark.pl/mini-recenzje/Windows_8_-_Steven_why_.-4429.html>opublikowany w serwisie benchmark.pl</a>,<br>został rozszerzony tekstem <a href=?q=node/193>Windows 8 Server - Stephen why, why, why ? (2012)</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>No i stało się. Windows 8 Consumer Preview dla x86 jest dostępny. Według producenta ma to być największa rewolucja od czasów Windows 95. Czy jest to prawda ?
+
+<p>Postaram się tutaj skrótowo zwrócić uwagę na kilka faktów świadomie nie publikując zrzutów ekranów z każdego możliwego miejsca systemu (te bowiem można wręcz do znudzenia przeglądać na wielu portalach technologicznych, poza tym całość może się jeszcze mocno zmienić)
+
+<p><b>Instalacja</b>
+
+<p>Przeprowadziłem ją w maszynie wirtualnej (VirtualBox) uruchomionej w Windows 7 64-bit z dosyć standardowymi ustawieniami - PIIX3 i PIIX4, Intel HD Audio, 1 rdzeń procesora, 20 GB dysku, 2 GB RAM, 124 MB karty graficznej, brak dodatków.
+
+<p>VirtualBox wybrałem chociażby ze względu na bardzo dobre wyniki (własne testy z 2010 na potrzeby <a href=?q=node/166>tekstu "Klonujemy komputer - maszyny wirtualne"</a>, ale również doświadczenia z codziennego użytkowania).
+
+<p><img src=sites/default/files/192/1.png width=640>
+
+<p>Całość działała niekoniecznie stabilnie (zdarzały się m.in. konieczności naprawy systemu) i wymagała włączenia rozszerzeń wirtualizacji w procesorze i VirtualBox. Z jednej strony należy pamiętać, o tym, że jest to wydanie testowe, z drugiej inne systemy sprawiają mniej problemów tego typu...i nie zmienia tego fakt braku dodatków.
+
+<p>Instalacja wygląda początkowo dosyć podobnie do tej z Windows 7, później pojawiają się ekrany w stylu Metro (to nowy interfejs znany już z Windows Phone).
+
+<p><img src=sites/default/files/192/2.png width=640>
+
+<p>Mamy tutaj m.in. propozycję zalogowania się/zarejestrowania się do <a href=http://explore.live.com/>usług Microsoft Live</a>.
+
+<p><b>Pierwsze wrażenia</b>
+
+<p><img src=sites/default/files/192/3_0.png width=640>
+
+<p>To jest domyślny pulpit Metro. Kafelki można sobie przesuwać, usuwać, dodawać, klikać (wtedy uruchomi się związana z nimi aplikacja).
+
+<p>Elementem uniwersalnym (wspólnym dla pulpitu i aplikacji) jest najście myszą na prawy, dolny róg ekranu - wtedy z prawej części ekranu pojawia się 5 przycisków. Pozwolę sobie przedstawić jedną cechę nowego systemu na przykładzie ostatniego (Settings).
+
+<p><img src=sites/default/files/192/4.png width=640>
+
+<p>Klikamy na "More PC Settings" i pojawia się okno z "Panelem Sterowania" w nowym stylu. Wybieramy Windows Update i okazuje się, że po kliknięciu na niektóre opcje (tutaj "To choose which important updates to install, go to Control Panel") pokazuje się "stary" pulpit prawie taki jak w Windows 7.
+
+<p><img src=sites/default/files/192/6.png width=640>
+
+<p>W "starym" pulpicie mamy "stare" aplikacje z pewnymi zmianami (o tym za chwilę), brakuje jedynie przycisku i menu Start.
+
+<p><img src=sites/default/files/192/7.png width=640>
+
+<p>I taki jest w wielkim skrócie Windows 8 - Metro w stanie wczesnym (nadające się na tablety) + okrojona wersja desktopowa Windows. Prace nad Metro widać wszędzie, Customer Preview przypomina mi natomiast Windows Mobile, w którym próbowano na urządzeniach przenośnych odtworzyć dokładnie całość rozwiązań desktopowych (tu robi się coś podobnego, ale w drugą stronę).
+
+<p>Jak natomiast wyglądają "nowe" aplikacje ?
+
+<p>Znanym już sposobem (prawy, dolny róg ekranu) wyświetlamy sobie menu z 5 przyciskami i klikamy na "Start", aby wrócić do pulpitu Metro. Następnie klikamy sobie na kafelek z aplikacją.
+
+<p>Zacznę od Internet Explorera (pokazałem go z wyświetlonymi menu):
+
+<p><img src=sites/default/files/192/8.png width=640>
+
+<p>Przyciski są duże, brak tego co znaliśmy wcześniej (menu do ustawiania opcji, kodowania znaków, itd.), domyślnie nie ma także Flash Playera...ani prośby o jego instalację.
+
+<p>Może w takim razie kafelek "Video" ?
+
+<p>Pojawia się informacja o tym, że aplikacja będzie działać "lepiej" po zalogowaniu się do Microsoft Live. Później uzyskujemy "rozbudowany" pulpit widoczny na obrazku. 
+
+<p><img src=sites/default/files/192/9.png width=640>
+
+<p>Ujawnia się tutaj kolejna cecha Windows 8 Consumer Preview - domyślne aplikacje w stylu Metro są raczej ukierunkowane na Windows Live niż zasoby lokalne, wręcz poraża ich prymitywizm, można też zauważyć komunikaty o tym, że są to wersje testowe (a dokładnie "app preview").
+
+<p>Myślę, że nie ma potrzeby szerszego ich opisywania, wart odnotowania jest natomiast kafelek "Store" - Microsoft planuje otwarcie sklepu z aplikacjami analogicznego do Google Market czy App Store. Rozwiązanie o wielkim znaczeniu dla firmy, pytanie tylko, czy rynek polski zostanie potraktowany jak inne czy też nie (wątpliwości są zasadne z uwagi na <a href=http://www.tvn24.pl/-1,1639286,0,1,gracze-starli-sie-z-microsoftem,wiadomosc.html>niechlubne doświadczenia z polskim Xbox Live</a>).
+
+<p><b>Zmiany w starym "dobrym" Windows</b>
+
+<p>Nie można wyłączyć Metro w Customer Preview podobnie jak w Developer Preview. Żeby przejść do pulpitu "klasycznego", należy np. kliknąć na kafelek "Desktop" na pulpicie Metro.
+
+<p>Czego możemy się tutaj spodziewać ?
+
+<p>Internet Explorer jest w wersji 10 (nawiasem mówiąc wydanie to znajdzie się także w Windows 7):
+
+<p><img src=sites/default/files/192/10.png width=500>
+
+<p>PowerShell z kolei doczekał się wersji 3.0 (Windows 7 zapewne również będzie można o niego "dozbroić"), a Eksplorator Windows wstążek:
+
+<p><img src=sites/default/files/192/11.png width=500>
+
+<p>Przy innych zmianach celowo odeślę do <a href=http://blogs.msdn.com/b/b8>blogu Windows 8</a>:
+
+<ul><li>zmieniły się <a href=http://blogs.msdn.com/b/b8/archive/2011/08/26/designing-the-windows-8-file-name-collision-experience.aspx>okno do potwierdzania nadpisywania plików przy kopiowaniu</a> oraz <a href=http://blogs.msdn.com/b/b8/archive/2011/10/13/the-windows-8-task-manager.aspx>systemowy Task Manager</a>
+
+<li>system ma mieć <a href=http://blogs.msdn.com/b/b8/archive/2011/10/07/reducing-runtime-memory-in-windows-8.aspx>według firmy mniejsze zużycie pamięci</a> osiągnięte choćby dzięki współdzieleniu pewnych obszarów pamięci przez różne aplikacje.
+
+<li>poprawić ma się szybkość startu (np. dzięki temu, że pewne usługi będą startowane tylko wtedy gdy są rzeczywiście potrzebne).
+
+<li>dostępne będzie <a href=http://blogs.msdn.com/b/b8/archive/2011/08/30/accessing-data-in-iso-and-vhd-files.aspx>natywne wsparcie dla montowania obrazów ISO i VHD</a> (pliki tam zapisane będą widoczne w Eksploratorze Windows bez doinstalowywania dodatków)
+
+<li>szerzej wykorzystana zostanie <a href=http://blogs.msdn.com/b/b8/archive/2011/09/22/protecting-the-pre-os-environment-with-uefi.aspx>funkcja tzw. bezpiecznego startu</a>
+
+</ul>
+
+<p>Nie zobaczymy jeszcze teraz natomiast ReFS, który mógłby docelowo zastąpić NTFS i stać się 6 (po NTFS i różnych odmianach FAT włączając exFAT) systemem plików wspieranym przez firmę Microsoft. <a href=http://blogs.msdn.com/b/b8/archive/2012/01/16/building-the-next-generation-file-system-for-windows-refs.aspx>Szerzej o tym na wspomnianym blogu</a>.
+
+<p>Dodatkowo zauważyłem np. stosunkowo drobne zmiany w Control Panel, kategorię "Print queues" w Device Managerze oraz zakładkę Events w opcjach urządzeń:
+
+<p><img src=sites/default/files/192/12.png>
+
+<p>Osoby niezbyt dobrze czujące się z metodami tworzenia grafiki wprowadzonymi wraz z Vistą (wspominałem o nich w <a href=?q=node/189>podsumowaniu "Notebook A.D. 2012, czyli o czym trzeba mieć świadomość..."</a> - chodzi o czcionkę Segoe, jak również sposób wygładzania liter) będą na pewno niezadowolone z faktu usunięcia opcji "Use visual styles on windows and buttons" w ustawieniach "zaawansowanych":
+
+<p><img src=sites/default/files/192/14.png>
+
+<p>Całość można podsumować krótko - Windows 8 będzie lepszy technologicznie niż 7, ale tylko troszkę... Szkoda, że znów zapomniano o tym, że "mniej" czasem oznacza "lepiej", "szybciej", "mniej błędnie" i nie zobaczymy czegoś takiego:
+
+<p><img src=sites/default/files/192/15_0.png>
+
+<p>I że nie można przy użytej konfiguracji (skądinąd dosyć mocnej) przestawiać płynnie kart w Pasjansie...
+
+<p><b>Wersje systemu</b>
+
+<p>Podobno pojawią się 3 edycje: "zwykła" (bez dodatków w nazwie), Enterprise i Professional (każda w odmianie 32 i 64 bit).
+
+<p>System o nazwie Windows 8 zobaczymy również w wersji dla procesorów ARM (jest to poniekąd powrót do przysłowiowych korzeni - Windows NT początkowo również wspierał różne architektury sprzętowe).
+
+<p>Brak na razie precyzyjnych informacji, która edycja będzie zawierać które funkcje.
+
+<p><b>Podsumowanie</b>
+
+<p>Metro w Windows Phone było i jest dosyć szeroko krytykowane. Metro+Areo to obecnie według mnie swego rodzaju "wstępny balon próbny" i tak należy traktować wydanie Customer Preview.
+
+<p>Moje pierwsze wrażenie było takie, iż całość działa jak jeden wielki automat, który wie wszystko lepiej i którego nie sposób kontrolować. Kolejne minuty jedynie to pogłębiały (jak słusznie zauważył Tomek Bryja: <a href=http://www.dobreprogramy.pl/Quo-vadis-Windows-8,Aktualnosc,30575.html>"Problem tkwi w tym, że od pewnego czasu kolejne wersje Windows dodają nowe warstwy abstrakcji nad starymi elementami"</a>).
+ 
+<p>Według mnie podobna hybryda w wersji finalnej może nie zdobyć serca użytkowników. Moim zdaniem znacząca ich większość będzie starać się możliwie długo korzystać z Windows XP, Vista, 7 i po przejściu na Windows 8 próbować usunąć nowy interfejs.
+
+<p>System wpisuje się w trzy nurty - przechowywanie wszystkiego w chmurze (<a href=http://www.dobreprogramy.pl/Konto-SkyDrive-zamkniete-po-wczorajszym-felietonie,Aktualnosc,30581.html>co może prowadzić do odcięcia od danych tak jak to zdarzyło się użytkownikowi portalu dobreprogramy.pl</a>), całkowite podporządkowanie użytkownika jednej firmie (sklep z aplikacjami, usługa mail, konto na pliki, itd.) i co za tym idzie ostatecznie utrata prywatności.
+
+<p>Czy nalezy go "skreślać" ? 
+
+<p>To będzie mocny gracz na rynku x86 - pozwoli na uruchamianie wielu aplikacji...ma kilka poprawek technologicznych, no i na pewno będzie dodawany "gratis" do nowych komputerów.
+
+<p>Nie zmienia to jednak faktu, że w zasadzie będzie to jednak tylko ewolucja, a nie rewolucja. Widać to doskonale w określeniu wersji systemu czyli NT 6.2 (podczas gdy Windows 7 miał oznaczenie NT 6.1).
+
+<p>Warto jeszcze wspomnieć kilka słów o nietestowanej wersji dla procesorów ARM.
+
+<p>Tutaj na pewno Windows 8 będzie dla firmy rewolucyjny...ale technologicznie (jest tam bowiem pierwszym komercyjnym systemem Microsoftu), a niekoniecznie w ilości sprzedanych egzemplarzy.
+
+<p>Być może zostaną ominięte pewne problemy znane z konkurencji (o których pisałem ostatnio w przypadku Androida w podsumowaniu <a href=?q=node/191>Android czyli oczekiwanie na rewolucję...</a>), pomóc może <a href=http://osnews.pl/office-2012-za-darmo-w-komputerach-z-windows-8-arm/>"darmowy" Office</a>, ale z kolei <a href=http://di.com.pl/news/42879,0,Urzadzenia_z_Windows_8_ARM_nie_uruchomia_innych_systemow.html>"zaszkodzić" może chociażby funkcja bezpiecznego startu</a>.
+
+<p>Wydaje mi się, że firma jest w pełni świadoma ułomności swoich rozwiązań, jej strategia będzie natomiast ukierunkowana na próbę zdobycia możliwie dużo udziałów na rynku urządzeń ARM.
+
+<p>Stać się to może nawet kosztem rozwoju wydań Windows dla przeżywającej pewną stagnację platformy x86 (odsyłam znowu do <a href=?q=node/189>podsumowania "Notebook A.D. 2012, czyli o czym trzeba mieć świadomość..."</a>), świadczyć o tym może przedłużenie dosłownie kilka dni temu <a href=http://support.microsoft.com/lifecycle/>okresu wsparcia dla Visty i 7</a>. Ich rozwój będzie dokonywany odpowiednio do 10 kwietnia 2012 i 13 stycznia 2015, poprawki bezpieczeństwa do 11 kwietnia 2017 i 14 stycznia 2020, również XP jest dalej wspierany (poprawki bezpieczeństwa do 8 kwietnia 2014).

@@ -1,0 +1,13 @@
+﻿Title:Report 2007-06-18
+Author:marcin
+When:19 Jun 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Michal has just released new stable Gammu and I'm very happy from it (although in the same time I don't agree with some changes inside...). I have read some his older blog entries and have some comments too...</p>
+<p>But let's start from beginning ;-). I have created final version of my diploma work and now I'm waiting for exam connected with it (all other connected with "real" studies were passed). In meantime I got job too (at least for now...).</p>
+<!--break-->
+<p>I returned to my Gammu+ after some break. I'm filling new and new missed places - there is done MMS/SMS integration, I'm working on sending linked SMS and generally on improving stability. I will try to release new version during this week. Additionaly such things like SM, VCARDs, VCALENDARs over SMS should be piece of cake now...</p>
+<p>I don't hurry up, because I see, that people aren't too much interested in this type of software (this is my opinion after reading some Gammu/Gammu+ statistics, checking list of donors and other things...). Simply - people from richer countries are more interested in smartphones, people from poorer countries can use what they have in Gammu already (because it's still enough especially for many older and more simple Nokias).</p>
+<p>And now - Michal speaks in his blog about selling phpMyadmin. Yeah... I had it many times. And unfortunately in many "free" projects you have this - you work for free, people sell it. If you don't have business abilities, you don't have anything from it and you can't even extend project...</p>
+<p>Anyway - although things look this way (not too optimistic), expect from time to time Gammu+ update (especially, when I will change phone) and maybe more, when there will be sponsors. This is everything what I wanted to say.</p>

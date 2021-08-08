@@ -1,0 +1,31 @@
+﻿Title:20 years of site + Przepisy drogowe, Straż, Chromium, Servo, Rust, Markdown... (2019)
+Author:marcin
+When:22 May 2019
+Taxonomy:Polski,Polski blog,Android,drogowe,Chrome,Straż,English,English blog
+
+<p><img src="sites/default/files/363/Screenshot_20190513-200950_Chrome%20Canary.jpg" align="right" width="200" style="margin:2px" /></p><p>First last report from Chrome/Chromium:</p>
+<p><a href="https://bugs.chromium.org/p/chromium/issues/list?can=1&amp;q=mwiacek">Today there are 304 externally visible bugs</a> (after 13 May 2019 three P0!), in code there are included 199 patches (1565 files changed, 18161 lines inserted, 19486 lines deleted) with such changes like:</p>
+<!--break-->
+<ul><li>removing enum from almost all Android Java code (excluding third_party) and replacing them with very unified @IntDef standard - some changes are notified in the <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=919666">919666</a>
+</li><li>migrating ChromeAnimation API to CompositorAnimator (for example last <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1537098">last patch from this series</a> was removing about 1100 lines of code) - see <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=890643">890643</a>
+</li><li>removing bug put into code before 21 May 2015 - see <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=957343">957343</a> (bug was probably unmasked by ChromeAnimation migration, fix needs changing just two lines of code!)
+</li><li>removing MAPs from Java code - see <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=948866">948866</a>
+</li><li>changing some non-optimal Java code by moving it into tables indexed by @IntDef - for example <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1509475">CL 1509475</a> removed more than 500 lines of code
+</li><li>rewriting Android Java context menu code - see for example <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1175119">1175119</a>
+</li><li>rewriting Android Java preferences code - series of patches done with Berhnard Bauer and others (for example <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1091753">1091753</a> removed almost 500 lines of code)
+</li><li>moving "Open in other window" down in New Tab Page and context menu in Android (it was really annoying and now Chrome is just better)
+</li><li>improving displaying URLs in Android in context menu - see <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1037123">1037123</a>
+</li><li>fixing Certificate Viewer in Android - see <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1070202">1070202</a>
+</li></ul><p>...and many others (<a href="https://chromium-review.googlesource.com/q/owner:marcin%2540mwiacek.com">last can be viewed here</a>)</p>
+<p>Work in progress (for example <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=705169">@IntDef work can have continuation</a>), there are some proposals, for which I hope will get approval (for example <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962309">history improvement</a>), there are also some suspended topics, for which I will want to return (like <a href="https://chromium-review.googlesource.com/c/chromium/src/+/853500">compressing resources</a>)</p>
+<p>What else? <a href="https://servo.org/">Servo</a> (here is <a href="https://github.com/servo/servo/pull/23324">first patch</a>), Rust, MD files and others, more in next months I hope.</p>
+<p>I have also to add, that my small personal webpage was created more than 20 years ago. Many things happened in this time in IT, in my life (especially in 2019), in politics &amp; world (some are unfortunately very bad), the most interesting topics in last months inside technology area are for me:</p>
+<ul><li>AMD CPUs (yes, this is big change in the CPU market)
+</li><li>new development languages (Rust, etc.) and changing position of some existing one (Java after creating licenses by Oracle and creating some alternative builds like AdoptOpenJDK)
+</li><li>mobile wars (Samsungs &amp; Huawei problems, changing position of Apple, China offensive)
+</li></ul><hr /><p>Wiele obiecywałem w grudniu 2017, nie udało się, więc teraz krótka lista ToDo:</p>
+<ul><li><a href="https://play.google.com/store/apps/details?id=com.mwiacek.straz&amp;hl=pl">Straż dla Androida</a> - engine już poprawiony 15 maja 2019
+</li><li><a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe&amp;hl=pl">Przepisy drogowe dla Androida</a> - engine w trakcie poprawek, pliki źródłowe są na www i chcę je udostępnić na GitHub (tak, u Microsoft!)
+</li><li>Straż na iOS (w końcu!)
+</li><li>zmiana strony na coś nowocześniejszego
+</li></ul><p>Mam też kilka innych rozpoczętych projektów (po trzech książkach czas na kolejne, ale nie tylko), zobaczymy co uda się zrobić.</p>

@@ -1,0 +1,43 @@
+﻿Title:Upgrade do Duosa...czyli androidowe zmiany (2014)
+Author:marcin
+When:25 May 2014
+Taxonomy:Polski,Polski blog,GSM,Android,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Upgrade-do-Duosaczyli-androidowe-zmiany,54673.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Była sobie taka firma, z telefonów której (prawie) wszyscy korzystali lub wszyscy chcieli korzystać... W roku 2000 niejaki Dejav Kaljevic zasłynął stworzeniem rozwiązania, które pozwalało prosto i przyjemnie zgrywać i wgrywać pliki z firmware do tychże urządzeń. To dało początek modyfikacji i później wielu użytkowników dodawało sobie gry lub menu z jakimiś przydatnymi funkcjami (oczywiście prymitywnymi z dzisiejszego punktu widzenia, ale wtedy...). Firmie zaczęło się to nie podobać i w kolejnej generacji (DCT4, itd.) zaczęto firmware m.in. szyfrować.
+<!--break-->
+<p>Jest rok 2014 - kolejny od kilku lat rok Linuxa....tylko że w kieszeniach (nikt nie zaprzeczy, że Android jest obecnie najpopularniejszy). Firma Samsung również myśli o "bezpieczeństwie" i masowo już wprowadza do swoich urządzeń rozwiązanie KNOX...nawet tam gdzie nie mogą z niego w całości skorzystać użytkownicy. Platforma Android jest jednakże "zbyt otwarta" i nie jest problemem zdobycie lub rozpakowanie/zmiana plików z firmware (tak, tak, te wszystkie pliki *.img czy *.img.ext4 można łatwo edytować, jądro przekompilować, a firmware wgrać). Co tu zrobić ?
+
+<p>Obecne urządzenia Samsunga pokazują po starcie, że wgrano "niesamsungowy" plik z częścią firmware, ale nawet po zamianie na wersję "oficjalną" informacja o "nieautoryzowanej" zmianie pozostaje i jak wieść gminna niesie w niektórych częściach świata jest podstawą do anulowania gwarancji (dla wtajemniczonych: "winny" jest bootloader z flagą KNOX WARRANTY VOID)
+
+<p><a href=?q=node/261>Jak pisałem jakiś czas temu zdarzyło mi się używać GT-i9192 czyli S4 Mini Duos</a>, do którego (jeszcze ?) nie ma CyanogenModa, więc jest się skazanym na firmware Samsunga. Przed Świętami w kwietniu pojawiła się do tego modelu aktualizacja...oczywiście tematem rzeką jest to, że jest to dalej aktualizacja bazująca na Androidzie 4.2.2.
+
+<p>Ale nie narzekajmy - Zamknięto na pewno kilka dziur (chociażby związane z Cydią Impactor), pojawił się bootloader Knoxa (bez samego rozwiązania), SELinux działa w trybie Enforcing (większym problemem jest zwiększenie uprawnień np. do poziomu roota) i raczej na pewno pojawiła się obsługa TRIM (to ostatnie znacząco może przyspieszyć obsługę pamięci ;)).
+
+<p>Czy jednak należy się cieszyć z podobnego kierunku ? Samsung promuje swój sklep z aplikacjami KNOXowymi, jednakże w tym wariancie firmware być może nigdy nie będzie do nich dostępu, zaś Android stał się jeszcze bardziej zamknięty.
+
+<p>Żeby było ciekawiej, próbowałem ostatnio funkcji "Firmware recovery" (pozwala "przefleszować" urządzenie) w KIES dla innego modelu (GT-i9505 czyli S4). Chociaż do niedawna był to model flagowy, to "Not supported for this model"... Bootloader KNOXa w takim wypadku rzeczywiście może pomóc zwiększyć prawdopodobieństwo poprawnego sprawdzenia, że firmware w danym egzemplarzu był "robiony" przez Samsunga.
+
+<p>Czy jednak działania te z drugiej strony nie przypominają tego co robiła firma, o której wspomniałem na początku ? Można znaleźć wiele innych analogii - coraz więcej podobnych modeli, brak realnych innowacji, itd. itd.
+
+<p>No ale nic - czy bezpieczeństwo "najnowszego" firmware można jeszcze poprawić ? Ano tak - np. wyłączyć SELinux w jądrze systemu (po wgraniu takiego jądra jednakże flaga KNOX zostanie bezpowrotnie ustawiona), po starcie systemu użyć jednej z aplikacji z Google Play do ustawiania firewalla (np. Android Firewall) i dopiero wtedy włączać tryb Enforcing SELinuxa. Trochę niewygodne, ale możliwe i zapewnia dodatkowy poziom ochrony do restartu.
+
+<p>Kolejna możliwość dostępna w Androidzie 4.2.2 to zaszyfrowanie partycji z danymi (po starcie konieczne jest podanie hasła). To zostało zrobione w testowym urządzeniu, wyniki przed:
+
+<img src=sites/default/files/314/1_1.png width=400>
+
+<img src=sites/default/files/314/2_1.png width=400>
+
+i po:
+
+<img src=sites/default/files/314/3_2.png width=400>
+
+<img src=sites/default/files/314/4_1.png width=400>
+
+<p>Możnaby powiedzieć, że to tylko cyferki i możnaby przytaczać masę innych benchmarków, prawda jest na chwilę obecną jednakże taka, że dla przeciętnego użytkownika takie urządzenie jest więcej niż wystarczające - działa, nie wiesza się (i mocno nie przywiesza), daje dostęp do wielu aplikacji, itd. itd.
+
+<p>Doszliśmy po prostu do pewnego punktu - w wielu wypadkach jedyne jego fizyczne zniszczenie urządzenia może spowodować jego wymianę. Teraz czekamy na normę IP, obsługę dwóch kart SIM z LTE, itp.
+
+Dziękuję za uwagę. 
+<hr>
+<a href=http://www.dobreprogramy.pl/marcinw2/Upgrade-do-Duosaczyli-androidowe-zmiany,54673.html>http://www.dobreprogramy.pl/marcinw2/Upgrade-do-Duosaczyli-androidowe-zmiany,54673.html</a>

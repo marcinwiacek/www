@@ -1,0 +1,81 @@
+﻿Title:Lecz się sam 2, czyli włącz sobie SST w procesorze (2019)
+Author:marcin
+When:27 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,OS,x86
+
+<img src="sites/default/files/379/x.jpg" width=300 align=right />
+
+<p>Speed Shift został dodany wraz z procesorami Skylake, jednak np. część producentów laptopów zdecydowała się go nie włączać.</p>
+
+<p><a href="https://www.anandtech.com/show/9751/examining-intel-skylake-speed-shift-more-responsive-processors" target="_blank" rel="noopener" rel="nofollow">Szerszy opis funkcji można przeczytać np. tutaj</a>,
+w skrócie mówiąc w założeniu ma ona pozwalać na szybsze zmiany prędkości pracy procesora, co ma się przełożyć na większą responsywność i wydajność (przy czym zużycie energii ma być na podobnym poziomie).</p>
+
+<p>Nie chciałbym tutaj gdybać czy powodem nieobecności tej funkcjonalności np. w niektórych Dellach jest planowane postarzanie (chęć zareklamowania funkcji w kolejnej generacji), inżynierskie obawy o stabilność albo czas pracy czy zwykła normalna głupota, faktem jest, że dzisiaj możemy sami pobawić się tą funkcjonalnością i ewentualnie zacząć jej używać.</p>
+
+<p>W Linuxie sprawa jest jasna (cokolwiek to nie znaczy, zmieniamy MSR 0x770 z 0 na 1), w tym krótkim poradniku pokażę jak sobie z tym poradzić w Windows 10.</p>
+
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Lecz-sie-sam-czyli-wlacz-sobie-SST-w-procesorze,104989.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Speed Shift został dodany wraz z procesorami Skylake, jednak np. część producentów laptopów zdecydowała się go nie włączać.</p>
+
+<p><a href="https://www.anandtech.com/show/9751/examining-intel-skylake-speed-shift-more-responsive-processors" target="_blank" rel="noopener" rel="nofollow">Szerszy opis funkcji można przeczytać np. tutaj</a>,
+w skrócie mówiąc w założeniu ma ona pozwalać na szybsze zmiany prędkości pracy procesora, co ma się przełożyć na większą responsywność i wydajność (przy czym zużycie energii ma być na podobnym poziomie).</p>
+
+<p>Nie chciałbym tutaj gdybać czy powodem nieobecności tej funkcjonalności np. w niektórych Dellach jest planowane postarzanie (chęć zareklamowania funkcji w kolejnej generacji), inżynierskie obawy o stabilność albo czas pracy czy zwykła normalna głupota, faktem jest, że dzisiaj możemy sami pobawić się tą funkcjonalnością i ewentualnie zacząć jej używać.</p>
+
+<p><center><img src="sites/default/files/379/x.jpg" style="width:542px;height:405px;" alt="image" title="image" /></center>
+
+<p>W Linuxie sprawa jest jasna (cokolwiek to nie znaczy, zmieniamy MSR 0x770 z 0 na 1), w tym krótkim poradniku pokażę jak sobie z tym poradzić w Windows 10.</p>
+
+<p><b>Jednorazowo...</b></p>
+
+<ol><li>Pobieramy i rozpakowywujemy <a href="https://www.techpowerup.com/download/techpowerup-throttlestop/" target="_blank" rel="noopener" rel="nofollow">https://www.techpowerup.com/download/techpowerup-throttlestop/</a></li>
+
+<li>Uruchamiamy aplikację</li>
+
+<li>Klikamy na przycisk &quot;TPL&quot; z prawej strony okna</li>
+
+<li>Zaznaczamy opcję &quot;Enable Speed Shift when ThrottleStop starts&quot;.</li>
+
+<li>Restartujemy aplikację</li></ol>
+
+<p>Włączenie opcji możemy sprawdzić korzystając z aplikacji używając HWiNFO z <a href="http://www.hwinfo.com" target="_blank" rel="noopener" rel="nofollow">http://www.hwinfo.com</a> - SST powinno być pokazane na zielono w okienku &quot;System Summary&quot; w części dotyczącej procesora.</p>
+
+<p><center><img src="sites/default/files/379/sst1.png" style="width:601px;height:166px;" alt="image" title="image" /></center>
+
+<p><b>I na stałe...</b>&#160;</p>
+
+<p>Opcja będzie włączona do czasu hiberacji, standby albo restartu. Żeby zmianę uczynić trwałą, należy stworzyć dwa zadania, które odpowiednio uruchomią wspomniany program w odpowiednim momencie i go zamkną (program nie ma opcji uruchomienia i przerwania swojego działania).</p>
+
+<p>Przechodzimy do &quot;Computer Management&quot; (prawy klawisz myszy na menu Start i &quot;Computer Management&quot;), rozwijamy drzewko po lewej (Computer Management (Local) \ System Tools \ Task Scheduler \ Task Scheduler Library) i np. tutaj dodajemy sobie nowe zadanie.</p>
+
+<p><center><img src="sites/default/files/379/sst2.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ważny jest użytkownik i opcja &quot;Run with highest privileges&quot;.</p>
+
+<p><center><img src="sites/default/files/379/sst3.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>Zadanie będzie aktywowane w momencie startu systemu i po odblokowaniu ekranu (zakładam, że logowanie po wybudzeniu nie jest wyłączone).</p>
+
+<p><center><img src="sites/default/files/379/sst10.png" style="width:533px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/379/sst5.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>Tu na pewno wyłączamy &quot;Start the task only if the computer is on AC power&quot;.</p>
+
+<p><center><img src="sites/default/files/379/sst6.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>Drugie zadanie różni się komendą do wykonania</p>
+
+<p><center><img src="sites/default/files/379/sst7.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>i tym, że przy definiowaniu reguł w zakładce Triggers należy zaznaczyć opcję uruchamiania z opóźnieniem (tzn. &quot;Delay task for&quot;).</p>
+
+<p><center><img src="sites/default/files/379/sst8.png" style="width:464px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Uwagi</b></p>
+
+<p> Aplikacja nie jest niestety dostarczana z kodem źródłowym i zawiera wiele opcji, które pozwalają uszkodzić procesor (np. przez zwiększenie limitu napięcia) - domyślne ustawienia (+&quot;Enable Speed Shift when ThrottleStop starts&quot;) nie powinny jednakże mieć skutków ubocznych.</p>
+
+<p>Pewną niedogodnością jest obecność dwóch zadań Windows (wychodzą tu pewne ograniczenia) i to, że ThrottleStop trzeba raz na jakiś czas uaktualnić (miałem już sytuację, że pokazywał po starcie, że jest zbyt stary).&#160;&nbsp;</p>

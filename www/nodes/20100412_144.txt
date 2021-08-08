@@ -1,0 +1,12 @@
+﻿Title:Lampka
+Author:marcin
+When:12 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<i>Smutne to wydarzenie i wzbudziło we mnie wiele różnych refleksji. Małą częścią z nich postanowiłem się podzielić zapalając tę symboliczną lampkę przedstawioną niżej...</i>
+
+<p>
+<img src=sites/default/files/144/lampka.gif width=300>
+<!--break-->

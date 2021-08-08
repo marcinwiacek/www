@@ -1,0 +1,11 @@
+﻿Title:Report 2007-07-30
+Author:marcin
+When:31 Jul 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>New test Gammu+ available. I have implemented encoding majority of phonebook &amp; calendar support (over SMS), encoding WAP push and todo (over SMS too). Next will be preview of encoded entries, maybe editing too... </p>
+<p>Yes. Editing. Do you think, that anyone need this software ? I'm thinking something, looking sometimes into gammu.org history and think, that it become maybe popular, but it's like ReactOS and many other (treat as toys). </p>
+<p>What do you think ?</p>
+<!--break-->
+<p>Anyway, in next week I will be unavailable. Don't expect any support from me.</p>

@@ -1,0 +1,44 @@
+﻿Title:Statystyki androidowe + kilka słów nt. jakości aplikacji (2012)
+Author:marcin
+When:23 Sep 2012
+Taxonomy:Polski,Polski blog,Android,GSM,drogowe
+
+<p>Czy wiecie, że jestem lepszym developerem niż Bank Pekao SA albo Telekomunikacja Polska S.A. albo TVP S.A.
+<!--teaser-->
+<p>Czy wiecie, że jestem lepszym developerem niż Bank Pekao SA albo Telekomunikacja Polska S.A. albo TVP S.A. ?
+
+<p>Źródło: <a href=http://antyapps.pl/ranking-aplikacji/3/?Platform=Android&Monetization=Free&type=dev_best_local>Ranking</a>
+
+<p>Według tego <a href=http://antyapps.pl/ranking-aplikacji/1/?Platform=Android&SortBy=TopGainer&type=dev_best_local>samego rankingu jestem 16 na liście najbardziej zyskujących</a>.
+
+<p>Inna sprawa, że <a href=https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe>Przepisy drogowe</a> nie wychodzą z 10-tki najlepszych aplikacji w swojej grupie, a przez chwilę były na trzecim miejscu:
+
+<p><img src=sites/default/files/209/190167_454337831273397_975529045_n.jpg width=200>
+
+<p>Aplikacja moim zdaniem świetnie się wpasowywuje w ideę tłumaczenia przepisów - są one zagmatwane, a zapewne będą jeszcze bardziej (<a href=?q=node/207>posłowie mają niestety ostatnio różne "światłe" idee w tym zakresie, o czym już wspominałem</a>). Przykładem zagmatwania z ostatnich dni mogą być <a href=http://polskanarowery.sport.pl/blogi/chodz_na_rower/2012/09/jak_nie_jezdzic_kontrapasem/1>różne teorie związane z kontrapasem dla rowerów.</a>
+
+<p>Jakiś czas temu dodałem do Przepisów wyszukiwanie przybliżowe (tzn. aplikacja wyszukuje napisy z polskimi i bez polskich liter po wpisaniu wyrazu bez polskich liter), obecnie rozważam dodanie różnych znaków nieformalnych (dużą listę ma np. strona <a href=http://www.znaki-drogowe.pl/>www.znaki-drogowe.pl</a> i może udałoby się dojść do porozumienia z jej autorem w tej sprawie)
+
+<p>Jeden z użytkowników aplikacji wyraził też zdziwienie, że w tak małej objętości zmieściłem tyle treści. Myślę, że jest to poniekąd związane z tym, co wyprawia obecnie wielu programistów i firm. <b>Mówiąc krótko: wszędzie gdzie się da wrzuca się masę różnego rodzaju niepotrzebnych śmieci i bibliotek i inwestuje się w promowanie kiepskich rozwiązań zamiast doszkalanie ludzi ich używających.</b>
+
+<p>W wielu wypadkach coraz mniej dba się także o zachowanie PODSTAWOWYCH zasad bezpieczeństwa. Przykładów można tu mnożyć wiele, dosyć mocno widoczną ostatnio wpadką była <a href=http://niebezpiecznik.pl/post/wpadka-sieci-virgin-mobile-dostep-do-danych-6-milionow-klientow/>Wpadka sieci Virgin Mobile – dostęp do danych 6 milionów klientów</a>
+
+<p>Obecnie obawiam się, iż jakość mocno spadnie dodatkowo wraz z premierą Windows 8 i zmuszaniem do szerszego używania .Netu. Jak dotąd do chwili obecnej nie zdarzyło mi się bowiem spotkać porządnie napisanej aplikacji korzystającej z tej technologii. Większość z nich była albo kuriozalnie duża albo wolna albo miała problemy z podstawową funkcjonalnością.
+
+<p>Nawiasem mówiąc - można się wyśmiewać z ubioru programistów (<a href=http://demotywatory.pl/3850572/Dresscode>http://demotywatory.pl/3850572/Dresscode</a>), nie zmienia to jednak faktu, że to oni muszą przygotować mocne podstawy i zrobić gotowy produkt i kierownicy/szefowie/lidowie/ewangeliści powinni pochylać się bardziej nad ich rzeczywistymi kwalifikacjami, a nie CV z dużą ilością ładnie brzmiących słów i ich wyglądem zewnętrznym (najlepiej, jak sami mają również podstawy techniczne w danym zakresie).
+
+<p>Bez tego powstają niestety "potworki", które są zależne od rozdzielczości ekranu, występują problemy z pracą zespołową (np. nakładanie się zmienianych fragmentów kodu) czy problemy właśnie z napisaniem podstawowych rzeczy (tutaj tacy "specjalisci" zaczynają od szukania kontrolek, które wykonają pracę za nich) albo bezradność, gdy coś nie działa (wymówka - tak została zbudowana kontrolka).
+
+<P>I nie mówię tutaj o projektach, gdzie przekraczane są kolejne bariery technologiczne, tylko o zwykłych prostych rzeczach.
+
+<p>Dodatkowo piszę to wszystko nie po to, aby kogokolwiek obrazić (sam mam bowiem trochę "za uszami"), faktem jest niestety to, iż trend ten jest dosyć ogólny i nie dotyczy niestety konkretnego produktu lub firmy. Czy chcemy zaś czy nie, prostszy kod oznacza potencjalnie mniej problemów (a tych już i dzisiaj nie brakuje - <a href=http://niebezpiecznik.pl/post/uwaga-na-ataki-0day-na-internet-explorer/>kolejne ataki 0day na IE</a>, Flasha, Javę, itp.)
+
+<p>Z drugiej strony (wejdźmy trochę w politykę) - może chodzi o finanse i wygodę kadry zarządzającej programistami ? Dłuższy projekt (więcej poprawek, itp.) to w krótkiej perspektywie więcej pracy, z kolei szybciej zrobiony oznacza dla nich konieczność szybszego szukania pracy dla programistów...
+
+<p><b>W tym miejscu zaproponowałbym dodanie odrobiny zdrowego rozsądku i pamiętanie, że zaoszczędzony czas możnaby poświęcić na szkolenia. A lepsi fachowcy pozwolą robić jeszcze lepsze projekty...</b>
+
+<p>PS. Nie wiem dlaczego, ale przypomina mi się tutaj <a href=http://www.wykop.pl/link/1271481/lopatologiczne-wyjasnienie-dlaczego-keynes-nie-mial-racji/>sztuczne generowanie miejsc pracy przez rządy</a> (według jednej z teorii przesuwają tylko pieniądze z jednego koszyka do innego, gdyby nie było to robione, zysk byłby potencjalnie większy i nie trzebaby się było pytać: "jak żyć Panie Premierze, jak żyć...").
+
+<p>PS2. Przykładem złego zarządzania i presji kadry zarządzającej moim zdaniem są też <a href=http://www.newstatesman.com/blogs/business/2012/09/10-most-ridiculous-ios-6-map-mistakes>mapy Apple w iOS 6. Miało być zapewne "szybko i tanio i dobrze", a wyszło...</a>
+
+<p>PS3. Na poprawę humoru do przeczytaniu dosyć jednak pesymistycznego tekstu polecam <a href=http://www.wykop.pl/ramka/1270883/30-hasel-nowego-zargonu-programistycznego/>New Programming Jargon</a>

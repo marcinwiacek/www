@@ -1,0 +1,34 @@
+﻿Title:Stringi
+Author:marcin
+When:13 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Stringi to naprawdę temat bywa rzeka,<br />
+który do wyłożenia dla Bartka tu czeka,</p>
+<p>Jedne są bardzo krótkie niesłychanie,<br />
+zakończone nicością niespodziewanie,<br />
+W innych nieskończone treści gubimy,<br />
+zdolność przewidywania akcji tracimy,</p>
+<p>Jedne przymyślane bardzo głęboko,<br />
+założone i wyeksponowane szeroko,<br />
+Są też przypadkiem tak źle wybrane,<br />
+że nie na rękę, te są szybko usuwane,</p>
+<!--break-->
+<p>Inne jak króliki pojawiają się i znikają,<br />
+rozsądku również ludziom nie dodają,<br />
+Szczególnie że w niektórych językach,<br />
+można zapomnieć o różnych mykach,</p>
+<p>Bez nich jednak nudno i szaro by było,<br />
+wiele akcji by się pewnie nie zdarzyło,<br />
+I wiedzę o nich warto mieć dogłębną,<br />
+by wagi ich nie kwitować miną błędną,</p>
+<p>Najlepsze, że głośne o nich mówienie,<br />
+budzi reakcje jak jądra zmniejszenie,<br />
+Bo wiedz nasz informatyku wspaniały,<br />
+że temat ten bywa też niezrozumiały,</p>
+<p>A na koniec stwierdzę sobie dosadnie,<br />
+że stringi z C sprawują się tak ładnie,<br />
+ale do nich trzeba dużo doświadczenia,<br />
+nie ma miejsca na amatorów marzenia.</p>

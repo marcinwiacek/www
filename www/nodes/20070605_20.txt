@@ -1,0 +1,14 @@
+﻿Title:Privacy in cellular devices
+Author:marcin
+When:05 Jun 2007
+Taxonomy:English,English blog,Gammu,GSM
+
+<p>This article will contains various comments about privacy connected with cellular devices (in GSM networks)...</p>
+<p>First of all, I must say, that you don't have something like that. Each time, when phone exchange data with operator stations, he know phone and SIM card details. If you have bought SIM card with concract, he know you personal info too. Of course this is not 100% reliable (phone can be not used by owner), but... This location data should be secret and the most often are. But now always...</p>
+<!--break-->
+<p>More and more often users give their location for various 3rd party companies (see some services connected with car driving and similiar).</p>
+<p>Let's look on other things. Everything here (almost) is digital and can be easy archived. SMS text, calls times and numbers, sometimes calls content. This can be and often (according to law in various coutries) is archived.</p>
+<p>Another interesting thing - updating phone firmware from PC. Leader in phones market Nokia decided to prepare NSU (Nokia Software Updater), which connect to Nokia servers using SSL connection, download required files and make update. We can say, that in theory it can make various doubts ! What is exactly sent between Nokia and users computer ? Flash files and loaders only ? Something more ? Please note, that current Nokia phones (according to various sources) save various parameters and in theory it can be sent to Nokia too. You can send in theory everything - simlock state, phonebook, SMS, info about user PC, etc. Some of these info can allow for checking, if warranty was broken or not (for example, when phone with simlock doesn't have it now).</p>
+<p>Interesting, that "clean" situation was in Siemens updates - you downloaded EXE file and it was making update offline.</p>
+<p>Of course Nokia can say, that they want prevent firmware piracy, but this could be like fire-fighting action with single house, when big city around is firing (you can download firmware from many sites). Current situation make big doubts about privacy. Another "real" reason can be different - closing ability for patching firmware for "home hackers".</p>
+<p>Similiar doubts are with firmware update from phone menu.</p>

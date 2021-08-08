@@ -1,0 +1,32 @@
+﻿Title:....
+Author:marcin
+When:06 Aug 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p style="font-family:Lucida Console,monospace;">
+Smutek, szał oraz oczy radosne,<br />
+wyrafinowanie i uciechy proste,<br />
+Racji niewyżyte przeszukiwanie,<br />
+delikatne wiedzy przekazywanie,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+Członki niewymyte, oczy czarne,<br />
+myśli skryte, dźwięki wulgarne,<br />
+Marzenia oraz uczucia skrywane,<br />
+duma, uprzedzenia przemieszane,
+</p>
+<!--break-->
+<p style="font-family:Lucida Console,monospace;">
+Moc, niemoc, marne zadowolenie,<br />
+krzyk, szał, lekkie spełnienie,<br />
+Nudy, powtórki oraz wymęczenie,<br />
+żale i zaskakujące zakończenie,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+Dajcie, podajcie tam istnienie,<br />
+żeby ogarnęło to nieskończenie,<br />
+Jedno takie ciekawe stworzenie,<br />
+by ukazało szaleństwa wrażenie.
+</p>

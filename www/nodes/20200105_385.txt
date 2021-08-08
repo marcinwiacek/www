@@ -1,0 +1,154 @@
+﻿Title:Szyfrowanie systemu przy instalacji Ubuntu (własny podział partycji; bez czyszczenia dysku) (2020, wersja 1.1)
+Author:marcin
+When:5 Jan 2020
+Taxonomy:Polski,Polski blog,Linux,dobreprogramy.pl,x86
+
+<img src="sites/default/files/385/info1.png" width=400 align=right />
+
+<p>Standardowy instalator Ubuntu pozwala na szyfrowanie partycji jedynie wtedy, gdy zdecydujemy się na wyczyszczenie całego dysku.</p>
+
+<p>Przeglądałem na szybko Internet i znalazłem taki oto poradnik <a href="https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019" target="_blank" rel="noopener" rel="nofollow">https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019</a>, który mówi o używaniu czegoś, co nazywa się LUKS (Linux Unified Key Setup).</p>
+
+<p>Zacząłem przeglądać uwagi tam podane i zdecydowałem się przygotować krótki wyciąg dla dysku używanego z UEFI - czystego / z zainstalowanym już Windows.</p>
+
+<p>Nie zajmę się tutaj takimi kwestiami jak siła szyfrowania albo zmiana rozmiaru partycji, tylko konkretnymi najprostszymi wymaganymi krokami.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Szyfrowanie-systemu-przy-instalacji-Ubuntu-wlasny-podzial-partycji-bez-czyszczenia-dysku,105572.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Standardowy instalator Ubuntu pozwala na szyfrowanie partycji jedynie wtedy, gdy zdecydujemy się na wyczyszczenie całego dysku.</p>
+
+<p>Przeglądałem na szybko Internet i znalazłem taki oto poradnik <a href="https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019" target="_blank" rel="noopener" rel="nofollow">https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019</a>, który mówi o używaniu czegoś, co nazywa się LUKS (Linux Unified Key Setup).</p>
+
+<p>Zacząłem przeglądać uwagi tam podane i zdecydowałem się przygotować krótki wyciąg dla dysku używanego z UEFI - czystego / z zainstalowanym już Windows.</p>
+
+<p>Nie zajmę się tutaj takimi kwestiami jak siła szyfrowania albo zmiana rozmiaru partycji, tylko konkretnymi najprostszymi wymaganymi krokami.</p>
+
+<p><b>Co jest potrzebne?</b></p>
+
+<p>Partycja UEFI (jest już założona na dysku, jeśli mamy Windows) + szyfrowana partycja systemowa na Linuxa (najczęściej ext4) zawierająca klucz do odszyfrowania tejże partycji + partycja LUKS powiązana ze wspomnianą partycją szyfrowaną (można się przez nią odwoływać do odszyfrowanej partycji systemowej po podaniu hasła).</p>
+
+<p>W skrócie - po starcie komputera odpowiednio skonfigurowany GRUB z partycji UEFI po podaniu hasła dostaje się do klucza na partycji systemowej i odblokowywuje dostęp do niej z poziomu LUKS. </p>
+
+<p>Przykładowy podział partycji został pokazany na rysunku:</p>
+
+<p><center><img src="sites/default/files/385/info1.png" style="width:608px;height:150px;" alt="image" title="image" /></center>
+
+<p>Elementem odszyfrowanym jest partycja UEFI (Partition 1), reszta (Partition 2) pozostaje zaszyfrowana.</p>
+
+<p><b>Dysk instalacyjny</b></p>
+
+<p>Przygotowywujemy nośnik instalacyjny z Ubuntu (np. pobieramy plik ISO i zapisujemy go na karcie pamięci / pendrive z użyciem Rufusa), następnie startujemy z niego komputer (w menu startowym wybieramy &quot;Try Ubuntu without installing&quot;, następnie &quot;Try Ubuntu&quot;).</p>
+
+<p><b>Przygotowanie partycji</b></p>
+
+<p>W uruchomionym środowisku możemy posługiwać się np. terminalem albo narzędziem GParted albo Gnome Disc Utility (&quot;disks&quot; z listy aplikacji).</p>
+
+<p>W moim przypadku używany został dysk NVME dostępny jako urządzenie /dev/nvme0n1. Był on wcześniej wyczyszczony funkcją Secure Erase i pierwszym krokiem okazało się założenie tabeli partycji typu gpt.</p>
+
+<p><center><img src="sites/default/files/385/info2.png" style="width:586px;height:405px;" alt="image" title="image" /></center>
+
+<p>Następnie (o ile jej nie mamy) tworzymy nową partycję dla UEFI z systemem FAT - w moim wypadku wielkości ok. 100 MB.</p>
+
+<p><center><img src="sites/default/files/385/info3.png" style="width:593px;height:405px;" alt="image" title="image" /></center>
+
+<p>Następnie w analogiczny sposób tworzymy sobie partycję dla systemu - będzie niesformatowana (File system &quot;unformatted&quot;), żeby oszczędzić ilość zapisów na dysku.</p><p>Po tych operacjach Gnome Disks Utility będzie pokazywać dwie partycje:</p>
+
+<p><center><img src="sites/default/files/385/info4.png" style="width:608px;height:147px;" alt="image" title="image" /></center>
+
+<p>Kolejnym krokiem jest dodanie informacji, że partycja 1 jest związana z UEFI - otwieramy terminal i wykonujemy komendę:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sgdisk --typecode=1:ef00 /dev/nvme0n1</code></pre>
+
+<p>gdzie /dev/nvme0n1 to nazwa naszego urządzenia, a 1 po typecode to numer partycji.</p>
+
+<p>Następnie dodajemy partycję LUKS powiązaną z partycją 2:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"># sudo cryptsetup luksFormat --type=luks1 /dev/nvme0n1p2
+
+WARNING!
+========
+This will overwrite data on /dev/nvme0n1 irrevocably.
+
+Are you sure? (Type uppercase yes): YES
+Enter passphrase for /dev/nvme0n1: 
+Verify passphrase:</code></pre>
+
+<p>gdzie /dev/nvme0n1p2 to połączenie nazwy urządzenia, litery &quot;p&quot; i numeru partycji.</p>
+
+<p>Kolejnym krokiem jest podanie hasła do zaszyfrowanej partycji i jej otwarcie:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"># sudo cryptsetup open /dev/nvme0n1p1 main
+Enter passphrase for /dev/nvme0n1:</code></pre>
+
+<p>Partycja powinna być obecnie dostępna w formie odszyfrowanej jako /dev/mapper/main.</p>
+
+<p>Powinniśmy ją sformatować:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"># sudo mkfs.ext4 /dev/mapper/main
+mke2fs 1.44.6 (5-Mar-2019)
+Creating filesystem with 496096 4k blocks and 89056 inodes
+...</code></pre>
+
+<p>Możemy też sformatować partycję UEFI:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"># sudo mkfs.vfat /dev/nvme0n1p1
+mkfs.fat 4.1 (2017-01-24)</code></pre>
+
+<p><b>Instalacja Ubuntu</b>
+
+<p>Na pulpicie mamy ikonkę &quot;Install Ubuntu&quot; - klikamy na nią i rozpoczynamy instalację systemu.</p><p>Na ekranie &quot;Installation type&quot; wybieramy &quot;Something else&quot;</p>
+
+<p><center><img src="sites/default/files/385/install1.png" style="width:608px;height:359px;" alt="image" title="image" /></center>
+
+<p>System powinien zostać zainstalowany na partycji /dev/mapper/main (ustawiamy tam mount point &quot;/&quot;)</p>
+
+<p><center><img src="sites/default/files/385/install2.png" style="width:608px;height:346px;" alt="image" title="image" /></center>
+
+<p>Po podaniu danych na kolejnych ekranach takich jak nazwa użytkownika systemu i hasła przez końcem instalacji należy dodać do pliku /target/etc/default/grub linijkę &quot;GRUB_ENABLE_CRYPTODISK=y&quot; (można np. użyć komendy &quot;sudo nano /target/etc/default/grub&quot;).</p>
+
+<p>Po instalacji systemu pozostajemy w środowisku (wybieramy &quot;Continue Testing&quot;).</p>
+
+<p><center><img src="sites/default/files/385/install3.png" style="width:491px;height:184px;" alt="image" title="image" /></center>
+
+<p><b>Ustawienie GRUB </b></p>
+
+<p>Z terminala wydajemy serię komend:<b></b></p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">ubuntu@ubuntu:/target$ sudo su
+root@ubuntu:/target# for n in proc sys dev etc/resolv.conf; do mount --rbind /$n /target/$n; done
+root@ubuntu:/target# chroot /target
+root@ubuntu:/# mount -a
+root@ubuntu:/# echo &quot;KEYFILE_PATTERN=/etc/luks/*.keyfile&quot; &gt;&gt; /etc/cryptsetup-initramfs/conf-hook 
+root@ubuntu:/# echo &quot;UMASK=0077&quot; &gt;&gt; /etc/initramfs-tools/initramfs.conf 
+root@ubuntu:/# mkdir /etc/luks
+root@ubuntu:/# dd if=/dev/urandom of=/etc/luks/boot_os.keyfile bs=4096 count=1
+1+0 records in u=rx,go-rwx /etc/luks
+1+0 records out
+4096 bytes (4.1 kB, 4.0 KiB) copied, 0.0002368 s, 17.3 MB/s
+root@ubuntu:/# chmod u=rx,go-rwx /etc/luks
+root@ubuntu:/# chmod u=r,go-rwx /etc/luks/boot_os.keyfile
+root@ubuntu:/# cryptsetup luksAddKey /dev/nvme0n1p2 /etc/luks/boot_os.keyfile
+Enter any existing passphrase: 
+root@ubuntu:/# echo &quot;main UUID=$(blkid -s UUID -o value /dev/nvme0n1p2) /etc/luks/boot_os.keyfile luks,discard&quot; &gt;&gt; /etc/crypttab
+root@ubuntu:/# update-initramfs -u -k all
+update-initramfs: Generating /boot/initrd.img-5.3.0-18-generic</code></pre>
+
+<p>W katalogu /target mamy zamontowaną partycję z naszym zainstalowanym systemem, montujemy tam wszystkie partycje i tworzymy środowisko mające w /target katalog główny, na którym następnie operujemy:</p>
+
+<ol><li>zmieniamy pliki /etc/cryptsetup-initramfs/conf-hook i /etc/initramfs-tools/initramfs.conf </li>
+
+<li>tworzymy katalog /etc/luks z plikiem boot_os.keyfile</li>
+
+<li>ustawiamy prawa dostępu do katalogu i pliku z poprzedniego punktu</li><li>dodajemy klucz szyfrujący do partycji do pliku boot_os.keyfile</li>
+
+<li>dodajemy informację o zaszyfrowanej partycji do /etc/crypttab</li>
+
+<li>generujemy pliki do /boot</li></ol>
+
+<p>Po restarcie powinniśmy zostać poproszeni o hasło do partycji i po dłuższej chwili zobaczymy ekran logowania Linuksa.</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Na pewno nie jest to bardzo trudne, ale również w 2020 oczekiwałbym czegoś znacznie bardziej cywilizowanego. Szkoda, że VeraCrypt tego nie potrafi zrobić.&#160;</p>
+
+<p>Innym problemem jest to, że podana konfiguracja nie działa z SecureBoot i jest to najprawdopodobniej związane z błędem <a href="https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1401532" target="_blank" rel="noopener" rel="nofollow">https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1401532</a>&nbsp;</p>

@@ -1,0 +1,25 @@
+﻿Title:wiosna
+Author:marcin
+When:28 Feb 2014
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Białe światło nawiedza mnie,<br />
+jeszcze niczym nieskalane,<br />
+I przepełniają znowu mnie,<br />
+nadziei ścieżki nieprzebrane,</p>
+<p>i noce bywają inne,<br />
+wypełnione marzeniami,<br />
+budzą się myśli niewinne,<br />
+z mocno pięknymi snami,</p>
+<p>choć widzę znajomych dawnych,<br />
+to widać jakby na dłoni,<br />
+jak w schematach wystawnych,<br />
+zakonserwowani są oni,</p>
+<p>i utnę to co nic nie wnosi,<br />
+bo dość braku wzajemności,<br />
+niech życie pełnię przynosi,<br />
+nie tylko czyjeś radości,</p>
+<p>wiosna....</p>
+<!--break-->

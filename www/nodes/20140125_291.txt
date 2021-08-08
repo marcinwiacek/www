@@ -1,0 +1,32 @@
+﻿Title:Pesymizm
+Author:marcin
+When:25 Jan 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Czy pesymizm wylewa się nam z boku uszami,<br />
+czy mierzy się go testem lub ocenia liczbami ?</p>
+<p>Czy pesymista to już ten jest co nie czuje,<br />
+że wszyscy są prawi, mądrzy i szlachetni ?<br />
+albo ten co na późne pomarańczowe hamuje<br />
+i wie, że na drogę wbiec mogą nieletni ?</p>
+<p>I wie, że nie wróżka zębuszka jednak los układa,<br />
+że życie wielu proste jak cep lub autostrada ?<br />
+A może ktoś jest dla innych pesymistą,<br />
+bo nie jest całkiem sieciowym ekshibicjonistą ?</p>
+<!--break-->
+<p>A może to ten, co go dzień tak mile zaskakuje<br />
+i ciągle coś sam na zewnątrz tworzy i daje ?<br />
+bo nie ukrywa tego, co TeFałEn nie publikuje<br />
+i wie, jakie karty znaczone od losu dostaje ?</p>
+<p>Czy ten co się nie gapi, bo mięty nie czuje,<br />
+gotówkę nad kredyt woląc, bo wolność smakuje ?<br />
+Albo ten co dać może bliskim swym stabilność,<br />
+planuje i wie, że chronić to jednak powinność ?</p>
+<p>Może wreszcie pesymista jest tym co wierzy,<br />
+że jest coś dla wybranych tylko rezerwowane ?<br />
+I nie robi tego, w co świat tak mocno mierzy<br />
+i tego po czym sumienie zgwałcone i zbrukane ?</p>
+<p>Czy pesymizm wylewa się nam z boku uszami,<br />
+czy mierzy się go testem lub ocenia liczbami ?</p>

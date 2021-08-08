@@ -1,0 +1,154 @@
+﻿Title:Light and small ? (2013)
+Author:marcin
+When:06 May 2013
+Taxonomy:English,English blog,Windows,x86,Android
+
+<p>I decided to make quick and dirty comparison of some parameters of selected OS. I measured values once, because for me it was the most interesting to get only quantity. I have selected number of bytes written/read from HDD and number of bytes sent/received over network. Why ?</p>
+<p>People are using more and more often SSD/flash memories, which have specified number of write cycles and people are using more and more often network connections with data limits.</p>
+<p>Here are results, I have used mainly values observed by VirtualBox functions:</p>
+<!--break-->
+<table border="1"><tbody><tr><td> </td>
+<td align="center">Debian 7</td>
+<td align="center">W8</td>
+<td align="center">Haiku R1/Alpha 4.1</td>
+<td align="center">ReactOS 0.3.14</td>
+<td align="center">Android-x86 4.2 20130228</td>
+<td align="center">Ubuntu 12.10</td>
+<td> </td>
+</tr><tr><td colspan="8" rowspan="1" align="center">installation       </td>
+</tr><tr><td align="center">HDD read</td>
+<td align="right">1 642 392 576</td>
+<td align="right">5 813 965 824</td>
+<td align="right">138 810 880</td>
+<td align="right">365 170 688</td>
+<td align="right">1 247 232</td>
+<td align="right">1 033 392 640</td>
+<td>B</td>
+</tr><tr><td align="center">HDD write</td>
+<td align="right">15 050 686 464</td>
+<td align="right">15 714 150 912</td>
+<td align="right">762 626 048</td>
+<td align="right">215 244 800</td>
+<td align="right">783 590 400</td>
+<td align="right">6 013 718 520</td>
+<td>B</td>
+</tr><tr><td align="center">network sent</td>
+<td align="right">297 356</td>
+<td align="right">3 518 451</td>
+<td align="right">1 456</td>
+<td align="right">0</td>
+<td align="right">259 164</td>
+<td align="right">11 762 954</td>
+<td>B</td>
+</tr><tr><td align="center">network received</td>
+<td align="right">925 150 023</td>
+<td align="right">120 896 212</td>
+<td align="right">2 674</td>
+<td align="right">0</td>
+<td align="right">8 053 577</td>
+<td align="right">464 640 969</td>
+<td>B</td>
+</tr><tr><td align="center">installation ISO</td>
+<td align="right">290 455 552</td>
+<td align="right">2 550 913 024</td>
+<td align="right">615 106 560</td>
+<td align="right">65 105 920</td>
+<td align="right">206 569 472</td>
+<td align="right">789 884 928</td>
+<td>B</td>
+</tr><tr><td colspan="8" rowspan="1" align="center">system startup       </td>
+</tr><tr><td align="center">HDD read</td>
+<td align="right">419 468 288</td>
+<td align="right">836 477 440</td>
+<td align="right">95 008 768</td>
+<td align="right">53 393 920</td>
+<td align="right">176 932 864</td>
+<td align="right">506 539 008</td>
+<td>B</td>
+</tr><tr><td align="center">HDD write</td>
+<td align="right">21 831 680</td>
+<td align="right">142 748 160</td>
+<td align="right">263 168</td>
+<td align="right">548 864</td>
+<td align="right">4 755 456</td>
+<td align="right">16 929 792</td>
+<td>B</td>
+</tr><tr><td align="center">network sent</td>
+<td align="right">9 256</td>
+<td align="right">48 087</td>
+<td align="right">830</td>
+<td align="right">0</td>
+<td align="right">5 331</td>
+<td align="right">10 978</td>
+<td>B</td>
+</tr><tr><td align="center">network received</td>
+<td align="right">7 466</td>
+<td align="right">33 393</td>
+<td align="right">1 486</td>
+<td align="right">0</td>
+<td align="right">12 585</td>
+<td align="right">9 268</td>
+<td>B</td>
+</tr><tr><td colspan="8" rowspan="1" align="center">resources usage       </td>
+</tr><tr><td align="center">RAM</td>
+<td align="right">114,40</td>
+<td align="right">395,00</td>
+<td align="right">116</td>
+<td align="right">66</td>
+<td align="right">414</td>
+<td align="right">399</td>
+<td>MB</td>
+</tr><tr><td align="center">HDD</td>
+<td align="right">3,60</td>
+<td align="right">9,62</td>
+<td align="right">2,48</td>
+<td align="right">1,17</td>
+<td align="right">0,97</td>
+<td align="right">3</td>
+<td>GB</td>
+</tr><tr><td colspan="8" rowspan="1" align="center">VirtualBox/OS<br />
+            settings and comments <br /></td>
+</tr><tr><td align="center">HDD</td>
+<td align="center">ext4 (no swap), 8 GB, SATA</td>
+<td align="center">NTFS, 16 GB, SATA</td>
+<td align="center">BFS, 8 GB, SATA</td>
+<td align="center">FAT, 8 GB, ATA</td>
+<td align="center">EXT3, 8 GB, SATA</td>
+<td align="center">XFS, 8 GB, SATA</td>
+<td> </td>
+</tr><tr><td align="center">RAM</td>
+<td align="center">2 GB</td>
+<td align="center">2 GB</td>
+<td align="center">2 GB</td>
+<td align="center">2 GB</td>
+<td align="center">2 GB</td>
+<td align="center">2 GB</td>
+<td> </td>
+</tr><tr><td align="center">info</td>
+<td align="center">packages: Debian desktop environment,<br />
+            Laptop, Standard system utilities</td>
+<td align="center"> </td>
+<td align="center">early Alpha version</td>
+<td align="center">no Ethernet setup, early Beta version</td>
+<td align="center">early Beta version</td>
+<td align="center">Firefox in Ubuntu 13.04 crashes and because<br />
+            of it older version was used</td>
+<td> </td>
+</tr><tr><td align="center" valign="top">comments<br /></td>
+<td valign="top">system with different philosophy than Ubuntu<br />
+            - it contains rather older components, but it seems to be<br />
+            much more tested; I have select "network" installation ISO.<br /></td>
+<td valign="top">the most popular, but with many APIs and<br />
+            libraries (some based on versions created even in 1985 ?),<br />
+            too big, with non clear interface<br /></td>
+<td valign="top">example of something small and beauty, many<br />
+            years ago BEOS (which Haiku is based on) was comparable to<br />
+            Windows and really much better, today it also could be...<br /></td>
+<td valign="top">example of it, how NT looked many years ago<br /></td>
+<td valign="top">is it the future ? the only problem is lack<br />
+            of some security solutions and spying....<br /></td>
+<td valign="top">Linux for desktops, shame, that it's not too<br />
+            configurable<br /></td>
+<td valign="top"><br /></td>
+</tr></tbody></table><p>And the winner for desktops is generally Ubuntu.... I don't want to write, that this is Linux year...but this system writes 7x less data than "light" Windows 8 on startup and needs much less space. Of course, that disks aren't too expensive right now, but...this comparison can show, how different approaches are wasting resources. Let's look into ReactOS too - it's a little bit like NT 4.0, which could be like "lighting" on modern computers... But...with good NT people won't be too interested in exchanging it and it can't be good for Microsoft (it was visible with Windows XP). Don't expect, that next Windows will be "complete" too....</p>
+<p>BTW, if you have a lot of RAM, you can make RamDisk in Windows and save your SSD too - just move TEMP directory and for example your browser profile there (use Task Scheduler - TEMP directory can be created on startup, browser profile can be moved to this disk on computer startup and moved to SSD on computer shutdown, in worst case you won't have actual cache and bookmarks, but you can save a lot of writes if you use your browser very long)</p>

@@ -1,0 +1,42 @@
+﻿Title:Ich walka...
+Author:marcin
+When:18 Aug 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Kto rządzi tym światem, panowie to są czy panie,<br />
+czy ten kto narzędzie do zbrodni ma na stanie,<br />
+czy ta, która dzieci cała troskliwie przechowuje,<br />
+karmi, dogląda, większość roku więź pełną czuje,</p>
+<!--break-->
+<p>czy ten z wiedzą, mądrością lub siłą nieogarnioną,<br />
+co tworzy dom, gadżety albo sztukę nieskończoną,<br />
+wymyśla rzeczy i ciągle nowe pomysły patentuje,<br />
+życie polepsza i żywiołów tajemnice lepiej czuje,<br />
+którego żądze sterczące z powodu pochodzenia,<br />
+widoczne są czasem w pełni i wprost dla otoczenia,<br />
+czy ona co uczuciem i chwilą często jedynie żyje,<br />
+i rzeczy bardzo proste pod skomplikowaniem kryje,</p>
+<p>kokietuje, spiskuje, w myślach tylko siebie widuje,<br />
+perwersji chce i się od niej tak mocno odżegnuje,<br />
+zakłada szpilki, stringi, pusze, bawi się kredkami,<br />
+ucieka także przed czynów swych konsekwencjami,<br />
+jak nabroi, to płacz, fochy, miny, dąsy pokazuje,<br />
+niczym dziecko się tłumaczy, coś wymusza, pozuje,<br />
+czy on co przyjemności chce i częściej plany robi,<br />
+rzeczy załatwia siłą, czasem bajerem braki nadrobi,</p>
+<p>trwa między nimi zawsze walka ciągła i odwieczna,<br />
+widać często też jak wygrana to broń obosieczna,<br />
+bo są feministki, lecz te drżą na myśl o równości,<br />
+i szmaty, ale te chcą napastowania ich kobiecości,<br />
+kobiety szefowie, które satysfakcję władzą czują,<br />
+i tak często w trunkach po pracy głęboko nurkują,<br />
+są też tacy, co panie krótko na smyczy trzymają,<br />
+ale oni poza mały szałas często się nie wychylają,</p>
+<p>dziwią się mocno i głęboko, jak im się wygrać udaje,<br />
+że życie takim pustym, nudnym, jałowym się staje,<br />
+bo choć dla płci niemożliwe przyjaźni jest tchnienie,<br />
+jest tylko namiętność, wrogość, miłość, uwielbienie,<br />
+to wzajemnie stworzeni są oni sobie do pomagania,<br />
+i wygrana jednego oznacza całą pełnię przegrania...</p>

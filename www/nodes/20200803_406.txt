@@ -1,0 +1,104 @@
+﻿Title:Ja wiem lepiej, czyli o kilku denerwujących rzeczach w IT (2020)
+Author:marcin
+When:03 Aug 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,AMD
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Ja-wiem-lepiej-czyli-o-kilku-denerwujacych-rzeczach-w-IT,109112.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Do napisania tego wpisu blogowego (to nie jest dokumentacja!) skłoniły mnie komentarze, które zobaczyłem m.in. pod moimi wpisami.</p>
+
+<p>To będzie drobna polemika...</p>
+
+<!--break-->
+
+<center><img src="sites/default/files/406/service-428538_1280.jpg" style="width:608px;height:402px;" alt="image" title="image" /></center>
+
+<p><b>Pliki tymczasowe nie w RAM</b></p>
+
+<p>Zapytam się wprost: a dlaczego nie? </p>
+
+<p>Po pierwsze definiuję sobie maksymalny rozmiar partycji (przy praktycznie wszystkich rozwiązaniach zajmowane jest tylko tyle RAM, ile faktycznie potrzeba na pliki), po drugie dostęp i zapis jest szybszy niż do dysku, po trzecie oszczędzam sobie energii i zapisów na dysku (oszczędzam SSD, i nie obchodzi mnie, co inni o tym myślą)</p>
+
+<p>Obecne maszyny w większości mają 16, 32 lub więcej GB RAM i wydzielenie nawet 1 czy 2 GB nie powinno być żadnym problemem (powiem więcej - nie mówmy o śmieciowych konfiguracjach typu Intel Atom lub Intel i3 i 8GB RAM, przy których nawet 2 GB jest na starcie zajęte przez zintegrowaną kartę graficzną).</p>
+
+<p>Pójdźmy dalej - dużo aplikacji najlepiej kompiluje się w RAM (np. <a href="https://chromium.googlesource.com/chromium/src/+/master/docs/linux/build_instructions.md" target="_blank" rel="noopener" rel="nofollow">tutaj</a> kilka lat proponowano to dla Chromium)</p>
+
+<p><b>Nie tykać jąder</b></p>
+
+<p>Pliki do jednej wersji jądra w /boot to 100 MB, przy standardowej instalacji Ubuntu partycja ta jest domyślnie wydzielona (tak było kiedyś, w 20.04 nie sprawdzałem; do tego obecnie dodaję /boot do głównego systemu plików, jak napisałem w <a href="?q=node/385">Szyfrowanie systemu przy instalacji Ubuntu</a>)</p>
+
+<p>Żeby nie było wątpliwości: na jednej z maszyn produkcyjnych zwolniłem w ten sposób ok. 2 GB.</p>
+
+<p>W samym miesiącu lipcu pojawiły się co najmniej stabilne wersje jądra z serii 5.7. Zainstalowałem i działa (nie chcę używać sloganu &quot;a u mnie działa&quot;, ale czasy, gdy dosłownie w każdej dystrybucji każde jądro było całkowicie przerabiane, już całkowicie minęły).</p>
+
+<p>Żeby nie było wątpliwości: nowsze jajka mają nowy sterownik exFAT, lepsze monitorowanie nowych Ryzenów i wiele różnych zmian.</p>
+
+<p>Mogę się zgodzić, że na różnych maszynach produkcyjnych lepszym rozwiązaniem jest używanie wyłącznie pakietów z danej dystrybucji... ale na maszynach developerskich czy domowych wręcz wskazane jest próbowanie nowych wersji - użytkownik powinien mieć podstawową wiedzę, jak działa jego system i co jest co.</p>
+
+<p>Z kwestii technicznych - jądro 5.7.12 i 5.8.0 z <a href="https://kernel.ubuntu.com/~kernel-ppa/mainline/" target="_blank" rel="noopener" rel="nofollow">https://kernel.ubuntu.com/~kernel-ppa/mainline/</a> są kompilowane z GCC 10.2.0 (a Ubuntu 20.04 ma co najwyżej gcc 10.0.1). Spróbowałem doinstalować eksperymentalne 10.2.0 z pakietów Ubuntu 20.10 (wyszła kwestia zależności), a nie chciało mi się go kompilować. W tej sytuacji wróciłem do jądra 5.4.55 (które w dystrybucji pewnie pojawi się za kilka miesięcy).</p>
+
+<p>I właśnie w tym jest moc tego typu rozwiązań - można się pobawić i można popróbować różnych kombinacji, a potem wybrać to, co działa najlepiej (m.in. do tego chciałem zachęcić <a href="?q=node/405">poprzednim wpisem</a>).</p>
+
+<p><b>i NVidii</b></p>
+
+<p>Mój komentarz jak wyżej - każdy może zdecydować, czy chce mieć starszą wersję sterowników ze znanymi błędami, czy nową.</p>
+
+<p>Myślenie &quot;jak działa, to nie ruszać&quot; i &quot;wszystko MUSI być z dystrybucji&quot; jest dobre dla maszyn krytycznych (ale z drugiej strony na nich pewnie będzie coś bardziej stabilnego typu Debian), myślenie &quot;chcę więcej&quot; powinno być dewizą każdego myślącego użytkownika, który ma trochę czasu i choć drobne zacięcie inżynierskie.</p>
+
+<p><b>Partycja EUFI ma być ogromna&#160;</b></p>
+
+<p>Po instalacji Ubuntu pliki zajmują tam mniej niż 9 MB. W różnych miejscach można poczytać o sugerowanej wielkości 100 MB - 500 MB.</p>
+
+<p>Moje pytanie: po co? Czy nie lepiej użyć tego miejsca na nasze pliki?</p>
+
+<p>Myślę, że spokojnie wystarczy ok. 40 MB, dla świętego spokoju można użyć 100 MB lub 200 MB, jeśli mamy co najmniej dwa OS i może jeszcze jakieś własne moduły UEFI.</p>
+
+<p>&quot;Gadające głowy&quot; w IT często proponują to, co jest akurat promowane przez korporację A, B lub C. Uzytkownik myślący powinien sprawdzać i wybierać świadomie to, co jest mu najbardziej wygodne (najbardziej śmieszą mnie przy tym użytkownicy, którzy usiłują w komentarzach na siłę ewangelizować innych).</p>
+
+<p><b>Over-provisioning na dyskach SSD</b></p>
+
+<p>Przy wielu dawnych dyskach SSD proponowano pozostawienie 10% wolnego miejsca po to, aby kontroler mógł bardziej równomiernie dokonywać zapisów we wszystkich komórkach pamięci.</p>
+
+<p>Czy obecnie ta potrzeba naprawdę zniknęła?</p>
+
+<p>Czy brak zaleceń nie wygląda jak zalecenie wymiany oleju w silnikach spalinowych przy 30000 km? (tzw. serwis long-life, który oczywiście bardzo dobrze wpływa na trwałość...). Albo czy nie wygląda to jak zalecenie brak wymiany oleju w skrzyniach biegów?</p>
+
+<p><b>Jak działa, to nie ruszać</b></p>
+
+<p>Są sytuacje, gdzie ta zasada się sprawdza... ale jeśli ktoś mi mówi, że nawet na maszynie produkcyjnej niepodpiętej do sieci upgrady nie są wskazane, to zapala się u mnie czerwona lampka.</p>
+
+<p>Moim bardzo skromnym zdaniem: upgrady w krytycznych systemach powinny być robione regularnie (bezpieczeństwo i te sprawy), ale z bardzo szczegółowym planem na wypadek niepowodzeń; w maszynach mniej ważnych wszystko zależy od czasu, niemniej jednak dobrze jest tego nie odwlekać szczególnie, że bezpośrednia migracja z bardzo starych wersji może okazać się niemożliwa.</p>
+
+<p><b>C jest trudny, a JavaScript/Java najlepszy [niewłaściwe skreślić]&#160;</b></p>
+
+<p>Kolejna rzecz, która śmieszy. Tego typu statystyki są być może pomocne, jeśli ktoś chce się nauczyć nowego języka i zdobyć lepiej płatną pracę.</p>
+
+<p>Przechodziłem przez to kilka razy - dawno temu wiele dobrych programów pisano w C, potem w Pascalu/Delphi, potem był &quot;push&quot; na Visual Basic i VBA, a jeszcze potem ogromne pieniądze były inwestowane w programistów PHP, .NET, JavaScript czy Java.</p>
+
+<p>Dzisiaj na pewno modnym rozwiązaniem jest Rust czy Go... ale... ale... myślę, że tak naprawdę najważniejsze jest nauczenie się algorytmów, rozbijania problemów na drobne elementy, oddzielania poszczególnych modułów, itp.</p>
+
+<p>Języki programowania mają swoją specyfikę i składnię, do tego dochodzą kolejne biblioteki. To wszystko prawda.</p>
+
+<p>Czy jednak nie jest najważniejsze, co zostanie stworzone z ich użyciem?</p>
+
+<p>&quot;Stary&quot; notatnik w Windows uruchamia mi się błyskawicznie, z wieloma &quot;nowoczesnymi&quot; aplikacjami nie jest tak słodko. Podobnie .NET - wiele MB RAM i wolne działanie to był chleb powszedni przez lata.</p>
+
+<p>Jeżeli ktoś komentuje popularność danego języka, niech wskaże swoje doświadczenie w tym zakresie albo wdrożenia.</p>
+
+<p>Ja mógłbym ze swojej strony powiedzieć - rozwiązania Apple w wersji mobilnej sprawują się dobrze, Java/Android średnio (choć tutaj niechlubną rolę w tym mają launchery wielkich korporacji, usługi Google i rozbuchane funkcje logowania i monitorowania), obecny PHP czy JavaScript wystarczają do pisania rozbudowanych stron, aplikacji czy skryptów. Rust to niestety ciągle katastrofa, na co wskazują problemy z aplikacją Servo (nie wiem np. czy to w końcu naprawiono, ale na Linuxie przy sterownikach NVidii dostajemy tylko czarny ekran).</p>
+
+<p>Cóż jest warta nawet najlepsza technologia, jeżeli ludzie nie potrafią z niej korzystać?</p>
+
+<p>Bardzo ważne jest dobranie języka pod zastosowanie, ale również rozsądne dobranie funkcji języka - np. w wielu wypadkach użycie funkcji typu &quot;lambda&quot; czy &quot;dependency injection&quot; może być sztuką dla sztuki :)</p>
+
+<p>Mądrości życzę i pozdrawiam.</p>
+
+<p><b>Ten system jest lepszy...</b></p>
+
+<p>Podobnie jak wyżej. Przez długi czas w świadomości wielu ludzi widać było wyłącznie takie słowa jak Windows, Word, Oracle, YouTube, Internet Explorer czy Chrome.</p>
+
+<p>Przyzwyczajenie drugą naturą człowieka, a problemem praktycznie wszystkich &quot;nowoczesnych&quot; systemów operacyjnych jest ich tkwienie w zamierzchłej przeszłości.</p>
+
+<p>Linux, Windows czy Mac OS to tak naprawdę tylko narzędzia, które mają pozwolić nam na przechowanie plików, uruchomienie iluś aplikacji i wykorzystanie urządzeń.</p>
+
+<p>Systemy jednak się zmieniają - dzisiaj np. rozwiązania mobilne Huawei nie są brane pod uwagę z uwagi na brak usług Google, ale za kilka lat może one będą najbardziej rozpowszechnione?&#160;&nbsp;</p>

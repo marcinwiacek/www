@@ -1,0 +1,292 @@
+﻿Title:Kup panie Wieżę Eiffla... czyli naiwniaków nie sieją, tylko sami się rodzą... (2020)
+Author:marcin
+When:7 Jun 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Windows,AMD
+
+<p>Viktor Lustig to „człowiek, który sprzedał wieżę Eiffla dwa razy” (obrazek i cytat za Wikipedią).</p><p>Aż chciałoby się powiedzieć, że Jan Kowalski to człowiek, który kupił ją co najmniej kilkanaście razy...</p>
+
+<p>Dzisiaj naszła mnie ochota, żeby zrobić subiektywny ranking największych przekrętów z IT z ostatnich lat. Myślę, że to będzie doskonałe podsumowanie kilku drobnych wpisów blogowych, które popełniłem.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Kup-panie-Wieze-Eiffla-czyli-naiwniakow-nie-sieja-tylko-sami-sie-rodza,108035.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<center><img src="sites/default/files/403/1.jpg" style="width:397px;height:405px;" alt="image" title="image" /></center>
+
+<p>Viktor Lustig to „człowiek, który sprzedał wieżę Eiffla dwa razy” (obrazek i cytat za Wikipedią).</p><p>Aż chciałoby się powiedzieć, że Jan Kowalski to człowiek, który kupił ją co najmniej kilkanaście razy...</p>
+
+<p>Dzisiaj naszła mnie ochota, żeby zrobić subiektywny ranking największych przekrętów z IT z ostatnich lat. Myślę, że to będzie doskonałe podsumowanie kilku drobnych wpisów blogowych, które popełniłem.</p>
+
+<h2>1. Wincyj (wszystkiego)</h2>
+
+<p><b>Płyty</b></p>
+
+<center><p><img src="sites/default/files/403/2.jpg" style="width:519px;height:405px;" alt="image" title="image" /></center>
+
+<p>Pozwoliłem sobie umieścić powyżej zrzut ekranu z video <a href="https://www.youtube.com/watch?v=qn6sHMqvRMY" target="_blank" rel="noopener" rel="nofollow">https://www.youtube.com/watch?v=qn6sHMqvRMY</a> (myślę, że jego autor może to spokojnie potraktować jako reklamę - na DP nie mogę wstawić przeglądarki z odpowiednim znacznikiem czasowym).</p>
+
+<p>Oto przykładowy system komputerowy 5170, wprowadzony na rynek w 1984 (ten konkretny egzemplarz mógł być później uaktualniany). Widzimy tam pięć kart rozszerzeń (to te takie zielone, stojące pionowo prostokąty):</p>
+
+<ul><li>kontroler dysku MFM i stacji dyskietek<br/></li>
+
+<li>kontroler złącza równoległego/szeregowego</li>
+
+<li>karta rozszerzająca pamięć operacyjną</li>
+
+<li>karta graficzna</li>
+
+<li>&quot;external DIP drive&quot;</li>
+
+</ul>
+
+<p>Dyskietki odeszły i jest to bardzo dobra wiadomość, kontrolery dysków i złącza pamięci RAM przeszły na płyty główne, podobnie karty dźwiękowe (tutaj jej nie ma, ale przecież wielu z nas miewało Gravisa czy któregoś Sound Blastera)</p>
+
+<p>Jak wyglądają nowe płyty główne w 2020?</p>
+
+<p>W produkcji mamy wiele modeli o ogólnym zarysie wyglądających mniej więcej tak:</p>
+
+<center><img src="sites/default/files/403/3.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ten standard ma już około 25 lat! Został stworzony, gdy na rynek wchodził Windows 95, a w Polsce dopiero uchwalono ustawę o prawach autorskich (zaczęła obowiązywać rok wcześniej w 1994).</p>
+
+<p>Nie chodzi mi w tym momencie o nawiązywanie do konkretnej firmy czy modelu, bardziej chodzi o zadanie ogólnych pytań:</p>
+
+<p>Ile ze slotów rozszerzeń będzie obsadzonych? Jeden? Dwa? Ile dysków zostanie podłączonych? Czy złącza HDMI będą kiedykolwiek użyte? Czy wszystkie sloty RAM będą działać? Czy będziemy mieć klawiaturę na USB czy użyjemy złącza PS/2? Czy użyjemy karty sieciowej? A wszystkich złącz USB?</p>
+
+<p>Obstawiam, że w wielu domach pojawi się karta graficzna + jeden czy dwa dyski i może ze trzy, cztery urządzenia USB + ewentualnie jakiś kontroler NVME.</p>
+
+<p>Nie zapominajmy również o możliwościach przetaktowywania (overclockingu) czy diodach LED, które są coraz częstsze, ale nie zawsze włączane.</p>
+
+<p>Rozumiem, że oczywiście są standardy typu ITX, ale producenci obecnie za bardzo się rozdrabniają i produkują za dużo urządzeń we wszelkich rozmiarach i kombinacjach, równocześnie chcąc sprzedać dużo egzemplarzy każdego. To jest sprzeczność. Im więcej modeli, tym mniej egzemplarzy danego modelu znajdzie szczęśliwych nabywców (określony popyt dzieli się na więcej części). Im więcej modeli, tym mniej również czasu można poświęcić każdemu (stąd też tyle niedopracowanych wersji BIOS).</p>
+
+<p>Kto na tym traci i jak to bywało kiedyś?</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/KHhEdgd7shk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Jeżeli ktoś nie ma ochoty oglądać wideo - pan na filmiku miał problem z obsługą dużych dysków twardych w systemie klasy 80286 i rozwiązaniem okazało się wykorzystanie BIOS innego producenta, który to okazał się na tyle zgodny i działający, że rozwiązał wszystko.</p>
+
+<p>Czy w dzisiejszych czasach ktoś pomyślałby, żeby do płyty Gigabyte flashować BIOS Asusa?</p>
+
+<p>Jest to ciekawe zagadnienie:</p>
+
+<ol><li>producenci kupują te same chipsety i złącza, łączą je w dosyć standardowy sposób z układami WiFI, kontrolerami dźwięku i układami do monitorowania temperatur (które w większości mają swój własny, nigdy nie zmieniany, firmware)</li>
+
+<li>w wielu wypadkach jedyną zmianą w dodatkach i własnych rozszerzeniach jest np. zamiana identyfikatorów urządzeń PCI na niestandardowe</li></ol>
+
+<p>Zaryzykuję twierdzenie, że o ile kiedyś standard PC był naprawdę otwarty, to teraz... no jest, ale zupełnie inaczej (i sztukę działania zgodnie z tym modelem do perfekcji opanował oczywiście Intel).</p>
+
+<p>Zaintegrowanie różnych urządzeń na płytach to oczywiście wspaniała sprawa... ale powoduje ona, że najczęściej mamy masę niepotrzebnych śmieci (które cały czas pobierają prąd).</p>
+
+<p><b>Monitory</b></p>
+
+<p>Kolejnym problemem jest obecność minimum dwóch monitorów na wielu biurkach (widać to szczególnie w firmach, gdzie na open-space stoi dosłownie ich las, a większość z nich wyświetla głównie nieistotne rzeczy) czy ogromny rozmiar monitorów połączony z niską rozdzielczością (w praktyce pracujemy z laptopem, który daje full HD na 15,6&quot; i monitorem, który daje full HD na 24&quot; czy 27&quot;). </p>
+
+<p>Ja rozumiem, że część ludzi lubi kupować wielkie fury ze względu na swoje hmmm kompleksy wielkości, ale...</p>
+
+<p><b>Procesory</b></p>
+
+<p>Tu też wielokrotnie dochodziliśmy do muru - wspomijmy chociażby uparte promowanie Pentium IV (chociaż od początku osiągało ono gorsze rezultaty niż Pentium III) czy nieustającą zabawe na zegary (która doprowadza do używania chłodziarek przemysłowych w trakcie oficjalnych prezentacji)</p>
+
+<p>Wielkim problemem obecnego x86 jest skomplikowanie - mamy instrukcje 16-bitowe, są też 32 i 64-bitowe.</p>
+
+<p>Sami inżynierowie się w tym gubią, co widać u Intela. Bardzo brakuje odważnego ruchu, takiego jak zaimplementowanie w krzemie najprostszej obsługi np. instrukcji 64-bitowych i obsługa reszty w sposób programowy.</p>
+
+<p><b>Bloatware</b></p>
+
+<p>Tak kiedyś nazywano programy, które dodawano do komputerów. Czasem było ich tak dużo, że wręcz zajmowały cały czas procesora i powodowały, że jakakolwiek praca była niemożliwa.</p>
+
+<p>Czasy się trochę zmieniły i te praktyki również... ale czy naprawdę?</p>
+
+<p>Podstawową funkcją systemu operacyjnego powinno być wyłącznie uruchamianie programów. Kiedyś za czasów wcześniejszych wersji Windows NT mniej więcej tak długa była lista procesów:</p>
+
+<center><img src="sites/default/files/403/4.png" style="width:385px;height:405px;" alt="image" title="image" /></center>
+
+<p>Obecnie wygląda to &quot;trochę&quot; inaczej, a nie od dzisiaj wiadomo, że im więcej skomplikowania i zależności, tym więcej miejsc, w których mogą wystąpić potencjalne problemy (m.in. to trapi najnowsze dziecko Microsoft).</p>
+
+<p>Żeby nie było wątpliwości: z lenistwa często i gęsto instaluję najbardziej podstawowe Ubuntu z GNOME i tam widać niestety podobną tendencję.</p>
+
+<p>Jeżeli mówimy o programach, to wiele z nich przechodzi podobną drogę - z prostych, małych i lekkich narzędzi stają się tak rozbudowanymi kombajnami, że przestają spełniać dobrze podstawowe funkcje (tak było z Nero Burning ROM, tak było z Netscape Navigator, tak jest teraz chociażby z Chrome).</p>
+
+<p>A sterowniki? 300 MB? 500 MB? Nikt przy tym nie protestuje.</p>
+
+<p>Moim zdaniem, to naprawdę majstersztyk, że ludzie nie chcą tego zauważyć... i często i gęsto wybierają to, co akurat jest modne.</p>
+
+<h2>2. Mobilne i stacjonarne to coś innego</h2>
+
+<p>Wielkość komponentów do maszyn stacjonarnych (zasilaczy, płyt głównych, itd.) prowokuje do zadania pytania - czy nie możnaby budować mniejszych elementów ?</p>
+
+<center><img src="sites/default/files/403/5.jpg" style="width:608px;height:204px;" alt="image" title="image" /></center>
+
+<p>Powstały oczywiście pewne standardy, ale... każdy z nich ma pewne mankamenty - w przypadku Mini-ITX problemem jest chociażby relatywnie duże złącze zasilania, obecność tylko jednego slotu na karty rozszerzeń, często mała ilość nowoczesnych złącz do włożenia dysków.</p>
+
+<p>Zastanawia mnie, że nikt nie ma interesu w sprzedaży hybrydy płyty głównej laptopa i urządzenia stacjonarnego (ze złączem do zasilania podobnym jak w komputerach przenośnych, &quot;stacjonarną&quot; podstawką na procesor, złączem MXM na kartę graficzną i złączami na &quot;przenośne&quot; karty rozszerzeń, ewentualnie jednym slotem na &quot;normalne&quot; PCI).</p>
+
+<p>Ciekawie byłoby zobaczyć płytę &quot;stacjonarną&quot;, w której WIFI jest obsługiwane przez kartę znaną z komputerów przenośnych.</p>
+
+<p>Myślę, że wiele osób z chęcią zbudowałoby maszynę klasy Ryzen 9 o wielkości trochę wyższego Mac Mini.</p>
+
+<p>Producenci rozdrabniają się, produkując wersje &quot;mobilne&quot; i &quot;stacjonarne&quot; swoich produktów, które różnią się wyłącznie formą i ustawieniami limitów energetycznych.</p>
+
+<p>To naprawdę nikomu nie pomaga.</p>
+
+<h2>3. Wszystko ma być bezprzewodowe</h2>
+
+<p>Dla mnie totalnym idiotyzmem jest wciskanie wszędzie urządzeń bezprzewodowych, takich jak myszki i klawiatury na Bluetooth.</p>
+
+<p>Innym przykładem mogą być routery do ADSL łączone z komputerem przez WIFI, chociaż stoją od niego dosłownie kilkanaście centymetrów.</p>
+
+<p>Nie zapominajmy, że nie wszystkich płytach głównych można równocześnie wyłączyć &quot;kablową&quot; kartę sieciową...</p>
+
+<p>Myślę, że to nie ma nic wspólnego z rozwojem - w wersji bezprzewodowej sprzedawane są nawet liczniki do wody (kiedyś raz w roku w blokach były one odczytywane przez człowieka poprzez wejście do mieszkania albo złożenie oświadczenia i nikomu to nie przeszkadzało, obecnie promieniują cały rok).</p>
+
+<p>Podobnym przekrętem jest niestety 5G - do naprawdę dużych prędkości wymaga odpowiednich częstotliwości (które obecnie nie są jeszcze wprowadzane w wielu miejscach).</p>
+
+<p>Jak to będzie wyglądać, gdy zaczną korzystać z niego miliony? Czy operatorzy będą przy tym &quot;optymalizować&quot; sieci 4G, żeby zachęcić do migracji? Czy wytrzyma infrastruktura kablowa? Czy będziemy musieli mieć pakiety typu &quot;1 GB z pełną prędkością, a potem obniżenie prędkości do 32 kBit/s&quot;?</p>
+
+<h2>4. Nie da się<b></b></h2>
+
+<p>Tak wygląda gniazdo Intel Socket 2 ZIF procesora 486.</p>
+
+<center><img src="sites/default/files/403/6.jpg" style="width:608px;height:404px;" alt="image" title="image" /></center>
+
+<p>Od tamtego czasu dużo się zmieniło i przybyło pinów. Czy jednak nie da się zbudować złącza, które będzie służyć przez co najmniej kilka lat? </p>
+
+<p>Kiedyś firma Intel wypuściła na rynek chipset Intel 440BX, który wpierw obsługiwał Pentium II, a potem doskonale radził sobie z Pentium III i różnej maści Celeronami (sam miałem płytę główną na Slot I, która działała z procesorem 800 Mhz). Obecny przykład AMD pokazuje, że pomimo skomplikowania x86 wciąż jest możliwe coś podobnego.</p>
+
+<p>Pamiętam, jak swego czasu mówiono o Intelu, że powinien wspierać CPU 8-generacji (Coffe-Lake) w płytach z chipsetami serii 200. Z jednej strony wchodzimy tutaj w kwestie stabilności (układy np. pracują źle w 1% przypadków), z drugiej możliwe jest, że tego typu blokady są wprowadzone sztucznie (i Chińczycy już kilka razy pokazywali, że to co się nie da, jednak się da).</p>
+
+<p>Temat podstawek to w ogóle temat rzeka - kiedyś były, teraz ich nie ma (i wielu użytkowników nawet nie wie, że w pewnym zakresie można wymieniać również układy wlutowane na stałe) albo są jednorazowe (należy tutaj wymienić niesławne złącze DGFF Della).</p>
+
+<p>Innym przykładem wmówienia użytkownikom, że się nie da, jest tzw. &quot;podatek od Windows&quot; - większość systemów jest sprzedawana z tym systemem i ludzie nie mają już możliwości jego zwrotu (kiedyś takie procedury istniały i choć były trudne, to czasami udawało się je przejść).</p>
+
+<p>To samo mamy w temacie długiego czasu pracy na baterii (maleje zużycie energii procesorów, ale równocześnie maleje przeciętna pojemność ogniw) czy budowania urządzeń odpornych na czynniki środowiska (w przypadku tabletów to niestety plaga, że nie nawet podstawowej odporności IP)</p>
+
+<p>Słowa &quot;nie da się&quot; powtarzają się w obecnym IT zbyt często - chociaż mamy coraz szybsze maszyny i (podobno) coraz lepsze języki programowania i fachowców, to wielu z nich nie potrafi zrobić tego, co starsza generacja miała w małym palcu. Słychać to zwłaszcza w wielu dużych firmach, gdzie &quot;specjaliści&quot; stwierdzają, że rzeczy proste są skomplikowane albo nie mogą być zrobione bez rozbuchania budżetu.</p>
+
+<h2>5. Baterie są nieszkodliwe</h2>
+
+<p>Tak wygląda starszy sprzęt, w którym wylała bateryjka podtrzymująca pamięć CMOS:</p>
+
+<center><img src="sites/default/files/403/7.png" style="width:608px;height:385px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/403/8.png" style="width:608px;height:366px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/403/9.png" style="width:356px;height:405px;" alt="image" title="image" /></center>
+
+<p>(ostatnie zrzuty ekranu pochodzą z wideo <a href="https://www.youtube.com/watch?v=kNhVQWH318M" target="_blank" rel="noopener" rel="nofollow">https://www.youtube.com/watch?v=kNhVQWH318M</a>)</p>
+
+<p>Przejdźmy do czasów nowszych - producenci przez lata umieszczali w różnego rodzaju urządzeniach (np. laptopach) baterie z grubymi obudowami, które obecnie zostały zastąpione czymś, co zdecydowanie zbyt łatwo puchnie (proszę sobie poszukać informacji o &quot;swollen battery&quot;).</p>
+
+<p>Swoją drogą - swego czasu (<a href="https://en.wikipedia.org/wiki/Capacitor_plague" target="_blank" rel="noopener" rel="nofollow">za Wikipedią między 1999 i 2007</a>) mieliśmy również plagę cieknących kondensatorów.</p>
+
+<p>W obu wypadkach po prostu zbyt mocno oszczędzono albo tak zaprojektowano urządzenia, żeby elementy miały narobić jak największych szkód.</p>
+
+<h2>6. Jak jest komputer, to musi być gorąco. Takie jest odwieczne prawo natury</h2>
+
+<center><img src="sites/default/files/403/10.png" style="width:574px;height:405px;" alt="image" title="image" /></center>
+
+<p>Powyżej zdjęcie poglądowe płyty głównej jednego z laptopów (<a href="https://www.youtube.com/user/rossmanngroup" target="_blank" rel="noopener" rel="nofollow">kanał Louisa Rossmanna</a>). W takich konstrukcjach mamy przynajmniej jeden wiatrak i ciepłowód odprowadzający gorąco z procesora.</p>
+
+<p>Zdarza się, że producenci nawet na tym mocno oszczędzają (MacBook Air, w którym nie ma połączenia między tymi dwoma elementami i który przez to nie może być wykorzystywany do bardziej obciążających zadań) albo &quot;zapominają&quot;, że istnieją również inne elementy generujące ciepło. Należy tutaj wspomnieć chociaż problemy serii Dell XPS/Precision z układami VRM (firma zdecydowała się na zmiany dopiero w tym roku) - o ile zakładano paski termiczne na dyski NVME, to brakowało tychże na kilku kluczowych elementach.</p>
+
+<p>Myślę, że to jest przykład przekrętu - możnaby zaprojektować dobre układy w wielu modelach, ale nie robi się tego z premedytacją. Inną możliwością byłoby umieszczenie płyt głównych z tyłu ekranu i stosowanie chłodzenia grawitacyjnego (oczywiście taka maszyna musiałaby mieć zupełnie inną budową i to mogłoby być może działać wyłącznie z systemami ARM, które mają znacznie mniejsze płyty)</p>
+
+<p>Dosyć podobna sytuacja jest przy maszynach stacjonarnych i widać to przy płytach głównych z układami X570. Zakłada się tam malutkie hałaśliwe wentylatorki na chipsecie, które zasysają ciepłe powietrze ze środka obudowy i wdmuchują go na układ.</p>
+
+<p>Czy nie możnaby zaprojektować tutaj sposobu chłodzenia podobnie jak przy laptopach? (ciepłowód doprowadzony do tylnej płyty z małym wentylatorem działającym jak przy urządzeniach przenośnych)</p>
+
+<p>Układ budowy płyt głównych stacjonarnych od dawna wymaga zmian! Dlaczego tak się nie dzieje? Myślę, że doskonale wyjaśni to następujące wideo:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/s0cfUlxJ5dQ?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>W wielu wypadkach ludzie ratują się AOC, a jak wiadomo woda niezbyt dobrze współgra z elektrycznością...</p>
+
+<h2>7. Kup pan Pentium 8Ghz</h2>
+
+<p>W 2006 jedna z sieci handlowych sprzedawała w Polsce Pentium D, które miało działać z widoczną prędkością:</p>
+
+<center><img src="sites/default/files/403/11.png" style="width:338px;height:405px;" alt="image" title="image" /></center>
+
+<p>Podobnym przekrętem jest obecnie sprzedawanie cienkich komputerów, które nie są w stanie pracować przez dłuższy czas z deklarowanymi prędkościami zegara. Użytkownicy kupują wersję z procesorami i7, ale te w praktyce radzą są dokładnie tak jak znacznie słabsze konfiguracje.</p>
+
+<p>Tak działa wiele producentów i jedyną obroną przed tym jest oglądanie testów laptopów na różnych stronach (chociażby mój ulubiony <a href="https://www.notebookcheck.net/" target="_blank" rel="noopener" rel="nofollow">https://www.notebookcheck.net/</a>)</p>
+
+<p>Do tego dochodzi RAM, który bywa sprzedawany w konfiguracji jednokanałowej (praktyka częsta) albo bywa wolniejszy niż w systemach sprzedawanych wcześniej (tak się dzieje praktycznie przy każdej generacji RAM i stąd np. moduły DDR4 długo były wolniejsze niż DDR3, DDR3 długo przegrywały z DDR2, itd.)</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/J-D6tYBX8vE?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Istnieje też inny podobny proceder (chyba najbardziej w wykonaniu Azjatów) polegający tym razem na bardziej ordynarnym przerabianiu kart pamięci czy pendrive na większe i sprzedawaniu ich w okazyjnych cenach. Takie oferty pojawiały się na Allegro, Ali i wielu innych miejscach, a skoro są, to... znaczy, że są i klienci.</p>
+
+<h2>8. Moja jedynka jest lepsza niż twoja jedynka</h2>
+
+<p>Złote kable HDMI według ich producentów pozwalają na uzyskanie lepszego obrazu niż tanie odpowiedniki. Jedynym zyskiem mógłby być lepszy transfer, ale czy naprawdę sposób reklamowania takich wynalazków nie jest karygodny i nie pachnie przekrętem na kilometr?</p>
+
+<h2>9. Nie ma gwarancji, nie ma wsparcia, nie ma danych, nie ma nic, i co mi zrobisz?</h2>
+
+<p>Dane powinny być najważniejsze, jednakże dyski SSD w laptopach nie mają nawet określonej minimalnej trwałości. Te kupione normalnie mają przynajmniej jakąś wartość parametru &quot;TBW&quot;, co pozwala szacować, ile mogą wytrzymać, te z laptopów zazwyczaj nie mają nic i do tego nie mają żadnych upgrade firmware.</p>
+
+<p>Innym tematem jest możliwość odzyskania danych z komputerów z układem T2 (podobno teraz jest to możliwe z użyciem narzędzi Apple) czy trwałość albo prędkość kolejnych modeli dysków, która bywa gorsza niż przy poprzednikach (widać to zwłaszcza, gdy kopiujemy dużo danych i dojdzie do przepełnienia bufora pamięci cache)</p>
+
+<p>A NVidia i karty graficzne bez gwarancji przy używaniu 24h na dobę? A kropki oznaczające, że urządzenie uległo zalaniu? (czasem zabarwiają się, gdy przyszliśmy z dworu do domu i wilgoć uległa kondensacji) A odrzucane reklamacje różnych produktów, gdzie ewidentnie widać wadę fabryczną? Albo dalsze sprzedawanie takich urządzeń bez poprawki?</p>
+
+<p>Proszę mi pokazać inną gałąź przemysłu, gdzie można przeczytać &quot;producent nie ponosi żadnej odpowiedzialności za produkt&quot; (co możemy przeczytać w licencjach oprogramowania)</p>
+
+<p>Inną sprawą są oczywiście aktualizacje Androida - taki Samsung Galaxy pojawia się w sklepach około marca, użytkownicy kupują go po kilku miesiącach ze względu na spadek ceny. Wtedy na rynku jest kolejny Android, co oznacza, że słuchawka zaraz po zakupie dostanie upgrade systemu, potem jeszcze jeden... i to już koniec.</p>
+
+<p>Piękna sprawa, że użytkownikom udało się wmówić, że telefony kosztujące więcej niż niejeden komputer mają praktycznie jednorazowe oprogramowanie (albo patrząc inaczej - że hardware ogólnego zastosowania będzie działał tylko i wyłącznie ze specjalnym firmware, gdyż nie można przygotować wersji instalacyjnej Androida jak Windows czy Linuxa).</p>
+
+<h2>10. Do wszystkiego potrzebne są chmury i konta online</h2>
+
+<p>Fachowcy IT zachłysnęli się możliwościami przechowywania danych w serwerowniach, a wielu z nich lansuje tezę o pełni ich bezpieczeństwa. Znam firmy, które całkowicie opierają swój biznes na chmurze (tzn. nie ma tam absolutnie żadnego dokumentu, który nie byłby umieszczony na serwerze jednej z firm).</p>
+
+<p>Ma to oczywiście swoje implikacje - zgadzamy się, żeby firmy zewnętrzne czytały nasze pliki i decydowały, czy powinniśmy z nich korzystać z czy nie.</p>
+
+<p>Ile już było wycieków? Ile było przypadków kasowania plików? Ile płaczu, gdy przestawał działać Internet?</p>
+
+<p>Zaczęliśmy od chromebooków, daliśmy sobie wcisnąć w telefonach i produktach Apple, a firmy proponują idą coraz dalej i proponują nawet przechowywanie haseł w chmurze ( <a href="https://www.spidersweb.pl/2020/06/dropbox-password-aplikacja.html" target="_blank" rel="noopener" rel="nofollow">https://www.spidersweb.pl/2020/06/dropbox-password-aplikacja.html</a>). Aż strach się bać i myśleć, w ilu kopiach te dane są zapisywane (co budzi obawy o wpływ na środowisko).</p>
+
+<p>Do tego dochodzi cena (ktoś za to płaci i nie oszukujmy się, że cała ta infrustruktura nie wymaga prądu, sprzętu ani ludzi) - proszę sobie porównać cenę MS Office w pudełku i porównać z cenę MS Office w abonamencie.</p>
+
+<h2>11. Płatne jest lepsze i równocześnie gorsze</h2>
+
+<p>Wielu z uporem maniaka nadal lansuje tezę, że płatne oprogramowanie jest lepsze niż darmowe. Jeżeli mówimy o najbardziej popularnym systemie operacyjnym na świecie, ostatnio oglądałem takie to podsumowanie w serwisie Phoronix: <a href="https://www.phoronix.com/scan.php?page=article&amp;item=windows-may2020-linux&amp;num=1" target="_blank" rel="noopener" rel="nofollow">https://www.phoronix.com/scan.php?page=article&amp;item=windows-may202...</a> Wynika z niego jasno, że niektóre aplikacje działają szybciej &quot;tu&quot;, niektóre &quot;tam&quot;. Istotne przy tym jest również fakt konieczności doinstalowywania antywirusów i innych dodatków, które to w Windows jednak wciąż zabierają swoje.</p>
+
+<p>Tymczasem, o ile kiedyś było ciężko dobrać programy darmowe, w 2020 od początku do końca można za popularne oprogramowanie płacić zero PLN zero groszy (nie mówię o grach czy aplikacjach bardzo specjalistycznych, bo z tymi bywa różnie). Jedynym haczykiem tej zabawy jest to, iż w cenie wielu komputerów ukryto tzn. &quot;Microsoft tax&quot; i teoretycznie urząd skarbowy mógłby nam naliczyć podatek, bo teoretycznie nabyliśmy korzyści uzyskując oprogramowanie o jakości tego, za które płaci się gruby szmal (bez żartów - kiedyś się zdarzało, że LibreOffice wyceniano jak MS Office i bodajże nakazywano coś od tego płacić).</p>
+
+<p>Inną kwestią jest wmówienie, że coś się daje za darmo (podczas gdy pobiera się ciężki haracz w postaci danych telemetrycznych) i promuje się to zgodnie z punktem 10.</p>
+
+<h2>12. Safe computing</h2>
+
+<p>Słowo &quot;safe&quot; kojarzymy podświadomie z czymś dobrym, tymczasem w świecie IT tzw. &quot;safe computing&quot; niekoniecznie musi oznaczać taką budowę systemu, w którym to użytkownik ma nad nim kontrolę.</p>
+
+<p>Przyjrzyjmy się kilku skrótom: &quot;<b>Trusted</b> Platform Module&quot;, &quot;AMD Platform <b>Security </b>Processor (PSP)&quot; czy &quot;AMD <b>Secure</b> Technology&quot;.</p>
+
+<p>Obecnie w naszym sprzęcie obecne są różne elementy, o których nie do końca wiadomo, co robią. Bardzo dużo pisze się o Intel ME, zapominając, że AMD poniekąd idzie w tą samą stronę.</p>
+
+<p>Sama idea, żeby sprawdzać każdy fragment kodu (czy jest &quot;zaufany&quot;) jest oczywiście bardzo dobra, ale z drugiej strony widać do czego to prowadzi - blokowanie bootloaderów w telefonach czy problemy ze startem Linuxa w starych systemach X86 (proszę nie pisać, że to wina niskiej jakości tego kodu - myślę tu bardziej o różnych przepychankach dotyczących certyfikatów).</p>
+
+<p>Obecny kod jest skomplikowany i potrafi mieć błędy - co, jeżeli te &quot;bezpieczne&quot; komponenty będą je miały i nie będzie można z nich zrezygnować?</p>
+
+<p>To już się dzieje, od Intel ME poczynając, a na UEFI kończąc.</p>
+
+<h2>I słowo zakończenia</h2>
+
+<p>Są &quot;rewolucje&quot; i rewolucje. </p>
+
+<p>Jak czytam &quot;mój wysłużony laptop sprzed roku potrzebuje wymiany&quot;, to mi się nóż w kieszeni otwiera - jeśli nim nie rzucałeś albo nie zalałeś czy nie spaliłeś, to i tak ma moc obliczeniową kilkunastu starych PC.</p>
+
+<p>Przez ostatnie kilka lat wydajność obliczeniowa w świecie x86 generalnie nie wzrastała w sposób spektakularny - dla wielu zastosowań wystarczy nawet CPU z 2012 sparowane z odpowiednią kartą graficzną (pomijam w tym momencie sytuacje, gdy nawet Threadripper 3990x będzie zbyt wolny).</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/0SyLqFuf_SU?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Różne starsze systemy można w idiotycznie prosty sposób przyspieszyć - przy laptopach bardzo pomocna będzie wymiana dysku na SSD albo zwykłe przeczyszczenie układu chłodzenia, w systemach stacjonarnych wystarczyć może np. karta rozszerzeń z dyskiem NVME.</p>
+
+<p>Nie chciałbym dzisiaj wracać do 80386, modemów ani monitorów CRT. Tak samo cieszy mnie rezygnacja ze zworek, (w końcu) symetryczne wtyczki USB czy możliwości hot-plug.</p>
+
+<p>Postęp jest dobry, ale z drugiej strony martwi mnie, ile mocy obliczeniowej, surowców i zwyczajnie pieniędzy jest każdego dnia marnotrawione na śmiecenie. Walczymy (podobno) o każdy wat energii, a stawiamy serwerownie z tysiącami kopii tych samych danych albo wtłaczamy obsługę Intel ME do maszyn domowych, gdzie pasuje jak pięść do nosa (że o diodach RGB nie wspomnę). Zachowujemy się trochę jak dzieci, które nie dbają zupełnie o nic i produkują, żeby tylko produkować.</p>
+
+<p>Czy to się kiedykolwiek skończy? </p>
+
+<p>Nie, dopóki naiwniacy będą łykać wszystko jak pelikany i dopóki standardy będą zamknięte.</p>
+
+<p>Kup pane, kup, kup, kup...&#160;</p>
+
+<p>PS. Ostatnio przeczytałem ciekawy artykuł na bezprawniku o tym, że rękojmia wykracza ponad 2 lata od zakupu: <a href="https://bezprawnik.pl/rekojmia-po-uplywie-2-lat/" target="_blank" rel="noopener" rel="nofollow">https://bezprawnik.pl/rekojmia-po-uplywie-2-lat/</a>&#160;&nbsp;</p>

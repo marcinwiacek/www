@@ -1,0 +1,240 @@
+﻿Title:Pierwsze podejście do tematu Treble + Google Pixel (2020)
+Author:marcin
+When:1 Oct 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Pierwsze-podejscie-do-tematu-Treble-Google-Pixel,111284.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dawno, dawno temu każdy telefon z Androidem był małą zielona wyspą i jego producent musiał spędzać masę czasu na to, żeby wdrożyć w nim kolejne wersje najlepszego systemu świata.</p>
+
+<p>Wtedy przyszedł dobry i bezinteresowny wujek Google, pogroził paluszkiem i powiedział:</p>
+
+<p>- Nu, nu, nu! Jeśli chcecie mieć moje certyfikacje, to macie być zgodni z Treble.</p>
+<!--break-->
+<p>Na wielu stronach można sobie poczytać o tym, że niniejszym wymyślono na nowo sterowniki w formie modułów (tzn. zdefiniowano pewne API dla kamery, Bluetooth, etc. i nakazano przygotować moduły, które odwołują się do sprzętu i implementują te API).</p>
+
+<p>I wszystkie znaki na niebie i na ziemi wskazują, że te sterowniki mają sobie leżeć na partycji vendor (bo trzeba nam wiedzieć, że pamięć flash urządzenia zawiera w sobie partycje, podobnie jak karty flash czy dyski twarde).</p>
+
+<p>Dobry wujek Google nie poprzestał na tym i nawet zaimplementował tę nowość w oficjalnym firmware, które zawierało jego smak Androida 10 i było przeznaczone dla urządzeń Pixel i Pixel XL.</p>
+
+<p>Wskazuje na to bardzo dużo stron w Internecie i np. pewna aplikacja z Google Play:</p>
+
+<center>
+
+<img src="sites/default/files/420/Screenshot_20201001-175128.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/420/Screenshot_20201001-175208.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/420/Screenshot_20201001-175221.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+</center>
+
+<p>Urządzenie nie wspiera <a href="https://developer.android.com/topic/dsu" target="_blank" rel="noopener" rel="nofollow">Dynamic System Updates (DSU)</a>, więc udałem się na <a href="https://developer.android.com/topic/generic-system-image/releases" target="_blank" rel="noopener" rel="nofollow">stronę Android Generic System Images (GSIs)</a>, pobrałem odpowiedni obraz dla arm64 dla Androida 11, zrestartowałem urządzenie w trybie bootloader (włącznik + volume down), podłączyłem kabel i jazda...</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">fastboot flash system system.img</code></pre>
+
+<p>I zobaczyłem wtedy, że urządzenie pokazuje info o tym, że plik do flashowania jest zbyt duży dla partycji system.</p>
+
+<p>Podumałem, użyłem</p><p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">fastboot boot twrp.img</code></pre>
+
+<p>następnie przeszedłem do opcji uruchamiającej shell, odłączyłem i podłączyłem kabel od komputera, i użyłem</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">adb shell
+sgdisk --print /dev/block/sda
+
+Disk sda: 7786496 sectors, 29.7 GiB
+Logical sector size: 4096 bytes
+Disk identifier (GUID): 98101B32-BBE2-4BF2-A06E-2BB33D000C20
+Partition table holds up to 36 entries
+First usable sector is 6, last usable sector is 7786490
+Partitions will be aligned on 2-sector boundaries
+Total free space is 0 sectors (0 bytes)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1               6             133   512.0 KiB   FFFF  bootlocker_a
+   2             134             261   512.0 KiB   FFFF  bootlocker_b
+   3             262             389   512.0 KiB   FFFF  keymaster_a
+   4             390             517   512.0 KiB   FFFF  keymaster_b
+   5             518            1029   2.0 MiB     FFFF  tz_a
+   6            1030            1541   2.0 MiB     FFFF  tz_b
+   7            1542            1669   512.0 KiB   FFFF  rpm_a
+   8            1670            1797   512.0 KiB   FFFF  rpm_b
+   9            1798            1925   512.0 KiB   FFFF  pmic_a
+  10            1926            2053   512.0 KiB   FFFF  pmic_b
+  11            2054            2181   512.0 KiB   FFFF  hyp_a
+  12            2182            2309   512.0 KiB   FFFF  hyp_b
+  13            2310            2373   256.0 KiB   FFFF  cmnlib32_a
+  14            2374            2437   256.0 KiB   FFFF  cmnlib32_b
+  15            2438            2501   256.0 KiB   FFFF  cmnlib64_a
+  16            2502            2565   256.0 KiB   FFFF  cmnlib64_b
+  17            2566            3589   4.0 MiB     FFFF  aboot_a
+  18            3590            4613   4.0 MiB     FFFF  aboot_b
+  19            4614           12805   32.0 MiB    FFFF  boot_a
+  20           12806           20997   32.0 MiB    FFFF  boot_b
+  21           20998           29189   32.0 MiB    FFFF  hosd_a
+  22           29190           37381   32.0 MiB    FFFF  hosd_b
+  23           37382           37413   128.0 KiB   FFFF  devcfg_a
+  24           37414           37445   128.0 KiB   FFFF  devcfg_b
+  25           37446           55365   70.0 MiB    0700  modem_a
+  26           55366           73285   70.0 MiB    FFFF  modem_b
+  27           73286           73349   256.0 KiB   FFFF  msadp_a
+  28           73350           73413   256.0 KiB   FFFF  msadp_b
+  29           73414           73477   256.0 KiB   FFFF  apdp_a
+  30           73478           73541   256.0 KiB   FFFF  apdp_b
+  31           73542          150341   300.0 MiB   FFFF  vendor_a
+  32          150342          227141   300.0 MiB   0700  vendor_b
+  33          227142          751429   2.0 GiB     FFFF  system_a
+  34          751430         1275717   2.0 GiB     0700  system_b
+  35         1275718         7785285   24.8 GiB    0700  userdata
+  36         7785286         7786490   4.7 MiB     0700  reserve0</code></pre>
+
+<p>Jak widać na załączonym obrazku, urządzenie dysponuje partycjami z końcówkami &quot;_a&quot; i &quot;_b&quot; (tzw. systemem partycji AB, które w teorii powinny zawierać te same kopie m.in. systemu i pozwalać na łatwe uaktualnienia w tle) i ma 2GB na partycję &quot;system&quot;.</p>
+
+<p>To za mało na obrazy, więc postanowiłem poszukać rozwiązania i w międzyczasie znalazłem stronę <a href="https://forum.xda-developers.com/pixel-xl/how-to/guide-expand-partition-pixel-xl-pixel-t4097839" target="_blank" rel="noopener" rel="nofollow">[GUIDE] Expand the system partition on Pixel XL/Pixel</a>. Jak powszechnie wiadomo, kontrola najwyższą formą zaufania. Stąd</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sgdisk --info=33 /dev/block/sda
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 00000021-0000-0000-0000-000000000000
+First sector: 227142 (at 887.3 MiB)
+Last sector: 751429 (at 2.9 GiB)
+Partition size: 524288 sectors (2.0 GiB)
+Attribute flags: 003F000000000000
+Partition name: &#39;system_a&#39;
+
+sgdisk --info=34 /dev/block/sda
+Partition GUID code: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 (Microsoft basic data)
+Partition unique GUID: 00000022-0000-0000-0000-000000000000
+First sector: 751430 (at 2.9 GiB)
+Last sector: 1275717 (at 4.9 GiB)
+Partition size: 524288 sectors (2.0 GiB)
+Attribute flags: 003B000000000000
+Partition name: &#39;system_b&#39;
+
+sgdisk --info=35 /dev/block/sda
+Partition GUID code: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 (Microsoft basic data)
+Partition unique GUID: 00000023-0000-0000-0000-000000000000
+First sector: 1275718 (at 4.9 GiB)
+Last sector: 7785285 (at 29.7 GiB)
+Partition size: 6509568 sectors (24.8 GiB)
+Attribute flags: 0003000000000000
+Partition name: &#39;userdata&#39;</code></pre>
+
+<p>Nie chciało mi się zapisywać kopii Patrycji do pliku (&quot;sgdisk --backup=x /dev/block/sda&quot;), więc:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sgdisk --delete=33 /dev/block/sda
+
+sgdisk --delete=34 /dev/block/sda
+
+sgdisk --delete=35 /dev/block/sda
+
+sgdisk --new=33:227142:1275716 --change-name=33:system_a --typecode=33:77036CD4-03D5-42BB-8ED1-37E5A88BAA34 /dev/block/sda
+
+sgdisk --new=34:1275717:2324291 --change-name=34:system_b --typecode=34:EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 /dev/block/sda
+
+sgdisk --new=35:2324292:7785285 --change-name=35:userdata --typecode=35:EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 /dev/block/sda
+
+sgdisk --attributes=33:xor:003F000000000000 /dev/block/sda
+
+sgdisk --attributes=34:xor:003B000000000000 /dev/block/sda
+
+sgdisk --attributes=35:xor:0003000000000000 /dev/block/sda</code></pre>
+
+<p>i Pixel mógł się pochwalić tym:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sgdisk --print /dev/block/sda
+Disk /dev/block/sda: 7786496 sectors, 29.7 GiB
+Logical sector size: 4096 bytes
+Disk identifier (GUID): 98101B32-BBE2-4BF2-A06E-2BB33D000C20
+Partition table holds up to 36 entries
+First usable sector is 6, last usable sector is 7786490
+Partitions will be aligned on 2-sector boundaries
+Total free space is 1 sectors (4.0 KiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1               6             133   512.0 KiB   FFFF  bootlocker_a
+   2             134             261   512.0 KiB   FFFF  bootlocker_b
+   3             262             389   512.0 KiB   FFFF  keymaster_a
+   4             390             517   512.0 KiB   FFFF  keymaster_b
+   5             518            1029   2.0 MiB     FFFF  tz_a
+   6            1030            1541   2.0 MiB     FFFF  tz_b
+   7            1542            1669   512.0 KiB   FFFF  rpm_a
+   8            1670            1797   512.0 KiB   FFFF  rpm_b
+   9            1798            1925   512.0 KiB   FFFF  pmic_a
+  10            1926            2053   512.0 KiB   FFFF  pmic_b
+  11            2054            2181   512.0 KiB   FFFF  hyp_a
+  12            2182            2309   512.0 KiB   FFFF  hyp_b
+  13            2310            2373   256.0 KiB   FFFF  cmnlib32_a
+  14            2374            2437   256.0 KiB   FFFF  cmnlib32_b
+  15            2438            2501   256.0 KiB   FFFF  cmnlib64_a
+  16            2502            2565   256.0 KiB   FFFF  cmnlib64_b
+  17            2566            3589   4.0 MiB     FFFF  aboot_a
+  18            3590            4613   4.0 MiB     FFFF  aboot_b
+  19            4614           12805   32.0 MiB    FFFF  boot_a
+  20           12806           20997   32.0 MiB    FFFF  boot_b
+  21           20998           29189   32.0 MiB    FFFF  hosd_a
+  22           29190           37381   32.0 MiB    FFFF  hosd_b
+  23           37382           37413   128.0 KiB   FFFF  devcfg_a
+  24           37414           37445   128.0 KiB   FFFF  devcfg_b
+  25           37446           55365   70.0 MiB    FFFF  modem_a
+  26           55366           73285   70.0 MiB    0700  modem_b
+  27           73286           73349   256.0 KiB   FFFF  msadp_a
+  28           73350           73413   256.0 KiB   FFFF  msadp_b
+  29           73414           73477   256.0 KiB   FFFF  apdp_a
+  30           73478           73541   256.0 KiB   FFFF  apdp_b
+  31           73542          150341   300.0 MiB   FFFF  vendor_a
+  32          150342          227141   300.0 MiB   0700  vendor_b
+  33          227142         1275716   4.0 GiB     FFFF  system_a
+  34         1275718         2324291   4.0 GiB     0700  system_b
+  35         2324292         7785285   20.8 GiB    0700  userdata
+  36         7785286         7786490   4.7 MiB     0700  reserve0
+
+sgdisk --info=33 /dev/block/sda
+Partition GUID code: 77036CD4-03D5-42BB-8ED1-37E5A88BAA34 (Unknown)
+Partition unique GUID: 4608F0AA-3B8B-4C24-805F-0CFEF1D2934F
+First sector: 227142 (at 887.3 MiB)
+Last sector: 1275716 (at 4.9 GiB)
+Partition size: 1048575 sectors (4.0 GiB)
+Attribute flags: 003F000000000000
+Partition name: &#39;system_a&#39;
+
+sgdisk --info=34 /dev/block/sda
+Partition GUID code: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 (Microsoft basic data)
+Partition unique GUID: 88526F12-B370-44E4-A908-7B3E19065E20
+First sector: 1275718 (at 4.9 GiB)
+Last sector: 2324291 (at 8.9 GiB)
+Partition size: 1048574 sectors (4.0 GiB)
+Attribute flags: 003B000000000000
+Partition name: &#39;system_b&#39;
+
+sgdisk --info=35 /dev/block/sda
+Partition GUID code: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 (Microsoft basic data)
+Partition unique GUID: 0C4CF324-7ADD-45CD-8097-7DC24B896134
+First sector: 2324292 (at 8.9 GiB)
+Last sector: 7785285 (at 29.7 GiB)
+Partition size: 5460994 sectors (20.8 GiB)
+Attribute flags: 0003000000000000
+Partition name: &#39;userdata&#39;</code></pre>
+
+<p>Minusem jest oczywiście zmniejszenie wewnętrznego &quot;dysku&quot; o 4GB, a plusem przygotowanie całości na kolejne &quot;zabawy&quot;</p>
+
+<p>Zrestartowałem telefon do bootloadera i potem wykonałem znowu flashowanie &quot;system.img&quot; i oczywiście również wyczyszczenie danych użytkownika z TWRP.</p>
+
+<p>I tu powinienem napisać, że wszystko się udało... że telefon zbootował Androida 11, ale... dziś historia nie ma happy-end.</p>
+
+<p>Poczułem się dziwnie, że trzymam w ręku bardzo dobre urządzenie (starsze, może nie najszybsze, ale ładne i naprawdę wystarczające), a producent z jakichś powodów uznał, że woli wypuścić kolejnego Pixela (pewnie znów z puchnącymi bateriami).</p>
+
+<p>Nie wiem do końca, czy wina leży po mojej stronie, natomiast wiem, że projekt Treble miał spowodować, że zawsze i wciąż będziemy mieli jeden uniwersalny obraz i tylko mały malutki fragment bloba zależny od modelu.</p>
+
+<p>&quot;Ejjj koleś, nie truj, nie januszuj, tylko wymień trupa na coś nowego&quot;</p>
+
+<p>ehhh, żebym coś takiego widział, to bym zamówił w przedsprzedaży. Chińszyzna mnie nie ciągnie, Pixele lepiej obecnie omijać (a w każdym razie poczekać z rok i zobaczyć co się w nich sypie), z Samsunga nie ma nic rozsądnego z płaskim ekranem i bez dziury (S20 FE nie biorę pod uwagę - już wolałbym S9), itd. itd.</p>
+
+<p>Producenci wraz z projektem Treble utracili jakikolwiek argument, że nie ma wsparcia. Szkoda tylko, że musimy utrzymywać ich fabryki... które muszą regularnie wypuszczać kolejne podobne klocki... (tzn. jest postęp, ale...) I szkoda, że dalej mamy setki stron, które produkują setki wielkich plików z ROM, które niewiele się w sumie różnią.</p>
+
+<p><a href="https://developer.android.com/topic/generic-system-image/releases" target="_blank" rel="noopener" rel="nofollow">GSI u mnie z jakichś powodów nie działa</a> (ten Pixel nie ma partycji vbmeta, bootloader jest odblokowany, etc. etc.), AOSP i Android 10 z tej samej strony też nie startują. Próbowałem <a href="https://www.xda-developers.com/flash-generic-system-image-project-treble-device/" target="_blank" rel="noopener" rel="nofollow">flashować przez TWRP</a> i robić różne inne &quot;pewne&quot; rzeczy, ale nie... pacjent jest odporny.</p>
+
+<p>Jak dla mnie nie jest to sprawa życia i śmierci, oryginalny ROM działa, wynalazków nie chcę, a życie potwierdziło po raz kolejny, że istnieje coś takiego jak planowane postarzanie, a <a href="https://forum.xda-developers.com/pixel-xl/how-to/guide-expand-partition-pixel-xl-pixel-t4097839" target="_blank" rel="noopener" rel="nofollow">opisy z xda trzeba sprawdzać</a> (<a href="https://forum.xda-developers.com/pixel-xl/how-to/guide-expand-partition-pixel-xl-pixel-t4097839" target="_blank" rel="noopener" rel="nofollow">w manualu zamieniono ID partycji</a> i choć wynikało to z innego wyboru partycji AB u autora postu, to wzbudziło niepokój...). </p>
+
+<p>Do sprawy wrócę pewnie w wolnej chwili (może sobie sam skompiluję AOSP?) </p><p>PS. Żałuję, że w telefonie jest system partycji AB (jednak 2GB na wewnętrzny dysk to byłoby zawsze 2GB więcej). Jeśli wziąć pod uwagę częstotliwość aktualizacji i ilości możliwości uszkodzenia systemu, to jedynym plusem tego rozwiązania jest to, że np. z poziomu bootloadera można się przełączać (&quot;fastboot --set-active=a|b&quot;) i mieć dwa różne recovery albo dwa różne OS (do momentu, aż zostaną nadpisane oczywiście). To stwarza pewne pole np. do <a href="https://ausdroid.net/2017/02/20/google-gave-your-pixels-dual-system-partitions-use-it-to-deliver-dual-booting-bitches/" target="_blank" rel="noopener" rel="nofollow">&quot;ukrycia&quot; jednego systemu</a>.</p>
+
+<p>Inna sprawa, że jak Samsung przestanie wspierać S9 i nowsze, to możnaby wtedy się nimi zainteresować w tym obszarze (też podobnież wspierają Treble i, chwała wielkiemu S, mają tylko układ jednej partycji, a że jest Heimdall, to nie powinno być problemu).&#160;&nbsp;</p>

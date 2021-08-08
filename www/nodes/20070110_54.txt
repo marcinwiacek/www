@@ -1,0 +1,17 @@
+﻿Title:Report 2007-01-10
+Author:marcin
+When:10 Jan 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p><b>Gammu</b></p>
+<p>1.09.15 is out. Mainly fixes, but added experimental Motorola source too...</p>
+<p><b>Gammu+</b></p>
+<p>0.16.00 is out. Many changes including getting SMS from single folders, getting MMS (decoder is not complete in some parts like decoding MMS subfiles headers or doesn't have DRM, but even now it works much better than in Gammu), faster phonebook/SMS/MMS/filesystem operations (it has cache).</p>
+<!--break-->
+<p>This releases concentrates on DCT4 - Series 40 3.0 phones (full SMS/MMS functionality is planned for all phones for 0.17.00). The same I decided to move implementing two way lists in many structures to 0.17.00 (it will allow for fast deleting single entries - cache will work 100% correctly then).</p>
+<p>BTW, wxWidgets showed me first bugs - for example connected with Unicode. I hope to resolve them.</p>
+<p>Binary package will be updated later (today, tomorrow, ...)</p>
+<p><b>me</b></p>
+<p>Finally I have started cleaning my WWW and I have put filter on posts from some people (I will not answer on their emails sent even to Gammu list, because they didn't do promised things too many times).</p>
+<p>In short future I will try to improve my personal www and clear situation with madduck mailing server too.</p>

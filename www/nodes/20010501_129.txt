@@ -1,0 +1,428 @@
+﻿Title:HTML na ratunek cz.2 (2001)
+Author:marcin
+When:01 May 2001
+Taxonomy:Polski,Polski artykuł,x86,chip.pl,OS,CHM
+
+<a NAME="Top"></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach <a href="http://www.chip.pl" class="autoremail">Chipa</a> nr 8/2000</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><b>Pomoc już dawno przestała być dostępna tylko w postaci zbiorów  tekstowych. Najnowszy jej format CHM oferuje znacznie więcej opcji niż dominujące do tej pory w środowisku Windows pliki HLP.  Oto, jak skorzystać z tych nowych funkcji...</b>
+
+<p align=justify>W Chipie 6/2000 (artykuł jest <a href=?q=node/128>tutaj</a>) zaprezentowane zostały podstawowe możliwości techniki HTML Help – tworzenie plików CHM ze spisem treści, indeksem czy możliwościami przeszukiwania. Standard ten przewiduje jednak znacznie więcej możliwości - w tym artykule pokazane zostanie, w jaki sposób mogą one wzbogacić zbiory Pomocy (jest to uzupełnienie <a href=?q=node/128>poprzedniego artykułu</a>) oraz jak wykorzystać je na stronach WWW w Internecie.
+<!--break-->
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=ikony></a><font color="#1F409F" size=+2 class="dzial"><b>Ikony w spisie treści</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>W HTML Help można zmieniać ikony wyświetlane obok poszczególnych pozycji w spisie treści. Są one zapisywane w 16-kolorowym pliku BMP (jedna obok drugiej w poziomie) i muszą mieć takie same wymiary (między 16x16 i 20x20 pikseli). W pliku tym zgodnie ze specyfikacją może być od 14 do 42 ikon, niemniej jednak przyjmowane są też zbiory z mniejszą ich ilością.
+
+<p align=justify>Przyjęte są też ograniczenia dotyczące kolejności ikon:
+
+<ol>
+<li><div align=justify>jedynie pierwsze osiem z nich może zawierać ikony dla gałęzi (we wszystkich natomiast mogą być umieszczane ikony dla pozycji).</div></li>
+
+<li><div align=justify>pozycje 1, 3, 5 i 7 muszą zawierać ikony wyświetlane, gdy dana gałąź nie jest rozwinięta, natomiast odpowiednio pozycje 2, 4, 6 i 8 ikony dla rozwiniętych gałęzi. Przykładowo: jeżeli dla gałęzi zostanie wybrana ikona numer 1, po jej rozwinięciu system wyświetli ikonę 2; dla ikony 3 pozycja "otwarty" jest zapisana jako czwarta, itd.</div></li>
+</ol>
+
+<p align=justify>Co więcej: jeżeli w ustawieniach folderu nie wybraliśmy numeru ikony (w znajdującym się tam polu <b>"Image index"</b> została pozostawiona domyślna wartość <b>"auto"</b>), system będzie proponował użycie pary 1, 2 albo 5, 6 (ta druga możliwość, gdy zaznaczona zostało opcja <b>"Use folders instead of books"</b> w ustawieniach spisu treści). Jeżeli zaznaczymy z kolei w ustawieniach folderu opcję <b>"Mark as new entry"</b>, użyte zostaną pary 3, 4 lub 7, 8.
+
+<p align=justify>Ciekawie działa również opcja <b>"Change entry to a page"</b> w ustawieniach pozycji spisu treści (gdy pozostawiliśmy wybór automatyczny ikony) - po jej uaktywnieniu system wyświetla ikonę odpowiednią dla otwartego folderu. Jej numer jest więc odpowiednio równy 2 lub 6 (zależy to od wymienionej opcji <b>"Use folders instead of books"</b>) albo 4 lub 8 (gdy zostanie wybrana wspomniana opcja <b>"Mark as new entry"</b>).
+
+<p align=justify>Można więc przygotować ikony zgodnie z tą kolejnością (tak, aby wspomniane opcje "trafiały" na właściwe rysunki) albo po prostu wykorzystać pierwsze osiem z nich jako cztery pary dla czterech rodzajów folderów.
+
+<p align=justify>Poniżej zostały natomiast pokazane wszystkie standardowe ikony:
+
+<p><img SRC="sites/default/files/129/ikony.gif" height=17 width=714>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=InneZbiory></a><font color="#1F409F" size=+2 class="dzial"><b>Odwołania do tematów w innych zbiorach CHM</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Przede wszystkim tematy w plikach CHM mają swoje własne adresy. Można je zapisać dwojako:
+
+<p>
+<ul>
+<li><div align=justify><i>ms-its:nazwa pliku.chm::/plik.htm</i> (działa, gdy w systemie jest co najmniej Internet Explorer 4)</div></li>
+
+<li><div align=justify><i>mk:@MSITStore:nazwa pliku.chm::/plik.htm</i> (działa z Internet Explorerem 3 lub każdą jego nowszą wersją)</div></li>
+</ul>
+
+<p align=justify>gdzie oczywiście zamiast “nazwa pliku.chm” podajemy pełną ścieżkę do zbioru CHM, a w miejsce “plik.htm” nazwę i ścieżkę do pliku z tematem w tym zbiorze (jak zobaczyć, co znajduje się w gotowych plikach CHM, zostało opisane w punkcie <a href=#Decompile>“Dekompilacja plików CHM”</a>).
+
+<p align=justify>Dzięki tym protokołom możliwe jest odwoływanie się do tematów jak do innych stron WWW. I to wszędzie: w spisie treści, indeksie oraz plikach HTML z tematami (które mają się później znaleźć w budowanych zbiorach CHM). Niestety, możliwość ta nie zawsze działa, gdy próbujemy odwołać się do zbioru o innym formacie (rozszerzeniu). Przykładowo: przeglądarka nie potrafi korzystać z plików z arkuszami stylów (zbiorów CSS) znajdujących się w gotowych plikach CHM…
+
+<p align=justify>A co zrobić, jeżeli chcemy wyświetlić stronę z odpowiednim komunikatem, gdy plik CHM, do którego się odwołujemy, nie zostanie znaleziony ? Zostało to opisane w punkcie <a href=#pokrewne>Tematy pokrewne</a> (ostatni przykład)
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Alternatywne></a><font color="#1F409F" size=+2 class="dzial"><b>Alternatywne adresy - uzupełnienie</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Możliwe jest również wykorzystanie tzw. alternatywnych adresów wspominanych już w <a href=?q=node/128>artykule „Na ratunek”</a>. Kiedy ?
+
+<p align=justify>Wyobraźmy sobie, że jakaś pozycja w spisie treści, indeksie lub odnośnik tworzony przy użyciu kontrolki ActiveX (jest to opisane poniżej) będzie się odwoływać do tematu z innego zbioru CHM. Co się stanie, gdy plik z tym tematem nie zostanie znaleziony ?
+
+<p align=justify>Najczęściej nic. Okazuje się jednak, że możliwe jest pokazanie wtedy przygotowanej przez nas strony z odpowiednim komunikatem. – musimy tylko podać jej adres jako tzw. adres alternatywny dla tej pozycji..
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=DolaczSpis></a><font color="#1F409F" size=+2 class="dzial"><b>Dołączanie spisów treści z gotowych plików CHM</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Stosunkowo proste jest również włączenie do spisu treści budowanego zbioru CHM spisu z innego, gotowego pliku w tym formacie.
+
+<p align=justify>Wystarczy kliknąć prawym klawiszem myszy podgląd spisu treści budowanego pliku CHM i z wyświetlonego menu wybrać pozycję <b>„Insert File”</b>. W okienku należy podać adres według wzoru:
+
+<p><i>nazwa pliku.chm::\spis tresci.hhc</i>
+
+<p align=justify>Zamiast „nazwa pliku.chm” wstawiamy nazwę zbioru, z którego dołączamy spis treści. W miejscu „spis tresci.hhc” powinna się pojawić nazwa pliku, w jakim został zapisany spis treści tego zbioru CHM (jak dowiedzieć się nazw plików „wkompilowanych” w zbiór CHM, zostało opisane w punkcie <a href=#Decompile>„Dekompilacja plików CHM”</a>).
+
+<p align=justify>Jedynym problemem może być to, iż pierwsza pozycja spisu treści z dołączanego pliku (o ile nie jest folderem), może zostać na niego zamieniona. Jeżeli się tak dzieje, należy zaznaczyć pozycję, którą właśnie utworzyliśmy (zaczyna się ona od „INCLUDE:”) i używając przycisku <img SRC="sites/default/files/129/image1_0.gif" height=26 width=26> przesunąć ją o jeden w lewo.
+
+<p align=justify>Standard HTML Help wykazuje tutaj też jedną ciekawą cechę – jeżeli zbiór CHM, z którego dołączamy spis treści, nie zostanie znaleziony, odpowiednie pozycje w spisie treści pliku CHM, w którym dołączamy spis treści, nie zostaną pokazane.
+
+<p align=justify>W ten sposób można połączyć wyłącznie spis treści. Jeżeli jednak chcemy połączyć także indeks z owego "drugiego" pliku (większej ich ilości), należy:
+
+<ul>
+<li><div align=justify>"dołączać" ("mergować") pliki CHM, z których dołączamy spis treści i indeksy - opcje projektu pod ikoną <img src=sites/default/files/129/image6_0.gif>, zakładka <b>Merge files</b></div></li>
+<li><div align=justify>w opcjach obecnego projektu i tamtych z zakładce <b>Compiler</b> wybieramy <b>Compatibility 1.1</b> i <b>Create a binary index</b>. Pole <b>Create a binary TOC</b> powinno być puste ! (w przeciwnym razie biblioteki mają problem np. z pokazywaniem indeksu z wcięciami)</div></li>
+</ul>
+
+<p align=justify><b>Uwaga:</b> pliki, z których łączymy spisy treści i indeksy, nie mogą mieć znaku podkreślenia w nazwie (inaczej spis treści nie będzie pokazywany odpowiednio)...
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=ZmienTematy></a><font color="#1F409F" size=+2 class="dzial"><b>Czas na zmiany w plikach z tematami...</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Opisane dotąd czynności (w tym artykule i <a href=?q=node/128>tekście „Na ratunek” z Chipa 6/2000</a>) pozwalały zmienić wygląd okna, w którym zostanie wyświetlona nasza pomoc, zmienić opcje projektu oraz przygotować spis treści i indeks.
+
+<p align=justify>Znajdujący się dalej opis jest przeznaczony dla osób, które zakładają, że pliki HTML z budowanych przez nich zbiorów CHM będą odczytywane jedynie Internet Explorerem. Dlaczego ?
+
+<p align=justify>Powód jest niezwykle prosty – w tym momencie zaczyna się opis, w jaki sposób dodawać do plików z poszczególnymi tematami pewne dodatkowe efekty.
+
+<p align=justify>Niektóre z nich będą prawidłowo wyświetlane poza plikami CHM (np. na stronach WWW), ale tylko przez Internet Explorera, a inne wyłącznie po skompilowaniu w plikach z pomocą.
+
+<p align=justify>Po prostu – samo użycie HTML okazało się niewystarczające, aby w nowej pomocy można było uzyskać wszystkie udogodnienia znane z klasycznych plików HLP. Przykładowo, dosyć trudno byłoby np. wyświetlać przyciski wyświetlające menu czy listy z pokrewnymi tematami, uruchamiać programy, itp. I dlatego wykorzystano ActiveX i przygotowano odpowiednią kontrolkę służącą do tego. Jeżeli zostanie ona wywołana z odpowiednimi parametrami, wszystko to będzie
+możliwe.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Uruchom></a><font color="#1F409F" size=+2 class="dzial"><b>Uruchamianie programów</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Jak już zostało to wyjaśnione, do plików HTML wstawiane są odwołania do kontrolki ActiveX. Można to zrobić na dwa sposoby – edytując zbiory z tematami w oddzielnym edytorze ASCII (odpowiednie opcje i komendy wraz z fragmentami kodu, który należy wstawiać, znaleźć można w pomocy HTML Help Workshop) albo otwierając je w tym programie i korzystając z odpowiedniego kreatora.
+
+<p align=justify>Ta ostatnia możliwość wydaje się prostsza – kreator pozwoli na łatwą edycją praktycznie wszystkich (a przynajmniej większości) parametrów.
+
+<p align=justify>Zaczynamy np. od wstawienia do tematu odnośnika uruchamiającego konkretny program. W tym celu należy otworzyć plik HTML z tematem, ustawić kursor w miejscu, gdzie ma się znaleźć odnośnik i z menu głównego <b>„Tags”</b> wybrać opcję <b>„HTML Help Control”</b> (albo kliknąć ikonę <img SRC="sites/default/files/129/image3_0.gif" height=20 width=21>).
+
+<p align=justify>W oknie kreatora w polu <b>„Specify the command”</b> wybieramy opcję <b>„Shortcut”</b>. Możliwe jest także, aby wywoływana przez nas kontrolka widoczna była w dokumencie HTML jako obiekt dla języków skryptowych (np. Java Script albo Visual Basic Script). Pole na samym dole tego ekranu pozwala wpisać nazwę tego obiektu. Pozostawiamy je na razie bez zmian – wykorzystanie tej możliwości zostanie opisane dalej.
+
+<p align=justify>Po naciśnięciu OK przechodzimy do kolejnego okna – należy w nim wybrać, czy życzymy sobie wstawienie na stronę przycisku (opcja <b>„As a button”</b>) czy wstawiany przez nas obiekt ma być niewidoczny i używany jedynie z poziomu języków skryptowych (opcja <b>„Hidden (only used for scripting)”</b>). Ponieważ interesuje nas przycisk, wybieramy pierwszą możliwość.
+
+<p align=justify>Na następnym oknie możemy zdecydować, co znajdzie się na utworzonym przycisku – tekst, bitmapa czy ikona (należy wybrać jedną z kolejnych opcji i ewentualnie podać tekst do umieszczenia na przycisku w polu na dole).
+
+<p align=justify>Dalej musimy podać, jaki program ma być wykonany (pole <b>„Program”</b>) i jakie ma mieć parametry (pole <b>„Parameters”</b>).
+
+<p align=justify>W kolejnym oknie znajdują się pola do wpisania komendy systemowej, którą chcemy wysłać do uruchamianego programu (zainteresuje to bardziej programistów). Na samym dole (pole <b>„File/URL”</b>) można wpisać adres pliku, który będzie wyświetlony w przypadku niemożności uruchomienia programu (np. jego braku) – system wyświetli odpowiedni komunikat, a następnie w oknie pomocy pokaże odpowiedni plik.
+
+<p align=justify>Po tych wszystkich pytaniach można już przejść do ostatniego okna z przyciskiem <b>„Finish”</b>, po naciśnięciu którego odpowiedni kod zostanie wstawiony do naszego pliku HTML.
+
+<p align=justify>Sprawdźmy teraz, jak utworzony przycisk będzie wyglądał w naszym pliku z tematem – wystarczy kliknąć na przycisk <img SRC="sites/default/files/129/image4_0.gif" height=20 width=21>, aby zobaczyć podgląd tworzonego zbioru HTML. Możemy się w tym momencie spotkać z dwiema niedogodnościami:
+
+<p>
+<ol>
+<li><div align=justify>w kodzie wstawionym przez kreatora nie ma opcji ustawiającej czcionkę używaną do wyświetlenia przycisku (można to zrobić ręcznie) – w podglądzie jest to standardowa czcionka wybrana w opcjach Internet Explorera, natomiast w pliku CHM taka, jak w polu <b>„Font”</b> w zakładce <b>„General”</b> w opcjach projektu.</div></li>
+
+<li><div align=justify>po kliknięciu na przycisk system wyświetli informację, iż wywołanie operacji nie jest możliwe (czyli faktycznie do przetestowania działania jest konieczna kompilacja zbioru CHM i sprawdzenie działania przycisku dopiero wtedy) – kontrolka ActiveX pozwala używać niektórych z możliwości jedynie w plikach HTML wewnątrz skompilowanych zbiorów CHM.</div></li>
+</ol>
+
+<p align=justify>Można się również zapytać: jeżeli chcemy uruchomić jakiś program, to po co używać tak skomplikowanej procedury ? Przecież wystarczy zwykły odnośnik. Faktycznie, tylko że po jego kliknięciu system pokaże, że nie odnalazł wywoływanego pliku, o ile nie podamy dokładnej ścieżki do niego...
+
+<p align=justify>Jak to zostało to wcześniej napisane, możemy w oknie kreatora na pytanie, czy tworzyć przycisk odpowiedzieć przecząco. Co wtedy ? W pliku z tematem wstawiony zostanie wtedy obiekt (jego nazwę podajemy w pierwszym oknie kreatora w polu poniżej pola <b>„Specify the command”</b>). Będzie się można do niego odwoływać z poziomu Java Script czy Visual Basic Script, zmieniać jego własności albo wywoływać związane z nim działania. Przykładowo, jeżeli obiekt będzie miał nazwę „przycisk” i będziemy chcieli uruchomić dany program po kliknięciu zwykłego odnośnika, można będzie np. użyć następujących instrukcji:
+
+<p><i>&lt;A HREF=”javascript:przycisk.Click()”>Kliknij, aby uruchomić program&lt;/A></i>
+
+<p align=justify>Wszystkie zdarzenia, które mamy do dyspozycji, są szczegółowo opisane w pomocy HTML Help Workshop.
+
+<p><b>Przykłady</b>
+
+<ul>
+<li><div align=justify>po naciśnięciu przycisku zostanie uruchomiony Kalkulator Windows (plik calc.exe). Jeżeli nie został znaleziony, zobaczysz komunikat:</div>
+<p><i>
+&lt;OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100&gt;
+    &lt;PARAM name="Command" value="ShortCut"&gt;
+    &lt;PARAM name="Button" value="Text:Kalkulator"&gt;
+    &lt;PARAM name="Item1" value=",calc.exe,"&gt;
+    &lt;PARAM name="Window" value="brak.htm"&gt;
+&lt;/OBJECT&gt;</i>
+</li>
+
+<li><div align=justify>tym razem system spróbuje uruchomić plik aaaaaaa.exe:</div>
+<p><i>
+&lt;OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100&gt;
+    &lt;PARAM name="Command" value="ShortCut"&gt;
+    &lt;PARAM name="Button" value="Text:Program"&gt;
+    &lt;PARAM name="Item1" value=",aaaaaaa.exe,"&gt;
+    &lt;PARAM name="Window" value="brak.htm"&gt;
+&lt;/OBJECT&gt;</i>
+</li>
+
+<li><div align=justify>przycisk może też wyglądać tak:</div>
+<p><i>
+&lt;OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100&gt;
+    &lt;PARAM name="Command" value="ShortCut"&gt;
+    &lt;PARAM name="Button" value=""&gt;
+    &lt;PARAM name="Item1" value=",aaaaaaa.exe,"&gt;
+    &lt;PARAM name="Window" value="brak.htm"&gt;
+&lt;/OBJECT&gt;</i>
+</li>
+
+<li><div align=justify>ewentualnie tak:</div>
+<p><i>
+&lt;OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100&gt;
+    &lt;PARAM name="Command" value="ShortCut"&gt;
+    &lt;PARAM name="Button" value="Bitmap:Shortcut"&gt;
+    &lt;PARAM name="Item1" value=",aaaaaaa.exe,"&gt;
+    &lt;PARAM name="Window" value="brak.htm"&gt;
+&lt;/OBJECT&gt;</i>
+</li>
+
+<li><div align=justify>można też nałożyć na niego plik ICO lub BMP</div>
+<p><i>
+&lt;OBJECT id=przycisk type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"&gt;
+    &lt;PARAM name="Command" value="ShortCut"&gt;
+    &lt;PARAM name="Item1" value=",calc.exe,"&gt;
+    &lt;PARAM name="Window" value="brak.htm"&gt;
+&lt;/OBJECT&gt;</i>
+</li>
+
+<li><div align=justify>ten link natomiast wywołuje metodę "Click" ukrytego obiektu "przycisk":</div>
+
+<p><i>
+&lt;A HREF="javascript:przycisk.Click()"&gt;Kalkulator&lt;/A&gt;</i>
+</li>
+</ul>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=InneOkna></a><font color="#1F409F" size=+2 class="dzial"><b>Wyświetlanie tematów w innych oknach</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Załóżmy, że chcemy, aby konkretny temat pomocy być pokazany w nowo otwartym oknie.
+
+<p align=justify>Działają tutaj konstrukcje znane z „normalnego” HTML. Najprościej będzie podać parametr TARGET przy odnośniku prowadzącym do tematu:
+
+<p><i>&lt;A HREF=”plik.htm” TARGET=”Marcin”>Link&lt;/A></i>
+
+<p align=justify>Jeżeli ramka o podanej nazwie (w przykładzie „Marcin”) nie została nigdzie użyta, przeglądarka otworzy nowe okno z pewnymi domyślnymi ustawieniami (rozmiarem, położeniem, przyciskami, paskiem statusu, itp.)
+
+<p align=justify>W przypadku, gdy chcemy utworzyć okno o konkretnych parametrach, można skorzystać np. z Java Script i użyć metody window.open. Przykładowo:
+
+<p><i>&lt;A OnClick=window.open(‘plik.htm’,’nazwanowegookna’,’ toolbar=0,location=0,status=0,menubar=0,scrollbars=0,resizable=1,width=200,height=200’)>link&lt;/A></i>
+
+<p align=justify>Może się również okazać, że potrzebujemy otworzyć okno modalne - takie, które użytkownik będzie musiał zamknąć, aby powrócić do głównego okna pomocy. Konieczne jest wtedy wykorzystanie wprowadzonej w Explorerze 4.0 metody showModalDialog obiektu window. Oto przykład jej zastosowania:
+
+<p align=justify><i>&lt;INPUT TYPE="button" VALUE="przykład" OnClick="self.showModalDialog('nazwapliku.htm',null,'status:no;center:yes;help:no;minimize:no;maximize:no;border:thin;statusbar:no')"></i>
+
+<p align=justify>Możemy również potrzebować okienka typu popup – takiego, które samo się zamknie, gdy użytkownik kliknie myszką na główne okno pomocy. Sprawa jest troszkę bardziej skomplikowana. HTML Help jest bowiem ubogi pod tym względem – pozwala jedynie wyświetlać napisany jedną czcionką tekst (można ją oczywiście wybrać).
+
+<p align=justify>Realizacja tego efektu jest stosunkowo prosta - do pliku wstawiamy odwołanie do używanej już wcześniej kontrolki ActiveX (zamiast „okienko” wpisujemy nazwę, pod jaką będzie się można odwołać do tej kontrolki z poziomu Java Script):
+
+<p><i>&lt;OBJECT width=0 height=0 id=okienko type="application/x-oleobject"
+classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+<br>&lt;/OBJECT></i>
+
+<p align=justify>Pod nimi wstawiamy fragment kodu definiujący zmienne (nazwa jest oczywiście dowolna) zawierające parametry czcionki i tekst:
+
+<p><i>&lt;SCRIPT LANGUAGE=JavaScript></i>
+<br><i>MyText="Tutaj jest tekst wyświetlany w okienku"</i>
+<br><i>MyFont=”Helvetica,10,,italic”</i>
+<br><i>&lt;/SCRIPT&gt;</i>
+
+<p align=justify>i w pliku HTML tworzymy na końcu np. odnośnik, po kliknięciu którego pokaże się nasze okienko:
+
+<p><i>&lt;A HREF=JavaScript:okienko.TextPopup(MyText,MyFont,9,9,-1,-1)>Kliknij&lt;/A></i>
+
+<p align=justify>Jako dwa pierwsze parametry metody TextPopup podajemy nazwy zdefiniowanych zmiennych, następnie wartości marginesów poziomych i pionowych (pomiędzy tekstem i brzegami okienka) oraz kolory czcionki i tła (można też użyć „-1” – będą standardowe) w formacie RRGGBB (można sobie poeksperymentować z tymi atrybutami - wystarczy z menu głównego <b>„Test”</b> wybrać polecenie <b>„Pop-up Attributes”</b>).
+
+<p align=justify>Jeżeli chcemy w takim okienku pokazać coś więcej (np. rysunek), możliwości są dwie:
+
+<ol>
+<li><div align=justify>do tematu z pomocą w pliku CHM wstawiamy odwołanie do tematu znajdującego się w oddzielnym pliku HLP (szerzej jest to opisane w pomocy HTML Help Workshop)</div></li>
+
+<li><div align=justify>tworzymy i wyświetlamy nowe okno korzystając z jednej z wymienionych wcześniej metod. Jest oczywiście pewna wada tego rozwiązania: okno takie będzie miało na stałe ustawione rozmiary (nie będzie automatycznie przyjmowało rozmiarów tego, co się w nim znajdzie) i położenie.</div></li>
+</ol>
+
+<p align=justify>Pozostała jeszcze do wyjaśnienia kwestia definiowania następnych okien w projekcie. Wystarczy w tym celu kliknąć ikonę <img SRC="sites/default/files/129/image2_0.gif" height=26 width=26> w opcjach projektu zbioru CHM, a następnie w zakładce <b>„General”</b> nacisnąć przycisk <b>„Add”</b> i wpisać nazwę tworzonego okna. Po tej czynności wystarczy już tylko wybrać w polu <b>„Window type”</b> (znajduje się w każdej zakładce) podaną przed chwilą nazwę i można zmieniać interesujące parametry (a więc np. wygląd, położenie, itp.).
+
+<p align=justify>Po zdefiniowanu okna możliwe jest wymuszenie, aby każda pozycja w indeksie i spis treści była w nim wyświetlana (w opcjach pozycji w polu <b>„Window”</b> należy podać nazwę, pod jaką zapisana jest jego definicja).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=pokrewne></a><font color="#1F409F" size=+2 class="dzial"><b>Tematy pokrewne</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Bez problemu jednak można wstawić do pliku z tematem przycisk wyświetlający tzw. tematy pokrewne (odnośniki do wszystkich tematów, które uznaliśmy za powiązane z danym).
+
+<p align=justify>Otwieramy kreatora kontrolki ActiveX (z menu głównego <b>„Tags”</b> należy wybrać opcję <b>„HTML Help Control”</b>) i w polu <b>„Specify the command”</b> wybieramy <b>„Related topics”</b>.
+
+<p align=justify>Po naciśnięciu OK przechodzimy do kolejnego okna. Znajdują się tam opcje pozwalające zdecydować, czy chcemy, aby do dokumentu został wstawiony przycisk (opcja <b>„As a button”</b>) czy tylko obiekt używany w językach skryptowych (opcja <b>„Hidden (only used for scripting)”</b>). Zaznaczamy pierwszą z nich. Pole <b>„Display on a pop-up menu”</b> pozwala wybrać, czy życzymy sobie pokazywania menu z nazwami po kliknięciu na przycisk/wywołaniu obiektu. Pole <b>„Display dialog or menu even if only one title”</b>, czy ma być pokazywane cokolwiek, jeżeli wstawimy tylko jeden temat pokrewny (jeżeli jej nie zaznaczymy, system od razu będzie do niego przechodził).
+
+<p align=justify>Następnie zostaniemy zapytani o wygląd tworzonego przycisku.
+
+<p align=justify>Potem przechodzimy do ekranu, w którym należy wstawić żądane przez nas tematy (przycisk <b>„Add”</b>), zmieniać je (<b>„Edit”</b>) albo usuwać (<b>„Remove”</b>).
+
+<p><b>Przykłady</b>
+
+<ul>
+<li><div align=justify>w tym przypadku po naciśnięciu przycisku lewym klawiszem myszy wyświetli się lista z tematami pokrewnymi. Lista pokazywana po naciśnięciu prawego klawisza myszy powinna prowadzić do okna z informacjami o nich (ale opcja "jeszcze" nie działa :-)):</div>
+<p><i>
+&lt;OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100&gt;
+    &lt;PARAM name="Command" value="Related Topics, MENU"&gt;
+    &lt;PARAM name="Button" value="Text:Tematy pokrewne"&gt;
+    &lt;PARAM name="Item1" value="Rozbudowany projekt;../mywww/_www.htm"&gt;
+    &lt;PARAM name="Item2" value="Spis treści w DHTML;../skrypt/skrypt.htm"&gt;
+&lt;/OBJECT&gt;</i></p>
+</li>
+
+<li><div align=justify>tym razem zamiast listy pokazywane jest okienko. Reakcja na prawy klawisz myszy jest ciągle ta sama:</div>
+<p><i>
+&lt;OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100&gt;
+    &lt;PARAM name="Command" value="Related Topics"&gt;
+    &lt;PARAM name="Button" value="Text:Tematy pokrewne"&gt;
+    &lt;PARAM name="Item1" value="Cicha rewolucja;mk:@MSITStore:chm.chm::/htmlhelp/help1.htm;../ten_plik/chm.htm"&gt;
+    &lt;PARAM name="Item2" value="Na ratunek !;mk:@MSITStore:chm.chm::/htmlhelp/help2.htm;../ten_plik/chm.htm"&gt;
+&lt;/OBJECT&gt;</i>
+
+</li>
+
+<li><div align=justify>po kliknięciu tego linku zostanie wyświetlony artykuł z pliku chm.chm albo (o ile plik nie zostanie znaleziony) pokazany zostanie komunikat. Wykorzystany został tutaj obiekt "obiekcik":</div>
+
+<p><i>
+&lt;a href=javascript:obiekcik.Click()&gt;link&lt;/a&gt;</i>
+
+<p align=justify>Definicja "obiekciku" jest następująca (zawiera wywoływany plik <b>mk:@MSITStore:chm.chm::/htmlhelp/help2.htm</b> i plik <b>../ten_plik/chm.htm</b> z komunikatem):
+<p><i>&lt;OBJECT id=obiekcik type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"&gt;
+    &lt;PARAM name="Command" value="Related Topics"&gt;
+    &lt;PARAM name="Item1" 
+ value="HTML na ratunek;mk:@MSITStore:chm.chm::/htmlhelp/help2.htm;../ten_plik/chm.htm"&gt;
+&lt;/OBJECT&gt;</i>
+
+<p>Link jest już prawie "normalny":
+<p><i>&lt;a href=javascript:obiekcik.Click()&gt;link&lt;/a&gt;</i>
+</li>
+</ul>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=InneActiveX></a><font color="#1F409F" size=+2 class="dzial"><b>Inne możliwości kontrolki ActiveX</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Używana kontrolka ActiveX pozwala jeszcze na uzyskanie kilku innych efektów:
+
+<ol>
+<li><div align=justify>rysunku powitalnego, który będzie wyświetlany w oddzielnym okienku po otwarciu danego tematu pomocy (przez podany czas albo do momentu kliknięcia na nim) – przykładem takiego rysunku jest powitanie w HTML Help Workshop. Aby wykorzystać tę możliwość, należy w pierwszym ekranie kreatora kontrolki ActiveX wybrać opcję <b>„Splash screen”</b>, a następnie podać nazwę wyświetlanego rysunku i czas jego wyświetlania.</div></li>
+
+<li><div align=justify>odwołania do tematu w normalnym pliku HLP (w pierwszym oknie kreatora kontrolki ActiveX wybieramy <b>„WinHelp topic”</b>).</div></li>
+
+<li><div align=justify>zamykanie aktualnie otwartego okna (w pierwszym ekranie kreatora kontrolki ActiveX wybieramy <b>„Close Window”</b>)</div></li>
+</ol>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Decompile></a><font color="#1F409F" size=+2 class="dzial"><b>Dekompilacja plików CHM</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Jeżeli chcemy rozpakować gotowy zbiór CHM i uzyskać pliki, które wchodziły w skład jego projektu, należy z menu <b>„File”</b> wybrać opcję <b>„Decompile”</b>. W otwartym okienku w polu <b>„Destination folder”</b> należy wybrać folder, w którym mają się znaleźć rozpakowane pliki (w celu zachowania porządku na dysku lepiej więc chyba będzie utworzyć jakiś nowy do tego celu). Konieczne jest też oczywiście podanie pliku do rozpakowania – służy do tego pole <b>„Compiled help file”</b>. Później już tylko trzeba nacisnąć OK i program przystąpi do tej operacji.
+
+<p align=justify>Niestety, najnowsze wersje (1.21, 1.3) HTML Help Workshop mogą mieć problemy z dekompilacją niektórych plików CHM. Najciekawsze jest jednak to, iż zbiór HHW.EXE z wersji 1.1 tego pakietu radzi sobie z ich rozpakowaniem bez problemu (wydaje się więc, że jest to jakiś błąd w tym programie - <a href="http://www.keyworks.net/">KeyTools</a> radzi sobie z tym doskonale).
+
+<p align=justify>Czytelnikom, którzy nie zainstalowali w swoim systemie jeszcze pakietu HTML Help Workhop, można więc polecić jedno: instalację starszej jego wersji (1.1), zrobienie kopii pliku HHW.EXE, odinstalowanie pakietu i instalacja wersji 1.21. Przez takie działanie otrzymują oni w miarę nową wersję programu i bibliotek wersji HTML Help do normalnej pracy, jak również możliwość dekompilacji owych plików (przy użyciu starszej wersji).
+
+<p align=justify>Metoda ta niestety zawodzi, gdy zainstalujemy pakiet w wersji 1.3. Pojawia się bowiem następujący problem: plik HHW.EXE z wersji 1.1 zmienia bez ostrzeżenia w Rejestrze systemu ścieżki dostępu m.in. do niektórych rozszerzeń plików. Po takiej „korekcie” nowsza wersja tego programu już nie chce się uruchomić, nie działa także po ponownym jej zainstalowaniu. Aby to naprawić, należy w Rejestrze pozmieniać ścieżki dostępu do starszego pliki HHC.EXE na ścieżki dostępu do nowszego.
+
+<p align=justify>Jeżeli natomiast wystarczą nam tylko informacje o tym, co właściwie znajduje się w którymś z gotowych zbiorów CHM, można użyć opcji <b>„CHM Information”</b> z menu <b>„File”</b>. Po zaznaczeniu znajdujących się tam opcji i podaniu nazwy tego pliku pozwoli nam ona wyświetlić listę wkompilowanych zbiorów oraz niektóre informacje o opcjach użytych podczas jego tworzenia…
+
+<p align=justify>Warto zauważyć również, że standardowo w zbiorach CHM nie są umieszczane zbiory HHP z ustawieniami projektu. Jeżeli chcielibyśmy je mieć po ich rozpakowaniu, przez ich kompilacją należy dodać je w okienku wyświetlanym po kliknięciu ikonki <img SRC="sites/default/files/129/image5_0.gif" height=26 width=26> w opcjach projektu. Jeżeli jednak o tym zapomnieliśmy, możemy spróbować rozpakować zbiór CHM używając odpowiedniej opcji programu <a href="http://www.keyworks.net/">KeyTools</a> (tworzy on automatycznie plik projektu na podstawie opcji użytych podczas kompilacji zbioru CHM).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=WWW></a><font color="#1F409F" size=+2 class="dzial"><b>Witryny WWW w technice HTML Help</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>HTML Help pozwala również przygotowywać witryny WWW zawierające spis treści lub indeks - w tym celu można użyć wspomnianej kontrolki ActiveX. Wystarczy więc przygotować sobie witrynę WWW z podziałem na ramki – w lewej spis treści, w prawej tematy. Ponieważ jednak takie rozwiązanie ograniczałoby liczbę potencjalnych odbiorców tylko do użytkowników Internet Explorera (jedynie on obsługuje ActiveX), zamiast kontrolki można użyć apletu Javy dostarczanego z HTML Help Workshop. Jego zaletą jest to, iż działa w większej ilości przeglądarek, wadą – brak obsługi polskich liter.
+
+<p align=justify>Bardzo dobrym przykładem wykorzystania opisanych możliwości jest pomoc programu <a href="http://www.logomanager.co.uk">Logo Manager</a>. Dostępna jest ona na stronie WWW (wykorzystuje aplet Javy) oraz jako plik CHM rozprowadzany z programem. Najciekawsze jest jednak to, iż autor nie musiał tworzyć dwóch jej wersji – wykorzystał te same pliki z tematami, ten sam zbiór HHC ze spisem treści, itp. Dodatkowo, pomoc na stronie WWW może być odczytywana przez różne przeglądarki (nie tylko Internet Explorera). Dzieje się tak, gdyż w kodzie stron z tematami nie używano opisywanej wcześniej kontrolki ActiveX.
+
+<p align=justify>Przykład wykorzystania kontrolki i apletu: <a href=sites/default/files/129/_www.zip>Pobierz</a>
+
+<p align=justify>Instrukcja obsługi do przykładu: spis treści wyświetlane z użyciem kontrolki ActiveX lub apletu Javy techniki HTML Help można wykorzystać również w bardzo skomplikowanych projektach. Ten, który przygotowałem, jest w miarę prostym systemem pozwalającym katalogować zbiory oraz wyszukiwać w nich dokumenty (pliki HTML, dokumenty Worda, Excela, itp.). Może on także wyświetlać spis treści używając "czystego" JavaScript albo pewnych właściwości styli... Co więcej, jego rozbudowa sprowadza się do edycji 3 plików w JavaScript i uruchomienia pliku wsadowego BAT aktualizującego całość. Część zastosowanych rozwiązań może funkcjonować także samodzielnie (np. skrypt konwertujący polskie litery).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Ikonki2></a><font color="#1F409F" size=+2 class="dzial"><b>Ikony w spisie treści</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Na koniec jeszcze kilka słów o ikonach dostępnych w spisie treści w skompilowanych zbiorach CHM i na stronach WWW. Przede wszystkim możliwe jest zdecydowanie, czy przy kolejnych pozycjach w spisie mają być pokazywane rozwijane „książeczki” znane z klasycznych plików czy foldery znane z Eksploratora. Do zmiany ustawienia należy otworzyć okno zawierające opcje spisu treści i zaznaczyć opcję <b>„Use folder instead of books”</b> znajdującą się w zakładce <b>„General”</b> (jeżeli chcemy wybrać drugą z tych możliwości) albo ją odznaczyć (pierwsza z nich).
+
+<p align=justify>Możliwe jest także użycie samodzielnie definiowanych ikon, ale tylko w spisach treści wyświetlanych na stronach WWW (z niewiadomych powodów po zdefiniowaniu ikon i umieszczeniu ich w spisie treści wewnątrz skompilowanego zbioru CHM system nie potrafi znaleźć pliku z ikonami).
+
+<p align=justify>Należy w tym celu przygotować sobie własny plik z nimi (jest to opisane w ramce obok). Następnie w opcjach spisu treści (okienko wyświetlane po kliknięciu ikony <img src=sites/default/files/129/image6_0.gif> w zakładce spisu treści) należy zaznaczyć opcję <b>„Use custom images from a file”</b> w zakładce <b>„General”</b>. W polu <b>„Image file”</b> podajemy nazwę pliku graficznego z nimi (więcej o jego budowie znajduje się w ramce obok), ewentualnie wybieramy go przy użyciu przycisku <b>„Browse”</b>.
+
+<p align=justify>Po tych zmianach zamykamy projekt i w pliku HHC (zbiorze ze spisem treści) odszukujemy linijkę
+
+<p><i>&lt;param name="Image Width" value="16"></i>
+
+<p align=justify>zamiast 16 wstawiając szerokość dowolnej z ikon w pliku z nimi. Niestety, jest to jedyny sposób, aby to zrobić - na zmianę pola <b>„Width of each icon in the image”</b> HTML Help Workshop nie reaguje poprawnie.
+
+<p align=justify>Potem można otworzyć projekt z powrotem - widać, że na przyciskach do edycji i w podglądzie tworzonego spisu treści wyświetlane są już ikony ze wskazanego pliku.
+
+<p align=justify>Jeżeli będziemy chcieli zrezygnować z własnych ikon, odznaczenie opcji <b>„Use custom images from a file”</b> nic nie da – linijkę z nazwą pliku z ikonami ze zbioru HHC trzeba usunąć ręcznie.
+
+<p align=justify>Czy nie można więc skorzystać ze zdefiniowanych przez siebie ikonek w zbiorach CHM ? Można, w skrócie wygląda to tak: należy zbudować witrynę WWW, w której spis treści i indeks będą wyświetlane z użyciem kontrolki ActiveX wstawionej do pliku HTML. Następnie definiujemy okno (pozbawiając je niestety zakładek z ulubionymi i możliwością przeszukiwania pliku CHM oraz przycisków wyświetlanych na górze okna – odznaczając opcję <b>„Window with navigation pane, topic pane, and button”</b> w jego opcjach) i wyświetlamy w nim plik wczytujący naszą witrynę.
+
+<p><a href=#ikony>Więcej o ikonach</a>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Internet</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p>
+<ul>
+<li><div align=justify>pomoc programu Logo Manager online - <a href="http://www.logomanager.co.uk/help/">http://www.logomanager.co.uk/help/</a></div></li>
+<li><div align=justify>przykładowa witryna WWW - <a href="http://msdn.microsoft.com/library/tools/htmlhelp/wkshp/sampleweb.htm">http://msdn.microsoft.com/library/tools/htmlhelp/wkshp/sampleweb.htm</a></div></li>
+<li><div align=justify>KeyTools - <a href="http://www.keyworks.net/">http://www.keyworks.net/</a></div></li>
+</ul>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+<!--comments-->
+Title:dzieki za szegolowy artykul o
+ID:526
+Author:Anonymous (not verified)
+When:9 Sep 2010
+
+<p>dzieki za szegolowy artykul o ikonach</p>

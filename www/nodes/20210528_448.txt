@@ -1,0 +1,219 @@
+﻿Title:MacBook Air, a tani laptop innego producenta (2021)
+Author:marcin
+When:28 May 2021
+Taxonomy:polski,polski blog,salon24.pl,x86,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1138623,macbook-air-a-tani-laptop-innego-producenta>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dzisiaj chciałbym zrobić coś szalonego – porównam pasywnie chłodzony sprzęt uwielbianego owocowego producenta z wyrobem firmy Acer (<a href="?q=node/447">Acer Swift 1, który ostatnio recenzowałem</a>). Wspomnę głównie o MacBooku Air z procesorem M1, co nieco o starszych wersjach, jak również różnych innych laptopach.<br />
+<br />
+Czy jabłko potrafi obronić się samo i wykaże swoją przewagę w każdej kategorii, bez całego marketingowego „hype”?<br />
+<!--break-->
+<br />
+Zapraszam.<br />
+</p>
+<h1>Ekran</h1>
+<p>Jest to pierwszy element, na który zawsze zwracam uwagę. Firma Apple w przeszłości potrafiła mnie bardzo pozytywnie zaskoczyć – np. iPod Nano z 2012 po naklejeniu odpowiedniej folii w mojej ocenie generował o wiele lepszy obraz niż późniejsze drogie produkty innych firm.<br />
+<br />
+Model Air przez lata traktowany był trochę po macoszemu (duże ramki, <a href="https://www.notebookcheck.net/The-Apple-MacBook-Air-2020-is-30-brighter-when-you-use-Windows.464451.0.html" target="_blank" rel="nofollow noopener">niższa jasność pod Mac OS niż Windows</a>, etc.), obecnie jednak może pochwalić się matrycą IPS 13,3” w formacie 16:10 (najprawdopodobniej 8-bitową), szklaną powierzchnią, dużą rozdzielczością 2560x1600 (PPI 227), sporą jasnością (ok. 417 cd/m2) i dobrym, choć nie najwyższym na rynku kontrastem (1070:1). Spokojnie można powiedzieć, że Apple przykłada dużo starań do tego, żeby obraz był wysokiej jakości. Mamy rozwiązanie „True Tone”, czyli automatycznie dostosowywanie temperaturę kolorów. W następnych latach powinniśmy zobaczyć ekrany w technologii microLED, co oznacza, że każdy punkt na ekranie będzie miał swoje własne niezależne podświetlenie (<a href="https://www.pcworld.pl/news/Wyswietlacz-XDR-Mini-LED-w-iPadzie-Pro-12-9-z-problemami,428051.html" target="_blank" rel="nofollow noopener">na razie wydają się one cierpieć na choroby wieku dziecięcego</a>).<br />
+<br />
+W tym nieskazitelnym wizerunku są jednakże zgrzyty, i jeżeli przyjąć modną w USA retorykę, to ktoś chyba powinien złożyć pozew, że firma nie informuje o negatywnym wpływie ekranu na zdrowie użytkownika (ewentualnie, że dyskryminuje osoby ze słabszym wzrokiem).<br />
+<br />
+Pierwszym problemem są odblaski światła. Apple przez chwilę sprzedawało MacBooki Pro z ekranami matowymi (od 2009 bodajże do 2011), obecnie pozwala dodać powłokę matową do stacjonarnego 27-calowego iMaca (za jedyne 1500 PLN), ale w przypadku komputerów przenośnych trwa przy szkle z naniesioną warstwą antyrefleksyjną. Nie zawsze działa ona idealnie, dodatkowo w przeszłości zdarzyły się związanie z nią akcje serwisowe (<a href="https://boncode.hk/hk/blog/staingate/" target="_blank" rel="nofollow noopener">więcej na stronie Staingate</a>, <a href="https://en.wikipedia.org/wiki/Staingate" target="_blank" rel="nofollow noopener">ewentualnie w Wikipedii</a>).<br />
+<br />
+Myślę, że problem odbić można całkowicie wyeliminować wykorzystując odpowiednią folię, ale… jak dotąd nigdzie nie udało mi się przeczytać profesjonalnego porównania różnych tego typu rozwiązań i nie widziałem żadnego dobrego na żywo.<br />
+<br />
+Czy nie można by nakładać takiej folii w środowisku bezpyłowym już w fabryce?<br />
+<br />
+Kwestią dyskusyjną jest też PWM, używane w tym laptopie poniżej 50% jasności – <a href="https://laptopmedia.com/review/apple-macbook-air-late-2020-review-the-macbook-air-is-a-more-viable-option-than-ever/" target="_blank" rel="nofollow noopener">na laptopmedia nie ma o nim wzmianki</a>, <a href="https://www.notebookcheck.net/Apple-MacBook-Air-2020-M1-Entry-Review-Apple-M1-CPU-humbles-Intel-and-AMD.508057.0.html" target="_blank" rel="nofollow noopener">na notebookcheck wspomniano o częstotliwości 118 000 Hz</a>. Jest to bardzo duża wartość (być może dlatego laptopmedia jej nie zauważył) i większość ludzi nie powinna mieć z nią problemów (<a href="https://www.notebookcheck.net/Why-Pulse-Width-Modulation-PWM-is-such-a-headache.270240.0.html" target="_blank" rel="nofollow noopener">według niektórych opracowań dolegliwości zdrowotne znikają powyżej 3000 Hz</a>).<br />
+<br />
+Skoro jednak użyto tak wysokiej częstotliwości, to czy oszczędność energii rzeczywiście jest tak duża? Jeżeli nie, to dlaczego Apple w ogóle zastosowało tę technologię w produkcie klasy premium?<br />
+<br />
+Zupełnie innym problemem są oszczędności w projekcie. Nie chcę tutaj otwarcie pisać o planowanym postarzaniu, ale z jednej strony dostajemy jakość marki premium, z drugiej strony widać np. <a href="https://antyweb.pl/kolejne-sadowe-problemy-apple-sedzia-nie-zostawia-na-koncernie-suchej-nitki/" target="_blank" rel="nofollow noopener">używanie „chyba najtańszej i najbardziej tandetnej tasiemki, jaką dało się znaleźć na chińskim rynku”</a> (problem dotyczył MacBooków z 2016 i 2017 roku, i stał się przyczyną do pozwu zbiorowego)<br />
+<br />
+Acer Swift 1 teoretycznie używa matryc matowych (piszę teoretycznie, gdyż w <a href="?q=node/447">moim egzemplarzu testowym</a> opisałbym powłokę jako półmatową). Są wykonane w technologii IPS, w stosunku do Apple mają większą powierzchnię (14”), niższą rozdzielczość (1920x1080) i przez to niższe PPI 157, niższą jasność (ok. 250 cd/m2) i gorsze pokrycie barw (+ natywne wsparcie dla kodowania koloru na 6-bitach). W zależności od modelu ekranu dostajemy PWM (albo i nie), różny może być kontrast (<a href="https://www.notebookcheck.net/Acer-Swift-1-SF114-32-N5000-SSD-FHD-Laptop-Review.303606.0.html" target="_blank" rel="nofollow noopener">mój według notebookcheck.net wynosi 1923:1</a>), możliwe jest nierównomierne podświetlenie albo bardzo sporadyczne wyłączanie się obrazu (to zauważyłem u siebie i mogło być związane ze sterownikami karty graficznej). <br />
+<br />
+Istotne jest w tym, że poprzeczka w segmencie podstawowym została ustawiona wysoko, i choć widoczne są pewne niedociągnięcia (do zaakceptowania w żądanej cenie), to jednym będą one przeszkadzać, a innym zupełnie nie.<br />
+<br />
+Czyżby czas słabych ekranów bezpowrotnie mijał?<br />
+<br />
+Wisienką na torcie jest to, że matryce Swifta powinny charakteryzować się niższym zużyciem energii niż w produkcie Apple. Ten ostatni wniosek można wyciągnąć np. na podstawie <a href="https://www.notebookcheck.net/HP-EliteBook-840-G4-What-is-the-best-display-option.223934.0.html" target="_blank" rel="nofollow noopener">testu HP EliteBook 840 G4 (z matrycą o wyższej rozdzielczości osiągał w testach czas pracy na baterii krótszy o ok. 16%)</a> albo tego, że jednym ze sposobów oszczędzania energii w telefonach jest właśnie zmniejszenie rozdzielczości (wtedy mniej jest danych do przetworzenia dla karty graficznej).<br />
+<br />
+A do tego format 16:10 (Apple) różni się od 16:9 (Swift) – <a href="https://pclab.pl/art49205-4.html" target="_blank" rel="nofollow noopener">całkiem niezłą próbę porównania ilości danych na ekranie zrobił kiedyś ś.p. PcLab</a>.<br />
+<br />
+Co można powiedzieć o innych laptopach z procesorami AMD albo Intel? Potrafią obecnie oferować matryce OLED (wyższe zużycie energii, parametry przewidywane dla rozwiązań microLED) albo o niższym poborze mocy (LPS), lepsze modele dają co najmniej panele 8-bitowe, z pełnym pokryciem barw albo o odświeżaniu wyższym niż 60Hz.<br />
+<br />
+Według mnie – każdy z konkurentów ma coś innego do zaoferowania. Ekrany Apple wydają się mocno wygrywać, ale… nie zawsze bywają najlepsze.<br />
+<br />
+<b>1:1</b><br />
+</p>
+<h1>Dysk<br />
+</h1>
+<p>Koszt sprzętu bywa obecnie śmiesznie niski w porównaniu do kosztu danych na nim zapisanych.<br />
+<br />
+Najtańsze komputerki Acera fabrycznie dostępne są w wersji z dyskami SSD (montowanymi w odpowiednim złączu) albo pamięciami eMMC (lutowanymi na płycie głównej). W przypadku eMMC problemem może być określenie stopnia zużycia układu (wszystko zależy od tego, który model został użyty, a odpowiednia diagnostyka zaczyna być standardem dopiero w przypadku obsługi eMMC 5.0), dodatkowo zmiana będzie wymagać lutowania, a przez to wizyty w serwisie. Konfiguracje z eMMC mają możliwość dodania dysku SSD, przy czym <a href="?q=node/447">w przypadku starszego modelu SF114-32 z 2018 roku, który opisywałem</a>, różnie może wyglądać kwestia kompatybilności&nbsp; (dodatkowo dodanie drugiego dysku raczej zmniejszy czas pracy na baterii)<br />
+<br />
+Testowany przeze mnie komputer przyszedł z dyskiem SSD firmy WD i niewiadomym zużyciem (przyznaję się, że tego nie sprawdziłem). Zaraz po reinstalacji systemu miał zapisane około 700 GB (chyba 694 GB), obecnie po kilku dniach czy bardziej tygodniach widzę 720 GB, co daje mniej więcej 1-1.5GB dziennie. Kolosalnie dużym plusem jest możliwość własnoręcznej wymiany na mniejszy / większy model, czy też model z mniejszym zużyciem energii / większym TBW.<br />
+<br />
+Obecny MacBook ma kość lutowaną do płyty głównej. Jakiś czas temu donoszono o jej ponadnormatywnym zużyciu (np. <a href="https://medium.com/codex/the-shocking-discovery-of-apple-m1-ssd-that-you-need-to-know-a3a5415df1db" target="_blank" rel="nofollow noopener">"The Shocking Discovery of Apple M1 SSD That You Need to Know"</a>), a różne informacje na ten temat podsumowuje poniższe wideo<br />
+<br />
+<iframe width="673" height="355" src="https://www.youtube.com/embed/e8aCgnb_RQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Nie chciałbym tutaj wchodzić w teorie typu „MacOS celowo zapisuje dużo danych” (z drugiej strony <a href="https://www.tomshardware.com/news/apple-fixes-ssd-wear-out-reporting-issues" target="_blank" rel="nofollow noopener">problem podobno rozwiązano w MacOS 11.4</a>), szczególnie, że swapfile chyba nadal można wyłączyć. Na pewno ważne jest to, że wielu użytkowników wykorzystuje moc tych komputerów do przetwarzania dużej ilości danych (montowanie filmów, kodowanie, etc.), a firma Apple, tak podobno ekologiczna, wybitnie przyczynia się do generowania elektrośmieci. Problemem pozostaje to, że producent nie podaje wartości TBW (który określa, jaki poziom zapisu jest gwarantowany), jak i to, że <a href="https://www.macrumors.com/2021/04/06/m1-mac-ram-and-ssd-upgrades-possible/" target="_blank" rel="nofollow noopener">ewentualna możliwość wymiany istnieje wyłącznie przez lutowanie</a>.<br />
+<br />
+Jest to żenada, którą można porównać jedynie z używaniem dysków eMMC, a gdy nie wiadomo, o co chodzi, to chodzi o pieniądze. Większa pojemność dysku kosztuje u Apple dodatkowo 1000 PLN (512GB zamiast 256GB), 2000 PLN (1TB zamiast 256GB) lub 4000 PLN (2TB zamiast 256GB). <br />
+<br />
+Do tego dochodzi to, że dyski Apple są wolniejsze niż to, co można umieścić w droższych laptopach (może nie w Swift 1, ale w innych tak)<br />
+<br />
+<b>1:0 dla Acera</b> (przykładowy Intel 660p 2TB to koszt „zaledwie” ok. 2100 PLN, a dodatkowo zatrzymujemy stary dysk, który można zutylizować lub wykorzystać)<br />
+</p>
+<h1>Procesor</h1>
+<p>Celowo nie rozpocząłem całości od tego punktu.<br />
+<br />
+M1 to układ wydajny, który pomimo różnych chorób wieku dziecięcego zrobił duże wrażenie na użytkownikach. Nie ma się czemu dziwić – jego parametry były i są porównywalne w droższymi, a nawet topowymi jednostkami Intela czy AMD (które często nie są w stanie mu dorównać)<br />
+<br />
+Jedyne, co firma mogła zrobić, to jeszcze lepsze chłodzenie wersji Air:<br />
+<br />
+<iframe width="710" height="355" src="https://www.youtube.com/embed/MlOPPuNv4Ec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Możliwa tego przyczyna to problem z temperaturą (laptop nie może być za gorący od dołu), ale z drugiej strony dlaczego nie przykleić procesora z tyłu ekranu albo nie zrobić jakiejś innej sprytnej sztuczki?<br />
+<br />
+Pentium N5000 w Acerze to zaledwie karzełek, a porównanie czystych testów pokazuje tutaj miażdżącą przewagę produktu Apple (w testach Cinebench R15 robionych przez notebookcheck.net mówimy o wartościach ok. 230 / 1020, 76 / 208, 500 / 1863, 173 / 401, a więc jest on 2x – 4x szybszy)<br />
+<br />
+Żeby mieć jasność – w laptopach zdarzają się układy AMD, które we wspomnianym teście potrafią osiągnąć nawet 1200 punktów (co jest 5x szybsze od N5000). Dużą rolę wydaje się też odgrywać procesor technologiczny – Apple ma 5nm, AMD 7nm, a Intel 10 lub 14nm (nie wnikam, na ile można porównywać te liczby)<br />
+<b><br />
+Mimo wszystko 1:0 dla Apple</b> (o karcie graficznej nie pisałem, a ta w przypadku M1 też jest więcej, niż wystarczająca)<br />
+</p>
+<h1>RAM</h1>
+<p>Standardem w świecie Apple stało się 8GB, kolejne 8GB dostępne jest za dopłatą 1000 PLN (jeżeli chcemy oszczędzić sobie dysk, należy oczywiście wybrać droższą opcję). W tańszym świecie Intela pojemności zaczynają się od 4GB – do bardzo podstawowych zadań to wystarczy, w trochę poważniejszych zastosowaniach będzie zdecydowanie za mało.<br />
+<br />
+Standardem, a właściwie plagą, staje się lutowanie układów. Można je wytłumaczyć oszczędnością miejsca, większą prędkością i kosztami produkcji, z drugiej strony generuje to elektrośmieci (nie wszyscy użytkownicy decydują się na płatny serwis), a do tego są modele, które w bardzo kompaktowych obudowach wciąż oferują przynajmniej jeden slot i pozwalają na użycie 16, 32, a czasem nawet 64 GB RAM.<br />
+<br />
+Zapomniałbym jeszcze, że pamięci Acera nie są bardzo szybkie, i w moim wypadku działają w trybie jednokanałowym. Nie jest to ogromna wada, ale zawsze... <br />
+<br />
+W starciu obu konkurentów zdecydowanie wygrywa Apple, choć mam tutaj pewne wątpliwości (SO-DIMM 8GB można już mieć mniej więcej za 55PLN i ma to się nijak do żądanych 1000PLN)<br />
+<br />
+<b>1:0 dla Apple</b><br />
+</p>
+<h1>Klawiatura<br />
+</h1>
+<p>Przez długi czas (2015-2019) klawiatura motylkowa stanowiła piętę achillesową urządzeń mobilnych Apple, a firma wymieniała wadliwe klawiatury na kolejne z tą samą wadą. <a href="https://support.apple.com/pl-pl/keyboard-service-program-for-mac-notebooks" target="_blank" rel="nofollow noopener">Pojawił się nawet program serwisowy</a>, zaś niesmak pozostał.<br />
+<br />
+Klawiatura w Acerze może nie jest tej samej klasy (np. ktoś może powiedzieć, że spasowanie nie jest idealne) i kopiuje niekoniecznie dobre rozwiązania innych producentów (np. układ), ale działa bez żadnych problemów.<br />
+<br />
+<b>1:1</b><br />
+</p>
+<h1>Złącza<br />
+</h1>
+<p>Apple jest znane z promowania nowoczesnych standardów z dużymi prędkościami transmisji (a przede wszystkim łączności bezprzewodowej). Obecny MacBook Air ma tylko 2 porty USB-C. Użytkownik tego sprzętu powie, że to wystarczy. Mogę się zgodzić, że przy pracy mobilnej (laptop na kolanach) jest to w porządku… problem zaczyna się, gdy dochodzimy do pracy bardziej zaawansowanej (wtedy trzeba nosić oddzielny hub). Początkowe problemy wieku dziecięcego (<a href="https://spidersweb.pl/2021/01/spalilem-macbooka-pro-z-procesorem-m1.html" target="_blank" rel="nofollow noopener">huby USB potrafiły uszkodzić komputer</a>) wydają się być prawdopodobnie do końca rozwiązane wraz z MacOS 11.2.2, warte zauważenia jest to, że w przeszłości polecano np. ładowanie z prawej strony.<br />
+<br />
+W tej kategorii zdecydowanie wygrywa Acer – są różne typy portów USB, do tego HDMI, Kensington i (w starszych modelach) czytnik kart pamięci.<br />
+<br />
+Nie zapominajmy też o kartach chipowych – w niektórych firmach są podstawą, a wewnętrzne czytniki zdarzają się w konstrukcjach z Intelem i AMD (a tak profesjonalny Apple ich nie ma).<br />
+<br />
+<b>1:0 dla Acera</b> (celowo nie porównuję tu prędkości, gdyż użytkownicy przecież nie spędzają 100% czasu na kopiowaniu danych)<br />
+</p>
+<h1>Bateria<br />
+</h1>
+<p>Apple pisze o 18h, Acer o 17h.<br />
+<br />
+Zawsze, gdy czytam recenzje różnych produktów, to trochę śmiać mi się chce. <br />
+<br />
+Sprawdzanie czasu pracy przy minimalnej jasności ekranu, wyłączeniu różnych urządzeń czy braku aktywności ma się często nijak do tego, co wykonuje użytkownik. Testy obciążenia też potrafią być niemiarodajne – co innego możemy dostać, gdy temperatura otoczenia wynosi zero stopni, co innego, gdy jest pokojowa, a co innego, gdy mamy prawdziwe lato.<br />
+<br />
+Inną kwestią jest to, że sprawdza się bardzo często urządzenia nowe, a te mają baterie o pełnej pojemności. Testerzy produktów potrafią uzyskiwać bardzo dobre rezultaty, a dopiero potem katować sprzęt szybkim ładowaniem, ewentualnie ciągłą pracą przy pełnym obciążeniu, a więc również ogromnej temperaturze w środku (która wpływa na baterię).<br />
+<br />
+Ile więc komputer zużywa energii?<br />
+<br />
+Właściwa odpowiedź brzmi „komputer zużywa tyle, ile naładowano w baterii”<br />
+<br />
+Na pewno Apple z M1 zapisał się w zbiorowej świadomości jako ten, który ma bardzo dobre czasy pracy. Bardzo często są one zgodne z deklaracjami, zaś korporacja wydawała również poprawkę, dzięki której komputerki nie zużywają tyle energii w trybie czuwania (MacOS 11.3 wprowadził hibernację). <a href="https://support.apple.com/en-us/HT201585" target="_blank" rel="nofollow noopener">Dużym plusem jest jasne napisanie, że bateria powinna mieć 80% pojemności po 1000 cyklach ładowania</a> (ich ilość można sprawdzić w systemie operacyjnym) – konkurenci potrafią czasem deklarować swoje wsparcie tylko dla 100 cykli.<br />
+<br />
+Pewnym problemem modelu Air pozostaje jedynie zasilacz (fabryczny nie daje wszystkich możliwości), mimo to w tym obszarze czuć premium. Intel widzi tu zagrożenie, i dlatego <a href="?q=node/432">zaproponował certyfikację Intel Evo</a>, jak również <a href="https://www.youtube.com/c/Intel/search?query=justin%20gets%20real" target="_blank" rel="nofollow noopener">„zaatakował” swojego rywala serią reklam</a> i <a href="https://www.imore.com/intel-slams-apple-over-macbook-air-battery-lie-owns-itself-process" target="_blank" rel="nofollow noopener">bezpośrednią prezentacją o tym, że nie wszystko wygląda tak, jak Apple przedstawia</a>. Szkoda, że korporacja poszła tą drogą zamiast promować <a href="https://www.notebookcheck.net/Dell-Latitude-9510-2-in-1-Review-A-5G-15-inch-Convertible-That-Isn-t-Huge-Or-Unwieldy.481704.0.html" target="_blank" rel="nofollow noopener">modele, które potrafią działać na baterii prawie 60h</a> (oczywiście w specjalnych warunkach, ale to i tak wynik lepszy niż w Macbookach).<br />
+<br />
+A jak wypada Acer Swift 1?<br />
+<br />
+Mój egzemplarz nie ma szybkiego ładowania, ani zadeklarowanej degradacji baterii, za to jak dotąd trzyma się parametrów (i mogę potwierdzić, że jej pojemność spadła o 0.2% po kilka cyklach używania). <a href="?q=node/447">Więcej w recenzji</a>.<br />
+<br />
+<b>1:0.5 dla Apple</b><br />
+</p>
+<h1>Obudowa</h1>
+<p>Apple przez ostatnie lata wypromowało tanie aluminium jako materiał premium. Trzeba przyznać, że komputery w srebrze wyglądają nieźle. Inni producenci (np. Acer) podchwycili ten trend… z drugiej strony kolorem serii biznesowych często pozostaje czerń, i ta wydaje się jeszcze lepsza. Proszę w tym miejscu zauważyć, jak wiele modeli ma srebrny dół, i czarną obwódkę wokół wyświetlacza. Myślę, że jest pewien powód tego schematu – czerń nie tylko wygląda bardziej elegancko niż jasne kolory, ale… również mniej odbija światło.<br />
+<br />
+Ze szczegółów należy wymienić, że Acer Swift 1 rozkłada się na płasko, ale ma głośniki od dołu.<br />
+<br />
+<b>1:1</b><br />
+</p>
+<h1>Waga<br />
+</h1>
+<p>Oba urządzenia ważą ok. 1,2 – 1,3kg. Swoje potrafi ważyć hub, do tego dochodzi zasilacz.<br />
+<br />
+<b>1:1</b><br />
+</p>
+<h1>System</h1>
+<p><a href="https://support.apple.com/en-us/HT201372" target="_blank" rel="nofollow noopener">Strona „How to create a bootable installer for macOS”</a> podaje, że program instalacyjny wymaga połączenia internetowego do pobrania firmware i innych informacji specyficznych dla modelu. <a href="https://sneak.berlin/20201204/on-trusting-macintosh-hardware/" target="_blank" rel="nofollow noopener">To, że proces zerowania urządzenia występuje tylko w wersji online, to w pewnych zastosowaniach i środowiskach złamanie podstawowych zasad bezpieczeństwa</a>.<br />
+<br />
+A jak się zachowują „nieprofesjonalne” komputery innych firm? Microsoft udostępnia obrazy ISO dla wersji Windows 10 bez S (i podaje, jak ją włączyć), podobnie jest z systemami open-source.<br />
+<br />
+O innych kwestiach typu łatwość używania, logiczność, stabilność czy efektywność wykorzystywania zasobów nie chciałbym mówić, gdyż to temat rzeka. MacOS ma oczywiście opinię łatwego (i często jest), Windows 10 to nieustanny plac budowy z ogromnym garbem, a takie… Ubuntu czy inny stwór też jest, jaki jest.<br />
+<br />
+<b>1:0 dla Acera</b> (za uniwersalność i tak naprawdę, jeśli pominiemy kwestie potencjalnych dziur w Intel ME, UEFI czy procesorze, większe przystosowanie do środowisk profesjonalnych)<br />
+</p>
+<h1>Wsparcie<br />
+</h1>
+<p><a href="https://support.apple.com/pl-pl/HT211238" target="_blank" rel="nofollow noopener">Apple wspiera MacBook Air począwszy od wersji z 2013 (obecnie 8 lat)</a>, <a href="https://docs.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro" target="_blank" rel="nofollow noopener">Microsoft gwarantuje to dla Windows 10 do października 2025</a> (a więc 10 lat, gdyż produkt pojawił się w 2015).<br />
+<br />
+<b>1:0 dla Acera</b> (jeśli nie chcemy Windows, to mamy alternatywy z nieograniczonym wsparciem)<br />
+</p>
+<h1>Naprawialność</h1>
+<p>W przypadku Apple z generacji na generację chyba coraz gorsza, w przypadku Acera Swift 1 nie jestem jest w stanie ocenić, ale… jeśli nie on, to możemy znaleźć inne modele ze sporym możliwościami serwisu.<br />
+<br />
+Tutaj nie chcę wystawiać punktów, w przypadku Apple ogólnie odsyłam do <a href="https://www.youtube.com/user/rossmanngroup/videos" target="_blank" rel="nofollow noopener">kanału Louisa Rossmanna</a> albo odpowiednich filmików Daniela Rakowieckiego (np. <a href="https://www.youtube.com/watch?v=X8lWIKb-uWQ" target="_blank" rel="nofollow noopener">"Błędy konstrukcyjne MacBook vs Laptop - porównujemy Największe Porażki Apple"</a>)<br />
+</p>
+<h1>Podsumowanie</h1>
+<p>Można powiedzieć, że na rynku głównego nurtu mamy trzy opcje do wyboru: procesory ARM (najczęściej średnio wydajne i z bardzo różnym wsparciem), układy AMD x86 (bardzo wydajne, średnio dostępne, nie zawsze super efektywne energetycznie) i układy Intela x86 (albo dosyć drogie, średnio wydajne i średnie energetycznie, albo efektywne energetycznie, ale mało wydajne).<br />
+<br />
+Niektórzy oddzielnie dodają tutaj M1, wykonany w technologii ARM (jest to klasa sama w sobie). Macbook Air z tym układem to dzieło sztuki inżynierskiej, jednakże cena korzystania z niego jest straszna. <br />
+<br />
+I tak kolejne produkty Apple coraz bardziej zbliżają się do modelu, w którym coś jedynie wypożyczamy / leasingujemy (i to producent o wszystkim decyduje). Kuleje kwestia ekranu (problem zobaczą jedynie osoby ze słabszymi oczami) i ochrony danych (dysków nie można sobie wyjąć, a pewne podstawowe operacje wymagają dostępu do internetu), problematyczna może być również kwestia złączy. Niejako wisienką na torcie są <a href="https://antyweb.pl/apple-chiny-icloud-prywatnosc/" target="_blank" rel="nofollow noopener">różne zachowania się korporacji w pewnych krajach</a> (tak więc nabywając ten produkt potencjalnie również się do nich przyczyniamy). Są to skazy na wizerunku firmy i produktu, i o tym na pewno nie usłyszymy od różnych młodych, radosnych i kolorowych ludzi, którzy wolą mówić, że wszystko jest „okej”.</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ZbfPImDmj0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+(swoją drogą, koszt 7 egzemplarzy iMaca z ekranem 24 cali to minimum 6 799,00 PLN * 7 = 47 593 PLN)<br />
+<br />
+Czym więc jest ten tekst? Tendencyjną próbą dyskredytacji legendy? Werbalną racjonalizacją moich własnych wyborów? Próbą dorobienia ideologii do słabszego sprzętu?<br />
+<br />
+Nie mam ochoty niczego dyskredytować, wolę podawać suche fakty.<br />
+<br />
+Określenie „jak coś jest tanie, to nie jest dobre” nie wzięło się z niczego, z drugiej strony nawet najdroższe produkty mogą być koszmarne i nie bójmy się o tym mówić.. weźmy najbardziej topowe jednostki Intela, a nawet Della, który z uporem maniaka serwuje mruganie ekranu (<a href="https://www.notebookcheck.net/Dell-Latitude-14-9410-2-in-1-Convertible-Review-A-Latitude-7400-At-Heart.490048.0.html" target="_blank" rel="nofollow noopener">test takiego Dell Latitude 9410 2-in-1 wskazuje na częstotliwość PWM 1667 Hz poniżej 44% jasności</a>)&nbsp;&nbsp; <br />
+<br />
+Jak stwierdził niezawodny Rossmann, tak naprawdę obecnie wszyscy robią różne „optymalizacje”, a my tylko wybieramy smak.<br />
+</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/e48eYElm1R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+To dzieje się w różnych branżach – sam się ostatnio zdziwiłem, że w Tesli naładowanie głównej baterii do pełna nie gwarantuje, że auto uda się otworzyć i uruchomić.<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/NsKwMryKqRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Żeby była jasność - to prawda, że ten tekst napisałem głównie na komputerze Acera. To urządzenie kupowane raczej do konkretnych zadań (np. wklepywanie danych), ewentualnie wybierane z braku budżetu. W dniu dzisiejszym na taką konstrukcję trzeba wydać orientacyjnie 1000-2000 PLN, a propozycja z Cuppertino w oficjalnym polskim sklepie producenta kosztuje dokładnie 5199-10 449 PLN (nie doliczam oprogramowania). Załóżmy, że użytkownik wyda na Swifta średnio 1500 PLN, a w przypadku Apple zapłaci 5199 lub 6199 PLN (konfiguracja podstawowa + 8 GB RAM).<br />
+<br />
+Czy znacznie niższa cena produktu z Tajwanu rekompensuje to, że przy ekstremalnym oszczędzaniu energii uruchomienie LibreOffice trwa 10 sekund, a uruchomienie przeglądarki Edge 4 sekundy?<br />
+<br />
+Na to powinien sobie każdy odpowiedzieć sam.</p>
+<p>A czy warto kupić obecnego Aira, czy poczekać na model z M1X i ekranem miniLED?</p>
+<p>Nie wiem (to znaczy ja na pewno bym tak zrobił, ale... są różne potrzeby)<br />
+<br />
+W moim tekście MacBook Air otrzymał 7 punktów, a Acer Swift 1 aż 8.5 punktu (należy to oczywiście potraktować z ogromnym luzem i przymrużeniem oka, a jeśli zastosować terminologię motoryzacyjną, to cały ten „test” jest jak porównanie małego miejskiego wozidełka do dużego SUV czy autobusu, który może więcej i pali tyle samo).<br />
+<br />
+O czym więc jest ten tekst?<br />
+<br />
+Myślę, że najbardziej chyba chciałem delikatnie zasugerować, że wybór urządzenia najdroższego nie zawsze jest dobrą decyzją. Nie dajmy się zwariować i rozsądnie zarządzajmy swoimi zasobami (a więc również lepiej dobierajmy sprzęt pod konkretne zastosowania). To klucz do sukcesu w dzisiejszym świecie.<br />
+<br />
+Na Apple ani Acerze życie się nie kończy, i najważniejsze jest to, co ich z pomocą można osiągnąć.<br />
+<br />
+Ludzie czasem używają Rasberry czy laptopów PineBook (i to wystarcza), jest jeszcze klasa średnia i wiele innych możliwości. Jeżeli mówimy o ciszy, to teoretycznie pasywnie chłodzona jest np. pewna konstrukcja z Chin (Huawei Matebook X), kiedyś były również Delle. Do wielu zastosowań można wziąć praktycznie dowolny komputer i obniżyć mu TDP (tak często wspominany przez mnie kadłubek Clevo L141, czyli m.in. HyperBook L14, ma do tego odpowiednią aplikację producenta pod Windows), ewentualnie samemu zadbać o kontrolę prędkości wentylatorów (co <a href="?q=node/382">udowodniłem na Dellu Precisionie 5510)</a>.<br />
+<br />
+Mam nadzieję, że porównując solidne propozycje z klasy najniższej i najwyższej, pomogłem choć jednej osobie.<br />
+<br />
+Zapraszam do komentowania.<br />
+</p>

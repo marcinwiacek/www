@@ -1,0 +1,67 @@
+﻿Title:A może uaktualniać Bromite z F-Droid? (2020)
+Author:marcin
+When:25 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/A-moze-uaktualniac-Bromite-z-FDroid,111251.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+
+<!--break-->
+<p>&quot;F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device&quot;.</p><p>Aplikacji nie ma w Google Play - trzeba ją sobie pobrać spod adresu <a href="https://f-droid.org/" target="_blank" rel="noopener" rel="nofollow">https://f-droid.org/</a>.</p>
+
+<center>
+<img src="sites/default/files/417/Screenshot_20200925-212355_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/417/Screenshot_20200925-212401_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Bromite</b></p>
+
+<p>F-Droid używa systemu podobnego jak w przypadku Linuxa - w aplikacji definiujemy informacje o repozytoriach, z których może być pobierane nasze oprogramowanie.</p>
+
+<p>Przechodzimy do <a href="https://www.bromite.org/fdroid" target="_blank" rel="noopener" rel="nofollow">https://www.bromite.org/fdroid</a>, gdzie znajdziemy link do repozytorium i odcisk klucza. Dane te możemy przepisać ręcznie do aplikacji... albo skopiować przez QR-Code (skanujemy kod jedną z aplikacji do czytania takich kodów i kopiujemy kod do schowka systemowego, skąd może zostać odczytana przez F-Droid).</p>
+
+<center>
+<img src="sites/default/files/417/Screenshot_20200925-212755_QR Code Reader.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/417/Screenshot_20200925-212919_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Po dodaniu repozytorium F-Droid wykryje aplikację (jeśli była wcześniej zainstalowana) albo pozwoli ją zainstalować (wystarczy ją wyszukać).</p>
+
+<center><img src="sites/default/files/417/Screenshot_20200925-213054_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>W moim wypadku poprawnie proponowano mi ostatnią wersję 64-bitową.</p>
+
+<center>
+<img src="sites/default/files/417/Screenshot_20200925-213009_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Mission complete!&#160;</p>
+
+<p><b>Ustawienia</b></p>
+
+<center><img src="sites/default/files/417/Screenshot_20200925-212116_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Możliwe jest ustawienie tego, jak często należy sprawdzać dostępność nowych wersji (przy okazji: F-Droid jako aplikacja niesystemowa nie może ich instalować samodzielnie w tle i każdą z nich trzeba zająć się oddzielnie w menu, włączając wcześniej w Androidzie możliwość instalacji apek z F-Droid - gdybyśmy chcieli to zmienić, to <a href="https://android.izzysoft.de/articles/named/fdroid-intro-2" target="_blank" rel="noopener" rel="nofollow">proszę bardzo</a>).</p>
+
+<center>
+<img src="sites/default/files/417/Screenshot_20200925-212154_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/417/4.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Nie do końca spodobały mi się opcje pytania o wysyłanie informacji developerskich, panic button i skanowanie dysku, za to włączyłem sobie pokazywanie możliwość pokazywania aplikacji z funkcjonalnościami, które mogą się nie podobać (poniżej przykład).</p>
+
+<center>
+<img src="sites/default/files/417/Screenshot_20200925-223504_F-Droid.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Własne repozytorium</b></p>
+
+<p>Myślałem, że wystarczy tylko krótki plik tekstowy z opisem, najwyraźniej jednak należy postawić cały serwer: <a href="https://f-droid.org/en/docs/Installing_the_Server_and_Repo_Tools/" target="_blank" rel="noopener" rel="nofollow">https://f-droid.org/en/docs/Installing_the_Server_and_Repo_Tools/</a> (znalazłem też opis czegoś, co się nazywa RepoMaker: <a href="https://android.izzysoft.de/articles/named/fdroid-intro-3" target="_blank" rel="noopener" rel="nofollow">https://android.izzysoft.de/articles/named/fdroid-intro-3</a>)</p>
+
+<p>Nie wnikałem w szczegóły, ale nie podoba mi się to (za to pozytywem jest dostępność kodu źródłowego całości <a href="https://github.com/f-droid" target="_blank" rel="noopener" rel="nofollow">https://github.com/f-droid</a>)</p>
+
+<p><b>A co w sklepie?</b></p>
+
+<p>Na stronie <a href="https://android.izzysoft.de/articles/named/fdroid-intro-1" target="_blank" rel="noopener" rel="nofollow">https://android.izzysoft.de/articles/named/fdroid-intro-1</a> znalazłem czyjąś listę &quot;hitów&quot;, sam nie mam tu zbyt dużo do powiedzenia.&#160;&nbsp;</p>

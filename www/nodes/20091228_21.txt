@@ -1,0 +1,35 @@
+﻿Title:Report 2009-12-28
+Author:marcin
+When:28 Dec 2009
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i><p>Few words from me... We're ending 2009 year. Some summary, plans and similar.
+
+<p>I was thinking a lot about developing for Maemo 5 (Nokia N900) platform. Unfortunately, in my opinion this is wasting time in this moment (or at least I can't pay for it in 100% from my money).
+<!--break-->
+
+<p>Device is very expensive (in Poland 2000-2500 PLN even in hulk bay, which was organized by <a href=http://www.kumulator.pl>Kumulator</a>). Doesn't have excellent hardware (for example has got resistive touchscreen, many devices had problems with microphone), doesn't have excellent software (there are many threads on maemo.org/other pages about it - for example <a href=http://mynokiablog.com/2009/12/22/firmware-update-wishlist-for-the-n900-35-things-that-need-sorting-in-the-nokia-n900-software-wise/>Firmware update wishlist for the N900: 35 things that need sorting in the Nokia N900 (software wise)</a>). From more famous: no MMS (many people don't use them, but sometimes they're very, very useful !), problems with portrait mode or simple BUGS.
+
+<p>Shortly: Nokia wanted to release it before Christmas and sell for as big money as possible, although it's worse in some aspects than many cheaper devices. 
+
+<p>When you will add info, that in 2010 there will be probably only one new Maemo device, you will see, that it doesn't look so nice like in some reviews.
+
+<p>Additionally: there were many controversial on maemo.org about giving devices to developers. Starting from method of selecting people, ending on it, that developers devices didn't have ANY warranty. More for example here: <a href=http://talk.maemo.org/showthread.php?t=32951>N900 device program for maemo.org developers and contributors</a>
+
+<p>From the second hand: it's interesting, that many people are naming now Nokia "open-source" friendly. I made experiment and created <a href=http://talk.maemo.org/showthread.php?t=34120>thread on Maemo.org about it</a>. The results were very interesting. Nobody was interested in it, that for example Series 40 users don't have real Linux support.
+
+<p>For me it looks, that N900 project was made by small team with small budget. Success (first very nice reviews and opinion) wasn't the best for Nokia - they have already invested a lot into Symbian for example. They simply don't know (in my opinion) what to do next
+
+<p>Maemo won't be equivalent competitor for Android (where we have about 20 devices now and number is increasing - in first months of 2010 we will have probably first smart-phones with Android 2.0 and all features like video calls, FM Radio, more real 5 megapixel camera, 3,5mm inch jack and some other), many people are tired of Symbian and Series 40 too. Will Nokia loose more market ? It's highly possibly - similar can be with Microsoft (they already moved Windows Mobile 7 to end of 2010 year).
+
+<p><b>Do you see any tip for me in this situation ? Is some my development required ? Or maybe work/help from Michal is enough ?</b> (if there are any comments to it, please mail me on priv or use Gammu list)
+
+<p>From other things:
+
+<ul>
+<li>I will probably make gammu.org read-only for normal users (excluding me, Michal of course) during few next days. Nobody is adding real stuff here now. I should be able to host it during 2010, I will maybe join it with mwiacek.com. If something will change, I will let you know.
+<li>last time I have started publishing again. This time on <a href=http://www.benchmark.pl>Benchmark.pl</a> in Polish language. <a href=?q=taxonomy/term/benchmark.pl>More is here</a> - you can read about NTFS advanced features, free FAR Manager, free Microsoft updates, Sound Blaster X-Fi Go! review and Windows 7 (dis)advantages. About last system (Windows 7): it looks, that Microsoft will maybe do some more deep changes in this platform (I think, that it's too late like I notified <a href=?q=node/9>here</a> or <a href=?q=node/7>here</a>, but maybe it will end with success...). More: <a href=http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-of-Windows/1259792850>Mark Russinovich on MinWin, the new core of Windows</a>
+<li>I recommend "<a href=http://cop.stalker-game.com/>Stalker: Call of Pripyat</a>" game :)
+</ul>
+
+<p>I hope, that this 2010 year will be better for all of us. Happy New Year !

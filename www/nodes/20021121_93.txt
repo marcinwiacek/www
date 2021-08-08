@@ -1,0 +1,96 @@
+﻿Title:Why you should and why shouldn&#039;t buy Nokia phones (2002)
+Author:marcin
+When:21 Nov 2002
+Taxonomy:English,GSM,Nokia,English article
+
+<p align="justify"><a name="Top" id="Top"></a>I write/update this page 21.11.2002. I decided to make this list and publish as separate subpage, because more and more people write me, that current Nokia products don't have this or other feature. I will try to show, which features are important for users and which can make problems. If you have in plans buying phone from this company, first just read this list...and don't say later, that I didn't warn...</p>
+<p align="justify">First start from advantages of Nokia phones (why you should buy Nokia products):</p>
+<!--break-->
+<ol><li>
+<div align="justify">good menu almost the same in each model (if you know one, you won't have very big problems with using another)</div>
+</li>
+<li>
+<div align="justify">general user friendly interface - for example, big battery/network bars, sometimes even 7 bars (not like in other phones very small and 3 level only). It's currently - in the UMTS phones it can change to WORSE (see infos from 6650)</div>
+</li>
+<li>
+<div align="justify">quite big screens (when compare for example to Panasonic GD 90, it's like TV)</div>
+</li>
+<li>
+<div align="justify">many things (like chargers in almost all popular models or system connector in Nokia 51xx/61xx/6210/63xx) are compatible</div>
+</li>
+<li>
+<div align="justify">antennas are built inside phones</div>
+</li>
+<li>
+<div align="justify">many models can be very easy repaired or easy updated after releasing new firmware (I say, that flashers for DCT3 phones are very cheap)</div>
+</li>
+<li>
+<div align="justify">there are firmwares to some models with new functions (example: 3315 firmware to 3310, possibility of flashing 6250 firmware to 6210, etc.)</div>
+</li>
+<li>
+<div align="justify">long standby times and in majority big batteries</div>
+</li>
+<li>
+<div align="justify">possibility of personalizing many things in phones - example, logos, ringtones, etc.</div>
+</li>
+</ol><p>And then go to the disadvantages (why you shouldn't buy Nokia products):</p>
+<ol><li>
+<div align="justify">very weak support (see for example Forum Nokia and words to me from one of Nokia workers: "have fun with your Siemens phones")</div>
+</li>
+<li>
+<div align="justify">many times you pay only for name and not for good quality. Example: 5510 don't have memory cards, 3410 don't have GPRS, etc.</div>
+</li>
+<li>
+<div align="justify">no using some standards. Example: although there is fast USB, it's not used anywhere to connect with PC...</div>
+</li>
+<li>
+<div align="justify">in fact Nokia is othe often one the last one, which make phones with some technologies. Example: phones with GPRS</div>
+</li>
+<li>
+<div align="justify">ERRORS in firmware. Often they're not corrected. Example: in 6310i 5.10 there are many small problems, which were reported to Nokia support are WERE IGNORED. I say about bug in calendar connected with displaying week numbers, translating things (for example after turning OFF Bluetooth phone says in Polish "Bluetooth ENABLED"), Info Messages are very often not centered on the screen, etc. etc. etc. For full list see my subpage about firmware. Sometimes errors don't allow to ENABLE phone and Nokia says, that such errors are NOT CRITICAL and WON'T be corrected.</div>
+</li>
+<li>
+<div align="justify">not too many opened standards and no official support from Nokia to Linux. They say, that everything won't be published. Because of it projects like my own Gammu (available on my www) still don't have some functions. Some things (like format of binary ringtones) are different in each model and they look like done in last moment.</div>
+</li>
+<li>
+<div align="justify">new models don't contains some things, which were earlier USEFUL for users:</div>
+</li>
+<ol><li>
+<div align="justify">no sending caller logos over infrared</div>
+</li>
+<li>
+<div align="justify">no possibility of forwarding SMS to another phone WITHOUT editing. Additionally another nice thing: in Nokia 6210 forwarding function sent some SMS incorrectly without informing user</div>
+</li>
+<li>
+<div align="justify">NETMONITOR. The only way to check SMS counters, battery info, full firmware info, network info, etc. THE ONLY possibility to disabling phone light AT ALL. The only answer from Nokia is, that it's NOT USEFUL. Of course officially in Forum Nokia they don't add, that everyone who have friends, can buy such phone for NORMAL price. It sometimes hurt more, because netmonitor IS in firmware in each new model sold in shops. The only problem is, that it can't be activated using old methods. Words from Nokia workers: "it's because of operators requests".</div>
+</li>
+<li>
+<div align="justify">can't change tones for Info messages no more (6310i 5.10). Even, when you will set tone in current phone profile to discreet, you will hear loud "BEEEPPPPP" after receiving such message. Because of it this function can't be used anymore.</div>
+</li>
+<li>
+<div align="justify">Cell Info is displayed in THE SAME line with Profile name in the phones with bigger display (in old Nokias with smaller screen it's in different lines).</div>
+</li>
+</ol><li>
+<div align="justify">although there is no info from phone and no info in manual, GPRS Online function by default doesn't work after selecting selection in phone menu. Words from Nokia workers: "it's because of operators requests". So, currently it seems, that users have to check each phone setting and compare it with own bills (without working GPRS Online in the time, when operator takes money from each started 10, 20, ... kB, bills can increase dramatically). Many people don't use internet and don't have idea, that it can happen and because of it operators have additional money. Nice. Of course, Gammu from my www can unlock this option and it works like should</div>
+</li>
+<li>
+<div align="justify">buying some models don't have sense. For example, it looks that there is much worse support for 6310 that for 6310i. I don't know, how will be with 3510 after releasing 3510i. Hope, first one will be continued - currently Nokia don't have any other cheap model with mono display and calendar and big phonebook. Hope it also because it's cheap model - in practice cheap Nokia models are continued the longest one and Nokia adds some features to them. The more expensive model, the shorter continued.</div>
+</li>
+<li>
+<div align="justify">can't update model X to model Y. Ericsson make update to T68 to T68i and now T68j, Siemens from SL45 to SL45i. Nokia officially doesn't allow such things.</div>
+</li>
+<li>
+<div align="justify">after years some easy things are still not implemented. Example: info about using SMS memory in SIM, human support for Unicode SMS (each model has it different), no possibility of sending SMS Class 0 from phone menus, no selecting frequency band in phone menu, very weak support for AT commands, some models (lik 6310i) don't have keypad locking with code/after specified time, etc.</div>
+</li>
+</ol><p align="justify">Generally currently from Nokia products I can suggest only 3310/3315, 3410 (they have all access to Netmonitor), 3510 (no netmon), 6310i. All 3xxx seems to be continued the longest one. All other have in majority very similiar functions - many times the same firmware in different cover.</p>
+<p align="justify">If you have phone with MMS and color screen, wait - first Nokia models have probably many errors. You will also pay for name only. Wait to the moment, when prices will establish. Old models should be cheaper and maybe only one from old models will be for you - in new Nokia offer there won't be very probably cheap DCT3 phone with Java (like 3410), probably no more cheap phones with mono display and calendar/big phonebook (like 3510).</p>
+<p align="justify">For now I suggest Ericsson T68 family. When want use AT commands, buy Siemens product.</p>
+<p align="justify">My last comment: currently Nokia products don't have "something". Company works more and more like Microsoft and more and more old users don't like more and more solutions in products from it. People of course will buy these products...up to the first moment when will find something so functional...</p>
+<p><i><font size="-1"><a href="#Top" class="shref">Na początek/Back to the top</a></font></i></p>
+<!--comments-->
+Title:so true
+ID:168
+Author:Anonymous (not verified)
+When:4 Jun 2010
+
+<p>my new xpress music hone keeps hanging and recently when I went out of city, it lost the network and couldn't find signal for the whole trip , the phone was useless to me and most funny, though my husbands have same company sims with just last digit difference, they refused to talk to each other, he couldn't get my number and I couldn't get his...we were dependent on local cab driver to speak to each other...I really wanted to smash our phones..</p>

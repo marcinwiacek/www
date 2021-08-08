@@ -1,0 +1,16 @@
+﻿Title:Na Święta...
+Author:marcin
+When:03 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><a href="http://www.4freephotos.com/Bunny_in_the_grass-image-bdae84505e2c5c58b9d6682293c2e561.html"><img src="sites/default/files/145/easter.png" align="right" border="0" /></a><br />
+Dużo radości<br />
+i wszelakiej spokojności,<br />
+spotkań udanych<br />
+i chwil niezapomnianych,<br />
+mokrego dyngusa<br />
+i mocnego, niezłego psikusa,<br />
+żeby wszyscy z Was<br />
+dobrze wspominali ten czas...</p>
+<!--break-->

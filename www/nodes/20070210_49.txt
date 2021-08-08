@@ -1,0 +1,32 @@
+﻿Title:Report 2007-02-10
+Author:marcin
+When:10 Feb 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Few notes from me. Some of them are similar to previous (from previous reports) - unfortunately, I must return to them. If you're tired with it, I will give first summary for this report - it can be "there is new Gammu+ release and almost everything is around it". Now you can decide, if you want to read it or not :-)</p>
+<!--break-->
+<ol><li>I was "a little" frustrated last times. Few reasons: spam on gammu.org wiki (I have changed filters and now everything should fine; I will update wiki to 1.9.x soon), man, who wanted full Gammu+ for free  (contact with him end with sent agreement) and bugs in Vista (I have updated a little my <a href="?q=node/14">Windows page</a>).
+</li><li>few things have changed in my life: I have probably passed everything and written last exam in my current high school in my life (on Wednesday). Now I'm going to full time job from nearest Monday. Something new. I'm not 100% happy, because I won't do job connected directly with cell phones (only voip), but we will see... I hope, that it will be OK and I will have enough money at least for private things (yeah, I have a little difficult time now). I'm sure, that first week will be the most difficult...
+</li><li>I was playing a little with Nokia page giving info, if there is firmware upgrade or not (<a href="http://europe.nokia.com/A4305060">http://europe.nokia.com/A4305060</a>). I don't understand it in 100%, but maybe in soon future I will add functionality (checking info there) to software... Interesting is, that Nokia added FOTA to such phones like 6233. Unfortunately, I won't be able to test it, because I still have "old" 6111 (without it).
+</li><li>I'm looking into Michal's releases. Although I don't agree with some changes, I think, that it's generally good done job. For example direct editing phone database from Wammu...
+</li><li>new Gammu+ is out. I attach some screenshots below. It isn't rock stable, but it's closer and closer to have enough functionality for normal work. From interesting - SMS sending (it will have linked SMS functionality and small bugs removed in next planned released) and MMS preview (with MS Media Player) and MDI (many windows in one). wxWidgets isn't so good like I though, but I can live with some its' limits. I decided to make at least main things. I'm not sure about editing - if there won't be users reports and nobody will be interesting in using it, I will probably end with deleting entries/backup/restore (something like in Gammu).
+</li><li>one additional comment to previous point: I will try to make at least interesting for me functions for my software. If there will be sponsors and/or people will be interested with it, I will continue work. Without it I will end on it... (it could be big loss - I though for example about such things like graphic console for SMSD...)
+</li></ol><p><img src="sites/default/files/49/070210_menu.jpg" /><br /><br />
+You can open many phones connections and open many MMS files. In the future there will be similiar functionality for backup files too. In Window menu you can switch among opened windows.</p>
+<p><img src="sites/default/files/49/070210_wizard.jpg" /><br /><br />
+I still suggest to edit manually gammurc first. There is wizard, but it can't save config for file now.</p>
+<p><img src="sites/default/files/49/070210_files.jpg" /><br /><br />
+Nothing special. Browsing, getting single files (double click on them).</p>
+<p><img src="sites/default/files/49/070210_pbk.jpg" /><br /><br />
+Phonebook memories (call lists, SIM, etc.).</p>
+<p><img src="sites/default/files/49/070210_sms1.jpg" /><br /><br />
+GUI assign names (read from phone memory phonebook) to numbers. Text is displayed below. GUI links SMS. You can search (write text and click Search) - this is case sensitive now. When you click on Send SMS button, you can send new sms. when you right click on SMS sequence in up list and select forward, you should be able to forward all of SMS from sequence without any problems.</p>
+<p><img src="sites/default/files/49/070210_sms2.jpg" /><br /><br />
+Wizard for new SMS. There are some small glitches (but generally everything works OK and you shouldn't have problems). Currently GUI support one SMS only - no linking.</p>
+<p><img src="sites/default/files/49/070210_sms3.jpg" /><br /><br />
+When you forward SMS or want to send some - this window allow to select recipients and similiar things (in the future there will be selecting from phonebook too).</p>
+<p><img src="sites/default/files/49/070210_mms.jpg" /><br /><br />
+GUI can extract all subfiles from MMS and preview them. In right button menu in up list you have option for saving MMS file to HDD. Please note - for Series 40 3.0 with it there are saved few additional bytes. It will be fixed in 0.18.00</p>
+<p><img src="sites/default/files/49/061217_calendar.gif" /><br /><br />
+I attach one of previous screenshots. Nothing new in functionality</p>

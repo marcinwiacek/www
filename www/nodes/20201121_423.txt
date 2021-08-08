@@ -1,0 +1,70 @@
+﻿Title:One more thing... (2020)
+Author:marcin
+When:21 Nov 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/One-more-thing,111969.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Emocje jeszcze nie opadły... Na setkach portali dostaliśmy powtórzenie właściwie tej samej informacji - Apple potrafiło tak przygotować swoje komputerki w wersji Late 2020, że świetnie nadają się chociażby do obróbki multimediów.</p>
+   
+<p>Praktycznie wszystkie recenzje wieszczą koniec x86, i coś w tym sumie jest - rynek w określonych segmentach na pewno przeżyje trzęsienie ziemi.</p>
+<!--break-->
+
+<p><center><img src="sites/default/files/423/computer-767781_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Zastanawiałem się długo nad tym, co firma właściwie chciała osiągnąć. </p>
+
+<p>Zbudować podwaliny pod wieloletni sukces? Są.</p>
+
+<p>Wywołać apetyt? Udało się.</p>
+
+<p>Dostarczyć szybkie urządzenia do wielu typowych zadań? Jak najbardziej.</p>
+
+<p>Na pewno mocną stroną szczególnie obecnego modelu Air jest to, że można go wziąć na kolana i do łóżka, i nie martwić się o jego przegrzanie (brak otworów z dołu i z boku). Komputerek wydaje się nadawać do dłuższej pracy (na razie trudno powiedzieć jak długiej i z wielką chęcią bym przeczytał o czasie pracy w trybie czytnika czy pisarza, gdzie odłączony jest Internet i używamy jedynie aplikacji do pisania), jest dosyć solidnie zbudowany i ma klawiaturę (nie wiadomo jak nazwać to coś, co było w kilku wcześniejszych generacjach)...</p>
+
+<p>Czego natomiast zabrakło we wszelkich recenzjach?</p>
+
+<p>Bardzo mało osób pisze o tym, że dwa porty to dosyć mało. Można się spierać czy dosyć mało, czy bardzo mało, ale wychodzi na to, że od razu trzeba dokupić hub, który pozwoli na użycie większej ilości peryferiów czy zewnątrznego monitora.</p>
+
+<p>Do tego dochodzi błyszcząca matryca, która z uwagi na odblaski nie jest kompatybilna z oczami części ludzi. Nie jest. Kropka. To oznacza, że komputerek wymaga folii matowej albo nakładki polaryzującej światło (filtr prywatności <a href="https://www.apple.com/au-hed/shop/product/HP9T2ZM/A/belkin-trueprivacy%E2%84%A2-13-screen-protection-for-macbook-air-pro" target="_blank" rel="noopener" rel="nofollow">sprzedawany również przez Apple</a>), które najczęściej odbierają &quot;magiczny&quot; wygląd.</p>
+
+<p>Ale i to jak niewielki dodatkowy zakup - w przypadku iMac 27 Mid 2020 opcja matowa kosztuje ok. 609 Euro.</p>
+
+<p>Do tego dochodzi brak możliwości otwierania pokrywy na 180 stopni (to zdaje się nie zmieniło), braki w wirtualizacji innych OS... i to prawie wszystko. </p>
+
+<p>Chip M1 ma wbudowany RAM i pamięć stałą SSD, ale w większości recenzji daje się zauważyć brak narzekania... gdyż taka budowa może skutkować większą wydajności (mnie zaś ciekawi, ile odrzutów mamy na etapie produkcji i czy na przykład wersje 8GB to 16GB z wyłączoną połówką; i jak całość zacznie się zachowywać, gdy zacznie padać RAM albo dysk).</p>
+
+<p>Według iFix nie zmieniła się podobnież trudność naprawy (i to akurat jest dobra wiadomość - nie wiadomo jednak, czy podobne rzeczy nie zostaną zrobione, jak już chipy z serii M zadomowią się na dobre).</p>
+
+<p>Apple już wcześniej robiło podchody pod ARM i reklamowało iPada Pro jako kolejny komputer... teraz jednak poszło prawie na całość, zostawiając sobie jednak furtkę na poprawki na przyszły rok (np. dlaczego Mac Mini jest tak duży?).</p>
+
+<p>Bardzo dużo ludzi kupi te urządzenia, i jest to rewolucja na miarę Windows 95. Część zrobi to z ciekawości (i pewnie wsiąknie w ekosystem), część z uwagi na konieczność testowania kompatybilności, a dla &quot;starych&quot; bywalców będzie to krok naturalny.</p>
+
+<p>Dla większości prawdopodobnie obecnie wystarczy bazowa konfiguracja 8GB / 256GB, a to oznacza konieczność wymiany, gdy oprogramowanie spuchnie (co dzieje się zawsze i zadzieje się, o ile Apple nie ustawi jakichś ograniczeń).</p>
+
+<p>Na rynku x86 nie ma właściwie nic podobnie ładnego, szybkiego i &quot;ludzkiego&quot; równocześnie - konfiguracje z Ryzenami są w mniejszości (do tego dochodzą tam śmieszne matryce, słabe chłodzenia i inne podobne &quot;typowe&quot; przypadłości), a konstrukcje z Intelem w ogóle pomińmy milczeniem.</p>
+
+<p>Jeżeli miałbym obecnie zmieniać sprzęt, to miałbym na pewno dylemat. XPS Della? Drogi, ładny, bez Ryzena, z typowymi problemami Della. Dell Inspiron? A może Lenovo? Nieeee, jakość albo stary design. Acer? Samsung? Asus? &quot;Stary&quot; Macbook z Intelem? Nowy z M1?</p>
+
+<p>(tu się kłania chociażby <a href="https://www.youtube.com/channel/UC8q23MpiyWjv9vd4r85oj1A/videos" target="_blank" rel="noopener" rel="nofollow">kanał Daniela Rakowieckiego</a>).</p>
+
+<p>Inne korporacje zwyczajnie są daleko w tyle - Google nie zdążyło z Chromem (i w sumie nie mają równie atrakcyjnego Chromebooka), komputerki Microsoftu to jednak nie ta klasa np. z uwagi na OS, Samsung to Samsung, itd.</p>
+
+<p>And there is one more thing...</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/qsWFDFkpAnw?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Fajne to wideo, takie cukierkowe. </p>
+
+<p>Co jednak uderza - firma Apple (jak i inne korporacje) bardzo mocno szuka młodych ludzi.</p><p>Ich obecne produkty są przyjemne i bardzo atrakcyjne.</p>
+
+<p>I teraz moje pytania za dziesięć punktów - czy Windows albo Linux mają wielkie szanse? I czy kolejne pokolenie będzie jeszcze potrafiło mówić o jakichkolwiek wadach tego, co przygotowała ich ulubiona firma?</p>
+
+<p>Proszę zauważyć, że nawet problemy z instalacją Big Siur i zgłaszane kontrowersje wobec monitorowania tego, co uruchamiamy (<a href="https://sneak.berlin/20201112/your-computer-isnt-yours/" target="_blank" rel="noopener" rel="nofollow">Your Computer Isn&#39;t Yours</a>), jakoś tak były pokazywane w sieci po macoszemu.</p>
+
+<p>Innym tematem jest to, że rośnie nam pokolenie dosłownie wyznawców obrazów, którzy już niespecjalnie mają ochotę na słowo pisane - i stąd pewnie emotikonki, i tak mocne nastawienie na edycję wideo.</p>
+
+<p>Coraz więcej będzie tego mleka sojowego z latte, i spodni rurek, coraz więcej...</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/VjwJVD15lZM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+           

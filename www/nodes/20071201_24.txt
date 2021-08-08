@@ -1,0 +1,11 @@
+﻿Title:Report 2007-12-01
+Author:marcin
+When:01 Dec 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<!--break-->
+<ul><li>I have put Gammu+ 0.37.30 into my download directory. It contains one important feature - enter gpl directory and execute gpl script. Source will be patches and you will have full Bluez support. I have played today with Debian and had bluephonet/bluerfphonet without any problems. It means - you can use Gammu+ in Linux with BT and irda, cable connection soon ;-) It you think, that some features should be prepared first in command line version, please let me know.
+</li><li>I have started with writing <a href="?q=node/6">page about Vista problems</a>. if you want to help me with this, please do it
+</li><li>Have you read about OSS financial issues ? If not, <a href="http://4front-tech.com/hannublog/?p=9">please read</a> and remember, that Gammu/Gammu+ has similiar problems...
+</li></ul>

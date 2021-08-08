@@ -1,0 +1,92 @@
+﻿Title:A u mnie działa...znowu... (2020)
+Author:marcin
+When:1 Nov 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android,Windows
+
+<p>Ostatnio musiałem dokonać tak skomplikowanej czynności jak zakup folii matowej na &quot;prehistoryczny&quot; telefon Samsung Galaxy S9. </p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/A-u-mnie-dzialaznowu,111615.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<center><img src="sites/default/files/421/doll-1636128_1920.jpg" style="width:608px;height:396px;" alt="image" title="image" /></center>
+
+<p>Ostatnio musiałem dokonać tak skomplikowanej czynności jak zakup folii matowej na &quot;prehistoryczny&quot; telefon Samsung Galaxy S9. </p>
+
+<p>Zaczęło się od zrobienia zamówienia u mojego ulubionego dostawcy (folie dosyć twarde i sztywne, możliwe do odklejania kilka razy, nakładane na sucho)... który po kilku dniach je anulował (nie mamy na stanie, i co nam Pan zrobi?).</p>
+
+<p>Znalazłem wtedy produkt tego typu w jednym ze sklepów, który... przy folii matowej nawet nie leżał w pobliżu. </p>
+
+<p>Szukałem dalej i w końcu za trzecim podejściem znalazłem folię nakładaną na mokro (aż strach), jednorazową (tzn. można przykleić, ale nie można jej nawet częściowo oderwać i zaaplikować ponownie), niezbyt idealną pod spodem, ale grubą i z dobrą warstwą matową. W opakowaniu znalazłem płyn, ściereczkę i kilka innych rzeczy, test trwa.</p>
+
+<p>Cena folii numer dwa i trzy jest podobna, a mnie w sumie przyszło po raz kolejny do głowy kilka myśli:</p>
+
+<p>1. producenci wielu produktów nie są zainteresowani dobrem użytkowników, tylko zarobkiem (dobrych folii matowych jest coraz mniej, bo najwyraźniej nie idą tak samo, jak te śliczne &quot;nowoczesne&quot; błyszczyki)</p>
+
+<p>2. na rynku dostępne jest sporo alternatyw, ale tylko od nas samych zależy, czy ruszymy tyłek i je znajdziemy</p>
+
+<p>3. najbardziej na wszystkim cierpi środowisko - producent folii numer 3 na pewno ma bardzo duży ślad CO2, zaś producent folii numer 2 produkuje po prostu buble</p>
+
+<p>Czy nie przypomina to trochę systemów operacyjnych?</p>
+
+<p>Tak się składa, że ostatnio (fanfary) na rynku pojawił się Windows 10 20H2 i Ubuntu 20.10, a ja je oczywiście zainstalowałem... postanowiłem wspomnieć też kilka słów o tworach Google i Apple.</p>
+
+<p><b>Windows</b></p>
+
+<p>Był pierwszy - moje Windows Update nie zauważyło nic, więc musiałem pobrać najnowszą wersję <a href="https://support.microsoft.com/en-us/help/3159635/windows-10-update-assistant" target="_blank" rel="noopener" rel="nofollow">aplikacji Windows 10 Update Assisant</a> i wybrać opcję uaktualnienia, potem komputer się ze trzy razy zrestartował i mogłem się zalogować do systemu. Tutaj zobaczyłem, że (jak to u Microsoft) wiele opcji zresetowano do ustawień domyślnych (polecam chociażby przejrzeć listę usług systemowych - w gratisie dostałem telemetrię i to, co mnie nie interesuje), a jasność mojego ekranu została mocno skorygowana.</p>
+
+<p>Listy &quot;rewolucyjnych&quot; zmian nie chcę komentować - znalazły się tam chociażby takie pozycje jak usunięcie ikonki System ze &quot;starego&quot; Panelu Sterowania (przez co obecnie np. w celu zmiany zmiennych środowiskowych trzeba wejść do Panelu i wyszukać ręcznie okienko).</p>
+
+<p>Na pewno jest trochę ładniej... niemniej jednak groch z kapustą aż bije po oczach. I chciałbym w tym miejscu zwrócić uwagę na jedną rzecz - Microsoft ma tak duży bagaż kompatybilności i jest tak mocno pewny swojej jakości, że zamiast obiecanego &quot;włącznika&quot; nowych funkcjonalności mój komputer był nieczynny jakieś 30 minut i mojego sprzętu (dosyć standardowego) nie było w pierwszej fali.</p>
+
+<p>Ciekawym przeżyciem okazało się również usuwanie katalogu windows.old (uprawnienia).</p>
+
+<p>Porażka.</p>
+
+<p><b>Ubuntu</b></p>
+
+<p>Wersja &quot;stabilna&quot; zazwyczaj pojawia się również z opóźnieniem i musiałem ją wymusić przez &quot;sudo do-release-upgrade -d&quot; z linii komend.</p>
+
+<p>Konieczne było pobranie sporej ilości danych, jednakże cały czas mogłem korzystać z komputera i jeden jedyny restart zajął tyle czasu co zawsze.</p>
+
+<p>Różnica w podejściu i wyższy poziom techniczny w stosunku do Windows aż bije po oczach... żeby nie było jednak słodko, to po kilku dniach spróbować zrobić to samo na maszynie wirtualnej - uaktualnienie źle wyliczyło ilość potrzebnego wolnego miejsca (celowo nie było tam zbyt dużego dysku) i instalację musiałem robić &quot;na czysto&quot;, a wtedy okazało się, że w systemie bez UEFI niezbędna jest partycja UEFI (ot taki smaczek).</p>
+
+<p>A sam system? Z nowych błędów mógłbym wskazać problem z funkcją Download z Firefox w wersji Snap (brak uprawnień), dalej źle są również rozwiązane uaktualnienia samego enginu Snap (najlepiej po nich zrestartować komputer) i występuje problem z literką &quot;Ś&quot; (trzeba ją wpisywać przez prawy Alt i prawy Shift).</p>
+
+<p>Niesmak trochę pozostał.</p>
+
+<p><b>Android</b></p>
+
+<p>Przez lata mieliśmy do czynienia z jedną partycją (i instalowaniem całości po restarcie systemu tak, że nie mogliśmy w tym czasie korzystać z urządzenia), zmieniło się to w okolicy Androida 8 i obecnie urządzenia mogą mieć dwie partycje systemowe (całość uaktualniania jest w tle i potem wystarczy się tam tylko przełączyć).</p>
+
+<p>Zdaję sobie sprawę, że system Android po pierwsze był dosyć niechlujnym tworem (dużo zmieniło się za czasów Google, ale...), a po drugie urządzenia mobilne nie mają zbyt wielkiej mocy... jednakże czy to podejście nie przypomina gniota, który serwuje Microsoft?</p>
+
+<p><b>macOS</b></p>
+
+<p>Krótko mówiąc - kolejna korporacja i kolejne systemy, gdzie szczególnie większe aktualizacje wymagają długiego wpatrywania się w paski postępu.</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Od dosyć dawna nabywając system komputerowy bez większych problemów znajdziemy zarówno sprzęt jak i oprogramowanie, które będzie robić to, co powinno.</p>
+
+<p>Można sobie narzekać na dystrybucje Linuxa, ale... zaczynam mieć wrażenie, że we wszystkich korporacyjnych tworach instalacja jest jednak o lata świetlne gorsza niż przy czymś, co jest tworzone w sposób zdecentralizowany (często również przez pracowników tych samych korporacji, niemniej jednak pracujących nad tym również po godzinach, z pasją i oddaniem).</p>
+
+<p>Myślę, że w tym wypadku bazar sprawuje się znacznie lepiej niż katedra.</p>
+
+<p>A jeżeli chodzi o funkcje, to 2020 nie zmienił dokładnie nic - na bardziej standardowym sprzęcie zarówno Windows, jak i Linuxa można doprowadzić do porządku, ale wymaga to pewnej wiedzy.</p>
+
+<p>Podobnie Android - na wspomnianym S9 spędziłem trochę czasu, ale po wyłączeniu niepotrzebnych animacji, aplikacji typu Facebook, odebraniu uprawnień, włączeniu ubijaniu niepotrzebnych procesów i różnych tego typu krokach komórka (w Antutu bodajże około 250 tys. punktów) nie wykazuje żadnych zacięć. Żeby nie było wątpliwości, to zdarza mi się w dalszym ciągu korzystać nawet z S7 Samsunga (w Antutu coś koło 120 tys.) i na oryginalnym ROM Samsunga też nie mam żadnych problemów, a za czasów S4 Mini 300h czuwania też nie było czymś niezwykłym.</p>
+
+<p>Oczywiście każdy z nas lubi nowe zabawki, ale ostatnio producenci jakby sami mocno starają się do nich zniechęcić - laptopy z procesorami Intela, komórki z dziurami w ekranach i bez złącza na słuchawki, throttlingiem, większym promieniowaniem, itp. itd.</p>
+
+<p>Portale oczywiście prześcigają się w pisaniu w superlatywach o ekologiczności Apple, plastiku premium Samsunga S20 FE, super prędkości Samsung 980 PRO i zaletach słuchawek bezprzewodowych, ale... zapominają wspomnieć np. o tym, że obecne generacje wielu urządzeń zaczynają mieć kodowanie na każdym elemencie (po jego wymianie niezbędne jest przypisanie numeru seryjnego, żeby chciał współpracować z innymi, a to pewnie będą mogły zrobić tylko serwisy autoryzowane) i że 5G jest tak potrzebna jak za przeproszeniem świni grzmot, gdy klient wykupuje pakiet 10GB danych (przy czym równocześnie w reklamach wciska się najtańsze modele komórek z 5G, które oczywiście mają swoje za uszami).</p>
+
+<p>Postęp ma to do siebie, że używamy coraz lepszego sprzętu... ale co nam po tym, jeśli wydajemy pieniądze, a prędkość transmisji nie wzrasta, ze szklanego ekranu czyta się niewygodnie, a na gadżet trzeba chuchać i dmuchać, żeby nie upadła na niego nawet kropelka?</p>
+
+<p>Wiele możnaby zmienić i nie trzeba wymyślać technologii na miarę zwijanych ekranów - wystarczyłoby np. dostarczać Androida w formie takich pakietów instalacyjnych jak Windows (zaraz, zaraz, mamy przecież Treble!), dawać użytkownikom jasną informację, jak mocno ich gadżet promieniuje (i np. udostępnić przełącznik maksymalnej wartości jak przy wifi) albo ile danych na nich zapisano czy jak bardzo zużyta jest bateria (jak u Apple).</p>
+
+<p>Na pewno polityka &quot;jakości&quot; gigantów IT i elektroniki zaczyna przynosić taki skutek, że mamy naprodukowane tony śmieci (które będą używane po wielokroć zamiast sprzętu porządnego), konieczna jest obsługa coraz większej ilości śmieciowych danych (czy ktoś jeszcze używa jednego konta Google na telefonie?), a firmy chińskie coraz bardziej panoszą się na swoim rynku i zmuszone uniezależniają się od technologii z zagranicy (co znakomicie pomaga w budowaniu podwalin pod nową zimną wojnę). </p>
+
+<p>Do tego dochodzą takie kwiatki jak pakiety 1 MB za 20 PLN (nie GB, tylko MB!), co oczywiście pomaga nam w upowszechnianiu technologii... wśród nas, którzy mają coraz mniej danych w posiadaniu, bo nawet gry i filmy są tylko udostępniane.</p>
+
+<p>Czyli Chińczycy rosną w siłę, a my?</p>
+
+<p>Dziękuję za uwagę.&#160;&nbsp;</p>
+      

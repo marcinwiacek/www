@@ -1,0 +1,131 @@
+﻿Title:Komórkowy zawrót głowy (2001)
+Author:marcin
+When:06 Jul 2001
+Taxonomy:Polski,GSM,Polski artykuł,MyGnokii
+
+<p align="justify"><a name="Top" id="Top"></a><b>Telefony komórkowe stały się nieodłącznym elementem polskiego krajobrazu. Spadają ich ceny/ceny rozmów, rośnie więc popularność. Za coraz mniejsze pieniądze można kupić modele sprzed 2, 3 lat. Czy mogą być jeszcze przydatne do czegokolwiek ?</b></p>
+<p align="justify">Postęp techniki powoduje, iż nowoczesne telefony komórkowe wyglądają zupełnie inaczej niż ich poprzednicy sprzed kilku lat. Różnią się rozmiarami, wagą, funkcjami, czasem czuwania i wieloma innymi szczegółami. Wydaje się, że nie ma już dla nich zastosowania.</p>
+<!--break-->
+<p align="justify">Nie jest to jednak prawda. Jest bowiem sporo sytuacji, w których taki stary aparat podłączony do komputera może spełniać pewne funkcje równie dobrze jak jego nowszy odpowiednik.</p>
+<p>A oto konkretne przykłady:</p>
+<ul><li>
+<div align="justify">użycie w charakterze niezawodnej bramki SMS. Byłaby ona o tyle dobra, iż możnaby sobie ustawić wysyłanie SMSów w zależności od konkretnych potrzeb, użytkownik nie byłby obciążony pewnymi ograniczeniami występującymi w niektórych bramkach email-&gt;sms (np. długością czy ilością wiadomości) oraz mógłby otrzymywać raporty potwierdzające dostarczenie SMSa.</div>
+</li>
+<li>
+<div align="justify">autoryzacja przy logowaniu się do serwera (użytkownik dostaje tymczasowe hasło SMSem)</div>
+</li>
+<li>
+<div align="justify">sterowanie podłączonym do komputera urządzeniem (np. komendy możemy podawać wysyłając do telefonu wiadomość SMS) czy informowanie o jego stanie (np. sprawdzanie temperatury w danym pomieszczeniu i ostrzeganie, jeżeli jest za wysoka)</div>
+</li>
+<li>
+<div align="justify">informowanie o lokalizacji aparatu</div>
+</li>
+</ul><p align="justify">W wielu wypadkach można w takim telefonie umieścić kartę prepaid (w Polsce: Tak-Tak, SimPlus, POP) o stosunkowo niewielkich kosztach utrzymania (raz na jakiś czas trzeba bowiem kupić kolejną kartę zdrapkę i zasilić nią konto).Skąd jednak wziąć oprogramowanie ?</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">Oryginalne ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Zacząć można oczywiście od poszukiwania i kupna oryginalnego oprogramowania napisanego przez producenta aparatu. W większości wypadków dodaje ono w systemie nowy modem, przez który można się "porozumieć" z telefonem oraz udostępnia aplikację (korzystającą z tego modemu), która pozwala wykonać podstawowe czynności typu wysyłanie SMS czy edycja książki telefonicznej. Są jednak zasadnicze wady takiego rozwiązania:</p>
+<ol><li>
+<div align="justify">cena (nawet rzędu 600, 700 PLN !)</div>
+</li>
+<li>
+<div align="justify">problemy z działaniem w używanym przez nas systemie operacyjnym. Przykładowo: starsze pakiety typu Cellular Ware używane z Nokiami 2110 (przygotowane dla Windows 3.1) mogą nie chcieć działać w najnowszych wersjach profesjonalnych Okien - NT i 2000.</div>
+</li>
+<li>
+<div align="justify">brak dostępności do naszego systemu operacyjnego: producenci skupiają się głównie wyłącznie na Windows i MacOS zapominając np. o Linuxie.</div>
+</li>
+<li>
+<div align="justify">brak uaktualnień i poprawek</div>
+</li>
+</ol><p align="justify">Z wyżej wymienionych względów przed jego zakupem dobrze jest mieć możliwość wypróbowania, czy nam odpowiada (właściwie koniecznie trzeba to zrobić).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">czy shareware ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Kolejnym krokiem mogą być poszukiwania oprogramowania shareware. Tutaj możemy się znów zawieść, gdyż istniejące oprogramowanie w wielu wypadkach skupia się raczej na uaktywnianiu ukrytych funkcji aparatów albo na podstawowych opcjach typu edycja książki telefonicznej (brak jest natomiast programów pozwalających np. na transmisję danych). Niemniej jednak można tutaj wyróżnić:</p>
+<ul><li>
+<div align="justify">(dla telefonów Nokia) Logo Managera oraz Oxygen Phone Manager. Pierwszy z nich pozwala na zarządzanie logami, książką telefoniczną oraz na wysyłanie dzwonków czy SMSów. Drugi zaś pozwala m.in. na zarządzanie książką telefoniczną, SMSami, zakładkami WAP, logami i kalendarzem (część funkcji zależna od tego, czy jest dostępna w samym telefonie).</div>
+</li>
+<li>
+<div align="justify">(dla telefonów Siemens czy Trium) oprogramowanie M. Bartha. Udostępnia ono właściwie większość możliwych funkcji - zarządzanie książką telefoniczną, SMSami, kalendarzem, logami, dzwonkami, przekierowaniami (część funkcji zależna od tego, czy jest dostępna w samym telefonie)</div>
+</li>
+</ul><p align="justify">Programy te mają jedną cechę - są dostarczane wyłącznie w postaci skompilowanej i nie udostępniają interfejsu do obsługi telefonu (żadnej biblioteki czy modemu w systemie). Taka biblioteka (dla telefonów Nokia) jest natomiast dostępna (adres w ramce na końcu). Dzięki niej stosunkowo proste jest dodanie obsługi telefonu do własnych programów. Jest ona darmowa (wyłącznie do zastosowań niekomercyjnych) i z przykładami pokazującymi sposób jej użycia, ale bez kodu źródłowego.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">...a może wolne ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Jak więc widać, wymienione wyżej programy nie mogą raczej być przydatne, gdy zależy nam na bezpieczeństwie i pewności połączenia (są bez kodu źródłowego). Warto więc wtedy zacząć szukać "wolnego oprogramowania".</p>
+<p align="justify">Niestety, nie ma tutaj zbyt wielu pozycji.</p>
+<p align="justify">Przeszukanie popularnych serwisów Freshmeat i SourceForge pokazuje bowiem ich kilkanaście, ale będącymi w większości wyłącznie prostymi skryptami.Właściwie w tej chwili można wymienić tylko dwa duże projekty tego typu:</p>
+<ul><li>gnokii i bazujące na nim</li>
+<li>gsmlib.</li>
+</ul><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">Gnokii ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Pierwszy pakiet (gnokii) powstaje już od 3 lat. Początkowo miał na celu napisanie odpowiednika komercyjnego pakietu NCDS i umożliwić obsługę telefonów Nokia serii 3110/8110 i 6110 (oraz zgodnych z nimi) pod Linuxem i różnymi odmianami Unixa. Został on z tego powodu zbudowany modularnie. Pozwala to na jego łatwe rozbudowywanie do obsługi z kolejnymi telefonami (nie muszą to być wcale wyroby Nokii).</p>
+<p align="justify">Co więcej, od ponad roku z jego użyciem można prowadzić połączenia typu data dla telefonów serii 6110 (jest to o tyle trudniejsze, iż konieczna jest pełna emulacja modemu), ostatnio pojawiła się też możliwość odbierania takich połączeń. Zresztą, i bez tego liczba przygotowanych funkcji jest imponująca: m.in. wysyłanie/odbieranie wiadomości SMS, obsługa alarmu, czasu, różnych książek telefonicznych, kalendarza, profili, również dzwonków czy obrazków.</p>
+<p align="justify">Miłą wiadomością może być także fakt, iż bariera językowa nie stanowi tu przeszkody w jego używaniu: dostępny jest polski pakiet lokalizacyjny, jednym z głównych koordynatorów jest Polak Paweł Kot. I chociaż strona główna projektu jest poza Polską, dostępny jest dosyć szybki mirror również w naszym kraju.</p>
+<p align="justify">Na bazie pakietu gnokii powstały też inne projekty.</p>
+<p align="justify">Przykładowo: od dłuższego czasu autor tego artykułu tworzy swoją wersję gnokii (można powiedzieć, iż jest to wersja bardziej eksperymentalna zawierająca rozwiązania, które w tej lub lepszej formie pojawią się być może w "głównym" gnokii) o nazwie mygnokii. Poza bardziej rozbudowanymi funkcjami dostępnym dla telefonów Nokia (przykładowo: pełniejsza obsługa popularnych Nokii 3210, 3310 czy też modeli 6210/7110) dostępne są też w niej eksperymentalne moduły dla telefonów używających komend AT czy Dancalla 2711. Co więcej, pakiet częściowo dostępny jest w skompilowanej formie również dla środowiska WIN32 (Windows 95,98,NT) i zawiera także coraz pełniejszą dokumentację protokołów obsługiwanych telefonów.</p>
+<p align="justify">Jeżeli ktoś byłby natomiast zainteresowany uruchomieniem własnej bramki SMS, można polecić odwiedzenie strony projektu "Alamin GSM SMS Gateway". Dostępny jest tam wyspecjalizowany pakiet do uruchomienia własnej bramki SMS oparty właśnie na gnokii. Można tam znaleźć również sporo linków do projektów tego typu.</p>
+<p align="justify">Kolejnym ciekawym projektem jest SMSOTP. Pozwala on na stworzenie systemu autoryzacji (np. dostępu do serwera) w oparciu o SMS, który może przykładowo działać w sposób następujący:</p>
+<ol><li>
+<div align="justify">użytkownik wysyła SMS o odpowiedniej treści do telefonu podłączonego do serwera</div>
+</li>
+<li>
+<div align="justify">jeżeli SMS został zaakceptowany (tzn. został wysłany z odpowiedniego numeru z odpowiednią treścią), do użytkownika jest wysłany SMS z tymczasowym hasłem</div>
+</li>
+<li>
+<div align="justify">użytkownik może się zalogować z użyciem tymczasowego hasła w przeciągu np. maksymalnie 45 sekund (później hasło jest unieważniane).</div>
+</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">albo gsmlib</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Może się jednak okazać, iż gnokii/projekty pochodne nie odpowiadają nam z jakichś względów. Przykładowo: nie obsługują naszego telefonu. Są wtedy dwa wyjścia:</p>
+<ol><li>
+<div align="justify">użycie gsmlib. Jest to bezpłatna biblioteka udostępniająca interfejs programistyczny do telefonów komunikujących się z komputerem z użyciem komend AT. W obecnej chwili jej działanie zostało przetestowane z następującymi telefonami: Nokią 6210/7110 (przez kabel DLR3 lub podczerwień), 8210, 8850, 61xx/51xx (podłączona przez odpowiedni modem sprzętowy), Siemensami 25/35, Ericcsonem SH888, etc. Pozwala ona głównie na obsługę książki telefonicznej i SMSów. W pakiecie zawarte zostały także przykłady jej użycia.</div>
+</li>
+<li>
+<div align="justify">dodanie obsługi kolejnego telefonu do (my)gnokii - szczegółów udzieli Paweł Kot lub autor tego artykułu.</div>
+</li>
+</ol><p align="justify">Oba rozwiązania są o tyle korzystne, iż spora część potrzebnych procedur i interfejsów programistycznych została już tam napisana i można z nich korzystać.</p>
+<p align="justify">W miejscu tym warto jeszcze wspomnieć o stronie WWW Janusa. Chociaż nie można tam znaleźć gotowego pakietu pakietu podobnego do gnokii/gsmlib, jest ona naprawdę polecenia użytkownikom Motoroli. Znaleźć można na niej bowiem masę przydatnych porad pokazujących jak maksymalnie wykorzystać ich możliwości oraz kilka programików pozwalających na napisanie własnego pakietu do obsługi ich funkcji przez kabel.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">Czy warto ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Istnieje bardzo dużo aplikacji do telefonów komórkowych.</p>
+<p align="justify">Niestety, pakietów pozwalających na bardzo proste wykorzystanie ich funkcji (i zapewniających odpowiedni poziom bezpieczeństwa - takich, gdzie udostępniany jest kod źródłowy i poprawiane są szybko wszystkie błędy) jest ciągle bardzo mało. Obecne programy ciągle wymagają pewnej wiedzy przy ich używaniu. Można sobie zadać pytanie: czy warto więc wkładać ten wysiłek ?</p>
+<p align="justify">Odpowiedź na nie powinna być zaś twierdząca. Wszak gotowe usługi (jak wymienione na samym początku) sporo kosztują. Każdy, kto zaś programuje, może zaś je mieć praktycznie za darmo. Dodatkowo zyskuje naprawdę dużą wygodę...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">"Jak to powstało ?"</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Można sobie zadać pytanie: jak tworzone są takie programy ? W większości przypadków przecież odpowiednie specyfikacje czy dokumentacje nie są oficjalnie udostępniane.</p>
+<p align="justify">Okazuje się, że bardzo często wykonuje się tzw. sniffowanie, czyli "podglądanie" tego, co jest wysyłane z gotowych, skompilowanych programów do telefonu oraz z powrotem.</p>
+<p align="justify">Należy pamiętać, że nie zawsze takie działania mogą być całkowicie legalne (jeżeli "sniffowane" są programy serwisowe dostępne nielegalnie w Internecie), niemniej jednak są tutaj podstawą, a nie przynoszą producentowi telefonów praktycznie żadnych szkód - przykładowo: chociaż firma Nokia zaczęła udostępniać CD z oprogramowaniem bezpośrednio z telefonami (Nokia 6210, 9000, 9110, 9210), próżno tam szukać wersji pod Linuxa. Napisanie pakietu również do tej platformy pozwoliło natomiast użyć telefonów również osobom, które pracują tylko tam i zwiększyło ich popularność.</p>
+<p align="justify">Jak więc dokonywać "sniffowania" ?</p>
+<p align="justify">Najprostszą metodą okazuje się podłączenie odpowiednich styków obserwowanego złącza szeregowego do drugiego złącza i sprawdzanie, co się tam pojawia.</p>
+<p align="justify">Przykładowo:</p>
+<ol><li>
+<div align="justify">jeżeli chcemy obserwować to, co jest przesyłane z telefonu do komputera, podłączamy wtyk TxD obserwowanego portu do wtyku TxD portu, na którym obserwujemy transmisję.</div>
+</li>
+<li>
+<div align="justify">Dodatkowo łączymy masy (GND) obu portów.</div>
+</li>
+<li>
+<div align="justify">Następnie uruchamiamy program, który pokaże, co "przychodzi" na ten drugi port. Przy czym nie może to być np. popularny Terminal, gdyż on będzie interpretował część przychodzących znaków jako kody sterujące i nie będziemy ich wiedzieć. W charakterze takiego programu można np. wykorzystać mygnokii (jako model należy podać model "sniff", jako protokół np. "fbus"). Może się okazać, że potrzebny jest także np. stan linii DTR i RTS - wtedy również podłączamy je i sprawdzamy ich stan.</div>
+</li>
+</ol><p>Dwie uwagi:</p>
+<ol><li>
+<div align="justify">jeżeli port, na którym obserwujemy transmisję, został otwarty z inną prędkością niż port obserwowany, otrzymamy tylko ciąg zer (wystarczy często sprawdzić tylko trzy najpopularniejsze prędkości: 9600, 19200, 115200 bps).</div>
+</li>
+<li>
+<div align="justify">Niektóre protokoły (np. MBUS dla Nokii) zostały tak skonstruowane, iż transmisja "do" telefonu wraca do komputera (jest to jakby potwierdzenie jej otrzymania przez aparat). Wystarczy wtedy obserwować tylko pin TxD (do komputera) i nie trzeba robić sniffowania danych płynących do telefonu.</div>
+</li>
+</ol><p align="justify">W pisaniu wyżej wymienionych pakietów znacząco pomogły także ogólne specyfikacje GSM dostępne na stronie ETSI czy też w praktycznie każdej większej bibliotece uczelni technicznej.</p>
+<p align="justify">Niektóre firmy publikują również pewne dokumenty, które mogą się wprawdzie wydawać niezwiązane z tym tematem, ale są bardzo cenną pomocą.</p>
+<p align="justify">Mowa tutaj np. o specyfikacji Smart Messagingu firmy Nokia.</p>
+<p align="justify">Standard ten został wykorzystany w każdym nowszym jej telefonie i pozwala na przesyłanie dzwonków, obrazków czy profili, a także na dynamiczną zmianę menu telefonu. W tym ostatnim przypadku mówię o TTML/DMCP zaimplementowanym np. w Nokii 6150. Rozwiązanie to co prawda się nie przyjęło, ale w wielu wykorzystywanych egzemplarzach tych telefonów może być wykorzystywane</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">"...i gdzie ja jestem ?"</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Problem ten przewija się bardzo często na różnych listach dyskusyjnych.</p>
+<p align="justify">Czy i jak można ustalić położenie telefonu ?</p>
+<p align="justify">Okazuje się, że chociaż sprzedawane obecnie telefony nie mają jeszcze (w większości) odbiorników GPS, to już teraz jest to możliwe (w pewnym dosyć marginesem błędu)</p>
+<p align="justify">Telefon komórkowy musi bowiem ciągle odczytywać z sieci wiele informacji, w tym dane o kodach identyfikacyjnych (unikalnych w danej sieci) stacji nadawczych, z którymi się komunikuje. Taka jest bowiem jego zasada działania - musi ciągle wyszukiwać stacje bazowym o najlepszym sygnale. W praktycznie każdej "komórce" dane te można wyświetlić na ekranie urządzenia, a w wielu także przesłać do komputera. Informację te można wykorzystać porównując uzyskane kody z lokalizacjami stacji i ustalić przybliżone położenie aparatu (oczywiście, bardziej dokładne w miastach, gdzie nadajników jest więcej). Listy stacji są bowiem tworzone przez pasjonatów telefonii komórkowej (dostępne w Internecie) oraz czasami udostępnianie przez operatorów.</p>
+<p align="justify">Dokładniejsze ten temat (monitorowanie sieci, a także funkcji aparatu) zostały opisane (dla telefonów Nokia) na stronie autora tego artykułu, dla Motoroli na stronie Janusa. Na pierwszej z nich można znaleźć także sporo linków do innych witryn opisujących je dla innych telefonów.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">Linki</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p>WWW Janusa: <a href="http://www.tele-servizi.com/janus/motpages.html">http://www.tele-servizi.com/janus/motpages.html</a><br /><br />Logo Manager: <a href="http://www.logomanager.co.uk/">http://www.logomanager.co.uk</a><br /><br />M.Barth: <a href="http://www.s35expl.de/">http://www.s35expl.de/</a><br /><br />Telekomunikacyjne Centrum Informacyjne fkn.pl: <a href="http://www.fkn.pl/">http://www.fkn.pl</a><br /><br />Freshmeat: <a href="http://freshmeat.net/">http://freshmeat.net/</a><br /><br />SourceForge: <a href="http://www.sourceforge.net/">http://www.sourceforge.net</a><br /><br />Alamin GSM SMS Gateway: <a href="http://alamin.sourceforge.net/">http://alamin.sourceforge.net/</a><br /><br />GSMLib: <a href="http://www.pxh.de/fs/gsmlib/">http://www.pxh.de/fs/gsmlib/</a><br /><br />ETSI: <a href="http://www.etsi.org/">http://www.etsi.org</a><br /><br />Oxygen Phone Manager: <a href="http://www.oxygensoftware.com/">http://www.oxygensoftware.com</a><br /><br />SMSOTP: <a href="http://developers.of.pl/projects/smsotp/">http://developers.of.pl/projects/smsotp/</a><br /><br />ActiveX dla Nokii: <a href="http://www.gertjaap.com/">http://www.gertjaap.com/</a></p>
+<p>gnokii: oficjalna strona <a href="http://www.gnokii.org/">http://www.gnokii.org</a>, mirror w Polsce <a href="ftp://urtica.linuxnews.pl/pub/people/pkot/gnokii/">ftp://urtica.linuxnews.pl/pub/people/pkot/gnokii/</a>, koordynator Paweł Kot: <a href="mailto:pkot@linuxnews.pl">mailto:pkot@linuxnews.pl</a></p>
+<p>mygnokii:<a href="http://www.mwiacek.com/">http://www.mwiacek.com</a>, koordynator Marcin Wiącek <a href="mailto:marcin@mwiacek.com">mailto:marcin@mwiacek.com</a></p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br /></p>

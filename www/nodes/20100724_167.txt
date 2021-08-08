@@ -1,0 +1,24 @@
+﻿Title:Android
+Author:marcin
+When:24 Jul 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Kasia o Androidzie i damskim doń pragnieniu i wstydzie coś obaczyć chciała,<br />
+więc się go teraz tu niniejszym na fejsbuku w piątek doczekała ;)</p>
+<p>O Wielki Androidzie, który Kasię tak fascynuje<br />
+i w jej torebce może już codziennie się znajduje.<br />
+Który daje opcje dotyku, muskania i głaskania<br />
+i innego jej drogich programików obsługiwania.<br />
+Który chyba przez to ją codzień dziwi i fascynuje<br />
+bo jak słyszę ona do ciebie wciąż pragnienie czuje.<br />
+Który jest chyba dla niej zagadką nieodgadnioną,<br />
+bo ona jest przy tobie teraz mocno zawstydzoną.<br />
+<!--break-->
+Ja Ci mówię - działaj tak, jak Kasieńka by chciała,<br />
+tak żeby gęsiej skórki przy tobie nie dostawała.<br />
+Ja Ci mówię - dawaj jej popisy robociej karności<br />
+i nie wstrząsaj u posad jej blondwłosej osobowości<br />
+Bo jak się zbuntujesz z wieczora, południa czy rana<br />
+to przyszłość twa będzie niezwykle przechlapana....</p>

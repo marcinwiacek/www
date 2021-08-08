@@ -1,0 +1,331 @@
+﻿Title:Podglądanie na ekranie (2002)
+Author:marcin
+When:04 Sep 2003
+Taxonomy:Polski,Polski artykuł,chip.pl,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach czasopisma <a href="http://www.chip.pl" class="autoremail">Chip Special Linux</a> lato 2002.</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><b>Jak powszechnie wiadomo, Linux i inne "alternatywne" do Windows systemy operacyjne ciągle borykają się z brakiem sterowników do niektórych urządzeń. Czy można temu zaradzić ?</b></p>
+
+<p align=justify>W tym artykule zostanie opisane, w jaki sposób można pobrać to, co jest wysyłane do i z urządzeń podłączonych do komputera przez port szeregowy lub złącze podczerwieni. Dane te pozwalają na odtworzenie protokołu używanego przez dane urządzenie i w konsekwencji napisanie programu do jego obsługi.</p>
+<!--break-->
+
+<p><font color="#1f409f" size="+2" class="dzial">1. Kablem go...<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Rozpocznijmy od "podglądania" złącza szeregowego. W tabelce obok przedstawione zostały poszczególne jego sygnały. Dla nas najbardziej interesujące są trzy z nich: GND (masa), TX (transmisja z komputera) i RX (transmisja do komputera).</p>
+
+<p align=justify>Jeżeli chcemy "podejrzeć" transmisję z komputera, łączymy TX i GDN odpowiednio z sygnałami RX i GND w drugim porcie szeregowym komputera.</p>
+
+<p align=justify>Od strony funkcjonalnej może to być wykonane następująco: dołączamy do siebie dwie przejściówki 9-25 pin (każda w cenie do 10 PLN) tak, że z obu stron takiego "urządzenia" mamy 9 lub 25 pinów (podłączamy je z jednej strony do "obserwowanego" portu, z drugiej dołączamy kabel do "naszego" urządzenia). Jedna przejściówka musi być rozbieralna - w środku dolutowywujemy dwa przewody do TX i GND i wyprowadzamy na zewnątrz. Przewody te łączamy z wtyczką wpiętą do drugiego portu szeregowego (odpowiednio do RX i GND).</p>
+
+<p align=justify>W przypadku obserwacji transmisji do komputera, podobnie powinniśmy połączyć piny RX i GND z pinami RX i GND drugiego portu szeregowego.</p>
+
+<p align=justify>Następnie potrzebujemy programu, który pokaże nam każdy znak, który pojawi się na drugim porcie szeregowym.</p>
+
+<p align=justify>Nie nadaje się do tego żaden terminal - określone sekwencje znaków mogłyby wywoływać pewne działania (np. czyszczenie ekranu) i w konsekwencji być tracone.</p>
+
+<p align=justify>Przykładowy program tego typu (wraz z kodem źródłowym) został <a href="sites/default/files/104/sniff.zip">dołączony na chip-cd</a>. Jego użycie jest następujące:</p>
+
+<p><b>sniff com2: 115200</b></p>
+
+<p align=justify>gdzie "<b>com2</b>:" to nazwa obserwowanego, a <b>115200</b> to prędkość, z jaką mają być odczytywane znaki. Prędkość ta musi być taka sama jak prędkość ustawiana na obserwowanym porcie szeregowym (w przeciwnym razie będziemy obserwować na drugim porcie szeregowym wyłącznie znaki o kodzie 0x00). Nie ma oczywiście potrzeby sprawdzać wszystkich możliwych prędkości - z reguły wystarczy sprawdzenie i ustawienie jednej z najbardziej popularnych: 9600 lub 19200 lub 115200.</p>
+
+<p align=justify>Program w czasie swojego działania zapisuje odczytane z portu znaki w pliku "<b>out.trc</b>".</p>
+
+<p align=justify>Pozostała jeszcze kwestia sygnałów DTR i RTS, których włączenie jest ważne dla niektórych urządzeń (np. telefonów komórkowych). Opisana powyżej metoda w najprostszej postaci nie pozwala niestety na wykrycie ich stanu.</p>
+
+<p><font color="#1f409f" size="+2" class="dzial">2. Sygnały złącza szeregowego<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">&nbsp;
+<img src="sites/default/files/104/_com25.png" title="" alt="Złącze 25 pin" width="171" height="65">
+<p>
+<table border="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>
+      <center><b>Numer</b></center>
+      </td>
+      <td>
+      <center><b>Nazwa</b></center>
+      </td>
+      <td>
+      <center><b>Kierunek</b></center>
+      </td>
+      <td>
+      <center><b>Opis</b></center>
+      </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>SHIELD</td>
+      <td>-</td>
+      <td>Shield Ground</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>TXD</td>
+      <td>wyjście</td>
+      <td>Transmit Data</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>RXD</td>
+      <td>wejście</td>
+      <td>Receive Data</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>RTS</td>
+      <td>wyjście</td>
+      <td>Request to Send</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>CTS</td>
+      <td>wejście</td>
+      <td>Clear to Send</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DSR</td>
+      <td>wejście</td>
+      <td>Data Set Ready</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>GND</td>
+      <td>-</td>
+      <td>System Ground</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>CD</td>
+      <td>wejście</td>
+      <td>Carrier Detect</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>DTR</td>
+      <td>wyjście</td>
+      <td>Data Terminal Ready</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>RI</td>
+      <td>wejście</td>
+      <td>Ring Indicator</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>niepołączone</td>
+      <td>-</td>
+      <td><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<img src="sites/default/files/104/_com9.png" title="" alt="Złącze 9 pin" width="83" height="65"><br>
+<p>
+<table border="1" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>
+      <center><b>Numer</b></center>
+      </td>
+      <td>
+      <center><b>Nazwa</b></center>
+      </td>
+      <td>
+      <center><b>Kierunek</b></center>
+      </td>
+      <td>
+      <center><b>Opis</b></center>
+      </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>CD</td>
+      <td>wejście</td>
+      <td>Carrier Detect</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>RXD</td>
+      <td>wejście</td>
+      <td>Receive Data</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>TXD</td>
+      <td>wyjście</td>
+      <td>Transmit Data</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DTR</td>
+      <td>wyjście</td>
+      <td>Data Terminal Ready</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>GND</td>
+      <td>-</td>
+      <td>System Ground</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DSR</td>
+      <td>wejście</td>
+      <td>Data Set Ready</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>RTS</td>
+      <td>wyjście</td>
+      <td>Request to Send</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>CTS</td>
+      <td>wejście</td>
+      <td>Clear to Send</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>RI</td>
+      <td>wejście</td>
+      <td>Ring Indicator</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<font color="#1f409f" size="+2" class="dzial">3. Spójrz mi w oczko</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+<p align=justify>Troszkę inaczej wygląda sprawa w przypadku podczerwieni. Tutaj potrzebne będą dwa komputery ze złączem podczerwieni (mogą to być oczywiście komputery przenośne lub stacjonarne).</p>
+
+<p align=justify>Tym razem <a href="sites/default/files/104/sniff.zip">dołączony program</a> działa tylko w Linuxie i tylko z prędkością 9600. Należy wobec tego albo ustawić taką prędkość w komputerze, którego port podczerwieni będziemy obserwowali albo zmienić następującą linię w kodzie źródłowym:</p>
+
+<p><b>#define INIT_BAUDRATE B9600</b></p>
+
+<p align=justify>Jeżeli mamy włączoną obsługę podczerwieni w jądrze systemu, należy ją wyłączyć przed jego uruchomieniem (np. komendą "<b>rcirda stop</b>" w SuSe Linux). </p>
+
+<p align=justify>Następnie kierujemy złącze podczerwieni na komputer, który odbiera dane od obserwowanego urządzenia albo na obserwowane urządzenie (w zależności od tego, która transmisja nas interesuje).</p>
+
+<p align=justify>Wywołujemy program komendą "<b>irda_intercept</b>". Interesujące nas dane trafią do pliku "<b>out.trc</b>".</p>
+
+<p align=justify>Jeżeli mamy bajty wysyłane "do" lub "z" urządzenia w pliku, należy otworzyć go w jakimś edytorze binarnym.</p>
+
+<p align=justify>Szukamy pewnych prawidłowości. Interesują nas szczególnie sekwencje powtarzających się znaków - będą one na pewno stanowić nagłówek każdej komendy. W reszcie znaków należy również szukać pewnych prawidłowości - np. tekstów lub tekstów zakodowanych w Unikodzie. Zapewne w trakcie takiej analizy znajdziemy pewne komendy, które mogą wywoływać pewne funkcje lub być odpowiedzią na pewne zapytania wysłane do urządzenia. Najczęściej, aby się w tym upewnić, należy powtórzyć sesję "podglądania" i wysłać daną komendę kilka razy.</p>
+
+<p align=justify>Może się również tak zdarzyć, iż mamy transmisję z danym urządzeniem w pliku i znamy już ogólny format jego komend. W takiej sytuacji można polecić napisanie takiej procedury, która na podstawie pliku z transmisją będzie "odtwarzała" i wypisywała jedynie treść kolejnych komend (pomijając nagłówek). Przykład takiej procedury można znaleźć np. w <a href="?q=node/99">projekcie mygnokii2</a>. Ponieważ firma Nokia nie zmienia tam ogólnych zasad komunikacji z jej telefonami, takie rozwiązanie znakomicie ułatwia "rozpracowywanie" komend użytych w kolejnych modelach (są one ciągle zmieniane z różnych względów).</p>
+
+<p><font color="#1f409f" size="+2" class="dzial">4. Alternatywy</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+<p align=justify>Opisane w tekście metody oczywiście nie są oczywiście jedyne. Mają jednak zaletę: są bardzo proste oraz działają niezależnie od użytego systemu operacyjnego i oprogramowania.</p>
+
+<p align=justify>Alternatywą jest np. użycie programów monitorujących bezpośrednio używany przez urządzenie port szeregowy (nie jest wtedy oczywiście wymagane tworzenie żadnych dodatkowych opisanych w tekście "urządzeń").</p>
+
+<p align=justify>Taką możliwością dysponujemy np., gdy uruchamiamy "podglądane" oprogramowanie np. w jakimś emulatorze systemu operacyjnego, w którym ono działa i wykorzystujemy funkcje diagnostyczne emulatora.</p>
+
+<p align=justify>Można również wykorzystać mechanizmy samego systemu operacyjnego. W ten sposób działa PortMon dla różnych wersji Windows (<a href="http://www.sysinternals.com/ntw2k/freeware/portmon.shtml">http://www.sysinternals.com/ntw2k/freeware/portmon.shtml</a>). Pozwala na pełne monitorowanie stanu portu szeregowego (włącznie ze stanem linii DTR, RTS, zmianami prędkości portu, itp.). Jest on darmowy, ale niestety bez kodu źródłowego.</p>
+
+<p align=justify>Możliwe jest także użycie np. dostępnego np. w dystrybucji Mandrake pakietu i programu "<b>statserial</b>"</p>

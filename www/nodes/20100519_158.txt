@@ -1,0 +1,51 @@
+﻿Title:Miętowe Ubuntu smak numer 9 (wersja beta, 2010)
+Author:marcin
+When:19 May 2010
+Taxonomy:Polski,Linux,Polski artykuł,OS,x86
+
+<p align=justify>29 kwietnia pojawiło się Ubuntu 10.04 (<a href=?q=node/156>o tej dystrybucji pisałem krótko tutaj</a>), a <a href=http://www.linuxmint.com/blog/?p=1403>18 maja oparte na nim Linux Mint 9 o kodowej nazwie "Isadora"</a>. Czym się różnią ?</p>
+<!--break-->
+<h1>Instalacja</h1>
+
+<p align=justify>Na <a href=http://www.linuxmint.com/download.php>stronie Download</a> dostępne jest "tylko" 8 wersji (Live CD, Live DVD, wersja dla producentów komputerów i użytkowników z USA/Japonii - każda 32 i 64-bitowa). Pobrałem 32-bitową Live CD i po uruchomieniu z niej komputera zobaczyłem następujący pulpit (na obrazku poniżej pokazany z rozwiniętym menu Start):</p>
+
+<img src=sites/default/files/158/mint1.png width=600>
+
+<p align=justify>Mimo faktu, iż system pokazał się dzień wcześniej, widać już informację o 66 uaktualnieniach :)</p>
+
+<p align=justify>Oficjalne wymagania całości są troche inne niż w przypadku Ubuntu: 3GB dysku zamiast 5GB, rozdzielczość 800x600 zamiast 1024x768. Po kliknięciu ikony "Install Linux Mint" i podaniu odpowiedzi na 7 prostych pytań (dotyczących m.in. języka) Linux został posadzony na dysku (z ciekawostek - minimum RAM jest określone na 512MB, a mnie udało się to zrobić z 256MB RAM). Wystarczyło wyjąć płytę z napędu i po chwili zobaczyłem następujące zaproszenie:</p>
+
+<img src=sites/default/files/158/mint2.png width=600>
+
+<p align=justify>Całość jest oparta na GNOME, widać tutaj (i dalej) pewne podobieństwa do obecnych Windows (Vista i 7) - chociażby menu Start, ikonki sieci przy zegarku (ta od sieci nie jest animowana), itd. Po zainstalowaniu poprawek i zmianie kolorów (nie do końca odpowiadała mi czarna barwa menu okienek) można było przystąpić do testowania...</p>
+
+<p align=justify>Jest też opcja alternatywna - z płyty pod Windows należy uruchomić plik min4win.exe, podać dane takie jak hasło użytkownika czy wielkość dysku (którą chcemy przeznaczyć na Minta), a zainstaluje on się nam jak zwykła aplikacja okienkowa (widoczna w "Dodaj/Usuń programy" oraz menu startowym systemu Microsoftu). Dzięki tej opcji możemy zapoznać się z tym rozwiązaniem bez potrzeby partycjonowania dysku ! (<a href=https://wiki.ubuntu.com/WubiGuide>podobna opcja jest dostępna w przypadku niektórych wersji Ubuntu</a>). Jedyne dwa minusy - operacje dyskowe mogą być wolniejsze (co jest wyraźne wskazane przez producenta) oraz brak jest partycji, na której posadzono pliki Linuxa (to zauważyłem u siebie).</p>
+
+<h1>Wsparcie</h1>
+
+<p align=justify>Dystrybucja (podobnie jak Ubuntu w wersji na komputery osobiste) jest wspierana do kwietnia 2013. Obie są oparte na Debianie (jego formacie plików instalacyjnych dla programów, itp.), Mint w ogóle korzysta z repozytoriów Ubuntu (na załączonym obrazku zawartość pliku /etc/apt/sources.list, który określa źródła w dystrybucjach GNU/Linux wykorzystujących paczki Debiana):</p>
+
+<img src=sites/default/files/158/mint3.png width=600>
+
+<p align=justify>Producent podaje, iż w mojej wersji nie ma Javy (z uwagi na oszczędność miejsca - trzeba ją sobie doinstalować), ja zauważyłem brak pakietu mscorefonts z fontami znanymi z Windows (a to jest chyba lekka przesada).</p>
+
+<h1>Efekty</h1>
+
+<p align=justify>Mint jest reklamowany jako dystrybucja multimedialna. Moja karta graficzna NVidii została wykryta i zaproponowany został mi własny sterownik producenta (a ja skorzystałem z tej propozycji). Panel różni się znacząco od tego z Windows, inne są np. wartości ustawień barw (podanie tej samej gammy, jasności, itp. nie daje takich samych kolorów jak w systemie Microsoftu). Po włączeniu tego sterownika przestała mi działać kontrola jasności klawiszami funkcyjnymi, z uporem maniaka po restarcie systemu włączana była zawsze najwyższa rozdzielczość.</p>
+
+<p align=justify>Możliwe było włączenie efektów graficznych pulpitu, co widać w załączniku poniżej (na wszelki wypadek <a href=sites/default/files/158/mint.mpeg>podaję do niego oddzielnie link</a>). Przy poruszaniu mogą się zachowywać jak żelki, przy powiększaniu jak trampolina, pulpit może być jedną wielką kostką, Alt-Tab może wyglądać jak w Windows Vista i 7, itd. Niestety na filmiku poniżej widać jeden problem - migotanie. Nie jest ono widoczne podczas używania systemu, prawdopodobnie wynika z niedoskonałości programów nagrywających (próbowałem trzy: Istanbul, recordMyDesktop i <a href=http://xvidcap.sourceforge.net/>XVidCap</a> - ten ostatni został wybrany ostatecznie)</p>
+
+<embed src="sites/default/files/158/mint.mpeg"
+ type=video/x-ms-wm width=800 height=600 >
+
+<p align=justify>Niestety migotanie było widoczne gołym okiem przy odtwarzaniu filmików z przeglądarce z użyciem Flasha w trybie pełnoekranowym (przykładowo dotyczyło to <a href=http://www.axnscifi.pl/full-episodes>strony AXN Scifi</a>). Piszę o tym, gdyż w Windows na tym samym komputerze takiego efektu nie było.</p>
+
+<p align=justify>Pomijając to nie miałem żadnych problemów z oglądaniem filmów - wszystkie kodeki były od razu na miejscu. Pewnym bardzo drobnym rozczarowaniem był brak sterowników do mojego tunera TV (firmy AverMedia).</p>
+
+<p align=justify>Z ciekawostek: Mint nie blokuje domyślnie kombinacji klawiszy Ctrl+Alt+Backspace restartującej środowisko graficzne (w Ubuntu <a href=http://www.ubuntu.com/getubuntu/releasenotes/1004>trzeba to sobie uaktywnić</a>).</p>
+
+<h1>Podsumowanie</h1>
+
+<p align=justify>Jedni wolą jabłka, jedni gruszki. Jednym wystarcza samochód z fabryki, inni wolą ten sam samochód poddać pewnemu tuningowi (np. zwiększyć moc w określonym przedziale obrotów, ale stracić niskie spalanie).</p>
+
+<p align=justify>Minta traktowałbym jako pewną formę tuningu, wielu użytkownikom może odpowiadać lepiej niż Ubuntu. Z uwagi na to, iż tak naprawdę nie wnosi rewolucji, stawiam 4.</p>

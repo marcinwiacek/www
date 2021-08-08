@@ -1,0 +1,16 @@
+﻿Title:Report 2007-12-09
+Author:marcin
+When:09 Dec 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Gammu+ 0.38 is out. I have added configure script, which can enable Bluez <u>AFTER USER ACTION</u>. You have written many times, that source after patching is <a href="?q=gpl2">GPL2</a> licensed. Please note, that in my opinion it doesn't break <a href="?q=gpl2">GPL2</a> - if you will have patched source, you can remove Bluez driver (yes, this can be very easy separated) and release source under other license:</p>
+<pre> "If identifiable sections of that work are not derived from the Program, 
+<!--break-->
+ and can be reasonably considered independent and separate works 
+ in themselves, then this License, and its terms, do not apply to those 
+ sections when you distribute them as separate works"</pre><p>
+You can find also some other explanations, that this is OK. My target is not breaking this license. If this is done, I will try to fix it ASAP.</p>
+<p>As you notified, I have removed "But tracker" sheet - too many people though, that Gammu+ project here was connected with Gammu. I remind: for Gammu please use <a href="http://bugs.cihar.com">bugs.cihar.com</a></p>
+<p>I was also playing last times with various OS. Debian, latest Mandriva, Server 2008, a little Vista. I'm updating my page <a href="?q=node/6">"100 reasons why you shouldn't touch Vista"</a>. I'm meantime I found very big articles about it on WikiPedia and in other places.</p>
+<p>On the end I will repeat some older things: People are asking me about help, but I don't have too much motivation for it. Gammu+ could be very good step ahead, but nobody is interested in help (bug reporting, donating and so on) and I don't use even daily Nokia phone now. wxWidgets weren't also too good choice. I'm not sure in 100%, what next. As you can see from my older blog entries, I'm thinking about buying smartphone.</p>

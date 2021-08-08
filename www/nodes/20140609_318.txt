@@ -1,0 +1,23 @@
+﻿Title:Show me heaven
+Author:marcin
+When:09 Jun 2014
+Taxonomy:English,English blog,poem,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Hey baby, I need your hand,<br />
+help me and understand,<br />
+I'm frightened more than you,<br />
+though I'm barely touching you,<br />
+you've such amazing grace...</p>
+<p>Hey baby, show me heaven today,<br />
+shake me like yesterday,<br />
+come over here above it all,<br />
+help me before next fall,<br />
+you've such amazing grace...</p>
+<p>Hey baby, hold me so tight,<br />
+hold me morning, day, night,<br />
+I've shivers down my spine<br />
+and it feels so divine,<br />
+you've such amazing grace...</p>
+<!--break-->

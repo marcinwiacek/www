@@ -1,0 +1,32 @@
+﻿Title:Zakładanie simlocka w Nokiach DCT3 (2003)
+Author:marcin
+When:11 Sep 2003
+Taxonomy:Polski,Polski artykuł
+
+<p></p><center><b><font color="#1f409f">Strona stworzona na podstawie materiału nadesłanego przez Mikesza</font></b><font color="#1f409f"><font size="+2"><br /></font></font>
+<p></p></center><br />
+Opisane niżej metody wymagają, żeby telefon nie miał żadnych SIMLocków (np. w programie <i>Nokia Tool by Rolis 1.7</i> należy użyć funkcji <i>Clear SPLocks</i>).<br /><p><font color="#1f409f" size="+2" class="dzial">SIMLock poziomu 1 (na sieć)</font><br /></p>
+<!--break-->
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade" /><br /><br /><b>Metoda 1</b><br /><ol><li>W <i>Nokia Tool</i> w pierwszym SIMLocku zmień status z <i>FACTORY</i> na <i>AUTO/FACTORY</i> i naciśnij <i>OPEN</i> (tak jak byś chciał go zamknąć - lock będzie nadal <i>OPEN</i> ale status zostanie <i>AUTO/FACTORY</i>).</li>
+<li>Zrestartuj telefon i podaj PIN.</li>
+<li>Po komunikacie "Kod przyjęty" pojawi się komunikat "SIM restriction on" i telefon się sam zrestartuje (po tym restarcie w Net Monitorze w teście 36 zmienia się jedna z wartości)</li>
+</ol><p><b>Metoda 2</b><br /></p>
+<ol><li>W <i>NokiaTool</i> przy pierwszym SIMLocku ustaw status na <i>USER</i>, nastepnie naciśnij <i>OPEN</i>. Lock się zamknie.</li>
+<li>Zrestartuj telefon.</li>
+<li>Następnie w <i>Knoku</i> menu <i>"Modify Locks" -&gt; "MCC+MNC"</i> zaznacz <i>Open</i>, zrestartuj telefon. (W <i>Knoku</i> ta operacja może się czasem nie udać za pierwszym razem - nalezy wtedy zrestartować telefon). Chodzi o to żeby SIMLock był otwarty ale żeby był kod kraju i sieci więc NIE używaj wtedy funkcji <i>Clear SPLocks</i>.</li>
+<li>W <i>Nokia Tool</i> sprawdź czy wszystko jest OK: pierwszy SIMLock otwarty ze statusem <i>USER</i>.</li>
+<li>Zrestartuj telefon i podaj PIN.</li>
+<li>Wpisz kod <b>*pw+260xx+1#</b></li>
+<li>Pojawi się komunikat "SIM restriction on" i telefon się zrestartuje<br /></li>
+</ol><p><font color="#1f409f" size="+2" class="dzial">SIMLock poziomu 4 (na kartę SIM)</font><br /></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade" /><br /><br /><b>Metoda 1</b><br /><ol><li>W <i>NokiaTool 1.7</i> ustaw status PIERWSZEGO SIMLocka na <i>AUTO/FACTORY</i></li>
+<li>Następnie bez restartu telefonu zrób to samo z 4 SIMLockiem (czyli ustaw jego status na <i>AUTO/FACTORY</i> i naciśnij <i>OPEN</i>)</li>
+<li>Zrestartuj telefon i podaj PIN</li>
+<li>Pojawi się komunikat "SIM restriction on" i nastąpi restart telefonu.</li>
+</ol><p><b>Metoda 2</b><br /></p>
+<ol><li>Trzeba zamknąć 1 SIMLocka ze statusem <i>AUTO/USER</i> i 4 SIMLocka ze statusem <i>AUTO/USER</i>.</li>
+<li>Po restarcie telefonu podać PIN (1 i 4 SIMLock się zamknie)</li>
+<li>Następnie w <i>Knoku</i> menu <i>"Modify Locks" -&gt; "MCC+MNC"</i> trzeba zrobić <i>Open</i> dla 1 i 4 SIMLocka.</li>
+<li>Po restarcie telefonu i po podaniu PIN-u wpisz kod: <b>*pw+260xx+4#</b></li>
+<li>Pojawi się komunikat "SIM restriction on" i nastąpi restart telefonu.</li>
+</ol>

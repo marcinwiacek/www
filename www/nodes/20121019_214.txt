@@ -1,0 +1,19 @@
+﻿Title:Przepisy drogowe wersja 16 + recenzja (2012)
+Author:marcin
+When:19 Oct 2012
+Taxonomy:Polski,Polski blog,Android,GSM,drogowe
+
+<p>Kolejny tydzień, kolejna wersja <a href=https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe&hl=pl>"Przepisów drogowych"</a>....i <a href=http://pej.cz/APP-FRIDAY-Przepisy-drogowe-Android-a4569>kolejna jej recenzja (pod tytułem "APP FRIDAY: Przepisy drogowe (Android)")</a>.
+
+<p>Pozwolę sobie zacytować tutaj swoje własne słowa będące jej fragmentem :) (zostałem zapytany o powód napisania tej apki).
+<!--break-->
+
+<p>Był on banalny - miałem <i>"chęć nauczenia się czegoś nowego + chęć zrobienia czegoś bardziej trwałego niż aplikacja typu „hello world""</i>
+
+<p><i>"Temat „drogowy” został wybrany z uwagi na brak podobnego opracowania na platformę Android, jak również (nie unikniemy tutaj niestety polityki) z uwagi na działania rządu polskiego. O ile trudno, żebym mógł zrobić coś większego w kwestii przebudowywanych dróg (po przebudowie są często gorsze), autostrad (są płatne i często omijane), karania kierowców (np. coraz częściej istnieje możliwość opłacenia większego mandatu w zamian za rezygnację z naliczania punktów karnych) o tyle mogłem coś zrobić w temacie coraz większej komplikacji niejasnych przepisów"</i>
+
+<p><i>"Wybór tematu okazał się moim zdaniem strzałem w dziesiątkę – coraz więcej mówi się o patologiach w szkoleniu i karaniu kierowców, niejasnych zasadach pierwszeństwa na drodze, coraz bardziej krytycznie oceniane są także kolejne działania posłów w tym zakresie (np. Pani Beaty Bublewicz). Żeby nie szukać daleko – proponuję lekturę ostatniego Poradnika „Auto Świata”</i>
+
+<p>Zostałem też zapytany o plany na przyszłość. I tu mógłbym wymieniać w nieskończoność, natomiast zapewne coś dalej będę robił w temacie programowania, <i>"lepiej bowiem działać i robić coś konkretnego w życiu zamiast narzekać"</i> :).
+
+<p>Jeden ze scenariuszy brzmi <i>"odnaleźć firmę dającą zatrudnienie/sponsorującą rozwój i stworzyć cały cykl podobnych aplikacji z różnych dziedzin (gdzie np. wersje darmowe będą oferować podstawowe informacje, a płatne informacje przydatne osobom wykorzystującym je zarobkowo)"</i>. Inny to aplikacje na iOS (może wreszcie pojawią się komputery Mac Mini z Ivy Bridge :)). Jeszcze inny to... (możliwości jest wiele, zobaczymy co dalej :)).

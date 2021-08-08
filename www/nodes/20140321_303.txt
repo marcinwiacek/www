@@ -1,0 +1,21 @@
+﻿Title:w marcu
+Author:marcin
+When:21 Mar 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>W marcu jak w garncu niestety,<br />
+życie wywija różne balety,</p>
+<p>dużo gadania i spoglądania,<br />
+ciągle podchody, ciche knowania,<br />
+wycofywanie się i fochanie,<br />
+czasem udane misterne działanie,</p>
+<p>chęci przykryte odmiennym stanem,<br />
+mowa, jakby się było baranem,</p>
+<p>i tak się wszystko powoli kręci,<br />
+i los też drwi wciąż, miesza i nęci,<br />
+a wystarczyłyby ze dwa słowa,<br />
+by skończyła się każda rozmowa,</p>
+<p>i zaczęło coś nowego i odmiennego...</p>
+<!--break-->

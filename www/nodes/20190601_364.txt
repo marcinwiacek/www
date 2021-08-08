@@ -1,0 +1,51 @@
+﻿Title:Przepisy drogowe 1.45 &amp; Straż 1.0 (2019)
+Author:marcin
+When:01 Jun 2019
+Taxonomy:Polski,Polski blog,drogowe,Android,Straż
+
+<p><img src="sites/default/files/364/Screenshot_20190602-001911_Przepisy%20drogowe.jpg" align="right" width="200"  style="margin:2px" /></p>
+<h1>Historia</h1>
+<p><a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe&amp;hl=pl">"Przepisy drogowe" pojawiły się w Google Play dnia 4 listopada 2011</a>. To była zupełnie inna epoka - na rynku królował Android 2.x, Samsung Galaxy S (wymienna bateria, radio FM, pojedyńczy rdzeń 1Ghz i 512MB RAM) i iPhone 4S (iOS 5), jak również Windows 7 SP1 (ale ludzie i tak w większości używali XP, bo był zwyczajnie znacznie szybszy).</p>
+<!--break-->
+<p>Pamiętam jak chciałem przygotować coś ładnego, prostego i szybkiego, co nie wymagałaby internetu i dawało maksimum informacji. To była moja pierwsza apka na Androida i tworzenie jej było naprawdę bolesne (Android był mocno niedojrzały i trzeba było użyć różnych tricków, a ja metodą prób i błędów musiałem nauczyć się nowej filozofii programowania, co było trudne z uwagi na pewien nazwijmy to stresujący projekt w pracy).</p>
+<p>Inny świat, nie mówiono wtedy o winie Polski za wydarzenia II wojny światowej, opublikowano raport Millera po najbardziej wstrząsającej dla narodu polskiego katastrofie lotniczej (cokolwiek nie myśleć o jej przyczynach), a ludzie ciągle wierzyli w Unię Europejską i dobrą zmianę.</p>
+<p>Jeśli to porównać do dzisiejszych czasów, gdzie</p>
+<p>
+</p><ul><li>Krym ma innego właściciela
+</li><li>polska scena polityczna jest delikatnie mówiąc zabetonowana, a sytuacja kraju nie we wszystkim wesoła
+</li><li>dużo nie zmienia się w kwestii upraszczania prawa (niestety, ale technologia w dalszym ciągu nie służy Polakom po to, żeby łatwo i prosto poznawać stan prawny i nic się zmieniło od czasu mojego researchu ok. 2012)
+</li><li>USA walczy otwarcie z Chinami (Huawei) i Rosją (Kaspersky)
+</li><li>w Europie jest jak jest
+</li><li>Google przygotowywuje już Androida 10 (i nie ma już "don't be evil")
+</li><li>seria "S" Samsunga aktualnie zawiera modele Galaxy S10E, S10 i S10+
+</li><li>procesory x86 dla "ludu" mają nawet po 64 wątki (do tego AMD wykona zmasowany atak z Zenem 2 i 24 wątkami, które będzie można włożyć nawet w płyty ITX), ARM i SSD szturmują salony i Intel jest w odwrocie
+</li><li>kontrowersyjne 5G jest wdrażane przy coraz większych protestach
+</li></ul><p>to można powiedzieć, że "Przepisy" to dinozaur taki sam jak PRL (aż chce się tutaj wspomnieć Polską Republikę Ludową :)).</p>
+<p>Czy wobec tego podobne opracowanie ma ciągle sens?</p>
+<p>W to akurat nie wątpię - w świecie plastikowych gwiazdeczek i wszechobecnej tandety, coraz bardziej trujących silników i wyzysku, nie można się poddawać i należy tworzyć takie perełki bo <b>to co polskie może być dobre</b> (proszę zauważyć, że Polski nie było na mapach te przysłowiowe 123 latach, a mimo to ludzie się nie poddali...).</p>
+<p><img src="sites/default/files/364/Screenshot_20190602-011157_STRA.jpg" align="right" width="200" />Aplikacja była pisana początkowo w Android SDK (opartym na Eclipse), obecnie tworzę ją w Android Studio (opartym na IntelliJ IDEA, które wspiera nie tylko Javę, ale również Kotlina) i nie używam już Oracle JavaSDK.</p>
+<p>Eksperymentowałem z wersją www, wersją na Tizena i FirefoxOS, powstało również wydanie na iOS (od grudnia 2012 w App Store), natomiast dane były dosyć regularnie zmieniane do 2016 (wersja 1.40 w styczniu 2016).</p>
+<p>To był okres wielkich zmian w moim życiu, natomiast jeśli chodzi o kodowanie - na bazie enginu "Przepisów" powstała <a href="https://play.google.com/store/apps/details?id=com.mwiacek.straz&amp;hl=pl">aplikacja "Straż" z treściami przygotowanymi dzięki uprzejmości Pana Krzysztofa (w Google Play od 25 stycznia 2016)</a>, po pewnej przerwie również wersje 1.41 - 1.44 "Przepisów" (październik - grudzień 2017), a ja snułem plany co przyszłości.</p>
+<p>Życie zweryfikowało wszystko (stąd ponad <a href="?q=node/363">19_000 zmienionych linijek w Chrome</a>, doskonalenie się w pisaniu książek i opowiadań, ale też wypadek) i darmowe projekty tak naprawdę mogłem reaktywować dopiero w 2019 (15 maja miała miejsce publikacja kolejnej "Straży", a 2 czerwca "Przepisów" 1.45).</p>
+<p>Przyszłość nie jest już tak ciemna i wydaje się, że tym razem się uda, czego pragnę całym sercem i życzę użytkownikom moich aplikacji.</p>
+<h1>Technikalia</h1>
+<p><img align="left" src="sites/default/files/364/Screenshot_20190602-001845_Przepisy%20drogowe.jpg" width="200" />Od początku duża część kodu "Straży" i "Przepisów" była współdzielona, w 2019 zmuszony przez Google przepisałem większe fragmenty kodu i poprawiłem niektóre stare rozwiązania (łezka się kręci w oku - proszę pamiętać, że niektóre linijki były pisane w 2011!) i obecnie spora część klas jest współdzielona zgodnie ze wszystkimi zasadami sztuki - profitem będą m.in. szybsze aktualizacje.</p>
+<p>Pliki html z danymi i obrazki zawarte są w plikach apk, Taryfikator jest renderowany z plików JSON (tak, tak, to jest cała baza, a nie tylko statyczna tabela), a akty prawne/opisy znaków sam składałem z Dzienników Ustaw (żmudna robota, która nie daje nic poza satysfakcją).</p>
+<p>We wszystkich enginach używam jednego zestawu plików (tak! wersja na iOS i inne mają te same pliki z danymi!), w międzyczasie eksperymentowałem również z czymś co teraz wraca w wielkim stylu (Google i Apple zauważyli, że czarne tło jest lepsze i robią to co było w Androidzie 4.x, a moje "Przepisy" miały podobny tryb wieki temu).</p>
+<p>W "nowych" wersjach należy się spodziewać pewnych zmian w funkcjonalności - Google zmienił sposób funkcjonowania WebView i inaczej może działać skalowanie, również menu obecnie pokazuje się na Samsungu tylko po długim wyświetleniu Back, a na Pixelu już nie (dlatego wyłączyłem notkę na starcie).</p>
+<p>Co się jeszcze zmieniło na plus? Dodałem chociażby zapisywanie która pozycja była ostatnio wczytana (na razie nie dotyczy zakładek "Taryfikator" i "Treść", gdzie generuję listę pozycji dynamicznie).</p>
+<h1>Przyszłość</h1>
+<p>
+</p><ul><li>pozwiązanie problemu menu w wersji Android (najprawdopodobniej nowy interface)
+</li><li>poprawki drobnych błędów enginu (jest kilka - np. szybkie scrollowanie treści w zakładce "Znaki")
+</li><li>regularne poprawki treści (znaki są praktycznie w całości aktualne, pozostaje praca na UKP, PRD, ADR i aktami prawnymi)
+</li><li>wersja iOS dla Straży
+</li><li>pełen dark mode
+</li></ul><p>...i inne.</p>
+<p>Nie chcę za dużo obiecywać, ale będę się starał (i obiecuję, że te apki nie będą prosić o uprawnienia).</p>
+<h1>Coś nie działa</h1>
+<p>Wiadomo gdzie mnie znaleźć -&gt; zawracanie mojej głowy tylko przyspieszy rozwiązanie problemu.</p>
+<h1>Nie ma jakichś informacji...</h1>
+<p>Moje chęci to jedno, a życie to drugie i z tego powodu projekty darmowe czasem muszą mieć mniejszy priorytet (a postawa "madki Polki, której wszystko się należy" na mnie nie działa). </p>
+<p>Jeżeli ma być lepiej - proszę ruszyć "cztery litery" i zapodać w mailu linki albo co dokładnie zmienić (Word czy HTML załatwi sprawę, poza tym dane do "Przepisów" są/będą na www czy GitHubie i każdy będzie mógł wnieść swój wkład).</p>
+<p>PS. Czy ktoś widział rok "02002" ? <a href="http://dziennikustaw.gov.pl/DU/2002/s/170/1393">Ciach</a></p>

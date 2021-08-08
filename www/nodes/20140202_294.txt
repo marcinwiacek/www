@@ -1,0 +1,38 @@
+﻿Title:Anna
+Author:marcin
+When:02 Feb 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dzisiaj usłyszałem proste słowa<br />
+i urzekła mnie ich wymowa,<br />
+Bo choć wiatr wieje i wielu chce szlochać,<br />
+to trzeba mieć nadzieje... i kochać...</p>
+<p>i myślę, jak żeśmy Polacy zagubieni,<br />
+tak jedni na drugich napuszczeni<br />
+i ironia, że inne narody nam opowiadają,<br />
+o wierze i pięknie przypominają,</p>
+<p>a my deklarujemy brak wiary całkowicie<br />
+i boimy się otworzyć swe życie,<br />
+sami chcąc rozwiązać codzienne sprawy,<br />
+gubiąc sens, mając los ponurawy,</p>
+<!--break-->
+<p>pusty jak wydmuszka i choć kolorowy,<br />
+to w środku nic nie wart i taki jałowy,<br />
+i energię tracimy na tematy zastępcze,<br />
+zamiast na to, aby rozwijać wnętrze,</p>
+<p>umieram i budzę się w tej codzienności<br />
+i choć wielu nie chce mej obecności,<br />
+to ciągle szukam właściwej drogi<br />
+i może ujrzę również ich profil mniej wrogi,</p>
+<p>może też dadzą się poznać z innej strony,<br />
+może los nas inaczej będzie spleciony,<br />
+może inaczej będą się wypowiadać,<br />
+i sukcesy, nie żale będzie można składać,</p>
+<p>i może zareagują na raka otwartego,<br />
+co dotyka dziś każdego żyjącego,<br />
+a do tego proszę o nowe znajomości,<br />
+i uśmiech niech zawsze u mnie gości,</p>
+<p>i choć wiatr wieje i wielu chce szlochać,<br />
+to trzeba mieć nadzieje... i kochać...</p>

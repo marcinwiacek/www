@@ -1,0 +1,37 @@
+﻿Title:Bardzo krótkie porównanie Firefox w tym samym Ubuntu na VirtualBox i Hyper-V (2019)
+Author:marcin
+When:5 Dec 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,Linux,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Bardzo-krotkie-porownanie-Firefox-w-tym-samym-Ubuntu-na-VirtualBox-i-HyperV,105119.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Po <strike>zakończonych niepowodzeniem</strike> bojach z PHP 7.4 (napisałem zresztą <a href="?q=node/380">post o tym, jak sobie zainstalować Apache, PHP i PostgreSQL</a> bez zaśmiecania Windows) i weekendzie czyszczenia magazyn&#243;w ze wszystkich śmieci (podczas kt&#243;rego kupiłem jedynie buty, bo było to czego szukałem i rzeczywiście w obniżonej cenie) &quot;odczułem dobrowolną potrzebę&quot; orientacyjnego por&#243;wnania jaka jest obecnie r&#243;żnica wydajności pomiędzy Hyper-V i VirtualBox.</p>
+<!--break-->
+
+<p>Do test&#243;w użyłem tej samej instalacji Ubuntu 16.04 LTS i Firefox - maszyna wzięta z Hyper-V została przystosowana do VirtualBox (o czym piszę poniżej), a następnie uruchomiłem na niej kilka benchmark&#243;w.</p>
+
+<p><b>Konwersja maszyny<br/></b></p>
+
+<p>Wpierw przekonwertowałem dysk z formatu VHDX do VHD</p>
+
+<p><pre contenteditable="false"><code class="powershell" data-lang="powershell" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">vboxmanage clonemedium disk ubuntu.vhdx  ubuntu.vhd --format VHD</code></pre>
+
+<p>Potem stworzyłem maszynę w VirtualBox dodając dysk do kontrolera SCSI</p>
+
+<center><p><img src="sites/default/files/381/ubu1.png" style="width:608px;height:401px;" alt="image" title="image" /></center>
+
+<p>i po starcie systemu Ubuntu &quot;włożyłem&quot; do napędu CD płytę z rozszerzeniami i zainstalowałem je.</p><p>Drobna uwaga - jeżeli byłaby to maszyna Hyper-V generacji 2, konieczne byłoby jedynie włączenie UEFI (enable EFI)</p>
+
+<p><center><img src="sites/default/files/381/ubu2.png" style="width:608px;height:401px;" alt="image" title="image" /></center>
+
+<p><b>Firefox</b></p>
+
+<p>Przeglądarka domyślnie pyta się użytkownika, czy strona ma zatrzymać wolno działające skrypty JavaScript.</p><p>Zmieniłem to w config:about - wyłączyłem opcje dom.ipc.processHangMonitor i dom.ipc.reportProcessHangs, jak r&#243;wnież zwiększyłem do 1000 limit ustawiony w opcji dom.max_script_run_time.<b><br/></b></p>
+
+<p><b>Liczby</b></p>
+
+<p>Maszyna w Hyper-V miała tę samą ilość pamięci RAM i rdzeni CPU, a liczby prezentują się następująco (większe wartości są tymi lepszymi):<b><br/></b></p>
+
+<p><center><img src="sites/default/files/381/liczby.png" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Pewne r&#243;żnice mogą wynikać oczywiście ze sposobu przydzielania mocy obliczeniowej, og&#243;lnie jednak w VirtualBox r&#243;żnica jest duża na niekorzyść (Hyper-V jest szybszy) - do moich cel&#243;w to stwierdzenie było wystarczające.&#160;&nbsp;</p>

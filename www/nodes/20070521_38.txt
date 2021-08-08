@@ -1,0 +1,18 @@
+﻿Title:Report 2007-05-20
+Author:marcin
+When:21 May 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Well, I have decided to write few words after reading Michal's blog and some other... First facts.</p>
+<!--break-->
+<ul><li>some my blog entries aren't announced and not too many people reading them (example: previous from 15 may about standards was read by about 30 people up to today)
+</li><li><a href="http://www.pcworld.pl/news/110373.html">PCWorld.pl announced Gammu 1.11.0</a>. Note was full of mistakes and I criticized it. It was about updating Wammu too. One of users said: Wammu isn't updated, because there aren't too many interesting there (in comparing to Gammu)
+</li><li>one of last posts to Gammu list was about SMS sending from Mobius in Nokia 3100/6100. By accident I WAS testing 6100. I wrote according to truth, that Mobius protocol looks to be FBUS variation. And what ? And nothing. User asks about adding new protocol (although it's not required and IMHO it looks to be hardware (cable) issue for me...).
+</li></ul><p>Why I write all these things ?</p>
+<p>Thanks to hard work Gammu become popular. It required big help from Michal (for example) for adding to Debian. Success was possible, because we supplemented each other (I and Michal). Now it's lost and probably won't be rebuild. Shame. I see, that people don't understand me. Shame. </p>
+<p>But there is still chance to build multiplatform and FREE software for managing portable devices. And I will try to make this work at least partially... Maybe it will need improving (I'm not great coder), maybe it will need better ABI, but it will work...</p>
+<p>Currently I'm testing more and more Nokia models with Gammu+ (for example yesterday it was Nokia 6210). I will want to have main things supported in May for everything non-symbian from Nokia and this possible. As said earlier, I'm thinking about XML and exporting already works. What next ?</p>
+<p>I started playing (making research - installing SDK, etc. etc.) with Symbian, Windows Mobile and OpenMoko. We will see, where I will go now...</p>
+<p>It's nice, but I'm still asking myself in my head: if there were design mistakes in Gammu, why can't we speak about it and for example make Gammu+ (which is really FREE in each meaning) better (without these mistakes) ? Is it license problem or something else ?</p>
+<p>What do you think ? Was it written by mad or crazy man ? Does it have sense to support him ? Each should answer personally...</p>

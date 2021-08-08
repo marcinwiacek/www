@@ -1,0 +1,53 @@
+﻿Title:Tsunami
+Author:marcin
+When:12 Feb 2014
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Kim jest dla zięciowej jej własny zięć ?<br />
+Ile to jest dwa podzielone przez pięć ?<br />
+Czym jest monotlenek diwodoru ?<br />
+Jaki jest wzór do liczenia oporu ?</p>
+<p>Czy Lądek Zdrój jak Londyn istnieje ?<br />
+Gdzie i jak mech na drzewie widnieje ?<br />
+Czy Ziemia kręci się wokół Słońca ?<br />
+Dlaczego to wierzba jest płacząca ?</p>
+<p>Jaka bywa kolejność działania ?<br />
+Ile kości nasza skóra zasłania ?<br />
+Czy iloraz nam mnożenie firmuje ?<br />
+Czy bit tylko osiem bajtów zajmuje ?</p>
+<!--break-->
+<p>Czy kilo pierza cięższe czy stali ?<br />
+Dlaczego niektórzy są tak mali ?<br />
+Ile zer składa się na tysiąc ?<br />
+Co król pruski mógł naszemu przysiąc ?</p>
+<p>I tak mógłbym latami odmieniać,<br />
+ale chyba nie ma co już wymieniać,<br />
+i może wiek mi wzrok już zabiera,<br />
+ale wielu chyba pogarda rozpiera,</p>
+<p>wzgarda do czegokolwiek zgłębiania<br />
+i mania do łatwości szukania,<br />
+"wychowanie, wygoda" ktoś powie,<br />
+"bieda zmusza" ktoś inny dopowie,</p>
+<p>i może coś w tym racji będzie,<br />
+a zaradnych tutaj więcej ubędzie,<br />
+oby pozostali nie byli mali,<br />
+oby nauki ciągle także szukali,</p>
+<p>ktoś zaraz powie, żem pesymistą,<br />
+inny zaś strzeli uwagą nieczystą,<br />
+lecz statystyki i doświadczenia<br />
+mówią, co na dobre lub złe zmienia,</p>
+<p>i choć część winy jest technologii,<br />
+to nie chcę używać tu spychologii,<br />
+i już teraz jak coś jest zmieniane,<br />
+wielu siedzenie ma zasiedziane,</p>
+<p>byleby nic tylko nie powiedzieć<br />
+i byleby cicho ciągle siedzieć,<br />
+na los swój jedynie narzekając,<br />
+w tableta za grosz się wlepiając,</p>
+<p>jak żyć Panie pytam się sam Ciebie,<br />
+gdzie znaleźć pełne wsparcie dla siebie,<br />
+aby oto w takiej rzeczywistości,<br />
+mieć ciągle chęć do pełnej radości</p>
+<p>i mieć wyzwanie ciekawe niesłychanie...</p>

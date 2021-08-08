@@ -1,0 +1,54 @@
+﻿Title:Dzielimy się fantastyką (2021)
+Author:marcin
+When:6 July 2021
+Taxonomy:polski,polski blog,salon24.pl,S.F.
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1148823,dzielimy-sie-fantastyka>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dzisiaj kilka słów o tym, co (w znaczącej większości) za darmo można poczytać po polsku.</p>
+<!--break-->
+<h2><a href="https://allegro.pl/legendy" target="_blank" rel="nofollow noopener">Allegro.pl/legendy</a></h2>
+<p>Zarzucony projekt Allegro – doskonałe filmiki i 2 ebooki.</p>
+<h2><a href="https://artrage.pl/" target="_blank" rel="nofollow noopener">Artrage.pl</a></h2>
+<p>Bodajże dwa razy był tu Lem, regularnie pojawiają się tu również pakiety niefantastyczne (cena od symbolicznego 1 PLN wzwyż).</p>
+<h2><a href="https://www.fantastyka.pl/" target="_blank" rel="nofollow noopener">Fantastyka.pl</a> </h2>
+<p>Serwis o wyglądzie trącącym myszką, w którym w najlepsze hula przestarzały PHP 5.x. Skansen z 2014 roku (ze starymi błędami i bez żadnych nowych funkcjonalności), za to z ciągle nowymi opowiadaniami (<a href="https://www.fantastyka.pl/opowiadania/wszystkie" target="_blank" rel="nofollow noopener">w dziale „Poczekalnia” jakość bywa różna</a>, <a href="https://www.fantastyka.pl/opowiadania/biblioteka" target="_blank" rel="nofollow noopener">w dziale „Biblioteka” mamy teoretycznie do czynienia z najlepszymi z najlepszych</a>, <a href="https://www.fantastyka.pl/opowiadania/piorka" target="_blank" rel="nofollow noopener">a w dziale "Piórka" z najlepszymi z najlepszych z najlepszych</a>).</p>
+<p>Moim bardzo skromnym zdaniem widać tutaj mocny wpływ określonych osób czy trendów (treści nie są całkiem różnorodne, jak to w fantastyce być powinno).</p>
+<p>Chcemy mieć dziesiątki tysięcy tekstów do czytania?</p>
+<p>Możliwe jest przygotowanie plików EPUB praktycznie ze wszystkich dostępnych tam publikacji – dawno temu zrobiłem do tego odpowiednie skrypty (<a href="?q=node/391">jedna wersja w PHP</a>, <a href="?q=node/409">druga niezależna w JavaScript</a>).</p>
+<p>A do tego dochodzą jeszcze <a href="https://www.fantastyka.pl/antologia" target="_blank" rel="nofollow noopener">oficjalne antologie „Fantastyczne pióra 2018” i „Fantastyczne pióra 2019”</a> (prawdopodobnie wkrótce za rok 2020).</p>
+<h2><a href="http://www.bazaebokow.robertjszmidt.pl/" target="_blank" rel="nofollow noopener">Fantastykapolska.pl</a></h2>
+<p>Porzucony projekt Roberta Szmidta.</p>
+<p><a href="?q=node/391">Dawno temu przygotowałem skrypt w PHP, który pozwala na stworzenie z dostępnych tam publikacji plików EPUB</a>.<br />
+</p>
+<h2><a href="https://fantazmaty.pl/" target="_blank" rel="nofollow noopener">Fantazmaty.pl</a></h2>
+<p>Serwis udostępniający już 11 zbiorów opowiadań, wszystkie za darmo.</p>
+<h2><a href="http://www.historiavita.pl/" target="_blank" rel="nofollow noopener">Historiavita.pl</a></h2>
+<p>Do pobrania „Ostatni dzień pary” i „Ostatni dzień pary II”.</p>
+<h2><a href="https://www.legimi.pl/" target="_blank" rel="nofollow noopener">Legimi.pl</a></h2>
+<p>Nie jest to serwis darmowy (np. możliwość nieograniczonego czytania książek w trakcie trwania wykupionego abonamentu to koszt 39,99 PLN), ale… pozwala zapoznać się m.in. z twórczością takich autorów jak Machanienko, Lem, Przemysław Piotrowski (nie wszystko), Glukhovsky, Szmidt, Orson Scott Card („Gra Endera” i inne), Liu Cixin czy Corey (seria „Expanse”). Nie zawsze można się zgadzać z doborem autorem (np. w abonamencie brakuje Asimova), ale biorąc pod uwagę fantastyczną i niefantastyczną część (np. obecność Mroza, Kinga, itp.) - warto poczytać sobie przynajmniej przez kilka miesięcy.</p>
+<h2><a href="http://metro2033.pl/" target="_blank" rel="nofollow noopener">Metro2033.pl</a></h2>
+<p>Kiedyś prężnie działająca strona, obecnie jej cień. Wspominam o niej, gdyż kiedyś w jej ramach udostępniano za darmo 4 zbiorki opowiadań (obecnie dostępne są za darmo w różnych księgarniach) - „W blasku ognia”, „Szepty zgładzonych”, „Echo zgasłego światach” i „W ruinie” (jak również opowiadanie „Koniec drogi” Glukhovskiego).</p>
+<h2><a href="http://olbrzym.com.pl/" target="_blank" rel="nofollow noopener">Olbrzym.com.pl</a></h2>
+<p>„Olbrzym” autora ukrywającego się pod pseudonimem Bruno Siak. Moim zdaniem dobra, profesjonalna lektura...a do tego mnie się bardzo spodobało wyjaśnienie autora (dlaczego udostępnia tekst za darmo) rozpoczynające od słów "Nie mam złudzeń. Z pisarstwa nie da się żyć, chyba że dostanę Nobla albo zostanę drugim Sapkowskim. ".</p>
+<p></p>
+<h2><a href="https://www.opowi.pl/opowiadania-fantastyka/" target="_blank" rel="nofollow noopener">Opowi.pl</a></h2>
+<p>Teksty autorów o bardzo różnej jakości – zdarzają się gnioty, ale i perełki. Problemem strony jest prymitywizm.</p>
+<h2><a href="https://polona.pl/" target="_blank" rel="nofollow noopener">Polona.pl</a></h2>
+<p>np. Lem.</p>
+<h2><a href="http://www.rw2010.pl/" target="_blank" rel="nofollow noopener">Rw2010.pl</a></h2>
+<p>Udostępnili np. pozycję "Rok 2012 antologia" - dostępna w wielu księgarniach.</p>
+<h2><a href="http://silmaris.pl/" target="_blank" rel="nofollow noopener">Silmaris.pl</a></h2>
+<p>16 darmowych numerów.</p>
+<h2><a href="http://www.sekcjalogrus.slask.pl/" target="_blank" rel="nofollow noopener">Sekcjalogrus.slask.pl</a></h2>
+<p><a href="https://www.sekcjalogrus.slask.pl/publikacje-sekcji/" target="_blank" rel="nofollow noopener">„Zabawa w Boga" i inne</a>.</p>
+<h2><a href="https://wolnelektury.pl/" target="_blank" rel="nofollow noopener">Wolnelektury.pl</a></h2>
+<p>Klasyka, czyli np. Verne czy Żuławski.</p>
+<h2><b>Podsumowanie </b></h2>
+<p>Fantastyka to temat dla ludzi z otwartym umysłem, i dlatego nie skreślałbym od razu autorów, którzy nie dorobili się jeszcze marki, albo nie wydają pieniędzy na profesjonalnych korektorów. Z jednej strony grafomanii jest wiele, z drugiej gdyby ktoś kiedyś nie wypromował np. Lema, dzisiaj byśmy o nim nie słyszeli.</p>
+<p>A że dzisiaj środki są i do pisania, i do tworzenia filmów i innych dzieł, to widać:</p>
+<p></p>
+<p>
+<iframe width="860" height="483" src="https://www.youtube.com/embed/OSo7GWpWTd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>Na pewno szkoda, że oficjalnie nie ma opowiadań nominowanych do nagrody Fandomu Polskiego im. Janusza Zajdla (kiedyś można było znaleźć darmowe zbiorki z lat 2017, 2018, 2019 i aż chciałoby się napisać „hej prorocy z dawnych lat – obrastacie w tłuszcz”). Nie jestem teraz pewien, czy również zbiorek „Fantastycznie nieobliczalni” nie był kiedyś darmowy (teraz kosztuje kilka PLN).</p>
+<p>Czy tak czy inaczej – z ogromną przyjemnością dowiedziałbym się też o innych dziełach w tej tematyce (ciekawe, że moja historia zaczyna zataczać koło, i tak jak rozpocząłem m.in. od zbierania linków do oferujących legalne darmowe książki księgarni, tak teraz do tego wracam).</p>

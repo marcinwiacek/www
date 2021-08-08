@@ -1,0 +1,29 @@
+﻿Title:Proza
+Author:marcin
+When:22 Jan 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Deptane dzień w dzień marzenia,<br />
+wiedza, która nic nie zmienia,<br />
+gonienie czyjegoś planowania,<br />
+które rzemieślnictwo odsłania,</p>
+<p>zapijanie i inne znieczulanie,<br />
+miernot i uległości promowanie,<br />
+w sklepach za śmieciami łażenie,<br />
+luksusowością siebie mamienie,</p>
+<p>brak wyzwań mocnych i trwałych,<br />
+wizja ułomności ludzkich małych,<br />
+pamięć o korzyściach utraconych,<br />
+myśli o błędach popełnionych,</p>
+<!--break-->
+<p>sukces, który jadem się rozlewa,<br />
+gorycz jak czarę czasem przelewa,<br />
+myśli sukcesy i porażki w głowie,<br />
+trafne decyzje i żal po słowie,</p>
+<p>to czego inni nie doświadczyli,<br />
+i to co codziennie zobaczyli,</p>
+<p>przeplatane kolejnymi planami,<br />
+wzmacniane pięknymi myślami,<br />
+ulotne, w większości zapominane....</p>

@@ -1,0 +1,20 @@
+﻿Title:Plany (Przepisy Drogowe, Straż, Poczytaj Mi Tato, etc.) (2017)
+Author:marcin
+When:22 Oct 2017
+Taxonomy:Polski,Polski blog,Android,S.F.,Chrome,Straż
+
+<p><img src="sites/default/files/358/Screenshot_20171022-2128242.png" width="200" style="float:right" />Po wydarzeniach z początku 2015 i wynikających z tego konsekwencjach w 2016 i 2017 w końcu mogę zająć się wznowieniem starszych aplikacji i nowymi projektami:</p>
+<ul><li>pracuję nad poprawkami enginu i uaktualnieniami do aplikacji <a href="https://play.google.com/store/apps/developer?id=Marcin%20Wi%C4%85cek&amp;hl=pl">Straż i Przepisy Drogowe</a>:
+<!--break-->
+<p></p><ol><li>aktualizacja 1.41 do Przepisów do Androida (która ma służyć do przetestowania aktualnych wersji bibliotek) została wydana dzisiaj
+</li><li>aktualizacja danych - listopad, maksymalnie grudzień (mam więcej czasu po 4 grudnia).
+<p> <b>Update:</b> <a href="?q=node/361">wersja 1.44 została wydana</a></p>
+</li><li>chcę się pozbyć starszego kodu i takich "kwiatków" jak pozioma linijka widoczna przy przewijaniu (jak również dodać wersję iOS dla Straży) - prawdopodobnie grudzień<br />
+ 
+<p><b>Update:</b> częściowo done</p>
+<p>Gdyby ktoś chciał pomóc, to proszę o propozycję współpracy dotyczącą np. aktualizacji danych (<a href="sites/default/files/358/assets.zip">załączam pliki z Przepisów 1.40</a>)</p>
+<p>Przypominam, że są to aplikacje darmowe i uwagi na całość okresu 2015-2017 musiały niestety trochę odejść w cień, za co mogę tylko przeprosić.
+</p></li></ol></li><li>pracuję nad enginem do multi-searchu do ebooków (będzie zawierać <a href="https://github.com/marcinwiacek/BooksAPIExample">mój projekt BooksAPIExample z GitHuba</a> i wiele więcej)
+<p> <b>Update:</b> beta in Google Play</p>
+</li><li>pracuję nad kolejnymi zmianami do Chrome, wkrótce chciałbym zobaczyć je tutaj: <a href="https://codereview.chromium.org/search?closed=1&amp;owner=marcin&amp;reviewer=&amp;cc=&amp;repo_guid=&amp;base=&amp;project=&amp;private=1&amp;commit=1&amp;created_before=&amp;created_after=&amp;modified_before=&amp;modified_after=&amp;order=&amp;format=html&amp;keys_only=False&amp;with_messages=False&amp;cursor=&amp;limit=30">patches</a>, <a href="https://chromium-review.googlesource.com/q/owner:marcin%2540mwiacek.com">patches (Gerrit)</a>, <a href="https://bugs.chromium.org/p/chromium/issues/list?can=1&amp;q=mwiacek&amp;colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&amp;x=m&amp;y=releaseblock&amp;cells=ids">bugs</a>
+</li></ul><p>Chciałbym tutaj podziękować dobrym ludziom, którzy w tym trudnym okresie wyciągnęli do mnie pomocną dłoń. Co nas nie zabije, to nas wzmocni...</p>

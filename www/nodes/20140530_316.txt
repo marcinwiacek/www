@@ -1,0 +1,24 @@
+﻿Title:.......
+Author:marcin
+When:30 May 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Przemyślenia niewolnika,<br />
+większość ludzi wciąż przenika,<br />
+pod pantoflem tak lubią być,<br />
+lub głośniejszym buty wciąż myć,</p>
+<p>jękać, stękać nowomową,<br />
+walczyć o furę wciąż nową,<br />
+sobie kompleksy hodując,<br />
+brakiem seksu wciąż przejmując,</p>
+<p>złe mieć myśli o swej urodzie,<br />
+ufać wciąż kapryśnej modzie,<br />
+losem ludzi sugerując,<br />
+zdanie swoje wciąż negując,</p>
+<p>życie ciągłą zaś przygodą,<br />
+duszę warto mieć wciąż młodą,<br />
+chwalić chwile z pięknem dnia,<br />
+doskonalić wciąż swe ja...</p>
+<!--break-->

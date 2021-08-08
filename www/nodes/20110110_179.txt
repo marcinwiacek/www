@@ -1,0 +1,205 @@
+﻿Title:Comment about Geimini - quo vadis Android... (2011, version 1.1)
+Author:marcin
+When:10 Jan 2011
+Taxonomy:English,Linux,GSM,English article,OS,Android
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Updated version 2.0 of this article is available <a href=?q=node/182>here</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>"New Android Trojan... It contains botnet capabilities... It's stealing many user data..." - many sites were writing such alarming notes about Geimini during last weeks (including <a href=http://www.mobile-review.com/fullnews/main/index_eng.shtml#32014>Mobile-Review</a>).</p>
+<!--break-->
+<p>I would like to make short study and check, if Android is protecting good enough user data and privacy or not. For tests I will use <a href=http://www.mobile-review.com/review/samsung-galaxy-s-en.shtml>Samsung Galaxy S</a> with Android 2.2.1 "Froyo" (ROM JPY, XEU variant), I will also base on some information for example from hacker conferences (like DEFCON).</p>
+
+<font size=+2>Default settings</font>
+
+<p>Android phones are connected very close with Google accounts (you can synchronize for example contacts and calendar). It isn't very big problem for privacy - you can use account created for this occasion only and you can disable synchronization with it:</p>
+
+<ul><li>set "Contacts -> Settings -> Save new contacts to" to "Phone"
+<li>enter "Calendar -> Settings -> Calendars" and enable "My calendar"
+</ul>
+
+<p>and finally disable "Menu -> Settings -> Accounts and sync -> Auto-sync"</p>
+
+<p>The same is with phone number displayed in "Menu -> Settings -> About phone -> Status". You can simply disable it - it's enough to enter "Contacts -> Settings -> Own numbers", delete all entries and restart phone.</p>
+
+<p>The real problem in my opinion starts with localization. In the Android 2.2.1 (Froyo) you can track user with three main technologies ("Menu -> Settings -> Location and security"):</p>
+
+<ul><li>based on the detected Wifi networks and GSM network station info (AGPS)
+<li>hardware GPS
+<li>information from the sensors
+</ul>
+
+<p>When you enable first of them, you can see:</p>
+
+<p><img src=sites/default/files/179/gps2.png width=300></p>
+
+<p>And now the most interesting thing - there is added GPS button on the "Notifications" screen. Described setting is not disabled with it (and it looks, that you don't have API for it and you can't easy write software for it). <b>How many users will stop disabling it because of it ?</b>.</p>
+
+<p>Another thing - in Android 2.1 in the camera menu there was option for disabling location tagging in pictures, in 2.2 it disappeared (tags are added now, when you will activate something in the "Menu -> Settings -> Location and security").
+
+<p>There are some interesting details in the default browser too:</p>
+
+<ul><li>startup page with Google browser is using normal "http" version (not secure "https")
+<li>searching with Google is not done with secure version too
+<li>option for giving location for sites and saving passwords is enabled by default
+<li>there is no privacy mode implemented (I will remind - Google browser for desktops has got such solution called Incognito, the same is with all major desktop browsers)
+<li>there are no lists against phishing/malware (they're implemented in all major desktop programs too)
+</ul>
+
+<p>Of course it's possible to use other browser or change some of these things. From the other hand - default application will be still in the system. In the tested Galaxy S there was one additional problem with settings - they were reset from time to time to default (and passwords and location options were activated again).</p>
+
+<p>Screen can be locked with different methods (pattern, PIN or password) and this is good... But on such screen you can read SMS, when it will be received. <b>I believe, that Android should have option for disabling it.</b></p>
+
+<p>Another small thing - memory cards are using FAT filesystem. It was done probably because of compatibility with Windows. But even in such situation - maybe it would be good to add option for mounting only part of such memory ? (concrete folder) And additionally give option of mounting in read-only mode ?</p>
+
+<p>Third party companies want to take user data too - for example Samsung needs user email and birthday data in the menu for checking for OTA updates.</p>
+
+<p>When you will compare Android to other systems, you will see, that in many places it needs connecting to Google servers too. For example such <b>Google Maps</b> (version 5.0.0.0) - local cache seems to be deleted from time to time (at least in Galaxy S) and searching way from point to point is 100% online. The same with Voice Searching...</p>
+
+<p>My comment: situation looks quite good, but is not ideal - some settings in this system were made rather for collecting data about users (not for protecting user privacy). In the future we will see probably more such things - data will be collected, because companies later are using them for various things.</p>
+
+<font size=+2>Updates</font>
+
+<p><a href=http://www.google.com/events/io/2010/>Android 2.2 "Froyo" was announced on 19-20 May 2010</a>, first official build was delivered to some (only some !) Polish users of Galaxy S on 9 November 2010. I will remind - Republic of Poland is country in the Europe with about 38 millions of people and this is flagship Samsung phone sold in various variants in more than 10 millions units.</p>
+
+<p>Similar situation is with devices from other companies - for example flagship X10 from Sony-Ericsson was sold over months with archaic Android 1.6.</p>
+
+<p>I could give many examples (for example <a href=http://blogs.computerworld.com/17649/android_upgrades>very good article about number of updates between Android 2.1 and 2.2 in the USA was present last time in the Computer World</a>), the only one devices updated immediately are Nexus One and Nexus S (but they cost sometimes "a little" more).</p>
+
+<p>Why I write about it ? Each new version of system doesn't only change functionality, but also fixes some known flaws in the security. Example - <a href=http://www.h-online.com/security/news/item/Back-door-exploit-for-Android-phones-1131858.html>exploit for some older Android versions (and bug in WebKit engine used in system browser) is not working in release 2.2.</a></p>
+
+<p><b>How do you think - would be acceptable for you having in your desktop some security bugs for 6 or more months ? In the Android world this is very popular...</b></p>
+
+<p>I'm afraid, that some users (especially non-technical) will start thinking: "Android is not updated, is buggy and is based on the Linux. Because of the last reason Linux can't be treat as mature solution and it can't be used anywhere". I will say clear, that this is not true thinking and people creating Linux kernel are still in the conflict with the Google company. Conflict makes, that Google changes are not in the main kernel tree, additionally each company producing Android device is putting own version of kernel on own page (or at least should be - <a href=http://www.codon.org.uk/~mjg59/android_tablets/>according to the Matthiew Garrett from the Red-Hat company it was done for about 19 devices from 130 checked</a>). <b>In short words - "real" Linux distributions and Android are using almost the same core in totally different way.</b></p>
+
+<p>Let's go further - there is still sold Samsung i5700 Galaxy as new device. It will not get official Froyo...but after short searching you will see, that there is such "unofficial" alternative from the Cyanogen. It's working and it's 2x (in <b>Quadrant Standard</b>) or 4x faster (in <b>BenchmarkPi</b>) than version 2.1 from Samsung. <b>How many users will resign from using such update ? None ?</b> I agree - it's nice, but it's the matter of time only, when some of such mods (or some of their copies) will contain malicious code. There are many ways, we can see soon for example ROMs with SSH clients, which will allow for access to phone from outside (like it happened in the past in some Apple phones with jailbreak)</p>
+
+<p>How companies can protect against it ? One of solution is using such methods like using encryption/checksums. This is done for example by Motorola, <a href=http://forum.xda-developers.com/showthread.php?t=888071>some steps for it were done in Galaxy Tab</a>. <b>I have feeling, that it will be used more and more often when platform will be more popular...</b>. We will have such situation then - more and more people will use "old" (from companies perspective) devices with problems, because won't have money for new one with new one "revolutionary" system version.</p>
+
+<p>In the Android there is unfortunately another problem - official system builds don't always inform users about all available updates. I have notified it in tested Galaxy S after updating to the 2.2.1 version - I have seen proposed updates for <b>Google Maps</b> (to the version 5.0.0.0), <b>YouTube</b> (to the 2.1.6), there was also added <b>Street View on Google Maps 1.6.0.6</b> and <b>Market 2.2.7</b>, but...I had to search in Market for <b>Gmail</b>, <b>Layar</b>, <b>Voice Search</b>, <b>Google Search</b>, <b>Flash Player 10.1</b> (5 applications !) and update them manually.</p>
+
+<p>It was so important, because my old Flash Player was originally in version 10.1.92.8 and <a href=http://www.adobe.com/support/security/bulletins/apsb10-26.html>according to the security bulletin number APSB10-26 it could leave opened security hole</a>... Do you see some irony ? Adobe, which was criticized many times for lack of updates, is delivering them and Google (company, where <a href=http://www.google.com/security.html>"first goal is to keep Google users safe"</a>) can't force it in the Android ecosystem.</p>
+
+<p>Can we do something with this ? I see only one option in this moment - installing <b>Appbrain</b> from the Market and after clicking on the "Manage and Sync" checking for Market info for all installed "default" programs.</p>
+
+<p><img src=sites/default/files/179/apbra2.png width=300></p>
+
+<p>Not very useful, but better than nothing.</p>
+
+<p>In the mentioned Galaxy S I had some doubts related to some other programs added as "bonus" too. For example ThinkFree Office (in the Market available as <b>ThinkFree Office Mobile</b>) - "my" version was 2.0.1011.01 (after clicking inside on the update option there was nothing found), version from Market 2.0.1110.01. Bug ?</p>
+
+<p>And now the most interesting - with this Office in this phone I found at least 4 places for checking for updates:</p>
+
+<ul><li>OTA menu (new feature in Android from Samsung)
+<li>ThinkFree Office
+<li>Samsung Apps
+<li>Market
+</ul>
+
+<p>First two could be run manually only, in the next two you don't have clear information, when they're checking for updates.</p>
+
+<p>My comment: selling devices with security holes is reprehensible, Android definitely needs receiving security updates for system applications (like Messages) during few years after putting some version on the market. They must be released immediately in my opinion by Google (something similar like in desktop Windows/Linux distributions or at least Windows Phone 7/Apple products). It would be good to have one place for managing all updates and "check now" button too.</p>
+
+<font size=+2>Applications privileges (without root)</font>
+
+<p>Let's say, that we want to download some application from the Market - after opening page with it we can see, what it will do:</p>
+
+<p><img src=sites/default/files/179/perm1.png width=300></p>
+
+<p>It's quite good described and we can resign in this moment from using it. In this concrete example (screenshots) there was used <b>antivirus Free AVG</b>, which naturally can need all these features. There is button "More". Let's click on it - you get another screen:</p>
+
+<p><table border=0><tr><td><img src=sites/default/files/179/perm2.png width=300></td><td><img src=sites/default/files/179/perm3.png width=300></td></tr></table></p>
+
+<p>These are the same permissions, but in different order. Why ?</p>
+
+<p>When you will scroll to the bottom, you will see "Show all". Let's click on the symbol on the left:</p>
+
+<p><img src=sites/default/files/179/perm4.png width=300></p>
+
+<p>New permissions ! <b>How many users are checking it all and why it isn't more simple ?</b></p>
+
+<p>According to the presentation from DEFCON 18 (hackers conference) "THESE AREN’T THE PERMISSIONS YOU’RE LOOKING FOR" it's possible to-do by applications such actions without displaying any info about required permissions like:</p>
+
+<ul><li>restarting system
+<li>automatic running after system start or <b>after installing</b>
+<li>blocking system interface (no reaction for pressing keys)
+<li>download and uploading data by standard browser <b>(in the practically invisible way for user - when screen is off)</b>
+</ul>
+
+<p>In in the same presentation it was shown too, how with READ_LOGS privilege it's possible to get access at least for part of SMS or localization data.</p>
+
+<p>You can protect yourself from running applications on system startup (using various methods - for example by "killing" processes like it's done by <b>Startup Cleaner 2.0</b>). But what with other ?</p>
+
+<p>My comment: the weakest link here is of course user installing some software. But this time not in 100% and I believe, that method of informing people about software actions should be changed to be more precise and clear. Maybe there should be added option for blocking some of them ? Or asking users for permission like in (infamous) UAC ?</p>
+
+<font size=+2>Application privileges (with root)</font>
+
+<p>There is one interesting topic when we speak about Android - rooting devices (getting access to the account with admin functionality). It's done from various reasons like unlocking full device potential or fixing bugs available in official releases.</p>
+
+<p>To be clear about last point - Froyo added creating screenshots in any place by pressing Back + Home buttons. At least in theory in any place... I found at least two screens, where it doesn't work - Market (during displaying application privileges) and OTA menu ("Menu -> Settings -> About phone -> Software update"). And what is interesting ? 3rd party applications for this task require root.</p>
+
+<p>People will not resign from rooting in my opinion - it's too attractive.</p>
+
+<p>How to get it ? Each new version of Android is based on known kernel version and this contains known vulnerabilities. The same is with some system libraries.</p>
+
+<p>In the past you could find applications for rooting devices with one click in the Market, currently Google is removing them. From the technical side - proposed currently methods of rooting Galaxy S is CF-Root (flashing modified kernel) or SuperOneClick (using rootkit identified as Exploit.Linux.Lotoor.g by Kaspersky software - it's using some vulnerabilities in the Google adb application). Earlier it was much more "safe" - after compiling required applications (like su) for ARM platform it was enough to upload them to the phone using update.zip (so called Android System Recovery was in version 2e and allowed for flashing content from unsigned files).</p>
+
+<p>Majority/all of root packages allow for controlling, which applications will get "super" access. There is only one "small" problem - nobody is controlling them. <b>And there is one "big" problem - all anti-virus software for the Android platform doesn't have "root" privileges (at least everything points on it). Can it combat effectively malicious code ?</b></p>
+
+<p>Threat is big and you should remember, that sometimes for example email passwords in internal databases are saved in plain text. It was <a href=http://www.androidcentral.com/android-passwords-rooted-clear-text>interesting article about it created in the Android Central</a> and <a href=http://code.google.com/p/android/issues/detail?id=10809>there is quite long thread about it in the list of official Android bugs.</a> There were some reasons for making it, but it's good point showing, that Android devices can't be used for more professional tasks or in corporate environment (where is required very strong security). They simply don't have filesystem encryption, <a href=http://code.google.com/p/android/issues/detail?id=4962>there are some problems with NTLM support</a>, etc.</p>
+
+<p>To make things clear - on the DEFCON 18 it was shown "This is not the droid you're looking for..." presentation. It proved, that creating invisible to user rootkit is quite easy. There was shown example of building application able for example for sending SMS or localization data after calling concrete phone number...</p>
+
+<p>My comment: the weakest link is again user (giving control over device to the unknown software). From the second hand - people are expecting such functionality like in desktop systems and this rabbit can't be closed in the hat. Maybe companies can sell smartphones using the same business model ? And stop with some of current "protections" ? It will maybe decrease profits per unit, but will make mobile revolution much bigger.</p>
+
+<font size=+2>Always online ?</font>
+
+<p>Smartphones are created for giving continuous access to the Internet over cellular network or Wifi. It's comfortable, but it looks, that with current technology it's good to cut off these connections - not only because of the security but also because of battery energy saving.</p>
+
+<p>"Plain" Android in version 2.2.1 has got basic options for it - there is Wifi button on the "Notifications" screen, it's possible to disable Wifi too when screen is off (you should enter "Menu -> Settings -> Wireless and network -> Wi-Fi settings", click on "Advanced" and set "Wi-Fi sleep policy" for "When screen turns off"), similar is with data transmission over cellular network (you have for example option "Data network mode" when you press Power button).</p>
+
+<p>This last option makes even too much in my opinion - in the tested Galaxy S it was disabling MMS too (they were set using access point with MMS type of course). This issue makes, that I will suggest using for disabling data transmission for example "classic" Android application <b>APNDroid</b> from the Market:</p>
+
+<p><img src=sites/default/files/179/apndro2.png width=300></p>
+
+<p>What if you would like to enable Wifi automatically from time to time ? In the Market you have few applications for this task (like <b>Service Manager</b>), I have found only one working with Galaxy S (<b>NetSchedule</b>). It can few other things too (like enabling Bluetooth)...</p>
+
+<p>In the Android device you have also SMS and MMS - they're supported by system applications and I was writing already how "often" they're updated. For curious people - Android had known security issues here at least in the past. It's confirmed for versions 1.5 and earlier and described in the presentation "Attacking SMS" from the BlackHat conference (another hacker's meeting) in 2009.</b>
+
+<p>New phones can work as Wifi access point and tether Internet from cellular network connection. What I could suggest here ? Adding setting Wifi power level (similar option should be visible for "normal" Wifi connections too)...</b>
+
+<p>My comment: it's good here, but I think, that system should have scheduler (place, where you will be able to setup, what and when will be enabled, when applications will synchronize data, etc.)</p>
+
+<font size=+2>Maybe wall ?</font>
+
+<p>Another problem - Android doesn't have even the most simple firewall application (nobody is controlling, when and when applications are connecting. How to resolve it ?</p>
+
+<p>In the Market you can find application <b>DroidWall</b>, which can disable/enable data transmission from concrete applications over cellular network and/or Wifi. It can be done using white (we allow for set rules) or black list (we block set rules).</p>
+
+<p><img src=sites/default/files/179/drowal2.png width=300></p>
+
+<p>Where is the problem ? Application requires root (what irony - program for increasing security needs breaking security ;)) and can not work in phones with kernel without compiled iptables support. Additionally you can't set concrete rules (for concrete ports).</p>
+
+<p>If you want to see, where applications are connected, you can use for example <b>OS Monitor</b> from the Market. It will show info about processes, network interfaces, opened connections and some other...</p>
+
+<p><img src=sites/default/files/179/drwall2.png width=300></p>
+
+<p>My comment: Android definitely needs firewall because of poor updating...</p>
+
+<font size=+2>Market issues</font>
+
+<p>Default Android shop has got some issues too.</p>
+
+<p>First is providing different sets of applications in different countries (users are trying to use workarounds, which require root and this is connected with earlier described issues).</p>
+
+<p>Second is visible after last Market updates - we can return application in 15 minutes (earlier it was 24 hours), it can be 50 MB big and you don't have way to check device compatibility with it. Some problems happen for example, when application after buying from Market starting downloading additional and sometimes big content. It can need more than 15 minutes. What will do users, which bought some programs and were not able to use them ? I think, that some of them will start download such applications from other places and it's matter of time only, when they will contain additional malicious content. There is <a href=http://code.google.com/p/android/issues/detail?id=13116>very long thread about it on the list of official Android bugs.</a></p>
+
+<p>My comment: problem is in Google strategy, but also in users actions and way of creating some applications (they could naturally check on start, if can work on concrete device and later download content).</p>
+
+<font size=+2>Summary</font>
+
+<p>Mobile devices will be more and more interesting for people stealing some data and Android will be probably the most interesting for them - it's growing the faster (<a href=http://www.gartner.com/it/page.jsp?id=1466313>according to the Garther</a> it had 3,5% of market in 3Q 2009 and 25,5% in 3Q 2010).</p>
+
+<p>Android in my opinion is very attractive from user perspective (many applications and functions, nice interface, etc.), but it contains some real problems in security/business model. In simple words - even when you will use only Market applications and will not root phone, your data can be stolen.</p>
+
+<p>You can have of course different opinion - it's your right ;)</p>

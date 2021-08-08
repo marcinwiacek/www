@@ -1,0 +1,13 @@
+﻿Title:Kolejne...
+Author:marcin
+When:10 Jan 2011
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wiele głębokiej radości i pełno zdrowotności,<br />
+całych planów spełnienia i z życia zadowolenia,<br />
+udanej kariery i przełamania każdej bariery,<br />
+wszystkiego najlepszego i szczęścia pełnego<br />
+i niech się w pełni zdarzy co się Tobie marzy.</p>
+<!--break-->

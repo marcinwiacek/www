@@ -1,0 +1,19 @@
+﻿Title:Report 2006-04-04
+Author:marcin
+When:05 Apr 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>In March there was gammu.net domain lost and Italy server not bought for next year.</p>
+<p>I started to search new place for this www. It's located now on <a href="http://www.livenet.pl">LiveNet.pl</a> provider server. I payed for one month - if there won't be problems with hosting, I will continue it.</p>
+<p>The biggest problem was with moving this Wiki. In old place database was using latin1 to UTF8 conversion, in new it doesn't work. I had to convert database to real UTF8:</p>
+<!--break-->
+<ul><li>I imported database dump to my home MySQL installation
+</li><li>I exported single tables to file using written PHP script - it was:
+<ol><li>making SQL select
+</li><li>replacing "\" to "\\", chr(10) to "\n", apostrophe to double apostrophe (inside results)
+</li><li>displaying text of SQL commands creating table content.
+</li></ol><p>The trick was, that <a href="http://www.opera.com">Opera 8.5x</a> was required to display it (<a href="http://www.mozilla.com">FireFox 1.5.0.1</a> made problems) and conversion to real UTF8 was done by browser</p>
+</li><li>I imported files into database
+</li></ul><p>Anyway, it looks to work. Gammu.net headers will be visible on each wiki page after it editing.</p>
+<p>I moved almost all services. I hope to run new soon.</p>

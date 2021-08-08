@@ -1,0 +1,275 @@
+﻿Title:Komórki (2006)
+Author:marcin
+When:06 Dec 2006
+Taxonomy:Polski,Gammu,GSM,Polski artykuł,Linux+,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł ukazał się wpierw w wersji drukowanej w magazynie <a href=http://www.lpmagazine.org>Linux +</a> (numer 9/2006)</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align="justify">Wielu użytkowników chciałoby mieć możliwość zgrania ze swoich telefonów komórkowych stworzonych przez siebie zdjęć, zrobienia kopii książki telefonicznej czy zawartości kalendarza. Ponieważ programy dostarczane przez producentów "komórek" działają jednak tylko w Windows lub Mac OS, musimy skorzystać z innych narzędzi. W tym artykule postaramy się je przedstawić, jak również zwrócić uwagę na inne możliwe rozwiązania.</p>
+<!--break-->
+
+<h1>Najprostsze są zabawy karciane...</h1>
+<p align="justify">Wiele współczesnych telefonów ma możliwość zapisu zdjęć stworzonych wewnętrzną kamerą na kartach pamięci. W przypadku telefonów z systemem Symbian można sobie zainstalować jeden z darmowych menadżerów plików i na kartę przegrać wręcz każdy plik.</p>
+
+<p align="justify">Po wyjęciu karty z telefonu wystarczy włożyć ją do czytnika kart pamięci (zazwyczaj podłączanego do USB), a po wykryciu go jako kolejny dysk (stanie się tak, o ile mamy wbudowaną w jądro systemu obsługę USB Mass Storage) skopiować pliki na dysk twardy komputera korzystając z dowolnego menadżera plikowego. Uzyskujemy w ten sposób zazwyczaj dużą szybkość kopiowania.</p>
+
+<h1>Wymienię kartę na OBEXa</h1>
+<p align="justify">Jeżeli chcemy wymienić pojedyńcze zbiory i nie są one zbyt duże, może nam wystarczyć wbudowana w wiele modeli telefonów obsluga protokołu OBEX. Przewiduje on w urządzeniu obecność "domyślnej" skrzynki odbiorczej i/lub systemu plików.</p>
+
+<p align="justify">Jednym z bardziej znanych pakietów, które pozwolą go użyć w połączeniu z telefonem (w obie strony), jest OpenOBEX. Implementacja m.in. wysyłania plików do "domyślnej" skrzynki odbiorczej telefonu jest natomiast zaimplementowana w opisywanym dalej pakiecie Gammu - kilka słów o tym przy okazji przedstawienia komend do obsługi systemu plików.</p>
+
+<h1>3G dobre na wszystko ?</h1>
+<p align="justify">Opisane wcześniej metody mogły być wykorzystane jedynie do wymiany plików. Co z innymi zadaniami ?</p>
+
+<p align="justify">Jeszcze jakiś czas temu możnaby wskazać 3 główne pakiety do obsługi komórek pod Linuxem o nazwach rozpoczynających się od G: Gammu, Gnokii i GSMLib. Dwa pierwsze właściwie ciągle można zaliczyć do kanonu, natomiast trzeci to już raczej tylko ciekawostka... Oprócz nich obecnie mamy do czynienia z różnymi innymi. Ale nie wyprzedzajmy faktów...</p>
+
+<h1>Gammu</h1>
+<p align="justify">Gammu powstał jako przepisana od nowa lepsza wersja pakietu MyGnokii (który to z kolei był rozszerzoną wersją Gnokii, o którym będzie mowa później). Obecnie w ramach tego projektu tworzona jest biblioteka dla innych programów (należy tutaj jednak pamiętać o pewnych cechach wynikających z faktu używania licencji GNU GPL) oraz aplikacja konsolowa. Działają m.in. w Windows, Linuxie, FreeBSD, OpenBSD. Ich rozwojem zajmują się w ramach swoich możliwości finansowych osoby prywatne (głównie Polacy).</p>
+
+<h2><i><b>Instalacja</b></i></h2>
+<p align="justify">W chwili obecnej dostępne są uaktualniane na bieżąco pakiety binarne do wielu dystrybucji takich jak Debian czy Mandrake. Informacje o nich można znaleźć w portalu <i><a href=http://www.gammu.org>www.gammu.org</a></i> (w zakładce <b>Wiki</b> należy wybrać po lewej stronie <b>Downloads</b> i odnaleźć odpowiedni odnośnik).</p>
+
+<p align="justify">Można oczywiście również skompilować program samodzielnie. Znalezienie kodu źródłowego ostatniej (stabilnej i testowej) wersji jest łatwe - odnośniki są zawsze podawane na stronie <i><a href=http://www.gammu.org>www.gammu.org</a></i> (są to nazwy projektu z numerami wersji na samej górze po prawej stronie). Możemy również skorzystać z dostępnych na tej stronie kanałów RSS. Po pobraniu pliku <i>tar.gz</i> lub <i>tar.bz2</i> należy go rozpakować.</p>
+
+<p align="justify">Jeżeli chcielibyśmy mieć włączoną obsługę podczerwieni, musimy teraz pamiętać o udostępnieniu pliku <i>irda.h</i> (np. w Mandrake jest w katalogu <i>/usr/include/linux</i>), do Bluetootha wymagane są pakiety developerskie stosu Bluez. Później wystarczy użyć <u>./configure</u> i <u>make</u>
+
+<p align="justify">Po skompilowaniu w podkatalogu <i>gammu</i> mamy już dostępną wersję konsolową. Możemy ją zainstalować w systemie korzystając z polecenia <u>make install</u></p>
+
+<h2><i><b><i><b>Konfiguracja</b></i></b></i></h2>
+<p align="justify">Opcje konfiguracyjne programu są podawane np. w pliku <i>.gammurc</i> umieszczonym w katalogu domowym użytkownika. Możemy tam skopiować zbiór zawierający opisy wszystkich przełączników wraz ze sposobem ich użycia - umieszczony jest on w pakiecie z kodem źródłowym Gammu w katalogu <i>docs/examples/config</i>.</p>
+
+<p align="justify">Podamy teraz kilka przykładów konfiguracji:</p>
+
+<pre>
+[gammu]
+port = /dev/ircomm0
+connection = irdaphonet
+</pre>
+
+<p align="justify">Plik o tej zawartości umożliwi w Linuxie komunikację z użyciem protokołu Nokii (oznaczanym jako phonet) poprzez podczerwień udostępnianą przez urządzenie <i>/dev/ircomm0</i>. Z kolei treść</p>
+
+<pre>[gammu]
+port = /dev/ttyS1
+connection = fbus</pre>
+
+<p align="justify">będzie odpowiednia dla połączenia kablem szeregowym podpiętym pod urządzenie <i>/dev/ttyS1</i> (tym razem protokół to fbus Nokii). Jeśli chcielibyśmy użyć Bluetootha, wystarczy wpisać</p>
+
+<pre>[gammu]
+port = 1234567890
+connection = bluephonet</pre>
+
+<p align="justify">gdzie w miejsce <u>1234567890</u> należy podać adres naszego telefonu (ewentualnie w ogóle usuńmy tę linijkę i program będzie próbował znaleźć telefon na podstawie jego rozgłaszanej w eterze nazwy), a połączenie odbędzie się z użyciem wersji phonet dla Bluetooth.</p>
+
+<p align="justify">To, co przedstawiliśmy to oczywiście tylko przykłady. Wiele zależy od modelu telefonu i konfiguracji naszego systemu operacyjnego. Dlatego polecamy również odwiedzenie adresu <i><a href=http://www.gammu.org/wiki/index.php?title=Gammu:Connecting_to_phone>http://www.gammu.org/wiki/index.php?title=Gammu:Connecting_to_phone</a></i>, gdzie tematyka ta została potraktowana szczegółowo. Można tam znaleźć informacje o konfiguracji Bluez, parowaniu telefonu z komputerem, kablach USB, rozwiązywaniu problemów z tym związanych, itp.</p>
+
+<p align="justify">Program może przy każdym starcie ustawiać aktualną godzinę w telefonie (wystarczy dodać linijkę <u>synchronizetime = yes</u>), dostępne są też inne opcje związane np. ze stronami kodowymi i debugowaniem.</p>
+
+<p align="justify">Z ciekawszych ustawień warto wymienić możliwość sprawdzania przy każdym starcie, czy na www jest dostępna nowsza wersja testowa i/lub stabilna programu (opcja <u>rsslevel = teststable</u> lub <u>rsslevel = stable</u>) albo czy producent telefonu przygotował już dla niego nowszą wersję firmware (opcja <u>usephonedb = yes</u>). Ta ostatnia usługa korzysta z wpisów bazy danych o modelach komórek dostępnej na <i><a href=http://www.gammu.org>www.gammu.org</a></i>.</p>
+
+<p align="justify">Jeżeli wszystko zostało ustawione poprawnie, po wydaniu komendy <u>gammu --identify</u> zobaczymy informacje o modelu naszego telefonu.</p>
+
+<h2><i><b>SMS</b></i></h2>
+<p align="justify">Gammu zawiera obsługę różnych formatów SMS. Potrafi działać z obrazkami, dzwonkami, SMS tekstowymi (również łączonymi), notatkami kalendarza, wpisami książki telefonicznej i innymi.</p>
+
+<p align="justify">Komenda <u>gammu --getallsms</u> pozwala pobrać i wyświetlić wszystkie pojedyńcze SMS z pamięci telefonu i karty SIM. Jeżeli użyjemy <u>gammu --getachsms</u>, program odczyta wszystkie pojedyńcze SMS, połączy ewentualne sekwencje w całość i następnie pokaże uzyskany wynik.</p>
+
+<p align="justify">Do wysyłki używana jest opcja <u>--sendsms</u>. Podamy przykład jej użycia dla SMSów tekstowych:</p>
+
+<u>echo "tekst SMS tekstowego" | gammu --sendsms TEXT +48602602602</u>
+
+<p align="justify">spowoduje wysłanie SMS o treści "tekst SMS tekstowego" pod numer +48602602602 z użyciem centrum SMS o numerze zapisanym na pierwszej pozycji na karcie SIM.</p>
+
+<p align="justify">Jeżeli na końcu dodamy <u>-report</u>, do naszego telefonu trafi również raport doręczenia. Dodanie <u>-flash</u> spowoduje, iż SMS będzie klasy 0 i odbiorca zobaczy go na ekranie bezpośrednio po odebraniu (bez wchodzenia do skrzynki odbiorczej).</p>
+
+<p align="justify">Bardzo rozbudowane jest wsparcie standardu EMS rozpoznawanego przez wyroby producentów innych niż Nokia. Można wysyłać obrazki, dźwięki w tym formacie, ustalać parametry tekstu, itp. Opis tych możliwości zająłby dużo miejsca. Zmuszeni jesteśmy odesłać do dokumentacji.</p>
+
+<p align="justify">Pakiet potrafi robić kopie SMS (<u>gammu --backupsms plik</u>) i je odtwarzyć (<u>gammu --restoresms plik</u>). Możliwe jest dodawanie SMS do pamięci telefonu/na kartę SIM (przykładowo <u>echo "tekst SMS tekstowego" | gammu --savesms TEXT</u> zapisze SMS o znanej już treści do pierwszego folderu, którym w większości modeli jest skrzynka odbiorcza), ich kasowanie (opcja <u>--deletesms</u>) i inne.</p>
+
+<p align="justify">Warta opisania jest jeszcze współpraca z bazą MySQL. Gammu po użyciu opcji <u>--smsd</u> działa w trybie demona. Może wtedy wykorzystywać telefon do masowej wysyłki SMSów (pobierając je z odpowiedniej tabeli bazy) i masowego odbioru SMS (wtedy kopiuje do bazy wszystko co odebrał telefon). Dostępna funkcjonalność jest tutaj dosyć duża - przygotowano
+nawet przypisywanie raportów doręczenia do wysłanych SMS...</p>
+
+<p align="justify">W pakiecie z kodem źródłowym udostępniono kilka przykładów aplikacji współdziałających z bazą w tym standardzie (np. interfejs administracyjny napisany w PHP), a użytkownik może dodawać tam SMS do wysłania w każdym obsługiwanym formacie korzystając z opcji analogicznych do <u>--sendsms</u>. Nie jest więc wymagana specjalistyczna wiedza, aby wysłać np. SMS z dzwonkiem...</p>
+
+<p align="justify">Rozwiązanie jest elastyczne - baza MySQL może się przecież znajdować fizycznie w innym komputerze niż nasz, a telefon (czy też wręcz wiele telefonów) wysyłający/odbierający SMS może być podłączony jeszcze gdzieś indziej...</p>
+
+<h2><b><i>Książka telefonicza, kalendarz, todo, notatki, zakładki WAP</i></b></h2>
+
+<p align="justify">W momencie, gdy Gammu było projektowane i pewne standardy nie były jeszcze powszechnie używane, przygotowano własny format plików do przechowywania różnego rodzaju informacji takich jak książka telefoniczna czy kalendarz. Format ten zorganizowany jest podobnie jak wiele plików konfiguracyjnych - zawiera sekcje, klucze i wartości. Jeżeli zdecydujemy się na używanie wersji z Unicode, cały plik zostanie zakodowany w tym standardzie (w przeciwnym razie każdy wpis podany będzie podwójnie - w postaci zakodowanej i
+tekstowej). Szerzej o edycji plików nie używających Unicode można poczytać w dokumentacji.</p>
+
+<p align="justify">Jeżeli użyjemy plików z określonymi rozszerzeniami, program przyjmie, iż są zapisane w innych formatach niż własny. I tak m.in. zbiory <i>vcf</i> mają według niego format VCard, <i>vcs</i> to VCalendar, <i>ics</i> to Mozilla Calendar, a <i>lmb</i> to format Logo Managera.</p>
+
+<p align="justify">Dalej wszystkie te pliki będziemy nazywać po prostu zbiorami z danymi (niezależnie od ich formatu).</p>
+
+<p align="justify">Aby skopiować dane z telefonu, używamy komendy <u>gammu --backup nazwa_pliku</u>. W zależności od formatu pliku z danymi, modelu telefonu i użytego połączenia (co innego może pozwolić odczytać nasz telefon, gdy użyjemy protokołu producenta, co innego uzyskamy działając z komendami AT) zostaniemy zapytani, co należy zachować, a następnie program zapisze wszystko do podanego pliku.</p>
+
+<p align="justify">Do odtworzenia danych wykorzystujemy komendę <u>gammu --restore nazwa_pliku</u>, jeżeli chcemy dodać informacje z pliku z danymi do już zapisanych w pamięci telefonu, używamy <u>gammu --addnew nazwa_pliku</u></p>
+
+<p align="justify">Do wysłania SMSem notatki kalendarza może służyć polecenie <u>gammu --sendsms CALENDAR +48602602602 nazwa_pliku numer_pozycji</u> (gdzie <u>nazwa_pliku</u> to nazwa pliku z danymi, a <u>numer_pozycji</u> numer wpisu z informacją o kalendarzu z pliku z danymi). Podobnie można postąpić z wpisami książki telefonicznej (komenda <u>gammu --sendsms VCARD21 +48602602602 nazwa_pliku numer_pozycji</u>), ToDo (komenda <u>gammu --sendsms TODO +48602602602 nazwa_pliku numer_pozycji</u>), zakładkami WAP (komenda <u>gammu --sendsms BOOKMARK +48602602602 nazwa_pliku numer_pozycji</u>).</p>
+
+<p align="justify">Do wykasowania całości informacji danego typu możemy użyć <u>gammu --clearall</u>. Należy tu jednak pamiętać, iż telefon działa podobnie jak komputer i chociaż informacje będą niedostępne z jego menu, często można je odczytać z jego pamięci np. z użyciem odpowiedniego programatora (a czasem wręcz kabla za kilkanaście PLN).</p>
+
+<p align="justify">Oddzielnego wyjaśnienia wymagają listy połączeń wybieranych/odebranych/nieodebranych. Do ich pobrania należy użyć opcji <u>--getmemory pamięć start stop</u>, gdzie zamiast <u>pamięć</u> wstawiamy oznaczenie&nbsp; połączeń wybieranych (<u>DC</u>), odebranych (<u>RC</u>) lub nieodebranych (<u>MC</u>), zamiast <u>start</u><i> </i>i<i> </i><u>stop</u> numery zakresu komórek pamięci. Przykładowo <u>gammu --getmemory RC 1 5</u> pobierze wpisy połączeń odebranych od 1 do 5. Należy tutaj zastrzec, iż w przypadku nowszych modeli można odczytać nawet godzinę połączenia, a czasem również jego długość.</p>
+
+<p align="justify">Warto wspomnieć, że opcja <u>--getmemory</u> ma ogólniejsze zastosowanie i pozwala wziąć wpisy również z innych pamięci, do których można wpisywać numery telefonów (zmieniamy tylko oznaczenie pamięci - <u>ME</u> to książka telefoniczna telefonu, <u>SM</u> książka karty SIM, <u>ON</u> to lista numerów własnych, itd.).</p>
+
+<h2><i>System plików</i></h2>
+<p align="justify">W produktach wielu producentów daje się zauważyć dążenie do tego, żeby coraz więcej danych umieszczać w pamięci telefonu w postaci plików (graficznych, dźwiękowych, itp.). Stosowana jest znana z Unixa zasada "wszystko jest plikiem".</p>
+
+<p align="justify">W chwili obecnej Gammu może się poszczycić m.in. praktycznie pełną obsługą systemów plików zaimplementowanych w Nokiach Serii 40.</p>
+
+<p align="justify">I tak <u>gammu --getfilesystem</u> pokaże nam w postaci drzewa zbudowanego z użyciem znaków pseudo ASCII informację o wszystkich dyskach, katalogach i plikach. Każdy z nich ma swój niepowtarzalny identyfikatoror. Jest nim najczęściej pełna ścieżka dostępu wraz z nazwą, jednak nie zawsze. Aby obejrzeć identyfikatory, należy użyć komendy <u>gammu --getfilesystem -flatall</u></p>
+
+<p align="justify">Jeżeli już je znamy, możemy wykorzystać <u>gammu --getfiles identyfikator</u> (do pobrania pliku o podanym identyfikatorze) lub <u>gammu --getfilefolder identyfikator</u> (do pobrania wszystkich plików z folderu o podanym identyfikatorze)</p>
+
+<p align="justify">W celu stworzenia folderu wystarczy wywołać <u>gammu --addfolder identyfikator nazwa</u> (<u>nazwa</u> to nazwa nowego folderu, a <u>identyfikator</u> to identyfikator katalogu nadrzędnego), do dodania pliku potrzebna jest komenda <u>gammu --addfile identyfikator nazwa</u> (w przypadku starszych Nokii z Serii 40 1.0 konieczne będzie użycie dodatkowego przełącznika <u>-type</u> z dodaną informacją o formacie pliku).</p>
+
+<p align="justify">Można też wysyłać pliki do domyślnej skrzynki odbiorczej telefonu (zgodnie ze standardem OBEX). Należy w tym włączyć odpowiednie połączenie w pliku konfiguracyjnym (poniżej przykład dla Bluetooth, zamiast <u>1234567890</u> należy wpisać adres telefonu):</p>
+
+<pre>[gammu]
+port = 1234567890
+model = obex
+connection = blueobex</pre>
+
+<p align="justify">i użyć <u>gammu --addfile "" nazwa_pliku<br></u></p>
+
+<h2><i><b>Java</b></i></h2>
+<p align="justify">Dla wygody program potrafi w łatwy sposób dodawać do pamięci telefonu gry i aplikacje Java. Jeżeli mamy zapisane je w postaci plików <i>aplikacja.jad</i> i <i>aplikacja.jar</i>, wystarczy użyć komendy <u>gammu --nokiaaddfile GAME aplikacja</u> albo <u>gammu --nokiaaddfile APPLICATION aplikacja</u></p>
+
+<h2><i><b>MMS</b></i></h2>
+<p align="justify">Program potrafi pobrać zawartość MMSów. Wystarczy użyć polecenia <u>gammu --getallmms</u>. Jeżeli chcielibyśmy móc zapisać dane przesłane w MMS (takie jak obrazki czy dźwięki) do plików, należy użyć komendy <u>gammu --getallmms -save</u>.</p>
+
+<h2><b><i>Dzwonki</i></b></h2>
+<p align=justify>Gammu umożliwia zmianę i odczytanie dzwonków ze starszych modeli telefonów z użyciem <u>--getringtone</u> i <u>--setringtone</u>: <u>--setringtone plik -location 1</u> ustawi dzwonek z pliku (np. w formacie RTTL) na pierwszej pozycji. W przypadku Nokii z generacji DCT4 (np. popularnej do niedawna Nokii 6310i) można zobaczyć listę dzwonków po użyciu <u>--getringtoneslist</u> i nakazać odegrać go telefonowi komendą <u>--playsavedringtone numer</u> (<u>numer</u> powinien być wzięty z <u>--getringtoneslist</u>). Wyobraźmy sobie zdziwienie np. w biurze, gdy pozostawimy nasz telefon na biurku, połączymy się z nim przez Bluetooth z komputera z drugiej strony pokoju i nakażemy odegrać np. "Nokia Tune". A jakie stwarza to możliwości, gdy chcemy zasymulować ważny telefon...</p>
+
+<p align=justify>W nowszych modelach (np. Nokiach z galerią w menu telefonu jak 6230) należy wpisać plik z dzwonkiem z użyciem <u>--addfile</u>.</p>
+
+<p align=justify>Dzwonek do starszych telefonów można również wysłać SMSem (w przypadku Nokii należy użyć <u>--sendsms RINGTONE +48602602602 plik</u>, dla telefonów obsługujących tylko EMS np. <u>--sendsms EMS +48602602602</u> <u>-tone12long file</u>).</p>
+
+<h2><i><b>Loga i obrazki</b></i></h2>
+<p align=justify>Z logami jest podobnie jak z dzwonkami - w najnowszych modelach są one zapisywane jako pliki w standardowych formatach (np. jpg lub gif). Wykorzystujemy wtedy znane już komendy związane z systemem plików. Częściowo (m.in. z uwagi na małe zainteresowanie) zaimplementowano też dodatkowe opcje znane z programów komercyjnych - np. po wpisaniu pliku do pamięci z użyciem <u>--addfile</u> można nakazać telefonowi użyć go jako loga startowego (opcja <u>--setbitmap COLOURSTARTUP identyfikator_pliku</u>). Zadziała to np. z Nokią 6230.</p>
+
+<p align=justify>Jeżeli chodzi o starsze telefony (np. 3310 lub 6310i), w Gammu należy z nimi użyć komend <u>--getbitmap</u> i <u>--setbitmap</u>. Kilka przykładów ich użycia:</p>
+
+<p align=justify><u>--setbitmap STARTUP nazwa_pliku</u> ustawi w telefonie logo startowe wczytane z podanego pliku (obsługiwane są np. formaty nlm, nol, ngg, nsl). Jeżeli mamy Nokię 3310 i jeden z ostatnich firmware, namiast nazwy pliku możemy wpisać cyfrę 1 i ustawiona zostanie pierwsza predefiniowana aminacja startowa przygotowana przed producenta.</p>
+
+<p align=justify><u>--setbitmap OPERATOR 26002</u> ustawi w telefonie logo operatora dla sieci 260-02 (polska Era)</p>
+
+<h2><i><b>Inne</b></i></h2>
+<p align="justify">Oprócz opisanych wcześniej komend Gammu potrafi znacznie więcej. Podamy kilka przykładów: aktualny czas w telefonie ustawi <u>--setdatetime</u>, w wielu modelach Nokii można np. włączyć tzw. netmonitor (opcja <u>--nokianetmonitor</u>) i inne "ukryte" menu (opcja <u>--nokiasetphonemenus</u>) albo ustawić siłę wibracji (opcja <u>--nokiasetvibralevel</u>). Aplikacja potrafi również ustawić wyszukać i ustawić wszystkie stacje radiowe w Nokiach Serii 40 (opcja <u>--nokiatuneradio</u>).</p>
+
+<p align="justify">Listę wszystkich opcji można uzyskać po wybraniu komendy <u>gammu --help</u>, są one opisane na stronie <i><a href=http://www.gammu.org>www.gammu.org</a></i>.</p>
+
+<p align="justify">Dodatkowo w pakiecie z kodem źródłowym można znaleźć np. skrypty automatyzujące połączenia typu data ("zwykłe", HSCDS, GPRS) z użyciem pppd.</p>
+
+<h2><i>Nakładki na Gammu</i></h2>
+<p align=justify>Jak wspomniano wcześniej, Gammu jest również biblioteką. Na stronie <i><a href=http://www.gammu.org>www.gammu.org</a></i> można przeczytać o różnych sposobach jej wykorzystania.</p>
+
+<p align=justify>Najbardziej znane projekty z nią związane to chyba Python-gammu (nakładka pozwalająca korzystać z usług z programów napisanych w Pythonie) oraz Wammu (program w Pythonie będący GUI). Ten ostatni pozwala wykonać w prosty sposób operacje na książce telefonicznej czy SMS.</p>
+
+<h1>Gammu+</h1>
+
+<p align=justify>Pakiet Gammu pisano z użyciem języka programowania C, który ma swoje czasem dosyć istotne ograniczenia. Dla niektórych użytkowników pewne ograniczenia sprawiać może również użyta licencja GNU GPL.</p>
+
+<p align=justify>Niedogodności te są eliminowane w kolejnym projekcie nazwanym Gammu+. Pisany jest w C++, a licencja to LGPL i/lub własna komercyjna.</p>
+
+<p align=justify>W chwili obecnej prace nad nim są prowadzone powoli (m.in. ze względów finansowych), ale daje się zauważyć systematyczny postęp. Możliwy jest już dostęp do książki telefonicznej, kalendarza i SMS w wielu modelach Nokii z generacji DCT3, DCT4 i wielu modelach Serii 40. Docelowo znajdzie się tam przynajmniej cała funkcjonalność Gammu.</p>
+
+<p align=justify>Więcej na ten temat można przeczytać pod adresem <i><a href=http://www.gammu.org>www.gammu.org</a></i>.</p>
+
+<h1>Gnokii, GSMLib i inne</h1>
+
+<p align=justify>Gnokii w wielu szczegółach jest podobny do Gammu. Może działać jako biblioteka, jest publikowany również na licencji GNU GPL, zawiera wersję konsolową. Z ciekawostek można w nim wymienić działający emulator modemu AT do Nokii 5110 i 6110. Różnice są widoczne w komendach, obsługiwanych telefonach, sposobie prowadzenia samego projektu. Oprogramowanie to jest również tworzone przez osoby prywatne (co ciekawe jednym z głównych twórców jest też Polak). Należy wspomnieć, iż to tutaj został stworzony gnapplet - program do zainstalowania w telefonach z systemem Symbian 6.x - 8.x pozwalający na łatwe udostępnianie ich zasobów (obecnie obsługa protokołu gnapplet jest dodawana również do Gammu).</p>
+
+<p align=justify>GSMLib był jedną z pierwszych bibliotek udostępniających obsługę komend AT. Obecnie duża część/całość jego funkcjonalności znajduje się w pakietach opisanych wcześniej.</p>
+
+<p align=justify>Oprócz pakietów określonych przez nas jako 3G pojawiają się ciągle nowe. Jest KMobileTools i inne, jest oprogramowanie pozwalające na zrobione kopii książki telefonicznej i kalendarza z użyciem SyncML. Nie są one niestety doskonałe.</p>
+
+<p align=justify>Daje się niestety cały czas odczuć brak współpracy producentów telefonów z twórcami tego typu programów. Zamykają standardy, nie są zainteresowani użyczaniem swoich wyrobów (choćby w zamian za reklamę). Drugim utrudnieniem jest fakt, iż część ludzi woli pisać oprogramowanie tego rodzaju jako własny projekt do obsługi pojedyńczego modelu niż element większej całości. Później wiele z tych perełek "przepada" niedługo po tym, jak ich autor zmienia telefon.</p>
+
+<p align=justify>Nasi programiści nie mają się na szczęście czego powstydzić w tej dziedzinie. Miejmy nadzieję, że będą znajdować środki i siły tak długo, aby któregoś dnia móc powiedzieć - jeśli soft do komórek, to tylko z Polski... Jest po prostu jedyny i najlepszy...</p>
+
+<h1>Kompatybilność</h1>
+
+<p align=justify>Tabelkę poniżej należy traktować tylko orientacyjnie, dokładne dane można znaleźć na stronach projektów</p>
+
+<table border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td align="center"><b>Rodzaj protokołów</b></td>
+      <td align="center"><b>Modele telefonów</b></td>
+      <td align="center"><b>Gammu</b></td>
+      <td align="center"><b>Gammu+</b></td>
+      <td align="center"><b>Gnokii</b></td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="7" align="center">Własne protokoły producentów</td>
+      <td align="center">Alcatel z generacji BH4, BE5, BF5 - np. OT511<br>
+      </td>
+      <td align="center">SMS, książka telefoniczna, kalendarz</td>
+      <td colspan="2" rowspan="1" align="center">nie</td>
+    </tr>
+    <tr>
+      <td align="center">Nokia z generacji DCT2 - np. 3110<br>
+      </td>
+      <td colspan="2" rowspan="1" align="center">nie</td>
+      <td align="center">SMS, książka telefoniczna<br>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Nokia z generacji DCT3 - np. 3310, 8210<br>
+      </td>
+      <td colspan="3" rowspan="1" align="center">SMS, książka telefoniczna, kalendarz</td>
+    </tr>
+    <tr>
+      <td align="center">Nokia z generacji DCT4 - np. 6310i</td>
+      <td colspan="1" rowspan="2" align="center">SMS, książka telefoniczna, kalendarz, todo, notatki, system plików</td>
+      <td colspan="1" rowspan="2" align="center">SMS, książka telefoniczna, kalendarz</td>
+      <td colspan="1" rowspan="2" align="center">SMS, książka telefoniczna, kalendarz, system plików</td>
+    </tr>
+    <tr align="center">
+      <td>Nokia Seria 40 1.0 i 2.0 - np. 5100, 6230<br>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Nokia Seria 40 3.0 - np. 6111<br>
+      </td>
+      <td align="center">SMS, książka telefoniczna, kalendarz, todo, notatki, system plików</td>
+      <td colspan="2" rowspan="1" align="center">wysyłka SMS, książka telefoniczna, kalendarz<br>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Nokia Seria 60 i inne (Symbian 6.x - 8.x) - np. 7610<br>
+      </td>
+      <td align="center">częściowo kalendarz, todo<br>
+      </td>
+      <td align="center">nie</td>
+      <td align="center">SMS, książka telefoniczna, kalendarz, todo</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="3" align="center">Standardy</td>
+      <td align="center">komendy AT (Nokia, Siemens, Alcatel, etc.)</td>
+      <td align="center">tak</td>
+      <td align="center">nie</td>
+      <td align="center">tak</td>
+    </tr>
+    <tr>
+      <td align="center">OBEX</td>
+      <td align="center">tak</td>
+      <td colspan="2" rowspan="1" align="center">nie</td>
+    </tr>
+    <tr>
+      <td align="center">SyncML</td>
+      <td colspan="3" rowspan="1" align="center">nie</td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;<br>
+<h1>W Internecie</h1>
+<ul>
+  <li>Bluez - <i><a href=http://www.bluez.org>www.bluez.org</a></i></li>
+  <li>Gammu/Gammu+/Wammu - <i><a href=http://www.gammu.org>www.gammu.org</a></i></li>
+  <li>Gnokii - <i><a href=http://www.gnokii.org>www.gnokii.org</a></i></li>
+  <li>GSMLib - <i><a href=http://www.pxh.de/fs/gsmlib>www.pxh.de/fs/gsmlib</a></i></li>
+  <li>KMobileTools - <i><a href=http://kmobiletools.org>http://kmobiletools.org</a></i></li>
+  <li>OpenOBEX - <i><a href=http://www.openobex.org>www.openobex.org</a><br></i></li>
+</ul>

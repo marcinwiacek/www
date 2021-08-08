@@ -1,0 +1,21 @@
+﻿Title:XMLe C.D. i Android Market - aplikacja &quot;Polskie przepisy&quot; (2012)
+Author:marcin
+When:31 Mar 2012
+Taxonomy:Polski,Polski blog,Android,GSM,drogowe
+
+<p>Czytał ktoś <a href="?q=node/194">mój tekst "Przepisy polskie - stan A.D. 2012 technicznym okiem (2012)"</a> ?</p>
+<p>Pozwolę go sobie krótko streścić: od jakiegoś czasu w polskiej rzeczywistości klaruje się możliwość bardziej przejrzystego stanowienia prawa. Osiagnięte to będzie/jest dzięki zapisywaniu oficjalnie głoszonych aktów w postaci plików XML - podobna operacja pozwoli na łatwe przeszukiwanie, tworzenie wersji jednolitych aktów prawnych, porównywanie wersji, itd.</p>
+<!--break-->
+<p>Obecnie różne osoby i instytucje z mniejszym lub większym skutkiem próbują ustanowić jeden standard, mam nadzieję, że pliki takie będą dostępne ogólnodostępnie i bezpłatnie. </p>
+<p>W wymienionym na wstępie tekście pisałem o moich zabawach z formatem ogłoszonym w Dzienniku Ustaw nr 75 z 2008 roku, poz 451. </p>
+<p>Pomyślałem, że udostępnię stworzone na podstawie oficjalnych PDFów pliki XML:</p>
+<ul><li><a href="sites/default/files/196/1.xml" target="_blank">Dz. U. z 2011 r. Nr 30, poz. 151</a>
+</li><li><a href="sites/default/files/196/2.xml" target="_blank">Dz. U. z 2011 r. Nr 92, poz. 530</a>
+</li><li><a href="sites/default/files/196/3.xml" target="_blank">Dz. U. z 2012 r. poz. 113</a>
+</li><li><a href="sites/default/files/196/4.xml" target="_blank">Dz. U. z 1997 r. Nr 98, poz. 602</a>
+</li></ul><p>Są one prawie 100% kompletne i troszeczkę stuningowane - dodałem tag "element", "numer-aktu" to link do PDFa, itp. W celu uproszczenia pozostawiłem niektóre elementy w CDATA (zawierają elementy innych zmienianych ustaw i do moich celów ćwiczebnych były nieistotne).</p>
+<p>Przy okazji wspomnianych zabaw udało mi się stworzyć prosty skrypt, któy byłby w stanie częściowo automatycznie stworzyć takiego XML ze zrzutu tekstowego PDFa (o zawrotnej wielkości 11 KB).</p>
+<p>Do tego doszedł engine PHP, który jest w stanie ujednolicić ze wspomnianych plików <b>Ustawę o kierujących pojazdami</b>. Ot całe 13 KB kodu, a ile radości. Przykład wygenerowanego pliku: <a href="sites/default/files/196/ala22.htm" target="_blank">plik</a></p>
+<p>Powstała również aplikacja do Androida - renderowanie i pokazanie (prawie całej) wersji jednolitej tej Ustawy zajmuje ok. 5 lub 8 sekund (czas zależy od wyboru użytej do wyświetlenia kontrolki), ze wszystkimi features doszłyby pewnie 2 sekundy. Należy pamiętać, iż mówimy o wersji wstępnej bez optymalizacji. Aplikacja dostępna pod adresem <a href="https://play.google.com/store/apps/details?id=com.mwiacek.polskie.przepisy">https://play.google.com/store/apps/details?id=com.mwiacek.polskie.przepisy</a></p>
+<p>I w tym miejscu bym poprzestał. Standard nie jest gotowy, oficjalnych plików brak. Całość mógłbym wznowić po uzyskaniu jakiegoś finansowania dla projektu i/lub uzyskania jakichś konkretów np. ze strony Pana Waglowskiego (korespondowałem z nim pod <a href="http://prawo.vagla.pl/node/9701">tekstem "Potrzebne słowniki i skorowidze do łatwiejszego śledzenia procesu legislacyjnego (i nie tylko)"</a>, wygląda na to, że uczestniczy aktywnie w kolejnej inicjatywie tego typu opisanej w <a href="http://prawo.vagla.pl/node/9718">artykule "Rządowy portal elektronicznych konsultacji publicznych będzie stał na Drupalu"</a>)</p>
+<p>PS. Cała idea wydaje się dziś może niemożliwa, ale pamiętajmy, że np. kilka lat temu trudno było przewidzieć, że będą dosyć powszechnie dostępne 8 rdzeniowe procesory, które automatycznie się przetaktowywują do ponad 3 Ghz (to nic, że tak naprawdę zawierają 4 logiczne + 4 fizyczne jajka - oprogramowanie widzi 8 rdzeni).</p>

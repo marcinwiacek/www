@@ -1,0 +1,549 @@
+﻿Title:O przeglądarkach w Androidzie... (2011)
+Author:marcin
+When:01 Feb 2011
+Taxonomy:Polski,benchmark.pl,GSM,Polski artykuł,OS,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł we wcześniejszej wersji został wpierw <a href=http://www.benchmark.pl/mini-recenzje/O_przegladarkach_w_Androidzie...-3543.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Z czego coraz więcej korzystamy pracując przy 
+komputerze ? Niewątpliwie wiele osób odpowie, że to przeglądarka www. Są
+ lepsze i gorsze... A jak wygląda to na platformie Android ?</p>
+<!--break-->
+
+<p>Uważam, że temat jest ciekawy nawet pomimo tego, iż znaczenie 
+programów tego typu jest tu trochę mniejsze (np. różne serwisy 
+społecznościowe są często obsługiwane przez dedykowane aplikacje). Do 
+testów został użyty <a href="?q=node/177">Galaxy
+ S z Androidem 2.2.1 (ROM JPY bez tzw. "lagfixów" w wariancie XEU wgrany
+ tak jak to opisywałem w artykule " Galaxy S - czeskiego filmu ciąg 
+dalszy ?)</a>.</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Ustawienia systemowe</font></span></p>
+<p>Froyo (Android 2.2) dodał obsługę Flash - odpowiada za to moduł <strong>Flash Player 10.1</strong>.
+ Nie jest on (przynajmniej w Galaxy S) automatycznie aktualizowany, 
+wymaga to ręcznego znalezienia w Markecie i "doinstalowania". Szerzej o 
+tego typu przypadłościach tego systemu operacyjnego pisałem w tekście "<a href="?q=node/178">Komentarz o Geimini, czy quo vadis Androidzie ?</a>"...</p>
+<p>W systemie można również wybrać, która przeglądarka będzie wybierana 
+do pewnych akcji - można doprowadzić do ponownego pokazania się okienka 
+wyboru poprzez naciśnięcie przycisku "Wyczyść ustawienia domyślne" w 
+wpisie dotyczącym wybranej aplikacji (np. Internet) w "Ustawienia &gt; 
+
+Aplikacje &gt; Zarządzaj aplikacjami".</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Internet</font></span></p>
+<p>Zacznę od programu dodawanego z systemem, w Androidzie 2.2 oparty na silniku <a href="http://en.wikipedia.org/wiki/WebKit">WebKit</a> połączonym z silnikiem JavaScript V8 z Chrome.</p>
+<p>Aby włączyć Flash, w opcjach wystarczy ustawić "Włącz dodatki" na 
+"Zawszy pytaj" lub "Zawsze włączone". I już... Można w ten sposób np. 
+oglądać filmiki z YouTube:</p>
+<p>&nbsp;<a href="http://www.youtube.com/watch?v=FwwWo-NzPFo&amp;feature=player_embedded"><img alt="" src="sites/default/files/181/net_flash.png" border="0" height="300" width="500"></a></p>
+<p>Nie działa to niestety idealnie - zdarzają się skoki. Z produkcjami z
+ YouTube można to obejść - wystarczy dwukrotnie na nich kliknąć, wybrać 
+aplikację YouTube jako tą od obsłużenia akcji i już pokazuje się o niebo
+ lepiej działający dedykowany program...</p>
+<p>Przeglądarka pozwala otworzyć maksymalnie cztery okna i zdarza się 
+jej ustawiać co jakiś czas ustawienia domyślne (przynajmniej wariant w 
+telefonie Samsunga). To ostatnie jest dosyć niewygodne - włączana jest 
+wtedy np. opcja "Włącz lokalizację (Zezwalaj witrynom na żądanie dostępu
+ do lokalizacji)", "Pamiętaj hasła" i ustawiania jest własna jasność 
+ekranu.</p>
+
+<p>Mamy JavaScript (można go wyłączyć w opcjach), animowane GIFy, 
+zdarzają się wyskakujące okienka z reklamami (pomimo włączenia opcji 
+"Blokuj okna podręczne"). Automatyczne dopasowywanie strony do 
+szerokości ekranu (opcja "Automatycznie dopasowuj strony" w 
+Ustawieniach) działa niestety nie do końca poprawnie - wymagane jest 
+włączenie opcji automatycznego obrotu ekranu (np. w powiadomieniach) i 
+po powiększeniu/zmniejszeniu zmiana orientacji (wtedy całość zostanie 
+dostosowana). Wynikać to może ze specyfiki testowanego telefonu (ROMu).</p>
+<p>Mimo tych usterek przeglądanie stron jest dosyć wygodne - jedynym 
+chyba mankamentem jest konieczność przewinięcia do samej góry (aby móc 
+wpisać adres) oraz brak możliwości zmiany tzw. user agenta (po którym 
+serwery mogą zidentyfikować, jaka przeglądarka się z nimi łączy - bez 
+tego wiele witryn "zauważa" fakt otwierania przez aplikację mobilną i 
+domyślnie proponuje wersję "lżejszą", co potrafi być irytujące).</p>
+<p>Ciekawostką jest proponowanie jako strona startowa wyszukiwarki 
+Google w wersji nieszyfrowanej - na szczęście w ustawieniach wystarczy 
+zamienić "http" na "https" i po kłopocie ;) Niestety podobnej operacji 
+nie można wykonać w stosunku do wbudowanej wyszukiwarki.</p>
+<p>Jak wygląda stabilność ? Strony nie są niestety przewijane do końca płynnie, podobnie przeglądarka zamyka się po użyciu <a href="http://lcamtuf.blogspot.com/2011/01/announcing-crossfuzz-potential-0-day-in.html">narzędzia cross_fuzz autorstwa Michała Zalewskiego</a> (może dlatego, że oparta jest na WebKicie ? Z drugiej strony smaczku sprawie dodaje fakt, iż Michał on pracownikiem Google ;)).</p>
+<p>Ciekawym faktem jest dostępność dodatkowych funkcji - w polu 
+adresowym wpisujemy adres "about:debug" i po wejściu w opcje już możemy 
+zobaczyć:</p>
+<p><img src="sites/default/files/181/net_deb.png" alt="" height="500" width="300"></p>
+<p>Program wymaga sporej ilości uprawnień:</p>
+<p>
+
+</p><table border="0">
+    
+        <tbody><tr>
+            <td><img src="sites/default/files/181/net_perm1.png" alt="" width="250"></td>
+            <td>
+            <p><img src="sites/default/files/181/net_perm2.png" alt="" width="250"></p>
+            </td>
+        </tr>
+    
+</tbody></table>
+
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span>
+
+ Internet to trochę taki gorszy Internet Explorer - zintegrowany z 
+systemem, ale obecnie niestety NIEUAKTUALNIANY oddzielnie (a więc bez 
+szybkiego łatania np. luk i błędów w zabezpieczeniach).</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Dolphin Mini</font></span></p>
+<p>Program dostępny w Markecie jako <strong>Dolphin Browser Mini</strong>. Po zainstalowaniu widzimy dosyć ładny interfejs (ale bez języka polskiego, opcje z dołu oczywiście można ukryć).</p>
+<p><img alt="" src="sites/default/files/181/dmini.png" height="500" width="300"></p>
+<p>Jest tryb pełnego ekranu czy też możliwość zmiany tzw. user agenta 
+(po którym serwery mogą zidentyfikować, jaka przeglądarka się z nimi 
+łączy - program proponuje opcje Android, Dektop, iPhone i iPad).</p>
+<p>Program ma też tryb prywatności ("you can  set your browser to save 
+your browsing history data and protect your  privacy"), ale również 
+funkcje lokalizacyjne (kompatybilne z Google uaktywniające się np. przy 
+wybraniu agenta Android).</p>
+<p>Do tego dochodzi możliwość ustawienia orientacji ekranu (automatyczna czy też wskazana) oraz <strong>bardzo rozbudowane opcje związane z tzw. gestami</strong>:</p>
+
+<p><img src="sites/default/files/181/screenshot_1.png" alt="" height="500" width="300"></p>
+<p>Brakuje dynamicznego dostosowywania szerokości tekstu do ekranu, nie 
+widzę także jasnej licencji i oraz informacji o tym jak aplikacja działa
+ (kilka "drobiazgów" pozwala podejrzewać, iż strony te są renderowane na
+ serwerze). Żeby nie było wątpliwości - szukałem w programie oraz na <a href="http://blog.dolphin-browser.com/">stronie domowej</a>.</p>
+<p>Nie ma też opcji wyłączania blokowania tzw. wyskakujących okienek. 
+Dodatkową ciekawostką jest fakt, iż podczas uruchomienia testu Kraken 
+raz zawiesił mi się CAŁKOWICIE telefon, a raz ten sam test przestał się 
+wykonywać w przeglądarce...</p>
+<p>Jeśli chodzi o wymagane uprawnienia, są dosyć małe (duży plus):</p>
+<p><img src="sites/default/files/181/sc20110130-160436.png" alt="" height="500" width="300"></p>
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span> Miło, prosto i przyjemnie, szkoda, że z wątpliwościami</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Dolphin</font></span></p>
+<p>Aplikacja <strong>Dolphin Browser</strong> w Markecie, zbudowana w 
+oparciu o funkcje Androida 1.6. I znów nie ma polskiego języka, 
+dodatkowo (w stosunku do edycji Mini) brakuje opcji do backupu zakładek.</p>
+
+<p><img src="sites/default/files/181/screenshot_21.png" alt="" height="500" width="300"></p>
+<p>Pomijając to określiłbym ją krótko jako rozbudowaną wersję Dolphin Mini :), uprawnienia są niestety znacznie większe:</p>
+<p>
+</p><table border="0">
+    
+        <tbody><tr>
+            <td><img src="sites/default/files/181/dol.png" alt="" width="250"></td>
+            <td><img src="sites/default/files/181/dol2.png" alt="" width="250"></td>
+        </tr>
+    
+</tbody></table>
+
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Dolphin HD</font></span></p>
+
+<p>Aplikacja <strong>Dolphin Browser HD</strong> w Markecie, zbudowana w
+ oparciu o funkcje Androida 2.0 (i to odróżnia ją od Dolphin). Kolejne 
+różnice to dostępność polskiej lokalizacji, pluginów (ot np. taki 
+przydatny <strong>Bookmarks to SD</strong>) oraz inny interfejs.</p>
+<p><img src="sites/default/files/181/screenshot_5.png" alt="" height="500" width="300"></p>
+<p>Jak wygląda sprawa uprawnień ?</p>
+<p>
+</p><table border="0">
+    
+        <tbody><tr>
+            <td><img alt="" src="sites/default/files/181/dolhd.png" height="417" width="250"></td>
+            <td><img alt="" src="sites/default/files/181/dolhd2.png" height="417" width="250"></td>
+
+        </tr>
+    
+</tbody></table>
+
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Firefox</font></span></p>
+<p>Program w wersji testowej rozprowadzany w Markecie jako <strong>Mozilla Firefox Web Browser</strong>. <a href="http://www.mozilla.com/en-US/mobile/4.0b3/releasenotes/">Dokładniejsze informacje na jego temat są podane na stronie domowej</a> - nic dodać nic ująć.</p>
+<p>W porównaniu do wydania biurkowego - brakuje bardziej zaawansowanych 
+opcji typu ochrona przed malware i phishingiem, import/eksport zakładek,
+ na liście pluginów jest ich również bardzo mało (niestety rozczarowywać
+ może w tym momencie brak Flasha oraz Adblocka).</p>
+<p>Ciekawym rozwiązaniem jest obecność na ekranie po lewej i prawej 
+strony odpowiednio okien i przycisków do wykonywania różnych akcji. Moim
+ zdaniem jest to bardzo wygodne.</p>
+
+<p>Przeglądanie jest prawie wygodne - nie ma funkcji dostosowywania się do szerokości ekranu.</p>
+<p>Program wymaga dosyć mało uprawnień, nie rozumiem natomiast potrzeby odczytywania lokalizacji:</p>
+<p><img alt="" src="sites/default/files/181/moz_per.png" height="500" width="300"></p>
+<p>Żeby nie było wątpliwości - mobilna wersja Google nie pokazuje części
+ strony związanej właśnie z położeniem podobnie jak w domyślnym 
+programie.</p>
+<p>Zaskoczony jestem stabilnością - czasami zdarzały się zacięcia (np. 
+przy starcie, podobnie w teście SunSpider nie widać było odświeżanych 
+nazw poszczególnych fragmentów), ale już np. <a href="http://lcamtuf.blogspot.com/2011/01/announcing-crossfuzz-potential-0-day-in.html">cross_fuzz</a> działał sobie w najlepsze przez kilka minut (poddawał się np. po wyświetleniu aż 7 okien).</p>
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span> trochę zbyt prosty, ale mimo wszystko czekam z niecierpliwością na wersję stabilną.</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Skyfire</font></span></p>
+
+<p>Dostępna w Markecie jako <strong>Przeglądarka Skyfire (beta)</strong>. <strong>Patrzymy na licencję i wszystko czytelne i jasne. Duży plus !</strong></p>
+<p><img alt="" src="sites/default/files/181/sky_eula2.png" height="500" width="300"></p>
+<p>Według mnie interfejs jest mocno przeładowany:</p>
+<p><img src="sites/default/files/181/screenshot_7.png" alt="" height="500" width="300"></p>
+<p>Opcji jest rzeczywiście dużo, ale niestety znów razi brak polskiego 
+języka. Bardziej rozbudowane strony sprawiają pewne problemy:</p>
+<p><img src="sites/default/files/181/screenshot1.png" alt="" height="500" width="300"></p>
+<p>Standardowo duże uprawnienia:</p>
+<p>
+</p><table border="0">
+    
+        <tbody><tr>
+
+            <td><img alt="" src="sites/default/files/181/sky_per.png" width="250"></td>
+            <td><img src="sites/default/files/181/sky_per2.png" alt="" width="250"></td>
+        </tr>
+    
+</tbody></table>
+
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span> Strony swojego banku chyba bym tutaj nie otworzył...</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Opera Mini</font></span></p>
+<p><strong>Przeglądarka Opera Mini</strong> z Marketu jest kolejną 
+aplikacją używającą oprogramowania na serwerze firmy do renderowania 
+stron. Z uwagi na sposób działa nie obsługuje Flasha, silnik renderujący
+ wykazuje również pewne inne niedomagania:</p>
+
+<p><img alt="" src="sites/default/files/181/screenshot_2.png" height="500" width="300"></p>
+<p>Dobrym rozwiązaniem jest pokazywanie paska adresu po wyświetleniu 
+opcji oraz funkcja pełnego ekranu, minusem jest skokowe powiększanie 
+treści. Program ma również na stałe włączoną opcję kompresji danych 
+(tzw. Opera Turbo),  czyli pobieranie stron poprzez serwery firmy Opera,
+ gdzie są pakowane.</p>
+<p>Ciekawostką jest opcja Mały ekran (strony pokazywane są w kilku 
+kolumnach są wyświetlone w jednej pod drugą) i wymaganie uprawnienia 
+wybierania numerów telefonów:</p>
+<p><img alt="" src="sites/default/files/181/sc20110130-201553.png" height="500" width="300"></p>
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span> I znów strony swojego banku chyba bym tutaj nie otworzył...</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Opera Mobile</font></span></p>
+<p><strong>Opera Mobile - przeglądarka</strong> to kolejny program z 
+Marketu (też beta). Interfejs jest dosyć podobny do Opery Mini, za to 
+silnik renderujący działa w całości na urządzeniu, a Operę Turbo można 
+wyłączyć w opcjach.</p>
+<p>Program również wykazuje pewne usterki na różnych stronach: w teście 
+Kraken brak było odświeżania nazw testów, GUIMark2 nie działa, a ACID3 
+wyglądał następująco:</p>
+
+<p><img alt="" src="sites/default/files/181/screenshot_3.png" height="500" width="300"></p>
+<p>I to właściwie z grubsza wszystko, co zresztą potwierdza <a href="http://www.opera.com/mobile/specs/">producent na swojej stronie</a>.
+ Ja zauważyłem również, że powiększanie treści jest tym razem płynne :) i
+ można sobie włączyć dopasowywanie strony do szerokości ekranu (opcja 
+Text-wrap).</p>
+<p>I na koniec standardowo uprawnienia:</p>
+<p><img alt="" src="sites/default/files/181/opermob.png" height="500" width="300"></p>
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span> lepsza niż Opera Mini, ale "trochę" odstaje od reszty...</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Porównanie</font></span></p>
+<table border="1" cellpadding="1" cellspacing="1">
+    
+        <tbody><tr>
+
+            <td>&nbsp;</td>
+            <td>Dolphin Mini (1.1.1)</td>
+            <td>Dolphin Browser (3.1.1)</td>
+            <td>Dolphin HD (4.3.0)</td>
+            <td>Firefox (4.0b3)</td>
+            <td>Internet (2.2.1)</td>
+
+            <td>Opera Mini (5.1.1)</td>
+            <td>Opera Mobile (10.1.1011151731)</td>
+            <td>Skyfire (3.2.0)</td>
+        </tr>
+        <tr>
+            <td>dopasowywanie szerokości</td>
+            <td>nie</td>
+
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>tak</td>
+            <td>częściowo tak</td>
+            <td>tak</td>
+
+            <td>nie</td>
+        </tr>
+        <tr>
+            <td>generacja na urządzeniu</td>
+            <td>raczej nie</td>
+            <td>raczej tak</td>
+            <td>raczej tak</td>
+
+            <td>tak</td>
+            <td>tak</td>
+            <td>nie</td>
+            <td>tak</td>
+            <td>nie</td>
+        </tr>
+
+        <tr>
+            <td>lokalizacja (zgodna z Google)</td>
+            <td>tak</td>
+            <td>tak</td>
+            <td>tak</td>
+            <td>nie stwierdzono, jest w uprawnieniach</td>
+
+            <td>tak</td>
+            <td>nie</td>
+            <td>nie stwierdzono, jest w uprawnieniach</td>
+            <td>tak</td>
+        </tr>
+        <tr>
+            <td>modyfikacja user agenta</td>
+
+            <td>tak</td>
+            <td>tak</td>
+            <td>tak</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+
+            <td>nie</td>
+            <td>tak</td>
+        </tr>
+        <tr>
+            <td>obsługa Flash</td>
+            <td>tak</td>
+            <td>tak</td>
+
+            <td>tak</td>
+            <td>nie</td>
+            <td>tak</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>tak</td>
+
+        </tr>
+        <tr>
+            <td>obsługa Java</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+        </tr>
+        <tr>
+            <td>obsługa JavaScript</td>
+
+            <td>tak</td>
+            <td>tak</td>
+            <td>tak</td>
+            <td>tak</td>
+            <td>tak</td>
+            <td>tak</td>
+
+            <td>tak</td>
+            <td>tak</td>
+        </tr>
+        <tr>
+            <td>tryb prywatności</td>
+            <td>tak</td>
+            <td>tak</td>
+
+            <td>tak</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>nie</td>
+            <td>tak</td>
+
+        </tr>
+    
+</tbody></table>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Testy</font></span></p>
+<p>Istnieją różne testy przeglądarek (tworzone przez ich producentów). 
+Wykonałem kilka z nich i wyniki co najmniej interesujące (niektóre się 
+nie wykonywały albo jak ACID3 w przypadku Oper dawały wysokie rezultaty,
+ ale wyglądały co najmniej dziwnie):</p>
+<table border="1" cellpadding="1" cellspacing="1">
+    
+        <tbody><tr>
+            <td>&nbsp;</td>
+            <td>Dolphin Mini&nbsp;</td>
+            <td>Dolphin</td>
+
+            <td>Dolphin HD</td>
+            <td>Firefox</td>
+            <td>Internet</td>
+            <td>Opera Mini</td>
+            <td>Opera Mobile</td>
+            <td>Skyfire</td>
+
+        </tr>
+        <tr>
+            <td>RAM po otwarciu</td>
+            <td>6,62 MB</td>
+            <td>16,11 MB</td>
+            <td>16,49 MB</td>
+            <td>51,56 MB</td>
+
+            <td>30,92 MB</td>
+            <td>12,03 MB</td>
+            <td>31,53 MB</td>
+            <td>24,96 MB</td>
+        </tr>
+        <tr>
+            <td><a href="http://acid3.acidtests.org/">ACID3</a></td>
+
+            <td>93/100</td>
+            <td>93/100</td>
+            <td>93/100</td>
+            <td>97/100</td>
+            <td>93/100</td>
+            <td>97/100</td>
+
+            <td>99/100</td>
+            <td>93/100</td>
+        </tr>
+        <tr>
+            <td><a href="http://www2.webkit.org/perf/sunspider/sunspider.html">SunSpider 0.9.1</a></td>
+            <td>
+            <p>5625,7 ms +/- 0,8%</p>
+
+            <p>5650,7 ms +/- 1,4%</p>
+            <p>5639,6 ms +/- 1,2%</p>
+            </td>
+            <td>
+            <p>5755,6 ms +/- 0,8%</p>
+            <p>5808,8 ms +/- 1,0%</p>
+            <p>5780,6 ms +/- 0,6%</p>
+
+            </td>
+            <td>
+            <p>6487,9 ms +/- 2,7%</p>
+            <p>6490,7 ms +/- 2,1%</p>
+            <p>6427,4 ms +/- 1,5%</p>
+            </td>
+            <td>
+
+            <p>3338,1 ms +/- 0,5%</p>
+            <p>3358,1 ms +/- 0,8%</p>
+            <p>3490,8 ms +/- 6,2%</p>
+            </td>
+            <td>
+            <p>6012,9 ms +/- 0,4%</p>
+            <p>6257,8 ms +/- 4,5%</p>
+
+            <p>5889,8 ms +/- 0,6%</p>
+            </td>
+            <td>problem z przejściem</td>
+            <td>
+            <p>12346,5 ms +/- 3,2%</p>
+            <p>12158,4 ms +/- 0,7%</p>
+            <p>12948,5 ms +/- 7,3%</p>
+
+            </td>
+            <td>
+            <p>7463 ms +/- 1,4%</p>
+            <p>7209,7 ms +/- 0,8%</p>
+            <p>7345,2 ms +/- 1,3%</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td><a href="http://krakenbenchmark.mozilla.org/">Kraken 1.0</a></td>
+            <td>301847,7 ms +/- 0,6%</td>
+            <td>306982,4 ms +/- 1,1%</td>
+            <td>344556,5 ms +/- 0,3%</td>
+            <td>problem z przejściem</td>
+
+            <td>305784.5 ms +/- 1,2%</td>
+            <td>problem z przejściem</td>
+            <td>607983,1 ms +/- 2,2%</td>
+            <td>448586,2 ms +/- 68,5%</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.craftymind.com/guimark2/">GUIMark 2</a> (Mobile)</td>
+
+            <td>
+            <p>HTML5 Vector 22,86 fps</p>
+            <p>HTML5 Bitmap 42,39 fps</p>
+            <p>Flash Vector 55,72 fps</p>
+            <p>Flash Bitmap 18,99 fps</p>
+            </td>
+            <td>
+
+            <p>HTML5 Vector 23,43 fps</p>
+            <p>HTML5 Bitmap 42,49 fps</p>
+            <p>Flash Vector 55,69 fps</p>
+            <p>Flash Bitmap 19,55 fps</p>
+            </td>
+            <td>
+            <p>HTML5 Vector 20,66 fps</p>
+
+            <p>HTML5 Bitmap 29,64 fps</p>
+            <p>Flash Vector 55,52 fps</p>
+            <p>Flash Bitmap 17,24 fps</p>
+            </td>
+            <td>
+            <p>HTML5 Vector&nbsp; fps</p>
+
+            <p>HTML5 Bitmap&nbsp; fps</p>
+            <p>Flash Vector&nbsp; fps</p>
+            <p>Flash Bitmap&nbsp; fps</p>
+            </td>
+
+            <td>
+            <p>HTML5 Vector 19,91 fps</p>
+            <p>HTML5 Bitmap 40,49 fps</p>
+            <p>Flash Vector 55,79 fps</p>
+            <p>Flash Bitmap 20,16 fps</p>
+            </td>
+            <td>problem z przejściem</td>
+
+            <td>problem z przejściem</td>
+            <td>
+            <p>HTML5 Vector&nbsp; fps</p>
+            <p>HTML5 Bitmap&nbsp; fps</p>
+            <p>Flash Vector&nbsp; fps</p>
+
+            <p>Flash Bitmap&nbsp; fps</p>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="http://v8.googlecode.com/svn/data/benchmarks/v6/run.html">V8 Benchmark Suite</a> wersja 6</td>
+            <td>197</td>
+
+            <td>187</td>
+            <td>192</td>
+            <td>problem z przejściem</td>
+            <td>212</td>
+            <td>problem z przejściem</td>
+            <td>69,9</td>
+
+            <td>193</td>
+        </tr>
+        <tr>
+            <td><a href="http://clients.futuremark.com/peacekeeper/index.action">PeaceKeeper</a></td>
+            <td>499, 495, 493</td>
+            <td>494, 509, 482</td>
+            <td>502, 496, 491&nbsp;</td>
+
+            <td>456, 468, 474</td>
+            <td>478, 485, 493</td>
+            <td>problem z przejściem</td>
+            <td>330, 352, 358</td>
+            <td>461, 483, 498</td>
+        </tr>
+
+    
+</tbody></table>
+<p>Z różnych względów nie użyłem tutaj testów Microsoftu związanych z przeglądarką IE9 (<a href="http://ie.microsoft.com/testdrive/Default.html">IE9 Test Drive</a>).</p>
+<p><span style="color: rgb(153, 204, 0);"><strong>Moja opinia:</strong></span> brak jednoznacznego faworyta, zdecydowanie "do tyłu" są natomiast obie Opery.</p>
+<p><span style="color: rgb(51, 153, 102);"><font size="+2">Podsumowanie</font></span></p>
+<p>Obecne programy na Androidzie są moim zdaniem mocno opóźnione w 
+stosunku do wersji biurkowych. Przyczyn może być kilka - rodowód w 
+aplikacjach pisanych na naprawdę prymitywne urządzenia, czasem może 
+również chęć ograniczania ilości przesyłanych danych.</p>
+<p>Czy to usprawiedliwia jednak błędy silników renderujących ? Dlaczego brak zaimplementowanych zabezpieczeń phishingowych ?</p>
+<p>Z uwagi na ostatni problem doradziłbym ostrożność przy wyborze 
+przeglądanych stron i zastanowienie się, czy np. warto korzystać ze 
+swojego banku. Trzeba też zauważyć, że Android staje się popularny i 
+przypadki  wyłudzeń danych będą coraz częstsze (co jest łatwiejsze, że 
+obecnie  platforma ma kilka ułatwiających to niedomagań, co mam nadzieję
+ chyba  dosyć dobrze udowodniłem w tekście "<a href="?q=node/178">Komentarz o Geimini, czy quo vadis Androidzie ?</a>").
+ Z drugiej strony - na szczęście pojawiają się rozwiązania, które 
+pozwalają to chociaż częściowo rozwiązać: z trzech aplikacji, tj. <strong>antivirus free AVG</strong>, <strong>Norton Mobile Security (Beta)</strong>, <strong>Mobile Security</strong> ostatnia (płatna) blokuje adresy z własnej listy w przeglądarce systemowej, wszystkich Delphi i Skyfire.</p>
+
+<p>A czy usprawiedliwione są również jednak dosyć słabe wyniki testów ? 
+(w stosunku do systemów biurkowych) W jakim zakresie problemem jest 
+architektura, w jakim telefon (ROM) a w jakim narzut dodany przez samego
+ Androida ? Z ciekawością widziałbym tutaj też dla porównania wynik z 
+Firefoxa i jakiegoś telefonu z Meego z procesorem też 1Ghz. Tylko, że 
+takiego jeszcze nie ma...i <a href="http://xizhizhu.blogspot.com/2010/05/javascript-benchmarking-on-n900-pr12.html">obecnie mogę się jedynie opierać na wyniku z N900</a> (600 Mhz w porównaniu do 1000 Mhz w Galaxy S) i ilości 141 punktów w PeaceKeeperze w porównaniu do średnio 450 punktów.</p>
+<p>W dwóch słowach powiem więc tak: jest lepiej niż w innych (starszych)
+ systemach mobilnych, ale mimo wszystko to nie jest jeszcze "to" - tym 
+co chcą mieć "Internet w kieszeni" to wystarczy, ale Ci, co będą go 
+chcieli używać non-stop, będą pewnie dalej trochę rozczarowani...</p>

@@ -1,0 +1,94 @@
+﻿Title:Dlaczego Linuks jest bezpieczniejszy... czyli o rozwiązaniu nie dla idiotów (2021)
+Author:marcin
+When:21 Mar 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Linux
+
+<p>Dawno, dawno temu praktycznie każda maszyna była oddzielną wyspą, a urządzenia i nośniki charakteryzowały się dosyć mocną awaryjnością.</p>
+
+<p>Standardem były rozmyślania, czy dysk od Samsunga czy IBM jest lepszy niż któraś tam Barracuda (przypomnę, że SMART został wymyślony około 1995 roku). Zwracaliśmy uwagę na obecność pól magnetycznych i problemy z dyskietkami Verbatim, wielu z nas doświadczało również tego, że porysowanych płyt CD / DVD / Blue-Ray nie można czytać w nieskończność, albo że ulegają one upływowi czasu.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Dlaczego-Linuks-jest-bezpieczniejszy-czyli-o-rozwiazaniu-nie-dla-idiotow,113865.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p><b>Dawno temu </b></p>
+
+<p>Dawno, dawno temu praktycznie każda maszyna była oddzielną wyspą, a urządzenia i nośniki charakteryzowały się dosyć mocną awaryjnością.</p>
+
+<p>Standardem były rozmyślania, czy dysk od Samsunga czy IBM jest lepszy niż któraś tam Barracuda (przypomnę, że SMART został wymyślony około 1995 roku). Zwracaliśmy uwagę na obecność pól magnetycznych i problemy z dyskietkami Verbatim, wielu z nas doświadczało również tego, że porysowanych płyt CD / DVD / Blue-Ray nie można czytać w nieskończność, albo że ulegają one upływowi czasu.</p>
+
+<p>To wszystko wymuszało na nas przechowywanie plików w różnych miejscach - standardem było np. używanie oddzielnych dysków w kieszeniach.</p>
+
+<p>Na rynku istniało wiele rodzajów nośników</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/AvXXkB2jic0?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>i formatów plików, które wymuszały na nas ruszenie głową i dbanie przez nas o ich migrację.</p>
+
+<p>Nie mieliśmy przy tym zbyt dużo plików, systemy plików były proste i łatwe do zrozumienia i naprawienia - każdy wiedział, że &quot;chkdsk&quot; służy do sprawdzania, a &quot;undelete&quot; do odzyskiwania plików, o ile nie uległy nadpisaniu.</p>
+
+<p>Była wiedza, wymienianie się doświadczeniem i wykorzystywanie sprzętu do granic możliwości.</p>
+
+<p><b>Obecnie</b></p>
+
+<p>Wszyscy chcą mieć wszystko podane w sposób łatwy, prosty i przyjemny.</p>
+
+<p>Popatrzmy, co się stało po katastrofie w firmie OHV.</p>
+
+<p>Poinformowała ona, że rozpoczęła przygotowania związane z ofertą publiczną i wejściem na giełdę. Bodajże <b>dzień później </b>spłonęła serwerownia w Strasburgu, która (jak dla mnie) z zewnątrz wygląda podobnie do zestawów kontenerów na budowach. Co jest ciekawe w tej historii - obok siebie znalazły się trzy bloki, a część firm hostujących swój biznes nie miało kopii zapasowych.</p>
+
+<p>Jeden z przykładowych tytułów artykułów stwierdzał &quot;<a href="https://antyweb.pl/pozar-w-ovh-zabezpieczenia-danych/" target="_blank" rel="noopener" rel="nofollow">Pożar w OVH to dramat tysięcy biznesów</a>&quot;. </p>
+
+<p>Moje pytania - ile z nas ma sprawdzone i potwierdzone kopie plików przechowywanych w chmurach? Czy upewniliśmy, że nasze backupy są szyfrowane i robione w oddzielnych lokalizacjach? Czy to nie jest tak, że zaczęliśmy bezgranicznie ufać temu, że pliki tam są stuprocentowo bezpieczne? (bo łatwiej jest przerzucić na kogoś odpowiedzialność niż dbać o bezpieczeństwo samemu)</p>
+
+<p>Ciekawym faktem jest to, iż w wielu wypadkach dodajemy pliki, te ulegają stratnej kompresji, a my się pozbywamy oryginalnych najlepszych kopii (zastanówmy się, co by się stało, gdyby nagle YouTube zaczął wszystko zmieniać tak, że jakość zmniejszyłaby się 4x).</p><p>Kolejnym ciekawym faktem jest brak czytania przez nas regulaminów (ewentualnie czytanie ich pobieżnie i akceptowanie nawet rozmytych zapisów, które dają odpowiednim platformom właściwie każdą władzę).</p>
+
+<p>Co się potem dzieje? Przykładem niech będą serwisy takie jak Pornhub (usunął 80% filmów), Facebook czy Twitter (które stosują swoje własne zasady stosownie do sytuacji politycznej).</p>
+
+<p>Pójdźmy dalej - w trosce o bezpieczeństwo instalujemy często i gęsto programy antywirusowe (dając dostęp do plików często tysiącom pracowników), a chwilę potem dziwimy się, że jakiś tam Kaspersky albo inne cudo może robić właściwie co chce.</p>
+
+<p>Hallo, hallo, taka jest zasada działania programów antywirusowych!</p>
+
+<center><img src="sites/default/files/440/x.png" style="width:392px;height:405px;" alt="image" title="image" /></center>
+
+<p>Miałem pisać o Linuksie i właśnie do tego dochodzę. Jeden z innych blogerów napisał w swoim tytule &quot;Masowa dystrybucja podatności, czyli jak pada mit bezpiecznego Linuksa&quot;. Miało to oczywiście na celu wywołanie tzw. gównoburzy, chciałbym się jednak pokrótce zastanowić nad tym, dlaczego Linux jest jednak bezpieczniejszy i dlaczego ten bloger właśnie sobie zaprzeczył.</p>
+
+<p>Jądro i wiele narzędzi udostępnianych jest z kodem źródłowym. Każdy, kto ma jakąkolwiek wiedzę techniczną, ma do nich dostęp i może je przeglądać, a nawet próbować modyfikować.</p>
+
+<p>Z jednej strony jest to proszenie się o kłopoty, z drugiej... skoro kod jest dostępny, to nie powinno być zbyt wielkich problemów z jego migracją na nową / lepszą wersję.</p>
+
+<p>A jak to wygląda u konkurencji?</p>
+
+<p><a href="https://blog.0patch.com/2017/11/did-microsoft-just-manually-patch-their.html" target="_blank" rel="noopener" rel="nofollow">Did Microsoft Just Manually Patch Their Equation Editor Executable?</a> Why Yes, Yes They Did. (CVE-2017-11882)</p>
+
+<p>W przypadku tego producenta tzw. wycieki kodu stają się podstawą do pisania, że zaraz nastąpi Armageddon. Ale zaraz zaraz... przecież do tego kodu mają dostęp pracownicy agencji rządowych, różnych firm trzecich, itp. Załóżmy roboczo, że milion ludzi ze średnim doświadczeniem może coś znaleźć i poinformować o tym lub nie, zaś w przypadku komponentów linuksowych niech kod analizuje dziesięć milionów ze średnim doświadczeniem - czyż nie jest to lepsze?</p>
+
+<p>No dobrze, ale przecież kod Microsoftu jest łamany również w formie binarnej, a do tego zazwyczaj trzeba większych umiejętności.</p>
+
+<p>Fakt, za to ludzie o dużych umiejętnościach pracują też nad linuksami i nie marnują czasu na jakieś zabawy z asemblerem (tzn. niektórzy też to robią, ale jakby nie jest to główny i najbardziej czasochłonny element pracy wszystkich z nich), skupiąc się na tworzeniu bardziej zaawansowanych technicznie rozwiązań (np. wiele systemów plików)</p>
+
+<p>Szczerze mówiąc przy obecnym sposobie pisania aplikacji byłbym zmartwiony, gdy w Fedorze nie znajdowano usterek. Rzecz w tym, że języki programowania często nie dbają o to, żeby programista dbał o poprawność (stąd próby chociażby z Rustem), i rzecz w tym, że często zakłada się, że raz zrobione w określony sposób testowanie wszystko załatwia (tymczasem mamy tzw. &quot;pestidice paradox&quot;).</p>
+
+<p>A jak to wygląda u konkurencji?</p>
+
+<p>Normalnie do łatania służy słynny drugi wtorek miesiąca. Chociaż istnieją poprawki poza harmonogramem, to przynajmniej z punktu widzenia zwykłego użytkownika te nie są tak częste. Należy pamiętać o słynnych problemach z ich instalacją (stąd są tu i tam wstrzymywane), różnych sposobach ich dystrybucji nawet do programów Microsoftu (co powiększa bałagan) i brakiem takiego samego entuzjazmu w łataniu różnych wersji. To skutkuje tym, że np. microcode do procesorów dostajemy po pół roku, jak nie później.</p>
+
+<p>Czy można więc zaufać dystrybucjom linuksowym?</p>
+
+<p>Odpowiedź jest banalna - jedne są lepsze niż drugie, a wszystko zależy od ludzi... ci niestety są coraz częściej niefrasobliwi i łamią podstawowe zasady bezpieczeństwa, nie instalują poprawek, itp.</p>
+
+<p>Na pewno jedno jest dobre - przy darmowych dystrybucjach łatwiej jest przekonać się do migracji na nową wersję (przy konieczności zakupu tysięcy czy milionów kopii Office czy Windows może pojawić się problem z gotówką).</p>
+
+<p>Ze swojej strony mogę dodać, że błąd w jądrze 5.12&#160;RC1 związany z plikiem wymiany nie powinien mieć miejsca, zastanówmy się jednak, jak powinno wyglądać testowanie w tym wypadku - należałoby wykonać serię jakichś różnych operacji, sprawdzić integralność systemu plików i to, czy zostały zmienione odpowiednie pliki.</p>
+
+<p>Czy zabrakło tutaj wyobraźni, czasu czy czegoś innego? Nie wiem, za to wiem, że w dobrze prowadzonym projekcie po wystąpieniu takiego problemu należałoby napisać odpowiednie testy.</p>
+
+<p>Kwestię &quot;bezpiecznego Linuksa&quot; należy rozpatrywać również inaczej - skoro kodu nie da się zamknąć, to i nie można go wycofać. W przypadku Windows czy Apple jesteśmy uzależnieni od widzimisię producenta (dzisiaj potencjalnie mógłby powiedzieć &quot;zwijam interes&quot; i po zapłaceniu kar za zerwanie kontraktów to zrobić), w linuksowym światku każdy może przejąć pałeczkę i udostępnić to samo środowisko na innej platformie.</p>
+
+<p>Pamiętajmy przy tym, że obecny kod x86 ma nad sobą niewidzialne warstwy, w których siedzi nie wiadomo co. <a href="https://www.theregister.com/2018/01/22/intel_spectre_fix_linux/" target="_blank" rel="noopener" rel="nofollow">Intel już próbował łatać problemy z procesorami</a> w sposób &quot;lekko&quot; kontrowersyjny - co on robi w innych miejscach, to jedynie Alan Turing wie...</p>
+
+<p>I właśnie dlatego bym podsumował to następująco:</p>
+
+<p>1. dzisiejsi ludzie w sporej większości są roszczeniowi i często winni samym sobie, że &quot;ich dane&quot; nie są już &quot;ich&quot; (ale że sprzęt / soft nie działa jak powinien) - muszą wiedzieć, że wersja stabilna to wersja stabilna, beta to beta, backupy się robi i sprawdza, regulaminy się czyta, itp.</p>
+
+<p>2. ilość znajdowanych luk tylko potwierdza, że platforma linuksowa rośnie w siłę, a open-source działa (oczywiście, oczywiście, powinniśmy mieć jeszcze lepsze sposoby na pisanie softu, ale... z kodem jest to łatwiejsze niż bez niego)&#160;</p>
+
+<p>3. bezpieczeństwo Linuksa polega również na tym, że daje pewność, że nagle nie obudzimy się z ręką w nocniku (tzn. w świecie, gdzie monopol na sprzęt komputerowy ma tylko jedna firma)&#160;&nbsp;</p>

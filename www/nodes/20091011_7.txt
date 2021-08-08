@@ -1,0 +1,164 @@
+﻿Title:Why you should not touch Windows 6.x and Linux (2009)
+Author:marcin
+When:11 Oct 2009
+Taxonomy:English,Windows 7,Windows,Vista,Linux,x86,English article,OS
+
+<p align="justify"><b>I’m using various operating systems for making some tasks. In this article I will show, that some solutions used in currently in the most popular or known (in my opinion) operating systems are obsolete. I hope that it will start some discussion here and there… </b></p>
+<p align="justify"><b>To be clear: I don’t think, that everything everywhere is wrong. But Windows environment seems to collapse after Windows XP and we still won’t have Linux too popular in desktops (because of some fundamental problems). Details are provided below.</b></p>
+<!--break-->
+<p align="justify"><b>I was comparing Windows 6.x mainly with Mandriva 2009.1.</b></p>
+<p align="justify">PS. <u>This is work in progress</u>. Finally this will be extended version of <a href="?q=node/6">100 reasons why you shouldn't touch Vista</a> and <a href="?q=node/9">Thinking about Windows 7‎</a>. If you have something to add, please do it...</p>
+<h1>Reason 1 – applications are sharing too many files/settings</h1>
+<p align="justify">Your text editor can access files and settings from your music player.</p>
+<p align="justify">This is visible more in Windows platform. There is Registry there and it contains settings from all applications. Some anti-virus programs are trying to give user control on it. But how many non-technical users are understand, whether this or other key should be accessed by application X ?</p>
+<p align="justify">My note: applications should be totally separated. Of course some (like antivirus) need to add some components to system core or exchange data. But this should be over well defined interfaces only. Not like now – when you want to set some advanced settings from IE or Windows Explorer, you have to play with some strange Registry keys.</p>
+<h1>Reason 2 – uninstalling applications is problem</h1>
+<p align="justify">Each system needs adding some components to work (like low-level drivers). But both in Linux and Windows every application can add everything to system directory, program files, user settings directories/Registry settings and many other places. And application (not system) cares about uninstalling everything. It makes, that you often have garbage (installers, config files, etc.) after applications, which were removed many months ago...</p>
+<p align="justify">Imagine, that adding something to system directory will need using some system library function (and system will take care about reversing change, when you will want to uninstall installed application/driver/library).</p>
+<p align="justify">Imagine, that each installed application will be put in own physical directory and everything (installers, files, settings for each user) will be put inside (of course installer inside will be available in read-only mode, settings for concrete user won’t be available for other users, etc.). Uninstalling application will need removing this directory only.</p>
+<p align="justify">And the best thing – application files will be put in zip file and installing it will be physically copying this file into “program files” equivalent.</p>
+<p align="justify">Current solutions are wrong – even “Certified for Windows Seven” program will not help, because many applications will not even ask for certificate from it.</p>
+<h1>Reason 3 – drivers can make system unstable</h1>
+<p align="justify">Each code (including drivers) can contain some bugs. Windows and Linux allow majority/all drivers practically for everything (there is used hybrid kernel architecture, where drivers have kernel rights). It makes system less or more fast, but also potentially more unstable.</p>
+<p align="justify">There is remedy for it – microkernel architecture. Drivers don’t have kernel rights there and aren’t communicating with some other directly. Bug in some of them doesn’t mean, that system will crash. This architecture has wrong fame because of performance. First systems with it were really much slower. But example of Minix 3 shows, that it doesn’t have to be the truth. System is working quite fast and can even automatically restart majority of drivers, when they will fail. More: <a href="http://www.minix3.org/reliability.html">http://www.minix3.org/reliability.html</a></p>
+<p align="justify">Please note, that Microsoft is going into this way a little. Windows 6.x has already graphic driver moved more into user space and it’s automatically restarted, when will fail.</p>
+<h1>Reason 4 – there no drivers for device X</h1>
+<p align="justify">Windows 6.x has got new drivers model. Some older hardware will naturally not have drivers for it.</p>
+<p align="justify">Companies are afraid of creating drivers for Linux kernel from few reasons – they will have to publish source for it or will have to prepare binary versions practically for each kernel/distribution (because of many changes inside kernel).</p>
+<p align="justify">Microkernel architecture could resolve all problems here – driver, which will have to communicate with other components over well defined API only will be useful longer (when API is known and simple, it’s easier to prepare layer supporting it in next operating systems).</p>
+<h1>Reason 5 – hardware requirements</h1>
+<p align="justify">Practically each new Microsoft system needs more RAM, more HDD and faster CPU. Windows Vista was not big success because of it. Windows Seven will be sold in many versions. Here are hardware requirements for biggest one: 1GHz or faster 32-bit (x86) or 64-bit (x64) processor, 1 GB of RAM (32-bit)/2 GB of RAM (64-bit), 16 GB of available disk space (32-bit)/20 GB (64-bit), DirectX 9 graphics device with Windows Display Driver Model 1.0 or higher driver</p>
+<p align="justify">Compare it with Windows XP requirements: PC with 300 megahertz or higher processor clock speed recommended, 233 MHz minimum required (single or dual processor system), 128 megabytes (MB) of RAM or higher recommended (64 MB minimum supported; may limit performance and some features), 1.5 gigabytes (GB) of available hard disk space, Super VGA (800 x 600) or higher-resolution video adapter and monitor</p>
+<p align="justify">DirectX 9 graphic device requirement can be easy explained (required for comfort using graphic effects). 64 bit increased requirements can be easy explained. But so many RAM, CPU and HDD for 32 bit version?</p>
+<p align="justify">Windows Seven gives some new features, but do they explain, that there is required 10x more HDD? Of course RAM, HDD are relative cheap, but big code needs more time for running and is generally slower. Maybe it’s time to think, how to decrease it?</p>
+<p align="justify">I installed Seven in virtual machine (1,5GB of RAM, 20 GB of HDD). And it looks, that Solitaire needs hardware acceleration for graphic card !!! I’m sorry, but this is not serious. I was playing solitaire with such problems (card is jumping like in 3D games with too slow graphic card) on old Pentium. Current virtual machine works 10x or faster and I have problems. </p>
+<p align="justify">Additionally, when users will want to run virtual machines (for example using so called “XP mode”), will need more (next 15 GB of HDD and 2 GB RAM). BTW, how many non-technical users will understand, that running “XP mode” in Seven will need selecting correct CPU (with enabled hardware virtualization). How many will decide to exchange hardware because of it only? And how many will know, that even without hardware virtualization it’s possible to run other virtualization software? This is another example, that next Windows was created for increasing hardware sales?</p>
+<p align="justify">When we will back into Linux – it’s much better and you can find distributions working even with the very old hardware. But the truth is, that the most popular graphic environments need sometimes too much resources too. Do you remember requirements from previous KDE releases ? Or from initial KDE 4.x versions ?</p>
+<h1>Reason 6 – DRM</h1>
+<p align="justify">There were tons of documents written about it. Companies want to have full control on music, videos, documents and other content and customers/employees are not happy from it.</p>
+<p align="justify">Windows 6.x (both Vista and Seven) contain a lot of DRM protections inside. They’re built inside low level system parts too and can force decreasing quality, when played content owner will decide for it. They should not affect users, who play unprotected content.</p>
+<p align="justify">But my question here: they’re not too popular and it looks, that they won’t be. Isn’t better to remove them? System has got some chance to be faster after removing them – will be smaller and easier to fix.</p>
+<p align="justify">In other words: somebody prepared code, which can be used against legal users or which can decrease quality returned for users (it can happen for example because of bugs in implementation). It’s like switch, which can be used in any moment. </p>
+<p align="justify">Compare it to cars: would you like to buy car, which will have decreased maximal speed for example to 50 km/h, when his systems (in any moment) or manufacturer (during sending update for engine computer) will decide it? It’s available for free in Windows 6.x.</p>
+<p align="justify">I will remind words <a href="http://msinfluentials.com/blogs/jesper/archive/2007/09/24/blue-screen-of-drm-death-or-the-death-of-windows-media-center.aspx">"How many lost sales of Microsoft's Media Center software and Windows Vista has it caused because the DRM sub-system randomly decides that you must be a criminal?"</a> written by Jesper Johansson (he was working for Microsoft in some moment).</p>
+<p align="justify">And another one: <a href="http://www.forbes.com/security/2007/02/10/microsoft-vista-drm-tech-security-cz_bs_0212vista.html">"Windows Vista includes an array of "features" that you don't want. These features will make your computer less reliable and less secure. They'll make your computer less stable and run slower. They will cause technical support problems."</a></p>
+<p align="justify">Maybe it's part of strategy ? See <a href="http://www.pcpro.co.uk/news/245859/qa-microsoft-defends-return-to-drm.html">http://www.pcpro.co.uk/news/245859/qa-microsoft-defends-return-to-drm.html</a> - selling DRM protected things for more ?</p>
+<p align="justify">Linux is much better here – we don’t have even chance, that performance of low level system parts is affected by similar “protections”. And we can generally play DVD now. But still there are problems with some DRM files, because players for this or other format are available for Windows only.</p>
+<h1>Reason 7 – you must learn everything from the scratch</h1>
+<p align="justify">Whatever we will say, majority of users know the best Windows 9x/NT/2000/XP/2003 systems interface. </p>
+<p align="justify">Microsoft tries to change it especially in Windows Seven. Some changes are generally good received by users. They extend functionality and it’s OK. But some are forced by Microsoft (and it happens, although users are writing a lot of critique about it). For example – you can’t setup taskbars, you can’t have icon with animation near system clock (icon, which will be animated, when some data will be exchanged with network), etc. etc.</p>
+<p align="justify">This is problem for Linux and environments like KDE (users have to search for some functions – for example how to move taskbar).</p>
+<p align="justify">My tip: do you want to have well received system by users? It needs interface similar to known XP.</p>
+<h1>Reason 8 – there are problems with network assignments</h1>
+<p align="justify">You should be able to set, what network cards will be available for applications and what will be routing. For example:</p>
+<p align="justify">Picture Editor will make connection over Ethernet card, web browser over VPN connected over Wifi and system patching will connect directly over Wifi (not over VPN connected over Wifi).</p>
+<p align="justify">You will be able to set VPN for some tasks only and make other things, which are currently not possible.</p>
+<h1>Reason 9 – there are problems with CPU usage limiting</h1>
+<p align="justify">How many times your web browser was using 100% of your CPU (CPU core, if you have few cores). It was annoyed, wasn’t it ? It would be nice to set, that application X can’t consume more than 50% of CPU. Everything you have now is setting priority or affinity...</p>
+<h1>Reason 10 – file systems contain hidden data</h1>
+<p align="justify">For example: files in NTFS partitions can contain data in alternate streams. Many users don’t know about it – default Windows Explorer doesn’t write anything about it. Or the same happen with links – default Explorer “can’t” use them. If there are more advanced filesystem features available, system from the box should be able to give control over them.</p>
+<h1>Reason 11 – there are some issues with power management</h1>
+<p align="justify">Hibernation in Linux doesn’t work too well/at all; in clean Windows RC in virtual machine after resuming from hibernation I have 100% CPU usage (I'm sorry, but is this behavior of mature technology ?).</p>
+<h1>Reason 12 – automatic patching is problematic</h1>
+<p align="justify">In Windows you can’t set, where system is connecting for downloading updates. Microsoft was forcing many times users for downloading WGA related updates or extensions to 3rd party software or making updates without informing users (<a href="http://blogs.technet.com/mu/archive/2007/09/13/how-windows-update-keeps-itself-up-to-date.aspx">http://blogs.technet.com/mu/archive/2007/09/13/how-windows-update-keeps-...</a>). Additionally Microsoft is releasing own patches normally once a month (of course there are some exceptions, but…)</p>
+<p align="justify">In Linux you get updates more often, but you need entering admin password for making update.</p>
+<h1>Reason 13 – they limit users</h1>
+<p align="justify">In Windows you have more and more examples of limiting users. More and more DRM, more and more checking software licensing (which is making more and more often problems for legal users too). In Starter edition there were tries of setting limit for running applications for 3.</p>
+<p align="justify">In Linux you have different type of limiting. There is a lot of standards and especially in the past (now less) it was making various problems, when you wanted to find application working with distribution X.</p>
+<h1>Reason 14 – they’re bloated</h1>
+<p align="justify">Both Windows and Linux distributions contain a lot of unnecessary things. </p>
+<p align="justify">In Windows we have for example few login and logout windows, various localizations for various components (although system should have English only), etc. etc.</p>
+<p align="justify">In Linux distributions you have a lot of tools and this good. But popular distributions contains few tools for mail support, web browsing, etc. It makes them bigger...</p>
+<h1>Reason 15 – they’re interface is inconsistent</h1>
+<p>for Windows: <a href="http://www.windows7taskforce.com/">http://www.windows7taskforce.com/</a></p>
+<h1>Reason 16 – they cost</h1>
+<p align="justify">Each Windows license costs. Express Upgrade ("free" upgrade from XP to Vista) required paying additional money... Similar upgrade from Vista will cost too.</p>
+<p align="justify">But please note, that more and more Linux distributions need paying for them in more advanced versions (even, when you're private person).</p>
+<h1>Reason 17 – fatal marketing</h1>
+<p align="justify">Giving $1,15 for Feeding America organization (when you will download IE8) instead of making simple donation, “Life without walls” campaign, selling Windows Vista (RED), speaking about many users of system (although many of them already downgraded it) and many other. You get news, what will be shape of Windows boxes and many other... It's annoying. In XP era you didn't have it.</p>
+<p align="justify">Linux - no marketing at all and this system has got wrong fame (Linux=difficult system for technical guru for many people) :(</p>
+<h1>Reason 18 – undeleting files is still problem</h1>
+<p align="justify">Have you deleted file, haven’t written anything on disk and want to recover you file? This is problem especially in Linux (happily for Windows you have many 3rd party tools). In my opinion system from the box should have at least simple tool for it like it was few years ago (for example in MS-DOS 6.x).</p>
+<p align="justify">Of course, in Windows Seven you have "previous versions". But it works only, when you're using System Restore and you can get files version from time, when snapshots were created.</p>
+<h1>Reason 19 – no one central place for managing system</h1>
+<p align="justify">In Windows Control Panel (very complicated especially in Windows 6.x), Computer Management, etc. etc.</p>
+<p>In Linux it's not better.</p>
+<p align="justify">My note: configuration should be done in one big window with tree on the left and options on right...</p>
+<h1>Reason 20 – system logs are in different places</h1>
+<p align="justify">Windows has got Event Viewer in the Computer Management, but also some log files inside Windows directory.</p>
+<p>In Linux you have text logs…</p>
+<h1>Reason 21 – you can’t remove unused drivers from system</h1>
+<p align="justify">In Windows you have used few hundred MB by drivers and you can’t easy remove them from the system.</p>
+<p align="justify">Removing drivers from Linux the most often mean recompiling kernel… And you can’t easy remove modules from system.</p>
+<p align="justify">My tip: there should be tool, which will show installed drivers, will allow for adding new one and removing some of them.</p>
+<h1>Reason 22 – you can’t easy installing many application versions</h1>
+<p align="justify">It would be very nice to install easy (without virtual machines and similar things) few versions of some applications. For example two Firefox versions (stable and experimental), etc. etc. It’s partially possible in current systems, but currently depends on it, how concrete application is written. In my opinion applications should be much separated (see one of previous points) and this issue would be very resolved then.</p>
+<h1>Reason 23 – they’re based on old standards and solutions</h1>
+<ul><li>
+<div align="justify">Internet Explorer has got last place in various benchmarks. But Microsoft still extends its obsolete engine and advertises it as good browser.</div>
+</li><li>
+<div align="justify">You have for example old MS-DOS subsystem and you can't uninstall it...</div>
+</li><li>
+<div align="justify">Registry was created more than 15 years ago (and doesn't make role of place, which contains setting of all applications)</div>
+</li></ul><p align="justify">and many other... It was discusses few times. I like especially this text: <a href="http://www.istartedsomething.com/20071019/eric-talk-demo-windows-7-minwin/">"The first thing Microsoft needs to do is separate Windows Legacy from the next Windows Operating system. Simply build a virtual machine into the new OS, and leverage the power of new hardware to get perfect yet optional compatibility. And include a free VM optimised version of XP as an image file. Refund all the Vista purchases and apologize profusely."</a>.</p>
+<p align="justify">There was even Gartner report about collapsing Windows architecture: <a href="http://www.geeksaresexy.net/2008/04/11/microsoft-windows-about-to-collapse/">http://www.geeksaresexy.net/2008/04/11/microsoft-windows-about-to-collapse/</a></p>
+<p align="justify">About Linux - based on solutions, which have got roots in 70'th of previous century...</p>
+<h1>Reason 24 – default software is limited</h1>
+<p align="justify">There were antitrust law cases, when some new tools were added into default Windows from the box. Some current default tools (like Paint) are very limited, although they could be easy replaced with something much better (for example Paint.Net). I don’t expect too much, but at least full removing such “cut” tools from HDD would be nice. And currently it’s not possible.</p>
+<p align="justify">Linux is better here, but there are two problems visible – in various distributions there are few tools provided (and there is required time to check them) and majority of these tools don’t have some simple functionalities known from Windows world.</p>
+<h1>Reason 25 – you can’t easy block running other software than installed</h1>
+<p align="justify">It would be nice, if software could be installed by administrators only and they could with simple checkbox block running other software by ordinary users. Currently it’s (partially) possible, but a little difficult for ordinary users.</p>
+<h1>Reason 26 – pseudo security</h1>
+<p align="justify">In Windows UAC, Windows Defender and firewall can make illusion for non technical users, that system doesn’t need any other protections. </p>
+<p align="justify">And second problem: UAC was advertised as security feature in some publications (although it isn’t), is annoyed for users and contains some holes. More:</p>
+<ul><li>
+<div align="justify"><a href="http://www.pretentiousname.com/misc/win7_uac_whitelist2.html">Windows 7 UAC whitelist: Code-injection Issue (and more)</a></div>
+</li><li>
+<div align="justify"><a href="http://www.istartedsomething.com/20090611/uac-in-windows-7-still-broken-microsoft-wont-fix-code-injection-vulnerability">UAC in Windows 7 still broken, Microsoft won’t/can’t fix code-injection vulnerability</a></div>
+</li><li>
+<div align="justify"><a href="http://technet.microsoft.com/en-us/magazine/2009.07.uac.aspx">Inside Windows 7 User Account Control</a></div>
+</li><li>
+<div align="justify"><a href="http://arstechnica.com/security/news/2008/04/vistas-uac-security-prompt-was-designed-to-annoy-you.ars">Vista's UAC security prompt was designed to annoy you</a></div>
+</li></ul><p align="justify">Although there were some changes in Seven, this technology is still very dangerous - in some moment they can stop react with understanding for displayed messages and accept everything. And in new systems you need to make one more click to see processes from all users in Task Manager (although these data can be displayed without anything), you can't simply run chkdsk using Run command and many other...</p>
+<p align="justify">And one simple example from Seven (don't do it on your production system ;)):</p>
+<ol><li>set UAC to highest level
+</li><li>set "Application Information" Windows service to disabled
+</li><li>restart system
+</li></ol><p>You can't do too much in your system now...</p>
+<p align="justify">System still proposes  hiding files extensions in Explorer by default... It's another weakness.</p>
+<p align="justify">In Linux there are risks too. People think, that this system is very secure, although it’s the truth only partially.</p>
+<h1>Reason 27 – contain closed source solutions</h1>
+<p align="justify">Windows system is one big closed source solution. You need a lot of technical knowledge for analyzing it and searching for bugs. You don’t know, what exactly is inside.</p>
+<p align="justify">Linux kernel and majority of software are open source solution. There are found and closed many security holes. But some parts are published by companies in binary form only. It makes problems with compatibility and many other.</p>
+<h1>Reason 28 – not totally compatible with Windows XP</h1>
+<p align="justify">Whatever we will say, Windows XP is the most often used operating system in the world. Windows Vista/Seven provides more compatible native environment for XP applications than Linux, but it’s not 100% compatible too. Of course Microsoft makes everything to fix it, but from the other hand - compatibility is currently reason, that this or other thing was not implemented (and it limits win32 environment extension).</p>
+<p align="justify">In Linux you can use Wine emulator and some other, but it's even worse and you can't play all games with good speed for example.</p>
+<p align="justify">You can say, that there are virtual machines available (including "XP mode" in Seven), but they don’t resolve some performance issues and you need separate XP license. You can of course download XP copies from Microsoft for free (they’re available for testing www pages), but using them in some production environments can break their license.</p>
+<p align="justify">My tip: it's good and required to provide some compatibility with XP. But it should be better than in Linux and maybe "a little" worse than in Windows 6.x. It should be something between done and for example it should be possible to run XP games (which will be more separated from the rest of real system and will not need for example setting UAC). Debuggers, antivirus and other system tools can be always rewritten.</p>
+<h1>Reason 29 – DPI scaling</h1>
+<p align="justify">Hardware manufacturers are preparing higher and higher resolutions. Shame to say, but current operating systems are not prepared for making elements of interface bigger :(.</p>
+<h1>Reason 30 – no integrating all patches with system</h1>
+<p align="justify">Big shame, that you can't burn CD or create pendrive with installation version, which will have all downloaded patches (security fixes, etc.) inside...</p>
+<h1>Reason 31 – problems with customizing interface</h1>
+<p align="justify">Visible mainly in Windows 6.x - you have problems with such customization, which was available in Windows 5.x.</p>
+<p>For comparison - in KDE you can set sometimes too much ;)</p>
+<h1>Reason 32 – no one place for managing services, startup processes and applications, scheduled tasks</h1>
+<p align="justify">In Windows you can setup startup processes in Computer Management (services), in Registry and ini files, in Startup folder, in Scheduled Tasks and some other. You can control some of them using msconfig.exe, but…</p>
+<p>The same in Linux – there are config files and similar.</p>
+<p align="justify">I think, that there should be one place, where you control all of this AND adding something (which will automatically start) will need clear user agreement in default system configuration. For example you’re installing antivirus program, there is called adequate system API for adding it during system startup and you have system question, if you want it (something like UAC question or similar).</p>
+<h1>Reason 33 – partitioning problems</h1>
+<p align="justify">Windows Seven decides, that there is required additional partition with own data (it's not possible to put it into one of available partitions). You still don't have tool for managing startup systems in the system from the box...</p>
+<h1>Reason 34 – network services quality</h1>
+<p align="justify">Windows Seven contains new methods of sharing files. But why old solutions were not modified and improved ? They could be enough for this task.</p>
+<p align="justify">I don't see something similar to Windows domain in Linux.</p>
+<p align="justify">In my opinion: instead of creating new "excellent" methods of sharing files, settings there is required improving old one.</p>
+<h1>Reason 35 – performance</h1>
+<p align="justify">More code = more problems. Both Linux and Windows contains too much code and because of it are quite slow. Additionally especially Windows contains a lot of prefetchers, indexers, system protection and monitoring tools....</p>
+<p align="justify">I understand, that we will not return into systems created in assembler. But let's look into <a href="http://www.kolibrios.org">ColibriOS</a> - it's small and so fast.</p>
+<h1>Reason 36 - complexity</h1>
+<p align="justify">Current systems are too complex. It makes a lot of problems with finding reason, when problem will happen. It was visible for example in the words about Windows from Mark Russinovich: <a href="http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-of-Windows/1259792850">http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-...</a></p>
+<p align="justify">When we speak about kernel - there should be used microkernel architecture.</p>
+<p align="justify">Additionally: Windows 6.x is example of system, where subsystems masking system architecture problems are probably bigger than subsystems running applications. System Restore, system files protection, monitoring, winsxs and many other. And even they don't help, when you try to install many patches - you can't simply replace some files, although in theory it should be very easy (get example from Minix 3, which can restart drivers without restarting system).</p>
+<h1>Reason 37 - support</h1>
+<p align="justify">Microsoft has got one platform, which was used over years. It's Windows XP. Support for it was extended few times (and it's sometimes even longer than for Vista). Currently there are still sold new licenses for it (US Army, netbooks) and it will be still used (XP mode in Seven). But the question is: what will be with security updates in the near future ? Will be it extended ? I know, that everything is going to be obsolete and support for it end, but...</p>
+<p align="justify">Linux has got still opinion of system, which doesn't have support. It's partially not true (you can buy it for some distributions), but...</p>

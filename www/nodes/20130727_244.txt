@@ -1,0 +1,40 @@
+﻿Title:Wczoraj i dziś
+Author:marcin
+When:27 Jul 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Zapach kartek tak rzadko czytanych,<br />
+dniami nocami z szaf niewyjmowanych,<br />
+Obrazki jakby z innej rzeczywistości,<br />
+uczucie dotknięcia wielkiej mądrości,<br />
+bycia z duszkami dawnej świetności,<br />
+gdzie umysł i sztuka wciąż gości,<br />
+Czas gdy liczyły się wpierw ideały,<br />
+gdy dzieci robić ze sobą coś miały,<br />
+gdy nie gapiły się w ekranik mały,<br />
+gdzie kloaka i śmietnik świata cały,<br />
+Gdy pomysły były w wysokiej cenie,<br />
+gdy myśli nie burzyło podniecenie,<br />
+gdy nikt nie bał się eksperymentować,<br />
+<!--break-->
+nawet gdy miał ręką lub nogą żałować,<br />
+kolejki, autka i inne drobne klejnoty,<br />
+kapsle, znaczki, gumy, nalepki, durnoty,<br />
+przyjaźń która miała jakieś znaczenie,<br />
+i ideały, które napędzały poświęcenie,</p>
+<p>dlaczego tak z tego zrezygnowaliśmy ?<br />
+czemu na prochu paciorki zamieniliśmy ?<br />
+i czemu walczymy o chorób uznanie ?<br />
+perwersji, małości na podium stawanie ?<br />
+dlaczego szczurami jedni dla drugich ?<br />
+katami podczas dni w pracy długich ?<br />
+dlaczego biegniemy zamiast smakować ?<br />
+dobre nagradzać, kurestwo napiętnować ?<br />
+czemu uczucie zastąpiło zaspokajanie ?<br />
+ruchów w przód i tył kilka i uciekanie ?<br />
+czemu jedni drugim są z byka wilkiem ?<br />
+dlaczego w łyżce wody topią motylkiem ?<br />
+i czemu myślenie jest tak szkalowane ?<br />
+a objawy mądrości tak w pień ucinane ?</p>

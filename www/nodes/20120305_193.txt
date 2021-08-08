@@ -1,0 +1,77 @@
+﻿Title:Windows 8 Server - Stephen why, why, why ? (2012)
+Author:marcin
+When:05 Mar 2012
+Taxonomy:Polski,Polski artykuł,OS,Windows,x86,benchmark.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.benchmark.pl/mini-recenzje/Windows_8_Server_-_Stephen_why%2C_why%2C_why_.-4432.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Po <a href="?q=node/192">wczorajszym mini tekście dotyczącym Windows 8 Customer Preview</a> postanowiłem jeszcze rzucić krótko okiem na Windows 8 Server Customer Preview/Beta.</p><p>Wersja serwerowa Windows jest może mało interesująca dla "zwykłych" użytkowników (koszty, niepotrzebne funkcje, itp.), ale pomyślałem, że akurat ta pozwoli mi na ocenę, czy Microsoft rzeczywiście się "pomylił" (jak to niektórzy określili) i w wersji x86 umieścił komponenty tabletowe czy też mamy wyraźne ukierunkowanie w tym kierunku.</p>
+<!--break-->
+
+<p>Jest to znów mini tekst (może nawet tekst tendencyjny), a nie pełne podsumowanie.</p><p><strong>Instalacja</strong></p>
+
+<p>Obraz ISO jest tylko i wyłącznie 64-bitowy, znów użyłem VirtualBox i dosyć podobnych ustawień jak w przypadku Windows 8.</p>
+
+<p>Startujemy z dosyć standardowym instalatorem:</p><p><img width="500" height="375" src="sites/default/files/193/1_0.png" alt="" /></p>
+
+<p>Przechodzimy przez kolejne ekrany:</p><p><img width="500" height="375" src="sites/default/files/193/2_0.png" alt="" /></p>
+
+<p>...aby znów dotrzeć do interfejsu w stylu Metro:</p>
+
+<p><img width="500" height="375" src="sites/default/files/193/3_1.png" alt="" /></p>
+
+<p><strong>Pulpit</strong></p>
+
+<p>Cechą charakterystyczną wersji serwerowych jest domyślne włączenie opcji logowania po Ctrl-Alt-Del:</p>
+
+<p><img width="500" height="375" src="sites/default/files/193/4_0.png" alt="" /></p>
+
+<p>Logujemy się i widzimy konsolę do zarządzania serwerem + pasek bez menu Start:</p>
+
+<p><img width="500" height="375" src="sites/default/files/193/5.png" alt="" /></p>
+
+<p>Mamy Areo (ale uproszczone - m.in. bez przezroczystości w tytułach okien), mamy Metro (proszę zwrócić uwagę na górę okna "Server Manager").</p><p><img width="500" height="375" alt="" src="sites/default/files/193/11_0.png" /></p>
+
+<p>Możemy sobie najść myszą na lewy dolny róg (pojawi się prostokąt Start) i kliknąć prawym klawiszem myszy (pojawi się wtedy szereg odnośników).</p>
+
+<p>Aby dostać się do pulpitu Metro z listą aplikacji, nachodzimy myszą na lewy dolny róg (pojawi się prostokąt Start) i klikamy z kolei lewym klawiszem myszy:</p><p><img width="500" height="375" src="sites/default/files/193/6_0.png" alt="" /></p>
+
+<p>(ten "intuicyjny" sposób umknął mi w przypadku Windows 8 CP) albo najść myszą na prawy dolny róg ekranu i wybrać Start:</p>
+
+<p><img width="500" height="375" src="sites/default/files/193/7_0.png" alt="" /></p>
+
+<p><strong>....i menu Start</strong></p>
+
+<p><img width="500" height="375" src="sites/default/files/193/8_0.png" alt="" /></p>
+
+<p>Jak widać kafelki są (może nawet ładniejsze niż w Windows 8 CP, bo współgrają kolorystycznie z resztą ekranu), po naciśnięciu nazwy użytkownika można się z kolei wylogować  lub zablokować sobie pulpit.</p>
+
+<p>A jak się dostać do wszystkich programów ?</p>
+
+<p><img width="500" height="375" src="sites/default/files/193/9_0.png" alt="" /></p>
+
+<p>Klikamy prawym klawiszem myszy na wolnej przestrzeni ekranu i klikamy na "All apps":</p><p><img width="500" height="375" src="sites/default/files/193/10_0.png" alt="" /></p>
+
+<p><strong>Podsumowanie</strong></p><p>Chciałbym tutaj zakończyć - Metro jest widoczne w Windows 8 Server i nikt nie powinien mieć wątpliwości w tym momencie, w którym kierunku poszedł Microsoft.</p>
+
+<p>Jest oczywistym dla mnie, że do pewnych rzeczy można się oczywiście przyzwyczaić, trudno jednak w dobie coraz większych monitorów/rozdzielczości ekranów za "nowoczesne" uznać taki prymitywizm rozwiązań graficznych.</p>
+
+<p>Powiedzmy sobie jasno, że firma zaczęła odchodzić od "ładnych" interfejsów po Windows 2003 Server (albo bardziej ogólnie NT 5.x) i NT 6.x są delikatnie mówiąc "kontrowersyjne" (sam mógłbym podać masę przykładów, jak Windows 7 SP1 renderuje niepoprawnie obraz i nie jest to bynajmniej problem niepoprawnej instalacji czy sterowników).</p>
+
+<p>W Windows 8 Server pojawi się trochę uzupełnień widocznych w Windows 8 (zmieniony Eksplorator Windows, itd.), ale częściowo będą to raczej usprawnienia wynikające z (nazwijmy to dyplomatycznie) "niecałkowitej wcześniejszej staranności".</p>
+
+<p>I tak np. w przypadku Windows 8 użytkownicy mówią, że ten system np. szybciej startuje. Proszę się jednak zastanowić, czy dzieje się dlatego, bo jest mniej kodu (co rzeczywiście uznałbym za postęp - mniej kodu to mniej błędów, mniej potencjalnych problemów, itd.) czy dlatego, że pewne NIEPOTRZEBNE elementy są startowane tylko wtedy gdy są RZECZYWIŚCIE potrzebne. <a href="http://blogs.msdn.com/b/b8/archive/2011/10/07/reducing-runtime-memory-in-windows-8.aspx">Microsoft pisze na blogu Windows 8 wprost, że zachodzi druga opcja</a> (co sugeruje, że przez przez lata nikt nie mógł/nie chciał/nie uważał za stosowne się tym zająć).</p>
+
+<p><img width="500" height="375" src="sites/default/files/193/12_0.png" alt="" /></p>
+
+<p>Zadebiutuje wprawdzie system plików ReFS, ale nie będzie mógł być on użyty całkowicie zamiast NTFS - <a href="http://blogs.msdn.com/b/b8/archive/2012/01/16/building-the-next-generation-file-system-for-windows-refs.aspx">po szczegóły odsyłam do blogu Windows 8</a>.</p>
+
+<p>Oczywistym jest, że takie ulepszenia są potrzebne i razem poprawiają w pewnym stopniu rzeczywistość.</p>
+
+<p>Brakuje jednakże rewolucji na miarę tego, co robiono wcześniej - czyli nowej jakości jak przy przejściu z 16-bit na 32-bit, z 32-bit (rodzina 9x) na 32-bit z  przyzwoitą ochroną procesów (rodzina NT, której kod notabene Microsoft  kupił od innej firmy), z 32-bit na 64-bit, przejścia z FAT na NTFS z  uprawnieniami, itd.</p>
+
+<p>Taką rewolucją byłoby całkowite wyeliminowanie błędów przepełnienia bufora, ostateczne ograniczenie uprawnień dla sterowników (mikrokernel ?), możliwość łatwego i pełnego odseparowania aplikacji, itd.</p>
+
+<p>Wywołałyby one efekt "wow" bez żadnych wątpliwości, obecne "rewolucyjne" nowości niestety są częściowo "rewolucyjne" jedynie marketingowo.</p>
+
+<p>Jeśli zaś chodzi o Windows 8 dla ARM - okazuje się, że takie wydanie może z wersją dla x86 dzielić tylko nazwę (brakować będzie najprawdopodobniej zgodności binarnej i API między tymi platformami). Czy wspomniana nowa jakość i rewolucja pojawi się tam, zobaczymy to wraz z urządzeniami i na razie nie chciałbym tutaj tego przesądzać.</p>

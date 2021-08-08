@@ -1,0 +1,84 @@
+﻿Title:Samsung Galaxy S4 mini - drugie spojrzenie 1.03.... (2013)
+Author:marcin
+When:16 Sep 2013
+Taxonomy:Android,Polski,Polski blog,GSM
+
+<p>Samsung Galaxy S4 mini - warto czy nie warto ? <a href="?q=node/259">Po wstępnym porównaniu</a> czas na większe refleksje... 
+<!--break-->
+Postaram się uzupełnić inne recenzje (<a href="http://www.benchmark.pl/testy_i_recenzje/samsung-galaxy-s4-mini-test.html">Samsung Galaxy S4 mini - sukces w mniejszej skali?</a>, <a href="http://www.chip.pl/testy/test-samsung-galaxy-s4-mini-maksitelefon-w-miniformacie-1">TEST: Samsung Galaxy S4 Mini Maksitelefon w miniformacie - Testy Chip.pl</a>, <a href="http://www.gsmmaniak.pl/218748/test-samsung-galaxy-s4-mini/">Test telefonu Samsung Galaxy S4 Mini (GT-I9195)</a>, <a href="http://www.gsmmaniak.pl/224304/samsung-galaxy-s4-mini-czy-galaxy-s3-mini/">Samsung Galaxy S III Mini czy Galaxy S4 Mini? Porównujemy popularne telefony</a>, <a href="http://pclab.pl/art54744.html">Samsung Galaxy S4 mini – test smartfona „maksi” w obudowie „mini” Minigalaktyka</a>)</p>
+<p><b>Warianty</b></p>
+<p>Jest ich kilka, najbardziej interesujący dla polskiego użytkownika będzie na pewno GT-I9192 i GT-I9195.</p>
+<p><b>GT-I9192</b></p>
+<p>Wersja S4 mini będąca telefonem GSM/UMTS na 2 karty micro-SIM, który:</p>
+<ul><li>może utrzymywać obie karty w równoczesnym czuwaniu (obie są widoczne w sieci),
+</li><li>pozwala na równoczesną rozmowę głosową/video z jednej z nich (wtedy druga z kart jest poza siecią, istnieje funkcja automatycznego ustawiania na niej przekierowań),
+</li><li>pozwala na korzystanie z funkcji transmisji danych z jednej z nich (istnieje funkcja, iż obie karty są widoczne w sieci i połączenie głosowe/voice może zawiesić transmisję i być odebrane)
+</li></ul><p>Istnieje tutaj jedno ograniczenie - UMTS dostępny jest na raz jedynie dla jednej z kart.</p>
+<p>Telefon w tym wariancie nie jest oficjalnie wprowadzony na rynek polski, ale można go bez problemu kupić z uwagi na import prywatny, który co ciekawe w wielu przypadkach pozwala zakupić urządzenie z gwarancją honorowaną również w Polsce i polskim językiem w menu. Ciekawostką jest obecność w nim 2 numerów IMEI i napis DUOS na tylnej klapce.</p>
+<p><b>GT-I9195</b></p>
+<p>Tańszy od GT-I9192, ale pozwala korzystać wyłącznie z 1 karty micro-SIM i daje możliwość korzystania z sieci GSM/UMTS/LTE oraz (funkcja baterii) ma obsługę NFC. Oficjalnie wprowadzony na polski rynek, Samsung podaje dla niego trochę inne maksymalne wskaźniki promieniowania: <a href="http://www.samsung.com/sar/sarMain?site_cd=pl&amp;prd_mdl_name=GT-I9195&amp;selNatCd=PL&amp;languageCode=PL">0.332 W/Kg / 0.323 W/Kg</a> (zamiast <a href="http://www.samsung.com/sar/sarMain?site_cd=pl&amp;prd_mdl_name=GT-I9192&amp;selNatCd=PL&amp;languageCode=PL">0.298 W/Kg / 0.361 W/Kg</a> jak dla GT-I9192)</p>
+<p>Prawdopodobnie nie ma VoLTE, a LTE kat. 3 (800 / 850 / 900 / 1 800 / 2 100 / 2 600 MHz) jest najprawdopodobniej tylko w wersji FD-LTE (FDD) i Samsung podaje, że częstotliwość jest obsługiwana "W zależności od dostępności na danym rynku"</p>
+<p><b>Wielkość, wygląd, złącza... (czyli sprzęt)</b></p>
+<p>Rozmiar podobno nie ma znaczenia...ale nie w przypadku telefonów i wielu użytkowników wydaje się szukać czegoś nie większego niż Samsung GT-I9000 Galaxy S (który miał ekran 4 calowy). Trend ten niestety nie jest mocno zauważany przez producentów i w dalszym ciągu skupiają się oni na 5 lub więcej calach, a mniejsze urządzenia zwyczajnie dostają gorsze podzespoły. S4 mini jest również niestety takim rozwiązaniem, o czym za chwilę... Jest delikatnie nawet mniejszy i lżejszy niż Galaxy S (czym na pewno zyska spore uznanie), ale bardziej powinien być porównywany z "pełnym" S3 niż S4.</p>
+<p>Na pewno nie wygląda już tak plastikowo i tylna klapka budzi większe zaufanie. Na górze mamy otwór mikrofonu, gniazdo słuchawkowe i oczko podczerwieni, z boku wyłącznik i klawisze głośności, a złącze USB tym razem znalazło się na dole.</p>
+<p><b>Co jest dużym minusem ?</b> Ano złącze USB nie ma klapki i praktycznie za każdym razem jest problem z włożeniem tam kabla (o ile w Galaxy S wtyczka kabli trafiała idealnie, o tyle w S4 mini moje stare kable trzeba nakierowywać, pewne problemy tego typu widać nawet z kablem oryginalnym), a kamera dalej nie jest niczym nie zabezpieczona (więc siłą rzeczy z czasem ulegnie zarysowaniu). <b>Błąd projektantów ?</b> A guzik z pętelką - stawiałbym bardziej na planowane postarzanie, które ma zmusić użytkownika do szybszej wymiany czegoś na nowe.</p>
+<p>A wyświetlacz ? Szczerze mówiąc, to jestem rozczarowany. Nie miałem problemu z urządzeniami Apple (z Retiną), nie miałem z Galaxy S1 i innymi telefonami, tutaj mam mieszane uczucia. Z jednej strony niby brak matrycy PenTile i nieznacznie tylko większe DPI (niż w S1), ale z drugiej - <b>wiele elementów na ekranie jest moim zdaniem mniejszych lub gorzej czytelnych</b>. </p>
+<p>Może powoduje to (paradoksalnie, ale...) większa ostrość wszystkiego lub to, iż temperatura kolorów jest trochę nienaturalna albo w końcu to, iż w polskich sklepach brak porządnej folii matowej i przez chwilę musiałem używać folii innego producenta niż Brando (dawała ona jakby trochę fioletową poświatę, a na Brando trzeba było poczekać....). Do tego dochodzi nowa rozdzielczość, do której część aplikacji nie jest dostosowana (są skalowane, co podobnie jak w LCD powoduje rozmycie)</p>
+<p>Podobnie rozczarowany jestem złączem kart SIM - Samsung mógł dać obsługę mini-SIM (miejsca wydaje się być dosyć), a są micro-SIMy. Na osłodę jest jedynie to, iż wymiana karty pamięci wymaga wyjęcia baterii (dla mnie jest to plus, a nie minus)...równocześnie jednak karta znajduje się....pod baterią (co być może będzie miało wpływ na żywotność sprzętu z uwagi na nagrzewanie się kart - wystarczyło natomiast ją umieścić tam gdzie jest druga karta SIM w i9192).</p>
+<p>W stosunku do pełnego S4 nie ma też różnych czujników, brak diody powiadomień, gorsza jest kamera (8, a nie 13 megapikseli), jest za to...radio FM i podczerwień.</p>
+<p><b>Wydajność i oprogramowanie</b></p>
+<p>Tutaj możnaby pisać naprawdę wiele i to w niezbyt pozytywnych słowach. Przede wszystkim - Android jest w wersji 4.2.2, ale Samsung kontynuuje swoją strategię przygotowywania miliona wersji dla poszczególnych krajów i operatorów i umieszczania w firmware multum aplikacji, które są swoistym hamulcem. Czy dostaniemy Androida 4.3 lub w przyszłości 4.4 ? Jest to pod dosyć sporym znakiem zapytania (bo wersja budżetowa, bo dużo wersji, bo....), w tym momencie w lepszej sytuacji są użytkownicy GT-I9195, którzy już mają CyanogenModa (dla GT-I9192 być może długo lub w ogóle nie powstanie)....</p>
+<p>Urządzenie ma 2 rdzenie po 1,7 Ghz i 1,5 GB RAM (GT-I9192 i GT-I9195 tak samo), <a href="?q=node/259">przytoczę jeszcze raz cyferki benchmarków, które uzyskałem na początku miesiąca</a> (celowo nie podaję dokładnej wersji firmware i innych tego typu rzeczy, gdyż tak naprawdę kilka punktów w tą czy drugą stronę nie powinno zmieniać zbyt dużo i chodzi o wskazanie skali zmian):</p>
+<table border="1"><tr><td>software</td>
+<td>S4 mini</td>
+<td>S1</td>
+</tr><tr><td>PeaceKeeper w standardowej przeglądarce</td>
+<td>613</td>
+<td>443</td>
+</tr><tr><td>Quadrant Standard</td>
+<td>6870</td>
+<td>1258</td>
+</tr><tr><td>NBench</td>
+<td>Memory 10,182,<br /><br />
+Integer 11,14,<br /><br />
+Float 16,516</td>
+<td>Memory 2,98,<br /><br />
+Integer 4,05,<br /><br />
+Float 0,779</td>
+</tr><tr><td>CaffeineMark</td>
+<td>14496</td>
+<td>5326</td>
+</tr><tr><td>An3DBench</td>
+<td>10,82/10,67<br />38,83<br />59,39<br />25,59<br />58,43<br />59,63</td>
+<td>9,56 MP/sec<br /><br />
+36,59 fps<br /><br />
+55,75 fps<br /><br />
+52,32 fps<br /><br />
+55,60 fps<br /><br />
+55,73 fps</td>
+</tr><tr><td>GPUBench</td>
+<td>41610 / 41058</td>
+<td>Absolute 34416<br /><br />
+Relative: 32226</td>
+</tr><tr><td>BenchmarkPi</td>
+<td>183 ms</td>
+<td>1332 ms</td>
+</tr></table><p> </p>
+<p>Zauważam pełną płynność w menu, pełną responsywność, ale...<b>co jakiś czas na ok. 2 sekundy przycinają się gry</b>. Taki efekt jest widoczny np. w <a href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&amp;hl=pl">Subway Surf</a> czy nawet <a href="https://play.google.com/store/apps/details?id=com.halfbrick.fruitninjafree&amp;hl=pl">Fruit Ninja</a>. Nie wydaje mi się, żeby to był efekt przegrzewania się albo efekt zainstalowania aplikacji firm trzecich albo związane z funkcją oszczędzania energii, na chwilę obecną próbuję ustalić przyczynę (bo skoro nawet w  <a href="https://play.google.com/store/apps/details?id=com.halfbrick.fruitninjafree&amp;hl=pl">Fruit Ninja</a> to widać...), bardziej może to chyba być kombinacją jakichś czynników... </p>
+<p><a href="http://forum.xda-developers.com/showthread.php?t=2445357">Podobny problem został zgłoszony na XDA przez co najmniej jednego użytkownika nie będącego mną dla Duosa ;)</a>, zastanawia mnie tu jedno - a co w tej sytuacji ma zrobić przeciętny użytkownik i czy jest to może problem użytego egzemplarza ?</p>
+<p>Nie wiem, ale wiem, że system operacyjny powinien mieć narzędzia do łatwej deaktywacji i zakładania "kagańca" różnym procesom, jak również łatwego śledzenia, które np. zajmują dużo czasu procesora (możnaby w ten sposób uspokajać również co bardziej żywe reklamy). W przypadku 4.2.2 od Samsunga tego nie ma i np. możemy zobaczyć usługi typu "ELM Agent". Na XDA-Developers są już zresztą wątki dotyczące usuwania tzw. bloatware z tego modelu, chyba będę musiał spróbować ;)</p>
+<p>Co jest złe w oryginalnym firmware ? Mała wielkość różnych elementów interfejsu czy brak anty-aliasingu, tu być będę musiał spróbować również spróbowac z aplikacjami do "programowej" zmiany DPI (jest to jakby specyfika Androida 4.x i np. widziałem to w Galaxy S1 - w 2.x wszystko było większe i lepiej czytelne, w Cyanogenie opartym 4.x ciężko było się przyzwyczaić). Do tego np. </p>
+<p>
+</p><ul><li>brak możliwości ustawienia w pełni panelu powiadomień (dlaczego nie można np. na stałe wyświetlać wszystkich przycisków, tylko trzeba wchodzić do panelu i kilkać na odpowiednią ikonkę ?),
+</li><li>obowiązkowe pokazywanie sieci, pełnego info o nieodebranych połączeniach czy systemowego playera do muzyki przy zablokowanym ekranie (coś co na pewno nie spodoba się osobom dbającym mocno o prywatność),
+</li><li>brak możliwości zaszyfrowania zawartości telefonu przy blokadzie PIN (tutaj jest to kwestia dyskusyjna, czy dobre jest, że Samsung wymaga mocniejszego hasła w przeciwieństwie do 'czystej' wersji Androida, która dopuszcza PIN)
+</li><li>dźwięk startowy telefonu
+</li><li>dźwięk przy robieniu zdjęć (w niektórych wariantach jest on obowiązkowy, bo prawo, bo to czy tamto, ale...)
+</li></ul><p>Strzałem w dziesiątkę jest za to menu dostosowywania kolorów (Samsung przygotował ustawienia 'Standardowy', 'Profesjonalne zdjęcie', 'Film', 'Dynamiczny' i opcję wyboru automatycznego - mnie np. najbardziej odpowiada 'Film', które powoduje, że kolory nie sa w ogóle 'soczyste'), opcje ułatwień (można np. dalej skalibrować sobie kolory) czy wiele łatwo dostępnych funkcji np. backupu... Praktycznie w pełni konfigurowalne są SMSy czy książka telefoniczna czy kalendarz, można sobie również pokazać procentową wartość naładowania baterii, wyłączyć podświetlenie klawiszy pod ekranem, użyć lampy aparatu jako diody powiadomień, itd.... Funkcji jest sporo i to jest plus.</p>
+<p>I tu dochodzimy do tego, że część z tych funkcji wymaga właśnie tych dodatkowych aplikacji i że sposób w jaki Android 4.2.2 to obsługuje jest chyba nie do końca dobry. W świetle ostatnich doniesień o Wielkim Bracie należałoby też wspomnieć o prywatności - <a href="?q=node/191">jak pisałem w 2012 Android jest mocno dziurawy, bo....i tu podawałem różne przykłady</a>. I co się od tamtego czasu zmieniło ? Mamy SELinuxa, ale jest nawet gorzej.... Dlaczego ?</p>
+<p>W skrócie - urządzenia jakby nie było oparte na jądrze linuksowym dalej nie są aktualizowane tak często jak np. Ubuntu, nikt nie kontroluje, co i gdzie przesyłają aplikacje, ba, <a href="http://niebezpiecznik.pl/post/google-zna-wszystkie-hasla-do-sieci-wi-fi-na-swiecie/">ostatnio nawet można sobie poczytać o tym, że Google ma podane jak na tacy hasła do Wifi, jeśli użytkownik sobie robi kopię zapasową</a> (FUD, nie FUD, jest to bardzo prawdopodobne). Jedynym pocieszeniem, że S4 mini nie ma o wiele więcej czujników niż S1 (choć pokrywki na aparaty też dalej nie ma...)</p>
+<p>Tutaj (2013) dalej rada jest stety/niestety "obywatelu lecz się sam" czyli wgrywaj romy customowe (które zwiększają wartość odpowiednika licznika, który ma pokazywać serwisom, że coś takiego było robione) albo rootuj telefon (wtedy np. prosto usuniesz dźwięk czy usuniesz niepotrzebne "wspaniałe" dodatki). Jest to niestety wielce rozczarowywujące....</p>
+<p>Wspominałem, że może nie być wsparcia CyanogenModa dla GT-I9192. Jest to charakterystyczne dla telefonów DualSIM - Samsung w swojej wersji praktycznie przerobił każde menu związane z kartami SIM, usługami sieciowymi, itp. (nie wszędzie się to udało - np. po wyłączeniu jednej z kart w menu baterii widoczne jest info o braku sieci w ogóle) i w ten sposób pozwolił np. czytanie SMSów z każdej z nich czy zmiany na nich ustawień. CyanogenMod tego nie ma....</p>
+<p><b>Podsumowanie</b></p>
+<p>Telefon jest szybki, ma dobrą baterię (ok. 2 lub 3% w nocy przy samej sieci GSM i wyłączonym Wifi, Bluetooth, itp.), nadaje się do rozmów (co dzisiaj nie jest tak oczywiste :)), ale...muszą paść trzy hasła - ekran (który albo się polubi albo znienawidzi, myślę, że stanu pośredniego nie będzie), tania masówka/kastrat (S4 mini niestety nie jest rewolucją na miarę Galaxy S) i Android (rozbudowany, ale rozczarowywujący...).</p>
+<p>Jakie alternatywy ? Jeśli chodzi o tańsze 4 cale Samsunga, to raczej żadne... Bo dostępne są albo telefony z bardzo dużym SARem, albo ze złą opinią wielu użytkowników albo znacznie, znacznie wolniejsze... Może jeszcze ewentualnie zakup S2 byłby jakąś alternatywą (ale ten skończy na Androidzie 4.2.2, nie ma funkcji dual SIM i jest jednak generację do tyłu)</p>

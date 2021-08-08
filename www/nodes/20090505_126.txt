@@ -1,0 +1,190 @@
+﻿Title:Konkurs fizyczny - finał
+Author:marcin
+When:05 May 2009
+Taxonomy:Polski,Polski artykuł,Fizyka
+SkipMain:true
+
+<p></p><center><a name="Top" id="Top"></a><br /><h1>Zadania</h1>
+<p></p></center>
+<p><font color="#1F409F" size="+2" class="dzial"><a name="Z_F94" id="Z_F94"></a><b><a href="#R_F94" class="dzial">1994/95 (4.03.1995)</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>5 stalowych kulek wisi na niciach o jednakowej długości. Po wychyleniu pierwszej odskakuje ostatnia i w końcu wszystkie wahają się razem. Czy:
+<p></p><ol type="a"><li>pęd kulek jest stały ?</li>
+<li>energia kinetyczna kulek jest stała ?</li>
+<li>w zderzeniu wydziela się ciepło ?</li>
+<!--break-->
+<li>okres wahań jest stały ?</li>
+<li>napięcie nici jest stałe ?</li>
+</ol><p>
+</p></li>
+<li>2 kondensatory o pojemnościach C<sub>1</sub> i C<sub>2</sub> połączono szeregowo, a następnie dołączono do baterii o sile elektromotorycznej E. Oblicz pracę W wyciągnięcia dielektryka spomiędzy okładek pierwszego kondensatora, jeżeli względna przenikalność elektryczna tego dielektryka wynosi <font face="Symbol">e</font>.</li>
+<li>2 gwiazdy o masie M każda poruszają się po wspólnej orbicie o promieniu R i tworzą w ten sposób gwiazdę podwójną. Oblicz pracę W potrzebną do rozsunięcia gwiazd tak, aby ich orbita była dwa razy większa.<br /><br />Źródło: <a href="?q=node/106#K">K</a> 12-21
+</li>
+<li>Powietrze o objętości V wypełniające balon ogrzewane jest palnikiem przez otwór w dolnej części powłoki. Gdy temperatura powietrza w balonie osiągnęła wartość T<sub>2</sub>, balon oderwał się od Ziemi. Oblicz temperaturę początkową T<sub>1</sub> powietrza, jeżeli powłoka balonu ma masę M, powietrze - ciśnienie p, mol powietrza - masę <font face="Symbol">m</font>.</li>
+<li>Elektron poruszający się poziomo z prędkością V &lt;&lt; C wpada prostopadle do podwójnej, pionowej ściany magnetycznej o grubości 2d. Każda ze ścian ma grubość d i pionowo skierowane pole magnetyczne o indukcji B (jednakowe co do wartości w całej ścianie, ale skierowane do góry w pierwszej, a do dołu w drugiej). Oblicz przesunięcie x toru elektronu po wyjściu z podwójnej ściany (po jej przejściu lub po zawróceniu).</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><b>1995/96 (2.03.1996)</b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Pytania do pokazanego eksperymentu:
+<p></p><ol><li>Uzasadnij, czy pierścień jest wyrzucany przy włączaniu czy przy wyłączaniu prądu.</li>
+<li>Dlaczego w różnych próbach pierścień jest wyrzucany na różne wysokości ?</li>
+<li>Dlaczego wyjęcie monety zmienia przebieg eksperymentu ?</li>
+<li>Kosztem jakiej energii wyrzucany jest pierścień ?</li>
+<li>Dlaczego dołożenie ferromagnetyka zmienia przebieg eksperymentu ?</li>
+</ol><p>
+</p></li>
+<li>2 sputniki krążą dookoła Ziemi po okręgach o promieniach 2R i 3R i w chwili początkowej oba znajdują się na jednej prostej ze środkiem Ziemi. Po jakim czasie oba sputniki i środek Ziemi znowu znajdą się na jednej prostej, jeżeli R równe jest promieniowi Ziemi ?</li>
+<li>Cząstka <font face="Symbol">a</font> i proton poruszają się po tej samej prostej i w tym samym kierunku. W chwili, gdy odległość między cząstkami jest równa r, cząstka <font face="Symbol">a</font> porusza się z prędkością V, a proton z prędkością U. Oblicz, w jakiej odległości x znajdą się te cząstki w chwili, gdy cząstka <font face="Symbol">a</font> zatrzyma się, jeżeli nie zaszła reakcja jądrowa między cząstkami.</li>
+<li>Naczynie o objętości V zawiera hel pod ciśnieniem p i temperaturze T oraz masę M promieniotwórczego polonu ulegającego rozpadowi <font face="Symbol">a</font>. Oblicz ciśnienie p<sub>1</sub> w naczyniu po całkowitym rozpadzie polonu, jeżeli masa atomu polonu wynosi m, a masa atomu Pb powstającego po rozpadzie m<sub>1</sub> i ciepło właściwe helu przy stałej objętości wynosi C<sub>v</sub>, a ołowiu C<sub>b</sub>. Załóż ponadto pomijalnie małą pojemność cieplną ścianek naczynia i ich adiabatyczność oraz tak dużą odległość preparatu promieniotwórczego od ścianek naczynia, że żadna cząstka <font face="Symbol">a</font> nie może opuścić naczynia. Masy molowe helu - <font face="Symbol">m</font><sub>He</sub> i polonu - <font face="Symbol">m</font><sub>Po</sub>.</li>
+<li>Jedna z płytek płaskiego i początkowo nienaładowanego kondensatora próżniowego o pojemności C i powierzchni płytek S oświetlona jest całkowicie światłem o długości fali <font face="Symbol">l</font> i o natężeniu światła I. Praca wyjścia z oświetlonej płytki wynosi W. Po jakim czasie t i do jakiego potencjału U naładuje się ten kondensator, jeżeli każdy foton wybija elektron z oświetlonej płytki, a wybity elektron nie opuszcza kondensatora ?</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><b>1996/97 (8.03.1997)</b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Zadanie doświadczalne. Należy wyjaśnić:
+<p></p><ol type="a"><li>Dlaczego wskaźnik elektroskopu zmniejsza wychylenie, gdy układ jest oświetlany lampą łukową z elektrodami węglowymi (Eksperyment 1).</li>
+<li>Dlaczego szybkość zmian wychylenia wskaźnika maleje, gdy lampę odsunie się od układu (Eksperyment 2).</li>
+<li>Dlaczego położenie wskaźnika nie zmienia się, gdy między układem i lampą znajduje się szklana płyta (Eksperyment 3).</li>
+<li>Dlaczego położenie wskaźnika nie zmienia się pomimo oświetlenia (Eksperyment 4).</li>
+<li>Jak można zmodyfikować Eksperyment 4, aby wskaźnik elektroskopu zmniejszał wychylenie ?</li>
+</ol><p>
+</p></li>
+<li>Przestrzeń kosmiczną otaczającą planetę o masie M<sub>0</sub> i promieniu R wypełnia jednorodnie tzw. ciemna materia, która oddziaływuje grawitacyjnie, ale praktycznie nie stawia oporu ruchu poruszającym się obiektom. Wokół planety krąży satelita po orbicie kołowej o promieniu 3R z I prędkością kosmiczną charakterystyczną dla tej planety. Oblicz gęstość czarnej materii.</li>
+<li>Między 2 metalowe płyty o wymiarach a*b każda włożono nieprzewodzący prostopadłościan gumowy o wymiarach a*b*d. Jedną z płyt naładowano ładunkiem Q, natomiast drugą ładunkiem -Q. Oblicz energię układu wiedząc, że stała dielektryczna gumy jest równa <font face="Symbol">e</font>, a jej moduł Younga Y. Zaniedbaj wpływ mas płyt.</li>
+<li>Cylinder zamknięty jest ruchomym tłokiem o powierzchni S, który umocowany jest do dna cylindra sprężyną o stałej k. Wewnątrz układu znajduje się n<sub>0</sub> moli gazu o temperaturze T. W pewnym momencie w cylindrze otwarto zaworek pozwalając wylatywać do atmosfery <font face="Symbol">u</font> molom gazu w jednostce czasu (n<sub>0</sub> &gt;&gt; <font face="Symbol">u</font>*1 s), zachowując temperaturę oraz równowagę termodynamiczną. Wyznacz położenie tłoka w funkcji czasu pamiętając, iż ciśnienie atmosferyczne jest równe p<sub>A</sub>. Przyjmij, że sprężyna jest tak krótka, iż jej wydłużenie jest równe odległości tłoka od dna cylindra. Zaniedbaj masę tłoka.</li>
+<li>Elektrony poruszają się w cyklotronie w polu magnetycznym o indukcji B po orbicie o promieniu R. W pewnej chwili między duantami przyłożono zsynchronizowane, oscylujące napięcie V. Po wykonaniu N obiegów (od momentu włączenia napięcia) przyśpieszoną wiązkę elektronów skierowano na target wytwarzając promieniowanie X. Oblicz minimalną długość fali tego promieniowania.</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><a name="Z_F97" id="Z_F97"></a><b><a href="#R_F97" class="dzial">1997/98 (14.03.1998)</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>W szczelnie zamkniętym, szklanym pojemniku znajdowała się na dnie niewielka ilość wody. Układ woda-powietrze był w stanie równowagi termodynamicznej. Następnie po doprowadzeniu suchego powietrza z kompresora ciśnienie w pojemniku wzrosło. Po zamknięciu zaworu odłączono przewód doprowadzający sprężone powietrze i odczekano kilka minut, by układ woda-powietrze w pojemniku znalazł się ponownie w stanie równowagi.
+<p></p><ol type="a"><li>Wyjaśnij, czy po doprowadzeniu do pojemnika suchego powietrza, w trakcie ustalania się równowagi termodynamicznej, objętość wody na dnie była stała, czy ulegała zmianie ?</li>
+</ol><p> <br />Następnie otwarto zawór.</p>
+<p></p><ol start="2" type="a"><li>Czy po otwarciu zaworu, w trakcie rozprężania, temperatura powietrza pozostałego w pojemniku ulegała zmianie ? Odpowiedź uzasadnij korzystając z praw termodynamiki.</li>
+<li>Wyjaśnij, dlaczego promień światła przecinający szklany pojemnik staje się wyraźnie widoczny po otwarciu zaworu ?</li>
+</ol><p>
+</p></li>
+<li>Do sprężyny o stałej sprężystości k przymocowano klocek o masie m. Drugi koniec sprężyny przytwierdzono do ściany. Następnie klocek odciągnięto od położenia równowagi na odległość A<sub>0</sub> i puszczono swobodnie. Ile razy w ciągu całego ruchu klocek będzie przechodził przez położenie równowagi (sprężyna nienaprężona) ? Dane są współczynniki tarcia kinetycznego <font face="Symbol">m</font> i statycznego <font face="Symbol">m</font><sub>s</sub>= <font face="Symbol">b</font>*<font face="Symbol">m</font> (1 &lt; <font face="Symbol">b</font> &lt; 2) klocka o podłoże. Masę sprężyny powinieneś zaniedbać.<br /><center><img src="sites/default/files/126/image11.gif" height="66" width="144" /></center>
+</li>
+<li>Wilgotne powietrze unosi się adiabatycznie do góry. Przy powierzchni Ziemi ciśnienie wynosi p<sub>0</sub> = 100 kPa, temperatura t<sub>0</sub> = 20°C. Gdy powietrze unosi się ku górze, przy ciśnieniu 80 kPa zaczynają tworzyć się chmury. Na jakiej wysokości nad Ziemią znajduje się podstawa chmur (powinieneś przyjąć, że gęstość powietrza maleje liniowo z wysokością) ? Wykładnik adiabaty dla powietrza k = 1,4; masa molowa powietrza <font face="Symbol">m</font> = 29 g/mol.</li>
+<li>Rysunek przedstawia schemat obwodu elektrycznego. Zmiana wartości oporu R<sub>2</sub> w tym układzie nie wywołuje zmiany wskazań amperomierza. Jaki warunek muszą spełniać parametry elementów obwodu, aby było to możliwe?<br /><center><img src="sites/default/files/126/image12.gif" height="155" width="186" /></center>
+</li>
+<li>2 identyczne głośniki oddalone od siebie o 10 m podłączone są do jednego generatora dającego sygnał o częstości <font face="Symbol">u</font> = 21,5 Hz. Prędkość dźwięku w powietrzu wynosi 343 m/s.
+<p></p><ol type="a"><li>Wytłumacz, dlaczego odbiornik znajdujący się w punkcie A (patrz rysunek) zarejestruje minimum natężenia dźwięku docierającego z obu głośników.</li>
+<li>Po jakim torze należy przemieszczać odbiornik w płaszczyźnie xy tak, aby nadal rejestrował on minimum natężenia dźwięku (znajdź zależność pomiędzy współrzędnymi x i y odbiornika, dla których rejestruje minimum natężenia dźwięku) ?</li>
+</ol><p></p><center><img src="sites/default/files/126/image13.gif" height="99" width="152" /></center>
+<p>
+</p></li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><a name="Z_F98" id="Z_F98"></a><b><a href="#R_F98" class="dzial">1998/99 (13.03.1999)</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>W obwodzie przedstawionym na rysunku do źródła prądu zmiennego podłączono szeregowo kondensator i cewkę o regulowanej indukcyjności (początkowo nie ma żarówki). Znajdują się w nim również trzy woltomierze prądu zmiennego.
+<p></p><ol type="a"><li>Dlaczego suma napięć skutecznych na kondensatorze V<sub>C</sub> i cewce V<sub>L</sub> w tym obwodzie nie jest równa napięciu skutecznemu na źródle prądu <font face="Symbol">e </font>?</li>
+<li>Następnie do obwodu włączono żarówkę (tak, jak na rysunku). Dlaczego tylko dla pewnej określonej wartości indukcyjności (gdy V<sub>C</sub> = V<sub>L</sub>) żarówka świeci jasno, a dla innych wartości nie świeci (lub ewentualnie świeci mniej intensywnie) ?</li>
+</ol><p> <br />Przyjmij, że zakłócenia spowodowane przewodami doprowadzającymi, jak i niedoskonałością woltomierzy, są pomijalne.<br /></p><center><img src="sites/default/files/126/image19.gif" height="142" width="182" align="absmiddle" /></center>
+</li>
+<li>Ciężarek zawieszony na nici nie będzie wskazywał dokładnie kierunku przyciągania ziemskiego, lecz odchyla się nieco od tego kierunku. Dla jakich szerokości geograficznych, tj. dla jakich wartości kąta <font face="Symbol">a</font> to odchylenie (różnica <font face="Symbol">b </font>- <font face="Symbol">a</font>) ma wartość maksymalną, a dla jakich minimalną ? Przyjmij, że Ziemia jest jednorodną kulą. Pomocne mogą być następujące wzory i przybliżenia:
+<p><br />tg(x) - tg(y) = sin(x - y)/(cos(x) cos(y));<br /><br />sin(2x) = 2 sin(x) cos(x)<br /><br />dla |x| &lt;&lt; 1    sin(x) <font face="Symbol">@</font> x     i    1/(1 - x) <font face="Symbol">@</font> 1 + x</p>
+<p><b>Uwaga:</b> Na rysunku odchylenie i rozmiary ciężarka zawieszonego na nici zostały (w celu wprowadzenia przejrzystych oznaczeń) znacznie powiększone.<br /></p><center><img src="sites/default/files/126/image20.gif" height="133" width="110" align="absmiddle" /></center>
+</li>
+<li>W układzie przedstawionym na rysunku masy m<sub>1</sub> i m<sub>2</sub> znajdują się w chwili początkowej w spoczynku, a sprężyna o stałej sprężystości k jest nienaprężona. Jaką wartość powinien mieć współczynnik tarcia <font face="Symbol">m</font>między masą m<sub>1</sub> i podłożem, aby masa m<sub>2</sub> po osiągnięciu najniższego położenia nie rozpoczęła ruchu powrotnego do góry ? Przyjmij, że współczynnik tarcia kinetycznego nie różni się do współczynnika tarcia statycznego. Pomiń masę sprężyny i tarcie pomiędzy nicią i bloczkiem.<br /><center><img src="sites/default/files/126/image21.gif" height="152" width="236" /></center>
+</li>
+<li>W temperaturze T i przy ciśnieniu p gęstości powietrza, czystego tlenu i czystego azotu wynoszą odpowiednio: <img src="sites/default/files/126/image23.gif" height="17" width="13" align="absmiddle" />, <img src="sites/default/files/126/image24.gif" height="25" width="25" align="absmiddle" />, <img src="sites/default/files/126/image25.gif" height="25" width="26" align="absmiddle" />. Zakładając, że obecne są tylko te dwa gazy, oblicz procentową zawartość azotu w powietrzu.</li>
+<li>Dwa ogniwa i trzy kondensatory połączono tak jak na rysunku. Znajdź napięcie na każdym z kondensatorów.<br /><center><img src="sites/default/files/126/image22.gif" height="130" width="191" /></center>
+</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p></p><center><br /><h1>Rozwiązania i odpowiedzi</h1>
+<p></p></center>
+<p><font color="#1F409F" size="+2" class="dzial"><a name="R_F94" id="R_F94"></a><b><a href="#Z_F94" class="dzial">1994/95</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol start="3"><li>W = 2R<sup>5</sup>(2<font face="Symbol">p</font>/T)<sup>4</sup>/G</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><a name="R_F97" id="R_F97"></a><b><a href="#Z_F97" class="dzial">1997/98</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>wskazówki:<br /><ol type="a"><li>Ilość wody nie ulega zmianie (ciśnienie pary nasyconej nie zależy od ciśnienia pozostałych składników powietrza).
+<p></p><table border="0" cellspacing="0" cellpadding="4" style="border-collapse:separate;"><tr><td valign="TOP" nowrap="nowrap"><font face="Symbol">D</font>U = Q - W</td>
+<td valign="TOP">I zasada termodynamiki</td>
+</tr><tr><td valign="TOP" nowrap="nowrap">Q = 0</td>
+<td valign="TOP">Przemiana adiabatyczna (krótki czas)</td>
+</tr><tr><td valign="TOP">W &gt; 0</td>
+<td valign="TOP">Wykonywana jest praca nad powietrzem atmosferycznym</td>
+</tr><tr><td valign="TOP"><font face="Symbol">D</font>U &lt; 0</td>
+<td valign="TOP">Temperatura maleje</td>
+</tr></table><p>
+</p></li>
+<li>
+<p>Zachodzą dwa procesy:</p>
+<p></p><table border="0" cellspacing="0" cellpadding="4" style="border-collapse:separate;"><tr><td>
+<ol><li><font face="Symbol">D</font>t &lt; 0</li>
+</ol></td>
+<td valign="TOP">Patrz punkt b</td>
+</tr><tr><td>
+<ol start="2"><li><font face="Symbol">D</font>p &lt; 0</li>
+</ol></td>
+<td valign="TOP">Dla pary nasyconej</td>
+</tr></table><p> <br />Proces 1 przeważa nad procesem 2, stąd para wodna osiąga stan przesycenia i następuje skraplanie. Wiązka światła jest rozpraszana na kroplach wody.
+</p></li>
+</ol></li>
+<li>
+<p>kA<sup>2</sup><sub>n-1</sub>/2 - kA<sup>2</sup><sub>n</sub>/2 = mg<font face="Symbol">m</font>(A<sub>n-1</sub> + A<sub>n</sub>)<br /><br />A<sup>2</sup><sub>n-1</sub> - A<sup>2</sup><sub>n</sub>= <font face="Symbol">a</font>(A<sub>n-1</sub> + A<sub>n</sub>)<br /><br /><font face="Symbol">a</font> = 2mg<font face="Symbol">m</font>/k</p>
+<p>Kolejne maksymalne wychylenia klocka z położenia równowagi różnią się o stałą wartość:<br /><br />A<sub>n-1</sub> - A<sub>n</sub> = <font face="Symbol">a</font></p>
+<p>Aby klocek rozpoczynający ruch z odległości A<sub>n-1</sub> od położenia równowagi znalazł się po drugiej stronie położenia równowagi potrzeba, by A<sub>n</sub> &gt; 0. Z tego wynika, że A<sub>n-1</sub> &gt; <font face="Symbol">a</font>.</p>
+<p>Jeśli bowiem A<sub>n-1</sub> &lt; <font face="Symbol">a</font>, to możliwe są dwa przypadki:</p>
+<p></p><ol><li>klocek nie pokona tarcia statycznego</li>
+<li>może rozpocząć ruch, ale zatrzyma się przed osiągnięciem położenia równowagi</li>
+</ol><p> <br />A<sub>n</sub> &gt; 0 =&gt; A<sub>n-1</sub> &gt; <font face="Symbol">a</font></p>
+<p>Ostatni warunek obejmuje:</p>
+<p></p><ol><li>przejście przez położenie równowagi</li>
+<li>pokonanie tarcia statycznego (<font face="Symbol">b</font>&lt; 2)</li>
+</ol><p> <br />A<sub>0</sub> - (n - 1)<font face="Symbol">a</font> &gt; <font face="Symbol">a</font><br /><br />n = [A<sub>0</sub>/<font face="Symbol">a</font>]
+</p></li>
+<li>
+<p>wzory:</p>
+<p></p><table border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;"><tr><td valign="TOP">
+<ol><li>pV = mRT/<font face="Symbol">m</font></li>
+</ol></td>
+<td valign="TOP">
+<ol start="2"><li><font face="Symbol">r</font> = p<font face="Symbol">m</font>/RT</li>
+</ol></td>
+</tr><tr><td valign="TOP">
+<ol start="3"><li>pV<sup><font face="Symbol">k</font></sup>= p<sub>0</sub>V<sub>0</sub><sup><font face="Symbol">k</font></sup></li>
+</ol></td>
+<td valign="TOP">
+<ol start="4"><li>p<sub>0</sub> - p = <img src="sites/default/files/126/image16.gif" height="20" width="12" align="absmiddle" />gh</li>
+</ol></td>
+</tr><tr><td valign="TOP">
+<ol start="5"><li><img src="sites/default/files/126/image16.gif" height="20" width="12" align="absmiddle" />= (<font face="Symbol">r</font><sub>0</sub>+<font face="Symbol">r</font>)/2</li>
+</ol></td>
+<td valign="TOP"></td>
+</tr></table><p>Z 1 i 3 wynika, że (p/p<sub>0</sub>)<sup>(1 - <font face="Symbol">k</font>) / <font face="Symbol">k</font></sup> =T<sub>0</sub>/T<br /><br />Z 2 i 5 wynika, że <img src="sites/default/files/126/image16.gif" height="20" width="12" align="absmiddle" />=<font face="Symbol">m</font>(p<sub>0</sub> + p (p/p<sub>0</sub>)<sup>(1 - <font face="Symbol">k</font>) / <font face="Symbol">k</font></sup>)/2RT<sub>0</sub> = 1,1 kg/m<sup>3</sup><br /><br />h = (p<sub>0</sub>-p)/g<img src="sites/default/files/126/image16.gif" height="20" width="12" align="absmiddle" /> = 1900 m
+</p></li>
+<li>
+<p>Można np. zastosować prawa Kirchoffa dla obu oczek:</p>
+<p></p><ol type="a"><li>
+<font face="Symbol">e</font><sub>2 </sub>- i<sub>2</sub>R<sub>2</sub> - (i<sub>1</sub>+i<sub>2</sub>)R - i<sub>2</sub>r<sub>2</sub> = 0</li>
+<li>
+<font face="Symbol">e</font><sub>1 </sub>- (i<sub>1</sub>+i<sub>2</sub>)R - i<sub>1</sub>r<sub>1</sub> = 0</li>
+</ol><p> <br />Rozwiązując ten układ równań otrzymujemy:</p>
+<p>i<sub>2</sub> = (<font face="Symbol">e</font><sub>2</sub>(R+r<sub>1</sub>) - <font face="Symbol">e</font><sub>1</sub>R)/(R<sub>2</sub>R + Rr<sub>2</sub> + R<sub>2</sub>r<sub>1</sub> + Rr<sub>1</sub> + r<sub>2</sub>r<sub>1</sub>)</p>
+<p>Aby przez opornik R<sub>2</sub> nie płynął prąd, i<sub>2</sub> = 0</p>
+<p>Podstawiając do wzoru na i<sub>2</sub> i przekształcając dostajemy, że <font face="Symbol">e</font><sub>2 </sub>= <font face="Symbol">e</font><sub>1</sub>R/(R+r<sub>1</sub>)</p>
+<p>Należy też pamiętać, że r<sub>2</sub> &gt;&gt; R i r<sub>2</sub> &gt;&gt; r<sub>1</sub></p></li>
+<li> <br /><ol type="a"><li><font face="Symbol">l</font> = V/f = 16 m<br /><br /><font face="Symbol">D</font>r = <font face="Symbol">l</font>/2 = 8 m
+<p> <br />Różnica dróg do punktu A z obu głośników wynosi 8 m. Jest to akurat połowa długości fali dźwiękowej i warunek na minimum interferencyjne.
+</p></li>
+<li>r<sub>1</sub> - r<sub>2</sub> = <font face="Symbol">l</font>/2
+<p><br /><img src="sites/default/files/126/image17.gif" height="29" width="97" align="absmiddle" />-<img src="sites/default/files/126/image18.gif" height="29" width="97" align="absmiddle" />= 8<br /><br />9x<sup>2</sup> - 16y<sup>2</sup> = 144</p></li>
+</ol></li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><a name="R_F98" id="R_F98"></a><b><a class="dzial" href="#Z_F98">1998/99</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>
+<ol type="a"><li>
+<font face="Symbol">˝</font>V<sub>L</sub> - V<sub>C</sub><font face="Symbol">˝</font>= <font face="Symbol">e</font></li>
+<li>Gdy V<sub>L</sub> = V<sub>C</sub> zawada ma wartość minimalną, a prąd osiąga maksimum.</li>
+</ol></li>
+<li>
+<img src="sites/default/files/126/image28.gif" height="114" width="97" align="ABSMIDDLE" /><br /><br />mg / sin (180° - <font face="Symbol">b</font>) = m<font face="Symbol">w</font><sup>2</sup>R<sub>z</sub>cos <font face="Symbol">a</font>/ sin (<font face="Symbol">b</font> - <font face="Symbol">a</font>)<br /><br /><font face="Symbol">b</font> - <font face="Symbol">a</font> <font face="Symbol">@</font> (<font face="Symbol">w</font><sup>2</sup>R<sub>Z</sub> cos <font face="Symbol">a</font> sin <font face="Symbol">b</font>)/g <font face="Symbol">@</font> (<font face="Symbol">w</font><sup>2</sup>R<sub>Z</sub>sin 2<font face="Symbol">a</font>) / (2g)<br /><br />max (<font face="Symbol">b</font> - <font face="Symbol">a</font>) <font face="Symbol">Ţa</font> = 45°<br /><br />min (<font face="Symbol">b</font> - <font face="Symbol">a</font>) <font face="Symbol">Ţa</font> = 0° <font face="Symbol">Ú a</font> = 90°
+</li>
+<li>
+0,5kx<sup>2</sup> + <font face="Symbol">m</font>m<sub>1</sub>gx = m<sub>2</sub>gx<br /><br />kx <font face="Symbol">Ł</font> m<sub>2</sub>g + <font face="Symbol">m</font>m<sub>1</sub>g<br /><font face="Symbol">Ţ m ł</font> m<sub>2</sub>/(3m<sub>1</sub>)
+</li>
+<li>
+<img src="sites/default/files/126/image29.gif" height="50" width="36" align="ABSMIDDLE" />+<img src="sites/default/files/126/image30.gif" height="50" width="36" align="ABSMIDDLE" />= <img src="sites/default/files/126/image31.gif" height="46" width="78" align="ABSMIDDLE" /><font face="Symbol">Ţ</font> <img src="sites/default/files/126/image32.gif" height="50" width="78" align="ABSMIDDLE" />=<img src="sites/default/files/126/image33.gif" height="93" width="74" align="ABSMIDDLE" /></li>
+<li>Z układu trzech równań:
+<p> <br /></p><ol><li><font face="Symbol">e</font><sub>1</sub> = V<sub>3</sub> + V<sub>2</sub></li>
+<li><font face="Symbol">e</font><sub>2</sub> = V<sub>2</sub> - V<sub>3</sub></li>
+<li>V<sub>1</sub>C<sub>1</sub> = V<sub>2</sub>C<sub>2</sub> + V<sub>3</sub>C<sub>3</sub></li>
+</ol><p> <br />wynika, że:</p>
+<p>V<sub>1</sub> = [(<font face="Symbol">e</font><sub>1 </sub>+ <font face="Symbol">e</font><sub>2</sub>)C<sub>2</sub> + <font face="Symbol">e<sub>1</sub></font>C<sub>3</sub>]/(C<sub>1</sub> + C<sub>2</sub> + C<sub>3</sub>)<br /><br />V<sub>2</sub> = [(<font face="Symbol">e</font><sub>1 </sub>+ <font face="Symbol">e</font><sub>2</sub>)C<sub>1</sub> + <font face="Symbol">e</font><sub>2</sub>C<sub>3</sub>]/(C<sub>1</sub> + C<sub>2</sub> + C<sub>3</sub>)<br /><br />V<sub>3</sub> = (<font face="Symbol">e</font><sub>1</sub>C<sub>1</sub> - <font face="Symbol">e</font><sub>2</sub>C<sub>2</sub>)/(C<sub>1</sub> + C<sub>2</sub> + C<sub>3</sub>)</p></li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>

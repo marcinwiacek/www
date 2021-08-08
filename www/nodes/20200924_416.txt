@@ -1,0 +1,79 @@
+﻿Title:Zabierz babci problem, czyli jak zdalnie pomóc biednej białogłowie (2020)
+Author:marcin
+When:24 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android,App Store
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Zabierz-babci-problem-czyli-jak-zdalnie-pomoc-biednej-bialoglowie,111232.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<!--break-->
+<p>Czy pamięta ktoś Prosiaka?</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/DKsLgJ8bUcM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>W dzisiejszych czasach królują komórki, tablety i inne potwory, a ja postanowiłem napisać dwa słowa o problemie, który mnie spotkał w nocy o północy. I choć babcia nie była babcią, północ północą, a problem problemem, to warto wskazać jedno z jego rozwiązań.</p>
+
+<p><b>Problem: </b>potrzeba zdalnego skonfigurowania telefonu, który na szczęście miał dostęp do internetu. W tym konkretnym przypadku na tymże telefonie nie było żadnych tajnych (czytaj: ciekawych) danych.</p>
+
+<p><b>Rozwiązanie: </b>istnieje masa programów do dostępu zdalnego, ja jednak postanowiłem legalnie skorzystać z Team Viewera (ale nie tego płatnego).</p><p>
+
+<b>Krok 1: </b>instalacja na telefonie zdalnym z Google Play aplikacji TeamViewer QuickSupport.</p>
+
+<center>
+<img src="sites/default/files/416/x.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Krok 2:</b> instalacja na moim urządzeniu aplikacji Team Viewer for Remote Control (możliwy jest też dostęp przez www)</p>
+
+<center>
+<img src="sites/default/files/416/Screenshot_20200924-203619_Google Play Store.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Krok 3: </b>przedyktowanie mi numeru połączenia i kliknięcie przeze mnie odpowiedniego przycisku</p>
+
+<center><img src="sites/default/files/416/2.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Krok 4: </b>zaakceptowanie połączenia przychodzącego na urządzeniu zdalnym (za pierwszym razem wymagane jest oczywiście dodanie uprawnień)</p>
+
+<center>
+<img src="sites/default/files/416/Screenshot_20200924-205930.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/416/Screenshot_20200924-205943.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/416/Screenshot_20200924-210050.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Krok 5: </b>pomoc (należy tu zaznaczyć, że urządzenie zdalne nie zostało wyprodukowane przez żadną z wielu firm i miałem dostępny jedynie podgląd ekranu i mogłem pokazywać, w którym miejscu ekranu trzeba klikać; kontakt głosowy był możliwy w tym momencie, bo mieliśmy uruchomioną również rozmowę przez WhatsApp)</p>
+
+<p>Gdyby np. urządzenie zdalne byłoby produkcji Samsunga, wystarczyłoby zgodzić się na pewne dodatkowe kroki i wtedy mógłbym również zdalnie klikać.</p>
+
+<center>
+<img src="sites/default/files/416/1.jpg" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Morał: </b>możnaby to pewnie rozwiązać nawet lepiej, ale mnie się spieszyło, a osoba po drugiej stronie nie była techniczna (i dodatkowo miała duży stres). TeamViewer bez problemu połączył się przez sieć i właściwie rozwiązał problem, do tego do zastosowań niekomercyjnych (jak tutaj) był darmowy.</p>
+
+<p><b>A gdyby to było jabłko?</b></p>
+
+<p>Działa to bardzo podobnie:</p>
+
+<center>
+<img src="sites/default/files/416/IMG_0004.PNG" style="width:304px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/416/3.jpg" style="width:304px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Trzeba jedynie włączyć opcję nagrywania/rozgłaszania zawartości ekranu:</p>
+
+<center>
+<img src="sites/default/files/416/IMG_0007.PNG" style="width:304px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/416/IMG_0008.PNG" style="width:304px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>I łyżka dziegciu: </b>firma była hackowana co najmniej kilka razy (np. <a href="https://thehackernews.com/2019/05/teamviewer-software-hacked.html" target="_blank" rel="noopener" rel="nofollow">https://thehackernews.com/2019/05/teamviewer-software-hacked.html</a>) i napastnicy mieli dostęp do różnych danych. </p>
+
+<p>Podobne aplikacje dają ogromne możliwości, na pewno jednak każdy z nas powinien sobie odpowiedzieć, czy bezpiecznie z nich korzystać. </p>
+
+<p>Z drugiej strony: kto nie ma nic do ukrycia nie powinien się bać, nieprawdaż?&#160;</p>
+
+<p><b>Disclaimer: </b>nie jestem w żaden sposób związany z firmą.&#160;&nbsp;</p>

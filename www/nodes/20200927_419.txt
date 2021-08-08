@@ -1,0 +1,94 @@
+﻿Title:Technologia w służbie ludzkości, czyli nie zazdroszczę obecnym CEO (2020)
+Author:marcin
+When:27 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Technologia-w-sluzbie-ludzkosci-czyli-nie-zazdroszcze-obecnym-CEO,111260.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<!--break-->
+<p>Dzisiaj będzie lekko i krótko...</p>
+
+<p>Nie chcę sięgać zbyt daleko do historii i zatrzymam się na wieku XX. Można powiedzieć, że największe wynalazki z tamtego okresu powstały jako efekt wysiłku związanego z wojną. To nie jest zbyt odkrywcze stwierdzenie, ale wymieńmy choć trzy rzeczy:</p>
+
+<p>1. rozwój komputerów elektromechanicznych, takich jak seria Z1-Z4 Konrada Zuse (<a href="https://antyweb.pl/po-latach-odnaleziono-instrukcje-do-najlepszego-komputera-iii-rzeszy/" target="_blank" rel="noopener" rel="nofollow">do Z4 odnaleziono ostatnio instrukcję</a>) czy <a href="http://www.sww.w.szu.pl/index.php?id=artykuly_historia_maszyny_enigma" target="_blank" rel="noopener" rel="nofollow">polsko-angielskie bomby w Anglii&#160;</a></p>
+
+<p>2. wynalezienie tranzystorów i układów scalonych</p>
+
+<p>3. Internet</p>
+
+<p>Na potrzeby programów Sojuz, Salut, Mercury, Germini, Apollo i innych tworzono kolejne rozwiązania, dzięki którym możliwe było wysłanie obiektów w kosmos i na księżyc. Kolejne modele samolotów i samochodów nie były już tylko mechaniczne, tylko miały w sobie coraz więcej elektroniki.&#160;</p>
+
+<p>Z czasem wojskowi przestali tracić nad tym kontrolę, podobnie coraz mniejszy wpływ mieli naukowcy. </p><p>Nastała era &quot;cudownych&quot; dzieci takich jak Jobs czy Gates (piszę to w nawiasie, gdyż ich części bardzo mocno pomogły koneksje i pieniądze rodziców). M.in. dzięki nim bardzo dużo różnych rozwiązań powstawało w latach 70-tych i 80-tych XX wieku (i część widać na filmiku poniżej).</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/AvXXkB2jic0?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>Wykształciły się wtedy ogromne biznesy, które potem kreatywnie wykorzystały walkę z terroryzmem i eksplozję Internetu i sieci komórkowych.</p>
+
+<p>Mieliśmy do czynienia z kolejnymi bańkami technologicznymi, kolejnymi powstającymi i upadającymi gwiazdkami, i wszechobecną &quot;konsumpcją treści&quot;. </p>
+
+<p>Dużym problemem (szczególnie wielkich firm) jest to, że musiały one udostępniać swoje technologie rządom i kształcić kolejne pokolenia pracowników (a więc mieć wszelkiego rodzaju programy akademickie) - stąd nie rozumiem tego zdziwienia dotyczącego wycieku kodu kolejnych systemów Windows...</p>
+
+<p>Przez lata niefrasobliwie podchodzono do ochrony danych, jak również &quot;na wszelkich wypadek&quot; tu i tam implementowano systemy pozwalające na zdalny dostęp (jak Intel ME).</p>
+
+<p>Sytuacja na świecie też się mocno zmieniła - przez dłuższy czas przymykano oczy na tzw. łamanie praw autorskich w Azji, i coraz mocniej sprawdzano ich przestrzeganie w Europie i USA (ochrony regionalne na DVD, BlueRay, etc. etc.)</p>
+
+<p>Czy nie stworzyło to chorej sytuacji, że utalentowani ludzie z Azji będą studiować to i owo, a ludzie np. na Starym Kontynencie będą mieli coraz większe problemy?</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/ll7lLVsaHQs?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>Rozwój technologii niestety od lat nieodłączenie związany był z sytuacją polityczną. Przez lata przyzwyczailiśmy się, że prym wiedzie Microsoft, Apple, Intel, Oracle i kilka innych firm, tymczasem np.:</p>
+
+<p>1. w serwisie Apple TV filmów jest tyle co kot napłakał (i nie mają polskiej ścieżki językowej), &quot;Mulan&quot; i &quot;Gwiezdne Wojny&quot; Disneya nie mają najlepszych opinii, Netflix zbiera same negatywne recenzje za &quot;Cuties&quot;</p>
+
+<p>2. praktycznie każda kolejna wersja Windows to płacz i zgrzytanie zębów</p><p>3. Tik-Tak był &quot;zły&quot;, a jak jego akcje mają firmy amerykańskie, to już jest dobry</p>
+
+<p>4. nowe rozwiązania Apple mają swoje wpadki, np. <a href="https://antyweb.pl/apple-watch-se-problemy-notyfikacje/" target="_blank" rel="noopener" rel="nofollow">Dotarł mój Apple Watch SE. Pożałowałem zakupu w pół godziny</a> czy <a href="https://spidersweb.pl/2020/09/apple-watch-series-3-problemy-watchos-7.html" target="_blank" rel="noopener" rel="nofollow">Restarty, problemy, zawieszki. Tak wygląda codzienność z Apple Watchem...</a></p>
+
+<p>5. część firm (Epic, <a href="https://www.dobreprogramy.pl/Netflix-za-darmo-bez-konta-przynajmniej-czesciowo.-Oto-nowy-nietypowy-marketing,News,110861.html" target="_blank" rel="noopener">Netflix</a>) zaczyna za darmo rozdawać swoje produkty (co oznacza, że mają dużo pieniędzy i stać ich na to, ale również to, że użytkownicy sami z siebie nie są nimi zainteresowani) albo wciska je, jak nie drzwiami, to oknem (mówię chociażby darmowym upgradzie Windows 7 do 10 czy zabezpieczeniach w obecnych notebookach Apple, których obecność może skłonić ludzi nietechnicznych do używania chmury - <a href="https://antyweb.pl/macbook-pro-po-zalaniu-odzyskiwanie-danych/" target="_blank" rel="noopener" rel="nofollow">przykładowa historia</a>).</p>
+
+<p>Zamiast wdrażania nietypowych rozwiązań, postawiono na ich konsolidację - nie mamy różnych złącz, a zamiast wielu platform pojawiło się zaledwie kilka.</p>
+
+<p>No i co w tym złego?</p>
+
+<p>1. Jeden błąd to zagrożenie w wielu miejscach. </p>
+
+<p>2. Firmy to ludzie, a ludzie będą chcieli zarabiać. Jak nie na sprzęcie, to na danych i treściach cyfrowych (teksty, video, etc.). Problem w tym, że wielu z nas bardzo przyzwyczaiło się do darmochy... myślę sobie, że skoro jest taka niechęć do kupowania, to czeka nas kolejne &quot;ułatwianie&quot; płatności bezgotówkowych i obniżanie progu płatności (tzn. będzie trzeba płacić za każdą pierdołę). </p>
+
+<p>3. Duże molochy to duże molochy. W końcu zaspokoją wszystkich wokół, a rachunki płacić trzeba... to oznacza większe ceny i/lub mniejszą różnorodność (ewentualnie obniżkę jakości, żeby przy tych samych przychodach &quot;dać tyle samo&quot;)...</p>
+
+<p>Wiele osób chciałoby oczywiście dalej żyć w bańce:</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/VD7mTsFZ3g8?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>ale... z drugiej strony mamy całą nagonkę na ochronę środowiska.</p>
+
+<p>To jak schizofremia - z jednej strony produkujemy wiele potrzebnych i niepotrzebnych sprzętów, z drugiej mówimy o tym, żeby produkować mniej.</p>
+
+<p>Można udawać, że USA nie ma problemów wewnętrznych, ale do wyborów niewiele się zmieni, a po nich niezależnie od wybranego prezydenta np. Apple czeka przeprawa z <a href="https://antyweb.pl/koalicja-przeciw-apple-przeciwnicy-podchodza-do-sprawy-bardzo-powaznie/" target="_blank" rel="noopener" rel="nofollow">koalicją, która chce ich pozbawić zysku</a>.</p>
+
+<p>Robi się ciekawie... albo czekają nas kolejne kroki Trumpa albo wdrażanie w życie praktyk jego podstarzałego przeciwnika.</p><p>A ludzie z Azji niekoniecznie mają w poszanowaniu takie hasła jak ochrona środowiska czy jakość (<a href="https://www.notebookcheck.net/Low-quality-capacitors-could-be-the-cause-of-Nvidia-GeForce-RTX-3080-crashes.495995.0.html" target="_blank" rel="noopener" rel="nofollow">patrz ostatnia afera z kartami RTX 3080</a>)</p>
+
+<p>W sumie nie dziwię się, że tegoroczna konferencja Apple była dosyć zapobiegawcza (jeśli mają takich &quot;klientów&quot; jak widać na filmach w YouTube...) albo że Samsung podał nam model S20 FE.</p>
+
+<center>
+<img src="sites/default/files/419/x.png" style="width:608px;height:229px;" alt="image" title="image" />
+</center>
+
+<p>Poprawiono procesor, baterię, kamery i częściowo ekran, ale... wstawiono starsze szkło Gorilla Glass i plastikową obudowę (cztery kolory i brak czarnego). To wyraźny ukłon w stronę młodych i tych, którzy uwielbiają zdjęcia (przed oczami od razu stają mi Japończycy, którzy robią zdjęcia tabletami)...</p>
+
+<p>Nie wiem, gdzie ten świat zajdzie dajmy na to za pięć lat, ale... szykujcie się na rollecaster i na to, że wasze ulubione smartfony czy inne pierdółki nie będą wydawane w cyklach rocznych. </p>
+
+<p>Przez pewien czas technologia raczej nie będzie w służbie ludzkości (popatrzcie sobie na socjotechnikę w tym video i na to, co jest proponowane).</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/U88ZKJhztiM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>I myślę, że co najmniej jedno czy dwa duże korpo nie będą już istnieć. Obstawiamy, które?&#160;</p>
+
+<p>PS. Czasami mam wielkie marzenie, żeby świat wrócił do pewnej powolności i niewinności widocznej tutaj: <a href="https://vod.tvp.pl/video/daleko-od-szosy,odc-1-szpaki,38194531" target="_blank" rel="noopener" rel="nofollow">https://vod.tvp.pl/video/daleko-od-szosy,odc-1-szpaki,38194531</a>&#160;&nbsp;</p>

@@ -1,0 +1,43 @@
+﻿Title:Report 2006-06-05
+Author:marcin
+When:06 Jun 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>like Michal notified <a href="http://blog.cihar.com/archives/2006/05/22/gammu_hit_1_mib_of_sources/">here</a> Gammu tarball is bigger than 1 MB :-)
+</li><li>Michal wants to rewrite Wammu - read <a href="http://blog.cihar.com/archives/2006/05/23/wammu_future_for_second_time/">here</a> about this project future
+<!--break-->
+</li><li>Gammu is more and more popular - I have aded few new links for projects, scripts, descriptions, etc.
+</li><li><b><u>There is finally run Mantis on gammu.org. Use it for reporting Gammu/Gammu+ bugs. You can report bug, upload files, etc.</u></b>
+</li><li>main targets for now:
+<ul><li>Gammu now: implementing all gnapplet things, ending all past issues, ending Series 40 3rd edition support (based on N6111, not 6233 like planned earlier)
+</li><li>Gammu in the future: extending gnapplet, getting Series 60 3rd edition phone and trying compiling gnapplet there
+</li><li>Gammu+ now: SMSD, implementing gnapplet
+</li><li>gammu.org now: ending phones database (users login, adding comments, etc.)
+</li><li>other: passing all things for studies (still few things and days) and getting 64 bit CPU ;-)
+</li></ul></li><li>I though a lot about synchronisation issues too - I think, that at least Gammu+ should inform user about, which (phonebook, calendar, etc.) details were correctly added, which not
+</li></ul><p>Other:</p>
+<pre>
+20060605 - 1.06.30
+[!] In 6230i 3.70 after saving to "Outbox" (from PC) SMS is not visible in
+    phone menu, PC side and use phone memory place. We added protection
+    against it and saving to 0x1A folder is no more possible. Bug can exist
+    in other new Nokias too.
+[!] SMS with "simple quote" can stop SMSD. For now fix for    (Julien Lirochon)
+    Inbox
+[+] support for ICS files (Mozilla calendar)                           (Markus)
+[+] Series 60 1st and 2nd edition:
+    * calendar (getting) - support for start/end/alarm time, recurrance,
+      texts, no support for synchronisation parameter
+    * todo (getting) - support for text, priority, no support for due date
+      and done/not done
+    * sms - support for getting sms status, getting and sending non working
+      (this is issue reported by gnapplet users working with other than
+      Gammu projects too)
+    * there is checked gnapplet version during Gammu communication startup
+[*] gnapplet source synchronised with sis file (0.6.12)
+[-] fixed configure error with bluegnapbus (1.06.15 bug)        (Gabor Z. Papp)
+[-] fix for --deletesms and folder handling
+[-] changes in debug system                               (Radoslaw Stachowiak)
+</pre><p>
+Excluding VCALENDAR and VCARDS (changed because of ICS) all functions should work rather good. If nothing new will happen, I should release 1.07.00 in June.</p>

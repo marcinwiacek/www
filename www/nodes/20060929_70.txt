@@ -1,0 +1,25 @@
+﻿Title:Report 2006-09-28
+Author:marcin
+When:29 Sep 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+,MyGnokii
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>week 18-24 September 2006 was started very good - each day=one release (18 Sep = Gammu stable, 19 Sep = Gammu+ test, 20 Sep = python-gammu, 21 Sep = Wammu)
+</li><li>I was looking deeply into earlier/currently available software and asking myself about some things. Some conclusions:
+<ul><li>MyGnokii was created, because I wanted to play with owned phone. I didn't care too deeply about structures. Later I applied patches for not available for me phones (6210).
+<!--break-->
+</li><li>Gammu was created after thinking about structures.
+<ul><li>Reason of starting the same - playing with phone, later ability to making backup/restore too.
+</li><li>I was playing with AT commands and some other, there are first Symbian plays here.
+</li><li>I'm still very interested at least in fixing bugs and adding support for new Nokia Series 40 models, but some things probably won't be never implemented here. For example I'm still thinking, how to handle reading SMS with multiple recipients numbers (Series 40 3.0)...
+</li></ul></li><li>Gammu+ have such structure, like was initially planned for Gammu.
+<ul><li>It's maybe mistake to use C++, but from the other side - which language could be used ?
+</li><li>I'm thinking, if has sence to implement some things - for example operator logos for DCT3 (they work OK in Gammu).
+</li><li>I can do some things in much modern way and without limits - for example SMS for Series 40 3.0 will use FileID in next release, logos for old models (if will be done) will use emulated filesystem, etc.
+</li><li>Software will be compatible with Gammu backup &amp; config as long as possible, but I plan to have tools for backup all filesystem and others. Everything depends on time and funds. We will see, what with Symbian (this is critical - Series 40 is going to be low end).
+</li><li>Currently I don't care about win32 dll, because main structures are changed often (for example instead of enum for GSM_Error I implemented structure).
+</li><li>any volunteers to search for memory leaks and similar ?
+</li></ul></li></ul></li><li>some private issues - I'm still searching HDD frame/caddy for SATA drive for HP notebook, could anyone contact me (I will give all info) and search for it in own country ? Buying HDD + caddy from HP is too expensive for me... I'm thinking about replacing current phone for N6233 - maybe during next month will have enough money...
+</li><li>I have plan for next semester. I will write my diploma work, but will spend a lot of time on coding too (it's connected with diploma).
+</li><li>TimeFrames - I promised them many times. I don't know, what to say. I wanted to release new test Gammu (without "+") during this weekend and maybe next Gammu+ during next week. I will see.
+</li></ul>

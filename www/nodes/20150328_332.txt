@@ -1,0 +1,26 @@
+﻿Title:x
+Author:marcin
+When:28 Mar 2015
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Nowy dzień w innym nastroju,<br />
+choć narobiło się tu gnoju,<br />
+I bierzecie mnie za wariata,<br />
+który głupio po świecie lata,</p>
+<p>Ja robię co inni nie mogą,<br />
+Nie boję się iść krętą drogą,<br />
+Mam przebogate przemyślenia,<br />
+Nie lubię głupiego chrzanienia,</p>
+<p>Chcę budować i mam siłę,<br />
+Zbuduję nim załapię kiłę,<br />
+Bo duch mój jest niezwyciężony,<br />
+Umysł tak mocno mocą natchniony,</p>
+<p>Nieważne, że czegoś brakuje,<br />
+ręce mam, to to naprostuje,<br />
+Że się mylę ludzka natura,<br />
+nie zmienię się jednak w szczura,</p>
+<!--break-->
+<p>Co ciągle drży i ciągle się boi,<br />
+bo Polaczkowi to nie przystoi...</p>

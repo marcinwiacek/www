@@ -1,0 +1,12 @@
+﻿Title:Report 2007-12-10
+Author:marcin
+When:10 Dec 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I would like to speak shortly about differences between Gammu and Gammu+ now. This will be linked from main page. This is my opinion and you don't have to agree with it...</p>
+<p>First Gammu - released with GPL2 license is currently lead by <a href="http://cihar.com">Michal</a>. Quite big and supporting many devices. You can have worse support in Windows than earlier and I don't like some things inside, but development goes forward. Michal will give probably also less for Nokia devices than I.</p>
+<!--break-->
+<p>Gammu+ - much smaller (Nokia only now) and in my opinion much better logic and separated into parts. It works in Linux with bluetooth and irda only, can also have worse command line version...but it's totally free in any license meaning (excluding situation, when you will apply Bluez patch). In fact there was done everything to give support for latest Series 40 phones and missed things are in fact small details. Unfortunately, I don't have motivation for moving it forward - Gammu is enough for many users and some are accusing me about breaking "freedom" (is something is not GPL2, then...). And there is also more "normal" reason - I don't own Series 40 phone now.</p>
+<p>As you can see, I still have money for hosting gammu.org. I also created few articles here - about <a href="?q=node/8">Nokia phones history</a> (rather old), <a href="?q=node/103">nx6325 notebook</a>, <a href="?q=node/14">Windows history</a> (rather short) and about <a href="?q=node/6">Vista problems</a>. </p>
+<p>How could I summary development ? Unfortunately, I didn't reach targets, which could allow me making Gammu/Gammu+ main thing in my life... I don't know, if it will be possible for me supporting Nokia devices in situation, when they are not interested in any help with it.</p>

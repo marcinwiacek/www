@@ -1,0 +1,18 @@
+﻿Title:Z okolicy
+Author:marcin
+When:09 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Może i dużo doświadczyłaś<br />
+i u chłopaków zobaczyłaś.<br />
+Może i masz cerę ziemistą i niedoskonałą<br />
+ale doprawdy jak patrzę na Ciebie całą<br />
+dreszcz mnie przeszywa niespodzianie<br />
+i niejeden włosek na mym ciele stanie.<br />
+Widzę u Ciebie demona nieokiełznanego,<br />
+chęć przeżycia wrażenia ekstremalnego.<br />
+To mnie mocno pociąga, nęci, korci i kusi,<br />
+czy pójdziesz do mnie od swej mamusi ?</p>
+<!--break-->

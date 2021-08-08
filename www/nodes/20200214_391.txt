@@ -1,0 +1,69 @@
+﻿Title:1922 fantastyczne teksty (a nawet o wiele więcej) z fantastyka.pl i fantastykapolska.pl za darmo w plikach EPUB (2020, wersja 1.1)
+Author:marcin
+When:14 Feb 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,S.F.
+
+<img src=sites/default/files/391/cover4.jpg align=right width=100>
+<img src=sites/default/files/391/cover3.jpg align=right width=100>
+<img src=sites/default/files/391/cover2.jpg align=right width=100>
+<img src=sites/default/files/391/cover1.jpg align=right width=100>
+<p><nobr>W ostatnim</nobr> czasie ćwiczę się coraz bardziej w pisaniu różnych wprawek literackich i postanowiłem przejrzeć sobie również gotowe teksty ze strony fantastyka.pl, ale... nie są one dostępne w łatwej do czytania na komórce formie.</p>
+
+<p>W tym momencie postanowiłem zaprząc do roboty szare komórki i w trakcie wolnego czasu napisać krótki skrypt, który pobrałby zawartość wspomnianej strony (a konkretnie biblioteki, w której przynajmniej w teorii umieszczone są specjalnie wyselekcjonowane utwory) i stworzył mi małego, ślicznego i łatwego do czytania EPUB-a.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/fantastyczne-teksty-a-nawet-wiecej-za-darmo-w-pliku-EPUB,106324.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>W ostatnim czasie ćwiczę się coraz bardziej w pisaniu różnych wprawek literackich i postanowiłem przejrzeć sobie również gotowe teksty ze strony fantastyka.pl, ale... nie są one dostępne w łatwej do czytania na komórce formie.</p>
+
+<p>W tym momencie postanowiłem zaprząc do roboty szare komórki i w trakcie wolnego czasu napisać krótki skrypt, który pobrałby zawartość wspomnianej strony (a konkretnie biblioteki, w której przynajmniej w teorii umieszczone są specjalnie wyselekcjonowane utwory) i stworzył mi małego, ślicznego i łatwego do czytania EPUB-a.</p>
+
+<p>Podobne zabawy robiłem przez lata - konwertowałem sobie np. różne strony i artykuły do plików CHM, formatowałem ustawy z PDF do plików HTML wymaganych przez engine &quot;Przepisów drogowych&quot;, zrobiłem wyszukiwarkę ebooków &quot;przeglądającą&quot; najpopularniejsze serwisy (aplikacja &quot;Poczytaj mi tato&quot;), itp.</p>
+
+<p>Jak postanowiłem, tak zrobiłem...</p>
+
+<center><img src="sites/default/files/391/1.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Skrypt został udostępniony pod adresem <a href="https://github.com/marcinwiacek/fantastyka" target="_blank" rel="noopener" rel="nofollow">https://github.com/marcinwiacek/fantastyka</a> - sprawdziłem go pod Ubuntu z doinstalowanym PHP.</p>
+
+<p>Uruchamiamy go po prostu wpisując z linii komend &quot;php nazwa_skryptu&quot; - pobiera strony, przekształca ich treść w XHTML, dodaje m.in. spis treści, kopiuje plik z okładką i pakuje wszystko do ZIP-a, któremu następnie zmienia rozszerzenie na EPUB.</p>
+
+<center><img src="sites/default/files/391/2.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Z plików pobieram info o autorze, tagi, notki, itp., zaś zamiast obrazków podaję linki (plik z nimi miał bodajże coś koło 200 MB)</p>
+
+<p>Pliku wynikowego celowo nie dodałem do repozytorium - nie chcę, żeby ktoś mnie ciągał o prawa autorskie.</p>
+
+<center><img src="sites/default/files/391/3.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Jeżeli chodzi o czytniki:</p>
+
+<ul><li>PocketBook na Androida - czyta plik OK, jest szybki, nie pokazywał mi poszczególnych rozdziałów, gdy pliki XHTML miały błędy</li>
+
+<li>Lithium na Androida - czyta plik OK, jest szybki, pokazywał błędy w rozdziałach (gdy jeszcze były)</li>
+
+<li>Calibre na Windows - czyta plik OK, średnio szybki</li>
+
+<li>csBooks na Ubuntu - czyta plik OK, jest szybki, pokazywał błędy w rozdziałach (gdy jeszcze były)</li>
+
+<li>Okular na Ubuntu - czyta plik OK, koszmarnie wolny, można zapomnieć</li></ul>
+
+<p>Dziękuję za uwagę.</p>
+
+<p>PS. Nie zależy mi na chwaleniu się, jakość kodu skryptu też jest wystarczająca dla moich celów (jeżeli ktoś chce poprawić, proszę o commita).&#160;</p>
+
+<p><b>Update 16.2: </b>dodałem skrypt pobierający pliki EPUB z fantastykapolska.pl
+
+<p><b>Update 17.2: </b>pewna dyskusja została otwarta pod adresem <a href="https://www.fantastyka.pl/hydepark/pokaz/23925" target="_blank" rel="noopener" rel="nofollow">https://www.fantastyka.pl/hydepark/pokaz/23925</a> (a ja również w międzyczasie dodałem opcję wznawiania pobierania, obsługi archiwum i poczekalni i zrobiłem dużo poprawek zarówno w skrypcie dotyczącym fantastyka.pl jak i fantastykapolska.pl)&nbsp;</p>
+
+<p><b>Update 19.2: </b>skrypty dotyczące <a href=http://fantastyka.pl>fantastyka.pl</a> jak i <a href=http://fantastykapolska.pl>fantastykapolska.pl</a> są praktycznie gotowe - w pierwszym wypadku
+mamy obsługę biblioteki/archiwum/poczekalni, wznawianie sesji (jeśli artykuły są pobrane, skrypt nie pobiera ich ponownie),
+itp., w drugim pobieranie plików EPUB i łączenie jedno-rozdziałowych plików w jeden EPUB (do zrobienia jest jeszcze
+obróbka niektórych rozdziałów, które oryginalnie zostały bardzo słabo przygotowane).
+
+<center>
+<img src=sites/default/files/391/cover1.jpg width=300>
+<img src=sites/default/files/391/cover2.jpg width=300>
+<img src=sites/default/files/391/cover3.jpg width=300><br>
+<img src=sites/default/files/391/cover4.jpg width=300></center>
+
+<p><b>Update 22.3</b>: Wątek na fantastyka.pl: <a href="https://www.fantastyka.pl/hydepark/pokaz/23925">link</a>

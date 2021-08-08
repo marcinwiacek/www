@@ -1,0 +1,39 @@
+﻿Title:Report 2007-03-06
+Author:marcin
+When:06 Mar 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I would like to write here some more and less bitter and some good words about developing Open Source software. These are some random thoughs. This is based on own experiences, but not only... Sorry for grammar mistakes...</p>
+<p align="right">Marcin Wiącek, March 2007</p>
+<p>I will try to answer on some questions:</p>
+<p><b>why people create Open Source software ?</b></p>
+<!--break-->
+<ul><li>because they have a lot of free time and don't know, what to do with it (and want to show world - hey, I can do it...)
+</li><li>because they need something (for example some functions) and it isn't available
+</li><li>because it's connected with their normally done job
+</li></ul><p><b>what are main problems with this type of software ?</b></p>
+<ul><li>believe or not, but there are no standards - it's good, that you can select, what you want, but from other hand after checking many incompatible solutions you have a lot of used time and don't know, which one should be selected (in other words: you can not like Microsoft, but many things there are done once and you're "almost" always sure, that they won't be different). I will add, that there are many good programmers, who want to work, but (almost) nobody is interested in merging their efforts...because it's difficult and doesn't give big profits all the time...
+</li><li>many people are thinking about licensing problems, publishing source and famous GPL 2b only (in other words: they don't have technical knowledge about it and preffer safe exit which is closed source sold by big companies)
+</li><li>normally projects are started by single people. if they can't find sponsors, projects die. if they don't have uncle with many USD, projects die...etc.etc. of course you can say, that this is like in real animal world (only good solutions survive), but...let's say, that there was some software created for some concrete task. In some moment it can't be easy extended. It's enough for 80 - 90 % of people. and now question: is it good, that author doesn't have funds for rewriting it and making much better ? in Open Source world you will have such problems very often... if you don't have hard motivation and psychic construction, you won't be often happy during writing Open Source (you will see, how many people make big money on this project and even don't say - thank you; many other people will give you job connected with project and promise payment/donation, but won't do it after receiving results; etc.etc.).
+</li><li>when you go away from clean GPL, many people stop speaking with you
+</li></ul><p><b>cycle of live for Open Source project</b></p>
+<ol><li>big boom (adding many things, people are interested in sponsoring)
+</li><li>time of fixing mistakes (less and less sponsors)
+</li><li>if you have constant sponsor, project can go to the version 2 (another big boom). if not, it's going to be dead
+</li></ol><p><b>Gammu problems</b></p>
+<ul><li>GPL 2 and maybe using C language
+</li><li>it didn't join much more programmers
+</li><li>some important people weren't convinced, that this topic (cell phone managing from PC) is important...their only one answer was: "this is given for free by Nokia and others..."
+</li><li>GUI and Series 60
+</li><li>I live in Poland. Phones here are about 40 - 50% more expensive than in West Europe
+</li><li>it's popular and because it's good for many people, nobody is interested in sponsoring it
+</li></ul><p><b>Gammu big things</b></p>
+<ul><li>some articles and big fun
+</li><li>Debian package
+</li><li>having full FBUS implementation
+</li><li>project at least partially live under Michal's management (but IMHO, it's in point 2 or even 3)
+</li><li>I have knowledge for next projects
+</li></ul><p><b>What is conclusion ?</b></p>
+<p>At least currently my Open Source adventure can be done after full time job only... Sorry. As written previously, I will give Series 40 (March, April), Linux and later will do last big thing, which was spoken many times (Series 60). And maybe it's time for next big boom...</p>
+<p>And one additional thing: when next test release ? I hope to make it during this week. For now I'm playing with DoxyGen :-)</p>

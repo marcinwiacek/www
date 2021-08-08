@@ -1,0 +1,89 @@
+﻿Title:Stało się... nie ma wyścigu na cyferki, a średniaki będą mogły najwięcej (2020)
+Author:marcin
+When:21 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Stalo-sie-nie-ma-wyscigu-na-cyferki-a-sredniaki-beda-mogly-najwiecej,111092.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+
+<!--break-->
+
+<center>
+<img src="sites/default/files/413/1.jpg" style="width:405px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Mamy już za sobą tegoroczne święto czcieli wielkiego japka, a mnie z wszystkich prezentacji uktwiło w pamięci kilka rzeczy...</p>
+
+<ol><li>różnica w wydajności nowych iPadów podawana była względem poprzedniego modelu... urządzenia, nie procesora (co automatycznie powodowało, że liczby były większe)</li>
+
+<li>powtarzano, że ktoś tam bez urządzeń Apple już by nie żył (podświadome szerzenie strachu)</li>
+
+<li>nie odświeżono iPada mini i nie pojawiły się nowe iPhony</li>
+
+<li>w sprzedaży są ciągle starsze modele zegarków (Apple Watch Series 3), doszedł też &quot;tani&quot; Apple Watch SE</li>
+
+<li>pojawił się abonament na usługi</li></ol>
+
+<p>Jak dla mnie widać tu dwie możliwe przyczyny:</p>
+
+<ul><li>wyraźny problem ze zbytem nowych egzemplarzy - najwyraźniej nawet zwolennicy tej firmy zaczynają powoli uważać, że nie oferują one zbyt dużo (wiem, wiem, że to stwierdzenie mocno na wyrost, ale... fakty to fakty)</li>
+
+<li>Apple chce mocno uderzyć dopiero z Apple Silicon (np. za rok czy za dwa po przejściu chorób współistniejących wieku dziecięcego) i na razie mamy okres umiarkowanego wzrostu, który poniekąd jest wymuszony obecną sytuacją (żeby nie pisać do znudzenia o wirusie, Antifie, BLM i ucieczce z raju w Kalifornii, to odeślę tylko do <a href="https://next.gazeta.pl/next/7,151003,26320056,usa-nad-przepascia-znany-amerykanski-miliarder-ostrzega.html#do_w=52&amp;do_v=66&amp;do_a=292&amp;s=BoxBizMT" target="_blank" rel="noopener" rel="nofollow">artykułu z wielce mówiącym cytatem</a> &#39;&#39;Kolejne pięć lat może być katastrofalne dla USA, jeżeli Amerykanie głęboko nie przeprojektują swojego modelu kapitalizmu&quot;)</li></ul>
+
+<p>Firma zaczyna najwyraźniej stawiać mocniej na usługi niż na spektularne zmiany sprzętu - stąd właśnie iPad mini i Watch 3 najwyraźniej są &quot;good enough&quot;, a przyrost mocy pomiędzy A13 i A14 nie tak widoczny (na prezentacjach oczywiście mówiono wiele o większych możliwościach, ale miałem mocne wrażenie, że jest to na zasadzie powtarzania &quot;amazing, faster, better, incredible&quot; i sami pracownicy nie są przekonani do tego, co mówią).</p>
+
+<p>Sam ostatnio miałem uczestniczyć w rozpakowywaniu kolejnego gadżetu spod znaku jabłka i mogę powiedzieć, że w sumie nic tam się przez lata nie zmieniło - wszystko jest przepięknie opakowane, dokładnie spasowane i wykonane i prowadzi przeciętną Karen tak za rączkę, żeby broń Boże nie zrobiła żadnego błędu.</p>
+
+<p>Zainstalowałem tam oczywiście od razu GBoard od Google (bo Apple nie pozwala na używanie funkcji Swype z polskim językiem), założyłem nowe konto Google (nie pytało nawet o numer telefonu), skonfigurowałem urządzenie delikatnie bardziej offline (wyłączyłem iCloud, backup, itp.), pościągałem wszystkie możliwe narzędzia typu WPS Office (wiem, wiem, że to pakiet Chińczyków), czytników PDF, itp. i złapałem się na tym, że zacząłem ziewać.</p>
+
+<p>Rzecz w tym, że w dzisiejszych czasach praktycznie wszędzie można przeglądać Internet, mieć dostęp do maili wielkich korpo, przeglądać i edytować zdjęcia, PDF, DOCX, XLSX, EPUB i kilka innych formatów...</p>
+
+<p>Całe to ustawianie abonamentów, kont, kart płatniczych, itp. zwyczajnie mi się opatrzyło. Urządzenia z Cupertino wyróżniają się obecnie głównie tym, że po prostu działają (i często mają dopracowane główne aplikacje głównych współpracujących firm), ale nic ponadto... iPady nie mają ekranów AMOLED ani wodoszczelności, mini ciągle ma złącze firmowe, przez Bluetooth nie można przesłać pliku, itd. itd.</p>
+
+<p>Jeśli mam być szczery, to najbardziej było ciekawe coś innego - podczas samej prezentacji było kilka takich ujęć, że miałem wrażenie oglądania świata postapokaliptycznego (budynek głównej siedziby wygląda kosmicznie na zdjęciach, ale park w środku wyglądał jakby na zaniedbany, a co najmniej tak połączony z infrastrukturą jak na wielu filmach Sci-fi).</p>
+
+<p>Firma też mocno mówiła a jakże o ochronie środowiska i rezygnacji z ładowarek, ale... dziwnym trafem jakoś nie wspomniała o zarzutach <a href="https://www.youtube.com/channel/UCl2mFZoRqjw_ELax4Yisf6w" target="_blank" rel="noopener" rel="nofollow">Louissa Rossmanna</a> i niezależnych firm.</p>
+
+<p>Pewne podobieństwa widać również po drugiej stronie globu (czyli w Korei), zacznijmy jednak od podstaw: w wielu gałęziach elektroniki wciąż jest tak, że najdroższe komponenty oferują zazwyczaj więcej (przy czym różnica w cenie często nie uzasadnia różnicy w parametrach). </p>
+
+<p>Przykładem mogą być procesory - najlepsze wybrane egzemplarze mają największe taktowanie i możliwości przyspieszenia, te &quot;normalne&quot; (a jest ich znacznie więcej) zazwyczaj nie mają już takich samych parametrów...</p>
+
+<p>Przez lata tak było z telefonami Samsunga - mieliśmy serie tanie, średnie i te najdroższe, noszące dumne miano flagowców.</p><p>Pamiętam, jak na rynku pojawił się Samsung Galaxy S. Miał wspaniały ekran AMOLED, w miarę otwarte oprogramowanie, dobre kamery, sporo pamięci i inne atuty.</p>
+
+<p>Używałem go przez dłuższy czas, przekonałem się do wyrobów firmy i z niezwykłą przyjemnością zmieniałem je na kolejne modele, włączając w to legendarną es-siódemkę w wersji Duos.</p>
+
+<p>Ceny rosły - z 2000 PLN do 3000 PLN, potem doszły do 4000 PLN, 5000 PLN i 6000 PLN.</p>
+
+<p>Z czasem portfolio tego producenta zaczęło wykazywać odwrócenie tego, do czego można się było przyzwyczaić przez lata.</p><p>I tak jeśli chodzi o flagowce:</p>
+
+<ol><li>Wpierw (?) pozbyto się radia FM... to znaczy jakby jest, ale jednak go nie ma. W określonych modelach zdaje się ciągle znajduje się w układzie krzemowym, tylko nie zostało zaktywowane.</li>
+
+<li>Był jack, nie ma jacka (proszę nie mówić, że nie jest nowoczesny - jak dotąd nie widziałem idealnie brzmiącego telefonu przez USB ani Bluetooth, a ten ostatni to oczywiście też wymaga ładowania). Wymówką do jego usunięcia była wielkość baterii, które... w wielu modelach niekoniecznie urosły (tzn. wcześniej było miejsce, a teraz baterie mają tą pojemność, a złącza już brak)</li>
+
+<li>Była bateria do wymiany i już jej nie ma - wodoszczelność nie może tu być wymówką</li>
+
+<li>W instrukcji starszych modeli maksymalny SAR był rzędu 0,77 W/kg, obecnie oscyluje koło 1,5 W/kg - jeżeli dotyczy do tylko określonych przypadków, to ja bym jednak chciał zobaczyć tabelę i np. dowiedzieć się, że przy włączeniu hotspota mamy nieszczęsne 1,5 W/kg, a przy 5G 0,8 W/kg</li>
+
+<li>Było złącze na kartę pamięci, z czasem zostało wymienione przez &quot;nowoczesne&quot; złącze, w którym mamy dostęp albo do karty pamięci albo do drugiej karty SIM. Czyli jest, ale jakby go nie było</li></ol>
+
+<p>Trochę mi to przypomina &quot;maluszka&quot; czy 125p z PRL - początkowo składane z części włoskich, miały styl i trzymały jakość. Z czasem ich cena rosła, a jakość spadała (w przypadku malucha polecam na YouTube filmik &quot;Jak się kupowało samochody w PRL&quot; będący fragmentem filmu &quot;Fetysz&quot;).</p>
+
+<p>Co ciekawe w przypadku Samsunga - to co zginęło we flagowcach, to pozostało w średniakach i klasie podstawowej (która rozbudowała się do serii A, M i teraz chyba też F).</p>
+
+<p>Zaczęto promować totalne średniactwo (nawet w dziedzinie wydajności, o czym świadczy nieszczęsny Exynos 990), a dodatkowo klasą wyższą pozostaną być może tylko modele składane. Pewnie będą znajdować zwolenników, nie mnie oceniać. Ich problemem jest jednak kanapkowość (rozmiary) i mniejsza wytrzymałość wyświetlacza. Można powiedzieć, że dla części użytkowników nieistotna będzie nawet cena, ale... płacić ok. 8000 PLN za Androida?</p>
+
+<p>Samsung przynajmniej w teorii wydłużył czas swojego wsparcia programowego dla niektórych modeli, ale równocześnie rozdrobnił się na dziesiątki urządzeń, które będą produkowane (ze szkodą dla środowiska) i wciskane gdzie się tylko da. Będziemy pewnie mieli reklamy w UI, jeszcze więcej &quot;własnego&quot; bloatware, itp.</p>
+
+<p>Dla większości firma będzie kojarzona z tandetą - wielu z nas najprawdopodobniej będzie zmuszonych żyć z plastikiem albo będzie musiało przenieść się do obozu jabłka, które nie ma już dawnego splendoru i efektu &quot;wow&quot; (ewentualnie będzie eksperymentować z produktami z Chin, których jakość potrafi być dyskusyjna).</p>
+
+<p>Działanie obu firm przypomina mi innego giganta, czyli Nokię. Mieli swojego Symbiana, w którym z uporem maniaka promowali pewne rozwiązania. System był mało wymagający, ale... bywał uciążliwy.</p>
+
+<p>I co? Ano przyszedł wybawca Jobs i w końcu nie ma Nokii.</p>
+
+<p>Tylko czy to może się udać po 2020?</p>
+
+<p>Wydaje się, że do tego potrzebne były działania podobne jak w przypadku Huawei.</p>
+
+<p>Czy tak czy inaczej - w krótkiej perspektywie nie nastawiałbym się teraz na lepszy sprzęt, a bardziej na wykorzystanie tego sprzętu (i jeśli sami użytkownicy nie wyjdą z instagramów, facebooków, itp. i nie przedstawią rewolucji, to jesteśmy w czarnej..., bo ilość śmieci będzie niewyobrażalna nawet w porównaniu do dnia dzisiejszczego)</p>
+
+<p>Ważne, żebyśmy zeszli z tonu &quot;a mnie się należy...&quot; i przestali rozpaczać, bo np. jakaś tam aktualizacja pojawiła się godzinę później...&nbsp;</p>

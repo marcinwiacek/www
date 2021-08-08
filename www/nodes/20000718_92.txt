@@ -1,0 +1,373 @@
+﻿Title:FAQ - loga operatora w Nokiach (2000)
+Author:marcin
+When:18 Jul 2000
+Taxonomy:Polski,GSM,Polski artykuł
+
+<p align="justify"><a name="Top" id="Top"></a><b><font color="#FF6666">Pamiętaj, że ja ani osoby tu wymienione nie ponoszą żadnej odpowiedzialności za szkody wynikłe z użycia zawartych tu wiadomości (wykorzystujesz je na własną odpowiedzialność) !</font></b></p>
+<p></p><ol><li><a href="#1"><b>Co to jest ?</b></a></li>
+<li><a href="#2"><b>Czy mój telefon może je wyświetlać ?</b></a></li>
+<li><a href="#3"><b>Co potrzeba do stworzenia loga ?</b></a></li>
+<li><a href="#4"><b>Gdzie w Internecie można znaleźć gotowe loga ?</b></a></li>
+<!--break-->
+<li><a href="#5"><b>W jaki sposób można przesłać logo do telefonu ?</b></a></li>
+<li><a href="#6"><b>Przegląd dostępnych programów do edycji/wysyłania log</b></a></li>
+<li><a href="#7"><b>Dlaczego nie mogę zainstalować programów Thomasa Kesslera (pokazuje się 'Runtime error') ?</b></a></li>
+<li><a href="#8"><b>Dlaczego nie mogę zainstalować programu Logo Express (błąd rejestracji bibliotek) ?</b></a></li>
+<li><a href="#9"><b>Jak skonfigurować programy ?</b></a></li>
+<li><a href="#10"><b>Przesyłanie log przy użyciu konkretnych programów</b></a></li>
+<li><a href="#11"><b>Dlaczego nie mogę go po prostu przesłać kablem (we wszystkich modelach) ?</b></a></li>
+<li><a href="#12"><b>Czy mogę je wysłać przez Internet albo modem ?</b></a></li>
+<li><a href="#13"><b>Dlaczego nie mogę go przesłać używając tego centrum wiadomości SMS co zawsze ?</b></a></li>
+<li><a href="#14"><b>Jak zapisać logo w pamięci telefonu ?</b></a></li>
+<li><a href="#15"><b>Chcę wykasować moje logo !</b></a></li>
+<li><a href="#16"><b>Czy mogę skopiować logo z pamięci telefonu do komputera</b></a></li>
+<li><a href="#17"><b>Mój notebook ze złączem podczerwieni nie chce działać..</b></a></li>
+<li><a href="#18"><b>Jak przesyłać loga do Nokii 3210 ?</b></a></li>
+<li><a href="#19"><b>Czy wgranie loga operatora narusza warunki gwarancji ?</b></a></li>
+<li><a href="#20"><b>Przy próbie bezpośredniego wgrania loga przez kabel (albo jego wykasowania) programem LogoManager nic się nie dzieje...</b></a></li>
+<li><a href="#21"><b>Jak skopiować logo z telefonu do telefonu ?</b></a></li>
+<li><a href="#22"><b>Dodatkowe informacje</b></a></li>
+</ol><hr size="2" noshade="noshade" width="60%" align="center" style="color: #004080" /><p><a name="1" id="1"></a><font color="#1F409F" size="+2" class="dzial">1. Co to jest ?</font><br /></p>
+<hr size="3" align="left" noshade="noshade" width="300" color="#60C0A0" /><p align="justify">Logo operatora to po prostu mały rysuneczek wyświetlany zamiast nazwy konkretnej (Ty ją wybierasz) sieci komórkowej, gdy telefon znajduje się w jej zasięgu (np. zamiast 'Era GSM' na ekraniku może się pojawić znaczek znany z reklam, 'Witaj Mareczku', 'Kocham Cię' czy coś innego...).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="2" id="2"></a><font color="#1F409F" size="+2" class="dzial">2. Czy mój telefon może je wyświetlać ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Loga operatora obsługują nowsze Nokie - większość modeli serii 5110 (np. 5110 i 5130), 6100 (6110, 6130 i 6150), 8800 (8810), 9100 (9110) i 3200 (3210). Przy czym jedna ciekawostka: czasami obsługa log zależy od wersji oprogramowania w telefonie (tzn. jeżeli jest ono nowe, są one obsługiwane) - przykładowo w Nokii 6190 musi być ono w wersji co najmniej 5.83. Logo jest zapisywane w ich pamięci (jednorazowo mieści ona tylko jeden taki rysunek o rozmiarach 72x14 pikseli). Po jego wgraniu telefon może niestety nie wyświetlać wszystkich informacji (np. może nie mieścić na ekranie się długie cellinfo i nazwa profilu).</p>
+<p align="justify">Taką możliwością dysponują obecnie także niektóre Motorole i Siemensy (niemniej jednak nie mam dodatkowych informacji na ten temat).</p>
+<p align="justify">Starsze Nokie (np. 2110, 3110) albo telefony innych firm NIE MAJĄ jej (chociaż tutaj mogę się mylić).</p>
+<p align="justify">Czy więc posiadacze innych telefonów nie mogą zmienić wyświetlanej nazwy sieci ? Nie, jest to oczywiście możliwe np. w większości Siemensów (patrz opis dla <a href="http://www.rasco.krakow.pl/gsm/tips.htm#s4nazwasieci">Siemensa S4</a>), w Nokiach (niezbędne jest odpowiednie oprogramowanie serwisowe i <a href="../cables/cables.htm">kabel</a> do podłączenia telefonu) i Motorolach (wymagany jest m.in. emulator karty SIM)...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="3" id="3"></a><font color="#1F409F" size="+2" class="dzial">3. Co potrzeba do stworzenia loga ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Możesz do tego użyć właściwie dowolnego programu graficznego - dostępne obecnie programy do wysyłania log pozwalają importować obrazki (o rozmiarach 72x14 pikseli i w 2 kolorach) w praktycznie każdym popularnym formacie (GIF, BMP, JPG) albo ze Schowka systemowego (w Windows)...</p>
+<p align="justify">Co więcej, część z nich ma wbudowany edytor z różnymi przydatnymi narzędziami - po szczegóły odsyłam do ich porównania...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="4" id="4"></a><font color="#1F409F" size="+2" class="dzial">4. Gdzie w Internecie można znaleźć gotowe loga ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ul><li><a href="http://www.fkn.pl/logo/operatora/index.html">http://www.fkn.pl/logo/operatora/index.html</a> (bezapelacyjnie najlepsza strona poświęcona logom operatora - część <a href="http://www.fkn.pl">Fan Klubie Nokii</a>)</li>
+<li><a href="http://www.kessler-design.com/wireless/">http://www.kessler-design.com/wireless/</a> (strona domowa <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> Thomasa Kesslera z logami operatorów z całego świata)</li>
+<li><a href="http://www.worldonlinee.com/mkaren">http://www.worldonlinee.com/mkaren</a> (<a href="http://www.worldonlinee.com/mkaren">#1 NOKIA WEB</a> z logami grup (głównie) i operatora (raczej zagraniczne sieci))</li>
+<li><a href="http://www.kolumbus.fi/valonen/logonet/english_index.html">http://www.kolumbus.fi/valonen/logonet/english_index.html</a> (<a href="http://www.kolumbus.fi/valonen/logonet/english_index.html">LogoNet</a> z logami grup (głównie) i operatora (raczej zagraniczne sieci))</li>
+<li><a href="http://lukasco.ssk.pl/">http://lukasco.ssk.pl/</a> (strona <a href="http://lukasco.ssk.pl/">Lukasa</a>)</li>
+<li><a href="http://www.xs4all.nl/~beebee/logos.html">http://www.xs4all.nl/~beebee/logos.html</a> (głównie loga zagranicznych sieci)</li>
+<li><a href="http://www.vc.pl/phoenix/logo/logo_nokia.htm">http://www.vc.pl/phoenix/logo/logo_nokia.htm</a></li>
+<li><a href="http://friko.onet.pl/wa/marekba/rami_p.htm">http://friko.onet.pl/wa/marekba/rami_p.htm</a> (strona <a href="http://friko.onet.pl/wa/marekba/rami_p.htm">Marka</a>)</li>
+</ul><p align="justify">Loga te w większości się niestety powtarzają (jeżeli jednak nie znajdziesz którejś strony, będziesz mógł(mogła) je pobrać z następnej)...</p>
+<p></p><table cellspacing="0" cellpadding="0" width="100%" border="0" style="border-collapse:separate;"><tr><td><img src="sites/default/files/nm/tip.gif" height="36" width="27" /></td>
+<td>
+<p align="justify">Przeglądanie gotowych log możesz sobie ułatwić używając programu <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a>.<br /></p><p align="justify">Możesz użyć programu z <a href="http://www.gsmbox.pl">www.gsmbox.pl</a><br /></p><p align="justify">Przeglądarkę znajdziesz również <a href="http://www.adat.co.at/optools-nokia.htm">tutaj</a> (wymaga bibliotek Visual Basic 6.0). Niestety, wersja niezarejestrowana jednorazowo pozwala obejrzeć ok. 20 log (później trzeba zrestarować program).<br /></p><p align="justify">Programy te są dostępne na serwerze <a href="ftp://ftp.fkn.pl/pub/nokia/">FTP Fan Klubu Nokii</a>.
+</p></td>
+</tr></table><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="5" id="5"></a><font color="#1F409F" size="+2" class="dzial">5. W jaki sposób można przesłać logo do telefonu ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Najprostsza metoda polega na skorzystaniu z (dostępnego w niektórych modelach) złącza podczerwieni - należy przybliżyć telefon do złącza podczerwieni w komputerze, włączyć odbiornik w telefonie (np. <b>Menu 10</b> w Nokii 6110) i wgrać logo odpowiednim programem: <a href="http://www.logomanager.co.uk/">Logo Manager</a>, <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a> lub <a href="http://wwwp.timenet.net/guyver/">Group-Logo Uploader</a> Johna Changa.</p>
+<p align="justify">Jeżeli w swoim telefonie/komputerze nie masz takiego złącza, równie dobrze możesz wgrać logo bezpośrednio do pamięci telefonu przez <a href="../cable/cables.htm">kabel</a>:</p>
+<p></p><ul><li><a href="../cables/cables.htm">FBUS</a> - loga wgrywa <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a> albo <a href="http://www.logomanager.co.uk/">Logo Manager</a>, możliwe jest to także z <a href="http://www.gnokii.org">gnokii</a> (wszystkie do Nokii 6100, dwa ostatnie również do Nokii 5100)</li>
+<li><a href="../cables/cables.htm">DLR-3</a> - pozwala na to <a href="http://www.logomanager.co.uk/">Logo Manager</a></li>
+<li>
+<a href="../cables/cables.htm">MBUS</a> - potrzebujesz do tego komercyjnego programu serwisowego WinTesla i programiku <a href="http://members.xoom.com/jjjbond/">NolBin</a>. <b><font color="#FF6666">PRAGNĘ JEDNAK Z GÓRY UPRZEDZIĆ, IŻ ICH UŻYCIE MOŻE SPOWODOWAĆ USZKODZENIE SŁUCHAWKI I GO RACZEJ NIE POLECAM...</font></b>. Z kablami takimi działa również wspomniany <a href="http://www.logomanager.co.uk/">Logo Manager</a>.</li>
+</ul><p align="justify">Oba powyższe rozwiązania są bardzo wygodne, gdyż przesłanie loga jest bezpłatne. Ich wadą jest niestety to, iż dostępne aktualnie oprogramowanie do komputera nie potrafi porozumieć się ze wszystkimi słuchawkami: firma <a href="http://www.nokia.com">Nokia</a><br />
+ciągle bowiem zmienia protokoły transmisji...albo możliwości i funkcji ich oprogramowania.</p>
+<p align="justify">Co więc zrobić, gdy masz właśnie taką "nietypową" słuchawkę ? Należy wykorzystać fakt, iż loga operatora mogą być przesyłane jako specjalnie zakodowane SMSy (i każda Nokia, która obsługuje loga, potrafi je odbierać w tej postaci)... Dlatego też wpierw musisz sprawdzić, czy opisane w <a href="#6">pytaniu 6</a> oprogramowanie potrafi pracować z Twoim telefonem. Jeżeli nie, musisz znaleźć inną słuchawkę (taty, babci, wujka, itp...), która działa z którymś z tych programów (np. Nokię 6110), podłączyć ją do komputera (przez złącze podczerwieni albo <a href="../cables/cables.htm">kabel</a>) i logo wysłać tym razem jako SMSa (pod numer włożonej do Twojego telefonu karty SIM oczywiście). Z kolei, gdy odpowiedź jest twierdząca, po podłączeniu swojej słuchawki wysyłasz z komputera loga pod jej numer. I już...</p>
+<p align="justify">Oprócz takiej prostej funkcji (wysyłanie loga jako SMS przez dołączony do komputera telefon), większość z tych programów pozwala również na zapisanie loga na karcie SIM (po odłączeniu od komputera będziesz mógł(mogła) je wysyłać komu chcesz bezprośrednio z menu telefonu - wszak jest to SMS).</p>
+<p align="justify">Ale w tym momencie (gdy ktoś/Ty wysyłasz logo w postaci SMSa) najczęściej pojawia się pewien haczyk: by czyjś/Twój telefon go zinterpretował właśnie jako logo, SMSC (Centrum SMS), które go wysłało, musi być odpowiednio przystosowane do jego przesłania... Inaczej będzie to "zwykły" SMS. Co wtedy ? Trzeba zmienić użyte SMSC... Jeżeli poszukiwania skończą się fiaskiem, należy wtedy np. poszukać kogoś z aktywacją z innej sieci, kto pozwoli nam wysłać owego upragnionego SMSa (jego SMSC musi obsługiwać loga i umieć przesyłać SMSy do Twojej sieci) - tak sobie obecnie najczęściej radzą posiadacze <a href="http://www.eragsm.pl/">Ery GSM</a> (proszą ;-) o to użytkowników <a href="http://www.plusgsm.pl/">Plus GSM</a>)... Przy czym wtedy ten ktoś musi wysłać logo z telefonu, który obsługuje loga (czyli którejś z wymienionych na górze Nokii). Może też włożyć swoją kartę do Twojego telefonu (o ile nie masz simlocka) i wysłać logo pod jego numer telefonu (chodzi o to, żeby wysłany SMS "wrócił" pod numer karty SIM, która znajduje się w Twoim telefonie)...</p>
+<p align="justify">Jeżeli korzystasz z sieci <a href="http://www.idea.centertel.pl/">Idea</a>, będziesz mógł(mogła) otrzymać pewne gotowe loga  z bramki działającej dzięki <a href="http://www.fkn.pl/">Fan Klubowi Nokii</a> (odnośnik do jej opisu i listy przesyłanych log znajdziesz na stronie <a href="http://www.fkn.pl/logo/operatora/index.html">http://www.fkn.pl/logo/operatora/index.html</a>). Należy pamiętać, iż bramka ta sama ustawia sieć, w której logo będzie wyświetlane (czyli <a href="http://www.idea.centertel.pl/">Ideę</a>).</p>
+<p align="justify">Jeżeli nie możesz wysyłać ze swojego telefonu SMSów, użyj programu <a href="http://www.wildies.de/nokia/index.html">Smart Messaging Agent</a>, który przy pomocy modemu łączy się z SMSC dostępnym pod normalnym numerem telefonu (jak modem) i wysyła przez niego logo... Należy się tutaj przygotować na trochę większe koszty: opłatę międzynarodową <a href="http://www.tpsa.pl/">TPSA</a> (polskie SMSC nie obsługują połączeń dial-up, więc trzeba dzwonić za granicę).</p>
+<p align="justify">I na koniec jeszcze inna możliwość: czasami wgranie loga (czyli faktycznie wysłanie SMSa z nim) oferują różni ludzie na listach dyskusyjnych związanych z tematyką GSM/stronach WWW. Tylko, że cena w ten sposób otrzymanego loga może być astronomicznie wysoka w stosunku do kosztów jego wysłania (nawet 10, 20 zł !). Ale jeśli chcesz, zajrzyj np. na stronę<br /><a href="http://www.waw.pdi.net/~pawelk/nokia-logo/">http://www.waw.pdi.net/~pawelk/nokia-logo/</a> albo <a href="http://www.vc.pl/phoenix/logo/logo_nokia.htm">http://www.vc.pl/phoenix/logo/logo_nokia.htm</a>. Czasami jest to także oferowane przez różne firmy, gdy wykupisz u nich inną usługę związaną z telefonem (patrz np. <a href="http://www.datex.pl/">http://www.datex.pl/</a>).</p>
+<p align="justify">Czasami jest to oferowane za darmo (?): <a href="http://www.bydgostia.org.pl/logo/">http://www.bydgostia.org.pl/logo/</a>.</p>
+<p align="justify">Natomiast stronę <a href="http://www.apic.com.sg">http://www.apic.com.sg</a> wymienię raczej jako ciekawostkę - po zarejestrowaniu można z niej wysłać bezpłatnie 3 loga... No i oczywiście musi być możliwe (tzn. nie zablokowane przez operatorów) wysyłanie SMSów z sieci Singapore Mobile One (M1-SG, 525-03) do Twojej (według mojej informacji nie działa to więc dla numerów <a href="http://www.eragsm.pl/">Ery GSM</a> rozpoczynających się od 606)... Można również skorzystać ze strony <a href="http://www.sms2me.com/">http://www.sms2me.com/</a>.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="6" id="6"></a><font color="#1F409F" size="+2" class="dzial">6. Przegląd dostępnych programów do edycji/wysyłania log</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><table border="" cellspacing="0" cellpadding="0"><tr><td><center>nazwa</center></td>
+<td><center><a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> Thomasa Kesslera<br />(shareware)</center></td>
+<td><center><a href="http://www.dlc.fi/~sariak/">Logo 6110</a><br />(freeware)</center></td>
+<td><center><a href="http://www.logomanager.co.uk/">LogoManager</a><br />(shareware)</center></td>
+<td><center><a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a><br />(freeware)</center></td>
+<td><center><a href="http://wwwp.timenet.net/guyver/">Group-Logo Uploader</a> Johna Changa (freeware)</center></td>
+<td><center><a href="http://www.gnokii.org">gnokii</a> (<a href="ftp://ftp.linux.cz/pub/linux/people/pavel_janik/Gnokii/">tutaj</a> są najnowsze wersje testowe) (freeware z kodem źródłowym)</center></td>
+<td><center><a href="http://atrey.karlin.mff.cuni.cz/~short/sw/">do wysyłania log do Nokii 9110</a> (freeware z kodem źródłowym)</center></td>
+<td><center><a href="http://www.student.oulu.fi/~arholopa/">do wysyłania log do Nokii 9110</a></center></td>
+</tr><tr><td><center>system operacyjny</center></td>
+<td><center>Windows 95/98 (NT 4.0)</center></td>
+<td><center>Windows 95/98 (NT 4.0)</center></td>
+<td><center>Windows 95/98 (NT 4.0)</center></td>
+<td><center>Windows 95/98 (NT 4.0)</center></td>
+<td><center>DOS</center></td>
+<td><center>Unix (Linux) albo Windows 95/98 (NT 4.0)</center></td>
+<td><center>Unix</center></td>
+<td><center>GEOS</center></td>
+</tr><tr><td><center>wymaga runtime VB 5.0</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td rowspan="14"><center>nie posiadam szczegółów</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>wymaga runtime VB 6.0</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>wymaga <a href="http://www.fkn.pl/faqs/ncdsfaq.html">Nokia Cellular Data Suite</a></center></td>
+<td><center>tak (tylko przy połączeniu kablem) - do poprawnej pracy wersja 2.0 musi być uaktualniona do 2.0a</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>rodzaj połączenia</center></td>
+<td><center><a href="../cables/cables.htm">kabel FBUS</a> / podczerwień</center></td>
+<td><center><a href="../cables/cables.htm">kabel FBUS</a></center></td>
+<td><center><a href="../cables/cables.htm">kabel FBUS / MBUS</a> (po zmianie ustawień programem LmConfig.exe)/ podczerwień</center></td>
+<td><center><a href="../cables/cables.htm">kabel FBUS</a> / podczerwień</center></td>
+<td><center>podczerwień</center></td>
+<td><center><a href="../cables/cables.htm">kabel FBUS</a> / podczerwień</center></td>
+<td><center>nie dotyczy</center></td>
+</tr><tr><td><center>obsługiwane formaty</center></td>
+<td><center>BMP, GIF, JPG, ICO, RLE, WMF, EMF, I61, NGG, NOL</center></td>
+<td><center>import grafiki przez Schowek</center></td>
+<td><center>NLM, NOL, NGG, I61, import grafiki przez Schowek</center></td>
+<td><center>JPG, BMP, NOL, NGG</center></td>
+<td><center>NGG, MBP, NOL</center></td>
+<td><center>NOL, NGG, NLM</center></td>
+<td><center>BMP, NOL</center></td>
+</tr><tr><td><center>edycja log</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+</tr><tr><td><center>zapisuje loga na karcie SIM</center></td>
+<td><center>tak (w Skrzynce Odbiorczej)</center></td>
+<td><center>tak (w Skrzynce Nadawczej)</center></td>
+<td><center>nie</center></td>
+<td><center>tak (w Skrzynce nadawczej lub Odbiorczej)</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>zapisuje logo bezpośrednio do pamięci telefonu przy połączeniu kablem</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak (na pewno Nokie 6100 i 5100)</center></td>
+<td><center>tak (na pewno Nokie 6100), nie wgrywa do Nokii 5100</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>wysyła loga jako SMS z komputera</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+</tr><tr><td><center>odczytuje loga bezpośrednio z pamięci telefonu</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak (na pewno Nokie 6100 i 5100)</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>dodatkowe funkcje</center></td>
+<td><center>brak</center></td>
+<td><center>brak</center></td>
+<td><center>obsługa log startowych, grup i dzwonków; czytanie security code; aktywacja / obserwacja parametrów <a href="../netmon/faq_net1.htm">monitora sieci</a>; edycja książki telefonicznej</center></td>
+<td><center>obsługa log startowych i grup; czytanie security code; aktywacja <a href="../netmon/faq_net1.htm">monitora sieci</a>; symulacja klawiatury telefonu; wykonywanie połączeń</center></td>
+<td><center>obsługa log grup</center></td>
+<td><center>edycja książki telefonicznej, SMSów; wykonywanie połączeń; aktywacja/obserwacja<br />
+parametrów <a href="../netmon/faq_net1.htm">monitora sieci</a> i wiele innych...</center></td>
+<td><center>brak szczegółów</center></td>
+</tr><tr><td><center>lista dyskusyjna</center></td>
+<td><center>nie</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+<td><center>tak</center></td>
+<td><center>nie</center></td>
+</tr><tr><td><center>mój wybór (im więcej, tym lepiej) przy połączeniu kablem</center></td>
+<td><center>*</center></td>
+<td><center>**</center></td>
+<td><center>***</center></td>
+<td><center>***</center></td>
+<td></td>
+<td><center>bezkonkurencyjny</center></td>
+<td></td>
+</tr><tr><td><center>mój wybór przy połączeniu podczerwienią</center></td>
+<td><center>*</center></td>
+<td></td>
+<td><center>***</center></td>
+<td><center>****</center></td>
+<td><center>**</center></td>
+<td><center>bezkonkurencyjny</center>
+</td><td></td>
+
+</tr></table><p align="justify"> <br />Jeżeli chciał(a)byś odwiedzić stronę domową któregoś z tych programów, kliknij na linku dostępnym w tabelce. Najnowsze wersje większości/wszystkich z nich są też dostępne na serwerze <a href="ftp://ftp.fkn.pl/pub/nokia/">FTP Fan Klubu Nokii</a>. Odnośniki do opisów części z nich znajdziesz na stronie <a href="http://www.fkn.pl/logo/operatora/index.html">http://www.fkn.pl/logo/operatora/index.html</a>.</p>
+<p align="justify">Użytkownicy Windows CE i Nokii 6xxx powinni zajrzeć na <a href="http://www.binet.lv/personal/nokia/ppc.htm">stronę projektu Light Sabre</a>, gdzie tworzone są różne programy do takich konfiguracji sprzętowych (być może jest już tam dostępny program do wysyłania log)...</p>
+<p align="justify">Jeżeli masz Psiona, być może zainteresuje Cię oferta ze strony <a href="http://www.sgsoftware.co.uk/index.html">http://www.sgsoftware.co.uk/index.html</a>.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="7" id="7"></a><font color="#1F409F" size="+2" class="dzial">7. Dlaczego nie mogę zainstalować programów Thomasa Kesslera (pokazuje się 'Runtime error') ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Nie masz w systemie bibliotek od Visual Basica 5.0 (musisz szukać pliku MSVBVM50.EXE). Znajdziesz go np. na CD magazynu <a href="http://www.enter.pl/">Enter</a> albo w wyszukiwarkach plików (np. <a href="http://www.plikoskop.pl">http://www.plikoskop.pl</a>).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="8" id="8"></a><font color="#1F409F" size="+2" class="dzial">8. Dlaczego nie mogę zainstalować programu Logo Express (błąd rejestracji bibliotek) ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">W moim przypadku były to pliki "SSubTmr.dll", "VbalTbar.ocx" i "cPopMenu.ocx". Przyczyn może być kilka:</p>
+<p></p><ul><li>używany jest Windows 95, który ma ograniczenia dotyczące wielkości poszczególnych kluczy Rejestru (został osiągnięty limit). Rozwiązaniem jest użycie programów w rodzaju Microsoft RegClean (które usuwają niepotrzebne klucze Rejestru i w ten sposób tworzą miejsce dla tych, które chce stworzyć instalator <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a>).</li>
+<li>niewłaściwie zostały zainstalowane biblioteki run-time Visual Basic 5.0 i 6.0 (należy instalować je z pliku MSVBVM50.EXE i MSVBVM50.EXE, która kopiują potrzebne pliki w odpowiednie miejsca, jak również zapisują informacje o ich obecności w Rejestrze systemu). Znajdziesz je np. na CD magazynu <a href="http://www.enter.pl/">Enter</a> albo w wyszukiwarkach plików (np. <a href="http://www.plikoskop.pl">http://www.plikoskop.pl</a>).</li>
+</ul><p align="justify">Jeżeli już dokonasz właściwych działań w systemie, możesz zarejestrować ręcznie te biblioteki (uruchamiasz program "regsvr32.exe" i podajesz mu jako parametr nazwę biblioteki do zarejestrowania - operację powtarzasz oczywiście dla każdej biblioteki oddzielnie !).</p>
+<p align="justify">A tak w ogóle, jeżeli już robisz porządki w systemie, to radzę zainstalować także run-time wszystkich wersji Visual Basic i Microsoft DirectX (np. w wersji 6.1). Nie zaszkodzi je mieć (są wymagane przez bardzo dużo programów, a ich brak owocuje czasami bardzo dziwnymi komunikatami o błędach - np. u mnie (druga przyczyna) "regsvr32.exe" pokazywał błąd "0x8000ffff")...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="9" id="9"></a><font color="#1F409F" size="+2" class="dzial">9. Jak skonfigurować programy ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ul><li><a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> Thomasa Kesslera</li>
+<p></p><ul><li>w menu głównym wybierasz Edit, Options</li>
+<li>ustawienia w otwartym oknie Options:
+<p></p><ul><li>jeżeli połączyłeś(aś) telefon z komputerem kablem:
+<p></p><ul><li>w zakładce 'Serial Port' wybierasz numer portu, pod którym w systemie są zainstalowane modemy 'Nokia GSM Data' i 'Nokia GSM Voice' (w Nokii 8810 numer portu podczerwieni w Microsoft IR-Monitor)</li>
+<li>w zakładce 'SMS' wpisujesz numer odpowiedniego centrum wiadomości (SMS Centrum - SMSC):</li>
+<p></p><ul><li>posiadacze <a href="http://www.idea.centertel.pl/">Idei</a> pracowicie wstukują +48501200777</li>
+<li>użytkownicy <a href="http://www.plusgsm.pl/">Plusa</a> podają +48601000310</li>
+<li>skazani na <a href="http://www.eragsm.pl/">Erę</a> :) muszą pożyczyć od kogoś kartę <a href="http://www.plusgsm.pl/">Plusa</a> - nie znam bowiem numeru centrum, z którego mogą skorzystać :(</li>
+<p>
+</p></ul></ul></li>
+<li>jeżeli masz port podczerwieni w komputerze, w zakładce 'IR Port' podajesz jego numer</li>
+<li>w zakładce 'Advanced' podajesz, czy program ma korzystać m.in. z książki telefonicznej w telefonie czy na karcie SIM</li>
+</ul></li></ul><li>
+<a href="http://www.dlc.fi/~sariak/">Logo 6110</a>
+<p></p><ul><li>w menu głównym wybierasz Kieli, English (program będzie używał języka angielskiego)</li>
+<li>w oknie głównym podajesz numer portu, pod którym w systemie są zainstalowane modemy 'Nokia GSM Data' i 'Nokia GSM Voice'</li>
+</ul><p>
+</p></li>
+<li><a href="http://www.logomanager.co.uk/">LogoManager</a>: program konfiguruje się sam, ustawienia możesz zmienić później, gdy z menu "Tools" wybierzesz "Options...":
+<p></p><ul><li>podajesz port, pod którym jest fizycznie podpięty kabel ("COM port")</li>
+<li>podajesz, gdzie pod którym portem jest dostępne złącze podczerwieni ("IR port")</li>
+<li>wybierasz operatora swojej sieci komórkowej (w niej będą wyświetlane wysyłane loga) - przycisk "Network chooser..."</li>
+<li>oraz język, w którym będą wyświetlane komunikaty programu (polski jest dostępny po doinstalowaniu "Language Pack" z pliku lm_pack.zip) - przycisk "Language..."</li>
+</ul><p>
+</p></li>
+<li>
+<a href="http://www.wildies.de/nokia/index.html">Smart Messaging Agent</a>:
+<p></p><ul><li>w oknie głównym wskazujesz operatora Twojej sieci (np. "Poland - ERA GSM") i w "Mobile Number"podajesz numer Twojego telefonu (w formacie "00 48 xxx xxx xxx",a nie "+48 xxx xxx xxx" !)</li>
+<li>w menu "Options" wybierasz jako SMSC "Denmark - TeleDenmark Mobil" albo operatora z Norwegii (według informacji z grup dyskusyjnych te SMSC są na pewno niezablokowane dla polskich sieci) oraz modem, który ma być użyty (połączenie poprzez telefon komórkowy może być droższe i niemożliwe, gdy nie masz wykupionego abonamentu na przesyłanie danych)</li>
+</ul><p>
+</p></li>
+<li><a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a>: program konfiguruje się sam, ustawienia możesz zmienić później, gdy z menu "Tools" wybierzesz "Options...":
+<p></p><ul><li>w "Port" podajesz port, pod którym jest podpięty kabel (fizycznie)</li>
+<li>zaznaczasz, czy logo ma być zapisywane w "Skrzynce nadawczej" ("Outbox") czy "Skrzynce odbiorczej" ("Inbox")</li>
+<li>wpisujesz numer SMSC (patrz uwagi powyżej dla <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> Thomasa Kesslera)</li>
+</ul><p align="justify">W głównym oknie możesz wybrać operatora sieci (w której będą wyświetlane wysyłane loga)</p></li>
+</ul><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="10" id="10"></a><font color="#1F409F" size="+2" class="dzial">10. Przesyłanie log przy użyciu konkretnych programów</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p><b>Opisy dla <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> Thomasa Kesslera:</b></p>
+<p></p><ul><li>jeżeli masz port podczerwieni (dotyczy tylko Nokii 6110, 6130 i 6150 !):
+<p></p><ol><li>musisz włączyć port podczerwieni w telefonie</li>
+<li>wyłączasz w Panelu Sterowania (Control Panel) Microsoft IR-Monitor oraz zamykasz program <a href="http://www.fkn.pl/faqs/ncdsfaq.html">Nokia Cellular Data Suite</a></li>
+<li>uruchamiasz program <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a></li>
+<li>wczytujesz z dysku grafikę z logiem</li>
+<li>jeżeli jest to konieczne, wybierasz operatora</li>
+<li>w menu głównym wybierasz File, IR-Upload</li>
+<li>jeżeli transfer się zatrzyma przy 30% lub później, musisz przybliżyć telefon bliżej złącza podczerwieni w komputerze, spróbować przeczyścić pokrywkę złącza i powtórzyć całą operację wysyłania jeszcze raz.</li>
+</ol><p>
+</p></li>
+<li>jeżeli używasz kabla (albo masz Nokię 8810):
+<p></p><ol><li>przy Nokii 8810:
+<p></p><ul><li>włączasz w telefonie port podczerwieni</li>
+<li>włączasz w Panelu Sterowania (Control Panel) Microsoft IR-Monitor</li>
+<p>
+</p></ul></li>
+<li>uruchamiasz program <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a></li>
+<li>wczytujesz z dysku grafikę z logiem</li>
+<li>z menu głównego wybierasz File, Send</li>
+<li>w otwartym oknie w drugim polu podajesz numer telefonu (oczywiście swojego)</li>
+<li>musimy się pogodzić z tym, że zapłacimy za wysłanie 1 SMSa</li>
+<li>naciskasz przycisk Send</li>
+<li>jeżeli coś nie było zrobione poprawnie (np. zły numer SMSC), wyświetli się komunikat o błędzie (o ile masz włączony w telefonie <a href="../netmon/faq_net1.htm">monitor sieci</a> i w nim <b><a href="../netmon/faq_net5.htm#Menu65">Menu 10-65</a></b>, tam później znajdziesz numer tego błędu)</li>
+</ol></li>
+</ul><p>Posiadacze kabla mogą sobie również zapisać logo na karcie SIM lub w pamięci telefonu (ta ostatnia możliwość nie dotyczy m.in. Nokii 5110 i 5130 !) i rozsyłać, do kogo chcą. Aby to zrobić, należy:</p>
+<p></p><ol><li>uruchomić program <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a></li>
+<li>wczytać z dysku grafikę z logiem</li>
+<li>w menu głównym wybrać File, Store</li>
+<li>jeżeli zaznaczymy 'Write entry to phonebook' w otwartym oknie Store, zapiszemy je w pamięci wiadomości SMS telefonu</li>
+<li>nacisnąć przycisk Store</li>
+</ol><p></p><table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:separate;"><tr><td><img src="sites/default/files/nm/tip.gif" height="36" width="27" align="LEFT" /></td>
+<td>Jeżeli masz program <a href="http://www.fkn.pl/faqs/ncdsfaq.html">Nokia Cellular Data Suite</a> 2.0, musisz go bezpłatnie uaktualnić do wersji 2.0a (w przeciwnym razie <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> będzie się zatrzymywać przy operacji zapisywania przy 55%).</td>
+</tr></table><p> <br />Logo powinno się pojawić w 'Skrzynce odbiorczej' ('Inbox') jako SMS o treści 'Nie można pokazać' ('Message cannot be displayed here'). Można je teraz przesyłać, ile razy i komu chcemy:</p>
+<p></p><ul><li>jeżeli odbiorca ma telefon nie odczytujący log operatora lub centrum SMS było błędne, dostanie on 'zwykłą' wiadomość SMS</li>
+<li>jeżeli użyliśmy właściwego centrum SMS i odbiorca ma któryś z <a href="#2">wymienionych na samej górze telefonów</a>, odczyta je poprawnie (tzn. jako logo)</li>
+</ul><p>
+<b>Opis dla <a href="http://www.dlc.fi/~sariak/">Logo 6110</a>:</b></p>
+<p></p><ol><li>wczytujesz z dysku grafikę w formacie (File, Open) .i61 albo wklejasz grafikę ze schowka (Edit, Paste) - jeżeli jest ona za duża, wklejony zostanie jej prawy, górny róg.</li>
+<li>wybierasz operatora (jeżeli nie ma go na liście, wybierz MCC+MNC)</li>
+<li>jeżeli wybrałeś(aś) MCC+MNC, musisz wpisać odpowiednie wartości dla operatora (dla operatorów polskich:  <a href="http://www.plusgsm.pl/">Plus</a> - 260 i 01, <a href="http://www.eragsm.pl/">Era</a> - 260 i 02, <a href="http://www.idea.centertel.pl/">Idea</a> - 260 i 03; dla innych sieci możesz znaleźć te wartości <a href="http://kbs.cs.tu-berlin.de/~jutta/gsm/gsm-list.html">tutaj</a>)</li>
+<li>naciskasz przycisk Send</li>
+<li>logo powinno się pojawić w 'Skrzynce nadawczej' ('Outbox') telefonu jak SMS o niemożliwej do pokazania treści</li>
+<li>dalsze postępowanie zostało opisane wyżej (tzn. możesz np. wysłać komuś (sobie ?) to logo)</li>
+</ol><p>
+<b>Opis dla <a href="http://www.logomanager.co.uk/">Logo Manager</a>:</b></p>
+<p></p><ol><li>wczytujesz z dysku grafikę z logiem (File, Open)</li>
+<li>w menu View wybierasz Operator Logo</li>
+<li>wybierasz File, Upload image to phone</li>
+</ol><p>
+<b>Opis dla <a href="http://www.wildies.de/nokia/index.html">Smart Messaging Agent</a>:</b></p>
+<p></p><ol><li>wczytujesz grafikę z logiem (File, Open)</li>
+<li>z menu File wybierasz Send</li>
+</ol><p>
+<b>Opis dla <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a>:</b></p>
+<p></p><ol><li>wczytujesz grafikę z logiem (np. File, Open)</li>
+<li>z menu Logo wybierasz, czy:
+<p></p><ol><li>logo ma być zapisane na karcie SIM (Save to SIM)</li>
+<li>przesłane bezpośrednio do telefonu - tylko Nokia 6xxx (Save to phone)</li>
+<li>wysłane SMSem (Send as SMS)</li>
+</ol><p>
+</p></li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="11" id="11"></a><font color="#1F409F" size="+2" class="dzial">11. Dlaczego nie mogę go po prostu przesłać kablem (we wszystkich modelach) ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Specyfikacja Smart Messagingu (techniki pozwalającej na przesyłanie log) przewiduje, iż loga mogą być przesyłane TYLKO jako wiadomości SMS.</p>
+<p align="justify">Programy pozwalające wgrywać loga po <a href="../cables/cables.htm">kablu</a> albo przez złącze podczerwieni wykorzystują natomiast różne nieudokumentowane funkcje dostępne w modelach/wersjach oprogramowania telefonów.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="12" id="12"></a><font color="#1F409F" size="+2" class="dzial">12. Czy mogę je wysłać przez Internet albo modem ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Loga możesz wysyłać ze strony <a href="http://www.apic.com.sg">http://www.apic.com.sg</a> (3 razy bezpłatnie po zarejestrowaniu się), natomiast bramki email2sms i www2sms operatorów tego nie potrafią (nie są do tego przystosowane - technicznie jest to oczywiście możliwe) i nic na to nie poradzisz (należałoby zmieniać nagłówek wysyłanego SMSa - tymczasem jest on ustawiony na stałe).</p>
+<p align="justify">Przez modem przesyła loga <a href="http://www.wildies.de/nokia/index.html">Smart Messaging Agent</a> (pozwala korzystać z SMSC działających przez dial-up).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="13" id="13"></a><font color="#1F409F" size="+2" class="dzial">13. Dlaczego nie mogę go przesłać używając tego centrum wiadomości SMS co zawsze ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Niektóre centra wiadomości SMS nie są do tego przystosowane technicznie (w Polsce SMSC sieci <a href="http://www.eragsm.pl/">Era GSM</a>) - logo przesłanie przez nie będzie odczytane w telefonie jak "normalny" SMS. Zostało to dokładniej wyjaśnione na stronie <a href="http://www.fkn.pl/faqs/smfaq.html">http://www.fkn.pl/faqs/smfaq.html</a>.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="14" id="14"></a><font color="#1F409F" size="+2" class="dzial">14. Jak zapisać logo w pamięci telefonu ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Jeżeli telefon otrzymał logo operatora, zasygnalizuje to takim dźwiękiem, jak po otrzymaniu SMSa (o ile oczywiście nie wyłączyłeś(aś) dzwonka :)) i wyświetli 'Odebrano logo operatora' ('Operator's logo received'). Będziesz miał(a) teraz trzy możliwości:</p>
+<p></p><ul><li>obejrzenie otrzymanego loga: 'Pokaż' ('Show')</li>
+<li>zapisanie go w pamięci: 'Zapisz' ('Save') - o to nam chodzi !</li>
+<li>wykasowanie go: 'Pomiń' ('Discard')</li>
+</ul><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="15" id="15"></a><font color="#1F409F" size="+2" class="dzial">15. Chcę wykasować moje logo !</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Możesz wykorzystać fakt, że telefon jednorazowo zapamiętuje tylko 1 logo i po prostu <a href="#8">przesłać</a> mu logo sieci z drugiego końca świata (np. z Ameryki Południowej).</p>
+<p align="justify">Możesz również w tym celu w programie <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> Thomasa Kesslera w głównym oknie wybrać 'Clear Operator-Logo' i <a href="#8">wysłać to do telefonu</a> (podobnie w <a href="http://www.dlc.fi/~sariak/">Logo 6110</a> wybierasz '&lt;erase operator&gt;', w <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a> 'Clear Operator Logo'). Jest to także możliwe w programie NolBin oraz <a href="http://www.logomanager.co.uk/">Logo Manager</a> ('Set logo to default' z menu Tools), jak również w bramce działającej dzięki <a href="http://www.fkn.pl">Fan Klubowi Nokii</a> (na stronie <a href="http://www.fkn.pl/logo/operatora/index.html">http://www.fkn.pl/logo/operatora/index.html</a> znajdziesz odnośnik do jej opisu).</p>
+<p align="justify">Niestety, nie można wykasować zapisanego loga używając kodów. Nie ma też takiej pozycji w menu telefonu.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="16" id="16"></a><font color="#1F409F" size="+2" class="dzial">16. Czy mogę skopiować logo z pamięci telefonu do komputera ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Możesz użyć do tego programiku NolBin w komplecie z komercyjną WinTeslą (po <a href="../cables/cables.htm">kablu MBUS</a>). Jest to jednak <b><font color="#FF6666">BARDZO NIEBEZPIECZNA METODA mogąca doprowadzić do NIEODWRACALNEGO USZKODZENIA TELEFONU !</font></b>.</p>
+<p align="justify">Opcją taką dysponuje również <a href="http://www.logomanager.co.uk/">Logo Manager</a> (komunikacja z użyciem <a href="../cables/cables.htm">kabla FBUS/MBUS/DLR-3</a>).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="17" id="17"></a><font color="#1F409F" size="+2" class="dzial">17. Mój notebook ze złączem podczerwieni nie chce działać...</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Rozumiem, że masz telefon ze złączem podczerwieni (np. Nokia 6xxx, 8810 czy 9110) i chcesz go użyć do bezpłatnego wysłania loga. Opisane wyżej programy zadziałają tylko wtedy, gdy rozpoznają port podczerwieni jako któryś COM (to jest pierwszy powód, że mogą nie chcieć działać). Część komputerów przenośnych nie zawiera też w pełni poprawnej implementacji podczerwieni. I wtedy nic na to nie poradzisz...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="18" id="18"></a><font color="#1F409F" size="+2" class="dzial">18. Jak przesyłać loga do Nokii 3210 ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Możesz użyć tych samych metod, które zostały opisane w odpowiedzi na <a href="#5">pytanie 5</a> (przy czym <a href="../cables/cables.htm">kabel</a> w tym modelu podłączasz wewnątrz obudowy).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="19" id="19"></a><font color="#1F409F" size="+2" class="dzial">19. Czy wgranie loga operatora narusza warunki gwarancji ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">NIE, NIE i jeszcze raz nie. Każdy model obsługujący loga operatora może je odebrać jako SMS (a jak wiadomo, odebranie SMSa jest całkiem normalnym użyciem telefonu)... Istniejące obecnie programy też są obecnie całkiem bezpieczne i nie masz się co martwić o uszkodzenie słuchawki przy tej operacji...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="20" id="20"></a><font color="#1F409F" size="+2" class="dzial">20. Przy próbie bezpośredniego wgrania loga przez kabel (albo jego wykasowania) programem LogoManager nic się nie dzieje...</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Program wgrywa loga bezpośrednio po kablu do części telefonów (np. Nokii 5110) dopiero począwszy od wersji 1.0 beta 6c (po wgraniu loga słychać podwójne "pyknięcie" z głośnika telefonu).</p>
+<p align="justify">Jeżeli telefon wydał dźwięk, a loga nie widać (przy jego wgrywaniu), zmień kod sieci, w której logo ma się pokazać...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="21" id="21"></a><font color="#1F409F" size="+2" class="dzial">21. Jak skopiować logo z telefonu do telefonu ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Jest to niemożliwe z menu telefonu - możesz natomiast skopiować je do komputera i stamtąd przesłać do drugiego aparatu...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="22" id="22"></a><font color="#1F409F" size="+2" class="dzial">22. Dodatkowe informacje</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><ul><li><a href="http://www.fkn.pl/logo/index.html">Strona zawierająca bardzo dużo odnośników - m.in. do bardziej szczegółowych informacji o Smart Messagingu (który pozwala na przesyłanie log), informacji (lub nawet opisów) wyżej wymienionych programów, kolekcji log i innych</a>. Jeżeli nie znalazłeś(aś) jakichś informacji w moim FAQ, naprawdę polecam tam zajrzeć !</li>
+<li><a href="http://www.fkn.pl/faqs/smsfaq.html">SMS FAQ</a></li>
+<li><a href="http://www.kessler-design.com/wireless/faq.php3">Oryginalne FAQ (po angielsku)</a> do programu <a href="http://www.kessler-design.com/wireless/">Operator-Logo Uploader</a> i <a href="http://www.kessler-design.com/wireless/">Group-Graphic Editor</a> Thomasa Kesslera.</li>
+</ul><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br /></p>

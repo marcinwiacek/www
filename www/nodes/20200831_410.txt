@@ -1,0 +1,44 @@
+﻿Title:Samsung 980 PRO czyli jak golić owieczki na PCIe 4 (2020)
+Author:marcin
+When:31 Aug 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Samsung-PRO-czyli-jak-golic-owieczki-na-PCIe,110847.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Jeszcze do wczoraj linie dysków Samsunga podzielone były na serię EVO i PRO, mieliśmy też modele do ciągłego działania albo ze zwiększoną pojemnością. Nie można tu było zbyt dużo powiedzieć ponad to, że firma przecierała i przeciera szlaki w tej dziedzinie. </p>
+
+<p>Pro to oczywiście seria skierowana do profesjonalistów, którzy zazwyczaj zapisują dużo danych (i potrzebują oczywiście absolutnie największych prędkości i najlepszych parametrów).</p>
+<!--break-->
+<center><img src="sites/default/files/410/sd-1138085_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Przypatrzmy się w dwóch słowach nowej serii Samsunga, która będzie przecierać szlaki w obszarze PCIe 4, i porównajmy ją do trochę starszych konstrukcji.</p>
+
+<p>980 PRO to pierwszy model tego producenta z obsługą nowej technologii, co ma skutkować dwa razy większą prędkością. Na kontrolerze pojawiła się warstewka niklu, co ma służyć odprowadzaniu ciepła. Nie wiadomo oczywiście jak to wszystko będzie wyglądać w działaniu, ale jak dla mnie to wygląda to trochę jakby wzięto serię 970 Evo+, przyspieszono kontroler i zmieniono chłodzenie. PCIe 4 wręcz zachęca do zapisywania danych częściej, ale... parametr TBW określający trwałość jakoś niespecjalnie zwiększył się w stosunku do poprzednich generacji (+ nie mamy nośnika 2 TB).</p>
+
+<p>Zużycie energii powinno być tylko trochę wyższe jak w poprzednich generacjach (przy czym jakoś udało się uzyskać 2 mW w trybie Sleep przy 860 EVO, a przy kolejnych modelach już nie) i nowe nośniki w sumie mogłyby być używane nawet w laptopach, ale... tam jak dotąd nie wykorzystamy w pełni prędkości.</p>
+
+<p>Poniżej zestawienie na podstawie oficjalnych danych (same nośniki NVME; mam nadzieję, że się nigdzie nie pomyliłem).</p>
+
+<center><img src="sites/default/files/410/param.png" style="width:608px;height:162px;" alt="image" title="image" /></center>
+
+<p>Można powiedzieć, że dostaliśmy popis możliwości technologicznych Samsunga i ogromny regres - jak napisałem, zapłacimy jedynie za szybsze 970 EVO+ (ale nie dostaniemy dysku 2TB).</p>
+
+<p>Nie do końca rozumiem, po co w tym układzie &quot;kosmiczna&quot; pojemność 250 GB (czyżby w czasach koronowirusa ludzie nie zapisywali już tyle danych albo może chodzi o to, żeby cena takiego dysku była w akceptowalnych granicach?).</p>
+
+<p>Jeśli dodać do tego brak jakiegokolwiek określenia parametru TBW (i upgrade firmware) w nośnikach montowanych jako OEM w laptopach, to widać, że firma Samsung wydaje się zapominać o znaczeniu słów &quot;tani i dobry&quot; nie tylko w obszarze komórek.</p>
+
+<p>Czy wobec tego 1TB pozostanie z nami jako górna wielkość nośników montowanych również w laptopach?</p>
+
+<p>Przypomnę, że w wielu modelach mamy miejsce wyłącznie na jeden dysk.</p>
+
+<p>A może chodzi o wykorzystanie tego modelu wyłącznie w stacjach roboczych? Ale wtedy chyba lepiej będzie postawić jakąś macierz i wziąć kilka tanich egzemplarzy z innej serii (profesjonaliści raczej nie przejmą się kosztami zakupu albo zużyciem energii).</p>
+
+<p>Szkoda... szczególnie, że ze sprzedaży wycofano 960 Pro 2TB i pozostały tylko urządzenia, które dosyć mocno zwalniają po przekroczeniu wielkości bufora (i grzeją się jak 970 EVO).</p>
+
+<p>Oj coś PCIe 4 nie ma jak dotąd szczęścia - po chipsecie X570 (który przecierał szlaki i był najczęściej łączony ze znienawidzonymi wentylatorami) przyszedł koronawirus, a w jego dobie pojawiły się te dziwne nośniki 980 PRO. Kilka dni temu czytaliśmy o spodziewanej obniżce pamięci RAM i SSD, a tu taka wiadomość.</p>
+
+<p>Czyżbyśmy znowu doszli do tego, że w obszarze NVME czekają nas teraz coraz gorsze produkty? Jak to się ma do tych wszystkich zapewnień, że SSD są trwalsze niż HDD? (przypomnę, że pamięć nieużywana może i będzie tracić zawartość po jakimś czasie i przy TLC będzie to najprawdopodobniej jeszcze szybciej) Czy seria 980 PRO miała powstać tylko po to, żeby Samsung był pierwszy? Ilu &quot;profesjonalistów&quot; wybierze ją zamiast 970 EVO+ albo chociaż 970 PRO? Ile odpadów powstanie dzięki jej produkcji? (rzecz jednak ważna - skoro dane urządzenie jest mniej wytrzymałe, to i szybciej zostanie wymienione) I kiedy doczekamy się sensownych implementacji różnych urządzeń dla PCIe 4?</p>
+
+<p>Śmiech</p>
+
+<p>PS. Ktoś może powiedzieć, że TBW jest nieważne i dyski wytrzymają więcej - zgoda, że w domu to może nieważne (ale za to w firmach takie cyferki jednak się liczą i przypomnę, że o ile teraz gwarancja jest udzielana na 5 lat, to przy serii 850 PRO było to 10 lat)</p><p>PS2. Wygląda to mi trochę jak z pamięciami Optane Intela czy ogólnie pamięciami memrystorowymi - miały być rewolucją, a...&#160;</p><p>PS3. A Microsoft ma błąd związany z tym, że Windows 10 zbyt często defragmentuje dyski SSD (dokładniej mówiąc używa za dużo razy TRIM, co wpływa na ilość zapisów) - <a href="https://www.bleepingcomputer.com/news/microsoft/windows-10-alert-defragger-bug-defrags-ssd-drives-too-often/" target="_blank" rel="noopener" rel="nofollow">https://www.bleepingcomputer.com/news/microsoft/windows-10-alert-defra...</a></p>

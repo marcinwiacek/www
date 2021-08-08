@@ -1,0 +1,179 @@
+﻿Title:Ubuntu w Windows 10 (Hyper-V) (2019)
+Author:marcin
+When:21 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,Linux,OS,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Ubuntu-w-Windows-HyperV,104893.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dawno dawno temu, w zamierzchłej przeszłości, <a href="?q=node/166" target="_blank" rel="noopener" rel="nofollow">popełniłem artykuł o typach i programach do wirtualizacji</a>, dzisiaj chciałbym pokazać jak w kilku krokach przygotować sobie Ubuntu pod Windows 10 (przy czym dodam, że oficjalnie jest to niemożliwe w Windows 10 Home).</p>
+<!--break-->
+
+<p>Nie będę się tu zbytnio rozwlekał o teorii, skupię się na praktyce i pewnej ścieżce konfiguracji, której używam na codzień w jednym z projektów.</p>
+
+<p><b>Instalacja Hyper-V</b></p>
+
+<p>Microsoft <a href="https://www.microsoft.com/pl-pl/windows/windows-10-specifications#primaryR5" target="_blank" rel="noopener" rel="nofollow">oficjalnie podaje</a>:</p>
+
+<p><i>&quot;Client Hyper-V (funkcja dostępna tylko w systemie Windows&#160;10&#160;Pro i&#160;Windows&#160;10 Enterprise) wymaga systemu 64-bitowego z&#160;obsługą translacji adresów drugiego poziomu (SLAT) i&#160;dodatkowo 2&#160;GB pamięci RAM.&quot;</i></p>
+
+<p><a href="https://docs.microsoft.com/pl-pl/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v" target="_blank" rel="noopener" rel="nofollow">po angielsku zaś określa to nawet dokładniej</a>:</p>
+
+<ul><li><i>Windows 10 Enterprise, Pro, or Education</i></li>
+
+<li><i>64-bit Processor with Second Level Address Translation (SLAT).</i></li>
+
+<li><i>CPU support for VM Monitor Mode Extension (VT-c on Intel CPUs).</i></li>
+
+<li><i>Minimum of 4 GB memory.</i></li></ul>
+
+<p>Opcje wirtualizacji wymagają zazwyczają włączenia w BIOS/UEFI, żeby zainstalować klienta wirtualizacji w Windows:</p>
+
+<ol><li>przechodzimy do &quot;nowego&quot; Panelu Sterowania<br/></li>
+
+<li>klikamy &quot;Apps&quot; i przesuwamy zawartość okna po prawej na sam dół<br/></li>
+
+<li>klikamy &quot;Programs and Features&quot;</li>
+
+<li>klikamy &quot;Turn Windows features on or off&quot;</li>
+
+<li>zaznaczamy Hyper-V, klikamy OK i czekamy na instalację i restart</li>
+
+</ol>
+
+<p><center><img src="sites/default/files/377/hyper1.png" style="width:358px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Pobranie Ubuntu</b></p>
+
+<p>Ponieważ symulujemy całą maszynę, można w niej zainstalować różne odmiany - osobom leniwym polecałbym standardowe wydanie 64-bitowe z interfejsem graficznym:</p>
+
+<p>Przechodzimy do strony <a href="https://ubuntu.com/download/desktop" target="_blank" rel="noopener" rel="nofollow">https://ubuntu.com/download/desktop</a> i pobieramy ISO starszej wersji 18.04 z długim okresem wsparcia (LTS) albo krótko wspieranej 19.10 (jest nowsza, ale może zawierać więcej błędów takich jak <a href="https://bugs.launchpad.net/bugs/1848534" target="_blank" rel="noopener" rel="nofollow">startowanie przez kilka minut</a>).</p>
+
+<p>Po pobraniu warto sprawdzić sumę kontrolną pobranego pliku - ja często wpisuję w Google &quot;ubuntu download mirror&quot;, przechodzę do jednego z serwerów lustrzanych, pobieram plik SHA256SUMS i porównuję wpis z wynikiem działania komendy</p>
+
+<p><pre contenteditable="false"><code class="powershell" data-lang="powershell" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">certutil -hashfile nazwaPliku.iso SHA256</code></pre>
+
+<p><b>Utworzenie wirtualnego switcha do połączeń sieciowych</b></p>
+
+<ul><li>otwieramy menu Start</li>
+
+<li>wyszukujemy i otwieramy Hyper-V manager</li>
+
+<li>z menu głównego Action lub bocznego wybieramy Virtual Switch Manager</li></ul>
+
+<p><center><img src="sites/default/files/377/hyperv0.png" style="width:504px;height:405px;" alt="image" title="image" /></center>
+
+<ul><li>tworzymy nowy switch dla &quot;External network&quot; i odpowiedniego urządzenia sieciowego z systemu Windows.</li></ul>
+
+<p><b>Stworzenie nowej maszyny wirtualnej</b></p>
+
+<ul><li>w Hyper-V manager z menu głównego Action lub bocznego wybieramy New \ Virtual Machine</li>
+
+<li>w kreatorze podajemy naszą nazwę dla maszyny i lokalizację dla plików<br/></li></ul>
+
+<p><center><img src="sites/default/files/377/hyperv2_1.png" style="width:535px;height:405px;" alt="image" title="image" /></center>
+
+<ul><li>wybieramy jaki komputer będziemy symulować - tego wyboru nie można później zmienić i w zależności od niego system &quot;wewnątrz&quot; musi mieć wsparcie dla innych technologii.<br/></li></ul>
+
+<p><center><img src="sites/default/files/377/hyper2.png" style="width:535px;height:405px;" alt="image" title="image" /></center>
+
+<p>Generacja 1 wspiera zarówno systemy operacyjne 32-bitowe jak i 64-bitowe, ma również obsługę portów szeregowych, stacji dyskietek i kontrolerów IDE i oparta jest o BIOS (poniżej ekran pokazujący ustawienia z gotowej maszyny, a nie ekran kreatora).</p>
+
+<p><center><img src="sites/default/files/377/hyper3.png" style="width:504px;height:405px;" alt="image" title="image" /></center>
+
+<p>&quot;Dwójka&quot; to UEFI, kontrolery SCSI i możliwość używania Secure Boot.</p>
+
+<p><center><img src="sites/default/files/377/hyper4.png" style="width:504px;height:405px;" alt="image" title="image" /></center>
+
+<ul><li>...a wracając do kreatora - wybieramy wielkości RAM (może być przydzielany dynamicznie stosownie do potrzeb, ale ja tego nie polecam szczególnie przy uruchamianiu kilku maszyn naraz, gdyż wtedy trudno określić maksymalne zużycie i mogą wystąpić problemy ze stabilnością przy braku pamięci)</li></ul>
+
+<p><center><img src="sites/default/files/377/hyper11.png" style="width:535px;height:405px;" alt="image" title="image" /></center>
+
+<ul><li>ustawiamy połączenie sieciowe</li></ul>
+
+<p><center><img src="sites/default/files/377/hyperv6.png" style="width:535px;height:405px;" alt="image" title="image" /></center>
+
+<ul><li>wybieramy ustawienia dysku twardego, który będzie podłączony do maszyny (plik z dyskiem jest rozszerzany aż do podanej wielkości przy zapisywaniu kolejnych danych; Ubuntu w wersji desktopowej minimalnie wymaga 8,6GB, ja polecam przynajmniej 10 albo 20GB)</li></ul>
+
+<p><center><img src="sites/default/files/377/hyperv7.png" style="width:535px;height:405px;" alt="image" title="image" /></center>
+
+<ul><li>decydujemy, czy chcemy zamontować w symulowanym napędzie DVD pobrany obraz ISO</li></ul>
+
+<p><center><img src="sites/default/files/377/hyperv8.png" style="width:535px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Dopieszczanie konfiguracji</b></p>
+
+<p>Po zakończeniu kreatora maszyna powinna zostać stworzona. Polecam wejść w jej ustawienia i dodać więcej symulowanych rdzeni CPU (przy czym ilość tutaj podana może być większa niż ilość rdzeni fizycznych i jest po prostu odpowiednio skalowana), ustawić sobie stopień wykorzystania zasobów, jak również włączyć pokazaną na obrazku opcję zgodności (to ostatnie może pomóc przy <a href="https://github.com/LIS/lis-next/issues/655" target="_blank" rel="noopener" rel="nofollow">problemie ze sterownikiem bufora ramki</a>).</p>
+
+<p><center><img src="sites/default/files/377/hyperv9.png" style="width:504px;height:405px;" alt="image" title="image" /></center>
+
+<p>Jak wspomniałem generacja 2 maszyn obsługuje Secure Boot, do poprawnej instalacji należy go tylko włączyć:</p>
+
+<p><center><img src="sites/default/files/377/hyperv10.png" style="width:504px;height:405px;" alt="image" title="image" /></center>
+
+<p>Uwaga - ja do swoich celów deaktywuję wszystkie Integration Services (pomimo <a href="https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-ubuntu-virtual-machines-on-hyper-v" target="_blank" rel="noopener" rel="nofollow">pewnej dokumentacji Microsoftu</a> pewne rzeczy nie do końca mi chciały działać) i Checkpoints (jest to dla mnie niepotrzebne i niepotrzebnie zużywające dysk), z kolei w Automatic Start Action zazwyczaj wybieram None (gdy maszyna nie jest &quot;serwerowa&quot;) i w Automatic Stop Action wybieram &quot;Turn off the virtual machine&quot; (jest to świadome i wiąże się z ewentualną utratą plików, ale wymuszone przez brak Integration Services)</p>
+
+<p><b>Instalacja Ubuntu</b></p>
+
+<p>Ta nie różni się od instalacji na &quot;prawdziwej&quot; maszynie - wybieramy układ klawiatury, nazwę użytkownika, lokalizację, itp.</p>
+
+<p>Dwie uwagi - polska klawiatura z prawym Altem to klawiatura &quot;Polish&quot;, domyślnie Ubuntu zakłada również partycję na pliki tymczasowe... co niekoniecznie może być dla nas wygodne:</p>
+
+<ul><li>w przypadku gdybyśmy chcieli zmienić jej rozmiar, zmiana wielkości innych partycji może być niemożliwa bez przeinstalowania wszystkiego</li>
+
+<li>pliki tymczasowe mogą być trzymane w RAM oszczędzając SSD<br/></li></ul>
+
+<p>Ja zazwyczaj zajmuję sobie cały dysk na główny system plików (partycja typu EFI jest wymagana i tutaj spokojnie wystarcza 40MB):</p>
+
+<p><center><img src="sites/default/files/377/ubu2.png" style="width:608px;height:382px;" alt="image" title="image" /></center>
+
+<p><b>Dopieszczanie konfiguracji</b></p>
+
+<p>Po zainstalowaniu systemu warto zmienić rozdzielczość - w tym celu edytujemy plik /etc/default/grub np. podając z linii komend:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo gedit /etc/default/grub</code></pre>
+
+<p>i w pliku w linii z GRUB_CMDLINE_LINUX_DEFAULT dodajemy wpis zaczynający się od video, a kończący na naszej rozdzielczości:</p>
+
+<p><pre contenteditable="false"><code class="text" data-lang="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet splash video=hyperv_fb:1280x720&quot;</code></pre>
+
+<p>Zmiany zatwierdzamy komendą:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo update-grub</code></pre>
+
+<p>Kolejnym krokiem może być zlikwidowanie pliku zawierającego partycję z plikami tymczasowymi (zakładana, gdy Ubuntu nie ma oddzielnej partycji):</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">sudo swapoff -a
+sudo rm /swapfile</code></pre>
+
+<p>i przeniesienie plików tymczasowych do RAM - należy dodać do pliku /etc/fstab linijki:</p>
+
+<p><pre contenteditable="false"><code class="text" data-lang="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">tmpfs /tmp rw,nodev,nosuid,size=512m 0 0
+tmpfs /var/tmp rw,nodev,nosuid,size=512m 0 0</code></pre>
+
+<p>(jak zauważył jeden z komentujących <a href="?q=node/376" target="_blank" rel="noopener">mojego poprzedniego posta</a>: wysuwam pomysł i podaję przykłady zakładając, że użytkownik wie, co to jest komputer i w dobie Internetu i masy wiedzy wszelakiej potrafi czytać i drążyć temat na tyle na ile mu potrzeba; tutaj na przykładzie ustawiam 512MB dla obu katalogów)</p>
+
+<p>Zmiany wymagają oczywiście restartów.</p>
+
+<p><b>Wymiana plików</b></p>
+
+<p>Ponieważ nie chcę sobie &quot;zaśmiecać&quot; systemu Windows, to od strony Ubuntu instaluję serwer SSH:</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">apt-get install openssh-server</code></pre>
+
+<p>zaś od strony Windows potrzebuję np. <a href="https://winscp.net/eng/download.php" target="_blank" rel="noopener" rel="nofollow">darmowego WinSCP</a> tworząc mu połączenie typu SFTP do adresu IP wskazanego w Ubuntu komendą</p>
+
+<p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">ifconfig</code></pre>
+
+<p><b>Podsumowanie</b></p><p>I tyle...</p>
+
+<p>Działa, gra, buczy...</p>
+
+<p>i aż chciałoby się powiedzieć, że Windows 10 to taki dziwny twór który ciężko zdefiniować - z jednej strony razi w nim prymitywizm i ogromne niedoróbki, z drugiej strony zawiera on co najmniej kilka mocno zaawansowanych rozwiązań, które są zrobione całkiem sprytnie i wygodnie.</p>
+
+<p>Nie ma tu może akceleracji grafiki czy ekranów 4K, ale... do normalnej pracy i zabaw nie wpływających na Windows jak znalazł.</p>
+
+<p>Chcesz poprogramować? Proszę bardzo.</p>
+
+<p>Oddzielna maszyna do &quot;ciekawych&quot; strony? Sie robi.</p>
+
+<p>itd. itd.</p><p>Dziękuję za uwagę.&#160;&nbsp;</p>

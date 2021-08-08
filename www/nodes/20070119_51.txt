@@ -1,0 +1,8 @@
+﻿Title:Report 2007-01-19
+Author:marcin
+When:19 Jan 2007
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Gammu 1.09.16 is out. The only one change is in ChangeLog - it informs, that currently releases will be done Michal. I hope, that this is good decision and project will grow faster. I will try to look into it from time to time and inform Michal, when something is wrong (or send him patches). We will see in the future, if decision was good not...</p>
+<!--break-->

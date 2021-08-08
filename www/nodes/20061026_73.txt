@@ -1,0 +1,15 @@
+﻿Title:Report 2006-10-25
+Author:marcin
+When:26 Oct 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Well, this page will be short...</p>
+<p>New Gammu is ready. Included all known bugfixes, updated SMS source and some other.</p>
+<p>gammu.org has got MediaWiki upgraded to 1.8.x tree. Almost everything (all extensions, functions, etc.) is updated. Please report, if there are any problems with it...</p>
+<p>And now words, which were planned for this report:</p>
+<!--break-->
+<p><i>And now we're going into wall. Current Series 40 phones save SMS as filesystem files. Gammu doesn't allocate memory for it dynamically. It means - if you have more SMS in phone, you will have problem with Gammu. I have increased this limit into 600 SMS (this is how many I have in phone now :-)). Changing it would need rewriting (too) many parts.</i></p>
+<p><i>Getting SMS works OK in Gammu+ (memory allocated dynamically). But here I have problem - without fflush on stdout part of output from --getallsms is lost. I don't have idea why... Anybody could help me in debugging ? I would go into D-BUS (Linux Bluetooth) then...</i></p>
+<p><i>The most interesting, that Michal Cihar some time ago didn't see good reason, why there is new project (Gammu+) required. Michal, do you see now ?</i></p>
+<p>I saw already comments about them in <a href="http://blog.cihar.com/archives/2006/10/24/revolution_or_evolution">Michal's blog</a>. This is a lot of truth in them, but from the second hand - I have learned many new things and a lot was changed inside cellular phones since Gammu start. Now with fresh project I can play a lot and search for better solutions... In my current life I use Series 40 phone (I was explaining it in previous report) and almost all main things are covered. So, I can play with new solutions... And I will be very happy, if somebody will show me some better coding methods than my own...</p>

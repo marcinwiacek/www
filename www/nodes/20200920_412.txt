@@ -1,0 +1,100 @@
+﻿Title:Krótki rzut oka na Bromite... czy ma w ogóle sens? (2020)
+Author:marcin
+When:20 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Krotki-rzut-oka-na-Bromite-czy-ma-w-ogole-sens,110940.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Tydzień temu zainstalowałem na swoich urządzeniach takie &quot;cudo&quot; jak przeglądarka Bromite, reklamowana słowami &quot;Bromite is a Chromium fork with ad blocking and enhanced privacy; take back your browser&quot;</p>
+
+<p>Pomyślałem, że zrobię kilka naprawdę szybkich testów i zobaczę, czy różni się jakoś katastrofalnie od innych klonów Chrome.</p>
+<!--break-->
+<center>
+<img src="sites/default/files/412/Screenshot_20200913-221739.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200913-223344.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200913-224958.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<br>
+
+<img src="sites/default/files/412/Screenshot_20200913-230525.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200913-232421.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200913-233809.png" style="width:169px;height:300px;" alt="image" title="image" />
+</center>
+
+<p>Urządzeniem testowym był pierwszy Pixel (nomen omen bardzo udany) z Android 10. Sprawdzone zostały po kolei:</p>
+
+<ul><li>Bromite 64-bit z pliku APK</li>
+
+<li>Brave z Google Play (to ta przeglądarka, która w przeszłości <a href="https://www.androidpolice.com/2020/06/07/brave-browser-caught-adding-its-own-referral-codes-to-some-cryptcurrency-trading-sites/" target="_blank" rel="noopener" rel="nofollow">potrafiła zmieniać URLe tak, żeby zarabiać</a>)</li>
+
+<li>Edge z Google Play (czyli Chrome od Microsoft)</li>
+
+<li>Chrome z Google Play</li>
+
+<li>Bromite 32-bit z pliku APK</li>
+
+<li>Bromite 64-bit z pliku APK</li></ul>
+
+<p>Wyniki z testu - telefon wydawał się otrzymywać z Google Play wersje 32-bit, a przyrost prędkości rzędu 9% jest nie do pogardzenia (oczywiście nie będzie jej, gdy inne przeglądarki też będą w wersji 64-bit).</p>
+
+<p>Na tym etapie nie wydawało mi się zbyt interesujące powtarzać testy, uśredniać wyniki, itp. - wszystkie przeglądarki wydają się iść łeb w łeb.</p>
+
+<p>Dla pewności na szybko uruchomiłem jeszcze jeden test:</p>
+
+<center>
+<img src="sites/default/files/412/Screenshot_20200913-234625.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200913-235359.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200914-000126.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/412/Screenshot_20200914-000841.png" style="width:169px;height:300px;" alt="image" title="image" />
+</center>
+
+<p>Sprawdziłem:</p>
+
+<ul><li>Bromite (gdy piszę ten test, to nie jestem już pewien, czy wydanie 32 czy 64-bit)</li>
+
+<li>Brave</li>
+
+<li>Edge</li>
+
+<li>Chrome</li></ul>
+
+<p>Małe zaskoczenie - Chrome odbiega od reszty, a to daje mi podstawę do ewentualnego twierdzenia, że zapewne włączona została jakaś super akceleracja (i nie jest programowa).</p>
+
+<p>Niezależnie od tych skrótowych wyników kilka uwag na temat przeglądarki:</p>
+
+<ul><li>jest to fork Chromium, do którego patche i kolejne paczki APK dostępne są na GitHub (nie ma i ma nie być wersji w Google Play i trzeba sobie robić updaty ręcznie)</li>
+
+<li>w trakcie ostatnich dni zauważyłem ze dwie nowe wersje (minimalnie nawet wyższe niż w samym Chrome)</li>
+
+<li>długa jest wersja zmian (wiele wydań), co daje nadzieję na aktualizacje w przyszłości</li>
+
+<li>dostępny jest własny AdBlock i możliwość ustawienia Secure DNS (DNS-Over-HTTPS)</li>
+
+<li>zakładki można importować/eksportować do lokalnego pliku MHTML (na razie nie działa to idealnie)<br/></li>
+
+<li>brak jest &quot;newsów&quot; i synchronizacji Google, jak i trybu Lite (to jednak oczywiste)</li>
+
+<li>YouTube działa w tle (odtwarza muzykę)</li>
+
+<li>należy przejrzeć wszystkie opcje (jak zresztą zawsze), żeby nie być zaskoczonym propozycją tego, co ma być dla nas najlepsze</li></ul>
+
+<p>Jeżeli nie planujemy wykonywać płatności, to myślę, że warto dać tej przeglądarce szansę - po prostu działa bez jakichś większych problemów i udziwnień, kont, itp., zawierając przy tym engine Chrome.</p>
+
+<p>To ważne - jeśli mam szczery, to zarówno Edge jak i Brave nie zrobiły na mnie dobrego wrażenia (ich interfejs zbyt nachalnie proponuje pewne zachowania), a Bromite... jest jakiś taki zwyczajny.</p>
+
+<p>Na chwilę obecną nie mamy chyba co liczyć na nowy engine na rynku (przez chwilę myślałem nawet, że może <a href="https://lexborisov.github.io/Modest/" target="_blank" rel="noopener" rel="nofollow">Modest</a> coś zmieni) i obecnie przez długi czas pozostaniemy pewnie z Chromem, Safari i Firefoxem, a &quot;walka&quot; rozegra się na funkcje.</p>
+
+<p>Myślałem nawet, żeby zrobić porównanie skuteczności AdBlockera do tego z Firefox, ale dałem sobie spokój - ta ostatnia przeglądarka musi nadrobić dużo w dziedzinie prędkości, żeby konkurować (a sama Mozilla &quot;musi&quot; się skupić na robocie inżynierskiej zamiast na innych &quot;ważnych&quot; sprawach).</p>
+
+<p>Linki:</p>
+
+<ul><li><a href="https://www.bromite.org/" target="_blank" rel="noopener" rel="nofollow">https://www.bromite.org/</a></li>
+
+<li><a href="https://github.com/bromite/bromite/releases" target="_blank" rel="noopener" rel="nofollow">https://github.com/bromite/bromite/releases</a></li></ul>

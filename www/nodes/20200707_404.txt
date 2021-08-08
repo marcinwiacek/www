@@ -1,0 +1,154 @@
+﻿Title:Niepokojące usterki systemów z Ryzenem (+ wpływ tzw. bullshit-job na jakość) (2020)
+Author:marcin
+When:7 Jul 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,AMD
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Kup-panie-Wieze-Eiffla-czyli-naiwniakow-nie-sieja-tylko-sami-sie-rodza,108035.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Trochę ponad pół roku składałem <a href="?q=node/383" target="_blank" rel="noopener" rel="nofollow">system oparty na płycie głównej X570 Phantom Gaming-ITX/TB3</a>, w lipcu pojawiła się wersja 2.30 UEFI i chciałbym się podzielić różnymi spostrzeżeniami...</p>
+<!--break-->
+<p><b>Instalacja i ilość opcji</b></p>
+
+<p>Strona producenta podaje, że uaktualniono AGESA Combo-AM4 1.0.0.4 Patch B na AGESA Combo-AM4 V2 1.0.0.2. Pobrałem, zainstalowałem (udało się) i próbowałem wgrać zapis ustawień z wersji 2.00 (płyta nie wstała).</p>
+
+<p>Po kilkunastu restartach i naciskaniu przycisku czyszczącego pamięć CMOS udało się - płyta obudziła się do życia.</p>
+
+<p>Zacząłem się przyglądać opcjom i okazało się, że jest ich MNIEJ, o wiele mniej (szacuję, że co najmniej jakieś 40%). Wyparowały różne opcje konfiguracji chipsetu (np. wyłączanie USB), procesora (np. związane z ilością rdzeni) i RAM (większość).</p>
+
+<p>Proszę sobie wyobrazić sytuację - dosyć sensowny sprzęt został zakupiony z kompletem konkretnych funkcji, które po pół roku zostały wycięte wpień. Nie jest interesujące, czy zawiniła firma AMD czy Asrock - taka praktyka jest haniebna.</p>
+
+<p>Innym problemem było to, że SoC/Uncore OC Mode ustawiało się zawsze na Enabled.</p>
+
+<center><img src="sites/default/files/404/1.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Dokonałem downgrade do wersji 2.00 i zabrałem się do dalszej zabawy.</p>
+
+<p><b>VCore</b></p>
+
+<p>System operacyjny, który jest na tym komputerze, to Ubuntu 20.04. Pozwoliłem sobie zainstalować jądro 5.7.7 z <a href="https://kernel.ubuntu.com/~kernel-ppa/mainline/" target="_blank" rel="noopener" rel="nofollow">https://kernel.ubuntu.com/~kernel-ppa/mainline/</a> (wystarczy pobrać cztery pakiety DEB, czyli <a href="https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.7.7/amd64/linux-headers-5.7.7-050707-generic_5.7.7-050707.202007010943_amd64.deb" target="_blank" rel="noopener" rel="nofollow">amd64/linux-headers-5.7.7-050707-generic_5.7.7-050707.202007010943_amd...</a>, <a href="https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.7.7/amd64/linux-headers-5.7.7-050707_5.7.7-050707.202007010943_all.deb" target="_blank" rel="noopener" rel="nofollow">amd64/linux-headers-5.7.7-050707_5.7.7-050707.202007010943_all.deb</a>, <a href="https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.7.7/amd64/linux-image-unsigned-5.7.7-050707-generic_5.7.7-050707.202007010943_amd64.deb" target="_blank" rel="noopener" rel="nofollow">amd64/linux-image-unsigned-5.7.7-050707-generic_5.7.7-050707.202007010...</a> i <a href="https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.7.7/amd64/linux-modules-5.7.7-050707-generic_5.7.7-050707.202007010943_amd64.deb" target="_blank" rel="noopener" rel="nofollow">amd64/linux-modules-5.7.7-050707-generic_5.7.7-050707.202007010943_amd...</a> i następnie użyć &quot;dpkg -i&quot;) i skonfigurować czujniki (&quot;sudo sensors-detect&quot;), a następnie zacząłem podglądać sobie parametry (polecenie &quot;sensors&quot;).</p>
+
+<p>Okazuje się, że płyta potrafi chwilowo podbić napięcie VCore nawet do 1.48V.</p>
+
+<p>I tu się włącza lampka ostrzegawcza - przy UEFI również mamy 1.44V (wartość już z lekka niebezpieczna). </p>
+
+<center><img src="sites/default/files/404/2.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Popatrzyłem w opcje i okazuje się, że niższe VCore można wymusić na trzy sposoby:</p>
+
+<center><img src="sites/default/files/404/3.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>albo</p>
+
+<center><img src="sites/default/files/404/4.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>albo </p>
+
+<center><img src="sites/default/files/404/5.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>W wypadku pierwszym prędkość procesora jest ustawiona na sztywno 3500 Mhz (w każdym razie np. &quot;watch -n.1 &quot;cat /proc/cpuinfo | grep \&quot;^[c]pu MHz\&quot;&quot;&quot; nie podaje, żeby ten zwalniał do ok. 2100 Mhz), tak samo w drugim (przy czym prędkość jest ustawiona na sztywno na podaną wartość), z kolei w przypadku trzecim prędkość się zmienia do ok. 3400 Mhz (a napięcie VCore jest ustawione &quot;na sztywno&quot;)</p>
+
+<p>Próbowałem również &quot;włączyć&quot; overclocking, ale...</p>
+
+<center><img src="sites/default/files/404/6.png" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>...w UEFI nie widać możliwości wpisania maksymalnej wartości VCore (jest wartość dla natężenia prądu ICCMAX, ale nie ma VCORE MAX)</p>
+
+<p>Co to oznacza?</p>
+
+<p>Teoretycznie możemy ustawić różne limity, ale (przynajmniej w tej płycie) nie ma możliwości założenia kagańca na maksymalne napięcie VCore tak, żeby zachować zmienną prędkość procesora i zmniejszanie jego napięcia przy bezczynności (jeżeli zaś opcja jest, to jest ukryta w naprawdę przedziwny i skomplikowany sposób)</p>
+
+<p>Czy to jest duża wada?</p>
+
+<p>Na pewno jest to niepokojące zachowanie (jak wspomniałem, przy UEFI mamy 1.44V na stałe, podobnie zdarza się przy obciążeniu jednego rdzenia), z drugiej strony podczas stałego obciążenia wszystkich rdzeni VCore w wersji &quot;zmiennej&quot; stabilizuje się na ok. 1.25V. </p>
+
+<p>Nie jest może tragicznie, ale dobrze też nie jest (proszę nie komentować, że się czepiam - spodziewam się, że płyta główna NIGDY nie będzie stosować wartości, które według wielu źródeł mogą prowadzić do degradacji procesora)</p><p>Przypomnę, obecnie możemy mieć:</p>
+
+<ol><li>dynamiczne zmienianie prędkości i napięcia VCORE procesora (ale bez możliwości ustawienia górnej granicy VCORE)</li>
+
+<li>ustawienie VCORE na stałe i prędkości procesora na stałe</li>
+
+<li>ustawienie VCORE na stałe i zmienianie prędkości procesora max. do 3500 Mhz</li></ol>
+
+<p><b>A inne wady?</b></p>
+
+<p>Pisałem już w grudniu, że problem chłodzenia chipsetu X570 jest rozwiązany w katastrofalny sposób - zamiast chłodzenia jak w laptopie (tzn. płaski wentylator pobierający zimne powietrze z tynelu panelu i wywiewający tam powietrze ogrzane) mamy wentylator pobierający ciepłe powietrze ze środka komputera i wdmuchujące je na chipset. Zastosowane rozwiązanie jest nie tylko mało efektywne, ale również wysokie, co powoduje brak kompatybilności z różnymi układami chłodzenia.</p>
+
+<p>Innym problemem jest to, że X570 pobiera więcej prądu niż wcześniejsze chipsety, a opcje wyłączające nieużywane elementy (teoretycznie powinno to zmniejszyć temperaturę) wyparowały wraz z UEFI 2.30. Nie wiem, czy jest to związane z wielkością pamięci na UEFI, ale chcę przypomnieć, że już dawno temu istniały komputery z (pseudo) graficznym BIOSem i jakoś nie było problemu z wielkością kości (wideo ok. 12:02)</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/vIoDRKrVXTA?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Czy naprawdę nie można okroić wyglądu UEFI, a nie usuwać opcji?</p>
+
+<p>Cały ten cyrk z B550 i X570 generalnie mówiąc nie buduje zaufania do platformy, teraz jeszcze te napięcia...</p>
+
+<p>To nie jest pierwszy tego typu problem, mieliśmy już fałszowanie wartości przekazywanych do procesora (<a href="https://www.instalki.pl/aktualnosci/hardware/42253-plyty-glowne-oszukuja-procesory-amd.html" target="_blank" rel="noopener" rel="nofollow">https://www.instalki.pl/aktualnosci/hardware/42253-plyty-glowne-oszuku...</a> i parametr Power Reporting Deviation w HWInfo), mieliśmy problemy ze zbyt wysokimi napięciami przynajmniej na niektórych płytach (np. <a href="https://wccftech.com/amd-ryzen-cpu-gigabyte-x370-damage-burning-bios-update/" target="_blank" rel="noopener" rel="nofollow">https://wccftech.com/amd-ryzen-cpu-gigabyte-x370-damage-burning-bios-u...</a>), były przepychanki z włączaniem obsługi PCI4 i no i przede wszystkim ze zgodnością z procesorami.</p>
+
+<p>Czy AMD nie powinno wprowadzić możliwości ograniczenia nie tylko dla TDC, EDC i PPT (<a href="?q=node/383" target="_blank" rel="noopener" rel="nofollow">pisałem już, jak tego używać</a>), ale również napięć? Czy nie możnaby dać jasnego definiowania wartości granicznych w jednym miejscu? Po co obecnie aż trzy miejsca?</p>
+
+<p><b>A teraz ogólnie (w oderwaniu od wspomnianego systemu)</b></p>
+
+<p>To mnie troszeczkę prowokuje do głębszych rozważań na temat tego, jak tzw. bullshit-job wpływa negatywnie na nasze życie.</p>
+
+<p>Tak się składa, że ostatnio widziałem wiele &quot;odkrywczych&quot; &quot;artykułów&quot; typu narzekanie na zamknięcie PCLab, ubolewanie nad reklamami w najdroższych flagowcach Samsung czy abonamentami w BMW.</p>
+
+<p>Jeśli mam być szczery, to coraz częściej przy czytaniu czegokolwiek mam w głowie słowo &quot;hiperinflacja&quot;. Od razu przypominają mi się opisy Niemiec po 1918 (gdzie marki traciły wartość z minuty na minutę, zaś na fali wielkiego rozczarowania po traktacie wersalskim popularność zdobyła partia pewnego kaprala) albo obrazki z USA (gdzie maklerzy rzucali się z okien wieżowców, a ludzie stali w kilometrowych kolejkach po talerz zupy).</p>
+
+<p>Przypadek PCLab pokazuje jedną prostą rzecz - na hurtowe testowanie sprzętu mogą pozwolić sobie tylko nieliczni. Żeby firmy skłonne były pożyczyć dziesiątki płyt, procesów, kości RAM, itp., trzeba mieć kontakty lub wyrobioną markę (dodatkowo problemem jest to, że takie recenzje nie mogą być niepochlebne).</p>
+
+<p><i>Oj Zdzisiu Zdzisiu, idę ci na rękę, a ty mi takie problemy robisz.</i></p>
+
+<p>W dobie Internetu rację bytu ma co najwyższej kilka stron czy kanałów (a i tak ich treść będzie się powtarzać), może jeszcze miejsca prowadzone przez hobbistów, którzy publikują coś od czasu do czasu.</p>
+
+<p>Narzekanie, że DP też obniżyły poziom, nie zmieni tego, że elektronika obecnie jest tylko i wyłącznie domeną wielkich firm, które dosyć starannie kontrolują, co i jak będzie o niej pisane.</p>
+
+<p>Firmy te często i gęsto wydają się wykonywać chaotyczne ruchy.</p>
+
+<p>Myślę, że przyczyną tego jest to, że hołdujemy zasadzie 8+8+8 (8 godzin pracy, 8 odpoczynku, 8 snu). Ludzie są zmuszani, że siedzieć cały dzień w biurze (dochodzi do tego oczywiście dojazd). Nie są przez szczęśliwi, co powoduje trzy problemy:</p>
+
+<ol><li>ich produkty na rzecz firmy są co najwyżej średniej jakości</li>
+
+<li>frustracja wylewa się na wszelkich stronach przez bite 24h</li>
+
+<li>pracownicy nie mają zbyt mocno ochoty na żadne sensowne hobby (nie jest nim gapienie się w telewizor)</li></ol>
+
+<p>Brak rozwoju u poszczególnych osób powoduje stagnację, stagnacja powoduje problemy z jakością i ze zdrowiem, a pogorszenie zdrowia pogłębia problemy. Dochodzimy do sytuacji, gdy negatywy zaczynają się napędzać (powstaje swoista hiperinflacja), co powoduje wysyp kolejnych &quot;rewelacyjnych&quot; pomysłów na finansowanie całego tego cyrku (BMW z abonamentem i Samsung z reklamami).</p>
+
+<p>W kraju, który podobno przoduje w trendach wolnościowych, ludzie już nie wytrzymali i doszli do rewolucji (bo jak inaczej nazwać BLM ?).</p>
+
+<p>A w innych miejscach?</p>
+
+<p>Doszliśmy do tego, że bardzo dużo &quot;pracy&quot; to obecnie przekładanie papierków albo wymyślanie rzeczy na siłę, żeby tylko cokolwiek pokazać. Wiele stanowisk jest tworzone tylko po to, żeby były - ci ludzie tworzą głównie &quot;nowoczesne&quot; idee, które prowadzą do dalszego powiększania frustracji.</p>
+
+<p>Wróćmy teraz do przykładu AMD.</p>
+
+<p>Jednym z topowych tematów IT AD 2020 są ich sukcesy, ale... firma nie jest jeszcze do końca wiarygodna. Dosyć chaotyczne ruchy z chipsetami, średnio udany X570 i raczej niespecjalnie udane wejście na rynek mobilny (wiele firm teraz wprowadza na rynek laptopy z Ryzeny 3xxx, a oferta z 4xxx jest wciąż dosyć skromna i często gęsto nie wykorzystuje nowych opcji procesorów).</p>
+
+<p>Ktoś powie, że się czepiam, ale Hyperbook L14 z Intelem ma baterię 73WH. Ile takich modeli z Ryzen jest na rynku? Ile biznesowych Lenovo się pojawiło? Ile laptopów jest z dobrymi i matowymi ekranami?</p>
+
+<p>Opóźnienia są spowodowane taką sobie jakością albo tym, że firmy dalej chcą promować Intela (w obu wypadkach jest to niekorzystne dla użytkowników).</p>
+
+<p>Czy w tej sytuacji można bezwarunkowo ufać czerwonym? W domu to być może nie jest problem, ale w zastosowaniach profesjonalnych droga jeszcze daleka.</p>
+
+<p>Na pewno w 2020 mamy ciekawą sytuację:</p>
+
+<ol><li>Apple chce zrezygnować z Intela (krążą pogłoski, że chodzi o złą jakość) i na pewno przewróci rynek do góry nogami, ale obecnie powoduje to dylemat, czy kupować ich laptopy z tego roku (nie wiadomo, jak długo będą wspierane i mają problemy z USB 2.0) czy czekać na ARM (pierwsza generacja niekoniecznie będzie dopracowana)</li>
+
+<li>W pięknym wizerunku AMD pojawiają się skazy</li>
+
+<li>Intel i Samsung nadal idą w ceny i swoje stare strategie</li>
+
+<li>Chińczycy atakują na wszystkich frontach</li></ol>
+
+<p>Wróćmy teraz do mojej tezy - korporacje to ludzie, nierzadko bardzo zmęczeni i sfrustrowani. Wielu z nich pracuje, żeby pracować, chociaż mogłoby wykorzystać ten czas lepiej. </p>
+
+<p>Wyobraźmy sobie teraz, że dostajemy tyle samo pieniążków za 4h pracy dziennie (ewentualnie w systemie: &quot;jak zrobisz, to idź&quot;). Takie rzeczy już próbowano robić i wtedy wzrastała:</p>
+
+<ol><li>efektywność (wszystko było zrobione na czas)</li>
+
+<li>zadowolenie (nikt się nie frustrował)</li></ol>
+
+<p>Żeby tego jednak dokonać, nie można zrobić takiego eksperymentu, a potem powiedzieć &quot;ok, skoro 4h wystarczy, to pozostałe 4h będą służyć na inne nowe zadania&quot;.</p>
+
+<p>Myślę, że w obszarze technologii doszliśmy w wielu sprawach do ściany i rozwiązania są &quot;more than enough&quot;. Czeka nas rewolucja, bez której niedaleko zajdziemy... a rewolucją tą jest usunięcie 8+8+8.</p>
+
+<p>Dziękuję (pisane przy średnim stanie umysłu).&#160;&nbsp;</p>

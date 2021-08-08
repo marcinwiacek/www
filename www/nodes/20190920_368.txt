@@ -1,0 +1,105 @@
+﻿Title:Era &quot;darmowych&quot; treści i oprogramowania i płatnego sprzętu. (2019)
+Author:marcin
+When:20 Sep 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Era-quotdarmowychquot-tresci-i-oprogramowania-i-platnego-sprzetu,103732.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><b>Chciałbym dzisiaj podsumować kilka zjawisk, które być może są oczywiste, ale wyraźnie pokazują, że znajdujemy się w środku rewolucji, którą dyktują wszyscy użytkownicy (czyli my).</b></p>
+
+<p><b>No to zaczynamy...<br/></b></p>
+
+<p>Kilka dni temu zobaczyliśmy nowe telefony firmy Apple, a na portalach technologicznych pojawiło się wiele tekstów pisanych przez mniej lub bardziej opłaconych ludzi (celowo nie nazywam ich dziennikarzami, gdyż bardzo często ich jedynym zadaniem jest pisanie samych pochwał).</p>
+<!--break-->
+
+<p>Mądre głowy pisały jakie to wszystko wspaniałe, a mnie najbardziej śmieszyło, gdy proponowano zabawę z super drogim sprzętem na sawannie w Afryce albo wśród ludzi, którzy słowo uczciwość używają od święta, a nawet rzadziej (i są gotowi zrobić wszystko za ułamek ceny takiego urządzenia).</p>
+
+<p>Na fali popularności tego tematu sam popełniłem krótki tekst <a href="?q=node/366" target="_blank" rel="noopener">Samsung jest lata świetlne za konkurencją. Pokażę to na przykładach</a>, który był swego rodzaju odpowiedzią na artykuł <a href="https://www.dobreprogramy.pl/iPhone-11.-Apple-jest-lata-za-konkurencja.-Pokaze-to-na-przykladach,News,103636.html" target="_blank" rel="noopener">iPhone 11. Apple jest lata za konkurencją. Pokażę to na&#160...</a> Swoją bardzo niewielką prowokację napisałem chcąc zobaczyć jaka będzie reakcja użytkowników na oczywiste fakty takie jak:</p>
+
+<ol>
+<li>zanik znaczenia słowa flagowiec (a właściwie odwrócenie całej logiki, która kiedyś mówiła, że to co droższe jest lepsze)<br/></li>
+<li>ignorowanie ekologii</li>
+<li>brak naszego protestu na efekt gotowanej żaby (ceny rosną, a my z uśmiechem płacimy za gorszą jakość i za rzeczy, które wyłączamy zaraz po zakupie)</li>
+</ol>
+
+<p>Kilka osób zauważyło wspomniane fakty, kilka sobie pohejtowało, kilka użyło niezbyt miłych określeń, a kilka zwyczajnie pomyliło artykuły i wydawało się pisać komentarze o produktach Apple.</p>
+
+<p>Nieźle i chociaż w internecie daje się zauważyć komentarze w stylu &quot;<i>nie można trzymać w ręku zeszłorocznego iPhone kupując sojowe latte w Sturbucks</i>&quot;, to myślę, że na szczęście nie wszyscy ulegli temu trendowi i idioci powoli odchodzą do lamusa:</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/-ImhiZfI_SI?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Ja sam oczywiście mam w nosie czy ktoś używa iPhone X czy Samsunga Y (nawiasem mówiąc wiele osób nie ma na życie i kupuje takie zabawki na kredyt wyłącznie po to żeby pokazać jacy są <i>cool</i>), sam też uważam, że telefon powinien mieć dosłownie kilka funkcji i jest wystarczający, gdy posiada:</p>
+
+<ol>
+<li>dobrą kamerę (zazwyczaj potrzebujemy strzelić fotkę w najmniej spodziewanym momencie i komórka jest jedyną cyfrówką którą mamy)</li>
+<li>minimum funkcji transmisyjnych (LTE, Bluetooth, Wi-Fi, NFC niekoniecznie, 5G być może również niekoniecznie)</li>
+<li>AMOLED na którym da się coś odczytać na dworzu w pełnym słońcu</li>
+<li>dual-SIM (według mnie to wynalazek na miarę LTE)</li>
+<li>dobrą baterię (chciałbym żeby była wymienna)</li>
+<li>wodoszczelność (oczywiście producenci niezbyt honorują gwarancje, ale miło jest mieć z tyłu głowy świadomość, że kilka kropel nie zaszkodzi urządzeniu)</li>
+<li>DEXa lub jego odpowiednik</li>
+</ol>
+
+<p>To obecnie głównie narzędzie pracy i wszystkie inne cechy powoli stają się drugorzędne, gdyż większość lub wszystkie modele mają wystarczający procesor, pamięć RAM lub odpowiednio szybką pamięć flash.</p>
+
+<p>Nie potrzebuję zakrzywionego ekranu (problem reagowania na dotykanie krawędzi jest widoczny i nie udawajmy, że go nie ma), nie potrzebuję ekranu na 100% powierzchni urządzenia (choćby dlatego, że chcę móc je trzymać bez obawy że coś przełączę), nie potrzebuję też czujników biometrycznych (wpisanie PINu nie boli) ani paletek do ping-ponga (bo moje spodnie nie są nieskończenie wielkie).</p>
+
+<p>Wiele razy w życiu migrowałem na nowszy sprzęt (przeżyłem czasy magnetofonów, CD, DVD, Blu-ray, dysków magnetycznych, kart ISA, Neostrady, itd.), ale robiłem to wyłącznie wtedy, gdy miało to sens - dodatkowo takie zjawiska jak usuwanie jacka są dla mnie oczywiście smutne, ale jestem w stanie z nimi żyć.</p>
+
+<p>To tyle w temacie, a Samsung potwierdził moją opinię o tym, że jego oferta w 2019 jest jakby przejściowa i wymagająca zmian (patrz &quot;nowe&quot; doniesienia sprzed kilku dni mówiące, że <a href="https://www.dobreprogramy.pl/Samsung-rozwaza-polaczenie-Galaxy-S-i-Note-w-jeden-bezkompromisowy-smartfon,News,103701.html" target="_blank" rel="noopener">Samsung rozważa połączenie Galaxy S i Note w jeden bezkompromisowy sma...</a>) i że nowości są traktowane po macoszemu (<a href="https://www.sammobile.com/news/galaxy-a90-5g-not-receive-monthly-security-updates/" target="_blank" rel="noopener" rel="nofollow">Galaxy A90 5G will not receive monthly security updates</a>).</p>
+
+<p>W międzyczasie dało się zauważyć, że nad 5G zbierają się coraz większe chmury - po początkowym optymiźmie <a href="https://news.yahoo.com/health-fears-prompt-swiss-5g-revolt-050428328.html" target="_blank" rel="noopener" rel="nofollow">protesty pojawiają się nawet w Szwajcarii</a>, a wielu ludzi po prostu nie potrzebuje tak zaawansowanej technologii co potwierdza popularność sprzętu retro (nawiasem mówiąc oznacza to, że być może częściowo wrócimy do kabli, bo eter nie jest z gumy).</p>
+
+<p>Producenci nie zarabiają na software (czyli w tym przypadku na Androidzie czy iOS, w przypadku Androida często również na sklepach) i odbijają sobie na sprzęcie robiąc coraz dziwniejsze ruchy.</p>
+
+<p>Z jednej strony to dobra wiadomość, z drugiej nie cieszy mnie &quot;tani&quot; iPhone czy lepsze średniaki od flagowców Samsunga - to są według mnie oznaki, że te firmy nie wiedzą, co robić dalej albo ich kolejne inwestycje w R&amp;D są zbyt drogie albo chodzi o zwykłą chciwość (znając życie obstawiam ostatnią możliwość).</p>
+
+<p>Żeby nie było wątpliwości - na ostatniej konferencji Apple pokazało slajdy mówiące &quot;mamy monitor za 5999 i proszę dopłacić 1000 za niezbędny element&quot; zamiast przedstawić sytuację &quot;mamy monitor za 6999 i możemy go sprzedać 1000 taniej&quot;, reakcja fanów nie była w tej sytuacji zaskoczeniem... (tak, oczywiście przyjmuję do wiadomości, że część osób ma już podstawki, pewnym problemem jest tu arogancja producenta widoczna zresztą nie po raz pierwszy)</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/YuW4Suo4OVg?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Może się zdarzyć, że wielcy zajmą się inną klasą urządzeń (nanotechnologia? sprzęt kwantowy?), ustąpią miejsca nowym graczom (czyli pewnie Chińczykom), a ci nie musząc się starać zaleją nas masą tandety.</p>
+
+<p>Tak sobie myślę, że oczywiście możliwości technologii się nie wyczerpały i oprócz oczywistych oczywistości smartphony można wykorzystać na wiele sposobów, kilka przykładów:</p>
+
+<ol>
+<li>dodanie kamer termowizyjnych czy 3D</li>
+<li>umieszczenie kamer na obracanych elementach jak w Asusach (pozwoli to na używanie jednego zestawu z tyłu i przodu - element ma obracać się po naciśnięciu i być chroniony przed wilgocią)</li>
+<li>umieszczenie kamery w rysiku</li>
+<li>dodanie tunerów TV czy tunerów radiowych</li>
+<li>umieszczenie płyt głównych smartphonów z kadłubkach laptopów z tyłu ekranu (nie, nie chcę protez z rodzaju Snapdragona 855, wolałbym np. sprzęt z ekranem 15 cali, 32 rdzeniami ARM i naprawdę dużą baterią)</li>
+<li>dodanie czujników analizujących np. stan powietrza</li>
+</ol>
+
+<p>Jest też dobra strona całej sytuacji - istotnie doszliśmy do miejsca, gdzie za sprzęt płacimy, a resztę wciska nam się za darmo.</p>
+
+<p>Jest to widoczne nie tylko zresztą w obszarze komórek, ale również wśród:</p>
+
+<ol>
+<li>systemów operacyjnych (pomimo ekspansji Deepina nie ma być może roku Linuxa na desktopach, ale w różnych firmach używa się różnych unixopodobnych rozwiązań i to rzeczywiście działa przynosząc ogromne zyski)</li>
+<li>gier (regularne promocje na Steam, Humble Bumble, Epic Games Store, ostatnio czytałem również o Rockstar Games Launcher i darmowym GTA: San Andreas)</li>
+<li>książek (w mojej ulubionej dziedzinie fantastyki mógłbym wymienić zbiorki opowiadań z uniwersum Metro 2033 takie jak w &quot;Blasku ognia&quot;, do tego opowiadania &quot;Fantazmatów&quot; i wiele innych inicjatyw)</li>
+<li>przeglądarek, edytorów, edytorów graficznych i różnych programów (kłania się tutaj ruch GNU, ale nie tylko)</li>
+<li>encyklopedii (Wikipedia)</li>
+</ol>
+
+<p>Wymieniać można długo, niektóre korporacje widzą nazwijmy to miałkość obecnych rozwiązań i stąd chociażby Google pracuje nad Fuchsią (nie, nie, jądro linuksowe nie jest siódmym cudem świata), a Microsoft nad Windows Core OS (cokolwiek to znaczy).</p>
+
+<p>W tym świecie użytkownicy mają dostęp do sprzętu, który jest potężny i do narzędzi, które pozwalają im się dzielić, produkować nowe urządzenia (drukarki 3D) i w łatwy sposób wypełniać luki ignorowane przez korporacje (np. poprzez serwis Kickstarter).</p>
+
+<p>Jedna z rewolucji zaczęła się od P2P i trwa dalej, kolejna to kryptowaluty, jesteśmy też coraz mniej przywiązani do biurek. Ludzie budują setki minimalistycznych urządzeń, które robią to co powinny i nic więcej. To dzieje się już dziś i to właśnie mali proponują nam chociażby dosyć tanie kadłubki, które pozwalają nam na używanie smartphonów z ekranami 13 czy 15 czy więcej cali (zamiast drogich laptopów).</p>
+
+<p>Niektóre korporacje również odchodzą od dawnych metod wyciskania z nas ostatnich pieniędzy i po latach kombinowania z cartridżami można kupić rozsądne drukarki HP czy Epsony z serii Ecotank, na rynku procesorów pojawiły się rozwiązania AMD, a coraz więcej firm oferuje np. druk na żądanie.</p>
+
+<p>Samsung czy Apple ze swoją strategią powoli stają się przeżytkiem i proszę mnie źle nie zrozumieć - nie wieszczę ich upadku, nie piszę też, że wszystko od nich jest &quot;be&quot;, tylko zauważam, że będziemy mieć ich coraz bardziej dosyć podobnie jak dzisiaj Facebooka czy Microsoftu z jego wielkim monolitycznym Windows 10.</p>
+
+<p>Jedynym problemem w tym świecie staje się wyłącznie klęska urodzaju, nasze wygodnictwo (ciekawe jakbyśmy się poczuli, gdyby dzisiaj zabrakło YouTube) i to, że płacimy naszymi danymi.</p>
+
+<p>Żyć nie umierać (no prawie) - tylko co my z tym zrobimy? Czy w końcu dostrzeżemy, że do napisania prostego tekstu nie trzeba Worda, a komputer nie musi mieć Windows? (rzecz oczywista w wielu krajach rozwiniętych)</p>
+
+<p>Myślę, że wszyscy znamy The Simpsons - zadam więc pytanie czy chcemy równać w górę i rozwijać bazując na tym co już mamy czy iść w stronę karykaturalnie przedstawioną tutaj:</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/q1u7XZ9c8fI?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Kto będzie naszym partnerem - skoro tak wiele firm z USA dostało zadyszki, to z kim mamy współpracować i szukać sojuszy? Z Chińczykami? I czy wkrótce będziemy kupować sprzęt na żądanie?</p>
+
+<p>(nawiasem mówiąc sytuacja z Huawei może okazać się wielkim strzałem w stopę dla gospodarki USA, gdyż Google może stracić swoją pozycję w Azji) &nbsp;</p>

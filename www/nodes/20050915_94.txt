@@ -1,0 +1,67 @@
+﻿Title:Why you should and why shouldn&#039;t buy Nokia phones (part 2) (2005)
+Author:marcin
+When:15 Sep 2005
+Taxonomy:English,GSM,Nokia,English article
+
+<p>I have prepared <a href="?q=node/93">page "Why you should and why shouldn't buy Nokia phones" in 2002 year</a>. I decided to make continuation now in 2005.</p>
+<p>I wanted to show some weak Nokia things for Series 40 and 60 phones, because they're used the most for ordinary people.</p>
+<p>First Series 40. We will look into menus now (based mainly on 6230i):</p>
+<ul><li>Messages - Nokia phones have MMS and SMS here.</li>
+<ul><li><b><font color="#33cc00">Latest models (like 6230i) have even shared folders for both and this is good. </font></b><br /></li>
+<!--break-->
+<li><b><font color="#33cc00">Memory for SMS is for 150 messages <font color="#ff6666">(only one model 3200 has space for 50 messages)</font> and this is enough.</font></b></li>
+<li><b><font color="#ff6666">But even now after light years Nokia programmers haven't made it fast - I don't know, if this is one language thing only, but all models with Polish package (it's enough, when you have Polish as one of languages) after each operation on SMS (opening SMS folder, deleting SMS) displays for a moment (one, two seconds) message "opening folder" or similar. These messages aren't available in the same phones with West Europe languages. Ignored by Nokia Poland.</font></b></li>
+<li><b><font color="#ff6666">no EMS</font></b></li>
+<li><b><font color="#ff6666">no option for sending class 0 SMS (available in single models only)</font></b></li>
+<li><b><font color="#ff6666">no option for switching SMS alphabet between Unicode and Default (like in some 3310 and 3410)</font></b></li>
+<li><b><font color="#ff6666">no option for enabling Pending Delivery Reports</font></b></li>
+<li><b><font color="#ff6666">no assigning Delivery Reports to sent sms (when SMS from Sent Items is delivered, it could be nice to have info there)</font></b></li>
+<li><b><font color="#ff6666">phones don't inform, when you read SMS saved on SIM (no SIM card indicator)</font></b></li>
+</ul><li>Contacts</li>
+<ul><li><b><font color="#33cc00">OK</font></b></li>
+</ul><li>Call register</li>
+<ul><li><font color="#ff6666"><b>after so long time we still don't have call time (how long it was) for each call</b></font></li>
+<li><font color="#ff6666"><b>message counter doesn't contains list of numbers, where SMS were sent and where they were received from (it was in 3510i and 6230, but not in 6230i)</b></font></li>
+<li><font color="#ff6666"><b>message counter can be deleted without asking for security code</b></font></li>
+</ul><li><font color="#000000">Settings</font></li>
+<ul><li><font color="#ff6666"><b>automatic locking keypad (with code) should be rather setting in each profile (when you're at home, you don't need lock it)</b></font></li>
+</ul><li>Gallery</li>
+<ul><li><font color="#ff6666"><b>no selecting and copy operations</b></font></li>
+</ul><li><font color="#000000">Media</font></li>
+<ul><li><font color="#ff6666"><b><font color="#33cc00"><font color="#ff6666">Radio still needs headset as antenna</font></font></b></font></li>
+<li><font color="#ff6666"><b><font color="#33cc00"><font color="#ff6666">No RDS and AutoSearchingForStation in Radio</font></font></b></font></li>
+</ul><li><font color="#000000">PushToTalk</font></li>
+<ul><li><font color="#33cc00"><b>OK</b></font></li>
+</ul><li><font color="#000000">Organizer</font></li>
+<ul><li><font color="#ff6666"><b><font color="#33cc00"><font color="#ff6666"><font color="#33cc00">OK</font></font></font></b></font></li>
+</ul><li>Applications:</li>
+<ul><li><b><font color="#ff6666">it's not possible to copy applications from Games to Collection (it's new name for Applications folder) and vice versa</font></b></li>
+<li><b><font color="#ff6666">Calculator even in phones with very big screen is still too easy - no many required options, no memory, only one last calculation on screen in one time</font></b></li>
+</ul><li><font color="#000000">Web</font></li>
+<ul><li><font color="#000000"><b><font color="#33cc00">OK</font></b></font></li>
+</ul><li><font color="#ff6666"><font color="#000000">SAT menu</font></font></li>
+<ul><li><font color="#ff6666"><font color="#000000"><font color="#33cc00"><b>OK</b></font>      </font></font></li>
+</ul></ul><p>and some general:</p>
+<ul><li><font color="#ff6666"><b>no possibility of saving incoming files automatically to Inbox (like in Series 60)</b></font></li>
+<li><font color="#ff6666"><b>you can't have phonebook under cursors in Read-Only mode (no options for editing pbk, only some for reading, calling, etc.)</b></font></li>
+<li><font color="#ff6666"><b>USB cable must have POP-port connector (no standard USB socket)</b></font></li>
+<li><font color="#ff6666"><b>no ability for downloading T9 without service</b></font></li>
+<li><font color="#ff6666"><b>you can't enable disabling phone screen </b></font><font color="#ff6666"><b> (phisically disabling) </b></font><font color="#ff6666"><b>and CPU throttling after some inactivity time</b></font></li>
+<li><font color="#ff6666"><b>no netmonitor :-(</b></font></li>
+<li><font color="#ff6666"><b>you have more and more buttons (IMHO, 6220 had it enough)</b></font></li>
+<li><font color="#ff6666"><b>no call time (how long) during call</b></font></li>
+<li><font color="#ff6666"><b>no BT blinking icon (when there is no connection, it should blink; when there is connection, it should be constant)</b></font></li>
+</ul><p><font color="#ff6666"><font color="#000000">and my personal notice - <b><font color="#ff6666">you don't have phone for active people with MMC and BT (something like 5140 with 6230 features)</font></b></font></font></p>
+<p>What can we say about Series 60 ?</p>
+<p><b><font color="#33cc00">It's getting more and more stable and you can run many things and there is </font><font color="#33cc00">some limited netmonitor available unofficialy for ordinary people</font></b>, but still:<br /></p>
+<ul><li><font color="#ff6666"><b>it's SLOW - maybe because all the time you have in memory all stuff for fax, data calls and other thousands of things. You need time to load it on startup and later on switching between tasks</b></font></li>
+<li><font color="#ff6666"><b>you can't replace main components - for example SMS editor should be replaced with version with EMS, encoding (if you want to use Unicode or not), sending class 0 SMS options</b></font></li>
+<li><font color="#ff6666"><b>you can easy install viruses inside</b></font></li>
+<li><font color="#ff6666"><b>almost each new model doesn't have irda - in first Symbian phones it was fun to use it as TV remote control, now you can't</b></font></li>
+<li><font color="#ff6666"><b>no standard USB connector for cable</b></font></li>
+<li><font color="#ff6666"><b>calendar should have all Series 40 options</b></font></li>
+<li><font color="#ff6666"><b>no ability for downloading T9 without service</b></font></li>
+<li><font color="#ff6666"><b>you can't enable disabling phone screen </b></font><font color="#ff6666"><b> (phisically disabling) </b></font><font color="#ff6666"><b>and CPU throttling after some inactivity time</b></font></li>
+<li><font color="#ff6666"><b>RS-MMC (after using MMC over years)</b></font></li>
+<li><font color="#ff6666"><b>you can't enable Loudspeaker during incoming call</b></font></li>
+</ul><p><font color="#ff6666"><font color="#000000">In my conclusion I will say, that Nokia phones are better and better, but </font></font>very often you see new cover, better camera, bigger screen and nothing more - many "old" things are still ignored (for example EMS).</p>

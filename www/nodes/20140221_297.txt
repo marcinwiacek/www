@@ -1,0 +1,34 @@
+﻿Title:Stara bida
+Author:marcin
+When:21 Feb 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Nic nie mogę, kiepska jestem,<br />
+źle jest z każdym moim gestem,<br />
+stara bieda mnie dotyka,<br />
+kredyt z żalu wciąż przytyka,</p>
+<p>wygląd mój niestety taki,<br />
+że sens trwania mam nijaki,<br />
+kość lub sadło nazbyt czuję,<br />
+w myśli piękno zaś widuję,</p>
+<p>gdy ktoś prawi komplementy,<br />
+ma być z góry wciąż przeklęty,<br />
+każdy brałby mnie nieczule,<br />
+nikt zaś nie zechce mnie w ogóle,</p>
+<p>nigdy siebie nie wychylam,<br />
+w ciszy za mądrzejszych tyram,<br />
+po co kusić jakieś licho,<br />
+w życiu zawsze siedzę cicho,</p>
+<!--break-->
+<p>i tak jedna mądra z drugą,<br />
+nie chce żyć radością długą,<br />
+w ciągłe kompleksy wpadając,<br />
+otoczenie w dół równając,</p>
+<p>leń w siedzeniu jest przyczyną,<br />
+na to radę dam jedyną,<br />
+w końcu zacząć trzeba zmiany<br />
+smak ich będzie wtedy dany,</p>
+<p>gdy zaś w głowie taka breja,<br />
+na nic też...czytanie Greja....</p>

@@ -1,0 +1,24 @@
+﻿Title:MyGnokii
+Author:marcin
+When:10 Mar 2010
+Taxonomy:English,GSM,MyGnokii
+SkipMain:true
+
+<p align="right"><b>Project was end few years ago</b></p>
+<hr /><p align="justify">MyGnokii was a project, where applications, scripts and drivers used for managing all possible functions in cellular phones and similiar devices were created.</p>
+<!--break-->
+<h1>Manifest and history</h1>
+<p align="justify">First, a few words about <a href="http://www.gnokii.org">Gnokii</a> must be spoken. It's project released under <a href="?q=gpl2">GNU GPL 2</a> (or later) license developed initially as replacement for original Nokia software called Nokia Cellular Data Suite (NCDS). It was started 21-10-1998 by Hugh Blemings and created for Nokia 3110/8110 (DCT2). Later it was joined with a similiar project created for Nokia 6110 (DCT3). This part was developed by <a href="http://www.janik.cz">Pavel Janik</a> and others.</p>
+<p align="justify">I sent a first email to <a href="http://www.gnokii.org">Gnokii</a> list on 12-11-1999. There were small extensions from my side proposed to this project and it was good. Later I started more mature work (connected sometimes with problems - for example, 25-11-1999 the Nokia 5110 used for work was damaged and went to service ;-)). There was prepared more and more source.</p>
+<p align="justify">It made a problem for <a href="http://www.gnokii.org">Gnokii</a> authors. It looked like they didn't have enough time for applying proposed sources or simply didn't want to apply them. This behaviour started some discussions, which sometimes were on very a low level (flame wars and similiar). <a href="http://www.janik.cz">Pavel Janik</a> decided to leave <a href="http://www.gnokii.org">Gnokii</a> in this moment. It was near 27-10-2000.</p>
+<p align="justify">I decided to the make <a href="http://www.gnokii.org">Gnokii</a> branch. A new project named MyGnokii was started from Gnokii 0.3.3_pre8 and had only small extensions to it.</p>
+<p align="justify">Later it was extended and new source was added into it. The main target during creating it was giving support for new phones. It was the first GPL project with usable support for Nokia DCT3 phones with big screens (7110/6210) and cheap models without cable connector (3210, 3310), Picture Images and other things. Many valuable work was done by such people like Gabriele Zappi and Ralf Thelen and others.</p>
+<p align="justify">Somewhere near 06-04-2002 MyGnokii developing was ended. Main structures taken from <a href="http://www.gnokii.org">Gnokii</a> were not good enough and it was required to rewrite them. Next in history was <a href="?q=gammu">Gammu</a>.</p>
+<p align="right">Marcin Wiącek, April 2005</p>
+<h1>License</h1>
+<ul><li><a href="?q=gpl2">GPL 2</a> or later</li></ul><h1>Links</h1>
+<ul><li><a href="/zips/gsm/mygnokii/">Downloads</a> (available from historical reasons)
+</li><li><a href="http://dl.cihar.com/MIRROR/gammu/zips/mygnokii/">Downloads (mirror on the Michal's page)</a> (available from historical reasons)
+</li><li><a href="?q=node/8">More about cellular technology and Gammu/MyGnokii history</a>
+</li><li><a href="?q=node/91">Nadzieja dla Kontestatorów (2001)</a> - detailed software description in Polish language
+</li></ul>

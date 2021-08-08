@@ -1,0 +1,259 @@
+﻿Title:Thinking about Windows 7 (2008-2009)
+Author:marcin
+When:27 Dec 2009
+Taxonomy:English,Windows 7,x86,English article,OS
+
+<p>I'm observing <a href="http://blogs.msdn.com/e7">Windows 7 blog</a> and I have a lot of comments... I will try to update this page from time to time. Maybe not too many people will read this page, but... I don't search my 5 minutes of fame too.</p>
+<!--break-->
+<p><b>27 Dec</b></p>
+<p>As summary:</p>
+<ol><li>I have created in Polish language short summary of Windows 7 (dis)advantages: <a href="?q=node/107">http://www.benchmark.pl/mini-recenzje/Windows_7__odgrzewany_kotlet_.-2398.html</a> (I was writing about similar things than here). It looks, that many readers agreed with me.
+</li><li>Mark Russinovich was writing again about MinWin: <a href="http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-of-Windows/1259792850">http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-...</a>
+</li></ol><p><b>05 Oct</b></p>
+<p>I'm checking currently final RTM version for various weaknesses known from RC. They're still in the system... Not too good... </p>
+<p>Few days/weeks ago mr Ballmer said, that Windows Mobile is not too good (using different words ;)). Maybe it's time to say, that Windows is not too good too ?</p>
+<p>Please note, that sometimes making something really new is better than extending old solutions. See Iphone success, see, how big success we will see probably in Nokia's Maemo N900 device (yes, they try something different than Symbian !) for example...</p>
+<p><b>12 June</b></p>
+<p>I had earlier <a href="?q=node/6">100 reasons why you shouldn't touch Vista</a> (almost done), currently I'm working on <a href="?q=node/7">Why you should not touch Windows 6.x and Linux‎</a>. If you have something to add, please do it...</p>
+<p><b>17 March</b></p>
+<p>What can I say ? I would like to make analogy to cars. Please read it without too big seriousness.</p>
+<p>Windows - MS had family car (van or something like that) from 2001 year, which was fast, lightweight, had many initial problems removed, there were many tuning kits and accessories for it. Passengers and luggage were put inside without any separation. Liked by thousands people !</p>
+<p>It was good. But later...there was created new model 2007 (or 2006 - it was released for VIPs then). New body, new cockpit, partially new engine (but in the same time many old parts under mask too). Some people were screaming "wow" for it. Many things were looking different, more things were done automagically (for example car was going automatically into car wash, even if you didn't want), of course there were required new accessories for it. New model need more gasoline (but who cares ;)), it wasn't so fast. It required double confirming, if you want to go this and not other way. It was equipped with microchip, which was able to take full control over it and could be activated remotely (it's possible, that all users will be kidnappers or other horrible black antihero and it's good to have such chip "for any reason").</p>
+<p>We have 2009 year now. We have third model. Example of good engineer work (without irony !) - thanks to it can pass some norms. Based on previous one, its' speed and acceleration are better than in model 2007. It has got many new things in the cockpit, but some solutions should be familiar for drivers too (they were taken from model 2001). Still slower and still needs more gasoline than model 2001 (you know, many old parts were hidden under tons of plastic and metal plate and it gives additional weight, but everybody should be happy, because it was partially balanced by "start stop" system, hybrid solutions and is less visible now). Passengers and luggage were still put inside without any separation. But who cares ? It has got new stereo and support for new audio formats !</p>
+<p>Linux - nice F1 model with some incredible alien technologies, which is going more and more user friendly. Unfortunately still needs sometimes stopping and fixing some parts during trips. You can change all parts of it, you can separate luggage and all passengers. Used by more and more governments on the world. Not liked by Windows fans.</p>
+<p>ReactOS - prototype of Windows 2001 created from service manuals. You have to push it sometimes on the road, it doesn't work with all accessories from Windows 2001.</p>
+<p>ColibriOS - Jeep Weelis. Extremely small and fast. For hard men !</p>
+<p>Haiku - comfort limousine known for some people only. Still has got many "child age" problems.</p>
+<p><b>15 March</b></p>
+<p><b>Windows Seven - success or failure ? Why 2009 year won't be like 1995 or 2001 ?</b></p>
+<p>RC will be probably released OFFICIALLY soon and I will want to download and install it. </p>
+<p>For now: when you will look into <a href="http://blogs.msdn.com/e7/archive/2009/03/13/a-few-more-changes-from-beta-to-rc.aspx">last E7 post</a>, you will see that people are commenting last available builds (available for them legally or downloaded from torrents). I agree especially with one note:</p>
+<p><i>"7 has been overwhelmingly well received because users the world over love Windows and the media has played its part in showering praise on Windows 7 in the aftermath of Vista. The people who themselves created OSes like Windows 2000 and XP have forgotten some things. 7 isn't much different from Vista, and Vista is totally different from the eXPerience [...] Longtime Windows people refuse to support their apps on Vista or anything later than it. Windows 7 is not a bad OS, it'll be successful, but not overwhelming and unanimously as the success previous Windows versions saw."</i></p>
+<p>The truth is, that some visual effects are nice and there are improvements, when you compare new system to Vista. But still: architecture doesn't provide very big changes in security. There is a lot of (necessary and unnecessary) code and some unclear things:</p>
+<ol><li>what is DRM role in new system ? how much kernel and drivers are affected with it ? what is sense of implementing it, when it's used for DVD and when it will be probably not used for Blue-Ray ? (there won't be native playing support, I'm not, sure, if 3rd party players will use it)
+</li><li>why removing some components ("turning off Windows features") is done so poor ? Even Windows Server went much further with it. When you leave some libraries connected with some features available (like IE), it doesn't resolve problem of some applications - after upgrading IE they can be affected in the same degree like without these libraries...
+</li></ol><p>Microsoft is still using controversial shared Registry, controversial WinSxS and some other things. There is a lot care about compatibility (sometimes it's probably wrong understood in my opinion) and it's working somehow. Nothing more.</p>
+<p>I don't see any sense in upgrading, when you have Windows XP. It offers almost the same and it will be good enough for many tasks for next few years. Additionally: hardware manufacturers producing notebooks don't give partially encouragement for buying new devices. I speak about big screen resolutions. When you don't like small objects, even using bigger DPI doesn't give so good experience like with older models. Does it any sense to buy new system for old hardware ?</p>
+<p>To compare: I was trying last times few systems, which seems to be created with less money, but with more passion:</p>
+<ul><li><a href="http://www.kolibrios.org">KolibriOS</a> - created in assembler, incredibly small and fast. Looks quite primitive now and doesn't have too many drivers. Imagine, that somebody would add real security into it (like permissions for folders and similar things), improve graphic and would create at least partial win32 subsystem for it (using Wine or other free software). It would be real revolution...
+</li><li><a href="http://www.reactos.org">ReactOS</a> - win32 clone repeating various Windows architecture mistakes.
+</li><li><a href="http://www.haiku-os.org/">Haiku</a> - quite fast, quite small, but I don't see too many security features too...
+</li><li>and finally Linux - various distributions are better and better, but sometimes still you need to make technical steps for simple tasks.
+</li></ul><p>Personally I would like to see system with core written in assembler and separating applications from each other... System, where installed application can be totally removed and poor developers can't be blamed, that their software left garbage. System, where I will be able to set something like - application X can only access disk Y, should use network interface Z (for example wifi) and don't use more than W % of my CPU. System, where I will not need to reboot everything to install patch or where I will not need to compile kernel for running some devices...</p>
+<p><b>21 Feb</b></p>
+<p>Some comments from E7 blog:</p>
+<p><i>I have feeling, that current way of extending win32 architecture is going nowhere. I have even read in some places, that people started to name Seven as Vista+ (Vista + new problems). Sorry for irony, but:</i></p>
+<ol><li><i>you're receiving various comments about interface, fonts, DRM, speed and many times answer is: this is by design or this is cool in our opinion</i>
+</li><li><i>you're receiving various comments about compatibility and more and more often we can see something like: our system is OK, change your apps</i>
+</li><li><i>some comments about methods of distributing Seven were also ignored: no cheap upgrade for annoyed Vista users, no help for OEM customers, which are forced to delete all partitions during installing system, etc. etc.</i>
+</li></ol><p><i>I have read in one of blogs created by Microsoft employees (I can find it, if you want), that creating shutdown window in Windows 5.x required few teams and something near six months (I write it from memory, but numbers were big). And what ? You had to press additional Shift to be able to make Hibernation... Annoyed.</i></p>
+<p><i>Now we can read, that you're giving a lot of resources for creating boot/shutdown animations. And what is result ? There is removed progress bar or ability of customizing it.</i></p>
+<p><i>I'm sorry, but I have feeling, that nothing (I repeat: nothing) has been changed in your development methods since years. And you don't (want to) get, what is liked by your customers.</i></p>
+<p><i>To be clear: problem of moving Program Files, many security/uninstall problems can be avoided, when you will use sandboxing. How many functions will have to be modified ? 20 ? And what programs will be affected ? Debuggers, antivirus ? Almost all of them will be changed from other reasons too. And compatibility problems (info, that you can't do it because of it) are only excuses.</i></p>
+<p><i>Once again: Seven is a little faster in some places, but it's again worse than Windows 5.x. If you want to make customers happy, remove at least controversial parts (some DRM). Without it you will loose another parts of market...</i></p>
+<p><b>8 Feb 2009</b></p>
+<p>What I can say about win32 now:</p>
+<p><i>There are required not only interface experiences, but also some other.</i></p>
+<p><i>(based on various people experiences) When:</i></p>
+<ul><li><i>after uninstalling some software I still can see some libraries and Registry entries from it</i>
+</li><li><i>installed program X can change silently settings from program Y</i>
+</li><li><i>antyvirus software is asking me for approval on changing some Registry keys (it's good, because it's protecting me against changing some system things, but wrong because I don't have to know something about these settings)</i>
+</li><li><i>I can't do the same things in Seven which were possible in XP (like displaying animated icon for my Ethernet card near clock)</i>
+</li><li><i>I get 100% CPU usage in Seven during opening Explorer</i>
+</li><li><i>I can't set up clear, where my system is connecting to during updating (servers + port)</i>
+</li><li><i>system doesn't allow me for installing few versions of the same application (IE for example)</i>
+</li><li><i>I can't reformat my HDD as I want during system install, because I received Recovery DVD</i>
+</li><li><i>I can't delete from system unnecessary default parts</i>
+</li><li><i>in Seven I can set up less precise some options (see ClearType tweaker)</i>
+</li><li><i>I can't precisely set up, that for example application X shouldn't use network interface Z or application X can't use more than 30% of CPU</i>
+</li><li><i>I don't understand meaning of more and more system services</i>
+</li><li><i>my NTFS is hidding some data (alternative streams) and 0 bytes big file (in Explorer) can have many MB for example</i>
+</li><li><i>I need to make more clicks in Seven than in XP (for example in Task Manager I have to click additionally "show processes from all users", although it can show them even when run from limited account; I need to make many clicks, when I want to disable my ethernet card)</i>
+</li></ul><p><i>my experiences are wrong. And I don't blame developers for it only. Architecture. This is key. System should be "self-protected" against problems.</i></p>
+<p><i>I proposed some easy to implement solutions (for example sandboxing), nobody is interested in it. 3rd party solutions are better and better (I like it - Linux and other are very nice now), the best win32 implementation is more and more bloated and more and more "discussed", not improved. This is wrong.</i></p>
+<p><b>7 Feb 2009</b></p>
+<p>One of my answers:</p>
+<p><i>&gt; Read Mark Russinovich's take on this.<br />
+&gt; It explains a lot of Microsoft's thinking.<br />
+&gt; [...]<br />
+&gt; The key statement is, that UAC<br />
+&gt; (as in Vista) is not a security feature,<br />
+&gt; but just a convenience</i></p>
+<p><i>exactly ! and this is the problem. One of main Seven 7 advertised features will be UAC (changes) - MS can't advertise (too many) other security features, because don't have them. </i></p>
+<p><i>Technical people are speaking about it and sometimes only about it - real problems are not discussed. </i></p>
+<p><i>Non technical people will think, that it will resolve everything, many of them will stay on default level and will be more vulnerable. Systems will be more "secure", not more secure.</i></p>
+<p><i>We need to speak about it - when people will know about it, maybe will decide to move to more safe systems (or even stay with XP, which after years has got closed many gaps) and maybe it will force MS to start real work on improving this architecture. At least I hope so...</i></p>
+<p><b>7 Feb 2009</b></p>
+<p>One of my answers:</p>
+<p><i>&gt; w7 engineering seems to be nailing<br />
+&gt; down performance.<br />
+&gt; However even with the latest technologies,<br />
+&gt; why is it an iPhone can finger scroll<br />
+&gt; a web page better than w7 &amp; IE8 on<br />
+&gt; a quad core desktop machine?<br />
+&gt; I sometimes feel there is some lack<br />
+&gt; of vision of where Windows usage<br />
+&gt; is going in the future. </i></p>
+<p><i>Once again: Microsoft has got product, which is old, but quite good estimated (XP). Development on it is stopped and we have Vista (Windows 6.x). It's very often criticized. Microsoft decides to continue Vista instead of moving good Vista things into older better code (XP). Seven is improved in many things, but still worse than XP (yes, in opinion from many people it's worse and numbers confirm it). Why ?</i></p>
+<p><i>I was thinking and probably found one of answers: it's part of MS strategy. See <a href="http://www.pcpro.co.uk/news/245859/qa-microsoft-defends-return-to-drm.html">http://www.pcpro.co.uk/news/245859/qa-microsoft-defends-return-to-drm.html</a> MS opened new shop with music, where prices are higher than in concurrent shops and where there is used DRM (concurrent shops don't have it).</i></p>
+<p><i>Other possibility: in Windows 3.11 era, Windows 98 SE era there were managers, who were able to force architecture changes (from 3.11 to 9x, from 9x to XP based on NT). Currently managers are afraid of any change. Shared Registry or other so criticized things ? It will be, because we want to... It isn't possible to continue strategy, which was good 10 years ago. Market is different, people are more educated,...</i></p>
+<p><b>6 Feb 2009</b></p>
+<p><i>well, I'm looking into all opinions and have few comments:</i></p>
+<p><i>Windows 7 developers have to make some compromises. But the truth is, that UAC will do only, that normal non technical users will understand less, what is going on. I will repeat some other words about build 7000:</i></p>
+<ol><li><i>no easy info for user, that something is working with admin privileges (no different window color or title with "(admin account)" or something like that)</i>
+</li><li><i>Task Manager should display info about all processes by default (when run without admin privileges, it will naturally not display everything about some of them - like currently Process Explorer from SysInternals)</i>
+</li><li><i>default tools should work with non admin privileges - like chkdsk, which in such situation should be able at least to show some info about partition </i>
+</li></ol><p><i>Currently Microsoft will be maybe less interested in making more deep changes, but imagine such situation:</i></p>
+<ol><li><i>startup files, kernel, some drivers, etc. are working in admin ring.</i>
+</li><li><i>whatever you try to run installer for some runtimes (like .Net) or antivirus, it must be signed and user is always asked by something like UAC to run it.</i>
+</li><li><i>when you run application (installer or executable), it runs in own sandbox (with some virtual system directories in real subdirectory of Program Files containing files and libraries). it doesn't have access to system directory or other apps, it can share only some Registry keys with other (for example responsible for registering some extensions). When application try to add driver to driver database, user is always asked by something like UAC.</i>
+</li><li><i>when you want to increase priviligies of application, you are always asked by something like UAC to run it.</i>
+</li><li><i>when you do some actions (changing time), you are always asked to do it.</i>
+</li><li><i>admins are allowed to block these few actions (adding new drivers to driver codebase, setting time, etc.). additionally it will be possible to allow/block users run non installed software (not run from virtual sandboxes)</i>
+</li></ol><p><i>When are profits ?</i></p>
+<p><i>you will be able to install for example many different versions of IE, applications can be easy uninstalled, there will be less questions from various antiviruses (for example: do you want application X to read Y key ?), no need of using WinSxS, etc. </i></p>
+<p><i>Additionally user should have ability of setting some network access to concrete processes and should have clear info, what servers can his system connect to (when is making updates for example)</i></p>
+<p><i>Current solution is going to nowhere and that's why can't give any real additional security than Windows XP. Non technical users will have problems with understanding it, technical users can configure old system, that it will have (almost) the same functionality + security for daily usage.</i></p>
+<p><i>Compatibility is very important, but making prosthesis will make only, that it will be more difficult to fix situation in the future. Making good roots will help much more....for customers. Imagine, that Microsoft will do secure system at last. It will difficult to sold next version. I don't want to believe, that this is reason, but...</i></p>
+<p><b>1 Feb 2009</b></p>
+<p>See, what is Microsoft vision about living without walls - <a href="http://www.pcpro.co.uk/news/245859/qa-microsoft-defends-return-to-drm.html">http://www.pcpro.co.uk/news/245859/qa-microsoft-defends-return-to-drm.html</a></p>
+<p><b>31 Jan 2009</b></p>
+<p>I tried to go into testing beta 1 with open mind. I have tried to forget about Vista problems and find good sides of new system where possible. New system was checked using 1GB RAM virtual machine, <a href="http://localhost/drupal/?q=node/10">some bugs were reported</a>. And what is result ?</p>
+<p>Microsoft will fail once again in my opinion. Why ?</p>
+<ul><li>performance - similar to Vista in terms of memory usage, general responses times... Without any problems I was getting 100% CPU usage on clean system (without antyvirus), some www pages confirm, that gaming performance is the same to Vista too
+</li><li>security - nothing new
+</li><li>annoying behaviors - many from Vista still available (like entering "c:\documents and settings" in explorer), new added (for example in Clear Type tuner)
+</li></ul><p>Even reporting bugs was done strange (you can't look into text of sent reports)... </p>
+<p>I didn't want to write, but... Why does Microsoft try to force people for 6.x line (Vista, 7) ? It doesn't have good programmers ? Or is the reason in DRM ?</p>
+<p>I would like to notify, that after first "wow" opinions many people notify, that this is a little modified Vista, which is working better, because computers are better. It doesn't give any revolution.</p>
+<p><b>28 Dec 2008</b></p>
+<p>I was reading last time <a href="http://beranger.org/index.php?page=diary&amp;2008/12/10/23/43/18-the-big-move-defecting-from-linu">The Big Move: Defecting from Linux to Windows as a rational act</a> an found information, that <a href="http://www.microsoft.com/resources/sharedsource/windowsacademic/researchkernelkit.mspx">Microsoft made parts of Windows kernel partially open source</a>. I wanted to write currently few words from me, why Windows/Linux is good and why not. And this with Best Wishes for Microsoft and Open Source leaders...</p>
+<p>First: <b>distributions</b> Windows is generally one. You have few versions, but this is nothing, when you compare it to much more Linux distributions. You have problems with various system libraries in Windows and Linux, but many things will work even in XP or Vista, when worked in 95. </p>
+<p>Microsoft tries to change it by making many versions (Home Basic, Home Premium, Ultimate, Business, etc.) and this is not too good in my opinion. Why ? People want simplicity.</p>
+<p>Second: <b>methods of creating</b> Windows is created by company and decisions go from managers. When they will say: we agree on it, that our system will have DRM, it will have. It isn't important sometimes, that users want something else. And once again: when system is limiting user (decreasing resolutions in some situations in Vista and 7), it will be wrong received. People don't like, when have too many limits put on them.</p>
+<p>With each new version there are added many new APIs (because in other case some employees will not have job to work on) and system is made for everything. Each department has to show something - marketing new campaign, kernel team new functions, etc. This is Windows weakness...especially when new features will be worse. In Windows 7 we will have for example new taskbar - when it will less intuitive, people will still prefer XP.</p>
+<p>In Open Source you can make fork and remove "wrong" features (but as said in first point, it's weakness too). You can make from 10MB source only 10kB and see, if it will work or not. Or modify it and have software for one concrete task only.</p>
+<p>Third: <b>technology</b> We don't know about some technology solutions used in Windows (because of closed source)...and later we have such results like 21 points in ACID3 (IE8). </p>
+<p>Some criticized things are still used because of compatibility and managers will not decide to remove them, because are afraid about loosing market. And market is looking into something else, because need something more. </p>
+<p>See this paradox on example: we have shared Registry in Windows. It makes problems with uninstalling software (you can't find, what was changed by application X) &amp; partially some performance issues (I don't believe, that adding 100 MB to the most often keys will not decrease performance of system). Currently this is not central settings database too - more and more applications put their configuration into XML or SQL database files. In opinion of some Microsoft managers everything is still OK and Windows will use it, although decentralizing it can only improve system (including speed and security).</p>
+<p>Please note, that it doesn't mean, that closed source is technically worse at all... No, Microsoft started many good ideas in the past...</p>
+<p>So, what's ideal solution ?</p>
+<p>You receive core and ability of adding/removing drivers or runtime libraries or software from it (something like packaging in some Linux distributions, but much bigger and you will not need for example to recompile kernel to update drivers).</p>
+<p>System should allow/block applications for communicating over TCP/IP, BT, clipboard, DDE, but they should be physically separated. User should have (or shouldn't) ability of running installed applications, installing/removing applications, running applications from non system directories and adding devices. And nothing more.</p>
+<p>There should be one place for managing settings and applications/wizards run on the startup/from time to time.</p>
+<p>Simple, without any special knowledge.</p>
+<p>When we speak about Windows: It will be very difficult to make such system (more difficult than with creating 7). I was proposing earlier, that Windows XP should be codebase for new system version. Currently this system's dead is moved into future + system will be used in small computers. How many new applications will be compatible with it and not with Vista ? When you will resign from DRM, improving it could be very good received by market...</p>
+<p><b>17 Dec 2008</b></p>
+<p><u>This is what I have written to WIndows 7 blog</u></p>
+<p><i>I wanted to wait for beta 1, but some comments here made, that I need to say some words... Let's start from Windows 7 components.</i></p>
+<p><i>Windows system - during years millions of users were notifying, that intensive used system is going slower and slower. Now some of you're writing, that this happens because applications vendors or drivers creators made wrong their job. I agree, that it can be part of problems...and I don't want impossible things from Microsoft...but the role of operating system creator is making it as difficult as possible. What will be changed in this area in Windows 7 ? Almost nothing ?</i></p>
+<p><i>What else could convince users to new system ? Vista looking interface, which was already criticized by many people ? </i></p>
+<p><i>Or maybe DRM ? BTW, why are you escaping from answer on question, how many CPU cycles it's using and when they're taken from user ?</i></p>
+<p><i>Or maybe new version of IE8 ? tgdaily.com pusblihed IE8 RC1 test. Software prepared by big company with big financial funds. Costed many, many USD. ACID3 - 12/100, speed - slower than other browsers (see <a href="http://www.tgdaily.com/content/view/40588/140/">tgdaily.com</a>). But...it will be still proposed as window for watching world and it will have to be used by some people (for example in some companies). What compatibility problems they will see ? And how they will be explained by you ? </i></p>
+<p><i>I know, that many of you (Microsoft employees) are working very hard. But I'm still not convinced, that your new product will be better than previous one. Or different - it will be better, but it will not give enough profits in many daily tasks.</i></p>
+<p><i>I want to say here, that you should start development from thinking about stable roots, not from building castles on the sand. Start from saying, that black is black and white is white. Look, what is liked by customers. When you will have it, you can return to computers and code.</i></p>
+<p><i>Currently many people will maybe give you some credit and will use Windows 7...until they will see disadvantages (like these specified above). You will not have second chance and will loose them forever.</i></p>
+<p><b>14 Dec 2008</b></p>
+<p>I was reading last time <a href="http://linuxlock.blogspot.com/2008/12/linux-stop-holding-our-kids-back.html">Linux - Stop holding our kids back</a> and <a href="http://online.wsj.com/article/SB122367645363324303.html?mod=googlenews_wsj">In Defense of Piracy</a>. When you add comments, that Vista is the best system on the world, it's so productive and only bad journalists are making bad opinion about it, you can be afraid of the future. Why ?</p>
+<p>Up to this moment you don't have any words from Microsoft about used DRM and people are not afraid about it. Nobody is afraid about it, that for example downloading some patches and updates with checking software legality in FireFox requires using some tool from their site and this tool not only generates number, but also connects over TCP/IP to them (what is sent inside ?). What if company will totally control users ?</p>
+<p>When we speak about the best or not system on the world - there were systems in the past, which were technically much better (see for example OS/2 or BEOS). no BSODs and similar issues. They failed because of marketing. And how marketing is working, we can see now - all performance tests for Windows 7 from Microsoft and 3rd party people are done on good hardware (see for example <a href="http://blogs.zdnet.com/hardware/?p=3182">Windows 7 build 6956 performance test</a>)... What I will do, will be installing this system on very slow computer. We will see then, if Microsoft made his job good or not.</p>
+<p><b>6 Dec 2008</b></p>
+<p>I was looking into <a href="http://www.winsupersite.com/win7/win7_simple.asp">Windows 7: Simple vs. Easy</a>, <a href="http://news.cnet.com/8301-13860_3-10112149-56.html?tag=rtcol;pop">Microsoft exec: Windows 7 is no service pack</a> articles, Windows 7 blog and some other. </p>
+<p>Microsoft tries to convince customers, that new system is not service pack to Vista. Current information show, that it's different: </p>
+<ul><li>Windows 7 has got very, very similar interface to Vista (the same colors, icons, fonts, screens almost like in Vista, etc.)
+</li><li>system is highly similar technically to Vista, because provides compatibility with many Vista applications
+</li><li>repeats some Vista mistakes: more than 2 editions, changes in interface are breaking some rules known from years (this point will be valid, if old taskbar will be not available), has got non intuitive configuration (yes, why Microsoft can't join Computer Management, Control Panel, msconfig and many other tools or why Microsoft can't return to XP Control Panel ?), <b>has got DRM inside</b>, a lot of directories in c:\ (maybe even it will be not possible to enter them easy from Explorer and Admin account), etc.
+</li></ul><p>I don't see personally any reason, that it can be good choice to upgrade into Windows 7 from XP. Especially, that Microsoft programmers are rather concentrated on adding many new APIs (which naturally can have bugs in first implementation and will need some RAM/HDD) than improving main security/architecture assumptions. All new "excellent" features (like presented up to this moment) are not so important for me, that I will be able to give money for OEM license (box licenses were always too expensive for me) in this difficult recession time.</p>
+<p>New system could be good choice ONLY, if it's numbers will be (much) better than in XP (for example less HDD and RAM used after fresh installation, faster making some tasks, etc.). For now they're not known and I'm not convinced to new system. </p>
+<p>Sorry Microsoft. If you want to have success (people will not think a lot about upgrading, but will do it immediately), you should implement such things like described be me below. You should change some development rules. Without it this is only next NT - where people are forced to use IE for some tasks and where there is DRM like in Vista.</p>
+<p><b>29 Oct 2008 second part</b></p>
+<p>I would like add some explanation to my first post from today written below (see it first to understand). </p>
+<p>Some things in Vista (or rather Windows 6.x codebase) are (much) better than in XP/2003, but some much worse.</p>
+<p>The best thing, which could be done, is joining Windows 5.x and Windows 6.x best things - moving good things from Windows 6.x (Vista in this moment) to 5.x codebase (reimplementing, moving files, etc.) or starting from 6.x codebase and making some regression (by replacing some new parts by old). </p>
+<p>Microsoft shouldn't put in new system once again all criticized (especially in Vista) solutions - instead of UAC there should be something new proposed, etc. etc..</p>
+<p>That's what I wanted to say.</p>
+<p><b>29 Oct 2008</b></p>
+<p>I'm reading <a href="http://community.winsupersite.com/blogs/paul/archive/2008/11/24/a-great-google-article-the-difference-between-easy-and-simple-and-why-this-is-a-problem-for-windows-7.aspx">A great Google article, the difference between 'easy' and 'simple,' and why this is a problem for Windows 7</a>, <a href="http://www.windows7taskforce.com/sort/latest">Aero Taskforce</a> and <a href="http://windowsteamblog.com/">The Windows Blog</a> and I have few conclusions:</p>
+<p>People not connected with Microsoft are notifying, that company could go other way and could have much more profits. </p>
+<p>What should be done ? Reducing some functionality, removing some abandoned source, making things more simple. Simply: less = better. Windows XP is so liked, because it's easy. In Vista we were seen tries of making much more "wow". We know how did it end. </p>
+<p>I'm afraid, that Windows 7 can be another example of this strategy. Of course it can work (much) faster and will need less HDD space. But will be done it because it will better from technical point of view ? We will know it in beta state - now it's impossible to check it.</p>
+<p>If improvements will be done because of technical tricks only (and making things like should be done light years ago - for example starting some services only when they're really required), I don't see future for Microsoft technologies in many uses - it can be cheaper to use Open Source solutions or other.</p>
+<p>In such situation I will say only, that this is big shame. Microsoft company created some standards and making confusion on the market can be not too good. What could I advise in such situation ?</p>
+<p>Maybe creating new teams in other countries that USA ? And starting from XP/2003 codebase ?</p>
+<p>This is not so wrong idea. Do you remember Pentium 4 ? It was big "revolution" in eyes of USA engineers...although it wasn't too energy efficient and too cool. Somebody in Intel allowed Israel teams to work. And they prepared Pentium M (based on Pentium 3), which allowed to create Core Duo CPUs. And which one is more profitable for company ?</p>
+<p>I could show many other similar examples from other companies. We will see soon, what will happen. If numbers (number of kernel threads, services, HDD space, etc. etc.) will be not better than in XP and Microsoft will not do anything with it, it will mean:</p>
+<ul><li>Microsoft wants to force people to use WIndows 6.x codebase because of DRM or wants to give manufacturers another profits (people will have to buy bigger HDD, etc. etc.)
+</li><li>members of current Microsoft teams can not (or don't want to) look objectively on situation
+</li></ul><p>Please note, that in WIndows 7 blog we can see information, that system architecture will be not changed. It could confirm this worst scenario.</p>
+<p><b>26 Oct 2008</b></p>
+<p>Three comments to my previous opinions: making Windows more secure (with sandboxing for example) doesn't mean, it will be more difficult or less friendly for users.</p>
+<p>I was thinking too, that Microsoft could make another good move and change (OEM) licenses to force manufacturers to:</p>
+<ul><li>produce computers (mainly notebooks) with lower resolutions
+</li><li>give users ability of own disk formatting (no more situations, when user have to format all HDD and create one default partition to install system)
+</li></ul><p>It's possible, but will Microsoft hear customer voices and make it ?</p>
+<p>I read today too, that Windows 7 will be probably in six 32 bit and six 64 bit editions. It looks, that Vista issues haven't learned Microsoft anything...</p>
+<p>Another suggestion (I don't know, if it's done already or not): Microsoft should forbidden saving installation files for installed applications (at least for Windows 7 certified applications).</p>
+<p><b>25 Oct 2008</b></p>
+<p>After reading next and next posts from Microsoft teams about Windows 7 and about IE8 I have feeling, that they don't know, what to do next (in meaning: they don't have one clear and coherent vision). They simply repeat some words about improving security, breaking walls, improving performance, but still want to write software using the same rules to rules used few years ago. </p>
+<p>Please note, that I don't write, that they make their job wrong or they're wrong people or something like that... They work hard, but...</p>
+<p>First: there are some signs, that Windows 7 will not give additional real security for applications. We will have still the same shared Registry, applications will still have ability of accessing system directory, there will be garbage in long working system, etc. etc.</p>
+<p>This can be described in simply words: our (Microsoft) system/software is very OK and we will not change it, problem is in 3rd party modules... (it was spoken exactly about IE by Microsoft people, in my opinion the same seems to be visible in Windows team too).</p>
+<p>And how we will force vendors to respect some rules ? We will change certification program only... (my note: it will not make, that authors of non-certified software will write their software good)</p>
+<p>Second: there are some signs, that Windows 7 will not give additional revolution updates to Vista solutions. There was an article in <a href="http://www.infoworld.com/article/08/11/10/46TC-windows-7_1.html">http://www.infoworld.com/article/08/11/10/46TC-windows-7_1.html</a> (in my opinion - it's too early to speak about concrete numbers in M3 stage, but from the other hand Microsoft will show beta soon and M3 can be very similar to beta), in Windows 7 blog we can see info about relative small updates to Vista solutions and we can see explanation(s) how excellent is winsxs.</p>
+<p>It means, that we will have more new API (part of it will be useless for majority of users - like support for touch screens), new wizards, new centers... but probably in style known from Vista. Ups, I forgotten. There will be new taskbar (I'm not sure, if it will be good or not - if not and we will not have old taskbar, it doesn't look good)</p>
+<p>Third: Vista had a lot good and wrong understood DRM protections. And now we can see, that new system will have codecs for various formats, which are sometimes synonyms of piracy files. If all DRM will be used in 10%, maybe it will good to move it from system layer to application layer again ?</p>
+<p>4th: Microsoft was advertising ActiveX many years. IE8 will have ActiveX per site function. Isn't more simple to remove it at all and give plugins functionality similar like in FireFox ? Anyway, I look into future with hope - maybe they will resign from some other "great" ideas too (like central Registry).</p>
+<p>Once again: how could system Windows look like ?</p>
+<ul><li>on system drive there will be created Windows directory with drivers, run-time libraries (for DOS, MFC, .NET, etc.)
+</li><li>there will be "Program Files" directory with user processes including Help browser, IE, Media Player, Explorer
+</li><li>there will be "Documents and Settings" directory with user data
+</li></ul><p>no more directories like in Vista, it will be possible to uninstall/add some subsystems (like .Net)</p>
+<p>There will be prepared one central window for managing system (joined Computer Management, Control Panel and similar) - with tree on the left and settings on the right. You will have new functionality like adding/removing drivers from system, all processes (services, AutoStart, etc.) run on startup will be listed in one place.</p>
+<p>Interface ? Like in XP (Classic) + some new (but not Areo with Areo colors)</p>
+<p>Applications will be sanboxied, it will be possible to set them limits in using TCP and CPU time.</p>
+<p>We will have some extended SysInternal tools integrated in system</p>
+<p>It could be based on XP or 2003 codebase with some good things from Vista.</p>
+<p>Updates must be reorganized - for example there must be option for automatic removing older updates (older than...)</p>
+<p>Services are loaded only, when required - for example, when you activate Bluetooth device, it's run BT service; when you disable BT, BT service is disabled; it works automatically !</p>
+<p>And now the most interesting things: Microsoft will do good move, if will give free upgrade to Windows 7 from Vista (it can be cost of DVD only) even to OEM versions. Microsoft will do good move, if new system will distributed on flash memories (like microSD cards). Microsoft will do good move, if downgrade system for WIndows 7 (even updated from Vista) will be XP and not Vista.</p>
+<p><b>12 Oct 2008</b></p>
+<p>Microsoft is advertising upcoming Professional Developers Conference and Windows 7 M3 given on 160GB HDDs with boy band "4 Softies and a Pizza Guy". It looks, that each team in Microsoft tries to everything to be "creative" (I write is specially with irony) and somebody forgotten, that good product sells without anything...</p>
+<p>New system can be more safe, one of possible solutions (my words from blog):</p>
+<p><i>"when there is new process (like application or something) run in the system, there is created new unique directory in Program Files. Process will have access into it - there will be "virtual" Program Files, Windows, Documents and Settings created there. Process will have created own Registry file, system will have some central Registry too and processes will see it as part of own (part in read only and part in read write mode - for example info about drivers and extensions assignment). Uninstalling application will be connected with removing "virtual" directory from Program Files, removing process registry file and things put into central Registry by process.</i></p>
+<p><i>All processes will be working this way - Explorer, IE, etc. Some default apps will be able for more from box (like RegEdit) - info about this will be saved in Windows directory. It will be possible to give more privileges to each process too.</i></p>
+<p><i>UAC will be visible only when application will try to add driver or when network connection will be set. It will be possible to select "always allow for it" and after giving password avoid question again."</i></p>
+<p>And some interesting comment from Windows 7 blog (not from me):</p>
+<p><i>"Vista is not power user friendly, it is locked down way to much, the security, and the UI.  I believe a large part of Vista's problems stem from Microsoft alienated the power user, and like it or not, word of mouth is a large part of acceptance. I have been asked many times , "Do you like or use Vista?".  I have to reply no, and most people say, "If your not going to use it, I wont either." Again, don't for get your power users, or computer geeks what ever you want to call us. don't put up "WALLS" allow users a choice. That is why Vista has failed, it no, "CHOICE" it is do it Microsoft way, not every one wants it your way. Choice, is the only thing I can say, Windows 7 really needs to be choice, with UAC, with the UI. Don't fail like like you did with the beta's of Vista, listen users and give us CHOICE. I really want, "life with out walls." Please let Windows 7 be that because Vista is, "Life With Walls"..... One more thing, if you want to see Microsoft's, "WALLS" just head over to the IE 8 blog, Dean still will not discus the UI on IE 8, He and his team are ignoring it, and ignoring the power users. IE 8 is, "you will use it Microsoft's way."  I use FF3, I would love to recommend and use IE 8, but Dean and his team needs to realize, power users are your word of mouth, power users are your, "go to person's" Power Users are your life blood. Dean give up control allow users to customize. Stop putting up, "walls" and allow users a choice....   Again it is all about, "CHOICE" it is all about, "Life with our Walls"...."</i></p>
+<p><b>5-8 Oct 2008</b></p>
+<p><b>First:</b> Microsoft writes clear, that majority of users (55% of even more) is decreasing screen resolution from maximal to smaller. Later there were comments from many users, that this is because everything is too small... I'm asking: we had 4:3 displays with big pixels (for example 1024x768). They were replaced with other resolutions, because they are wide. And people are not comfortable (I think mainly about notebooks). Isn't possible to force a little manufaturers for changing this ? </p>
+<p><b>Second:</b> architecture. We were hearing about MinWin, revolution and many other things. We can see now, that Windows 7 can be Vista SP2 or Vista Second Edition... Microsoft has got terms and will not have probably enough time for making everything. Especially, that we can see recession in USA and people don't work good in such atmosphere. </p>
+<p>If you expect such features like:</p>
+<ul><li>separating applications (making different Registry, putting each application into other directory in Program Files, making sandboxes for Win32 apps, etc. etc.)
+</li><li>known and liked win xp interface
+</li><li>one place with managing applications (processes, tasks, etc.) run on the startup
+</li></ul><p>you can not have them. What you will probably receive ?</p>
+<ul><li>IE will be probably still "deeply" integrated. In the past it made of wrong (many security holes, problems with having many versions in the same system, problems because many people don't change old IE because of compatibility, etc. etc.)
+</li><li>some default mini applications will be uninstalled on the default
+</li><li>(more ?) DRM
+</li><li>such "important" features like ribbons
+</li><li>probably more Vista behaviours, when system is deciding for user
+</li></ul><p>I'm afraid, that these words:</p>
+<p><i>"Sorry but these blogs are nothing more than an advertising ploy (see "Windows Mojave" ads). Windows 7 will be nothing more than a crap filled Vista update.. they will use these blogs as a "we listened to you and made Windows 7 better, look at our msdn blogs."</i></p>
+<p><i>You can polish a turd, but it is still crap and still stinks. Vista is crap, polishing it into Windows 7 does not take the status of crap away from it.</i></p>
+<p><i>The Microsoft sales team knows it. Why would there be a full 40% of people switching back to XP? Because another 40% doesn't know you can switch back (aka UPGRADE to XP).</i></p>
+<p><i>If the Microsoft team really listened, they would have started fresh and used the WinFS and MinWin as the basis for this new OS, NOT Vista or its kernel."</i></p>
+<p>can be very true...</p>
+<p>Why Microsoft can't make simple system ? Let's say:</p>
+<ul><li>in WIndows directory you have kernel, drivers and subsystems (ms-dos, win32, etc.) put into other directories
+</li><li>in Program Files each application is put into other directory (not available for other)
+</li><li>each application has got other physical file with Registry. Shared parts are very small
+</li><li>you can manage all processes, services, tasks, etc. run on the startup in one place
+</li><li>all possible components (IE, explorer, graphic interface, etc.) are treat like applications
+</li><li>applications can't add too much into Windows directory - all shared libraries are put in Program Files
+</li><li>filesystem doesn't allow for creating too many hidden data or they are clear marked in default distribution (have you seen info about alternative file streams in Explorer ?)
+</li><li>you will have more control on desktop - no more switching windows order by applications (only user can do it), no more thousands notifications in notification area, etc.
+</li><li>one single place for updating all applications
+</li></ul><p>and there must be possibility of disabling Vista interface... like somebody said:</p>
+<p><i>"Windows XP was very consistent and people liked it for that reason at a subconcious level - I give the XP UI team a lot of credit.  Now in Vista with the top menus gone, it's really hard to figure out how to do something sometimes - Organize menu?  Right click?  Hold down a key to make the legacy menus come back?  There are important features hidden in all those places.  I think Vista makes people feel dumb because they can never remember how to find something even after they've spent time working with Vista."</i></p>
+<p><b>Third:</b> OEMs practises like removing ability of selecting partition for the system and forcing formatting full HDD during install will be probably not changed with Windows 7 (BTW, it makes funny thing now - Vista "installation" in many notebooks has got such functionality removed, when XP provided for installing instead of Vista is many times "normal". Once again older system has bigger functionality because of it)</p>
+<p><b>4'th:</b> We still don't see, how many CPU cycles were used by DRM on low level...</p>

@@ -1,0 +1,34 @@
+﻿Title:Report 2006-08-17
+Author:marcin
+When:18 Aug 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Time for new "gold ideas".</p>
+<p>I notified, that many people stopped to believe into my work. I started analyzing last months and years. During weekend I returned into my roots too.</p>
+<p>I though about many things.</p>
+<p>For example, do you think, that Apple could make today own "different" computers in garage or IBM could release own opened PC ? Have you seen Apple advertisement "1984" or Steve Ballmer advertising Windows 1.x ?</p>
+<!--break-->
+<p>There are other times now. Please look, what happen with software - many systems (notebooks, desktops) are sold with Windows (you can't buy without it) available in HDD only (without CDs).  The most interesting, that sometimes this installed version is damaged... You can't have Install version (and installed version comes with thousands of useless things making it slower and bigger and installed in known places and it makes more viruses risks). If system is damaged, you can't make Recovery CDs for it (and you have problems with shop, when want to return all package).</p>
+<p>Please compare cars from the past (like Volkswagen Beetle) with current. New one are faster, but you must be careful (you can't go into water, because you can damage catalisator; gazoline has to be crystalic clean; etc.).</p>
+<p>I searched for answers for many questions too. Some were not too nice. For example - I should probably believe less people...in other case I will have promises only.</p>
+<p>I decided not too give up. I'm almost sure now, that I should register my own (1 person for now) company. If I will have enough money for it, I will do it in August or September. I will want to sell support for my projects and writing some functions for them. IT DOESN'T MEAN, THAT I WILL STOP WORK ON GPL/OPEN SOURCE SOURCE. I will want rather make something like Mozilla Fundation or companies creating Linux distributions.</p>
+<p>I decided to spend half of September on coding. I will do things found be me as the most important or code things requested by people (who will pay for them). There are many possible things to start - better integration with PIMs (including MS Outlook), Symbian, SyncML, Motorola, VCARDS 3.0, etc.</p>
+<p>In next months I will write my diploma work (but coding will have high priority too). This is and it will be very hard time for now (financial too).</p>
+<p>For now there is Gammu test version 1.07.25 (last from 1.07.xx series). It's first version with changes made a little deeper (in filesystem support for Nokia Series 40 - for example, I renumbered phone drives). <b>Please report all problems found inside it. If I will not see any reports, I will release it as new stable version (1.08.00).</b></p>
+<p>Changes in Gammu filesystem support will make it similiar to support available in Gammu+ (but this last one will be even internally much better). I should release new Gammu+ to end of August.</p>
+<p>In end of this week I will finally buy CA-42. When we speak about hardware: if you will want from me full support for Series 40 BB5 phones or Series 60 3.0, I will not give it (no hardware).</p>
+<pre>
+20060817 - 1.07.25
+[-] 6510: * addfilepart set name (not ID) as name
+[-]       * no problems with setting attributes for files
+[*]       * changed drive enumeration (filesystem 2 in memory card - drive A:
+            like FDD or PenDrive, filesystem 1 in phone memory - drive C:
+            like HDD, filesystem 2 in phone memory - drive D: like HDD).
+            Wasn't tested on filesystem1 only phone.
+[+]       * Gammu return error, when wasn't able to read folder listing
+            (filesystem 2 issue)
+[+]       * added support for 3220 MMS folders                      (Test/Mark)
+[+]       * New --nokiaaddplaylists. Tested on 6230, 6111 and     (Igor Testen)
+            some other
+</pre>

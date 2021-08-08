@@ -1,0 +1,14 @@
+﻿Title:nieważne...
+Author:marcin
+When:17 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wierszyka dzisiaj z pewnością tu nie będzie,<br />
+bym nie robił zamieszania tu, tam, wszędzie,<br />
+zresztą nieważne co dziś sobie mocno myślę,<br />
+na pewno i to i owo wezmę oraz przemyślę,<br />
+na razie za wszystko wszystkim tu dziękuję,<br />
+uczące, wymowne, ciekawe, tak też zrymuję.</p>
+<!--break-->

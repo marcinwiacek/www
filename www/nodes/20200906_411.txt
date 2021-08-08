@@ -1,0 +1,224 @@
+﻿Title:Testowanie to nieco zapomniana już sztuka ? (2020)
+Author:marcin
+When:6 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Testowanie-to-nieco-zapomniana-juz-sztuka,110797.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p><a href="https://antyweb.pl/absurdalny-elektroniczny-test-ciazowy-szybszy-od-mojego-pierwszego-komputera/" target="_blank" rel="noopener" rel="nofollow">Czytałem ostatnio o teście ciążowym</a>, który zamiast 20 centów amerykańskich kosztuje 7 dolarów i robi dokładnie to samo (tzn. pozwala na jedno badanie), ale... wynik wyświetla na ekranie LCD zamiast w postaci kreseczek. Co ciekawe, maszynka w środku może mieć obliczeniową porównywalną lub większą niż pierwszy IBM PC i zawiera takie elementy jak mikroprocesor, bateria, itp. (Crysis na tym nie pójdzie, ale <a href="https://www.reddit.com/r/nextfuckinglevel/comments/ini2aw/doom_on_a_pregnancy_tester/" target="_blank" rel="noopener" rel="nofollow">Doom zapewne już tak</a>).</p>
+
+<!--break-->
+
+<p>Fake, nie fake, ale przypomniała mi się również taka oto komórka:</p>
+
+<center><img src="sites/default/files/411/Nokia_2110i_NHE-4NX.jpg" style="width:226px;height:405px;" /></center>
+
+<p>(zgodnie z prośbą z Wikipedii podaję źródło: by Mustaraamattu - Own work, CC BY-SA 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=32521130)" target="_blank" rel="noopener" rel="nofollow">https://commons.wikimedia.org/w/index.php?curid=32521130)</a></p>
+
+<p>i to, że obecnie w smartphonie od biedy można pisać dłuższe teksty, oglądać filmy i robić to, co kiedyś było w sferze marzeń.</p>
+
+<p>O ile jednak kiedyś bardzo wielu obecnych czterdziestolatków miało głęboką wiedzę techniczną i potrafiło pisać dema, skrypty i robić tysiące różnych rzeczy z ówczesnymi komputerami i urządzeniami, to dziś w sumie mało kto zastawia się &quot;jak to działa&quot; i najczęściej tylko &quot;konsumuje treści&quot; (szczytem umiejętności bywa naklepanie czegoś w JavaScript). </p><p>Świat się zmienił i zmieniły się również metody związane z tworzeniem oprogramowania - z dbania o jego prędkość i małą wielkość (wymuszoną przez ograniczenia technologii) przeszliśmy raczej do trybu &quot;if doesn&#39;t work, think about better hardware&quot; albo trybu &quot;don&#39;t risk with breaking compatibility&quot;.</p>
+
+<p>Uzależniliśmy się od serwisów takich jak Google czy YouTube (i nie mówię nawet o filmikach rozrywkowych - pomyślmy, że dzisiaj np. zabrakłoby tych wszystkich materiałów historycznych, których na pewno nie zobaczyliśmy w inny sposób), równocześnie w tym świecie w wielu portalach codziennie słyszy się o problemach z Windows 10, Android czy Android Auto (ewentualnie o tym, jak z mozołem są one ulepszane w pocie czoła milionów programistów).</p>
+
+<p>Nowego znaczenia nabrały słowa takie jak &quot;premium&quot;, &quot;optymalizacja&quot; czy &quot;bezpieczeństwo&quot;, ale co tam - najważniejsze, żeby regularnie można było czytać o nowych wersjach.</p>
+
+<p>- Postęp jest postęp. - Ktoś powie.</p>
+
+<p>Zgadzam się, nie zmienia to jednak faktu, że również w dziedzinie testowano pewne procedury stworzono i opisano wiele lat temu, a wiele z obecnych wytworów wygląda tak, jakby nigdy nie przeszło jakiegokolwiek sprawdzenia na etapie produkcji.</p>
+
+<p>- Ale zaraz... firmy tworzą ludzie. - Ktoś doda. - Czy oni nie widzą, co się dzieje?</p>
+
+<p>Pozostawię to bez odpowiedzi.</p>
+
+<p>Sam m.in. wspominałem o wątpliwym przydomku PRO <a href="?q=node/410">dysku Samsung 980 PRO</a>, o dosyć zastanawiącej <a href="?q=node/407">polityce tej firmy w stosunku do komórek</a>, o pewnych zachowaniach pewnej płyty głównej firmy Asrock (<a href="?q=node/404">duże VCore i szopki z UEFI</a>), o <a href="?q=node/402">takiej sobie jakości (wielu) monitorów</a>, różnych <a href="?q=node/403">pułapkach marketingowych</a> i <a href="?q=node/406">mądrościach, które wciąż krążą wśród ludu</a>, <a href="?q=node/387">problemach Mozilli i Firefox Preview</a> (który obecnie stał się wersją &quot;stabilną&quot; na Androidzie), śmiesznie wolnym uaktualnianiu mikrokodu CPU przez Microsoft (<a href="?q=node/378">i obejściu tego problemu</a>), <a href="?q=node/408">zachowaniach Microsoft i Google względem rozwiązywania błędów</a>, <a href="?q=node/400">Thunderbolcie</a> i <a href="?q=node/399">sterownikach grafiki niebieskich do Windows 10</a>, jak również o <a href="?q=node/38900">młodych i dynamicznych zespołach</a> i o tym, że <a href="?q=node/397">pewne projekty doszły do końca cyklu swojego rozwoju</a>.</p>
+
+<p>W wielu obszarach doszliśmy do muru i obecny postęp jest niestety iluzoryczny, za to wiele koszmarków jak nieszczęsny test najwyraźniej znajduje nabywców (np. są chętni na Samsunga Note 20 z procesorem Exynos).</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/XU52BmNR8q4?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Ludzie, którzy to wszystko kupują, przenoszą potem pewne wzorce do swojej pracy (np. &quot;skoro konsumenci nie mówią zbyt mocno o braku wsparcia, to również u nas je skrócimy&quot;)</p>
+
+<p>Jak już sobie to wyjaśniliśmy, to teraz zastanówmy się trochę nad tym, jak w tym świecie może wyglądać testowanie oprogramowania od kuchni w sytuacji, gdy <a href="?q=node/369">jest ono tworzone w modelu katedry</a>.</p>
+
+<p><b>Rodzaje testów</b></p>
+
+<p>W największym uproszczeniu można powiedzieć, że testy można podzielić na manualne (z akcjami wykonywanymi przez człowieka) i automatyczne (gdzie uruchamiany jest jakiś automat, skrypt albo fragment kodu).</p>
+
+<center><img src="sites/default/files/411/board-361516_1920.jpg" style="width:534px;height:405px;" alt="image" title="image" /></center>
+
+<p>Innym podziałem jest podział na testy biało i czarnoskrzynkowe (przy pierwszych bierze się pod uwagę kod, przy drugich testowany element traktuje się jak skrzynkę, która po podaniu odpowiedniego sygnału ma odpowiedzieć z góry wyliczoną wartością).</p>
+
+<p>W zależności od zasięgu testowania najczęściej wyróżnia się:</p>
+
+<ul><li>unit test (testy jednostkowe) - gdzie sprawdza się najmniejsze elementy typu funkcja czy procedura<br/></li>
+
+<li>component testing (testy modułowe) - sprawdzenie całych modułów</li>
+
+<li>testy systemowe - sprawdzenie całego systemu (end-to-end testing, czyli tak naprawdę rzut okiem od strony użytkownika)</li>
+
+</ul>
+
+<p>Można jeszcze mówić np. o </p>
+
+<ul><li>testach wydajności (performance testing) - sprawdzeniu reakcji elementów na nagłe zwiększenie obciążenia, pracę z dużą ilością danych czy określenie, ilu użytkowników/ile danych może maksymalnie obsłużyć dany komponent albo system</li>
+
+<li>testach eksploracyjnych - testowaniu wykonywanym przez człowieka, który nie ma z góry ustalonego planu i bazując na swoim doświadczeniu sprawdza (na ile to możliwe) zgodność aplikacji z wymaganiami, ogólnie przyjętymi normami dla danej klasy aplikacji albo ze zwykłym zdrowym rozsądkiem</li>
+
+<li>testach bezpieczeństwa</li>
+
+<li>testowaniu akceptacyjnym (UAT) - zazwyczaj wykonywanym z przedstawicielami klienta czy użytkownika oprogramowania, którzy poniekąd potwierdzają zgodność aplikacji z wymaganiami</li>
+
+<li>testach regresji - gdzie ponownie wykonujemy testy przeznaczone dla aplikacji (po to, żeby sprawdzić, czy nie pojawiły się nowe błędy w jej nowym wydaniu)</li>
+
+<li>sanity check - krótkie sprawdzenie podstawowych funkcji (np. tego, czy aplikacja w ogóle startuje)</li></ul>
+
+<p><b>Nasz przypadek</b></p>
+
+<p>Przyjmijmy teraz, że mamy hipotetyczną wielką firmę i zespół testerski, w którym wysoce wykwalifikowani fachowcy są przydzieleni do wykonywania odpowiednio testów manualnych, automatycznych czy wydajności i wykonują je na różnych etapach projektu. Niektórzy z nich dodatkowo mają dostęp do narzędzia do raportowania błędów używanego przez klientów oprogramowania i obsługują to, co się tam pojawia.</p>
+
+<p>Ludzie ci są rozliczani poprawnie z tego, jak bardzo testowane jest oprogramowanie (np. badany jest stopień pokrycia wymagań testami, ewentualnie patrzymy na odpowiednie pokrycie testami wszystkich ścieżek kodu) i przestrzegane są wszystkie procedury wymagane prawem (w przypadku systemów związanych np. z życiem ludzkim musi być wdrożone to, co przewidują odpowiednie certyfikaty)</p>
+
+<p>Co może pójść nie tak?</p>
+
+<p>Spróbuję teraz przedstawić kilka zupełnie hipotetycznych sytuacji:</p>
+
+<p><b>Testowanie traktowane jest jako dopust boży</b></p>
+
+<p>Tak się składa, że testerzy najczęściej nie tworzą &quot;rzeczywistego&quot; kodu ani aplikacji, które można pokazać na prezentacjach. Ich produktem są &quot;tylko&quot; wpisy w narzędziach testerskich i raporty, jak również narzędzia testerskie i różnego rodzaju skrypty czy frameworki do testowania (chociaż w firmie, gdzie testowanie nie jest brane na poważnie, bym się tego nie spodziewał). </p>
+
+<p>Jeśli pominiemy sytuacje, gdy firma ma pracowników i sprzedaje czas ich pracy na zewnątrz, to w każdej innej sytuacji ludzie ci są po stronie &quot;koszty&quot;. Proszę zauważyć, że możnaby ewentualnie zarobić też na sprzedaży frameworków do testowania, ale... bywa to coraz trudniejsze w czasie, gdzie wiele z nich jest za darmo (do tego te frameworki nie mogą odsłaniać tajemnic firmy i muszą być na tyle ogólne, żeby komuś się przydały).</p>
+
+<p>Chcę tu jasno powiedzieć - oczywiście wszyscy wiemy, że dobre testowanie pozwala uniknąć takich problemów jak utrata wiarygodności czy pozwy, niemniej jednak są to najczęściej wielkości niemierzalne i nieuwzględniane w budżetach, w których mamy wspomniane &quot;koszty&quot;.</p>
+
+<p><b>Testowanie w dłuższym okresie czasu nie wykazało poważnych błędów w ostatecznej wersji produktu</b></p>
+
+<p>Załóżmy, że nasz zespół działa jak palce jednej ręki. Raporty o tym spływają do managerów, którzy uznają, że pracowników można wykorzystać w inny sposób i przesuwają ich gdzieś indziej (np. zastępując ich tańszymi odpowiednikami z zagranicy). </p>
+
+<p>Pozostali w zespole ludzie mają wtedy więcej pracy (chociażby z wzdrożeniem nowych kolegów) i ich motywacja potrafi się wtedy mocno zmienić.</p>
+
+<p>I kto za to płaci?</p>
+
+<p><b>Praca jest wykonywana dobrze, ale nikt jej nie docenia</b></p>
+
+<p>Ślęczenie nad danymi (nie będę tu rozgraniczał ról na analityka i testera), szukanie dziury w całym i &quot;czepianie się&quot;, pisanie jakichś tam skryptów i ich interpretacja wymagają często i gęsto ekwilibrystycznych popisów. </p>
+
+<p>Problem pojawia się, gdy całość nadzoruje osoba z zupełnie innym (tzn. nietechnicznym) wykształceniem, która nie potrafi lub nie może tego docenić.</p>
+
+<p>A jak frustracja dochodzi do zenitu i dobrze pracująca osoba decyduje się zmienić pracę, to... nie muszę chyba mówić, że może to wpłynąć na morale i jakość testowania w zespole?</p>
+
+<p><b>W zespole są (zbyt) doświadczeni testerzy</b></p>
+
+<p>Osoby z dłuższym stażem znają systemy i technologie, co więcej - wiele z nich przeszło przez wykonywanie różnego rodzaju testów i doskonale potrafi również kodować (jedna ze starych zasad testerskich mówi, że tester powinien wiedzieć na temat programów więcej niż programista).</p>
+
+<p>I chociaż w dzisiejszych czasach (specjalizacja w jednym języku i frameworku) trudno w to uwierzyć, to myślę, że wciąż można spotkać specjalistów starszej daty, którzy znają niejeden dialekt...</p>
+
+<p>Z jednej strony jest to cecha pożądana, z drugiej strony po iluś latach testowania pewne rzeczy na pewno widać na pierwszy rzut oka i ludzie tacy z automatu mogą zgłaszać setki raportów o błędach. Należy pamiętać, że płaci im się poniekąd za wykonywanie ich obowiązków, a nie przymykanie oczu... A że człowiek starszej daty, to i potrafi i chce pracować... a to oczywiście może wpłynąć na opóźnienie projektu.</p>
+
+<p>Powiedziałbym nawet, że zapotrzebowanie na takich specjalistów jest przy projektach związanych przede wszystkim z życiem ludzkim, ale obecnie nawet Boeing 737 MAX &quot;został zaprojektowany przez klaunów zarządzanych przez małpy&quot;...</p>
+
+<p><b>Widzę tylko swój mały światek</b>
+
+<p>W idealnej sytuacji tester po zobaczeniu błędu w miejscu A powinien przejrzeć aplikację i zobaczyc, czy tej samej usterki nie ma w miejsach B, C i D.</p>
+
+<p>Jak często tak się dzieje? Pozostawię to jako pytanie retoryczne.</p>
+
+<p><b>Konflikty między developerami i testerami</b></p>
+
+<p>Ludzie są ludźmi - jedni piszą kod (często dopracowany do najmniejszej linijki i zgodny ze wszelkimi zaleceniami), drudzy natomiast przychodzą i zaczynają ten kod przeglądać, komentować, a co gorsza poprawiać...</p>
+
+<p>Przy pełnym profesjonaliźmie nie ma oczywiście mowy o żadnych niesnaskach, ale... szczególnie &quot;w młodym i dynamicznym zespole&quot; od czasu do czasu może jednak trafić się coś takiego, co potrafi zaburzyć relacje zawodowe na długi czas.</p>
+
+<p>A gdzie konflikty, to dochodzi potem do działań korygujących (czytaj - przeniesienia określonych osób do innych projektów).</p>
+
+<p><b>Błędy mają źle ustawioną ważność i zawartość</b></p>
+
+<p>Zapewne chlebem powszednim w zespole testerskim są niekompletne i źle opisane zewnętrzne raporty błędów. Pół biedy, jeśli osoby rozmawiające &quot;ze światem&quot; mają odpowiednie umiejętności miękkie i potrafią dopytać się o istotne szczegóły, jak również wiedzą, jak właściwie ustawić ważność danego raportu (bo znają system).</p>
+
+<p>A co, jeśli postawimy tam najtańszych pracowników z firmy zewnętrznej?&#160;</p><p>Do tego dodajmy fakt, że spojrzenie z różnych pozycji (manager, programista, tester, kierownik testów, itd.) może powodować, że dana rzecz będzie miała inną wagę... i ping-pong gotowy.</p>
+
+<p><b>W przypadku opóźnień tnie się zakres testów</b></p>
+
+<p>Dawno temu podstawowym sposobem był V model.</p>
+
+<center><img src="sites/default/files/411/vmodel.png" style="width:608px;height:338px;" alt="image" title="image" /></center>
+
+<p>Załóżmy, że pierwsze fazy potrwały dłużej, a my już obiecaliśmy na zewnątrz nową wersję produktu... Co się wtedy tnie?</p>
+
+<p>Inna sprawa, że teraz mamy oczywiście Agile, gdzie wszystko dzieje się szybko i dynamicznie... załóżmy, że mamy spotkania daily i różne związane z tym cudowności, a czasu na pracę coraz mniej. </p>
+
+<p>Czy coś się wtedy zmienia?</p>
+
+<p>Przy okazji może pojawić się wtedy problem związany z tym, co wszyscy lubimy. Nazwijmy to zupełnie przypadkowo jako...</p>
+
+<p><b>Przesadne przywiązanie do metodyk i procedur</b></p>
+
+<p>Prosta sprawa - firma określa pewne zasady i np. przyjmuje, że błędy mają mieć wszystko opisane w odpowiednim szablonie. To poniekąd dobre, że mamy określić tyle informacji, ile tylko się da (wersja systemu operacyjnego, programu, konfiguracja, kroki do wykonania, itp.).</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4V2C0X4qqLY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Problem jednak zaczyna się, gdy zgłoszenia są odrzucane z tak błahych powodów jak zła wielkość liter albo brak któregoś szczegółu. W sytuacji idealnej dany błąd powinien zostać oczywiście odtworzony w zespole testerskim... ale wpierw tam musi trafić.</p>
+
+<p>To zaś potrafi nie dziać się odpowiednio szybko, gdy...</p>
+
+<p><b>Słońce nigdy nie zachodzi w projekcie</b></p>
+
+<p>Załóżmy sobie, że jedna część zespołu pracuje w czasie europejskim, druga indyjskim, a trzecia amerykańskim. To oznacza mniej więcej tyle, że rano działamy z kolegami z Azji, a wieczorem z ludźmi np. z USA.</p>
+
+<p>Problem zaczyna się, gdy np. ci pierwsi zdecydują się zadać pytanie na koniec swojego dnia... Dla nas oznacza to mniej więcej tyle, że nad danym zagadnieniem będziemy się mogli pochylić dopiero dnia następnego (w skrajnym wypadku).</p>
+
+<p>Przykład: zgłaszamy błąd, przychodzi pytanie, odpowiadamy i następnego dnia widzimy kolejne pytanie na temat błędu, odpowiadamy i kolejna runda przechodzi na kolejny dzień.</p>
+
+<p><b>Nie wszyscy powinni testować</b></p>
+
+<p>Praca ta wymaga ułańskiej fantazji, ale również drobiazgowości, dokładności i ciekawości świata (przede wszystkim nieustannego pytania się &quot;a co by było gdyby?&quot;). Zamiana jednej kropki albo przecinka może czasem zniweczyć wielotygodniowy wysiłek poświęcony przy przygotowaniu testów, a brak asertywności jest po prostu dyskwalfikujący.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/I0NGCKOeT1E?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Tu nie ma miejsca na bylejakość... i na parytety.</p>
+
+<p><b>Projekty muszą iść równocześnie</b></p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/80iOKoXqjow?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p><b>Wszystko można zautomatyzować i zmechanizować</b></p>
+
+<p>Tak się składa, że testy automatyczne są bardzo użyteczne... mają jednak bardzo wielką wadę - testują określone ścieżki i potencjalnie w pewnym momencie mogą przestać wykazywać jakiekolwiek błędy</p>
+
+<p>Jest to opisane przez zasadę &quot;pesticide paradox&quot;, która mówi wprost - jeżeli wykonujemy testy w ten sam sposób, w końcu przestaniemy dostawać informacje o jakichkolwiek błędach (stąd ważne jest pozostawienie czynnika ludzkiego).</p>
+
+<p>Jak pisałem wcześniej, na testowaniu czasem próbuje się oszczędzać - można na infrastrukturze (np. tworząc bardzo jednolite maszyny testowe, na których nie da się sprawdzić różnych przypadków testowych) albo również na poziomie/czasie osób, które testy automatyczne piszą.</p>
+
+<p>A wtedy co z tego, że mamy te nieszczęsne testy, które zawsze pokazują &quot;pass&quot;?</p>
+
+<p><b>Brak infrastruktury</b></p>
+
+<p>Zacznijmy od testów wydajnościowych:</p>
+
+<ol><li>o ile dużo się zmieniło na rynku w ostatnich latach (jest JMeter, LoadRunner z licencją do 50 użytkowników itp.), to niektóre technologie wciąż wymagają dosyć drogiego oprogramowania do uruchamiania testów albo monitorowania</li>
+
+<li>środowisko do testów powinno być maksymalnie zbliżone do produkcyjnego, a przynajmniej pozwalać na jasne przeskalowanie wyników testów (istnieją różne metody szacowania i jeżeli otrzymujemy jakiś wynik liczbowy, to powinniśmy wiedzieć, przez ile mamy ten wynik przemnożyć czy podzielić, żeby dostać wartość tego wyniku dla środowiska produkcyjnego)</li></ol>
+
+<p>Przy automatyzacji testów jest dosyć podobnie - potrzebne są różne aplikacje testerskie (częściowo darmowe, częściowo nie) i różnorodny sprzęt, ewentualnie ileś maszyn do uruchamiania skryptów.</p>
+
+<p>Pamiętajmy też o jednym - wiele z obecnych na rynku aplikacji np. do zgłaszania błędów czy opisywania testowania nie ma tak podstawowych funkcji jak opisywanie rzcezy w sposób strukturalny (nie ma tam drzewa i trudno połapać się &quot;co jest co&quot;)</p>
+
+<p>W skrajnym wypadku mamy więc do czynienia, że nie ma na czym pracować...</p>
+
+<p><b>Kombinowanie</b></p>
+
+<p>Powyżej wielokrotnie przewijało się słowo kodowanie, a kod jak to kod może być dobry lub zły. Wyobraźmy sobie, że nasza automatyzacja testów wymaga tysiąca kroków... a terminy gonią i trzeba wybrać, co jesteśmy w stanie przetestować.</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Wszystko co opisałem wyżej to oczywiście karykaturalnie przerysowane sytuacje hipotetyczne (za wszystkie niezmierzone podobieństwa i uproszczenia bardzo przepraszam), całość jednak powstała na podstawie relacji, artykułów i różnych źródeł i nie ma na celu dyskredytowanie wysiłku milionów ciężko pracujących ludzi, tylko wskazanie, że testowanie nie robi się magicznie samo (pewnych rzeczy nie można skracać) i że jest ileś rzeczy w samym procesie, które mogą zawieść.</p>
+
+<p>Na pewno duże projekty to obecnie przedsięwzięcia, gdzie oprócz testowania ważne jest również wiele innych elementów - jakość technologii, programowania, zarządzania, marketingu, itp. (może kiedyś napiszę o tym kilka słów).&#160;</p>
+
+<p>Przykład: niektórzy uzasadniają, że Windows 10 jest problematyczny, bo Microsoft ma obsłużyć miliony urządzeń i to sterowniki są niedopracowane. Jest to częściowo prawda, choć z drugiej strony system operacyjny nie powinien zajmować się pierdyliardem różnych niepotrzebnych rzeczy, tylko robić to, co powinien - możliwie mocno niwelować niedoskonałości pracy osób trzecich i trzymać w ryzach to, co schrzanili. Jeśli architektura jest zła do bólu, to nawet najlepsze testowanie nie pomoże... Żeby tak tu był chociaż jakiś mikrokernel... Aż chce się powiedzieć - echhh, staryś, a głupiś Marcinie... że jeszcze w takie cuda wierzysz... </p>
+
+<p>Ze wszystkim stoją konkretne pieniądze (które jednak trzeba mieć) i praca (którą trzeba wykonać).</p>
+
+<p>(aż się nie mogę powstrzymać, żeby nie zacytować tu pewnego mema o tytule &quot;changing the face of coding&quot;, który jest o kodowaniu, ale bardzo na czasie - <a href="https://duckduckgo.com/?q=changing+the+face+of+coding&amp;t=canonical&amp;iar=images&amp;iax=images&amp;ia=images&amp;iai=https%3A%2F%2Fi.imgtc.com%2FaA0sApC.jpg" target="_blank" rel="noopener" rel="nofollow">https://duckduckgo.com/?q=changing+the+face+of+coding&amp;t=canonical&...</a></p>
+
+<p>Co jest również istotne, to fakt, że komputery to bestie, które wciąż najczęściej operują wyłącznie na zerach i jedynkach. Ciekawe, że również przy takim uproszczeniu pewne usterki daje się zauważyć nawet w materiałach pewnej organizacji zajmującej się jakością (<a href="?q=node/321">było tak przynajmniej w 2014</a>).</p>

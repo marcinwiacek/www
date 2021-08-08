@@ -1,0 +1,97 @@
+﻿Title:FAQ - pliki CHM (2001,wersja beta)
+Author:marcin
+When:1 May 2001
+Taxonomy:Polski,Polski artykuł
+
+<!--break-->
+<a NAME="Top"></a>
+<center><font color="#1F409F" size=+2 class="tytul">FAQ</font>
+
+<hr size="2" noshade width="60%" align="center" style="color: #004080">
+
+</center>
+
+<p>Wiele pytań i odpowiedzi można znaleźć pod adresami: <a href=http://www.helpware.net/htmlhelp/hh_info.htm>http://www.helpware.net/htmlhelp/hh_info.htm</a> i <a href=http://htmlhelpcenter.hypermart.net/tipsntrx.htm>http://htmlhelpcenter.hypermart.net/tipsntrx.htm</a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Umieszczanie plików ZIP w archiwach</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p>W poprzednich wersjach IE nie było z tym problemu - można było umieścić plik ZIP w CHM i normalnie go "linkować": <b><tt>&lt;A HREF="myplik.zip"&gt;Open&lt;a&gt;</tt></b>
+
+<p>Wraz z IE 5.5 pojawiły się problemy - pliki ZIP nie są znajdowane.
+
+<p>Można obecnie jedynie odwołać się pliku ZIP "z zewnątrz" CHM:
+
+<p>Wstawiamy do kodu strony następujący obiekt:
+
+<p>
+<pre>
+&lt;OBJECT id=obiekcik type="application/x-oleobject"<br>
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"&gt;<br>
+    &lt;PARAM name="Command" value="ShortCut"&gt;<br>
+    &lt;PARAM name="Item1" value=",skrypt/skrypt.zip,"&gt;<br>
+&lt;/OBJECT&gt;
+</pre>
+
+<p>gdzie zamiast <b>obiekcik</b> podajemy naszą nazwę i zamiast <b>skrypt/skrypt.zip</b>
+ścieżkę do pliku ZIP względem CHM (przy czym nie może się zaczynać od "www").
+
+<p>Następnie wstawiamy właściwy link:
+
+<p><tt><b>&lt;a href=javascript:obiekcik.Click()&gt;[Pobierz]&gt;/a&gt;</b></tt>
+
+<p>Jedyną niedogodnością będzie to, że plik ZIP zostanie od razu otwarty...
+
+<p>Można też wstawić link do pliku bezpośrednio do spisu treści (trzeba na niego klikać DWA razy)
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Wygląd okna</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p>Okazuje się, że można do okien wstawiać znacznie więcej przycisków i stylów niż przewiduje
+Help Workshop. Poniżej proste skrypty liczące wartości, jakie trzeba wstawić do pliku HHP (uwaga!
+edycja parametrów okna Help Workshopem zniszczy te wartości !):
+
+<p>
+
+<script src=sites\default\files\130\f.js></script>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Błąd kompilacji</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p><tt>Podczas kompilacji Help Workshopem dostaję błędy typu:</tt>
+
+<p><tt>HHC5013: Error: URL reference in the TOC cannot be resolved: "pliki/varia/led/led/Changing%20the%20display%20and%20keyboard%20illumination%20color.htm".</tt>
+
+<p>Należy w pliku HHC zamienić dowolnym edytorem tekstowym ciągi "%20" na " " (spacje).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Zawieszanie się przeglądarki</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p><tt>Podczas przeglądania pliku CHM przeglądarka się "wiesza".</tt>
+
+<p>Dodaj przeglądane pliki jako pliki projektu (problem powstaje szczególnie, gdy przeglądane pliki
+zawierają spacje w nazwie)...
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Zaginione pliki</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p><tt>Pobrałem stronę WWW i zapisałem ją na dysku wraz z obrazkami.</tt>
+
+<p><tt>Dodałem ją do pliku HHC i skompilowałem do pliku CHM - nie było obrazków (dodanie pliku HTM jako pliku projektu też nie pomogło).</tt>
+
+<p>Należy jeszcze raz zapisać stronę na dysku tak, aby NIE ZAWIERAŁA polskich liter lub dodać wszystkie obrazki jako pliki projektu.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<hr size="2" noshade width="60%" align="center" style="color: #004080">
+
+<br><p align="RIGHT"><font class='autor' size='1'><a class="autoremail" href="mailto:Marcin Wiącek<Marcin-Wiacek@topnet.pl>">Marcin Wiącek</a> (<a class="autoremail" href="http://marcin-wiacek.topnet.pl">WWW</a>)
+<br>Ostatnia aktualizacja: 30 kwietnia 2001</font>

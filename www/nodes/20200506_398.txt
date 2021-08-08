@@ -1,0 +1,69 @@
+﻿Title:Epidemia i podejścia do tematu w różnych krajach (2 słowa) (2020)
+Author:marcin
+When:6 May 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Epidemia-i-podejscia-do-tematu-w-roznych-krajach-slowa,107761.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Pamiętam, jak wiele lat temu obserwowałem z każdej możliwej strony zdjęcia wieżowców z USA. 11 września był dniem, w którym zarejestrowano godziny materiału, zrobiono setki zdjęć i późniejszych analiz wykazujących słuszność albo obalających różne hipotezy.</p>
+
+<p> Wszystko było w kolorze, stereo i doskonałej (jak na tamte czasy) jakości - przypomnę, że było to rok 2001 (końcówka panowania Pentium III, czas promowania Pentium IV, moment przed wprowadzeniem Windows XP i chwila po Nokii 3310).</p>
+<!--break-->
+<p>W tamtych czasach istniały jeszcze czasopisma takie jak Enter, Pc-Kurier czy Chip (w których np. pojawiały się tematy gier logicznych, programowania czy humanizacji nauk informatycznych).</p>
+
+<p>Mamy rok 2020, w których Internet i YouTube jest w każdym pokoju, a pudelki i inne &quot;dojrzałe&quot; serwisy grają pierwsze skrzypce.</p>
+
+<p>Wczoraj właśnie spotkała mnie przyjemność przeczytania, że (cytuję po drobnej zmianie formy) &quot;należę do jakiejś samozwańczej elity, której obce jest pojęcie krytyki, a każdy fakt odbiera jako personalny atak&quot;.</p>
+
+<p>Trochę to szkoda, że nie można przedstawiać swojego zdania (starałem się, aby mój wywód był skierowany w stronę dzieła - nawet po ponownym przeczytaniu z czystym sumieniem mogę napisać, że była to zwykła polemika).</p>
+
+<p>Pomyślałem, że w tej sytuacji zrobię naprawdę drobny eksperyment myślowy i zobaczę sobie, w jaki sposób społeczeństwa (podobno) informatyczne podchodzą do tematu statystyk związanych z wiadomym wirusem.</p>
+
+<p>Żeby być zgodnym z modą, w przeglądarce zacząłem od wpisania adresu &quot;www.github.com&quot; i podania hasła &quot;covid&quot; połączonego z nazwą kraju.</p>
+
+<p>Kilka przykładów rezultatów (wskazuję linki, które z jakichś powodów wydały się ciekawe):&#160;</p>
+
+<ul><li>&quot;covid france&quot;: 11 stron wyników, najciekawszy to <a href="https://github.com/cedricguadalupe/FRANCE-COVID-19" target="_blank" rel="noopener" rel="nofollow">https://github.com/cedricguadalupe/FRANCE-COVID-19</a> (146 commitów)<br/></li>
+
+<li>&quot;covid germany&quot;: 10 stron wyników, <a href="https://github.com/jgehrcke/covid-19-germany-gae" target="_blank" rel="noopener" rel="nofollow">https://github.com/jgehrcke/covid-19-germany-gae</a> (397 commitów)<br/></li>
+
+<li>&quot;covid italy&quot;: 34 strony wyników, najciekawszy wydaje się <a href="https://github.com/RamiKrispin/covid19Italy" target="_blank" rel="noopener" rel="nofollow">https://github.com/RamiKrispin/covid19Italy</a> (354 commity)<br/></li>
+
+<li>&quot;covid poland&quot;: 4 strony, <a href="https://github.com/anuszka/COVID-19-MZ_GOV_PL" target="_blank" rel="noopener" rel="nofollow">https://github.com/anuszka/COVID-19-MZ_GOV_PL</a> (199 commitów)<br/></li>
+
+<li>&quot;covid portugal&quot;: 6 stron wyników, <a href="https://github.com/perone/covid19analysis" target="_blank" rel="noopener" rel="nofollow">https://github.com/perone/covid19analysis</a> (95 commitów)<br/></li>
+
+<li>&quot;covid spain&quot;: 13 stron wyników, <a href="https://github.com/Secuoyas-Experience/covid-19-es" target="_blank" rel="noopener" rel="nofollow">https://github.com/Secuoyas-Experience/covid-19-es</a> (190 commitów)<br/></li>
+
+<li>&quot;covid switzerland&quot;: 4 strony wyników, najciekawszy to chyba <a href="https://github.com/openZH/covid_19" target="_blank" rel="noopener" rel="nofollow">https://github.com/openZH/covid_19</a> (5034 commitów i update co kilka godzin)</li>
+
+<li>&quot;covid uk&quot;: 15 stron, <a href="https://github.com/tomwhite/covid-19-uk-data" target="_blank" rel="noopener" rel="nofollow">https://github.com/tomwhite/covid-19-uk-data</a> (449 commitów)<br/></li>
+
+<li>&quot;covid usa&quot;: 12 stron, <a href="https://github.com/jeffcore/covid-19-usa-by-state" target="_blank" rel="noopener" rel="nofollow">https://github.com/jeffcore/covid-19-usa-by-state</a><br/></li></ul>
+
+<p>Myślę, że już to dokładnie pokazuje kilka rzeczy - ta epidemia jest prawdopodobnie pierwszą w historii, w której:</p>
+
+<ol><li>ludzie (czy to prywatnie czy nie) zdecydowali się przygotować masę różnorakich materiałów i dzielić nimi za darmo<br/></li>
+
+<li>można sprawdzić, jaki jest poziom kultury technicznej w różnych krajach (używane technologie, sposób automatyzacji, itp.) i podejście do transparentności<br/></li>
+
+<li>socjologowie mogą śledzić używane licencje (które jednak sporo mówią o zapatrywaniach)</li>
+
+<li>tak wiele materiałów publikowanych jest w języku angielskim (nie muszę znać chińskiego czy żadnego innego, żeby dokopać się do jakichś sensownie wyglądających danych)<br/></li></ol>
+
+<p>Podczas poszukiwań znalazłem nawet stronę <a href="https://github.com/WeileiZeng/Open-Source-COVID-19" target="_blank" rel="noopener" rel="nofollow">https://github.com/WeileiZeng/Open-Source-COVID-19</a>, która reklamuje się jako &quot;A global collection of Open Source projects during COVID-19&quot;.</p>
+
+<p>Wpisałem sobie na github również hasło &quot;covid app&quot; i otrzymałem 3626 rezultatów, w tym &quot;Official World Health Organization COVID-19 App&quot; (<a href="https://github.com/WorldHealthOrganization/app" target="_blank" rel="noopener" rel="nofollow">https://github.com/WorldHealthOrganization/app</a>) czy &quot;Israel&#39;s Ministry of Health&#39;s COVID-19 Exposure Prevention App&quot; (<a href="https://github.com/MohGovIL/hamagen-react-native" target="_blank" rel="noopener" rel="nofollow">https://github.com/MohGovIL/hamagen-react-native</a>)</p>
+
+<p>Szczególnie ten ostatni link jest ciekawy - dla porównania aplikacja &quot;Kwarantanna domowa&quot; w Polsce została przygotowana przez firmę prywatną, a jej kod źródłowy jest &quot;oczywiście&quot; zamknięty.</p>
+
+<p>Oficjalne wyniki również nie wyglądają w Polsce zbyt ładnie (<a href="https://www.gov.pl/web/koronawirus/wykaz-zarazen-koronawirusem-sars-cov-2" target="_blank" rel="noopener" rel="nofollow">https://www.gov.pl/web/koronawirus/wykaz-zarazen-koronawirusem-sars-co...</a>) - w innych krajach mamy diagramy, wykresy, itp., a u nas... no cóż.</p>
+
+<p>Informatyka u swoich podstaw to tak naprawdę przetwarzanie danych i do wielu zadań nie potrzeba wymyślać na nowo koła, jak próbują wmówić różne firmy (spokojnie można coś zrobić z konsoli i spokojnie wystarczają nawet darmowe narzędzia używające archaicznych standardów czy technologii).</p>
+
+<p>Dzisiaj zobaczyłem na DP tekst napisany przez Pana Dudka o kodowaniu - skupia się na konkretach. </p>
+
+<p>Myślę, że to krok we właściwą stronę - wygląda, że w naszym pięknym kraju jest naprawdę wiele do zrobienia w temacie pracy u podstaw i to widać nawet w przypadku tematu covid-19.</p>
+
+<p>PS. Przyznam się szczerze, że prywatnie zdarza mi się korzystać z serwisu <a href="https://wiadomosci.wp.pl/koronawirus-mapa" target="_blank" rel="noopener" rel="nofollow">https://wiadomosci.wp.pl/koronawirus-mapa</a>, raz czy dwa zajrzałem do raportów ze strony Google (<a href="https://www.google.com/covid19/mobility/" target="_blank" rel="noopener" rel="nofollow">https://www.google.com/covid19/mobility/</a> albo hasło &quot;google statistics covid-19&quot;).&#160;&nbsp;</p>

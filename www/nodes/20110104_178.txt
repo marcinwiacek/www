@@ -1,0 +1,336 @@
+﻿Title:Komentarz o Geimini, czy quo vadis Androidzie ? (2011, wersja 1.01)
+Author:marcin
+When:04 Jan 2011
+Taxonomy:Polski,benchmark.pl,Linux,GSM,Polski artykuł,OS,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł we wcześniejszej wersji został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Komentarz_o_Geimini%2C_czy_quo_vadis_Androidzie_.-3534.html>opublikowany w serwisie benchmark.pl</a><a name=Top></a>, wersja 2.0 (ale po angielsku !) jest <a href=?q=node/182>tutaj</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Od kilku dni na różnych portalach można przeczytać 
+utrzymane czasem w sensacyjnym tonie notki o złośliwym kodzie o nazwie 
+Geimini, który stał się zagrożeniem dla danych użytkowników w różnych 
+urządzeniach pracujących pod kontrolą Androida. Była o tym nawet <a href="http://www.benchmark.pl/aktualnosci/Niebezpieczny_Geimini_atakuje_Androida-32508.html">wzmianka na Benchmarku</a>...</p>
+
+<p>Chciałbym choć trochę poruszyć tematykę bezpieczeństwa (i przy okazji
+ prywatności) w sympatycznym robociku i zastanowić się, czy w 2011 
+podobne informacje będą na porządku dziennym...</p>
+<!--break-->
+
+<p>Oprę się na własnych doświadczeniach z <a href="?q=node/177">Androida 2.2.1 w Galaxy S</a> (<strong>o pewnych faktach już pisałem wcześniej i teraz to rozwinę</strong>,
+ przykłady również będą dotyczyć tego telefonu) oraz odkryciach ludzi 
+trochę bardziej biegłych w tym temacie ode mnie (czytaj - m.in. na 
+prezentacjach z DEFCONu :))</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Domyślne ustawienia</font></span></p>
+<p>Android (a konkretnie jego domyślne ustawienia) moim zdaniem nie do 
+końca sprzyjają zachowaniu prywatności. I nie mówię tutaj o takich 
+rzeczach jak połączenie z kontem w Google (i kopiowanie przy domyślnych 
+ustawieniach takich danych "w chmurę" jak kontakty czy kalendarz ). To 
+można stosunkowo łatwo wyłączyć:</p>
+<ul>
+    <li>"Kontakty -&gt; Ustawienia -&gt;&nbsp;Zapisuj nowe kontakty w" i wybieramy "Telefon"</li>
+
+    <li>"Kalendarz -&gt; Ustaw. -&gt; Kalendarze" i włączamy "Mój kalendarz"</li>
+</ul>
+<p>i w końcu "Menu -&gt; Ustawienia -&gt; Konta i synchronizacja -&gt; Autosynchronizacja"</p>
+<p>Nie chodzi również o numer telefonu widoczny w "Menu -&gt; Ustawienia
+ -&gt; O telefonie -&gt; Aktualizacje systemu". On również jest do 
+usunięcia - wchodzimy w "Kontakty -&gt; Ustawienia -&gt; Własne numery",
+ kasujemy stamtąd wpisy i restartujemy telefon.</p>
+
+<p>Chodzi mi bardziej o zbieranie tego gdzie się znajdujemy. W Androidze
+ 2.2.1 (Froyo) możliwości ustawiania lokalizacji są trzy (menu "Menu 
+-&gt; Ustawienia -&gt; Lokalizacja i zabezpieczenia"):</p>
+<ul>
+    <li>na podstawie wykrytych sieci Wifi lub danych z sieci komórkowej (numery identyfikacyjne BTSów, itp.)</li>
+    <li>sprzętowy GPS</li>
+    <li>informacje z czujników</li>
+</ul>
+
+<p>Google dodał przycisk GPS na ekranie Powiadomienia. I&nbsp;co się 
+okazuje ? Opcja pierwsza czyli "Użyj sieci bezprzew." nie jest przez 
+niego wyłączana, po jej włączeniu zaś użytkownik może przeczytać:</p>
+<p><img src="sites/default/files/178/gps23.png" alt="" height="500" width="300"></p>
+<p><strong>Ilu użytkowników w końcu da sobie spokój z ręcznym jej wyłączaniem ?<br>
+</strong></p>
+<p>Pójdźmy dalej - w Androidzie 2.1 w menu kamery miałem opcję 
+wyłączania geolokalizacji, w 2.2.1 zniknęła (informacja o lokalizacji 
+jest dodawana automatycznie w przypadku włączenia którejś z opcji w 
+"Menu -&gt; Ustawienia -&gt; Lokalizacja i zabezpieczenia").</p>
+<p>Kolejny przykład - w domyślnej przeglądarce zdarzyło mi się raz, że proponowane mi było włączenie opcji lokalizacji.</p>
+<p>W stosunku do innych systemów można również wytykać fakt, iż 
+aplikacje systemowe (tak można traktować programy Google) zazwyczaj też 
+są tylko w wersji "online". Ot takie Mapy Google (wersja 5.0.0.0) - są 
+tak  wykonane aby jak najczęściej łączyć się z serwerem (lokalny cache 
+jest  niestety kasowany od czasu do czasu przynajmniej w Galaxy S, 
+wyznaczanie  trasy wymaga już tego obowiązkowo). Albo Wyszukiwanie 
+głosowe...</p>
+
+<p>A jakiś pozytyw ? Android 2.2 ma różne metody zabezpieczenia ekranu 
+(hasłem, wzorem, itd.). Wbrew pozorom nie jest to dzisiaj tak oczywista 
+opcja...</p>
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ tworzenie Androida nie jest działalnością charytatywną, niewątpliwie 
+przynosi firmie Google zyski np. z reklam (a te będą efektywne tylko 
+wtedy gdy będą trafnie skierowane) i myślę, że podobnych "negatywnych" 
+działań do opisanych będzie coraz więcej. W przyszłości z chęcią bym 
+natomiast widział możliwość podłączania karty pamięci do komputera w 
+trybie "tylko do odczytu".</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Uaktualnienia</font></span></p>
+<p>Android 2.2 Froyo został <a href="http://www.google.com/events/io/2010/">ogłoszony w dniach 19-20 maja 2010</a>,
+ pierwszy raz oficjalne wydanie tej wersji zostało udostępnione w Polsce
+ dla modelu Samsunga Galaxy S ok. 9 listopada 2010 (ale tylko wariant 
+brandowany dla sieci Era). Przypominam - mówimy o telefonie flagowym (z 
+najwyższej półki) sprzedanym w różnych wariantach w ponad 10 milionach 
+egzemplarzy.</p>
+<p>Z urządzeniami innych producentów jest niestety podobnie - np. 
+flagowy X10 Sony-Ericssona przez długi czas był sprzedawany z archaiczną
+ wersją 1.6.</p>
+<p>Wyliczać można długo, jedynym chlubnym wyjątkiem są telefony 
+bezpośrednio od Google czyli Nexus One lub Nexus S. Ale one kosztują 
+jakby "trochę" więcej...</p>
+
+<p>Dlaczego o tym piszę ? Każda kolejna wersja to nie tylko zmiany w 
+funkcjonalności, ale również poprawki na znane luki w zabezpieczeniach w
+ modułach systemowych. <strong>Czy w przypadku systemów biurkowych 
+dopuszczalne byłoby czekanie pół roku na wypuszczenie odpowiedniej 
+poprawki ? A w systemie o nazwie Android tak się niestety dzieje...</strong></p>
+<p>Obawiam się, że w pewnym momencie skojarzenia użytkowników mogą iść 
+prostą drogą - skoro Android używa jądra Linuxa i ma tyle "luk", to nie 
+warto się interesować się Linuxem w ogóle. Trzeba sobie powiedzieć 
+jasno, że nie jest to prawda i konflikt między osobami tworzącymi jądro i
+ firmą dalej trwa (zmiany Google nie są wprowadzane do głównego kodu), 
+każdy producent dodatkowo umieszcza swoje wersje u siebie (a właściwie 
+powinien - <a href="http://osnews.pl/producenci-androidowych-urzadzen-lamia-gpl/">według Matthew Garretta z firmy Red-Hat na 130 sprawdzonych urządzeń zrobiono to jedynie w przypadku 19</a>). <strong>Mówiąc
+ krótko - to co reprezentuje teraz Android i różne dystrybucje linuxowe 
+to dwa różne światy (jeśli chodzi o wykorzystywanie, łatanie i pomoc w 
+rozwoju jądra).</strong></p>
+<p>Pójdźmy dalej - <span>takie np. nowe egzemplarze Samsung i5700 Galaxy</span>
+ są dostępne jeszcze w   ofercie 7 sklepów (według Skąpca). Ten model 
+nie otrzyma już oficjalnego   Froyo...ale taka alternatywa pojawiła się 
+(przy czym ROM nie jest od Samsunga) i jakimś czas temu mogliśmy   
+przeczytać np. sensacyjny artykuł "Przyspiesz 4-krotnie Samsung i5700   
+Galaxy Spica!". <strong>Który użytkownik się nie skusi ? </strong>Myślę,
+ że w przypadku podobnych produkcji prędzej czy później mogą się 
+niestety pojawić "czarne owce" z ukrytymi "niespodziankami".</p>
+<p>Jak producenci mogą się przed tym "bronić" ? Jednym z rozwiązań jest szyfrowanie tzw. bootloaderów - tak działa np. Motorola, <a href="http://forum.xda-developers.com/showthread.php?t=888071">ostatnio pewne kroki tego typu uczyniono w Galaxy Tab</a>. <strong>
+
+ Mam niestety dosyć mocne wrażenie, iż w miarę zdobywania popularności  
+przez platformę może nastąpić intensyfikacja podobnych działań.</strong> Tylko,  że wtedy być może dziecko zostanie wylane wraz z kąpielą...</p>
+<p>W przypadku Androida dochodzi niestety kolejny problem - oficjalne 
+buildy systemu nie zawsze informują o możliwych uaktualnieniach. 
+Zauważyłem to np. na <a href="?q=node/177">testowanym Galaxy S po zmianie ROMu na wersję 2.2.1</a> - zostały mi automatycznie zaproponowane uaktualnienia <strong>Map Google</strong> do wersji 5.0.0, <strong>YouTube</strong> do 2.1.6, pojawił się również <strong>Street View w mapach Google</strong> 1.6.0.6 oraz <strong>Market</strong> 2.2.7, ale... <strong>Gmail, Layar, Voice Search, Google Search, Flash Player 10.1</strong>
+
+ (5 aplikacji !) musiałem sobie sam znaleźć w Markecie i wyklikać (od 
+tego momentu były już "normalnie" widoczne). Żeby nie było wątpliwości -
+ bez wspomnianej operacji mój Flash byłby w wersji 10.1.92.8, a <a href="http://www.adobe.com/support/security/bulletins/apsb10-26.html">zgodnie z biuletynem bezpieczeństwa Adobe nr APSB10-26 narażałoby to telefon na niebezpieczeństwo</a>...</p>
+<p>Jak sobie z tym poradzić ? Można ewentualnie zainstalować sobię aplikację <strong>Appbrain</strong>
+ z Marketu, wejść w opcję "Manage and Sync" (na obrazku), gdzie można po
+ kolei klikać na nazwach programów i patrzeć, czy są one w Markecie.</p>
+<p><img src="sites/default/files/178/brain.png" alt="" height="500" width="300"></p>
+<p>Mało wygodne, ale lepsze niż nic...</p>
+<p>We wspomnianym telefonie Galaxy S pewne zastrzeżenia miałem również 
+co do kilku innych programów dołączonych jako "bonus". Przykładowo taki 
+ThinkFree Office (w Markecie widoczny jako <strong>ThinkFree Office Mobile</strong>)
+ - "moja" wersja to 2.0.1011.01 (po kliknięciu na opcję aktualizacji w 
+niej nie wskazuje na istnienie żadnych poprawek), marketowa zaś 
+2.0.1110.01. Literówka to czy wprowadzanie użytkownika w błąd ?</p>
+
+<p>Co ciekawiej - wraz ze wspomnianym pakietem Office w telefonie 
+naliczyłem przynajmniej 4 miejsca, gdzie można zobaczyć informację o 
+uaktualnieniach:</p>
+<ol>
+    <li>menu OTA, które jest w nowością w Androidzie 2.2.1 od Samsunga</li>
+    <li>ThinkFree Office</li>
+    <li>Samsung Apps</li>
+    <li>Market</li>
+</ol>
+<p>Do dwóch pierwszych trzeba się dostać "ręcznie", w pozostałych 
+również nie ma do końca jasnej informacji, kiedy sprawdzają coś "z 
+automatu".</p>
+
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ sprzedawanie "dziurawych" urządzeń jest naganne, z chęcią widziałbym 
+jedno centralne miejsce z możliwością kliknięcia "sprawdź teraz" oraz 
+możliwość otrzymywania aktualizacji zabezpieczeń do modułów systemowych 
+(takich jak Wiadomości) przez kilka lat od pojawienia się konkretnej 
+wersji Androida na rynku. I powinno to być dostarczane zapewne przez 
+Google...</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Uprawnienia aplikacji (bez roota)</font></span><font size="+2"><br>
+</font></p>
+<p>Załóżmy, że chcemy pobrać aplikację np. z Marketu - po jej wybraniu 
+otwiera się ekran, gdzie możliwe jest np. sprawdzenie, co ona będzie 
+robić, a co nie:</p>
+<p><img src="sites/default/files/178/aperm1.png" alt="" height="500" width="300"></p>
+
+<p>Całość jest oczywiście dosyć dobrze rozpisana i zwyczajnie możemy się
+ w tym momencie wycofać. W przedstawianym wypadku wybrałem aplikację <strong>antivirus free AVG</strong>
+ i na wszystko mogę się zgodzić. Widoczny jest przycisk "Więcej". Klikam na nim i przechodzę do kolejnych ekranów:</p>
+<table border=0><tr><td><img src="sites/default/files/178/aperm2.png" alt="" height="500" width="300"></td><td><img src="sites/default/files/178/aperm3.png" alt="" height="500" width="300"></td></tr></table>
+<p>Są to generalnie te same opisy, tylko inaczej przedstawione. Po co ?</p>
+<p>Po przewinięciu do dołu można obejrzeć tekst "Pokaż wszystko". Po kliknięciu obok niego można zobaczyć:</p>
+<img src="sites/default/files/178/aperm4.png" alt="" height="500" width="300">
+<p>Kolejne uprawnienia ! <b>Ilu użytkowników dojdzie do tego momentu i dlaczego całość nie jest bardziej prosta ?</b></p>
+
+<p>Według prezentacji z DEFCONu 18 (kolejnej konferencji "dobrych" 
+hackerów, która odbyła się na przełomie lipca i sierpnia 2010) o nazwie 
+"THESE AREN’T THE PERMISSIONS YOU’RE LOOKING FOR" obecnie w systemie 
+Android możliwe jest wykonanie przez aplikację przynajmniej 
+następujących operacji nawet pomimo braku wskazania jakichkolwiek 
+uprawnień:</p>
+<ul>
+
+    <li>restart systemu</li>
+    <li>automatyczne uruchomienie przy starcie systemu lub od razu po zainstalowaniu</li>
+    <li>zablokowanie systemu (brak reakcji na naciskane klawisze)</li>
+    <li>pobieranie i wysyłanie danych poprzez standardową przeglądarkę <strong>(przy wyłączonym ekranie w sposób praktycznie niewidoczny dla użytkownika)</strong></li>
+</ul>
+<p>W tej samej przezentacji podano również, jak z użyciem uprawnienia 
+"czytaj pliki dziennika systemu" (READ_LOGS) można uzyskać dostęp do 
+przynajmniej części SMSów czy danych lokalizacyjnych. Podane zostały 
+odpowiednie przykłady...</p>
+<p>Z uruchamianiem aplikacji przy starcie można "walczyć" (różnymi metodami - np. "zabijać" procesy co robi przykładowo <strong>Startup Cleaner 2.0</strong>) ale co z pozostałymi uprawnieniami ?</p>
+
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ najsłabszym ogniwem jest tutaj sam użytkownik (kto z nas czyta podobne 
+listy ?), nie do końca jest on jednak "winien" i wypadałoby zmienić 
+sposób informowania o tym co aplikacje robią (a może dodatkowo dać 
+możliwość wyłączania niektórych uprawnień).</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Uprawnienia aplikacji (z rootem)</font></span></p>
+<p>Interesujący temat w przypadku Androida to uzyskiwanie tzw. roota 
+czyli dostępu do konta administratora. Przyczyn robienia tego jest wiele
+ - np. poprawianie błędów obecnych w oficjalnych wydaniach czy też pełne
+ wykorzystanie możliwości sprzętu.</p>
+<p>Żeby nie być gołosłownym - niedawno pisałem, że we Froyo "naciśnięcie
+ klawisza Back + Home na dowolnym ekranie robi zrzut ekranu...". Udało 
+mi się znaleźć dwa miejsca gdzie tak nie jest - Market (w momencie 
+pokazania uprawnień aplikacji) oraz menu do uaktualnień OTA ("Menu -&gt;
+ Ustawienia -&gt; O telefonie -&gt; Aktualizacje systemu"). I co się 
+wtedy okazuje ? Że w Markecie aplikacje są, ale wymagają właśnie roota.</p>
+
+<p>Jak go uzyskać ? Kolejne wydania systemu opierają się na określonych 
+wersjach jądra linuxowego, a te mają swoje błędy. Do tego 
+wykorzystywanie określonych błędów w użytych wersjach bibliotek, itd.</p>
+<p>W&nbsp;przeszłości gotowe programy (które to robiły dosłownie jednym 
+kliknięciem) można było znaleźć nawet w Markecie, obecnie Google usuwa 
+je jeden po drugim. Od strony technicznej - proponowane obecnie metody 
+uzyskiwania roota w Galaxy S to  wgrywanie zmodyfikowanego jądra 
+(CF-Root) i wykorzystywanie rootkita  (według Kasperskiego 
+Exploit.Linux.Lotoor.g) na błąd w aplikacji adb  (SuperOneClick). Moim 
+zdaniem dziecko zostało znów wylane z kąpielą - wcześniej wystarczyło po
+ prostu sobie skompilować niezbędne programy takie jak su i je 
+zwyczajnie wgrać do tego telefonu (tzw. recovery w wersji 2e pozwalało 
+na dodawanie niepodpisanych cyfrowo aplikacji).</p>
+<p>Niezależnie od tego - większość obecnych rozwiązań pozwala wybrać, 
+którym aplikacjom przydzielić "superuprawnienia". Tylko, że one same nie
+ są niczym kontrolowane...<strong>a ponieważ programy "antywirusowe" na 
+Androida podobnych uprawnień raczej nie mają (przynajmniej wszystko na 
+to wskazuje), więc chyba i ich skuteczność nie może być pełna (jeśli 
+jednak chcemy ich używać, to proszę bardzo - w Markecie jest np. 
+produkcja znanej firmy AVG).</strong></p>
+<p>Żeby mieć jasność - na konferencji DEFCON 18 pokazana była 
+prezentacja "This is not the droid you're looking for...". Według niej 
+możliwe jest przygotowanie rootkitów (podany został odpowiedni przykład 
+dla urządzeń HTC), które będą niewidoczne i pozwolą np. wysłać SMSy czy 
+dane lokalizacyjne po zadzwonieniu na odpowiedni numer. Zagrożenie jest 
+dosyć realne...</p>
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ najsłabsze ogniwo to znów człowiek (użytkownik, który zgadza się na 
+przekazanie telefonu w ręce niewiadomego oprogramowania). Z drugiej 
+strony - czym różnią się obecne "smartphony" od komputerów biurkowych ? 
+Dlaczego więc tak usilnie promowany jest inny model biznesowy, tj. 
+sprzedawanie urządzeń blokowanych na wszelkie możliwe sposoby ? Może 
+czas z tym skończyć ?</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Zawsze online ?<br>
+
+</font></span></p>
+<p>Tego typu urządzenia są tworzone po to, aby były ciągle połączone z 
+Internetem czy to przez sieć komórkową czy przez Wifi. Jest to wygoda, 
+ale okazuje się, że warto od czasu do czasu wyłączać wszystkie 
+połączenia - nie tylko ze względów bezpieczeństwa, ale też z uwagi na 
+oszczędność baterii.</p>
+<p>"Goły" Android w wersji 2.2.1 ma podstawowe opcje do tego - przycisk 
+Wifi jest na ekranie powiadomienia, można też wyłączać Wifi przy 
+wygaszaniu ekranu (wchodzimy w&nbsp; "Menu -&gt; Ustawienia -&gt; 
+Komunikacja -&gt; Ustawienia Wifi", klikamy na "Zaawansowane" i 
+przestawiamy "Zasady trybu uśpienia Wi-Fi na "Gdy ekran zgaśnie"), 
+podobnie np. pod klawiszem wyłącznika dostępna jest opcja "Tryb sieci 
+danych".</p>
+<p>Ta ostatnia powiedziałbym jest trochę zbyt dosłowna - przynajmniej w 
+testowanym Galaxy S wyłączała mi również MMSy (które miały swój punkt 
+dostępowy typu MMS). Z tego powodu do deaktywacji transmisji danych 
+bardziej poleciłbym androidowego "klasyka", czyli <strong>APNdroid</strong> z Marketu:</p>
+
+<p><img alt="" src="sites/default/files/178/apndroid.png" height="500" width="300"></p>
+<p>A gdybyśmy chcieli włączać Wifi co jakiś czas ? W Markecie można znaleźć kilka programów (np. <strong>Service Manager</strong>), mnie udało mi się zmusić do współpracy z Galaxy jedynie <strong>NetSchedule</strong> (który potrafi także np. ustawiać stan Bluetooth).</p>
+<p>Ale telefon to również SMS i MMS - obsługują je aplikacje systemowe, a
+ jak te są uaktualniane już pisałem wcześniej. Dla ciekawych - również 
+robocik zawierał tutaj błędy. Potwierdza to np. prezentacja "Attacking 
+SMS" z konferencji BlackHat z 2009 (dotyczy ona wersji 1.5 i 
+wcześniejszych).</p>
+<p>Nowe telefony mają także opcje udostępniania Internetu przez Wifi 
+(działają jak punkt dostępowy). Innowacyjną funkcją moim zdaniem byłoby 
+tutaj ustawianie mocy sygnału (pomarzyć zawsze wolno ;)). Podobną opcję 
+bym zresztą widział w przypadku Wifi (zapewne pomogłoby to w 
+oszczędzaniu energii).</p>
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ jest naprawdę nieźle, miłym dodatkiem byłby natomiast systemowy 
+scheduler do wszystkiego (profili, transmisji danych, uruchamiania 
+aplikacji, ustalania co ile mają się synchronizować, itd.). No chyba że 
+taki już istnieje... ;)</p>
+
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">A może murek ?<br>
+</font></span></p>
+<p>Kolejny problem - Android domyślnie nie ma nawet najprostszego 
+firewalla (mówiąc inaczej nikt nie kontroluje gdzie aplikacje się 
+łączą). Jak to rozwiązać ?</p>
+<p>W Markecie mamy program <strong>DroidWall</strong>, który pozwala 
+włączyć lub wyłączyć ruch sieciowy w ustawionych przez nas programach 
+(odpowiednio dla Wifi i sieci komórkowej). Mamy tutaj białą lub czarną 
+listę (przy pierwszej pozwalamy na "wyklikany" ruch, przy drugiej 
+blokujemy zaznaczone regułki).</p>
+<p><img src="sites/default/files/178/wall.png" alt="" height="500" width="300"></p>
+<p>Gdzie tu jest haczyk ? Aplikacja wymaga roota (cóż za ironia - 
+aplikacja zabezpieczająca wymaga złamania zabezpieczeń ;)) i może nie 
+działać na tych telefonach, w których jądro nie ma skompilowanego 
+wsparcia dla iptables. Do tego brakuje ustawiania konkretnych reguł.</p>
+<p>Jeśli wystarczy nam obejrzenie tego, gdzie jesteśmy podłączeni, to polecam np. program <strong>OS Monitor</strong>. Pokaże on jasno dane o procesach, interfejsach sieciowych, nawiązanych połączeniach właśnie i wiele innych.</p>
+<p><img alt="" src="sites/default/files/178/drwall.png" height="500" width="300"></p>
+
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ jeśli weźmiemy pod uwagę problemy z aktualizacjami, firewall byłby 
+niezbędny... Inna sprawa, że dobra aplikacja tego typu pewnie 
+wyłączałaby reklamy (takie działania są już widoczne - przykładem niech 
+będzie <strong>Adfree</strong> z Marketu, który też wymaga roota) i możemy się tego długo nie doczekać...</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Marketowe problemy</font></span></p>
+<p>Domyślny sklep Androida ma również swoje wzloty i porażki.</p>
+<p>Pierwszy problem - występuje regionalizacja i użytkownicy starają się
+  ją omijać (wymaga to roota, a ten może się wiązać z wcześniej 
+opisanymi kwestiami).</p>
+<p><a href="http://www.dobreprogramy.pl/Zmiany-w-Android-Market-nie-do-konca-udane,Aktualnosc,22261.html">I
+ kolejny - obecnie można zwrócić płatną aplikację w ciągu 15 minut,  
+programy mogą mieć 50 MB i brakuje mechanizmów do sprawdzania  
+kompatybilności programu z modelem urządzenia</a>. Niektóre aplikacje 
+starają się "obejść" problem wielkości i po zainstalowaniu wpierw 
+pobierają dodatkowe materiały (czasem wiele MB). Nie muszę mówić, co 
+mogą robić niektórzy użytkownicy, którzy kupią ileś takich programów i 
+nie będą mogli z nich korzystać (albo powiem - mogą zacząć korzystać z 
+wersji "z witaminkami" i innymi "niepodziankami").</p>
+
+<p><strong><span style="color: rgb(51, 153, 102);">Mój komentarz:</span></strong>
+ tym razem problem jest w mentalności użytkowników i sposobie tworzenia 
+niektórych programów (przecież po zainstalowaniu wpierw mogłyby 
+informować o braku ich zgodności z konkretnym modelem).</p>
+<p><span style="color: rgb(153, 204, 0);"><font size="+2">Podsumowanie</font></span></p>
+<p>Urządzenia mobilne będą coraz bardziej interesujące dla ludzi o 
+niekoniecznie uczciwych zamiarach, platforma Android rozwija się chyba 
+najbardziej dynamicznie (<a href="http://www.gartner.com/it/page.jsp?id=1466313">według Gartnera - 25,5% w 3 kwartale 2010 wobec 3,5% w 3 kwartale 2009</a>).</p>
+<p>Zgodnie z tym co niedawno pisałem "w porównaniu do innych rozwiązań 
+na rynku takich jak Symbian jest naprawdę dobrze, brakuje drobiazgów" 
+(jeśli chodzi o funkcjonalność).</p>
+<p>Czy tak samo jest z bezpieczeństwem ? Pewnych tematów celowo nie 
+poruszałem (np. lokalizacja telefonu czy robienie z niego zdjęć po jego 
+skradzeniu), ogólnie natomiast <span style="font-weight: bold;">m</span><strong>yślę, że jest nieźle (ale niestety nie do końca). </strong><span style="color: rgb(255, 0, 0);"><strong>Po prostu - nawet pomimo korzystania tylko z oficjalnego Marketu i nie rootowania telefonu można mieć problemy</strong><strong> i wynika to z pewnych ułomności platformy.</strong></span></p>
+
+<p>Z drugiej strony - możliwość opublikowania naszych SMSów/MMSów, zdjęć
+ (z obowiązkowym adresem), listy telefonów, danych z kalendarza, haseł 
+(przypomnę - w wielu bankach hasła jednorazowe są obecnie przesyłane 
+SMSem), informacji o tym kiedy i gdzie dokładnie podróżujemy i wielu 
+innych danych nie jest powodem do ŻADNEGO niepokoju, prawda ?</p>

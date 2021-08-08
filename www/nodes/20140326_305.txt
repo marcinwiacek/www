@@ -1,0 +1,20 @@
+﻿Title:...
+Author:marcin
+When:26 Mar 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Energia, radość, marzenie,<br />
+potrzeby, usta, westchnienie,<br />
+suknia, obcas, torebka,<br />
+kolor, szminka, cholewka,<br />
+szpileczki, spódniczka, chęć,<br />
+rumieniec, nogi, zdań pięć,</p>
+<p>kształty, rowek, przekorność,<br />
+pazurki, oczka, zadziorność,<br />
+wzniosłość, miny, korale,<br />
+szmaragd, diamenty, opale,<br />
+rajstopy, świeżość, chcica,<br />
+cierpienie, spryt, magia...</p>
+<!--break-->

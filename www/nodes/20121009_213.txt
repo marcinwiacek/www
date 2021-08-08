@@ -1,0 +1,8 @@
+﻿Title:Przepisy drogowe wersja 15 (2012)
+Author:marcin
+When:09 Oct 2012
+Taxonomy:Polski,Polski blog,Android,GSM,drogowe
+
+<p>Pojawiła się...i powiedziałbym, że zamknął się pewien rozdział. Wszędzie obecnie działa wyszukiwanie przybliżone, usunąłem też wszystkie fragmenty kodu wykorzystujące nieudokumentowane wywołania, aplikacja jednym słowem jest już dosyć dojrzała i chyba będzie wkrótce można usunąć oznaczenie beta.</p>
+<p>A na dodatek w <a href="http://antyapps.pl">serwisie ANTYapps</a> pojawiła się recenzja <a href="http://antyapps.pl/przepisy-drogowe-i-nie-tylko-zamkniete-w-znakomitej-drogowej-aplikacji-android/">Przepisy drogowe (i nie tylko) zamknięte w znakomitej drogowej aplikacji [Android]</a>...</p>
+<!--break-->

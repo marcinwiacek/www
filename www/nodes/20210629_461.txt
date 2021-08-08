@@ -1,0 +1,57 @@
+﻿Title: Kolejne produkty Apple mogą być niebezpieczne. Testy na (drogich) użytkownikach? (2021)
+Author:marcin
+When:29 June 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1146673,kolejne-produkty-apple-moga-byc-niebezpieczne-testowania-na-drogich-uzytkownikach-ciag-dalszy>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><a href="https://support.apple.com/pl-pl/HT211900" target="_blank" rel="nofollow noopener">Dnia 25.06 na stronie Apple pojawiła się informacja o możliwym wpływie kolejnych produktów tej firmy na urządzenia medyczne. Wymieniono tam telefony, laptopy, zegarki, itp. </a>News został pochwycony i skopiowany dosłownie wszędzie (jak w to sezonie ogórkowym), a mnie naszło kilka refleksji.</p>
+<p>Po pierwsze jakoś tak mimowolnie zacząłem się zastanawiać, ile to już razy w swoim życiu widziałem efekty „american style of life”.
+<!--break-->
+Przedstawię kilka punktów i haseł, których nie chciałbym jednak mocno rozwijać:</p>
+<ol>
+<li>fast-foody, wszelkiego rodzaju słodziki, chipsy i napoje gazowane (wiem, że oryginalne hamburgery mogą być pyszniutkie – mnie chodzi o szybkie wyroby z sieciówek, te z niską ceną i tablicą Mendelejewa w gratisie)</li>
+<li>plastikowe opakowania i torebki</li>
+<li>pestycydy typu Roundup</li>
+<li>(chyba ?) szczepionki</li>
+<li>nieefektywne wykorzystanie sprzętu w tandemie Intel-Windows</li>
+<li>ogólne marnowanie energii elektrycznej i zasobów m.in. na chmury (przez kilkanaście miesięcy czy bardziej kilka lat pracowałem np. przy Chrome i poznałem pewien sposób myślenia, który opisałem we wpisie „”)</li>
+<li>Tesla (jest coraz więcej wątpliwości, na ile elektryki są ekologiczne) czy Amazon (ciężkie warunki pracy i niszczenie niesprzedanych towarów)</li>
+<li>planowane postarzanie (zaczęło się zdaje się od słynnych żarówek)</li>
+<li>próby atomowe</li>
+<li>big data i wszelkiego rodzaju śledzenie ludzi</li>
+</ol>
+<p>Oczywistą prawdą jest, że USA zmieniło nasze życie - bardzo często korzystamy z amerykańskich przeglądarek i wyszukiwarek, YouTube, Gmaila, Outlooka, itp., a dzięki kolejnym rewolucjom mamy dostęp do takich perełek jak chociażby tu:</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/EgYeNerxO_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>(nie zapominajmy przy tym, że sam www to poniekąd pomysł z CERN)</p>
+<p>Duża część amerykańskich rewolucji powstała dawno temu (np. poczta elektroniczna coś około 1971, Windows około 1983, YouTube 2005). Nie chciałbym do końca idealizować „starych” czasów (od razu staje mi przed oczami historia z filmu „Erin Brockovich”), ale czy dzisiaj w USA panuje tak samo dobra atmosfera do rozwijania technologii?</p>
+<p>Obecni Amerykanie często kojarzą się z niskim IQ i otyłością, do tego ich ojczyzna ma widoczne problemy klasowo-rasowo-polityczne. Jednostki wybitne wydają się mieć ogromne problemy z przebiciem (czy wyobrażacie sobie dzisiaj Steve Jobsa, który mówi, że w ofercie Apple może być tylko jeden komputer stacjonarny i jeden model laptopa?), i chociaż nie spełniły się wszystkie wizje Richarda Stallmana (pan jest od Open Source i projektu GNU), to dużo spraw poszło chyba w bardzo złym kierunku.</p>
+<p>Pewny ogląd tego, jak myślą ci ludzie, dają filmy – od dzieł wspominanych po latach (np. „Przeminęło z wiatrem”, „Top Gun”, „Dirty Dancing”, „stary” Disney) przeszliśmy do bajeczek (np. „Szybcy i wściekli 9” czy większość produkcji „Netflixa”). Dużo zmian widać chociażby w fantastyce – kiedyś mieliśmy „Seaquest” czy „Stargate”, a teraz pozostał nam coraz bardziej drapieżny i pesymistyczny „Star Trek” albo coraz dziwniejsze filmy z uniwersum „Obcego” (swoją drogą ciekawe, czy Apple będzie potrafiło udźwignąć „Federację”?).</p>
+<p>Korporacje nie chcą ogarniać tego co robią (nie wykluczam też, że jest to przejaw głupoty) i chyba tylko łapanie ich za rękę może coś zmienić – przykłady z kilku ostatnich dni:</p>
+<ol>
+<li><a href="https://www.engadget.com/microsoft-signed-netfilter-malware-driver-164228266.html" target="_blank" rel="nofollow noopener">Microsoft podpisał cyfrowo sterownik z malware</a> (a myślałem, że po zamieszaniu z wymaganiami Windows 11 nic mnie już nie zdziwi)</li>
+<li>pojawiają się płyty główne z pasywnie chłodzonym x570 (czy ma to sens, gdy projekt był średnio udany?)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/qk3PD-4zPN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </li>
+<li>Adata (znów?) po cichu zmienia specyfikacje
+<iframe width="710" height="355" src="https://www.youtube.com/embed/K07sEM6y4Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </li>
+</ol>
+<p>Właśnie w takim świecie pojawia się info od Apple.<br />
+</p>
+<p>Czy firma już boryka się z problemem czyjejś śmierci?</p>
+<p>Czy należy to traktować jako głos wielkiej korporacji mówiącej o problemie, który dotyka wszystkich w branży, ale każdy boi się o nim mówić? (skoro jest taka troska o drogiego klienta, to dlaczego ciągle można kupić kolejne egzemplarze „problematycznych” urządzeń?)</p>
+<p>A może jest to przejaw korporacyjnego zapobiegania potencjalnym pozwom? Efekt czyjejś nadgorliwości? Reakcja na sugestię ze strony któregoś algorytmu? Kolejna odsłona notki na kawie, że może być gorąca? Informacja tego samego kalibru, że urządzenie spełnia restrykcyjne normy IP, ale gwarancja z powodu zalania jest nieuwzględniana? Albo coś jak notka małym druczkiem, że urządzenie trzeba trzymać co najmniej kilka cm od głowy? (to chyba jest w instrukcjach wszystkich telefonów)</p>
+<p>Czy tak czy inaczej „kochane zdrowie, nikt się nie dowie, jako smakujesz, aż się zepsujesz”. Proszę zauważyć, że obstawiamy się różnymi gadżetami, które promieniują, a ziarnko do ziarnka… w tym kontekście bardzo ciekawe jest to, że w iOS „pełne” wyłączenie Bluetooth i WiFi jest jakieś takie nieintuicyjne, a iPhone ma jednak ogromny SAR (przez ostatnie lata podchwycił to niestety również Samsung).</p>
+<p>Ktoś może oczywiście napisać, że mój wpis to tylko gadanie jakiegoś szalonego człowieczka, który nic w życiu nie osiągnął – z drugiej jednak strony ile jeszcze razy zobaczymy „nic się nie stało”?</p>
+<p>Produkowanie (elektro)śmieci – nic się nie stało.</p>
+<p>Tworzenie mrugających ekranów i bardzo nieergonomicznych sprzętów – nic się nie stało.</p>
+<p>Coraz wyższy smog elektromagnetyczny – nic się nie stało.</p>
+<p>Wspieranie moralnie wątpliwych działań i projektów – nic się nie stało.</p>
+<p>Czyżbyśmy właśnie przekroczyli poziom, przy którym jednak coś się stało? Obstawiamy co będzie następne? Informacje, że trzeba wycofać drukarki laserowe? Że 5G nie jest tak nieszkodliwe?</p>
+<p>Żeby nie było, że piszę jedynie o tematach śmiertelnie poważnych - na deser malutkie video, które może wyśmieją fani marki, ale które wydaje się pokazywać, jak bardzo firma robi wszystkich w …</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/MgK4-RB35do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>„I hope you have learnt something”</p>

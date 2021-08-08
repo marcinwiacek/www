@@ -1,0 +1,20 @@
+﻿Title:Report 2006-11-28
+Author:marcin
+When:28 Nov 2006
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p><img src="sites/default/files/79/Clipboard01.jpg" align="right" /></p>
+<p>I was asking myself - what is future of "my" projects ? Does anyone need them ?</p>
+<p>How did it end ?</p>
+<p>I was playing today with <a href="http://www.borland.com/downloads/download_turbo.html">Turbo C++ from Borland</a>. After about 1 and half hour I had compiled Gammu+ with primitive GUI able to get root folders from phone filesystem. If everything will go fine, I will be able to publish it somewhere in next week (with all main filesystem issues like navigating, uploading/download, etc.).</p>
+<!--break-->
+<p>I quess, it can be put as part of some vision:</p>
+<ul><li>Gammu will be upgraded (mainly fixes, but I will try to add not only them), I'm not sure only, if it has sence to play with old DLL exports to Delphi
+</li><li>Gammu+ will have end filesystem (there are still minor issues to fix), phonebook and will cover 4 main things (SMS, pbk, calendar, filesystem)
+</li><li>there will be written GUI (THIS GUI) to Gammu+. It won't be too nice in first versions, but will have at least command line functionality
+</li></ul><p>You can expect support Series 40 phones. This is clear like sun.</p>
+<p>What next ? I must think. I'm very close to big unknown time...</p>
+<p>generally I will have three main things now - writing diploma work, passing my current semester, (probably) making course for my (possible) future work. It's all up to June. I can't work too much, but I will have to make some things - <b>do you have some nice job todo ? the best something connected with Gammu ? what could be done during nights ?</b> I ask, because I still don't have money from my previous holiday practices (I guess, I will never have them), I don't have payed for one article...and some other...</p>
+<p>In June I will have probably (I hope) ending studies. and then start really unknown time... if I will have good job, it's OK and projects will be extended. If not, there will be problem.</p>
+<p>From the second hand: there is a lot of time to June. Even Gammu is already enough for many people. So, maybe I will have for example money for Vista / will buy some smartphone and will explore new issues...and start something really different. Who know ?</p>

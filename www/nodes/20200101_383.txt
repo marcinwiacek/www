@@ -1,0 +1,398 @@
+﻿Title:Największa niewiadoma 2020 to AMD (pełne case study budowy mocnego systemu ITX) (wersja 1.1, 2020)
+Author:marcin
+When:1 Jan 2020
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Linux,AMD,x86
+
+<img src="sites/default/files/383/limits.png" width=300 align=right />
+
+<p>Listopad i grudzień to okres wyprzedawania wszystkich bubli z magazynów, jak również czas wymiany mocnych konfiguracji przez bardziej świadomych użytkowników. Miałem ostatnio przyjemność współuczestniczyć w budowie jednej takiej maszyny, stąd trochę komentarzy i wniosków z notatek.</p>
+
+<!--teaser-->
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Najwieksza-niewiadoma-to-AMD-pelne-case-study-budowy-mocnego-systemu-ITX,105453.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Listopad i grudzień to okres wyprzedawania wszystkich bubli z magazynów, jak również czas wymiany mocnych konfiguracji przez bardziej świadomych użytkowników. Miałem ostatnio przyjemność współuczestniczyć w budowie jednej takiej maszyny, stąd trochę komentarzy i wniosków z notatek.</p>
+
+<p><center><img class="progressiveMedia-thumbnail" style="width:608px;height:405px;" src="sites/default/files/383/cpu-2283432_1920.jpg" alt="image" /></center>
+
+<p>Zacznijmy jednak od historii, a właściwie wybiórczego pokazania tego, co kiedyś / kiedyś dla innych budowałem... Jeśli ktoś chce, powinien ominąć tę część i przejść od razu do roku 2019...</p>
+
+<p><b>ok. 1991, czwartek</b></p>
+
+<p>- Marcin, będziesz mieć dostęp do 80386SX Intela z 4 MB RAM. Karta graficzna to porządny Trident, a nie jakiś tam zapyziały Herkules. Do tego dojdzie dysk Maxtor 60 MB.</p>
+
+<p>- Ja cię...</p>
+
+<p><b>rok 1997</b></p>
+
+<p>- Marcin, czas na nową maszynę. Chcę Pentium MMX 166 Mhz z CD-ROM.</p>
+
+<p>- Ja cię...</p>
+
+<p><b>ok. 1999</b></p>
+
+<p>- Dzień dobry, chciałbym złożyć konfigurację. Slot 1 na Intel BX, Celeron 466 na przejściówce. Nie wiem tylko, którą kartę graficzną wybrać.</p>
+
+<p>- Może ten Savage?</p>
+
+<p>- To tak samo dobre jak GeForge?</p>
+
+<p>- Tak, tak.</p><p>...</p>
+
+<p>- Dzień dobry, ja jednak chcę NVidię.</p>
+
+<p>- !@#$</p>
+
+<p><b>ok. 2000</b></p>
+
+<p>- Marcin, potrzebuję szybkiego komputera.</p>
+
+<p>- Athlon 1Ghz na Socket-A na płycie Asusa na VIA KT133.</p>
+
+<p>...</p>
+
+<p>- Marcin, komputer znów pokazuje bluescreena.</p>
+
+<p>- To chyba jednak wina VIA. Ale wtopa.</p>
+
+<p><b>2001</b></p>
+
+<p>- Marcin, czas wymienić Celerona 466 na Celerona 800.</p>
+
+<p>- Z płytą?</p>
+
+<p>- Nie, potrzebuję tylko nową przejściówkę do Slot 1.</p>
+
+<p>- Ja cię...</p>
+
+<p><b>2004</b></p>
+
+<p>- Marcin, mam Celerona 2Ghz na Socket 478 i chcę go zmienić na coś lepszego.</p>
+
+<p>- Może Pentium IV Northwood 2,8Ghz? Taki chłodny.</p>
+
+<p><b>2006</b></p>
+
+<p>- Te całe wielkie skrzynki to jednak nieporozumienie.</p>
+
+<p>- To może laptop z AMD ? Wypuścili właśnie 2-rdzeniowe Turiony.</p>
+
+<p>- Nie, Core 2 Duo jest znacznie lepsze.</p><p><b>2019</b>&#160;</p>
+
+<p>- Marcin, potrzebuję dosyć małej skrzynki. Ma mieć szybki jak wariat stabilny procesor, być możliwie cicha i tania. Karta graficzna nieważna. Nie używamy wody, jeśli nie musimy. Ważnym kryterium jest możliwość rozbudowy. Czas start!</p>
+
+<p><b>Od pomysłu do przemysłu<br/></b></p>
+
+<p>I tak oto znów ruszyła procedura przeglądania zastanawiania się i przyglądania ofertom. </p>
+
+<p>Przeszedłem dosyć długą karierę jako składacz i MB zamieniły się w tym czasie w GB czy TB, od dawna nie mam również tylko młodzieńczego &quot;ja cię&quot;, tylko łączę go z chłodną kalkulacją.</p>
+
+<p>W większości budowałem komputery z Intelami, gdyż AMD w wielu wypadkach kojarzyło mi się z overclockingiem (ołówkowe mostki) i nie zawsze dobrą jakością (układy VIA czy odsłonięte rdzenie, do tego raczej niska sterowników ATI dla Linuxa).</p>
+
+<p>W przeszłości w gotowych zestawach ze &quot;swoich&quot; polskich firm zdarzały mi się zwykłe oszustwa (tak nazywam nieposmarowanie procesora pastą i założenie wiatraka bez niej), więc sam chciałem zająć się każdym elementem.</p>
+
+<p>W trakcie tegorocznych poszukiwań znalazłem takie smaczki jak <a href="https://www.asrockrack.com/general/productdetail.asp?Model=EPC621D4I-2M" target="_blank" rel="noopener" rel="nofollow">EPC621D4I-2M</a> (płyta ITX z czterema slotami RAM do Xeonów obsługująca procesory do 200W).</p>
+
+<p>Po krótkim zastanowieniu się zdecydowałem, że skoro tym razem AMD jest na fali wznoszącej, to zaryzykuję - do odważnych wszak świat należy.</p>
+
+<p>Naturalnym wyborem byłby prawdopodobnie Threadripper, ale... procesory z 2019 używają już innej logicznie podstawki niż starsze tańsze modele, jedynym rozmiarem płyty jest ATX z wiatrakowym chipsetem i gdybym miał nieograniczony budżet, to prawdopodobnie wolałbym czekać na 64 rdzeni, które podobno mają &quot;palić&quot; 280W jak wersje 24 i 32-rdzeniowe. </p>
+
+<p>Do TR4 Asrock miał przynajmniej X399M Taichi, ale ze względu na strukturę starsze modele zachowywały się różnie (czasem były szybsze, czasem wolniejsze od tańszych konkurentów) i oczywiście nie spełniały kryterium &quot;przyszłościowego&quot;.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/-GM_3kjy1mE?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Threadripper ostatecznie odpadł ze względu na koszty i rozmiar i pozostał Ryzen (no dobrze, częściowo ze względu na rozmiar - jest obudowa RAIJINTEK THETIS WINDOW o rozmiarach zaledwie 210&#215;360&#215;366 mm).</p>
+
+<p>Przy Ryzenie można użyć płyt mini-ITX i teoretycznie większość z nich obsługuje każdy model procesora (piszę teoretycznie, gdyż różnie wygląda jakość sekcji zasilania czy dodatków, które tutaj mogły okazać się kluczowe; do tego do 5x0 nie można użyć Ryzenów 1xxx).</p>
+
+<p>Zacząłem drążyć mocniej temat i znalazłem chociażby taką listę kompatybilności - <a href="https://www.reddit.com/r/Amd/comments/c7qj5e/am4_vcore_vrm_ratings_to_help_you_decide_on_a/" target="_blank" rel="noopener" rel="nofollow">https://www.reddit.com/r/Amd/comments/c7qj5e/am4_vcore_vrm_ratings_to_...</a></p>
+
+<p>Potwierdziło się, że część płyt głównych może mieć problem, gdy chcemy podkręcić pamięć albo użyć mocniejszego procesora. Teoretycznie ogólnie po wymianie BIOS w konstrukcjach z chipsetami 3x0 albo 4x0 możliwe będzie użycie nawet Ryzenów 3xxx (o ile zgodzimy się na <a href="https://mightygadget.co.uk/b450-vs-x470-vs-x570-performance-for-ryzen-7-3700x-ryzen-9-3900x/" target="_blank" rel="noopener" rel="nofollow">marginalne różnice prędkości</a>), ale wtedy trzebaby się pogodzić np. z mniejszą ilością portów USB. Teoretycznie niektóre płyty pozwalałyby na wymianę BIOS bez procesora (Gigabyte), do tego możnaby poprosić AMD o zestaw z procesorem albo sklep o pomoc, ale...</p>
+
+<p>Przypomnę, że komputer miał mieć szybki jak wariat procesor. Chciałem również, żeby był w miarę rozbudowywalny, stąd z bólem portfela i uszu zacząłem wybierać konstrukcję na układzie x570 i po prostej eliminacji wybrałem płytę Asrocka.</p>
+
+<p>Zadecydował jeden szczegół - USB 3.2 daje maksymalnie 10Gbps, Thunderbolt 3 zaś 40Gbps (producent podaje info tylko o dwóch ograniczeniach: Only three TB3 devices can be detected, Does not support Thunderbolt 3 PCIe graphics card box).</p>
+
+<p>Długo wahałem się między Ryzenem 3900x i 3950x (ten ostatni można kupić legalnie za mniej niż 3699 PLN jak na Skąpcu; ciekawostką jest brak maksymalnej temperatury na stronie AMD).</p>
+
+<p>Dalej było jeszcze ciekawiej...</p>
+
+<p><b>Obudowa</b></p>
+
+<p>Te mógłbym podzielić na kilka grup:</p>
+
+<ul><li>mikroskopijne - dobre wyłącznie do zestawów APU z niskim wentylatorem (np. <a href="http://www.minicase.net/product_E-W60.html" target="_blank" rel="noopener" rel="nofollow">E-W60</a>)</li>
+
+<li>średnio mikroskopijne - można zmieścić troszkę więcej (np. <a href="https://www.chieftec.eu/pl/obudowy/itx/seria-compact/ix-03b.html" target="_blank" rel="noopener" rel="nofollow">Chieftec IX-03B</a>)</li>
+
+<li>kostki - zazwyczaj nadające się wyłącznie do AIO z uwagi na małą przestrzeń nad CPU (np. <a href="https://www.coolermaster.com/catalog/cases/mini-itx/elite110/" target="_blank" rel="noopener" rel="nofollow">Elite 110</a>, <a href="https://www.lazer3d.com/product/lz7-overview/" target="_blank" rel="noopener" rel="nofollow">LZ7</a>)</li>
+
+<li>duże kostki - np. <a href="https://www.thermaltake.com/core-v1.html" target="_blank" rel="noopener" rel="nofollow">Thermaltake Core V1</a><br/></li>
+
+<li>wydłużone/poszerzone kostki - np. <a href="https://kolink.eu/Home/case-1/mini-itx-2/satellite.html" target="_blank" rel="noopener" rel="nofollow">Kolink Satellite</a>, <a href="https://silverstonetek.com/product.php?pid=536&amp;area=en" target="_blank" rel="noopener" rel="nofollow">Silvestone SG13</a>, <a href="https://en.sharkoon.com/product/16433" target="_blank" rel="noopener" rel="nofollow">Sharkoon QB One</a></li>
+
+<li>wąskie wysokie wydłużone kostki - cechą charakterystyczną jest koszmarna cena i duże wymiary (np. <a href="https://www.dan-cases.com/dana4.php" target="_blank" rel="noopener" rel="nofollow">A4-SFX</a><a href="https://www.dan-cases.com/dana4.php" target="_blank" rel="noopener" rel="nofollow"> czyli Dan Case</a>, <a href="https://ncases.com/products/m1" target="_blank" rel="noopener" rel="nofollow">Ncase M1,&#160;</a><a href="https://streacom.com/products/da2-chassis/" target="_blank" rel="noopener" rel="nofollow">Streacom DA2</a>)</li></ul>
+
+<p>Nie wiem, kto to wszystko wymyślił, ale dużo z tych obudów ma tylko albo 7 cm albo 15 cm na chłodzenie nad CPU, do tego nie ma miejsca na wiatraki (ewentualnie szklana góra powoduje, że trzeba zrezygnować z chłodzenia grawitacyjnego i wiatraka na CPU położonego płasko).</p>
+
+<p>Widać też, że producenci zakładają pakowanie do środka co najmniej kilku dysków (w czasach NVME wystarczy często jeden slot 2,5&quot;), co oczywiście niepotrzebnie zwiększa wymiary.</p>
+
+<p>Brakuje mi układu, gdzie zasilacz idzie na sam dół, nad nim jest umieszczona poziomo płyta, na niej normalnie CPU, karta graficzna i układ chłodzenia (coś takiego, co by miało niewiele ponad 17x17 cm i dajmy na to 25 cm wysokości).</p>
+
+<p>Tak trudno?</p>
+
+<p>Moje pobożne życzenie nie zostało spełnione, więc wybrałem Sharkoon QB One - wygląd w porządku, 15 cm nad CPU (wydawało mi się to OK, niestety pomyliłem się mocno, o czym dalej), zgodność z AIO 2x120mm, obecność wiatraka 80mm z tyłu i dosyć solidna konstrukcja.</p>
+
+<p>Wymiary to spore 36.8 x 22.5 x 18.0 cm, ale jak się nie ma tego, co się chce...(przypomnę, że ATX mógłbym zmieścić w 21.0 &#215; 36.0 &#215; 36.6 cm)</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/GI12wVr7DT0?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p><b>Chłodzenie</b></p>
+
+<p>Wiele osób (również AMD) zaleca używanie chłodzenia wodnego do mocnych procesorów, ja jednak zdecydowałem się wpierw spróbować, czy powietrze jest tu wystarczające.</p>
+
+<p>Jeden z powodów widać na poniższym video:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/nttKqzQiZEo?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Zdecydowałem się podjąć ryzyko związane z ciężarem i szybko okazało się, że plusem płyty Asrocka jest mocowanie jak przy Intelu, a minusem koszmarny układ elementów - wystający wentylator na chipsecie i bardzo wysoki radiator na VRM. Ten ostatni powoduje, że chłodzenie w praktyce może mieć maksymalnie ok. 90 mm szerokości (przypomnę, że dodatkowo ograniczało mnie 15 cm obudowy).</p>
+
+<p>W trakcie poszukiwań okazało się, że praktycznie wszyscy polecają firmę Noctua (o ich klasie świadczy chociażby <a href="https://noctua.at/en/support/compatibility-lists/mainboard" target="_blank" rel="noopener" rel="nofollow">lista zgodności z konkretnymi modelami procesorów czy płyt</a>). I tu pierwsze rozczarowanie - wszystko, co pasowało, było mocno na granicy wydajności. Zong.</p>
+
+<p>Cooler Master? Brak TDP i wymiary...</p>
+
+<p>Arctic? Jest wsparcie dla dużych TDP, ale wymiary...</p>
+
+<p>Cryorig? Jak wyżej, ale wymiary...</p>
+
+<p>Alpenf&#246;hn? Jak wyżej, ale wymiary...</p>
+
+<p>Zalman? Dla niższych TDP znalazłem nawet chłodzenie pasywne, nic jednak dla mnie...</p>
+
+<p>Thermalright? Rozważałem np. Silver Arrow ITX-R na TDP 320W, ale w stopce strony znalazłem notkę &quot;&#169; Copyright 2010 - 2016 by PC Cooling&quot; (mamy 2019!) i szerokość układu mogła być zbyt duża (&gt; 90mm)</p>
+
+<p>Thermaltake? Wymiary</p>
+
+<p>Silverstone? Raczej niska półka (nawet brak określeń TDP)</p>
+
+<p>Wynalazki pasywne typu NoFan? Za małe TDP (nomen omen <a href="https://www.anandtech.com/show/14486/noctua-shows-off-concept-fanless-cpu-cooler-up-to-120w-of-cooling-performance" target="_blank" rel="noopener" rel="nofollow">Noctua ma mieć model do 120W</a>)</p>
+
+<p>Mój ulubiony Be Quiet! ? Firma solidna (jest lista zgodności z płytami!), zmęczony poszukiwaniem w końcu z bólem serca musiałem się zdecydować na model o TDP 160W z wiatrakiem położonym poziomo.</p>
+
+<p>W końcu!</p>
+
+<p><b>RAM</b></p>
+
+<p>DDR4 3200 dwukanałowy (czyli dwie kości pamięci), nic dodać, nic ująć.</p>
+
+<p>Nudy.</p>
+
+<p><b>Zasilacz</b></p>
+
+<p>Przy droższym sprzęcie nie ma co oszczędzać - lepiej kupić coś znanej firmy, a jeszcze lepiej kupić coś znanej firmy w niewielkim rozmiarze SFX (da to lepsze chłodzenie wewnątrz obudowy).</p>
+
+<p>Mój typ to w tym wypadku Corsair i seria SF Platinum - duża sprawność i pasywne działanie przy niższym obciążeniu.</p><p>Test najmocniejszego modelu z tej serii - <a href="https://www.tomshardware.com/reviews/corsair-sf750-psu,5979.html" target="_blank" rel="noopener" rel="nofollow">https://www.tomshardware.com/reviews/corsair-sf750-psu,5979.html</a></p>
+
+<p>Wychodzę z założenia, że moc dobieramy ze względu na przewidywalne obciążenie - żeby je dostać, od mocy nominalnej zasilacza odejmuję część na straty (przy Platinum przy sprawności ok. 90% mnożę przez 0.9) i dzielę przez połowę, gdyż zasilacze często działają najlepiej i najciszej w połowie lub mniej obciążenia, do tego warto mieć odpowiedni zapas.</p>
+
+<p>Patrząc z drugiej strony - np. przy spodziewanym obciążeniu 250W mnożę 250 przez 2 i dzielę przez 0.9. Otrzymany wynik to 555W i przynajmniej takiego zasilacza polecam szukać.</p>
+
+<p><b>Grafika</b></p>
+
+<p>Do wyboru, do koloru - tutaj jednak przyjąłem trzy proste zasady:</p>
+
+<ol><li>większe TDP oznacza więcej ciepła.</li>
+
+<li>bez wiatraka nie ma co się bawić.</li>
+
+<li>NVidia.<br/></li></ol>
+
+<p>Odrzuciłem karty graficzne pasywne (GT 710, GT 730 i GT 1030) pomimo ich mizernego TDP 20-30 W (ważna okazała się wydajność), nie zastanawiałem się również dłużej nad Palit GeForce GTX 1050 Ti KalmX (wydajność, TDP i cena).</p>
+
+<p>Nie chciałem kupić niczego ze starszej generacji i w końcu z bólem serca (średni stosunek wydajności do ceny) wybrałem mocno dyskusyjną kartę na GTX 1650 z TDP 75W i rozwiązaniem pół-pasywnym chłodzenia (konkretnie model Gigabyte bez dodatkowej wtyczki z dwoma wiatrakami 90mm, które włączają się dopiero pod obciążeniem).</p>
+
+<p>Ważna uwaga - nie polecam kart z jednym wiatrakiem, które miewają ustawione minimum 30% prędkości wentylatora w BIOS (no chyba, że chcemy męczyć się z hałasem i modowaniem BIOS albo kupujemy kartę z myślą o założeniu własnego chłodzenia).</p>
+
+<p><b>Jak to działa?</b></p>
+
+<p>Na początku było średnio - przy stresie temperatury chwilowo potrafiły dojść do 95C i zegary schodziły do nominalnych 3,5Ghz (zapewniam, że wtedy jest już pewne ciśnienie).</p>
+
+<p>Zacząłem od zdjęcia wszelkich możliwych ekranów kurzowych, przesmarowania procesora z pasty fabrycznej Be! Quiet na Grizzy Kryonaut (ciekły metal nie wchodził w grę) i porządnego związania kabli tak, żeby nie dotykały radiatorów płyty ani nie hamowały ruchu powietrza.</p>
+
+<p>W moim układzie płyta główna leży poziomo, wiatrak procesora wywiewa powietrze w górę, karta graficzna ustawiona jest pionowo, a zasilacz daleko z przodu wciąga powietrze górą (jest ułożony do góry nogami) i wywiewa na zewnątrz.</p>
+
+<p>Zdecydowałem, że nie przewrócę obudowy na bok (pozwala na to i to jest jej duży plus) - bałem się trochę o nierównomierny nacisk na płytę główną ze strony chłodzenia CPU i naprężeń samej płyty, jak również zasłonięcia karty graficznej (byłaby na dole).</p>
+
+<p>Do tego układu odsłoniłem wszystkie otwory (dół, góra, boki, z przodu było to niemożliwe), założyłem też wiatrak 80 mm wciągający zimne powietrze do środka z tyłu.</p>
+
+<p>Mocno pomogło, ale zacząłem szukać dalej i wyszło na to, że TDP 105W to niestety jedna wielka kpina (bardzo ładnie <a href="https://www.anandtech.com/show/15043/the-amd-ryzen-9-3950x-review-16-cores-on-7nm-with-pcie-40/2" target="_blank" rel="noopener" rel="nofollow">pokazał to np. AnandTech dla Ryzena 3950x</a>).</p>
+
+<p>Ryzeny potrafią oddać więcej ciepła i ważne dla nich są przede wszystkim trzy parametry:</p>
+
+<ul><li>Package Power Tracking (“PPT”) określający, ile mocy może być pobrane przez socket - domyślnie to 142W lub 88W (odpowiednio dla układów z TDP 105 i 65W).</li>
+
+<li>Thermal Design Current (“TDC”) określający, jakie maksymalne stałe natężenie prądu może być dostarczone do układów zasilania płyty - domyślnie to 95A lub 60A.</li>
+
+<li>Electrical Design Current (“EDC”) określający, jakie może być maksymalne chwilowe natężenie prądu dostarczane do układów zasilania płyty - domyślnie to 140A lub 90A.<br/></li></ul>
+
+<p>Przy overclockingu z użyciem Precision Boost Overdrive (PBO) ustawiane są wyższe wartości, przy trybie ECO niższe - polecam np. lekturę <a href="https://www.gamersnexus.net/guides/3491-explaining-precision-boost-overdrive-benchmarks-auto-oc" target="_blank" rel="noopener" rel="nofollow">https://www.gamersnexus.net/guides/3491-explaining-precision-boost-ove...</a></p>
+
+<p>Good done AMD!</p><p>Okazało się, mój chwilowy skok temperatury pojawiał się, gdy znacznie rosło TDC i zegary spadały, gdy limit TDC był wykorzystany w 100% (tu polecam HWiNFO 64). Podejrzewałem, że radiator VRM ogrzewa radiator procesora, w końcu jednak nie sprawdziłem tej teorii.</p>
+
+<p>Zacząłem się bawić z ustawieniami UEFI i znalazłem dużo ciekawostek - płyta główna nie ustawiła domyślnie prędkości 3200 na pamięciach (trzeba było ręcznie wybrać profil XMP), wyłączone było również oszczędzanie energii (włączyłem chociażby Clock Power Management, Unused GPP Clocks Off, Global C-State Control, Power Supply Idle Control, Power Down Enable, wyłączyłem SoC/Uncore OC Mode).</p>
+
+<p><center><img src="sites/default/files/383/disable1.png" style="width:540px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/383/disable2.png" style="width:540px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/383/disable6.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>Postanowiłem również zlimitować PCI do PCI3 (Gen3) i wyłączyć nieużywane USB, mając nadzieję na mniejsze grzanie się chipsetu.</p>
+
+<p><center><img src="sites/default/files/383/disable0.png" style="width:540px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/383/disable3.png" style="width:540px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/383/disable5.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>PPT i EDC zostawiłem na wartościach domyślnych (142 i 140), po ostatecznych testach zmniejszyłem trochę TDC (żeby wiatraki nie chodziły zbyt mocno nawet w stresie, o czym poniżej), ustawiłem limit temperatury procesora i wyłączyłem 200Mhz boost (z moich i nie tylko moich testów wynika, że po jego włączeniu procesor działa minimalnie WOLNIEJ).</p>
+
+<p><center><img src="sites/default/files/383/limits.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ciekawym wyzwaniem okazało się postawienie na tym sprzęcie Ubuntu:</p>
+
+<ol><li>dopiero domyślne jądro w 19.10 ma wsparcie dla karty Wifi</li>
+
+<li>nawet ostatnie sterowniki NVidii 440 potrafią pokazać prędkość wentylatorów karty równą zero, gdy wiatraki pracują w trybie auto i się kręcą</li>
+
+<li>nawet najnowsze jądro 5.4.6 nie ma wsparcia dla odczytu temperatur konkretnie &quot;mojego&quot; modelu procesora i konkretnie &quot;mojego&quot; układu na &quot;mojej&quot; płycie głównej (znalazłem pewne łatki na sieci, ale... w kodzie jądra ich nie ma)</li></ol>
+
+<p>Z uwagi na ostatni punkt w obudowie ostatecznie zamontowałem średnio głośny wiatrak 80mm (który o ironio ma silent w nazwie - Enermax T.B. Silence PWM) i ostatecznie w UEFI ustawiłem następujące limity:</p>
+
+<p><center><img src="sites/default/files/383/fan1.png" style="width:540px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/383/fan2.png" style="width:540px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/383/fan3.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>Dzięki tym ustawieniom wiem, kiedy procesor się grzeje (wtedy włącza się wiatrak obudowy) i mój chipset jest chłodzony, gdy naprawdę się zestresuje (zapewniam, że jest to ulga dla uszu).</p>
+
+<p>Obecnie w dużym stresie samego procesora dysk NVME grzeje się do 60-65C, grafika do 50C (wiatraki więc praktycznie nigdy nie chodzą), temperatura chipsetu utrzymuje się w granicach ok. 67C, a procesora ok. 68C (przy zmianie typu obliczeń ten ostatni czasem dochodzi do 70C i ma niewielkie piki do 85C).</p>
+
+<p>Przeciętna prędkość tego ostatniego najczęściej to ok. 4,1Ghz i obliczenia, które poprzednio zajmowały ponad 4h, obecnie zeszły do ok. 31 minut.</p>
+
+<p>Jeśli chodzi o zużycie energii, to w idle zestaw zużywa 16.7W (monitor) + 45W (buda), w standby buda zużywa 0.7W, a w stressie mniej niż 200W (to bardzo dobry wynik).</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Wygląd - OK</p>
+
+<p>Głośność - OK</p>
+
+<p>Funkcje - OK</p><p>Koszty (jak na możliwości) - całkiem OK</p>
+
+<p>Wymiary - prawie OK (mocno liczyłem na mniejsze)</p>
+
+<p>Wydajność - prawie OK (tzn. jest mocno ponad oczekiwania, natomiast można się czepiać TDC i braku mocnego overclockingu)</p>
+
+<p>Jakość - obudowa 10/10, CPU 10/10, RAM 10/10 (tu ciężko coś wymyśleć), zasilacz 10/10, chłodzenie 10/10, płyta główna 8/10 (głównie ze względu na wiatrak, złe umieszczenie NVME i ogólnie chłodzenie, ale nie tylko, a o czym poniżej), grafika 8/10 (wina NVidii w dziwnym pozycjonowaniu chipsetów, Gigabyte spisał się naprawdę nieźle)</p>
+
+<p>Czy większy mATX byłby lepszym wyborem? Może.</p>
+
+<p>Czy większy Mini-TDX byłby lepszym wyborem? Może.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/H-ztkBa4Y4g?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Czy płyta z Chin z używanymi Xeonami byłaby tańsza? Może.</p>
+
+<p>Opisany zestaw nie jest idealny, mam jednak wrażenie, że mniej więcej za trzy lata to będzie co najwyżej góra klasy średniej. Pewne decyzje zostały podjęte bardzo świadomie i szczerze mówiąc, nie obchodzi mnie, że gdzieś tam jest 5 czy 10 czy nawet 20 FPS mniej.</p>
+
+<p>Na pewno majsterkowanie i próbowanie różnych układów było bardzo czasochłonne, za to sprawiło masę frajdy (pamiętajmy przy tym, że kupując takiego Maca za 250 000 PLN, dostajemy na tacy setki godzin pracy inżynierów i m.in. właśnie za to płacimy).</p>
+
+<p>Sprzęt ma się teraz zwrócić, jest również potencjał do rozbudowywania i przyszłej odsprzedaży (nie oszukujmy się - kiedyś całość pójdzie w świat), C.D.N. być może nastąpi.</p>
+
+<p>Pozostały dwie otwarte kwestie:</p>
+
+<ol><li>jak całość będzie się sprawować w lato - czy założone będzie AIO / na jaki lepszy wiatrak można się zamienić.</li>
+
+<li>co zrobić z temperaturą NVME.<br/></li></ol>
+
+<p>Naszło mnie przy tym dużo refleksji.</p>
+
+<p>Zacznę od tego, że portale komputerowe chętnie piszą o tym, co jest na topie - stąd tak częste newsy o Zen 3 czy kolejnych mobilnych Ryzenach.</p>
+
+<p>Nie winię ich za to, że duża część opisów jest podana w samych superlatywach (ludzie ci żyją po prostu ze sprzedaży).</p>
+
+<p>AMD na pewno przygotowało bardzo dobre układy, ale podobnie jak przed laty podkpiło ekosystem:</p>
+
+<ol><li>procesory mobilne są generację do tyłu (i przykładowo, gdy szukałem taniego laptopa z długim czasem na baterii, to musiałbym polecić X395 od Lenovo z undervoltingiem, bo inne mają albo migającą/błyszczącą matrycę albo mikroskopijną baterię)</li>
+
+<li>5x0 to porażka - wiatraki słychać (15W to więcej niż 5W), a płyt ITX są całe trzy modele (i gdzie jest b550?)</li>
+
+<li>mocno brakuje setupu, gdzie na płycie głównej jest zintegrowana karta graficzna (taka do wyświetlania dekstopu i prostych video) i mało niepotrzebnych przestarzałych złącz (np. SATA). To pierwsze zwolniłoby slot PCI (w dniu dzisiejszym używanie risera nie zawsze rozwiązuje problem i nie zawsze można umieścić w małej obudowie dwie karty, a karta PCI np. na kilka dysków NVME byłaby jak znalazł), to drugie zwolniłoby miejsce np. na dwa kolejne sloty pamięci, jak we wspomnianej płycie dla Xeonów.</li>
+
+<li>rozpaczliwie brakuje setupu, który byłby ukierunkowany wyłącznie na obliczenia - np. Threadrippera na ITX z mniejszą ilością linii PCI i mniejszym zużyciem prądu albo konfiguracji dwuprocesorowych z Ryzenem</li>
+
+<li>ogromnie brakuje setupu z porządnym ciepłowodem łączącym chipset i VRM i wyciągającym gorące powietrze jak w laptopach (w tym wypadku poprzez płaski wentylator w tylnym panelu płyty)</li>
+
+<li>w topowych konstrukcjach często istotne są tak ważne &quot;istotne&quot; dodatki jak diody LED, a brakuje chociażby wyłączania karty sieciowej w celu oszczędzania energii</li>
+
+<li>AM4 ma gwarantowaną zgodność wyłącznie do 2020<br/></li></ol>
+
+<p>Rozumiem, że PCI 4, że nowości, ale... nie przekonuje mnie stwierdzenie, że braki to również wina innych firm - to producent procesora podaje wytyczne (i zapewniam, że hałas na poniższym video to nie najwyższy bieg).</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/A1XMLe-3om0?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>UEFI Asrocka nie ma opisu różnych opcji, nie ma żadnych testów sprzętu (litości, jest opcja do czyszczenia dysku, czy wielkim problemem byłoby dodać test SMART, pamięci i np. moduł do stresowania?), a czasami widać takie kwiatki (klawisz F12 do zrzutu ekranu):</p>
+
+<p><center><img src="sites/default/files/383/bug.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>albo ekrany bez opcji (WTF?):</p>
+
+<center><p><img src="sites/default/files/383/puste.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>Raz z niewiadomych powodów straciłem opcję ECO mode w UEFI (pomógł reset ustawień), czasem również przy starcie Ubuntu zestaw potrafi się zawiesić (w pewnym momencie nie miałem tego problemu, teraz musiałem przestawić źle którąś z opcji UEFI)</p>
+
+<p>Do jasnej ciasnej, to jest plac budowy!</p>
+
+<p>Kiedyś za grzałkę uważano Pentium IV i Prescotty, ale one okazują się niczym w porównaniu do Ryzenów (obecne topowe Intele pominę litościwym milczeniem).</p>
+
+<p>Świat oczywiście poszedł do przodu i 24 lub 32 wątki w ITX to niebywałe osiągnięcie (developerzy mogą niskim kosztem np. częściowo zrekompensować skutki dosyć negatywnej decyzji Google - <a href="https://groups.google.com/a/chromium.org/forum/?utm_medium=email&amp;utm_source=footer#!msg/chromium-dev/DP9TQszzQLI/oNJGXFqeBgAJ" target="_blank" rel="noopener" rel="nofollow">https://groups.google.com/a/chromium.org/forum/?utm_medium=email&amp;u...</a>), ciekawe natomiast, kiedy AMD:</p>
+
+<ol><li>ogłosi, że AM4 i TR4X są &quot;passe&quot; (tutaj mogą &quot;pomóc&quot; nowe kości DDR5)<br/></li>
+
+<li>zacznie mocniej pisać o takim małym dodatkowym układzie bezpieczeństwa, który oczywiście służy dobru użytkowników (AMD Secure Processor)</li>
+
+<li>poda, że nie jest w stanie załatać starszych układów, jeśli chodzi o którąś tam lukę bezpieczeństwa<br/></li></ol>
+
+<p>To nastąpi i jest pewne jak amen w pacierzu, czy jednak już w 2020? Czy dojdziemy do momentu, gdy burzliwy rozwój mamy za sobą, a księgowi zaczną liczyć naprawdę każdy grosz? Czy będzie to rok stabilizacji platformy? A co się stanie, gdy odpowiednia duża ilość Ryzenów pojawi się w domach i nikt nie będzie chciał ich wymieniać? Co zrobi przyparta do muru firma? Pójdzie tylko w stronę serwerów i korpo czy zacznie robić pierdyliard modeli i podstawek?</p>
+
+<p>Powiedziałbym, że w 2019 największym wygranym są sympatyczni poniekąd Hindusi - w pewnym sensie przejęli Google jako kolejną korporację po Microsoft i Adobe i wielu innych.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4V2C0X4qqLY?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Czy AMD namieszało w 2019? Tak</p>
+
+<p>Czy AMD odniosło sukces w 2019? Tak. Firma wykonała bardzo dobrą robotę, ale padła ofiarą swojego sukcesu (nieszczęsne PCI4 to obecnie bardziej grzałka niż realna korzyść)</p>
+
+<p>Czy AMD zerwało ze starym wizerunkiem firmy produkującej procesory szybkie, ale niekoniecznie do bardzo poważnej pracy? Czy pokazało, że można im ufać na lata? NIE, NIE, i jeszcze raz NIE, i tak naprawdę 2020 będzie dla nich sprawdzianem głównie w tym obszarze.</p>
+
+<p>Możemy mieć do czynienia z naprawdę ciekawym pojedynkiem gigantów, kto wygra?</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/2BmhHyyzh9o?controls=1&modestbranding=1&origin=https:\\dobreprogramy.pl&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Na chwilę obecną można zbudować rewelacyjnie mały komputerek ITX o małej i średniej mocy, ale nad dużą, no cóż, trzeba jednak dużo popracować.</p><p>I tak, czytałem o statystykach sprzedaży, i wiem jakim sukcesem są nowe układy, i wiem, że bez AMD byśmy mieli ciągle 4 rdzenie (stąd mimo swoich opinii z całego serca im kibicuję).</p>
+
+<p>PS. Myślę, że Intel obecnie czuje się tak: <a href="https://joemonster.org/filmy/101496/Schody_szpilki_i_powalajacy_tylek" target="_blank" rel="noopener" rel="nofollow">https://joemonster.org/filmy/101496/Schody_szpilki_i_powalajacy_tylek</a></p>
+
+<p>PS2. Do do laptopa z długim czasem pracy, to cały czas czekam, aż ktoś przetestuje Hyperbooka L14 - nie ma TB3, ale podobno ma średnią z testów 32h. Z chęcią bym go przytulił do porządnego sprawdzenia, ale nie mam prawie 5000 PLN na eksperymenty i nikt nie zaproponował mi jego wypożyczenia ;)&#160;&nbsp;</p>
+
+<p><b>Update 4.1.2020:</b> Gigabyte pozwala na zwrot części gotówki przy zakupie nowej płyty głównej z określonym procesorem Ryzen / Threadripper u określonego partnera.</p>
+
+<p>Akcja trwa do 15.1.2020 i przyznam się szczerze, że jakoś o niej nigdzie nie czytałem... </p>
+
+<p>Normalnie nie lubię pisać o podobnych (często mało wartych) akcjach, ale tym razem np. płyta główna do TRX40 wychodzi podobnie lub taniej niż analogiczna ITX z chipsetem X570 innych producentów.</p>
+
+<p>Wszystkie ograniczenia i zasady opisano na<a href="https://gigabyte-emea-offer.com/pl_PL/" target="_blank" rel="noopener" rel="nofollow"> https://gigabyte-emea-offer.com/pl_PL/</a>&#160;&nbsp;</p>
+
+<p><b>Update 8.2.2020:</b> pojawiła się płyta ASRock X570D4I-2T, która ma chipset X570 z pasywnym chłodzeniem, własną grafikę, wsparcie dla procesorów do 105W i sloty dla pamięci SODIMM (i nie widzę jej w sklepach w pobliżu mnie, a jeżeli się pojawi to w cenie większej niż 300 Euro). Inna sprawa, że X570 Phantom Gaming-ITX/TB3 dostał certyfikat Thunderbolt 3.

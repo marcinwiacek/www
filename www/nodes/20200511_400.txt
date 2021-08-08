@@ -1,0 +1,70 @@
+﻿Title:Intel - mamy bezpieczny Thunderbolt, świat - dziś tylko 7 luk i 9 metod ataku (2020)
+Author:marcin
+When:11 May 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Windows,x86
+
+<p>Czasem mam ochotę wrócić do starych dobrych czasów, w których królowały takie oto komputery:</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Intel-mamy-bezpieczny-Thunderbolt-swiat-dzis-tylko-luk-i-metod-ataku,107840.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/i4mZuPZuFxo?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center>
+
+<p>Dzieje się to tylko czasami i w chwilach mojej wielkiej słabości (możliwości takiego sprzętu, jego wielkość, bolące oczy przez monitor CRT i atakujący uszy hałas powodują, że ogólnie cieszę się widząc ten fragment wspaniałej techniki już tylko u hobbistów i w muzeach).</p>
+
+<p>Świat na szczęście poszedł do przodu - na tyle, że <a href="https://www.dobreprogramy.pl/TSMC-chwali-sie-mozliwosciami-technologii-3-nm-Pentium-4-zamkniety-w-glowce-szpilki,News,107507.html" target="_blank" rel="noopener">Pentium IV będzie można zmieścić w główce szpilki.</a></p>
+
+<p>Jednym z efektów postępu jest pojawienie się w wielu laptopach i desktopach złącza Thunderbolt, które pozwala na przesłanie do 40&#160;Gbit/s. Standard został stworzony przez Intela i Apple, obecnie może być bez większych przeszkód implementowany również w produktach z procesorami AMD.</p>
+
+<p>Mamy maj 2020 - wszyscy piszą o stronie <a href="https://thunderspy.io/" target="_blank" rel="noopener" rel="nofollow">https://thunderspy.io/</a>, gdzie podawane są informacje o siedmiu rodzajach luk w implementacji tego standardu.</p><p>Krótki cytat:</p>
+
+<p><i>&quot;All Thunderbolt-equipped systems shipped between 2011-2020 are vulnerable. Some systems providing Kernel DMA Protection, shipping since 2019, are partially vulnerable. The Thunderspy vulnerabilities cannot be fixed in software, impact future standards such as USB 4 and Thunderbolt 4, and will require a silicon redesign&quot;</i></p>
+
+<p>Okazuje się, że nie trzeba już znać haseł do maszyny, żeby ją odblokować: </p>
+
+<center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/7uvSZA1F9os?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p><i>Ale... ale... jak mam fizyczny dostęp, to mogę wszystko... wyciągnąć dysk, RAM, itd.</i></p>
+
+<p>To oczywiście tylko przykład, ale o tyle niepokojący, że tym sposobem na pewno łatwiej podrzucić jakąś &quot;niespodziankę&quot; do tych wszystkich maszyn, które stoją gdzieś w biurach czy miejscach publicznych.</p>
+
+<center><img src="sites/default/files/400/thunder.jpg" style="width:268px;height:405px;" alt="image" title="image" /></center>
+
+<p>Częściową ochroną jest włączenie Kernel DMA Protection (więcej w przypadku Windows 10 <a href="https://docs.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt" target="_blank" rel="noopener" rel="nofollow">na stronie Microsoftu</a>) albo całkowite wyłączenie Thunderbolt w BIOS/UEFI komputera (przez co oczywiście tracimy różne funkcjonalności).</p>
+
+<p>Jak dla mnie, to widać tutaj kilka rzeczy:</p>
+
+<ol><li>szybki rozwój standardów w IT spowodował, że branża/część firm poszła na skróty (sam uważam, że <a href="?q=node/396">podejście &quot;Hey Joe!&quot;</a> jest dobre, ale tylko do pewnego poziomu, który najwyraźniej został mocno przekroczony)</li>
+
+<li>słowo Intel będzie się wielu użytkownikom kojarzyć jeszcze gorzej (czy ta firma ma jeszcze szansę na naprawę wizerunku?)</li>
+
+<li>moduły powinny być wymienialne, a przynajmniej wyłączalne</li></ol>
+
+<p>Zaimplementowano wiele standardów typu UEFI czy Thunderbolt, a najbliższe lata pokażą nam wysyp różnych związanych z tym zagrożeń (nie ma co się oszukiwać, że będzie inaczej).</p>
+
+<p>Czy dlatego Microsoft nie chciał Thunderbolt w Surface, a Lenovo wycofało swoje obietnice w stosunku do nowych lapków?</p>
+
+<p>Czy podobne problemy będą wkrótce dotyczyć AMD ? Przypomnę, że oni mają różne wyrafinowane sztuczki w swoich układach i obecnie przecierają szlaki, a do tego implementują coś, co się nazywa AMD Secure Technology (ale jest wbudowane w procesor, a nie chipset)</p>
+
+<p>Szczerze mówiąc, to marzy mi się trochę sytuacja, żeby dostać kiedyś do testów &quot;stary&quot; sprzęt, ale zrobiony w standardzie 7 czy 5 nm (czyli np. nieśmiertelny Intel BX z procesorem Pentium III albo coś z Pentium IV z obsługą 64-bit). Ciekawe, jak sprawowałaby się mała ilość tranzystorów w połączeniu z lepszym niż kiedyś procesem i Windows XP/Linuxem - o ile byłoby to wolniejsze albo szybsze niż nowe układy z tymi wszystkimi zabezpieczeniami, prefetcherami, niezbędnymi dodatkami i Windows 10.</p>
+
+<p>Na pewno problemem byłby brak bezpośredniej obsługi NVME, ale... w wielu innych obszarach... kto wie?</p>
+
+<p>To oczywiście mrzonka, a ja uważam, że trochę ciekawych czasów doczekaliśmy w IT:</p>
+
+<ul><li>(ze względów bezpieczeństwa?) promuje się starocie - tak nazywam obecność starego złącza VGA wymyślonego w 1987 w monitorach Dell w 2020 albo obecność złącz PS/2 w płytach głównych</li>
+
+<li>intencjonalnie ogranicza się użytkownika (np. nieśmiertelne matryce 1366x768 już dawno powinny zniknąć, a stopki w monitorach obowiązkowo powinny być stabilne i pozwalać na pełną ergonomiczną regulację)</li>
+
+<li>sprzęt ma znane wady (które można usunąć wyłącznie przez wymianę całości zamiast zamianę wadliwego modułu) - throttling, zacinanie się klawiatur, mruganie matryc przez PWM, etc.</li>
+
+<li>w każdym zestawie jest po kilka dublujących się niepotrzebnych rzeczy (np. zintegrowana karta dźwiękowa i do tego HD Audio w karcie graficznej)</li>
+
+<li>ciągle mówi się o optymalizacji, tuszując tym samym gigantyczny brak jakości</li>
+
+<li>ciekawe rozwiązania przychodzą nie z USA, ale z Chin - np. płyta główna udowadniająca <a href="https://www.youtube.com/watch?v=dLkWB-Iw3-s" target="_blank" rel="noopener" rel="nofollow">sztuczne blokowanie podstawek przez Intela</a> albo <a href="https://www.youtube.com/watch?v=EmTQXtdi1XM" target="_blank" rel="noopener" rel="nofollow">płyta główna z wbudowaną kartą NVidii</a>.</li></ul>
+
+<p>Czasem aż strach używać tego, co naprawdę może ułatwiać życie - np. gniazd do ładowania w środkach komunikacji miejskiej.</p>
+
+<p>Szkoda również, że praktycznie każdy zakup to pole minowe i ciągle płacimy za wszystko większym zużyciem energii i tak naprawdę brakiem komfortu, że o braku ekologii nie wspomnę.</p>
+
+<p>PS. Z moich prywatnych doświadczeń wynika również, że konieczne jest instalowanie usługi do obsługi Thunderbolt w Windows 10, żeby również komunikacja po USB była szybka... (nie wnikałem w szczegóły techniczne, ale mój dysk podłączony pod USB 3 tylko wtedy dostawał skrzydeł).&#160;&nbsp;</p>

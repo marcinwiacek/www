@@ -1,0 +1,21 @@
+﻿Title:Wielkanoc 2012
+Author:marcin
+When:06 Apr 2012
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<table style="border-collapse:separate;"><tr><td>
+<p>Powoli, powolutko, z lekkością, leciuchno,<br />
+skromnie, skromniutko, z małością, maluchno,<br />
+Niech w te święta tak mało i niewiele się dzieje<br />
+ale niech każdy z was się mocno i nieźle uśmieje,</p>
+<p>Bo gdy karmieni bywamy tematami zastępczymi,<br />
+Bo gdy mamieni jesteśmy wartościami ulotnymi,<br />
+To ważne jest, byśmy byli pozostali szczęśliwymi<br />
+byśmy widzieli co jest wartościami prawdziwymi,</p>
+<p>A to można osiągnąć właśnie takim wyciszeniem<br />
+<!--break-->
+i przeżyciem dni by były pięknym wspomnieniem...</p>
+</td>
+<td><a href="http://www.4freephotos.com/Bunny_in_the_grass-image-bdae84505e2c5c58b9d6682293c2e561.html"><img border="0" src="sites/default/files/145/easter.png" /></a></td>
+</tr></table>

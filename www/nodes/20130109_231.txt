@@ -1,0 +1,143 @@
+﻿Title:Kierowcy wszystkich pojazdów łączcie się wersja 2.1... (2013)
+Author:marcin
+When:09 Jan 2013
+Taxonomy:Polski,Polski blog,Spider&#039;s Web,drogowe
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł w wersji 1.0 został <a href=http://www.spidersweb.pl/2013/01/kierowcy-wszystkich-pojazdow-laczcie-sie.html>opublikowany w serwisie Spider's Web</a>, <a href=http://www.wykop.pl/ramka/1373591/kierowcy-wszystkich-pojazdow-laczcie-sie/>pojawił się też na Wykopie</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wiecie co ? To nie jest już nawet śmieszne...ale robi się niebezpieczne.
+<!--break-->
+Z roku na rok mamy coraz lepsze technologie (również w IT), ale pod płaszczykiem bezpieczeństwa są używane często i gęsto do wyciągania kasy...grubej kasy...a bezpieczeństwo leży.
+
+<P>Mówię o dzisiejszym Narodowym Programie Poprawy Bezpieczeństwa Ruchu Drogowego (program jest na <a href=http://www.ocenprogrambrd.pl/>http://www.ocenprogrambrd.pl/</a>, zapowiedź można sobie obejrzeć na <a href=http://www.tvn24.pl/wiadomosci-z-kraju,3/nowak-zacheca-do-akcji-zero-zlotych-z-mandatow-dla-rostowskiego,299145.html >http://www.tvn24.pl/wiadomosci-z-kraju,3/nowak-zacheca-do-akcji-zero-zlotych-z-mandatow-dla-rostowskiego,299145.html</a>). <b>Zawiera niektóre może i zacne punkty, ale dużo z nich budzi niepokój</b>. Dlaczego ?
+
+<p><a href=http://www.nik.gov.pl/aktualnosci/nik-o-przyczynach-wypadkow-drogowych.html>Zacznijmy od raportu Najwyższej Izby Kontroli z maja 2011</a>, który mówi, że <i>"Na podstawie kontroli dotyczących polskich dróg NIK utworzyła listę najważniejszych przyczyn braku bezpieczeństwa. Są to: zły stan techniczny jezdni (niewystarczający poziom bezpieczeństwa stwierdzono nawet na niektórych odcinkach autostrad), nieskuteczny system szkolenia i egzaminowania kandydatów na kierowców, zły stan techniczny pojazdów oraz wadliwa organizacja ruchu drogowego. Kontrolerzy zaznaczają, że nie jest to lista zamknięta."</i>.
+
+<p>Jeśli odnieść to do nowszych doniesień, to <a href=http://auto.dziennik.pl/drogi/artykuly/393974,prokuratura-i-abw-na-s2-nasypy-zbudowane-z-sedesow.html>mieliśmy już np. nasypy budowane na sedesach</a>. 
+
+<p>Żeby nie szukać daleko - w Warszawie mógłbym podać przykład węzła przy M1 na Targówku, gdzie kiedyś można było wyjechać z M1 i zawrócić bezkolizyjnie (i bez czekania) w stronę Wisły, a obecna organizacja wymusza korki, przejazd przez skrzyżowanie i sytuacje niebezpieczne. Kolejne sztandarowy przykład warszawski to <a href=http://warszawa.gazeta.pl/warszawa/1,34864,12532245,Rekordowe_skrzyzowanie__64_swiatla__Pokonalo_drogowcow.html >skrzyżowanie z 64-sygnalizatorami, których nie można ustawić</a>...zaopiniowano, wybudowano i nikt nie umie tych świateł włączyć. A może powinienem przypomnieć światła przy Feminie albo przebudowaną drogę np. do Mińska Mazowieckiego, o której było głośno kiedyś nawet w Turbo Kamerze (wielkie doły po bokach, brak możliwości bezpiecznego wymijania, itp.) ?
+
+<p>O takich drobiazgach, że część kierowców omija/musi omijać drogi płatne ze względow finansowch nawet nie wspominam... O innych raportach NIK dotyczących dróg też nie wspomnę.
+
+<p>Co robią Posłowie ?
+
+<p>Za wypadki ganią prędkość czyli samych kierowców. W Polsce uprawnienia do jej kontroli ma obecnie:
+
+<p><ul><li>Policja
+
+<li>(o ile mnie wzrok nie myli od 2011) Inspekcja Transportu Drogowego powołana pierwotnie m.in. do kontroli i zapewnienia przestrzegania Ustawy o Transporcie Drogowym
+
+<li>Straże Miejskie/Gminne
+
+<li>Straż Graniczna
+
+<li>(prawdopodobnie również już także) Służba Celna
+</ul>
+
+<p>Co się dzieje ? O ile w przypadku Policji nikt chyba zbyt mocno nie narzeka (funkcjonariusze mierzą prędkość widorejestratorami w radiowozach lub miernikami ręcznymi, ale generalnie od razu zatrzymują kierowców), o tyle w przypadku ITD i Straży Miejskich/Gminnych to chyba robi się już jakiś obłęd. Dlaczego ?
+
+<p>Przez pewien czas Straże Miejskie/Gminne w niektórych miejscowościach zaczęły się zajmować głównie pomiarami prędkości i to zdecydowanie z zaskoczenia (zyskując przydomek Straży Biznesowych). Po serii komentarzy odebrano im trochę możliwości (teraz muszą wystawiać znak D-51 "Automatyczna kontrola prędkości" z napisem Fotoradar), a oni dalej próbują kreatywnie podejść do tematu, gdyż wpływy z mandatów jeszcze zasilają lokalny budżet (np. <a href=http://warszawa.gazeta.pl/warszawa/1,34862,12977288,Kontrole_kaskadowe_strazy__prawnicy_maja_watpliwosci.html>w Warszawie proponowano kilka mandatów za jedno ciągłe przekroczenie prędkości w ramach kontroli kaskadowych</a>).
+
+<p>Główną rolę nadzorców prędkości zaczyna przejmować ITD (przypominam - początkowo zajmująca się kontrolą np. ruchu ciężarowego). I nie byłoby nic w tym złego, gdyby nie to, że <a href=http://www.nik.gov.pl/aktualnosci/nik-o-niebezpiecznych-przewozach.html>NIK mówi w lutym 2012 o problemach z transportem materiałów niebezpiecznych</a>, a w marcu 2012 dodatkowo stwierdza m.in. <a href=http://www.nik.gov.pl/aktualnosci/nik-o-przeladowanych-pojazdach-i-niszczeniu-drog.html><i>"Polskie drogi są rozjeżdżane przez przeładowane tiry. Tymczasem Inspekcja Transportu Drogowego zaniechała przeprowadzania kontroli w nocy, w weekendy oraz w okresie jesienno-zimowym."</i></a>.
+
+<p>Wracamy jednak do kontroli prędkości - ITD kupiło sobie nieoznakowane radiowozy, które używane są dwojako (robią zdjęcia stojąc na poboczu lub w trakcie jazdy pojazdom nie musząc mieć tej samej prędkości co kontrolowany pojazd i nie zatrzymując od razu kierowcy). Według ITD radiowozy stojąc nie muszą być oznaczane znakiem D-51, według różnych źródeł mogą one być nielegalnie dopuszczone do ruchu:
+
+<ul><li><a href=http://wpolityce.pl/dzienniki/dziennik-jerzego-polaczka/44377-sprawa-dla-policji-jakim-prawem-dopuszczono-do-ruchu-nieznakowane-pojazdy-z-fotoradarami>http://wpolityce.pl/dzienniki/dziennik-jerzego-polaczka/44377-sprawa-dla-policji-jakim-prawem-dopuszczono-do-ruchu-nieznakowane-pojazdy-z-fotoradarami</a> i
+
+<li><a href=http://aktualnosci.auto-swiat.pl/1-fotoradary-czyli-sposob-latwe-pieniadze>http://aktualnosci.auto-swiat.pl/1-fotoradary-czyli-sposob-latwe-pieniadze</a>).
+</ul>
+
+<p><a href=http://www.wykop.pl/ramka/1373249/itd-tlumaczy-sie-ws-legalnosci-radiowozow/>ITD w sprawie wyposażenia się oczywiście broni, ale czy nie wygląda to na kpinę z prawa ?</a> Załóżcie sobie dodatkowe oświetlenie i spróbujcie uzyskać legalnie przegląd... <a href=http://moto.pl/MotoPL/1,88389,13175502,Lampy_wciaz_beda_oslepiac_kierowcow__GITD_nieugiety.html>Zresztą odsyłam do fragmentu ich oświadczenia...</a>
+
+<p>Pójdźmy dalej - ITD kieruje do właściciela pojazdu dokument wskazujący, że ten ma dać się ukarać za kierowcę, może nie wskazać nikogo lub wskazać kierującego. Gdzie jest ciekawostka ?
+
+<p><a href=http://wiadomosci.wp.pl/kat,1342,title,Burza-o-fotoradary-Minister-nie-wydal-rozporzadzenia,wid,14994660,wiadomosc.html>ITD prawdopodobnie nie ma uprawnień do przechowywania i udostępniania danych z fotoradarów</a> ani nie może być oskarżycielem w sprawie o niewskazanie kierującego (nie może kierować sprawy do Sądu, a powinna wystąpić o to do Policji). 
+
+<p>Do tego ITD nie wysyła zdjęcia z urządzenia (co jest o tyle ciekawe, że zdjęcia w jakiś sposób niepoprawne powinny z naciskiem na powinny być odrzucone) oraz w piśmie urzędowym wskazuje na nie do końca związane z tematem uzasadnienia prawne.
+
+<p>Więcej na ten temat - <a href=http://www.auto-swiat.pl/1-mandaty-fotoradarow-nie-widac-kierowcy-kary-nie-bedzie>http://www.auto-swiat.pl/1-mandaty-fotoradarow-nie-widac-kierowcy-kary-nie-bedzie</a>
+
+<p>A teraz gwóźdź - <a href=http://www.dziennikwschodni.pl/apps/pbcs.dll/article?AID=/20130108/PRZEGLADPRASY/130109653>wiecie co rozważała lub rozważa ? Kontrolę prędkości z powietrza...</a>
+
+<p>Wiecie co będzie wkrótce ? Pomiary odcinkowe, czyli rejestracja przejazdu pojazdu na początku odcinka (jego tablicy), rejestracja przejazdu pojazdu na końcu odcinka (tablicy) i na podstawie czasów policzenie średniej prędkości przejazdu i o ile ew. została przekroczona. A jak daleko od tego do śledzenia prewencyjnego, jak i gdzie jeżdżą pojazdy ?
+
+<p>O działaniach Straży Miejskiej/Gminnej NIK napisała w maju 2011 <a href=http://www.nik.gov.pl/aktualnosci/nik-o-strazy-miejskiej.html><i>"Straż miejska coraz bardziej przypomina policję drogową. Zamiast dbać o porządek na ulicach i osiedlach, strażnicy zajmują się przede wszystkim ściganiem kierowców, którzy przekraczają dozwoloną prędkość"</i></a>. Czy o ITD nie można powiedzieć tego samego ? Miała kontrolować głównie TRANSPORT...
+
+<P>Same urządzenia do pomiaru też budzą wątpliwości - przy wideorejestratorach trzeba zachować tę samą prędkość co pojazd mierzony, w przypadku radarów ręcznych Iskra Policji swego czasu zakupiono (i chyba nadal używa się) partię urządzeń, o której wypowiedział się sam producent wskazując, że nie powinny być dopuszczone do użytku... A fotoradary stacjonarne ? Wydaje się, że używane są w nich różne komponenty, które może nawet nie były legalizowane lub nie powinny być używane (polecam:
+
+<ul>
+
+<li><a href=http://auto.dziennik.pl/aktualnosci/artykuly/374487,uwaga-kierowcy-tak-oszukuja-nowe-fotoradary.html>http://auto.dziennik.pl/aktualnosci/artykuly/374487,uwaga-kierowcy-tak-oszukuja-nowe-fotoradary.html</a>,
+
+<li><a href=http://moto.wp.pl/kat,55194,page,2,title,Radary-nieslusznie-wystawiaja-mandaty,wid,14170219,wiadomosc.html>http://moto.wp.pl/kat,55194,page,2,title,Radary-nieslusznie-wystawiaja-mandaty,wid,14170219,wiadomosc.html</a> oraz 
+
+<li><a href=http://www.auto-swiat.pl/1-czy-fotoradar-moze-sie-mylic-przydrozny-fotoamator>http://www.auto-swiat.pl/1-czy-fotoradar-moze-sie-mylic-przydrozny-fotoamator</a>).
+</ul>
+
+<p>Pomiar prędkości to nie wszystko - Posłowie proponowali m.in. zlikwidowanie tzw. zielonych strzałek oraz obowiązek używania określonych typów opon. Co o tym pisała prasa motoryzacyjna ? <b><i>"posłowie próbują zmieniać przepisy, jednak wykazują się przy tym niekompetencją. To wstyd, że osoby, które powinny mieć wiedzę na temat bezpieczeństwa drogowego, publicznie posługują się nieprawdziwymi argumentami..."</i></b> oraz <b><i>"członkowie parlamentarnego zespołu chcą osiągnąć spektakularny sukces. Zapominają, że w dziedzinie bezp. drogowego nie jest to proste i zmiany polegające na zaostrzeniu przepisów nie zawsze się sprawdzają"</i></b> (Motor 31/2012).
+
+<p>Do tego CAŁY CZAS "majstruje" się przy karach stopniowo je zwiększając (co nie do końca jest dziwne jako że w budżecie Polski zakłada się obecnie, że wpływy z mandatów będą w określonej i to sporej wielkości). Propozycje mówią o pojedyńczych mandatach za 1500 PLN i więcej...
+
+<p>Zaproponuje wam kilka adresów:
+
+<p><ul><li><a href=https://www.facebook.com/slawomir.nowak2>https://www.facebook.com/slawomir.nowak2</a> - obecny Minister Transportu, on dziś znów lobbował za karaniem nadmiernej prędkości, proponuje mu podziękować za troskę Posłów i skomentować jak wygląda sytuacja drogowa w Polsce
+
+<li><a href=https://www.facebook.com/jerzy.polaczek>https://www.facebook.com/jerzy.polaczek</a> - były Minister Transportu, tropi obecne absurdy, tu też dziękujemy
+
+<li><a href=https://www.facebook.com/PoselBeataBublewicz>https://www.facebook.com/PoselBeataBublewicz</a> - tu można zgłaszać uwagi Pani, która proponowała takie rzeczy jak likwidacja zielonych strzałek czy obowiązkowe opony zimowe (warto śledzić, czy nie pojawi się coś nowego)
+
+<li><a href=https://www.facebook.com/KancelariaPrezesaRadyMinistrow>https://www.facebook.com/KancelariaPrezesaRadyMinistrow</a> - tu można komentować działania Rządu
+
+<li><a href=https://www.facebook.com/events/147875535360199/>https://www.facebook.com/events/147875535360199/</a> - jedni mawiają innych do przepisowej jazdy i przede wszystkim dbania o mniejszy haracz do budżetu
+</ul>
+
+<p> i dodatkowo:
+
+<ul>
+<li><a href=https://www.facebook.com/SfotografujPolicjanta >https://www.facebook.com/SfotografujPolicjanta</a> - tu bym uważał z uwagi na to, że Policja w dalszym ciągu wydaje się być mocno nastawiona na SŁUŻENIE ludziom, ale napiętnowanie przypadków zlośliwego łamania prawa ? why not ? 
+
+<li><a href=http://www.youtube.com/user/TVBigos/videos?view=0>http://www.youtube.com/user/TVBigos/videos?view=0</a> - przykład, że można z sukcesem tropić fotoradary służące głównie celom biznesowym (czyli Pan Emil)
+
+<li><a href=http://www.wykop.pl/link/1287347/jaslanie-kontra-straz-miejska/>w Jaśle młodzi trochę podobnie jak Pan Email wzięli sprawy w swoje ręce</a>, sprawa zdaje się skończyła później w Sądzie, ale czy nie jest to zacny przykład inicjatywy obywatelskiej ? (nawiasem mówiąc jeśli chodzi o inicjatywy obywatelskie, to ostatnio zlikwidowano też w Polsce kilka Straży...)
+
+</ul>
+
+<P>Dodam też jeden adres: <a href=?q=przepisy_drogowe>http://www.mwiacek.com/www/?q=przepisy_drogowe</a>. Proszę nie traktować tego jako reklamy, aplikacja jest za free na www i Androida i odpłatnie (ale za najniższą możliwą kwotę) w App Store. Pisząc ją chciałem i chcę propagować znajomość przepisów tak aby przynajmniej nie dokładać zbytnio do developmentu, wszelkie uwagi też mile widziane. Bo świadomy kierowca to dobry kierowca, a lepszy kierowca to bezpieczniejszy kierowca (swoją drogą pamiętajcie o swoich prawach takich jak obowiązek posiadania przez funkcjonaruszy świadectwa legalizacji urządzeń lub to, że ITD powinno parkować swoje radiowozy w sposob zgodny z prawem).
+
+<p>Niezbyt toleruje piractwo drogowe (<a href=http://www.wykop.pl/link/1372791/zientarski-story-czyli-zadoscuczynienie-po-polsku/>np. nie popieram pewnych osób broniących znanego dziennikarza, który jechał bodajże 150 km/h w miejscu z ograniczeniem 50 km/h, które to osoby dowodzą, że w sumie nie powinien ponieść tak dotkliwej kary sądowej, bo jest celebrytą i nie chciał spowodować wypadku</a>), niemniej jednak <b>w przypadku przekroczeń prędkości przekroczono chyba wszystkie granice ze szkodą dla wszystkich (ITD powinno kontrolować TRANSPORT, a Straże zajmować się też czymś innym), zdjęcia powinny być również jawne/umocowane prawnie i w sumie buduje się systemy do automatycznej rejestracji, kto, gdzie, kiedy jeździ.</b>
+
+<p>To nie koniec - <a href=http://www.wykop.pl/ramka/1371885/jechal-na-rowerze-46-km-h-cyrku-z-sm-ciag-dalszy-sprawa-wraca-do-sadu/>podejmowane są np. próby karania rowerzystów</a>. <a href=http://tvnwarszawa.tvn24.pl/informacje,news,nowe-fotoradary-zaslaniaja-znaki-drogowe,71908.html>Zdarza się również, że nowe urządzenia zasłaniają znaki (to akurat może być niedopatrzenie i jest do naprawienia, ale...niesmak zostaje)</a>.
+
+<p>To co się dzieje przypomina niekończący się maraton - kiedyś w terenie zabudowanym w dzień można było domyślnie jechać 60 km/h, teraz 50 km/h, a są plany wprowadzenia 30 km/h. 30 km/h na szerszą skalę to jeden z pomysłów z innych krajów (na razie pomysłów, które jednak mogą upaść), a co w Polsce ? Jesteśmy chyba pierwsi - <a href=http://www.wykop.pl/ramka/1373793/strefa-30-km-h-do-konca-roku-obejmie-polowe-gdanskich-ulic/>Strefa 30 km/h do końca roku obejmie połowę gdańskich ulic</a>. <a href=http://www.wykop.pl/ramka/1372589/stracimy-prawo-jazdy-za-podwojne-przekroczenie-dozwolonej-predkosci/>Czy przy takim ograniczeniu ma sens proponowane zabieranie prawa jazdy za jego przekroczenie o 200% ? (czyli w takiej strefie za jechanie 60 km/h)</a>
+
+<p>Do tego ten proponowany obowiązek bezwzględnego zatrzymania pojazdu w chwili, gdy do przejścia zbliża się pieszy.... Ja się zatrzymam, a auto za mną nie i mnie przesunie, gdy pieszy wejdzie, kto będzie winny wypadku ? Albo ja się zatrzymam, auto na drugim pasie nie (nie mówię nawet o tzw. piracie, tylko np. o niezauważeniu), kto będzie winny ? 
+
+<p><b>LITOŚCI - już dziś kierowca ma obowiązek i kary za nieustąpienie, ale również ma je pieszy. Ile wypadków będzie, jak ten ostatni nie będzie miał żadnych obowiązków ?</b>
+
+<p>Nasuwa mi się na myśl artykuł <a href=http://wyborcza.pl/1,82949,6828746.html>Morderca jest kim innym niż to opisują media</a> z jednym urywkiem <i>"Głównymi przyczynami (wypadków) są: bezmyślność, skrajna głupota, kretynizm, debilstwo, idiotyzm i durnota kierujących samochodami osobowymi. Las fotoradarów, ani suszarki w krzaczorach tego nie poprawią. Jedyne, co może wpłynąć na zmniejszenie liczby ofiar na drogach, to zdeterminowana, konsekwentna, organiczna, prawdziwa edukacja od najmłodszych lat."</i>
+
+<p>Jeśli ktoś chce majstrować przy prawie, to polecam:
+
+<ul><li>zmiany dowodów rejestracyjnych, żeby było więcej miejsca na pieczątki na badania techniczne
+
+<li>rozwiązanie problemów pierwszeństwa tak aby było bardziej jasne dla wszystkich (kłaniają się np. <a href=http://www.forum.prawojazdy.com.pl/viewtopic.php?t=23722>http://www.forum.prawojazdy.com.pl/viewtopic.php?t=23722</a> i <a href=http://www.forum.prawojazdy.com.pl/viewtopic.php?t=15136>http://www.forum.prawojazdy.com.pl/viewtopic.php?t=15136</a>)
+
+<li>UPRASZCZANIE np. Taryfikatora (niech będzie w końcu 1 tabela) - problem wydaje się z nim mieć nawet prasa motoryzacyjna (<a href=?q=node/217>http://www.mwiacek.com/www/?q=node/217</a>). Musi być tyle różnych stref ? A tyle różnych limitów prędkości ? <a href=http://www.wykop.pl/link/1239129/roznica-miedzy-polskim-a-niemieckim-prawem-drogowym/>Porównajcie sobie z innymi krajami</a>
+
+<li>faworyzowanie takich rozwiązań jak zrobienie na drogach mijanek czyli robimy na przemian np. co kilometr dwa pasy w jednym kierunku - środkowy będzie do bezpiecznego wyprzedzania, wystarczy trochę farby i jest bezpieczniej (akurat to może będzie zrealizowane)
+
+<li>usunięcie niepotrzebnych znaków (tu Rząd na szczęście może coś zrobi)
+
+<li>rozwiązania prawne, które zmniejszą ilość TIRów na drogach (niech pojadą koleją czy cuś, ale niech to będzie z sensem tak, żeby nie wyciąć w pień w ogóle transportu)
+
+<li>zmniejszanie opłat za autostrady
+
+<li>wyeliminowanie pustych terenów zabudowanych
+
+<li>wprowadzenie instrumentów pozwalających karać Posłów (obowiązkowo również punktami), <a href=http://www.wykop.pl/ramka/1375047/nie-bedzie-konca-swietych-krow-za-kolkiem-immunitet-ochroni-posla/>na co się na razie nie zanosi</a>
+</ul>
+
+<p>Może warto skorzystać z doświadczeń szwedzkich ? A tam podobno przede wszystkim...<a href=http://wiadomosci.gazeta.pl/wiadomosci/1,114871,13174804,Szwedzka__Wizja_Zero___Za_wypadki_odpowiedzialni_politycy_.html><i>"Nowa polityka bezpieczeństwa drogowego odpowiedzialność za wypadki przełożyła z kierowców na Szwedzką Administrację Drogową, odpowiednik naszej Generalnej Dyrekcji Dróg Krajowych i Autostrad. I tak, odwrotnie niż w Polsce, to politycy, zarządy i projektanci dróg muszą, tak organizować ruch, żeby do wypadków nie dochodziło."</i></a>
+
+<p>W Internecie można już znaleźć głosy, że Minister Nowak manipulował liczbami. Nie wczytywałem się jeszcze, ale widzę inny drobiazg: <a href=http://www.giodo.gov.pl/319/id_art/973/j/pl/>czy nie uważacie, że Imię+Nazwisko+email+adres to w sumie dane osobowe ? (są, są...)</a> Dane te na pierwszy rzut oka są przesyłane ze strony <a href=http://www.ocenprogrambrd.pl/>http://www.ocenprogrambrd.pl/</a> po http...a to już chyba sprawa dla <a href=http://www.giodo.gov.pl/493/>Generalnego Inspektora Ochrony Danych Osobowych</a>. I czy nie byłoby przejrzyste, żeby całość można było komentować w formie forum (jak np. na <a href=https://mamzdanie.org.pl/web/guest/konsultacje-aktywne>https://mamzdanie.org.pl/web/guest/konsultacje-aktywne</a>) zamiast wysyłać jak do przysłowiowej czarnej dziury ?
+
+<p>PS. O tym, że kierowcy i tak wspierają mocno budżet i <a href=http://www.rmf24.pl/ekonomia/news-paliwowy-raj-podatkowy-w-falecicach-benzyna-za-3-zl,nId,621159>np. w paliwie ponad połowa to podatki przez grzeczność mocno nie pisałem...</a>. <a href=http://www.wykop.pl/link/1374735/platny-przejazd-trasa-torunska-dla-miejskich-autobusow/>Ani o tym, że autobusy MIEJSKE zapłacą e-myto (czyli Pani płaci i Pan płaci)</a>... Albo o tym, że do działań ITD niekoniecznie chyba potrzebne są takie mocne wozy (<a href=http://moto.wp.pl/kat,55194,title,Szef-ITD-jezdzi-autem-do-scigania-piratow,wid,14990385,wiadomosc.html>chociaż z drugiej szef ITD przynajmniej przez jakiś jeździł jednym z nich - może to jest jakoś powiązane ?</a>)

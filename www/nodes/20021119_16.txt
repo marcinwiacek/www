@@ -1,0 +1,22 @@
+﻿Title:What phone could be generally recommended by Gammu author(s) ?
+Author:marcin
+When:19 Nov 2002
+Taxonomy:English,English blog,Gammu,GSM
+
+<p>It's difficult to say. Everyone needs something different according to own needs.</p>
+<h2>Nokia</h2>
+<p>If you want to be visible, buy 7650 or 9210. Very visible, very expensive, and parts for it are very expensive. Many small stability problems, no GPRS (in 9210). Weak battery in 7650.</p>
+<p>If you need phone for calls, no WAP, but requires extended pbk, buy 6210 or 6250 (second is for any weather and hard environment). Will be able to "repair" (flash) it - it repairs each phone in majority problems. These phones are very slow and has some other small problems.</p>
+<!--break-->
+<p>When want WAP, GPRS, buy rather 6310i than 6310. Remember, that firmware inside has still many small bugs and it possible, phone can go often to service to flashing. Some things are still not useable (like CB messages - can't change tone to it), no netmon in this moment. This family has Bluetooth.</p>
+<p>For WAP, GPRS is also good 8310 - first DCT4 phone.</p>
+<p>When don't have too much money and need calendar/extended pbk, buy 3510 (the same flashing and netmon story to 6310, 6310i). </p>
+<p>The cheapiest 3410 is for people, who don't need anything - only device for making calls, nothing more. It's (like old 3310 or 5110) very good to making SMS gateway.</p>
+<p>Phones with colour display are not very good for me. IMHO, I will wait some time, until they will have all problems removed.</p>
+<h2>Siemens</h2>
+<p>Very good AT support, very stable with it, available netmon and many, many other functions (not like with Nokia). Worse user interface than Nokia.</p>
+<h2>Panasonic</h2>
+<p>GD96 - weak battery, many, many functions. Nice for many people.</p>
+<h2>Ericsson</h2>
+<p>T65 - very small, good, if you will like its' interface. T68i - MMS.</p>
+<p>I will not say about other - for example, I don't like Morotola or Alcatel user interfaces at all.</p>

@@ -1,0 +1,13 @@
+﻿Title:Numery telefoniczne w Polsce (2013)
+Author:marcin
+When:07 Apr 2013
+Taxonomy:Polski,Polski blog,Android
+
+<p><a href="?q=node/211">Kiedyś pisałem o własnym narzędziu "Rachunek telefoniczny" na Androida</a></p>
+<p>W tak zwanym międzyczasie zmierzyłem się z problemem dotyczącym ustalenia, gdzie przynależy jeden konkretny numer telefonu. Podaję w związku z tym kilka linków:</p>
+<!--break-->
+<p>
+<href><a href="http://www.uke.gov.pl/rozporzadzenie-ministra-infrastruktury-z-dnia-1-czerwca-2011-r-w-sprawie-planu-numeracji-krajowej-dla-publicznych-sieci-telefonicznych-7316">http://www.uke.gov.pl/rozporzadzenie-ministra-infrastruktury-z-dnia-1-cz...</a> lub<br /><href><a href="http://www.uke.gov.pl/tablice/home.do?execution=e2s1">http://www.uke.gov.pl/tablice/home.do?execution=e2s1</a> - w przypadku "mojego" numeru 53 określa sieci ruchome, numery na 535 pierwotnie należały do P4 (Play lub jego operator wirtualny)</href></href></p>
+<p><a href="http://download.t-mobile.pl/updir/">http://download.t-mobile.pl/updir/</a> lub <a href="http://www.orange.pl/portal/map/map/check_number">http://www.orange.pl/portal/map/map/check_number</a> (jedne z wielu bramek) - podają, że jest to nr komórkowy obecnie obsługiwany przez P4 (Play lub jego operator wirtualny)</p>
+<p>Natomiast czy jest to numer "wyłudzaczy" ? Chyba nie, wyłudzenia dotyczą np. numerów zaczynających się od +243 lub +225 (są one podobne do numerów strefy warszawskiej lub płockiej - <a href="http://www.cik.uke.gov.pl/aktualnosci/200-uke-ostrzega-oddzwaniaj-z-gow">http://www.cik.uke.gov.pl/aktualnosci/200-uke-ostrzega-oddzwaniaj-z-gow</a>), numerów o podwyższonej płatności (zaczynających się od 70) czy numerów skróconych/specjalnych (np. *4xx lub *7xx - kiedyś przez to zablokowano *74646 - <a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114873,10177263,Numer_do_wyludzania_pieniedzy_wylaczony___Interwencja.html">http://wiadomosci.gazeta.pl/wiadomosci/1,114873,10177263,Numer_do_wyludzania_pieniedzy_wylaczony___Interwencja.html</a>)</p>
+<p>Istnieje zresztą wyszukiwarka nr o podwyższonej opłacie - ostatni link ze strony <a href="http://www.uke.gov.pl/tablice/home.do?execution=e2s1">http://www.uke.gov.pl/tablice/home.do?execution=e2s1</a> (na stronie też są pełne tablice numeracyjne)</p>

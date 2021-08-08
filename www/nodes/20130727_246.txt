@@ -1,0 +1,42 @@
+﻿Title:Ta, która wiedziała co myślę...
+Author:marcin
+When:27 Jul 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Niedawno byłem podobnież gadułą,<br />
+a dziś mi wszystko koło nosa lata,<br />
+nie obchodzi mnie opinia ze świata,<br />
+mogę być nawet dla was niezgułą,</p>
+<p>lecz dzisiaj rola dawno narzucona,<br />
+wrogów wybicie oraz brutalne życie,<br />
+ta szorstkość, piany bicie i picie,<br />
+jest dziś do jutra chyba porzucona,</p>
+<p>i koło nosa mi konsekwencje latają,<br />
+jakie skutki pisaniny tej wnet czekają...<br />
+gdy opowiem historię kolejną i starą,<br />
+gdzie dwoje nigdy nie było nawet parą,</p>
+<!--break-->
+<p>Gdy mnie mistrzem nazywać raczyła,<br />
+gdy uśmiechu czasem nie poskąpiła,<br />
+gdy do starego nigdy nie wracała,<br />
+gdy temperament przy mnie hamowała,</p>
+<p>chociaż czasem sobie się wstydziła,<br />
+i o poradę wręcz wzrokiem prosiła,<br />
+dumna była do granic niemożliwości,<br />
+samodzielna, sprytna do samych kości,</p>
+<p>i choć może to było tylko zauroczenie,<br />
+feromonów działanie lub moje marzenie,<br />
+i choć nieraz przez to chory bywałem,<br />
+to właśnie do niej szacunkiem pałałem,</p>
+<p>bo sprowokować się mnie nie dawała,<br />
+bo sytuację jasno do bólu stawiała,<br />
+nie bawiła się więcej niż przyjmowane,<br />
+normy ustalone i zasady niepisane,</p>
+<p>nie chciała mnie wrobić w płacenie,<br />
+jak z dziećmi dziewice cud marzenie,<br />
+nie robiła także mnie złośliwości,<br />
+z mojej nabytej skomplikowaności,</p>
+<p>i szkoda że tak się właśnie skończyło,<br />
+że życie tak, nie inaczej się potoczyło...</p>

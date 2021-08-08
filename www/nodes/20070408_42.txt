@@ -1,0 +1,24 @@
+﻿Title:Report 2007-04-07
+Author:marcin
+When:08 Apr 2007
+Taxonomy:English,English blog,GSM,Nokia
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I was playing today with latest PC Suite from Nokia (6.83) and NSU. I decided to write few words about it...</p>
+<p>Installer: 23 MB, on HDD the same... It looks nice (better than earlier versions), but doesn't have too many functions and in many places you have info about DRM only (for example: why the hell does it read standard phone applets and waste user time, when few seconds later speak, that it's DRM protected ?). And in license you have a lot of info, what you can't with it...</p>
+<!--break-->
+<p>Let's estimate costs or writing (I make it very cheap): 10 programmers x 10 months x 1000 Euro per each = 100 x 1000 Euro = 100 000 Euro (including electricity, salaries, etc.). Add additional bonues for their bosses...</p>
+<p>Let's estimate user costs: Windows XP Home OEM = 100 Euro. 1000 users = 100 000 Euro.</p>
+<p>And now Gammu and Gammu+. You can modify it to your needs and fix errors. Compiled Gammu+ = 2,1 MB on HDD. Even now gives more in many areas. When it will have full functionality (maybe even with Symbian), I estimate, that it will be less than 5 MB big....And now the best - it will be for other (free) OSes too...</p>
+<p>What is latest PC Suite changelog ?</p>
+<ul><li>"New version of Nokia Content Copier that lets you select the content types you want to back up and restore" (my comment: really exciting, maybe finally you will have ability to backup to file in selected by you folder in some 20.x version)
+</li><li>"Notification when new firmware version is available" (available in Gammu+)
+</li><li>"Support for Windows Vista OS" (hmmmm, Gammu+ GUI worked even few months earlier, because didn't add any special system folders - with PC Suite you have registry entries, probably new folders in My Computer and much more wasted CPU/RAM resources)
+</li></ul><p>Return to NSU. It sends info to Nokia even when doesn't do anything special (tries to find phone). Compare Gammu+ - it warns about each sending data and you check source for it (what is sent).</p>
+<p>And now final questions - which project is better for you ? Do you still think, that it doesn't have sence to sponsor these projects ? and/or submit patches, bug reports, etc. ?</p>
+<p>Situation could change (more people could interested in Gammu...), but they have to know first, that there is something other than PC Suite. See betanews.com comments. PC Suite and PC Suite. See mobile-review.com. PC Suite and PC Suite... You can really help by advertising created here projects there (and not only).</p>
+<p>And final note - shame, that some Nokia guys won't resign from their salaries and won't switch from PC Suite development to Open Source. But the truth is - the bigger company, worse customer support. </p>
+<p>Dell has notified it (what interesting thing, that users want to have Linux instead of preinstalled Windows), Microsoft will see soon maybe (hmmm, they don't have too big Vista popularity and it's GREAT), I hope, that Nokia will open eyes some day too... Especially, that they still think this way: even such important things like changelogs for firmware packages must be copyright protected and secret (and users don't know for example, that should upgrade firmware, because it contains security holes).</p>
+<p>As you see, I try to find wrong things in Open Source (see my previous reports), but there good too. </p>
+<p>I hope, that (if you believe into it) you will spend Easter in good atmosphere too. I wish everything the best.</p>
+<p>BTW. I should release new Gammu+ next week. Expect much more functions working :-)</p>

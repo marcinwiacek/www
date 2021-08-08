@@ -1,0 +1,54 @@
+﻿Title:Prymitywizm... (2012)
+Author:marcin
+When:28 Dec 2012
+Taxonomy:Polski,Polski blog,Windows,x86,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/12/prymitywizm.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Pozwolę sobie zacytować fragmenty 2 tekstów. Wpierw <a href=http://www.spidersweb.pl/2012/12/rok-2012-to-rok-microsoftu.html>tekst nr 1</a>:
+
+<p>"Metro to piękno prostoty. Interfejs minimalistyczny, który zachowując uwielbienie do estetyki usuwa wszystko, co niepotrzebne, koncentrując się na szybkości, przyjemności i wygodzie. I te idee, poniekąd słuszne, są skutecznie przez Metro realizowane."
+
+<p>"Reszta to interfejs Metro, który nadaje się nie tylko do myszki i klawiatury, ale również wybornie się sprawdza do obsługi palcem"
+
+<!--break-->
+<p>"Ma jednak miliardy dolarów na marketing. Ma też pozycje, w których jest dobrze okopany (Windows, Office czy Xbox, który już teraz jest wykorzystywany do promocji następcy usług Zune). Jest na wspaniałej drodze do sukcesu."
+
+<p><a href=http://www.spidersweb.pl/2012/12/gry-na-urzadzeniach-mobilnych-nie-maja-sensu.html>i z drugiej strony (o graniu mobilnym)</a>...
+
+<p>"Błyskawicznie okazało się jednak, że tak, spośród dziesiątek wypróbowanych i zainstalowanych gier tylko kilka wciągnęło mnie na tyle, by poświęcić im więcej, niż kilkanaście minut, a nieliczne 2-3 pozycje pochłonęly na dłużej. Jednak też nie na tyle, by maniakalnie grać do świtu by kolejnego dnia, czując się i wygladając jak zombie, grać dalej w każdej wolnej chwili.
+
+<p>Próbowałam wszystkiego, chciałam poczuć tę magię grania na tablecie, sprawdziłam praktycznie wszystkie gatunki, ale rozczarowały mnie nawet “tycoony”. Te, które zazwyczaj potrafią wciągnąć mnie na długie godziny. Proste, bardzej skomplikowane, po nawet zaawansowane symulacje “czegoś” – tycoony to gry, które nawet jeśli słabe, to i tak mnie fascynowały.""
+
+<p>Po co to cytuję ?
+
+<p>Bo jest to świetny dowód na potwierdzenie tez, które ostatnio zauważa coraz więcej ludzi. Można je opisać w 2 punktach:
+
+<p>1. w wielu dziedzinach życia widoczny jest regres. Tak, regres.
+
+<p>Zaśmiecamy swoje otoczenie jednorazówkami, nie znamy podstawowych zasad działania różnych rzeczy, nie potrafimy ich naprawiać (często ta nieprawialność jest wymuszona, ale nie zawsze - odsyłam do "Usterki" TVN). Pozwolę sobie podać link do jednego z nowszych artykułów traktujących o przekroczeniu pewnych granic planowanej nieprzydatności i o konsekwencjach dla wszystkich - <a href= http://faral.nowyekran.pl/post/81119,zaplanowana-nieprzydatnosc-produktu>http://faral.nowyekran.pl/post/81119,zaplanowana-nieprzydatnosc-produktu</a>
+
+<p>Co do gier - dzieci (mniejsze i większe) nie mogą przeżyć traumy, bo nie przejdą kolejnego poziomu. Należy przechodzić przez krótkie, proste gierki i łaknąć kolejnych, kupować gry, dodatki, koszulki, itp. Osiągać szybkie sukcesy na wielu poziomach (samozadowolenie) i nie męczyć się zbytnio... To jest po prostu rozrywka (przepraszam za przesadę) dla tłustych paluszków i mózgów karmionych "jedzeniem" z restauracji innej niż wszystkie...
+
+<p>Ogólnie - ludzi przyzwyczaja się do tego, że wszystko mają podane na tacy, mają to tylko konsumować, przeżuwać, trawić i nie myśleć zbytnio. Oby nie skończyło się to, jak w filmie (animowanym wprawdzie, ale...) WALL-E.
+
+<p>2. dosyć często próbuje się ludziom odmienić światopogląd "w białych rękawiczkach" wmawiając za ciężkie miliony dolarów, że czarne jest białe, a białe jest czarne. Szkoda, że wielu robi to za tak niewiele (bo jak pisałem ostatnio, koszt wyprodukowania dużej części wychwalanych pod niebiosa gadżetów to kilkaset PLN), szkoda, że jest to robione tak "siłowo" i szkoda, że ta energia nie idzie w rzeczywisty rozwój...
+
+<p>Na technologicznym podwórku - na platformie x86/x64 podstawa Windows 8 to mutacja znanego jak dobry i zły szeląg Windows NT (lata osiemdziesiąte XX wieku). Mamy tam szereg API, które narosły przez lata (+ nowe dodane właśnie z Windows 8).
+
+<p>Do tego dochodzi interfejs, który może i jest nowatorski, ale zwyczajnie wrzuca do kosza to co udało się wypracować powiedzmy od początku lat osiemdziesiątych, czyli nakładanie okien na siebie, efekty 3D, itd.
+
+<p>Proszę mi wyjaśnić - co to ma wspólnego z estetyką i pięknem i (czasem ?) prędkością ? Gdzie wygoda, jeśli nie ma wielu funkcji, do których się przyzwyczailiśmy przez lata ? Po to różne poradniki typu "jak zmienić tapetę" lub "jak zmienić font" (dostępne w różnych portalach), skoro to wszystko takie proste ?
+
+<p>Ja rozumiem, że reklamy w końcu zrobią swoje, ale z drugiej strony zadam przekorne pytanie - gdzieś koło 1995 Microsoft wmawiał jaki to "Start" nowoczesny, później widziałem zapewnienia o idealności Windows 2000, XP, Visty i 7. I mam teraz uwierzyć, że Metro to spełnienie marzeń ? A co usłyszę za rok czy dwa ?
+
+<p>I dlaczego wykorzystuje się dzieci, żeby udowodnić tę wspaniałość ? (chodzi mi o różne ostatnie reklamy)
+
+<p>Co z tego wszystkiego wynika ?
+
+<p>Moim zdaniem w IT oraz wielu innych dziedzinach zabrnęliśmy w mocno ślepą uliczkę - czy celowo czy nie to inna kwestia.
+
+<p>Gdzieś gonimy, czegoś szukamy, promujemy kiepskość, dla wielu gonitwa za tym "czymś" stanowi obecnie jedyny sens życia, żyjemy też mocno w czasach gospodarki planowanej centralnej...z Brukseli i pewnie nie tylko (nie bójmy się tego napisać). 
+
+<p>Na dziś polecę artykuł <a href=http://www.wykop.pl/ramka/1361163/polska-droga-do-zniewolenia/>http://www.wykop.pl/ramka/1361163/polska-droga-do-zniewolenia/</a> opisujący celnie, jak wygląda wegetacja przeciętnego Kowalskiego (na zachętę cytat: "człowiek żyje nie dla siebie, ale dla mitycznego wzrostu gospodarczego, wskaźników, konferencji.")
+
+<p>...chciałbym też ponownie życzyć "Myślenia, refleksji i własnego zdania…" (<a href=?q=node/225>http://www.spidersweb.pl/2012/12/myslenia-refleksji-i-wlasnego-zdania.html</a>)

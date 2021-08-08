@@ -1,0 +1,25 @@
+﻿Title:Przepisy drogowe
+Author:marcin
+When:06 Nov 2011
+Taxonomy:Android,Polski blog,drogowe
+
+<p><img src="sites/default/files/185/app.png" align="right" />Nadejszła wiekopomna chwyla...i w Android Market pojawiła się moja pierwsza aplikacja dla tego systemu.</p>
+<p>Dostępna w wersji testowej pod adresem <a href="https://market.android.com/details?id=com.mwiacek.przepisy.drogowe">https://market.android.com/details?id=com.mwiacek.przepisy.drogowe</a></p>
+<p>Zawiera:</p>
+<!--break-->
+<ul><li>informacje o polskich znakach drogowych opracowane na podstawie oficjalnych Rozporządzeń
+</li><li>Kodeks Drogowy (ujednoliconą treść ustawy "Prawo o ruchu drogowym")
+</li><li>"Rozporządzenie w sprawie postępowania z kierowcami naruszającymi przepisy ruchu drogowego" (ujednoliconą treść)
+</li><li>Taryfikator mandatów (tabela B Rozporządzenia) i punktów karnych
+</li><li>Informacje o maksymalnej prędkości i sposobach jej pomiarów
+</li></ul><p>Interfejs pozwala na szukanie (jest też połączenie z systemowym Quick Search Box), powiększanie/pomniejszanie, są linki i odnośniki, itp.</p>
+<p>Do zrobienia pozostało jeszcze dużo rzeczy, np.</p>
+<ul><li>uzupełnienie o ostatnie hyperlinki, animowane GIFy (przy sygnalizatorach) i jakieś mniej typowe znaki/ich odmiany
+</li><li>dodanie scrollera (najchętniej chciałbym dodać taki duży "smooth scroll" jak w niektórych aplikacjach)
+</li><li>dodanie tabeli C Taryfikatora (dla aut ciężarowych)
+</li><li>przyspieszenie
+</li><li>bardziej precyzyjne określenie ptk taryfikatorów przy opisach znaków
+</li><li>może bookmarki i kolejne Rozporządzenia (np. dotyczące OC)
+</li></ul><p>i inne.</p>
+<p>W pisaniu aplikacji "udział wzięło" dużo technologii i rozwiązań, np. Java, HTML, JavaScript, JSON, itd. Zapraszam do komentowania na polskim forum Androida <a href="http://forum.android.com.pl/f389/przepisy-drogowe-108225/">http://forum.android.com.pl/f389/przepisy-drogowe-108225/</a>, jak również do składania dotacji i oceniania programu w Android Markecie.</p>
+<p>PS. W dalszym ciągu żałuję, że N9 skończyła jak skończyła...</p>

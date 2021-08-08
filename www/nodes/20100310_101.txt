@@ -1,0 +1,66 @@
+﻿Title:Gammu+
+Author:marcin
+When:10 Mar 2010
+Taxonomy:Gammu,GSM,Gammu+
+SkipMain:true
+
+<p align="right"><b>Project is currently a little bit suspended</b></p>
+<hr /><p align="justify">Gammu+ is project, where were created applications, scripts and drivers used for managing all possible functions in cellular phones and similiar devices. Currently we're creating core and some client applications using it (GUI and command line version).</p>
+<h1>History</h1>
+<p align="justify">Gammu+ can be named as next step in evolution. I started to think about new project written in C++ using classes somewhere in August 2002.</p>
+<p align="justify">Main start targets were easy:</p>
+<!--break-->
+<ul><li>full modular construction
+</li><li>using Unicode everywhere
+</li><li>using all modern possibilities available in C++ language
+</li><li>breaking problems available because of using structures with declared size of members (in other words: using everywhere structures allocated dynamically)
+</li></ul><p align="justify">Some first source was written in October 2003 (16-10-2003 can be taken as start date), a little in December 2003 and later project stopped. </p>
+<p align="justify">In 2005 it was resumed again (MileStone 2 was released 10 May 2005). In the end of 2005 - all 2006 year development was going slowly, but with big success. Gammu+ supported (for Nokia) main phonebook things, main SMS functions, calendar, there was filesystem support created too. In November 2006 project had SMS linking. Some first targets (using all modern possibilities in C++ languages) still waited for full implementation (but it's rather internal issue non visible for end-user). There was started real developer documentation. In December 2006 there was started GUI. </p>
+<p align="justify">Unfortunately, last version was released in May 2008... It contains GUI, command line version, SMS/MMS daemon.</p>
+<h1>Developer docs</h1>
+<p><a href="?q=node/141">Internals</a></p>
+<h1>Screenshots</h1>
+<p align="justify">Current GUI is very simple. No unnecessary options or windows. In File menu you can open connection with phone, open backup or MMS file for viewing. Please note, that there can be opened many phones &amp; files in one time - you can switch among them using Window menu.</p>
+<p><img src="sites/default/files/101/070318_menu1.jpg" /><img src="sites/default/files/101/070318_menu2.jpg" /><img src="sites/default/files/101/070318_menu3.jpg" /><img src="sites/default/files/101/070902_about.gif" /></p>
+<p align="justify">After selecting "Open phone connection" you have to set connection parameters (NOTE: for bluetooth pair first phone with PC). There are many sets available - simply set few configs, if you have few phones. We don't hide anything - it's possible to have communication log on HDD too...</p>
+<p><img src="sites/default/files/101/070702_cfg.jpg" /></p>
+<p align="justify">When your phone model isn't correctly supported, you can try to change it easy. Select model, which should be similiar and edit used features (select from available).</p>
+<p><img src="sites/default/files/101/070702_cfg2.jpg" /></p>
+<p align="justify">If everything went OK, you should see many sheets (some can be unavailable, if your phone doesn't support them). In each sheet you have "Get from phone" buttons - they will force reading data from phone again (in other case it will be displayed from GUI internal cache). </p>
+<p><img src="sites/default/files/101/070415_info.jpg" /><br /><b>Backup/restore/phone info</b></p>
+<p align="justify">In General sheet you can make backup, restore (THE MOST IMPORTANT: full compatibility with Gammu formats), read various info from phone and online databases (last thing is done after accepting it).</p>
+<p><img src="sites/default/files/101/070415_backup.jpg" /><img src="sites/default/files/101/070415_restore.jpg" /><br /><b>FileSystem</b></p>
+<p align="justify">This is very important place. In all modern phones things such ringtones, bitmaps, camera pictures, Java, etc. are saved in filesystem. Currently you can browse it, get single files from phone (double click on it), many files from phone (select files, right click and select menu option) and upload files to phone. </p>
+<p><img src="sites/default/files/101/070318_files.jpg" /><br /><b>PhoneBook memories</b></p>
+<p align="justify">Various phonebook memories. You can search entries (enter text and click Search) and sort (click on column). </p>
+<p><img src="sites/default/files/101/070318_pbk.jpg" /></p>
+<p align="justify">When you will right click on entry and select "Send over SMS", you will be able to send it:</p>
+<p><img src="sites/default/files/101/070929_sms6.gif" /><br /><b>SMS</b></p>
+<p align="justify">SMS browser. You can select SMS from single folder or all folders at once. Similiar search function like in pbk. Preview displays text (linked or not) from text/EMS/Siemens SMS, Pictures from Smart Messaging SMS. You can forward some SMS content (even not recognized in preview) after clicking "Forward current SMS".</p>
+<p><img src="sites/default/files/101/070318_sms.jpg" /></p>
+<p align="justify">Easy SMS editor. First please select format: </p>
+<p><img src="sites/default/files/101/070902_sms2.gif" /><img src="sites/default/files/101/070902_sms3.gif" /><img src="sites/default/files/101/070720_sms3.jpg" /><img src="sites/default/files/101/070909_sms.gif" /><img src="sites/default/files/101/070929_sms2.gif" /></p>
+<p align="justify">later recipients and click Send </p>
+<p><img src="sites/default/files/101/070720_sms4.jpg" /><br /><b>MMS</b></p>
+<p align="justify">MMS browser. You can select MMS from single folder or all folders at once. Similiar search function like in pbk. Preview displays selected MMS part (it's supported by Windows Media Player). You can save MMS part (click on button) or full MMS file (right click on up MMS list) to HDD too </p>
+<p><img src="sites/default/files/101/070318_mms.jpg" /><br /><b>Calendar</b></p>
+<p align="justify">Simple initial calendar view. As you, there is still a lot todo (but it doesn't change fact, that limits are in GUI, core handles all calendar features correctly) </p>
+<p><img src="sites/default/files/101/070318_calendar.jpg" /></p>
+<p align="justify">When you will right click on entry and select "Send over SMS", you will be able to send it: </p>
+<p><img src="sites/default/files/101/070929_sms5.gif" /><br /><b>Notes</b></p>
+<p>Phone notes.<br /><img src="sites/default/files/101/070318_notes.jpg" /></p>
+<p align="justify">When you will right click on entry and select "Send over SMS", you will be able to send it: </p>
+<p><img src="sites/default/files/101/070929_sms4.gif" /><br /><b>ToDo</b></p>
+<p>Phone ToDo.<br /><img src="sites/default/files/101/070318_todo.jpg" /></p>
+<p align="justify">When you will right click on entry and select "Send over SMS", you will be able to send it</p>
+<p><b>Java</b></p>
+<p align="justify">You can currently display list of Java applets in phone and upload new one. </p>
+<p><img src="sites/default/files/101/070326_java.jpg" /></p>
+<h1>License</h1>
+<ul><li><a href="?q=gpl2">GPL 2</a></li>
+<li><a href="?q=lgpl21">LGPL 2.1</a></li>
+<li><a href="?q=commercial">Commercial</a></li>
+</ul><h1>Links</h1>
+<ul><li><a href="/zips/gsm/gplus/">Download</a>
+</li><li><a href="http://dl.cihar.com/MIRROR/gammu/zips/gplus/">Download (mirror on Michal's page)</a>
+</li></ul>

@@ -1,0 +1,241 @@
+﻿Title:Dłuższe spojrzenie na Android /e/ w wersji beta (2020)
+Author:marcin
+When:23 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Dluzsze-spojrzenie-na-Android-e-w-wersji-beta,111066.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Kontynuuję cykl &quot;post dziennie&quot;. Wczoraj popełniłem <a href="?q=node/414">odpowiedź na jeden z komentarzy do poprzedniego tekstu</a> (która nie znalazła się na głównej), a dziś postanowiłem się trochę przyjrzeć Androidowi w wydaniu /e/.</p>
+
+<p>Będzie to spojrzenie z perspektywy &quot;przeciętnego&quot; użytkownika, który nie bawił się w custom-ROM i inne tego typu rzeczy i chciałby tylko używać telefonu.</p>
+
+<p>Pacjentem jest w tym wypadku pierwszy Pixel, który stracił już oficjalne wsparcie Google (ale jest idealny z uwagi na niezły hardware i brak wynalazków typu zablokowany bootloader czy flaga Knox, która pozwala stwierdzić, że w urządzeniu był system nie od producenta).</p>
+<!--break-->
+<p><b>Co to jest /e/ ?</b></p>
+
+<p>&quot;Your data is <b>YOUR</b> data! We build desirable, open source, privacy-enabled smartphone operating systems. We are&#160;/e/&quot;</p>
+
+<p>Na oficjalnej stronie <a href="https://e.foundation/" target="_blank" rel="noopener" rel="nofollow">https://e.foundation/</a> jest sporo informacji o tym, że tworzona dystrybucja to &quot;totally deGoogled Android&quot;, w której nacisk jest położony na prywatność... jest też coś o chmurze (1GB) i możliwości założenia swojego konta email w domenie e.email.</p>
+
+<p>Od strony technicznej /e/ to dystrybucja Androida oparta na LineageOS z bibliotekami microG i aplikacjami typu Open-Source, która pozwala się opcjonalnie łączyć z usługami w chmurze (fundacja planuje udostępnić obraz do dockera, dzięki któremu będzie można je uruchomić u siebie).</p>
+
+<p>W stosunku do LineageOS inny jest launcher, inne ustawienia aplikacji, itp.</p>
+
+<p><b>Instalacja</b></p>
+
+<p>Powiedziałbym, że nie stanowi większego zaskoczenia dla kogoś, kto robił podobne rzeczy.</p>
+
+<p>Pierwsze co, to włączamy opcje developerskie w ustawieniach systemu, a tam uaktywniamy &quot;oem ulocking&quot; i &quot;usb debugging&quot;.</p>
+
+<p>Potem <a href="https://dl.twrp.me/sailfish/" target="_blank" rel="noopener" rel="nofollow">pobieramy TWRP</a> (plik img i zip), kopiujemy plik zip do pamięci telefonu i:</p>
+
+<ol><li> restartujemy urządzenie komendą &quot;adb reboot bootloader&quot;</li>
+
+<li>odblokowujemy bootloader komendą &quot;fastboot flashing unlock&quot; (w menu telefonu wybieramy opcję klawiszami głośności, a zatwierdzamy włącznikiem)</li>
+
+<li>restartujemy urządzenie do TWRP komendą &quot;fastboot boot twrp.img&quot;</li></ol>
+
+<p>Następnie instalujemy plik ZIP z TWRP (był wgrany do pamięci telefonu), restartujemy urządzenie i przechodzimy do zainstalowanego recovery komendą &quot;adb reboot recovery&quot;</p>
+
+<p>Tam kolejno czyścimy pamięci (opcje Wipe, Format Data, Advanced Wipe) i wgramy właściwy system /e/ (plik zip pobrany ze strony projektu):</p>
+
+<p>w menu telefonu wchodzimy do opcji &quot;ADB Sideload&quot;, zaznaczamy opcję czyszczenia pamięci, z komputera wgrywamy plik komendą &quot;adb sideload e.zip&quot;.</p>
+
+<p>Po restarcie powinniśmy zostać powitani logiem nowego systemu... u mnie niestety był jakiś problem z TWRP (który nie potrafił wgrać całego pliku z użyciem funkcjonalności sideload) i ostatecznie musiałem użyć starszej wersji 3.2.2</p>
+
+<p><b>Pierwsze wrażenia</b></p>
+
+<p>Ciepłe kolory, ale ikonki moich zdaniem za bardzo infantylne i nie do końca kojarzą się z apkami (szczególnie przeglądarka WWW). Trochę dziwnie mocno to przypomina iOS i jest ewentualnie do przyjęcia (do tego ikonka zegarka się ładnie animuje).</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-201604_Bliss_Launcher.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Element z pogodą sobie musiałem skonfigurować. Też do przeżycia.</p>
+
+<center><img src="sites/default/files/415/Screenshot_20200923-195131_Bliss_Launcher.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Domyślna klawiatura pochodzi z AOSP i nie obsługuje Swype, a całość dla mojego modelu została oparta na Androidzie 9 z poprawkami z sierpnia.</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-221125_Updater.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Przeglądarka</b></p>
+
+<p><a href="?q=node/412">Wspominałem kilka dni temu o Bromite</a>... i proszę bardzo... jest. Co mnie cieszy, to fakt używania klasycznego Tab Switchera (który jest mi bliski, bo robiłem tam refaktoring kodu).</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-200109_Browser.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Zrobiłem sobie szybki sanity check wydajności i są różnice na plus w stosunku od wersji, którą testowałem na oryginalnym ROMie (wiem, wiem, że wersje apki były różne).</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-214155_Browser.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/415/Screenshot_20200923-220933_Browser.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>Sklep</b></p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-221045_Apps.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Prymitywny i niezbyt ładny, zaś po ustawieniu opcji &quot;tylko aplikacje Open Source&quot; nie pokazuje już kategorii.</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-195453_Apps.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Do tego jakoś niespecjalnie wierzę, że firmy takie jak Microsoft czy Google same z siebie umieściły tu aplikacje...</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-195539_Apps.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Na próbę ściągnąłem sobie Firefoxa (nie ma oznaczonej licencji w sklepie i nie jest widoczny w wersji &quot;tylko open-source&quot;), w którym chciałem zobaczyć prędkość w benchmarkach (a nuż tylko muli tylko przy obecności usług Googla?)</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-215528_Firefox.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Jet Stream 2 oczywiście się nie kończy - najwyraźniej &quot;fachowcy&quot; Mozilli w dalszym ciągu debatują nad <a href="https://github.com/mozilla-mobile/fenix/issues/6060" target="_blank" rel="noopener" rel="nofollow">otwartym przeze mnie 17 października 2019 błędem</a> (do którego załączyłem w swej łaskawości fixa dnia 9 marca AD 2020).</p>
+
+<p>Najwyraźniej lisek ma tylu użytkowników, że nieważne jest działanie benchmarku i innych stron, w których wolno działają skrypty... (jak dla mnie niedodanie obsługi zdarzenia w sytuacji obecności obsługi zdarzenia w engine to albo</p>
+
+<ul><li>a) totalna ignoracja albo<br/></li>
+
+<li>b) sabotaż albo</li>
+
+<li>c) żenujący wręcz poziom intelektualny nie pozwalający dostrzec, że popularność przekłada się na fundusze tak potrzebne do zatrudniania kolejnych programistów)</li></ul>
+
+<p>Puściłem sobie jeszcze Motion Mark i ten potwierdził spowolnienie w stosunku do Bromite.</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-220230_Firefox.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Nie znalazłem w tym miejscu zbyt znanych mi produkcji (Navmii, etc.), nie było moich apek i nie było tam nawet Bromite... Nie chciałem jakoś łamać praw autorskich i nie ściągałem &quot;na próbę&quot; apek typu Google Maps (może wszystkich rozczaruję, ale trudno...)</p>
+
+<p><b>Podstawowe aplikacje </b></p>
+
+<p>Jest tu wszystko - od podstawowych aplikacji wyglądających praktycznie jak na Pixelu (poniżej tylko kilka przykładów)</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-224410_Phone.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/415/Screenshot_20200923-224417_Message.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/415/Screenshot_20200923-224344_Files.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/415/Screenshot_20200923-224331_Clock.png" style="width:169px;height:300px;" alt="image" title="image" />
+</center>
+
+<p>poprzez aplikację Notes, która jest ni przypiął ni przyłatał (naprawdę trzeba zakładać konto?) </p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-195637_Notes.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>na prymitywnym bloatware skończywszy (w sumie na pewno każdy od razu instaluje jakiś zastępnik).</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-224317_Calculator.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Wszystko to to jakieś zastępniki z różnych otwartych projektów i jedyne, do czego się można czepić, to brak spójności + koniecznośc przeklikania wszystkich opcji (np. w różnych apkach jest tryb jasny, szary i czarny, i dopiero ten ostatni może przynieść jakąkolwiek oszczędność energii).</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-200036_Message.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>A wspominam o trybie czarnym, bo to jakiś koszmarek na Androidzie i Googlowi wielokrotnie to wypominano...</p>
+
+<p>Z ciekawostek - domyślnie skonfigurowana apka aparatu podkręcała jasność i według mnie była wtedy bezużyteczna.</p>
+
+<p><b>Prywatność</b></p>
+
+<p>ROM na dzień dobry miał włączone całą łączność bezprzewodową i różne opcje, których nie lubię (pokazywanie cyferek przy hasłach, zapisywanie haseł w przeglądarce, etc.) - w stosunku do &quot;standardowego&quot; Android praktycznie nic się tu nie zmieniło. </p>
+
+<p>Przejrzałem, pozmieniałem i stwierdziłem, że przy odrobinie samozaparcia nawet dałoby się tego używać.</p>
+
+<p>Nie jest wymagane żadne konto i to spory plus.</p>
+
+<p>W różnych miejscach dostępne są już różne regulaminy i zapewnienia</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-195825_Browser.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>a /e/ wydaje się nie do końca lubić z Mozillą.</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-195903_Browser.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Czego jednak brakuje? Domyślnie mamy przyznanych sporo uprawnień aplikacjom + nie ma tak podstawowej funkcji jak możliwość całego wyłączenia komunikacji sieciowej danej apki.</p>
+
+<p><b>Pomocy</b></p>
+
+<p>Kilka razy przy używaniu tylko apek podstawowych zobaczyłem takie cudo:</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-005131_System_UI.png" style="width:169px;height:300px;" alt="image" title="image" />
+
+<img src="sites/default/files/415/Screenshot_20200923-005241_Settings.png" style="width:169px;height:300px;" alt="image" title="image" />
+</center>
+
+<p>Przy podłączeniu kabla USB i włączeniu opcji File Transfer połączenie jest (od strony komputera wszystko działa OK), ale jakby go nie było (w menu telefonu).</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-201449_Settings.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Takie błędy w 2020, naprawdę?</p>
+
+<center>
+<img src="sites/default/files/415/Screenshot_20200923-005112_OpenKeychain.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>O błędach graficznych aplikacji w Androidzie też możnaby napisać tomy... Nic nowego... Dobrze przynajmniej, że nie ma tu problemów z czcionkami (w pierwszym Galaxy S przy ostatniej aktualizacji Samsung zmienił je, przez co przy małym PPI wszystko wyglądało koszmarnie; Cyaogen też się wtedy nie sprawdzał w tym względzie).</p>
+
+<p><b>Usunięcie</b></p>
+
+<p>Przyznam się szczerze, że dalej nie chciało mi się juz sprawdzać wszystkich funkcjonalności... Pobrałem oryginalny pakiet Google, znów włączyłem w opcjach developerskich &quot;usb debugging&quot;, potem &quot;adb reboot bootloader&quot;, &quot;flash-all.sh&quot; i po zawodach (nie chciało mi się próbować blokować bootloadera)...</p>
+
+<p><b>Podsumowanie&#160;</b></p>
+
+<p>Z jednej strony historia ludzkości to ciągłe sięganie tam, gdzie nie było jeszcze nikogo (i dobrze, że na świecie są marzyciele, którzy mają rozmach).</p>
+
+<p><a href="?q=node/414">Wczoraj pisałem o upadku kultury technicznej</a> i braku zrozumienia między obecnym i starszym pokoleniem (było też coś o Pascalu i Delphi), dzisiaj nie mogę się zdecydować, czy /e/ to właśnie taki &quot;nowoczesny&quot; wytwór, który otwiera oczy niedowiarkom, czy początek czegoś wielkiego.</p>
+
+<p>Projekt podobno wspiera obecnie 93 modele (nie wiem, jak to jest liczone)... i mamy w nim elementy pełnej infrastuktury... </p>
+
+<center>
+<img src="sites/default/files/415/Untitled.jpg" style="width:490px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>z drugiej jednak strony wygląda to, jakby ktoś wziął stwierdził &quot;zróbmy sobie wszystko po swojemu&quot;, a potem przerysował projekt iOS (kiedy one te ikony zmienili? przy iOS 7? nie ładniej by było wziąć wersję przed?) i pozmieniał go trochę na wierzchu, pozostawiając plac budowy pod spodem.</p>
+
+<p>Muszę to jasno tu powiedzieć - ten system na moim telefonie obecnie jest koszmarkiem, jeśli chodzi o spójność (pod tym względem to rzeczywiście beta).</p>
+
+<p>Kolejnym problemem są prawa autorskie, a raczej prawdopodobny ich brak w przypadku aplikacji dostępnych z &quot;oficjalnego&quot; sklepu. O ile microG powinno być w porządku, to przy wzroście ilości użytkowników konkretne firmy mogą się upomnieć o swoje (i nie chcę szerzyć FUDów)...</p>
+
+<p>Z trzeciej strony system bez aplikacji to martwy system - przerabialiśmy to z Ubuntu, mobilnym Windows, FirefoxOS, Tizenem i innymi (w ich wypadku były oczywiście jeszcze inne przyczyny, takie jak pchanie ich do marnego sprzętu).</p>
+
+<p>Długo się zastanawiałem, co mogę powiedzieć o /e/ obecnie.</p>
+
+<p>Czy jest dla emeryta, który chce mieć podstawy i tylko podstawy ? Tak (i na pewno odświeżymy w ten sposób starszy sprzęt, z drugiej strony w takich wypadkach pewnie nikomu nie przeszkadza brak poprawek bezpieczeństwa i flashowanie takiego &quot;niepewnego&quot; systemu też nie ma racji bytu)</p>
+
+<p>Czy dla kogoś, który nałogowo korzysta z różnych apek? Raczej nie (taki ktoś kupi używanego starszego flagowca w rodzaju Samsung S9 albo coś najnowszego w stylu Samsung S20 FE 5G albo jakiegoś &quot;chinola&quot;)</p>
+
+<p>Czy może do wgrania na telefony, w których mamy ważne dane biznesowe? Zdecydowanie nie.</p>
+
+<p>Dla dłubaczy w kodzie? Możliwe.</p>
+
+<p>Na chwilę obecną to według mnie zabawka, sympatyczna, ale zabawka... możliwe, że będziemy ją widzieć w wielu najtańszych produktach, które nie mają certyfikacji Google.&#160;</p>
+
+<p>PS. A jak ktoś chce więcej opinii (bardziej chyba optymistycznych), to proszę bardzo: <a href="https://www.youtube.com/results?search_query=e+android" target="_blank" rel="noopener" rel="nofollow">https://www.youtube.com/results?search_query=e+android</a>&#160;&nbsp;</p>

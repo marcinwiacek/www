@@ -1,0 +1,29 @@
+﻿Title:Rób i nie rób
+Author:marcin
+When:19 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Nic nie rób, bo tak wszystkim będzie wygodniej,<br />
+Udaj, że nie przeżyjesz bez kiepskiej pomocy,<br />
+Udaj, że nie masz wiedzy, słów ani innej mocy,<br />
+A do tego krzycz to co inni bo tak bywa modniej,</p>
+<p>I przenigdy nie prowadź do żadnych konfrontacji,<br />
+Udaj, że ciągle cieszysz się jak głupiutki do sera,<br />
+Udaj, że z braku wszystkiego energia rozpiera,<br />
+A na koniec przeproś za brak entuzjazmu reakcji,</p>
+<!--break-->
+<p>I nie chwal, gdy ktoś potrafi pięknie przebaczyć,<br />
+Udaj, że chlew pachnie i bywa piękny jak perfumy,<br />
+Udaj, że udawanie to zawsze jest powód do dumy,<br />
+A cieszyć masz się gdy dusza zaczyna się paczyć,</p>
+<p>I choć wszyscy pragną tolerancji oraz spokojności,<br />
+To cała otoczka ze strachu chyba bywa tworzona,<br />
+To cała mądrość na zbicie konkurencji ustawiona,<br />
+A dajcie sobą pomiatać, to śmiech pogardy zagości,</p>
+<p>I najlepsza jest w życiu przewrotność tego losu,<br />
+Że przypominają bardzo co chcemy i jest właściwe,<br />
+Że przypominają poprzez czyny drobne i litościwe,<br />
+Właśnie ci, co pewnie nie podzielą z nami głosu,</p>
+<p>albo ci, po których byśmy się tego nie spodziewali....</p>

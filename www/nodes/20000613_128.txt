@@ -1,0 +1,215 @@
+﻿Title:Na ratunek ! (2000)
+Author:marcin
+When:13 Jun 2000
+Taxonomy:Polski,Polski artykuł,x86,chip.pl,OS,CHM
+
+<a NAME="Top"></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach <a href="http://www.chip.pl" class="autoremail">Chipa</a> nr 6/2000</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><b>Pliki pomocy CHM stosowane m.in. w Windows 98 pozwalają uzyskać wiele efektów niedostępnych w formacie HLP. Przeciętny użytkownik zapyta zapewne w tym momencie: jak tworzyć takie zbiory? Czy narzędzia są proste w użyciu, czy też potrzebna jest specjalistyczna wiedza?</b></p>
+<!--break-->
+
+<p align=justify>Na szczęście budowanie plików Pomocy jest łatwiejsze niż kiedyś – dostępnych jest wiele naprawdę wygodnych narzędzi. Bardzo często można również z powodzeniem użyć darmowego programu <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> firmy <a href="http://www.microsoft.com">Microsoft</a>. Niestety, w niektórych przypadkach możliwości tego narzędzia nie są wystarczające. Jeżeli planujemy zapisywać tworzone pliki równocześnie w „klasycznym” formacie HLP oraz nowym - CHM, chyba lepiej skorzystać z komercyjnych programów (np. Help &amp; Manual 2).
+
+<p align=justify>Również w sytuacji gdy nasza pomoc została zapisana w postaci zbiorów HLP, zachowały się jej kody źródłowe i chcemy je w miarę „bezboleśnie” przekonwertować do nowego formatu warto poszukać innego oprogramowania. Może się zdarzyć, że wynik działania <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> nie będzie zgodny z naszymi oczekiwaniami.
+
+<p align=justify>Jedna z poważniejszych wad tego programu polega na tym, że nadaje on utworzonym plikom nazwy nie mające nic wspólnego z ich zawartością. Dodatkowo trzeba ręcznie zmieniać deklarację strony kodowej w każdym pliku (przy wielu zbiorach może to być uciążliwe). Części użytkowników nie spodoba się na pewno także fakt, iż program nie oferuje rozbudowanego edytora HTML (można co najwyżej wprowadzać w nich pewne drobne poprawki otwierając je w trybie tekstowym). Jednak mimo tych niedogodności <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> oferuje całkiem sprawne funkcje do przygotowywania i kompilowania zbiorów CHM, a w komplecie z pakietem dostajemy narzędzie do tworzenia grafiki - HTML Help Image Editor.
+
+<p align=justify>Jeżeli zatem chcemy za pomocą tego narzędzia utworzyć plik w formacie CHM, musimy przygotować oddzielnie zbiory z tematami pomocy zapisane w formacie HTML. Czytelnikom, którzy nigdy przedtem nie tworzyli takich plików, proponujemy zapoznać się z edytorami dołączanymi do <a href="http://www.microsoft.com/ie">Internet Explorera</a> albo <a href="http://home.netscape.com/">Netscape Communicatora</a> – są darmowe i oferują wystarczające możliwości.
+
+<p align=justify>Jeśli zamierzamy wykorzystać materiały z jakiejś witryny WWW, najlepiej podzielić zawarte na niej treści na jak najmniejsze części i zapisać je w oddzielnych zbiorach. Potrzebna może się również okazać zmiana ich strony kodowej na Windows-1250 (<a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> nie rozpoznaje strony kodowej ISO-8859-2 i w wielu miejscach zamiast polskich liter będzie wyświetlał „krzaczki”). Wygodne może również okazać się przeznaczenie na wszystkie pliki wchodzące w skład projektu oddzielnego katalogu na dysku (nie jest to oczywiście konieczne, ale pozwoli zachować pewien porządek – zbiorów tych może być dużo).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Podstawy></a><font color="#1F409F" size=+2 class="dzial"><b>Podstawy</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p><a name=Budowa></a><b>Budowa plików CHM</b>
+
+<p align=justify>Standard pomocy HTML Help wykorzystuje pliki w nowy formacie - CHM. Są one archiwami podobnymi do ARJ, ZIP, itp. i zawierają w sobie zbiory z ogólnymi opcjami (o rozszerzeniu HHP), spisem treści (rozszerzenie HHC), indeksem (HHK) oraz różne pliki tworzące tematy pomocy (zbiory HTM albo HTML, obrazki GIF, JPG, animacje AVI, skrypty JS, VS, style CSS, itp.).
+
+<p align=justify>Do odczytu plików CHM potrzebny jest <a href="http://www.microsoft.com/ie">Internet Explorer</a> w wersji co najmniej 3 (w praktyce jednak wykorzystywana jest tylko wersja 4 lub 5) i Windows 9x/NT/2000. Po otwarciu takiego pliku wyświetlane jest okno, w którym można wyróżnić trzy obszary:
+
+<ol>
+<li><div align=justify>Przyciski w górnej części okna, pozwalające na różne czynności (np. drukowanie, przechodzenie do poprzedniego lub następnego tematu).</div></li>
+
+<li><div align=justify>Część z zakładkami <b>Spis treści</b>, <b>Indeks</b>, <b>Wyszukaj</b>.</div></li>
+
+<li><div align=justify>Obszar z tematami pomocy (wyświetlanymi przy użyciu obiektu <a href="http://www.microsoft.com/ie">Internet Explorera</a>).</div></li>
+</ol>
+
+<p><a name=Zamiana></a><b>Angielskojęzyczna wersja Windows</b>
+
+<p align=justify>Po zainstalowaniu bibliotek HTML Help w wersji 1.3 (np. wraz z <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> w tej wersji) w oknach ze zbiorami CHM wszystkie teksty w zakładkach po lewej ich stronie oraz na przyciskach na górze są pokazywane w języku wybranym podczas instalacji Windows. Jeżeli więc mamy angielskie okienka z wybranym językiem polskim, napisy te będą wyświetlane w tym języku. Reszta komunikatów jest jednak podawana po angielsku. Aby wszystkie komunikaty były wypisywane na ekran w języku angielskim należy wejść do podkatalogu System/Mui w katalogu Windows, a następnie przekopiować plik HHCTRLUI.DLL z podkatalogu 0409 do 0415 (w każdej z kartotek jest wersja odpowiednia dla danego języka - my zamieniamy po prostu polską na angielską).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Wlasny></a><font color="#1F409F" size=+2 class="dzial"><b>Tworzymy własny system pomocy</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Po przygotowaniu plików HTML z tematami możemy utworzyć nowy projekt: z menu <b>File</b> wybieramy polecenie <b>New</b> (ewentualnie klikamy ikonkę <img SRC="sites/default/files/128/image1.gif" height=26 width=28>), w otwartym oknie wybieramy z listy pozycję <b>Project</b> i naciskamy przycisk <b>OK</b>. W otwartym w ten sposób oknie kreatora zostaniemy zapytani, czy chcemy wykorzystać projekt pliku HLP (opcja <b>Convert WinHelp Project</b> – nie zaznaczamy jej). Następnie musimy podać nazwę, jaką chcemy nadać głównemu plikowi projektu.
+
+<p align=justify>W kolejnym oknie zaznaczamy, czy chcemy włączyć do tworzonego projektu przygotowane wcześniej pliki ze spisem treści (opcja <b>HTML HELP table of contents</b>), indeksem (<b>HTML HELP index</b>) albo pliki HTML z samymi tematami (<b>HTML files</b>). Zaznaczamy ostatnią opcję. Programy zapyta o lokalizację plików, które mają być dodane do projektu (naciskamy przycisk <b>Add</b> i kolejno wybieramy zbiory).
+
+<p align=justify>Gdy teraz klikniemy przycisk przycisk <b>Finish</b> okno główne programu zostanie podzielone na dwie części. Po jego lewej stronie znajdują się trzy zakładki (<b>Project</b>, <b>Contents</b> i <b>Index</b>). Prowadzą one do opcji projektu (<b>Project</b>), spisu treści (<b>Contents</b>) i indeksu (<b>Index</b>).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Nowe></a><font color="#1F409F" size=+2 class="dzial"><b>Nowe okna</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Teraz powinniśmy określić wygląd okna w jakim ma być wyświetlana nasza pomoc (standardowe nie zawiera m.in. zakładek <b>Ulubione</b> czy <b>Szukaj</b>, a warto dodać te elementy). Wybieramy przycisk <img SRC="sites/default/files/128/image2.gif" height=26 width=26> z paska narzędzi po lewej stronie zakładki <b>Project</b>. Program spyta o nazwę okna, które chcemy zdefiniować (należy ją wpisać w polu <b>Create a window type named</b>), a następnie pokaże możliwe do ustawienia parametry.
+
+<p align=justify>Z opcji tych najważniejsze dla nas są nazwa okna wyświetlana w jego nagłówku (pole <b>Title bar text</b> w zakładce <b>General</b>) oraz wspomniane wcześniej zakładki umożliwiające wstawianie ulubionych odnośników i przeszukiwanie. W zakładce <b>Navigation Pane</b> klikamy pole wyboru <b>Windows with navigation pane, topic pane, and button</b> a następnie zaznaczamy opcje <b>Search tab</b> i <b>Favorites tab</b>. W przypadku, gdy chcemy pozwolić użytkownikowi na przeszukiwanie pomocy z użyciem warunków logicznych, należy zaznaczyć opcję <b>Advanced</b> przy polu <b>Search tab</b>. Możliwe jest także ustawienie, która z zakładek ma być widoczna po otwarciu naszego pliku pomocy (pole wyboru <b>Default tab</b>).
+
+<p align=justify>Po otwarciu zbioru CHM część z zakładkami może być w ogóle schowana (opcja <b>Open with navigation pane closed</b>) albo usunięta (odznaczamy pole <b>Window with navigation pane, topic pane, and button</b> - wtedy jednak znikną również przyciski w górnej części okna z plikiem CHM).
+
+<p align=justify>Przyciski, które mają być wyświetlane wybieramy z kolei w zakładce <b>Buttons</b>. Ciekawe efekty można uzyskać używając przycisków <b>Home</b>, <b>Jump 1</b> i <b>Jump 2</b>. Po ich naciśnięciu zostaną wyświetlone dokumenty wybrane przez nas za pośrednictwem zakładki <b>Files</b>.
+
+<p align=justify>Możliwe jest także uzyskanie różnych dodatkowych efektów graficznych związanych z wyglądem i zachowaniem się okna (np. zmiany rodzaju ramki czy wyglądu pasku tytułowego). Odpowiednie ustawienia znajdziemy w zakładkach <b>Styles</b> i <b>Extended styles</b>. Należy pamiętać, że działanie niektórych z nich może zależeć od tego, czy zostały zaznaczone inne oraz że w przypadku głównego okna niektórych parametrów nie można zmienić (będą takie same niezależnie od ustawienia związanych z nich opcji).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=OpcjeProjektu></a><font color="#1F409F" size=+2 class="dzial"><b>Opcje projektu</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Po ustaleniu parametrów okna, w którym będzie wyświetlana nasza pomoc, powróćmy do zakładki <b>Project</b> (wystarczy kliknąć przycisk <b>OK</b>). Zawiera ona po lewej stronie pasek narzędzi z przyciskami wywołującymi funkcje edycyjne, natomiast po prawej pole z danymi do edycji. Znajdują się w nim kolejne linijki głównego pliku projektu (o rozszerzeniu HHP). Jak można od razu zauważyć, ma on podobną postać jak zbiory INI i składa się z sekcji i wartości (po kliknięciu którejś z wartości program otworzy okienko, w którym można ją zmienić).
+
+<p align=justify>Gdy naciśniemy przycisk <img SRC="sites/default/files/128/image3.gif" height=26 width=26> zostanie otwarte okno z opcjami projektu. Określamy tu język pomocy (opcja <b>Language</b> w zakładce <b>General</b>), nazwę pliku, który będzie początkowo wyświetlany w jej głównym oknie (pole <b>File</b>) oraz okno, w którym będzie pokazywana (<b>Default window</b>). Możliwe jest także podanie czcionki, która będzie używana we wszystkich zakładkach okna po lewej jego stronie (dla <b>Index</b> i <b>Contents</b> można ją także określić w oddzielnych oknach, w przypadku kart <b>Favorites</b> i <b>Search</b> jest to możliwe tylko tutaj).
+
+<p align=justify>Jeżeli wcześniej w definicji okna używanego do wyświetlania naszej pomocy wstawiliśmy zakładkę <b>Search</b>, powinniśmy jeszcze zaznaczyć opcję <b>Compile full-text search information</b> w zakładce <b>Compiler</b> (w przeciwnym razie zakładka <b>Search</b> będzie pusta).
+
+<p align=justify>Możemy jeszcze określić, czy nasz plik będzie mógł odczytywany przez biblioteki HTML Help w wersji 1.0 (dołączane do <a href="http://www.microsoft.com/ie">Internet Explorera</a> 4) czy też wymagana będzie co najmniej wersja 1.1 (pole <b>Compatibility</b> w tej samej zakładce).
+
+<p align=justify>Konieczna jest również decyzja, w jaki sposób ma być zapisany indeks w naszym pliku CHM – dokładne różnice i ograniczenia przy używaniu każdego z formatów są opisane w pomocy <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> (w naszym przypadku wystarczy wiedzieć, iż należy zaznaczyć opcję <b>Create a binary index</b>).
+
+<p align=justify>Spis treści także może zostać zapisany w jednym z dwóch formatów w zbiorze CHM – o tym decyduje opcja <b>Create a binary TOC</b> (zostawiamy ją niezaznaczoną).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=NoweTematy></a><font color="#1F409F" size=+2 class="dzial"><b>Dodawanie plików z tematami</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Jeżeli chcielibyśmy dodawać lub usuwać do naszego projektu kolejne pliki HTML z tematami, możemy zrobić to klikając przycisk <img SRC="sites/default/files/128/image4.gif" height=27 width=26> w zakładce <b>Project</b>. Nie jest to konieczne, ale na pewno wygodniejsze – w niektórych oknach dialogowych <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> będzie mogli wygodnie wybierać zbiory z listy, a nie poszukiwać ich za każdym razem na dysku.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Spisik></a><font color="#1F409F" size=+2 class="dzial"><b>Tworzymy spis treści</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Pora teraz na dodanie do naszego projektu spisu treści. Należy w tym celu kliknąć zakładkę <b>Contents</b>. Ponieważ wcześniej nie poleciliśmy włączyć programowi <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> żadnego przygotowanego wcześniej pliku ze spisem, spyta on nas, czy chcemy to teraz zrobić (opcja <b>Open an existing contents file</b>) czy też utworzyć nowy plik (<b>Create a new contents file</b>). Po naciśnięciu przycisku <b>OK</b> pozostaje jeszcze podać nazwę tego pliku i już możemy przystąpić do jego edycji.
+
+<p align=justify>Zakładka <b>Contents</b> jest zbudowana podobnie jak zakładka <b>Project</b> - po lewej stronie są w niej umieszczone przyciski służące do edycji, a po prawej znajduje się pole edycji (na razie jest puste – później zawierać będzie podgląd tworzonego spisu treści).
+
+<p align=justify>Budowa spisu jest bardzo prosta – ma on hierarchiczną strukturę drzewiastą (po kliknięciu na nazwę gałęzi pojawiają się znajdujące w niej podgałęzie i pozycje). Oczywiście, jest kilka różnic – przykładowo, do kolejnych nazw możemy przypisywać dowolnie ikony (zostanie to omówione dokładnie <a href=?q=node/129>w kolejnym CHIP-ie w artykule opisującym uzyskiwanie bardziej zaawansowanych efektów HTML Help</a>) oraz tematy pomocy, które będą wyświetlane po kliknięciu nazwy gałęzi lub pozycji.
+
+<p align=justify>Zaczynamy od ustawień dotyczących wyświetlania naszego spisu – kliknijmy przycisk <img SRC="sites/default/files/128/image3.gif" height=26 width=26>. Na początku wybieramy rodzaj czcionki używanej do jego wyświetlania (możemy ją wpisać w polu <b>Font</b> w zakładce <b>General</b> albo zmienić za pomocą przycisku <b>Change</b>). Możemy jednak tego nie robić – wtedy zostanie użyta czcionka zaznaczona w opcjach projektu albo standardowa systemowa o wielkości 8 punktów (o ile w opcjach projektu nie wybraliśmy innej).
+
+<p align=justify>W zakładce <b>Styles</b> możliwe jest wybranie koloru czcionki (<b>Foreground color</b>) i tła (<b>Background color</b>) – przy czym od razu można zauważyć, że kolory w podglądzie często nie odpowiadają rzeczywiście ustawionym wartościom (jest to wada programu <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a>). Lista <b>Window Styles</b> zawiera nazwy różnych efektów graficznych, które mogą być zastosowane przy wyświetlaniu spisu treści. Dodajemy je przyciskiem <b>Add</b>, usuwamy <b>Remove</b> (program jest w miarę inteligentny i po wykasowaniu niektórych z nich wstawia je z powrotem, jeżeli są niezbędne – np. styl <b>Border</b>). Z ciekawszych efektów warto wziąć pod uwagę:
+
+<ol>
+<li><div align=justify>możliwość rysowania linii pomiędzy kolejnymi pozycjami (<b>Draw lines between items</b>). Jeżeli mają być one widoczne od „korzenia” trzeba dodatkowo wybrać <b>Start line from the root</b>,</div></li>
+
+<li><div align=justify>pokazywanie kwadracików ze znakami „+” lub „-„ przed gałęziami. Symbole te oznaczają, że gałęzie są zwinięte lub rozwinięte (opcja <b>Plus/Minus squares</b>). Jeżeli mają być one rysowane od katalogu nadrzędnego, należy wybrać również opcję <b>Start line from the root</b>,</div></li>
+
+<li><div align=justify>automatyczne zwijanie gałęzi, w których nie znajduje się aktualnie wybrana w spisie pozycja – funkcja <b>Only expand a single heading</b>,</div></li>
+
+<li><div align=justify>zmianę wyglądu spisu – po wybraniu opcji <b>Dialog Frame</b> spis jest umieszczany w dodatkowym okienku, które można przesuwać w obrębie zakładek,</div></li>
+
+<li><div align=justify>automatyczne pokazywanie pozycji, do której jest przypisany aktualnie oglądany temat (a właściwie plik z nim). Jest to możliwe dzięki opcji <b>Show selection when the focus lost</b>,</div></li>
+
+<li><div align=justify>podkreślanie tej pozycji, nad którą aktualnie znajduje się kursor myszy – funkcja <b>Automatically track selection</b>,</div></li>
+
+<li><div align=justify>podświetlanie zaznaczanej pozycji pojawia się w całej szerokości spisu treści – opcja <b>Select entire row</b>,</div></li>
+</ol>
+
+<table width=100% style="border-collapse:separate;">
+<tr><td><img src=sites/default/files/128/spis1.gif width=210 height=71></td>
+<td><div align=justify>Fragment spisu treści pomocy systemu Windows 98. W jego opcjach wybrano efekt graficzny <b>Automatically track selection</b> (dzięki temu pozycja, nad którą znalazł się kursor myszy, została podświetlona na niebiesko i kursor myszy zmienił się w "rączkę")</div></td></tr>
+<tr><td><img src=sites/default/files/128/spis2.gif width=210 height=61></td>
+<td><div align=justify>Ten sam spis treści. Tym razem w opcjach wybrano <b>Plus/Minus squares</b> (widoczne są kwadraty "+" i "-" przed gałęziami), <b>Start line from the root</b> (kwadraty są rysowane również przed głównymi gałęziami) oraz <b>Select entire row</b> (zaznaczona pozycja jest podświetlana na całej szerokości).</div></td></tr>
+<tr><td><img src=sites/default/files/128/spis3.gif width=210 height=57></td>
+<td><div align=justify>Tym razem użyto efektów graficznych <b>Plus/Minus squares</b> oraz <b>Draw lines between items</b> (rysowane są linie pomiędzy kolejnymi pozycjami). Ponieważ nie wybrano <b>Start line from the root</b>, kwadratów i linii nie ma przed głównymi gałęziami.</div></td></tr>
+</table>
+
+<p align=justify>&nbsp;<br>Pozostała jeszcze zakładka <b>Information Types</b>. Tutaj możemy zdefiniować grupy, do których będzie można przypisać kolejne pozycje w spisie. Pozwoli to nam np. na przygotowanie pomocy, w której część tematów będzie przeznaczona jedynie dla nowicjuszy, część dla osób bardziej zaawansowanych, a część dla ekspertów. Użytkownik, który otworzy tak plik pomocy, będzie mógł kliknąć prawym klawiszem myszy jego spis treści, wybrać pozycję <b>Dostosuj</b> i zdecydować, które tematy mają być dla niego widoczne.
+
+<p align=justify>Jeżeli do kolejnych tematów w spisie treści przypisujemy te same grupy, wygodne może się okazać połączenie ich w jedną kategorię. Takie przyporządkowanie pozwoli bowiem, aby po jej zaznaczeniu temat był automatycznie przypisywany do wszystkich znajdujących się w niej grup. Jak zatem uzyskać taki efekt?
+
+<p align=justify>Na początku klikamy przycisk <b>Add</b>. W otwartym okienku należy podać nazwę kategorii (pole <b>Category name</b>), jej opis (<b>Description</b> poniżej <b>Category name</b>) oraz nazwę grupy (pole <b>Information type name</b>) z jej opisem (<b>Description</b> poniżej <b>Information type name</b>).
+
+<p align=justify>Do wyjaśnienia pozostało jedynie zaznaczenie opcji <b>Inclusive type</b> i <b>Exclusive type</b>. Jeżeli zaznaczamy pierwszą z nich, użytkownik przy wyświetlaniu pliku CHM może wybierać jedną lub więcej grup z tym atrybutem z każdej zdefiniowanej kategorii. Przykładowo: jeżeli w powyższym przypadku (tematy dla nowicjuszy/osób średnio zaawansowanych i ekspertów) wszystkie z tych grup zostaną przypisane do jednej kategorii i będa miały zaznaczone pole <b>Inclusive type</b>, osoba przeglądająca plik pomocy będzie mogła wybrać co najmniej jedną z nich (np. tematy dla nowicjuszy i ekspertów). W przypadku, gdyby z kolej te grupy miałyby zaznaczona opcja <b>Exclusive type</b>, możliwe byłoby wybranie wyłącznie jednej z nich.
+
+<p align=justify>Po naciśnięciu przycisku <b>OK</b> powrócimy do poprzedniego okienka. Wpisane przez nas grupy znajdują się po prawej jego stronie (ich opisy poniżej), natomiast wszelkie kategorie mogą być wybrane w polu <b>Category</b>. Można zauważyć, iż po wybraniu kategorii można od razu dodawać/usuwać przypisane do niej grupy (wystarczy zaznaczyć/odznaczyć je w polu <b>Information types</b>).
+
+<p align=justify>Przyciski <b>Remove Category</b> i <b>Remove Type</b> pozwalają usunąć wybraną kategorię/grupę, natomiast polecenie <b>Edit</b> służy do modyfikacji parametrów zaznaczonej grupy.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=EdycjaSpisu></a><font color="#1F409F" size=+2 class="dzial"><b>Edycja spisu treści</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Teraz musimy dodać kolejno pozycje do naszego spisu treści. Na początku utworzymy gałąź, w której będziemy umieszczać pozycje kierujące do kolejnych tematów. W tym celu trzeba kliknąć drugą ikonę od góry (standardowo wygląda ona <img SRC="sites/default/files/128/image5.gif" height=26 width=26>).
+
+<p align=justify>W otwartym oknie podajemy przede wszystkim nazwę, pod jaką będzie widoczna w spisie (pole <b>Entry Title</b> w zakładce <b>General</b>).
+
+<p align=justify>Dodana pozycja może być także odnośnikiem do jakiegoś pliku (zawierającego np. wprowadzenie do tej grupy tematów). W tym wypadku naciskamy przycisk <b>Add</b> i w polu <b>File or URL</b> podajemy nazwę odpowiedniego zbioru. Jeżeli nie będzie zawierać ona pełnej ścieżki dostępu zostanie przyjęte, iż została podana względem katalogu z plikiem głównym projektu. Po naciśnięciu przycisku <b>OK</b> powrócimy do okna z opcjami folderu - adres znajduje się teraz w polu <b>Files/URLs and their information types</b>.
+
+<p align=justify>Możliwe będzie w tym momencie wybranie kategorii przypisanych do tego adresu (pole <b>Available information types</b>) – wystarczy zaznaczyć którąś ze zdefiniowanych wcześniej kategorii albo grup. Jeżeli nie zaznaczymy żadnej z nich, pozycja, której atrybuty teraz zmieniamy, będzie zawsze wyświetlana w spisie treści.
+
+<p align=justify>Następnie kolej na zakładkę <b>Advanced</b> – możemy w niej m.in. wybrać wyświetlaną przy temacie ikonę (pole <b>Image index</b>). Ciekawe są również dwa pola znajdujące się obok, umożliwiające ustawianie i definiowanie własnych ikon w spisie treści (ich użycie zostanie opisane bardziej szczegółowo w <a href=?q=node/129>artykule o bardziej zaawansowanych możliwościach programu HTML Help Workshop</a>).
+
+<p align=justify>Jeżeli chcemy dodawać kolejne pozycje z tematami, należy wybierać trzeci przycisk od góry (standardowo <img SRC="sites/default/files/128/image6.gif" height=26 width=26>), a otworzy się okno bardzo podobne do opisanego wyżej, w którym można zdefiniować parametry nowych tematów pomocy.
+
+<p align=justify>Po zaznaczeniu w głównym oknie jakiejś pozycji, możemy zmienić jej ustawienia za pomocą przycisku <img SRC="sites/default/files/128/image7.gif" height=26 width=26>.
+
+<p align=justify>Pozostały jeszcze przyciski <img SRC="sites/default/files/128/image8.gif" height=26 width=109>, służące do ustalania miejsca, w którym będą się znajdować poszczególne pozycje w naszym spisie treści (program nie pozwala robić tego myszką – należy zaznaczać wpisy ręcznie i przesuwać je za pomocą wspomnianych przycisków).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=DodanieIndeksu></a><font color="#1F409F" size=+2 class="dzial"><b>Dodanie indeksu</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Jeżeli spis treści jest już gotowy, kolej na indeks. Postępowanie jest tutaj podobne jak w przypadku spisu – w oknie głównym należy wybrać zakładkę <b>Index</b>. <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> spyta w tym momencie, czy chcielibyśmy dodać do projektu wcześniej opracowany plik z indeksem (opcja <b>Open an existing contents file</b>) czy też utworzyć nowy (<b>Create a new contents file</b>). Wybieramy drugie rozwiązanie a następnie podajemy nazwę nowego zbioru i klikamy przycisk <b>OK</b>.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=EdycjaIndeksu></a><font color="#1F409F" size=+2 class="dzial"><b>Edycja indeksu</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Na początku - podobnie jak wcześniej - zajmiemy się najważniejszymi opcjami. Klikamy ikonę <img SRC="sites/default/files/128/image3.gif" height=26 width=26>, aby zostało otwarte okno umożliwiające ustalenie parametrów zbioru z indeksem. Możemy więc wybrać czcionkę (pole <b>Font</b> w zakładce <b>General</b>) oraz zdefiniować kategorie przypisane do kolejnych pozycji indeksu (robi się to identycznie jak w przypadku definiowania kategorii dla spisu treści).
+
+<p align=justify>Po określeniu tych parametrów kolej na dodawanie kolejnych pozycji do indeksu – służy do tego ikonka <img SRC="sites/default/files/128/image9.gif" height=25 width=26>. Otwarte w wyniku jej kliknięcia okno jest niemal takie samo jak to służące do wstawiania nowych pozycji spisu treści. Różnice biorą się tylko z trochę innego działania indeksu niż spisu treści:
+
+<ul>
+<li><div align=justify>jeżeli do danej pozycji przypisanie zostanie kilka adresów, system po jej wybraniu wyświetli okienko dialogowe, w którym będzie można wybrać jeden z adresów (oprócz podawania adresów plików warto również wpisywać ich nazwy – będą one wyświetlane w tym oknie)</div></li>
+
+<li><div align=justify>jeżeli w miejscu adresu wpiszemy nazwę jakiejś pozycji w indeksie i zaznaczymy pole <b>Target is another keyword</b> w zakładce <b>Advanced</b>, po kliknięciu pozycji, której dane aktualnie zmieniamy, system przeniesie nas do tej pierwszej. Warto zauważyć, że można oczywiście podać nazwę pozycji, której dane zmieniany, i wtedy (z punktu widzenia użytkownika) klikanie na nią nie będzie wywoływać żadnego efektu...</div></li>
+
+</ul>
+
+<p>W indeksie nie ma oczywiście opcji służących m.in. do definiowania ikon.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><a name=Gotowe></a><font color="#1F409F" size=+2 class="dzial"><b>Kompilacja i wyświetlenie gotowego pliku CHM</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Jeżeli wszystko zostało już przygotowane, pora na skompilowanie całości w jeden plik CHM.
+
+<p align=justify>W tym celu klikamy przycisk <img SRC="sites/default/files/128/image10_0.gif" height=20 width=21> albo wybieramy pozycję <b>Compile</b> z menu <b>File</b>. W otwartym oknie musimy podać nazwę, pod jaką ma być utworzony skompilowany zbiór CHM. Uwaga: jeśli plik o takiej nazwie już istnieje, zostanie zastąpiony bez ostrzeżenia. Później już tylko pozostaje obserwować komunikaty kompilatora – podaje on dokładne informacje o błędach i różne ostrzeżenia (na ich podstawie można się dowiedzieć, jakie nieprawidłowości mogą się znajdować w stworzonych przez nas zbiorach) oraz liczbę plików, które składają się na naszą pomoc.
+
+<p align=justify>Możemy teraz obejrzeć nasze gotowe dzieło. Wystarczy np. uruchomić je przez kliknięcie na nazwie pliku w Eksploratorze albo wybrać ikonę <img SRC="sites/default/files/128/image11_0.gif" height=20 width=21> w <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a>.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Internet</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<ul>
+<li><div align=justify>kurs budowania plików CHM Pawła Wimmera - <a href="http://www.pckurier.pl/podreczniki/htmlhelp/">http://www.pckurier.pl/podreczniki/htmlhelp/</a></div></li>
+
+<li><div align=justify>HTML Help Workshop i najnowsze informacje o technice HTML Help - <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">http://msdn.microsoft.com/workshop/author/htmlhelp/</a></div></li>
+
+<li><div align=justify>Program Help &amp; Manual 2 - <a href="http://www.ec-software.com/order.htm">http://www.ec-software.com/order.htm</a></div></li>
+</ul>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>

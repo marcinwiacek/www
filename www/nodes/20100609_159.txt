@@ -1,0 +1,384 @@
+﻿Title:Ubuntu 10.04 i Mint 9 - rozwiązania dla ludzi ? (2010)
+Author:marcin
+When:09 Jun 2010
+Taxonomy:Polski,benchmark.pl,Linux,Polski artykuł,x86,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst z pewnym zmianami (choćby innymi grafikami ;)) został wpierw <a href=http://www.benchmark.pl/testy_i_recenzje/Ubuntu_10.04_i_Mint_9_-_systemy_dla_ludzi.-2979.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p style="text-align: justify;"><a name="gora"></a>W ostatnim miesiącu pojawiły się dwie nowe wersje dystrybucji Linuxa - <a href="http://www.ubuntu.com/getubuntu/releasenotes/1004">29 kwietnia Ubuntu 10.04 o kodowej nazwie &quot;Lucid Lynx&quot;</a>, a <a href="http://www.linuxmint.com/blog/?p=1403">18 maja oparta na niej Mint 9 o kodowej nazwie &quot;Isadora&quot;</a>.</p>
+<p align="justify">Chciałbym pokazać skąd się wywodzą (co rzutuje mocno na to, jakie są), zaprezentować obie na platformie x86 (popularne &quot;PeCety&quot;) i zastanowić się bliżej nad tym, na ile mogą zainteresować przeciętnego użytkownika Windows.</p>
+<!--break-->
+
+<table width="300" cellspacing="0" cellpadding="2" border="0" align="right" style="border-collapse: separate;">
+    <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#e6eaee"><strong><font size="+1">Spis treści</font></strong></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">
+            <ol>
+                <li><a href="#1">Dawno, dawno temu...</a></li>
+                <li><a href="#2">Podstawą są jądra</a></li>
+                <li><a href="#3">Ubuntu i Mint</a></li>
+                <li><a href="#4">Instalacja</a></li>
+                <li><a href="#5">Środowisko graficzne</a></li>
+                <li><a href="#6">Konsola</a></li>
+                <li><a href="#7">Grafika 3D</a></li>
+                <li><a href="#8">Wszystko jest plikiem</a></li>
+                <li><a href="#9">Aktualizacje</a></li>
+                <li><a href="#10">Programy</a></li>
+                <li><a href="#11">Sieć</a></li>
+                <li><a href="#12">Sprzęt</a></li>
+                <li><a href="#13">DOS i Linux i Windows w jednym stali domku...</a></li>
+                <li><a href="#14">Bezpieczeństwo</a></li>
+                <li><a href="#15">Plusy i minusy</a></li>
+                <li><a href="#16">Podsumowanie</a></li>
+            </ol>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><a name="1"></a><strong><font size="+1">Dawno, dawno temu... </font></strong></p>
+<p align="justify">Wpierw solidna dawka historii. Wszystko zaczęło się od Multicsa działającego na komputerach GE-645. Został on stworzony przez MIT (Massachusetts Institute of Technology), AT&amp;T Bell Labs i General Electric w latach 60 XX wieku (a więc w czasie, gdy Ameryka jest uwikłana w wojnę w Wietnamie, trwa wyścig o lądowanie na Księżycu, korporacje takie jak Intel i AMD jeszcze nie istnieją). Był rewolucyjny, ale sprawiał różne problemy.</p>
+<p align="justify">Z tego powodu w AT&amp;T Bell Labs zapada decyzja o stworzeniu czegoś nowego. Tym czymś jest UNICS (nazwa została później zmieniona na Unix) powstały w 1969 na architektury PDP-7 i PDP-11/20 firmy DEC. W pracach nad nim biorą tacy ludzie jak Ken Thompson, Dennis Ritchie czy Brian Kernighan (znany głównie jako twórca języka programistycznego C stworzonego początkowo na potrzeby pisania Unixa). 3 listopada 1971 zostaje opublikowana pierwsza edycja. W 1972 Unix zostaje przepisany w możliwej dużej części na język C i powstaje druga edycja. 1973 - trzecia i czwarta edycja.</p>
+<p align="justify">AT&amp;T licencjonuje całość dla uniwersytetów i firm trzecich. Od 1974 zaczynają powstawać ich wersje niekoniecznie zgodne z kolejnymi edycjami od AT&amp;T i między sobą, wiele z nich z Unixem nie ma nic wspólnego poza ogólnymi zasadami budowy (mówimy o systemach unixopodobnych). Z tego względu po wielu latach w końcu tworzone są pewne standardy. I tak w 1999 Executable and Linkable Format (ELF) stał się podstawowym dla plików binarnych, a w latach 80-tych XX wieku organizacja IEEE (Institute of Electrical and Electronics Engineers) opublikowała zestaw norm opisujących standard POSIX (Portable Operating System Interface for Unix) przedstawiający sposoby budowania systemów operacyjnych tak, aby zachować między nimi przenośność oprogramowania. Pierwsza wersja jest z 1988, były też oczywiście kolejne. Żeby nie było wątpliwości - obecne Windows również przynajmniej częściowo potrafią być zgodne z tymi standardami (i stąd np. system umie umieszczać na dyskach pliki i katalogi z rozróżnieniem wielkości ich liter, co zresztą <a href="?q=node/111#8">jakiś czas temu pokazywałem dla partycji NTFS</a>).</p>
+<p align="justify">Z ciekawostek: swoją wersję Unixa w latach 80-tych XX wieku rozwijał Microsoft (Xenix bazowany początkowo na wersji 7 Unixa od AT&amp;T). Z kolei w 1978 z wersji 6 powstaje 1BSD będący początkiem linii, z której wywodzą się np. darmowe FreeBSD (tworzony od 1993) i OpenBSD (od 1994). Również darmowy Open Solaris ma swoje korzenie w Solarisie (wcześniej znanym jako SunOS i tworzonym od 1982). Obecnie także MacOS (a dokładniej Mac OS X z 2001 i późniejsze) to system unixopodobny (oparty m.in. na rozwiązaniach FreeBSD i OpenBSD).</p>
+<p align="justify">Przytoczę jeszcze dwie ważne daty. Pierwszą jest 1983. Richard Stallman <a href="http://www.gnu.org/gnu/initial-announcement.pl.html">ogłasza wtedy rozpoczęcie projektu GNU mającego na celu stworzenie darmowego klona Unixa</a> (w ramach projektu powstaną m.in. różne programy). Jest to odpowiedź na działanie AT&amp;T z początku lat 80-tych (&quot;zamknięcie&quot; źródeł systemu i komercyjne ich sprzedawanie), obecnie projekt jest finansowany i popularyzowany m.in. przez <a href="http://www.fsf.org/">organizację non-profit Free Software Fundation</a> (Richard Stallman jest jej prezydentem). Drugą jest 1987 i opublikowanie przez <a href="http://www.cs.vu.nl/~ast/">Andrew Tanenbauma</a> pierwszej wersji darmowego Minixa używanego do nauczania studentów.</p>
+<p align="justify">Szerzej na temat tego typu zależności można poczytać chociażby w WikiPedii, ja odesłałbym dodatkowo np. do wykresu na stronie <a href="http://www.levenez.com/unix/">Unix History</a>.</p>
+<p align="justify">Czym więc jest Linux ? O tym już w kolejnym rozdziale :)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="2"></a><strong><font size="+1">Podstawą są jądra </font></strong></p>
+<p align="justify">Mówimy, że DOS, Windows, Linux, FreeBSD, OpenBSD, ReactOS, itd. itd. są systemami operacyjnymi. Co to tak naprawdę znaczy ?</p>
+<p align="justify">Definicji jest wiele, ja odwołam się do polskiego tłumaczenie słów <a href="http://www.cs.vu.nl/~ast/">Andrew Tanenbauma</a>: &quot;System operacyjny jest warstwą oprogramowania operującą bezpośrednio na sprzęcie, której celem jest zarządzanie zasobami systemu komputerowego i stworzenie użytkownikowi środowiska łatwiejszego do zrozumienia i wykorzystania.&quot;.</p>
+<p align="justify">Myślę, że definicja jest prosta i czytelna. W każdym systemie jest to rozwiązane trochę inaczej, niemniej jednak zawsze będziemy mogli mówić o podstawowym elemencie jakim jest jądro. Jest ono wczytywane i uruchamiane po starcie komputera przez moduł ładujący czyli tzw. bootloader (ten z kolei jest uruchamiany przez BIOS/EFI) i który w obecnych systemach zawiera mechanizmy związane z obsługą procesów (ich przerywanie, kontrola uprawnień, itd.), urządzeń (sterowniki), pamięci operacyjnej, jej rozszerzenia na dysku (czyli pamięci wirtualnej), systemów plików... O ile w Windows to instalator dobiera komponenty związane z daną konfiguracją sprzętową, o tyle np. w Linuxie to użytkownik jest w stanie bardzo precyzyjnie kontrolować ten fragment systemu.</p>
+<p align="justify">Czym tak naprawdę jest Linux ? Nazwa ta określa nie jeden system, ale całą rodzinę systemów unixopodobnych w których wspólne jest właśnie jądro. Do niego dodane są inne programy (najczęściej powstałe w ramach projektu GNU, ale nie tylko) tworząc tzw. dystrybucję. Spotyka się tu czasem nazwę <a href="http://www.gnu.org/gnu/linux-and-gnu.html">GNU/Linux</a>. Takimi dystrybucjami są np. Debian, Ubuntu, Mint, Slackware, Fedora, itd. Każda z nich ma najczęściej jakieś swoje zasady (np. zakaz włączania oprogramowania bez kodu źródłowego), jest zazwyczaj zgodna z normami POSIX, bywa również zgodna ze  specyfikacją określoną w ramach <a href="http://www.linuxfoundation.org/collaborate/workgroups/lsb">projektu  Linux Standard Base (LSB)</a> i domyślnie proponuje jakiś znany format paczek instalacyjnych z programami (najczęściej deb jak Debian, rpm jak Fedora, archiwum tgz z dodatkowymi plikami wewnątrz jak Slackware albo lsb jak zdefiniowano w LSB).</p>
+<p align="justify">Z historią jądra systemu GNU/Linux nierozłącznie wiąże się data 25 sierpnia 1991 i osoba Linusa Torvaldsa (wtedy studenta uniwersytetu w Helsinkach). Wysyła on wtedy swój <a href="http://groups.google.com/group/comp.os.minix/msg/b813d52cbc5a044b?dmode=source">historyczny list, w którym pisze o chęci stworzenia takiego rozwiązania na architekturę x86</a>. Całość jest w jakiś sposób inspirowana m.in. Minixem. We wrześniu 1991 powstaje wersja 0.01, wydanie 0.11 z grudnia 1991 jest kompilowalne na komputerze działającym pod kontrolą siebie samego, z kolei 0.12 (luty 1992) jest opublikowana pod licencją GNU General Public License (GPL). W styczniu 1992 powstaje grupa dyskusyjna alt.os.linux, wielu ochotników zaczyna wspierać pracę Linusa. Kolejne &quot;duże&quot; wersje pojawiają się ze stosunkowo niedużymi odstępami:</p>
+<ul>
+    <li>14 marca 1994 - 1.0.0</li>
+    <li>9 czerwca 1996 - 2.0.0</li>
+    <li>25 stycznia 1999 - 2.2.0</li>
+    <li>4 stycznia 2001 - 2.4.0</li>
+    <li>17 grudnia 2003 - 2.6.0</li>
+</ul>
+<p align="justify">Jak widać - numery wersji składają się obecnie minimum z trzech cyfr. Jeżeli środkowa jest nieparzysta, dana wersja jest testową. Z kolei czasem spotyka się również np. czwartą cyfrę. W Ubuntu i Mincie mamy obecnie jądro 2.6.32 (pomimo, iż została już wydana stabilna wersja 2.6.33).</p>
+<p align="justify">Z bardziej znanych wydarzeń: w 2003 SCO pozywa IBM o złamanie należących do nich praw patentowych (a dokładniej o dodanie do jądra linuxowego fragmentów, których byli właścicielami). Całość zostaje w końcu oddalona...</p>
+<p align="justify">Obecnie jądro linuxowe jest udostępniane na stronie <a href="http://www.kernel.org">www.kernel.org</a> na licencji <a href="?q=gpl2">GNU GPL2</a>, skąd każdy może je bezpłatnie pobrać. Można je wykorzystywać na bardzo wielu platformach sprzętowych.</p>
+<p align="justify">Jest ono monolityczne. Poszczególne elementy wewnątrz takie jak sterowniki mają dostęp do wszystkich zasobów (a więc również np. pamięci zajętej przez inne elementy) czyli działają w tzw. trybie jądra. Nie jest ważne w tym przypadku, iż mogą być one fizycznie ładowane z oddzielnych plików na dysku. Przyspiesza to całość, ale powoduje problemy w przypadku błędów.</p>
+<p align="justify">Ta ostatnia wada spowodowała, iż od dawna próbowano stworzyć takie jądro, w którym ilość elementów z dostępem do wszystkich zasobów byłaby minimalna, a możliwie duża ilość sterowników byłaby fizycznie od siebie odseparowana (tzw. mikrojądro). <a href="http://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate">W 1992 i 2006 kwestia ta (tzn. co jest lepsze - mikrojądro czy jądro monolityczne ?) była dosyć gorąco omawiana między Linusem Torvaldsem i Andrew Tanenbaumem</a>. O ile wczesne implementacje idei mikrojądra były dosyć wolne, obecnie z ich zaletami można się zapoznać np. w systemie <a href="http://www.minix3.org/">Minix 3</a>.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="3"></a><strong><font size="+1">Ubuntu i Mint</font></strong></p>
+<p>Czas przejść do Ubuntu i Mint :) Poniżej ich krótkie porównanie:</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="text-align: center;"><a href="http://www.ubuntu.com/"><strong>Ubuntu</strong></a></td>
+            <td style="text-align: center;"><a href="http://www.linuxmint.com/"><strong>Mint</strong></a></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">minimalna ilość miejsca na dysku</td>
+            <td style="text-align: center;">5 GB</td>
+            <td style="text-align: center;">3 GB</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">minimalna rozdzielczość</td>
+            <td style="text-align: center;">1024x768</td>
+            <td style="text-align: center;">800x600</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">minimalna ilość RAM</td>
+            <td style="text-align: center;">512 MB</td>
+            <td style="text-align: center;">512 MB</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">koniec wsparcia</td>
+            <td style="text-align: center;">kwiecień 2013 (wersja biurkowa),<br />
+            kwiecień 2015 (wersja serwerowa)</td>
+            <td style="text-align: center;">kwiecień 2013</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">wsparcie</td>
+            <td style="text-align: center;">społeczność, firma <a href="http://www.ubuntu.com/aboutus">Canonical Ltd</a></td>
+            <td style="text-align: center;">społeczność</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">platformy sprzętowe</td>
+            <td style="text-align: center;">x86 (32 i 64 bitowe) i inne (np. <a href="http://www.ubuntu.com/getubuntu/releasenotes/1004#Release%20notes%20for%20Ubuntu%2010.04%20for%20ARM">ARM</a>)</td>
+            <td style="text-align: center;">x86 (32 i 64 bitowe)</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">W przypadku pierwszej z nich na stronie www producenta można znaleźć <a href="https://help.ubuntu.com/community/Installation/LowMemorySystems">opisy i wskazówki dotyczące działania z mniejszą ilością RAM</a>.</p>
+<p>Miałem możliwość przetestowania całości na różnych konfiguracjach:</p>
+<ul>
+    <li style="text-align: justify;">w maszynach wirtualnych (oba systemy)</li>
+    <li style="text-align: justify;">na słabej konfiguracji zbliżonej do netbookowej, czyli jednordzeniowy procesor o prędkości ok. 1Ghz, RAM  256MB-512MB, mały i wolny dysk, zintegrowana karta graficzna Intela (Ubuntu)</li>
+    <li style="text-align: justify;">dwurdzeniowy procesor Intela ok. 2Ghz, 3GB&nbsp;RAM, karta graficzna NVidii (Mint)</li>
+</ul>
+<p style="text-align: justify;">Obie dystrybucje wykorzystują różne rozwiązania (m.in. format pakietów instalacyjnych) z innej dystrybucji Linuxa o nazwie Debian. Są to wydania o długim czasie wsparcia (LTS czyli Long Term Support).</p>
+<p style="text-align: justify;">Ubuntu promuje tzw. &quot;wolne oprogramowanie&quot; (w bardzo wielkim uproszczeniu: dostępne z kodem źródłowym i na &quot;odpowiedniej&quot; licencji nie ograniczającej praw użytkownika - dokładna definicja została przedstawiona na <a href="http://www.gnu.org/philosophy/free-sw.pl.html">stronie projektu GNU</a>). Nie należy tego mylić z&nbsp; oprogramowaniem i pojęciem &quot;open source&quot; (bardzo dokładnie różnice zostały opisane np. na <a href="http://www.gnu.org/philosophy/open-source-misses-the-point.html">stronie projektu GNU</a>). Szerzej manifest twórców dotyczący celów i zasad tworzenia jest dostępny <a href="http://www.ubuntu.com/community/ubuntustory/philosophy">tutaj</a>.</p>
+<p style="text-align: justify;"><a href="http://www.linuxmint.com/about.php">Autorzy Minta piszą z kolei o tworzeniu eleganckiej, aktualnej i komfortowej dystrybucji biurkowego systemu GNU/Linux.</a></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="4"></a><strong><font size="+1">Instalacja</font></strong></p>
+<p align="justify">Po wejściu na stronę Ubuntu i kliknięciu na odnośnik  <a href="http://www.ubuntu.com/getubuntu/download">Download Ubuntu</a> mamy dostęp do różnych wersji - &quot;głównej&quot;, &quot;Netbook edition&quot; oraz pochodnych (&quot;Kubuntu&quot;, &quot;Edubuntu&quot;, &quot;Xubuntu&quot;). Różnią się one głównie wyglądem i standardowo zainstalowanymi programami, mamy wydania 32 i 64-bitowe. Są to tzw. wersje LiveCD (aby skorzystać z systemu nie trzeba nic zmieniać na dysku twardym). Można je nagrać na płytę/pamięć flash, uruchomić z nich komputer, a następnie ewentualnie przenieść ich zawartość na dysk twardy.</p>
+<p align="justify">Alternatywną opcją jest użycie oddzielnego tekstowego instalatora albo zainstalowanie całości na partycji z Windows poprzez program instalacyjny działający w  okienkach Microsoft (tzw. rozwiązanie WUBI&nbsp;dostępne na płycie jako plik wubi.exe albo <a href="http://www.ubuntu.com/getubuntu/download-wubi">oddzielnie</a>).</p>
+<p align="justify">Postanowiłem wpierw przetestować najmniej &quot;przyjazny&quot; wariant (z tekstowym instalatorem). Chciałem użyć możliwie małego modułu uruchomionego z płyty CD, który  pobrałby wszystkie pakiety przez sieć. Ponieważ miałem pewne problemy z jego znalezieniem, wykorzystałem google (hasło &quot;ubuntu  network installation&quot;). Pierwszy odnośnik zaprowadził mnie na  stronę <a href="https://help.ubuntu.com/community/Installation">&quot;Installation&quot;</a>,  a stamtąd do pliku <a href="http://archive.ubuntu.com/ubuntu/dists/lucid/main/installer-i386/current/images/netboot/mini.iso">mini.iso</a>  (tylko 13 MB !)</p>
+<p align="justify">Po wypaleniu obrazu na płycie uruchomiłem z niej  komputer... Na ekranie pojawił się niezbyt zachęcający komunikat:</p>
+<p><img width="600" alt="" src="sites/default/files/159/2ubuntu1.png" /></p>
+<p>Trzeba było nacisnąć jakiś klawisz, żeby zobaczyć &quot;właściwe&quot; menu  startowe:</p>
+<p><img width="600" alt="" src="sites/default/files/159/2ubuntu2.png" /></p>
+<p>Potem pojawia się już instalator tekstowy (dzięki temu obraz płyty jest  mały) znany chociażby z Debiana. Wpierw wybieramy język, a później  klawiaturę:</p>
+<p><img width="600" alt="" src="sites/default/files/159/2ubuntu3.png" /></p>
+<p align="justify">Widać tutaj niestety pewne braki w lokalizacji, ale  też dużą ilość obsługiwanych wariantów.</p>
+<p align="justify">Później konfigurujemy ustawienia sieci (ja  wykorzystywałem połączenie przez Ethernet i nie wiem, czy możliwe jest  użycie w tym procesie WiFi) i wybieramy lokalizację serwera z plikami.  Następnym krokiem jest odpowiedź na pytania związane z ustawieniami  zegara.</p>
+<p align="justify">Następnie przechodzimy do partycjonowania dysku. Tu proponowany jest domyślnie system plików z charakterystycznej dla Linuxa serii &quot;ext&quot; (a konkretnie ostatnia wersja &quot;ext4&quot;). Należy zauważyć, iż jest to już obecnie stabilne rozwiązanie, a ewentualne problemy wynikające ze sposobu działania zostały wyeliminowane wraz z jądrem 2.6.30 (<a href="http://en.wikipedia.org/wiki/Ext4">wyjaśnia to np. WikiPedia</a>). System ten może być natomiast ewentualnie wolniejszy niż &quot;ext3&quot;, co zostało przedstawione na <a href="http://www.ubuntu.com/getubuntu/releasenotes/1004#Performance%20regressions%20with%20ext4%20under%20certain%20workloads">stronach Ubuntu</a>. Domyślne proponowana jest również oddzielna partycja na plik wymiany. Moim zdaniem można ewentualnie (np. przy dużej ilości RAM) zrezygnować z niej i później umieścić pamięć wymiany w pliku podobnie jak w Windows (<a href="https://help.ubuntu.com/community/SwapFaq">wymaga to jednakże dodatkowych komend</a>).</p>
+<p align="justify">Później następuje znacznie  dłuższe już pobieranie podstawowego systemu (tutaj brakuje informacji o  przewidywanym czasie całej tej operacji).</p>
+<p align="justify">Po wykonaniu tego konieczne jest podanie danych  logowania użytkownika (nazwa i hasło) i wskazanie, czy jego katalog  domowy ma być szyfrowany. Wtedy instalator wykonuje ulubione pobieranie  kolejnej porcji plików...</p>
+<p align="justify">Następnie wybieramy, czy aktualizacje mają być  pobierane automatycznie i na dysku pojawiają się (cóż za zaskoczenie)  kolejne porcje plików.</p>
+<p align="justify">Później decydujemy o tym, jakie grupy pakietów mają  być pobrane. Wybrałem &quot;Ubuntu Netbook&quot; i wtedy można było już pójść  na dłuższą kawę (tym razem od początku do końca pasek postępu jest z  odliczaniem)...</p>
+<p align="justify">I wreszcie koniec - instalacja boot-loadera,  konfiguracja zegara i prośba o wyciagnięcie płyty z napędu.</p>
+<p align="justify">W przypadku Mint na <a href="http://www.linuxmint.com/download.php">stronie Download</a>   dostępne jest &quot;tylko&quot; 8 wersji (Live CD, Live DVD, wersja dla   producentów komputerów i użytkowników z USA/Japonii - każda 32 i   64-bitowa). Pobrałem 32-bitową Live CD i po uruchomieniu z niej   komputera zobaczyłem następujący pulpit (na obrazku poniżej pokazany z   rozwiniętym menu Start).</p>
+<p align="justify"><img width="600" src="sites/default/files/159/2mint1.png" alt="" /></p>
+<p align="justify">Mimo faktu, iż system pokazał się dzień wcześniej,   widać już informację o 66 uaktualnieniach :) Z kronikarskiego obowiązku: widoczne przy zegarku komputery nie są niestety animowane jak w Windows XP (czyżby projektanci zapatrzyli się aż tak mocno na Windows 7 ;) ?)</p>
+<p align="justify">Po kliknięciu ikony &quot;Install Linux Mint&quot; i podaniu odpowiedzi   na 7 prostych pytań (podobnych to tych z instalatora tekstowego) Linux został posadzony  na  dysku. Wystarczyło tylko wyjąć płytę z napędu, zrestartować komputer i już można było rozpocząć pracę...</p>
+<p align="justify">Z ciekawostek: o ile wersja CD Ubuntu nie mieściła mi się na płytę CD-RW 700 MB, o tyle z Mintem nie miałem tego drobnego &quot;problemu&quot;.</p>
+<p align="justify">Sprawdziłem również opcję alternatywną czyli instalator w technologii WUBI. Na płycie Minta w głównym katalogu jest on umieszczony jako plik mint4win.exe. Należy go uruchomić pod Windows (na obrazku działa w Mincie), podać dane takie jak hasło użytkownika czy wielkość dysku  (którą chcemy przeznaczyć na Linuxa), a zainstaluje całość jak zwykłą  aplikację okienkową (jest widoczna w &quot;Dodaj/Usuń programy&quot; oraz menu  startowym systemu Microsoftu). <strong>Dzięki tej opcji możemy zapoznać się z  tym rozwiązaniem bez potrzeby partycjonowania dysku !</strong></p>
+<p align="justify"><strong><img width="400"  alt="" src="sites/default/files/159/2mint11(1).png" /></strong></p>
+<p align="justify">Są pewne <s>minusy</s> różnice. I tak np.:</p>
+<ol>
+    <li style="text-align: justify;">operacje  dyskowe mogą być wolniejsze (co jest <a href="http://wubi-installer.org/faq.php">wyraźne wskazane przez producenta)</a></li>
+    <li style="text-align: justify;"><s>brak w systemie dostępu do partycji Windows, na której posadzono pliki Linuxa</s> partycja Windows, na której posadzono pliki Linuxa, znajduje się w zupełnie innym miejscu systemu plików niż pozostałe (to zauważyłem  u siebie)</li>
+    <li style="text-align: justify;">partycja wymiany jest zakładana samoczynnie</li>
+</ol>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="5"></a><strong><font size="+1">Środowisko graficzne</font></strong></p>
+<p align="justify">W zależności od tego, co wybraliśmy podczas instalacji, po starcie komputera zostaniemy poproszeni (albo nie) o podanie nazwy użytkownika, jego hasła i środowiska. Poniżej pokazany został ekran logowania z Ubuntu.</p>
+<p align="justify"><img width="600" alt="" src="sites/default/files/159/2ubuntu4.png" /></p>
+<p align="justify"><img width="600" alt="" src="sites/default/files/159/2ubuntu5.png" /></p>
+<p align="justify">Niżej zostało pokazane standardowe środowisko &quot;Ubuntu network edition&quot;. Wersja &quot;2D&quot; (któej używam później) różni się tym, że programy  (sygnalizowane tutaj ikonami na pulpicie, które notabene można wyłączyć)  mogą być pokazywane normalnie w menu (podobnie jak w Windows w menu  Start).</p>
+<p><img width="600" src="sites/default/files/159/2ubuntu6.png" with="500" alt="" /></p>
+<p align="justify">Mint z kolei domyślnie proponuje barwy zielone i wygląd bardziej zbliżony do Windows.</p>
+<p align="justify"><img width="600" src="sites/default/files/159/2mint7(1).png" alt="" /></p>
+<p align="justify">Od strony technicznej: systemy unixopodobne najczęściej jako środowisko graficzne wykorzystują rozwiązania zgodnie z X  Window System znanym również jako X11. Jego istotą jest obecność  serwera (tzw. X Servera). Obsługuje on pulpit, zdefiniowane są z jego  użyciem wyłącznie elementarne operacje związane z położeniem okien, kursora myszy i naciskanymi klawiszami. Jest to klasyczna architektura  klient-serwer i nie jest wielkim problemem udostępnienie pulpitu np.  poprzez sieć (coś na wzór Remote Desktop z Windows). Dystrybucje Linuxa  przez lata zawierały jego implementację o nazwie <a href="http://www.xfree86.org">XFree86</a>, obecnie jest to częściej <a href="http://www.x.org">X.Org</a> (również w Ubuntu i Mint). Z ciekawostek: Mint nie blokuje domyślnie kombinacji  klawiszy Ctrl+Alt+Backspace restartującej środowisko graficzne (w Ubuntu  <a href="http://www.ubuntu.com/getubuntu/releasenotes/1004">trzeba to  sobie uaktywnić</a>).</p>
+<p align="justify">X11 nie definiuje styli okien albo wyglądu ich  krawędzi. Robi to dodatkowy element czyli tzw. menedżer okien. Istnieje  wiele różnych (np. Fluxbox, AfterStep czy Xmonad), dwoma  najpopularniejszymi są obecnie KDE i Gnome (które dodatkowo zawierają  takie aplikacje jak menedżer plików, pasek zadań, menu startowe i inne elementy budujące spójne i kompletne środowisko graficznie jak w Windows  oraz udostępniają zestawy bibliotek pozwalających programistom w prosty  sposób pisać aplikacje okienkowe - odpowiednio QT i GTK+).</p>
+<p align="justify">Gnome powstaje w ramach projektu GNU. Jest ono dosyć mocno preferowane zarówno w Ubuntu jak i Mint (pokazane powyżej pulpity zostały zbudowane właśnie w oparciu o nie). Wersja 1.0  została wydana w marcu 1999, wersja 2.0 w czerwcu 2002, obecna to 2.30 (użyta w opisywanych dystrybucjach).</p>
+<p align="justify">Biblioteki QT przez lata były własnością firmy Qt  Development Frameworks przejętej obecnie przez Nokię (znaną z produkcji  telefonów komórkowych). Obecnie są udostępnione na licencji GNU GPL.  Niestety, ale KDE w wersji 4 szczególnie we wcześniejszych wydaniach było i jest dosyć mocno krytykowane ze względu na  powolność, duże zużycie zasobów oraz brak stabilności. Obecna wersja to KDE 4.4.2, poniżej przykładowy pulpit z Ubuntu.</p>
+<p><img width="600" alt="" src="sites/default/files/159/2ubuntu17.png" /></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="6"></a><strong><font size="+1">Konsola</font></strong></p>
+<p align="justify">Ubuntu i Mint dosyć mocno dbają o to, aby użytkownik mógł zrobić wszystko w okienkach. Jest również inne rozwiązanie (z którym systemy unixopodobne są mocno kojarzone) czyli konsola czy jak kto woli linia komend albo terminal. Historycznie jest ona wcześniejsza niż środowiska graficzne i jest o wiele bardziej rozbudowana niż w Windows.</p>
+<p align="justify">Użytkownik  wpisuje szereg poleceń (ich składnia częściowo zależy od tego, z jakiego  rozwiązania czyli tzw. powłoki korzysta), a one w formie tekstowej  pokazują rezultaty. Wynik działania jednego może być przekazany do  innego i mówimy tutaj o tzw. potokach. Przykładowo: <font face="Courier New">&quot;ls&quot;</font> pokaże nam  spis plików i katalogów w katalogu, w którym się znajdujemy, a <font face="Courier New">&quot;ls | more&quot;</font> podzieli ten spis na strony (żeby  przejść do kolejnej, niezbędne będzie naciśnięcie klawisza). Takie przekazywanie możemy stosować wielokrotnie, systemy unixopodobne mają zresztą wiele małych narzędzi, które potrafią zrobić praktycznie wszystko z przekazywanymi wynikami...</p>
+<p align="justify">Kilka  odpowiedników poleceń z linii komend Windows:</p>
+<ul>
+    <li><font face="Courier New">&quot;dir&quot;</font> to <font face="Courier
+    New">&quot;ls&quot;</font></li>
+    <li><font face="Courier New">&quot;ipconfig&quot;</font> to <font face="Courier New">&quot;ifconfig&quot;</font></li>
+    <li><font face="Courier New">&quot;copy&quot;</font> to <font face="Courier
+    New">&quot;cp&quot;</font></li>
+    <li><font face="Courier New">&quot;move&quot;</font> to <font face="Courier
+    New">&quot;mv&quot;</font></li>
+    <li><font face="Courier New">&quot;cd&quot;</font> to <font face="Courier New">&quot;cd&quot;</font></li>
+</ul>
+<p align="justify">Żeby zobaczyć pomoc do jakiejś komendy, wystarczy  wpisać <font face="Courier New">&quot;man nazwa_komendy&quot;</font>. Aby z kolei  zadziałała ona w tle (zanim się zakończy, my mamy znów dostęp do  terminala i możliwość wydawania poleceń), na jej końcu należy dodać  spację i <font face="Courier New">&quot;&amp;&quot;</font>.</p>
+<p align="justify">Pracę w konsoli możemy sobie ułatwić wykorzystując np.  Midnight Commandera (komenda <font face="Courier New">&quot;mc&quot;</font>)  naśladującego nieśmiertelnego Norton Commandera (dla osób, którego nie  kojarzą tego drugiego - jest to to rozwiązanie w stylu Total  Commandera).</p>
+<p align="justify">Wspomniałem o powłokach - są bardzo różne, wiele ma  swój język programowania (możliwość uruchamiania skomplikowanych  skryptów). Dla ciekawych: Ubuntu i Mint standardowo proponują powłokę bash.</p>
+<p align="justify">Konsola jest dostępna jako oddzielny program w menu środowisk graficznych. Alternatywnie: zawsze mamy dostęp do maksymalnie sześciu terminali (kombinacja klawiszy CTRL+ALT+F1 do CTRL+ALT+F6), a nasze środowisko graficzne (o ile jest oczywiście uruchomione) zobaczymy ponownie po użyciu CTRL+ALT+F7.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="7"></a><strong><font size="+1">Grafika 3D </font></strong></p>
+<p align="justify">Na rynku dostępne są obecnie dwa standardy związane z  tworzeniem grafiki 3D: Direct3D będący częścią bibliotek DirectX  (nieodłączanie związanych z Windows, zamkniętych i tworzonych przez  Microsoft) oraz OpenGL (dostępny dla bardzo różnych systemów  operacyjnych).</p>
+<p align="justify">Dystrybucje Linuxa zawierają najczęściej bibliotekę <a href="http://www.mesa3d.org/">Mesa   3D</a> będącą darmową implementacją OpenGL. Jest ona w stanie działać  nawet, gdy w systemie nie ma działającej sprzętowej akceleracji (poniżej  przykładowe demo <font face="Courier New">&quot;glxgears&quot;</font> i wynik  komendy <font face="Courier New">&quot;glxinfo&quot;</font> z zaznaczonym  fragmentem wskazującym na użycie programowego sterownika). Nawiasem  mówiąc Windows ma podobne rozwiązanie dopiero wraz z siódemką (WARP10).</p>
+<p><img width="600" src="sites/default/files/159/2mesa.png" alt="" /></p>
+<p style="text-align: justify;">Moja karta graficzna NVidii w Mincie została wykryta i zaproponowany został mi własny sterownik producenta (a ja skorzystałem z tej propozycji). Panel różni się znacząco od tego z Windows, inne są np. wartości ustawień barw (podanie tej samej gammy, jasności, itp. nie daje takich samych kolorów jak w systemie Microsoftu). Po włączeniu tego sterownika przestała mi działać kontrola jasności klawiszami funkcyjnymi, z uporem maniaka po restarcie systemu włączana była zawsze najwyższa rozdzielczość.</p>
+<p style="text-align: justify;">Możliwe było już wtedy włączenie efektów graficznych pulpitu (zapewnione przez rozwiązanie <a href="http://www.compiz.org/">Compiz</a>). I tak np. okna przy poruszaniu mogą się zachowywać jak żelki, przy powiększaniu jak trampolina, pulpit może być jedną wielką kostką, Alt-Tab może wyglądać jak w Windows Vista i 7, itd.&nbsp; Opcji jest o wiele, wiele więcej... Niestety na filmiku poniżej widać jeden problem (migotanie). Nie jest ono zauważalne podczas używania systemu i prawdopodobnie wynika z niedoskonałości programów nagrywających (próbowałem&nbsp; Istanbul, recordMyDesktop i <a href="http://xvidcap.sourceforge.net/">XVidCap</a> i ten ostatni został wybrany ostatecznie).</p>
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/M4ORJh5pcTA&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/M4ORJh5pcTA&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+
+<p align=justify>Z kolei w Ubuntu na karcie zintegrowanej Intela miałem inny problem - jak uruchomić akcelerację 3D ze sterownikami od Intela ? Brak było zbioru konfiguracyjnego X.Org oraz narzędzia konfiguracyjnego. Należało &quot;tylko&quot; zalogować się do konsoli, zatrzymać interfejs graficzny (&quot;<font face="Courier New">sudo service gdm stop</font>&quot;), użyć komendy &quot;<font face="Courier New">sudo Xorg -configure</font>&quot;, w sekcji &quot;Device&quot; zamienić sterownik z &quot;vesa&quot; na &quot;intel&quot;, dodać wpisy do sekcji &quot;Monitor&quot; wygenerowane np. przez komendę &quot;<font face="Courier New">gtf</font>&quot; i uaktywnić je w sekcji &quot;Screen&quot;. Moim zdaniem troszkę przerażające dla przeciętnego użytkownika, nie udało mi się uruchomić efektów graficznych pulpitu.<br />
+<br />
+Czy tak czy inaczej - praktyczne działanie całości (sugeruję jednak sprzętową akceleracje ;)) pozwoli sprawdzić np. sympatyczna gra Extreme Tux Racer. Można sobie też poczytać artykuł <a href="http://www.phoronix.com/scan.php?page=article&amp;item=linux_windows_part1&amp;num=11">Is  Windows 7 Actually Faster Than Ubuntu 10.04?</a> (po angielsku), który  próbuje porównać sterowniki Intela, Nvidii i ATI z tym dla Windows 7.  Nie wypada to najlepiej dla Linuxa, niemniej jednak moim zdaniem  pokazuje, iż ta dystrybucja nie jest całkiem &quot;osierocona&quot;.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="8"></a><strong><font size="+1">Wszystko jest plikiem </font></strong></p>
+<p align="justify">Jak poruszać się w tych systemach ? Co jest gdzie ?</p>
+<p align="justify">Paradoksalnie wpierw napomknę trochę o Windows -  obecne wersje (takie jak XP, Vista czy 7) wywodzą się z Windows NT oraz  linii Windows 9x opartej na MS-DOS. Przez wiele lat użytkownicy zostali  przyzwyczajeni do tego, iż:</p>
+<ul>
+    <li>
+    <div align="justify">wielkość liter nie ma znaczenia w nazwach  plików i katalogów</div>
+    </li>
+    <li>
+    <div align="justify">kolejne partycje i urządzenia (dyski twarde,  napędy optyczne, itp.) są oznaczane literami alfabetu i dwukropkiem. I  tak stacja dyskietek to zazwyczaj &quot;A:&quot; lub &quot;B:&quot;, pierwsza partycja dysku  twardego to &quot;C:&quot;, itd. (nawiasem mówiąc - o ile obecnie można  przynajmniej częściowo zmieniać przypisania w oknie &quot;Computer  Management&quot;, o tyle kiedyś było to całkowicie niemożliwe).</div>
+    </li>
+    <li>
+    <div align="justify">pełna ścieżka do katalogu czy pliku zazwyczaj  składa się z nazwy urządzenia i kolejnych katalogów oddzielonych  wyłącznie &quot;\&quot;</div>
+    </li>
+    <li>
+    <div align="justify">uprawnienia do katalogów i plików są teraz (na  partycjach NTFS) określane z użyciem tzw. list dostępu (ACL)</div>
+    </li>
+    <li>
+    <div align="justify">w nazwie pliku może być tylko jedna kropka, a  fragment nazwy po niej jednoznacznie określa format</div>
+    </li>
+</ul>
+<p align="justify">Nie jest to obecnie częściowo prawda - <a href="?q=node/111#8">wielkość liter  może mieć znaczenie</a>, <a href="?q=node/111#1">urządzenia mogą  być udostępniane również jako kolejny &quot;katalog&quot;</a>, ścieżki mogą  zawierać także &quot;/&quot;, kropek może być już wiele. Dzieje się tak częściowo  właśnie ze względu na zgodność z POSIX.</p>
+<img src=sites/default/files/159/przegladarka_plikow.png width=600>
+<p align="justify">W systemach unixopodobnych wygląda to następująco:</p>
+<ul>
+    <li>
+    <div align="justify">wielkość liter ma znaczenie</div>
+    </li>
+    <li>
+    <div align="justfiy">pełna ścieżka składa się z kolejnych katalogów  oddzielonych wyłącznie &quot;/&quot;</div>
+    </li>
+    <li>
+    <div align="justify">w klasycznych rozwiązaniach dany plik czy  katalog ma swojego właściciela (najczęściej użytkownika, który go  stworzył) oraz jest przypisany do tzw. grupy (w której mogą się znaleźć  dowolni użytkownicy systemu). Uprawnienia określa się dla właściciela,  grupy i wszystkich innych.</div>
+    </li>
+    <li>
+    <div align="justify">kropek może być wiele</div>
+    </li>
+</ul>
+<p align="justify">Nie ma dowolności w umieszczaniu plików gdziekolwiek  (do tego dąży także obecnie Windows ;)). Podam kilka przykładów:</p>
+<ul>
+    <li>
+    <div align="justify">&quot;/boot&quot; - skompilowane jądro</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/dev&quot; - pliki, które plikami nie są :)  Wszystkie widoczne tam &quot;zbiory&quot; są bowiem tworzone dynamicznie przez  jądro i zawierają dane związane z kolejnymi fizycznymi urządzeniami (są  mocno zależne od systemu) takie jak np. zawartość ich pamięci (Unix  bowiem próbuje wprowadzić ideę, aby dosłownie wszystko móc obsługiwać  podobnie jak plik)</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/etc&quot; - pliki konfiguracyjne</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/home&quot; - katalogi kolejnych użytkowników  systemu, w których mogą oni składować swoje dokumenty (jego  odpowiednikiem jest windowsowy &quot;Documents and Settings&quot;, w Viście i  Windows 7 zaś &quot;Users&quot;)</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/mnt&quot; lub &quot;/media&quot; - najczęściej w nich możemy  znaleźć zawartość dyskietki czy CD-ROM</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/proc&quot; - zawiera tworzone dynamicznie przez  jądro &quot;pliki&quot; z informacjami o wszystkich uruchomionych w systemie  programach</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/root&quot; - pliki administratora</div>
+    </li>
+    <li>
+    <div align="justify">&quot;/tmp&quot; - pliki tymczasowe</div>
+    </li>
+</ul>
+<p align="justify">Pełna ścieżka do katalogu z plikami użytkownika zwanych ich katalogiem domowym (w  &quot;/home&quot; albo &quot;/root&quot;) bywa skrótowo oznaczana przez &quot;~/&quot;, pliki o  nazwach rozpoczynających się od kropki są traktowane przez wiele  programów jako ukryte. Prawda, że jest to proste ?</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="9"></a><strong><font size="+1">Aktualizacje</font></strong></p>
+<p style="text-align: justify;">Obie dystrybucje zawierają moduły sprawdzające obecność aktualizacji. Wybór pakietów do uaktualnienia czy ręczne sprawdzenie dostępności w obu systemach wymaga niestety podania hasła użytkownika.</p>
+<p style="text-align: justify;">Pakiety w Ubuntu są zapisane w różnych repozytoriach (&quot;main&quot;, &quot;restricted&quot;, &quot;universe&quot;, &quot;multiverse&quot;). Klasyfikacja związana jest np. z dostępnością kodu źródłowego albo innego typu wsparcia (szerzej jest to opisane <a href="http://www.ubuntu.com/community/ubuntustory/components">na stronie producenta)</a>. Jeżeli chcemy mieć jasne powiadamianie o nowościach (jak w  innych systemach), musimy wykonać <a href="http://www.ubuntu.com/getubuntu/releasenotes/1004#Change%20in%20notifications%20of%20available%20updates">dodatkowy   krok opisany przez producenta</a>. <strong>Niestety pomimo tego mój system miał  z tym problemy i musiałem od czasu do czasu samemu klikać odpowiedni przycisk...</strong></p>
+<p style="text-align: justify;">Mint korzysta z  pakietów Ubuntu, co widać na załączonym obrazku (pokazana jest zawartość  pliku /etc/apt/sources.list, który określa źródła w dystrybucjach  GNU/Linux wykorzystujących paczki Debiana).</p>
+<p style="text-align: justify;"><img width="600" src="sites/default/files/159/2mint3(1).png" alt="" /></p>
+<p style="text-align: justify;">Jego firmowy program do instalowania aktualizacji wydaje się być znacznie &quot;przyjaźniejszy&quot; i działa...</p>
+<p><img width="600" alt="" src="sites/default/files/159/2mint4(1).png" /></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="10"></a><strong><font size="+1">Programy</font></strong></p>
+<p style="text-align: justify;">Mint i Ubuntu mają zainstalowane trochę inne domyślne programy. Przykładowo: w pierwszej dystrybucji znalazłem od razu chociażby kodeki do filmów. Do przysłowiowego szczęścia brakowało mi pakietu &quot;mscorefonts&quot; (są to czcionki znane z Windows i ich brak to dziś chyba lekka przesada) i Javy (tej nie było z uwagi na brak miejsca na płycie).<br />
+<br />
+Dodanie czegokolwiek nie jest jednakże problemem. Mamy Centrum Oprogramowania Ubuntu. Znalazłem w nim np. <a href="?q=gammu">&quot;swoje&quot; Gammu</a>.</p>
+<p><img width="600" src="sites/default/files/159/2ubuntu20(1).png" alt="" /></p>
+<p style="text-align: justify;">W Mincie &quot;firmowy&quot; program tego typu wygląda zupełnie inaczej i pozwala na ocenianie poszczególnych pakietów. Ma drobne niedoróbki - czasem np. zdarzało się, że kliknięcie na przycisk do instalacji nie dawało żadnych rezultatów... Podobnie po dodaniu jakiegoś pakietu nie zmieniał się wygląd jego ikony (symbolizującej stan instalacji) na listach z już otwartymi wynikami wyszukiwania...</p>
+<p style="text-align: justify;"><img width="600" src="sites/default/files/159/2mint5(1).png" alt="" /></p>
+<p style="text-align: justify;"><strong>Gorsze w tym systemie jest coś innego - bardzo duży  niepokój wywołuje ostrzeżenie widoczne przy instalacji programów z  użyciem komendy <font face="Courier New">&quot;apt-get&quot;</font></strong>  (standardowej dla dystrybucji korzystających z pakietów w formacie  Debiana):</p>
+<p><font face="Courier New">UWAGA: następujące pakiety nie mogą być  zweryfikowane !</font></p>
+<p><font face="Courier New">Ostrzeżenie uwierzytelnienia zignorowano.</font></p>
+<p style="text-align: justify;"><strong>Nie występuje w Ubuntu dla tych samych pakietów i <a href="http://wiki.debian.org/SecureApt">świadczyć może o  niesprawdzaniu podpisów cyfrowych !</a></strong></p>
+<p style="text-align: justify;">Przy braku próbie wywołania jakiejś niezainstalowanej aplikacji w terminalu oba systemy wskazują jaką komendą go dodać. W przypadku Ubuntu mogłem mieć jedynie pewne zastrzeżenia do polonizacji - OpenOffice w mojej instalacji standardowo nie był spolszczony (trzeba było dodatkowo wejść w systemowe menu &quot;Języki&quot;, aby został zaproponowany brakujący dodatek).</p>
+<p align="justify">Wiele programów znanych z Windows ma swoje dosyć podobne odpowiedniki. I tak np. &quot;K3b&quot; zamiast Nero, &quot;Open Office&quot; zamiast Microsoft Office, &quot;Krita&quot; zamiast Paint.NET,  &quot;Krusader&quot; zamiast Total Commandera. Z ciekawostek: istnieją nawet silniki napisane przez entuzjastów różnych gier  pozwalające w nie zagrać pomimo tego, że ich producent tego nigdy nie  przewidział (np. <a href="http://www.scummvm.org">ScummVM</a> działa chociażby z  plikami &quot;The Secret of Monkey Island&quot;). Nie należy się tutaj absolutnie  obawiać niskich numerów wersji - w  przypadku komercyjnych programów dla  okienek Microsoftu często ich  producenci publikują ich kolejne &quot;duże&quot;  wersje tylko po to, aby wywołać  wrażenie dużych zmian i zwiększyć  sprzedaż (a tutaj nie ma podobnej  &quot;potrzeby&quot;). <br />
+<br />
+Są też inni menedżerowie do instalacji programów. Niestety zależności między pakietami nie zawsze są dobrze opisane. Przykładowo: w mojej instalacji Ubuntu chciałem dodać KDE. W tym celu uruchomiłem &quot;Menedżer pakietów Synaptic&quot;, wybrałem &quot;Środowisko Graficzne KDE&quot; na liście grup pakietów, aplikację &quot;plasma-netbook&quot; na liście pakietów i po dłuższej chwili można było próbować przelogować się do nowego środowiska. Piszę próbować, gdyż komputer zawieszał się po początkowym ekranie logowania (przed wybraniem środowiska). Z tego względu przy instalacji tego systemu polecam wybranie od razu &quot;Kubuntu netbook&quot;, o ile będziemy chcieli korzystać z KDE. Musimy niestety być przygotowani na to, iż to środowisko zacznie np. &quot;rządzić&quot; ustawieniami fontów różnych aplikacji.</p>
+<p style="text-align: justify;">Trzeba przypomnieć, iż oprócz &quot;firmowo&quot; dostępnych programów możemy również wykorzystać zgodność z dystrybucją Debian albo (po doinstalowaniu odpowiednich paczek) LSB. Zawsze można także próbować kompilować programy przygotowane dla różnych rozwiązań unixopodobnych (która z uwagi na dostępność wielu bibliotek i narzędzi ma duże szanse skończyć się sukcesem). Jednym słowem, jeśli jest na co narzekać, to wyłącznie na klęskę urodzaju ;)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="11"></a><strong><font size="+1">Sieć</font></strong></p>
+<p style="text-align: justify;">Ponieważ łatwy dostęp do Internetu jest  najważniejszy dla wielu użytkowników, kilka słów o przeglądarkach.</p>
+<p style="text-align: justify;">Domyślnie proponowany jest Firefox  3.6.3. Instalacja dodatków nie różni się od tego co znamy w Windows  -  Flash Player czy Ad-Block to kwestia  kilku kliknięć myszy. Jeśli chcemy  Javę w Ubuntu,  trzeba <a href="http://www.ubuntu.com/getubuntu/releasenotes/1004#Sun%20Java%20moved%20to%20the%20Partner%20repository">wykonać dodatkowy krok opisany przez producenta</a>.  W moim Mincie z kolei trzeba było dodać pakiet &quot;sun-java6-plugin&quot; (ale  przy wyłączonej przeglądarce !).</p>
+<p style="text-align: justify;"><img width="600" alt="" src="sites/default/files/159/2mint8.png" /></p>
+<p style="text-align: justify;">Zauważyłem migotanie przy odtwarzaniu   filmików z użyciem Flasha w trybie pełnoekranowym  (dotyczyło to <a href="http://www.axnscifi.pl/full-episodes">strony AXN Scifi</a>).   Piszę o tym, gdyż w Windows na tym samym komputerze takiego efektu nie   było. Podobnie nie zadziałał <a href="http://www.vod.onet.pl">VOD Onetu</a> pomimo dostępnej  implementacji Silverlighta (pakiet &quot;moonligh-plugin-mozilla&quot;).</p>
+<p style="text-align: justify;"><a href="http://service.futuremark.com/peacekeeper/">PeaceKeeper</a> wykazał 20 punktów różnicy w  stosunku do wersji z Windows  (&quot;aż&quot; 1%).</p>
+<p style="text-align: justify;">Jest oczywiście również dostępna Opera i Chrome (pod nazwą Chromium).</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="12"></a><strong><font size="+1">Sprzęt</font></strong></p>
+<p style="text-align: justify;">Wsparcie dla sprzętu w systemach GNU/Linux i innych jest w dużej mierze związana z możliwościami jądra.</p>
+<p style="text-align: justify;">W przypadku platformy x86  obsługiwane są m.in. standardy oszczędzania energii APM i obecny ACPI,  dźwięk powstaje z użyciem pakietów <a href="http://www.alsa-project.org/">powstałych w ramach projektu  ALSA</a> (<a href="http://www.opensound.com/">OSS</a> jest już praktycznie  nieużywany), z obsługą tunerów czy kamer związane są elementy z projektu  Video4Linux, monitorowanie temperatury uzyskamy dzięki <a href="http://www.lm-sensors.org/">lm-sensors</a>, sterowniki dla  Bluetooth pochodzą z <a href="http://www.bluez.org">Bluez</a>, wspierane są praktycznie  wszystkie popularne systemy plików. O kartach graficznych pisałem już wcześniej. O  takich &quot;drobiazgach&quot; jak obsługa SATA, wieloprocesorowości, USB 3.0 czy pamięci flash USB nawet nie wspomnę...</p>
+<p style="text-align: justify;">Różne sterowniki bywają dostępne czasem nawet w kilku wersjach - np.  &quot;otwartej&quot; (tworzonej przez społeczności programistów) i &quot;zamkniętej&quot; (udostępnianej przez producenta sprzętu). Czasem obsługiwane są wyłącznie podstawowe właściwości (np. w <a href="?q=node/110">karcie dźwiękowej Sound Blaster X-Fi Go!</a> brak jest dodatkowych efektów dźwiękowych takich jak symulacja otoczenia)</p>
+<p style="text-align: justify;">Karty WIFI mogą być obsługiwane w oparciu o sterowniki napisane dla Windows. Zapewnia to rozwiązanie o nazwie ndiswrapper - <a href="https://help.ubuntu.com/community/WifiDocs/Driver/Ndiswrapper">tutaj jest przykładowy opis jego wykorzystania dla dystrybucji Ubuntu</a>, natomiast Mint miał je już standardowo dodane.</p>
+<p style="text-align: justify;">Z bardziej &quot;egzotycznych&quot;, ale również ważnych (których niestety nie przetestowałem): udało mi się np. znaleźć wsparcie dla akcelerometra chroniącego dyski twarde w notebookach HP (ale już <a href="http://www.ianbmacdonald.com/wordpress/2009/12/21/hp-laptop-accelerometer">&quot;poza&quot; dystrybucjami</a>). Nie wiem też jak w praktyce obsługa Blue-Ray (według opisów z Internetu działa) czy SSD (zgodnie z opisami wsparcie komendy TRIM&nbsp;na &quot;ext4&quot; wymaga co najmniej jądra 2.6.33).</p>
+<p style="text-align: justify;">Ciekawostką jest, iż w Mincie domyślnie znalazłem program HardInfo dosyć dobrze zaspokajający moją potrzebę zobaczenia szczegółów konfiguracji sprzętowej (obie opisywane dystrybucje nie mają bowiem niczego na wzór Menedżera Urządzeń z Windows). Niestety nie pokazywał on poprawnie np. wszystkich urządzeń USB, stąd musiałem posiłkować się &quot;<font face="Courier New">hwinfo</font>&quot; działającym w konsoli...</p>
+<p style="text-align: justify;"><img width="600" src="sites/default/files/159/2mint9.png" alt="" /></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="13"></a><strong><font size="+1">DOS i Linux i Windows w jednym stali domku... </font></strong></p>
+<p align="justify">Podstawowym chyba argumentem zwolenników systemów Microsoftu przeciw Linuxowi jest brak zgodności. binarnej Nie do końca jest to prawda, o czym świadczą dostępne tutaj programy (mogą być dodane np. z użyciem wskazanych wcześniej menedżerów).</p>
+<p align="justify">Najbardziej znanym pakietem pozwalającym na uruchamianie skompilowanych aplikacji Windows jest <a href="http://www.winehq.org/">Wine (skrót &quot;Wine Is Not an Emulator&quot;)</a>, który próbuje zaimplementować funkcje tego systemu w środowisku X11. Jest to trudne (co widać po liście obsługiwanych programów w najwyższym statusie Platinum) ze względu na ilość funkcji. Jest on znany również z innego powodu - obecnie wykorzystuje się jego  kod w <a href="http://reactos.org">systemie  operacyjnym ReactOS</a> będącym próbą napisania darmowego odpowiednika  Windows.</p>
+<p align="justify">Rozszerzeniem Wine jest pakiet &quot;PlayOnLinux&quot; ułatwiający proces  instalacji aplikacji (udało mi się zainstalować Firefoxa 3.6.3, na liście jest np. Office 2007). Podobną rolę pełni&nbsp; &quot;wine-doors&quot;. Powstały też inne. Są one ukierunkowane na gry. Mówię tutaj o komercyjnych pakietach <a href="http://www.cedega.com/">Cedega </a>i <a href="http://www.codeweavers.com/products/">CrossOver</a> (trzeba je sobie oddzielnie pobrać ze strony ich  producentów).</p>
+<p align="justify">Z kolei darmowy <a href="http://www.dosbox.com">DOSBox</a> jest emulatorem ukierunkowanym na uruchamianie gier działających w DOS. Ponieważ mamy dostęp do wirtualnej maszyny Javy, nie jest problemem również wykorzystanie  emulatora <a href="http://javapc.sourceforge.net/">JPC</a> w przeglądarce www...</p>
+<p><img width="600" src="sites/default/files/159/2doswin.png" alt="" /></p>
+<p align="justify">Czasem nawet to nie jest możliwe (przykład: musimy czytać <a href="?q=node/95">pliki CHM</a> wymagające oryginalnego Internet Explorera). Mamy wtedy maszyny wirtualne. Wystarczy użyć np. chociażby <a href="http://www.virtualbox.org/">VirtualBox</a> i w nim uruchomić oryginalne okienka (na które oczywiście potrzebna będzie odpowiednia licencja)... Z mniej znanych - jest darmowe <a href="http://www.dosemu.org">DOSEMU</a> pozwalającą na pracę ze starszymi programami  przeznaczonych do DOS (domyślnie uruchamia ono w niej najczęściej darmową wersję  systemu DOS napisaną w ramach projektu <a href="http://www.freedos.org/">FreeDOS</a> i wprawdzie z Windows może sobie nie poradzi, ale ze starym oprogramowaniem PeCetowym nie powinno mieć problemu).</p>
+<p align="justify">Ale uruchamianie to nie wszystko - z wyjątkiem najnowszego rozwiązania Microsoftu o nazwie exFAT (które nawiasem mówiąc w Windows XP i Viście <a href="?q=node/108#3">wymaga doinstalowania dodatków)</a> systemy GNU/Linux są w stanie obsłużyć z użyciem darmowych sterowników wszystkie systemy plików stworzone przez tę firmę. Nie ma problemu np. z odzyskiwaniem z nich skasowanych danych (można znaleźć chociażby <a href="https://help.ubuntu.com/community/DataRecovery">odpowiedni opis na stronach związanych z dystrybucją Ubuntu</a>). Podobnie można współdzielić pliki (rozwiązanie o nazwa <a href="http://www.samba.org/">Samba</a>) albo odczytywać zawartość plików w formacie VHD (komenda <font face="Courier New">&quot;vdfuse&quot;</font>). Z ciekawostek: jeżeli mamy jeszcze jakieś stare dyskietki z czasów, gdy  używaliśmy DOS (teraz raczej rzadkość :)) i nasz system będzie miał  jakiekolwiek z nimi problemy, możemy wykorzystać pakiet Mtools. Dzięki  nim np. do wyświetlenia zawartości wystarczy komenda <font face="Courier
+New">&quot;mdir&quot;</font> wydana obowiązkowo z konsoli :)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="14"></a><strong><font size="+1">Bezpieczeństwo </font></strong></p>
+<p align="justify">Systemy unixopodobne są kojarzone głównie z bezpieczeństwem. Od zawsze wymagane było tutaj chociażby logowanie.</p>
+<p align="justify">Obecnie troszkę się to zmienia, a podejście do tego tematu jest inne w każdym systemie. W Ubuntu i Mint można ustawić, aby któryś z użytkowników był automatycznie logowany, zawartość pamięci flash pokazuje się od razu (nie trzeba używać komendy <font face="Courier New">&quot;mount&quot;</font>), sieć jest automatycznie włączana, powiększenie uprawnień wymaga natomiast użycia komendy <font face="Courier New">&quot;sudo&quot;</font>. Pozwala to pogodzić bezpieczeństwo z wygodą użytkowania.</p>
+<p align="justify">Na pewno nie należy się tutaj mocno obawiać złośliwych aplikacji  przeznaczonych dla okienek Microsoftu, gdyż te najczęściej się nie  uruchomią...</p>
+<p align="justify">Mint ma zainstalowany domyślnie firewall (Gufw), mnie do gustu przydał bardziej inny (<font face="Courier New">&quot;firestarter&quot;</font>). Dodanie takiego oprogramowania i skonfigurowanie go jest o tyle ważne, iż opisywane systemy mają domyślnie włączony cały ruch sieciowy przychodzący i wychodzący, a wspomniane rozwiązania umożliwią łatwe ustawienia odpowiednich reguł (które np. pozwolą wyłącznie na wychodzącą transmisję protokołu http). Niestety nie zauważyłem tutaj możliwości kontroli ruchu na poziomie konkretnych aplikacji (jest to poniekąd związane z możliwościami jądra).</p>
+<p align="justify">Trzeba zauważyć, iż nawet wtedy nie można zapominać o zwykłym elementarnym rozsądku ani ciągłym aktualizowaniu komponentów systemu (ale wyłącznie z oficjalnych repozytoriów !). <strong>Trzeba tu wyraźnie napisać, iż nawet wtedy trzeba pamiętać o jednym słabym ogniwie w każdej z tych dystrybucji (w Ubuntu o potencjalnym problemie ze sprawdzaniem uaktualnień, w Mincie zaś z weryfikowaniem podpisów cyfrowych).</strong></p>
+<p style="text-align: justify;">Więcej możemy uzyskać np. uruchamiając przeglądarkę www i aplikacje korzystające z sieci w maszynach witualnych (pomysł ten został wykorzystany w opartym m.in. na dystrybucji Linuxa Fedora systemie <a href="http://qubes-os.org/">Qubes</a> znanej polskiej specjalistki od bezpieczeństwa Joanny Rutkowskiej, który obecnie jest w trakcie tworzenia).</p>
+<p align="justify">Chciałbym tutaj również podać odnośnik do artykułu <a href="http://www.viruslist.pl/news.html?newsid=538">Dlaczego pingwiny żyją dłużej, czyli o atakach na Linuksa</a> pracowników Kaspersky Lab Polska. Myślę bowiem, iż lepiej mówić o pewnych problemach niż je przemilczać.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="15"></a><strong><font size="+1">Plusy i minusy</font></strong></p>
+<p align="justify">Moim zdaniem dystrybucje GNU/Linux wprowadzają tak niezbędną konkurencję na rynku systemów operacyjnych. Coraz mniej czynności wymaga w nich doktoratu z informatyki i tak naprawdę w wielu wypadkach użytkownicy bywają do nich uprzedzeni głównie z uwagi na...nazwę (&quot;skoro to Linux, to musi być coś trudnego&quot;).</p>
+<p align="justify">Z tych i wielu innych względów najbardziej znanym i używanym systemem jest niewątpliwie Windows XP. &quot;Wystarczająco dobry&quot;, wspierany przez lata, <a href="http://www.benchmark.pl/aktualnosci/Microsoft_chce_zniechecac_do_XP-28572.html">obecnie jest pewnym problemem dla Microsoftu, który stara się przekonać użytkowników do zakupu niekoniecznie lepszego Windows 7</a>. Po prostu korporacja chce na czymś zarobić. Jest o co walczyć - kwota z każdej licencji pomnożona przez miliony kopii daje niezłą sumkę.</p>
+<p align="justify">Dystrybucje Linuxa są w większości darmowe, nikt nie zmusza do niczego ich użytkowników. To oni wybierają to co lubią. I chociaż na rynku widać w dalszym ciągu dziesiątki dystrybucji (potwierdza to np. <a href="http://distrowatch.com/">DistroWatch</a>), &quot;głównych&quot; jest dosłownie kilka i praktycznie wszystkie mają  obecnie wsparcie różnych firm. Mówiąc inaczej, wiele &quot;gorszych&quot; rozwiązań zostało już wyeliminowanych dawno temu. A że czasem coś nie od razu zadziała ? No cóż, gdyby wszyscy programiści tego oprogramowania mieli tyle funduszy, co Microsoft...</p>
+<p align="justify">Siłą ale i słabością Windows jest zgodność. Kolejne wersje &quot;okienek&quot; potrzebują coraz więcej zasobów w celu jej zachowania, całość jest coraz bardziej skomplikowana (<a href="http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-of-Windows/1259792850">jak przyznał jeden z projektantów firmy Mark Russinovich nie rozumieją oni już nawet pewnych zależności między różnymi elementami</a>). Jak to działa w praktyce, widać w przypadku tabletów i zapowiedzi kolejnych firm, iż rezygnują z łączenia z nimi Windows 7.</p>
+<p align="justify">Dystrybucje Linuxa są często o wiele lepsze pod tym względem - zazwyczaj programy w nich instalowane są z pakietów zawierających odpowiednie informacje tego typu (dzięki temu wiadomo, iż A wymaga np. również bibliotek X, Y i Z). Nie trzeba również umieszczać wszystkiego na dysku &quot;na wszelki wypadek&quot;.</p>
+<p align="justify">Wiele programów dostępnych dla dystrybucji linuxowych ma publikowany również kod źródłowy. Może to powodować pewne zagrożenia (np. to, iż jakaś usterka zostanie zauważona przez &quot;nieodpowiednich&quot; ludzi), ale też zazwyczaj przyspiesza pojawianie się poprawek oraz uzupełnień (wszak mogą je robić wszyscy). Dostępność kodu przydaje się nie tylko programistom. Również &quot;zwykli&quot; użytkownicy mogą bowiem na tym zyskać - po zbudowaniu wersji binarnych aplikacji z uwzględnieniem np. specyfiki konkretnego procesora (np. czy jest to układ Intela czy AMD) może ona działać szybciej lub być mniejsza. Czasem takie budowanie oznacza wydanie np. jednej czy dwóch komend w konsoli, w niektórych dystrybucjach jest to robione wręcz &quot;automatycznie&quot; przy instalacji programów.</p>
+<p align="justify">Nie chciałbym oczywiście tworzyć wrażenia, iż wszystko tutaj działa idealnie. Jest to oprogramowanie pisane przez ludzi i także zawiera błędy oraz niedoróbki. Jego mocną stroną jest fakt, że zazwyczaj dowiadujemy się o wielu z nich i są one poprawiane często szybciej niż w przypadku produktów pewnych znanych korporacji.</p>
+<p align="justify">Jak wspomniałem wcześniej, również chociażby jądro monolityczne zawsze będzie sprawiać problemy. I tu wychodzi kolejna zaleta - wiele oprogramowania znanego z dystrybucji GNU/Linux działa również w  innych systemach unixopodobnych i z uwagi na przenośność/dostępność kodu źródłowego na pewno zadziała w rozwiązaniach z lepszymi jądrami (nad którymi są prowadzone prace - o tym świadczy np. <a href="http://www.debian.org/ports/hurd/">strona projektu Debian  GNU/Hurd</a>).&nbsp;</p>
+<p align="justify">Problemem dalej pozostaje brak wsparcia dla różnych rozwiązań własnościowych  (np. systemów plików). Trzeba napisać tutaj wyraźnie, iż nie jest to  wina twórców, ale bardziej różnych firm, które z uporem maniaka je  wprowadzają.</p>
+<p style="text-align: justify;"><strong>Obie dystrybucje mimo wszystko są przykładem bardzo dobrego oprogramowania z tego gatunku. Czy któraś z nich jest więc dla Ciebie ?</strong></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="16"></a><strong><font size="+1">Podsumowanie</font></strong></p>
+<p align="justify">Porównałbym sytuację trochę do jazdy samochodzem z automatyczną skrzynią  biegów. Tak działa Windows - spalanie jest wyższe, jest dużo części  wewnątrz i dosyć często trzeba coś łatać. A skrzynia manualna ? Bardzo  prosta, wystarczy trochę wiedzy i rozsądku (wszak nikt chyba nie próbuje  włączyć pierwszego biegu przy 100 km/h ;)), aby jeździć dynamiczniej i z  większą frajdą. I co z tego, że czasem jakiś bieg zazgrzyta ? Coś za  coś ;)</p>
+<p align="justify">Mówiąc inaczej: jeśli nie chcesz nic zmieniać i nie widzisz świata poza Windows, możesz sobie je darować. Po prostu zabraknie Ci szukania &quot;sztuczek&quot; w Rejestrze, jego defragmentacji, &quot;hackowania&quot; pliku ze stylami, itp.</p>
+<p align="justify">Z kolei typowe potrzeby (Internet, poczta,  komunikator, od czasu do czasu jakiś dokument, itp.) na pełno zostaną w  pełni zaspokojone. Są tylko cztery warunki:</p>
+<ul>
+    <li>
+    <div style="text-align: justify;">słowo Linux nie może doprowadzać Cię z automatu  do choroby</div>
+    </li>
+    <li>
+    <div style="text-align: justify;">musisz mieć w pogotowiu jakiegoś informatyka  lub też informatyczkę i czasami możesz potrzebować kilka minut ich pracy  (choć trzeba przyznać, iż sytuacja wygląda o niebo lepiej niż kilka lat temu i może to teraz być już bardzo rzadkie)</div>
+    </li>
+    <li>
+    <div style="text-align: justify;">należy zapomnieć o niektórych aplikacjach  znanych z Windows</div>
+    </li>
+    <li>
+    <div style="text-align: justify;">konieczne jest zaakceptowanie pewnych unixowych  standardów - np. to że system rozróżnia wielkość liter przy nazwach  plików</div>
+    </li>
+</ul>
+<p align="justify">Powiem więcej: jeśli teraz używasz Windows XP, to Ubuntu czy też Mint moim zdaniem sprawi Ci podobną ilość problemów z interfejsem jak Vista czy Windows 7.</p>
+<p align="justify">Zachwycona będzie osoba posiadająca  minimum średnio podstawową wiedzę techniczną (szczególnie jeśli nie ma  zbyt dużej dawki wolnego czasu). Opcji jest naprawdę dużo...system  nadaje się też świetnie do zainstalowania w maszynie wirtualnej i  wykorzystywania do różnych &quot;dziwnych&quot; celów :)</p>
+<p align="justify">Uniksowi puryści niewątpliwie skierują swoje kroki w stronę innych dystrybucji... Wszak kto to słyszał, żeby CD-ROM się sam montował...</p>
+<p align="justify"><strong>A która jest lepsza ? </strong>Jedni wolą jabłka, jedni gruszki. Jednym wystarcza samochód z fabryki,  inni wolą ten sam samochód poddać pewnemu tuningowi (np. zwiększyć moc w  określonym przedziale obrotów, ale stracić niskie spalanie). Moim zdaniem ten wybór to głównie kwestia gustu...</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<!--comments-->
+Title:Artykuł jest na wykopie
+ID:193
+Author:Anonymous (not verified)
+When:7 Jul 2010
+
+<p><a href="http://www.wykop.pl/link/402166/linux-wcale-nie-jest-trudny/">http://www.wykop.pl/link/402166/linux-wcale-nie-jest-trudny/</a></p>
+<!--comment-->
+Title:...i drugi link z wykopu (powiązany)
+ID:211
+Author:Anonymous (not verified)
+When:18 Jul 2010
+
+<p><a href="http://www.wykop.pl/link/402689/do-wszystkich-pseudospecjalistow-it-z-wykopu/">http://www.wykop.pl/link/402689/do-wszystkich-pseudospecjalistow-it-z-wy...</a></p>
+<!--comment-->
+Title:Bardzo długi i ciekawy
+ID:603
+Author:Anonymous (not verified)
+When:10 Oct 2010
+
+<p>Bardzo długi i ciekawy artykuł :)</p>
+<p><a href="http://www.google.pl">Google</a></p>

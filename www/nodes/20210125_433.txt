@@ -1,0 +1,34 @@
+﻿Title:Mordercze jabłka (i nie tylko)... czyli jednak elektronika jest niebezpieczna (2021)
+Author:marcin
+When:25 Jan 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Mordercze-jablka-i-nie-tylko-czyli-jednak-elektronika-jest-niebezpieczna,112990.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p><a href="https://support.apple.com/en-us/HT211900" target="_blank" rel="noopener" rel="nofollow">Apple wydało oświadczenie</a>, że iPhone generacji 12 i urządzenia MagSafe należy trzymać w odległości przynajmniej 15 cm od urządzeń medycznych albo 30 cm przy korzystaniu z ładowania bezprzewodowego. <a href="https://www.purepc.pl/apple-iphone-12-i-akcesoria-magsafe-wplywaja-na-rozruszniki-serca-i-inne-urzadzenia-medyczne-mamy-oswiadczenie-producenta" target="_blank" rel="noopener" rel="nofollow">Piszą o tym różne portale</a>, a mnie zastanawia jedno - ilu użytkowników o tym będzie pamiętać?</p>
+
+<!--break-->
+ 
+<center><img src="sites/default/files/433/iphone-410324_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+ 
+<p>Pójdźmy dalej - <a href="https://www.samsung.com/sar/sarMain.do?site_cd=pl" target="_blank" rel="noopener" rel="nofollow">taka np. strona Samsunga</a> zawiera jasną informację &quot;Przeprowadzono badania współczynnika SAR dla urządzenia noszonego przy sobie w odległości 1.5 cm od ciała. Aby spełnić wytyczne dotyczące ekspozycji na promieniowanie o częstotliwościach radiowych podczas noszenia urządzenia przy sobie, należy zachować co najmniej tę samą odległość od ciała. Światowa Organizacja Zdrowia, amerykańska agencja Food and Drug Administration i inne organizacje sugerują osobom, które chcą ograniczyć ekspozycję na promieniowanie, użycie zestawów głośnomówiących umożliwiających trzymanie urządzeń komórkowych z daleka od głowy i ciała podczas korzystania, a także ograniczenie czasu korzystania z urządzeń.&quot;</p><p>Ilu użytkowników myśli o trzymaniu urządzenia 1.5 cm od ciała?</p>
+ 
+<p>Wielokrotnie w swoim blogu wspominałem o tym, że obecną niepokojącą tendencją jest wzrost współczynnika SAR w obecnych telefonach - o ile wcześniej np. Samsung mógł się szczycić wartościami maksymalnie ok. 0.7 (według norm europejskich), obecnie standardem stało się 1.5.</p>
+ 
+<p>Należy przy tym pamiętać o jednej rzeczy, czyli &quot;ziarnko do ziarnka i zbierze się miarka&quot; - w urządzeniach takich jak telefon ważna jest transmisja komórkowa, Wifi, Bluetooth, NFC, hotspot, ładowanie bezprzewodowe (a wielu z nas, szczególnie w przypadku &quot;jabłek&quot; nie wyłącza niektórych z nich)</p>
+ 
+<p>Obecnie pracujemy w domu i pewnie korzystamy z internetu przez komórkę - myślę, że nikomu korona z głowy nie spadnie, jeśli zamiast stawiać hotspot Wifi podłączymy nasze urządzenia kabelkiem i położymy je jak najdalej od nas (no chyba, że nasz pracodawca nie pozwala na podłączanie nieautoryzowanych urządzeń USB, to wtedy można przynajmniej próbować ustawić minimalny poziom mocy w karcie Wifi w komputerze).</p>
+ 
+<p>Czasy &quot;grzejników&quot; komórkowych (tak, pamiętam jeszcze kaloryfery analogowego Centertela) bezpowrotnie minęły, ale co powiemy na 5G i agregację pasm?</p>
+ 
+<p>Szczególnie wpływ fal milimetrowych na organizm człowieka jest dyskusyjny (i daleko mi od teorii foliarskich)... a mnie zawsze, jak ktoś mówi o tym, jakie to błogosławieństwo móc ściągać film w jedną sekundę, przypomina się ruch uliczny i fakt niezaprzeczalny, że poprawa jego organizacji w miejscu A (np. przebudowa skrzyżowania) zawsze spowoduje, że problem po prostu przeniesie się dalej.</p>
+ 
+<p>Czy należy więc zrezygnować z szybkiego internetu? Oczywiście, że nie... ale w pierwszej kolejności TRZEBA budować światłowody i kable, a dopiero później myśleć o tzw. ostatniej mili.</p>
+ 
+<p>Pójdźmy dalej - nasze kochane komputery i gadżety mają monitory i ekrany. Wielu z nas nie widzi problemu w korzystaniu ze szklanych powierzchni czy urządzeń z PWM, podczas gdy właśnie to potrafi być przyczyną dolegliwości (takich jak zmęczenie czy rozdrażenie).</p>
+ 
+<p>Moja rada zawsze i wciąż pozostaje jedna - wybierajmy konstrukcje bez migania i gdzie tylko możliwe używajmy matu (ewentualnie sprawdźmy, który lepiej tolerujemy - ja np. nie trawię folii matowych z fioletowym odblaskiem). <a href="?q=node/402">Kilka rad na temat wyboru ekranów już dawałem</a>, nie chcę do tego wracać.</p>
+ 
+<p>Choć może wielu z nas na to nie zwraca uwagi, ważny jest też dźwięk, a konkretnie to, jak tony wydaje nasza elektronika (czy jej układ chłodzenia jest piskliwy, czy mamy elektroniczne &quot;popiskiwania&quot;, itp.).</p>
+ 
+<p>Myślę, że temat Apple i MagSafe to wierzchołek góry lodowej. Nie bójmy się mówić głośno o tym, że niektóre nowoczesne rozwiązania są mocno dyskusyjne pod względem zdrowotnym. Może nie mamy tutaj takich przykładów jak w przemyśle samochodowym (ponieważ tak naprawdę nikt nie chciał wprowadzić klimatyzacji na dwutlenek węgla, to użyto substancji, która zmienia się w gaz bojowy w wyższej temperaturze, a takie się zdarzają przy wypadkach)... i może nie są to rzeczy takiego pokroju jak cukier i papierosy, ale...&#160;&nbsp;</p>

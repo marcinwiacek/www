@@ -1,0 +1,16 @@
+﻿Title:Takie tam...
+Author:marcin
+When:12 Jan 2012
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Przyjemność z odpakowywania prezentów<br />
+i przeżycia różnych ciekawych iwentów,<br />
+od przyjaciół oraz znajomych życzenia,<br />
+świeczki na torcie i inne wspomnienia,</p>
+<p>ja życzę Ci w ten dzień w roku jedyny,<br />
+gdy przeżywasz i świętujesz urodziny,<br />
+mówiąc krótko wszystkiego najlepszego,<br />
+radości oraz spełnienia marzenia każdego.</p>
+<!--break-->

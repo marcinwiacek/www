@@ -1,0 +1,118 @@
+﻿Title:Hey Joe! Potrzymaj mi piwo - dlaczego w Polsce nie ma własnych OS ani przeglądarek ani większych pakietów? (2020)
+Author:marcin
+When:20 Apr 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Sobieski
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Hey-Joe-Potrzymaj-mi-piwo-dlaczego-w-Polsce-nie-ma-wlasnych-OS-ani-przegladarek-ani-wiekszych-pakietow,107517.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dzisiaj wpis typowo blogowy, czyli o mentalności różnych ludzi i jak to się przekłada na IT.</p>
+
+<p>Zacznijmy od klasycznego<i><br/></i></p>
+
+<p><i>&quot;Hello everybody out there using minix -</i></p>
+
+<p><i>I&#39;m doing a (free) operating system (just a hobby, won&#39;t be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I&#39;d like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).</i></p>
+<!--break-->
+<p><i>I&#39;ve currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I&#39;ll get something practical within a few months, and I&#39;d like to know what features most people would want. Any suggestions are welcome, but I won&#39;t promise I&#39;ll implement them&#160;:-)</i></p>
+
+<p><i>Linus (torvalds@kruuna.helsinki.fi)</i></p>
+
+<p><i>PS. Yes - it&#39;s free of any minix code, and it has a multi-threaded fs. It is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that&#39;s all I have&#160;:-(.&quot;</i></p>
+
+<p>Powyższy tekst to oczywiście cytat z <a href="https://groups.google.com/forum/#!original/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ" target="_blank" rel="noopener" rel="nofollow">https://groups.google.com/forum/#!original/comp.os.minix/dlNtH7RRrGA/S...</a></p>
+
+<p>Podobne podejście mają ludzie w wielu części świata:</p>
+
+<ul><li>Hey Joe! <i>You can&#39;t do it. </i>No, I can&#39;t? Take my beer. Ameryka great again!</li>
+
+<li>Good morning Sir. <i>I need this and this. Can you do it? </i>Yes Sir, we can do it. We can do everything (tu niestety często i gęsto wychodzi odwrotnie niż powinno, ale to już temat na inny artykuł...)</li></ul>
+
+<p>Dlaczego o tym piszę?</p>
+
+<p>W moich czasach (wiem, jak to brzmi) wielu młodych ludzi narzekało, że uczelnie polskie są na niskim poziomie... że siedzi tam masa teoretyzujących profesorów, którzy nie potrafią odnaleźć się na rynku (co nie zawsze było prawdą, ale wyjątki potwierdzały regułę).</p>
+
+<p>Od czasu do czasu piszę różne narzędzia i widzę, że ta tendencja niestety dalej wylewa się na rynek, na którym (zbyt) wiele razy słychać: Nie da się. Za długo. Za trudne. Za mniej niż 15K nie ruszam. Lepiej skorzystać z gotowych rozwiązań (w domyśle: zrobionych przez kogoś)</p>
+
+<p>Dużo Januszy Nosaczy chce przyjść na gotowe (hehe, przyjdę, wezmę, pójdę, hehe) albo czuje radość w krytykowaniu (nie mówię o konstruktywnej krytyce) - stąd zapewne posty pewnego pana, który poniekąd ma rację wytykając problemy na styku różnych kombinacji sprzętu i pewnych otwartych rozwiązań (i tak żywiołowa odpowiedź na nie).</p>
+
+<p>Mnie w takich wypadku zawsze nachodzi pytanie: a gdzie nie ma błędów? Mac OS jak i Windows jak i Linux najlepsze są do określonych zastosowań, a każdy z nich ma swoje odchyłki od normy. Życie.</p>
+
+<p>Ja jakoś jestem w stanie każdy z tych systemów skonfigurować i robić na każdym z nich cuda i cudeńka, szkoda, że jechanie po jednym z tych systemów na DP tak mocno karmi trolling.</p>
+
+<p><a href="?q=node/394">W swoim poprzednim poście</a> napisałem jasno o MileStone 2 projektu Sobieski+:</p>
+
+<p>&quot;Na pewno pierwsze kamienie milowe nie są doskonałe (kod bywa długi, nie ma opisów, nie wszystkie warstwy middleware są wydzielone, itp.), ale nie taka ich rola&quot;</p>
+
+<p>i celowo dodałem tytuł</p>
+
+<p>&quot;Jeden uparty kaleczy JavaScript&quot;</p>
+
+<p>Przedstawiłem sprawy jak są i nie próbowałem wciskać takiego kitu, jak ten o jakości pewnych programach &quot;edukacyjnych&quot; z TV.</p>
+
+<p>Bardzo mnie ucieszyły wszystkie komentarze - generalnie napisane w sposób grzeczny i rzeczowy.</p>
+
+<p>Zastanowiło mnie kilka rzeczy:</p>
+
+<ul><li>tylko jedna osoba zapytała się &quot;akceptujesz PR? Może mógłbym coś pomóc w pisaniu&quot;</li>
+
+<li>w praktyce tylko jednak osoba otwarcie napisała &quot;nie przejmuj się opiniami o niskiej jakości kodu&quot;<br/></li>
+
+<li>sporo osób wskazało rzeczy oczywiste (takie jak mieszanie nazw polskich i angielskich, itp.) - zostało to napisane w dobrej wierze, ale poniekąd wskazało niezrozumienie mojej intencji (napisane wpierw całości kodu, przygotowanie architektury, itp. i dopiero później szlifowanie poprawności kodu)</li>
+
+<li>dużo osób zaczęło trochę teoretyzować - zostało to napisane w dobrej wierze, ale pokazało pewną odtwórczość, może przywiązanie do tego, co gdzieś kiedyś jakiś autorytet napisał</li></ul>
+
+<p>Widać tu pewną mentalność - brak chęci praktykowania (OK, CMS to nie jest temat dla każdego), ale też dużą chęć czy potrzebę teoretyzowania.</p>
+
+<p>Myślę, że w wielu częściach świata reakcja mogłaby być trochę inna - zamiast teoretyzowania/narzekania pytanie byłoby jedno: jak mogę pomóc?</p>
+
+<p>Sporo projektów informatycznych zaczyna od prototypów (które pisane są tak, żeby być &quot;feature complete&quot; i pokazać, na ile dana technologia się nadaje), potem nachodzi faza szlifowania kodu, dopisywania dokumentacji, tysięcy testów, robienia ładnego GUI, dodawania nowych feature, itp.</p>
+
+<p>Sobieski zatrzymał się pomiędzy fazami (wiadomo, projekty sobie, a życie sobie), Sobieski+ jest gdzieś pomiędzy etapem jeden i dwa.</p>
+
+<p>Pójdźmy dalej - dużo programistów czy też &quot;programistów&quot; krytykujących Open Source jedzie po nich jak po burej kobyle, ale nie bierze w ogóle pod uwagę, że standardy użyte w projektach zamkniętych mogą być o niebo gorsze... ale te projekty wygrywają, bo są używane (nie dlatego, bo są lepsze).</p>
+
+<p>Czy Windows 3.1 był naprawdę tak niezły jakościowo? A 9x? A Windows XP przed SP2?</p>
+
+<p>Pytanie do wielu z was (niekoniecznie osób, które mnie komentowały): czy naprawdę dalej będziecie mówić, że każdy kod w wielkiej firmie jest od linijki?</p>
+
+<p>Proszę bez hipokryzji mi tu.</p>
+
+<p>Wielu z was pracuje w korpo i zna realia, w których dużą rolę odgrywa outsorcing, czyli w praktyce pisanie za najniższą możliwą stawkę (często przez &quot;programistów&quot; z egzotycznych krajów).</p>
+
+<p>Albo w drugą stronę - czy myślicie, że w Google czy innej firmie nie wyciskają z technologii ostatnich soków i zawsze piszą zgodnie z best practises? Że nie robią różnych tricków, żeby coś chodziło szybciej?</p>
+
+<p>Do czego prowadzi przesadne teoretyzowanie, widać na przykładzie projektu Servo Mozilli - miało być pięknie, strukturalnie, szybko i w ogóle miodnie, a po iluś latach developmentu jest masa kodu, ale działającego tragicznie (i napisanego nieczytelnie albo ze wstawkami z innych języków).</p>
+
+<p>Widać to też na przykładzie różnych projektów rządowych (najczęściej oczywiście w klasycznym V-modelu) - jest przetarg, masa dokumentacji, specyfikacji, potem jeden sztywny kod i &quot;lessons learnt&quot; (a nie powinno być, że programiści robią ileś prototypów, proponują najlepsze rozwiązania, są elastyczni? Weźmy przykład na przykład z Czech z systemem do winiet).</p>
+
+<p>Kiedyś mieliśmy TAG, MksVir i dużo innych własnych projektów, obecnie na pewno mamy fachowców (którzy potrafią w nocy o północy wykazać, że danym języku var jest do tego, a const do czegoś innego), ale pracują na garnuszku firm z zagranicy... bo nie mają czasu, nie chce im się, itp.</p>
+
+<p>Zaczynałem od kodowania w C i assemblera i siłą rzeczy kod bywał średnio czytelny, teraz praktyką jest np. rozdrabnianie wszystkiego na klasy (&quot;bo to jest zgodne ze wzorcami projektowymi&quot;). Widywałem już sytuacje, że jedna generyczna klasa była dziedziczona w ośmiu plikach, w których było po kilka linijek kodu i kilkadziesiąt z nagłówkami Copyright (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1091753" target="_blank" rel="noopener" rel="nofollow">1091753</a>).</p>
+
+<p>To &quot;upraszczanie&quot; kodu dochodzi w różnych wypadkach dochodzi do absurdu, generując samych klepaczy zamiast inżynierów (nie zmienia to oczywiście faktu, że jakość kodu Sobieski+ będzie poprawiana w kolejnych MileStone).</p>
+
+<p>Bo ja panie nie siadam do czegoś, co ma tysiąc linii...</p>
+
+<p>Ogromnie dziękuję za wasze komentarze. Będą stopniowo uwzględniane. Są cenne, ale też pokazują w niektórych miejscach &quot;profesorskie&quot; podejście, które różni się od mojego &quot;Hey Joe&quot;. </p>
+
+<p>Żeby była jasność - myślę, że najważniejsze jest znalezienie wyważonego podejścia między jakością kodu, a tym, żeby projekt w ogóle był i żeby był przydatny i żeby miał odpowiednią jakość.</p>
+
+<p>Wolę napisać pięćset commitów przez pół roku i mieć działający schludny projekt niż pół roku czegoś tam próbować i napisać raz, a dobrze &quot;zgodnie ze sztuką&quot; (nie zmienia to faktu, że na produkcję pewne kiepskie rzeczy u mnie nigdy nie szły i nie pójdą).</p>
+
+<p>Jeżeli mam zastosować tu analogię, to można to trochę porównać do trenowania sieci neuronowej w oparciu o znane wzorce (związane z doświadczeniem, best practises, etc.).</p>
+
+<p>Wolę też oglądać konkret (czyli np. działający commit udowadniający, że coś może być lepsze, szybsze, mniejsze) niż godziny teoretycznych dyskusji.</p>
+
+<p>Powiem ogólnie, abstrachując od tego, co teraz robię: nie zabijajmy inicjatyw w zalążku. Wspierajmy projekty pisane z sercem i z myślą o ludziach. Nigdy nie miejmy postawy roszczeniowej.</p>
+
+<p>Jeśli ktoś chce mieć zabawę i uczestniczyć w pisaniu plikowego CMS, zapraszam do tworzenia PR na GitHub albo przynajmniej do kontaktu. Jeśli ktoś chce zająć się moimi innymi narzędziami, zapraszam (kiedyś proponowałem chociażby otwarcie &quot;Przepisów drogowych&quot;).</p>
+
+<p>Na tym polega rozwój.</p>
+
+<p>Jak mawiał Stephen King - ćwiczyć, ćwiczyć, ćwiczyć.</p>
+
+<p>Jak się nie uda teraz, to za miesiąc :)</p>
+
+<p>Teraz Polska!&#160;</p>
+
+<p>PS. Tytuł jest celowo prowokujący - mógłbym oczywiście wykazać różne projekty rozpoczynane przez polskich programistów, takie jak Quebes OS&#160;&nbsp;</p>

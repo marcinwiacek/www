@@ -1,0 +1,25 @@
+﻿Title:droga
+Author:marcin
+When:23 Mar 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Szukać odpowiedzi,<br />
+z dozą świadomości,<br />
+jak dużo gawiedzi,<br />
+żyć w samodzielności,</p>
+<p>równość wywyższając,<br />
+ideały każdej też osoby,<br />
+za wzór tak stawiając,<br />
+by nie było żałoby,</p>
+<p>działać ekologicznie,<br />
+z każdą normą młodą,<br />
+wciąż tak ekonomicznie,<br />
+łączyć z natury urodą,</p>
+<p>czyny swe włączając,<br />
+z szacowaniem skutków,<br />
+postęp wprowadzając,<br />
+z korzyścią dla ludków,</p>
+<p>a Ty którą drogę wolisz ?</p>
+<!--break-->

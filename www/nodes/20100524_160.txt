@@ -1,0 +1,24 @@
+﻿Title:Różni bywamy
+Author:marcin
+When:24 May 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Gdy byliśmy mali, różne rzeczy robiliśmy,<br />
+konwenansami się nie przejmowaliśmy.<br />
+Gdy byliśmy butni, piękni, zdrowi i młodzi<br />
+myśleliśmy, że nic i nikt nam nie zaszkodzi.<br />
+Gdy się teraz nieuchronnie starzejemy,<br />
+w wyścigu złudzeń się ciągle znajdujemy.<br />
+Że księcia na białym koniu znajdziemy,<br />
+że w totolotka caluśką pulę zgarniemy,<br />
+że awans w pracy w końcu dostaniemy<br />
+albo że coś nieosiągalnego osiągniemy.<br />
+Jedni już się z tego marzenia otrząsnęli,<br />
+inni do tego niestety czy stety nie dojrzeli.<br />
+Nie zabierajmy im tego ulotnego wrażenia,<br />
+<!--break-->
+bo im potrzebne do twórczego spełnienia.<br />
+Dzięki niemu dadzą Wam różniste nowości<br />
+i wprowadzą w światy nieznanej jakości...</p>

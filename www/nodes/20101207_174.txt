@@ -1,0 +1,24 @@
+﻿Title:Jak można życzyć
+Author:marcin
+When:07 Dec 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Obchodzisz dziś dzień niezwykle magiczny<br />
+i na pewno będzie on mocno sympatyczny.<br />
+W dniu tym wiele nabiera innego znaczenia<br />
+i mogą się spełnić nasze skryte marzenia.</p>
+<p>Ten dzień od zawsze zwiemy urodzinami<br />
+i w nim z niespodziankami się spotykamy.<br />
+Przyjmij ode mnie te skromne rymowanki<br />
+napisane dla uroczej i przemiłej koleżanki.</p>
+<p>A życzę Tobie wszystkiego najlepszego<br />
+i rychłego spełnienia się marzenia każdego,<br />
+humoru dobrego, zdrowia doskonałego<br />
+i kolejnego roku bardzo mocno pomyślnego...</p>
+<p>Życzę, żebyś w trakcie miesięcy dwanaście<br />
+<!--break-->
+z każdego problemu gromko tylko śmiała się...<br />
+I żebyś się z dobrocią ludzką jeno spotykała<br />
+i każde nawet małe pragnienie zrealizowała...</p>

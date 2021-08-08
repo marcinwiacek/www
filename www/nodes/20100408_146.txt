@@ -1,0 +1,18 @@
+﻿Title:startujemy
+Author:marcin
+When:08 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Piszę te słowa po świętach bez rodziny<br />
+ot tak usiadłem bez żadnej przyczyny.<br />
+Myśli mam pełno niespodziewanie,<br />
+na papierze może coś z nich zostanie.<br />
+Wieszcz ze mnie żadny, mocnom niedoskonały,<br />
+ale moment ku temu jest wspaniały<br />
+żeby spisywać próbki talentu mego<br />
+może da to początek czegoś wspaniałego ?<br />
+O bardzo różnych osobach tutaj się rozpisuję,<br />
+imion nie daję, inaczej wiele z nich mnie zlinczuje.</p>
+<!--break-->

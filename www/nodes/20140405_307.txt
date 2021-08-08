@@ -1,0 +1,21 @@
+﻿Title:Zmiany
+Author:marcin
+When:05 Apr 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Coś długo było,<br />
+coś się skończyło,<br />
+coś tu przybędzie,<br />
+coś inne będzie,</p>
+<p>życie to zmiany,<br />
+burzone plany,<br />
+los tak nieznany,<br />
+wciąż odkrywany,</p>
+<p>co noc oddaje,<br />
+co dzień wydaje,<br />
+co wciąż spotyka,<br />
+co tak dotyka,</p>
+<p>kochaj....</p>
+<!--break-->

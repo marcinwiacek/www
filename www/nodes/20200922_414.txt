@@ -1,0 +1,130 @@
+﻿Title:Dziękuję panie Wirth za wspaniałe dzieciństwo... (2020)
+Author:marcin
+When:22 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Windows,Linux
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Dziekuje-panie-Wirth-za-wspaniale-dziecinstwo,111000.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<!--break-->
+
+<p>Tak się bardzo dziwnie złożyło, że moja przygoda z komputerami rozpoczęła się w dużej mierze od 16-bitów i tzw. poważnych zastosowań.</p>
+
+<p>Powodem tego było to, że gry na wczesnych klonach IBM PC wyglądały na pewno gorzej niż np. na Amidze, nieśmiertelnym C64, Atari X800 czy chociażby ZX Spectrum. W pewnym rozrzewnieniem wspominam chociażby pierwszą całkowicie trójwymiarową wyścigówkę (nazwy niestety nie pamiętam), Microsoft Flight Simulator czy Test Drive, a hity takie jak Cywilizacja, Lemmingi, Prince of Persia, F117, Comanche, Retaliator, LHX, Wolf3D, Doom, Quake to oczywiście lata (znacznie) późniejsze...</p>
+
+<p>Dużo się wtedy działo w temacie rozszerzania możliwości sprzętu - od wymiany kart graficznych po szukanie lepszych monitorów, kart dźwiękowych, graficznych, CD-ROM, dysków, itp.</p>
+
+<p>Jak napisałem, na początku dużo myślałem o tzw. profesjonalnych zastosowaniach (a właściwie miałem z tym styczność), czyli o Windows, MS Office czy... wpierw o Basicu </p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4yn4YdNwJls?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>albo znacznie lepszym Pascalu (oba pod MS-DOS).</p>
+
+<center>
+<img src="sites/default/files/414/1.png" style="width:526px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>W tamtych czasach to już była wyższa szkoła jazdy - całkiem &quot;ładne&quot; kolorowe IDE i pełnoekranowe edytory, a nie pisanie linia po linii.</p>
+
+<p>Tworzyło się w tym różne programy, wymieniało je z kolegami, udostępniało w różnych miejscach (zazwyczaj nie w Internecie, bo w tamtych czasach nie było ani 202122 ani Neostrady) i... dopieszczano wiele szczegółów, dbając dosłownie o każdy bajt i cykl procesora.</p>
+
+<p>Nie wszystko tam było proste - sam np. bardzo źle wspominam bibliotekę Turbo Vision (przejście z programowania funkcyjnego na obiektowe okazało się dla mnie koszmarem z uwagi na źle napisane podręczniki).</p>
+
+<p>Potem pojawiło się Delphi i Visual Basic i wszystko znów wskoczyło na właściwe tory - można było łatwo, szybko i przyjemnie &quot;rysować&quot; swoje aplikacje uzupełniając &quot;mięsko&quot; kodem.</p>
+
+<p>O ile rozwiązania Microsoft średnio przypadły mi do gustu (mówię o VB i wczesnych Visual Studio, jeszcze przed erą .Net), to produkty firmy Borland nie miały sobie równych i przez całe lata 90-te (a nawet później) pisano w nich całkiem spore poważne aplikacje np. do księgowości (ciekawe było to, że tak samo łatwo tworzyło się je również w Borland C++).</p>
+
+<p>To był czas rozwoju wielu lokalnych firm w różnych krajach i jeśli mam być szczery, to gdyby nie wysiłek wielu programistów tamtych lat, to nie powstałyby kolejne technologie... i kolejne rozwiązania, bez których nie wyobrażamy sobie dzisiaj świata (nie oszukujmy się - szybsze i lepsze przetwarzanie danych od zawsze napędzało gospodarkę i pozwalało zarobić, dając również fundusze na rozwój).</p>
+
+<p>To było kiedyś, dziś natomiast się uśmiałem czytając anonimowe zdanie &quot;Amatorski wyrzyg złośliwości i osobistych uprzedzeń a nie dziennikarstwo&quot;.</p>
+
+<p>Zastanówny się nad tym:</p>
+
+<ul><li>anonimowe to (no bo wstyd się podpisać)</li>
+
+<li>broniące jedynych słusznych rozwiązań (mają one wiele zalet, ale również wad, i tylko to staram się pokazać, na miarę swoich możliwości oczywiście)</li>
+
+<li>mylące prosty wpis blogowy (a więc subiektywną być może opinię) z porządnym artykułem (gdzie są udowodnione i podparte mocnymi dowodami tezy)</li>
+
+<li>przyznające mi chyba legitymację dziennikarza</li></ul>
+
+<p>Właśnie w tym momencie zdałem sobie po raz kolejny sprawę, że młode pokolenie (bo jak mniemam napisała to osoba na poziomie rozwoju przeciętnego dwudziestolatka) nauczyło się chyba tylko wskakiwać, przelecieć wzrokiem, napisać kilka słów (anonimowo!) i polecieć dalej...</p>
+
+<p>&quot;denny jestes, nara!&quot;</p>
+
+<p>Zero refleksji, zero czegoś głębszego (no bo po stworzyć jakąś głębszą polemikę? lepiej rzucić emotką)</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Uo0KjdDJr1c?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>Tak to często wygląda z pewnej perspektywy. </p>
+
+<p>Wszystko teraz musi być na Facebooku, GitHubie, Instagramie i w kilku innych miejscach... każdemu się należy i nie można takiej osoby w żaden sposób skomentować (w jej mniemaniu każdy komentarz jest nieludzki, homofobiczny i rasistowski).</p>
+
+<p>Starsi programiści często nie mieli podanego niczego na tacy i w nocy musieli siedzieć i pisać kod, który grzebał po rejestrach karty VGA albo robił inne fikołki... a dzisiaj jest ten nieszczęsny Google, Apple, Microsoft i kilka innych firm... i dla młodych rzeczywiście może to wyglądać, że stare pryki tylko narzekają na najwspanialsze produkty świata.</p>
+
+<p>Problem w tym, że są wspaniałe, ale nie najwspanialsze.</p>
+
+<p>Kropka.</p><p>(nie, nie mam zamiaru wracać w tym momencie do czasów, gdy nosiło się dyskietki albo gdy nie było Internetu)</p><p>Dla szukających czegoś więcej:</p>
+
+<ul><li><a href="https://spidersweb.pl/plus/2020/09/kapitalizm_sieci_platformy_cyfrowe_wyzysk" target="_blank" rel="noopener" rel="nofollow">„Dla cyfrowych platform jesteśmy biomasą mieloną na profile marketingo...</a></li>
+
+<li><a href="https://spidersweb.pl/plus/2020/09/cyfrowy-dylemat-netflix-dezinformacja-dane-prywatnosc" target="_blank" rel="noopener" rel="nofollow">Nie żyjemy w globalnej wiosce, tylko w globalnej fabryce. </a>Za darmo pracujemy i jeszcze się z tego cieszymy.</li></ul>
+
+<p>Z drugiej strony czego się jednak spodziewać, gdy dla wielu sieć wygląda na przykład tak? (chodzi o wszechobecne reklamy)</p>
+
+<center>
+<img src="sites/default/files/414/IMG_0003.PNG" style="width:304px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Ich ulubiona firma pokazuje im środkowy palec, nie potrafiąc nawet dodać funkcji Swype w swojej klawiaturze ani polskiej listy dialogowej w filmach swojej usługi VOD, a nie od dzisiaj wiadomo jak nazywa się syndrom przywiązania do kogoś, kto niekoniecznie działa dla naszego dobra.</p>
+
+<p>Przyglądałem się ostatnio obecnemu iPadowi mini - nie powiem, ładnie wykonany i lekki, ale... bez AMOLED, wodoszczelności, ze złączem Apple u dołu i z cienkim delikatnym kablem w zestawie (jak to się ma do &quot;ekologiczności&quot; firmy ?), bez funkcji sprawdzania kondycji baterii jak w iPhone (być może można to załatwić przez oddzielne apki), bez wyłączania Bluetooth i Wifi z widgetów (trzeba wchodzić do Settings), itd. itd.</p>
+
+<p>Taka strategia firmy, ale... również takie wychowywanie kolejnych Karen, że trzeba być online, trzeba kupować oddzielne akcesoria i wszyscy mają się dostosować (nomen omen podłączyłem to urządzenie pod komputer i okazało się, że pod Linuxem widać nawet system plików, ale nie można nic skopiować).</p>
+
+<p>Chociaż zdarza mi się oglądać <a href="https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww" target="_blank" rel="noopener" rel="nofollow">kanał 8-bit Guy</a> i z jednej strony nie chciałbym wracać do takich laptopów (no może tylko na jakichś zlotach)</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4XgyXI1WqcI?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>z drugiej jednak strony ten nowy sterylny czysty idealnie cyfrowy sprzęt często jest taki nieludzki (np. dźwięk brzmi o niebo gorzej niż ze starych magnetofonów).</p>
+
+<p>Szkoda, że młodziaki są pozbawione tych doświadczeń i możliwości porównania.</p><p>A wracając do Pascala... pierwotnie chciałem pokazać sam język i opisać darmowe środowisko Lazarus, które nie jest całkiem zgodne z produktem Borlanda, ale daje podobną łatwość tworzenia programów. </p>
+
+<center>
+<img src="sites/default/files/414/2.png" style="width:608px;height:342px;" alt="image" title="image" />
+</center>
+
+<p>W sumie mogłaby to być ciekawa podróż przy odkrywaniu, jak to coś radzi sobie z platformowością, wieloma rdzeniami CPU, itp.</p>
+
+<p>Tylko czy w dzisiejszych czasach ktoś jeszcze potrzebuje takiej wiedzy?</p>
+
+<p>Czy tak czy inaczej dziękuję panie Wirth, że dane mi było liznąć wiedzy tajemnej - nauczyłem się dzięki temu dobrych nawyków (wcięcia w kodzie, nazwy zmiennych, myślenie o złożoności obliczeniowej, itp.)</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Eyd8LZU3klw?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>W tamtych czasach w szkole polskiej usiłowano wprowadzać Logo Komeniusz (bardzo edukacyjne to było, ale jakby nie przystające do realiów)... a ja nie dość, że miałem frajdę, to jeszcze korzystałem z tego, co było uznanym standardem.</p>
+
+<p>Obecnie Lazarus jak i Free Pascal Compiler to dla mnie bardziej ciekawostki (podobnie jak podobno &quot;uwolnione&quot; Turbo Vision) i koduję w czym innym, sentyment jednak pozostał... Nabrałem być może złych nawyków, ale chyba tylko głównie z braku czasu i się nie tłumaczę (jeśli ktoś pamięta moje rozważania o CMS - dziękuję za merytoryczne komentarze).</p>
+
+<p>Może już nie przystaję do tych &quot;nowoczesnych&quot; czasów, ale powiedziałbym, że mam mocne wrażenie, że za dużo rzeczy wygląda tak:</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/iKcWu0tsiZM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>albo tak</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/XM-HJT8_esM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>Ale co się dziwić?&#160;</p>
+
+<p><a href="https://demotywatory.pl/4790156/Kolo-historii" target="_blank" rel="noopener" rel="nofollow">https://demotywatory.pl/4790156/Kolo-historii</a>&#160;&nbsp;</p>

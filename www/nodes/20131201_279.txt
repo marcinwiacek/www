@@ -1,0 +1,113 @@
+﻿Title:Planowane postarzanie - głos przeciwny (2013)
+Author:marcin
+When:01 Dec 2013
+Taxonomy:Polski,Polski blog,Android,GSM,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/Planowane-postarzanie-glos-przeciwny,49680.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+Dzisiaj przeczytałem:
+
+<!--break-->
+<p>&nbsp;<br><b>"Producent musi znaleźć kompromis między ceną, wydajnością i niezawodnością urządzenia. Jeśli musi zapewnić minimum X lat działania urządzenia, dobierze elementy i zaprojektuje urządzenie tak aby minimum tyle wytrzymało, gdyż chcąc zrobić urządzenie które wytrzyma 2 albo 3X lat może zrobić urządzenie dwa razy droższe. "</b>
+
+<p>i 
+
+<p><b>"Osobiście wierzę że jeśli producenci mogą wpłynąć na niezawodność produktów bez podniesienia ich ceny, zrobią to, gdyż to wpłynie na postrzeganie marki przez klientów, co nie zmienia faktu że na pewno wiele z urządzeń które posiadamy są specjalnie zaprojektowane tak, aby popsuły się po pewnym czasie. Ale w moim mniemaniu działa to bardziej na niekorzyść producenta"</b>
+
+<p>(to z tekstu <a href=http://www.dobreprogramy.pl/Postarzanie-produktu-z-nieco-innej-strony,Blog,49675.html>"Postarzanie produktu, z nieco innej strony..."</a>)
+
+<p>Wszedłem sobie na stronę Samsunga (<a href=http://www.samsung.pl>samsung.pl</a>) do sekcji Smartfony, i co widzę ? Galaxy Ace 3, Galaxy Core, Galaxy Star, Galaxy Pocket Plus, Galaxy S4 Zoom, Galaxy S4 mini, Galaxy Trend, Galaxy Express, Galaxy S4 Active, Galaxy Pocket Neo, Galaxy Mega, Galaxy Grand, Galaxy S4, Galaxy XCover2, Galaxy Young..... (celowo wybrałem tylko część tego co jest z Androidem).
+
+<p>Proszę mi teraz odpowiedzieć - czy producent, który zaprojektował wiele tak w sumie podobnych urządzeń, naprawdę ponosi aż tak duże koszty projektowania kolejnych "nowych" ? Dodam, że niektóre z nich są produkowane w kilku wariantach - np. S4 mini to GT-i9190, GT-i9192, GT-i9195, GT-i9198, itd.
+
+<p>Czy taki producent będzie zainteresowany projektowaniem urządzeń trwałych ? Czy przy tak masowej produkcji będzie się liczył głos nawet 10% czy 20% użytkowników, którzy wybiorą konkurencję ?
+
+<p>Dodam też kilka liczb:
+
+<p>PeaceKeeper w standardowej przeglądarce - 613 do 443 (0,38 szybciej)
+
+<p>Quadrant Standard - 6870 do 1258 (4,46x lepiej)
+
+<p>CaffeineMark - 14496 do 5326 (1,72x lepiej)
+
+<p>BenchmarkPi - 183 ms do 1332 ms (6,28x szybciej)
+
+<p>(to część liczb dotyczących Galaxy S i Galaxy S4 mini z mojego tekstu <a href=?q=node/261>"Samsung Galaxy S4 mini - drugie spojrzenie 1.03.... (2013)"</a>)
+
+<p>I co ? Telefon, który posiada o tyle lepsze wyniki, potrafi się "przycinać" ze standardowym firmware (jest to objaw wskazywany przez pewną część użytkowników GT-i9192 i GT-i9195). Czy Samsung na to reaguje ? Zresztą - czy przy takiej ilości mutacji producent jest w stanie fizycznie zapewnić poprawki oprogramowania ? Czy przy coraz szybszym tworzeniu np. kolejnych eSek można też wszystko dobrze zoptymalizować ?
+
+<p>Dochodzi też kolejny efekt - np. jedna ze stron z mniej lub bardziej legalnymi zrzutami firmware do używanego przeze mnie modelu pokazuje ok. 67 wariantów (nie używam, ale sprawdzenie listy raczej nie jest nielegalne ;) -> każdy wariant to najczęściej inna podstawa + inne dodatki). I mówimy tu o jednym modelu... Jakby nie można było dać jednego rdzenia + całkowicie modularnie dodatków oddzielnie (albo ewentualnie zrobić jednego rdzenia ze wszystkimi językami i opcją ich usuwania z menu + ewentualnie aplikacjami brandowanymi na oddzielnej partycji). Na pewno można to technicznie rozwiązać (i mówię to jako inżynier)....
+
+<p>Jeśli mówimy o kosztach - np. S4 mini to teraz orientacyjnie ok. 1100 - 1500 PLN, S4 Duos to cena ok. 3400 PLN, S4 to ok. 1800 - 2200 PLN. Czy różnica w ich cenie naprawdę uwzględnia tylko koszty projektowania i części ?
+
+<p>Myślę, że główne tezy z artykułu <a href=http://www.dobreprogramy.pl/Postarzanie-produktu-z-nieco-innej-strony,Blog,49675.html>"Postarzanie produktu, z nieco innej strony..."</a> dotyczą głównie firm małych (które są dosyć szybko wykupywane przez gigantów), w przypadku dużych zaś liczy się tylko zysk za wszelką cenę, który prowadzi nawet do szafowania życiem ludzkim (zatrucie środowiska, świetlówki z rtęcią, HFO-1234yf, itd. itd.). 
+
+<p>Pocieszające jest to, że nawet tam z czasem się on kończy - co jest złe (jakość jeszcze bardziej spada), ale też zmusza ludzi do poszukiwania alternatyw. Tak było przy Nokii, tak chyba zaczyna być przy Samsungu (<a href=?q=node/263>na co wskazywałem</a>), tak może być przy Androidzie....
+
+<p>Bo nie oszukujmy się w przypadku tego ostatniego, że jest taki dobry i wspaniały - wersja 4.4 na wielu słuchawkach niekoniecznie może działać lepiej, zaś zaczynają razić takie braki jak brak pełnego dostępu do SMS (tak, tak, nie można wysyłać dowolnego SMS binarnego....) czy teraz od wersji 4.2 brak dostępu do APN (dostęp został zablokowany i aplikacja niesystemowa nie może ich nawet czytać) czy wiele innych rzeczy... 
+
+<p>Oczywiście ktoś powie - jest root i inne takie, niemniej jednak w pewnych bardziej profesjonalnych zastosowaniach jest nie do przyjęcia używanie nawet rozwiązań typu Cyanogen (jest kod źródłowy, ale mogą one niekoniecznie zachowywać się poprawnie i zapewniać gwarantowaną stabilność).
+
+<p>Czy możnaby to uzdrowić ? Zabrzmi to jak utopia, ale należałoby zlikwidować nadprodukcję i dać większe możliwości kupienia urządzeń o konfiguracji modułowej wybieranej przez użytkowników (czyli składanych na zamówienie)....
+
+<p>PS. Tak, używam teraz Samsunga, ale chętnie bym się przesiadł na Jollę, gdyby nie jej SAR i brak obsługi 2 SIM.
+
+<p>PS2. pomyślałem, że to co napisałem powyżej to raczej banały i warto również dać powód do mniej lub bardziej zjadliwych komentarzy + coś niebanalnego do myślenia:
+
+<pre>
+Rozwijać, plany robić, kolonizować,
+plantować, konsumować, urbanizować,
+
+i tak poprzez pokolenia niezliczone,
+dotyka ziemi i niebo nieskończone,
+przemarsz ku wszystkiego niszczeniu,
+trend ku porządku natury zmienieniu,
+i cięty jest las na paliwa do palenia,
+trute powietrze wymagane do istnienia,
+
+i mówimy, że postęp ciągły wyrabiamy,
+że lepiej jest, że sens głęboki mamy,
+i pracują wszyscy, by normę wyrobić,
+słupki były ładne, aby plany zrobić,
+
+mamy podatki, kagańce, są i zalecenia,
+mobbing, kariera, wytłumione marzenia,
+stalking oraz pieniądze bez pokrycia,
+praca nienormowana nie dająca życia,
+
+wiele terminów, byśmy tylko pracowali,
+byśmy tak żyli, jak "elyty" przykazali,
+nie ma miejsca do własnego myślenia,
+ma być kara bez kagańca i więzienia,
+
+świat wartości jest non stop wywracany,
+temu tylko ciągle jest podporządkowany,
+byśmy nie pamiętali, że dzieci składały,
+ten czy inny gadżet nowy, modny, mały,
+
+byśmy tylko karierę bez ducha uprawiali,
+byśmy jedni innych w tym wciąż pilnowali,
+aby oni posłusznie w kieraci się stawali,
+i innego zdania także nie przekazywali,
+
+nie masz czegoś, to u wielu nie istniejesz,
+gdy nie pokazujesz chaty, kasą nie piejesz,
+to nie dostaniesz wielkich przyjemności,
+i uśmiech u damy żadnej nigdy nie zagości,
+
+hipokryzję pełną gębą tu często widać,
+niejeden tom możnaby w temacie wydać,
+a ciekawe jest wśród mętnego ględzenia,
+jak wielu ma chęci tego przezwyciężenia,
+
+ale dni długie mijają, oni się nie ruszają,
+bo już ciężkość tylko niestety posiadają,
+zamiast coś zmienić i zamiast spróbować,
+wolą siedzieć w cieple i się nie trenować,
+
+najciekawszy wniosek natomiast tu gości,
+że wszyscy jesteśmy śmieszni w wielkości,
+bo słońce, woda, księżyc i inne czynniki,
+wystarczy kropelka, a u nas pełno paniki.
+</pre>
+
+(<a href=?q=node/251>źródło</a>)

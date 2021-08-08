@@ -1,0 +1,60 @@
+﻿Title:Rok 2013 pokaże dalej… (2013)
+Author:marcin
+When:03 Jan 2013
+Taxonomy:Polski,Polski blog,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2013/01/rok-2013-pokaze-dalej.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dawno, dawno temu nie było pieniędzy, a ludzie wymieniali się towarami i usługami.
+
+<p>Później zaczęto wymieniać się np. złotem jako zapłatą za pracę czy dobra. Zaczęto oddawać panom dziesięciny i inne dobre w zamian np. za ochronę.
+
+<p>Z czasem podatków przybywało, a pieniądz złoty zamieniono na papierowy (mający na początku jednakże pokrycie w kruszcu). Podatki rosły...wprowadzono też na rynek coraz więcej jednorazowych towarów.
+
+<!--break-->
+<p>Pieniądze miały z upływem lat coraz mniejsze pokrycie złotem, aż świat wszedł wreszcie w epokę pieniądza fiducjarnego. Równocześnie wszyscy leczyli rany po wojnach światowych, nastąpiła też eksplozja technologii i równocześnie innych rozrywek (dużo firm takich jak Intel czy Micro-Soft czy Apple powstało w końcu lat 60 i w latach 70 XX wieku, gdy w świecie zmieniły się dosyć mocno obyczaje).
+
+<p>Później przyszedł kryzys naftowy, podatki w wielu miejscach dalej rosły, później upadek ZSSR, coraz więcej krajów wchodziło też w Unii Europejskiej, jaką dziś znamy... Produkcję wielu produktów przenoszono do Azji, upadały takie znane miejsca jak Ditroit...
+
+<p>Mamy rok 2013, w wielu miejscach zaczyna się legalizować narkotyki, coraz mocniej myśli się również o powrocie do parytetu złota (i odejściu od pieniądza fiducjalnego), pierwsze firmy zaczynają wracać do produkcji u siebie (np. Apple ma budować Mac Mini w USA), społeczeństwa są bardzie podzielone chyba niż kiedykolwiek (np. mocno "realistycznie" zabrzmiał mi ostatni komentarz, że ludzie "w końcu" powinni przestać wymieniać auta co 4 lata - <a href=http://www.tokfm.pl/Tokfm/1,102433,13122633,Prof__Orlowski__trzeba_sie_odzwyczaic_od_zycia_we.html>http://www.tokfm.pl/Tokfm/1,102433,13122633,Prof__Orlowski__trzeba_sie_odzwyczaic_od_zycia_we.html</a>), coraz więcej jest teorii spiskowych (np. NWO, chemtrails, itp.), które nawet jeśli tylko częściowo się sprawdzają, to jest naprawdę zła wiadomość praktycznie dla wszystkich...
+
+<p>Dlaczego to piszę ? Bo przeczytałem sobie ostatnio takie słowa jak <a href=http://www.spidersweb.pl/2012/12/rok-2012-pokazal-bardzo-niepokojace-trendy.html>"2012 był rokiem, który z miesiąca na miesiąc udowadniał, że czeka nas dziwna przyszłość. To rok traktowania użytkowników przez firmy nieco jak bydło, rok rozczarowań po zachwytach nad kolejnymi firmami. Średni to był rok i jakoś nie zapowiada się, by kolejny był lepszy."</a>
+
+<p><b>I zastanawiam się po raz kolejny - skąd to zdziwienie ?</b>
+
+<p>Produkcję w wielu wypadkach przeniesiono daleko za granicę, równocześnie rozbudowano obszary wybitnie przynoszące głównie straty i zmniejszono w pewnym sensie wartość pieniądza. Oczywiście wszyscy ludzie muszą się wykazać w pracy, więc administracja zaczęła produkować coraz więcej przepisów coraz bardziej krępujących przedsiębiorców...
+
+<p>W IT: zaczęto "produkować" zastępy fachowców, którzy często nie mają zmysłu technicznego i potrafią spełniać jedynie odtwórczą rolę. Powstało też dużo firm, w których pracuje dużo takich "specjalistów", a ponieważ wielu ich klientów nie ma zbyt dużo pieniążków, to "specjaliści" muszą produkować wiele podobnych "skomplikowanych" gier i innych "nowoczesnych" wynalazków, żeby w ogóle wyjść na zero.
+
+<p>Ktoś może napisać, że to są jedynie moje kiepskie wypociny, myślę jednak, iż coś jest w tym, że przeciętni ludzie pracują coraz więcej, a mają coraz mniej...do tego odwraca się ich uwagę od realnych problemów mamiąc świecidełkami, które niewiele wnoszą.
+
+<p>Bo jak nazwać niekończącą się historię Madzi ? Albo jak nazwać niekończące się dyskusje czy 4,6 cala jest lepsze niż 4,69 ? Albo może 4,71 to już ideał ? Albo czy dwa przyciski są lepsze niż trzy ? Albo czy bateria ma 1990 mAh zamiast 2100 ? Albo czy w notebooku ma być ekran dotykowy (oczywiście szklany, ale taki sexi i w ogóle cool) czy matowy przyjazny dla oczu ?
+
+<p><a href=http://giznet.pl/ios-7-juz-teraz-pojawil-sie-w-logach-deweloperow/>Newsem dnia staje się to, że Apple po wydaniu iOS6 pracuje na iOS7...</a> Litości...
+
+<p>Zapytam się - chcecie być traktowani jak "homo sapiens" ? Macie możliwości technologiczne, ale w celu korzystania z nich należy mieć wiedzę, należy też promować działania przynoszące realny zysk, a nie iść owczym pędem za innymi...
+
+<p>Podam kilka przykładów pozytywnych działań, które wbrew pozorom też wpływają na to, jak wygląda technologia:
+
+<ul><li>krytykowanie pustosłowia i kiepskości (może tego skromnego tekstu ?) oraz niepotrzebnych rozwiązań. Przykład - w mojej okolicy w blokach zainstalowano liczniki wody (4 na lokal), które można odczytywać zdalnie. Mówiąc inaczej - w moim otoczeniu pojawiło się kilkaset słabych (ale jednak kilkaset) nadajników, które są potrzebne tylko po to, aby wykorzystać je raz lub dwa w roku. Do tego dojdą liczniki energii, pewnie z czasem gazu... Ile takich radiostacyjek będzie w jednym lokalu ? 10 ? bo ktoś nie może odczytać tego tradycyjnie ?
+
+<li>protestowanie (kulturalne i zgodne z prawem !) przeciw podwyżkom, biurokracji, likwidowaniu przejawów przedsiębiorczości w okolicy... Politycy zaczynają mieć strony na FB, adresy mailowe, powstają strony do konsultacji społecznych. Korzystajcie z nich... Dlaczego nikt nie protestuje przeciwko eWUŚ ? (skoro podobno tylko 1% Polaków nie ma ubezpieczenia, to po co sprawdzać "non stop" uprawnienia 99% ?) Czemu tak mało jednak osób protestuje przeciwko działaniom ITD, które realnie z podwyższaniem bezpieczeństwa mają mało wspólnego ? Dlaczego tak mało osób protestuje przeciwko temu, że zaczynamy jeździć coraz wolniej po kraju ? Dlaczego nikt nie protestuje przeciwko tym wszystkim obowiązkowym dodatkom w nowych autach i coraz częstszym przeglądom rejestracyjnym, które "istotnie" zwiększają bezpieczeństwo ?
+
+<li>protestowanie przeciwko tak naprawdę zamknięciu technologicznemu i utrwalaniu monopoli. Dlaczego teraz nagle podnosi się lament, że na DVB-T nic nie ma, a wcześniej wiele osób jedynie "jechało" po toruńskiej stacji, gdy ta zgłaszała nieprawidłowości ? Dlaczego nie ma protestów przeciw HFO-1234yf ? (czynnik chłodzący do klimatyzacji samochodów obowiązkowy od 1.1.2013, który staje się trujący dla zdrowia w wyższych temperaturach, które to z kolei często i gęsto pojawiają się, gdy auta się zapalają np. po wypadkach) Dlaczego nie było wielkich protestów przeciw "ekologicznym" (bo rtęciowym...) "żarówkom" ? itd. itd.
+
+<li>próbujcie wykorzystywać szczególnie starsze urządzenia do granic możliwości. Istnieją przecież alternatywne firmware, czasem wystarczy też wymienić tylko obudowę lub baterię, żeby wasz gadżet odzyskał wigor... Należy napiętnować planowane postarzanie, które istotnie zwiększa ilość śmieci (nie oszukujmy się, że jest inaczej i że recycling jest całkowitym rozwiązaniem). Nawiasem mówiąc - <a href=http://www.dobreprogramy.pl/NaviFirm-wkrotce-tylko-dla-wybranych,Aktualnosc,38384.html>ktoś wczoraj płakał, że Nokia odcina dostęp do NaviFirm+...</a> Tak naprawdę praktycznie każda większa firma w jakiś sposób blokuje swoje urządzenia, a Nokia nie robi tego naprawdę pierwszy raz (takie działania prowadziła niestety od zawsze - widać to było w czasach DCT3, DCT4, itd.)
+
+<li> promowanie rozwiązań, które istotnie podnoszą komfort życia i nie uzależniają od konkretnej firmy. Przykład - ktoś promuje Deezera, ale czy muzyka dostępna tam przypadkiem nie jest dostępna tylko tak długo, jak użytkownik ma tam abonament ? Nie lepsze są serwisy, gdzie za niewielką kwotę dostaje się mp3 ? Dlaczego tam mało jest artykułów o T-Mobile Open API ? (<a href=https://developers.t-mobile.pl/>https://developers.t-mobile.pl/</a> - SMS za 0,12 PLN, MMS za 0,49 PLN, ale...można je wysyłać i odbierać przez http bez większych nakładów na własne bramki oraz bez podpisywania większej umowy; a stąd już tylko krok do własnych aplikacji z istotną wartością dodaną)
+
+</ul>
+
+<p>Ktoś mógłby powiedzieć, że są to ogólniki, ale z drugiej strony wszyscy chcą rewolucji (również w IT), a o te może być ciężko w obecnych układach. Wszyscy bronią wszystkiego (podstawowy przykład - konia z rzędem dam komuś, kto w tak "przyjaznym" i "otwartym" Androidzie wyśle mi z każdego urządzenia "legalnie" SMSa z dowolnym PDU, że o iOS nie wspomnę), patentowane są nawet prostokąty...
+
+<p>Proszę tez zauważyć kilka rzeczy: najpopularniejsze platformy (x86/Android/iOS) osiągnęły już tak naprawdę dojrzałość i nie spodziewałbym się tam znaczących rewolucji w najbliższym czasie. Ot, będziemy dalej czytać o "rewolucyjnych" zmianach kafelków, mniej lub bardziej udanych jailbreaku, nowych wirusach, itp. Będzie walka na cale/cale na centymetr/gigaherce/rdzenie i nic więcej. 
+
+<p>Ale czy zobaczymy tam systemy prawdziwie odporne na różne typy błędów programistycznych znanych do lat ? Wątpię. Zmienić mógłby coś np. system w stylu Minixa 3 (mikrojądro, sterowniki odseparowane od reszty) lub Singularity...
+
+<p>Do rewolucji typu zmiana sposobu dystrybucji treści (i np. udostępnianie wszystkich kanałów TV w VOD po 1 PLN każdy) albo nieskrępowany dostęp do wszystkich aktów prawnych (XML z pełnym zestawem narzędzi np. do porównywania/przeglądania/śledzenia stanu prawnego na dany dzień) trzeba środków i/lub zmiany nastawienia... Tak samo ciężko o prawdziwie otwarty i bezpieczny system mobilny w sytuacji, gdy "telefony" są jednorazówkami. Po prostu takiego nie będzie, bo go się nie da zrobić przy takim zamykaniu specyfikacji.
+
+<p>Przez lata wmawiano nam, że "american style of life" jest najważniejszy. Tymczasem "oni" zaczynają zauważać, że weszli w ślepą ulicę. Globalizacja - pomyłka. Tylko konsumpcjonizm - pomyłka. Fast foody - hmmm.... Nie popełniajmy tego samego błędu...
+
+<P>PS. Ciekawe, czy tekst trafi na Wykop i ile "oszołomów" dostanę ;)

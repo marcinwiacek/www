@@ -1,0 +1,67 @@
+﻿Title:Katedra czy bazar, korpo czy anarchia ? Czyli trochę o Windows, Linuxie, ale również Tizenie i Firefox OS.... (2013)
+Author:marcin
+When:13 May 2013
+Taxonomy:Windows,Windows 7,Tizen,jQuery,jQuery Mobile,Polski,Polski blog,Firefox OS,Vista,Linux,x86,Android,OS,GSM,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2013/05/katedra-czy-bazar-korpo-czy-anarchia-czyli-troche-o-windows-linuxie-ale-rowniez-tizenie-i-firefox-os-2013.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Historia znana od lat - jedni piszą oprogramowanie robiąc z tego swoje główne źródło utrzymania, inni robią z tego tzw. bazar lub wręcz religię... jedni wymagają (stałych lub jednorazowych) opłat, a inni rozdają to co napisali dosłownie za darmo... jedni wszystko patentują, inni się tym dzielą....
+
+<!--break-->
+<p>Od wielu lat trwa dyskusja o tym, która metoda jest lepsza i przynosi więcej korzyści. Dlaczego o tym wspominam ? Przez kilka ostatnich dni dało się zauważyć tu i tam informacje o poście w serwisie Hacker News dotyczącym jakości kodu tworzonego w firmie Microsoft (np. <a href=http://www.dobreprogramy.pl/Najwiekszy-problem-w-rozwoju-jadra-Windows-programisci-boja-siewychylac,Aktualnosc,41210.html>w dobrych programach</a> czy <a href=http://www.wykop.pl/ramka/1505369/dlaczego-windows-jest-wolniejszy-od-innych-systemow-operacyjnych/>na wykopie</a>, ale nie tylko). 
+
+<p>Bardzo ciekawy był np. jeden z komentarzy, który mniej więcej mówił to co sam myślę - mianowicie za ileś lat historycy IT mogą uważać okres do ok. 2003 za najlepszy w historii MS (później mamy już bowiem znacząco więcej różnych faili - np. restarty Longborna, delikatnie mówiąc chłodne przyjęcie Visty, ósemki, ale również WM7 i WM8, wstążek w Office, nawet Windows 7 nie zawsze cieszy się taką sympatią jak Windows XP). Zastanówmy się co czeka dalej x86 i czy rzeczywiście MS jest temu winny....
+
+<p>Wpierw wrócę do mojego krótkiego i niechlujnego tekstu <a href=?q=node/241>"Light and small ? (2013)"</a>. Metodologia prosta, ale widać jak na dłoni, że rozwiązanie MS na starcie zapisuje ok. 6x więcej danych niż dystrybucje linuksowe. Ktoś może powiedzieć - a czy to takie ważne ? W sumie i tak dyski SSD mają wystarczającą żywotność dla przeciętnego użytkownika...ale z drugiej strony mniej zapisów to szybsze ładowanie się...i wydaje się, że nawet w tak podstawowym zakresie MS ma naprawdę dużo do zrobienia. Czy powinien więc zwracać głównie uwagę na interfejs ? Pozostawię to bez odpowiedzi, która narzuca się sama....
+
+<p>Dla mnie bardzo widoczne jest, jak zmieniało się podejście MS do pewnych spraw - i tak o ile np. w Windows XP po wyłączeniu karty sieciowej jej menu było automatycznie odświeżane (zamiast Wyłącz pojawiała się tam opcja Włącz), o tyle w Windows 7 po podobnej operacji trzeba wybrać ręcznie opcję Odśwież... Podobnych drobnych przykładów można wymieniać więcej...podobnie o ile w Windows XP w różnych oknach miejsce było dosyć dobrze zagospodarowane, o tyle w Windows 7 wystarczy spojrzeć na to co się dzieje w Panelu Sterowania. 
+
+<p>A Windows 8 ? Skoro zawiera taki "prosty" interfejs i jest taki "lekki", to dlaczego jego instalka zajmuje ok. 2,5 GB ? (wersja 32-bit Enterprise). I proszę nie mówić, że tyle tam sterowników (te są, ale często w wersjach mocno okrojonych) i języków... Prosty, mały, szybki to był Windows NT 4, obecne NT są po prostu obrośnięte tłuszczem (widać to doskonale na podstawie bety ReactOS - obecnie jej instalka to 65 MB, ale ma już podstawowe aplikacje, obsługę sieci, itd.)
+
+<p>Proszę zauważyć, że staram się w tym momencie nie pisać zbyt dużo o tym, jak MS spróbował wcisnąć siłowo interfejs tabletowy na desktopa (i być może to zrobi jeszcze raz w Windows Blue) - o tym pisali wielokrotnie już inni, ja tylko dodam, że naprawdę nie czuję, że ekran dotykowy z szybą odbijającą moje szanowne oblicze jest mi potrzebny do czegokolwiek (choćby dlatego, że szanuję swoje oczy), a pozostawianie odcisków palców na czymś takim również mi szczęścia nie zapewni. Moim zdaniem - jeśli MS chce forsować na siłę prymitywizm graficzny (ups, przepraszam - prostotę), to ma do tego prawo. Tylko czy wielokrotne powtarzanie takich rozwiązań siłowych ma sens ? Zresztą tu i ówdzie można przeczytać, że <a href=http://pclab.pl/news53186.html>nawet programiści mają dosyć tej sytuacji</a> (akurat link jest o platformie mobilnej, ale...).
+
+<p>Jeśli jednak wziąć pod uwagę takie zewnętrznie widoczne rzeczy, to skłonny byłbym uznać również prawdziwość słów ze wspomnianego postu w serwisie Hacker New. A to może oznaczać również pewnego rodzaju stagnację rozwiązań na platformie x86 i pewne nieprzyjazne działania producentów wobec użytkowników (skoro bowiem producenci będą mieli mniej zysków, to raczej nie będą promować trwałych urządzeń czy jednorazowego zakupu software, a raczej będą się skupiać na DRMie czy podobnych rzeczach).
+
+<p>MS próbuje wejść mocno na rynek sprzętu i to jest może pozytywne, niemniej jednak popełnia ten błąd co Apple z mapami w iOS6 - po prostu wprowadzanie produktów niedopracowanych z uwagi na deadline bywa strzałem w stopę.
+
+<p>Wracając do oprogramowania - czy wobec tego oprogramowanie Open Source jest idealne ? Ano tu też jest pełno wątpliwości... Ot takie Ubuntu - na starcie zużywa 400 MB RAM (podczas gdy analogiczny Debian 7 tylko ok. 114 MB RAM). Oczywiście - RAM jest tani, itd. itd. Tylko czy takie uzasadnianie nie służy przypadkiem po prostu do przykrycia pewnych problemów ? 
+
+<p>Zainstalowałem sobie Ubuntu 13.04 w VirtualBox. I co ? Ano automatycznie użyło (jeśli dobrze pamiętam) sterownika gallium i w tym momencie Firefox po prostu regularnie się zawieszał po kilku sekundach....musiałem wrócić do wydania 12.10, które w stosunku do Debiana 7 jest wolniejsze, ale przynajmniej ładnie renderuje czcionki.
+
+<p>Canonical (twórca Ubuntu) nie jest zbyt mocno lubiany przez wielu "entuzjastów" Open Source. I się temu częściowo nie dziwię - a to wciskają coraz więcej reklam, a to ich Unity miewa właśnie spore problemy z logiką, podczas gdy w systemie nie można uświadczyć domyślnie tak prostego narzędzia jak Manager Urządzeń czy aplikacja do zarządzania dyskami (wiem, wiem, że można sobie doinstalować, ale...). Z drugiej strony - próbują zamieniać komponenty uznawane za filary "wolnego" oprogramowania (np. <a href=http://wayland.freedesktop.org/architecture.html>Wayland zamiast X-Org</a>) i to może być klucz do poprawy i w konsekwencji popularyzacji Linuxa (nie napiszę, że 2013 to rok Linuxa na desktopach, ale na ISS Debian 6 już teraz "wygryzł" Windows).
+
+<p>W jaką pułapkę może wpaść Canonical ? Dokładnie w to co widać z Androidem - Google wziął dobrą podstawę, zrobił wszystko po swojemu i dostał wprawdzie system zdolny do wyświetlania reklam i śledzący użytkowników na wszystkie sposoby, ale też dziurawy, wolny, itd.
+
+<p>Czy należy jednak odrzucać ich próby ? <a href=https://lists.ubuntu.com/archives/ubuntu-devel/2013-May/037080.html>Ostatnio developerzy Ubuntu myślą o prostym formacie plików instalacyjnych aplikacji o nazwie Click</a>...który to ma szansę poprawić to co jest niezbyt wygodne w przypadku DEBów... Takie świeże spojrzenie jest potrzebne - w obecnych OSach można spotkać wiele rzeczy, które niestety są zrobione niewygodnie (wskazywałem na to np. w tekście <a href=?q=node/7>Why you should not touch Windows 6.x and Linux (2009)</a>, ale nie tylko...) - nowoczesny system powinien być odporny na awarie sterowników i niewłaściwe zachowania aplikacji, aplikacje powinny być kontrolowane, itd. itd. (<a href=?q=node/238>pisałem o tym niedawno</a>).
+
+<p>A czy aplikacje powinny być offline czy online, webowe czy natywne ? Temat też stary jak świat, pewien podziw inżynierski budzi <a href=http://www.dobreprogramy.pl/Aplikacje-strumieniowane-niczym-wideo-ORBX.js-Mozilli-przesuwa-granice-tego-co-mozna-w-przegladarce,Aktualnosc,41040.html>ORBX.js</a> czy <a href=http://www.dobreprogramy.pl/Mozilla-i-Epic-Games-chwala-sie-przeniesieniem-silnika-Unreal-na-Firefoksa-juz-wiemy-po-co-byl-asm.js,Aktualnosc,40250.html>Unreal wykorzystujący asm.js</a>, równocześnie jednak mamy do czynienia z sytuacją, gdy wkrótce tak krytykowana Java czy Flash zostaną zastąpione podobnie dziurawymi "pseudostandardami", nad którymi nikt nie zapanuje i które będą użyte do wymuszania na użytkownikach większej opłaty (skoro aplikacje zostaną przeniesione na serwery, płacić bedzie trzeba opłaty za korzystanie i za transfer danych).
+
+<p>A że technologie webowe bywają niestety dalej zawodne <a href=?q=node/202>pisałem rok temu przy okazji testowania SDK Tizena 1.0</a> (wziąłem sobie <a href=?q=przepisy_drogowe>Przepisy drogowe</a> i próbowałem skorzystać z "nowoczesnych" standardów). Tizena jak nie było tak nie ma (jest tylko SDK 2.0), ale pojawił się Firefox OS i telefony developerskie (nie "załapałem się"....) - z uwagi na to podjąłem ponownie swoją skromną próbę. Rezultat:
+
+<p><img src=sites/default/files/242/Untitled_1.png>
+
+<p><img src=sites/default/files/242/Untitled3.png>
+
+<p>Na pierwszy rzut oka wygląda to ładnie, ale jQuery i jQuery Mobile dalej mają swoje problemy...które wynikają w dużej mierze z tego jak zdefiniowany jest HTML i JavaScript i jak działają przeglądarki. Przykłady:
+
+<p>Tu widać, że headery i footery potrafią znikać mimo że teoretycznie nie powinny (wystarczyło kliknąć na polu do wpisywania danych, data-position="fixed" czy data-tap-toggle="false" zostały oczywiście użyte):
+
+<p><img src=sites/default/files/242/Untitled2_0.png>
+
+<p>Powrót do poprzedniej strony czasem polega na tym, że po jej wyświetleniu trzeba jeszcze ją "przewinąć" i z uwagi na taką i nie inną obsługę zdarzeń DOM mamy do czynienia z efektem migania.
+
+<p>A przewijanie tylko części strony ? Frameset został usunięty z HTML 5, pozostał IFRAME i właśnie rozwiązania takie jak w jQuery Mobile czy obszary z odpowiednimi CSS (i wynikającymi z tego wadami). 
+
+<p>Co z tego wszystkiego wynika ? Zrobienie takiej ładnej aplikacji jak z użyciem klasycznych natywnych kontrolek bywa jeszcze pewnym wyzwaniem, aplikacje takie w praktyce zapewne będą miały włączone wszystkie biblioteki typu jQuery wewnątrz siebie co będzie skutkowało ich "puchnięciem", brak tutaj będzie standardyzacji (jeśli byśmy chcieli pisać z użyciem bibliotek Tizena, to pod Firefox OS to już nie zadziała) i najważniejsze - te wszystkie "nowoczesne" rozwiązania mają dużą szansę przykryć to co jest siłą obecnych rozwiązań (chcecie się dostać do modemu GSM ? nie ma; chcecie wykorzystać sprzęt do granic ? nie ma).
+
+<p>Jest to trochę ślepa uliczka i wymagana jest tu masa pracy (ale już teraz w przypadku Firefox OS plugin developerski działa szybko i sprawnie, czego nie widać po SDK Androida i Tizena), powiedziałbym natomiast na podstawie moich doświadczeń, że zarówno pełne zamknięcie oprogramowania czy hegemonia nie jest wskazane (często bowiem trudno reagować na pewne usterki), ale pełen bazar także nie (przy zbyt dużej ilości idei trudno bowiem o przyjęcie jakiegokolwiek standardu). Najlepsze jest chyba rozwiązanie "pośrodku"....
+
+<p>Szkoda też, że wielu ludzi się skupia na tym, czy nowa wspaniała wersja tego czy innego oprogramowania będzie mieć okienka w kolorze czerwonym czy blue...podczas gdy realne problemy bywają zwyczajnie przemilczane.
+
+<p>Podam linki do niektórych moich wcześniejszych wpisów, w których dosyć dobrze przewidywałem pewne opisane tu problemy:
+
+<ul>
+<li>Vista to pod pewnymi względami katastrofa - <a href=?q=node/6>100 reasons why you shouldn't touch Vista (2007-2009)</a>
+<li>Windows 7 jest jednak pod pewnymi względami gorszy niż XP - <a href=?q=node/9>Thinking about Windows 7 (2008-2009)</a>, <a href=?q=node/107>Windows 7 – odgrzewany kotlet ? (2009)</a>
+<li>Windows 8 to nieporozumienie - <a href=?q=node/192>Windows 8 - Steven why ? (2012)</a>
+<li>o problemach Androida - <a href=?q=node/182>Comment about Geimini - quo vadis Android... (2011, version 2.0)</a>
+</ul>

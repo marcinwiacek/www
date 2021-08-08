@@ -1,0 +1,19 @@
+﻿Title:Report 2007-09-10
+Author:marcin
+When:11 Sep 2007
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>hmmm, I have "small" dilema. I was creating Gammu over years and tried to make it as simple as possible. Later decided to leave it a little (financial and other reasons) and give control over it to very good programmer Michal. Now I have downloaded it (1.13.90) and tried to compile. </p>
+<p>And what ? </p>
+<p>And I CAN'T. Michal, there are many new UNKNOWN directories, when I make "cmake CMakeLists.txt", I receive 41 vcp (Visual Studio makefile) files (including old one available in tar.gz). And they don't work too good...</p>
+<!--break-->
+<p>I think, that magic word should be today - simplicity. Project spirit has been lost. Please do something with this.</p>
+<hr /><p>About <a href="http://kmobiletools.org/node/323">http://kmobiletools.org/node/323</a> : I have feeling, that some people (like me and Matthias and Michal) should try to think again about cooperation. Currently Michal is writing GUI and (mainly) fixing Gammu issues, I'm writing GUI and fixing Gammu mistakes, Matthias is writing GUI and thinking about phone engines... </p>
+<p>Well, I wanted to have mainly ability of selling phone engine, when somebody will want it. I don't see any problems, when engine will be released under GPL too and linked with QT source... In other words: I could create engine, which could be used in such "common" software. Matthias, what do you think ?</p>
+<hr /><p>Hi Marcin,</p>
+<p>I hope editing the wiki entry is the right way to answer, if not, please delete this entry afterwards ;-)</p>
+<p>To answer your question: yes, I am in favour of any kind of cooperation. And especially in the GUI area, I think we need to make a decision. It's a big waste of time to duplicate work over and over again. What we really need is one really good portable GUI which integrates smoothly in the user environment and which is optimized in usability. With the arrival of KDE 4.0 - whose core parts will also be released for win32 - KMobileTools is predestinated for this task.</p>
+<p>I would propose to set-up a meeting on IRC (or somewhere else) with Mihal, me and you to coordinate further cooperation.</p>
+<p>Best regards<br />
+Matthias</p>

@@ -1,0 +1,17 @@
+﻿Title:Report 2007-03-26
+Author:marcin
+When:27 Mar 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Gammu+ 0.22.00 available. Released, because diff file was too big ;-) Among various bugfixes and improvements I would like to notify especially, that during restoring software inform, what from pbk wasn't restored and why.</p>
+<p>I must say, that it's near such point, that I have everything for personal usage. For quite new phones you have:</p>
+<ul><li>pbk support (excluding caller groups, ringtones, sms lists, voice tags and few other, which are IDs for some phone memory places, everything is like in Gammu 1.09.00 or even better)
+<!--break-->
+</li><li>calendar support (everything like in Gammu 1.09.00)
+</li><li>backup for notes, todo (I will do restore for 0.23.00 and it will be like in Gammu 1.09.00)
+</li><li>getting, sending SMS (I will add linking SMS in editor in 0.23.00; I don't need saving SMS to phone memory, SM and bell &amp; whistles)
+</li><li>getting MMS (working much better than in Gammu)
+</li><li>filesystem support (I will add few minor things and it will be much better than in Gammu)
+</li><li>Java uploading (almost so good like in Gammu)
+</li></ul><p>Do you want something more ? Editing from GUI ? XML ? Please write me. Maybe it doesn't have sense at all and I should end on this point. What do you think ?</p>

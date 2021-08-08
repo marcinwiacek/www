@@ -1,0 +1,118 @@
+﻿Title:Jeden uparty kaleczy JavaScript, czyli Sobieski+ MileStone2 (2020)
+Author:marcin
+When:18 Apr 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Sobieski
+
+<p><img src="sites/default/files/394/lista.png" style="width:300px;height:262px;" alt="image" title="image" align=right />
+
+<p><nobr>Cała ta sytuacja z mniej</nobr> lub bardziej uzasadnioną paniką powoduje, że część ludzi szuka sobie zajęć, które pozwolą oderwać się od (smutnej) rzeczywistości - w moim wypadku jest to m.in. kodowanie.</p>
+
+<p>Mniej więcej miesiąc temu pisałem o małym eksperymentalnym projekcie, jakim jest <a href="?q=node/393">stworzenie własnego plikowego CMS</a>.</p>
+
+<p>Dzisiaj chciałbym krótko opisać, co udało się zrobić przez ten czas.</p>
+
+<!--teaser-->
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Jeden-uparty-kaleczy-JavaScript-czyli-Sobieski-MileStone,107488.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Cała ta sytuacja z mniej lub bardziej uzasadnioną paniką powoduje, że część ludzi szuka sobie zajęć, które pozwolą oderwać się od (smutnej) rzeczywistości - w moim wypadku jest to m.in. kodowanie.</p>
+
+<p>Mniej więcej miesiąc temu pisałem o małym eksperymentalnym projekcie, jakim jest <a href="?q=node/393">stworzenie własnego plikowego CMS</a>.</p>
+
+<p>Dzisiaj chciałbym krótko opisać, co udało się zrobić przez ten czas.</p>
+
+<p><b>Dostępność wszystkich podstawowych funkcji przez www</b></p>
+
+<p><center><img src="sites/default/files/394/lista.png" style="width:608px;height:262px;" alt="image" title="image" /></center>
+
+<p>Obecna wersja pozwala na:</p>
+
+<ol><li>stworzenie kont użytkownika (lokalnych albo pobierających hasło i stan logowania z konta Google)</li>
+
+<li>odzyskanie/zmianę haseł przy kontach użytkownika</li>
+
+<li>dodawanie i edycję tekstów (zawierają tytuł, treść, opcjonalną informację dla czytelnika i opcjonalne tagi, możliwość &quot;przyklejenia&quot; i publikacji na głównej stronie)</li>
+
+<li>dodawanie komentarzy do tekstów</li>
+
+<li>tworzenie chatów między użytkownikami (jeżeli ci akurat nie mają otwartej odpowiedniej strony, to dostaną odpowiednią informację w zakładce przeglądarki o tym, że przyszedł nowy wpis)</li></ol>
+
+<p>Można powiedzieć, że funkcjonalność jest &quot;feature complete&quot; do stworzenia prostego serwisu.</p>
+
+<p><center><img src="sites/default/files/394/chat.png" style="width:486px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Tworzenie konta</b></p>
+
+<p>Podajemy nick w serwisie i mail, do tego wybieramy rodzaj konta (czy będzie ono z lokalnym hasłem czy hasło ma pochodzić z konta Google).</p>
+
+<p><center><img src="sites/default/files/394/newaccount.png" style="width:608px;height:262px;" alt="image" title="image" /></center>
+
+<p>W przypadku kont lokalnych generowany jest jeszcze link służący do weryfikacji adresu mail (użytkownik po jego otrzymaniu powinien go otworzyć i podać hasło do konta).</p>
+
+<p>Hasła we wszystkich wypadkach są hashowane i solone (wiem, jak to brzmi w języku polskim - chodzi o to, że nie przesyłamy ich otwartym tekstem, a generujemy z nich hash, a czasem do generowania hasha używamy również losowego tekstu).</p>
+
+<p>Jedynymi przesyłanymi otwartym tekstem danymi jest raz nick i adres email (przy czym serwer działa na https i nie jest to wielki problem).</p>
+
+<p><b>Sesje</b></p>
+
+<p>Serwer generuje unikalne identyfikatory sesji i tworzy na ich podstawie tymczasowe ciastka. Identyfikatory mają po stronie serwera określoną ważność - nowa wartość jest przesyłana do przeglądarki z użyciem SSE (Server-Sent Events).</p>
+
+<p>Logowanie z użyciem konta Google odbywa się na oddzielnej podstronie (nie chcę dodawać bibliotek z tej firmy przy każdym wywołaniu) - jeżeli kod dostaje odpowiedź o poprawnej weryfikacji, to dokonuje &quot;swojej&quot; wewnętrznej weryfikacji i dalej posługuje się nią. Pozwala mi to na uproszczenie całości.</p>
+
+<p><b>Przypomnienie hasła</b></p>
+
+<p>Interfejs graficzny ma link &quot;Zapomniane hasło&quot; - podajemy tam nazwę konta i adres mailowy, w odpowiedzi otrzymujemy maila z linkiem, po otwarciu którego można zmienić hasło.</p>
+
+<p><center><img src="sites/default/files/394/newpass.png" style="width:608px;height:193px;" alt="image" title="image" /></center>
+
+<p><b>Uruchomienie</b></p>
+
+<p>Po pobraniu Node.js należy doinstalować moduł nodemailer (&quot;npm install nodemailer&quot; poprzedzony ewentualnie dodaniem katalogu nodejs do ścieżki PATH, o ile robimy to pod Windows).</p>
+
+<p>Potem (o ile chcemy korzystać z integracji z Google) potrzebujemy identyfikatora aplikacji - sposób jego generacji jest m.in. pokazany na stronie <a href="https://medium.com/@thomashellstrom/use-google-as-login-in-your-web-app-with-oauth2-352f6c7f10e6" target="_blank" rel="noopener" rel="nofollow">https://medium.com/@thomashellstrom/use-google-as-login-in-your-web-ap...</a></p><p>Kolejny krok to zmiana config.js i można już uruchomić całość komendą &quot;nodejs index.js&quot;.</p>
+
+<p>Pierwsze konto ma domyślnie uprawnienia administratora, zaś w celu wysyłania maili używam serwisu ethereal.email, która symuluje powyższą usługę (należy otworzyć link pokazywany w konsoli, żeby zobaczyć treść maila; jeżeli chcemy otrzymywać prawdziwe wiadomości, konieczne jest podanie własnych ustawień SMTP na górze w pliku index.js).</p>
+
+<p><b>Kod</b></p>
+
+<p>Obecnie index.js to około 75 kB, moduły wewnętrzne ok. 37 kB, a zewnętrzne ok. 376 kB.</p>
+
+<p>Nie jest to już niestety ok. 25 kB z projektu Sobieski, za to całość jest napisania znacznie porządniej niż przy MileStone 1 - mamy podział na stosunkowo małe funkcje, lepsze zmienne, znacznie mniej błędów, itp.</p>
+
+<p>Zdecydowałem się użyć SunEditor jako edytora tekstu - Quill nie wygląda na rozwijany od dosyć dawna, inne edytory albo wymagają &quot;dziwnych&quot; licencji albo nie mają zbyt wielu funkcji.</p>
+
+<p>Obecną wersję na upartego (po skonfigurowaniu nodemailera) możnaby wystawić już na serwerze testowym.</p>
+
+<p><b>Technologie</b></p>
+
+<p>SSE (Server-Sent Events), Cookies, JavaScript, AJAX, CSS, HTML, Node.js, HTTP/2</p>
+
+<p>Obecnie bawię się m.in. myślą obsługi powiadomień, czyli web-push (chodzi o to, żeby przeglądarka pytała się o włączenie powiadomień na stronie, a my żebyśmy mogli wybrać, co ma być pokazywane).</p>
+
+<p>Ogólnie mówiąc - docelowo chciałbym stworzyć dosyć nowoczesną aplikację webową (gdzie np. wylogowanie użytkownika wyloguje go we wszystkich sesjach), a nie statyczny generator do strony WWW</p>
+
+<p><b>I kilka uwag</b></p>
+
+<p>Czy da się napisać dosyć porządnego CMSa w krótkim czasie z użyciem niewielu zasobów? TAK</p>
+
+<p>Czy trzeba korzystać z pierdyliarda bibliotek? NIE (po stronie przeglądarki jest tylko SunEditor, biblioteka do SHA256 i opcjonalnie niezbędna biblioteka Google, po stronie Node.js jedynie nodemailer)</p>
+
+<p>Błędy? Są kasowane z dnia na dzień.</p>
+
+<p>Po co wyważać otwarte drzwi? Nie wszystko, co przychodzi z zagranicy, jest najlepsze. Warto samemu drążyć różne tematy i szukać lepszych rozwiązań.</p>
+
+<p>Co dalej z projektem? Nie ma co się oszukiwać, że JavaScript jest bardzo dobrym językiem. Nie jest (znacznie bardziej wolałbym pisać chociażby w Delphi)... ale chyba udało mi się ominąć sporą część pułapek. Również Node.js ma swoje odchylenia (i stąd firmy typu Google myślą o Go czy innych rozwiązaniach)... ale nie zmienia to faktu, że już MileStone 2 jest niezupełnie najgorszą bazą do pisania większych aplikacji. C.D. najprawdopodobniej nastąpi.</p>
+
+<p><center><img src="sites/default/files/394/userpage.png" style="width:608px;height:351px;" alt="image" title="image" /></center>
+
+<p>Licencja? Wszystkie biblioteki są na MIT, mój kod skłonny jestem udostępnić na jednej z licencji OSS.</p>
+
+<p>Dziękuję.</p>
+
+<p>PS. W tytulu nawiązuję oczywiście do stwierdzenia &quot;gry nie tworzyła armia juniorów kaleczących JavaScript&quot;&#160;</p>
+
+<p>PS2. Dziękuję za uwagi przy poprzednim wpisie - w kodzie pozostawiłem jedynie var na oznaczenie zmiennych i const na oznaczenie stałych (działa? działa. Na ... drążyć temat), komentarze mają limitowaną długość, konfiguracja jest (gdzie możliwe) wydzielona, itp. Na pewno pierwsze kamienie milowe nie są doskonałe (kod bywa długi, nie ma opisów, nie wszystkie warstwy middleware są wydzielone, itp.), ale nie taka ich rola. Dla mnie na tym etapie ważne jest, żeby mieć dobrą bazę, zdobyć doświadczenie, pobawić się z kodem, itp. Nie mam zamiaru uprawiać zbyt durnego marketingu i pisać &quot;jakie to wspaniałe&quot;, ale kto wie - może z tego wyrośnie większy polski CMS?</p>
+
+<p>PS3. <a href="?q=taxonomy/term/Sobieski">Link do wcześniejszych artykułów</a> o projekcie Sobieski i Sobieski+, <a href="https://github.com/marcinwiacek/SobieskiPlus" target="_blank" rel="noopener" rel="nofollow">kod na GitHub</a> do projektu Sobieski+&#160;</p>
+
+<p>PS4. Moja odpowiedź na pierwsze osiem komentarzy z DP: <a href="?q=node/394">https://www.dobreprogramy.pl/marcinw2/Hey-Joe-Potrzymaj-mi-piwo-dlacze...</a>&nbsp;</p>

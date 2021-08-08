@@ -1,0 +1,12 @@
+﻿Title:Report 2007-10-28
+Author:marcin
+When:28 Oct 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Gammu+ becomes much more complex: I had played last times and worked on adding database support. And here are results: daemon for receiving SMS/MMS. It's working with free PostgreSQL database. </p>
+<p>Do you want to put your messages into it and read from www ? Yes, it's already done and will be in 0.36.</p>
+<p><b>If somebody will be interested, I could work on it and add also sending SMS from www (over such daemon)</b></p>
+<!--break-->
+<p>Please note, it's much better than in Gammu - you have support for images, sounds, text formatting and much more... <b>Anybody interested in supporting it ?</b>. And you should be able to do it in Linux too (I'm working on drivers for this system like mentioned earlier)</p>
+<p><img src="sites/default/files/30/071028.gif" /></p>

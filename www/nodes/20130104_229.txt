@@ -1,0 +1,68 @@
+﻿Title:&quot;Jakość&quot; wujka Google wersja 2.0... (2013)
+Author:marcin
+When:04 Jan 2013
+Taxonomy:Polski,Polski blog,Android,x86,Windows,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł w wersji 1.0 został <a href=http://www.spidersweb.pl/2013/01/jakosc-wujka-google.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Znacie <a href=http://forum.xda-developers.com/showthread.php?t=1987032>http://forum.xda-developers.com/showthread.php?t=1987032</a> ?
+
+<!--break-->
+<p>Pewnie nie, i ja wcześniej nie znałem. W skrócie - wygląda na to, że sposób implementacji wirtualnej maszyny Javy (Dalvika) w Androidzie zawiera pewien bug, który może być związany z używaniem /dev/random zamiast /dev/urandom (po szczegóły odsyłam do wątku na xda oraz do zgłoszenia błędu w repozytorium androidowym <a href=https://code.google.com/p/android/issues/detail?id=42265>https://code.google.com/p/android/issues/detail?id=42265</a>, <a href=http://www.wykop.pl/link/1367089/latka-z-xda-eliminuje-90-lagow-androida/>temat pojawił się również na wykopie</a>). Po poprawieniu tego urządzenie staje się znacznie bardziej responsywne.
+
+<p>Tyle teorii, w praktyce dużo użytkowników poprawki potwierdza pewien znaczny wzrost prędkości, choć niekoniecznie jest to 90%.
+
+<p>I teraz dochodzimy do 3 ważnych kwestii:
+
+<ol>
+<li>poprawka wymaga praw administratora utożsamianych przez niektórych z piractwem (skoro użytkownik "zrootował" telefon, to jego użytkownik jest na pewno wstrętnym piratem, który tylko kradnie aplikacje).
+
+<li>nie wiadomo, czy poprawka zostanie w ogóle udostępniona lwiej części urządzeń (może kiedyś...)
+
+<li>przygotowanie poprawki mogło nie być możliwe bez "otwartości" platformy
+</ol>
+
+<p>Do tego wczoraj sobie przeczytałem, jak to użytkownicy nie są zainteresowani, jaką platformę wspiera urządzenie i czy można tam coś uaktualnić lub zmienić: <a href=http://www.spidersweb.pl/2013/01/mozliwosc-instalacji-ubuntu-phone-os-na-roznych-smartfonach-jest-jego-szansa.html>"Kupując w sklepie lub częściej przy podpisywaniu umowy u operatora, człowiek (ten taki zwykly normalny szary człowiek) wkłada karte sim (a często robi to za niego konsultant), wkłada baterie i po chwili cieszy się swoim telefonem. Nawet pewnie nie wie, że to "fachowo" to jest już smartphone, a nie telefon, a tym bardziej nie wie (a jak wie to i tak go to nie rusza) jaki to tam ma system. Więc jak działa mu telefon dobrze, i to dostarczony prosto od producenta danego telefonu to po co mam coś mu zmieniać, zamieniać wgrywać inny system. "A w ogóle co to jest system. Telefon to telefon. Włączam i wyświetlają się ikony" - tak odpowie spora część kupujących telefon. A jak dojdą jeszcze pytania o gwarancje - czy stracę czy nie stracę to tym bardziej szary człowiek, który może nawet i coś usłyszy o ubuntu phone OS i nawet może się zainteresuje co to i jak to wgrać to dochodząc do etapu niepewności co z gwarancją da sobie siana."</a> 
+
+<p>Co z tego wszystkiego wynika ? Dawno, dawno temu pisałem o problemach platformy - <a href=?q=node/178>http://www.mwiacek.com/www/?q=node/178</a>. Od tamtego czasu nic się nie zmieniło, równocześnie podobnych różnych poprawek na xda-developers w tzw. międzyczasie było dużo - używanie ext4, zmiany ustawień kernela, itp.
+
+<p>I tak sobie myślę, jak tu mocno widać, jak producenci mają użytkowników w tzw. głębokim poważaniu. Przeciętny człowiek ma wmówione, że na telefon nie wgrywa się oprogramowania (bo zakupił coś z Androidem i tak mu powiedziano) i że wgrywanie nowego oprogramowania to piractwo. Powoduje to, że:
+
+<ol>
+<li>na telefonie przeciętnego użytkownika jest wiele dziur
+
+<li>wyrzuca się dobry sprzęt do kosza
+
+<li>przeciętny użytkownik zraża się do niektórych skądinąd ciekawych rozwiązań (bo ma np. starą wersję ze znanymi bugami)
+</ol>
+
+<p>Dokładnie odwrotne podejście reprezentuje Apple - przeciętny człowiek z produktem Apple w wielu wypadkach robi upgrade, bo jest prosto, łatwo i przyjemnie i wręcz zachęca się go tego. I owszem - czasem farba gdzieś odpadnie albo budzik nie obudzi, ale wiecie już dlaczego ludzie tak lubią produkty tej firmy ?
+
+<p>Inna sprawa, że są tam inne problemy - np. większe zamknięcie API na SMS lub SAR istotnie większy z wersji na wersję (<a href=http://www.apple.com/legal/rfexposure/>http://www.apple.com/legal/rfexposure/</a>)
+
+<p>Spójrzmy teraz na topowe rozwiązania "androidowe" i porównajmy z tym, co jest "przestarzałe". Ot taki Galaxy S III w porównaniu do Galaxy S (chodzi mi główne o zmiany sprzętowe):
+
+<ul>
+<li>polska "trójka" obsługuje HSDPA do 21 Mbps ("jedynka" do 7,2 Mbps) i dodatkowo wspiera HDSPA na 850 Mhz - nie widać różnicy u takich operatorów jak Play
+
+<li>"trójka" ma większy wyświetlacz i wymiary (co może być jednak wadą a nie zaletą)
+
+<li>"trójka" ma więcej RAM, więcej rdzeni CPU i inną kartę graficzną
+
+<li>"trójka" wymaga mniejszej karty SIM (nie uważam tego za zaletę)
+
+<li>"trójka" ma NFC
+
+<li>"trójka" ma lepsze kamery
+
+<li>"trójka" wspiera więcej urządzeń USB (ale "jedynka" też by mogła - <a href=http://forum.xda-developers.com/showthread.php?t=1450298>http://forum.xda-developers.com/showthread.php?t=1450298</a>)
+
+<li>"trójka" ma wifi działające w 5 Ghz
+</ul>
+
+<p>Jest postęp ? Jest i to spory. Może niekoniecznie dobry (większy rozmiar telefonu, mniejsza karta SIM), ale jest.
+
+<p>Podobnych jak w "trójce" wnętrzności trudno szukać w innych urządzeniach z 4 calowym wyświetlaczem. Czyli producent mówi - nie dam wam nowszej wersji, a ze starą radźcie sobie sami.
+
+<p>Dalej uważacie, że wszystko jest OK i że nie jest to patologia ? Uważałbym z zbyt mocnym pisaniem w stylu "Android jest super, ale winni są źli piraci". Patologie są, ale są stworzone przez producentów. To oni spowodowali, że ludzie niechętnie podchodzą do nowych technologii, niechętnie kupują i oni spowodowali, że dane użytkowników są tak często w niebezpieczeństwie. To należy napiętnować...
+
+<p>PS. nie mogę się powstrzymać, żeby nie napisać o tym, co aż się prosi, żeby napisać - "stagnacja" platformy x86 to podobnie wina producentów, w tym głównego czyli Microsoft. Windows ma znane od lat te same problemy. I co ? I nic. Do tego ekrany x86 są duże (to nie 7 cali tabletu) i naturalnym jest ustawianie wszystkiego w 3D (np. okna jedno pod drugim). Nie byłoby problemu z Metro, gdyby na desktopie aplikacje Metro uruchamiały się w oknach i gdyby kafle można było traktować jak widgety znane z Visty i 7. 8 byłaby przyjęta entuzjastycznie, gdyby rzeczywiście była prosta, łatwa i przyjemna ALBO rozwiązywała podstawowe bolączki platformy. A ona na starych problemach (głównie) dodaje nowe.

@@ -1,0 +1,20 @@
+﻿Title:Report 2006-05-17
+Author:marcin
+When:18 May 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>It's time to speak about short and long time roadmap for now:</p>
+<!--break-->
+<ol><li>up to 10-15 June I have a lot of work for studies. I'm generally free after it. I'm sending my CV for many companies now, because in time June - September I have to work (I would like to do something connected with coding). I don't plan to drop development then. It can happen only, if I will not find work.
+</li><li>some time ago I had email from woman working for Open Source company about development help from Nokia. I had given long document about possible needs, advantages (for project and Nokia), etc. And there is silence. It looks, that this need time OR similiary to 1999 Nokia guys are not interested in helping Gammu and similar projects. We will see. IMHO - they could help especially, that they have possibilities and (for example) give protos even to people, who don't do anything with them...
+</li><li>I agree with one of note from Michal's blog. Gammu could need CVS or similiary working tool. But what could be installed on current (limited, but cheap) gammu.org server ?
+</li><li>I'm negotiating with Michal about <a href="http://www.mantisbt.org/">Mantis</a> installation on gammu.org. I hope to have all Gammu and other projects bug reports (from <a href="http://bugs.cihar.com">http://bugs.cihar.com</a>) here.
+</li><li>on <a href="http://permalink.gmane.org/gmane.linux.drivers.gammu/3478">http://permalink.gmane.org/gmane.linux.drivers.gammu/3478</a> you can read about next Gammu usage. Nice. Another nice things (this time from Michal): <a href="http://packages.debian.org/unstable/comm/gammu">Debian package</a> is more and more popular (see <a href="http://people.debian.org/~igloo/popcon-graphs/index.php?packages=gammu">here</a>) and python-gammu is for Windows too.
+</li><li>my main tasks (excluding fixing bugs of course) are now:
+<ol><li>coding next and next things for SMS for Gammu+ - I plan next release with full high level SMS API (maybe even with own better SMSD) in May/June. <b>Version 0.0.6 is big step into it.</b>
+</li><li>sitting on Symbian for Gammu (this will cover Series 60 1.0 and 2.0 and will be based on gnapplet, because it's READY and it's compatible with second Open Source project and it's with source - I will be able to fix and extend it later) - I plan next release with it in May/June.
+</li><li>improving wiki documentation (especially description of command line options)
+</li><li>running more gammu.org services (especially end existing and started)
+</li></ol></li><li>it looks, that Nokia is dropping Series 40 - see announcement of Nokia 5500 on their www. It's with screen similar to 6230i, but with Symbian. BTW, 6233 is still not available and I can't restart Series 40 3.0 development...
+</li></ol><p>Generally my health wasn't the best last time, I had some losses, but I don't lose my hearth. And I will have 64-bit CPU soon ;-)</p>

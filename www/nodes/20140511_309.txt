@@ -1,0 +1,24 @@
+﻿Title:magia...
+Author:marcin
+When:11 May 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Konwenanse i pragnienia,<br />
+klatki i magia istnienia,<br />
+dwa światy dane na raty,<br />
+niezwykłe tak dylematy,</p>
+<p>życie to ich smakowanie,<br />
+wybory, czegoś rzucanie,<br />
+stąd też dziwne zachowania,<br />
+myśli, na jawie doznania,</p>
+<p>niektórzy czują już blusa,<br />
+niektórych on nie porusa,<br />
+ale stąd w pełni żyjemy,<br />
+ludźmi z dumą się zwiemy,</p>
+<p>niektórzy stąd siłę mają,<br />
+innych w przód poruszają,<br />
+ważne, aby tu nie przesadzić,<br />
+nie warto magii tej zabić...</p>
+<!--break-->

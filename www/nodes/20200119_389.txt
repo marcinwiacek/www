@@ -1,0 +1,74 @@
+﻿Title:How Firefox could look like (and what <strike>is planned</strike> could be done in True Fenix) (2020)
+Author:marcin
+When:18 Jan 2020
+Taxonomy:English,English blog,Android,TrueFenix
+
+<p>I provide here some first mockups.
+<!--break-->
+<p>Main screen should be simple - hamburger icon, bar for entering URL and button for switching privacy modes, additionally opened tabs, pinned bookmarks and the most often used sites. In first version it looks like below:
+
+<p><center><img src=sites/default/files/389/Screenshot_1579342619.png width=300>
+
+<img src=sites/default/files/389/Screenshot_1579348521.png width=300></center>
+
+<p>I don't understand, why original Firefox created two classes of objects for saving bookmarks - bookmarks and collections. I want to have one and allow for doing all operations with it - synchronization, backup/restore, organizing, etc.
+
+<p>For now I removed big Firefox logo and some artistic elements, in the future there will be required some design for the most often sites and customization (desktop Firefox allows you to select, which sections you want).
+
+<p>Button for switching privacy mode (left bottom corner) allows currently for switching for privacy mode, in the future it could have third state for switching to Tor mode.
+
+<p><center><img src=sites/default/files/389/Screenshot_1579342623.png width=300></center>
+
+<p>Text will be probably shortened, I also wanted to give ability of opening something from bookmarks (let's make it user friendly)
+
+<p>Browsing page is quite typical:
+
+<p><center><img src=sites/default/files/389/Screenshot_1579344610.png width=300></center>
+
+<p>Menu should be simple, I will want to add zoom function here (browser have it already globally). Hardware back button will have list of last visited sites (like in Chrome; it's not implemented yet).
+
+<p>Pressing icons on the left URL side will bring you additional info:
+
+<p><center><img src=sites/default/files/389/Screenshot_1579343709.png width=300>
+
+<img src=sites/default/files/389/Screenshot_1579343712.png width=300></center>
+
+<p>These popups need more info about site like title, certificate viewer, etc.
+
+<p><center><img src=sites/default/files/389/Screenshot_1579343669.png width=300></center>
+
+<p>History window will have site info displayed like in main page (with small font for title, which will give you more text), also expandable/collapsable tree nodes (on the screenshot "Last 24 hours"), time with every entry, left/right scroll for deleting instead of "Delete" menu option and more useful nodes (for example: today, yesterday, this week, this month, ...). I will think about export in the future too...
+
+<p><center><img src=sites/default/files/389/Screenshot_1579343681.png width=300></center>
+
+<p>Yes, deleting history will allow for selecting period!
+
+<p>Bookmarks menu needs a lot of redesign (for now it's taken from Preview) - it should show full path for bookmarks, it should have export/import button, etc. I plan also having the same layout like in other app places (small font for title) and time of creating/last visit.
+
+<p><center><img src=sites/default/files/389/Screenshot_1579344750.png width=300>
+
+<img src=sites/default/files/389/Screenshot_1579344736.png width=300></center>
+
+<p>Settings screen was for now rearranged (I've also made improvements like displaying correct info with "Enhanced Tracking Protection" + you have option for blocking screen blocking):
+
+<p><center><img src=sites/default/files/389/Screenshot_1579342875.png width=300>
+
+<img src=sites/default/files/389/Screenshot_1579342879.png width=300>
+
+<img src=sites/default/files/389/Screenshot_1579342882.png width=300>
+
+<img src=sites/default/files/389/Screenshot_1579342886.png width=300></center>
+
+<p>There is still to-do, for example:
+
+<p><center><img src=sites/default/files/389/Screenshot_1579343944.png width=300></center>
+
+<p>(here I want to see settings for each engine like predefined URL)
+
+<p><center><img src=sites/default/files/389/Screenshot_1579342918.png width=300></center>
+
+<p>(here I want to see expections for each setup site)
+
+<p><center><img src=sites/default/files/389/Screenshot_1579343738.png width=300></center>
+
+<p>(one of many small bugs, which still exist in code - exception was setup for http site, but screen shows https)

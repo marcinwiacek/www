@@ -1,0 +1,109 @@
+﻿Title:e-ink and what&#039;s wrong with IT in 2013 (showed on the example...) (2013)
+Author:marcin
+When:07 Apr 2013
+Taxonomy:English,English blog,Android,x86,Windows,OS,Linux,EPUB
+
+<p>Are you working a lot with computers ? Are your eyes tired because of it ? Yes, the most often they are.
+<!--teaser-->
+<p>Are you working a lot with computers ? Are your eyes tired because of it ? Yes, the most often they are. The reason for it is simple: CRT screens create unstable picture (especially with low refresh frequencies) and LCD screens need backlight (which is done with LEDs in almost all current devices and many times it's more "budget" and simply worse than few years ago - it's using "non friendly" cold light temperature or you can notify even with cheap digital cameras, that "something" is "floating" on it).
+
+<p>In the same time they're on the market (Super) AMOLED screens available, which seems to be better, but...not so popular from various reasons.
+
+<p>There is also other technology called electronic paper. Many devices with probably the most known Kindle line. Can some of them be replacement for books or reading on CRT/LCD ?
+
+<p>I was thinking a lot on selecting the best for me solution. Finally I decided to have something with E Ink Pearl display (which is classified as best one from e-ink displays).
+
+<p>It's not very important, what was selected by me, I will want to show example of some advantages and many weaknesses typical to the IT market on the examples related to devices from this segment.
+
+<p><B>First casing</b> - various models are white (made from bright plastic), some matt in the front, but with bright line on the side and plastic on back, where each fingerprint is visible so clear... Problems and questions:
+
+<ol><li>is it possible to create material, which is totally matt and hide fingerprints on it ?
+
+<li>why displays don't have anti-reflection surface on them ? I was looking into original matt foil for my reader and it costed about 33% of device price !
+
+<li>books can be used everywhere, but readers can't - they're not water resistant. Why ? The most often you have some holes - for example one micro-USB connector and one microSD connector hidden under cover without seal.
+
+<li>why there is used bright plastic ? It's making eyes even more tired, when you use such e-ink device (comparing to LCD).
+</ol>
+
+<p>Generally "classic" paper is comfortable, because you don't see any reflections on it. Creating devices with such effect totally eliminates any positives visible from using e-ink...
+
+<p><b>Battery</b> - it's hidden inside and you can't replace it. Why ? It's non environment friendly and although forces some consumers for replacing devices more often, it's generally very bad visible on the market.
+
+<p><b>Registration</b> - you can find manual in the Internet, which show how to use my device without registering, but...when you will do it software will drain battery a lot (normally e-ink devices are need some power only during switching image on the screen, but not in this case). Why each company try to force consumers for registration ?
+
+<p><b>Operating system</b> - there are only few devices with Android, but...they don't allow for using Google Play (which will probably normally need paying some fees to Google by their manufacturers), but also by default don't allow for installing anything from apk files.
+
+<p>We have 2013 year and closed operating system isn't very good idea, but also Android isn't from many reasons (although it's very popular) - I was writing about them for example in <a href=?q=node/182>"Comment about Geimini - quo vadis Android... (2011, version 2.0)"</a>.
+
+<p>In short words - Android doesn't control, what and where is sent (which is frustrating from security, privacy, power usage and sometimes financial reasons) and there are many security holes inside. It doesn't have also protection against wrong written drivers and it seems to be good enough mainly for devices, which don't connect to Internet or are used for non critical tasks. Big shame especially that using it gives in the same time many profits like localisation, etc.
+
+<p>My device doesn't have so basic things like protection against unathorized access (even locking with code) and during connection to PC there are all files shared with read and write privileges. Big shame...
+
+<p><b>Memory</b> - another big problem, only some readers have microSD connector, some need uploading everything over some cloud service. Where is privacy ? Where is security ? (such devices can't be used in corporate environments)
+
+<p><b>Sound</b> - with e-ink it's possible to create device working very long on battery, adding sound is very natural extension. Unfortunately in various models you don't have even the most simple speaker or earphones connector.
+
+<p><b>You can think now - why are you writing about all these details ?</b> Many of these things are typical to current IT - various companies try to sell "not-good enough" software and hardware (which is worse than solutions sold few years ago or simply doesn't add any "added value") and in the same time they're are complaining about problems with selling which happen, because customers don't want to buy it.
+
+<p>I was writing about exactly same issues with laptops (in Polish language) - <a href=?q=node/189>"Notebook A.D. 2012, czyli o czym trzeba mieć świadomość... (2.1, 2012)"</a>. Currently additional problem is interface for Windows 8 (there are too many critical voices about it and it shouldn't be ignored).
+
+<p>With smartphones problem is also the same and I showed it on Samsung Galaxy S vs Galaxy S III example (still Polish language): <a href=?q=node/229>""Jakość" wujka Google wersja 2.0... (2013)"</a> or comments to the <a href=http://www.spidersweb.pl/2013/03/innowacje-sa-ale-brakuje-smartfonu-idealnego.html>"Innowacje są, ale brakuje smartfona idealnego"</a>.
+
+<p>There are of course some improvements, but they don't give too much added value. You can't of course increase hardware sales without limits especially in filled market... <b>but you can use few simple steps to improve your sales:</b>
+
+<ul><li>user should get the same experience in each country and should be able to create own configuration of such devices like notebooks. Currently some companies are still splitting world on few regions and limiting devices to various countries (it can't be explained by any law or export regulations) or selling only some predefined configurations. Why ? You can allow selling units for example from US website to Poland and add sending cost (UPS, DHL, etc.) to the whole price, simple, effective....
+
+<li>devices lines should be easy - there should be only few models and customer shouldn't have problem with selecting the best one for his purposes
+
+<li>devices should have such functions like few years - if customer want to pay for full matt 4:3 screen, should have ability of buying it; if want to have Sound Blaster like sound card instead of cheap integrated solution, let's give him such possibility; etc.
+
+<li>some devices should be durable, flexible and functionality should be more important than nice apperance - let's provide IP67 capable e-ink reader or tablet with e-ink + AMOLED screens or very small batteries for notebooks (it will allow for decreasing price and can be usefull for many customers, who are working with laptops connected 99% of time to the socket), sometimes building brand royality is such more important than selling two devices instead of one
+
+<li>devices should use the most simple solutions - instead of switches with LED indicating status use mechanical two state switch, which in "off" state shows red mark; instead of software for disabling camera provide mechanical cover; instead of encryption for BIOS (which makes changing it more difficult) use simple hardware switch (which will physically disable "write" function for EEPROM), etc.
+
+</ul>
+
+<p><b>These are easy steps and you don't have to inventing anything new here.</b> In the same time all companies should concentrate on software - please notify, that we have currently Windows 8 on the x86/x64 platform (with some 30 years old solutions, where some changes seems to be blocked by backward compatibility) and we have Android, which is already famous from lack of upgrades, slow speed, security problems, etc.
+
+<p>This is "a little bit" obsolete, that it's possible to crash systems with incorrectly written drivers, it's not possible to control, how application are connecting to Internet or systems don't use even the most simple <u>already known</u> protections against stealing/changing user data. In the same time current operating systems are not very friendly for non-technical users. I was writing about it some time ago on the Ubuntu brainstorm (<a href=http://brainstorm.ubuntu.com/idea/30533/>http://brainstorm.ubuntu.com/idea/30533/</a>):
+
+<p><i>Ubuntu developers are working on the mobile distribution and I wanted to share some thoughts. Additionally please note, that my technical knowledge about current Open Source solutions is maybe a little bit worse right now than some time ago and excuse me, if I won't name something correctly (maybe it's already done).
+
+<p>Generally idea is simple: in Android system during application installation user is getting list of required privileges like 'access to SMS' or 'internet access'. I propose, that Ubuntu will support new format of installation archives (like ZIP with different extension), where inside will be provided script installation file with such info like:
+
+<ul><li>what will be network firewall rules for application (for example web browser will have: access to all 80 and 443 ports)
+
+<li>what devices can be low-level accessed by application (for example there will be list of USB devices with concrete PID and VID)
+
+<li>what user files can be accessed by application (it will be extension based like in Windows)
+
+<li>what is run on startup and in cyclic manner
+
+<li>what is application update source (optional)
+
+<li>what are application device drivers available inside (kernel can provide for example generic USB interface and application can have driver/support software for concrete TV tunner and should get access to its' interface by declaring PID and VID)
+</ul>
+
+<p>System during installation will:
+
+<ul><Li>display such list
+
+<li>display list of some directories, where application will get access to (for example /mnt/cdrom and /home/user)
+</ul>
+
+<p>It will be possible to accept it all or disable some entries from it (disabling will work after installation too).
+
+<p>Application will be installed to separate directory with similar tree like in "/" (it will be app sandbox) and will get access to files with specified extension in specified directories only. For example for Office Word:
+
+<p>in system we have two users (marcin and tomasz) and cdrom (/mnt/cdrom). Application by default will see /home/marcin, /home/tomasz, /mnt/cdrom and subdirectories only and will be able to access doc, docx files and nothing more.
+
+<p>This is generally a little changed Android idea. Flexibility (like provided by current Linux kernel and Ubuntu distribution design) isn't bad, but I have feeling, that many issues are currently result of it. Sandboxing and declaring, what is available, could resolve many doubts. Firewall rules will allow for controlling, whether application can get network access or not. Controlling startup/scheduled tasks will help in getting clean situation, etc. etc.
+
+<p>Later (in next system version - maybe, when GNU Hurd will be stable enought ?) it would be good to add microkernel with next hardware limits too (for example USB mouse driver should be able to access mice only and no USB printers).</i>
+
+<p>It looks maybe strange, but it seems, that Gnome developers are thinking about the same :) (<a href=http://www.dobreprogramy.pl/Pomysly-deweloperow-GNOME-moga-ulatwic-instalowanie-na-Linuksie-oprogramowania-spoza-repozytoriow,Aktualnosc,39086.html>http://www.dobreprogramy.pl/Pomysly-deweloperow-GNOME-moga-ulatwic-instalowanie-na-Linuksie-oprogramowania-spoza-repozytoriow,Aktualnosc,39086.html</a>)
+
+<p>This is something, what need some development and can't be probably fixed in one month. But some things can be done immediately - for example in Poland VAT for ebooks is 23% (for classic printed books 7%) and some shops are sending users data over unprotected www and email. Bigger companies should be able to open shops in countries with smaller VAT and sell such goods cheapier - they should only remember, that in current IT profits are mainly from number of sold goods (not from profit on single transaction); 
+
+<p>Another example is using https and checksums - many companies still have problems with it (wrong certificates, lack of any checksum for files with drivers, etc.)

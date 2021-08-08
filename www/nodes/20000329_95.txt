@@ -1,0 +1,335 @@
+﻿Title:Cicha rewolucja ? (2000)
+Author:marcin
+When:29 Mar 2000
+Taxonomy:Polski,Polski artykuł,x86,chip.pl,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach <a href="http://www.chip.pl" class="autoremail">Chipa</a> nr 3/2000</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><b>Autorzy mniejszych aplikacji pod Windows mogą mieć problem, gdy mają przygotować plik HLP z pomocą do nich. I nic dziwnego: kompilator <a href="http://www.microsoft.com">Microsoft</a> Help Workshop często nie radzi sobie z plikami RTF (w takim formacie jest zapisywany kod źródłowy "helpów") tworzonymi przez popularne aplikacje (z Wordem i WordPadem na czele), ręczna ich edycja jest żmudnym i niewdzięcznym zajęciem, a komercyjne edytory kosztują...</b>
+
+<p align=justify>Często dokumentacja jest więc zapisywana w innej formie - np. jako popularne PDFy albo dokumenty Worda.
+
+<p align=justify>Od dawna próbowano także wykorzystywać w tym celu HTML - niestety tutaj pojawiały się problemy z przeszukiwaniem (stąd też w wielu pakietach umieszczano oddzielne programy służące tylko do tego celu albo budowano pomoc z możliwością znajdowania tylko niektórych słów kluczowych - to ostatnie rozwiązanie zastosowano np. w przeglądarce <a href="http://home.netscape.com/">Netscape Communicator</a> 4.x). Używano także (np. w Windows CE) aplikacji używających plików o podobnej do HTML budowie (jednak znacznie uproszczonych)...
+<!--break-->
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Szansa na standard ?</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>I w tym momencie pojawiła się technika HTML Help zaproponowana przez <a href="http://www.microsoft.com">Microsoft</a>. Poczyniono w niej kilka założeń: tematy pomocy są zapisywane w "normalnym" HTML, spisy treści w plikach o opracowanych do tego celu formatach (dzięki temu łatwiejsze jest np. ich przeszukiwanie), natomiast użytkownik otrzymuje całość w postaci jednego skompresowanego zbioru (będącego faktycznie archiwum takim jak np. ZIP czy ARJ).
+
+<p align=justify>Do odczytu takich archiwów (w formacie CHM) stworzono aplikację (hh.exe) - dekompresuje ona z nich potrzebne pliki ze spisami treści i tematami pomocy i wyświetla je obok siebie w jednym oknie, zawiera wbudowane mechanizmy do ich przeszukiwania, możliwość wstawiania zakładek do najczęściej odwiedzanych tematów czy też zmiany wyglądu okna stosownie do potrzeb użytkownika.
+
+<p align=justify>Aplikacja ta może używać do wyświetlania tematów obiekt <a href="http://www.microsoft.com/ie">Internet Explorera</a> 3.02 lub nowszego (ponieważ <a href="http://home.netscape.com/">Netscape Communicator</a> nie pozwala udostępnić swojego "silnika" innym aplikacjom, wykorzystanie jego w tej roli jest niemożliwe - być może zmieni się to wraz z wersją 5.0) i jest dołączana do tej przeglądarki począwszy od wersji 4.0 (tam też znalazły się pierwsze pliki pomocy wykonane w tej technice).
+
+<p align=justify>Ale na tym się nie skończyło: gigant z Redmond udostępnił w Internecie bezpłatny program <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> do ich tworzenia (z odpowiednią dokumentacją). Jest on dołączany obecnie do praktycznie każdego większego pakietu tej firmy (np. Visual Studio czy Office) i pozwala m.in. przygotowywać spisy treści (ma do tego w miarę wygodny interfejs graficzny), tworzyć archiwa CHM z poszczególnych plików czy też konwertować pliki źródłowe "normalnej" pomocy do nowego formatu...
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>O dużych możliwościach</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Pomysł okazał się strzałem w dziesiątkę: nie tylko coraz więcej programów działających w Windows stosuje nowy format pomocy, ale także coraz częściej jest w nim zapisywana wszelkiego rodzaju dokumentacja, podręczniki, itp.
+
+<p align=justify>Jaka jest tego przyczyna ? Pliki HTML są bardzo łatwe do stworzenia (istnieje szereg edytorów znakomicie ułatwiających tę czynność) i mają coraz większe możliwości prezentacji danych (warto zauważyć, iż używana do ich wyświetlania przeglądarka <a href="http://www.microsoft.com/ie">Internet Explorer</a> zawiera najpełniejszą obsługę wielu standardów i przez to pozwala uzyskać o wiele więcej efektów niż konkurencja).
+
+<p align=justify>Równocześnie w pliku z "właściwą" pomocą można umieszczać dodatkowe materiały (zapisane w dowolnym formacie), a <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> jest łatwy w użyciu. I co najciekawsze, potrafi nawet z gotowych plików CHM rozpakowywać wszystko, co się w nich znajduje (czasami lepiej do tego użyć starszej wersji programu - nie ma ona problemu z pewnymi konkretnymi archiwami)...
+
+<p align=justify>Jakby było jeszcze mało: w kod stron z tematami pomocy można wstawiać odwołania do przygotowanej przez <a href="http://www.microsoft.com">Microsoft</a> kontrolki ActiveX, która potrafi np. wyświetlać przyciski wyglądające i działające identycznie jak ich odpowiedniki w "klasycznych" plikach pomocy (odsyłające np. do grupy podobnych tematów).
+
+<p align=justify>Z <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a> rozprowadzana jest nawet dodatkowa kontrolka ActiveX (dla użytkowników innych przeglądarek przewidziano działający podobnie aplet Javy), która potrafi wyświetlać przygotowane na potrzeby pliku pomocy spisy treści. Dzięki temu czynnością wręcz banalną jest opublikowanie np. dokumentacji do programu jako "zwykłych" stron WWW (to dla osób, które chcą zapoznać się z jego możliwościami) oraz skompilowanie jej jako pliku pomocy i rozprowadzanie z programem (bez żadnych zmian, o ile jej twórcy przestrzegali pewnych zasad).
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>I pewnych wadach</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Czy ta technika ma wobec tego jakieś wady ? Złamana została podstawowa zaleta formatu HTML (na którą być może nie zwraca się teraz bardzo uwagi, ale zawsze...) - pełna przenośność kodu (dajmy na to, iż hipotetyczny Kowalski będzie chciał rozpakować otrzymany od kolegi podręcznik w formacie CHM i przejrzeć utworzone pliki <a href="http://home.netscape.com/">Netscape Navigatorem</a> - jeżeli autor owej publikacji (nad)używał ActiveX, działanie jest to skazane na niepowodzenie).
+
+<p align=justify>Jak można się również domyśleć, do wyświetlenia pliku CHM potrzebny będzie <a href="http://www.microsoft.com/ie">Internet Explorer</a> (nie jest on dołączony do starszych wersji Windows 95, a czasami wręcz świadomie usuwa się go z razem z Aktywnym Pulpitem przy instalowaniu okienek na starszym sprzęcie), a użytkownicy nie mają żadnej alternatywy (przynajmniej na razie).
+
+<p align=justify>Co więcej - ustawienia w nim będą obowiązywać również przy wyświetlaniu pomocy (jeżeli np. w jego oknie wybierzemy dużą czcionkę, taka będzie używana standardowo w plikach pomocy; jeżeli ją tam będziemy chcieli zmienić, konieczne będzie uruchomienie przeglądarki). Czy taka integracja może być problemem ? Niestety tak - przeciętny użytkownik jest coraz bardziej uzależniony od poprawnego działania jednego programu (<a href="http://www.microsoft.com/ie">Explorera</a>) i zmuszony do instalowania poprawek usuwających błędy w jego zabezpieczeniach (inaczej grozi mu atak wirusów nie tylko "z zewnątrz", ale także ze strony "zwykłej" pomocy).
+
+<p align=justify>Nie zawsze też wszystkie możliwości dostępne są przy wyświetlaniu kontrolki ActiveX/apletu Javy na stronie WWW (szczegóły są opisane w pomocy HTML Help Workshop).
+
+<p align=justify>Czasami pojawiają się także różne problemy techniczne (gdy trzeba wyświetlać pomoc z programów pisanych w Delphi, Visual Basicu albo używać apletu Javy w starszych przeglądarkach) - komponenty techniki HTML Help są jeszcze ciągle dopracowywane.
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Czy warto ?</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p align=justify>Na pewno warto korzystać z tej techniki, gdy jest to możliwe - pozwala ona uzyskać ciekawe efekty, a większość jej komponentów jest wbudowana fabrycznie w Windows 98 i będzie się też znajdować w przyszłych wersjach okienek.
+
+<p align=justify>Nie należy jednak podchodzić do niej bezkrytycznie i zapominać o użytkownikach, którzy nie mogą/nie chcą instalować przeglądarki <a href="http://www.microsoft.com">Microsoftu</a> (w miarę możliwości przygotowywać dla nich "tradycyjne" pliki HLP). Przy tworzeniu np. podręcznika w formie elektronicznej (a nie pomocy do programu działającego w systemie Windows) postarajmy się także, aby po jej rozpakowaniu (do "zwykłych" plików HTML) można było go odczytać nie tylko <a href="http://www.microsoft.com/ie">Internet Explorerem</a>... Wszak na nim świat się nie kończy...
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Porównanie</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<p>
+<center>
+<table BORDER CELLSPACING=0 CELLPADDING=0>
+<tr>
+<td VALIGN=TOP >&nbsp;</td>
+
+<td VALIGN=TOP >
+<center>WinHelp (HLP)</center>
+</td>
+
+<td VALIGN=TOP >
+<center>HTML Help (CHM)</center>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP ><b>Okno przeglądarki</b></td>
+
+<td VALIGN=TOP >Tematy i zakładki są wyświetlane w oddzielnych oknach.</td>
+
+<td VALIGN=TOP >Tematy i zakładki są obok siebie (te drugie mogą być schowane) w jednym oknie</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Zakładka "Spis treści"</td>
+
+<td VALIGN=TOP >
+<ol>
+<li>brak podziału na kategorie (zawsze są wyświetlane wszystkie zdefiniowane tematy)</li>
+
+<li>brak śledzenia wyświetlanych tematów</li>
+
+<li>jedynie pozycja w spisie treści może być odnośnikiem</li>
+
+<li>do wyświetlania spisu treści używane są standardowe ikony</li>
+
+<li>do każdego tematu jest przypisany jeden adres</li>
+</ol>
+</td>
+
+<td VALIGN=TOP >
+<ol>
+<li>każdy temat można przypisać do różnych kategorii (i wybierać, która mają być wyświetlane w danym momencie)</li>
+
+<li>możliwe jest śledzenie wyświetlanego tematu (w spisie treści jest podświetlany zawsze aktualny temat)</li>
+
+<li>rozdział i pozycja mogą być odnośnikiem do tematu</li>
+
+<li>do każdego rozdziału i pozycji można przypisać własną (zdefiniowaną) ikonę</li>
+
+<li>każdy temat może mieć przypisanych kilka adresów (przy próbie jego wyświetlenia program wczyta pierwszy z nich, który będzie dostępny)</li>
+</ol>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Zakładka "Indeks"</td>
+
+<td VALIGN=TOP >Możliwość wstawiania:
+<ol>
+<li>grup pozycji</li>
+
+<li>pozycji wskazujących na kilka tematów</li>
+</ol>
+</td>
+
+<td VALIGN=TOP >Możliwość wstawiania:
+<ol>
+<li>grup pozycji</li>
+
+<li>pozycji wskazujących na kilka tematów</li>
+
+<li>pozycji będących odnośnikami do innych pozycji w indeksie</li>
+</ol>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Zakładka "Znajdź"</td>
+
+<td VALIGN=TOP >Wyszukiwanie z namiastką warunków logicznych</td>
+
+<td VALIGN=TOP >Wyszukiwanie z warunkami logicznymi (o ile taka opcja została zaznaczona przy kompilacji pliku)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP ><b>Tematy</b></td>
+
+<td VALIGN=TOP >&nbsp;</td>
+
+<td VALIGN=TOP >&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Przyciski na górze okna</td>
+
+<td VALIGN=TOP >Możliwość wstawiania/usuwania predefiniowanych przycisków, zmiany ich znaczenia i definiowania własnych (np. wywołujących makra)</td>
+
+<td VALIGN=TOP >Możliwość wstawiania/usuwania predefiniowanych przycisków i dwóch przycisków z adresami (do stron WWW albo tematów)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Podział okna</td>
+
+<td VALIGN=TOP >Możliwość podziału okna na dwie części (jedną stale widoczną i drugą przewijalną)</td>
+
+<td VALIGN=TOP >Możliwość dowolnego podziału okna (dzięki ramkom)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Formatowanie tekstu</td>
+
+<td VALIGN=TOP >Podzbiór możliwości formatu rtf (m.in. zmiana wielkości, rodzaju, koloru czcionki, proste tabele), statytyczny charakter tematów (brak interakcji)</td>
+
+<td VALIGN=TOP >Możliwości znane ze stron WWW - obsługa styli i DHTML (przy używaniu co najmniej <a href="http://www.microsoft.com/ie">Explorera</a> w wersji 4.0), tabel, itp., interakcja z użytkownikiem (języki skryptowe)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Odnośniki</td>
+
+<td VALIGN=TOP >Rozróżnianie różnych ich rodzajów (tematy wyświetlane w różnych rodzajach okien mogą być inaczej podświetlane), "zewnętrzne" dokumenty (nie znajdujące się w pliku HLP) są pokazywane w oddzielnych oknach</td>
+
+<td VALIGN=TOP >Możliwość zmiany wyglądu odnośników przy użyciu styli i DHTML, "zewnętrzne" dokumenty są wyświetlane w tym samym oknie</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Makropolecenia</td>
+
+<td VALIGN=TOP >Dostępne</td>
+
+<td VALIGN=TOP >Brak (większość z nich można zasymulować używając języków skryptowych)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Dźwięk</td>
+
+<td VALIGN=TOP >Brak</td>
+
+<td VALIGN=TOP >Możliwości takie jak na stronach WWW</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Animacje i rysunki</td>
+
+<td VALIGN=TOP >Formaty bmp i dib (można wstawiać pliki o różnych ilościach kolorów i rozdzielczościach - WinHelp wybierze najlepiej wyglądający przy danym trybie graficznym; obsługa przeźroczystości), wmf, shg (mapy z klikalnymi obszarami), animacje AVI</td>
+
+<td VALIGN=TOP >Formaty takie jak na stronach WWW (również mapy z klikalnymi obszarami, przeźroczyste rysunki, animacje)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Możliwość wyświetlania następnych okien</td>
+
+<td VALIGN=TOP >Tak</td>
+
+<td VALIGN=TOP >Tak</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Możliwość wyświetlania okienek popup</td>
+
+<td VALIGN=TOP >Tak - mogą się w nich znajdować całe tematy (zbyt długie są obcinane)</td>
+
+<td VALIGN=TOP >Tak - moga się w nich znajdować tylko proste teksty (bez rysunków, itp.)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Możliwość wyświetlania tematów z plików "konkurencyjnego" formatu</td>
+
+<td VALIGN=TOP >Tak</td>
+
+<td VALIGN=TOP >Tak</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Zakładki</td>
+
+<td VALIGN=TOP >Dostępne w obrębie aktualnie wyświetlanego pliku HLP (jeżeli Spis treści albo Indeks dostępny po wywołaniu danego pliku HLP odwołuje się do innych plików HLP, użytkownik musi wybrać ten konkretny, aby zobaczyć dostępne w nim zakładki - nie są dostępne w obrębie pliku wywołującego)</td>
+
+<td VALIGN=TOP >Dostępne w obrębie wywołanego pliku CHM (zakładka do danego tematu będzie widoczna zawsze po wywołaniu danego pliku CHM - nawet, gdy temat jest fizycznie umieszczony w innym pliku)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Szybkość wyświetlania</td>
+
+<td VALIGN=TOP >Bezapelacyjnie większa niż w formacie CHM (szczególnie na wolniejszych komputerach)</td>
+
+<td VALIGN=TOP >Taka jak przy wyświetlaniu stron WWW w <a href="http://www.microsoft.com/ie">Internet Explorerze</a></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Wirusy</td>
+
+<td VALIGN=TOP >Możliwość wstawiania makr o działaniu destrukcyjnym działających już w momencie otwarcia pliku pomocy</td>
+
+<td VALIGN=TOP >Zagrożenia takie jak przy wyświetlaniu stron WWW (możliwość wykorzystywania błędów w kompilatorze Javy, obsłudze języków skryptowych, ActiveX, itd.)</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP ><b>Inne</b></td>
+
+<td VALIGN=TOP >&nbsp;</td>
+
+<td VALIGN=TOP >&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP >Możliwość konwersji pomocy do pliku "konkurencyjnego" formatu</td>
+
+<td VALIGN=TOP >Tak (umożliwia to m.in. <a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">HTML Help Workshop</a>)</td>
+
+<td VALIGN=TOP >Częściowa (można wybrać docelowy format przy zapisie projektu w programie Help &amp; Manual 2)</td>
+</tr>
+</table>
+
+</center>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Internet</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<ol>
+<li>
+<a href="http://msdn.microsoft.com/workshop/author/htmlhelp/">http://msdn.microsoft.com/workshop/author/htmlhelp/</a> - HTML Help Workshop (freeware)</li>
+
+<li>
+<a href="http://www.easyhtmlhelp.com/">http://www.easyhtmlhelp.com/</a> - edytor do Worda (shareware 15-dni)</li>
+
+<li>
+<a href="http://www.helpware.net/">http://www.helpware.net/</a> - FAR (shareware) i moduły do Delphi (freeware)</li>
+
+<li>
+<a href="http://www.keyworks.net/">http://www.keyworks.net</a> - narzędzia uzupełniające (freeware)</li>
+
+<li>
+<a href="http://htmlhelpcenter.hypermart.net/">http://htmlhelpcenter.hypermart.net/</a> - moduły do VB (freeware)</li>
+
+<li>
+<a href="http://www.ec-software.com/order.htm">http://www.ec-software.com/order.htm</a> - Help &amp; Manual 2 (Chip CD 10/99, shareware 15 dni)</li>
+
+<li>
+<a href="http://www.helpmaster.com/htmlhelp/htmlhelp.htm">http://www.helpmaster.com/htmlhelp/htmlhelp.htm</a> - inne odnośniki</li>
+</ol>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<p><font color="#1F409F" size=+2 class="dzial"><b>Pliki lokalne</b></font><br>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade>
+
+<ol>
+<li><a href=/zips/books.pl/htmlhelp.zip>kompendium wiedzy o technice HTML Help i plikach CHM zawierające m.in. rozszerzoną wersję artykułów z Chipa z 2000 i artykułów z tej strony www</a> (2001, ZIP)
+<li><a href="?q=node/130">FAQ - pliki CHM (2001)</a>
+<li><a href="?q=node/129">HTML na ratunek cz.2 (2001)</a>
+<li><a href=/zips/books/myhtmlib.chm>The HTML Reference Library 4.0 (Stephen Le Hunte)</a> (2001, po angielsku, CHM)
+<li><a href=/zips/books/hwb.chm>The Hardware Book</a> (2001, po angielsku, CHM)
+<li><a href=?q=node/128>Na ratunek ! (2000)</a>
+<li><a href="/zips/books.pl/kochanowski.chm">Utwory Jana Kochanowskiego</a> (2000, CHM)
+<li><a href="/zips/books.pl/konopnicka.chm">Utwory Marii Konopnickiej</a> (2000, CHM)
+<li><a href="/zips/books.pl/mickiewicz.chm">Utwory Adama Mickiewicza</a> (2000, CHM)
+<li><a href="/zips/books.pl/prus.chm">Utwory Bolesława Prusa</a> (2000, CHM)
+<li><a href="/zips/books.pl/sienkiewicz.chm">Utwory Henryka Sienkiewicza</a> (2000, CHM)
+<li><a href="/zips/books.pl/zeromski.chm">Utwory Stefana Żeromskiego</a> (2000, CHM)
+</ol>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>

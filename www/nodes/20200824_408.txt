@@ -1,0 +1,96 @@
+﻿Title:"Interfejs powstaje w bólach" czyli nowa mowomowa na... (2020)
+Author:marcin
+When:24 Aug 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Windows,Chrome
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/quotInterfejs-powstaje-w-bolachquot-czyli-nowa-mowomowa-na,110751.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>10 marca 2019 niejaki clouds65 zgłasza błąd o tym, że jego Linux uruchomiony w HyperV (z buforem ramki hyperv_fb) działa koszmarnie wolno.</p>
+
+<p>12 marca 2019 użytkownik z nickiem dcui (najwyraźniej pracownik MS) stwierdza, że bug może być odtworzony (&quot;I can reproduce the exact symptoms on latest Hyper-V build. It looks like recently something on the host side causes this issue.&quot;) i dodaje &quot;I&#39;m going to report this issue to Hyper-V team, but I&#39;m afraid it can not be resolved soon&quot;.</p>
+
+<p>Użytkownik marcinwiacek w dniach 3 - 6 lipca 2019 zauważa, że problem również go dotyczy. Zaraportowane są takie detale jak procesor (myślę, że to ważne w kontekście kolejnego odkrycia) i fakt, że włączenie opcji &quot;Processor compatibility&quot; dla CPU rozwiązuje problem.</p>
+
+<p>Firma Microsoft wie już, gdzie, co i jak (i wie również, w którym mniej więcej buildzie HyperV wystąpił błąd).</p>
+
+<!--break-->
+
+<p>Możnaby powiedzieć, że całość w tym momencie traci rację bytu - mamy przecież jego obejście...</p>
+
+<p>Ale, ale... HyperV to produkt komercyjny, pisany przez wielką firmę... w międzyczasie błąd jest raportowany przez innych ludzi... przychodzi wreszcie 27 lipca 2020 i dcui stwierdza &quot;I still can&#39;t understand why checking the &quot;Processor compatibility&quot; box would make a difference and I can&#39;t reproduce the same symptom with my test VMs&quot;.</p>
+
+<p>Ktoś może powiedzieć - OK, błąd, pomyłka ludzka, normalna sprawa, zdarza się...</p>
+
+<p>Czy jednak normalne jest, że przez 16 miesięcy nikt nie potrafi / nie chce dojść do tego, co trapi niezłe skądinąd narzędzie? (żeby nie było wątpliwości: <a href="https://github.com/LIS/lis-next/issues/655" target="_blank" rel="noopener" rel="nofollow">link</a>)</p>
+
+<p>Jak dla mnie słowa &quot;I&#39;m afraid it can not be resolved soon&quot; (przewijają się w całym wątku) potwierdzają, że odpowiedni zespół może być zbyt mały.</p>
+
+<p>I teraz dochodzimy do tematu Windows i tego, że &quot;Jednolity interfejs powstaje w&#160;bólach&quot;. </p>
+
+<p>Kolejne wydania tego systemu przez lata wprowadzały wiele fundamentalnych nowości - fonty True Type, ochrona pamięci, obsługa 64-bitów, NTFS, DirectX, itd. </p>
+
+<p>Dziesiątka to historia zupełnie inna - obarczony brzemieniem kompatybilności kod, nie do końca z wydzielonymi warstwami, potrafi sprawić problemy na bardzo różnych platformach. Owszem, są pewne próby dodawania nowych funkcjonalności (chociażby HyperV czy podsystem Linuxa), ale... wiele elementów systemu nie jest ruszane od lat.</p>
+
+<p>Czytałem na ten temat jakości MS wiele teorii - że rozwiązywano zespoły testerskie (i testowanie jest robione wyłącznie na maszynach wirtualnych), że starsi inżynierowie (którzy naprawdę znali technologie użyte do pisania Windows NT) już nie pracują, itp.</p>
+
+<p>Na pewno głośno było o pani Donie Sarkar i jej udziale w programie Windows Insider.</p>
+
+<center><img src="sites/default/files/408/Dona_Sarkar_2.jpg" style="width:324px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ja jako osoba z zewnątrz widzę kilka rzeczy:</p>
+
+<ul><li>Windows ma (zbyt) duży bagaż kompatybilności - ogromnym problemem jest nawet to, że z systemu będzie usuwany archaiczny IE</li>
+
+<li>Dla każdego pracownika MS lepiej jest wspierać to, co przynosi sukces, czyli dodawanie nowych funkcjonalności (niż ich zmianę, co może spowodować problem z kompatybilnością)</li>
+
+<li>Firma MS jest firmą amerykańską - &quot;rozkazy&quot; przychodzą z góry, a jaka sytuacja jest w US, to widać (Donald, wirus, BLM, mniejszości, etc. - w tej sytuacji dużo pracy przejmują ludzie z zagranicy, którzy niekoniecznie są z największym doświadczeniem)</li>
+
+<li>Firma MS realizuje strategię narzuconą przez CEO - proszę zauważyć, że za czasów Gatesa mieliśmy dużo rewolucji, za czasów Ballmera już jakby dużo problemów, a obecna strategia to taki miks wszystkiego (a w obszarze Windows dodawanie dużo rzeczy)</li>
+
+<li>Dużo się mówi o kiepskiej sytuacji w krzemowej dolinie (choćby z uwagi na sytuację w USA, ale też problemy z wizami)</li></ul>
+
+<p>Myślę, że tak naprawdę projekt nowego interfejsu Windows toczy się siłą rozpędu. Owszem, pewne elementy będą zrobione, bo ktoś się chce wykazać... ale tak naprawdę nikt nie ma silnej motywacji, żeby obecny Windows NT był lepszym systemem.</p>
+
+<p>Gdzie jest chociażby ReFS? </p>
+
+<p>Nie oszukujmy się - świat poszedł w kierunku totalnego odseparowania aplikacji (a nie wrzucania wszystkiego nawet do katalogu z systemem) i triumfy śledzą małe i odseparowane od siebie programy (Microsoft przeniósł to na desktop o wiele gorzej niż widgety w Viście).</p>
+
+<p>Siłą systemu Windows są pewne aplikacje np. w firmach (i gdyby przestały działać, to automatycznie byłby to jego koniec), DirectX i gry, nikt za to nie chce już nawet Active X (OK, jest jeszcze w zastosowaniach korporacyjnych).</p>
+
+<p>Firma nie ma pomysłu, a oddzielne rozwiązania nawet we własnych produktach (oddzielny update w Edge i Office) pokazują, że zespoły niezbyt współpracują ze sobą.</p>
+
+<p>Przykład raportu dotyczącego HyperV udowadnia mi tylko, jak daleko to zaszło.</p>
+
+<p>Ale... żeby nie było, że to Microsoft jest zły.&#160;</p>
+
+<p>Błąd <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=118639" target="_blank" rel="noopener" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=118639</a> został zgłoszony 16 marca 2012 i dotyczył tego, że zdarzenia keydown i keyup w przeglądarce Chrome na Android zgłaszają keyCode równy zero (zawsze).</p>
+
+<p>Od słowa do słowa okazało się, że problem występuje m.in. wtedy, gdy używana jest klawiatura GBoard.</p>
+
+<p>Ostateczna odpowiedź zespołu Google - to nie będzie naprawione.</p>
+
+<p>Czyli mamy system Android (gdzie Google jakby gra decydującą rolę), mamy klawiaturę GBoard i przeglądarkę Chrome i decyzja jest taka, że coś nie zostanie zrobione zgodnie ze specyfikacją.</p>
+
+<p>Oczywiście w przedstawionym wątku jest masa uzasadnień, jakie to nienowoczesne używać tych zdarzeń, itp.</p>
+
+<p>Pójdźmy dalej - w <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962309" target="_blank" rel="noopener" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=962309</a> dnia 12 marca 2019 zgłosiłem sugestię, że w okienku historii Chrome warto dodać możliwość zwijania / rozwijania poszczególnych dni.&#160;</p>
+
+<p>Został przedstawiony patch na kilkanaście linijek (do autorów kodu) i... wszyscy nabrali wody w usta.</p>
+
+<p>Nie, bo nie.</p>
+
+<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=959657" target="_blank" rel="noopener" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=959657</a> z 5 maja 2019 to prosta zmiana napisu w ustawieniach Chrome...</p>
+
+<p>Wymieniać możbaby długo, ale wisienką na torcie jest kilkakrotne <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=994387" target="_blank" rel="noopener" rel="nofollow">wydłużenie kompilacji Chrome</a> (w moim wypadku to była zmiana 1h w 4h), co oczywiście wiąże się ze stratą energii i czasu i widocznym wpływem na środowisko naturalne, bo Chrome kompilowany jest tysiące razy dziennie w wielu miejscach na świecie.</p>
+
+<center><img src="sites/default/files/408/industry-1761801_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>W kontekście takiego podejścia do spraw jakoś mnie nie dziwi fakt, że usługi Google nie działały w ostatni tygodniu... przy okazji odnajduję wiele analogii z Microsoftem i zadaję sobie pytanie retoryczne: czy naprawdę ktoś wierzy, że duopol na rynku przeglądarek (Safari / Chrome) NIE będzie hamulcem?</p>
+
+<p>Na pewno w obecnej sytuacji żaden manager nie zgodzi się np. na przepisanie Chrome na Kotlina albo zrobienie od nowa w sposób zupełnie modułowy (za dużo zasobów, za mało zysków). Myślę, że Mozilla miała swoją wielką szansę, ale jej Servo wygląda mi na wielki monolit, gdzie chciano zrobić za dużo na raz.</p>
+
+<p>Muszę też przyznać, że w opisywanym obszarze trochę lepiej zachowuje się ostatnia wspomniana firma / fundacja - oni w przypadku Firefox Preview z rozbrajającą szczerością przynajmniej przyznają, że mogą odrzucać jakikolwiek kod (co zresztą stało się w moim wypadku i myślę, że związane było z brakiem zasobów).</p>
+
+<p>To jak? Ktoś jeszcze wierzy, że ten nowy interfejs w Windows to taka skomplikowana sprawa? (śmiem twierdzić, że każdy duży projekt w IT powstaje w bólach, ale tu jakby chodzi o coś innego, co właśnie pokazałem) I czy kogoś to jeszcze w ogóle interesuje?</p>
+
+<p>PS. Dodajmy do tego oczywiście obecność kolejnych pokoleń inżynierów, którzy w takich firmach również chcą się wykazać i często i gęsto proponują technologie &quot;świeże&quot;. I testowanie na najdroższych użytkownikach, co dobitnie pokazało Adobe z Lightroom.&#160;&nbsp;</p>

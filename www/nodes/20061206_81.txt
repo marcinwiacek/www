@@ -1,0 +1,39 @@
+﻿Title:Report 2006-12-06
+Author:marcin
+When:06 Dec 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+,MyGnokii
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I would like to make to kind of summary...and write about nearest time. I had started/created three families: MyGnokii, Gammu, Gammu+</p>
+<table border="1"><tr><td><b>Project family</b></td>
+<td><b>Phones</b></td>
+<td><b>Used languages</b></td>
+<td><b>Things abandomed in next projects</b></td>
+<td><b>Some supported compilers</b></td>
+</tr><tr><td>MyGnokii</td>
+<td>Nokia (DCT3), AT</td>
+<td>C language, GTK ? (XGnokii), Delphi (some simple GUI)</td>
+<td>some Smart Messaging features (like menus)</td>
+<td>gcc 2.x - 3.x, ms vc++ 6, delphi 6-7</td>
+<!--break-->
+</tr><tr><td>Gammu + Wammu</td>
+<td>Nokia (DCT3, DCT4/Series 40, initial Series 60), AT, OBEX, SE, Alcatel, Siemens</td>
+<td>C language, Delphi (some examples), wxPython</td>
+<td></td>
+<td>gcc 3.x-4.x, ms vc++ 6 - 2005, delphi 7, Borland C++ 6, djgpp</td>
+</tr><tr><td>Gammu+</td>
+<td>Nokia (DCT3, DCT4/Series 40)</td>
+<td>C++ language, wxWidgets, some examples in C language, example in Borland C++ Turbo</td>
+<td></td>
+<td>ms vc 2005 (NO ms vc 2003 and earlier !), gcc 3.x-4.x</td>
+</tr></table><p>Generally you can do what you want with many phones. What can you expect from me in nearest time ?</p>
+<p>Today I have updated binaries (win32 versions) for Gammu and Gammu+. First in inside <a href="http://www.mwiacek.com/zips/gsm/gammu/gammu_win32.zip">http://www.mwiacek.com/zips/gsm/gammu/gammu_win32.zip</a> (console is compiled with debug), second inside <a href="http://www.mwiacek.com/zips/gsm/gplus/gplus_win32.zip">http://www.mwiacek.com/zips/gsm/gplus/gplus_win32.zip</a> (it includes console and GUI and replaces all old builds - please remove them from mirrors). I added new article (Polish language) - <a href="?q=node/84">http://www.mwiacek.com/gsm/linuxp.pl/komorki.htm</a></p>
+<p>During weekend I will collect patches for test Gammu and release new tarball on Sunday. We will have 10 December.</p>
+<p>Up to end of December I hope to have one test Gammu and big progress in Gammu+ GUI (it already has filesystem browsing, getting phonebook memories including call lists, I hope to have getting SMS, calendar, todo, notes, mms, maybe will start with setting something). I say - I hope, because it's possible, that I will write diploma work only.</p>
+<p>In January please don't expect anything.</p>
+<p>I don't have concrete plans for February and later. I know - I can pay for gammu.org for next few months, without work I will have to close it later.</p>
+<p>You can have help me with patches (for example BT/irda/cable drivers for Linux and MacOS for Gammu+ could be really nice gift), testing and thousands of other things. It will motivate me to work on these projects. I'm afraid especially on compatibility Gammu+ GUI with MS Vista.</p>
+<p>I don't know, what do you think about this future. Maybe it would good to start discusion on this page (after for example line separator) or mailing list ? Some main questions:</p>
+<ul><li>what do you think about writing two family of projects ?
+</li><li>what features are really required, but not available ?
+</li></ul><hr />

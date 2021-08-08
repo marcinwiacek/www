@@ -1,0 +1,37 @@
+﻿Title:Report 2006-05-21
+Author:marcin
+When:22 May 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I would like to pronounce new MileStone release:</p>
+<pre>
+20060521 - 1.06.15
+[+] new -smsname for --savesms
+[+] partial support for decoding EMS text formatting
+[+] 6170/7270 ID                                                      (unknown)
+[+] Series 60 1 and 2 devices:
+    * added compiled gnapplet 0.6.12 (and source 0.6.2)
+    * new connection "bluerfgnapbus"/model "gnap" (stable) and new
+      connection "irdagnapbus"/model "gnap" (experimental) for communication
+    * implemented:
+      * identification
+      * getting phone time
+<!--break-->
+      * getting SMSC (partially)
+      * getting SMS folders
+[+] added makefile for MSVC6 for making static library           (Michal Cihar)
+[*] displaying warning, when you use save SMS on SIM with name
+[*] after saving sms you have info about used memory (phone/sim)
+[*] some optimalizations with saving SMS
+[-] * iswspace might return also other values than 0/1,          (Michal Cihar)
+      myiswspace fixed to return true or false in all cases
+[-] * removed useless conversion in Unicode functions
+</pre><p>
+As you see, we have finally some functionality with Symbian. There is used gnapplet. We will try to have compatiblity with its' protocol as long as possible, but even now there are visible some areas, where it should fixed.</p>
+<p>After Gammu support we will create adequate Gammu+ module for it.</p>
+<p>And I must add one thing - without help (from users) in getting Symbian phone it couldn't been possible to have it. I will want to catch Series 60 3rd edition phone in the future and make support for it too.</p>
+<p>From other things:</p>
+<ul><li>Mantis case is still not closed (I'm waiting for Michal)
+</li><li>if Michal will want, it could possible to display SMS text formatting (like in EMS) in Wammu SMS display screen
+</li></ul>

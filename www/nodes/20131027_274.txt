@@ -1,0 +1,29 @@
+﻿Title:Pieski i kotki
+Author:marcin
+When:27 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Nie ogarniam czasami tej czy tamtej kuwety,<br />
+gdy słyszę tu czy tam głos wielkiej podniety,<br />
+Że ktoś zamiast w związku się dogadywania<br />
+woli miauk głośny lub szczekacza dokazywania,</p>
+<p>I latka lecą i ludzie na swój los narzekają,<br />
+a robić nic nie chcą i go sobie nie zmieniają,<br />
+wolą pójść na łatwiznę niż przejść co trudne,<br />
+co da pot, znój, łzy, płacz, ale też wyniki cudne,</p>
+<p>Nie ogarniam czasami tej czy tamtej kuwety,<br />
+gdy słyszę tu czy tam nad tym głos podniety,</p>
+<!--break-->
+<p>A czasem wystarczy jedynie dać się zaprosić<br />
+albo rzeczy wyjaśnić lub o wybaczenie poprosić<br />
+albo odpowiedzieć na źle skrywane uwielbienie<br />
+albo też dać choćby nadziei szczypty wrażenie,</p>
+<p>Za to ma być czasem coś jednak z księżyca wzięte,<br />
+czasem ma być stanowisko, kasa, auto niepojęte,<br />
+i zostaje tak miauk lub szczekacza dokazywania,<br />
+bo nie chciało się rezygnować z jaśniepanowania,</p>
+<p>Oczywiście nie zawsze tak dokładnie się dzieje,<br />
+ale myślę, że moda ta jednak po części istnieje,</p>
+<p>Szkoda...</p>

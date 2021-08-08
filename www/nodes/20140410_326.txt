@@ -1,0 +1,18 @@
+﻿Title:xxx
+Author:marcin
+When:10 Apr 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Czas odejść stąd na długą chwilę,<br />
+przekroczyć wreszcie ósmą milę,<br />
+gdy wsparcie poczuję wszędzie,<br />
+może nowe coś przybędzie,</p>
+<p>gdyby kto chciał więcej wiedzieć,<br />
+musi znać, gdzie będę siedzieć,<br />
+za uwag(i) całość dziękuję,<br />
+cierpliwości gratuluję :)</p>
+<p>co złego to nie ja :)<br />
+pa pa :)</p>
+<!--break-->

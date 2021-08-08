@@ -1,0 +1,71 @@
+﻿Title:Restart
+Author:marcin
+When:01 Nov 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Istnieją momenty, które o wszystkim decydują,<br />
+Istnieją momenty, które latami są pamiętane,<br />
+I są chwile, które miesiącami nurtują i kłują,<br />
+I są chwile, które tak długo za wzór są brane,</p>
+<p>To, co się nie stało jesienią w zimnym parku,<br />
+To, co w murach swych zapamiętały mieszkania,<br />
+I siedzenie w aucie przy małym nocnym marku,<br />
+I opalenizny wspaniałej piękno niepodziwiania,</p>
+<!--break-->
+<p>Szkoda, że czasem nic nie idzie tak jak chcemy,<br />
+Szkoda, że ludzie często o czym innym śnią,<br />
+Lecz dzięki temu pewną inną szansę dostajemy,<br />
+Lecz dzięki temu pewne inne cuda się przyśnią,</p>
+<p>Teraz jest czas rozliczenia i nowego tworzenia,<br />
+Cóż przyniesie jutro, pojutrze i cóż się zmienia ?</p>
+<p>Nie ma co lwów w klatce na siłę przymykać,<br />
+Nie ma co też fałszywych przyjaciół dotykać,<br />
+I nie należy znowu do pewnych spraw wracać,<br />
+I nie należy znowu pewnych rzeczy przywracać,</p>
+<p>Kto jest ze mną, niech znów dzwoni i się odzywa,<br />
+Kto jest ze mną, niech nęci i z daleka przybywa,<br />
+I niech nam Bóg i Honor i Ojczyzna drogę torują,<br />
+I niech nam przy upadkach pomagają oraz kształtują,</p>
+<p>A dzisiaj mam dość fachowców w sumie partaczy,<br />
+A dzisiaj mam dość bylejakości co zewsząd paczy,<br />
+I powtórzę jak mantrę znane już w sumie słowa,<br />
+I powtórzę póki znana jest mi polska mowa,</p>
+<p>Że błagam, by ktoś mnie niedoskonałością czarował,<br />
+Że błagam, by na jej poprawę konkrety przyjmował,</p>
+<p>I chcę, by me wszystkie zmysły na raz były drażnione,<br />
+I chcę, by me uszy pieściła słowiańska mowa,<br />
+I czekam, aż szaleństwa moje będą czasem tłumione,<br />
+I czekam, aż słyszeć będę absztyfikanta i inne słowa,</p>
+<p>I dążę, by różne twarze i maski były me ukazane,<br />
+I dążę, by zrozumienie się bez słów było widoczne,<br />
+I krzyczę dopóki właściwe innym rzeczy nie będą dane,<br />
+I krzyczę dopóki nie spełni się marzenie noworoczne,</p>
+<p>I mam nadzieję na oglądanie kształtów okrągłości,<br />
+I mam nadzieję na powrót prostych rozrywek pożądania,<br />
+I myślę o słuchaniu dowcipów drobnych subtelności,<br />
+I myślę o śniadania razem ranem przygotowywania,</p>
+<p>I nie chcę mieć w końcu brutalnej nagiej racji,<br />
+I nie chcę czasem zamieniać w sprzedaż relacji,</p>
+<p>I padam, bo nie dostaję tego za co warto harować,<br />
+I padam, bo nie każdego szkiełkiem da się wychować,<br />
+I pragnę nie mieć choć raz uwag mych niewinnych,<br />
+I pragnę nie myśleć za dziesięciu mądrych innych,</p>
+<p>I proszę o to, abym nie musiał pleców pilnować,<br />
+I proszę o to, abym miał z kim uroki pogo ucztować,<br />
+I próbuję działać, gdy optymizmu wariant zawodzi,<br />
+I próbuję działać wtedy, gdy nikogo to nie odchodzi,</p>
+<p>I ufam, że kiedyś będę miał sen całkiem spokojny,<br />
+I ufam, że ktoś okryje, gdy wirus Filipin złapie upojny,<br />
+I żądam wiedzy mej od czasu do czasu pokonania,<br />
+I żądam życzenia powodzenia ranem znowu czytania,</p>
+<p>I więcej w życiu mam różnych pragnień i planów,<br />
+I bardzo chcę znać więcej polskich Pań i Panów,<br />
+Którzy potrafią dać więcej niźli tylko pustości,<br />
+Którzy umieją wykrzesać ten piękny kwiat radości,</p>
+<p>Bo pomimo wielkich losu przeciwności i złośliwości,<br />
+Bo pomimo zazdrości i polskiego piekiełka nicości,<br />
+Każdy dzień piękny być może wśród tego otoczenia,<br />
+Każdy dzień w czyny może zamienić drobne marzenia,</p>
+<p>Nieprawdaż ?</p>

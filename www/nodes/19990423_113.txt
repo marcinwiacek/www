@@ -1,0 +1,46 @@
+﻿Title:Konkurs fizyczny - etap szkolny
+Author:marcin
+When:23 Apr 1999
+Taxonomy:Polski,Polski artykuł,Fizyka
+SkipMain:true
+
+<p></p><center><a name="Top" id="Top"></a><br /><h1>Zadania</h1>
+<p></p></center>
+<p><a name="Z_SLO94" id="Z_SLO94"></a><font color="#1F409F" size="+2" class="dzial"><b><a class="dzial" href="#R_SLO94">1994/95</a> (<a class="dzial" href="http://www.ids.pl/~liceumba/" target="_top">L LO</a> - 18.10.1994)</b></font><br /></p>
+<!--break-->
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Na cienkiej nici o długości l = 0,5 m zawieszono pistolet sprężynowy tak, że jego lufa skierowana była poziomo. Jaki będzie maksymalny kąt nachylenia nici po wystrzale, jeśli kula o masie m = 20 g przy wylocie lufy miała prędkość V = 10 m/s ? Masa pistoletu M = 200 g.</li>
+<li>W cylindrze pod tłokiem znajdują się n = 2 mole powietrza. Wyznacz pracę, przyrost energii wewnętrznej i temperaturę początkową, jeśli wiadomo, że po dostarczeniu Q = 29,31 kJ energii (ciepła) objętość powietrza zwiększyła się k = 3 razy. Zaniedbaj ciężar tłoka. C<sub>p</sub> = 29,31 J/(mol*K).</li>
+<li>Z pionowo ustawionego kondensatora płaskiego wycieka wypełniająca go nafta. W obwodzie utworzonym przez kondensator i dołączoną do niego baterię o SEM E = 100 V przepływa wtedy prąd elektryczny J = 2*10<sup>-11 </sup>A. Z jaką prędkością V obniża się poziom nafty ? Okładki kondensatora mają kształt kwadratów o boku l = 0,1 m i są oddalone od siebie o d = 1 mm. Stała dielektryczna nafty <font face="Symbol">e</font><sub>r </sub>= 2.</li>
+<li>Punkt świecący Z porusza się ruchem harmonicznym o równaniu s(t) = A sin <font face="Symbol">w</font>t wzdłuż osi B, która jest prostopadła do głównej osi optycznej soczewki. Odległość osi B od cienkiej soczewki skupiającej o ogniskowej f jest większa od podwójnej ogniskowej soczewki. Dzięki soczewce pojawia się punktowy obraz Z<sup>'</sup>, który także wykonuje drgania proste wzdłuż pewnej osi B<sup>'</sup>. Napisz równanie dla wychylenia S' obrazu punktu drgającego wzdłuż osi B<sup>'</sup>. Prędkość światła C jest znacznie większa od V ( C &gt;&gt;&gt;&gt; V).<br /><br />Źródło: <a href="?q=node/106#K">K</a> 33-37
+</li>
+<li>Potok górski o przekroju koryta S = 3,5 m<sup>2</sup> tworzy wodospad o wysokości h = 10 m. Prędkość wody w potoku wynosi V = 10 m/s. Znajdź moc wody przy końcu wodospadu. Gęstość wody d = 10<sup>3</sup> kg/m<sup>3</sup>. Odpowiedź podaj w jednostkach układu SI.</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="Z_SLO95" id="Z_SLO95"></a><font color="#1F409F" size="+2" class="dzial"><b><a class="dzial" href="#R_SLO95">1995/96</a> (<a class="dzial" href="http://www.ids.pl/~liceumba/" target="_top">L LO</a> - 31.10.1995)</b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Do kulki spadającej z wysokości H (w chwili, gdy przelatuje ona obok okna znajdującego się na wysokości 0,5H) oddano strzał w kierunku poziomym. Pocisk ugrzązł w środku kuli. Masa pocisku jest 10 razy mniejsza od masy kuli, a jego prędkość wynosi V<sub>0</sub>. Z jaką prędkością kula spadnie na Ziemię ?</li>
+<li>W umieszczonej poziomo, zalutowanej rurze, znajduje się powietrze w warunkach normalnych. Rurka jest rozdzielona ruchomym tłokiem na dwie części, których objętości V<sub>1</sub> i V<sub>2</sub> pozostają w stosunku 1:2. Do jakiej temperatury należy ogrzać mniejszą część i do jakiej temperatury należy oziębić większą, aby tłok rozdzielił rurkę na dwie równe części, jeżeli ogrzewanie i oziębianie obu części odbywa się przy warunku V/T = const ?</li>
+<li>Dwa pojazdy kosmiczne A i B o jednakowych masach krążą po orbitach kołowych wokół Ziemi: pojazd A tuż nad jej powierzchnią (r w przybliżeniu jest równe R), zaś pojazd B na wysokości h ponad jej powierzchnią. Oblicz wysokość h, jeśli wiadomo, że energia kinetyczna pojazdu B wynikająca z ruchu po orbicie jest czterokrotnie mniejsza od energii kinetycznej pojazdu A. Jaki jest stosunek całkowitych energii tych pojazdów ?</li>
+<li>W obwodzie elektrycznym siła elektromotoryczna ogniwa wynosi <font face="Symbol">e</font> = 2 V, jego opór wewnętrzny r = 0,5 <font face="Symbol">W</font>, opory R<sub>1</sub> = R<sub>2</sub> = 1 <font face="Symbol">W</font>, pojemność kondensatora C = 0,1 <font face="Symbol">m</font>F. Oblicz ładunek elektryczny na okładkach kondensatora i energię pola w jego wnętrzu.<br /><br />Źródło: <a href="?q=node/106#KA">Ka</a> 7.42<br /><center><img src="sites/default/files/113/image01.gif" height="121" width="139" /></center>
+</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="Z_SLO98" id="Z_SLO98"></a><font color="#1F409F" size="+2" class="dzial"><b><a class="dzial" href="#R_SLO98">1998/99</a> (<a class="dzial" href="http://www.ids.pl/~liceumba/" target="_top">L LO</a> - 29.10.1998)</b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Na pionowym słupie o wysokości h spoczywa kula o masie M. Pocisk o masie m lecący poziomo z prędkością V<sub>0</sub> przebija kulę centralnie. W jakiej odległości od słupa upadł pocisk, jeżeli kula upadła w odległości s od słupa ?<br /><br />Źródło: <a href="?q=node/106#W">W</a> 1967 (zad. 1)
+</li>
+<li>Elektrony przyspieszane różnicą potencjałów U są emitowane do próżni przez działo elektronowe w kierunku wyznaczonym przez prostą a. Mała tarcza znajdująca się w odległości d od działa jest umieszczona tak, że odcinek TM tworzy z prostą kąt <font face="Symbol">a</font>. Jaka powinna być wartość indukcji pola magnetycznego prostopadłego do płaszczyzny wyznaczonej przez prostą a i odcinek TM, aby elektrony trafiły w tarczę ?<br /><br />Źródło: <a href="?q=node/106#W">W</a> 1977 (zad. 3a)<br /><center><img src="sites/default/files/113/image02.gif" height="78" width="149" /></center>
+</li>
+<li>Płytki płaskiego kondensatora próżniowego o powierzchni S są ustawione poziomo. Dolna płytka jest zamocowana na stałe, górna zaś zawieszona na sprężynie o stałej sprężystości k. Oblicz, o ile wydłuży się sprężyna, jeżeli na płytki kondensatora zostaną wprowadzone równe co do wartości (ale o przeciwnych znakach) ładunki q.</li>
+<li>Pojazd kosmiczny o masie m krąży po kołowej orbicie okołoziemskiej na wysokości R ponad powierzchnią Ziemi (gdzie R jest promieniem Ziemi). Oblicz pracę, jaka była potrzebna do wprowadzenia pojazdu na orbitę oraz okres jego obiegu wokół Ziemi.</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p></p><center><br /><h1>Rozwiązania i odpowiedzi</h1>
+<p></p></center>
+<p><font color="#1F409F" size="+2" class="dzial"><b><a href="http://www.ids.pl/~liceumba/" class="dzial" target="_top">L LO</a> - <a name="R_SLO94" id="R_SLO94"></a><a class="dzial" href="#Z_SLO94">1994/95</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol start="4"><li>S'(t) = -af / (x-f) sin <font face="Symbol">w</font>t</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><b><a href="http://www.ids.pl/~liceumba/" target="_top" class="dzial">L LO</a> - <a name="R_SLO95" id="R_SLO95"></a><a href="#Z_SLO95" class="dzial">1995/96</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol start="4"><li>Q = ER<sub>2</sub>C/(R<sub>2</sub>+r) (w przybliżeniu 1,3*10<sup>-7</sup> C)</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><b><a href="http://www.ids.pl/~liceumba/" target="_top" class="dzial">L LO</a> - <a name="R_SLO98" id="R_SLO98"></a><a href="#Z_SLO98" class="dzial">1998/99</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>x = V<sub>0<img src="sites/default/files/113/image26.gif" height="49" width="36" align="absmiddle" /></sub>- Ms/m</li>
+<li>B = <img src="sites/default/files/113/image27.gif" height="46" width="94" align="absmiddle" /></li>
+<li><font face="Symbol">D</font>x = Q<sup>2</sup>/2S<font face="Symbol">e</font><sub>0</sub>k</li>
+<li>W = 0,75mgR<br /><br />T = 4<font face="Symbol">p</font><img src="sites/default/files/113/image14.gif" height="49" width="40" align="absmiddle" /></li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>

@@ -1,0 +1,162 @@
+﻿Title:Jak napisać kompaktowego CMS - runda druga, czyli Sobieski z Plusem Milestone 1 (2020)
+Author:marcin
+When:22 Mar 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Sobieski
+
+<img align=right src="sites/default/files/393/strona.png" style="width:300px" alt="image" title="image" />
+
+<p><nobr>Plusy ostatnio robią</nobr> zawrotną karierę - mamy kolejne odsłony procesu technologicznego Intela, ale również program 500+, Opieka 75+ czy Mieszkanie+.</p>
+
+<p>Jakiś czas miałem potrzebę usunięcia pewnej instalacji Drupal ze swojego życia - <a href="?q=node/372">wyszło, jak wyszło</a> (czyli całkiem nieźle, aczkolwiek nie bardzo dobrze, gdyż moje plany zostały zrealizowane tylko częściowo).</p>
+
+<p>Jako że teraz znalazłem trochę wolnego czasu, odkurzyłem stare plany i zacząłem się zastanawiać, jak możnaby napisać prosto plikowego CMS, który pozwalałby na robienie całości z WWW (tj. zakładanie kont użytkownikom, edycję treści, dodawanie komentarzy, itp.).</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Jak-napisac-kompaktowego-CMS-runda-druga-czyli-Sobieski-z-Plusem-Milestone,106946.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Plusy ostatnio robią zawrotną karierę - mamy kolejne odsłony procesu technologicznego Intela, ale również program 500+, Opieka 75+ czy Mieszkanie+.</p>
+
+<p>Jakiś czas miałem potrzebę usunięcia pewnej instalacji Drupal ze swojego życia - <a href="?q=node/372">wyszło, jak wyszło</a> (czyli całkiem nieźle, aczkolwiek nie bardzo dobrze, gdyż moje plany zostały zrealizowane tylko częściowo).</p>
+
+<center><img src="sites/default/files/393/Untitled.png" style="width:608px;height:395px;" alt="image" title="image" /></center>
+
+<p>Jako że teraz znalazłem trochę wolnego czasu, odkurzyłem stare plany i zacząłem się zastanawiać, jak możnaby napisać prosto plikowego CMS, który pozwalałby na robienie całości z WWW (tj. zakładanie kont użytkownikom, edycję treści, dodawanie komentarzy, itp.).</p>
+
+<p>Zacząłem od użycia PHP, który wydawał mi się niezłym kandydatem - wiele firm hostingowych nie oferuje nic innego, język jest dosyć dojrzały i z wersji na wersję coraz szybszy (<a href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PHP-7.2-Benchmarks-RC6" target="_blank" rel="noopener" rel="nofollow">więcej</a>).</p>
+
+<p>Cała najbardziej podstawowa idea została przeze mnie zaimplementowana w kilka dni (czytanie danych z plików, cachowanie najczęściej używanych danych w bazie danych)... i wtedy pojawiły się pewne wątpliwości.</p>
+
+<p><b>Funkcjonalność push</b></p>
+
+<p>PHP jest rzeczywiście wystarczający do wielu zastosowań, ale jego idea w skrócie i uproszczeniu polega na tworzeniu nowego oddzielnego wątku czy procesu przy każdym requeście, interpretowaniu plików PHP i zwróceniu treści (to zajmuje czas).</p>
+
+<p>Załóżmy, że chcemy poinformować użytkownika o zmianie w już otwartej i wyświetlonej przez niego stronie - gdy jeden wątek serwera uaktualnia treść (użytkownik np. wysłał dane z formularza i skrypt zapisał je właśnie po stronie serwera), to jak powiadomić inny wątek obsługujący wysyłanie informacji do przeglądarki o zmianie treści?</p>
+
+<p>Pozostało mi użyć tutaj takich metod jak regularne odpytywanie bazy danych (czyli okropny pooling) albo sprawdzanie, czy data pliku z danymi się nie zmieniła.</p>
+
+<p>Mogłem to rozwiązać również tworząc jednowątkowy serwer w PHP uruchamiany w tle z linii komend (na to jednak nie pozwalają wszyscy dostawcy), albo pójść krok dalej... i rozejrzeć się za alternatywą.</p>
+
+<p>I tak właśnie zacząłem się skłaniać ku Node.js - jest popularny i zbudowany na V8, używa znanego przez wielu JavaScript, działa w uproszczeniu na jednym wątku (obsługa któregoś request może &quot;przytkać&quot; całość i usterka kodu od razu wyłącza całą funkcjonalność serwera, ale równocześnie zyskujemy możliwość współdzielenia danych w RAM) i opiera się na wykonywaniu określonego kodu, gdy zaszło jakieś wydarzenie (ustawiamy callback, który jest wywoływany w odpowiednim momencie).</p>
+
+<p>Po wstępnym wyborze technologii zacząłem się rozglądać za sposobami sprawdzania, czy jakaś treść się zmieniła:</p>
+
+<ul><li>short pooling - przeglądarka regularnie wysyła request do serwera z odpowiednim pytaniem (co wymaga przesyłania danych, zwiększa zużycie energii, itp.)</li>
+
+<li>long pooling - jak wyżej, ale serwer odpowiada po długim czasie, gdy nie nastąpiło uaktualnienie</li>
+
+<li>Server-Side Events - rejestrujemy chęć pobierania danych o zmianach i serwer wysyła nam to, co chce</li>
+
+<li>WebSockets - bardziej skomplikowane niż poprzednie, ale zyskujemy pełną komunikację w obie strony</li></ul>
+
+<p>Wybrałem SSE (zdecydowała prostota i brak możliwości narobienia szkód po stronie serwera, gdyż dane mogą być przesyłane tylko w stronę przeglądarki) i w Milestone 1 z jego pomocą zaimplementowałem obsługę sprawdzania, czy dodano komentarze na stronie.</p>
+
+<p><b>Założenia</b></p>
+
+<p>Dużym problemem node.JS okazał się swoisty urodzaj - większość samouczków rozpoczyna się od słów &quot;żeby zrobić (tu wstawiamy co chcemy) należy pobrać rewelacyjny framework...&quot;.</p>
+
+<p>Wielokrotnie to przerabiałem przy okazji różnych technologii - ludzie zamiast pisać w danym języku, często i gęsto idą na skróty i korzystają z wrapperów do standardowych bibliotek/klas/funkcji.</p>
+
+<p>Tutaj miało to uzasadnienie w czasach, gdy HTML raczkował i gdy Microsoft, i inne firmy raczyły nas swoimi rozwiązaniami (wtedy biblioteki takie jak jQuery naprawdę miały rację bytu), obecnie jednak w dobie dwóch czy trzech w trzymających się standardów silników spokojnie wiele rzeczy można zrobić bez sterydów.</p>
+
+<p>Z tej obserwacji pojawiło się moje podstawowe założenie do projektu - chciałem napisać kod prosto, ale bez wspomagaczy.</p>
+
+<p>Dodatkowo postanowiłem, że całość ma być łatwo modyfikowalna, dawać się używać z dużą ilością danych i być jak najłatwiejsza w użyciu.</p>
+
+<p><b>Struktura katalogów</b></p>
+
+<p>Możliwie dużą część HTML / CSS / JS przeniosłem do plików zewnętrznych.</p>
+
+<p>Engine w głównej mierze opiera się na ładowaniu tych &quot;template&quot; i zamienianiu odpowiednich znaczników konkretną treścią.</p>
+
+<p>Wspomniane pliki do przetwarzania (+ certyfikaty do HTTPS) zamieściłem w katalogu &quot;internal&quot;, gotowe komponenty (w tym zewnętrzny framework Quill do tworzenia kodu HTML w ładnie wyglądającym edytorze &quot;ala Word&quot; i biblioteka do generacji SHA256) poszły do katalogu &quot;external&quot;.</p>
+
+<p>Pliki z treścią dodałem do katalogu &quot;teksty&quot;, a pliki tekstowe opisujące użytkowników do katalogu &quot;uzytkownicy&quot;.</p>
+
+<p>Do tego doszedł plik index.js... i to wszystko.</p>
+
+<p><b>Format plików</b></p>
+
+<p>W przypadku treści są to delikatnie zmodyfikowane pliki z Sobieskiego - dodałem m.in. wersjonowanie treści.</p>
+
+<p>Podobny format został użyty do zapisywania informacji o kontach użytkowników - przy czym na razie nie wszystko zostało zdefiniowane, bo engine w wersji Milestone 1 nie ma np. obsługi wiadomości prywatnych.</p>
+
+<p>Te rozwiązania powodują, że wskazane może być przechowywanie odpowiednich katalogów w systemie plików, który posiada kompresję plików w locie (ewentualnie będę musiał zastanowić się nad implementacją kompresji).</p>
+
+<p><b>Uruchomienie</b></p>
+
+<p>W przypadku Windows <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener" rel="nofollow">pobieramy nodeJS</a> i uruchamiany serwer komendą &quot;nodejs index.js&quot;.</p>
+
+<p><b>A co jest w index.js?</b></p>
+
+<p>Przy pisaniu kodu korzystałem z bibliotek dostępnych w standardowym pakiecie (stąd nie trzeba nic doinstalowywać).</p>
+
+<p>Obecny kod:</p>
+
+<ul><li>renderuje listy z treścią i strony z poszczególnymi tekstami,</li>
+
+<li>pozwala na tworzenie nowych stron i dodawanie komentarzy (te ostatnie wysyłane są użytkownikom bez przeładowywania stron),</li>
+
+<li>umożliwia logowanie i wylogowywanie.</li></ul>
+
+<p>Zaimplementowałem kilka flow:</p>
+
+<ul><li>wszędzie mamy kopie robocze (są widoczne tylko dla autora)</li>
+
+<li>w Hydepark każdy autor może sam przenieść je do biblioteki (wtedy są widoczne dla wszystkich), w pozostałych sekcjach widzimy listy poczekalni, bety i bibliotekę (dwie pierwsze są publiczne i autor może przenosić tam swoje utwory, ostatnia jest również publiczna, ale przeniesienie tam utworu wymaga akcji admina).</li>
+
+<li>mamy przyklejanie tekstów na szczycie list i dodawanie ich na główną stronę (może to robić admin)</li></ul>
+
+<p>Początkowo całość oparta była na HTTP/1.1, ale tam ograniczeniem okazała się liczba sesji do serwera (mówiąc inaczej: przy otwartych wielu zakładkach tylko sześć z nich dostawało informacje zwrotne od serwera o uaktualnieniu treści) i przeniosłem mój serwer do HTTP/2.</p>
+
+<p>Serwer dodaje &quot;aż&quot; trzy cookies - jedno dotyczy zalogowanej sesji (nie ma terminu ważności, wygasa po restarcie serwera), drugie trybu dark, a trzecie trybu mobilnego.</p>
+
+<p>Mamy też kompresję gzip/deflate treści i ich minifikację, używanie &quot;preload&quot; z HTTP/2.0, wykorzystywanie parametru &quot;async&quot; w kodzie, jak również cachowanie całości w RAM.</p>
+
+<p><b>Wygląd</b></p>
+
+<p>Milestone 1 miał dobrze działać, a nie wyglądać idealnie.</p>
+
+<p>Tak obecnie wygląda strona główna z kilkoma postami (jeden przyklejony, reszta &quot;zwyczajnie&quot; dodana).</p>
+
+<p><center><img src="sites/default/files/393/glowna.png" width=595 alt="image" title="image" /></center>
+
+<p>Przy listach mamy jeszcze kryteria wyświetlania</p>
+
+<p><center><img src="sites/default/files/393/lista.png" style="width:595px;height:405px;" alt="image" title="image" /></center>
+
+<p>Edycja strony robiona jest bez pisania kodu HTML</p>
+
+<p><center><img src="sites/default/files/393/nowa.png" width=570 alt="image" title="image" />
+
+<p><img src="sites/default/files/393/strona.png" style="width:567px;height:405px;" alt="image" title="image" /></center>
+
+<p>Wzorowałem się trochę na pewnej stronie, którą ostatnio często odwiedzam...</p>
+
+<p><b>Na ile to jest stabilne i dojrzałe?</b></p>
+
+<p>Projekt jest w fazie Milestone 1 - kod będzie rozwijany przy zainteresowaniu, wtedy też stanie się bardziej kompaktowy i wyczyszczony (trzeba też dokończyć kilka funkcji, takich jak cachowanie wyłącznie nagłówków plików z treścią zamiast całych plików).</p>
+
+<p>Na dzień dzisiejszy katalog &quot;internal&quot; to ok. 20kB, &quot;external&quot; 251kB (Quill jest jednak duży), a index.js to około 44kB - myślę, że można całość napisać jeszcze znacznie lepiej.&#160;</p>
+
+<p>Chciałbym poprawić wydajność - przeciętny czas odpowiedzi to 16ms, choć zdarzają się również dłuższe czasy renderowania stron.</p>
+
+<p>Całość ma kilka znanych błędów, kilka funkcji jest zaimplementowane &quot;eksperymentalnie&quot; (np. hasła są obecnie przechowywane otwartym tekstem w plikach użytkowników, będę je mógł &quot;hashować&quot; po dodaniu funkcji dodawania użytkowników z www).</p>
+
+<p>Projekt nie jest może jeszcze super przygotowany do używania na produkcji (aż ciśnie mi się na usta stwierdzenie, że trzeba go &quot;utwardzić&quot;), ale już obecnie jego dopracowanie jest moim zdaniem całkiem niezłe, a w każdym razie bardzo dobre jak na coś zrobione w kilka dni.</p>
+
+<p>A udostępniam go, bo edukacji nigdy dosyć... szczególnie, że wielu z nas ma teraz dużo wolnego czasu...</p>
+
+<p>A nuż to rozwiązanie zainspiruje kogoś?</p>
+
+<p><b>Przyszłość</b></p>
+
+<p>Może Go? (tam kod jest kompilowany natywnie; według różnych źródeł daje to mniejsze zużycie pamięci i lepszą wydajność niż przy node.js)</p>
+
+<p>Może użycie Sobieskiego+ na różnych stronach?&#160;</p>
+
+<p>Może przeniesienie struktury do Sobieskiego?</p>
+
+<p>Z chęcią bym nawiązał współpracę z różnymi ludźmi i firmami, kwestia licencji jest otwarta (pewnie zgodziłbym się na MIT lub GPL2 lub Apache) </p>
+
+<p>PS. Zapomniałbym - oto link: <a href="https://github.com/marcinwiacek/SobieskiPlus" target="_blank" rel="noopener" rel="nofollow">https://github.com/marcinwiacek/SobieskiPlus</a>&#160;&nbsp;</p>
+
+<p>PS2. Wątek na fantastyka.pl: <a href="https://www.fantastyka.pl/hydepark/pokaz/24257">link</a>

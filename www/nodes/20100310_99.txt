@@ -1,0 +1,73 @@
+﻿Title:Gammu
+Author:marcin
+When:10 Mar 2010
+Taxonomy:English,Gammu,GSM
+SkipMain:true
+
+<p align="right"><b>Project is currently developed by <a href="http://cihar.com">Michal Čihař</a>.<br />For the latest one information please refer to the <a href="http://www.gammu.org">gammu.org</a></b></p>
+<hr /><p align="justify">Gammu is a project which encompasses applications, scripts and drivers for managing various functions on cellular phones and similiar devices.</p>
+<!--break-->
+<p align="justify">It is a stable and mature codebase with support for many models available on the market and provides functions unavailable in other similiar projects. Long term development is oriented towards making a shared API for classes of device rather than supporting single phone models (which are eventually made obsolete with the arrival of new models).</p>
+<h1>Manifest and history</h1>
+<p align="justify">After contributing some source code and ideas to <a href="http://www.gnokii.org">Gnokii</a> and developing <a href="?q=mygnokii">MyGnokii</a>, I decided to create a new project - MyGnokii2. It was started somewhere in April 2002 and written from scratch.</p>
+<p align="justify">The main reason for creating it was the problems I encountered in previous projects. I saw a need for some faster, smaller and better solutions. These were some of the initial targets:</p>
+<ul><li>using Unicode everywhere
+</li><li>easy API and user interfaces
+</li><li>no more unnecessary source code and adding source code from C libraries (ANSI C compatibility)
+</li><li>support for free C compilers on various portable devices and various operating systems in personal computers
+</li><li>good documentation for protocols and source
+</li><li>no unnecessary rewrites
+</li><li>translating binaries using external text files
+</li><li>reduction of stupid errors, existing because of obsolete structures
+</li><li>when something can be done better, it's implemented and tested, and later included into the source code (but not included without testing).
+</li></ul><p align="justify">These aims have generally been reached.</p>
+<p align="justify">During development there was a change in the project name from <b>MyGnokii2</b> to <b>Gammu</b> (<b>G</b>NU <b>A</b>ll <b>M</b>obile <b>M</b>anagement <b>U</b>tilities), because it had diverged greatly from <a href="http://www.gnokii.org">Gnokii</a> and the <a href="http://www.gnokii.org">Gnokii</a> development methods. The name was with version 0.59, which was released on the 5th of October 2002.</p>
+<p align="justify">The project started by me became more popular. The core of Gammu was, and still is, used more or less legally in some other software. Some other people actively started to help in extending it and we have what we have. Many thanks go to Walek, <a href="http://cihar.com">Michal Čihař</a> and others...</p>
+<p align="justify">Somewhere around December 2003 the project came to a halt for a while. The reason for this was simple: there was no money available to buy the hardware required to develop it further. Some time pressures and the absence of sensible suggestions for other solutions led me to try and change the software's license from <a href="?q=gpl2">GPL 2</a> to <a href="?q=lgpl21">LGPL 2.1</a>.</p>
+<p align="justify">Changing the license wasn't done particularly well. Discussion about it was sometimes on a very low level (flame wars and similar horrible things). All ideas unfortunately failed. The situation of the project became a little different at this time.</p>
+<p align="justify">Updates and fixes get done, but this doesn't happen very fast in all areas (because of lack of hardware). In other words, it can take a long time for some functions in some of the latest models to become available.</p>
+<p align="justify">Some time ago I started a new project called <a href="?q=gplus">Gammu+</a>, which will be written in C++. The aim of using C++ is to avoid some of disadvantages of the current Gammu design which are a product of using the C programming language. <a href="?q=gplus">Gammu+</a> will have its own license, which will allow its use without <b>any</b> limits for commercial purposes and will help us raise some money to develop it.</p>
+<p align="justify">Unfortunately, we are still looking for sponsors - without them development may have to stop. We are in a slightly better position after running micro-payments and some others, but still it's not nearly enough...</p>
+<p align="right">Marcin Wiącek, April 2005</p>
+<p align="justify">2007-01-19 - Gammu 1.09.16 has been released, Michal Čihař is new project leader. I decided to make this move because of lack of time and funds. <a href="?q=node/52">Read more...</a></p>
+<p align="justify"><a href="?q=node/32">I don't agree with all his decisions</a>, but project is growing. He finally integrated into main package Wammu and python-Gammu (which were developed independently earlier) and made many tasks.</p>
+<p align="right">Marcin Wiącek, March 2010</p>
+<h1>License</h1>
+<ul><li><a href="?q=gpl2">GPL 2</a></li></ul><h1>Mailing lists</h1>
+<table border="1"><tr><td bgcolor="#cccccc" align="center" valign="center">start date</td>
+<td colspan="2" bgcolor="#cccccc" align="center" valign="center">Gammu-users (currently Users)</td>
+<td bgcolor="#cccccc" align="center" valign="center">Gammu-legal (currently Legal)</td>
+</tr><tr><td align="center" valign="center">earlier</td>
+<td rowspan="3" align="center" valign="center">list on fkn.pl</td>
+<td align="center" valign="center">n/a</td>
+<td rowspan="2" align="center" valign="center">n/a</td>
+</tr><tr><td align="center" valign="center"><nobr>28 September 2002</nobr></td>
+<td rowspan="4" align="center" valign="center"><a href="http://dir.gmane.org/gmane.linux.drivers.gammu">Archive on gmane.org</a></td>
+</tr><tr><td align="center" valign="center">July 2004</td>
+<td align="center" valign="center">list on MadDuck.net</td>
+</tr><tr><td align="center" valign="center">10 March 2005</td>
+<td rowspan="2" align="center" valign="center"><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=gammu-users">list+archive on SourceForge.net</a></td>
+<td align="center" valign="center"><a href="http://dir.gmane.org/gmane.linux.drivers.gplus">archive on gmane.org</a> and <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=gammu-legal">list+archive on SourceForge.net</a></td>
+</tr><tr><td align="center" valign="center">15 March 2005</td>
+<td align="center" valign="center">not used</td>
+</tr></table><h1>Links</h1>
+<ul><li><a href="/zips/gsm/gammu/">Downloads</a> (versions up to 1.09.16)
+</li><li><a href="http://dl.cihar.com/MIRROR/gammu/zips/gammu/">Downloads</a> (versions up to 1.09.16, mirror on Michal's page)
+</li><li><a href="http://wammu.eu/download/">Downloads</a> (current test and stable version)
+</li><li><a href="http://wammu.eu/news/rss/">Current RSS</a>
+</li><li><a href="http://freshmeat.net/projects/gammu/">Gammu on the freshmeat.net</a>
+</li></ul>
+<!--comments-->
+Title:need to integrate sms to database
+ID:3919
+Author:jaslin (not verified)
+When:8 Jan 2014
+
+<p>Am a b.tech i.t student..i got seminar topic to integrate sms to database using gammu n wammu.i need to implement and present the demo.can u help me pls???</p>
+<!--comment-->
+Title:Please read documentation on
+ID:3923
+Author:marcin
+When:22 Jan 2014
+
+<p>Please read documentation on Gammu site and contact people on project mailing list - you should get full help there.</p>

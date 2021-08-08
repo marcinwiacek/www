@@ -1,0 +1,33 @@
+﻿Title:„Tu w Ameryce wszystko najlepsze… największe” - o „nowoczesnym” i „nowym” OS od Microsoft (2021)
+Author:marcin
+When:24 June 2021
+Taxonomy:polski,polski blog,salon24.pl,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1145517,tu-w-ameryce-wszystko-najlepsze-najwieksze-czyli-o-nowoczesnym-i-nowym-systemie-od-microsoft>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Panie i panowie, cofnęliśmy się w czasie o jakieś 25 lat do tyłu. Aż mi się łezka zakręciła w oku, gdy przeczytałem o tym, jakież to cudowności nas wszystkich czekają z kolejną aktualizacją Windows 10, przez marketingowców ochrzczoną Windows 11.
+<!--break-->
+Pomyślałem przy okazji, że rzucę okiem na wymagania:<br /></p>
+<ol>
+<li>procesor 64-bitowy z dwoma rdzeniami o prędkości 1Ghz – całkiem rozsądne</li>
+<li>4 GB RAM – w przypadku systemu 64-bitowego do przeżycia (choć nie do końca wiadomo, czy do tego wlicza się pamięć zarezerwowana przez zintegrowane karty graficzne)</li>
+<li>64 GB albo więcej – bez komentarza</li>
+<li>karta zgodna z DirectX 12 i WDDM 2.0 – ciekawy jestem, które sterowniki Intela to zapewnią (pytanie, czy będzie można użyć obecnych, czy konieczna będzie nowa „kompatybilna” wersja)</li>
+<li>rozdzielczość 720p (jeśli dobrze rozumiem, 1280x720) – OK</li>
+<li>9 lub więcej cali – OK</li>
+<li>8 bitów na kolor – ciekawe, czy eliminuje to matryce LCD, w których 8 bitów jest uzyskiwane z użyciem mrugania</li>
+<li>Internet i konto Microsoft do pierwszej konfiguracji wersji Home – co?</li>
+<li>UEFI – OK, Microsoft może chcieć się pozbyć bagażu kompatybilności</li>
+<li>Secure Boot i TPM 2.0 – teoretycznie OK, z drugiej strony: że co?</li>
+</ol>
+<p>Teoretycznie większość obecnych laptopów czy ultrabooków nie powinna mieć z tym problemów (a jeśli będą, to wprowadzone sztucznie). Zastanawia kwestia 8 bitów na kolor, konieczność używania TPM i Secure Boot, ale również zajęcie 64 GB na dysku (pierwsza nie ma logicznego wytłumaczenia, druga jest „dla naszego dobra”, a trzecia jest co najmniej dyskusyjna).</p>
+<p>Pamiętajmy, że system operacyjny powinien być jak najmniej zużywającym zasoby tworem, który jedynie tworzy wygodne dla użytkownika środowisko do uruchamiania jego aplikacji. W przypadku takich systemów jak Android potrzebujemy coś około 1 - 2 GB na dysku, Windows 10 64-bit wymagał 20 GB (do tego 2GB RAM, DirectX 9, WDDM 1.0 i rozdzielczości 800x600, nie miał też dodatkowego ograniczenia na ilość kolorów), z kolei MacOS Big Siur zadowala się 35,5 GB na dysku. Popatrzmy też na starszy wyrób Microsoft, czyli (cóż za zaskoczenie) na Windows XP - zdefiniowano tam konieczność posiadania procesora 233 Mhz, 64 MB RAM i 1,5 GB na dysku.</p>
+<p>I co?</p>
+<p>Tam też można było uruchamiać aplikacje, zapisywać pliki na dysku, itp.</p>
+<p><a href="?q=node/450">W notce „Zmieniać czy nie zmieniać?” wspominałem, że nie wszystkie zmiany są dobre (szczególnie te wprowadzane przez wielkie korporacje)</a>, z kolei <a href="?q=node/456">w notce „Czy kompatybilność wsteczna jest dobra?” pisałem, że Windows to taki dziwny twór, w którym kompatybilność wsteczna istnieje, ale jakby jej nie ma (do tego większość z nas i tam z niej nie korzysta)</a>.</p>
+<p>Microsoft na pewno chce uniknąć sytuacji, gdy system nie będzie mógł się aktualizować, albo będzie działał koszmarnie wolno (jak w przypadku tanich tabletów z eMMC 32GB czy wielu zestawów „Vista Ready”), i częściowo stąd koszmarne wymaganie na miejsce na dysku, z drugiej jednak strony zwiększenie wymagania o 44GB to delikatnie mówiąc nieporozumienie, i w 2021 chyba komuś coś się pomyliło.</p>
+<p>Windows 11, czy jak go nie nazywać, zamiast rewolucji wydaje się wprowadzać ewolucję, i idąc po najmniejszej linii oporu głównie dodaje kolejne elementy (kilka funkcji będzie usunięte, ale to chyba można pominąć). Według firmy cofnęliśmy się chyba do czasów Windows 95, gdy to Microsoft dyktował warunki na rynku (ewentualnie do czasów, gdy duopol Microsoft-Intel nie miał żadnej konkurencji i wraz z innymi forsował ideę tzw. "Secure Computing").</p>
+<p>Owszem, w 2021 czy 2022 duża część ludzi kliknie i zainstaluje „to coś”, z drugiej strony obsługa dysków, pamięci i urządzeń, wczytywanie programów do RAM, pokazywanie interfejsu graficznego i robienie kilku innych rzeczy nie powinny być chyba celem samym w sobie. Firma chwali się, że aktualizacje będą mniejsze, że wszystko będzie chodzić szybciej, ale… czy uczciwe jest robienie czegoś kiepsko, żeby potem ogłosić „kupcie nowy sprzęt, to damy was coś, co będzie miało poprawione nasze błędy”?</p>
+<p>Dzisiaj bardzo spodobał mi się czyjś komentarz mówiący o tym, że klepacze kodu i osoby ledwo potrafiące sklejać coś ściągniętego z sieci wyparły z rynku prawdziwych programistów, którzy poświęcali cały kunszt i talent na przygotowanie kodu, który działa szybko i sprawnie, i nie marnuje sprzętu. Coś w tym jest… a marnotrawstwo Microsoft najlepiej widać w ReactOS (to taka wieczna beta i próba napisana otwarto-źródłowego Windows NT, która zużywa minimalne ilości RAM i dysku, i jest to prostu rewelacyjnie szybka), albo po tym, że nawet „pełnoprawne” dystrybucje typu Ubuntu zajmują na dysku coś koło 8-10 GB (i użytkownik ma już w tym narzędzia typu edytor tekstów czy przeglądarka www).</p>
+<p>Podsumowując krótko – góra urodziła mysz, i choć przez ostatnie lata były pewne przesłanki mówiące, że Microsoft zaczyna się cywilizować, to dnia 24.06.2021 zobaczyliśmy comeback w starym <span style="text-decoration: line-through;">dobrym</span> koszmarnym stylu <a href="?q=node/453">(a Windows 11 okazał się balonikiem napompowanym przez różne serwisy IT, co poniekąd przewidziałem w notce "Microsoft wypuści nowy system… Kogoś to jeszcze obchodzi, że się tak zapytam?")</a></p>
+<p>Szkoda.</p>

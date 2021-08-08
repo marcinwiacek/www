@@ -1,0 +1,41 @@
+﻿Title:Myślenia, refleksji i własnego zdania… (2012)
+Author:marcin
+When:23 Dec 2012
+Taxonomy:Polski,Polski blog,Android,x86,Windows,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/12/myslenia-refleksji-i-wlasnego-zdania.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Chciałem napisać kilka słów o gadżetach, ale nie da się o nich pisać w oderwaniu od tzw. realnej rzeczywistości.
+<!--break-->
+Szczególnie, że w jednym z dzisiejszych wykopów (<a href=http://www.wykop.pl/ramka/1357703/przezywamy-ostatnie-dni-europy-slowa-publicysty-wstrzasnely-niemcami/>www.wykop.pl/ramka/1357703/przezywamy-ostatnie-dni-europy-slowa-publicysty-wstrzasnely-niemcami/</a>) można sobie poczytać słowa „od upadku realnego socjalizmu UE jest najbardziej zmasowaną próbą ubezwłasnowolnienia obywateli i odebrania społeczeństwom zdobyczy demokracji”.
+
+<p>No właśnie – zazwyczaj kupujemy sobie nowe urządzenia za pieniądze, a te można zdobywać zazwyczaj dobrze opłacaną pracą. Nie ma pieniędzy, nie ma nowych gadżetów. I tu moje pierwsze życzenie – nie łykajmy bezmyślnie tego, co serwują nam politycy. Większe podatki czy wydatki na podstawowe potrzeby to mniej na przyjemności, coraz więcej polityków ma strony www, adresy email, FaceBooka i ciągłe narzekanie na „ich radosną twórczość” może wywołać większy skutek niż przyjmowanie zmian w milczeniu. Zresztą im prostsze prawo, tym lepiej… Nie bójmy się protestować i wytykać nonsensów. Przykładowo – dlaczego przy jednolitym patencie nie ma protestów na miarę ACTA ? Dlaczego nie ma protestów w sprawie problemów ze zbiórkami elektronicznymi ? Dlaczego nie protestujemy, gdy do administracji publicznej wybiera się najdroższe oprogramowanie zamiast darmowych alternatyw ? Czemu nikt nie protestuje przy podwyżkach ? (i tu pewnie mógłbym wymieniać w nieskończoność)
+
+<p>Kolejna sprawa – „I’m happy because I’m stupid” (urywek z reklamy T-Mobile, którą można znaleźć w Necie). Tak próbuje się charakteryzować konsumentów. Nie wierzmy w to, nie dajmy się ogłupiać, krytykujmy rzeczy nietrafione (czyli np. prostokąty wielkości połowy kartki, które mają się jak pięść do nosa na typowych monitorach „dwadzieścia parę” cali, mapy prowadzące donikąd albo wreszcie baterie, których nie można wymieniać), korzystajmy z praw konsumenckich, nie dajmy się przy reklamacjach (może czasem warto skorzystać z niezgodności z umową ?), wybierajmy z głową, napiętnujmy wyłudzenia… A 2012 mówiąc dosadnie obfitował w takie „super nowości” jak Windows 8, kolejne Windows Phone, mapy Apple, odgrzewanie starych komponentów pod mylącą nazwą (Galaxy Mini S III, który ma się chyba nijak do Galaxy S III), itp.
+
+<p>Życzę wszystkim swojego zdania, a nie bezmyślnego powtarzania za innymi. Życzę też kreatywności… I oczywiście zdaję sobie sprawę, że nie każdy jest inżynierem…ale do napisania aplikacji Androidowej nie trzeba zbyt wielkich kwalifikacji, założenie konta w Google Play to opłata jednorazowa 25 USD (więc chyba też nie jest astronomiczna). W przypadku „ekosystemu” Apple jest to o wiele więcej (kwota dla niektórych może kosmiczna czyli 99 USD za rok + koszt sprzętu wynoszący jakieś ok. 2700 PLN za Mac Mini+800 za iPod Touch w przypadku nowych urządzeń), ale przecież tam szansa na zarobek jest też zdecydowanie wyższa. Nie bójmy się tego – nie od razu Kraków zbudowano, a porażki są wpisane w zdobywanie doświadczenia.
+
+<p>A jak ktoś nie ma talentu ? To może wspierać nieliczne polskie firmy (np. Wilk Elektronik produkującą pamięci GoodRAM), zgłaszać błędy polskim programistom (przykładowo – rozbrające są opinie „Nie do końca aktualne… :/” uzyskiwane w Google Play w przypadku, gdy aplikacja jest darmowa i do osoby komentującej nie ma kontaktu. Jak programista ma się domyśleć co autor miał na myśli ? Podobnie komentarz „Ale jak to uruchomić ???” i zero odzewu po próbie kontaktu…), eksperymentować z dostępnymi „alternatywnymi” firmware, itd. itd. I nie dajmy się „sprzedawać” za kilkaset PLN (taki jest realny koszt wytworzenia sporej ilości recenzowanych gadżetów) i wytykajmy błędy w produktach tam gdzie występują…
+
+<p>Zresztą – już jakiś czas temu pisałem, że produkty są jakie są bo… (i tutaj 7 punktów, które przytoczę):
+
+<p>1. Producenci nastawieni się na klonowanie kolejnych istniejących równolegle modeli i siłą rzeczy jasne jest, że spiesząc się nie przewidują wszystkiego. I co to powoduje ? Że często dostajemy coś sprawiające poprawne wrażenie, ale oparte na przysłowiowych glinianych nogach. Bo trzeba zdążyc przed konkurencją, bo managerowie naciskają, bo to, bo tamto…
+
+<p>2. Kolejny powód to korzystanie z coraz większej ilości „ułatwiaczy”. Stosując analogię z www – kiedyś wiele rzeczy robiono ręcznie, a teraz nawet do najdrobniejszych czynności musi być jQuery i wiele innych dodatków. I nie ma oczywiście w tym nic złego tak długo, jak nie cierpi na tym jakość. A z tą niestety bywa różnie – wszak fachowiec musi być tani, a jak jest tani, to najczęściej nie potrafi wiele więcej niż to co jest w dokumentacji.
+
+<p>3. urządzenia mają coraz krótszy cykl życia – po co więc skupiać się na ich idealnym działaniu, skoro trzeba już się spieszyć rozwijać coś kolejnego ? Idealny przykład to smartphony z Androidem.
+
+<p>4. wiele produktów jest niestety wprowadzanych odgórnie – sztandarowym przykładem będzie dla mnie teraz (ta da !) Windows 8. Po kilku próbach z kafelkami (i raczej chłodnym ich przyjęciu przy rynek) mamy próbę mocno siłową. Innym przykładem niech będą nowe mapy Apple.
+
+<p>5. pokusa nadzorowania i kontrolowania jednych ludzi przed drugich była od zawsze. Temat stary jak świat, a teraz mamy smartphony z kamerami, GPS, głośnikami i innymi czujnikami, w domu stoją telewizory (które robią się coraz bardziej smart), wielu ma Kinekta, itd. itd. „Przypadkowy” błąd to doskonała sprawa… zresztą na Androidze były już pokazane odpowiednie aplikacje.
+
+<p>6. wymyślanie koła na nowo. Nie wiem, czy o tym pisałem, ale koncern VW w części swoich aut umieszczał główną wiązkę elektryczną w rynience, w której zazwyczaj jest pełno wody. A woda nie szkodzi elektryce, prawda ? Podobnie wiele firm woli wymyślać „na nowo” pewne podstawowe zasady inżynierskie niż stosować się do tego, co już wielokrotnie sprawdziło się w praktyce. I mamy np. routery z trybem „gościa” w części wifi, ale z wymuszonym rozgłaszaniem SSID. Bo lepiej pokazywać się otwarcie zamiast być dyskretnym ? (wiem, wiem, że nie jest to wielkie „zabezpieczenie”, ale czego oczy nie widzą….)
+
+<p>7. patenty. coraz więcej wysiłku idzie w wojenki zamiast w twórczość.
+
+<p>Wymieniać mogę długo, medal ma zawsze dwie strony, nie zmienia to faktu, że te wszystkie sprzęty są tworzone przez ludzi dla ludzi. Tworzone są tak i nie inaczej, bo nie ma większych protestów…gdy tworzy się jednolity patent i tysiąc innych rzeczy. I tego właśnie życzę wszystkim w przyszłym roku – samodzielności, myślenia, nazywania zła złem, a dobra dobrem.
+
+<p>Podobnie życzę krytykowania pewnych nonsensów w kwestiach wymiany dóbr. Jak kiedyś pisałem „winne jest trochę podejście rynku medialnego, który chce sprzedawać wszystko elektronicznie i za te same pieniądze co kiedyś. Będą tanie treści, będzie i popyt na urządzenia. A dziś ? za wypożyczane PDFy się płaci tyle co za papierowe (fizyczne) wydanie. Własnym potencjalnym Klientom się urządza pokazówki…”. Świat się zmienił i pewnie wielu użytkowników byłoby zainteresowanych zakupami za mniejsze kwoty, gdyby takowe zakupy były możliwe. Nie bójmy się pisać swojej opinii na ten temat, uczestniczmy w dyskusjach na ten temat, itd. itd.
+
+<p>Tyle ode mnie na dziś… Mamy tyle możliwości technicznych, korzystajmy z nich i nie zrażajmy się niepowodzeniami. Jesteśmy bowiem Polakami i nie musimy być tacy jak inni, możemy być naprawdę niepowtarzalni.
+
+<p>PS. Nie nawołuję do kroków niezgodnych z prawem czy zdrowym rozsądkiem, zwracam tylko uwagę, że bycie „homo sapiens” jest lepsze niż bycie „homo idiotus pospolitus” ;)

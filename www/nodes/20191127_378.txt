@@ -1,0 +1,67 @@
+﻿Title:Obywatelu lecz się sam, czyli jak uaktualniać firmware CPU w Windows (2019)
+Author:marcin
+When:27 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,OS,x86
+
+<img src="sites/default/files/378/cpu2.jpg" width=250 align=right />
+
+<p>Jak wszyscy powszechnie wiedzą, obecne procesory to nie tylko kawałek krzemu, ale również potężna dawka wewnętrznego oprogramowania (microcode).</p>
+
+<p>Chciałbym tu przedstawić działające rozwiązanie pozwalające uaktualniać je, zanim zrobi to Microsoft / producent płyty głównej.</p>
+
+<p>Całość została przetestowana pod Windows 10 z procesorem Intela, powinna działać pod różnymi wersjami okienek nie używających Hyper-V, prawdopodobnie może być zastosowana do układów AMD (nie przetestowałem).</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Obywatelu-lecz-sie-sam-czyli-jak-uaktualniac-firmware-CPU-w-Windows,104986.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Jak wszyscy powszechnie wiedzą, obecne procesory to nie tylko kawałek krzemu, ale również potężna dawka wewnętrznego oprogramowania (microcode).</p>
+
+<p>Chciałbym tu przedstawić działające rozwiązanie pozwalające uaktualniać je, zanim zrobi to Microsoft / producent płyty głównej.</p>
+
+<p>Całość została przetestowana pod Windows 10 z procesorem Intela, powinna działać pod różnymi wersjami okienek nie używających Hyper-V, prawdopodobnie może być zastosowana do układów AMD (nie przetestowałem).</p>
+
+<p><center><img src="sites/default/files/378/cpu.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p><b>Pliki Intela</b></p>
+
+<p>Pobieramy dowolne narzędzie pokazujące nam rodzinę naszego procesora (Family), model (Ext. Model) i wersję (Stepping) - może to być np. CPU-Z z <a href="http://cpuid.org" target="_blank" rel="noopener" rel="nofollow">http://cpuid.org</a>.</p>
+
+<p>Ostatnia wersja microcode na stronie Intela <a href="https://downloadcenter.intel.com/download/28087/Linux-Processor-Microcode-Data-File" target="_blank" rel="noopener" rel="nofollow">pochodzi z sierpnia 2018</a> (pozostawię bez komentarza...), 
+dlatego polecam udać się do <a href="https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/master/intel-ucode" target="_blank" rel="noopener" rel="nofollow">https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tr...</a> albo <a href="https://git.launchpad.net/ubuntu/+source/intel-microcode/tree/intel-ucode" target="_blank" rel="noopener" rel="nofollow">https://git.launchpad.net/ubuntu/+source/intel-microcode/tree/intel-uc...</a><a href="https://git.launchpad.net/ubuntu/+source/intel-microcode/tree/intel-ucode" target="_blank" rel="noopener" rel="nofollow">
+</a>
+</p>
+
+<p>Potrzebujemy stamtąd pobrać plik odpowiadający naszemu Family-Ext.Model-Stepping (np. dla liczb 6, 5E, 3 jest to plik 06-5E-03) i zapisać go w katalogu o nazwie &quot;intel-ucode&quot;</p>
+
+<p>Plik jest w formie binarnej i musimy zmienić jego format - ze strony <a href="https://onedrive.live.com/?authkey=%21AE%5F9xt1wnaLT5lk&amp;id=11F4002E1134F403%21617750&amp;cid=11F4002E1134F403" target="_blank" rel="noopener" rel="nofollow">https://onedrive.live.com/?authkey=%21AE%5F9xt1wnaLT5lk&amp;id=11F4002...</a> z katalogu Executable pobieramy program, w którym wskazujemy katalog nadrzędny do &quot;intel-ucode&quot;.</p>
+
+<p>Program stworzy nam plik microcode.dat w nowo stworzonym podkatalogu &quot;Output intel-ucode to microcode.dat&quot;.</p>
+
+<p><b>Pliki AMD</b></p>
+
+<p>Idziemy do <a href="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/amd-ucode" target="_blank" rel="noopener" rel="nofollow">https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmwar...</a> i pobieramy pliki microcode_amd.bin i microcode_amd_fam15h.bin.</p>
+
+<p><b>Narzędzie</b></p>
+
+<p>Pobieramy sterownik ze strony<a href="https://flings.vmware.com/vmware-cpu-microcode-update-driver" target="_blank" rel="noopener" rel="nofollow"> https://flings.vmware.com/vmware-cpu-microcode-update-driver</a>, rozpakowywujemy zawartość do nowego katalogu, kopiujemy tam microcode.dat, microcode_amd.bin i microcode_amd_fam15h.bin i z uprawnieniami administratora uruchamiamy install.bat.</p>
+
+<p>Po pomyślnej instalacji wartość dokonać edycji Rejestru i w kluczu HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\cpumcupdate zmienić wartość Start na niższą (z 2 na 1), co wymusi ładowanie sterownika we wcześniejszym etapu startu systemu.</p><p>Potem już tylko wystarczy restart...</p>
+
+<p><b>Weryfikacja</b></p>
+
+<p>Informacja o pomyślnym uaktualnieniu pokazuje się w logu systemowym Windows:</p>
+
+<p><center><img src="sites/default/files/378/cpu2.jpg" style="width:608px;height:361px;" alt="image" title="image" /></center>
+
+<p>Wersję mikrokodu możemy też sprawdzić używając HWiNFO z <a href="http://www.hwinfo.com" target="_blank" rel="noopener" rel="nofollow">http://www.hwinfo.com</a> (Microcode Update Revision w sekcji procesora).</p>
+
+<p><b>Ograniczenia</b></p>
+
+<p>Operację ładowania trzeba z oczywistych względów robić po każdym restarcie (i to nas będzie spoczywać obowiązek sprawdzania, czy przypadkiem nie pojawiła się nowa wersja mikrokodu).</p>
+
+<p>Drugi problem związany jest z Hyper-V. Wymaga on hyperwizora i z jakichś powodów sterownik VMWare jest z nim niezgodny, na chwilę obecną trzeba go usunąć z systemu albo tymczasowo deaktywować używając komendy:</p>
+
+<p><pre contenteditable="false"><code class="powershell" data-lang="powershell" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">bcdedit /set hypervisorlaunchtype off</code></pre>
+
+<p>(wymagane oczywiście uprawnienia administratora i restart; włączenie można zrobić tą samą komendą z wartością &quot;auto&quot;).</p>
+
+<p>PS. Po napisaniu i publikacji w komentarzach zobaczyłem uwagę, że polecane jest pobieranie programu (jednego) z prywatnej plikowni - widzę, że autor uaktualnia to repozytorium i podaje kod źródłowy; jeżeli ktoś zna coś lepszego, proszę się podzielić (ja teraz na szybko <a href="https://www.win-raid.com/t2649f47-Guide-Intel-AMD-CPU-Microcode-conversion-and-utilization-without-modding-the-BIOS.html" target="_blank" rel="noopener" rel="nofollow">znalazłem jeszcze skrypt bin2dat.py</a>).&#160;&nbsp;</p>

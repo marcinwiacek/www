@@ -1,0 +1,320 @@
+﻿Title:Marcowe rewolucje (2011)
+Author:marcin
+When:17 Apr 2011
+Taxonomy:Polski,benchmark.pl,Polski artykuł
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Marcowe_rewolucje-3708.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Można powiedzieć, że w tym roku nadchodzącą wiosnę zwiastowały...właśnie przeglądarki www - mieliśmy ich prawdziwy wysyp. I tak wpierw była premiera Chroma 10 (8 marca), później (14 marca) pojawił się finalny Internet Explorer 9, a na końcu (22 marca) FireFox 4.</p>
+<p>Co tak naprawdę wniosły ? Przedstawię to krótko wspominając co nieco również o Operze i Safari.</p>
+<!--break-->
+
+<p><strong>Interfejs</strong></p>
+<p>Widać tutaj wyraźne dążenie do tego, aby elementy interfejsu przeglądarek były jak najmniej widoczne, a największy obszar zajmowały same witryny www. Poniżej przykładowe najbardziej minimalistyczne ustawienia:</p>
+<p><img height="396" width="500" src="sites/default/files/183/f4(3).png" alt="" /></p>
+<p>Aby je uzyskać, wystarczyło:</p>
+<ol>
+    <li>wyłączyć pasek menu (klikamy prawym klawiszem myszy na pasku narzędzi i odznaczamy <strong>Menu Bar</strong>)</li>
+    <li>wyłączyć w opcjach w zakładce<strong> Tab</strong> ustawienie <strong>Always show the menu bar</strong></li>
+
+    <li>dodać przycisk do dodawania nowej zakładki (klikamy prawym klawiszem na pasku narzędzi, wybieramy <strong>Customize...</strong> i dodajemy przycisk <strong>New Tab</strong>)</li>
+    <li>wyłączyć pasek przeszukiwania (klikamy prawym klawiszem na pasku narzędzi, wybieramy <strong>Customize...</strong> i usuwamy cały pasek)</li>
+</ol>
+<p>Zakładki są dostępne poprzez pierwszy przycisk z prawej, opcje przez duży przycisk Firefox, pasek z zakładkami pokazuje się w miarę potrzeb, widoczna też jest od razu ikona <a href="http://adblockplus.org/en/">Adblocka</a> (który został też oczywiście zainstalowany :)).</p>
+
+<p><img height="391" width="500" src="sites/default/files/183/ch10(2).png" alt="" /></p>
+<p>Tutaj wystarczyło zainstalować sobie przycisk pokazujący zakładki (obecnie nie działa dodanie <em>--bookmark-menu</em> do linii komend wywołania programu, widoczny przycisk drugi od prawej to rozszerzenie <a href="https://chrome.google.com/webstore/detail/ffmdedmghpoipeldijkdlcckdpempkdi">Bookmarks Menu</a>), jak również <a href="https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom">AdBlocka</a> :). Niestety rozszerzenia do zakładek nie działają do końca jak powinny, dodanie "fabrycznego" paska z nimi zajmuje cenne miejsce.</p>
+<p>Internet Explorer również wygląda inaczej:</p>
+<p><img height="358" width="500" alt="" src="sites/default/files/183/ie9.png" /></p>
+<p>Mamy też np. opcje do "przypinania" stron www na pasku z zakładkami, kolejny trend to wyświetlanie niektórych okien z ustawieniami jak stron, jest wiele innych drobiazgów istotnie ułatwiających życie.</p>
+<p>Co jest z nich najciekawsze moim zdaniem ? Tu na pewno na pierwszym miejscu będzie wykorzystywanie szyfrowanego Google przy wpisaniu słów kluczowych w linii komend (tylko w FireFoxie).</p>
+
+<p>Co się nie zmieniło ? Niestety dalej dosyć archaiczne są moduły do pobierania plików (może z wyjątkiem Opery, która ma wbudowanego klienta P2P).</p>
+<p>Podsumowanie: sporo nowości, Chrome i Internet Explorer 9 najbardziej zrywają z przyzwyczajeniami wyrobionymi przez lata (i to się może podobać albo nie), z kolei Firefox może wyglądać albo "nowocześnie" albo "konserwatywnie" (i dlatego wygrywa moim zdaniem).</p>
+<p><strong>Standardy</strong></p>
+<p><a href="http://www.w3.org/TR/html401/">Ostatnia wersja HTML to 4.01</a> (24 grudnia 1999), obecnie dopiero trwają prace nad <a href="http://www.w3.org/TR/html5/">standardem HTML 5</a> (który jest dopiero w statusie "szkic"). Nie przeszkodziło to w zaimplementowaniu jego elementów i określaniu zgodności nowych wersji przeglądarek z HTML 5 :) A trzeba dodać, że jest tu wiele nowości, czyli np.:</p>
+<ul>
+    <li>zapisywanie danych na dysku (technologia Web Storage)</li>
+
+    <li>obsługa wielowątkowości</li>
+    <li>funkcja Canvas do tworzenia grafiki</li>
+    <li>obsługa tzw. geolokalizacji</li>
+</ul>
+<p>Najbardziej spektakularną nowością będzie eliminacja przynajmniej części zewnętrznych wtyczek (mamy nowe znaczniki do obsługi multimediów) oraz obsługa WebGL (czyli obiektów 3D w Canvas) - to ostatnie widać to np. na demonstracjach ze strony <a href="http://www.chromeexperiments.com/webgl">WebGL Experiments</a>. Niestety jak przy każdej nowej technologii (do tego będącej w trakcie standardyzacji) zdarzają się problemy i obecnie WebGL może być zwyczajnie wyłączone:</p>
+<ul>
+    <li>w przypadku Firefox informacja o niekompatybilnych sterownikach graficznych jest podana na stronie <a href="https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers">Blocklisting/Blocked Graphics Drivers     </a></li>
+
+    <li>Chrome ma obecnie wyłączone WebGL np. w Windows XP (<a href="http://code.google.com/p/chromium/issues/detail?id=72975">po włączeniu można natrafić np. na niebieskie ekraniki</a>)</li>
+</ul>
+<p>Wymieniać można dalej długo... I tak np. mamy wsparcie dla czcionek <a href="http://en.wikipedia.org/wiki/Web_Open_Font_Format">Web Open Font Format</a>, Chrome z kolei może się pochwalić wsparciem dla nowego <a href="http://osnews.pl/wiesz-ze-nie-uzywasz-juz-http-google-spdy-ftw/">standardu SPDY</a>, poprawiła się obsługa grafik w Ubuntu w Firefoxie (pisałem o problemach z tym przy okazji <a href="http://mwiacek.com/www/?q=node/169">minitestu Ubuntu 10.10</a>)... Jako totalną ciekawostkę wskazałbym tutaj funkcję informowania serwerów, że nie życzymy sobie być śledzeni...</p>
+<p>Podsumowanie: sporo nowości, dziwi to, że Internet Explorer dalej niekoniecznie poprawi sobie radzi ze <a href="http://pclab.pl/news45358.html">stroną CrashIE</a>. Podobnie należy pamiętać, iż HTML5 jest dopiero tworzony i jak przy każdej nowej technologii <a href="http://www.esecurityplanet.com/features/article.php/3916381/Top-5-Security-Threats-in-HTML5.htm">aplikacje tworzone z jego udziałem mogą być pewnym zagrożeniem dla bezpieczeństwa (danych) użytkownika</a>.</p>
+
+<p><strong>Prawie jak system operacyjny...</strong></p>
+<p>Kolejnym trendem jest zamienianie przeglądarek w małe systemy operacyjne.</p>
+<p>Najdalej poszedł Chrome - strony www mogą być otwierane w tle (nowa funkcja Background WebApps w wersji 10), każda zakładka i plugin są obsługiwane przez oddzielny odseparowany proces (mamy nawet własny Task Manager :))... Bardzo przyjemną korzyścią z tego wynikającą jest niezawieszanie się całej przeglądarki, gdy jedna z kart przestaje działać.</p>
+<p>W przypadku FireFoxa mamy dalej jedynie funkcjonalność OOPP ("out-of-process plugins" czyli odseparowanie przynajmniej  niektórych wtyczek od głównego procesu przeglądarki włączone od wydania  3.6.4). Dobrze, że przynajmniej od dawna tutaj istnieje funkcja wykrywająca (zbyt) długo działające skrypty JavaScript.</p>
+<p>Jeśli chodzi o Internet Explorera 9, korzysta z funkcji piaskownicy dostępnych w Windows Vista/7, a do tego w dalszym ciągu proponuje obsługę ActiveX (które to w przeszłości bywały powodem wielu infekcji złośliwego kodu). Mamy też i <a href="http://blogs.msdn.com/b/ie/archive/2008/03/11/ie8-and-loosely-coupled-ie-lcie.aspx">rozszerzenia funkcjonalności określonej jako Loosely-Coupled IE (uruchamiane są dwa procesy)</a> - dzięki temu zawieszenie się jednej z zakładek całość nie powinno wpłynąć na całość... I do tego wykrywane są długo startujące wtyczki...</p>
+<p>Safari i Opera mogą się "pochwalić" tylko wtyczkami.</p>
+<p>Podsumowanie: nic tu się nie zmieniło - Chrome przewodzi, FireFox odstaje, a Internet Explorer z uwagi na ActiveX też jest w tyle...</p>
+
+<p><strong>Instalacja</strong></p>
+<p>Tu niestety też nic się nie zmieniło. I tak Firefox dla Windows jest na stronie Mozilli dostępny jedynie w wydaniu 32-bit (ma to się podobno niedługo zmienić...), zaś np. do Ubuntu 10.10 <a href="https://help.ubuntu.com/community/FirefoxNewVersion">trzeba go sobie dodać ręcznie</a>. Niestety pewną niedogodnością jest problem z ustawieniem <strong>Submit crash reports</strong> - na niektórych testowanych komputerach nie można go było wyłączyć w opcjach, konieczne były dodatkowe kroki (<a href="http://support.mozilla.com/en-US/questions/743045">dodanie kluczy w Rejestrze</a>).</p>
+<p>Chrome w wersji dla Windows nie instaluje się w katalogu Program Files, tylko w katalogu z profilem użytkownika.</p>
+<p>Operę pod Ubuntu można dodac klikając na pliku deb ze strony producenta, również Safari i Internet Explorer są łatwo dostępne...</p>
+<p>Podsumowanie: chyba też nic się nie zmieniło...</p>
+
+<p><strong>Benchmarki</strong></p>
+<p>Ciekawą nowością jest wykorzystywanie mocy obecnych kart graficznych do przyspieszania tworzenia elementów strony (<strong>tzw. content acceleration)</strong> i łączenia ich <strong>(tzw. compositing acceleration)</strong>. W FireFox odpowiada za to ustawienie "<strong>Use hardware acceleration when available</strong>", w Chrome z kolei <strong>GPU Accelerated Compositing</strong> i <strong>GPU Accelerated Canvas 2D</strong>  na stronie o adresie about:flags. Oczywiście może się zdarzyć, że  przeglądarka nie będzie tego robić - dla FireFox więcej na ten temat  poczytać np. na stronach<a href="https://hacks.mozilla.org/2010/09/hardware-acceleration/"> Firefox 4: hardware acceleration</a> i <a href="https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers">Blocklisting/Blocked Graphics Drivers</a>.</p>
+
+<p>Jeżeli chodzi o benchmarki, to poniżej zamieściłem wyniki kilka z nich (Opera 11.10 "Barracuda" z kwietnia, Chrome w wersji 10.0.648.204, Chromium w wydaniu 10.0.648.133, Safari 5.0.4). Dostępne są oczywiście również inne (np. Microsoft przygotował ciekawą <a href="http://ie.microsoft.com/testdrive/">stronę IE9 Test Drive</a>, mamy <a href="http://www.craftymind.com/">GUIMark i GUIMark2</a>), ale chyba niekoniecznie mogłyby tutaj dużo wnieść...</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+
+            <td><a href="http://v8.googlecode.com/svn/data/benchmarks/v6/run.html">V8 Benchmark Suite</a> wersja 6 (testy prędkości JavaScript Google)</td>
+            <td><a href="http://www2.webkit.org/perf/sunspider-0.9/sunspider.html">SunSpider 0.9.1 </a>(testy prędkości JavaScript Apple)</td>
+            <td><a href="http://clients.futuremark.com/peacekeeper/index.action">PeaceKeeper </a>(ogólny)</td>
+        </tr>
+        <tr>
+
+            <td rowspan="7">Zestaw 1 (karta NVidii)<br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+
+             </td>
+            <td rowspan="4">Windows XP 32-bit<br />
+             <br />
+             <br />
+             </td>
+            <td>Firefox</td>
+
+            <td>2820 punktów</td>
+            <td>367,5 ms +/- 1,5%</td>
+            <td>2840 punktów</td>
+        </tr>
+        <tr>
+            <td>Chrome</td>
+            <td>6272 punktów</td>
+
+            <td>418,3 ms +/- 1,7%</td>
+            <td>6251 punktów</td>
+        </tr>
+        <tr>
+            <td>Opera</td>
+            <td>2389 punktów</td>
+            <td>421.9ms +/- 2.1%</td>
+
+            <td>4966 punktów</td>
+        </tr>
+        <tr>
+            <td>Safari</td>
+            <td>1624 punktów</td>
+            <td>535.2ms +/- 6.2%</td>
+            <td>2750 punktów</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3">Ubuntu 10.10 32-bit                            <br />
+             </td>
+            <td>Firefox</td>
+            <td>3046 punktów</td>
+            <td>335,6 ms +/-1 1,2%</td>
+
+            <td>3173 punktów</td>
+        </tr>
+        <tr>
+            <td>Chromium</td>
+            <td>5944 punktów</td>
+            <td>415,3 ms +/- 1,5%</td>
+            <td>5978 punktów</td>
+
+        </tr>
+        <tr>
+            <td>Opera</td>
+            <td>2764 punktów</td>
+            <td>412,5 +/- 1,2%</td>
+            <td>4945 punktów</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Zestaw 2 (karta Intela)</td>
+            <td rowspan="4">Windows XP 32-bit</td>
+            <td>Firefox</td>
+            <td>1901 punktów</td>
+            <td>559 ms +/- 5,4%</td>
+
+            <td>2429 punktów</td>
+        </tr>
+        <tr>
+            <td>Chrome</td>
+            <td>3706 punktów</td>
+            <td>564,8 ms +/- 3,9%</td>
+            <td>4525 punktów</td>
+
+        </tr>
+        <tr>
+            <td>Opera</td>
+            <td>1860 punktów</td>
+            <td>527,5 ms +/- 0,7%</td>
+            <td>3576 punktów</td>
+        </tr>
+
+        <tr>
+            <td>Safari</td>
+            <td>1317 punktów</td>
+            <td>631,1 ms +/- 0,7%</td>
+            <td>2371 punktów</td>
+        </tr>
+        <tr>
+
+            <td rowspan="12">Zestaw 3 (karta Intela)<br />
+             </td>
+            <td rowspan="6">Windows 7 64-bit<br />
+             </td>
+            <td>IE 9 32-bit</td>
+            <td>1325 punktów</td>
+
+            <td>317,2 ms +/- 0,6%</td>
+            <td>1736 punktów</td>
+        </tr>
+        <tr>
+            <td>IE 9 64-bit</td>
+            <td>315 punktów</td>
+            <td>1416,2 ms +/- 1,2%</td>
+
+            <td>1144 punktów</td>
+        </tr>
+        <tr>
+            <td>Firefox 32-bit</td>
+            <td>1579 punktów</td>
+            <td>282,2 ms +/- 2,6%</td>
+            <td>2489 punktów</td>
+
+        </tr>
+        <tr>
+            <td>Chrome 32-bit</td>
+            <td>2812 punktów</td>
+            <td>447,8 ms +/- 1,5%</td>
+            <td>3956 punktów</td>
+        </tr>
+
+        <tr>
+            <td>Opera 32-bit</td>
+            <td>2744 punktów</td>
+            <td>385,3 +/- 1,9%</td>
+            <td>2744 punktów</td>
+        </tr>
+        <tr>
+
+            <td>Safari 32-bit</td>
+            <td>1750 punktów</td>
+            <td>514,6 ms +/- 7,7%</td>
+            <td>3101 punktów</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Ubuntu 10.10 32-bit</td>
+
+            <td>Firefox</td>
+            <td>3027 punktów</td>
+            <td>335 ms +/- 1,2%</td>
+            <td>3141 punktów</td>
+        </tr>
+        <tr>
+            <td>Chromium</td>
+
+            <td>6288 punktów</td>
+            <td>416,4 ms +/- 3,1%</td>
+            <td>6116 punktów</td>
+        </tr>
+        <tr>
+            <td>Opera</td>
+            <td>2709 punktów</td>
+
+            <td>449,1 +/- 3,0%</td>
+            <td>4968 punktów</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Ubuntu 10.10 64-bit</td>
+            <td>Firefox</td>
+            <td>2897 punktów</td>
+
+            <td>335,5 ms +/- 1,1%</td>
+            <td>3543 punktów</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Chromium</td>
+            <td>3474 punktów</td>
+            <td>382,9 ms +/- 0,7%</td>
+
+            <td>6463 punktów</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Opera</td>
+            <td>2680 punktów</td>
+            <td>392,8 ms +/- 2,8%</td>
+            <td>5273 punktów</td>
+
+        </tr>
+    
+</table>
+<p>Testy funkcjonalne wyglądają następująco:</p>
+<p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td> </td>
+            <td><span id="intertext1"><span class="subtytul"><a href="http://www.html5test.com/">HTML5 Test</a> (zgodność z HTML5)</span></span></td>
+
+            <td><a href="http://acid3.acidtests.org/">Acid 3</a> (zgodność z CSS 3)</td>
+            <td><a href="http://www.css3.info/selectors-test/">CSS3 Selectors Test</a></td>
+        </tr>
+        <tr>
+            <td>Firefox</td>
+            <td>255/400</td>
+
+            <td>97/100</td>
+            <td>41/41</td>
+        </tr>
+        <tr>
+            <td>Chrome</td>
+            <td>273/400</td>
+            <td>100/100</td>
+
+            <td>37/41</td>
+        </tr>
+        <tr>
+            <td>Opera</td>
+            <td>258/400</td>
+            <td>100/100</td>
+            <td>41/41</td>
+
+        </tr>
+        <tr>
+            <td>Safari</td>
+            <td>187/400</td>
+            <td>100/100</td>
+            <td>41/41</td>
+        </tr>
+        <tr>
+            <td>IE9</td>
+            <td>130/400</td>
+            <td>95/100</td>
+            <td>41/41</td>
+        </tr>
+    
+</table>
+</p>
+<p>Podsumowanie: jest niewątpliwie szybciej (widać to po analogicznych testach z różnych innych źródeł), zgodnie z tymi wynikami Safari i IE są na końcu, później Firefox, Opera i najlepszy okazuje się Chrome, pewnym zaskoczeniem są (bardzo) słabe wyniki wydań 64-bitowych (np. IE9).</p>
+<p><strong>Podsumowanie</strong></p>
+<p>Powiedziałbym, że choć wszyscy główni "gracze" są lepsi i ładniejsi, niestety nie ma tutaj zmiany sił.</p>
+<p>I tak Internet Explorer 9 jest rewolucyjny w stosunku do poprzedniego wydania, ale dalej nie zrywa ze swoją kilkunastoletnią przeszłością i marketing (kampania <a href="http://twojanowa.pl">TWOJA STARA musi odejść</a>) zwyczajnie nie zamaskuje wad czy chociażby brak wersji dla Windows XP. Zwolennicy teorii spiskowych pewnie nie przejdą tutaj też obojętnie obok <span class="stronger"><a href="http://www.tomshardware.com/reviews/internet-explorer-9-chrome-10-opera-11,2897-14.html">Web Browser Grand Prix 3 dosyć znanego serwisu TomsHardware</a>, czyli trzeciego wydania ukazującego się raz w roku testu przeglądarek (chodzi o to, że ukazało się 21 marca, testowany tam był Firefox 3.6.x i wskazany Internet Explorer 9 jako najlepszy program, podczas gdy 22 marca był już na rynku finalny Firefox 4...). Z tego samego względu dla mnie pewnym zaskoczeniem było też testowanie Firefoxa 3.6.x w majowym PC Worldzie (nie można było poczekać miesiąc ?).<br />
+</span></p>
+<p>Z kolei praca nad nową wersją FireFox trwała ponad rok (poprzednie "duże" wydanie 3.6 pojawiło się 21 stycznia 2010) - jest to stanowczo zbyt długo. Dobrze, że planowane jest skrócenie podobnego czasu i w 2011 ma się pojawić kilka kolejnych "stabilnych" wydań liska (nic tak bowiem tak dobrze nie działa jak konkurencyjność). Czy będą one jednak równie innowacyjne jak Chrome ? Nie wiadomo, ale jak na razie np. <a href="https://addons.mozilla.org/en-US/firefox/performance/">można poczytać o wtyczkach, które najbardziej spowolniają start tego programu</a>.</p>
+
+<p>Co do Chrome, to jest szybko i rewolucyjnie, ale niekoniecznie wszystko tam działa dobrze i jest wygodne...</p>
+<p>A Opera i Safari ? No cóż, na pewno dalej będą miały zagorzałych fanów :)</p>

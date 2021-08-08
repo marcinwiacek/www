@@ -1,0 +1,20 @@
+﻿Title:Jak można życzyć dwa
+Author:marcin
+When:07 Dec 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Jest taki dzień, gdy od początku się cieszymy,<br />
+gdy wszyscy nam gratulują i życzenia składają,<br />
+Cechuje Cię uśmiech, dobry humor i cięta riposta,<br />
+życzę, by przyszłość Twoja dalej była tak radosna.</p>
+<p>Dużo pięknych, długich i wspaniałych podróży<br />
+Marcin Tobie na przyszłość też życzy oraz wróży.<br />
+I wiele dalszych imprez takich mocno ognistych<br />
+i relacji z nich tak nieziemskich i nierzeczywistych.</p>
+<!--break-->
+<p>Do tego wszelakiej i pełnej od ludzi życzliwości<br />
+oraz mnóstwo do życia niezbędnej zdrowotności.<br />
+Przyjmij proszę ode mnie te skromne życzenia<br />
+i niech rok przyniesie Ci jeno dobre wspomnienia.</p>

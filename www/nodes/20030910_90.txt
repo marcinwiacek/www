@@ -1,0 +1,114 @@
+﻿Title:Dwa druty i już... (2002)
+Author:marcin
+When:10 Sep 2003
+Taxonomy:Polski,Gammu,GSM,Polski artykuł,chip.pl,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach czasopisma <a href="http://www.chip.pl" class="autoremail">Chip Special Linux</a> zima 2002.</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><b>Kupiliśmy właśnie naszą wymarzoną "komórkę". Jest mała, ma dużo dzwonków, obrazków i wiele innych dodatków. Zaglądamy na stronę www naszego operatora. I....okazuje się, że wiele opcji (np. wgranie dzwonka czy obrazka) kosztuje 1 lub 2 PLN. Niby nic, ale my chcemy je zmieniać często. Nie da się taniej ?</b></p>
+<!--break-->
+
+<p align=justify>Na szczęście (dla nas) w Internecie dostępne są gotowe rozwiązania (programy), które pozwolą na zmianę opcji naszego telefonu. Można zaryzykować nawet stwierdzenie, iż każdy model może być obsłużony, gdyż posiada odpowiednie złącze do komunikacji na podczerwień, przez Bluetooth albo odpowiedni kabel podłączany na dole aparatu/pod baterią.</p>
+
+<p align=justify>Pakiety takie mogą być kopiami oryginalnego oprogramowania dostarczanego przez producenta do serwisów. Oprócz opcji interesujących nas (czyli kopiowanie ustawień do i z telefonu) będą one zawierać także dużo opcji "nieprzydatnych" do celów "domowych" (przykładowo: kalibrację nadajnika telefonu). Pomijając kwestie prawne (są to najczęściej kopie nielegalne): należy uważać z takim oprogramowaniem, gdyż część komend może zwyczajnie rozregulować telefon - do jego ponownego strojenia będzie natomiast niezbędny specjalistyczny sprzęt i wydatek w serwisie za taką usługę. Należy pamiętać, iż programy te działają tylko w Windows.</p>
+
+<p align=justify>Kolejną grupą są pakiety pisane na podstawie specyfikacji GSM. Mogą być tworzone także z informacji pochodzących z "podglądania" sposobu działania oprogramowania serwisowego albo dostarczanego do droższych modeli tego samego wytwórcy (<a href="?q=node/104">metody "podglądania" były omawiane w <b>Chip Special "Linux Lato 2002"</b></a>). Niektóre z nich są znacznie bardziej dopracowane i "pełniejsze" niż to co oficjalnie zapewnia sam producent. Udostępniają też wsparcie dla większej ilości modeli. Takie oprogramowanie (pracujące w Linuxie) postaramy się teraz wskazać i przynajmniej krótko opisać.</p>
+
+<p align=justify>Zaczniemy od Nokii, właściwie prowadzącej już od kilku lat w "wyścigu" wśród producentów "komórek".</p>
+
+<p><i><font size="-1"><a href="#Top" class="shref">Back to the top/Na początek</a></font></i> </p>
+<p><font color="#1f409f"><font size="+2">Nokia na zawsze ?</font></font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify><a href="?q=node/91">Tematem komunikacji z telefonami tego producenta zajmowaliśmy się już rok temu w <b>Chip Special "Linux Zima 2001"</b></a>. Czytelnikom można polecić przejrzenie tamtego tekstu - opisywał dosyć dokładnie sposoby, metody i problemy związane z różnymi typami połączeń. Natomiast od tamtego czasu właściwie nie pojawił się żaden nowy znaczący pakiet oprogramowania do Linuxa. Dlatego zajmiemy się teraz wyłącznie nowościami w <a href="http://www.gnokii.org">Gnokii</a> i kontynuacją opisywanego wtedy MyGnokii.</p>
+
+<p align=justify>Najbardziej znane <a href="http://www.gnokii.org">Gnokii</a> doczekało się wersji 0.4.0. Zmieniono w niej częściowo wewnętrzne struktury programistyczne. Konieczne było przepisanie od nowa modułów do obsługi telefonów m.in. serii 31xx/51xx/61xx, dodano również wsparcie dla modeli 62xx/63xx/6510/7110/8310 oraz telefonów z komendami AT. Zrezygnowano natomiast z obsługi niektórych przestarzałych "komórek" - np. Nokii 640. Pakiet pozwala obecnie na obsługę wiadomości EMS - można je np. wysyłać z telefonów nie posiadających tej funkcji. Poprawiono dokumentację. Dodano również wyspecjalizowaną bibliotekę do obsługi SMS. W planach jest m.in. pełniejsza obsługa standardu Unicode oraz interfejs graficzny dla KDE czy dokończenie obecnego XGnokii.</p>
+
+<p align=justify>Stosownie do zmian wprowadzonych w serii 0.4.x zmodyfikowano również część projektów towarzyszących (ewentualnie prace takie trwają). Nowością jest zmieniony troszkę sposób tworzenia nowych wersji - będą się pojawiały częściej (w chwili pisania tych słów we wrześniu doczekaliśmy się już edycji 0.4.3 i testowej 0.5.0), ponieważ zakres zmian w nich będzie mniejszy.</p>
+
+<p align=justify>MyGnokii nie jest już natomiast rozwijane od marca 2002. Doczekało się bowiem następcy w postaci <a href="?q=node/99">pakietu MyGnokii2 (obecnie nazwanego Gammu - GNU All Mobile Managament Utilities)</a>.</p>
+
+<p align=justify>Został on stworzony zupełnie od postaw. Dzięki temu zawiera wiele możliwości i opcji, których brakowało jego poprzednikowi albo które są dopiero w planach w Gnokii. Przykładowo: dostępna jest pełna obsługa standardu Unicode, kod źródłowy nie zawiera wielu niepotrzebnych elementów, struktury programistyczne są bardziej przystosowane do obsługi obecnych telefonów. Z uwagi na tworzenie wszystkiego od podstaw drobnymi kawałkami na pewno uniknięto pewnych problemów, wszystko jest bardzo dobrze przetestowane.</p>
+
+<p align=justify>Łatwiej jest przygotowywać również obsługę nowych modeli - obecnie dostępne jest pełne wsparcie dla telefonów z komendami AT oraz komórek Nokii z generacji DCT3 (3210, 33xx, 3410, 51xx, 5210, 5510, 61xx, 62xx, 71xx, 82xx, 91xx, 92xx) i DCT4 (3510, 63xx, 6510, 8310). W trakcie tworzenia jest obsługa wewnętrznych protokołów transmisji m.in. niektórych Alcateli OT.</p>
+
+<p align=justify>Z nowych funkcji (niedostępnych w MyGnokii) warto wymienić wyspecjalizowany moduł do tworzenia kopii zapasowych z ustawieniami telefonu (dzwonkami, obrazkami, książką telefoniczna, itp.) oraz obsługę EMS i bibliotekę do SMS.</p>
+
+<p align=justify>Oprogramowanie to jest dostępne obecnie do różnych wersji i odmian Unixa/Windows. Na razie działa tylko w linii komend i zawiera serwer SMS do Windows. W planach jest reszta modułów dostępna w MyGnokii (a więc emulator modemu z funkcją transmisji danych, interfejs graficzny i serwer SMS do Unixa).</p>
+
+<p align=justify>Na bieżąco do projektu dodawane są wszystkie możliwe zabezpieczenia przeciwdziałające uszkodzeniu telefonów (przykładowo: pomimo poinformowania o problemie Nokii, ta nie wprowadziła poprawek do firmware telefonów z generacji DCT4, dzięki którym nie byłoby z nimi problemów po otrzymaniu niepoprawnej komendy zapisu SMS. Dosłownie każdy program może więc teraz uszkodzić te urządzenia - następca MyGnokii w obecnej wersji ma przed tym blokadę).</p>
+
+<p align=justify>Autor stworzył na potrzeby Gammu oddzielną listę dyskusyjną, w której informuje również o nowych jego wersjach.</p>
+
+<p align=justify>Ciekawostką jest fakt, iż projekt obecnie pozwala m.in. na odblokowanie opcji dotyczącej ciągłego połączenia GPRS w Nokiach - normalnie niezależnie od jej ustawienia w menu telefonu sesja jest zrywana, gdy wychodzimy z przeglądarki WAP. Opcja ta ma więc kolosalne znaczenie, jeżeli telefon jest używany w sieci Plus GSM - tam pobierana jest opłata za nowo "napoczęte" w danej sesji 10 kB danych. Jej niewłaściwe działanie to bowiem w praktyce rozpoczynanie nowych 20 kb danych przy każdym otwarciu przeglądarki (a nie kontynuacja bloków danych z poprzedniego połączenia).</p>
+
+<p align=justify>Jeżeli można porównywać oba pakiety, widać wyraźnie, iż ich autorzy obrali inne drogi.</p>
+
+<p align=justify>W pakiecie Gnokii dokonuje się zmian istniejącego kodu źródłowego, natomiast Gammu nie zawiera wielu "naleciałości" z poprzedniej wersji.</p>
+
+<p align=justify>Jeżeli chodzi o część funkcjonalną: Gammu nie zawiera obecnie wygodnego interfejsu graficznego. W wersji konsolowej oferuje natomiast działające poprawnie opcje niedostępne w Gnokii - np. odtwarzanie dzwonków prze głośnik telefonu.</p>
+
+<p align=justify>Z uwagi na zupełnie inną strukturę pakietu część funkcji (np. szczegółowa identyfikacja podłączonego telefonu) będzie bardziej rozszerzona i zależeć od podłączonego modelu.</p>
+
+<p align=justify>Możliwe jest zresztą wykorzystywanie oryginalnego kodu Gammu jako biblioteki przejmującej na siebie całą komunikację z telefonem. Bez zmiany "głównego" kodu możemy bowiem implementować własną dowolną funkcjonalność nie przejmując się np. szczegółami technicznymi dotyczącymi użytego kabla czy sposobu komunikacji w podczerwieni.</p>
+
+<p align=justify>Z tego powodu należy polecić każdemu posiadaczowi Nokii zapoznanie się z każdym z tych pakietów. Jeżeli interesują nas oba, możemy je zresztą zainstalować obecnie "obok siebie" w jednym systemie i używać "naprzemiennie". Różna będzie ich stabilność i w związku z tym przydatność do naszych celów. Na pewno jednak któryś z nich spełni nasze oczekiwania.</p>
+
+<p><i><font size="-1"><a href="#Top" class="shref">Back to the top/Na początek</a></font></i> </p>
+
+<p><font color="#1f409f"><font size="+2">Modemowy standard ?</font></font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Kolejną bardzo liczną grupą telefonów są "komórki" posługujące się komendami AT (nazwanymi ta, gdyż praktycznie każda komenda/odpowiedź telefonu zaczyna się właśnie od ciągu "AT").</p>
+
+<p align=justify>Możemy się tutaj jednak spotkać z pewnymi problemami. Dostępne są bowiem specyfikacje <a href="http://www.etsi.org">organizacji ustalającej standardy "komórkowe" ETSI</a>. Zgodnie z nimi napisano <a href="http://www.pxh.de/fs/gsmlib/index.html">projekt GSMLib</a> oraz moduły AT do Gnokii/Gammu.</p>
+
+<p align=justify>Standardy te jednak nie uzględniają różnych możliwości udostępnianych przez nowoczesne telefony - rozszerzonej książki telefonicznej, własnych folderów na wiadomości SMS, dzwonków, różnych rodzajów logo, itp. Stąd różni producenci oprócz komend zalecanych przez ETSI dodają także swoje rozwiązania. Dlatego też do obsługi specyficznych funkcji różnych telefonów znów możemy potrzebować oddzielnego oprogramowania.</p>
+
+<p align=justify>Wyszczególnimy teraz bardzo krótko kilka najbardziej znanych pakietów. Będą to z konieczności opisy bardzo lakoniczne - oprogramowanie to jest bardzo niewielkie, z małą ilością opcji. Najczęściej zawiera jedynie obsługę książki telefonicznej i sms (z rozszerzeniami specyficznymi dla konkretnego modelu), czasami wsparcie dla logo albo dzwonkow. Jest to mało w porównaniu z bogactwem opcji w Gnokii czy Gammu. Niestety, dużą rolę odgrywa tutaj fakt, iż telefonów innych producentów niż Nokia używa się mniej. Mniej też jest programistów, którzy się nimi interesują.</p>
+
+<p align=justify>Zaczniemy od wyrobów Siemensa. Pierwszy <a href="http://www.na.linux.hr/projects/s25manager/">pakiet "S25 Manager 4 Linux"</a> nie jest już niestety rozwijany (ostatnia wersja pochodzi z kwietnia 2001). Zawiera wygodny interfejs graficzny do obsługi telefonów Siemens S25 m.in. z funkcjami do obsługi książki telefonicznej, SMS, daty i czasu oraz logo. Został napisany z użyciem Tcl/Tk.</p>
+
+<p align=justify>Ostatnia wersja <a href="http://freshmeat.net/projects/ksiemens/">pakietu KSiemens</a> jest również dosyć stara (maj 2001). Zgodnie z jej opisem ma umożliwiać obsługę dzwonków, logo, książki telefonicznej i organizera.</p>
+
+<p align=justify><a href="http://www.sl45i.nl/sl45c/">"SL45c"</a> ma w swoich założeniach zawierać pełną obsługę wszystkich modeli tego producenta z numerkiem "45". Docelowo będzie więc posiadać m.in. opcje do logo, dzwonków, WAP, książki telefonicznej. Ciekawostką jest możliwość włączenia opcji monitora sieci.</p>
+
+<p align=justify>Użytkownicy telefonów SonyEricsson nie mają w ogóle wyboru. <a href="http://www.campana.vi.it/ottavio/progetti.php">"My Ericsson"</a> służy do obsługi telefonu Ericsson T39m. Na razie (początek sierpnia) dostępna jest wyłącznie wczesna wersja 0.2.</p>
+
+<p align=justify>Właściciele Alcateli One Touch 50x i 70x mogą liczyć na <a href="http://freshmeat.net/projects/kalcatel/">pakiet "KAlcatel"</a>. Jego autor od razu zdecydował się na tworzenie wersji okienkowej (do KDE). Aktualnie oprogramowanie to jest w dosyć wczesnej wersji testowej, która będzie przepisana od nowa. Docelowo ma mieć obsługę wiadomości SMS, książki telefonicznej, kalendarza i ToDo.</p>
+
+<p><i><font size="-1"><a href="#Top" class="shref">Back to the top/Na początek</a></font></i> </p>
+
+<p><font color="#1f409f"><font size="+2">Posucha jakaś ?</font></font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>I to właściwie wszystko. W serwisie freshmeat i innych poświęconych "wolnemu" oprogramowaniu można jeszcze spotkać masę drobnych skryptów do odbierania czy wysyłania sms albo do konwersji dzwonków. Nie wnoszą one praktycznie nic nowego ponad np. funkcjonalność biblioteki GSMLib czy Gnokii/Gammu.</p>
+
+<p align=justify>Można sobie zadać w tym miejscu jeszcze raz pytanie: dlaczego tak się dzieje ? Odpowiedź jest prosta. Stosunkowo mało osób decyduje się na podłączenie swojego aparatu do komputera (w tańszych modelach praktycznie zawsze wiąże się to z kupnem oddzielnego kabla w cenie 50-100PLN). Jeżeli już to zrobią, większości z nich wystarczy standardowa obsługa komend AT i najprostsze opcje związane z książką telefoniczną/SMS (czyli funkcjonalność dostępnych już i opisanych wcześniej rozwiązań).</p>
+
+<p align=justify>Ludzie zainteresowani pisaniem oprogramowania do własnego telefonu stanowią jeszcze mniejszą grupę. Każdy z nich woli tworzyć wszystko z reguły od podstaw. Powoduje to, iż po wymianie aparatów przez ich twórców na inne projekty te nie są najczęściej kontynuowane.</p>
+
+<p align=justify>Niestety brak jest też inicjatywy i chęci stworzenia pewnego "standardu" dotyczącego tego typu aplikacji. Takim standardem mógłby być zresztą pakiet Gnokii - niestety wydaje się, że pewne decyzje i działania jego twórców to utrudniają lub uniemożliwiają. Być może uda się to twórcom Gammu - na razie jednak przed nimi ciągle stoi zadanie stworzenia m.in. interfejsu graficznego, który pozwoliłby przekonać wielu nowych użytkowników do tego oprogramowania (Gnokii jest tutaj ciągle bardziej "widoczny").</p>
+
+<p align=justify>Brak również dobrej woli ze strony producentów "komórek" - nie udostępniają opisów protokołów używanych przez oryginalne oprogramowanie (dzięki nim możnaby zarządzać wszystkimi danymi w ich wyrobach). Co więcej, niektórzy z nich nie poprawiają wewnętrznego firmware w telefonach i tym zdarza się "psuć" po użyciu jednego czy drugiego programu korzystającego z jednego z wewnętrznych protokołów (przypomnijmy: programu stworzonego na podstawie reverse engineringu - w praktyce tak pisana jest większość "wolnych" i "poważnych" projektów).</p>
+
+<p align=justify>Dzięki temu w ogóle wiele ludzi się zniechęca do idei podłączania telefonów do komputera i powoduje to, że tylko dłużej rozwijane projekty mogą liczyć na rzesze użytkowników. "Świadome" błędy w oprogramowaniu telefonów wywołują także usuwanie z niektórych programów pewnych opcji - po prostu powodują one zbyt dużo losowych problemów ze zbyt dużą ilością "komórek" (przykładem może być nieobecna w ostatnich wersjach funkcja wgrywania logo do Nokii 3510 w Logo Managerze oraz to, iż przez jakiś czas Gammu nie miał włączonej funkcji zapisu SMS dla telefonów Nokii z generacji DCT4)...</p>
+
+<p align=justify>Taka jest obecna sytuacja i fakt, iż właściwie tylko użytkownicy telefonów pewnego finlandzkiego producenta mogą liczyć na przyzwoitą obsługę swoich urządzeń w Linuxie. Nie ma tutaj niestety ciągle takiego wyboru aplikacji jak w Windows.</p>
+
+<p align=justify>Na końcu chcielibyśmy wspomnieć jeszcze o <a href="http://bootsagem.sourceforge.net/"> projekcie "Sagem Bootstrap Loader"</a>. Należy on zupełnie do innej klasy programów. Każdy telefon jest bowiem faktycznie małym przenośnym komputerem z własną pamięcią (tzw. flashem), procesorem, urządzeniami wyjścia (głośnik, wyświetlacz) oraz wejścia (głośnik, klawiatura). Projekt ten jest natomiast chyba jedynym pakietem dla Linuxa pozwalającym wymieniać wewnętrzne oprogramowanie "komórki". Można się tutaj zapytać: czy do innych telefonów są również dostępne "wolne" programy tego typu? Owszem, pakiet Knok pozwala na tę czynność w części Nokii dostępnych na obecnie na rynku (3210, 33xx, 3410, 51xx, 5210, 5510, 61xx, 62xx, 71xx, 82xx). Tylko, że działa on tylko w Windows.</p>
+
+<p><i><font size="-1"><a href="#Top" class="shref">Back to the top/Na początek</a></font></i> </p>
+<p><font color="#1f409f"><font size="+2">Linki i sznurki<br></font></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+<ul>
+  <li>Gnokii: <a href="http://www.gnokii.org">http://www.gnokii.org</a></li>
+  <li>MyGnokii/Gammu: <a href="?q=node/99">http://www.mwiacek.com/gsm/gammu/gammu.html</a></li>
+  <li>Organizacja ETSI: <a href="http://www.etsi.org">http://www.etsi.org</a></li>
+  <li>Biblioteka GSMLib z obsługą standardów AT organizacji ETSI: <a href="http://www.pxh.de/fs/gsmlib/index.html">http://www.pxh.de/fs/gsmlib/index.html</a></li>
+  <li>Pakiet do telefonów Siemens S25 ("S25 Manager 4 Linux"): <a href="http://www.na.linux.hr/projects/s25manager/">http://www.na.linux.hr/projects/s25manager/</a></li>
+  <li>Pakiet do Siemensów S24/S35: <a href="http://freshmeat.net/projects/ksiemens/">http://freshmeat.net/projects/ksiemens/</a></li>
+  <li>Pakiet do telefonów Siemens SL45c ("SL45c"): <a href="http://www.sl45i.nl/sl45c/">http://www.sl45i.nl/sl45c/</a></li>
+  <li>Pakiet do Ericssona T39m ("My Ericsson"): <a href="http://www.campana.vi.it/ottavio/progetti.php">http://www.campana.vi.it/ottavio/progetti.php</a></li>
+  <li>Oprogramowanie do Sagemów ("Sagem Bootstrap Loader"): <a href="http://bootsagem.sourceforge.net/">http://bootsagem.sourceforge.net/</a></li>
+  <li>Aplikacja do Alcateli One Touch 50x 70x - <a href="http://freshmeat.net/projects/kalcatel/">http://freshmeat.net/projects/kalcatel/</a></li>
+</ul>

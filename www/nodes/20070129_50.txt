@@ -1,0 +1,15 @@
+﻿Title:Report 2007-01-29
+Author:marcin
+When:29 Jan 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Few things:</p>
+<ul><li>Michal has started Gammu managing. First results are visible in 1.09.17. I will look into it more deeply soon (probably this week). Now now it looks very interesting.
+<!--break-->
+</li><li>I'm learning more and more wxWindows and I'm during moving old GUI stuff into MDI style interface. Do you want to connect to 20 phones in the same time or view 100 MMS files ? No problem and it partially already works. There is also configuration script available too... And it's intelligent - when you select phone model, it will display only supported connections for it... When you select infrared, it will gray device in win32. etc. etc. :-)
+<p><img src="sites/default/files/50/070129.gif" /></p>
+<p>I quess, that it will be released somewhere during week or two</p>
+</li><li>I'm still looking for a job. For example had very interesting meeting about it today. We will see... For now I see, that driving by car/bus is more and more difficult because of Kyril...and yesterday had first time total PC hangup since long time...
+</li><li>I prepared some info about <a href=?q=node/14>[[HydePark:MSWindows|MS Windows]]</a>...
+</li></ul>

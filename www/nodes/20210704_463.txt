@@ -1,0 +1,64 @@
+﻿Title:O wielkim fetyszu ostatnich lat czyli jak smukłe obudowy są wymówką do zatrzymania rozwoju (2021)
+Author:marcin
+When:4 July 2021
+Taxonomy:polski,polski blog,salon24.pl,x86,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1148001,o-najwiekszym-fetyszu-ostatnich-lat-czyli-jak-smukle-obudowy-staly-sie-wymowka-do-zatrzymania-postepu>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dzisiaj chciałbym sprawdzić, na ile prawdziwy jest mit, że pogoń za smukłymi (cienkimi) obudowami wymusza niewymienność pewnych elementów.</p>
+<!--break-->
+<p><b>Macbook Pro 13,3” vs świat </b></p>
+<p>Poniżej zestawienie kilku modeli:</p>
+<p>Macbook Pro 2015 13,3” (31,40 x 21,90 x 1,80 cm) – bateria 74,9 Wh</p>
+<p>Macbook Pro 2016 13,3” (30,41 x 21,24 x 1,49 cm) – bateria 54,5 Wh</p>
+<p>Macbook Pro 2020 13,3” (30,41 x 21,24 x 1,56 cm) – bateria 58,2 Wh</p>
+<p>Od 2013 nie mamy już slotu na RAM. Model z 2016 dostał nieszczęsną cieńszą klawiaturę motylkową i niewymienny dysk (biorąc pod uwagę różnicę wysokości modelu z 2016 i 2020, i odejmując poprawkę na klawiaturę, to zmiana wielkości baterii i usunięcie złącza dysku „poprawiły” grubość o 0,31 – 0,07 = 0,24 cm). Ciekawe jest to, że z „dużej” grubości, przeszliśmy do „małej”, a teraz z powrotem wracamy w stronę „dużych” wartości.</p>
+<p>Spójrzmy teraz na trzy inne modele:</p>
+<p>Hyperbook L14 14” (32,20 x 21,60 x 1,60 cm) – 73 Wh</p>
+<p>LG Gram 2021 14” (31,34 x 21,52 x 1,68 cm) – 72 Wh</p>
+<p>Lenovo X1 Nano 13” (29,28 x 20,77 x 1,60 cm) – 48,2 Wh</p>
+<p>Nie wiem, czy kiedyś dane mi będzie w końcu dostać w swoje ręce Hyperbooka (dłuugaaa historia), ale różnica grubości z „jabłkiem” to aż 0,04 cm. Proszę sobie spojrzeć na miarkę czy centymetr i zobaczyć jak mała jest różnica 1 mm, a co dopiero mówić o mniej niż połowie jednego mm.</p>
+<p>Co dostajemy w zamian?</p>
+<p>Dwa sloty M.2 na dyski, jeden slot na RAM i większą baterię niż w produkcie Apple. Teoretycznie produkty nie należą do tej samej półki, jeśli chodzi o rozpoznawalność, prestiż, itp., ale…</p>
+<p>Przy Nano i Gram jest już gorzej (RAM lutowany), ale nadal nie jest to jakaś straszna różnica.</p>
+<p>
+<iframe width="860" height="483" src="https://www.youtube.com/embed/rvDDC6ktCUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p><b>Macbook Air </b></p>
+<p>2017 – 32,5 x 22,7 x 0,3 / 1,7 – 54 Wh</p>
+<p>2018 – 30,41 x 21,24 x 0,41 / 1,56 – 50,3 Wh</p>
+<p>2021 – 30,41 x 21,24 x 0,41 / 1,61 – 49,9 Wh</p>
+<p>Tutaj znów widać trend pod tytułem „produkujemy naleśnik, potem go pogrubiamy”. 0,09 mm wydaje się być tylko wymówką, żeby elementy były niewymienne.</p>
+<p><b>Dell Latitude 5510 vs 5520 </b></p>
+<p>Latitude 5510 2020 – 35,91 x 23,625 x 2,098 / 2,242 cm – 68 Wh</p>
+<p>Latitude 5520 2021 – 35,78 x 23,62 x 1,987 cm / 2,215 cm – niewymienny RAM, 63 Wh</p>
+<p>To tylko dwa z przykładowych modeli amerykańskiego giganta. Teoretycznie na papierze różnica jest gigantyczna (np. 2,242 cm vs 2,215), ale w praktyce, czy ktoś jest w stanie dostrzec 0,03 cm ? (czyli 0,3 jednego mm)</p>
+<p>Żeby była jasność – w innych modelach z tego roku zastosowano podobny ruch, co sugeruje planowane postarzanie.</p>
+<p><b>iPad vs iMac </b></p>
+<p>iPad Pro 2021 12,9” – 28,06 x 21,49 x 0,64 cm</p>
+<p>iMac 2021 24” – 54,7 x 46.1 x 1,15 cm</p>
+<p>W tym wypadku porównywanie urządzenia przenośnego ze stacjonarnym nie jest może całkiem fair, ale pokazuje jedną drobną rzecz – urządzenie cieńsze jest chłodzone pasywnie, urządzenie chłodzone aktywnie natomiast cały czas stoi pionowo (można by pewnie spokojnie przygotować jakiś heatpipe), a do tego jest grubsze (skoro mówimy o efekcie wow, to co powoduje „aż” taką różnicę?)</p>
+<p>Czy w przypadku takiego iMac jest jakakolwiek potrzeba stosowania tak cienkiej obudowy? Czy nie można dać tam normalnych złącz, co pozwoliłoby na dodanie absolutnie topowych komponentów? I czy naprawdę trzeba ograniczać potencjał M1, co widać po wariancie z 7-rdzeniami GPU?</p>
+<p><b>Samsung </b></p>
+<p>S5 – 14,20 x 7,25 x 0,81 cm, 2800 mAh</p>
+<p>S6 – 14,34 x 7,05 x 0,68 cm, 2550 mAh</p>
+<p>S9 – 14,77 x 6,87 x 0,85 cm, 3000 mAh</p>
+<p>S10e – 14,22 x 6,99 x 0,79 cm, 3000 mAh</p>
+<p>S21 – 15,17 x 7,12 x 0,79 cm, 3880 mAh</p>
+<p>Ciekawa historia – w S5 było wszystko (wymienna bateria, slot na kartę, jack), w S6 rozpoczęła się kastracja, S9 był dosyć przyzwoity (niewymienna bateria, ale jest slot na kartę, jack, ekran bez dziur), natomiast obcięta z funkcji seria S10 i modele wzwyż mają prawie taką samą grubość jak S5 (różnica 0,02 cm czyli 0,2 jednego mm)</p>
+<p>Kibicuję tej firmie, gdyż jest to ostatnia duża alternatywa dla Apple i marek chińskich (Sony nie liczę, LG się wykruszyło, Motorola i Lenovo są chińskie, Huawei, Oppo, Xiaomi i inne również…) - widać postęp w wielkości baterii, niemniej jednak czy smukłość obudowy nie jest jedynie pretekstem do wycinania różnych elementów?</p>
+<p><b>Podsumowanie </b></p>
+<p>Na pewno temat nie jest ważny, i na pewno działy marketingu w wielkich firmach chcą się wykazać (stąd też „ochy” i „achy” nad tym, że coś jest spłaszczone bardziej o 1 mm).</p>
+<p>Przez ostatnie kilkanaście lat przeżyliśmy ileś rewolucji, które miały sens. Wymienię hasłowo trzy z nich (dotyczy to nie tylko urządzeń przenośnych):</p>
+<ul>
+<li>zamiana tasiemek IDE na SATA, potem zdefiniowanie standardu NVME i złącz M.2</li>
+<li>wprowadzenie USB / Thunderbolt zamiast różnych złącz równoległych czy szeregowych</li>
+<li>przejście z analogowego VGA na cyfrowe HDMI</li>
+</ul>
+<p>Na „celowniku” firm obecnie są złącza jack, kart SIM czy microSD (pomimo, że nie wydają się zbyt duże), równocześnie niewiele się zmienia w temacie „normalnych” kart rozszerzeń PCI (czy powodem jest pobór mocy?), stosunkowo dużych złącz DIMM czy SO-DIMM (ciekaw jestem, czy nie można by użyć czegoś w rodzaju M.2) czy zasilaczy do płyt stacjonarnych (wiem, że jest pico ATX, ale to chyba drobna część rynku).</p>
+<p>Obecne urządzenia są wystarczająco wydajne dla większości. Producenci mają z tym ogromny problem i z całych sił próbują doprowadzić do tego, żeby produkty były i równocześnie nie były atrakcyjne (stąd to całe planowane postarzanie).</p>
+<p>Problem pewnie by nie powstał, gdybyśmy mieli na rynku wiele małych konkurujących ze sobą firm i gdyby rynek nie był nasycony. To, jak również obecność zaledwie kilku gigantów (którzy muszą produkować, żeby istnieć) powoduje, że patologii na rynku elektronicznym pojawi się coraz więcej.</p>
+<p>Już teraz widać zatrzymanie realnego rozwoju – o ile wielbiciele błyskotek będą wydawać pieniądze na nowe gadgety, to firmy i ludzie mądrzy będą się z tym wstrzymywać (kiedyś po zakupie laptopa aż się chciało dokupywać stację roboczą, drugą baterię, zmieniać dysk, RAM, i co się dało, a to wywoływało ruch na rynku i popyt na części – obecnie po zakupie jednorazówki raczej czeka się na to, aż wszystko się zepsuje).</p>
+<p>Widać tu zamknięte koło jak z inflacją i dodrukowywaniem pieniądza – im mniej wartościowe są kolejne modele, tym rzadziej staramy się je kupować; im rzadziej je kupujemy, tym bardziej tracą na atrakcyjności i producenci muszą korygować ceny; możliwości są tylko dwie – obniżki cen i jakości, albo podwyżki cen; w obu wypadkach traci konsument – sumarycznie wydaje więcej pieniędzy, a im mniej ma pieniędzy po zakupach, tym mniej może przeznaczyć na kolejne zakupy (a więc w praktyce producenci muszą przygotować jeszcze tańszą i gorszą ofertę, co „normalnych” ludzi bardziej zniechęca do zakupów).</p>
+<p>Ktoś powie - ale jest Ryzen i M1. Produktów AMD nie liczę, bo na palcach jednej ręki można zliczyć produkty z nimi, w których wszystko jest należy. A co do M1, to ciekawy jestem, jak będzie wyglądać płacz i zgrzytanie zębów, gdy te zaczną padać (chodzi np. o dyski). Do tego Apple jest świadome różnych rzeczy, i stąd pewnie pogłoski o powrocie czytników kart czy HDMI w kolejnych Macbookach Pro (oni nigdy nie dają nic z siebie, jeżeli sprzedaż nie idzie zgodnie z oczekiwaniami).</p>
+<p>Zastanówmy się też np. nad czymś takim – w najmniejszych urządzeniach można by używać kart microSD w czytnikach (zamiast eMMC) albo najkrótszych złącz M2 (na karty Wifi czy dyski SSD).</p>
+<p>Czy naprawdę ktoś by na tym stracił?</p>

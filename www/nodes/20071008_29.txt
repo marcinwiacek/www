@@ -1,0 +1,26 @@
+﻿Title:Report 2007-10-08
+Author:marcin
+When:08 Oct 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>very short news from me: I'm working hard on new release. Decoding EMS and some other SMS features already work, I'm testing/writing EMS editor + EMS packing functions. If everything will go fine, Gammu+ will have soon support for such EMS functionalities:</p>
+<pre>Text formatting: YES
+Predefined sounds: YES
+User-defined sounds: YES
+Predefined animations: YES
+Large pictures: YES
+Small pictures: YES
+Object Distribution Indicator: YES
+Variable pictures: YES
+User Prompt Indicator: YES
+User defined animations: DECODING
+<!--break-->
+Large animations: DECODING
+Small animations: DECODING
+Extended Object: NO
+Reused Extended Object: NO
+Compression Control: NO
+Standard WVG object: NO
+Character size WVG object: NO</pre><p>
+I will need to think about adding GIF support inside and it will be possible to pack easy animations too...</p>

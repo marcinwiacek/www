@@ -1,0 +1,38 @@
+﻿Title:Report 2006-04-18
+Author:marcin
+When:19 Apr 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>2 April - Gammu in Debian (hurray !)
+</li><li>13 April - Gammu.net lost. There is registered Gammu.org instead
+</li><li>18 April - Gammu 1.06.00 released. I have done many small steps inside:<br /><pre>
+20060418 - 1.06.00
+[!] No more gammu.net. There is gammu.org instead. We release
+    this version as 1.06.00, because we want force people to upgrade
+    link
+[+] Some new texts in Polish localisation (Tomek Fizyk)
+[*] SMSD DB updated to version 6. There should be "real" UTF8 used now
+<!--break-->
+    and less problems with MySQL 5 (of course, PHP and SMSD updated too)
+[*] New method of informing about changes in ChangeLog:
+    [!] Important
+    [+] New functionality
+    [*] Changes in existing functionality
+    [-] Fixed error
+[*] gammu.txt -&gt; gammu.htm (from Wiki, currently temporary version)
+[*] readme.txt redirects to wiki
+[*] new functions for utf8
+[-] * Fix, when config file not available (Michal Cihar)
+[-] * Fix for SMSD
+[-] * as there are architectures where char is unsigned by
+      default, for SMS-&gt;Class we need to explicitly use signed one
+      (it is set/compared for -1)
+[-] * avoid error in configure when rpm is not installed
+[-] * second changes type used for length to size_t, which is big enough
+      to hold possible pointer size
+[-] improved vcf restoring
+</pre><p>
+The same with gammu.org - there are many small things changed especially inside wiki.</p>
+</li><li>near future - I hope to end SMS for Gammu+ to end of April, I should end gammu.org main changes too. I hope, that wiki will explain many software issues then.
+</li></ul><p>Few more issues: There are many emails about cables and new phones. But what can I do without them ? And what should I do after ending SMS for Gammu+ ? How earn money ? Symbian ? Will I have enought time for making everything planned inside my favourite projects ? I will see :-D</p>

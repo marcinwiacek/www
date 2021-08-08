@@ -1,0 +1,18 @@
+﻿Title:11 years of mwiacek.com !
+Author:marcin
+When:14 Mar 2010
+Taxonomy:English,English blog
+
+<p>From the simple static HTML pages to PHP code and now finally to CRM created and managed content. Few important dates:</p>
+<ul><li>14 March 1999 - <b>first version of this page</b> created on non-existing now free.com.pl
+</li><li>page is available under alias marcin-wiacek.topnet.pl
+</li><li>page content was published on the CD attached to the number 7/1999 of Polish <a href="http://www.mi.com.pl">Internet magazine</a>.
+</li><li>created mirror on the fkn.pl
+<!--break-->
+</li><li>free.com.pl was closed and page finally found place on the fkn.pl
+</li><li>13 November 2002 - marcin-wiacek.topnet.pl discontinued, mwiacek.com registered
+</li><li>6 September 2003 - <b>big rewrite to style used on the fkn.pl, added some PHP</b>
+</li><li>23 June 2004 - page hosted in Czech server instead of fkn.pl
+</li><li>30 July 2004 - Nokia firmware page suspended
+</li><li>3 October 2004 - first RSS channel
+</li><li>1 April 2005 - some content moved to new Gammu site (first available under gammu.net address)<br /><img src="sites/default/files/4/mywww2.png" width="600" /></li><li>14 March 2010 - page in beta version is built <b>using CRM</b> and updated with old and new content<br /><img src="sites/default/files/4/mywww3.png" width="600" /></li></ul>

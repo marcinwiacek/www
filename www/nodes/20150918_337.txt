@@ -1,0 +1,8 @@
+﻿Title:https://www.facebook.com/marcin.wiacek.public (2015)
+Author:marcin
+When:18 Sep 2015
+Taxonomy:English,English blog
+
+<p><a href="https://www.facebook.com/marcin.wiacek.public">Some photos and info...</a></p>
+<p><img src="sites/default/files/337/nature1.jpg" width="500" /></p>
+<!--break-->

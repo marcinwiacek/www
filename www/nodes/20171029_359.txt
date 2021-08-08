@@ -1,0 +1,184 @@
+﻿Title:To jest wojna… (2017)
+Author:marcin
+When:29 Oct 2017
+Taxonomy:Polski,Polski blog,drogowe,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/To-jest-wojna,83952.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Którą niestety przegrywamy i to chyba na własne życzenie…
+
+<p>Ostatni raz pisałem na tym blogu w 2014 (post ukazał się na blogu DobrychProgramów), teraz mamy końcówkę 2017, a mnie nasunęło się kilka luźnych refleksji, którymi postanowiłem się podzielić po przejrzeniu wpisu <a href=https://www.dobreprogramy.pl/karol221-10/Nierealnosc-rzeczywistosci,83948.html>„Nierealność rzeczywistości”</a>.
+
+<p>Żyjemy niewątpliwie w ciekawych czasach i mamy dostępnych wiele możliwości, a co z tym robimy?
+
+<!--break-->
+<p>Przedstawię to na przykładzie <a href=?q=przepisy_drogowe>„Przepisów drogowych”</a>. To jest to moja drobna aplikacja (Android/iOS/web), którą aktywnie tworzyłem do 2015, a której później niestety nie uaktualniałem, bo dopadła mnie proza życia. 
+
+<p>Cóż, zdarza się, że podstawowe rzeczy zajmują za dużo czasu i nie można robić nic ciekawszego, na szczęście ostatnio wszystko wyprostowało się i teraz znowu wróciłem również do tego wspaniałego projektu (<a href=http://mwiacek.com/www/?q=node/358>pisałem o tym tydzień temu</a>).
+
+<p>Aplikacja wymaga aktualizacji. Wszedłem na <a href=http://dziennikustaw.gov.pl>dziennikustaw.gov.pl</a>, spróbowałem znaleźć określone akty prawny „od” „do” i okazało się, że filtr nie działa. 
+
+<p>Popatrzyłem się, czy może gdzieś jest strona, która pozwoli obejrzeć zawartość aktu prawnego w dniu X. Nie ma, a mnie ręce opadły. Problem w tym, że akty prawne są już od lat publikowane w postaci XML (ale niedostępne dla obywateli) i zrobienie apki, która bierze kolejne pliki i na ich podstawie tworzy wersje jednolite aktu prawnego jest pestką – bawiłem się tym w 2012 i 2013: <a href=http://mwiacek.com/www/?q=node/233>Po co ta cała informatyzacja czyli m.in. o zniesieniu Sądów w Polsce...</a> i <a href=http://mwiacek.com/www/?q=node/196>XMLe C.D. i Android Market - aplikacja "Polskie przepisy" </a>.
+
+<p>W tej sytuacji popatrzyłem sobie, ile to ważnych aktualizacji muszę dodać do „Przepisów drogowych”, żeby były użyteczne w dniu dzisiejszym:
+
+<ol>
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2015/1314/1>ROZPORZĄDZENIE
+MINISTRA INFRASTRUKTURY I ROZWOJU z dnia 3 lipca 2015 r. zmieniające rozporządzenie w sprawie szczegółowych warunków technicznych dla znaków i sygnałów drogowych
+oraz urządzeń bezpieczeństwa ruchu drogowego i warunków ich umieszczania na drogach</a>
+
+(Data ogłoszenia: 	2015-09-07)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2016/647/1>Rozporządzenie Ministra Infrastruktury i Budownictwa z dnia 8 kwietnia 2016 r. zmieniające rozporządzenie w sprawie szczegółowych warunków technicznych dla znaków i sygnałów drogowych oraz urządzeń bezpieczeństwa ruchu drogowego i warunków ich umieszczania na drogach</a>
+
+(Data ogłoszenia: 	2016-05-10)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2017/1062/1>Rozporządzenie Ministra Infrastruktury i Budownictwa z dnia 24 maja 2017 r. zmieniające rozporządzenie w sprawie szczegółowych warunków technicznych dla znaków i sygnałów drogowych oraz urządzeń bezpieczeństwa ruchu drogowego i warunków ich umieszczania na drogach</a>
+
+(Data ogłoszenia: 	2017-05-31)
+
+<hr>
+<li><a href=http://dziennikustaw.gov.pl/DU/2015/1273/1>Ustawa z dnia 24 lipca 2015 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw</a>
+
+(Data ogłoszenia: 	2015-08-31)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2015/1335/1>Ustawa z dnia 24 lipca 2015 r. o zmianie ustawy – Prawo o ruchu drogowym oraz ustawy o strażach gminnych</a>
+
+(Data ogłoszenia: 	2015-09-09)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2015/1326/1>Ustawa z dnia 5 sierpnia 2015 r. o zmianie ustawy – Prawo o ruchu drogowym</a>
+
+(Data ogłoszenia: 	2015-09-08)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2017/128/1>Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 14 grudnia 2016 r. w sprawie ogłoszenia jednolitego tekstu ustawy – Prawo o ruchu drogowym</a>
+
+
+(Data ogłoszenia: 	2017-01-20)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2015/2183/1>Ustawa z dnia 16 grudnia 2015 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw</a>
+
+(Data ogłoszenia: 	2015-12-24)
+
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2017/1260/1>Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 8 czerwca 2017 r. w sprawie ogłoszenia jednolitego tekstu ustawy – Prawo o ruchu drogowym</a>
+
+
+(Data ogłoszenia: 	2017-06-27)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2017/1926/1>Ustawa z dnia 15 września 2017 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw</a>
+
+(Data ogłoszenia: 	2017-10-17)
+
+<hr>
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2016/2001/1>Ustawa z dnia 30 listopada 2016 r. o zmianie ustawy o kierujących pojazdami oraz niektórych innych ustaw</a>
+
+(Data ogłoszenia: 	2016-12-12)
+
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2016/627/1>Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 8 kwietnia 2016 r. w sprawie ogłoszenia jednolitego tekstu ustawy o kierujących pojazdami</a>
+
+(Data ogłoszenia: 	2016-05-05)
+
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2017/978/1>Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 25 kwietnia 2017 r. w sprawie ogłoszenia jednolitego tekstu ustawy o kierujących pojazdami</a>
+
+(Data ogłoszenia: 	2017-05-18)
+<hr>
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2015/506/1>Rozporządzenie Prezesa Rady Ministrów z dnia 9 kwietnia 2015 r. zmieniające rozporządzenie w sprawie wysokości grzywien nakładanych w drodze mandatów karnych za wybrane rodzaje wykroczeń</a>
+
+(Data ogłoszenia: 	2015-04-10)
+
+<li><a href=http://dziennikustaw.gov.pl/DU/2017/1436/1>Rozporządzenie Prezesa Rady Ministrów z dnia 18 lipca 2017 r. zmieniające rozporządzenie w sprawie wysokości grzywien nakładanych w drodze mandatów karnych za wybrane rodzaje wykroczeń</a>
+
+(Data ogłoszenia: 	2017-07-27)
+
+</ol>
+
+<p>Nie wiem jeszcze czy wychwyciłem wszystko, ale zastanówmy się ile osób w Polsce musi teraz marnować swój czas po to, żeby to wszystko ogarniać...
+
+<p>Pójdźmy dalej – <a href=?q=node/166>około 2010 zrobiłem porównanie maszyn wirtualnych</a> i w PeaceKeeperze miałem w przeglądarkach maksymalnie 5288 punktów, obecnie zrobiłem sobie taki test na Firefoxie w Ubuntu 17.10 uruchomionym w VirtualBox na mojej obecnej podstawowej maszynie i wyszło mi 6454.
+
+<p>Ubuntu użyte do testu działało na XOrg (Wayland nie pozwala na działanie z różnymi aplikacjami) i zajmowało ok. 1.4 GB RAM, podczas gdy <a href=?q=node/156>w 2010 ostatnia dostępna wtedy wersja potrzebowała około 250 MB RAM</a>.
+
+<p>Mój obecny telefon uzyskał 1374 w tymże PeaceKeeperze, podczas gdy <a href=?q=node/261>w 2013 kilka generacji do tyłu miałem około 613</a>.
+
+<p>Można podpierać się cyferkami, można przytaczać kolejne benchmarki czy zastanawiać się w czym Intel i7 model 999991 różni się od modelu 999992, nie zmienia to jednak faktu, że gdzieś tam mocno zatrzymaliśmy się w rozwoju i na chwilę obecną nam to chyba odpowiada.
+
+<p>Żeby nie szukać daleko: w tym roku AMD zaprezentowało Ryzeny, Threadpippery i nowe APU, co rozruszało skostniały rynek i zmusiło Intela do pewnych nazwijmy to dziwnych ruchów czyli glutowania, premier na kolanie i papierze i ucieczki w nowe rynki.
+
+<p>AMD zrobiła kawał naprawdę dobrej roboty, a dosłownie wszędzie widać hejt. Że brak pamięci dwukanałowych, że są błędy wieku dziecięcego, że to czy tamto... 
+
+<p>Jakoś nigdzie nie zauważyłem, żeby ktoś napisał mądry artykuł, w którym podaje się na przykład, gdzie w Ryzenach zrezygnowano z obsługi sprzętowej starych instrukcji i zastąpiono ją mikrokodem. 
+
+<p>Ja z chęcią bym o czymś takim poczytał - x86 to jakieś 37 lat kompatybilności wstecznej i zdecydowanie nie trzeba chyba już używać krzemu np. do kodu 16 bitowego czy MMX.
+
+<p>Swoją drogą czy nie możnaby pójść np. w setkę małych równoległych rdzeni? Albo czy możnaby mieć dwóch mobilnych Ryzenów w jednym lapku? 15 Wat * 2 byłoby zdecydowanie do zakceptowania.
+
+<p>Siła przyzwyczajenia jest silna i na tym tracimy:
+
+<p>Ubuntu wycofuje obrazy 32-bitowe. Hejt. 
+
+<p>Mozilla próbuje pozbyć się kuli u nogi w Firefoxie 57, bo nie ma wyboru. Hejt. 
+
+<p>Microsoft rozpaczliwie próbuje pozbyć się różnych zaniedbań z ostatnich 30-lat. Hejt.
+
+<p>Intel wstawia swoje pamięci Optane. Hejt. (chociaż tutaj trochę uzasadniony)
+
+<p>Promuje się starocie takie jak „nowe” dyski na SATA czy tanie telefony z Azji, nie pisze się o tym, że brakuje zwykłych kieszeni USB czy Thunderbolt dla dysków M.2 NVMe.
+
+<p>Brak opisów technicznych - np. nigdzie (w Polsce i angielskim internecie) nie zauważyłem, żeby ktoś się zająknął, że Samsung wraz w Androidem 7 włączył w S7 Duos standby dla obu kart SIM na 3G.
+
+<p>Ważna sprawa, bo 2G jest dziurawe mocniej niż ser szwajcarski i ta zmiana jest zdecydowanie na plus.
+
+<p>Ważna, ale wszystkie portale bardziej się nakręcały nowym wyglądem aplikacji Settings.
+
+<p>Ostatnio sprawdziłem sobie cenę jednego z lepszych dysków w Polsce i dosłownie po kilku minutach szukania wyszło na to, że w Europie dosłownie za miedzą bez problemu można go kupić o 25% taniej w normalnym, legalnym, stacjonarnym sklepie. Czy to jest ta dobra zmiana?
+
+<p>Nie jest to bynajmniej zjawisko jednostkowe, tylko dotyczy wielu rzeczy i jak się zastanowić to jeden z rezultatów tego co stało się przez ostatnie kilkanaście lat.
+
+<p>Wtedy - Internet dla wielu był czymś nieznanym, komputer kojarzył się z wielką skrzynką, którą karmiło się stosem dyskietek, a telefon był tylko na sznurku.
+
+<p>Dzisiaj - możemy kupić dobre telefony na dwie karty SIM i mieć w nich wiele zdjęć, książek, dyktafon, kalkulator, nawigację, możemy robić notatki czy grać. Mądrze wybrany laptop w zupełności wystarczy na ładnych kilka lat, można na nim wygodnie oglądać filmy, przeglądać Internet czy robić przelewy.
+
+<p>Różnica jest taka, że wtedy (mówię szczególnie o latach 90-tych) mieliśmy wiele inicjatyw lokalnych, które realnie budowały lokalne marki i społeczności. 
+
+<p>Czy ktoś pamięta takie produkty jak TAG czy MKSVir? Czy ktoś prenumerował PCKurier czy Enter Lupusa?
+
+<p>Większość z tego zginęła i taka jest naturalna kolej rzeczy, z drugiej strony nie jest dobrym, że obecnie praktycznie wszyscy używamy procesorów kilku firm (Intel, AMD, w komórkach zapewne Samsung, Mediatek czy Apple) czy tych samych systemów operacyjnych (niech zgadnę – Windows, macOS albo nieśmiertelny Linux).
+
+<p>Tylko ci, którzy nie idą z tym trendem, wygrywają.
+
+<p>Można powiedzieć, że jedną z najlepszych firm świata jest Alfabet/Google. O ich procesie rekrutacyjnym krążą legendy - że zadaje się skomplikowane pytania techniczne, że wymaga się nie wiadomo czego.
+
+<p>Podobnie bardzo dobrze mówi się o Szwajcarii. Kraj mały, ale niezwykle bogaty. Dlaczego? Bo tam stawia się na upraszczanie rzeczy i promuje się inicjatywy.
+
+<p><b>I właśnie tego życzę po przeczytaniu wpisu „Nierealność rzeczywistości” - zamiast pisać, że to są to pierdoły albo że dalej poszli uznani fantaści, chwalmy autora i udostępniajmy jego wpis.</b>
+
+<p><b>Pójdźmy krok dalej - bądźmy ciekawi świata, promujmy dobre rozwiązania, punktujmy problemy, tępmy patologie i przede wszystkim starajmy się pokazywać ich rozwiązania.</b>
+
+<p>Wpadanie w hejt i miernotę intelektualną powoduje, że z każdej strony jesteśmy strzyżeni jak owieczki.
+
+<p>Karty graficzne, których gwarancja kończy się przy używaniu non-stop, komputerki Microsoft nawet za 13600 PLN albo telefony prawie za 6000 PLN...
+
+<p>Czy antywirusy z jedynego słusznego kraju (co jak co, ale do dnia dzisiejszego nie udowodniono nic Kasperskiemu, a jeden z wiodących antywirusów na rynku ma masę problemów nawet z firewallem).
+
+<p>Do tego dochodzą gry, które kosztują krocie, a działają gorzej niż stare (właśnie trenuję nowego Wolfa i błędów tu co niemiara).
+
+<p>Albo wreszcie taki Intel ME - dostaliśmy kolejnego 80486, którego nie można się pozbyć i który robi nie wiadomo co, a każdy przechodzi nad tym do porządku dziennego. To już jest gruba sprawa i scenariusze mogą być różne: <a href=http://mwiacek.com/www/?q=node/353>te dobre (chyba)</a> i <a href=http://mwiacek.com/www/?q=node/356>te gorsze (chyba)</a>.
+
+<p>Podsumowując: możemy coraz więcej, a robimy coraz mniej.
+
+<p>Czy w tej sytuacji można się rozwijać i próbować kontaktować z twórcami rzeczywistości wirtualnej? (w której być może żyjemy)
+
+<p>PS. Za drobną chaotyczność przepraszam, pisałem na szybko.
+
+<P>PS2: rozwińmy trochę temat fantastyki i zastanówmy się w którym kierunku mógłby pójść nasz świat: <a href=http://mwiacek.com/www/?q=node/357>Bydłowozy</a>, <a href=http://mwiacek.com/www/?q=node/355>Idiotis pospolits</a>, <a href=http://mwiacek.com/www/?q=node/354>Projektor osobliwości</a>, <a href=http://mwiacek.com/www/?q=node/352>Polisa</a>, <a href=http://mwiacek.com/www/?q=node/353>A miało być tak pięknie</a>, <a href=http://mwiacek.com/www/?q=node/356>Duchy</a>
+<!--comments-->
+Title:https://www.dobreprogramy.pl
+ID:4981
+Author:marcin
+When:9 Oct 2017
+
+<p><a href="https://www.dobreprogramy.pl/marcinw2/To-jest-wojna,83952.html">https://www.dobreprogramy.pl/marcinw2/To-jest-wojna,83952.html</a></p>

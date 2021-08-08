@@ -1,0 +1,135 @@
+﻿Title:Polskie artykuły i pliki
+Author:marcin
+When:09 Mar 2010
+Taxonomy:Polski,CHM,PDF
+SkipMain:true
+
+<ol>
+<li><a href=?q=node/372>CMS do serwowania WWW w kilkunastu KB ? Sobieski na GitHubie i w moim labie (2019)</a>
+<li><a href=?q=node/371>Ridero - jak za rozsądne pieniądze opublikować książkę (2019)</a>
+<li><a href=?q=node/369>Katedra i bazar... czyli jak metodyka przełożyła się na skalowanie międzymordzia (2019)</a>
+<li><a href=?q=node/368>Era "darmowych" treści i oprogramowania i płatnego sprzętu. (2019)</a>
+<li><a href=?q=node/366>Samsung jest lata świetlne za konkurencją. Pokażę to na przykładach. (2019)</a>
+<li><a href=?q=node/365>Przepisy drogowe 1.47 (2019)</a>
+<li><a href=?q=node/364>Przepisy drogowe 1.45 & Straż 1.0 (2019)</a>
+<!--break-->
+<li><a href=?q=node/363>20 years of site + Przepisy drogowe, Straż, Chromium, Servo, Rust, Markdown... (2019)</a>
+<li><a href=?q=node/361>Przygoda trwa dalej... czyli Przepisy Drogowe 1.44 i planowane nowości (2017)</a>
+<li><a href=?q=node/367>Dell wymienia baterie (XPS 15 9550, Precision 5510) i patchuje ME (2017, 2018 albo TBD) (2017)</a>
+<li><a href=?q=node/360>Litwo ojczyzno moja... czyli o Januszach biznesu, ebookach i kulturze słów kilka (2017)</a>
+<li><a href=?q=node/359>To jest wojna… (2017)</a>
+<li><a href=?q=node/358>Plany (Przepisy Drogowe, Straż, Poczytaj Mi Tato, etc.) (2017)
+</a>
+<li><a href=?q=node/348>Straż (2016)</a>
+<li><a href=?q=node/320>Nowe aplikacje...czyli Bryły i Historia polska w Google Play (2014)</a>
+<li><a href=?q=node/314>Upgrade do Duosa...czyli androidowe zmiany (2014)</a>
+<li><a href=?q=node/290>Bezpieczeństwo w praktyce....Czyli jak zostać gimbusem... (2014)</a>
+<li><a href=?q=node/287>APN 2.0 czyli jak sobie ułatwiłem życie w Androidzie.... (2014)</a>
+<li><a href=?q=node/286>Bezpieczeństwo w praktyce....czyli krótki przegląd zabezpieczeń w kilku sklepach (2014)</a>
+<li><a href=?q=node/285>300h czuwania w telefonie ? (2013)</a>
+<li><a href=?q=node/280>Nowoczesność czyli LTE i Cordova ? (2013)</a>
+<li><a href=?q=node/279>Planowane postarzanie - głos przeciwny (2013)</a>
+<li><a href=?q=node/277>Uwięzieni w Maszynie ? Moment przed rewolucją ? (2013)</a>
+<li><a href=?q=node/275>LTE to, LTE tamto... (2013)</a>
+<li><a href=?q=node/263>Samsung jak Nokia ? (2013)</a>
+<li><a href=?q=node/261>Samsung Galaxy S4 mini - drugie spojrzenie 1.03.... (2013)</a>
+<li><a href="?q=node/242">Katedra czy bazar, korpo czy anarchia ? Czyli trochę o Windows, Linuxie, ale również Tizenie i Firefox OS.... (2013)</a></li>
+<li><a href="?q=node/240">Numery telefoniczne w Polsce (2013)</a></li>
+<li><a href="?q=node/236">Znów temat drogowy...czyli można legalnie oślepiać, kwiatki wynikające z Ustawy o kierujących, nowe opisy aplikacji i zgłoszenie do konkursu (2013)</a></li>
+<li><a href="?q=node/237">Dlaczego dajemy się tak wrabiać ? (2013)</a></li>
+<li><a href="?q=node/235">„Jestem złodziejem i jestem z tego dumny” ? (2013)</a></li>
+<li><a href="?q=node/234">O pisaniu systemów słów kilka... (2013)</a></li>
+<li><a href="?q=node/233">Po co ta cała informatyzacja czyli m.in. o zniesieniu Sądów w Polsce... (2013)</a></li>
+<li><a href="?q=node/232">Obraz po drogowej bitwie... (2013)</a></li>
+<li><a href="?q=node/231">Kierowcy wszystkich pojazdów łączcie się wersja 2.1... (2013)</a></li>
+<li><a href="?q=node/230">Szukam „Jack’a Black’a”…. (2013)</a></li>
+<li><a href="?q=node/229">"Jakość" wujka Google wersja 2.0... (2013)</a></li>
+<li><a href="?q=node/228">Rok 2013 pokaże dalej… (2013)</a></li>
+<li><a href="?q=node/227">Komórki w Polsce... (2012)</a></li>
+<li><a href="?q=node/226">Prymitywizm... (2012)</a></li>
+<li><a href="?q=node/225">Myślenia, refleksji i własnego zdania… (2012)</a></li>
+<li><a href="?q=node/221">Diabeł tkwi w szczegółach... (2012)</a></li>
+<li><a href="?q=node/220">…rewolucje są, ale ukryte (2012)</a></li>
+<li><a href="?q=node/219">Ewolucja wersja 2.0 (2012)</a></li>
+<li><a href="?q=node/217">"Auto Świat" 44/2012 (2012)</a></li>
+<li><a href="?q=node/211">Rachunek telefoniczny...czyli jak porównać taryfy na Androidzie (2012)</a></li>
+<li><a href="?q=node/210">ADSL - podsumowanie (2012)</a></li>
+<li><a href="?q=node/209">Statystyki androidowe + kilka słów nt. jakości aplikacji (2012)</a></li>
+<li><a href="?q=node/208">Na szybko - ADSL i tanie (TP-Link W8960N) i droższe (WAG, FritzBox, etc.) routery (2012)</a></li>
+<li><a href="?q=node/207">Wersja 9 "Przepisów drogowych", Taryfikator mandatów (wydanie XI) + inne nonsensy drogowe (2012)</a></li>
+<li><a href="?q=node/206">Evolve Andromeda & DVB-T (2012)</a></li>
+<li><a href="?q=node/194">Przepisy polskie - stan A.D. 2012 technicznym okiem (2012)</a></li>
+<li><a href="?q=node/193">Windows 8 Server - Stephen why, why, why ? (2012)</a></li>
+<li><a href="?q=node/192">Windows 8 - Steven why ? (2012)</a></li>
+<li><a href="?q=node/191">Android czyli oczekiwanie na rewolucję... (2012)</a></li>
+<li><a href="?q=node/189">Notebook A.D. 2012, czyli o czym trzeba mieć świadomość... (2.1, 2012)</a></li>
+<li><a href="?q=node/188">PC A.D. 2012, czyli o czym trzeba mieć świadomość... (2012)</a></li>
+<li><a href="?q=node/183">Marcowe rewolucje (2011)</a></li>
+<li><a href="?q=node/181">O przeglądarkach w Androidzie... (2011)</a></li>
+<li><a href="?q=node/178">Komentarz o Geimini, czy quo vadis Androidzie ? (2011, wersja 1.01)</a></li>
+<li><a href="?q=node/177">Galaxy S - czeskiego filmu ciąg dalszy ? (2010, wersja 1.02)</a></li>
+<li><a href="?q=node/173">Samsung GT-E2370 - czy warto ? (2010)</a></li>
+<li><a href="?q=node/171">Dlaczego (nie) Samsung ? Dlaczego (nie) Android ? Kilka komentarzy o Galaxy S... (2010, wersja 1.01)</a></li>
+<li><a href="?q=node/169">Co można dostać od Mavericka ? (Ubuntu 10.10) (2010)</a></li>
+<li><a href="?q=node/166">Klonujemy komputer - maszyny wirtualne (2010)</a></li>
+<li><a href="?q=node/163">iBOX Wee - z czym do ludzi ? (2010)</a></li>
+<li><a href="?q=node/159">Ubuntu 10.04 i Mint 9 - rozwiązania dla ludzi ? (2010)</a></li>
+<li><a href="?q=node/157">Linux - rozwiązanie dla ludzi ? (2010, wersja 1.01)</a></li>
+<li><a href="?q=node/156">Ubuntu 10.04 - Linux dla ludzi ? (2010)</a></li>
+<li><a href="?q=node/110">Sound Blaster X-Fi Go! - X-Fi dla każdego! (2009)</a></li>
+<li><a href="?q=node/109">Far Manager, czyli jak mógłby teraz wyglądać Norton Commander... (2009)</a></li>
+<li><a href="?q=node/111">Skonfiguruj system plików w Windows - 12 przydatnych wskazówek dla mniej początkujących (2009)</a></li>
+<li><a href="?q=node/108">Co możemy dostać od Microsoftu za darmo? (2009)</a></li>
+<li><a href="?q=node/107">Windows 7 – odgrzewany kotlet ? (2009)</a></li>
+<li>-> <a href="?q=node/87">Praca dyplomowa "Projekt i realizacja podsystemu uwierzytelniania zdalnych użytkowników systemu informatycznego wspomagającego funkcjonowanie instytucji edukacyjnej"</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, 2007)</a></li>
+<li>-> <a href=/zips/wat.pl/9/qnx.rar>Aplikacja - implementacja algorytmu wzajemnego wykluczania Ricarta i Agrawali w systemie QNX 4.25</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, 2007, RAR)</li>
+<li><a href="?q=node/84">Komórki (2006)</a></li>
+<li>-> <a href=/zips/wat.pl/8/zkif_ms.rar>Historia Microsoftu wraz z historią x86</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, 2006, RAR)</li>
+<li>-> <a href=/zips/wat.pl/7/auta.ppt>Infrastruktura transportu publicznego</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, 2006, PPT)</li>
+<li>-> <a href=/zips/wat.pl/8/zkif_pp.rar>Przykłady projektów inwestycyjnych (<a href=http://www.wcy.wat.edu.pl>WCY</a>, różni autorzy)</a> (2006, RAR)</li>
+<li>-> <a href=/zips/wat.pl/8/hetman.htm>Rozstawianie hetmanów metodą heurystyczną</a> (<a href=http://wcy.wat.edu.pl>WCY</a>, 2006)</li>
+<li>-> <a href=/zips/wat.pl/6/tm_cw_os.rar>Aplikacja - prosty system operacyjny z multitaskingiem</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, assembler, tryb chroniony 386, działa z kernelem Windows 98 SE, 2005, RAR)</li>
+<li>-> <a href=/zips/wat.pl/6/bop.rar>Aplikacja - generowanie i edycja grafów</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, kod źródłowy w MFC, 2005, RAR)</li>
+<li>-> <a href=?q=node/105>Przegląd rozwiązań sprzętowych platformy X86</a> (2005)</li>
+<li>-> <a href=/zips/wat.pl/6/gk_opengl.rar>Aplikacje - kilka przykładów użycia OpenGL</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, kody źródłowe w C, 2005, RAR)</li>
+<li>-> <a href=/zips/wat.pl/6/old/tm_ref.pdf>Przegląd rozwiązań sprzętowych platformy X86</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, 2005, PDF)</li>
+<li>-> <a href="/zips/wat.pl/6/tm_cw_kolo.rar">Materiały o trybie chronionym 80386</a> (<a href=http://www.wcy.wat.edu.pl>WCY</a>, różni autorzy, 2005, RAR)</li>
+<li><a href=?q=node/315>Podane na twardym talerzu (2003)</a></li>
+<li><a href="?q=node/131">Zakładanie simlocka w Nokiach DCT3 (2003)</a></li>
+<li><a href="?q=node/132">FAQ - monitor sieci w Nokiach DCT1 - DCT3 (2002)</a></li>
+<li><a href="?q=node/97">Radosna twórczość (2002)</a></li>
+<li><a href="?q=node/104">Podglądanie na ekranie (2002)</a></li>
+<li><a href="?q=node/90">Dwa druty i już... (2002)</a></li>
+<li>-> <a href=/zips/pw.pl/ana1.zip>Materiały do przedmiotu 'Analiza i równania różniczkowe I'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2002)</li>
+<li><a href="?q=node/96">Ocena skutków komputeryzacji (2001)</a></li>
+<li><a href="?q=node/91">Nadzieja dla Kontestatorów (2001)</a></li>
+<li><a href="?q=node/89">Komórkowy zawrót głowy (2001)</a></li>
+<li>-> <a href=/zips/pw.pl/fiz2.zip>Materiały do przedmiotu 'Fizyka2'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/pw.pl/fiz1.zip>Materiały do przedmiotu 'Fizyka1'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/pw.pl/pom.zip>Materiały do przedmiotu 'Podstawy miernictwa'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/pw.pl/prog.zip>Materiały do przedmiotu 'Programowanie'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/pw.pl/ptko.zip>Materiały do przedmiotu 'Podstawy Technik Komputerowych'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/pw.pl/tob.zip>Materiały do przedmiotu 'Teoria obwodów'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/pw.pl/trk.zip>Materiały do przedmiotu 'Twórcze rozwiązywanie konfliktów'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2001)</li>
+<li>-> <a href=/zips/books.pl/htmlhelp.zip>Kompendium wiedzy o technice HTML Help i plikach CHM zawierające m.in. rozszerzoną wersję artykułów z Chipa z 2000 i artykułów z tej strony www</a> (2001, ZIP z plikami CHM)
+<li><a href="?q=node/129">HTML na ratunek cz.2 (2001)</a> 
+<li>-> <a href=/zips/pw.pl/soc1.zip>Materiały do przedmiotu 'Socjologia1'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2000)</li>
+<li>-> <a href=/zips/pw.pl/alg.zip>Materiały do przedmiotu 'Algebra'</a> (<a href=http://elka.pw.edu.pl/>ELKA</a>, 2000)</li>
+<li><a href="?q=node/88">FAQ - kable do Nokii (2000)</a></li>
+<li><a href="?q=node/92">FAQ - loga operatora w Nokiach (2000)</a></li>
+<li><a href="?q=node/128">Na ratunek ! (2000)</a> 
+<li>-> <a href=/zips/gsm.pl/netmon.zip>Netmonitor w Nokiach DCT1-DCT3</a> (2000, Piotr Główka, DOC)</li>
+<li><a href="?q=node/95">Cicha rewolucja ? (2000)</a>
+<li>-> <a href="/zips/books.pl/kochanowski.chm">Utwory Jana Kochanowskiego</a> (2000, CHM)
+<li>-> <a href="/zips/books.pl/konopnicka.chm">Utwory Marii Konopnickiej</a> (2000, CHM)
+<li>-> <a href="/zips/books.pl/mickiewicz.chm">Utwory Adama Mickiewicza</a> (2000, CHM)
+<li>-> <a href="/zips/books.pl/prus.chm">Utwory Bolesława Prusa</a> (2000, CHM)
+<li>-> <a href="/zips/books.pl/sienkiewicz.chm">Utwory Henryka Sienkiewicza</a> (2000, CHM)
+<li>-> <a href="/zips/books.pl/zeromski.chm">Utwory Stefana Żeromskiego</a> (2000, CHM)
+<li><a href="?q=node/102">Protokół ABOUT (1999)</a></li>
+<li><a href="?q=node/106">Konkurs fizyczny (1999)</a></li>
+<li>-> <a href="/zips/other.pl/konk_fiz.zip">Konkurs fizyczny</a> (1999, DOC)</li>
+<li>-> <a href="/zips/other.pl/ruchy.zip">Aplikacja - składanie ruchów harmonicznych (krzywe Lissajous)</a> (kod źródłowy w Delphi 2, 1999, ZIP)</li>
+<li>-> <a href="/zips/other.pl/rzut_poz.zip">Aplikacja - symulacja rzutu poziomego</a> (kod źródłowy w QBasic, 1999, ZIP)</li>
+<li>-> <a href="/zips/other.pl/rzut_uk.zip">Aplikacja - symulacja rzutu ukośnego</a> (kod źródłowy w QBasic, 1999, ZIP)</li>
+</ol>

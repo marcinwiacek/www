@@ -1,0 +1,39 @@
+﻿Title:Dlaczego dajemy się tak wrabiać ? (2013)
+Author:marcin
+When:17 Feb 2013
+Taxonomy:Spider&#039;s Web,Polski,Polski blog
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2013/02/dlaczego-dajemy-sie-tak-wrabiac.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Czytam ostatniego "Chipa" i zainteresowało mnie kilka tekstów...które wskazują, że ludzie jednak zaczynają myślec bardziej refleksyjnie.
+
+<!--break-->
+<p>Dziś posłużę się analogiami. Wielu z nas ma swój samochód - często mały, ciasny, ale jest on własny. Zastanówmy się, czy chcielibyśmy żyć w świecie, w którym:
+
+<ul><li>takie samochody miałyby datę przydatności/wsparcia producenta do pierwszej wymiany oleju (czyli jakieś 15 lub 30 tysięcy km), a później użytkownik jest pozostawiany samemu sobie (na rynku brakuje rzetelnych specyfikacji i praktycznie wszystkie oferowane części/materiały eksploatacyjne są tworzone trochę na zasadzie zgadywania), co więcej próbuje się również to ukrócić
+
+<li>w samochodzie możnaby wozić żonę/męża, ale teściowej lub znajomych już nie. Do tego niektórych samochodów nie można odsprzedawać...
+
+<li>do uruchomienia samochodu trzebaby podać dane takie jak imię, nazwisko, cel podróży, numer karty kredytowej (to na wypadek ewentualnego wypadku), ilość i dane pasażerów... czasem trzeba obejrzeć obowiązkowe ostrzeżenia i porady dotyczące ostrożnej jazdy na ekranie nawigacji
+
+<li>zamiast samochodów prywatnych promuje się taksówki opłacane stosunkowo niskim abonamentem miesięcznym, ale w których nie można mieć bagażu ręcznego (wpierw go trzeba "oznaczyć", a później można ewentualnie złożyć dyspozycję odbioru przez was w dowolnym miejscu waszego miasta w czasie kilkunastu minut lub odbioru przez taksówkę przewożącą go do magazynu). Taksówki mają być takie "ekologiczne", "nowoczesne", po prostu cud, miód i muzyka.
+
+<li>promuje się sprzedaż połowy samochodu za cenę całego.
+</ul>
+
+<p>Kojarzy się wam to w czymś ? Tak - to nonsensy znane z IT.
+
+<p>Opcja pierwsza to...smartphony. Najdłuższe wsparcie wydaje się dawać firma Apple, ale ma dosyć głęboką awersję do wsparcia osób trzecich w postaci baterii, akcesoriów, jailbreaku. Z kolei Google nie prowadzi zbyt intensywnych działań, aby producenci jednak dawali jakiekolwiek wsparcie oprogramowania nawet do modeli cały czas sprzedawanych (i stąd zdarzają się w ofercie telefony z...Androidem 2.x, który jest oparty na "troszkę" archaicznych wersjach jądra czy bibliotek). A Microsoft ? Kwintesencją jest niestety fakt podziału na Windows Phone 7.x i 8.x (oraz cyrki z uaktualnieniem z 7.5 do 7.8). 
+
+<p>Opcja druga to...licencje. Mamy licencje na używanie oprogramowania na konkretnych urządzeniach, mamy obowiązkowe systemy operacyjne rozprowadzane w tej samej cenie co wersje OEM ale bez jakiegokolwiek nośnika (pomimo pewnych przepisów prawnych nie oszukujmy się, że kupno notebooka bez Windows lub zwrot Windows jest proste, łatwe, przyjemne i opłacalne albo że wszyscy użytkownicy dostają wsparcie, jak coś się stanie z ich partycją recovery na dysku twardym)
+
+<p>Często i gęsto mamy takie tworzenie oprogramowania, aby było jednorazówką (np. w XBoxie podobno pomimo niezgodności z prawem ma być niemożliwa odsprzedaż)
+
+<p>Opcja trzeba to..."zabezpieczenia" czyli to, że do uruchomienia gry i grania TRZEBA mieć połączenie z internetem (gdzie wymieniane są nie wiadomo jakie dane) albo że trzeba obejrzeć kilka minut wykładów pod tytułem "piractwo jest złe, a donosicielstwo dobre" (celowo stosuję ironię)...I dobrze byłoby, żeby to chociaż nie utrudniało życia, ale...zdarzają się niezgodnosci z różnymi napędami lub nawet instalowanie trojanów (np. Sony)
+
+<p>A do tego - ile mocy obliczeniowej jest wykorzystywane na szyfrowane, kodowane, itp. ? To kosztuje, a jak producent sobie to odbije ? Ano np. ceną gier (<a href=http://www.wykop.pl/link/1414899/polski-oddzial-sony-podnosi-ceny-swoich-gier-do-prawie-300zl/>a już teraz dochodzą do 300 PLN</a>)
+
+<p>Opcja czwarta...chmury. Używajmy ich wszędzie, a nasze życie zmieni się nie do poznania. A marnowanie prądu i miejsca (serwerownie) że o prywatności nie wspomnę ?
+
+<p>I ostatnia sprawa - niewymienne baterie, Windows w cenie OEM (bez płyt instalacyjnych), wypożyczanie oprogramowania a nie jego sprzedawanie (chodzi mi o zapisy licencyjne), obcinanie filmów w wersjach DVD (tu np. należy wymienić TVP i ich wersję "Daleko od szosy" czy "Alternatywy 4"), itd., itd.
+
+<p>Tyle na dziś...Ameryki nie odkryłem, ale może chociaż kilka osób się zastanowi, że technologia nie jest celem samym w sobie...i że nonsensy w IT są gigantyczne. I płacą za to wszyscy... I szkoda, że w sumie wyśmiewa się rozwiązania, które mają szanse zmienić ten porządek rzeczy (żeby nie szukać daleko - jak np. nazwać tytuł: <a href=http://www.spidersweb.pl/2013/02/najwazniejsze-w-tygodniu-czy-ubuntu-w-koncu-zdobedzie-cos-wiecej-niz-nerdow.html>"Najważniejsze w tygodniu: czy Ubuntu w końcu zdobędzie coś więcej, niż nerdów?"</a>). A co Twoim zdaniem jest największym nonsensem IT ?

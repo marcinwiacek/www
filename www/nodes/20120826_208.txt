@@ -1,0 +1,56 @@
+﻿Title:Na szybko - ADSL i tanie (TP-Link W8960N) i droższe (WAG, FritzBox, etc.) routery (2012)
+Author:marcin
+When:26 Aug 2012
+Taxonomy:Polski,Polski artykuł,GSM
+
+<p>Na początku nie było nic, później pojawiły się modemy analogowe z niezapomnianym numerem 0202122, po drodze było SDI, jeszcze później pojawiła się Neostrada będąca dla wielu użytkowników przez lata podstawą do łączenia się z Internetem.
+
+<!--break-->
+<P>Mamy rok 2012, TP/PTK (Orange) dalej świadczy usługę Neostrady, zmuszeni też są do udostępniania jej firmom takim jak PTK (T-Mobile) czy Netia. ADSL jest teraz w wersji 2+ i oferuje do 20 Mb/s, dalej możliwości już kończą (pojawia się standard VDSL, ale to już inna bajka...)
+
+<p>Jako osoba korzystająca z tego typu łącza chciałbym tutaj przestrzeć przed kilkoma rzeczami:
+
+<ul>
+<li>jeśli usługa jest świadczona na linii TP przez operatora trzeciego (tzn. TP udostępnia linię, ale rachunki są płacone w innej firmie), w określonych przypadkach nikt nie będzie chciał poprawiać linii (jeśli ta nie spełnia warunków dla świadczenia prędkości x i konieczna jest tzw. "przebudowa", to taki wniosek musi złożyć ta inna firma, a ta najczęściej nie chce tego robić ze względów finansowych) i UKE też nie chce/nie może nic tutaj pomóc
+<li>ciągle brak IPv6
+<li>widełki synchronizacji - modem synchronizuje się z urządzeniem po stronie centrali z określoną prędkość, w ramach danej prędkości ustawiany jest zakres możliwych prędkości, przyznam się, że z obawą patrzę na oferty Orange "do 10 Mb/s" i "do 20 Mb/s" (brak mi jasnego info, czy prędkość minimalna to tutaj 0 i 0 czy też 0 i 10 Mb/s)
+<li>do ceny usługi trzeba doliczyć minimum 20 PLN (w Orange miesięczny koszt utrzymania łącza z zawieszoną usługą telefoniczną) lub 30 PLN (np. PTC z nr telefonicznym)
+<li>Orange podaje u siebie na stronie możliwość sprawdzenia prędkości - jest ona zależna od tego, czy sprawdzenie jest po numerze czy adresie i ciągle należy traktować ją jako niewiążącą
+</ul>
+
+<p>Modemów jest dużo - ważne (przyszłościowe) żeby działały z ADSL2+ (pozwolą obsłużyć prędkości od 8 Mb/s wzwyż).
+
+<p>A co konkretnie wybrać ?
+
+<p>Do wyboru do koloru. Kiedyś standardem były modemy za złotówkę na USB. Było, minęło...
+
+<p>Przez dłuższy czas używam TP-Linka i ten ma wprawdzie błędy w firmware, tylko router 100 Mb/s, brak IPv6 oraz Wifi bez wyłącznika na obudowie (trzeba wchodzić do panelu, żeby włączyć i wyłączyć), ale działa i szybko się synchronizuje.
+
+<p>Jeśli chcielibyśmy coś z routerem gigabit, to mamy WAGi (jak WAG320n - bez IPv6 i z wewnętrznymi antenami Wifi), NetGeara DGN3500 (przy czym ten ma ogólnie złą opinię), Asusa DSL-N55U (ale tu problem jest w tym, że Internet musi być zawsze z ADSL i samo urządzenie zużywa kilka Watt więcej niż konkurencja), NetGeara DGND3700 (stojący). I to praktycznie tyle...
+
+<p>Chciałbym tu zwrócić na coś co na naszym rynku nie jest zbyt popularne czyli <a href=http://www.avm.de/en/index.php3>rozwiązania firmy AVM</a>. 
+
+<p>Są one różne pozycjonowane, <a href=http://www.avm.de/en/Produkte/FRITZBox/FRITZ_Box_Fon_WLAN_7390/index.php>model topowy (7390)</a> ma chyba wszystko co można sobie zamarzyć czyli router Gigabit, centralka DECT i gniazda do telefonów analogowych (wewnątrz jest moduł do połączeń SIP), modem ADSL2+ i VDSL, <a href=http://www.telix.pl/artykul.php?sid=44751&page=1>Wifi 2,4 i 5 Ghz (niestey średnie z uwagi na wbudowane anteny</a>, co <a href=http://www.chip.pl/testy/akcesoria/routery-wifi-n/avm-fritz-box-fon-wlan-7390-2000-2484>potwierdza też Chip</a>), obsługa IPv6, internet z ADSL/VDSL/LAN/USB.
+
+<p>7390 jest drogi, ale zawsze można wybrać znacznie tańszego okrojonego brata. Z drugiej strony żyjemy w Unii i zawsze można kupić podobne urządzenie za granicą, gdzie jest zwyczajnie znacznie tańsze. Do tego jakby nie patrzeć kompletowanie kilku urządzeń z podobnymi funkcjonalnościami często daje też sporą kwotę, później dochodzi kilka PLN za dodatkowy prąd i trzeba je gdzieś zmieścić. 
+
+<p>No i nie zapominajmy, że jeśli dużo rozmawiamy to przeniesienie rozmów na SIP (rozmowy przez Internet) też daje często bardzo duże oszczędności.
+
+<p>Miałem przez chwilę możliwość bawić się jednym z Fritzów (model tak naprawdę nieistotny) i mogę powiedzieć, że całość może i wydaje się dosyć toporna, zawiera kilka rozwiązań dziwnie wyglądających na naszym rynku (np. kabel telefoniczny podłączamy przez przejściówkę RJ11-RJ45), ma wewnętrzne anteny wifi, długo się uruchamia (2 minuty), ale się sprawdza.
+
+<p>Problematyczny wydaje się wprawdzie firmware:
+
+<p><ul>
+<li>przywieszanie się panelu administracyjnego
+<li>blokowanie pakietów skutkujące problemami z softwarowym VPN na jednym z podłączonych komputerów
+<li>koncepcja "ułatwiania" obsługi skutkująca np. brakiem typowego ustawiania tablic routingu czy brakiem możliwości wpisania spacji na końcu SSID sieci Wifi
+<li>nielogiczność (jest np. sieć Wifi dla "gości" z dostępem tylko do Internetu co doskonale sprzyja bezpieczeństwu, ale koniecznie trzeba też definiować sieć Wifi "wewnętrzną")
+<li>trochę drobnych błędów
+<li>modem ADSL chyba delikatnie gorszy niż w TP-Link (pokazuje gorsze parametry, może to też wina hardwaru, a nie software)
+</ul>
+
+<p>ale ogólnie urządzenia wydają się warte uwagi (powiedzmy, że to co widziałem, oceniłbym na 4) i obecne modele (chyba wszystkie) pozwalają na migrację na IPv6 już teraz (nawet jak operator nie obsługuje, modem używa jednej z bramek już działających w sieci).
+
+<p>Do tego dochodzi 5 lat gwarancji (trochę dziwnej, bo np. nakazującej wyłączanie w trakcie burzy).
+
+<p>PS. Jeżeli chodzi o połączenia SIP, to jest kolejny ciekawy temat, uważałbym jednak na telefony Gigaset Siemensa...codziennie wysyłają do firmy dane o sobie i miejscu, w którym są podłączone. Niby jest to opisane w instrukcji, ale...

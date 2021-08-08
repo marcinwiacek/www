@@ -1,0 +1,82 @@
+﻿Title:Windows i systemy plików. C.D. (2021)
+Author:marcin
+When:4 Apr 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Windows-i-systemy-plikow-CD,114316.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>O ile mnie pamięć nie myli (a raczej nie myli), Windows jeszcze kilka lat temu miał opory przed zakładaniem / zmianą / usuwaniem partycji na pamięciach flash typu karty pamięci i pendrive.</p>
+<!--break-->
+<p><b>Nadal nie lubimy konkurencji?</b></p>
+
+<p>Pomyślałem, że odświeżę sobie wspomnienia. W tym celu do najnowszego stabilnego Win10 Pro podłączyłem pendrive z dwiema partycjami (jedną FAT32, jedną EXT4). Mój system pokazał taki oto komunikat:</p>
+
+<center><img src="sites/default/files/445/1.png" style="width:608px;height:301px;" alt="image" title="image" /></center>
+
+<p>Podobną informację mogłem zobaczyć w Windows Explorerze:</p>
+
+<center><img src="sites/default/files/445/2.png" style="width:608px;height:226px;" alt="image" title="image" /></center>
+
+<p>Przeniosłem się do &quot;Computer Management&quot;, a tam zobaczyłem, że przy mojej partycji EXT4 nie ma oznaczenia dysku (i oprócz usunięcia partycji nie mogę zrobić dosłownie nic):</p>
+
+<center><img src="sites/default/files/445/3.png" style="width:608px;height:378px;" alt="image" title="image" /></center>
+
+<p>A może więc powinienem użyć diskpart? (przypomnę - w Windows S dostępny tylko z &quot;Windows Recovery Environment&quot;) </p>
+
+<center><img src="sites/default/files/445/4.png" style="width:490px;height:405px;" alt="image" title="image" /></center>
+
+<p>Po wybraniu dysku (&quot;select disk 1&quot;) komenda &quot;list partition&quot; poprawnie pokazała partycje, ale &quot;list volume&quot; wskazała tylko dysk D - po F nie było śladu.</p>
+
+<p><b>Lepsza konsola?</b></p>
+
+<p>Dawniej Microsoft miał &quot;fdisk&quot;, obecnie rozwijany &quot;diskpart&quot; ma o wiele więcej funkcjonalności i wspiera chociażby zmianę partycjonowania GPT (to jest to nowoczesne) na MBR (obecnie odchodząca na lamusa ciekawostka) albo odwrotnie.</p>
+
+<p>A że GUI jest jakby z innej epoki, widać to chociażby po bardzo prostym teście. Pod Linuxem utworzyłem sobie partycję UEFI (identyfikator 0xEF) i spróbowałem potem coś z nią zrobić - efekt jak na załączonym obrazku (prawdopodobnie wynika to z tego, że jesteśmy &quot;chronieni&quot; przed &quot;katastrofalnymi&quot; zmianami).</p>
+
+<center><img src="sites/default/files/445/5.png" style="width:608px;height:399px;" alt="image" title="image" /></center>
+
+<p>Czy dzisiaj nie budzi to politowania? Nawet sam wygląd tego menu jakoś nie zmienił się mocno od czasów Windows 2000... i występują w nim</p>
+
+<p><b>Śmieszne (?) bugi GUI</b></p>
+
+<p>Przy próbie usunięcia partycji widać taki piękny komunikat:</p>
+
+<center><img src="sites/default/files/445/6.png" style="width:608px;height:276px;" alt="image" title="image" /></center>
+
+<p>Jakoś pewniej się czuję, gdy w okienku widzę jasno, którą partycję mam usunąć (tak, tak, poniżej widać zrzut z &quot;disks&quot; z nieprofesjonalnego Ubuntu):</p>
+
+<center><img src="sites/default/files/445/7.png" style="width:608px;height:302px;" alt="image" title="image" /></center>
+
+<p>A tak wygląda użycie opcji do przypisywania literek na dysku, gdy ten jest pusty:</p>
+
+<center><img src="sites/default/files/445/8.png" style="width:608px;height:307px;" alt="image" title="image" /></center>
+
+<p>Nie muszę chyba dodawać, że odświeżanie nic nie daje.</p>
+
+<p>A opcja przypisywania literki dysku do partycji nie wyklucza z listy wyboru literki, która jest już użyta (po jej wybraniu nie będziemy mogli oczywiście zamknąć okienka):</p>
+
+<center><img src="sites/default/files/445/9.png" style="width:412px;height:405px;" alt="image" title="image" /></center>
+
+<p>To tylko drobne przykłady - długo możnaby mówić o skalowaniu okienek, funkcjonalności, itp.</p>
+
+<p>Nie śledzę tych wszystkich &quot;niesamowitych&quot; nowości w Windows i nie wiem, kiedy w końcu dostaniemy <a href="https://www.bleepingcomputer.com/news/microsoft/the-windows-10-sun-valley-design-refresh-heres-whats-coming/" target="_blank" rel="noopener" rel="nofollow">&quot;nowoczesny&quot; ekran &quot;Manage Disks and Wizard&quot;</a> (prawdopodobnie w wydaniu 21H2), ale jak na profesjonalny system sprzedany w miliardach kopii i wielu mutacjach wygląda to cieniutko.</p>
+
+<p><b>Bezpieczeńfsto pżede fszystkim</b></p>
+
+<center><img src="sites/default/files/445/10.png" style="width:608px;height:243px;" alt="image" title="image" /></center>
+
+<p>To okienko Windows Explorera jest znane chyba każdemu użytkownikowi Windows - komunikat wygląda groźnie, choć wspomniany folder jest dostępny bez praw admina chociażby z <a href="?q=node/109">darmowego Far Managera</a>.</p>
+
+<p>Pewne &quot;zabezpieczenia&quot;, funkcje i filozofia zaimplementowana w obecnym systemie są zdecydowanie nie z tej epoki. Niedomagania można zaadresować produktami firm trzecich (np. tak w &quot;pełnej&quot; wersji Windows 10 udało mi się rozwiązać <a href="?q=node/376">kwestię katalogu TEMP w pamięci RAM</a>), często trzeba sięgać do konsoli (a i tak nie zawsze to pomaga).</p>
+
+<p><b>Podsumowując</b></p>
+
+<ul><li>Windows jest nadal nie do końca przyjazny dla nieznanych sobie systemów plików</li>
+
+<li>konsola w Windows jest lepsza niż GUI</li>
+
+<li>GUI często śmieszy błędami, ale czasem wywołuje również dreszczyk emocji i niepokoju (sprzyja popełnianiu niechcianych operacji przez użytkownika, których skutki mogą być opłakane)</li></ul>
+
+<p>Pełen profesjonalizm.</p>
+
+<p>I żeby nie było wątpliwości: o ile obecnie znacznie wyżej oceniam dystrybucje linuxowe pod względem funkcjonalności i elastyczności związanej z przechowywaniem plików, to tam problem z uszkadzaniem systemu plików przez plik wymiany w wersji testowej jądra jest karygodny (<a href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.12-Swapfile-Corrupt" target="_blank" rel="noopener" rel="nofollow">dał się we znaki nawet Intelowi w systemach testowych</a>), tak samo karygodna jest <a href="?q=node/405">zła strefa czasowa na partycjach FAT</a>, zły i niewygodny <a href="?q=node/385">sposób ustawiania szyfrowania</a>, a pewne smaczki (np. ustawianie atrybutu &quot;x&quot; dla plików wykonywalnych albo &quot;ukrywanie&quot; plików rozpoczynających się od kropki) niekoniecznie intuicyjne.&#160;&nbsp;</p>

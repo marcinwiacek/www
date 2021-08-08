@@ -1,0 +1,34 @@
+﻿Title:Diabeł tkwi w szczegółach... (2012)
+Author:marcin
+When:12 Nov 2012
+Taxonomy:GSM,Windows,x86,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/11/diabel-tkwi-w-szczegolach.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Siedzę sobie i zastanawiam się nad szczytami geniuszu projektantów pewnych rozwiązań...pomyślałem, że zrobię malutki śliczny ranking podsumowujący swoje niektóre poprzednie wpisy blogowe.
+
+<!--break-->
+<p>Miejsce 1 czyli błyszczące powierzchnie - kiedyś można było kupić wszystko w macie. A teraz ? Większość produktów IT (notebooki, monitory, itp.) oraz sporo sprzętu AGD zawiera wszelkie odmiany gładkich powierzchni, które doskonale prezentują się na półce sklepowej, ale później idealnie denerwują użytkowników, gdyż odbijają wszelkie refleksy świetlne, widać na na nich odbicia palców i (głównie w przypadku czerni) rysy.
+
+<p>Miejsce 2 - ekrany panoramiczne. Dobre do oglądania filmów ale do pracy biurowej niekoniecznie.
+
+<p>Miejsce 3 - zabawa w rozdzielczości. Pamięta ktoś może rozdzielczość 1024x768 ? Wszystko w niej wyglądało bardzo proporcjonalnie i grubo (w systemie Windows oczywiście). Później rozdzielczości się zmieniały, ale możliwości skalowania niezbyt. Na czym stanęło ? W tańszym sprzęcie biznesowym dostępne są takie parametry, że czcionki i elementy są cieńsze i trudniejsze do zobaczenia. Po prostu "stare" opcje skasowane, a nowe wyglądają czasem mocno karykaturalnie.
+
+<p>Miejsce 4 - prymitywizm. Przez długie lata ikonki w systemie Windows potrafiły same zmienić swój wygląd, gdy zmienił się stan powiązanego z nimi obiektu. A teraz ? Wyłączam połączenie sieciowe w Windows 7 i muszę kliknąć "Ośwież". 
+
+Przez lata okienka (a konkretnie gdzieś od 1987) w Windows można było nakładać na siebie. A teraz ? W Windows 8 jakby odchodzi się od tego. 
+
+Przez lata fajnym dodatkiem była możliwość ustawienia sobie efektów dźwiękowych karty dźwiękowej. A teraz ? notebooki zazwyczaj mają tak "skomplikowane" dźwiękówki, że dźwięk czasem brzmi gorzej niż 20 lat temu w starym radiu. 
+
+Oczywiście ktoś może powiedzieć, że mam wybór. Ale czy rzeczywiście ? I dlaczego ktoś decyduje, jak chcę wydać swoje kilka(dziesiąt) PLN ?
+
+<p>Miejsce 5 - diodki. Kolejna denerwująca rzecz czyli dyskoteka, która najczęściej nic nie znaczy. Mianowicie dlaczego w wielu urządzeniach stan "wyłączony" danego urządzenia musi być sygnalizowany jasną diodą ? Nie może to być oznaczenie na dwustanowym przełączniku ? Ilu z nas potrzebne jest info, czy dysk twardy coś robi albo czy potrzebujemy dwóch diód przy kablu ethernetowym ? (tu przy ethernecie ideałem było sygnalizowanie tylko wtedy, gdy podłączyliśmy "nieaktywny" kabel). Podobnie dlaczego zdarzają się komputerki, gdzie jedna dioda jest przy wtyczce zasilania (sygnalizuje obecność prądu), druga (zdublowana) w środku i trzecia sygnalizuje stan włączenia ? Nie wystarczyłaby jedna ?
+
+<p>Miejsce 6 - odłonięte kamery czyli pernamentna inwigilacja Albercik. Oczywiście dla dobra użytkownika, szkoda, że nie ma zwykłych normalnych mechanicznych przysłonek.
+
+<p>Miejsce 7 - pamiętaj chemiku młody wlewaj zawsze kwas do wody...pokolenia młodych ludzi uczyły się tej i innych zasad (w rozumieniu reguł :)). A co się teraz dzieje ? "Nowoczesne" urządzenia przeczą podstawowym regułom logiki - i tak główne wiązki elektryczne potrafią moczyć się non stop w wodzie (patent VW znany np. z Fabii), a z kolei w pewnych notebookach w ogóle nie przewiduje się czyszczenia układu chłodzenia (wiatraków) z kurzu. Po prostu w nowej wspaniałej rzeczywistości jest to niepotrzebne...bez komentarza, dodam tylko dwa słowa: planowane postarzanie.
+
+<p>Miejsce 8 - różne komputery mają 2 wtyczki mini jack (mikrofon i słuchawki). Kiedyś potrafiono poradzić sobie z problemem złego podłączania (wyświetlany był np. komunikat), a teraz ? Cisza....
+
+<p>Miejsce 9 - model C00.00, C00.01, C00.02, C01.01... Przez długi czas gustowała w tym Nokia, teraz zaczyna Samsung, inni producenci też mają dużo "za uszami". Litości - wystarczy kilka modeli, a dobrych. Zarabiać można na oprogramowaniu, upgrade (np. wymiana procesora za x PLN), wymianie rzeczywiście zużytych elementów (np. baterie), itp.
+
+<p>Miejsce 10 - patenty. No właśnie - zastanawiam kiedy ktoś opatentuje oddychanie lub inną podstawową rzecz (na koło zdaje się patent już jest, na zaokrąglone rogi od niedawna, itd., itd.). Bez komentarza - idea, która teoretycznie może i powinna przynieść dużo dobrego, w praktyce została niestety chyba mocno wykoślawiona. Podobnie próba zamknięcia wszystkich użytkowników za naruszenia prawa autorskiego. Jeśli zostaną "zamknięci", to kto będzie "konsumował" ?

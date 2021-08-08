@@ -1,0 +1,20 @@
+﻿Title:Report 2006-12-22
+Author:marcin
+When:22 Dec 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p><b>Evolution or revolution ?</b></p>
+<p>We had this topic visible here few times. I want to return to it again.</p>
+<p>Let's show few things. First Microsoft. Do you remember problems with joining two Windows families (one started with Windows 95 and one with Windows NT) ? We had Windows 2000, which wasn't the best for users, but finally company released Windows XP and it was big success. Now we hear about Vista incompatibilies and part of reports say clear - because of it may users won't be interested in getting new OS for longer time.</p>
+<!--break-->
+<p>And now Nokia. Many (almost all or all...) phones have in fact similiar user menu. But internally are different - let's compare 6210, first DCT4, Series 40 1.0, 2.0 and 3.0. Ugh, few filesystems, calendar formats...</p>
+<p>Why do I write this ? Because I'm thinking now, how should I change API for SMS to join it (partially) with MMS. I explain: in Series 40 3.0 you can have SMS and MMS in one filesystem folder. If application (for example Gammu+ GUI) will spend few minutes (for example in my PC about 2 up to 3 minutes for 800 files) and will read all SMS, it will be good to give to GUI (read during reading SMS) IDs for MMS files too (they can be used, if user will want to read MMS from the same folder). I'm thinking now, how to resolve it correctly... and I hope, that Nokia didn't change anything special in Series 40 3.0 FP1 (but I can't check it because of lack of phone).</p>
+<p>Making changes for handling this (in fact rewriting about 200 or more kb of source) in Gammu could need a lot of time and would break compatibility with existing apps based of Gammu. Because of it I think, that some changes are not good for this project and shouldn't be implemented. And I think, that two projects should coexist and be extended.</p>
+<p>My thinking about revolution (good and wrong sides) was connected with licensing too. Let's see (in point one we had evolution, later I made revolution and went into point two):</p>
+<ol><li>GPL2 or later: Gnokii (+all projects based on Gnokii) -&gt; GPL2: MyGnokii (+all projects based on MyGnokii) -&gt; GPL2: Gammu (+all projects based on Gammu)
+</li><li>In fact available under any license, you want (for free GPL2, for free LGPL, I can give more too, if you will pay): my parts from Gammu -&gt; Gammu+
+</li></ol><p>As you see, we have lost something (we have need of rewriting something, some people will not like this type of source "freedom", etc. etc.), but we have something... Please don't think, that I like writing some things again. And I hope, that Michal and some other people will understand it too and join some day to Gammu+ too (the fasters, the better).</p>
+<p>I hope, that you understand now - without revolution it wasn't possible to achieve some very important things.</p>
+<p>What can you expect now: new test Gammu and probably new test Gammu+ in next week, in January I won't have probably too much time for it because of end of semester (but I hope to release few big things).</p>
+<p>I will end with words from my heart: Merry Christmas for all of you.</p>

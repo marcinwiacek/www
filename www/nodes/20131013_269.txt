@@ -1,0 +1,28 @@
+﻿Title:Mądrości ludowe
+Author:marcin
+When:13 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>To absurd, żeby o życiu za młodu decydować,<br />
+do tego opowieści, jak Polską piłkę miłować,<br />
+o rozmazywaniu szminku i tuszu drobne słowa,<br />
+o portfela i auta czyszczeniu mądrość ludowa,</p>
+<p>przejrzenie dodatków wszelakich w żywności,<br />
+historia legendy wracającej na łono ludzkości,<br />
+o priorytetach przy dzieciach wychowywaniu,<br />
+o alibi przed zabójstwem listonosza szukaniu,</p>
+<!--break-->
+<p>słodka różowa historia męskiej solidarności,<br />
+i przyjacielskiej zwierząt do innych miłości,<br />
+a na deser fakt, który panowie wszyscy znamy,<br />
+że kobiety na wszystkie strony ostro miziamy,</p>
+<p>to tylko strona jest tytułowa tej księgi mądrości,<br />
+gdzie więcej niż w onecie czy wybiórczej gości,<br />
+strona ta jest przez wszystkich mądrych znana,<br />
+demotywatorami przewrotnie czasem nazywana,</p>
+<p>i jak dotąd nikt mnie skutecznie nie przekonał,<br />
+że jakiejś myśli cytatem stamtąd bym nie pokonał,<br />
+a jak ktoś chce więcej się ode mnie dowiedzieć,<br />
+musi mnie znaleźć i w jaką strunę uderzyć wiedzieć </p>

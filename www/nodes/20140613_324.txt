@@ -1,0 +1,16 @@
+﻿Title:pogoda
+Author:marcin
+When:13 Jun 2014
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Ostatni ten piątek trzynastego,<br />
+był zaiste ciekawy dlatego,<br />
+że dwoiste mógł mieć zakończenie,<br />
+przyszło jednak znowu milczenie,</p>
+<p>to wzmacnia wiele obserwacji,<br />
+nie ma chyba chęci reakcji,<br />
+szkoda...<br />
+winna znowu pewnie pogoda...</p>
+<!--break-->

@@ -1,0 +1,14 @@
+﻿Title:Report 2006-11-20
+Author:marcin
+When:20 Nov 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Again, some ''blog'' and some project related things.</p>
+<p>Project:</p>
+<p><b>Gammu 1.08.25</b> - mainly Michal's work, a lot of stuff for SE devices and OBEX, it must be tested &amp; bugs removed now. I hope, that you will give a lot of feedback to Michal. There some other fixes too...</p>
+<p>In Michal's code I had to remove strndup (replaced with malloc + memcpy) and make shorter file names (to 8+3)</p>
+<p><i>Blog:</i></p>
+<!--break-->
+<p><i>I have end some personal things without big success, there were some looses too (I was cheated in some issues). I have some still unfinished things because of it. I won't have Vista from MS too (was given to some betatesters).</i></p>
+<p><i>Good info is, that I started real writing my diploma work. My attack plan is - writing big parts of theory in November and December. I won't make real company work (outside home) then. My main question is: "how cheap is it possible live for ?" ;-). It doesn't affect my GSM work however - there is some progress visible.</i></p>

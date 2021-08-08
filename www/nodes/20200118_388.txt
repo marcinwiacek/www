@@ -1,0 +1,110 @@
+﻿Title:true-fenix and true-android-components on the GitHub (2020)
+Author:marcin
+When:18 Jan 2020
+Taxonomy:English,English blog,Android,TrueFenix,AMD,Linux
+SkipMain:true
+
+<p>I provide here first version of README.md from two GitHub repositories.
+<!--break-->
+<hr>
+<p>This project was somehow started on Thu 16 Jan 2020, for full articles, docs, pictures, diagrams see <a href="http://www.mwiacek.com">mwiacek.com</a></p>
+<p><strong>It's not related to Mozilla anymore, it's just changed fork.</strong></p>
+<p>Created THX to AMD, Ubuntu and hard work.</p>
+<h1>Why it was started</h1>
+<p>Currently the most popular browser on the market is Google Chrome.</p>
+<p>I was sending various bug information there (see <a href="https://bugs.chromium.org/p/chromium/issues/list?can=1&amp;q=mwiacek&amp;sort=-modified">list visible externally</a>), unfortunately some of them were not resolved over months or people had problems with understanding them.</p>
+<p>I have also seen, that some decisions were definitely not-user friendly, for example:</p>
+<ul>
+<li>
+<p><a href="https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/DP9TQszzQLI">Removing Jumbo support</a> - this was done without checking effort on community and natural Earth environment + increased dramatically compilation time (for example from 1h to 4h), additionally tightened compilation with Google servers</p>
+</li>
+<li>
+<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=118639">No implementation for keydown and keyup</a> - it was mentioned by many people, but Google refused for providing it</p>
+</li>
+<li>
+<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962309">Suspending small change in history window helping dramatically in finding site</a> - I proposed it somehow in May 2019, but Google decided to put it for some future</p>
+</li>
+</ul>
+<p>There are many smart SWE (SoftWare Engineers) in Google, but they're many times limited by schedule or doing more important tasks (from company point of view of course).</p>
+<p>During months I was observing, that people doing great work with me are leaving project, also there were very controversial changes with API for external ad blockers, filesystem API and in the Dec 2019 there was seen (another) quality issue - <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1033655">Chrome was ignoring or even loosing some user data</a>.</p>
+<p>It looks for me, that project is so big and popular now, that probably nobody see need of further investing in big team. This scenario looks a little bit like with Internet Explorer.</p>
+<p>Other companies (like Microsoft) are taking code and adding brand, also there are many forks from people, who don't have too big resources.</p>
+<p><strong>This is catastrophic - various updates are not going back to main tree.</strong></p>
+<p>This was bad for me and in January 2020 I started looking into the code of last Chrome alternative, which are Mozilla products. Fundation is known in last years from very controversial steps like changing CEO, dropping some API with Firefox 57, firing technical people and some other things, but I was very positive after seeing Firefox Preview for Android.</p>
+<p>Unfortunately I have realized, that some of my issues or suggestions from Oct or Nov 2019 were not touched for longer time.</p>
+<p>There was visible first red light in my head, when I saw information on GitHub, that team is small and can have resources problem.</p>
+<p><strong>If Mozilla want to attract people, it should never happen!</strong> - mobile team should have resources + instead of few mobile projects there must be one and only one.</p>
+<p>I decided to prepare trivial pieces of code, but they were dropped with information, that team has got own schedule and they know better, what is required.</p>
+<p><strong>There were even doubts with 2-lines long change!</strong></p>
+<p>I was very surprised with reactions + have seen, that even lack of JetStream 2 benchmark support (probably one of more popular) is not problem. I reported this last thing and about after three months it was pointed, that Preview doesn't have very small piece of code (it wasn't added later).</p>
+<p>This was shock for me, because it looks, that there is big gap between manifest and reality (foundation works in really formal corporate way and technical works seems to be replaced by political correctness) + even example browsers from Mozilla have more advanced code in basic area than Preview.</p>
+<p>They have quite good codebase, but it looks for me currently, that Preview is done with changed design guidlines in "a little bit" random way OR this is infitine research project (like Servo).</p>
+<p><strong>You should never build house from top, if you want to have good results!</strong></p>
+<p>In this case: if Preview is replacement for "old" mobile Firefox, it should first concentrate on basic functionalities like working with all sites, then add more basic stuff and then think about bells-and-whistles.</p>
+<h1>What it is for</h1>
+<p>This project is my big research project, where I want to see, if I can prepare better Firefox (faster, smarter, with better interface) than foundation people.</p>
+<p>My short term goals (as of 16 Jan 2020):</p>
+<ol>
+<li>
+<p>preparing repository, where I will have code cleaned from old parts with all elements required for local building (for now this is fork of fenix + android-components, I plan more)</p>
+</li>
+<li>
+<p>making GUI interface extremly logical - cleaning it from very annoying "hey, this is Firefox" reminders, replacing collections with normal bookmarks folders structure, etc. <strong>Believe me, number of issues is so huge, that I was so surprised, that somebody went into this direction.</strong></p>
+</li>
+<li>
+<p>adding missed basic functionalities - support for handling long-running scripts, refresh gesture, local backup/restore for bookmarks, etc.</p>
+</li>
+<li>
+<p>cleaning from all components making it slower - telemetry, etc. (and checking how fast it is after all)</p>
+</li>
+<li>
+<p>removing Mozilla branding and putting app into Google Play</p>
+</li>
+<li>
+<p>making regular sync with most important Firefox Preview functionalities (like support for plugins)</p>
+</li>
+</ol>
+<p>Long term goals (as of 16 Jan 2020):</p>
+<ol>
+<li>
+<p>getting more people able to help</p>
+</li>
+<li>
+<p>working on more deep components and start cleaning mess, which I see already even after short code looking</p>
+</li>
+<li>
+<p>adding Tor capabilities?</p>
+</li>
+<li>
+<p>removing all this political correctness from code and made it making what it should do</p>
+</li>
+</ol>
+<h1>This is crazyness - too much</h1>
+<p>I have heard it many times.</p>
+<p>In 1999 first I made fork of big project Gnokii, then started creating with big success something from scratch (1999-2007, other people are updating it till now).</p>
+<p>Around 2011 I have started playing with Android and created big "Przepisy Drogowe" family, which is used for now.</p>
+<p>In my "main" work I have also done a lot of coding.</p>
+<p>Browser is of course much bigger, but I'm also much older + I need some fun for longer. Maybe my work will need year or years, but I will do definitely everything not to make it worse than Mozilla's code.</p>
+<h1>This is not Google and this is so sloooowwwww</h1>
+<p>Also all "Chrome" like projects are already on the market and there are people working on them. Mozilla foundation is making very strange polital moves, but her code is so clean and good, that can provide some codebase for something. World needs some alternative, let's see, where this will be in half year and year.</p>
+<p>Mozilla was making strange technical moves in last two or three years, let's code and show them what can be done.</p>
+<h1>You're stupid man</h1>
+<p>Maybe, but (will) also get a lot of professional experience with this (and fun)</p>
+<h1>You're laying. Mozilla/Google are great</h1>
+<p>Yes, they're. They changed world and <strong>if in some place I said something incorrect about working there people, please take apologies</strong> (I just wanted to show some aspects of their actions and there was nothing personal in this).</p>
+<p>The problem is, that every revolution eats own children and with both companies I see only one sentence, which is "earning money".</p>
+<p>Steven King said in January 2020 "...I would never consider diversity in matters of art. Only quality. It seems to me that to do otherwise would be wrong."</p>
+<p>I will say - I will never consider other things than quality.</p>
+<p>Maybe my research project will be only research project, but maybe also inspire others for good changes. Good makes good.</p>
+<h1>I want to do something here</h1>
+<p>I don't care if you're politically correct or not, what you're doing in your private life as long as you can contribute and won't do something prohibited by GitHub, law and human conscience (no adverts for drags, no threats, etc.)</p>
+<p>I will not pay for this work, I will not also say anything about making safe Internet, saving world from Google or other bullshit.</p>
+<p>Let's do technical work together without unnecessary words - if it gives profits, it will be accepted.</p>
+<h1>How to start</h1>
+<ol>
+<li>Download true-android-components (into true-android-components folder) and true-fenix (into true-fenix folder)
+<li>import true-android-components into Android Studio and wait for synchronization
+<li>import true-fenix into Android Studio and wait for creating local.properties file
+<li>In the true-fenix\local.properties add line <pre>autoPublish.android-components.dir=../true-android-components</pre>
+<li>make again synchronization for true-fenix (maybe you have close and open project)
+</ol>

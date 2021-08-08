@@ -1,0 +1,73 @@
+﻿Title:Radosna twórczość (2002)
+Author:marcin
+When:04 Sep 2003
+Taxonomy:Polski,Polski artykuł,chip.pl,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach czasopisma <a href="http://www.chip.pl" class="autoremail">Chip Special Linux</a> jesień 2002.</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><b>Niewątpliwie Linux jest systemem z wieloma zaletami. Często może jednak zajść potrzeba skorzystania z "okienek" Microsoftu, ponieważ tylko tam dostępna jest aplikacja z potrzebną nam funkcją. Wielu użytkowników zadaje sobie wtedy pytanie: czy autor nie mógł jej tak napisać, aby była dostępna również dla Linuxa ?</b></p>
+<!--break-->
+
+<p><font color="#1f409f" size="+2" class="dzial">1. Małpowanie pomoże ?<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Można oczywiście w takim momencie skorzystać z jednego z emulatorów (np. z pakietu <b>VMware</b> dostępnego w <b>Chip Special "Hitware dla Linuksa"</b> ). Czasami jest to jednak niewykonalne - przykładowo, nasz komputer jest zbyt wolny albo ma za mało pamięci operacyjnej.</p>
+
+<p align=justify>Drugą możliwością jest skorzystanie z zasobów drugiego komputera (przykładowy pakiet <b>VNC</b> został opisany w <b>Chip Special "Linux Wiosna 2002"</b>).</p>
+
+<p align=justify>Od pewnego czasu można powyższy problem rozwiązać w inny sposób. Niestety sposób ten wymaga, aby o podobnej "przenośności" pamiętać już podczas pisania aplikacji. Dostępne jest bowiem co najmniej kilka bibliotek pozwalających pisać oprogramowanie z interfejsem graficznym dające się skompilować w obu systemach.</p>
+
+<p align=justify>Czy jednak popularne dystrybucje (np. Mandrake 8.2) zawierają już "wszystko", co jest potrzebne do pisania takich przenośnych aplikacji ? Na jakie problemy można się tutaj natknąć ?</p>
+
+<p align=justify>Zaczniemy od przedstawienia&nbsp; dwóch najpopularniejszych i najbardziej chyba znanych bibliotek: QT i GTK+.</p>
+
+<p><font color="#1f409f" size="+2" class="dzial">2. Kosztowny troll...<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Biblioteka QT została stworzona przez firmę Trolltech w wersjach dla Windows, Linuxa, Solarisa, HP-UX oraz innych odmian Unixa. Oparte jest na niej popularne środowisko KDE. Jest to oprogramowanie, za używanie którego do celów komercyjnych należy płacić. W chwili obecnej można go wykorzystywać bezpłatnie jedynie w zastosowaniach edukacyjnych czy też do tworzenia darmowych aplikacji dostępnych z kodem źródłowym (powyższe kwestie reguluje odpowiednia licencja). Od pewnego czasu dzięki naciskowi linuxowej społeczności dostępny jest kod źródłowy tej biblioteki na platformę Linuxa. Dzięki temu nie ma realnej groźby konieczności płacenia za tworzenie/używanie aplikacji stworzonych dla KDE.</p>
+
+<p align=justify>Biblioteka QT używa języka C++. Aby można było tworzyć własne programy z jej udziałem, należy do używanego Linuxa doinstalować pakiety zawierające pakiety nagłówkowe potrzebne przy tworzeniu programów w KDE.</p>
+
+<p align=justify>Do tworzenia aplikacji można użyć bezpłatnej aplikacji QT Designer ułatwiającej takie czynności jak projektowanie okien dialogowych czy tworzenie kodu źródłowego rysującego zaprojektowane okna. Jest ona zresztą dostępna również dla Windows na stronie www firmy. Należy tutaj oczywiście pamiętać, iż firmie tej zależy na zarabianiu na bibliotece QT i wszystkim co jest z nią związane. Z tego powodu darmowe oprogramowanie dla programistów zawiera szereg ograniczeń. Przykładowo: w wersji dla Windows możliwe jest użycie jedynie płatnego kompilatora Microsoft Visual C++ 6 (wersja "pełna" daje wsparcie również m.in. dla Borland C++).</p>
+
+<p align=justify>Dodatkiem do QT Designer jest środowisko KDevelop pozwalające na łatwiejsze zarządzanie całym projektem. Pomimo wielu jego opcji konieczne jest jednak bezpośrednia edycja kodu źródłowego w celu zmian chociażby wyglądu okien dialogowych. Z tego powodu można polecić Czytelnikom przeczytanie artykułu z <b>Chip Special "Linux: zastosowania"</b> z grudnia 1999 zawierającego wstęp do programowania w KDE i programowania obiektowego z wykorzystaniem C++ i QT. Artykuł ten można znaleźć w naszym serwerze FTP.<br></p>
+
+<p align=justify><b>Bezpłatne oprogramowanie firmy Trolltech: </b><i><a href="http://www.trolltech.com/developer/download/index.html">http://www.trolltech.com/developer/download/index.html</a></i></p>
+
+<p><font color="#1f409f" size="+2" class="dzial">3. Mały Gnom...<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Drugą bardzo znaną biblioteką graficzną jest GTK+ stworzona początkowa dla programu GIMP. Jest od ona "od zawsze" bezpłatna i objęta licencją GNU. Aplikacje pisane z jej użyciem dadzą się skompilować również w Windows. Mogą być one pisane w jednym z wielu języków programowania - np. C, C++ czy Perl. Niejako jej "rozszerzeniem" jest środowisko Gnome i część z nim związanych bibliotek (stąd mała uwaga: aplikacja korzystająca z cech charakterystycznych dla Gnome może nie być "przenośna" do Windows).</p>
+
+<p align=justify>Na pewno natomiast środowisko do tworzenia aplikacji Glade udostępnia tutaj znacznie wygodniejszy interfejs niż QT Designer. W łatwy można zaprojektować okna dialogowe (zastosowane zostały tutaj rozwiązania podobne do tych znanych z wielu "graficznych" kompilatorów dla Windows - standardowa paleta z narzędziami, pełna kontrola nad właściwościami każdego obiektu, edycja każdego parametru, itp.). Oprócz tworzenia kodu źródłowego dla przygotowanych okien dialogowych Glade pozwala też oczywiście (podobnie jak KDevelop) na przygotowanie całego projektu z "dodatkami" w rodzaju standardowego pliku <b>makefile</b> czy <b>configure</b>. Jedyną nowością (wynikającą ze specyfiki GTK+) może być jedynie zastosowany system umieszczania w oknach kontrolek i obiektów oraz łączenia z nimi odpowiednich "działań" projektowanego programu (krótki wstęp jest oczywiście w dokumentacji programu).</p>
+
+<p align=justify>Warto tutaj zauważyć, iż w przeciwieństwie do QT aplikacje pisane z użyciem GTK+ (przykładowo: GIMP w wersji dla Windows) mają wygląd czasami bardzo różny od innych programów działających w danej platformie. Dzieje się tak, ponieważ GTK+ nie przetwarza odpowiednich komend dotyczących tworzenia interfejsu graficznego na odpowiedniki z używanego systemu operacyjnego. Dzięki temu np. rozkaz rysowania okienka programu nie jest wykonywany przez funkcję uwzględniającą np. kolory systemowe czy wybraną "skórkę" systemu (np. w Windows XP). Rozwiązane to powoduje niestety, iż oprócz "odmienności" wyglądu aplikacja może być bardziej powolna w działaniu (ponieważ funkcje graficzne nie wykorzystują np. możliwości zainstalowanego akceleratora graficznego).<br></p>
+
+<p align=justify>Jeżeli zdecydujemy się na eksperymenty z GTK+ w wersji dla Windows, należy polecić następującą czynność (na przykładzie Microsoft Visual C++ 6):</p>
+
+<p align=justify>Po pobraniu podstawowych pakietów (są wyszczególnione pod adresem podanym w ramce Internet) w wersji źródłowej, należy rozpakować je do jednego katalogu (np. <b>C:\projects</b>). Zostaną tam utworzone odpowiednie podkatalogi z bibliotekami i plikami nagłówkowymi. Następnie otwieramy środowisko programistyczne, z menu głównego wybieramy <b>Tools</b>, następnie <b>Options</b>. W otwartym okienku przechodzimy do zakładki <b>Directories</b> i dodajemy katalogi z plikami nagłówkowymi i bibliotekami (pliki o rozszerzeniu <b>lib</b>).</p>
+
+<p align=justify>W przypadku, gdy pliki te nie będą już potrzebne, po prostu wystarczy usunąć katalog <b>C:\projects</b> i usunąć informacje o nim w podanym oknie dialogowym.<br></p>
+
+<p align=justify><b>GTK+ dla Win32: </b><i><a href="http://www.gimp.org/%7Etml/gimp/win32/downloads.html">http://www.gimp.org/~tml/gimp/win32/downloads.html</a></i></p>
+
+<p><font color="#1f409f" size="+2" class="dzial">4. I spółka...<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Oprócz opisanych wyżej rozwiązań i pomimo niespełnienia założonego na początku warunku (niedostępność w standardowych dystrybucjach) godnym polecenia rozwiązaniem jest też wykorzystanie możliwości danych programistom przez Borlanda. Udostępnia on bowiem środowisko Kylix pozwalające pisać aplikacje w Pascalu z użyciem komponentów graficznych CLX. Niestety, jeżeli chcemy wykorzystać komponenty CLX również w Windows (w Delphi), musimy użyć płatnej wersji tego środowiska - bezpłatna edycja Personal standardowo ich nie zawiera.<br></p>
+
+<p align=justify><b>Borland</b><i>: <a href="http://www.borland.com/">http://www.borland.com</a></i></p>
+
+<p align=justify>Jest też ostatnia alternatywa - użycie części kodu źródłowego z niektórych aplikacji dostępnych dla obu platform (np. OpenOffice). Niestety, możemy tutaj napotkać zarówno na problemy prawne (licencje), jak również z wyodrębnieniem potrzebnych nam funkcji. Nie możemy mieć pewności, iż w przyszłości po wprowadzeniu poprawek do kodu oryginalnego jego modyfikacja do naszych celów będzie opłacalna.</p>
+
+<p><font color="#1f409f" size="+2" class="dzial">5. Co podać ?<br></font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Wydaje się, że w Linuxie QT i GTK+ są niejako równorzędne. Obie są bowiem rozwijane, dostępne jest również bezpłatne "zaplecze" w postaci lepszych lub gorszych kompilatorów i innych narzędzi. Problem może być natomiast z kompilacją programów pisanych w środowisku Borlanda - wszak dystrybucje Linuxa nie zawierają standardowo odpowiednich potrzebnych do tego plików.</p>
+
+<p align=justify>Inaczej ma się sprawa w Windows. Na pewno Delphi tutaj bardzo zyskuje - aplikacje pisane w Pascalu można również użyć w C++ Builderze posiadającym (w bogatszych wersjach) bibliotekę CLX. Nabycie licencji na jedno z tych środowisk może być bardzo kuszące np. dla firm.</p>
+
+<p align=justify>Bardzo eleganckim rozwiązaniem jest również port biblioteki QT. Nie musimy bowiem specjalnie modyfikować ustawień naszego kompilatora. Również utworzone aplikacje wymagają jedynie dwóch lub trzech dodatkowych bibliotek run-time, które mogą się znajdować w tych samych katalogach, co pliki wykonywalne.</p>
+
+<p align=justify>Natomiast GTK+ jest zdecydowanie na końcu - należy dodać dużo plików do naszego kompilatora, sporo ich również potrzebuje aplikacja (runtime w porcie GTK+ dla Windows jest największy). Konieczne jest również modyfikowanie środowiska Windows, w którym będzie ona działać (najczęściej pliki uruchomieniowe są instalowane do katalogu z Windows powodując jego dodatkowe zwiększenie).</p>
+
+<p align=justify>Wydaje się, iż nie ma tutaj "ogólnie" faworyta. Wygodne może być pisanie aplikacji w Glade i przeniesienie do Win32 (z wprowadzeniem odpowiednich poprawek). Dla zasobnych znakomitym rozwiązaniem będą produkty Borlanda (niestety mało standardowym). Trandycjonalistom można pozostawić bezpośrednie pisanie kodu do QT. Oni zyskają na pewno zyskają uznanie użytkowników swoich aplikacji ich "naturalnym" wyglądem dostosowanym do używanego systemu operacyjnego.</p>

@@ -1,0 +1,24 @@
+﻿Title:Szczęście
+Author:marcin
+When:12 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Można sobie szczęście kurcze narysować,<br />
+można również żyć i się nie przejmować,<br />
+inni bajerują, wyrywają, piją, kupują,<br />
+biorą, palą, migdalą, spiskują, ucztują,</p>
+<p>i choć w życiu ważne są ciągłe pozory,<br />
+i cyc, ubiór, gadżety to istotne walory,<br />
+to najlepsze wśród naszego tu istnienia,<br />
+że nie można mieć pełnego znieczulenia,</p>
+<p>i jedyne co zmienić może samopoczucie,<br />
+to dla drugiego mocne spełnione uczucie,<br />
+ale smutni ludzie żyją marząc o cudzie,<br />
+planu co trzeba nie realizują w ułudzie,</p>
+<!--break-->
+<p>bo wielkimi i mądrymi się ciągle mienią,<br />
+ufają, że porządek i naturę swą zmienią,<br />
+wierzą, że bez wiary i zasad im po drodze,<br />
+oby nie zawiedli się późno czasem srodze...</p>

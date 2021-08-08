@@ -1,0 +1,44 @@
+﻿Title:Uaktualnienia Windows 11 będą mniejsze i lepsze, czyli bzdur dla ciemnego ludu ciąg dalszy (2021)
+Author:marcin
+When:27 June 2021
+Taxonomy:polski,polski blog,salon24.pl,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1146102,uaktualnienia-windows-11-beda-mniejsze-i-lepsze-czyli-bzdur-dla-ciemnego-ludu-ciag-dalszy>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p><a href="?q=node/459">Jak ostatnio pisałem, Microsoft w Windows 11 zwiększył ilość wymaganej przestrzeni dyskowej na 64GB (z 20GB, które podawano dla Windows 10)</a>, i równocześnie ogłosił, że w „nowym” systemie uaktualnienia będą mniejsze nawet o 40%, i w ogóle znacznie bardziej przyjazne dla użytkownika.</p>
+<!--break-->
+<p>Muszę zauważyć tutaj jedną prostą rzecz – nawet jeżeli część z 64GB będzie niewykorzystana (np. pozostawiona na potrzeby tymczasowego rozpakowywania plików), to i tak usłyszeliśmy o wielu nowych komponentach (które też trzeba będzie aktualizować).</p>
+<p>Czy naprawdę można wierzyć, że w sytuacji, gdy dodany będzie nowy kod, i zajmie on do 3x więcej miejsca, to jego aktualizacje będą o 40% mniejsze? Jeśli podzielimy pakiety na mniejsze (i np. część będziemy zmieniać w ramach Feature Pack), to i tak kiedyś będą musiały trafić do użytkownika (jeżeli więc zapomnimy o zmianie metodologii liczenia, czy bardziej dosadnie mówiąc, przestaniemy się bawić w kreatywną księgowość, to liczb nie da się obronić).</p>
+<p>Proszę też pamiętać, że mówimy o sytuacji startowej - z czasem firma na pewno zacznie tworzyć kolejne moduły, które "przypadkiem" też staną się obowiązkowe.<br />
+</p>
+<p>Zastanawia mnie, czy partnerowi biznesowemu mówiącemu rzeczy jak wyżej można w ogóle wierzyć?</p>
+<p>Ja rozumiem, że to marketing, ale... naprawdę jest to z lekka żenujące.</p>
+<p>Kiedyś firma próbowała wszystko dzielić, za to… miała problemy z zależnościami (ich budowanie w starych systemach typu XP trwało wieki). Zmieniano formaty, aż w końcu doszło do tego, że co miesiąc do użytkownika potrafi trafić jeden lub więcej GB.</p>
+<p>Patrzę teraz na Notatnik z Windows – zajmuje na dysku ok. 200 kB i jest „nienowoczesny”, z kolei „nowoczesny” kod potrafi zajmować kilkaset tysięcy razy więcej. Proszę mi odpowiedzieć na pytanie – który z nich potencjalnie ma mniej błędów? Aktualizacje którego będą mniejsze?</p>
+<p>Tak się zastanawiam, że sposób rozwiązania tego prostego problemu przedstawiono już dziesiątki lat temu, i charakteryzują go następujące słowa – modularność i pakietyzacja.</p>
+<p>W systemie Windows na początku oczywiście bardzo dbano o to, żeby chociażby różne biblioteki można było współdzielić. Z czasem jednak stało się to kulą u nogi – słabo napisane aplikacje wymagały konkretnych wersji, więc zaczęto wymyślać kolejne rozwiązania, i ostatecznie doprowadzono do tego, że system zamiast 1,5GB wymaga 64GB na dysku (nawiasem mówiąc, bardzo do tego przyczyniło się wbudowywanie i integrowanie różnych elementów typu Internet Explorer).</p>
+<p>Czy można to dzisiaj podzielić?</p>
+<p>Próby już podejmowano, ale zawsze kończyły się porażką. Magiczne słowo to w tym wypadku kompatybilność – zamiast dajmy na to obudować stare elementy wirtualizacją i konteneryzacją producent wydaje się chcieć, żebyśmy na wszelki wypadek mieli dostęp do dziesiątków starych API i modułów w „głównym” systemie (co jest oczywistą patologią).</p>
+<p>Ale czy można było czegoś innego oczekiwać?</p>
+<p>Nawet sam sposób zaprezentowania Windows 11 jest delikatnie mówiąc kiepski:</p>
+<ul>
+<li>pojawiły się już dwie wersje dotyczące TPM (jedni piszą o wymaganej wersji 1.1, inni o 2.0), a producent sam po cichu aktualizował dokumenty</li>
+<li>aplikacja informująca o spełnianiu wymagań nie potrafiła wskazać, czego brakowało (Microsoft też ją aktualizował)</li>
+<li>Windows 11 dla jednych będzie dostępny w tym roku, dla innych w przyszłym (przypomina to niesławną Vistę)</li>
+<li>mamy oczywiście festiwal zapewnień, że niektóre API będą tylko w nowym systemie</li>
+</ul>
+<p>Czy partnerowi biznesowemu robiącemu takie rzeczy można w ogóle wierzyć?</p>
+<p>Przypomina mi się sytuacja ze Skype (w pewnym momencie były co najmniej trzy aplikacje, które ledwo działały) i wiele innych, z którymi ten producent sobie zupełnie nie radził.</p>
+<p>Prawdziwe rewolucje są po prostu pokazywane w działaniu i nie potrzebują zbyt wielu reklam (chociażby Rosetta) - Windows 11 wygląda jak oddolna inicjatywa któregoś z managerów, który stwierdził „weźmy coś z Windows X, dodajmy kilka zapewnień, Tik-Toka, i jakoś to będzie – rozkręcimy z Intelem rynek PC i będzie jak dawniej”.</p>
+<p>A właśnie, Intel – korporacja nie ma ostatnio zbyt dobrej passy, i zapewnienia, że będzie brać udział w tworzeniu podsystemu androidowego, od razu przypomniały mi prezentacje, w których trzeba było używać chłodziarki przemysłowej (w sytuacji, gdy konkurencja działała na wodzie lub powietrzu i wymagała kilka razy mniej prądu).</p>
+<p>Czy dostaniemy po prostu emulator z Android Studio? I czy ktoś się skusi na aplikacje z Androida na dużym PC?</p>
+<p>Nie wiem, jak inni, ale ja wolę je widzieć na telefonie czy ostatecznie tablecie:</p>
+<ul>
+<li>telefonie jest wodoszczelny</li>
+<li>w telefonie nie muszę zajmować 64GB (tak wiem, że nowy podsystem będzie tylko częścią; niemniej jednak będzie wymagać obecności całego OS)</li>
+<li>nie muszę mieć nic wspólnego z Amazonem, który w implementacji Windows również będzie maczał palce (a który wybitnie ma w nosie dobro Ziemi)</li>
+</ul>
+<p>Ogólnie rzecz mówiąc, w Windows 11 techniczna patologia wydaje się patologię poganiać. Ale czego się dziwić? Amerykański programiści działają w kraju, w którym nawet przywódca wydaje się ledwo wiedzieć, co się wokół niego dzieje… w kraju, gdzie istnieją tak mocne kontrowersje co do wyborów… i wreszcie w kraju, w którym można sobie było tak pięknie „zwiedzić” Kapitol.</p>
+<p>A wracając do uaktualnień – zamiast cyrków z wersją Home, Pro czy S wystarczyło przygotować wersję podstawową i zestaw pakietów typu „Runtime win32, Runtime .Net 1.x, Runtime .Net 2.x, itd.”.</p>
+<p>To potrafi działać całkiem dobrze, co udowodnił Debian, Ubuntu czy RedHat (jeśli nie wystarcza, może być połączone z ideą snapów, a wtedy to już w ogóle bajka). Proszę zauważyć, że w ten sposób można aktualizować aplikacje różnych producentów… szkoda tylko, że tego nigdy nie zobaczymy – po zrobieniu całości „raz a dobrze” pracę w MS musiałyby pewnie stracić setki osób, a nie o to przecież chodzi, nieprawdaż?</p>
+<p>Jak to mówią, „Make America great again”, a podstawą są również etaty w korporacjach.</p>

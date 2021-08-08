@@ -1,0 +1,123 @@
+﻿Title:Katedra i bazar... czyli jak metodyka przełożyła się na skalowanie międzymordzia (2019)
+Author:marcin
+When:10 Oct 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Chrome,Android,Linux,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Katedra-i-bazar-czyli-jak-metodyka-przelozyla-sie-na-skalowanie-miedzymordzia,104255.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Katedrę Notre-Dame w Paryżu budowano 180 lat (obraz i dane podaję za Wikipedią), czy w dzisiejszych czasach możliwe byłoby coś takiego?</p>
+<!--break-->
+
+<center><img src=sites/default/files/369/katedra.jpg style="width:320px;height:405px;" alt="image" title="image" /></center>
+
+<p>Świat przyspieszył w wielu dziedzinach i dzisiaj chciałbym przybliżyć klasykę, czyli jak można tworzyć oprogramowanie <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/" target="_blank" rel="noopener" rel="nofollow">(użyte zostanie odniesienie do bazaru i katedry)</a> i porównać w kilku słowach to co mamy teraz do tego co widziałem w 2010:</p>
+
+<center><img src=sites/default/files/156/ubuntu12.png style="width:494px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Katedra</b></p>
+
+<p>W wielkim skrócie - budujemy długo, a osoby postronne nie mają zbyt wielkiego wpływu na produkt i nie widzą elementów pośrednich (bo nie mają wstępu na plac budowy).</p>
+
+<p>Ten model wykorzystują szczególnie wielkie firmy i my widzimy ciszę, czasem jakieś przecieki (oczywiście zawsze &quot;przypadkowe&quot;), a potem jest wielka premiera i fanfary:</p>
+
+<p><i>Panie i panowie, ladies and gentleman, there is one more thing!</i></p>
+
+<p>Tak się dzieje z produktami, które wymagają dziesiątek prototypów, są zerowane, wchodzą w ślepe uliczki, a my mamy zobaczyć dopiero doskonały efekt końcowy i rzucić się do sklepów.</p>
+
+<p>Ten model był stosowany zwłaszcza w czasie, gdy nie było Internetu:</p>
+
+<p><iframe  type="text/html" width="720" height="405" src="https://www.youtube.com/embed/2B-XwPjn9YY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>...obecnie pewne elementy wydostają się miesiące wcześniej, poza tym projekty wymagają coraz większej ilości inżynierów czy specjalistów z różnych dziedzin i niemożliwe jest utrzymanie tajemnicy...</p>
+
+<p>I tu dochodzimy do problemów katedry - trzeba mieć funduszę na opłacenie zasobów (jak to się ładnie mówi w nonomowie), do tego w różnych przypadkach efekt końcowy widoczny jest dopiero po dłuższym czasie (co oczywiście nie wpływa zbyt dobrze na morale zespołów, które miesiącami są tylko &quot;kosztem&quot;), a efekt końcowy może być porażką (skoro docelowi użytkownicy nie widzą produktu, nie mogą wyrazić o nim opinii i wskazać oczywistych błędów).</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/x7qPAY9JqE4?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Szczególnie ta ostatnia kwestia jest ważna - jeżeli CEO firm są charyzmatyczni i mają wizję i wiedzę, to są w stanie ustawić właściwie projekty, a jeżeli nie, to cóż - ilość wpadek wzrasta dramatycznie: proszę popatrzeć na sytuację Apple po pierwszym odejściu Jobsa, Windows Vista i 8 po odejściu Billa Gatesa, itd.</p>
+
+<p><b>Może więc bazar?</b></p>
+
+<center><img src=sites/default/files/369/bazar.jpg style="width:540px;height:405px;" ></center>
+
+<p>Wyobraźmy sobie miejsce, gdzie wszyscy mogą dodawać swoje idee (zdjęcie za Wikipedią)... a co więcej - produkt powstały z ich połączenia jest widoczny od razu, z jego problemami i zaletami.</p><p>Pomysł niby wspaniały i skutkujący często mnogością opcji (obrazek poniżej pokazuje ile układów polskiej klawiatury miało Ubuntu już w 2010), ale użytkownicy tak stworzonego oprogramowania często muszą mieć wiedzę techniczną po to, aby go uruchomić... albo ustawić pod swoje potrzeby.</p>
+
+<center><img src=sites/default/files/159/2ubuntu3.png style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<p>Jeśli chodzi o tworzenie, to również z tym bywa różnie - zdarzają się projekty, gdzie jakość woła o pomstę do nieba, gdyż za kodowanie zabrali się totalni marzyciele albo ignoranci (przy dobrze wykonanej katedrze chyba częściej zdarza się dobierać ludzi, którzy rzeczywiście mają coś do powiedzenia, gdyż właściciele środków przeznaczonych na ich opłacenie częściej kontrolują stan swojej inwestycji).</p>
+
+<p>W tym momencie dochodzimy do obrazka z początku wpisu - w 2010 na Ubuntu 10.04 tak wyglądało zużycie zasobów wraz ze środowiskiem Ubuntu Netbook Edition 2D opartym na Gnome i uruchomionym Firefox 3.6.3:</p>
+
+<center><img src=sites/default/files/156/ubuntu12.png style="width:494px;height:405px;" alt="image" title="image" /></center>
+
+
+
+<p>Jak się zmieniły popularne środowiska graficzne pingwina, nie muszę chyba mówić - z kronikarskiego obowiązku dodam, że samo Ubuntu bez żadnych &quot;udziwnień&quot; w wersji 64-bit zajmuje na starcie ok. 1 GB RAM (i szczerze mówiąc w 2019 nie chce mi się tego optymalizować).</p>
+
+<p>Do czego dążę?</p>
+
+<p>Oprogramowanie z bazaru może nigdy nie mieć wersji stabilnej, może nie mieć wsparcia, może być kalekie i szczerze mówiąc urągające wszelkim normom... a ja w takim wypadku odpowiam, że &quot;to proszę albo przesiąść się na coś innego, albo zgłosić błąd albo napisać poprawkę&quot;.</p>
+
+<p>Normą jest również istnienie wielu wersji (jakkolwiek tego nie nazwać, chodzi mi tutaj o niezgodne ze sobą forki z kodem powstałe z jednego rodzica), plusem w tym wypadku często jest cena, a ja sam mogę mieć pretensję jedynie sam do siebie, że nie chce mi się szukać alternatywy.</p>
+
+<p>Zgadzam się, że ten model na pewno nie jest tak &quot;sexi&quot; jak katedra - w wielu projektach nie ma takiej kompatybilności wstecznej i użytkownicy reagują wręcz nerwowym &quot;znooowwwu jakaś zmiana&quot; i &quot;coś mi przestało działać&quot;, często i gęsto nie ma efektu &quot;wow&quot;, pamiętajmy jednak, że celem wielu z tych perełek nie jest działanie na milionach maszyn ale np. pokazanie dróg rozwoju, a ich prawdziwą siłą jest praktycznie zawsze dostępność kodu źródłowego.</p>
+
+<p>W takim modelu próbuje się pisać chociaż <a href="https://reactos.org/" target="_blank" rel="noopener" rel="nofollow">ReactOS</a> czy <a href="https://www.haiku-os.org/" target="_blank" rel="noopener" rel="nofollow">Haiku</a> - myślę, że biorąc pod uwagę niezbyt chyba duże środki na ich rozwój (w porównaniu do oryginałów) to należałoby docenić co potrafią na dzień dzisiejszy:</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/g3emfFtYlZY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/z9Pghj_uS14?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>Tak należy traktowac również chociażby Servo Mozilli...</p>
+
+<p><b>I pośrodku</b></p>
+
+<p>A teraz wyobraźmy sobie, że chcemy połączyć te dwie metody (katedrę i bazar).</p>
+
+<p>I tak mamy np. jądro linuksowe, do którego doklejamy kod własnościowy (a po ludzku - najczęściej sterowniki napisane przez firmy, które nie chcą pokazać kodu źródłowego).</p>
+
+<p>Pojawia się problem - skoro na bazarze wszystko szybko się zmienia, to elementy z katedry mogą nie pasować... i nie pasują, co widać na przykładzie jądra linuksowego użytego w Androidzie, a ponieważ nikt tego nie kontroluje, to firmy idą na łatwiznę (często i gęsto producenci poprzestają na publikacji konkretnej zmienionej przez siebie wersji z dodanym binarnym kodem nie troszcząc się o dodanie poprawek do wersji ogólnej).</p>
+
+<p>Wiem, że to zabrzmi naiwnie, ale jedyne co może tutaj pomóc to pisanie maili do Intela, NVidii, AMD, Samsunga czy Qualcomma (czyli mówiąc wprost trucie czterech liter, żeby wymusić zmianę ich strategii działania).</p>
+
+<p>W tym wypadku model katedry ma zaletę - firmy tworzące systemy operacyjne (a więc np. Microsoft czy Apple) mają większą siłę przekonywania i dzięki swojemu zaangażowaniu i podpisanym umowom część sprzętu ma szansę działać lepiej z ich produktami. </p>
+
+<p>Nawiasem mówiąc problem ze zmianą metodyki ma Microsoft - kiedyś używali lekko koślawej katedry (problemy z technologią x86, potem z bezpieczeństwem kodu zwłaszcza przed Windows XP SP2), następnie ją poprawili, teraz podgryzani przez konkurencję próbują iść w stronę częściowego bazaru (Windows 10), ale ograniczeni są patentami, kompatybilnością wsteczną... i brakiem starej kadry inżynierskiej.</p>
+
+<p>Szczerze mówiąc śmieszy mnie również narzekanie na Androida czy Chrome, skoro pisane są również w dużej mierze w modelu katedry (oczywiście są pewne elementy bazaru i można sobie zrobić fork kodu, ale zmiany w głównej gałęzi muszą być zaakceptowane przez nadzorcę jakim najczęściej jest Google).</p>
+
+<p>Podam krótki przykład - zaproponowałem swego czasu, żeby w okienku historii w Chrome na Androidzie można było zwijać konkretne dni (<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962309" target="_blank" rel="noopener" rel="nofollow">błąd 962309</a>), całość zakodowałem (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1608741" target="_blank" rel="noopener" rel="nofollow">CL 1608741</a>) i na dzień dzisiejszy nie wiadomo, czy ktoś się nad tym pochyli i &quot;klepnie&quot;, że jest to zgodne z wolą korporacji.</p>
+
+<p>Zmiana banalna (<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962309#c18" target="_blank" rel="noopener" rel="nofollow">video</a>) i nie piszę tego, żeby się pochwalić, tylko chcę zwrócić uwagę na fakt, że metoda katedry ma swoje zalety, ale również ogromne wady.</p>
+
+<p>Pójdźmy dalej:</p>
+
+<center><img src=sites/default/files/179/perm1.png style="width:243px;height:405px;" alt="image" title="image" /></center>
+
+<p>To jest zrzut ekranu z 2011 pokazujący uprawnienia jednej z aplikacji pobieranych z Google Play (<a href="?q=node/179" target="_blank" rel="noopener" rel="nofollow">artykuł był tutaj</a>) - nadzorca Androida, jakim jest Google, zdecydował o takim a nie innym podziale uprawnień i w modelu katedry narzucił go milionom użytkowników (byłoby to znacznie trudniej zrobić przy bazarze).</p>
+
+<p>Jak to się skończyło, nie muszę chyba mówić (z drugiej strony Apple narzucił użytkownikom pewne określone sposoby &quot;wyłączania&quot; Wi-Fi czy Bluetooth, co dokładnie tak samo pokazało wadę i zaletę tego modelu)</p>
+
+<p><b>I moje pięć groszy</b></p>
+
+<p><b>W dzisiejszych czasach ludzie chcą mieć wszystko za darmo (najlepiej, żeby jeszcze samo przyszło i wszystko zrobiło).</b></p>
+
+<p><i>To se ne da pane Havranek!</i></p>
+
+<p><b>Rozwój wymaga pracy, konkretnej i zero-jedynkowej (coś jest zrobione albo dobrze albo źle) i praca ta jest przeniesiona na producenta softu (katedra) albo na użytkowników (bazar).</b></p>
+
+<p>To nie jest tak, że przyjdą małe elektroniczne krasnoludki i zrobią Linuksa na desktopy - system Windows ma elementy sięgające lat osiemdziesiątych poprzedniego wieku, a te wszystkie Gnomy i KDE niekoniecznie (poza tym wszystko ostatecznie sprowadza się do tego ilu fachowców nad nimi pracowało, a z tym bywa naprawdę różnie). </p>
+
+<p>Na pewno oba modele rozwoju oprogramowania są niezbędne i jeżeli jednego brakuje przy tworzeniu jakieś klasy programów, to pojawią się problemy dla nas zwykłych użytkowników - wyobraźmy sobie, że Firefox się kończy i wszystkie przeglądarki opierają się na Chromie albo wyobraźmy sobie, że na rynku jest tylko iOS.</p>
+
+<p>Tego chyba nie chcemy, a przedsmak mamy np. w AppStore i blokadzie używania innych enginów HTML niż jedyny słuszny.</p>
+
+<p><b>Bez linuksa, bazaru, open-source, GNU, ale również iOS, Windows, katedry i tysiąca innych rozwiązań nie mielibyśmy dziś postępu... i konkurencji</b> i na przykład Mac OS mógłby wyglądać tak:</p>
+
+<p><iframe type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4a4vCzKMgLk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p><b>Właśnie dlatego cieszmy się, że jest okropny Windows i niedobry Linux, niefajny Android i paskudny iOS</b>, bo tylko dzięki temu nasze życie jest inne niż dziesięć czy dwadzieścia lat temu (a na pewno nie jest takie nudne) i tylko dzięki temu firmy mogą oferować nowe rozwiązania (np. konkretne urządzenia z odpowiednio skrojonym firmware) i dostajemy odpowiedniki software, który został porzucony przez producenta (np. <a href="http://www.freedos.org/" target="_blank" rel="noopener" rel="nofollow">FreeDOS</a> może zastąpić MS-DOS, <a href="https://www.freepascal.org/" target="_blank" rel="noopener" rel="nofollow">free pascal</a> Turbo-Pascala, itp.)</p>
+
+<p>PS. Pisanie tekstów typu <a href="https://www.dobreprogramy.pl/Mandzaro-chce-zaro-Zaawansowane-techniki-skalowania-interfejsu-uzytkownika,Blog,104241.html" target="_blank" rel="noopener">Mandźaro chcę zaro </a>uważam za klasyczny klickbait z uwagi na formę i brak informacji jak poradzić sobie z opisanym tam problemem, dodatkowo przepraszam za uproszczenia, które wynikły z mojej dostępności i formy blogowej. </p>
+
+<p>PS2. Pisałem już <a href="?q=node/242" target="_blank" rel="noopener" rel="nofollow">o katedrze i bazarze w 2013</a>, nie uprawiam również ewangelizacji i wskazywałem zalety i BOLĄCZKI Ubuntu już w 2010 (np. <a href="?q=node/159" target="_blank" rel="noopener" rel="nofollow">tutaj</a> i <a href="?q=node/156" target="_blank" rel="noopener" rel="nofollow">tutaj</a>), miałem podobną serię artykułów o Windows (np. <a href="?q=taxonomy/term/Windows" target="_blank" rel="noopener" rel="nofollow">tutaj</a>). &nbsp;</p>

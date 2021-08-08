@@ -1,0 +1,128 @@
+﻿Title:FAQ - kable do Nokii (2000)
+Author:marcin
+When:02 Oct 2000
+Taxonomy:Polski,GSM,Polski artykuł
+
+<p align="justify"><b><font color="#FF6666">Pamiętaj, że ja ani osoby tu wymienione nie ponoszą żadnej odpowiedzialności za szkody wynikłe z użycia zawartych tu wiadomości (wykorzystujesz je na własną odpowiedzialność) !</font></b></p>
+<p></p><ol><li><a href="#1"><b>Jakie są rodzaje kabli do telefonów Nokia ?</b></a></li>
+<li><a href="#2"><b>Czy się różnią ?</b></a></li>
+<li><a href="#3"><b>Jak je rozpoznać ?</b></a></li>
+<li><a href="#4"><b>Gdzie mogę znaleźć ich schematy ?</b></a></li>
+<li><a href="#5"><b>Czy mogę przerobić kabel FBUS na MBUS ?</b></a></li>
+<!--break-->
+<li><a href="#6"><b>Gdzie i za ile mogę kupić gotowy kabel ?</b></a></li>
+<li><a href="#7"><b>Gdzie znajdę protokoły transmisji ?</b></a></li>
+<li><a href="#8"><b>Podczas próby połączenia z telefonem otrzymuję komunikaty "Zła suma kontrolna" ("Bad checksum") albo podobne...</b></a></li>
+<li><a href="#9"><b>Kabel USB ?</b></a></li>
+</ol><hr size="2" noshade="noshade" width="60%" align="center" style="color: #004080" /><p><a name="1" id="1"></a><font color="#1F409F" size="+2" class="dzial">Jakie są rodzaje kabli do telefonów Nokia ?</font><br /></p>
+<hr size="3" align="left" noshade="noshade" width="300" color="#60C0A0" /><p align="justify">Są dwa ich rodzaje: <b>FBUS</b> i <b>M2BUS</b> (zwany potocznie <b>MBUS</b>).</p>
+<p align="justify">W sprzedaży dostępne są także kable <b>uniwersalne</b> obsługujące oba wymienione standardy.</p>
+<p align="justify">Można się spotkać z kablem DLR-3, który dodatkowo pozwala telefonom z wbudowaną obsługą komend AT korzystać z nich (niemniej jednak, jeżeli użyjemy go z telefonem bez AT, aby móc się z nim porozumieć w trybie FBUS/MBUS, należy go inaczej inicjować - współpraca jest możliwa, a zmiana dotyczy użytego oprogramowania).</p>
+<p align="justify">Oczywiście, kable te mogą inne wtyczki - przykładowo, kabel do Nokii 5110, 3210, 3310 jest taki sam, ale każdy model wymaga innego podłączenia...</p>
+<p align="justify">Jeżeli interesują Cię oznaczenia oryginalnych kabli do różnych modeli telefonów, zajrzyj na stronę <a href="http://www.fkn.pl/varia/kable.html">http://www.fkn.pl/varia/kable.html</a>.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="2" id="2"></a><font color="#1F409F" size="+2" class="dzial">2. Czy się różnią ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Inne są styki, którymi przesyłane są sygnały do (z) telefonu: w kablu FBUS są one oddzielne (na schematach oznaczane jako RX i TX) i m.in. dzięki temu jest on szybszy niż MBUS (tam cała transmisja jest prowadzona na jednym styku i dane nie będą być przesyłane w jednym momencie (równocześnie) do i z telefonu).</p>
+<p align="justify">Ta drobna w sumie modyfikacja powoduje, że używając różnych kabli można robić różne rzeczy (przykładowo):</p>
+<ul><li><b>FBUS</b>:
+<p></p><ul><li>
+<div align="justify">używać pakietu <a href="http://www.fkn.pl/faqs/ncdsfaq.html">Nokia Cellular Data Suite</a></div>
+</li>
+<li>
+<div align="justify">włączyć <a href="../netmon/faq_net1.htm">monitor sieci</a> (przy pomocy programu PC-Locals wersja 1.3 - opisy są <a href="http://www.netcraft.com.pl/~gsm/">tutaj</a> albo <a href="http://friko.onet.pl/wa/marekba/monitor.htm">tutaj</a>)</div>
+</li>
+<li>
+<div align="justify">wykorzystywać programy korzystające ze sterowników <a href="http://www.fkn.pl/faqs/ncdsfaq.html">Nokia Cellular Data Suite</a> (np. <a href="http://www.kessler-design.com/wireless/">Group Graphic Editor, Operator Logo Uploader</a>, <a href="http://www.dlc.fi/~sariak/">Logo 6110</a>, <a href="http://www.nobbi.com/">N. Hüttischa</a> - krótki opis ostatniego z nich jest <a href="../netmon/faq_net6.htm#11">tutaj</a>)</div>
+</li>
+<li>
+<div align="justify">używać programów <a href="http://www.logomanager.co.uk/">Logo Manager</a>, <a href="http://memsu1.iam.ntu.edu.tw/~jrywu/">Logo Express</a> (szerzej piszę o nich w <a href="?q=node/92">FAQ o logach</a>), Nokia PC Composer, Nokia PC Calendar, Nokring, Tone6110, SMS Gateway, napisanego przez <a href="http://www.aschmidt.de/">A. Schmidta</a> (<a href="../netmon/faq_net6.htm#11">tutaj</a> są bardziej szczegółowe informacje na jego temat), <a href="http://www.gnokii.org">gnokii</a>.</div>
+</li>
+</ul><p>
+</p></li>
+<li>
+<b>MBUS</b>:
+<p></p><ul><li>
+<div align="justify">używać programów korzystających ze sterowników DESKEY (oprogramowania serwisowego albo programów do usuwania simlocków - np. Winlocka, Raluki, Winopen)</div>
+</li>
+<li>
+<div align="justify">używać programów Nokia Startup Logo Editor i Nokia Phone Info</div>
+</li>
+<li>
+<div align="justify">włączyć <a href="../netmon/faq_net1.htm">monitor sieci</a> (np. programem NetMonitor, <a href="http://www.wildies.de/nokia/index.html">Nokia Wrench</a> albo PC-Locals wersja 1.3 (opisy są <a href="http://www.netcraft.com.pl/~gsm/">tutaj</a> albo <a href="http://friko.onet.pl/wa/marekba/monitor.htm">tutaj</a>))</div>
+</li>
+<li>
+<div align="justify">używać <a href="http://www.logomanager.co.uk/">Logo Managera</a></div>
+</li>
+</ul></li>
+</ul><p align="justify">Kable <b>uniwersalne</b> pozwalają natomiast na wszystko, co wymieniłem wyżej (tryb pracy wybierasz mikroprzełącznikiem albo ustawia się on samoczynnie).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="3" id="3"></a><font color="#1F409F" size="+2" class="dzial">3. Jak je rozpoznać ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Trzeba po prostu skorzystać z programów, które wymagają kabli określonego rodzaju: PC-Locals wersja 1.3 albo <a href="http://www.logomanager.co.uk/">Logo Manager</a> (pozwalają ustawić typ kabla), ewentualnie z programów używających sterowników DESKEY (pokażą błąd "MTI FAILED (5)", gdy telefon podłączysz kablem <b>FBUS</b>).</p>
+<p align="justify">Jeżeli masz kabel uniwersalny, prawie na pewno (nie zawsze !) będzie on zawierał mały przełącznik.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="4" id="4"></a><font color="#1F409F" size="+2" class="dzial">4. Gdzie mogę znaleźć ich schematy ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Są dostępne w wielu miejscach w Internecie... Niestety, część z nich jest błędna...</p>
+<p align="justify">Ja poleciłbym gorąco następujące adresy:</p>
+<ul><li>
+<div align="justify"><a href="http://www.fkn.pl/varia/kable.html">http://www.fkn.pl/varia/kable.html</a> - bardzo dobra strona po polsku, na której oprócz schematów samych kabli znajdziesz tam m.in. schematy złącz w różnych telefonach.</div>
+</li>
+<li>
+<div align="justify">"<a href="http://www.tele-servizi.com/nokiasecrets/nokia/nokia_main.html">The Nokia page</a>" - następne ciekawe schematy</div>
+</li>
+<li>
+<div align="justify"><a href="http://members.xoom.com/dlrcable/Home.htm">http://members.xoom.com/dlrcable/Home.htm</a> lub <a href="http://republika.pl/vosper/">http://republika.pl/vosper/</a> - schemat kabla DLR-3</div>
+</li>
+<li>
+<div align="justify"><a href="http://www.hut.fi/~ptuomine/nokia/cables/">http://www.hut.fi/~ptuomine/nokia/cables/</a> - potężne źródło wiedzy i dużo schematów. Witryna po angielsku.</div>
+</li>
+</ul><p align="justify">Jeżeli chodzi o model 3210, ostatnio przeczytałem uwagę Łukasza Kupniewskiego, iż rozstaw pinów jest taki sam jak rozstaw pinów od kabelka CD-AUDIO. Słyszałem, iż do zrobienia wtyczki do tego telefonu można również użyć wtyczki zasilania od napędu FDD.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="5" id="5"></a><font color="#1F409F" size="+2" class="dzial">5. Czy mogę przerobić kabel FBUS na MBUS ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Oczywiście ! Przykład takiej przeróbki (dla Nokii 5110 i telefonów zgodnych z nią) został przedstawiony na poniższym rysunku (rysunek i pomysł pochodzi z "<a href="http://www.tele-servizi.com/nokiasecrets/nokia/nokia_main.html">The Nokia page</a>"). Cała modyfikacja polega na dolutowaniu diody (czerwone linie oznaczają modyfikację) 4148 pomiędzy liniami RX i TX kabla FBUS...</p>
+<p></p><center><img src="sites/default/files/88/f2mbus.gif" width="348" height="143" alt="Schemat przeróbki" /></center>
+<p align="justify">Dla innych Nokii musisz spojrzeć, gdzie mają sygnały RX i TX kabla FBUS (oraz gdzie jest prowadzony sygnał kabla MBUS) w złączu krawędziowym i zmienić odpowiednie piny z powyższego rysunku. I to wszystko...</p>
+<p align="justify">Otrzymałem w tej sprawie list od <a href="mailto:pawluk@zg.onet.pl">Krzysztofa Pawluka</a> list w tej sprawie. Pisał on, iż u niego powyższa przeróbka nie działa i zaproponował inną (jeżeli masz jakieś pytania w jej sprawie, skieruj je bezpośrednio do niego):</p>
+<p></p><center><img src="sites/default/files/88/f2mbus2.gif" width="345" height="122" alt="Schemat przeróbki autorstwa Krzysztofa Pawluka" /></center> 
+<p align="justify">Napisał on również: "Bardzo często porty COM w komputerze dają za niskie napięcie, (...) jest to przyczyna częstych niepowodzeń, a można dołożyć tylko zasilacz 5V i jest OK.".</p>
+<p align="justify">Możesz także odwiedzić stronę <a href="http://www.fkn.pl/varia/kable.html">http://www.fkn.pl/varia/kable.html</a> i tam również znajdziesz schemat odpowiedniej przeróbki (z przełącznikiem).</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="6" id="6"></a><font color="#1F409F" size="+2" class="dzial">6. Gdzie i za ile mogę kupić gotowy kabel ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>
+<div align="justify">za cenę ok. 630 zł dostaniesz kabel <b>uniwersalny</b> wraz z oryginalnym <a href="http://www.fkn.pl/faqs/ncdsfaq.html">Nokia Cellular Data Suite</a> (w salonach autoryzowanych dealerów GSM)</div>
+</li>
+<li>
+<div align="justify">od 50 do 100 zł są one dostępne (różne rodzaje) u ludzi ogłaszających na listach dyskusyjnych związanych z GSM (np. <a href="news:pl.misc.telefonia.gsm.gielda">pl.misc.telefonia.gsm.gielda</a> albo <a href="news:pl.misc.telefonia.gsm">pl.misc.telefonia.gsm</a>). Poniżej podaję ich przykładowe adresy (możesz też tam często kupić same wtyczki do telefonów):</div>
+<p></p><ol><li><a href="http://www.strefagsm.pl">http://www.strefagsm.pl</a></li>
+<li><a href="http://www.telefon.gsm.pl/sklep">www.telefon.gsm.pl/sklep </a>
+</li><li><a href="http://www.compunet.com.pl/gsm/">http://www.compunet.com.pl/gsm/</a></li>
+<li><a href="http://www.ibt.com.pl/~gsm">http://www.ibt.com.pl/~gsm</a></li>
+<li><a href="http://www.kabelki.w.pl">http://www.kabelki.w.pl</a></li>
+<li><a href="http://www.falkorp.pl/">http://www.falkorp.pl/</a></li>
+<li><a href="http://friko.onet.pl/ld/oskar1">http://friko.onet.pl/ld/oskar1</a></li>
+<li><a href="http://www.promail.pl/~ncds/">http://www.promail.pl/~ncds/</a></li>
+<li><a href="http://www.oho.com.pl/marcom/kablegsm.html">http://www.oho.com.pl/marcom/kablegsm.html</a></li>
+<li><a href="http://www.carlab.com/cables/">http://www.carlab.com/cables/</a></li>
+<li><a href="http://www.teedex.com.pl">http://www.teedex.com.pl</a></li>
+<li><a href="http://www.codserv.csl.pl/">http://www.codserv.csl.pl/</a></li>
+<li><a href="http://free.polbox.pl/m/mazurek9/">http://free.polbox.pl/m/mazurek9/</a></li>
+<li><a href="http://www.kki.net.pl/~kabelek/">http://www.kki.net.pl/~kabelek/</a></li>
+<li><a href="http://www.gsmparts.prv.pl">http://www.gsmparts.prv.pl</a>
+</li><li><a href="http://gsmzone.prv.pl/">http://gsmzone.prv.pl/</a></li>
+<li><a href="http://www.datex.pl">http://www.datex.pl</a></li>
+<li><a href="http://www.netart.com.pl/rafal/gsm/main.htm">http://www.netart.com.pl/rafal/gsm/main.htm</a></li>
+<li><a href="http://www.promaco.pl/">http://www.promaco.pl/</a></li>
+<li><a href="http://www.kki.net.pl/~hucker">http://www.kki.net.pl/~hucker</a></li>
+</ol></li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="7" id="7"></a><font color="#1F409F" size="+2" class="dzial">7. Gdzie znajdę protokoły transmisji ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p><a href="../netmon/faq_net6.htm#25">Tutaj</a> jest lista stron...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="8" id="8"></a><font color="#1F409F" size="+2" class="dzial">8. Podczas próby połączenia z telefonem otrzymuję komunikaty "Zła suma kontrolna" ("Bad checksum") albo podobne...</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Każdy pakiet wysyłany do/z telefonu zawiera sumę kontrolną. Jeżeli Twój program pokazuje podobne błędy oznacza to, że suma wyliczona przez niego dla otrzymanego pakietu nie zgadza się z sumą kontrolną wysłaną przez telefon. Innymi słowy, komputer nie dostaje tego, co wysyła telefon (albo odwrotnie). Jakie mogą być przyczyny ?</p>
+<p></p><ul><li>niesprawny układ scalony w kablu (działa błędnie)</li>
+<li>brak gdzieś styku (zimny lut ?)</li>
+</ul><p align="justify">Ja osobiście widziałem podobne komunikaty również przy używaniu <a href="http://www.logomanager.co.uk/">Logo Managera</a> z kablem MBUS. Zresetowanie telefonu (komendą z menu programu) prawie zawsze pomagało...</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="9" id="9"></a><font color="#1F409F" size="+2" class="dzial">9. Kabel USB ?</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p align="justify">Co najwyżej możesz szukać konwertera COM-&gt;USB i tam podłączyć "normalny" kabel... Nie ma czegoś takiego jak kable USB.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br /></p>

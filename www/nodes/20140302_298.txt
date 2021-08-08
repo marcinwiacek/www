@@ -1,0 +1,20 @@
+﻿Title:Misja
+Author:marcin
+When:02 Mar 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Serial o Anny talencie niebanalnym,<br />
+dziś piękny film o państwie totalitarnym,<br />
+gdzie dzieci łamią zepsute serca twarde,<br />
+kochają, wspierają, nie są za grosz harde,</p>
+<p>jeśli taka jest misja, to ja jestem za,<br />
+dobrze, że nie wyszła komercji cenzura,<br />
+oby dawało to niektórym do myślenia,<br />
+by zaczęli w końcu bronić istnienia,</p>
+<p>szczególnie że teraz niepewny czas gości<br />
+i mogą cierpieć tu i tam ludzie prości,<br />
+ale nie należy się też na zapas smucić,<br />
+bo wszystko ku dobremu może się zwrócić....</p>
+<!--break-->

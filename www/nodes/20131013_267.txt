@@ -1,0 +1,28 @@
+﻿Title:Intuicja
+Author:marcin
+When:13 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>O drugiej w łóżku swym się budzi,<br />
+cisza przed burzą, teraz się nudzi,<br />
+zbiera siły na kolejne dni lub noce,<br />
+myśli, analizuje swe czyny głęboce,</p>
+<p>Czuje, że natura się nie pomyliła,<br />
+że intuicja, flirt, przeczucia to siła,<br />
+bez błędu odsieje plewy od istnienia,<br />
+które da tę siłę i moc da ramienia,</p>
+<p>Bo choć żyją istoty piękne okrutnie,<br />
+wiele wysysa od razu krew jak trutnie,<br />
+w sumie nie mają nic do zaoferowania,<br />
+prócz kształtów oraz rozczarowania,</p>
+<!--break-->
+<p>Tak więc warto ufać, gdy zła ocena,<br />
+nie żałować, gdy nie opada szczena,<br />
+bo i tak później są w życiu problemy,<br />
+i tak wagon odczepić nieraz chcemy,</p>
+<p>A najciekawsze jest wśród istnienia,<br />
+iż rozkosz cała od szamba puszczenia,<br />
+tak blisko jest nam wszystkim dana,<br />
+na całe kilka centymentów...</p>

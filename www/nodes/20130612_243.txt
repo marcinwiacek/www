@@ -1,0 +1,9 @@
+﻿Title:What is HTML5 ? (2013)
+Author:marcin
+When:12 Jun 2013
+Taxonomy:English blog,English,jQuery,jQuery Mobile,drogowe,Tizen,Firefox OS
+
+<p><a href="http://www.w3.org/community/webed/wiki/HTML/Specifications">http://www.w3.org/community/webed/wiki/HTML/Specifications</a> shows, that current version of HTML is 4.01 and version 5 is in draft only...but in the same time everybody is proving compliance with it. Big fun...that we're all using beta version of something and we're happy from it :)</p>
+<!--break-->
+<p>In mean time I have resolved some jQuery/jQuery Mobile issues and currently you can search inside <a href="?q=przepisy_drogowe">Przepisy Drogowe</a> and make various things.... there are still some issues with it, but they're connected with HTML (HTML5 ?) problems - you don't have frameset, iframe doesn't allow to use % (I have used it, but....), you can't easy scroll to some place before page is displayed, etc.</p>
+<p>Anyway, new www, Tizen and Firefox OS versions for <a href="?q=przepisy_drogowe">Przepisy Drogowe</a> were released - some immediately (www), some are waiting for certification second week (Firefox OS), some will be probably displayed, when shop will start (Tizen).</p>

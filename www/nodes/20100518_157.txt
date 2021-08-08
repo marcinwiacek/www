@@ -1,0 +1,187 @@
+﻿Title:Linux - rozwiązanie dla ludzi ? (2010, wersja 1.01)
+Author:marcin
+When:18 May 2010
+Taxonomy:Polski,Linux,Polski artykuł,x86,OS
+
+<p align=justify>Po opublikowaniu mojego tekstu <a href=?q=node/156>Ubuntu 10.04 - Linux dla ludzi ?</a> w portalu <a href=http://www.benchmark.pl>benchmark.pl</a> okazało się, że pewne fragmenty nie były zbyt jasne dla Czytelników, wskazana została również ogólność mojego tekstu (która nawiasem mówiąc wydawała się mi się oczywista przy formacie MINI-recenzji).</p>
+
+<p align=justify>Z uwagi na to wszystko postanowiłem napisać trochę więcej na temat Unixa i Linuxa oraz zastanowić się na przykładzie wybranych tematów, na ile to ostatnie rozwiązanie jest dla przeciętnego użytkownika... Będzie też kilka słów o Windows i nie tylko...</p>
+<!--teaser-->
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1"><b>Znacznym</b> rozszerzeniem poniższego tekstu jest artykuł <a href=?q=node/159>Ubuntu 10.04 i Mint 9 - rozwiązania dla ludzi ?</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><a name=gora></a><table style="border-collapse:separate;" cellspacing="0" cellpadding="2" border="0" align="right" width=300>
+
+<tbody><tr><td>&nbsp;</td><td bgcolor="#e6eaee"><strong>Spis treści</strong></td></tr><tr><td>&nbsp;</td><td bgcolor="#f0f4f9"><ol><li><a href="#1">Dawno, dawno temu...</a><li><a href="#2">Podstawą są jądra</a><li><a href="#3">Wszystko jest plikiem</a><li><a href="#4">Konsola</a><li><a href="#5">Środowisko graficzne</a><li><a href="#6">Grafika 3D</a><li><a href="#7">DOS i Linux i Windows w jednym stali domku...</a><li><a href="#8">Bezpieczeństwo</a><li><a href="#9">Podsumowanie</a></ol></td></tr></tbody></table>
+
+<p align=justify>Po opublikowaniu mojego tekstu <a href=?q=node/156>Ubuntu 10.04 - Linux dla ludzi ?</a> w portalu <a href=http://www.benchmark.pl>benchmark.pl</a> okazało się, że pewne fragmenty nie były zbyt jasne dla Czytelników, wskazana została również ogólność mojego tekstu (która nawiasem mówiąc wydawała się mi się oczywista przy formacie MINI-recenzji).</p>
+
+<p align=justify>Z uwagi na to wszystko postanowiłem napisać trochę więcej na temat Unixa i Linuxa oraz zastanowić się na przykładzie wybranych tematów, na ile to ostatnie rozwiązanie jest dla przeciętnego użytkownika... Będzie też kilka słów o Windows i nie tylko...</p>
+
+<h1><a name=1></a>Dawno, dawno temu...</h1>
+
+<p align=justify>Wszystko zaczęło się od Multicsa działającego na komputerach GE-645. Został on stworzony przez MIT (Massachusetts Institute of Technology), AT&T Bell Labs i General Electric w latach 60 XX wieku (a więc w czasie, gdy Ameryka jest uwikłana w wojnę w Wietnamie, trwa wyścig o lądowanie na Księżycu, korporacje takie jak Intel i AMD jeszcze nie istnieją). Był rewolucyjny, ale sprawiał różne problemy.</p>
+
+<p align=justify>Z tego powodu w AT&T Bell Labs zapada decyzja o stworzeniu czegoś nowego. Tym czymś jest UNICS (nazwa została później zmieniona na Unix) powstały w 1969 na architektury PDP-7 i PDP-11/20 firmy DEC. W pracach nad nim biorą tacy ludzie jak Ken Thompson, Dennis Ritchie czy Brian Kernighan (znany głównie jako twórca języka programistycznego C stworzonego początkowo na potrzeby pisania Unixa). 3 listopada 1971 zostaje opublikowana pierwsza edycja. W 1972 Unix zostaje przepisany na język C i powstaje druga edycja. 1973 - trzecia i czwarta edycja.</p>
+
+<p align=justify>AT&T licencjonuje całość dla uniwersytetów i firm trzecich. Od 1974 zaczynają powstawać ich wersje niekoniecznie zgodne z kolejnymi edycjami od AT&T i między sobą. Z tego względu po wielu latach w końcu tworzone są pewne standardy. I tak w 1999 Executable and Linkable Format (ELF) stał się podstawowym dla plików binarnych, a w latach 80-tych XX wieku organizacja IEEE (Institute of Electrical and Electronics Engineers) opublikowała zestaw norm opisujących standard POSIX (Portable Operating System Interface for Unix) przedstawiający sposoby budowania systemów operacyjnych tak, aby zachować między nimi przenośność oprogramowania. Pierwsza wersja jest z 1988, były też oczywiście kolejne. Żeby nie było wątpliwości - obecne Windows również przynajmniej częściowo potrafią być zgodne z tymi standardami (i stąd np. system umie umieszczać na dyskach pliki i katalogi z rozróżnieniem wielkości ich liter, co zresztą <a href=?q=node/111#8>jakiś czas temu pokazywałem dla partycji NTFS</a>).</p>
+
+<p align=justify>Z ciekawostek: swoją wersję Unixa w latach 80-tych XX wieku rozwijał Microsoft (Xenix bazowany początkowo na wersji 7 Unixa od AT&T). Z kolei w 1978 z wersji 6 powstaje 1BSD będący początkiem linii, z której wywodzą się np. darmowe FreeBSD (tworzony od 1993) i OpenBSD (od 1994). Również darmowy Open Solaris ma swoje korzenie w Solarisie (wcześniej znanym jako SunOS i tworzonym od 1982). Obecnie także MacOS (a dokładniej Mac OS X z 2001 i późniejsze) to system unixopodobny (oparty m.in. na rozwiązaniach FreeBSD i OpenBSD).</p>
+
+<p align=justify>Przytoczę jeszcze dwie ważne daty (dlaczego ? wyjaśnię to później). Pierwszą jest 1983. Richard Stallman <a href=http://www.gnu.org/gnu/initial-announcement.html>ogłasza wtedy rozpoczęcie projektu GNU mającego na celu stworzenie darmowego klona Unixa</a> (w ramach projektu powstaną m.in. różne programy). Jest to odpowiedź na działanie AT&T z początku lat 80-tych ("zamknięcie" źródeł systemu i komercyjne ich sprzedawanie). Drugą jest 1987 i opublikowanie przez <a href=http://www.cs.vu.nl/~ast/>Andrew Tanenbauma</a> pierwszej wersji darmowego Minixa używanego do nauczania studentów.</p>
+
+<p align=justify>Szerzej na temat tego typu zależności można poczytać chociażby w WikiPedii, ja odesłałbym dodatkowo np. do wykresu na stronie <a href=http://www.levenez.com/unix/>Unix History</a>.
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=2></a>Podstawą są jądra</h1>
+
+<p align=justify>Mówimy, że DOS, Windows, Linux, FreeBSD, OpenBSD, ReactOS, itd. itd. są systemami operacyjnymi. Co to tak naprawdę znaczy ?</p>
+
+<p align=justify>Definicji jest wiele, ja odwołam się do polskiego tłumaczenie słów <a href=http://www.cs.vu.nl/~ast/>Andrew Tanenbauma</a>: "System operacyjny jest warstwą oprogramowania operującą bezpośrednio na sprzęcie, której celem jest zarządzanie zasobami systemu komputerowego i stworzenie użytkownikowi środowiska łatwiejszego do zrozumienia i wykorzystania.".</p>
+
+<p align=justify>Myślę, że definicja jest prosta i czytelna. W każdym systemie jest to rozwiązane trochę inaczej, niemniej jednak zawsze będziemy mogli mówić o podstawowym elemencie jakim jest jądro. Jest ono wczytywane i uruchamiane po starcie komputera przez moduł ładujący czyli tzw. bootloader (ten z kolei jest uruchamiany przez BIOS/EFI) i który w obecnych systemach zawiera mechanizmy związane z obsługą procesów (ich przerywanie, kontrola uprawnień, itd.), urządzeń (sterowniki), pamięci operacyjnej, jej rozszerzenia na dysku (czyli pamięci wirtualnej), systemów plików... O ile w Windows to instalator dobiera komponenty związane z daną konfiguracją sprzętową, o tyle w różnego rodzaju rozwiązaniach unixopodobnych to użytkownik jest w stanie bardzo precyzyjnie kontrolować ten fragment systemu.</p>
+
+<p align=justify>Czym tak naprawdę jest Linux ? Nazwa ta określa nie jeden system, ale całą rodzinę systemów, w których wspólne jest właśnie jądro. Do niego dodane są inne programy (najczęściej powstałe w ramach projektu GNU, ale nie tylko) tworząc tzw. dystrybucję. Takimi dystrybucjami są np. Debian, Ubuntu, Slackware, itd. Każda z nich ma zazwyczaj jakieś swoje zasady (np. zakaz włączania oprogramowania bez kodu źródłowego), całość jest zazwyczaj zgodna z normami POSIX. Spotyka się czasem nazwę <a href=http://www.gnu.org/gnu/linux-and-gnu.html>GNU/Linux</a>.</p>
+
+<p align=justify>Z historią jądra systemu GNU/Linux nierozłącznie wiąże się data 25 sierpnia 1991 i osoba Linusa Torvaldsa (wtedy studenta uniwersytetu w Helsinkach). Wysyła on wtedy swój <a href=http://groups.google.com/group/comp.os.minix/msg/b813d52cbc5a044b?dmode=source>historyczny list, w którym pisze o chęci stworzenia takiego rozwiązania na architekturę x86</a>. Całość jest w jakiś sposób inspirowana m.in. Minixem. We wrześniu 1991 powstaje wersja 0.01, wydanie 0.11 z grudnia 1991 jest kompilowalne na komputerze działającym pod kontrolą siebie samego, z kolei 0.12 (luty 1992) jest opublikowana pod licencją GNU General Public License (GPL). W styczniu 1992 powstaje grupa dyskusyjna alt.os.linux, wielu ochotników zaczyna wspierać pracę Linusa i całość zaczyna być rozwijana coraz szybciej:</p>
+
+<ul><li>14 marca 1994 - 1.0.0
+<li>9 czerwca 1996 - 2.0.0
+<li>25 stycznia 1999 - 2.2.0
+<li>4 stycznia 2001 - 2.4.0
+<li>17 grudnia 2003 - 2.6.0
+</ul>
+
+<p align=justify>Jak widać - numery wersji składają się obecnie minimum z trzech cyfr. Jeżeli środkowa jest nieparzysta, dana wersja jest testową. Z kolei czasem spotyka się również czwartą cyfrę.</p>
+
+<p align=justify>Z bardziej znanych wydarzeń: w 2003 SCO pozywa IBM o złamanie należących do nich praw patentowych (a dokładniej o dodanie do jądra linuxowego fragmentów, których byli właścicielami). Całość zostaje w końcu oddalona...</p>
+
+<p align=justify>Obecnie jądro linuxowe jest udostępniane na stronie <a href=http://www.kernel.org>www.kernel.org</a> na licencji <a href=?q=gpl2>GNU GPL2</a>, skąd każdy może je bezpłatnie pobrać. Jest ono monolityczne. Poszczególne elementy wewnątrz takie jak sterowniki mają dostęp do wszystkich zasobów (a więc również np. pamięci zajętej przez inne elementy) czyli działają w tzw. trybie jądra. Nie jest ważne w tym przypadku, iż mogą być one fizycznie ładowane z oddzielnych plików na dysku. Przyspiesza to całość, ale powoduje problemy w przypadku błędów.</p>
+
+<p align=justify>Ta ostatnia wada spowodowała, iż od dawna próbowano stworzyć takie jądro, w którym ilość elementów z dostępem do wszystkich zasobów byłaby minimalna, a możliwie duża ilość sterowników byłaby fizycznie od siebie odseparowana (tzw. mikrojądro). <a href=http://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate>W 1992 i 2006 kwestia ta (tzn. co jest lepsze - mikrojądro czy jądro monolityczne ?) była dosyć gorąco omawiana między Linusem Torvaldsem i Andrew Tanenbaumem</a>. O ile wczesne implementacje idei mikrojądra były dosyć wolne, obecnie z ich zaletami można się zapoznać np. w systemie <a href=http://www.minix3.org/>Minix 3</a>.</p>
+
+<p align=justify>Jeżeli chodzi o linuxowe sterowniki, w przypadku platformy x86 obsługiwane są m.in. standardy oszczędzania energii APM i obecny ACPI, dźwięk powstaje z użyciem <a href=http://www.alsa-project.org/>pakietów powstałych w ramach projektu ALSA</a> (<a href=http://www.opensound.com/>OSS</a> jest już praktycznie nieużywany), z obsługą tunerów czy kamer związane są elementy z projektu Video4Linux, monitorowanie temperatury uzyskamy dzięki <a href=http://www.lm-sensors.org/>lm-sensors</a>, sterowniki dla Bluetooth pochodzą z <a href=http://www.bluez.org>Bluez</a>, wspierane są praktycznie wszystkie popularne systemy plików (może z wyjątkiem darmowej obsługi dla exFAT) włącznie z własnymi z serii "ext" (gdzie najnowszy to "ext4"), dodatkowo możliwe jest częściowe używanie sterowników napisanych dla Windows np. dla różnych kart wifi (rozwiązanie ndiswrapper - <a href=https://help.ubuntu.com/community/WifiDocs/Driver/Ndiswrapper>tutaj jest przykładowy opis jego wykorzystania dla dystrybucji Ubuntu</a>). O takich "drobiazgach" jak obsługa SATA, USB czy kart graficznych wszystkich znaczących producentów nawet nie wspomnę...
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=3></a>Wszystko jest plikiem</h1>
+
+<p align=justify>Paradoksalnie wpierw napomknę trochę o Windows - obecne wersje (takie jak XP, Vista czy 7) wywodzą się z Windows NT oraz linii Windows 9x opartej na MS-DOS. Przez wiele lat użytkownicy zostali przyzwyczajeni do tego, iż:</p>
+
+<ul><li><div align=justify>wielkość liter nie ma znaczenia w nazwach plików i katalogów</div>
+<li><div align=justify>kolejne partycje i urządzenia (dyski twarde, napędy optyczne, itp.) są oznaczane literami alfabetu i dwukropkiem. I tak stacja dyskietek to zazwyczaj "A:" lub "B:", pierwsza partycja dysku twardego to "C:", itd. (nawiasem mówiąc - o ile obecnie można przynajmniej częściowo zmieniać przypisania w oknie "Computer Management", o tyle kiedyś było to całkowicie niemożliwe).</div>
+<li><div align=justify>pełna ścieżka do katalogu czy pliku zazwyczaj składa się z nazwy urządzenia i kolejnych katalogów oddzielonych wyłącznie "\"</div>
+<li><div align=justify>uprawnienia do katalogów i plików są teraz (na partycjach NTFS) określane z użyciem tzw. list dostępu (ACL)</div>
+<li><div align=justify>w nazwie pliku może być tylko jedna kropka, a fragment nazwy po niej jednoznacznie określa format</div>
+</ul>
+
+<p align=justify>Nie jest to obecnie częściowo prawda - <a href=?q=node/111#8>wielkość liter może mieć znaczenie</a>, <a href=?q=node/111#1>urządzenia mogą być udostępniane również jako kolejny "katalog"</a>, ścieżki mogą zawierać także "/", kropek może być już wiele. Dzieje się tak częściowo właśnie ze względu na zgodność z POSIX.</p>
+
+<p align=justify>W systemach unixopodobnych wygląda to następująco:</p>
+
+<ul><li><div align=justify>wielkość liter ma znaczenie</div>
+<li><div align=justfiy>pełna ścieżka składa się z kolejnych katalogów oddzielonych wyłącznie "/"</div>
+<li><div align=justify>w klasycznych rozwiązaniach dany plik czy katalog ma swojego właściciela (najczęściej użytkownika, który go stworzył) oraz jest przypisany do tzw. grupy (w której mogą się znaleźć dowolni użytkownicy systemu). Uprawnienia określa się dla właściciela, grupy i wszystkich innych.</div>
+<li><div align=justify>kropek może być wiele</div>
+</ul>
+
+<p align=justify>Nie ma dowolności w umieszczaniu plików gdziekolwiek (do tego dąży także obecnie Windows ;)). Podam kilka przykładów:</p>
+
+<ul>
+<li><div align=justify>"/boot" - skompilowane jądro</div>
+<li><div align=justify>"/dev" - pliki, które plikami nie są :) Wszystkie widoczne tam "zbiory" są bowiem tworzone dynamicznie przez jądro i zawierają dane związane z kolejnymi fizycznymi urządzeniami (są mocno zależne od systemu) takie jak np. zawartość ich pamięci (Unix bowiem próbuje wprowadzić ideę, aby dosłownie wszystko móc obsługiwać podobnie jak plik)</div>
+<li><div align=justify>"/etc" - pliki konfiguracyjne</div>
+<li><div align=justify>"/home" - katalogi kolejnych użytkowników systemu, w których mogą oni składować swoje dokumenty (jego odpowiednikiem jest windowsowy "Documents and Settings", a obecnie "Users")</div>
+<li><div align=justify>"/mnt" lub "/media" - najczęściej w nich możemy znaleźć zawartość dyskietki czy CD-ROM</div>
+<li><div align=justify>"/proc" - zawiera tworzone dynamicznie przez jądro "pliki" z informacjami o wszystkich uruchomionych w systemie programach</div>
+<li><div align=justify>"/root" - pliki administratora</div>
+<li><div align=justify>"/tmp" - pliki tymczasowe</div>
+</ul>
+
+<p align=justify>Pełna ścieżka do katalogu z plikami użytkownika (w "/home" albo "/root") bywa skrótowo oznaczana przez "~/", pliki o nazwach rozpoczynających się od kropki są traktowane przez wiele programów jako ukryte. Prawda, że jest to proste ?</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=4></a>Konsola</h1>
+
+<p align=justify>Historycznie wcześniejsze rozwiązanie. Użytkownik wpisuje szereg poleceń (ich składnia częściowo zależy od tego, z jakiego rozwiązania czyli tzw. powłoki korzysta), a one w formie tekstowej pokazują rezultaty. Wynik działania jednego może być przekazany do innego. Przykładowo: <font face="Courier New">"ls"</font> pokaże nam spis plików i katalogów w katalogu, w którym się znajdujemy, a <font face="Courier New">"ls | more"</font> podzieli ten spis na strony (żeby przejść do kolejnej, niezbędne będzie naciśnięcie klawisza). Kilka odpowiedników poleceń z linii komend Windows:</p>
+
+<ul><li><font face="Courier New">"dir"</font> to <font face="Courier New">"ls"</font>
+<li><font face="Courier New">"ipconfig"</font> to <font face="Courier New">"ifconfig"</font>
+<li><font face="Courier New">"copy"</font> to <font face="Courier New">"cp"</font>
+<li><font face="Courier New">"move"</font> to <font face="Courier New">"mv"</font>
+<li><font face="Courier New">"cd"</font> to <font face="Courier New">"cd"</font>
+</ul>
+
+<p align=justify>Żeby zobaczyć pomoc do jakiejś komendy, wystarczy wpisać <font face="Courier New">"man nazwa_komendy"</font>. Aby z kolei zadziałała ona w tle (zanim się zakończy, my mamy znów dostęp do terminala i możliwość wydawania poleceń), na jej końcu należy dodać spację i "&". Pracę w konsoli możemy sobie ułatwić wykorzystując np. Midnight Commandera (komenda <font face="Courier New">"mc"</font>) naśladującego nieśmiertelnego Norton Commandera (dla osób, którego nie kojarzą tego drugiego - jest to to rozwiązanie w stylu Total Commandera).</p>
+
+<p align=justify>Wspomniałem o powłokach - są bardzo różne, wiele ma swój język programowania (możliwość uruchamiania skomplikowanych skryptów). Dla ciekawych: Ubuntu standardowo proponuje powłokę bash.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=5></a>Środowisko graficzne</h1>
+
+<p align=justify>Rozwiązania unixopodobne mają również grafikę, czyli X Window System (częściej znane jako X11). Jego istotą jest obecność serwera (tzw. X Servera). Obsługuje on pulpit, zdefiniowane są z jego użyciem wyłącznie elementarne operacje, do niego wysyłane są np. informacje o ruchach myszki. Jest to więc klasyczna architektura klient-serwer i nie jest wielkim problemem udostępnienie pulpitu np. poprzez sieć (coś na wzór Remote Desktop z Windows). Dystrybucje Linuxa zawierają jego implementację o nazwie <a href=http://www.xfree86.org>XFree86</a> albo (znacznie częściej) <a href=http://www.x.org>X.Org</a>. Z ciekawostek: w większości dystrybucji przy włączonym środowisku graficznym mamy dalej dostęp do maksymalnie sześciu terminali (kombinacja klawiszy CTRL+ALT+F1 do CTRL+ALT+F6), a nasze środowisko zobaczymy po użyciu CTRL+ALT+F7.</p>
+
+<p align=justify>X11 nie definiuje styli okien albo wyglądu ich krawędzi. Robi to dodatkowy element czyli tzw. menedżer okien. Istnieje wiele różnych (np. Fluxbox, AfterStep czy Xmonad), dwoma najpopularniejszymi są obecnie KDE i Gnome (które dodatkowo zawierają aplikacje pozwalające zbudować całe środowisko graficznie jak w Windows oraz udostępniają zestawy bibliotek pozwalających programistom w prosty sposób pisać aplikacje okienkowe - odpowiednio QT i GTK+).</p>
+
+<p align=justify>Gnome powstaje w ramach projektu GNU. Wersja 1.0 została wydana w marcu 1999, wersja 2.0 w czerwcu 2002, obecna to 2.30.</p>
+
+<p align=justify>Biblioteki QT przez lata były własnością firmy Qt Development Frameworks przejętej obecnie przez Nokię (znaną z produkcji telefonów komórkowych). Obecnie są udostępnione na licencji GNU GPL. Niestety, ale KDE w wersji 4 jest dosyć mocno krytykowane ze względu na powolność, duże zużycie zasobów oraz brak stabilności.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=6></a>Grafika 3D</h1>
+
+<p align=justify>Na rynku dostępne są obecnie dwa standardy związane z tworzeniem grafiki 3D: Direct3D będący częścią bibliotek DirectX (nieodłączanie związanych z Windows, zamkniętych i tworzonych przez Microsoft) oraz OpenGL (dostępny dla bardzo różnych systemów operacyjnych).</p>
+
+<p align=justify>Dystrybucje Linuxa zawierają najczęściej bibliotekę <a href=http://www.mesa3d.org/>Mesa 3D</a> będącą darmową implementacją OpenGL. Jest ona w stanie działać nawet, gdy w systemie nie ma działającej sprzętowej akceleracji (poniżej przykładowe demo <font face="Courier New">"glxgears"</font> i wynik komendy <font face="Courier New">"glxinfo"</font> z zaznaczonym fragmentem wskazującym na użycie programowego sterownika). Nawiasem mówiąc Windows ma podobne rozwiązanie dopiero wraz z siódemką (tzw. WARP10).</p>
+
+<img src=sites/default/files/157/mesa.png width=600>
+
+<p align=justify>Praktyczne działanie całości (sugeruję jednak sprzętową akceleracje ;)) możemy sprawdzić grając np. w sympatyczną grę Extreme Tux Racer.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=7></a>DOS i Linux i Windows w jednym stali domku...</h1>
+
+<p align=justify>Podstawowym chyba argumentem zwolenników systemów Microsoftu przeciw Linuxowi jest brak zgodności. Nie do końca jest to prawda. Najbardziej znanym pakietem pozwalającym na uruchamianie skompilowanych aplikacji Windows jest <a href=http://www.winehq.org/>Wine (skrót "Wine Is Not an Emulator")</a>, który próbuje zaimplementować funkcje tego systemu w środowisku X11. Jest to trudne (co widać po liście obsługiwanych programów w najwyższym statusie Platinum) ze względu na ilość funkcji. Powstały (ale już komercyjne) próby stworzenia doskonalszego Wine. Są one ukierunkowane np. na gry. Mówię tutaj o pakietach <a href=http://www.cedega.com/>Cedega</a> i <a href=http://www.codeweavers.com/products/>CrossOver</a>. Jest nawet pewne wsparcie dla DirectX.</p>
+
+<p align=justify>Mamy darmowe <a href=http://www.dosemu.org>DOSEMU</a> tworzące maszynę wirtualną x86 pozwalającą na pracę ze starszymi programami przeznaczonych do DOS (uruchamia ono w niej najczęściej darmową wersję systemu DOS napisaną w ramach projektu <a href=http://www.freedos.org/>FreeDOS</a>). Z kolei darmowy <a href=http://www.dosbox.com>DOSBox</a> jest emulatorem ukierunkowanym na uruchamianie gier działających w DOS.</p>
+
+<img src=sites/default/files/157/doswin.png width=600>
+
+<p align=justify>Istnieją również silniki napisane przez entuzjastów różnych gier pozwalające w nie zagrać pomimo tego, że ich producent tego nigdy nie przewidział (np. <a href=http://www.scummvm.org>ScummVM</a> działa chociażby z plikami "The Secret of Monkey Island").</p>
+
+<p align=justify>Gdy to nie wystarczy, możemy skorzystać z odpowiedników. I tak np. "K3b" zamiast Nero, "Open Office" i "Thunderbird" zamiast Microsoft Office, "Krita" zamiast Paint.NET, "Krusader" zamiast Total Commandera, "Chromium" zamiast Chrome. Nie należy się tutaj absolutnie obawiać niskich numerów wersji - w przypadku komercyjnych programów dla okienek Microsoftu często ich producenci publikują ich kolejne "duże" wersje tylko po to, aby wywołać wrażenie dużych zmian i zwiększyć sprzedaż (a tutaj nie ma podobnej "potrzeby").</p>
+
+<p align=justify>Czasem nawet to nie jest możliwe (przykład: musimy czytać <a href=?q=node/95>pliki CHM</a> wymagające oryginalnego Internet Explorera). Wtedy wystarczy użyć np. VMware Playera albo chociażby <a href=http://www.virtualbox.org/>VirtualBox</a> i w nim uruchomić oryginalne okienka (na które oczywiście potrzebna będzie odpowiednia licencja)... Jest też oczywiście wirtualna maszyna Javy, która pozwoli wykorzystać emulator <a href=http://javapc.sourceforge.net/>JPC</a> w przeglądarce (który z Windows może sobie nie poradzi, ale z kilkoma innymi systemami tak ;))</p>
+
+<p align=justify>Ale uruchamianie to nie wszystko - z wyjątkiem najnowszego rozwiązania Microsoftu o nazwie exFAT systemy GNU/Linux są w stanie obsłużyć wszystkie inne systemy plików stworzone przez tę firmę z użyciem darmowych sterowników. Nie ma problemu np. z odzyskiwaniem z nich skasowanych danych (można znaleźć chociażby <a href=https://help.ubuntu.com/community/DataRecovery>odpowiedni opis na stronach związanych z dystrybucją Ubuntu</a>). Podobnie można współdzielić pliki (rozwiązanie o nazwa <a href=http://www.samba.org/>Samba</a>) albo odczytywać zawartość plików w formacie VHD (komenda <font face="Courier New">"vdfuse"</font>). Z ciekawostek: jeżeli mamy jeszcze jakieś stare dyskietki z czasów, gdy używaliśmy DOS (teraz raczej rzadkość :)) i nasz system będzie miał jakiekolwiek z nimi problemy, możemy wykorzystać pakiet Mtools. Dzięki nim np. do wyświetlenia zawartości wystarczy komenda <font face="Courier New">"mdir"</font> wydana obowiązkowo z konsoli :)</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=8></a>Bezpieczeństwo</h1>
+
+<p align=justify>Systemy unixopodobne są kojarzone głównie z bezpieczeństwem. Od zawsze wymagane było tutaj chociażby logowanie, trzeba było również ręcznie "podłączać" (montować) np. zawartość płyt CD/DVD po fizycznym ich włożeniu do napędu, aplikacje działały z najniższymi możliwymi uprawnieniami, itd.</p>
+
+<p align=justify>Obecnie troszkę się to zmienia, a podejście do tego tematu jest inne w każdym systemie. I tak np. w popularnym Ubuntu można ustawić, aby któryś z użytkowników był automatycznie logowany do systemu, zawartość pamięci flash pokazuje się od razu, sieć jest automatycznie włączana, powiększenie uprawnień wymaga natomiast użycia komendy <font face="Courier New">"sudo"</font>. Pozwala to pogodzić bezpieczeństwo z wygodą użytkowania. Dodatkowo możliwe jest doinstalowanie aplikacji pozwalających łatwo ustawić sieciowy firewall (np. <font face="Courier New">"firestarter"</font>) i wtedy poziom bezpieczeństwa będzie niewątpliwie większy niż w Windows. Na pewno nie należy się obawiać złośliwych aplikacji przeznaczonych dla okienek Microsoftu, gdyż te najczęściej się nie uruchomią.</p>
+
+<p align=justify>Trzeba zauważyć, iż nawet wtedy nie można zapominać o zwykłym elementarnym rozsądku ani ciągłym aktualizowaniu komponentów systemu (ale wyłącznie z oficjalnych repozytoriów !). Więcej możemy uzyskać np. uruchamiając przeglądarkę www i aplikacje korzystające z sieci w maszynach witualnych (pomysł ten został wykorzystany w opartym m.in. na dystrybucji Linuxa Fedora systemie <a href=http://qubes-os.org/>Qubes</a> znanej polskiej specjalistki od bezpieczeństwa Joanny Rutkowskiej, który obecnie jest w trakcie tworzenia).</p>
+
+<p align=justify>Chciałbym tutaj również podać odnośnik do artykułu <a href=http://www.viruslist.pl/news.html?newsid=538>Dlaczego pingwiny żyją dłużej, czyli o atakach na Linuksa</a> pracowników Kaspersky Lab Polska. Myślę bowiem, iż lepiej mówić o pewnych problemach niż je przemilczać.</p>
+
+<p align=right><a href=#gora>Do góry</a></p>
+
+<h1><a name=9></a>Podsumowanie</h1>
+
+<p align=justify>Moim zdaniem dystrybucje GNU/Linux wprowadzają tak niezbędną konkurencję na rynku systemów operacyjnych. Coraz mniej czynności wymaga w nich doktoratu z informatyki i tak naprawdę w wielu wypadkach użytkownicy bywają do nich uprzedzeni głównie z uwagi na...nazwę ("skoro to Linux, to musi być coś trudnego"). Z tych i wielu innych względów najbardziej znanym i używanym systemem jest niewątpliwie Windows XP. "Wystarczająco dobry", wspierany przez lata, <a href=http://www.benchmark.pl/aktualnosci/Microsoft_chce_zniechecac_do_XP-28572.html>obecnie jest pewnym problemem dla Microsoftu, który stara się przekonać użytkowników do zakupu niekoniecznie lepszego Windows 7</a>. Po prostu korporacja chce na czymś zarobić. Jest o co walczyć - kwota z każdej licencji pomnożona przez miliony kopii daje niezłą sumkę. Dystrybucje Linuxa są w większości darmowe, nikt nie zmusza do niczego ich użytkowników. To oni wybierają to co lubią. Powoduje to, iż przez lata wiele "gorszych" dystrybucji musiało ustąpić pola "lepszym", a praktycznie wszystkie liczące się na rynku mają obecnie wsparcie firm. A że mamy różnorodność ? Każdy z nas ma różne potrzeby... A że czasem coś nie od razu zadziała ? No cóż, gdyby wszyscy programiści tego oprogramowania mieli tyle funduszy, co Microsoft...</p>
+
+<p align=justify>Siłą ale i słabością Windows jest zgodność. Kolejne wersje "okienek" potrzebują coraz więcej zasobów w celu jej zachowania, całość jest coraz bardziej skomplikowana (<a href=http://www.betanews.com/article/Mark-Russinovich-on-MinWin-the-new-core-of-Windows/1259792850>jak przyznał jeden z projektantów firmy Mark Russinovich nie rozumieją oni już nawet pewnych zależności między różnymi elementami</a>). Jak to działa w praktyce, widać w przypadku tabletów i zapowiedzi kolejnych firm, iż rezygnują z łączenia z nimi Windows 7. Dystrybucje Linuxa są często o wiele lepsze pod tym względem - zazwyczaj programy w nich instalowane są z pakietów zawierających odpowiednie informacje tego typu (dzięki temu wiadomo, iż A wymaga np. również bibliotek X, Y i Z). Nie trzeba również umieszczać wszystkiego na dysku "na wszelki wypadek".</p>
+
+<p align=justify>Wiele programów dostępnych dla dystrybucji linuxowych ma publikowany również kod źródłowy. Może to powodować pewne zagrożenia (np. to, iż jakaś usterka zostanie zauważona przez "nieodpowiednich" ludzi), ale też zazwyczaj przyspiesza pojawianie się poprawek oraz uzupełnień (wszak mogą je robić wszyscy). Dostępność kodu przydaje się nie tylko programistom. Również "zwykli" użytkownicy mogą bowiem na tym zyskać - po zbudowaniu wersji binarnych aplikacji z uwzględnieniem np. specyfiki konkretnego procesora (np. czy jest to układ Intela czy AMD) może ona działać szybciej lub być mniejsza. Czasem takie budowanie oznacza wydanie np. jednej czy dwóch komend w konsoli, w niektórych dystrybucjach jest to robione wręcz "automatycznie" przy instalacji programów.</p>
+
+<p align=justify>Nie chciałbym oczywiście tworzyć wrażenia, iż wszystko tutaj działa idealnie. Jest to oprogramowanie pisane przez ludzi i także zawiera błędy oraz niedoróbki. Jego mocną stroną jest fakt, że zazwyczaj dowiadujemy się o wielu z nich i są one poprawiane często szybciej niż w przypadku produktów pewnych znanych korporacji. Jak wspomniałem wcześniej, również chociażby jądro monolityczne zawsze będzie sprawiać problemy. I tu wychodzi kolejna zaleta - wiele oprogramowania znanego z dystrybucji GNU/Linux działa również w innych systemach unixopodobnych i często jest to możliwe właśnie z uwagi na dostępność kodu. A prace nad innymi (lepszymi) jądrami trwają, o czym świadczy np. <a href=http://www.debian.org/ports/hurd/>strona projektu Debian GNU/Hurd</a>.</p>
+
+<p align=justify>Czy więc Linux jest obecnie dla zwykłych przeciętnych użytkowników ? Porównałbym sytuację trochę do jazdy samochodzem z automatyczną skrzynią biegów. Tak działa Windows - spalanie jest wyższe, jest dużo części wewnątrz i dosyć często trzeba coś łatać. A skrzynia manualna ? Bardzo prosta, wystarczy trochę wiedzy i rozsądku (wszak nikt chyba nie próbuje włączyć pierwszego biegu przy 100 km/h ;)), aby jeździć dynamiczniej i z większą frajdą. I co z tego, że czasem jakiś bieg zazgrzyta ? Coś za coś ;)</p>
+
+<p align=right><a href=#gora>Do góry</a></p>

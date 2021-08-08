@@ -1,0 +1,21 @@
+﻿Title:Report 2006-10-06
+Author:marcin
+When:07 Oct 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>Gammu 1.08.07 is out
+<ul><li>I would like to announce with pleasure, that I have started rewriting and completing Series 40 3.0 SMS reading. Many things are still magic, but you have at least much more info now...
+</li><li>GCC 4 is hacked for now (no warnings)
+</li><li>updated translations and license
+</li><li>added some bugfixes
+</li><li>included improved Mozilla support. It will be reviewed by me now and all fixes to it will be in next test release...
+<!--break-->
+</li></ul></li><li>Gammu+ - almost ready new release. Expect it soon.
+</li><li>gammu.org - I will reactivate Licenses link on left side soon...<br /><i>
+<li>as you probably notified, I have described very many details various problems/tips for [[HydePark:Nx6325|HP NX6325 series notebooks]]. This is quite good 64 bit platform, but not at all. Based on own/friends experiences.
+</li><li>I still think about buying:
+<ul><li>N6233
+</li><li>MS Vista (it will be available for companies this year and maybe somebody could buy legally for me license/OEM license; if not, it will be dropped for next year)
+</li></ul></li><li>...but after today university day I see, that my diploma work won't be so easy and I will need to work less (I don't speak about Gammu/Gammu+, but rather about sitting in office, where I was making things during few last months). It means - no money and probably only buying one thing from previous point will be possible (after selling some my personal things).<br /></li></i>
+</li></ul>

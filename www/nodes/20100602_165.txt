@@ -1,0 +1,63 @@
+﻿Title:gammu.org - some period is closed
+Author:marcin
+When:02 Jun 2010
+Taxonomy:English,English blog,Gammu,GSM,Nokia,Gammu+,MyGnokii
+
+<p>Like promised I have closed gammu.org in current form. </p>
+<p>Started 1 April 2005 under gammu.net address, in April 2006 was moved into current domain (gammu.org).</p>
+<p>First in the form of static pages, later created using <a href="http://www.mediawiki.org">MediaWiki</a>.</p>
+<p>I was publishing there some non GSM texts too, tried to make some phone database with info about firmware changes, versions, pictures....</p>
+<p>Big shame, but don't worry...</p>
+<h1>What next ?</h1>
+<!--break-->
+<p>I have backup on my HDD - if something should be moved to wammu.eu, please let me know. Domain has been payed, maybe I will reactivate it in the future (we will see).</p>
+<p>About Nokia - this is not too good company in my opinion now. They were never interested in helping Gammu and similar projects, N900 was also joke. The main problem is that they still try to reanimate Symbian. This is similar to Microsoft - they believe in their Windows and Office. And what we have ? Apple grows, Microsoft is sinking in the NASDAQ.</p>
+<p>Nokia phones are not too interesting for me in this moment, I'm searching for something different. For now I have started to write about Linux (in Polish language)...  If you could suggest something, please use comments or contact me directly... Maybe creating Open Source software as full time job ? :)</p>
+<h1>Some news from main page from it</h1>
+<p><b>9th Jul 2009</b> <a href="http://blog.cihar.com/archives/2009/07/09/gammu_stable_version_1_25_0/">Gammu 1.25.0</a> released</p>
+<p><b>29th May 2009</b> <a href="http://blog.cihar.com/archives/2009/05/27/gammu_test_version_1_24_91/">Gammu 1.24.91</a> has new <a href="http://blog.cihar.com/archives/2009/05/26/nokia_sms_decoding/">Nokia SMS decoder</a>, please test it!</p>
+<p><b>20 December 2007</b> Want to resurrect Wammu for Windows? <a href="http://blog.cihar.com/archives/2007/12/19/looking_for_windows_testers_of_wammu/">Help with testing</a>.</p>
+<p><b>9 December 2007</b> Gammu, Gammu+ and gammu.org in eyes of one from developers...<a href="?q=node/26">Report 10-12-2007</a></p>
+<p><b>7 April 2007</b> Do you think, that this type of software doesn't have sence ? Let's look into comparing Gammu+ with Nokia PC Suite (development and user costs)... <a href="?q=node/42">Report 07-04-2007</a></p>
+<p><b>18 March 2007</b> GUI for Gammu+ isn't toy anymore, but it's going to be really usefull for various tasks...<a href="?q=gplus">Read more</a></p>
+<p><b>20 January 2007</b> Further development of Gammu will be lead by <a href="http://cihar.com">Michal Čihař</a>, you can read ideas and background news about Gammu in his <a href="http://blog.cihar.com/">weblog</a>.</p>
+<p><b>16 January 2007</b> No donations and help from other people and Marcin Wiącek decided to suspend his Gammu development...<a href="?q=node/52">Read more</a></p>
+<p><b>6 December 2006</b> We have released binary builds for Gammu+ GUI for win32... <a href="?q=node/81">Read more</a></p>
+<p><b>19 October 2006</b> We describe many development issues in blogs - see Reports,blogs,roadmaps section. Additionaly there is first "non-GSM" subpage (about <a href="?q=node/103">HP NX6325</a>)...</p>
+<p><b>18 July 2006</b> KMobileTools call for developers... <a href="?q=node/164">Read more</a></p>
+<p><b>11 June 2006</b> Series 40 3.0 is supported too...  <a href="?q=node/62">Read more</a></p>
+<p><b>21 May 2006</b> MileStone Gammu 1.06.15 is ready (with first Symbian functionality)...  <a href="?q=node/60">Read more</a></p>
+<p><b>17 May 2006</b> New issues connected with development...  <a href="?q=node/59">Read more</a></p>
+<p><b>30 April 2006</b> <a href="http://cihar.com">Michal Čihař</a> has changed his RSS links...See Release info</p>
+<p><b>29 April 2006</b> Few words about site and software...<a href="?q=node/58">Read more</a></p>
+<p><b>18 April 2006</b> New domain, new changes... <a href="?q=node/57">Read more</a></p>
+<p><b>4 April 2006</b> New server, new hope... <a href="?q=node/56">Read more</a></p>
+<p><b>5 February 2006</b><br />
+Added some <a href="?q=node/5">infos about current status and Gammu 1.04.07</a></p>
+<p><b>22 January 2006</b><br />
+Added report about current status and plans. <a href="?q=node/2">Read more</a></p>
+<p><b>21 January 2006</b><br />
+We started creating this Wiki from connecting Gammu/Gammu+ Wikis and some other sources. Work in progress.</p>
+<p><b>23 December 2005</b><br />
+We want wish all people everything the best because of Christmas and New Year and give small "gift" from this occasion. This is <a href="?q=node/8">page describing history of Nokia phones and presented here software</a>, which start new site section with various texts.</p>
+<p><b>16 December 2005</b><br />
+We blocked editing Wiki's without user logging. This was forced by spam.</p>
+<p><b>11 December 2005</b><br />
+We have run BETA version for own phone database. Some functions still don't work, but even current give many possibilities. We also work on updating data in this database now.</p>
+<p><b>November 2005</b><br />
+Gammu.net page has been refreshed - added new info and updated some old.</p>
+<p><b>October 2005</b><br />
+We have MileStone4 for Gammu+ and decoding MMS in Gammu</p>
+<p><b>14 July 2005</b><br />
+We have MileStone3 for Gammu+ and Wiki for Gammu</p>
+<p><b>10 May 2005</b><br />
+We are very happy to pronounce MileStone2 for Gammu+</p>
+<p><b>5 April 2005</b><br />
+Added FAQ, many new links and infos, fixed some parts.</p>
+<p><b>1 April 2005</b><br />
+Gammu.net started. We hope to make it place for collecting infos and links connected with our software.</p>
+<h1>Some last pictures</h1>
+<p><img src="sites/default/files/165/gammuorg1.png" width="500" /><br /><img src="sites/default/files/165/gammuorg2.png" width="500" /><br /><img src="sites/default/files/165/gammuorg3.png" width="500" /></p>
+<h1>Some last crippled phone database version</h1>
+<p>Links are not working !</p>
+<p><a href="sites/default/files/165/phonedb1.htm">Link 1</a>,<br /><a href="sites/default/files/165/phonedb2.htm">Link 2</a>,<br /><a href="sites/default/files/165/phonedb3.htm">Link 3</a></p>

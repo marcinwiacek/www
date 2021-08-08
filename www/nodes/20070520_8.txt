@@ -1,0 +1,348 @@
+﻿Title:Cellular technology history (2006 - 2007)
+Author:marcin
+When:20 May 2007
+Taxonomy:English,GSM,Nokia,English article
+
+<p align="justify"><i>This text was written mainly by Marcin Wiącek, one of main authors of the software presented here.  Information here was written from the point of view and knowledge of a man living in Europe. It was collected from many (official and unofficial) sources and is provided only to give a more complete historical info.<br /></i></p>
+<p align="justify"><i>This can be treat as blog, roadmap, some Nokia related story or many other things. You can choose the best interpretation here...and probably each one will be good.</i></p>
+<!--break-->
+<p align="justify"><i>You have additionally some info about hackers, PC market and other events. They're helpful for understanding some relationships - for example info about available services in Poland allow to understand some software lacks.</i></p>
+<h1>Light years ago - DCT1 &amp; DCT2 (both with Nokia OS)</h1>
+<table style="border-collapse:separate;" border="0"><tr><td align="justify" valign="top">
+<p align="justify">First of all we will explain DCT - it's probably from Digital Core Technology. It was used by Nokia for naming next devices generations. Somebody could ask - why do you describe history giving Nokia the most visible places inside ? Well, this is the most visible manufacturer...</p>
+<p align="justify">When we have it clear, we can start our story. Long time ago there were no handys available, we had cordless phones and were happy.</p>
+<p align="justify">Later scientists started to work. They started from analog solutions (portable radios). They were available for very rich businessmen. It was symbol of success and big money.</p>
+<p align="justify">After some time phones became smaller and smaller. We have seen first digital GSM devices. They started from voice speeches only. Nobody was thinking about connecting with PC.</p>
+<p align="justify">In Poland the most popular was analog network working in NMT450 system. It had the best coverage. Some stories from this time are described (sorry, Polish only !) in <a href="http://www.bakx.pl">www.bakx.pl</a>.</p>
+<p align="justify">Later famous 2100 family. These phones had opened antenna, text segment displays. Used "small' SIM cards (it became standard in new phones). Many people will probably remember the best Nokia 2110i model for GSM 900. It had two firmware lines:</p>
+<ul><li>first had problems with some Phase 2 functions (didn't work with Polish prepaid card SimPlus from PlusGSM network because of problems with Advice Of Charge and connected with this call costs)
+</li><li>second one had such improvements like Delivery Reports in SMS.
+</li></ul><p align="justify">There was available package for transmitting data with 9600kbps speed over MBUS (Nokia original cable + CellWare software). According to many Net sources phone with firmware with Netmonitor was sold for big money (2000 USD).</p>
+<p align="justify">There were created versions of Nokia 2110i for NMT technology (Nokia 450 and limited version Nokia 450 VIP, where each phone had own serial unique number). 2110 phone module was used in first Communicator (9000) too.</p>
+<p align="justify">Cheaper version of 2100 phones was 1600 family with Nokia 1610 (GSM 900) and 1630 (GSM 1800). Much smaller (and still text segment) display, bigger size and weight. It used as the last one family "big" SIM cards. From interesting things - there was prepared even solar battery for it.</p>
+<p align="justify">Somewhere in 1996 some people with Jacek Rutkowski (jpzr) started creating KąCyKo (Kącik Cyfrowej Komórki) available under <a href="http://www.atm.com.pl/~jpzr/kacyko.html">www.atm.com.pl/~jpzr/kacyko.html</a>. It was later moved to <a href="http://www.telefon.pl">www.telefon.pl</a> and later replaced with current Telefon.Pl www site (somewhere in 2000).<br />
+Some other known Polish www sites from first years of GSM technology in Poland were:</p>
+<ul><li>PeSTKa - <a href="http://www.rasco.krakow.pl/gsm">www.rasco.krakow.pl/gsm</a>
+</li><li>CyTeKo - <a href="http://www.czestochowa.top.pl/cyteko">www.czestochowa.top.pl/cyteko</a>
+</li><li>strona Wita Witerskiego - <a href="http://www.gsm.ats.pl">www.gsm.ats.pl</a>
+</li></ul><p align="justify">Next was Nokia 3110. It was first phone with NaviKey and the only one, where pressing C key put user outside menu, not into one level up. Graphic screen (made with dots) was used, antenna wan't extended like in earlier Nokia products. It was easier to check firmware version (short <b>*#3110#</b> instead of long number). Although older brother 2110i worked with SimPlus well, 3110 had problems, when money of prepaid account were equal 0. There were prepared similar NaviKey phones for NMT versions too.</p>
+<p align="justify">In the same moment Nokia created Nokia 8100 series too. These were slider devices. 8110 was called bananas because of shape. In improved version (8110i) there was even implemented Smart Messaging support (with Dynamic Menu Control Protocol). For GSM 900 there were Nokia 8110/8110i models, for GSM 1800 models 8148/8148i.</p>
+<p align="justify">Software for PC for 3110/8100 phones was called NCDS (Nokia Cellular Data Suite). It was still cable (DAU-4F) + software (version 1.0) using FBUS protocol.</p>
+<p align="justify">In these times GSM 1800 was called DCS, GSM 1900 was PCS and they were treat as totally different cellular systems from GSM 900 (although were/are very similar with it).
+</p></td>
+<td valign="top" align="justify"><b>1984</b>
+<ul><li>Nokia Talkman - first car phone for NMT system
+</li></ul><p><b>1987</b><br /><br /></p>
+<ul><li>Nokia CityMan - first handportable phone for NMT system
+</li></ul><p><b>1991</b><br /><br /></p>
+<ul><li>First GSM call
+</li><li><b>July</b> - <a href="http://www.nokia.com">nokia.com</a> domain registered
+</li></ul><p><b>1992</b><br /><br /></p>
+<ul><li>Nokia 1011 - first handportable phone for GSM system
+</li><li><b>18 June Poland</b> - started NMT 450 network
+</li></ul><p><b>1993</b><br /><br /></p>
+<ul><li>First SMSC used commercially in GSM network
+</li></ul><p><b>1994</b><br /><br /></p>
+<ul><li>Nokia 2100 series (2110, 2110i, etc.) for all cellular systems launched
+</li></ul><p><b>1995</b><br /><br /></p>
+<ul><li><b>August</b> - Windows 95
+</li></ul><p><b>1996</b><br /><br /></p>
+<ul><li>first Nokia Communicator (model 9000) announced in CeBit
+</li><li><b>Poland -</b> started KąCyKo
+</li><li><b>16 September Poland -</b> started commercial usage of first GSM network (<a href="http://www.era.pl">Era GSM</a> on 900 Mhz)
+</li><li><b>1 October Poland</b> - started commercial usage of second GSM network (<a href="http://www.plusgsm.pl">PlusGSM</a> on 900 Mhz)
+</li></ul><p><b>1997</b><br /><br /></p>
+<ul><li>Nokia 3110 - first phone with NaviKey
+</li><li>Nokia 8100 series (8110, 8148i,...)
+</li><li>First GSM 900/1800 BTS
+</li><li><b>17 September</b> - Smart Messaging 1.0 specification
+</li></ul></td>
+</tr><tr><td colspan="2">
+<h1>Far past - DCT3 (Nokia OS) &amp; DCT-L (GEOS, Symbian)</h1>
+</td>
+</tr><tr><td align="justify">
+<p align="justify">Nokia created excellent series of DCT3 phones - Nokia 5100 (5110, 5130, ....) and 6100 (6110, 6130, ...). They were first "people available" phones with games and first with alarm. Nokia 5100 series had (as first Nokia devices) exchangeable front covers and keyboards without any service tools and opening device, 6110 (like few other later Nokia's) was called "chameleon" because of cover changing colour according to angle of view, 5110 was "butterfly". First GSM 900/1800 phone (6150) was from this family too. Firmware checking was done by <b>*#0000#</b> keypad code (starting from this moment it's standard).</p>
+<p align="justify">Unfortunately they had some lacks - were known from some problems with battery connector (sometimes it was disconnected for a moment) and disconnecting screens (it was required to push it with hands to restore picture).</p>
+<p align="justify">From interesting things - in these and many other models after setting SMS message tone to "Ascending" (or 'Long &amp; Loud') there was played "Connecting people" with Morse alphabet. For "Special" it was "SMS" played.</p>
+<p align="justify">For making datacalls and managing phonebook and SMS from PC side in 5100/6100 series phones Nokia prepared NCDS 1.2 (later 2.0 and 3.0) sold together with DAU-9P cables. According to one of developers, the company didn't implement in Nokia 6100 series full infrared support, because they wanted to increase sales of NCDS packages.</p>
+<p align="justify">6110 phone module (GSM 900) was used in Nokia 9110 Communicator. This device was first Nokia with MMC cards and had screen backlight on PDA side (it wasn't available in first Communicator). Used still GEOS 3.0 on PDA side (like 9000). Improved version 9210i made from it was with WAP browser.</p>
+<p align="justify">Later Communicators (9210 and 9210i) were DCT-L devices with</p>
+<ul><li>GSM 900/1800 phone module
+</li><li>other CPU (ARM-9 instead of x86 compatible Intel 386 like in Nokia 9000 or AMD 486 like in Nokia 9110/9110i)
+</li><li>other OS on PDA side (Symbian 6.0 instead of DOS/GEOS)
+</li><li>colour screen on PDA side
+</li></ul><p align="justify">Somewhere in 1998 Radek Wrocławski started creating Fan Club Nokia www site. It was moved few times (available for example under <a href="http://www.nokia.org.pl">www.nokia.org.pl</a> and <a href="http://www.fkn.pl">www.fkn.pl</a> addresses). 3 April 2000 it was replaced by Telekomunikacyjne Centrum Informacyjne.</p>
+<p align="justify">Linux was a little more popular...and few people (Hugh Blemings, Pavel Janik and others) wanted to connect their Nokia phones to PC with it. It was problem, because Nokia used their own proprietary protocols (over infrared too). In 1999, there were negotiations with Nokia about giving access to FBUS specifications. The negotiations failed and <a href="http://www.gnokii.org">Gnokii</a> was made from sniffs from this moment.</p>
+<p align="justify">DCT2 was end. Nokia started to make all phones as DCT3. Even released one of last NMT 450i phones (640 and 650) were using this technology. 650 had SMS and FM radio. It was end of NMT, the future was in GSM technology working in 900 and 1800Mhz.</p>
+<p align="justify">Market was growing and growing. Service software (for DCT3 generation it was PC-Locals 1.3 for DOS and WinTesla for 16-bit versions of Windows) was available without any problems in Internet. We had seen PC-Locals 0.6 for Nokia 2100 series phones and simlock codes generator for DCT1/DCT2. We had first tries of making simlock unlocking software. People started to know, what is netmonitor (it was possible to activate it without any problems in DCT3 phones, in 3110 with changing EEPROM by programmer).</p>
+<p align="justify">We have seen first 3'rd party programs for Nokias. The most famous were</p>
+<ul><li><a href="http://www.kessler-design.com/">commercial programs from Thomas Kessler</a> (he started making this family somewhere in 1998 and made inside Group-Graphic Editor, Operator-Logo Uploader, Picture-Message Editor and other).
+</li><li><a href="http://www.logomanager.co.uk/">commercial Logo Manager</a> - it was somewhere in 1999, cracked many times, available for Windows and made sometimes in cooperation with <a href="http://www.gnokii.org">Gnokii</a> developers (Mike Bradley was looking into <a href="http://www.gnokii.org">Gnokii</a> mailing list and even sometimes was posting some comments)
+</li><li>(1999) commercial Nokia Smart Messaging Agent from Fabian Schmieder for sending Smart Messaging logos over dialup connections to some SMSC
+</li><li>(1999) free Nokia Logo Express from IryWu
+</li></ul><p align="justify">There was also used first time vibra motor inside phone (in Nokia 8810 in 1998 year).</p>
+<p align="justify">Company started to respect infrared standards since 1998/1999 too and (if there was infrared device in PC) users didn't require any additional hardware to make datacalls or manage SMS or phonebook (still in Windows only !). Phones started to have AT modem over infrared too.</p>
+<p align="justify">Later we had first phone without connector on phone bottom and without datacalls. It was cheap Nokia 3210. Serious inside, fun outside... There were legends about it and its' possibilities (advertised in Poland light sword, speaking on rain and others). It had exchangeable front and back covers. T9 dictionary (3210 had it as one of first) was very useful in writing SMS faster. There was a ringtones editor. European variant had only place for vibra motor and people had to add it and enable phone menu for it (in Asia Nokia was putting motor in standard).</p>
+<p align="justify">In the end of support Nokia even added two new games (React and Logic) into firmware. They were available in versions 5.31 and higher and it was required only to activate them over FBUS.</p>
+<p align="justify">The most interesting is, that Nokia Deutschland prepared even special firmware edition (P5.23) for 6150 with many 3210 features - instead of DMCP and WellMate menus there were Picture Images, T9, animated menus and changed games.</p>
+<p align="justify">In this period of time there was started MyGnokii as Gnokii branch.</p>
+<p align="justify">Nokia released 7110 and later 6210/6250 too. 6210 was first phone with HSCSD (and the only one DCT3 with this feature), 6250 was protected against water and dust. They were other than earlier and later (described) DCT3 devices - had for example current menu name displayed on top of screen and compressed (yes !) PPM in flash memory.</p>
+<p align="justify">These 3 models weren't excellent -</p>
+<ul><li>were hanging often (especially 7110 with first WAP browser, which was happily later replaced with this from 6210)
+</li><li>were slow, really slow (interesting thing - 6210 was in two hardware version, first one with horrible "honey like" display was even a little slower)
+</li><li>had more PC communication problems than first DCT3 generation
+</li></ul><p align="justify">But they were the only one DCT3 phones with</p>
+<ul><li>own SMS memory
+</li><li>extended phonebook
+</li><li>big screens
+</li><li>new calendar layout
+</li></ul><p align="justify">They were also able to operate as AT modem over serial cable (with new DLR3 cables).</p>
+<p align="justify">Nokia 7110 wasn't available for operators (at least in Poland) in enough number and there were even some legends about its' lack. This phone was called by many people phone from "Matrix" movie. It isn't the truth - in "Matrix" trilogy (at least in first part in moment, where Neo answer call in office from Morpheus) there was used Nokia 8110 or similar with modified slider (with automatic opening and answering call after pressing button like in 7110).</p>
+<p align="justify">Software for it (which was created from extending NCDS and named PC-Suite since this moment) still used Nokia protocols. It was added at least for free on CD available in phones packages and/or published on www site since this moment.</p>
+<p align="justify">In 2000 there was released first "home" flasher for DCT3 generation by Dejan Kaljevic. People started from removing simlocks (with patches disabling simlock checking in firmware). It was revolution, because it didn't require opening phones.</p>
+<p align="justify">In this moment something new was learned. It was apparent that some 5100 and 6100 series phones were available in two hardware versions  (ROM3 and ROM4).</p>
+<p align="justify">People found, that firmware in DCT3 consist of MCU (firmware) and PPM (part with languages, T9 dictionaries, codepages specific for various human languages).</p>
+<p align="justify">In new models there were PMM blocks too (phonebook, SMS memory, WAP cache and other content). Sometimes PMM had to be cleaned manually (filled with 0x00 chars) after flashing MCU or PPM (for example in 3310 with recorded Voice Tags after updating firmware phone didn't allow for using this feature without such cleaning).</p>
+<p align="justify">All this parts (+ sometimes EEPROM with various settings like phone IMEI) were saved in flash memory.</p>
+<p align="justify">Upgrading phone with other firmware version and Dejan required additionally "logger" - small PC program, which was writing some checksum values in phone EEPROM and allowed phone to log into GSM network.</p>
+<p align="justify">Many pages were collecting firmwares dumps taken from phones. Some "upgrades" started to be popular - for example 8210 to 8250 (only for phones with ROM6 hardware version).</p>
+<p align="justify">When Nokia created 3330 (it was 3310 with added WAP and other games), people tried to increase memory inside 3310 and flash 3330 firmware. There were rumors, that some 3330 series were originally sold by Nokia with 3310 firmware (because of market needs).</p>
+<p align="justify">Updates weren't always good - for example after flashing 6210 with 6250 firmware it had:</p>
+<ul><li>7 network/battery bars instead of 5
+</li><li>automatic keypad locking
+</li><li>task journal
+</li><li>changing LCD contrast
+</li><li>noise meter
+</li><li>time profiles
+</li><li>other main menu pictures
+</li></ul><p>but also</p>
+<ul><li>worse GSM 1800 reception (in Net there was available special EEPROM content, which made it less visible, but it didn't help in 100%)
+</li><li>problems with battery charging (discharging in carkit)
+</li><li>smaller SMS (75, not 150) and phonebook (225, not 500) memory
+</li><li>slower menu
+</li><li>no HSCSD
+</li></ul><p align="justify">From interesting models classified to first DCT3 generation we should say about phones with Java (3410) or water protection (5210). Many people will remember especially small Nokia 8210 or cheap model 3310 really enough for speeches and SMS.</p>
+<p align="justify">3310 was sold in Asia as 3315 mutation (it looked differently outside and had firmware with few new features). Reminders inside were cut calendar from Nokia 6100 series phones. The most interesting, that firmware for 3310/3315 was shared and regularly updated by Nokia up to 2004 year (over 4 years !). It made 3310 additionally attractive - it can have additionally</p>
+<ul><li>Picture Editor
+</li><li>deleting SMS from folders
+</li><li>automatic keypad locking
+</li></ul><p align="justify">And it required only flashing with version higher than 5.13 + enabling these new features over FBUS.</p>
+<p align="justify">There was also phone with FM radio, USB connector, QWERTY keyboard (5510). Very funny device for many people, because it was for them much bigger Nokia 3330 with added keyboard and 64 MB memory, where speeches were done in very strange position. Please note, that concurrence was giving much more in this moment.</p>
+<p align="justify">Some DMCP tests and sources were written for MyGnokii. This standard was available in few DCT3 (like 6150 with "old" firmware or 8210) like in 8110, in new models (and Smart Messaging 3.0) Nokia resigned from it because of WAP.</p>
+<p align="justify">Nokia put editing linked SMS (there is shown "number of used sms/number of chars left in sms sequence" in editor) and in some models (for example 3310/3410) ability to use GSM/Unicode Alphabet in phone SMS editor (Nokia tried to release firmwares, where phone used Unicode after using even one char non existing in GSM Alphabet, but after users protests resigned from it and finally there was menu switch for setting it). We have seen images editors (for Smart Messaging) too. Finally all phones received "full" infrared support.  EEPROM content in new models was moved from separate EEPROM chip to main flash memory.</p>
+<p align="justify">Somewhere then we had seen first <a href="http://www.oxygensoftware.com/">Oxygen Phone Manager</a> for managing some concrete DCT3 phones.</p>
+<p align="justify">In some moment Nokia stopped to treat DCT3 seriously and we have seen devices (for example 3330 or 5210) with WAP browser taken without any changes from 6210 (when you entered browser menu, you had seen menu layout seen from 6210, which was different from "old" DCT3 devices).</p>
+<p align="justify">In Europe there weren't available phones from this family for example with extended phonebook (like in 7110 or 6210) and small screens, in America it was in analog devices (like in 3320). DCT3 end as cheap phones (like Nokia 2100) and later was finally finished.
+</p></td>
+<td valign="top" align="justify"><b>1998</b>
+<ul><li>Nokia 5100 (5110, 5130,...) and 6100 (6110, 6150, ...) series announced
+</li><li>first GSM network with HSCSD
+</li><li>Nokia 650
+</li><li>started some <a href="http://www.kessler-design.com/">Thomas Kessler's programs</a>
+</li><li><b>Poland</b> - started Fan Club Nokia
+</li><li><b>February Poland</b> - 1'st number of <a href="http://www.t-k.pl/">"Twoja Komórka"</a>
+</li><li><b>1 March Poland</b> - started commercial usage of third GSM network (<a href="http://www.orange.pl">Idea</a> on 1800 Mhz)
+</li><li><b>March</b> - Nokia 9110
+</li><li><b>June Poland</b> - TakTak from <a href="http://www.era.pl">Era GSM</a>
+</li><li><b>21 October</b> - <a href="http://www.gnokii.org">Gnokii</a>
+</li></ul><p><b>1999</b></p>
+<ul><li>"Matrix" movie
+</li><li>first WAP phone (Nokia 7110) announced
+</li><li><b>14 March</b> - started first version of <a href="http://www.mwiacek.com">Marcin Wiącek's personal www page</a>
+</li><li><b>17 May</b> - Smart Messaging 2.0 specification
+</li><li><b>16 July</b> - <a href="http://www.pxh.de/fs/gsmlib/">GSMLib</a> started
+</li><li><b>November</b> - first <a href="http://www.mwiacek.com">Marcin Wiącek's</a> work for <a href="http://www.gnokii.org">Gnokii</a>
+</li><li><b>November</b> - first Nokia Game (in this year in Finland, in next over world) - see <a href="http://www.nokia-game.com/">main</a> and <a href="http://www.nokiagame.boo.pl/">Polish www</a>
+</li></ul><p><b>2000</b></p>
+<ul><li><b>Hackers (Dejav Kaljevic)</b> - getting/setting flash in DCT3 phones
+</li><li><b>1 March Poland</b> - <a href="http://www.plusgsm.pl">Plus GSM</a> and <a href="http://www.era.pl">Era GSM</a> work on GSM 1800 Mhz too, <a href="http://www.orange.pl">Idea</a> work on GSM 900 Mhz too
+</li><li><b>28 April Poland</b> - SMS in TakTak
+</li><li><b>27 September</b> - first time MyGnokii name is used on <a href="http://www.gnokii.org">Gnokii</a> mailing list and file with this name available
+</li><li><b>November</b> - Nokia 9210
+</li><li><b>18 December</b> - Smart Messaging 3.0 specification
+</li></ul></td>
+</tr><tr><td colspan="2">
+<h1>Near past - DCT4 (Nokia OS) &amp; WD2 (Symbian)</h1>
+</td>
+</tr><tr><td align="justify">
+<p align="justify">After DCT3 we have seen DCT4 (non Symbian) and WD2 (Symbian). They were much modern and had new solutions. We will say about few of them:</p>
+<ul><li>7 bars in battery and networks indicators
+</li><li>new simlock system
+</li><li>new IMEI changing protections (it's burned in hardware UEM chip, not written in EEPROM with other phone settings like earlier)
+</li><li>encrypted firmware (both MCU and PPM)
+</li><li>some settings were saved in PM memory (it's similar to old EEPROM and PMM) in flash
+</li><li>new modes for testing and changing some settings (phones need them to accept some FBUS commands, after enabling them "Local mode" or "Test mode" is displayed on device display)
+</li><li>ability to log (network, charging, firmware) parameters changes and reading them during service repair (they can be send to Nokia central database)
+</li><li>displaying firmware version without SIM card
+</li><li>better char counter in SMS editor (it displays chars left in sms/number of used sms)
+</li><li>totally changed many FBUS commands
+</li><li>GPRS
+</li><li>Wallet
+</li></ul><p align="justify">and others. Service software for it had very interesting and saying many things name "Phoenix". The small revolution was visible in flash files too - they had various commands inside and didn't require specifying flashing addresses.</p>
+<p align="justify">DCT4 phones were simply extended 7110/6210/6250 family (had for example improved extended phonebook, SMS memory, good calendar). Many things were/are resolved much better, but there were visible many issues on start of this generation too - the most visible were problems with GPRS and connected with this instabilibility (especially known in first firmware versions for 8310/6610/7210).</p>
+<p align="justify">Nokia decided to leave some Smart Messaging 3.0 features (like downloadable profiles) since this moment, there weren't still EMS pictures and ringtones implemented.</p>
+<p align="justify">Next business phone after 6210 was 6310. Really big success was reached by next model from this line (6310i) - combination of polymer battery, clear monochromatic screen, good keyboard, Java, Bluetooth was shoot into 10 and even now many people good speak about this model and use it. Some solutions (like filesystem or tri-band module for GSM900/1800/1900) were used in later DCT4. It didn't have FM radio like 8310, but it wasn't very important for users.</p>
+<p align="justify">6310/6310i had a little better protected battery against disconnecting in form of plastic strip put in phone cover. It was filling space between phone and battery (Nokia even added it to many 6210 during repairs in services). There were sometimes problems with flashing (first) Nokia 6310i in services - many phones had to be sent to central services, because were dead after flashing with Nokia tools.</p>
+<p align="justify">Somewhere then (April 2002) MyGnokii was finally end and we have seen Gammu (under first name MyGnokii2). It was first OpenSource software for managing both "old"/"new" DCT3 and DCT4 phones (real support for this last generation was started somewhere in July 2002).</p>
+<p align="justify">In this time Josip M said to world, that Nokia will start hiding netmonitor from ordinary users.</p>
+<p align="justify">Few words about DCT4 netmonitor were spoken - tests are sorted in groups, it's easier to change values in tests (BTS test and similiar). According to this source netmonitor won't be available in MCU files put in services to phones.</p>
+<p align="justify">The same man found, that Symbian phones will have special application put in ROM (Z: drive). He extracted such "Field test" application from 3650 prototype. After some changes it worked almost 100% good in 6600 and some 7650 from C: drive. It didn't work with "normal" 3650.</p>
+<p align="justify">In May 2002 <a href="http://www.sonyericsson.com">Sony Ericsson</a> released firmware upgrade from T68/T68m to T68i (available for free in services). It made this phone first SE phone with MMS...and it was probably first world device with MMS (at least it was available for users similiary with 7650). It had GPRS, Bluetooth, 12 games (in last firmware R8 available without hidding) and other nice features too.</p>
+<p align="justify">When we speak about GPRS, let's reming GPRS Online issue. In some moment Nokia decided, that each time, when you leave WAP browser menu or end data call, phone will disconnect from GPRS. Now imagine, that your operator take money for each started 100kb data and you enter WAP and download each time 9kb. Without GPRS active after leaving WAP you will have to pay for 9 x 100kb, with it only for one 100kb. World had seen this somewhere in August 2002.</p>
+<p align="justify">There was also another interesting issue - in first DCT4 after incorrect connecting to GPRS (because of wrong settings in phone menu) you wasn't able to send USSD code.</p>
+<p align="justify">Michal Čihař started to support Gammu somewhere in October 2002, first donation for it was made in December 2002 by Tomasz Motylewski. A little bit later there was started EMS implementing.</p>
+<p align="justify">Some first "unofficial" flashing solutions for DCT4 were available almost from its' start. Let's remind for example China flashers, LP2002 and similiar. They didn't give ability for example for changing IMEI or had problems with flashing Bluetooth.</p>
+<p align="justify">Software for removing simlocks for some DCT4 models was videly available somewhere in time of Nokia 6310i 4.80 and it was possible to use it after connecting phone to PC using normal cable (later solutions were implemented in flashers only).</p>
+<p align="justify">There was created extension of 5510 idea - model 3300. It had (as the only one DCT4) MMC cards reader.</p>
+<p align="justify">DCT4 was nice, but some people decided to stay with DCT3 devices, because in new generation it wasn't possible to activate netmonitor or patch firmware. People started to modify ready firmware and create versions with fading screen/keyboard lights (in Nokia firmwares it was available for DCT4 only), own games, menus, ringtones, pictures and other. We have seen such projects and tools like MADos, NokiX or G3n0lite. People started even to make sets of own modifications. Probably the most popular flasher became Knok released under GNU GPL license (somewhere in Net there is even now possible to find its' source).</p>
+<p align="justify">Later we have seen era of colour screens DCT4 devices (thanks to donors support for them was started in Gammu somewhere in April/May 2003). They were critized many times, because had passive displays with fading effect and short standby time. Nokia finally resigned from external batteries, "normal" games (they were replaced by Java applications), added CIF/VGA cameras, polyphonic ringtones and full OBEX. We heard about CP flash files with filesystem content (Java games, Gallery, etc.).</p>
+<p align="justify">Mike Bradley (author of Logo Manager) prepared <a href="http://www.logomanager.co.uk">MobiMB</a>, <a href="http://www.oxygensoftware.com">Oxygen Software</a> started to write <a href="http://www.oxygensoftware.com">Oxygen Phone Manager II</a> for managing DCT3 and DCT4 phones.</p>
+<p align="justify">In some moment we had started to see PopPort connector instead of bottom connector used from model 6110 (DCT3 !) time. Nokia started to sell cables for connecting phones with PopPort with PC using USB - first there were DKU5 cables with own USB converter inside, later DKU2 and DCA-51, which were only simple voltage converters (new DCT4 phones had USB converters inside).</p>
+<p align="justify">Faster datacalls (than using GPRS or HSCSD) in "normal" GSM networks were provided by EDGE (download up to 118,4 kbps). First phone with it was Nokia 3200 announced in September 2003.</p>
+<p align="justify">For (datacalls in) UMTS Nokia prepared model 6650. It is known from one thing too - is probably the only one phone since DCT3 (excluding Communicator line) with external antenna.</p>
+<p align="justify">There were small updates prepared by Nokia in higher firmware versions for some phones - for example in Nokia 6100 there was added "Go to" menu in 5.16 version.</p>
+<p align="justify"><font color="red">All WD2 and starting from some time all DCT4 didn't have functions for call costs in firmware and didn't work with SimPlus. It finally made, that Polish operator had to change platform for this prepaid service (in 2005). In many DCT4 Nokia decided to resign from "Pending" delivery reports for SMS too.</font></p>
+<p align="justify">DCT4 flashers were more and more complex. In some moment we had seen first solutions for changing IMEI (by reprogramming empty UEM chips and putting them into phones instead of original), there was also cracked simlock protection system. The most famous name Griffin is connected with device started somewhere in this time. It was like many other devices later updated and able to flash DCT3 and DCT-L phones too.</p>
+<p align="justify">Flashers market became very big - for example each calculating UEM chip content (calculating RPL from ASK files) is done on flasher team server and cost, access to phone flashes cost, etc. In some moment there was given possibility (for money) of some phone updates - for example from Nokia 7250 to 7250i.</p>
+<p align="justify">Nokia extended cheap phones line too. First was Nokia 3510 with:</p>
+<ul><li>screen even better than in 6310i
+</li><li>first MMS implementation in DCT4 (this was also probably the only one phone model on the world with MMS and mono screen)
+</li></ul><p align="justify">It was available in the same time with model 3410 from DCT3 generation, but didn't have Java. Later model 3510i used by many people as next phone after DCT3 device Nokia 3310.</p>
+<p align="justify">In new cheap models Nokia went into two ways - first were phones with colour screens (like 3100), second with mono displays (1100 and other). Some of them didn't have GPRS or other "current" DCT4 specific features (for example Nokia returned to "old" games instead of Java).</p>
+<p align="justify">In some moment hackers found way for generating simlock removing codes. They cloned dongles sent to GSM operators (who were able to generate codes for their users). After connecting such piece of hardware to PC users were able to</p>
+<ol><li>enter phone IMEI and network code
+</li><li>it was sent to dongle
+</li><li>code was generated and displayed to user.
+</li></ol><p align="justify">It was enough to write such code on phone keyboard and it was unlocked. Code didn't work, if somebody tried to unlock earlier phone using incorrect code 5 or more times.</p>
+<p align="justify">Each dongle had own number. When Nokia found numbers of cloned devices, started to block using generated with them codes in phone firmwares. It was visible first time in 3510i and 7650 (they didn't react for codes created with first cloned dongles). Next trick was using incorrect network code (when device with IMEI starting from specific digit sequences or some phone model was locked to concrete network, it was required to give specific network code for generator). The last one method used by Nokia was assigning new models to one of 10 various types (code for each type used different alghoritms).</p>
+<p align="justify">It was big market and each new version of dongles was sold by big money. Finally dongles internals were moved into PC software and starting for this moment generators were videly available for free. In some moment there were created even "multi" generators able to create codes for older DCT3 and other phones too.</p>
+<p align="justify">After some time Nokia services tried to fight with it. In the moment, when users were giving phones with removed simlocks for warranty repair, services were trying to proove, that phones were originally with simlocks, users used "illegal" codes (not described in manual) and because of it made unathourized phone change.</p>
+<p align="justify">Under pressure of other manufactures Nokia had to start making clamshells too - first was Nokia 7200.</p>
+<p align="justify">Nokia extended WD2 family with Symbian too. It was designed as expensive/featured phones for "normal" people. And Nokia implemented inside them first time some things - for example</p>
+<ul><li>MMS (Nokia 7650)
+</li><li>Bluetooth (Nokia 7650)
+</li><li>camera (Nokia 7650)
+</li><li>Java 2.0 implementation (Nokia 6600)
+</li></ul><p align="justify">All phones were assigned into software platform series - for example DCT4 phones became Series 40 (versions 1.0, 2.0 and 3.0) and WD2 Series 60. Nokia started to publish info about some firmware bugs and changes too (for example in Java implementation).</p>
+<p align="justify">Symbian devices were critized for slow work, very short standby time, big size...and much worse standard SMS editor than in DCT3/DCT4 (it uses Unicode in SMS without notifying user, when one char is not available in Default SMS Alphabet). Many of these problems weren't eliminated even in current models.</p>
+<p align="justify">The only one serious program for managing them in Windows became <a href="http://www.oxygensoftware.com">Oxygen Phone Manager II for Symbian OS phones</a>.</p>
+<p align="justify">Nokia Symbian phones started to use RS-MMC cards instead of MMC. After 6600 Nokia started to cut off infrared in almost all new models, although it was very usefull sometimes (there was proposed PopPort instead).</p>
+<p align="justify">Nokia tried to make "game" line of devices based on Symbian. First was NGage, where speeches were done similiary like in "funny" Nokia 5510, there wasn't possible to swap easy MMC cards with games and were many other ergonomic problems. Some were eliminated in new model NGage QD, but it wasn't too popular too.</p>
+<p align="justify">Big manufacturer vision wasn't enough especially, that hackers cracked (easy) games protections and it was possible to play NGage]/NGage QD games on other Symbian devices (starting from November 2003), where at least speeches were done normally. Nokia had to resign from this line in 2005 year.</p>
+<p align="justify">It was second time, when Symbian phone wasn't popular enough (first time it happened with 3650 with non-standard and non-practical round keyboard).</p>
+<p align="justify">Although they had problems, Nokia extended Symbian platform and we can speak about few software generations implemented in WD2:</p>
+<ul><li>Series 60 1st edition (Symbian 6.1), in some sites classified as Series 60 0.9 - Nokia 7650
+</li><li>Series 60 1st edition (Symbian 6.1), in some sites classified as Series 60 1.0  - for example in Nokia 3650, 3660
+</li><li>Series 60 2nd edition (Symbian 7.0s) with possible MIDP 2.0, in some sites classified as Series 60 2.0 - for example in Nokia 6600
+</li><li>Series 60 2nd edition Feature Pack 1 (Symbian 7.0s) with possible USB, in some sites classified as Series 60 2.1 - for example in Nokia 7610
+</li></ul></td>
+<td valign="top" align="justify"><b>2001</b>
+<ul><li><b>March</b> - first DCT4 phone (Nokia 8310) announced
+</li><li><b>13 September</b> - New York and World Trade Center
+</li><li><b>1 October</b> - <a href="http://www.sonyericsson.com/">Sony Ericsson Mobile Communications</a> (the joint venture between Telefonaktiebolaget LM Ericsson and Sony Corporation) starts operations
+</li><li><b>25 October</b> - Windows XP launched
+</li></ul><p><b>2002</b></p>
+<ul><li><b>Hackers (Dejav Kaljevic)</b> - getting flash from DCT4 phones
+</li><li><b>March</b> - Nokia 9210i
+</li><li><b>March/3Q</b> - first colour screen phone Nokia 7210 announced and available
+</li><li><b>April</b> - Josip M extracts netmonitor from Nokia 3650 prototype. It's working in Nokia 7650 3.x and Nokia 6600
+</li><li><b>April</b> - Gammu (under old name MyGnokii2) launched
+</li><li><b>May</b> - first <a href="http://www.sonyericsson.com">Sony Ericsson</a> phone with MMS (T68i)
+</li><li><b>August</b> - some first Gammu+ thinking
+</li><li><b>2 June</b> - created <a href="http://freshmeat.net/projects/gammu/">freshmeat.net account for Gammu</a>
+</li><li><b>October</b> - Gammu is Gammu now
+</li><li><b>13 November</b> - <a href="http://www.mwiacek.com">Marcin Wiącek's personal www</a> available under current address <a href="http://www.mwiacek.com">www.mwiacek.com</a>
+</li><li><b>December</b> - T-Mobile UK has withdrawn the Nokia 7210 from sale due to continued instability of the handset....
+</li><li><b>23 December Poland</b> - GPRS in TakTak
+</li></ul><p><b>2003</b></p>
+<ul><li><b>Hackers</b> - first DCT4 phones simlock generators
+</li><li><b>June Poland</b> - MMS in TakTak
+</li><li><b>October</b> - first TIKU (Nokia 6230) announced
+</li><li><b>16 October</b> - some first source for Gammu+ written
+</li><li><b>27 October</b> - first Nokia clamshell (model 7200) announced
+</li><li><b>26 November</b> - first Michal Čihař's info about Python-Gammu and Wammu
+</li><li><b>October - December</b> - some wrong done tries of changing Gammu licence to LGPL
+</li></ul></td>
+</tr><tr><td colspan="2">
+<h1 tiku="" os="" ape="">
+</h1></td>
+</tr><tr><td valign="top" align="justify">
+<p align="justify">Communicators from Nokia 9210 series were replaced by APE devices - 9300 and 9500. 9500 has got WiFi as first Nokia phone.</p>
+<p align="justify">Since some moment in 2004 there were offered DCT4 phones with netmonitor enabled (sold from some www sites). </p>
+<p align="justify">There were more Symbian applications for WD2 available (January 2005 and later). Unfortunately they didn't work 100% OK (problems with some parameters values and BTS test) and didn't give full netmonitor (battery and phone tests with network tests). Nokia lawyers forced removing them from some sites year later (January 2006).</p>
+<p align="justify">According to some sites there was funny accident in CeBIT 2004. Nokia was sending SMS in Smart Messaging format to invite customers. Some phones (for example some 3510i, 5100, 6100) had to be given to service after receiving it (because phones had firmware bugs, incorrectly received SMS and damaged flash memory content)...</p>
+<p align="justify">Nokia decided to drop 7700 model, which was earlier announced as first Series 90 device. In 2005 there was available 7710 instead.</p>
+<p align="justify">Extension of DCT4 devices is TIKU generation. It can be flashed and unlocked like older DCT4.</p>
+<p align="justify">TIKU was started from Nokia 6230 with LCD screen, MMC cards and new filesystem. This model was though as 6310i replacement. Many people critised it because of wrong joystick. There were some <a href="http://www.mobile-review.com/articles/2004/nokia6230-en.shtml">infos about wrong quality of some phone series too</a>.</p>
+<p align="justify">Joystick was fixed (with many other things) in improved version 6230i (and many people started even to sell "new" keyboards to "old" model). Unfortunately, standby times weren't improved.</p>
+<p align="justify">Thanks to donors Gammu got support for both of them (especially filesystem) in 2004/2005 year. Generally this software is good enough for Series 40 phones now and development here is connected mainly with fixes. From bigger and missed things - there was added working MMS in end of 2005.</p>
+<p align="justify">In the same time there are created SMS for Gammu+. Work goes slow, but some progress is visible.</p>
+<p align="justify">Nokia had to make warranty period longer (24 instead of 12 months), because it was done by other manufactures.</p>
+<p align="justify">Near the end of 2005 year it was found by JAF flasher team, that the truth is, that in DCT4/TIKU netmonitor is enabled by changing few bytes in each MCU file given by Nokia before flashing it to phone. There are created ready full MCU files with it and files with patch only for some models too. Netmonitor works 100% OK. It's still limited to network tests only.</p>
+<p align="justify">There are first rumours about changing IMEI in new families (like DCT4) without replacing UEM's.</p>
+<p align="justify">In March 2006 gammu.net disappeared from Internet, in April there is some work for reactivating it done...and we have gammu.org instead.</p>
+<p align="justify">We have www sites generating master codes for Nokia devices (they can be used instead of each Security Code protecting phone)</p>
+<p align="justify">New models became Series 40 3.0. SMS are saved in filesystem, there is assigning delivery reports to sent SMS, Class 0 SMS and some other nice features. But not all changes are good: for example it's difficult to get SIM SMS, network and battery indicators are very small and there is worse SMS editor (especially chars counter). Some <a href="http://www.mobile-review.com/review/nokia-6131-3-en.shtml">review of it is here</a>, there is big <a href="http://www.mobile-review.com/review/k800vs6233-en.shtml">comparision with Sony Ericsson A100 platform</a> too.</p>
+</td>
+<td valign="top" align="justify" rowspan="3"><b>2004</b>
+<ul><li><b>February</b> - first APE (Nokia 9500) announced
+</li><li><b>March</b> - DCT4 (later TIKU too) phones with netmonitor can be bought from some WWW sites
+</li><li><b>13 March Poland</b> - <a href="http://www.heyah.pl">Heyah</a>
+</li><li><b>13 April</b> - <a href="http://www.gnokii.org">Gnokii</a> has got ability for supporting Symbian phones
+</li><li><b>1 May</b> - Poland is in European Community
+</li><li><b>June</b> - first Series 60 phones virus (EPOC.Cabir)
+</li><li><b>June</b> - Nokia drops Nokia 7700
+</li><li><b>30 July</b> - firmware page from <a href="http://www.mwiacek.com">Marcin Wiącek</a> suspended
+</li><li><b>26 July Poland</b> - 1 second call time counting in TakTak (Happy)
+</li><li><b>August Poland</b> - first UMTS (<a href="http://www.era.pl">EraGSM</a>)
+</li><li><b>5 September</b> - first donation for Gammu after running <a href="http://www.paypal.com">PayPal</a> account and other on Marcin's donation subpage
+</li><li><b>September</b> - Bluetooth security fix for various Series 40 phones
+</li><li><b>3 October</b> - first Marcin Wiącek's RSS available (for Gammu)
+</li></ul><p><b>2005</b></p>
+<ul><li><b>1 January Poland</b> - blocking IMEI's from stolen phones in all 3 networks
+</li><li><b>January</b> - there are available some netmonitor applications for almost each WD2 phone
+</li><li><b>March</b> - first Gammu Snofs info
+</li><li><b>March</b> - mailing lists for our software (Gammu, etc.) on <a href="http://www.sourceforge.net">SourceForge.NET</a>
+</li><li><b>1 April</b> - gammu.net started
+</li><li><b>1 April</b> - 24 months of warranty for Nokia phones
+</li><li><b>14 July</b> - Wiki for Gammu available
+</li><li><b>19 September Poland</b> - Idea is <a href="http://www.orange.pl">Orange</a> now
+</li><li><b>1 October</b> - Siemens Mobile Devices are bought by <a href="http://www.benqmobile.com">BenQ Mobile</a>
+</li><li><b>10 October Poland</b> - Polish operators allow to test number portability
+</li><li><b>November</b> - <a href="http://opensource.nokia.com">OpenSource site on nokia.com</a> launched
+</li><li><b>November</b> - Hackers: there is available netmonitor for many DCT4/TIKU (Series 40) Nokia phones
+</li><li><b>28 December Poland</b> - <a href="http://www.tpsa.pl">TPSA</a> disables last analogue phone/branch exchange
+</li></ul><p><b>2006</b></p>
+<ul><li><b>19-21 January Poland</b> - <a href="http://www.plusgsm.pl">PlusGSM</a> updates Sicap platform and SimPlus, SamiSwoi, MixPlus don't work correctly
+</li><li><b>30 June Poland</b> - <a href="http://www.fkn.pl">www.fkn.pl</a> sold by Radek Wrocławski
+</li><li><b>28 September</b> - German BenQ Mobile is bankrupt
+</li></ul></td>
+</tr><tr><td>
+<h1>Present - BB5 (Symbian, Nokia OS)</h1>
+</td>
+</tr><tr><td align="justify" valign="top">
+<p align="justify">Symbian devices were extended in BB5 generation (BB is probably from BaseBand). These were for example 6630 (this is first Nokia Series 60 phone with UMTS) and later all "N" series starting from N90 model.</p>
+<p align="justify">Many of them are much bigger, with better cameras (N90 has got optic from Carl Zeiss), but still have many WD2 disadvantages. <font color="red">In some of them from unknown reason there was changed charger connector too (there is available easy mechanical converter from "old" one).</font></p>
+<p align="justify">We have seen usage of various memory cards. First there were dual voltage (1.8/3.0V) RS-MMC (for example in Nokia 6630), now microSD (for example in Nokia 3250) and miniSD (for example in Nokia N70) too.</p>
+<p align="justify">According to some forums there are used two procesors in BB5 - one RAP3G and one based on OMAP 1710. All simlock and similiar datas are protected with certificates and other new methods (BB5 aren't unlockable now). It was possible to prepare 3rd party flashing support for them only (for Griffin and others). These phones can be flashed over PopPort too.</p>
+<p align="justify">We can speak about continuation of Series 60 in BB5:</p>
+<ul><li>Series 60 2nd edition Feature Pack 2 (Symbian 8.0a) with possible WCDMA implementation, in some sites classified as Series 60 2.6 - for example in Nokia 6680
+</li><li>Series 60 2nd edition Feature Pack 3 (Symbian 8.1a) with possible scalable UI, in some sites classified as Series 60 2.8 - for example in Nokia N70
+</li><li>Series 60 3rd edition (Symbian 9.1), in some sites classified as Series 60 3.0 - for example in N91
+</li><li>Series 60 3rd edition Feature Pack 1 (Symbian 9.2) - <a href="http://www.mobile-review.com/review/nokia-s60-3dfp1-en.shtml">http://www.mobile-review.com/review/nokia-s60-3dfp1-en.shtml</a>
+</li></ul><p align="justify">The most interesting is Series 60 3nd edition, because Symbian 9.1 uses kernel EKA2 running in real time. There are many security improvements. Unfortunately it all makes, that many Series 60 1st and 2nd edition applications WILL NOT WORK with Series 60 3nd edition devices. More about these things is described for example in <a href="http://www.mobile-review.com/review/series60v3fp1-en.shtml">article in Mobile-review.com</a>.</p>
+<p align="justify">There were available netmonitor applications for some BB5 (for example 6630, not for "N" series) in Internet during period January 2005 - January 2006. In original netmonitor enabled phones in 2005 Nokia moved netmonitor from application (C drive) to ROM part again (Z drive) and probably protected with certificates.</p>
+<p align="justify">Nokia finally started to put Series 40 software into BB5 hardware generation too (example - 6125). New models (like 6233) use microSD memory cards instead of MMC.</p>
+<p align="justify">We have also more and more voices about poor quality of firmware, bugs, short standby time - see <a href="http://www.mobile-review.com/review/nokia-n80update-en.shtml">article from Mobile Review</a>. And some voices about Nokia strange solutions - see <a href="http://www.mobile-review.com/review/nokia-6131-en.shtml">article about Nokia 6131 display</a>.</p>
+<p align="justify">Somewhere in May/June 2006 it was published "unofficialy", how to upgrade firmware in BB5 using DKU2 or similiar cable and cracked version of Phoenix + few other tools. We know, that it could possible "officialy" Over-Air (it will be called FOTA) in Series 60 Feature Pack 1 (see <a href="http://www.mobile-review.com/review/nokia-s60-3dfp1-en.shtml">description</a>). For now it looks, that first phones with FOTA will be from Series 40 - for example it will be Nokia 6131.</p>
+<p align="justify">Nokia N92 will be first model without Pencil key.</p>
+<p align="justify">According to <a href="http://www.tekrati.com/research/News.asp?id=7485">some sources</a> Nokia was growing much slower (32%) than Motorola (52%) in second quarter of 2006 year.</p>
+<p align="justify">German BenQ Mobile is bankrupt. Probably no more Siemens handsets in Europe. <a href="http://www.mobile-review.com/articles/2006/benq-siemens-end-en.shtml">More...</a>.</p>
+<p align="justify">In May 2007 unlocking BB5 going to be possible (almost) for free...
+</p></td>
+</tr><tr><td colspan="2">
+<h1>Future...</h1>
+<p align="justify">Series 60 will be extended (see <a href="http://www.mobile-review.com/review/nokia-s60-future-en.shtml">info about some possible plans</a>), but Nokia will finally probably resign from it. We don't know, what will be about Series 40 - will be it for lowend devices ?</p>
+<p align="justify">What next ? Maybe Linux ?
+</p></td>
+</tr></table>

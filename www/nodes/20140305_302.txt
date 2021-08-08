@@ -1,0 +1,40 @@
+﻿Title:Igrzyska...
+Author:marcin
+When:05 Mar 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Kolejne Igrzyska Śmierci są rozpoczęte,<br />
+karty rozdane, zaś srebrniki już wzięte,<br />
+rozrywka zaś przez to tylko lepsza będzie,<br />
+że trybutów na ochotnika więcej wszędzie,</p>
+<p>bratnia pomoc również została uchwalona,<br />
+na bank potrzebującym będzie udzielona,<br />
+wierzmy tym co prowadzą do wolności cudu,<br />
+nikt na pewno nie skrzywdzi żadnego ludu,</p>
+<p>wszyscyśmy tak tolerancyjną rodziną,<br />
+na pewno potrzeby nikogo nie zginą,<br />
+krzewmy zasady postępowego świata,<br />
+niechaj utrwalone będą na długie lata,</p>
+<!--break-->
+<p>i tak w pracy razem się kontrolujmy,<br />
+a tylko ewangelistów mądrych szanujmy,<br />
+i niepokornych bierzmy na przetrzymanie,<br />
+niechaj sami uciekną szkodniki i dranie,</p>
+<p>i ważne żebyśmy też wciąż pamiętali<br />
+fochać gdy na fejsie nieprawdę się wali,<br />
+sami nie zapominajmy tam zamieścić<br />
+nawet z kim i gdzie będziemy się pieścić,</p>
+<p>narzekajmy jak tygodniami nikt nie chce,<br />
+a jak ktoś chce to bądźmy dlań jak powietrze,<br />
+uciekajmy daleko bowiem dzieci drogie,<br />
+bo związki to są tylko problemy mnogie,</p>
+<p>chwalmy się pięknymi kotami i psami,<br />
+nie szokujmy nigdy żadnymi uczuciami,<br />
+a gdy będziemy się już prawie schylali,<br />
+niech hipotekę na odwrót każdy chwali,</p>
+<p>bo życie mamy w Dystrykcie szczęśliwe,<br />
+tolerancyjne, jak tęcza jest urokliwe,<br />
+i aż woda ciepła leci nam z kranu,<br />
+nie ma więc o co robić rabanu....</p>

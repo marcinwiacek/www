@@ -1,0 +1,72 @@
+﻿Title:Konkurs fizyczny - etap rejonowy
+Author:marcin
+When:03 Jun 1999
+Taxonomy:Polski,Polski artykuł,Fizyka
+SkipMain:true
+
+<p></p><center><a name="Top" id="Top"></a><br /><h1>Zadania</h1>
+<p></p></center>
+<p><font color="#1F409F" size="+2" class="dzial"><b>1994/95 (10.12.1994)</b></font><br /></p>
+<!--break-->
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>2 kondensatory o pojemnościach C<sub>1</sub> i C<sub>2</sub> połączono równolegle, a następnie dołączono do baterii o sile elektromotorycznej E. Oblicz pracę W wyciągnięcia dielektryka spomiędzy okładek pierwszego kondensatora, jeżeli względna przenikalność elektryczna tego dielektryka wynosi <font face="Symbol">e</font>, a wyciąganie nastąpiło po uprzednim odłączeniu kondensatorów od baterii.</li>
+<li>W klocek o masie M, wiszący swobodnie na nici, wbija się pocisk o masie m wystrzelony z prędkością V z punktu znajdującego się w odległości h dokładnie pionowo poniżej klocka. Oblicz ciepło Q wydzielone przy wbijaniu się pocisku w klocek oraz wysokość H, na jaką wzniesie się klocek po trafieniu pociskiem.</li>
+<li>Ogniwo, opornik i woltomierz połączone szeregowo tworzą obwód elektryczny. Woltomierz wskazuje napięcie U<sub>1</sub> = 6 V, gdy opornik ma rezystancję R<sub>1</sub> = 10 k<font face="Symbol">W</font>, a napięcie U<sub>2</sub> = 5 V, gdy rezystancja wynosi R<sub>2</sub> = 15 k<font face="Symbol">W</font>. Oblicz siłę elektromotoryczną ogniwa E oraz rezystancję woltomierza R<sub>v</sub>, jeżeli rezystancja wewnętrzna ogniwa jest k = 0,001 częścią rezystancji woltomierza.</li>
+<li>Ogniwo o sile elektromotorycznej E i rezystancji wewnętrznej r dołączono do dwóch poziomych i równoległych szyn, a obwód zamknięto prostopadłym do szyn prętem o długości d. Obwód stale znajduje się w jednorodnym polu magnetycznym o indukcji B skierowanej prostopadle do szyn i do pręta.
+<p></p><ol type="a"><li>Oblicz maksymalne natężenie prądu I w obwodzie oraz maksymalną prędkość V, z którą pręt ślizga się po szynach, jeżeli między prętem i szynami występuje siła tarcia T, zaś rezystancję szyn i pręta można zaniedbać.</li>
+<li>Sprawdź, czy moc, z jaką pracuje ogniwo jest równa mocy grzania oporu wewnętrznego ogniwa, gdy prędkość pręta jest maksymalna.</li>
+</ol><p>
+</p></li>
+<li>N moli gazu o cieple molowym przy stałej objętości C<sub>v</sub> rozpręża się od objętości V<sub>0</sub> do objętości 3V<sub>0</sub> według przemiany, w której ciśnienie p jest stale wprost proporcjonalne do objętości V zgodnie z zależnością p = <font face="Symbol">a</font>V. Oblicz pobrane ciepło Q i ciepło właściwe C takiej przemiany. <font face="Symbol">a</font> jest<br />
+dane.</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><b>1996/97 (14.12.1996)</b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Pocisk o masie m<sub>1</sub>, lecący poziomo z prędkością V<sub>1</sub>, wbija się w klocek o masie m<sub>2</sub> spoczywający u podstawy równi o kącie nachylenia <font face="Symbol">a</font> do poziomu. Na jaką wysokość podjedzie klocek wzdłuż równi ? W rozwiązaniu zaniedbaj tarcie oraz załóż, że czas zderzenia pocisku z klockiem jest bardzo krótki.</li>
+<li>W cylindrze zamkniętym tłokiem o ciężarze P znajduje się gaz o masie M (jego masa molowa jest równa <font face="Symbol">m</font>). Do środka tłoka przymocowano pręt B połączony z poziomą dźwignią o długości l podpartą w punkcie A. Gaz jest równomiernie ogrzewany, a jego temperatura zmienia się w czasie t zgodnie z równaniem T = T<sub>0</sub> + bt. Ciężarek o masie m należy przesuwać w lewo tak, aby w czasie ogrzewania tłok nie zmieniał swego położenia. Odległość tłoka od dna naczynia wynosi h. Określ, jaką funkcją czasu jest położenie ciężarka m. Pomiń tarcie.<br /><center><img src="sites/default/files/125/image03.gif" height="126" width="153" /></center>
+</li>
+<li>Na każdym z końców odcinka o długości l umieszczona jest unieruchomiona cząstka <font face="Symbol">a</font>. W płaszczyźnie symetralnej tego odcinka krąży elektron po okręgu o promieniu r. Oblicz pracę przemieszczenia tego elektronu na współśrodkowy okrąg o promieniu 2r.</li>
+<li>Fotokomórkę podłączono do czułego mikroamperomierza i wstawiono w pole magnetycznie (równolegle do B). Miernik wskazuje przepływ prądu, gdy fotokomórkę oświetla promieniowanie o długościach fal <font face="Symbol">l</font> &lt; <font face="Symbol">l</font><sub>0</sub>. Po wyłączeniu pola magnetycznego prąd jest rejestrowany wówczas, gdy padające promieniowanie spełnia warunek <font face="Symbol">l </font>&lt; <font face="Symbol">l</font><sub>1</sub>. Wyznacz indukcję pola magnetycznego wiedząc, że odstęp między elektrodami fotokomórki jest równy d.</li>
+<li>Na niewielką, idealnie pochłaniającą światło płytkę o masie m = 10 mg, zawieszoną na kwarcowej nici o znikomej masie i o długości 20 mm pada prostopadle impuls światła laserowego. Pod wpływem impulsu układ odchyla się od pionu o kąt 0,6°. Oszacuj energię (impulsu) błysku lasera.</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial"><b>1997/98 (29.11.1997)</b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Pocisk lecący poziomo z prędkością V, na wysokości H rozrywa się na 2 równe części. Jedna część porusza się pionowo w dół i spada na Ziemię po upływie czasu t od momentu wybuchu. Znajdź wartość i kierunek wektora prędkości drugiej części pocisku bezpośrednio po rozerwaniu. Określ, jak będzie poruszać się druga część pocisku (wykonaj odpowiedni rysunek).</li>
+<li>W naczyniu z tłokiem znajduje się gaz o temperaturze t<sub>1</sub> = 27°C. Wysokość słupa gazu wynosi h = 0,9 m. Nad naczyniem umieszczono soczewkę o zdolności skupiającej z = 5 dioptrii w takim położeniu, że wytwarza ona rzeczywisty obraz górnej powierzchni tłoka dwukrotnie zmniejszony. Do jakiej temperatury należy ogrzać gaz, aby soczewka wytworzyła obraz tej powierzchni tłoka dwukrotnie powiększony ? W rozwiązaniu zaniedbaj tarcie tłoka o ścianki naczynia, masę tłoka i rozszerzalność cieplną naczynia.<br /><center><img src="sites/default/files/125/image04.gif" height="123" width="89" /></center>
+</li>
+<li>Okładki płaskiego kondensatora powietrznego o powierzchni S i wysokości h skierowano pionowo i ustawiono tak, aby były zanurzone w cieczy dielektrycznej do wysokości 0,3(3)h. Oblicz, jakim ładunkiem należy naładować kondensator, aby ciecz wypełniła całą przestrzeń między jego okładkami. Gęstość cieczy wynosi <font face="Symbol">r</font>, a jej względna przenikalność dielektryczna <font face="Symbol">e</font><sub>r</sub>.<br /><center><img src="sites/default/files/125/image05.gif" height="118" width="73" /></center>
+</li>
+<li>Dla obwodu przedstawionego na rysunku policz
+<p></p><ol type="a"><li>Natężenie prądu płynącego w oporniku o R = 2 <font face="Symbol">W</font></li>
+<li>Różnicę potencjałów między punktami A i B</li>
+</ol><p> <br />Siła elektromotoryczna <font face="Symbol">e</font><sub>1 </sub>= 12 V, a <font face="Symbol">e</font><sub>2 </sub>= 8 V. </p><center><img src="sites/default/files/125/image06.gif" height="115" width="164" /></center>
+</li>
+<li>Wiązka jonów o ładunku +q przechodzi przez dwie szczeliny S1 i S2 i wpada w skrzyżowane pola: elektryczne E<sub>0</sub> (pomiędzy płytkami P1 i P2) oraz pole magnetyczne o indukcji B<sub>0</sub> skierowanej prostopadle do rysunku. Przez szczelinę S3 umieszczoną na końcu tego obszaru przedostają się tylko jony, których tor nie uległ zakrzywieniu i wchodzą do obszaru, w którym istnieje tylko pole magnetyczne B<sub>0</sub>. Wektor B<sub>0</sub> jest prostopadły do wektora prędkości jonów. W polu magnetycznym jony poruszają się po okręgach o promieniach r<sub>1</sub> i r<sub>2</sub>. Oblicz masy izotopów wchodzących w skład wiązki jonów.<br /><center><img src="sites/default/files/125/image07.gif" height="135" width="175" /></center>
+</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><a name="Z_R98" id="Z_R98"></a><font color="#1F409F" size="+2" class="dzial"><b><a class="dzial" href="#R_R98">1998/99 (28.11.1998)</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>Baza kosmiczna została zbudowana w środku wystygłej planety o promieniu R i masie M, rozłożonej ze stałą gęstością. Statki kosmiczne są wystrzeliwane ze środka tej planety przez wydrążone w niej tunele. Z jaką minimalną prędkością V<sub>0</sub> powinny być wystrzeliwane statki, aby mogły wydostać się z pola grawitacyjnego planety bez użycia własnego napędu ? Wynik wyraź za pomocą przyśpieszenia g na powierzchni planety i promienia R planety.</li>
+<li>Ścianki, tłok i przegroda cylindra są wykonane z materiału nie przepuszczającego ciepła. Cylinder składa się z dwóch komór przedzielonych przegrodą z zaworem. Otwiera się on wtedy, gdy ciśnienie po prawej stronie jest równe lub wyższe niż po lewej. Początkowo po lewej stronie cylindra w obszarze o długości l znajdował się jednoatomowy gaz doskonały o masie m<sub>1</sub>, a po stronie prawej (o tej samej długości) taki sam gaz o masie m<sub>2</sub> (m<sub>1</sub> &gt; m<sub>2</sub>). W obu częściach temperatura początkowa wynosiła T<sub>0</sub>. W pewnej chwili zaczęto przesuwać tłok w stronę przegrody. Gdy zawór otworzył się, tłok został zatrzymany. Jaka była temperatura końcowa po osiągnięciu stanu równowagi ?</li>
+<li>W obwodzie elektrycznym dane są: <font face="Symbol">e</font><sub>1</sub>, <font face="Symbol">e</font><sub>2</sub>, r<sub>1</sub>, r<sub>2</sub>, R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>, C; gdzie C to pojemność kondensatora. Określ:
+<p></p><ol type="a"><li>Napięcie pomiędzy płytkami kondensatora.</li>
+<li>Ładunek zgromadzony na kondensatorze.</li>
+<li>Zmianę ładunku na płytkach kondensatora po ich rozsunięciu na odległość d<sub>1</sub> = 2d.</li>
+</ol><p></p><center><img src="sites/default/files/125/image08.gif" height="86" width="217" /></center>
+</li>
+<li>Prostokątna ramka z drutu o bokach a i b porusza się jednostajnie z prędkością V w kierunku prostopadłym do nieskończenie długiego, prostoliniowego przewodnika leżącego w płaszczyźnie ramki równolegle do boku b. W przewodniku płynie prąd o natężeniu I. Opór ramki wynosi R. Znajdź kierunek prądu płynącego w ramce (zrób rysunek) i jego natężenie w funkcji odległości ramki od przewodnika - x.</li>
+<li>Mamy 2 żarówki tego samego typu, pochodzące od tego samego producenta. Chcemy sprawdzić, jaka jest różnica pomiędzy żarówką nową i używaną (taką, która pracowała już przez pewien czas). W tym celu sporządzamy wykres zależności natężenia prądu płynącego przez żarówki od przyłożonego napięcia I = f(U) dla obu żarówek. Wyniki przedstawia rysunek 1.<br /><center><img src="sites/default/files/125/image34.gif" height="334" width="355" /></center>
+</li>
+<ol type="a"><li>Określ opór pierwszej żarówki, jeśli napięcie na niej wynosi 3,5 V.</li>
+<li>Używając tych żarówek budujemy obwód przedstawiony na rysunku 2. Siła elektromotoryczna baterii jest stała i wynosi 10 V, a jej opór wewnętrzny jest zaniedbywalnie mały. Woltomierz w tym obwodzie wskazuje 4,5 V. Oblicz opór R. Do obliczeń wykorzystaj dane odczytane z wykresu (rysunek 1).<br /><center><img src="sites/default/files/125/image09.gif" height="127" width="211" /></center>
+</li>
+<li>Po usunięciu opornika budujemy nowy obwód (rysunek 3). Amperomierz wskazuje 40 mA. Wyjaśnij, dlaczego natężenie prądu płynącego przez żarówki wynosi 40 mA. Wskaż, która z tych żarówek świeci jaśniej. Odpowiedź uzasadnij.<br /><center><img src="sites/default/files/125/image10.gif" height="99" width="186" /></center>
+</li>
+</ol></ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p></p><center><br /><h1>Rozwiązania i odpowiedzi</h1>
+<p></p></center>
+<p><font color="#1F409F" size="+2" class="dzial"><b><a name="R_R98" id="R_R98"></a><a class="dzial" href="#Z_R98">1998/99</a></b></font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p></p><ol><li>V = <img src="sites/default/files/125/image15.gif" height="25" width="44" align="absmiddle" /></li>
+<li>T<sub>k</sub> = T<sub>0</sub>m<sub>1</sub><sup>2/5</sup>(m<sub>2</sub><sup>3/5</sup>+m<sub>1</sub><sup>3/5</sup>)/(m<sub>1</sub>+m<sub>2</sub>)</li>
+<li>
+<ol type="a"><li>U = JR<sub>2</sub>R<sub>3</sub>/(R<sub>2</sub>+R<sub>3</sub>)</li>
+<li>Q = CJR<sub>2</sub>R<sub>3</sub>/(R<sub>2</sub>+R<sub>3</sub>)</li>
+</ol></li>
+<li>J<sub>1</sub> = <font face="Symbol">m</font><sub>0</sub>JabV/(2Rx(x + a)<font face="Symbol">p</font>)</li>
+</ol><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>

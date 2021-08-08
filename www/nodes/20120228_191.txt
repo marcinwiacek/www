@@ -1,0 +1,87 @@
+﻿Title:Android czyli oczekiwanie na rewolucję... (2012)
+Author:marcin
+When:28 Feb 2012
+Taxonomy:Polski,Polski artykuł,Android,GSM
+
+<p>Trochę ponad rok temu narzekałem na pewne spore problemy z aktualizacją flagowego wtedy smartphona firmy Samsung (artykuł <a href=?q=node/177>Galaxy S - czeskiego filmu ciąg dalszy ?</a>, wskazywałem również na pewne bardzo poważne problemy związane z systemem operacyjnym Android (pozwolę sobie wskazać odnośnik do ostatniej wersji tekstu w języku angielskim: <a href=?q=node/182>Comment about Geimini - quo vadis Android...</a>).
+
+<p>Co się zmieniło przez ten rok ?
+
+<p><b>Uaktualnienia</b>
+
+<!--break-->
+<p>Telefonów z "robocikiem" mamy obecnie bardzo dużo i sprzętowo mamy rzeczywiście z czego wybierać (na rynku mamy nawet takie rozwiązania jak Samsung Galaxy Note z wyświetlaczem 5,3 cala będący raczej tabletem). Producenci powiększają ilość RAM, rdzeni procesora, wielkość i rozdzielczość wyświetlaczy, niestety ich część (np. Samsung) wybrała rozwiązanie polegające na powiększaniu w nieskończoność wariantów sprzętowych różniących się często detalami. Czy ilość zamieniła się jednak w jakość ?
+
+<p>Producenci mają problemy z wywiązaniem się z zobowiązań w ramach Android Update Alliance (urządzenia miały mieć nowsze wersje firmware przez 18 miesięcy), duże emocje budziły ostatnio zwłaszcza kwestie uaktualnień do Androida 4.
+
+<p>Jak to wygląda w przypadku Galaxy S sprzedanego w ilości znacznie przekraczającej 10 milionów egzemplarzy ? Oficjalnego uaktualnienia nie będzie (Samsung informuje, że problemem jest przygotowanie działającej wersji nakładki TouchWiz), część wariantów regionalnych oprogramowania bazuje jeszcze na Androidzie 2.3.5 (który zawiera lukę pozwalającą uzyskać uprawnienia administratora przy użyciu exploita Exploit.Linux.Lotoor.an, a która została załatana w Androidzie 2.3.6).
+
+<p>Czy można sobie z tym poradzić ?
+
+<p>W przypadku Galaxy S są trzy rozwiązania - wymienić go na inne urządzenie (przy czym Galaxy Nexus otrzymujący uaktualnienia bezpośrednio od Google ma słabszą kamerę i brak radia FM), użyć "teamhacksung's CM9" (CyanogenMod 9) albo wersji od "Onecosmic".
+
+<p>Czy ostatnie dwa rozwiązania są jednak całkowicie legalne ?
+
+<p>Sam Android jest dostępny za darmo (można go sobie pobrać i samodzielnie skompilować), "problemem" są aplikacje typu Market, Google Maps, Gmail oraz sterowniki urządzeń. 
+
+<p>Na stronie o CyanogenMod i w Wikipedii można przeczytać "it was determined that the proprietary Google apps may be backed-up from the Google-supplied firmware on the phone and then re-installed onto CyanogenMod releases without infringing copyright." i rzeczywiście w Internecie można znaleźć odpowiedni oddzielny pakiet (brak niestety informacji, czy to porozumienie jest spełnione całkowicie w tej formie czy też to użytkownik musi sobie sam zrobić kopię wspomnianych narzędzi).
+
+<p>Więcej niestety jest ciężko znaleźć na ten temat (no może poza paczkami z kodem źródłowym jądem na stronach producentów).
+
+<p>Należy zauważyć, że pakiety alternatywne mogą zawierać znacznie więcej opcji niż te oficjalne (np. <a href=http://forum.xda-developers.com/showthread.php?t=1450298>Galaxy S wydaje się wspierać obsługę Host USB</a>)...ale też brak wsparcia dla tych podstawowych (no i mogą tam nie działać pewne aplikacje tak jak było w przypadku bety Automapy), można je wgrywać w trybie:
+
+<ul><li>Download (telefon należy podłączyć do komputera i używając flashera takiego jak darmowy Heimdall zmienić zawartość dowolnej partycji lub elementu oprogramowania takiego jak jądro) lub 
+<li>Recovery (uruchamiamy telefon w tym trybie, następnie wybieramy paczkę instalacyjną zapisaną wcześniej na jego dysku - w przypadku firmware oficjalnego paczka taka musi byc podpisana cyfrowo, w przypadku posiadania w urządzeniu jądra z dodatkiem takim jak ClockworkMod Recovery już nie)
+</ul>
+
+<p>Podsumowanie: uaktualnienia to niestety dalej mit...
+
+<p><b>Bezpieczeństwo</b>
+
+<p>Jak można zapewne było zauważyć w poprzednim punkcie, należy albo korzystać w oprogramowania oficjalnego (które zapewne ma dobrze znane luki albo podstawowe błędy) albo "alternatywnego" (i tu trzeba zawierzyć jego "dostawcy").
+
+<p>Tendencją na szczęście jest odblokowywanie tzw. bootloaderów (dzięki temu możliwe jest wgrywanie właśnie oprogramowania "alternatywnego"). Należy również pamiętać, że znacząca część użytkowników decyduje się także na wgranie dodatków pozwalających uzyskać uprawnienia administratora (czyli tzw. rootowanie, po którym najczęściej dostępne są komendy "su", "busybox" i w menu pojawia się nowa aplikacja "Superuser").
+
+<p>Czy jest to legalne ? Producenci najczęściej udostępniają "swoje" wersje jądra, włączenie w nim "insecure-mode" jest proste, narzędzia dodatkowe typu "su" też są dostępne za darmo z pełnym kodem źródłowym.
+
+<p>Czy jest to bezpieczne ? Wielu użytkowników nie dokonuje tego samodzielnie i ufa "dostawcom" odpowiednich komponentów.
+
+<p>Działania takie z jednej strony można zrozumieć - wszak jedynie na "zrootowanym" urządzeniu można sobie zrobić pełną kopię aplikacji (korzystając np. z Titanium Backup) albo danych (używając MyBackup Root).
+
+<p>Z drugiej strony - czy można byłoby zaakceptować podobne praktyki na współczesnym komputerze osobistym ? Czyli np. nie używać aplikacji antywirusowych, wyłączyć firewall, nie kontrolować w ogóle wgrywanych programów....
+
+<p>Podsumowanie: Android jest delikatnie mówiąc słaby pod tym względem....
+
+<p><b>Prędkość</b>
+
+<p>Jakiś czas temu można było przeczytać wpis blogowy <a href=http://www.chip.pl/news/oprogramowanie/systemy-operacyjne/2011/12/pracowal-nad-androidem-tlumaczy-czemu-ten-system-jest-tak-powolny>Pracował nad Androidem, tłumaczy czemu ten system jest tak powolny</a>
+
+<p>Nawet bez tego widać gołym okiem, iż telefony z Androidem są dosyć powolne. Można się zapytać - a gdzie akceleracja sprzętowa ? Dosyć dobrze wyjaśnia to <a href=https://plus.google.com/105051985738280261832/posts/2FXDCz8x93s>How about some Android graphics true facts?</a>
+
+<p>Podsumowanie: Android jest delikatnie mówiąc słaby pod tym względem....
+
+<p><b>Jakość aplikacji</b>
+
+<p><a href=http://androidland.pl/android-news/polacy-moga-sprzedawac-android-markecie/>Około 11 lutego 2012 można było sobie poczytać o udostępnieniu sprzedaży aplikacji w Markecie dla polskich programistów</a>. Opcja była, ale na krótko i dostępna tylko częściowo (być może to był jakiś błąd). Obecnie Google ciągle "intensywnie" nad tym pracuje. Żeby nie było wątpliwości, inne korporacje również traktują nasz rynek po macoszemu...ale nie w przypadku sklepów mobilnych.
+
+<p>Prawdą wydaje się być również to, że użytkownicy Androida są przyzwyczajeni głównie do darmowych treści. Od opublikowania <a href=?q=node/185>mojej aplikacji Przepisy drogowe</a> nikt nie był zainteresowany datkiem na jej rozwój... Nawiasem mówiąc, w styczniu 2012 pojawiła się strona <a href=http://dziennikustaw.gov.pl/>dziennikustaw.gov.pl</a> z oficjalnymi wydaniami aktów prawnych - ciekawe kiedy pojawią się tam XMLe, które pozwoliłby na automatyczną generację wersję ujednoliconych.
+
+<p>Kolejnym problemem jest niekompatybilność kolejnych wersji (widoczna mimo maszyny wirtualnej Javy, której użycie skutecznie mogło pomóc w wyeliminowaniu tego) - należy wspierać różne rozdzielczości, <a href=?q=node/185>Przepisy drogowe</a> natomiast nie chcą się uruchamiać na Asusie Transformerze, nie działają tam także detale w Androidzie 4...
+
+<p>Podsumowanie: dużo aplikacji w Markecie, jakość dalej niekoniecznie wysoka...
+
+<p><b>Podsumowanie</b>
+
+<p>Według mnie pierwszym bardzo znanym systemem smartphonowym był Symbian, później wyszły na jaw jego bardzo poważne wady.
+
+<p>Były też inne, a teraz najpopularniejszym wydaje się Android. Jakie obecnie można wymienić powody przejścia na niego ? Świetnie <a href=http://www.dobreprogramy.pl/MaXDemage/powodow-by-przejsc-na-Android,30444.html>podsumował to MaXDemage</a> - jest to synchronizacja z Google, synchronizacja z Google i .... synchronizacja z Google.
+
+<p>I nic niestety więcej - o ile sprzęt bywa mocno dojrzały, oprogramowanie jest czasem delikatnie mówiąc kulawe, ciężko tu mówić również o prywatności użytkownika. I chociaż tutaj wielu z nas poznało Angry Birds oraz miało niepowtarzalną możliwość nieograniczonego flashowania i poznania podstaw unixowych, to system ten kojarzy się niestety z niską jakością (bo ciężko nazwać zaawansowanym chociażby konieczność wykonywania wszelkiego rodzaju "resetów" po wielu operacjach), niezrozumiałym wgrywaniem ton poprawek i hackowaniem (cokolwiek to znaczy).
+
+<p>Czy w takim systemie może działać odpowiednio wydajnie i bezpiecznie chociażby Ubuntu ? (jak <a href=http://www.dobreprogramy.pl/Pukpuk-Kto-tam--Ubuntu-na-komorce,Aktualnosc,30438.html>ostatnio mogliśmy zobaczyć</a>). Wątpię.
+
+<p>A co będzie dalej ? Jak nie Meego (znane z Nokii N9), jak nie HTML-owy Tizen (nad którym podobno pracuje Samsung i Intel), to może HTML-owy Mozilla Boot-To-Gecko ? (który można już pobrać np. na <a href=http://forum.xda-developers.com/showthread.php?t=1518467>Galaxy S II</a>).
+
+<p>A może Cyanogemod otworzy swój sklep z aplikacjami i popularność zdobędzie wersja "open-source" Androida ?
+
+<p>Kluczem do sukcesu na pewno będzie prędkość, uaktualnienia oraz...obecność Dalvika pozwalającego na uruchamianie aplikacji z Androida :)

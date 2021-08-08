@@ -1,0 +1,109 @@
+﻿Title:Evolve Andromeda &amp; DVB-T (2012)
+Author:marcin
+When:29 Jul 2012
+Taxonomy:Polski,Polski artykuł
+
+<p>Technologia się rozwija - kiedyś dźwięk i obraz zapisywano analogowo (co miało wiele wad takich jak problemy z przechowywaniem nośników, ich odczytem, bezstratnym przesyłem sygnału, itp., ale w rozwiązaniach profesjonalnych potrafiło charakteryzować się znakomitą jakością), obecnie preferuje się rozwiązania cyfrowe (które często bazują na utrzymaniu tylko określonego poziomu jakości, ale eliminują wiele wad standardów analogowych).
+
+<!--break-->
+<p>Podobnie jest z telewizją w Polsce - kiedyś nadawano czarno-biały obraz z dźwiękiem mono, później wykorzystywano system SECAM, kolejny był PAL, a teraz zastępuje się go rozwiązaniem cyfrowym opartym na standardzie DVB-T (DIGITAL VIDEO BROADCASTING - TERRESTRIAL), co nastąpi całkowicie do 31 lipca 2013.
+
+<p>Przyjęto tutaj kodowanie obrazu z użyciem MPEG-4 (kodek H.264/AVC, rozdzielczość do 1280x720 bez przelotu lub do 1920x1080 z przeplotem), dźwięku z użyciem MPEG-2 Layer 2 lub Dolby Digital Plus (EAC-3).
+
+<h1>Minusy</h1>
+
+<p>I tutaj zaczynają się schody - duża ilość sprzedawanych w naszym kraju odbiorników czy przystawek do nich obsługuje wprawdzie DVB-T (ale tylko z MPEG-2), w wielu nie działa dekodowanie obrazu HD (właśnie 1920x1080 z przelotem), problematyczne bywa również działanie "przejściowek" MPEG-4 na MPEG-2 wkładanych do modułów CI (widać to np. w starszych telewizorach Sharp).
+
+<p>Teoretycznie sprzedawcy zgodnie z prawem powinni obecnie informować o niezgodność z jedynym słusznym standardem, ale...
+
+<p>Innym problemem cyfryzacji jest marketing i oferowanie za "odpowiednią" opłatą akcesoriów "specjalnie przystosowanych do DVB-T" takich jak anteny (co można wręcz nazwać zwykłym naciąganiem z uwagi na to, że akurat anteny są IDENTYCZNE, zmienia się bowiem jedynie zawartość nadawanego sygnału).
+
+<p>Mamy również nieznajomość standardu płatnych telewizji (każda firma stosująca takie rozwiązanie może wybrać obecnie coś innego) i niestety politykę - nadawanie koncesji obecnym podmiotom było delikatnie mówiąc kontrowersyjne i najprawdopodobniej z nią związane:
+
+<p><ul>
+<li>nieprzyznanie prawa do nadawania jednej z telewizji z uwagi na sytuację finansową w sytuacji, gdy dosłownie chwilę wcześniej podmioty i osoby z nią związane oskarżano o zebranie potężnego majątku
+<li>stosowanie prawdopodobnie różnych kryteriów oceny poszczególnych firm i rozkładanie kosztów koncesji na raty niektórym z nim (właśnie z uwagi na problemy finansowe)
+</ul>
+
+<p>Skomentuję to tym nieswoim spotem:
+
+<p><iframe width="640" height="360" src="http://www.youtube.com/embed/uf5jnR_4AWo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+
+<p>Nie chciałbym tutaj wchodzić w politykę, ale fakt jest faktem - <a href=http://www.nik.gov.pl/aktualnosci/nik-o-budzecie-krrit.html>raport NIK opublikowany 5 lipca 2012 wskazuje na pewne nieprawidłowości</a>.
+
+<p>A oto dostępne/planowane dziś darmowe kanały: 
+
+<ul><li>MUX 1 - TVP1 HD, TVP2, ATM Rozrywka, Eska TV, TVP Info, Polo TV, TTV
+<li>MUX 2 - Polsat, TVN, TVN7, 4, TV Puls, 6, Polsat Sport
+<li>MUX 3 - TVP1, TVP2 HD, TVP Info, TVP Kultura, TVP Polonia, TVP Historia
+</ul>
+
+<p><a href=http://www.emitel.pl/telewizja/naziemna-telewizja-cyfrowa-dvb-t>Całość jest wdrażana etapami</a> i ma być dostępna do kwietnia 2014.
+
+<p>Niezależnie od tego należy pamiętać o jeszcze jednym problemie - za przysłowiowym rogiem jest już standard DVB-T2 i dosłownie za kilka lat znów może być konieczna wymiana sprzętu.
+
+<p>Należy też koniecznie nauczyć się kilku skrótów ;)
+
+<p>Po kolei są to np.:
+
+<ul><li>FTA (Free To Air) - kanały darmowe/niekodowane
+<li>MUX (tzw. multipleks) - zestaw kanałów nadawanych na konkretnej częstotliwości
+<li>PVR - nagrywanie
+<li>LCR (Last Channel Recall) - ustawianie ostatnie oglądanego kanału
+<li>LCN (Logical Channel Number) - funkcja sortowania kanałów
+<li>OTA (Over-the-air) - zdalne programowanie
+<li>SID (signal identifier) - identyfikator ?
+</ul>
+
+<h1>Plusy</h1>
+
+<p>A gdzie wobec tego plusy ?
+
+<p>W wielu miejscach jakość obrazu/dźwięku będzie znacznie lepsza, zwiększy się także ilość kanałów (docelowo w Polsce może być 8 MUXów, obecnie będą to 3 bezpłatne MUXy i MUX 4 dla tzw. telewizji mobilnej należącej do Cyfrowego Polsatu), wraz z programami nadawane będą informacje dodatkowe (np. opis), być może pojawi się również radio stereo (DVB-T na to pozwala).
+
+<h1>Terminal</h1>
+
+<p>Przyznam się, że poproszony o pomoc przy wyborze urządzenia podłączanego do telewizora długo rozważałem wybór. Ofertę podzieliłem na kilka grup:
+
+<ul>
+<li>moduły CI lub nowy telewizor - tu nie wchodziły w grę
+<li>najtańsze tunery (klasyfikowane jako tzw. chińszczyzna) - ok. 100-200 PLN
+<li>tuner na USB + "jakiś" komputer - w przypadku HTPC minimum 800-900 PLN
+<li>odtwarzacz multimedialny - 500-1400 PLN
+<li>odtwarzacz/nagrywarka Blu-Ray - 500 PLN wzwyż
+<li>dinozaury - czyli np. nagrywarka Blu-Ray za około 2000 PLN
+</ul>
+
+<p>USB z komputerem było najciekawszym rozwiązaniem, ale też najbardziej skomplikowanym i najmniej energooszczędnym.
+
+<p>Z kolei tzw. odtwarzacze multimedialne cechują się często wiatraczkiem, mają Wifi/Ethernet, ale w dostępnych modelach zazwyczaj brak podwójnego tunera oraz możliwości nagrywania jednego programu i odtwarzania innego....no i dochodzi masa problematycznych drobiazgów w firmware (wystarczy poczytać opisy na forach). Czasem pojawia się Android, ale jego działanie zazwyczaj pozostawia również wiele do życzenia.
+
+<p>Blu-Ray - Część urządzeń z tej kategorii oferuje dostęp do różnego rodzaju rozszerzeń (czasem pojawia się znów Android), mamy też spore zużycie energii... Ciekawe w tym momencie wydają się zwłaszcza Samsungi, ale...mają wadę pod tytułem kodowanie nagranego materiału (zupełnie nie interesowało mnie obchodzenie powyższego "zabezpieczenia", a jego obecność oznacza utratę wszystkiego np. przy wymianie gwarancyjnej sprzętu) + napędy szczelinowe.
+
+<p>Pozostała "chińszczyzna" - Wiwy/Manty za około 100 PLN, Manta z DVD, jeszcze kilka innych firm i Evolve Andromeda z podwójnym tunerem za około 210 PLN.
+
+<p>Jak głosi powiedzenie "raz kozie śmierć" - po przeglądanie forów i przeczytaniu o problemach z Kruger & Matz czy <a href=http://forum.emitel.pl/viewtopic.php?f=36&t=2697&p=85188&hilit=andromeda#p85188>CABLETECH</a> wymieniona Andromeda została zakupiona.
+
+<p>Pierwsze wrażenie pudełkowe pozytywne. Urządzenie zostało bowiem zapakowane przyzwoicie i było oklejone folią (nawet zbyt mocno i znalazła się ona nawet pod śrubkami), spodobał mi się także pilot (spore klawisze, niezły skok), dołączone zostały również baterie. Niedobrym rozwiązaniem jest wlutowanie na stałe kabla zasilającego.
+
+<p>Po włączeniu pierwszy zgrzyt - dioda czerwona i zielona na panelu wejściowym są stanowczo zbyt widoczne.
+
+<p>Podłączyłem HDMI i po chwili byłem w menu, które jest dosyć proste i polskie.
+
+<p>W tym momencie rozpoczęła się "zabawa" - użyta przeze mnie antena ("patyczek" o długości kilkanaście cm dołączony oryginalnie do innego urządzenia) wymagała bardzo dużej ilości prób, aby uzyskać przyzwoitą jakość. Ponieważ było to w okolicach Warszawy, gdzie sygnał jest raczej mocny, w końcu otrzymałem wymagane minimum dla wszystkich trzech MUXów (tuner wymagał w moim przypadku około 80% jakości sygnału do tego, aby pokazywać obraz i dźwięk i ich nie rwać).
+
+<p>Minusem obrazu bywała jego "ostrość" (może to wynikać z innej jakości wcześniejszego obrazu analogowego oraz innego odświeżania stosowanego przez telewizor dla połączenia HDMI).
+
+<p>Jeszcze tylko pomiary i wychodzi na to, że w trybie standby zużywane jest ok. 2,4 Watt, w czasie pracy ok. 7-8 Watt, od naciśnięcia włącznika do pokazania programu trzeba czekać ok. 10 sekund.
+
+<p>Firmware jest w wersji 1.1.8, mamy obiecany przewodnik po programach (ale WSZĘDZIE napisy są obcięte), w menu znalazło się kilka literówek...
+
+<p>Działa odtwarzanie plików multimedialnych z pamięci/dysku podłączanego na USB (kłopoty odnotowano jedynie z materiałami MPEG4 kodowanymi programem AverTV, gdzie ucinany był początek).
+
+<p>Przystawka niestety nie była w stanie włączyć telewizora po uruchomieniu (nie wiem jednak, czy to nie wina tego ostatniego).
+
+<h1>Podsumowanie</h1>
+
+<p>Tyle na szybko, Evolve Andromeda nie wyróżnia się i po prostu działa, ma trochę wad i niestety sporą cenę (wynikającą z obecności dwóch tunerów). Całość oceniłbym na mocną czwórkę.
+
+<p>Jest to rozwiązanie tymczasowe, wkrótce bowiem dekodery w telewizorach będą zawsze, a w przystawkach pojawi się Android (np. Google TV znanych firm takich jak Sony łączące ten system z Blu-Ray). A do tego rola telewizji czy chcemy czy nie maleje, rośnie natomiast rola VOD i ogólnie Internetu.

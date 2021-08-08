@@ -1,0 +1,78 @@
+﻿Title:W systemie operacyjnym od plików ważniejsze są ikonki czyli jak upada mit profesjonalnego Windows (2021)
+Author:marcin
+When:27 Mar 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/W-systemie-operacyjnym-od-plikow-wazniejsze-sa-ikonki-czyli-jak-upada-mit-profesjonalnego-Windows,114139.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Niedługo dwadzieścia lat stuknie, odtąd wprowadzono system plików NTFS w wersji 3.1 (zwanej czasem 5.1).</p>
+<!--break-->
+<p>Przypomnijmy sobie czasy, gdy była to nowość - w 2001 oglądaliśmy wydarzenia z 11 września, a Polska nie była nawet w Unii Europejskiej. W tamtym roku zaprezentowano film &quot;Pieniądze to nie wszystko&quot; i sam George W. Bush pofatygował się do Warszawy, uruchomiono TVN24 i narodziła się Wikipedia. Możnaby długo opowiadać o tym zamierzchłych czasach wlepionym w ekrany wnukom... które przekrwionym oczami popatrzą na nas jak na dinozaurów, nie mogąc zrozumieć, że nie było iOS ani Androida. A właśnie. Huawei! Apple! Microsoft! Mówmy o technice! Google dopiero raczkował, Facebook miał powstać, a w Polsce popularność zdobyło Gadu-Gadu. Wyobrażacie sobie? Nawet Instagrama nie było, ani Twittera.</p>
+
+<p>NTFS tak w ogóle miał premierę w 1993. Wersja wprowadzona z Windows XP trwa z nami do dziś - choć później w systemach Microsoftu dokładano do niego kolejne funkcje, to podstawa pozostała niezmienna jak skała... bo jak każde dziecko, każda szanująca madka z bąbelkiem, i każda korporacyjna &quot;single&quot; piękność z kotem z pręgą wie, rozwiązania techniczne są jak wino - im starsze, tym lepsze. Choćby się waliło i paliło, mają być niezmienne przez lata (na przekór tym wszystkim niedobrym korporacjom, które wcale nie chcą naszego dobra). Żeby było ciekawej, ostatni &quot;prawilny&quot; Windows zakończył żywota w 2016, a NTFS jak trwał tak trwa. W sam raz coś dla Januszy i Grażyn, Karyn i Sebixów, Jessik i innych, którzy lubią sprawdzone sprzęty.</p>
+
+<p>&quot;Ło panie! Bo ja to syreną popylałem nawet stówą! Najlepsze to było wlewanie oleju do benzyny! Ilu się ludzi poznało przy instrybutorze! I jak się czuło drogę w kierownicy! A hamulce! To panie brzytewka! Bez żadnych ła-be-esów. Nawet passat się chowa!&quot;</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/2PQqGFuLxek?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Przyznam się, że aż mi łzy wzruszenia do oczu naszły, gdy przypomniałem sobie, <a href="?q=node/111">jak w 2009 pisałem o funkcjach NTFS</a> - wiele porad jest wciąż aktualnych, np. </p>
+
+<p>&quot;Niestety Eksplorator nie pokaże poprawnie wielkości pliku na dysku (tj. wielkości podstawowej zawartości + wielkości alternatywnych strumieni). Aby je odczytać (również z konta bez podwyższonych uprawnień), należy użyć np. komendy dir /r&quot;</p>
+
+<p>(tak, tak, dobrze widzicie! Żeby coś zobaczyć w Windows, trzeba użyć linii komend, bo GUI nie daje rady)</p>
+
+<p> Nic, tylko brać stare manuale i co dwa lata opisywać, jakie to nowości są w najbardziej zaawansowanym i najlepszejszym systemie świata (skoro tyle żuczków z niego korzysta, to nie mogą się mylić). Żeby było ciekawiej, sam <a href="https://docs.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/disk-space-problems-on-ntfs-volumes" target="_blank" rel="noopener" rel="nofollow">mało-miękki w dokumencie z października 2020 roku pisze </a>&quot;Windows Explorer and the dir command do not report the data in alternate data streams as part of the file size or volume statistics. Instead, they show only the total bytes for the primary data stream.&quot;</p>
+
+<p>No ale dobra, nie czepiajmy się takich drobnostek, jak ukrywanie wielkości plików i tego, że mogą tam byc drobne niespodzianki. Przejdźmy do mrożących krew w żyłach konkretów.</p>
+
+<center><img src="sites/default/files/442/bug.png" style="width:409px;height:405px;" alt="image" title="image" /></center>
+
+<p>8 grudnia 2020 był dniem, w którym ukazały się comiesięczne poprawki (firma Microsoft ma taki cykl, że co może, patchuje raz w miesiącu). KB4592438 dodał taki mały &quot;killer feature&quot; powodujący, że po użyciu &quot;chkdsk /f&quot; system plików mógł być tak skutecznie naprawiony, że urządzenie nie chciało z niego wstawać.</p>
+
+<p>18 grudnia 2020 pokazał się <a href="https://forum.planet3dnow.de/index.php?threads/chkdsk-von-windows-10-20h2-killt-dateisystem.439733/" target="_blank" rel="noopener" rel="nofollow">post na pewnym forum o błędzie</a>, a już miesiąc później po 35 dniach dostaliśmy poprawkę. Profesjonalnie i szybko załatwiono problem, nie mącąc w głowach biednym administratorom, żeby ci przypadkiem nie musieli łatać systemów na święta i na nowy rok (update: Helga88 w komentarzach zwróciła uwagę, że <a href="https://www.makeuseof.com/microsoft-releases-fix-and-workaround-for-chkdsk-bug/" target="_blank" rel="noopener" rel="nofollow">workaround (częściowo?) był znany 21 grudnia</a>, w praktyce jednak moje oczęta nie widzą jakoś profesjonalnie wymienionego numeru KB, który rozesłano przez Windows Update). Ta notka na stronie KB4592438 w ogóle jest ciekawa, gdyż mówi &quot;<b>small number of devices</b> that have installed this update have reported that when running chkdsk /f, their file system might get damaged and the device might not boot&quot; (ciekawe, czy small to bardziej milion czy sto milionów?)</p>
+
+<p>Ale to jeszcze nic...</p>
+
+<p>Od sierpnia 2020 chodziły głosy <a href="https://twitter.com/jonasLyk" target="_blank" rel="noopener" rel="nofollow">od pana Jonasa </a>o tym, że bez większych problemów wykorzystując linię komend można sobie popsuć system plików (a w każdym razie doprowadzić do tego, że system myśli, że ma problem). Chodziło o to, żeby wykorzystać atrybut &#39;$i30&#39; związany z katalogami (celowo nie podaję tej morderczej komendy, żeby nie wywołać u nikogo palpitacji serca). Było to chyba związane z kolejnymi modyfikacjami systemu pod rozróżnianie nazw plików i katalogów pisanych literami o różnej wielkości (tak! właśnie tak upada kolejny bastion obrońców Windows - on jest i chce być jak Linux, a <a href="?q=node/111">ja mówiłem o tym już w 2009!</a>). <a href="https://www.osr.com/blog/2021/01/21/mitigating-the-i30bitmap-ntfs-bug/" target="_blank" rel="noopener" rel="nofollow">O problemie zrobiło się trochę głośniej w styczniu</a> (to tam właśnie piszą &quot;Note that there were a ton of changes in NTFS to better support case sensitivity and I suspect that this was a casualty of those changes. If you’re interested you can read all about case sensitivity in James Forshaw’s blog post: <a href="https://www.tiraniddo.dev/2019/02/ntfs-case-sensitivity-on-windows.html" target="_blank" rel="noopener" rel="nofollow">Tyranid’s Lair: NTFS Case Sensitivity on Windows (tiraniddo.dev)</a>&quot;), ale Microsoft nabrał wody w usta, a firmy trzecie dla odmiany zaczęły brać sprawy w swoje ręce (Mozilla nawet przygotowała fixa dla Firefoxa). Wszyscy czekali z utęsknieniem na poprawki lutowe, myśląc, że coś tam do NTFS będzie. W końcu pojawił się pewien fix, ale tylko dla Windows 10 Insider Build 21322 (bo jak wiadomo, na systemach produkcyjnych zawsze należy korzystać z wersji testowych)</p>
+
+<p>Co tu się zresztą czepiać, jak Windows się ustabilizuje (stara zasada supportu), to i emocje opadną, i wszyscy zapomną - w sumie od sierpnia jest tylko jakieś 6 czy 7 miesięcy.</p>
+
+<p>Tak w ogóle, to te poprawki z lutego to na pewno były jakieś wyjątkowe - firma na stronie <a href="https://msrc.microsoft.com/update-guide" target="_blank" rel="noopener" rel="nofollow">https://msrc.microsoft.com/update-guide</a> podaje tylko 1085 wpisów dla różnych produktów i wersji. Oj narobiło się tego, narobiło... więc administratorzy musieli zająć się czymś innym niż jakiś tam NTFS.</p>
+
+<p>&quot;System and user certificates might be lost when updating a device from Windows 10, version 1809 or later to a later version of Windows 10.&quot;</p>
+
+<p>Problem występował np. &quot;when using outdated physical media or ISO images that do not have the latest updates integrated.&quot;</p>
+
+<p>Zagubione certyfikaty? A co tam. I jak dobrze, że wszyscy zawsze mają obrazy ISO z nałożonymi poprawkami. Przecież to robi się z palca, pomiędzy przegryzieniem marchewki, a wypiciem łyka sojowego latte.</p>
+
+<p>Należy przy tym się cieszyć, że są jeszcze jakieś pliki. Tak dogłębnie testowany Windows 10 October 2018 Update miał nieudokumentowany killer feature, jakim było bezpowrotne kasowanie plików użytkowników. A co tam, że korzystali z normalnych funkcjonalności systemu operacyjnego, za które ciężko zapłacili. Przecież zarządzająca programem Windows Insider Dona Sarkar była zapracowana, więc o co chodzi? (Wikipedia podaje, że przez lata tworzyła &quot;ethically-created fashion line&quot; i zajmowała się wychodzeniem ze strefy komfortu i sprawami startupów w takich krajach jak Nigeria, Kenya, Uganda, Tanzania czy Rwanda). </p>
+
+<p>Należy pamiętać o podstawowej zasadzie - jak mniej na dysku, to na pewno mniej się zmęczy!</p>
+
+<p>Zapisywanie dokumentów w folderze „Dokumenty&quot; jest dla słabeuszy i system operacyjny nie jest przecież od tego, żeby ciężko pracować.</p>
+
+<p>Oczywiście mieliśmy też combo. W wersji październikowej można było nadpisywać pliki przy ich rozpakowywaniu, bo zabrakło implementacji jakże skomplikowanego algorytmu.</p>
+
+<p><pre contenteditable="false"><code class="java" data-lang="java" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">if (file_exists_on_disk) {
+   ask_if_it_can_be_overwitten
+}</code></pre>
+
+<p>Pogadajmy jeszcze raz o dokumencie &quot;<a href="https://docs.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/disk-space-problems-on-ntfs-volumes" target="_blank" rel="noopener" rel="nofollow">Locate and correct disk space problems on NTFS volumes</a>&quot; z października 2020</p>
+
+<p>&quot;If you have folders or files that you cannot delete or rename, contact Microsoft Product Support Services.&quot;</p>
+
+<p>(jeśli jesteś profesjonalistą i obracasz danymi za grube miliardy, to na pewno pierwszą zasadą powinno być wysłanie komputera do działu supportu, albo przekazanie im zdalnego dostępu)</p>
+
+<p>A tak przy okazji - firma wprowadziła już w 2012 system plików ReFS, ale ten jest najwyraźniej dla słabeuszy, bo w &quot;standardowym&quot; Windows 10 nigdy nie można było wystartować z niego systemu. Myślmy o nim z utęstknieniem - może w 2032 będzie to możliwe. Na razie najważniejsze są nowe ikonki w Eksplorerze...</p>
+
+<p>Swoją drogą, ReFS był dodany w Windows Server 2012, potem (mówię za Wikipedią) był w miarę skończony wraz z Windows 8.1 w 2013, a możliwość tworzenia dysków z jego udziałem usunięto w większości edycji Windows 10 w 2017 (zostawiając ją tylko w wersjach Enterprise i Pro for Workstations). </p>
+
+<p>Pamiętajcie, porządny system plików jest tylko dla tych, którzy dużo płacą! Ludziom nie może się przewrócić w głowach od tego szczęścia! Ważne, żeby od przybytku ich głowa nie bolała!</p>
+
+<p>Nieważne, że NTFS ma pewne problemy i sam jego twórca je widzi (dlatego stworzył ReFS).</p>
+
+<p>Wikipedia służy tu też pewną ciekawą informacją &quot;As of November&#160;2019, Microsoft has not published any specifications for ReFS&quot;</p>
+
+<p>Ważne jest, żeby informacje o tej epokowej technologii pozostały w ręku jednej firmy. Zamknięcie specyfikacji daje większą gwarancję, że jest ona bez błędów. Najlepiej, żeby &quot;wyciekła&quot; jak inne pliki i żeby &quot;legalnie&quot; mogły z niej korzystać tylko grupy hackerskie. A przed wyciekiem nikt inny niż Microsoft nie może tworzyć kolejnych narzędzi dyskowych i kolejnych wersji chkdsk. A tak w ogóle co komu po jakichś narzędziach? Ważniejsze są nowe ikonki! Windows jest najlepszy! Nie, to co inne systemy, gdzie jakiś błąd powstaje w jednej wersji testowej i w kolejnej wersji testowej jest usunięty. Albo systemy, gdzie ktoś nie potrafi poprawić swojego własnego sterownika.</p>
+
+<p>PS. Swoją drogą firma Microsoft ma już nawet inne niezawodne rozwiązanie na problemy z NTFS, jakim jest OneDrive. <a href="https://antyweb.pl/pliki-znowu-znikaja-przez-microsoft/" target="_blank" rel="noopener" rel="nofollow">Plotki, że znikają stamtąd pliki</a>, to na pewno prowokacja konkurencji.&#160;&nbsp;</p>

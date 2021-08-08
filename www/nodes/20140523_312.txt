@@ -1,0 +1,29 @@
+﻿Title:Idiota
+Author:marcin
+When:23 May 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Potraktowany trochę jak idiota<br />
+usłyszał, że myśl jego jakby złota,<br />
+po pół roku to się nagle stało,<br />
+kto ma ikrę nam dobitnie wskazało,</p>
+<p>przy sprawie tej wyszło trochę rzeczy<br />
+i niech nikt już nie mydli i przeczy,<br />
+że liczą się tylko piękne ideały,<br />
+bo przykład dziwotek pełen cały,</p>
+<p>po tej życia przepięknej sytuacji<br />
+może długo nie być już relacji,<br />
+ale na litość pamiętajcie mili,<br />
+że na głupoty nie warto tracić chwili,</p>
+<!--break-->
+<p>i ludzie podobno już dorośli<br />
+winni być jednak jakby wyrośli,<br />
+i tylko współpraca nam pozwala,<br />
+by nudy, smutku nie było cala,</p>
+<p>jak się nie mówi co się myśli,<br />
+udaje, że doświadczenie wymyśli,<br />
+mówi, że jest tam tylko dobry ton,<br />
+nie wykorzystuje się mocnych stron,</p>
+<p>to....</p>

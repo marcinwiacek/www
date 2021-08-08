@@ -1,0 +1,12 @@
+﻿Title:Report 2006-11-27
+Author:marcin
+When:27 Nov 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>I had to enable at least simple antispam protections for all edits in gammu.org (I hope you will understand it). I will try to modify it and enable for IP edits only soon...
+<!--break-->
+</li><li>Gammu 1.09.00 is out - I added some Michal's fixes and some own. Project is growing, although there are visible some big limits inside (let's look on one of last post to Gammu list about files number limit)
+</li><li>Gammu+ 0.12.00 - fixed SMS functions, added getting info about Java midlets in phone, improved midlets uploading process (it's able to replace old version of applet). Some developers didn't answer on my request connected with Bluez (few lines and it could work)... Shame. Especially, that both projects (Gammu/Gammu+) are using the same config file and command line application has similar options in both (and users can have more complete support, when Gammu will fail)
+</li><li>plans for this week - writing new stuff for diploma work, making new Gammu+ version (with MMS and better pbk support), saving money (it's going a little bit critical and I will have probably to borrow something)...
+</li></ul>

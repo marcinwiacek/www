@@ -1,0 +1,17 @@
+﻿Title:Report 2007-09-02
+Author:marcin
+When:03 Sep 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Holidays after me. Few comments:</p>
+<ul><li>I have put <a href="http://www.mwiacek.com/zips/wat.pl/mgr.pdf">my diploma work about data/user authorization in computer systems (in Polish language)</a> into my www. PDF file with it has got some interesting features: included inside attachments, index, bookmarks,... (all done with free software)
+<!--break-->
+</li><li>I have read very interesting and real article last time: <a href="http://www.packtpub.com/article/the-economics-of-open-source-donations">The Economics of Open Source Donations</a>
+</li><li>Gammu+ 0.31 is out. Sending Picture Images and some other new features... Because it's colder and colder, work will go faster now... The biggest shame is, that nobody want to help me with Linux port... Of course Nokia Series 40 phones aren't the end of world and because of it...
+</li><li>I was thinking about smartphones with GPS (because it would be rather device for longer, I didn't look on some "cheaper" companies):
+<ul><li>Symbian based one (Nokia): N6110 costs about 1700PLN (has got high SAR), N95/E90 (don't speak about price ;-))....
+</li><li>Windows based one: the most interesting look Siemens LOOX T830 (UMTS, WiFi, GSM, GPS,...) for about 1000-1200PLN, but it has got smaller than normal display (240x240 instead of 240x320). Asus devices aren't excellent too (P525 is without GPS/UMTS/WiFi, P526 has got very slow 200Mhz CPU and no WiFi/UMTS, P535 is without UMTS and costs almost 1700PLN, P735 costs more than 2000PLN), HP with GSM cost more than 2000PLN and don't have UMTS, Toshiba G900 doesn't have GPS
+</li></ul></li><li>My conclusion from previous point: it will be probably much better to buy cheaper (even used) PDA (without phone) with GPS now... What about phone ? Maybe some SE (K850i without horrible joystick and Sony memory cards ?) or Nokia 6500. It's good to dream...
+</li><li>but for now I have still think about my job future...
+</li></ul>

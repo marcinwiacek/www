@@ -1,0 +1,212 @@
+﻿Title:Far Manager, czyli jak mógłby teraz wyglądać Norton Commander...  (2009)
+Author:marcin
+When:09 Dec 2009
+Taxonomy:Polski,benchmark.pl,Polski artykuł,x86,OS
+
+<a name="gora"></a>
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Far_Manager%2C_czyli_jak_moglby_teraz_wygladac_Norton_Commander...-2499.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p align=justify><a name="gora"></a>Kilka dni temu opublikowana została <a href="http://www.farmanager.com/download.php?l=en">kolejna stabilna wersja FARa</a> będącego obecnie darmowym (szerzej zostanie to wyjaśnione dalej) klonem Norton Commandera działającym w Windows. W tym artykule chciałbym przedstawić tę bardzo ciekawą aplikację. Podane zostaną tutaj również podstawy obsługi programów tego typu.</p>
+<!--break-->
+
+<p>Tekst dedykuję A. :)</p>
+<table cellspacing="6" cellpadding="6" border="0" align="right" width="250">
+    <tbody>
+        <tr>
+            <th scope="col">Spis treści</th>
+        </tr>
+        <tr>
+            <td>
+            <p><a href="#1">1. Pierwowzór</a><br />
+            <a href="#2">2. I ON...</a><br />
+            <a href="#3">3. Obsługa plików</a><br />
+            <a href="#4">4. Edytor</a><br />
+            <a href="#5">5. Wtyczki</a><br />
+            <a href="#6">6. Konkurencja</a><br />
+            <a href="#7">7. Podsumowanie</a><a href="#8"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><strong><a name="1"></a><font size="+1">Pierwowzór</font></strong></p>
+
+<p align=justify>Pojawił się w USA mniej więcej, gdy <a href="http://en.wikipedia.org/wiki/Back_to_the_future">Marty McFly zaczynał swoją przygodę z podróżami w czasie (czyli dokładnie mówiąc ok. 1986)</a>.</p>
+
+<p align=justify>Był to moment, gdy popularne obecnie PC-ty wtedy dopiero zdobywały tę popularność. Użytkownicy pracowali wtedy najczęściej w systemie DOS (np. MS-DOS albo PC-DOS), wykorzystywano tryb tekstowy i bursztynowe monitory, CD-ROM i Windows były egzotycznymi dodatkami (zresztą w tamtych czasach &quot;okienka&quot; Microsoftu w wersji 1.0 były reklamowane przez obecnego CEO firmy <a href="http://en.wikipedia.org/wiki/Steven_Ballmer">Stevena Ballmera</a>), a USB jeszcze fizycznie nie istniało :) W Polsce mieliśmy wtedy ustrój komunistyczny, zaś najczęstszymi maszynami były ZX Spectrum, Atari i Commodore 64 (nie było nawet Amigi 500).</p>
+
+<p align=justify>Nowe narzędzie zostało napisane przez <a href="http://en.wikipedia.org/wiki/John_Socha">Johna Sochę</a> i było firmowane przez firmę <a href="http://en.wikipedia.org/wiki/Peter_Norton">Petera Nortona</a> (później wykupioną przez Symantec). Mieściło się na jednej dyskietce, pokazywało zawartość katalogów w dwóch niebieskich albo czarno-białych panelach i pozwalało na wykonywanie różnych operacji między nimi (np. kopiowania). Do tego dochodziła np. edycja plików, obsługa myszki i możliwość natychmiastowego wykonywania komend DOS.</p>
+
+<p align=justify>To była po prostu rewolucja, a aplikacja w kolejnych wersjach należała do kanonu wykorzystywanego i kopiowanego legalnie lub nielegalnie na praktycznie każdego PC-ta. Z czasem pojawiły się w nim nawet przeglądarki plików i wygaszacze ekranu (zadaniem tych ostatnich było jedynie pokazywanie ruchomych obrazków, a nie fizyczne wyłączanie ekranu i oszczędzanie energii :))</p>
+
+<p align=justify>Symantec wprowadził na rynek pakiet Norton Desktop dla DOS 1.0 (NDD) - miał pełnić rolę zarządcy plików (podobnie jak Norton Desktop dla Windows) i pozwalał również na wyświetlenie okien w dwóch panelach (w trybie tekstowym programowane były nawet wzory znaków karty graficznej tak, że ramki i kursor myszy wyglądały bardziej &quot;graficznie&quot;). Nie przyjął się.</p>
+
+<p align=justify>Nadeszła era Windows 95 i zaczęto powszechnie używać długich nazw plików (rozszerzenie VFAT na partycjach FAT). Poczciwy NC powoli zaczął tracić na znaczeniu. W nim tę funkcjonalnośc wprowadzono bowiem dopiero ok. 1999 (ostatnia wersja 5.51). W tamtych latach był otwarcie krytykowany za objętość i powolność (dla wielu użytkowników ostatnią &quot;prawdziwą&quot; wersją było wydanie 4.0). Dodatkowo w Polsce od 1994 obowiązywała nowelizacja ustawy o prawach autorskich, co przynajmniej w firmach powodowało, iż nie kopiowano już tak chętnie ostatnich wersji &quot;darmowych&quot; i &quot;podstawowych&quot; programów na każdą nową maszynę.</p>
+
+<p align=justify>Więcej o ewolucji Norton Commandera można poczytać np. na stronie <a href="http://www.softpanorama.org/OFM/Paradigm/Ch03/norton_commander.shtml">The History of Development of Norton Commander</a> (są nawet zrzuty ekranów).</p>
+
+<p align=justify>Pojawiły się również edycje tej aplikacji dla Windows, ale dla wielu użytkowników nie był to już ten sam program co &quot;prawdziwy&quot; NC.</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>
+
+<p><strong><a name="2"></a><font size="+1">I ON...</font></strong></p>
+
+<p align=justify>Początkowo (1996 - 2000) tworzony jedynie przez Eugene Roshala (autora RARa), później rozwijany przez Far Group. Początkowo całkowicie komercyjny, od 26 października 2007 jego wersje 2.x są udostępniane za darmo wraz z pełnym kodem źródłowym (Open Source na licencji <a href="http://www.opensource.org/licenses/bsd-license.php">BSD</a>).</p>
+
+<p align=justify>Dlaczego warto się nim zainteresować ?</p>
+
+<p align=justify>W wielkim skrócie: pomimo &quot;klasycznego&quot; wyglądu jest to wskroś nowoczesna aplikacja napisana dla środowiska win32. Jest nie tylko darmowa, stale rozwijana, mała (ok. 8 MB) i szybka, ale może być rozszerzana wtyczkami i zawiera też funkcje nieobecne do dzisiaj w <strong>Eksploratorze</strong> Windows (potrafi chociażby obsługiwać <a href="?q=node/111#1">katalogi będące połączeniami albo łączami symbolicznymi</a>)...</p>
+
+<p align=justify>Pokrótce postaram się przedstawić kilka bardziej i mnie podstawowych funkcji. Oprę się na ostatniej stabilnej kompilacji z gałęzi 2.0 (buildzie 1263 z 4 grudnia 2009). Można ją pobrać spod adresu <a href="http://www.farmanager.com/download.php?l=en">http://www.farmanager.com/download.php?l=en</a>.</p>
+
+<p align=justify>Wersję w archiwum wystarczy rozpakować do jakiegoś katalogu i uruchomić znajdujący się tam <strong>Far.exe</strong>. W przypadku, gdybyśmy chcieli przenieść aplikację na inną maszynę, wystarczy skopiować tam wpisy z <strong>Rejestru</strong> znajdujące się w standardowych lokalizacjach (można do tego ewentualnie użyć udostępnionych skryptów <strong>SaveSettings.cmd</strong> i <strong>RestoreSettings.cmd</strong>).</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>
+
+<p><strong><a name="3"></a><font size="+1">Obsługa plików</font></strong></p>
+
+<p><img height=400 src="sites/default/files/109/far1(1).png" alt="" /></p>
+
+<p align=justify><em>Rysunek 1. Główne okno FARa. Kolorystyka czarno-biała i polska lokalizacja. W obu panelach włączono pokazywanie nazw w formacie 8 znaków + 3 znaki rozszerzenia. W panelu po lewej widoczne są <a href="?q=node/111#8"><em>pliki i katalogi o takich samych nazwach (zapisane na partycji NTFS literami o różnej wielkości)</em></a> oraz dwa rodzaje odnośników (<strong>KATALOG2.LNK</strong> i <strong>KATALOG3.LNK</strong> są odpowiednio </em><a href="?q=node/111#1"><em>połączeniem i łączem symbolicznym</em></a><em>). W panelu po prawej pokazano wielkość podstawowej wersji programu, w linii komend widoczne są zaś obsługiwane bez problemu polskie litery.</em></p>
+
+<p><img height="400" src="sites/default/files/109/far2(1).png" alt="" /></p>
+
+<p align=justify><em>Rysunek 2. Tym razem mamy włączone standardowe kolory (w dalszych rysunkach ich nie będzie, gdyż mogłoby to być trochę nieczytelne na niektórych monitorach LCD) i pokazywanie długich nazw w panelach.<br />
+</em></p>
+
+<p align=justify>Program został stworzony przede wszystkim do obsługi plików. Na ekranie mamy widoczne dwa panele. Możliwe jest wykonywanie na wyświetlonych w nich katalogach i plikach określonych operacji takich jak usuwanie (klawiszem F8), kopiowanie (klawiszem F5), przenoszenie (klawiszem F6) albo podgląd (klawiszem F3) czy też edycja (klawiszem F4). Operacje te są możliwe do wykonania na pojedyńczych elementach, czasem także ich grupie (zaznaczenia/odznaczenia można dokonać np. klawiszem Ins). Do tego dochodzi np. opcja tworzenia nowego katalogu (klawisz F7) albo pliku (kombinacja Shift+F4).</p>
+
+<p align=justify>Należy tutaj zaznaczyć jedną rzecz: FAR korzysta z API win32 i dlatego potrafi wprawdzie wyświetlać w panelach <a href="?q=node/111#8">pliki i katalogi o tych samych nazwach (zapisane znakami o różnej wielkości)</a>, ale już nie umie ich tworzyć/kopiować (np. jeżeli kopiujemy dwa zbiory <strong>plik.txt</strong> i <strong>PLIK.txt</strong>, aplikacja będzie je próbować zapisać jako jeden).</p>
+
+<p align=justify>Po naciśnięciu Enter na jakimś pliku wykonywana jest pierwsza możliwa z podanych operacji:</p>
+<ul>
+    <li>uruchamiana jest akcja zdefiniowana dla jego rozszerzenia w programie</li>
+    <li>pokazywana jest jego zawartość (o ile plik jest archiwum tak jak np. zbiory w formacie <strong>XLSX</strong> i <strong>DOCX</strong>)</li>
+    <li>wykonywana jest akcja przewidziana dla jego rozszerzenia w Windows</li>
+
+</ul>
+<p><img height="200" alt="" src="sites/default/files/109/far3.png" /></p>
+<p><em>Rysunek 3. Okno do zmiany dysków</em></p>
+
+<p align=justify>Zmianę dysku wyświetlanego w danym panelu uzyskamy wciskając Alt+F1 lub Alt+F2. Oprócz partycji dostępnych w komputerze mamy np. listę procesów (odpowiednik <strong>Menedżera zadań</strong>) albo klienta FTP.</p>
+
+<p><img height="400" src="sites/default/files/109/far4.png" alt="" /></p>
+
+<p align=justify><em>Rysunek 4. Widoczne dostępne tryby pokazywania plików i katalogów w panelach</em></p>
+
+<p align=justify>Możliwe jest bardzo szczegółowe ustalanie, co i jak ma być wyświetlane w panelach. W tym celu należy wejść do menu głównego (klawiszem F9) i w <strong>Lewy/Prawy</strong> wybrać interesujący nas typ widoku (jak na rysunku 4).</p>
+
+<p><img height="300" src="sites/default/files/109/far8.png" alt="" /></p>
+
+<p><em>Rysunek 5. Opcja sortowania plików w panelu</em></p>
+
+<p align=justify>W menu <strong>Lewy/Prawy</strong> mamy np. rozbudowaną opcję sortowania (opcja <strong>Tryby sortowania</strong> widoczne na rysunku 5).</p>
+
+<p><img height="200" alt="" src="sites/default/files/109/far5.png" /></p>
+
+<p align=justify><em>Rysunek 6. Ekran <strong>Opcja\Tryby wyświetlania panelu plików</strong> dla trybu <strong>Pełny</strong></em></p>
+
+<p align=justify>Każdy z tych trybów można sobie ustawić stosownie do potrzeb (opcja <strong>Opcja\Tryby wyświetlania panelu plików</strong> w menu głównym). Należy zauważyć, iż jest tutaj dostępny szereg ustawień. Przykładowo: w miejscu wielkości plików może być wskazywana logiczna wielkość pliku, <a href="?q=node/111#2">wielkość logiczna wraz z wielkością wszystkich strumieni alternatywnych pliku</a> albo ilość miejsca zajętego fizycznie przez plik. Data i czas z kolei mogą wskazywać moment stworzenia, ostatniej modyfikacji albo <a href="?q=node/111#5">ostatniego dostępu</a>. Możliwe jest również <a href="?q=node/111#1">wskazywanie ilości łączy stałych powiązanych z plikiem</a>. Opcji jest naprawdę wiele, a FAR czerpie garściami z tego, co udostępnia Windows.</p>
+
+<p><img height="300" src="sites/default/files/109/far9.png" alt="" /></p>
+
+<p><em>Rysunek 7. Opcje zmiany atrybutów pliku</em></p>
+
+<p align=justify>Widać to również np. w opcjach edycji atrybutów pliku (rysunek 7).</p>
+
+<p><img height="300" alt="" src="sites/default/files/109/far7.png" /></p>
+
+<p><em>Rysunek 8. Ekran </em><strong><em>Opcje\Ustawienia panelu</em></strong></p>
+
+<p>Do tego dochodzą opcje ogólne (jak na rysunku 8).</p>
+
+<p><img height="300" alt="" src="sites/default/files/109/far6.png" /></p>
+
+<p><em>Rysunek 9. Ekran </em><strong><em>Opcje\Ustawienia systemowe</em></strong></p>
+
+<p align=justify>Mamy też możliwość kontroli różnych aspektów związanych ze sposobem obsługi plików. Ot chociażby to, czy przenosić usunięte pliki do <strong>Kosza</strong> Windows czy je od razu kasować.</p>
+
+<p><img height="300" alt="" src="sites/default/files/109/far12.png" /></p>
+
+<p><em>Rysunek 10. Podstawowe opcje wyszukiwania</em></p>
+
+<p align=justify>Istnieje również oczywiście funkcja wyszukiwania plików. Co ciekawe, w opcjach zaawansowanych można włączyć wyszukiwanie określonego tekstu także w <a href="?q=node/111#2">strumieniach alternatywnych plików</a>.</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>
+
+<p><strong><a name="4"></a><font size="+1">Edytor</font></strong></p>
+
+<p align=justify>Aplikacja pozwala na ustawienie swojego własnego edytora/przeglądarki do plików (wywoływanych po naciśnięciu F4/F3 w panelu z plikami). Zawiera również własne.</p>
+
+<p><img height="350" src="sites/default/files/109/far10.png" alt="" /></p>
+
+<p align=justify><em>Rysunek 11. Kolejny przykład pełnej integracji z Windows - pełna obsługa różnych stron kodowych zainstalowanych w &quot;okienkach&quot;</em></p>
+
+<p align=justify>Wbudowany edytor potrafi wykonywać konwersje między różnymi stronami kodowymi i jest szybki (dla porównania: otwarcie pliku tekstowego o wielkości ok. 20 MB zajęło FARowi ok. 2 sekund, NotePadowi 4 sekundy, a WordPadowi 21 sekund). Kopiowanie działa inaczej niż w protoplaście (możemy normalnie zaznaczać bloki tekstu i wymieniać je z innymi aplikacjami działającymi w Windows), nie ma chyba jedynie podświetlania składni.</p>
+
+<p align=justify>Ciekawostką jest, iż możemy przełączać się z otwartego edytora do ekranu z panelami korzystając z kombinacji Ctrl+Tab (aby tam np. otworzyć kolejny plik do edycji czy do przeglądania, a następnie wrócić do pierwszego pliku korzystając z tej samej kombinacji).</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>
+
+<p><strong><a name="5"></a><font size="+1">Wtyczki</font></strong></p>
+
+<p align=justify>Program ma modułową architekturę i może być rozszerzany wtyczkami.</p>
+
+<p><img height="400" alt="" src="sites/default/files/109/far11.png" /></p>
+
+<p align=justify><em>Rysunek 12. Dostęp do katalogów serwera FTP&nbsp;jest zorganizowany podobnie jak do katalogów na dysku lokalnym</em></p>
+
+<p align=justify>Przykładem może być klient FTP. Wciskamy Alt+F1 (lub Alt+F2) i wybieramy <strong>FTP</strong>. Następnie używamy kombinacji Shift+F4 (analogia do tworzenia nowego pliku), wpisujemy dane serwera, klikamy <strong>Save</strong> i już możemy spróbować wejść do nowej pozycji na liście.</p>
+
+<p align=justify><img height="400" src="sites/default/files/109/far14.png" alt="" /></p>
+
+<p><em>Rysunek 14. Dostęp do otoczenia sieciowego Windows</em></p>
+
+<p align=justify>Bardzo podobnie możemy uzyskać dostęp np. do sieci Windows (w stylu takim jak w Windows XP i wcześniejszych).</p>
+
+<p><img height="200" src="sites/default/files/109/far15.png" alt="" /></p>
+
+<p align=justify><em>Rysunek 15. Standardowe wtyczki</em></p>
+
+<p align=justify>Jest też kilka innych standardowo dostępnych drobiazgów (ich listę można zobaczyć wciskając F11).</p>
+
+<p align=justify>A jeżeli chcielibyśmy więcej ? Niestety na oficjalnej stronie <a href="http://www.farmanager.com/plugins.php?l=en">http://www.farmanager.com/plugins.php?l=en</a> nie ma zbyt dużego wyboru. Uaktualnioną listę można znaleźć np. na <a href=http://forum.farmanager.com/viewforum.php?f=11>http://forum.farmanager.com/viewforum.php?f=11</a>, wtyczkę do FARa ma również <a href=http://winscp.net/eng/download.php>darmowy WinSCP (protokół FTP, SFTP i SCP)</a>.</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>
+
+<p><strong><a name="6"></a><font size="+1">Konkurencja</font></strong></p>
+<p>Czy FAR ma konkurencję ?</p>
+
+<p align=justify>Wszak mieliśmy i mamy również wiele &quot;klonów&quot;. <a href="http://en.wikipedia.org/wiki/Dos_Navigator">DOS&nbsp;Navigator</a>, <a href="http://en.wikipedia.org/wiki/Volkov_Commander">Volkov Commander</a>, <a href="http://www.ghisler.com/">Windows/Total Commander</a>, <a href="http://en.wikipedia.org/wiki/Midnight_commander">Midnight Commander</a>, Foltyn Commander (tak, tak, pisany przez Łukasza Foltyna, czyli twórcę Gadu-Gadu !), <a href="http://www.mucommander.com/">muCommander</a> (w Javie !), Free Commander to tylko niektóre z nich...</p>
+
+<p align=justify>W Windows zadziała wiele narzędzi napisanych dla DOS, ich podstawową wadą będzie jednakże brak obsługi długich nazw plików albo nowych wersji. Do tego dochodzą ograniczenia wynikające z ich wieku czy licencji (były to często narzędzia komercyjne, które obecnie są porzucone przez twórców).</p>
+
+<p><img height="400" src="sites/default/files/109/mc.png" alt="" /></p>
+
+<p><em>Rysunek 16. Midnight Commander w Linuxie</em></p>
+
+<p align=justify>Mieliśmy próby przeniesienia darmowego Midnight Commandera znanego z różnych systemów unixowych (np. Linuxa).</p>
+
+<p><img height="400" alt="" src="sites/default/files/109/tc1.png" /></p>
+
+<p align=justify><em>Rysunek 17. Wygląd głównego okna programu pobranego testowo (na potrzeby wykonania tej recenzji) ze </em><a href="http://www.ghisler.com/"><em>strony domowej</em></a></p>
+
+<p align=justify>Aplikacją stale rozwijaną i w sumie niekwestionowanym liderem jest natomiast <a href="http://www.ghisler.com/">Windows/Total Commander</a>. Wykorzystuje ideę dwóch paneli, ma również wiele wtyczek. Jego podstawową wadą jest fakt, iż nie jest darmowy.</p>
+
+<p align=justify>Jak widać na załączonym obrazku (rysunek 17), wygląda jak typowa aplikacja Windows. Dodatkowo tak działa - np. otwarcie właściwości pliku pokazuje okno takie jak w <strong>Eksploratorze</strong> Windows, a próba wykonania komendy w konsoli powoduje otwarcie nowego okna terminala (które standardowo jest od razu zamykane po jej wykonaniu).</p>
+
+<p align=justify>Powiedziałbym, iż niektórym użytkownikom może to się nie podobać (i oni mogliby zainteresować się np. FARem). Z drugiej strony: jeżeli jednak Total Commander przypadłby im do gustu, mieliby polską wersję uaktualnioną regularnie o wiele wtyczek np. na stronie <a href="http://totalcmd.pl/">http://totalcmd.pl</a>.</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>
+
+<p><strong><a name="7"></a><font size="+1">Podsumowanie</font></strong></p>
+
+<p align=justify>Program nie jest może tak rozbudowany jak główny konkurent, spełnia jednakże wyśmienicie swoje podstawowe funkcje. Nadaje się też bardzo jako menedżer plików na pendrive (jeśli będziemy jednakże ustawiać konfigurację na jakiejś maszynie, użyteczne może się okazać wyłączenie różnego rodzaju historii).</p>
+
+<p align=justify>Może i nie ma np. ChangeLogu po angielsku. Może i jest mało wtyczek. Może gdzieś znajdzie się jakaś usterka (chociażby błąd w tłumaczeniu albo jego brak), ale gdzie ich teraz nie ma ?</p>
+
+<p align=justify>Myślę, iż za takie rzeczy powinienem odjąć maksymalnie 1 punkt.</p>
+
+<p align=justify>Ważne, iż często pojawiają się kolejne stabilne buildy... Do tego ta cena...</p>
+
+<p align=justify>A że wygląda może mało nowocześnie i działa w konsoli ? Albo że obsługuje stare, nieformalne i już zapomniane standardy ? (np. tworzenie opisów plików w zbiorze <strong>descript.ion</strong> zastępujących tak naprawdę kiedyś długie nazwy plików) No cóż, <em>de gustibus non est disputandum</em>, czyli jak ktoś woli w wolnym tłumaczeniu <em>o gustach się nie dyskutuje</em> :)</p>
+
+<p align="right"><a href="#gora">Hop do góry</a></p>

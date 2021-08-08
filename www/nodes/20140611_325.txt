@@ -1,0 +1,22 @@
+﻿Title:x
+Author:marcin
+When:11 Jun 2014
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Pszenica to czy jęczmień ?<br />
+bluszczu kwiat czy żeń-szeń ?<br />
+pokrzywa, a może chmiel ?<br />
+szalej czy może żankiel ?</p>
+<p>żarłacz to czy długoszpar ?<br />
+pirania ? salmo salar ?</p>
+<p>truteń to czy pszczółka ?<br />
+kukułka czy jaskółka ?<br />
+zbójnica czy żniwiarka?<br />
+niezdarka czy siodlarka ?</p>
+<p>możliwości tak wiele<br />
+ukrytych w każdym ciele<br />
+i odwieczne pytanie<br />
+może odpowiesz na nie ?</p>
+<!--break-->

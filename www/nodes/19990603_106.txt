@@ -1,0 +1,44 @@
+﻿Title:Konkurs fizyczny (1999)
+Author:marcin
+When:03 Jun 1999
+Taxonomy:Polski,Polski artykuł,Fizyka
+
+<p><a name="Top" id="Top"></a>Poniżej zebrane zostały zadania (do niektórych z nich odpowiedzi i rozwiązania) z kolejnych edycji konkursu fizycznego organizowanego przez warszawskie Kuratorium Oświaty i <a href="http://www.im.pw.edu.pl/ftims/home_pl.html">Wydział Fizyki Technicznej i Matematyki Stosowanej</a> <a href="http://www.pw.edu.pl/">Politechniki Warszawskiej</a>. W konkursie tym mogą uczestniczyć uczniowie szkół ponadpodstawowych. Składa się on z trzech etapów:</p>
+<p></p><ul><li><a href="?q=node/113">Szkolnego</a> (4 zadania, 2 godziny)</li>
+<!--break-->
+<li><a href="?q=node/125">Rejonowego</a> (5 zadań, 2 i pół godziny)</li>
+<li><a href="?q=node/126">Finału</a> (5 zadań, 2 i pół godziny)</li>
+</ul><p>Uzyskanie odpowiedniej liczby punktów za rozwiązania jest warunkiem niezbędnym do przejścia do następnych etapów (lub zostania laureatem). Zadania dotyczą następujących działów (w zakresie szkolnego programu nauczania):</p>
+<p></p><ol><li>Mechanika</li>
+<li>Termodynamika</li>
+<li>Grawitacja</li>
+<li>Elektromagnetyzm</li>
+<li>Zjawiska falowe i kwantowe</li>
+</ol><p>Uczestnictwo w konkursie wiąże się z pewnymi przywilejami:</p>
+<p></p><ul><li>Uczniowie, którzy przeszli do <a href="?q=node/126">finału</a>, powinni :) uzyskać najwyższą możliwą ocenę roczną z Fizyki w danym roku szkolnym (czyli celującą).</li>
+<li>Laureaci dostają indeks studenta <a href="http://www.if.pw.edu.pl/">Wydziału Fizyki</a> <a href="http://www.pw.edu.pl/">Politechniki Warszawskiej</a>.</li>
+<li>Finaliści mogą się pocieszyć pięknym dyplomem :).</li>
+</ul><p>Musisz jednak pamiętać, że jest to tylko konkurs, a nie olimpiada (wbrew pozorom ta niewielka zmiana nazwy znaczy bardzo dużo - większość uczelni zwalnia ze zdawania tylko finalistów i laureatów OLIMPIAD - np. <a href="http://www.if.pw.edu.pl/~olimp/">fizycznej</a>)</p>
+<p><a href="?q=node/113">Etapy szkolne</a> organizowane są przez szkoły (zazwyczaj do 31 października). Terminy pozostałych etapów są ustalane na początku każdego roku szkolnego. Obowiązują one zakwalifikowanych uczniów wszystkich szkół.</p>
+<p>Obecnie jest już prowadzona <a href="http://www.if.pw.edu.pl/~konkurs/kf.html">oficjalna strona z informacjami o tym konkursie</a>. Znajdziesz tam m.in. regulamin i zadania z rozwiązaniami z <a href="?q=node/125">etapu rejonowego</a> i <a href="?q=node/126">finału</a>.</p>
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">Znane stałe fizyczne</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p>Przy rozwiązywaniu powyższych zadań można używać następujących stałych fizycznych (o ile w zadaniu nie zaznaczono inaczej):</p>
+<p></p><ul><li>Przyspieszenie ziemskie g = 9,8 m/s<sup>2</sup></li>
+<li>Ładunek elementarny (elektronu) e = 1,60210*10<sup>-19</sup> C</li>
+<li>Masa elektronu m<sub>e</sub> = 9,10908*10<sup>-31</sup> kg</li>
+<li>Masa protonu m<sub>p</sub> = 1,67252*10<sup>-27</sup> kg</li>
+<li>Masa cząstki <font face="Symbol">a</font> = m<sub><font face="Symbol">a</font></sub></li>
+<li>Przenikalność dielektryczna próżni <font face="Symbol">e</font><sub>0</sub> = 8,85415*10<sup>-12</sup> C<sup>2</sup>/(N*m<sup>2</sup>)</li>
+<li>Prędkość światła w próżni C = 2,997925*10<sup>8</sup> m/s</li>
+<li>Stała gazowa R = 8,31 J/(mol*K)</li>
+<li>Liczba Avogadra N<sub>A</sub>= 6,02252*10<sup>26</sup> 1/kmol</li>
+<li>Stała Plancka h = 6,62559*10<sup>-34</sup> J*s</li>
+<li>Uniwersalna stała grawitacji G = 6,670*10<sup>-11</sup> N*m<sup>2</sup>/kg<sup>2</sup></li>
+</ul><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a>
+</p><p><font color="#1F409F" size="+2" class="dzial">Odnośniki</font><br /></p>
+<hr align="LEFT" size="3" width="300" color="#60c0a0" noshade="noshade" /><p>Niektóre z poniższych zadań można znaleźć w następujących zbiorach zadań (o tym, iż dane zadanie jest rozwiązane w zbiorze, informuje literka R po jego numerze):</p>
+<p></p><ul><li><a name="K" id="K"></a>K - Jędrzej Jędrzejewski, Witold Kruczek, Adam Kujawski "zbiór zadań z fizyki DLA UCZNIÓW SZKÓŁ ŚREDNICH I KANDYDATÓW NA STUDIA" tomy I i II <a href="http://www.wnt.com.pl/" target="_top">WNT</a> (wyd. 9 - 1995 rok)</li>
+<li><a name="KA" id="KA"></a>Ka - Henryk Kaczorek, Zbigniew Słówko "ZBIÓR ZADAŃ Z FIZYKI dla klasy drugiej liceum ogólnokształcącego i technikum" <a href="http://www.wsip.com.pl/" target="_top">WSiP</a> (wyd. 6 - 1988 rok)</li>
+<li><a name="W" id="W"></a>W - Waldemar Gorzkowski "ZADANIA Z FIZYKI z całego świata z rozwiązaniami. 20 lat Międzynarodowych Olimpiad Fizycznych" <a href="http://www.wnt.com.pl/">WNT</a> (wyd. 1 - 1994 rok)</li>
+</ul><p><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br /></p>

@@ -1,0 +1,37 @@
+﻿Title:Sobieski on GitHub (2019)
+Author:marcin
+When:11 Nov 2019
+Taxonomy:English,English blog,Sobieski
+SkipMain:true
+
+<p>Sobieski is CMS (Content Management System) using just PHP (no database) for displaying HTML content from UTF-8 text files and offering
+<!--break-->
+
+<ul><li>sorting by visits / date
+<li>taxonomies (key words assigned to concrete articles)
+<li>filtering HTML (you can select, which tags are allowed in content)
+<li>visits counter (feature requires SQLite)
+<li>mobile version
+<li>dark mode
+<li>redirections
+<li>menu with Top 10, history (pages from concrete months) & taxonomy terms
+<li>teasers (summary of article in the page list) different than content
+<li>comments (currently only viewing, no adding or editing)
+<li>tools for migrating from Drupal (Pushbutton) and checking if content has got dead links
+</ul>
+
+<p>and much more.
+
+<p>Advantages:
+
+<ul>
+<li>extremly small and fast
+<li>easy to understand and very portable (no database)
+<li>flexible
+<li>JavaScript is used only for marking internal links (you can treat it as optional feature)
+<li>cookies are used only for marking if mobile version and dark theme are on
+</ul>
+
+<p>Current theme is similar to Pushbutton from Drupal.
+
+<p>URL: <a href=https://github.com/marcinwiacek/Sobieski>https://github.com/marcinwiacek/Sobieski</a>

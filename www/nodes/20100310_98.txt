@@ -1,0 +1,24 @@
+﻿Title:Donations
+Author:marcin
+When:10 Mar 2010
+Taxonomy:English
+SkipMain:true
+
+<p align="justify">If you like content of this page and you want to help in extending it (and published here software), <a href="mailto:marcin@mwiacek.com">please contact with the author for coordinating details of your help</a>. It can be support with the coding, providing hardware, etc.</p>
+<!--break-->
+<font color=grey><strike><p align="justify">You can also give some goods or money. One of possibilities is </p>
+<p>using Bitcoin - Bitcoin receiving address is 1Ly8wdk9bDfAAajdcKAAdWuHwNFRVgH2Bu<br /><img src="sites/default/files/98/bc1.png" /></p>
+<p>or sending money over <a href="http://www.paypal.com">PayPal</a> to the <a href="mailto:marcin@mwiacek.com">marcin@mwiacek.com</a> address. It's possible for example with published below buttons: </p></strike></font>
+<table style="border-collapse:separate;"><tr><td align="center">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_donations" /><input type="hidden" name="business" value="marcin@mwiacek.com" /><input type="hidden" name="lc" value="PL" /><input type="hidden" name="item_name" value="Rozszerzanie oprogramowania i strony www" /><input type="hidden" name="no_shipping" value="2" /><input type="hidden" name="currency_code" value="PLN" /><input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" /><input type="image" src="https://www.paypal.com/pl_PL/PL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal — Płać wygodnie i bezpiecznie" /><img alt="" border="0" src="https://www.paypal.com/pl_PL/i/scr/pixel.gif" width="1" height="1" /></form>
+<p>(PLN)
+</p></td>
+<td align="center">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_donations" /><input type="hidden" name="business" value="marcin@mwiacek.com" /><input type="hidden" name="lc" value="GB" /><input type="hidden" name="item_name" value="Extending software and www page" /><input type="hidden" name="no_shipping" value="2" /><input type="hidden" name="currency_code" value="USD" /><input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" /><input type="image" src="https://www.paypal.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online." /><img alt="" border="0" src="https://www.paypal.com/pl_PL/i/scr/pixel.gif" width="1" height="1" /></form>
+<p>(USD)
+</p></td>
+<td align="center">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_donations" /><input type="hidden" name="business" value="marcin@mwiacek.com" /><input type="hidden" name="lc" value="GB" /><input type="hidden" name="item_name" value="Extending software and www page" /><input type="hidden" name="no_shipping" value="2" /><input type="hidden" name="currency_code" value="EUR" /><input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" /><input type="image" src="https://www.paypal.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online." /><img alt="" border="0" src="https://www.paypal.com/pl_PL/i/scr/pixel.gif" width="1" height="1" /></form>
+<p>(Euro)
+</p></td>
+</tr></table>

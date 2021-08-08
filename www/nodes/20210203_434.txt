@@ -1,0 +1,52 @@
+﻿Title:Jabłka niestrawne są "by design"? (2021)
+Author:marcin
+When:3 Feb 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Jablka-niestrawne-sa-quotby-designquot,113148.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dzisiaj będzie kilka słów o pewnej sprawie. Niektórzy mogą ją wrzucać do worka ze spiskową teorią dziejów, dla wielu będzie tak istotna jak plamy na Słońcu, za to w pewnych kręgach jest krytyczna (i nie zmieni tego absolutnie nic). Postaram przedstawić się całość trochę żartobliwie, natomiast wszystko powstało na podstawie strony „<a href="https://sneak.berlin/20201204/on-trusting-macintosh-hardware/" target="_blank" rel="noopener" rel="nofollow">On Trusting Macintosh Hardware</a>”.</p>
+
+<!--break-->
+ 
+<p>Jest taka firma, na widok produktów której wielu dostaje spazmów. No i właśnie ta firma wypuściła wszystkomogące chipy M1, a teraz przygotowuje się do premiery układu M1X i <a href="https://www.tomshardware.com/news/apple-wants-more-macs-in-businesses-can-it-take-on-intel-vpro-amd-ryzen-pro" target="_blank" rel="noopener" rel="nofollow">chce wejść na rynek korporacyjny</a>.</p>
+ 
+<center><img src="sites/default/files/434/home-office-336374_1920.jpg" style="width:608px;height:397px;" alt="image" title="image" /></center>
+ 
+<p>Na rynku w obszarze procesorów bardzo mocno okopała się firma z niebieskim logo, znana z kilku spektakularnych wpadek (takich jak wypuszczenie 80386 z błędem i <a href="https://en.wikipedia.org/wiki/Intel_80386#Early_problems" target="_blank" rel="noopener" rel="nofollow">nabijanie znaczka „16-bit S/W ONLY”</a><u>, </u>wyprodukowanie Pentium, co <a href="https://en.wikipedia.org/wiki/Pentium_FDIV_bug" target="_blank" rel="noopener" rel="nofollow">nie umiał liczyć w kalkulatorze</a><u>,</u> i Pentium IV, które rozpoczęło epokę małych stacjonarnych piecyków w domach). Żeby nie było, że się naśmiewam, to dodam, że przez lata sam miałem jej produkty i te były lepsze niż układy konkurencji. Z jej strony dostaliśmy zresztą kilka ciekawych pomysłów, jak Intel BX (zanim modne stało się zmienianie podstawek nawet wtedy, gdy chipset jest w procesorze, to możliwe było dostarczenie takiego układu, który służył i służył przez lata), numer seryjny procesora (który początkowo był kontrowersyjny, ale <a href="https://en.wikipedia.org/wiki/Pentium_III#Controversy_about_privacy_issues" target="_blank" rel="noopener" rel="nofollow">jest na stałe w x86</a>) czy <a href="https://en.wikipedia.org/wiki/Intel_Upgrade_Service" target="_blank" rel="noopener" rel="nofollow">odblokowywanie rdzeni kodem</a> (kosztującym więcej niż różnica w cenie).</p>
+ 
+<p>Oprócz niebieskich są też oczywiście czerwoni. Jak na razie są oni na fali wznoszącej, i jakoś mocno nie mówi się o ich AMD Secure Processor, który jest znany mniej niż ME konkurenta.</p>
+ 
+<p>Stara gwardia (a konkretnie duet Microsoft-Intel) przez laty ukuła termin „secure computing”, który oznacza mniej więcej tyle, że twój komputer nie jest twój (bo to np. producent decyduje, że wystartujesz taki, a nie inny system operacyjny). Firmy te przecierały szlaki, ludzie protestowali, i jakoś to się kręciło.</p>
+ 
+<p>A sadownicy pomyśleli „Think different”, i początkowo wypróbowali ideę chipów T2 w tandemie z Intelem, a potem przygotowali własne układy, tak atrakcyjne, że wszyscy się o nie dosłownie zabijają.</p>
+ 
+<p>Co jednak nie udało się starym graczom, to w wykonaniu poniekąd małej firmy (w sensie – firmy, która nie jest monopolistą na rynku) jest możliwe - nie ma takiej opcji jak zainstalowanie czystego oprogramowania na telefonie / komputerze bez dostępu do internetu.</p>
+ 
+<p>Nie ma i już.</p>
+ 
+<p>Tak się działo z urządzeniami mobilnymi tej firmy, teraz tak dzieje się z Macbookami.</p>
+ 
+<p>Zaczęło się niewinnie... a obecnie całość jest tak &quot;bezpieczna&quot;, że nawet dysku nie da się wyciągnąć.</p><p>Pamiętajmy jednak - są takie systemy, które z zasady nie mają prawa być podłączone do sieci (albo nie mogą, bo jej nie ma w pobliżu).</p>
+ 
+<p>Teoretycznie w tej sytuacji po wipe należałoby kupić drugie urządzenie (oczywiście anonimowo i gotówką), zrobić dump pamięci i porównać... ale czy jest to jeszcze możliwe?</p>
+ 
+<p>Jak cytuje przytoczona przeze mnie w pierwszym linku strona:</p>
+ 
+<p><b>&quot;These systems are now insecure by design: there is no way for them to be made secure&quot;</b></p>
+ 
+<p>Zastanawiające, dlaczego Intel ma takie kłopoty (a mało to tam łebskich gości?), i dlaczego AMD w dalszym ciągu ma takie problemy z przebiciem się np. do laptopów (wojenka z Intelem i jego umowy pod stołem - jasne, że tylko o to chodzi), a jabłkowcom tak ładnie ze wszystkim poszło i nikt na to nie zwraca uwagi.</p>
+ 
+<p>Zwolennicy teorii spiskowych mogą tu powiedzieć - tak się moim drodzy realizuje plan „jesteśmy najważniejszym państwem na planecie; nasze komputery kupione za wasze pieniążki są wszędzie i mogą pracować tylko dla nas w każdym momencie”.</p>
+ 
+<p>Żeby nie było wątpliwości, to mieliśmy już wojnę z Huawei, teraz podobna jest z Xiaomi. </p>
+ 
+<p>Mamy do wyboru jabłka, potem firmy chińskie (wielu z nas może mieć pewne obawy przed wyborem ich produktów, i nie mówię tu o jakości), dosyć mocno skompromitowanego Intela, dosyć słabo dostępnego AMD, kilka konstrukcji na Snapdragonie, może coś na Exynosie, i w praktyce rynek się kończy.</p>
+ 
+<p>W tej sytuacji śmianie się z otwartego Linuxa (który jednak pozwala na więcej audytów i daje podobne środowisko pracy na różnych platformach sprzętowych) jest jakby nie na miejscu.</p>
+ 
+<p>Dziękuję za uwagę.</p>
+ 
+<p>PS. Oczywiście wiem, że nowy iOS lepiej monitoruje apki względem tego, co te robią (i że Apple wiele razy, przynajmniej oficjalnie, odmawiał FBI dostępu do telefonów).</p>
+ 
+<p>PS2. Krótka analiza ruchu sieciowego na Big Sur 11.2 - <a href="https://sneak.berlin/20210202/macos-11.2-network-privacy/" target="_blank" rel="noopener" rel="nofollow">https://sneak.berlin/20210202/macos-11.2-network-privacy/</a>&#160;&nbsp;</p>

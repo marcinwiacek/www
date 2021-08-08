@@ -1,0 +1,11 @@
+﻿Title:Android Market - aplikacja APN (2012)
+Author:marcin
+When:25 Mar 2012
+Taxonomy:Polski,Polski blog,Android,GSM,APN
+
+<p>Android jest wbrew pozorom czasem dosyć prostym w budowie systemem, w którym nie uwzględniono różnych rzeczy. I tak po zmianie karty SIM ustawiane są APNy danego operatora, problem jednak powstaje gdy dane te są nieaktualne albo gdy użyjemy karty tzw. operatora wirtualnego obsługiwanego przez tego operatora (dostaniemy bowiem dane operatora macierzystego).</p>
+<!--break-->
+<p>Z uwagi na tę niedogodność i konieczność szukania ustawień używanego przeze mnie operatora wirtualnego MBank Mobile napisałem do celów własnych na szybko banalnie prostą aplikację, która po potwierdzeniu tożsamości karty SIM i kliknięciu przycisku jest w stanie dodać odpowiednie wpisy.</p>
+<p>Aplikacja może być uaktualniona o innych operatorów (proszę o zrzut ekranu lub spis ustawień wraz z danymi operatora), przy większym zainteresowaniu możnaby ją rozbudować np. o automatyczne wykrywanie zmiany karty SIM i inne.</p>
+<p>Nie testowałem jej w Androidzie 4.x - może wymagać ustawienia jako aplikacja systemowa z użyciem Titianium Backup.</p>
+<p>Link: <a href="https://play.google.com/store/apps/details?id=com.mwiacek.apn">https://play.google.com/store/apps/details?id=com.mwiacek.apn</a></p>

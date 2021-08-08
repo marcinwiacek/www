@@ -1,0 +1,22 @@
+﻿Title:Report 2007-11-04
+Author:marcin
+When:04 Nov 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>And here it goes Gammu+ 0.36. Here is changelog + some my comments:</p>
+<pre>* added daemon for receiving SMS/MMS to PostgreSQL database (you have new
+   --smsmmsd option in CLI, preview in GUI, PHP preview and other...)
+   I have tested it on 6230i and received SMS quite good. With MMS there was
+   issue - if you try to get info about mms file, when it's received, firmware
+<!--break-->
+   deletes it...</pre><p>
+In simple words - if you want to make SMS/MMS gateway, you can catch to DB only SMS now. MMS will be deleted during receiving. Or you can say to senders - send MMS before I will run gateway ;-). Current DB support is much better than in Gammu - you have in DB encoded SMS/MMS (in case, when Gammu+ doesn't know some coding format, it can return to it later) and (if you want) decoded SMS/MMS content too (with info about text formatting and many other things). I will work on it and improve it.</p>
+<pre> * added saving MMS and reading SMS/MMS from backup file
+ * added adding SMS to backup file during sending SMS (from GUI)</pre><p>
+Yeah, phone backup is much complete now. And you can save on HDD, what you have sent from GUI...</p>
+<pre> * improvements for EMS decoding</pre><p>
+Text formatting...</p>
+<p>Generally: although Gammu+ was criticized, that it's messy and although wxWidgets isn't excellent toolkit, both GUI and core grow and allow you for making things impossible with Gammu. This is done without big help from other people.</p>
+<p>There are still two things, which are weak points here: Linux drivers + Symbian support. But I hope to resolve them.</p>
+<p>And remember: if you like this project, you can join with coding, finding bugs and you can donate generally/for writing some feature (even small sum like 5 Euro would be big help). Or maybe you can give/buy some phone with discount ?</p>

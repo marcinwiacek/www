@@ -1,0 +1,9 @@
+﻿Title:How to hang FireFox ? (2012)
+Author:marcin
+When:31 Mar 2012
+Taxonomy:English,English blog
+SkipMain:true
+
+<p>Small thing found few days ago, which hangs FF 11: <a href="sites/default/files/197/x9.htm">file</a></p>
+<p>When it will be fixed ? Look into <a href="https://bugs.launchpad.net/ubuntu/+source/firefox/+bug/970431">https://bugs.launchpad.net/ubuntu/+source/firefox/+bug/970431</a></p>
+<!--break-->

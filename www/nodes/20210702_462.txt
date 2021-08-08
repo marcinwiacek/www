@@ -1,0 +1,34 @@
+﻿Title: Jak producenci laptopów robią nas w balona z RAM i grafiką… tragikomedii odcinek kolejny (2021)
+Author:marcin
+When:2 July 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1147477,jak-producenci-laptopow-robia-nas-w-balona-z-ram-i-grafika-tragikomedii-odcinek-nie-wiem-juz-ktory>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Laptopy dla wielu z nas stały się podstawowym narzędziem pracy i rozrywki. W tej dziedzinie przez lata widać było duży postęp, obecnie jednak coraz częściej mamy do czynienia ze stagnacją i tzw. jednorazówkami.
+<!--break-->
+Popatrzmy na to, jakie możliwości zmian mamy dzisiaj:</p>
+<ul>
+<li>dyski – kiedyś zmiana dysku talerzowego na SATA SSD dawała urządzeniu drugie życie, dzisiaj zarówno w urządzeniach budżetowych i z najwyższej półki cenowej wszystko zaczyna być lutowane (myślę odpowiednio o kościach eMMC i konstrukcjach Apple). Warto zauważyć, że pamięci półprzewodnikowe zużywają się. Przyczynia się do tego chociażby używanie hibernacji lub funkcjonalności typu swapfile (włączenie tej ostatniej jest praktycznie standardem w przypadku tanich laptopów z 4 GB RAM albo MacBooków / iMac z 8 GB RAM, zaczyna być oferowania również w telefonach firmy OPPO).</li>
+<li>procesor – kiedyś na podstawkach, teraz zazwyczaj lutowany (jeżeli się dobrze orientuję, jest pewna możliwość wymiany Ryzenów w kadłubkach Clevo).</li>
+<li>karta graficzna – kiedyś układy dedykowane bywały na podstawkach, obecnie coraz częściej lutowane.</li>
+<li>karta WIFI – coraz częściej lutowana.</li>
+<li>klawiatura – jej wymiana często jej związana również z wymianą górnej części obudowy (szczególnie, jeśli chcemy zmienić jej układ).</li>
+<li>ekran – są tu jeszcze pewne możliwości.</li>
+<li>RAM – coraz częściej lutowany.</li>
+</ul>
+<p>Dzisiaj zatrzymam się na ostatnim punkcie.</p>
+<p>Większość z nas zapewne wskaże, że tam, gdzie liczy się prędkość, lepszy jest RAM o szybszym taktowaniu, jak również używanie trybu dwukanałowego (czyli na przykład DDR4 3200 Mhz 2 x 8 GB zamiast DDR4 2666 Mhz 1 x 16 GB). To się zgadza - <a href="https://www.purepc.pl/jakie-pamieci-ddr4-do-laptopa-test-ram-so-dimm-2133-3200-mhz" target="_blank" rel="nofollow noopener">testy dotyczące prędkości robi np. PurePC</a>, różnice widać też w przypadku dwukanałowości</p>
+<p>
+<iframe width="860" height="483" src="https://www.youtube.com/embed/kCg7eVN6N9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>To nie wszystko, i ostatnio Linus wskazał w swoim wideo na kwestię organizacji kostek RAM (jak również na to, że lepiej jest grać na zewnętrznym monitorze):<br />
+</p>
+<p>
+<iframe width="860" height="483" src="https://www.youtube.com/embed/R7CO9v9rpOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>To jak, dalej cieszycie się, że RAM w waszych ulubionych Macbookach i innych smukłych pięknościach jest wlutowany? Że nie możecie sobie wybrać, jakie kostki tam włożyć? Czy nie przypomina to jak żywo systemu sterowanego centralnie, gdzie brało się to, co jest?</p>
+<p>Co kart graficznych, to laptopy też nie mają do nich szczęścia.</p>
+<p>Dawno temu mieliśmy do czynienia z plagą awarii dotykających określone karty Nvidii. Przez lata pomimo różnych rozwiązań problemem ciągle pozostaje całkowite wyłączanie układów dedykowanych (gdybyśmy chcieli oszczędzać energię), na palcach jednej ręki można też policzyć sensowne moduły zewnętrzne (technicznie nie ma najmniejszych przeszkód, żeby przygotować bardzo ciche mobilne urządzenia, które ze stacją dokujące zamienią się w mocne komputery do grania). Ciekawostką pozostaje fakt, że firma Dell obiecywała w swoich laptopach Alienware wymienność kart (i została pozwana za brak rozbudowanej oferty), a w różnych laptopach dostajemy (teoretycznie) te same karty, ale w praktyce działają one z różnym limitem mocy. Problem z MUX jest wisienką na torcie, i prawdopodobnie w końcu powinniśmy powrócić do korzeni i modularności, która pozwoli na taki rozwój jak w oryginalnym IBM PC (szczególnie, że klimat wariuje i niepotrzebne nam tony elektrośmieci).</p>
+<p>Czas na Framework laptop?</p>
+<p>
+<iframe width="860" height="483" src="https://www.youtube.com/embed/XFrJcjCbCA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

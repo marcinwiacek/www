@@ -1,0 +1,9 @@
+﻿Title:What phone could be recommended by Gammu author(s) to make SMS gateway ? 
+Author:marcin
+When:15 Apr 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p>The best is always the most simple device. So, I think that using Nokia 3310 or 3410 can be very good choice. They have removed some SMS bugs (for example, 3330 has buggy firmware - you have to flash it with 3310 firmware to avoid any problems). Especially 3410 is interesting - has got LiIon battery.</p>
+<p>More expensive Nokia phones (with own SMS memory) are more complicated and using them is not always good idea (of course, Gammu can do it).</p>
+<!--break-->
+<p>Another way is is to use special cellular modem especially equiped to continuous work. I recommend Siemens devices - for example Siemens MC35. It has GPRS and can be used to many tasks.</p>

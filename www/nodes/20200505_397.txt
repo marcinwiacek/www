@@ -1,0 +1,136 @@
+﻿Title:A ja dziękuję za "artykuł" o Linuxie... (2020)
+Author:marcin
+When:5 May 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Linux
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/A-ja-dziekuje-za-quotartykulquot-o-Linuxie,107750.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Wyjaśnię to łopatologicznie:</p>
+
+<ul><li>tysiące lat - ludzie marzą o lataniu</li>
+
+<li>1903 - pierwszy lot braci Wright</li>
+
+<li>1927 - przelot transatlantycki Lindbergha</li>
+
+<li>1933 - lot Stanisława Skarżyńskiego nad Oceanem Atlantyckim na polskim RWD-5 bis i oblot Douglas DC-1</li>
+<!--break-->
+
+<li>1935 - oblot DC-3 <i>Dakota</i></li>
+
+<li>1949 - prezentacja De Havilland <i>Comet</i></li>
+
+<li>1957 - Boeing 707, który rozpoczął epokę odrzutowców pasażerskich firmy</li>
+
+<li>1967 - Boeing 737 (z którego wywodzi się niesławny 737 Max)</li>
+
+<li>1969 - Boeing 747 <i>Jumbo Jet</i></li>
+
+<li>1972 - Airbus A300 (pierwszy model firmy)</li>
+
+<li>2005 - Airbus A380<br/></li><li>2009 - Boeing 787 <i>Dreamliner</i></li>
+
+<li>2020 - uziemienie ruchu lotniczego</li>
+
+</ul>
+
+<p><center><img src="https://gallery.dpcdn.pl/imgc/UGC/96894/g_-_608x405_-_-_x9d5c8763-1d42-4129-89ab-640b0380cc36.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Celowo pominąłem tutaj setki ważnych wydarzeń. Przez lata możliwość latania była poza zasięgiem ludzkich możliwości, potem powstały dziesiątki różnych wytwórni, a jeszcze potem wszystko rosło, ruch lot spowszedniał i w naszej świadomości najbardziej wyryły się nazwy tylko dwóch wytwórców: Boeinga i Airbusa.</p>
+
+<p>Samoloty stały się nudne i podobne do siebie. Nie zastanawiamy się co i jak, tylko wsiadamy (wsiadaliśmy) do jednej z maszyn, które miały zawieść nas z punktu A do punktu B.</p>
+
+<p>Uziemiane są kolejne ciekawe modele - po Concorde przychodzi czas na <i>Jumbo</i> i A380.</p>
+
+<p>Teraz informatyka:</p>
+
+<ul><li>1936 - komputer mechaniczny Z1</li>
+
+<li>1939 - komputer lampowy ABC</li>
+
+<li>1947 - tranzystor (1947 tranzystor ostrzowy, 1950 tranzystor złączowy, 1957 złączowy tranzystor polowy JFET, 1959 MOSFET)</li>
+
+<li>1958 - układ scalony</li>
+
+<li>1968 - Intel</li>
+
+<li>1969 - AMD</li>
+
+<li>1975 - Microsoft</li>
+
+<li>1976 - Apple</li>
+
+<li>1981 - pierwszy IBM PC (model 5150)</li></ul>
+
+<p>I tak to się powoli rozkręciło w tej branży IT - po 8-bitowcach (które budziły duże emocje), po Amigach i Atari na rynku pozostały Pe-Ce-Ty i jeszcze raz Pe-Ce-Ty (nie oszukujmy się, że &quot;magiczne&quot; skrzynki obgryzka to coś innego, niż x86 z pewnymi dodatkami i własnym OS).</p>
+
+<p>Wcześniej przez lata mieliśmy szereg architektur sprzętowych. Kolejni geniusze (jak Seymour Cray) wymyślali różne ulepszenia... wszystko było coraz szybsze i lepsze. W dziedzinie oprogramowania przechodziliśmy od maszyn z własnym oprogramowaniem (pisanym często i gęsto w asemblerze) do urządzeń akceptujących bardziej standardowe C, kolejne wersje Unixów czy DOSów (MS-DOS, PC-DOS, DR-DOS, PTR-DOS, itd.) do czegoś, co na powrót jest zamknięte (znów myślę m.in. o produktach ogryzionego jabłka).</p>
+
+<p>Czasy, gdzie wszystko było piękne i romantyczne, często tworzone w przydomowym garażu, bezpowrotnie minęły.</p>
+
+<p>Ludzie oczekują, że dostają coś, co działa (a wielkie firmy nie mają interesu w dodawaniu darmowego oprogramowania, bo nie dostają tantiem za licencje).</p>
+
+<p>W tym momencie przyszedł Pan Tarnowski i w 2020 radośnie oznajmił, że Linux jest tak mało popularny. Mogę zrozumieć, że w dobie epidemii wpływ z reklam jest na wagę złota... ale widzę również głoszenie następujących tez:</p>
+
+<ul><li>Linux (czymkolwiek nie jest) dla ludu pozostaje słowem magicznym, które budzi duże emocje</li>
+
+<li>pisanie o Windows czy ogryzku nie ma takiego wydźwięku (gdyby było, to zobaczyliśmy np. jakiś fajny poradnik)</li>
+
+<li>wiedza techniczna przeciętnego użytkownika spadła w ostatnich latach na łeb na szyję</li>
+
+</ul>
+
+<p>Jest w tym pewien żal za minionymi czasami. </p>
+
+<p>Rzeczywiście weszliśmy w fazę, nazwijmy to bardzo oględnie, cięcia kosztów na wszystkim. Układy scalone są produkowane w nielicznych fabrykach, projekty urządzeń wyglądają bardzo podobnie, nikomu nie potrzeba większych prędkości czy rozdzielczości (nie oszukujmy się, że myszki muszą mieć USB4).</p>
+
+<p>Pamiętam, jak kiedyś kupno nowej karty graficznej było kiedyś wielkim doświadczeniem. A dzisiaj? Kupuje się je na kilogramy na Allegro, często i gęsto z gwarancją zabraniającą pracy w trybie 24 h-7 dni.</p>
+
+<p>Wadliwe klawiatury? Żaden problem - proszę wydać kilka(naście) tysięcy PLN i przynieść urządzenie do serwisu, gdzie wadliwy egzemplarz wymienimy na kolejny z tą samą wadą.</p>
+
+<p>Chłodzenie? A po co ono komu? Wystarczy mały, niepodłączony do niczego wiatraczek. Amazing! Magic!</p>
+
+<p>Wymiana elementów? Przepraszamy, ale chip T2 nie pozwala na to i owo (co oczywiście nie jest prawdą, ale szary lud wszystko kupi).</p>
+
+<p>Wielce zasłużona dla rozwoju informatyki firma Intel ma dokładnie te same problemy co Boeing, przy czym działania Boeinga w bardziej widoczny sposób mogły doprowadzić do śmierci iluś ludzi.&#160;</p>
+
+<p>A wracając do mitycznego Linuxa - coby nie mówić, stał się przynajmniej trzecią siłą po Windows i Mac OS.</p>
+
+<p>Oczywiście na rynku jest masa innych rozwiązań, ale nie funkcjonują one tak bardzo w świadomości albo nie dają namiastki użyteczności. Czy ktoś widział speców od OpenBSD? NetBSD? Podobno jest ich tak wielu... A czy ReactOS można komukolwiek polecić?</p>
+
+<p>Myślę, że Pan Tarnowski zdaje sobie doskonale sprawę z tego, że jesteśmy dokładnie w tym samym miejscu, co branża lotnicza. To koniec świata IT, który znamy (nie zmieni tego nawet AMD, które odwlekło wyrok o kilka lat)</p>
+
+<p>Jest też inny problem - rozwiązania bazujące na jądrze linuksowym są w milionach urządzeń, milionach laptopów, komputerów pokładowych i masy innego sprzętu. Można je dyskredytować, ale pokazuje się przez to własną niewiedzę i ignorację.</p>
+
+<p>Owszem - zgadza się, że X-Windows ma korzenie ileś lat wstecz, że jądro nie ma wielkiej stabilności ABI, itp.</p>
+
+<p>Problem w tym, że bez Linuxa płacilibyśmy już dziś krocie za to, co jeszcze do wczoraj było praktycznie za darmo. </p>
+
+<p>Nie w naszym interesie jest ośmieszać to rozwiązanie.</p>
+
+<p>Wchodzimy w czas nowej zimnej wojny, która będzie pomiędzy USA i &quot;nowym imperium zła&quot; (który bardzo usilnie pracuje nad niezależnością sprzętową). </p>
+
+<p>Zamiast źle mówić o Linuxie proponuję się ogarnąć i zacząć się uczyć żyć z jego odchyłkami i masowo pisać np. do producentów gier, że chcemy portów.</p>
+
+<p>Celowo dzisiaj nie podaję sto uwag, dlaczego Linux jest najlepszy. Nie jest, a dystrybucje zawierające w sobie własną wersję jądra z kernel.org też mają wiele za uszami.</p>
+
+<p>Co jest jednak w tym wszystkim najważniejsze - to jeden z nielicznych cudów współczesnej techniki, który rozwija się tyle lat i wciąż budzi emocje, a bez emocji i wiedzy nie ma rozwoju.</p>
+
+<p>Im szybciej się odnajdziemy w obecnym porządku świata, tym lepiej dla nas (bo albo chcemy równać w górę, albo w dół).</p>
+
+<p>Od tego też powinny być portale IT - mają uczyć i powodować, że będziemy mogli zrobić więcej za mniej.</p>
+
+<p>A jak sprawy daleko zaszły w Polsce, to widać w wielu płaszczyznach - chociażby polityce (wielu naszym mężom stanu daleko do osiągnięć znamienitych królów) czy kulturze (amerykański Netflix chce ratować polską kinomatografię, która jakoś sama potrafiła wyprodukować &quot;Dekalog&quot; czy &quot;Zimną wojnę&quot;; polskie filmiki są hostowane na amerykańskim YouTube, bo sami nie mamy podobnej platformy).</p>
+
+<p>Nie przyjedzie rycerz na białym koniu. Sami to musimy zrobić i zamiast wychwalać pod niebiosa szrot zza granicy proponuję w końcu zacząć się uczyć i tworzyć swoje własne rozwiązania.</p>
+
+<p>Takem to napisał... dnia 5 maja AD 2020 (dwa dni po rocznicy związanej z naszą słynną konstytucją).&#160;</p>
+
+<p>PS. (6 maja) Po przeczytaniu komentarzy (dziękuję) mam właściwie trzy uwagi:</p>
+
+<ol><li>Jeśli zdefiniujemy desktop jak wiele lat temu, to Linux jest / nie jest najpopularniejszy w zależności od lokalizacji geograficznej albo tego co wbito ludziom za młodu (w Chinach pewnie jest lub będzie, w USA wiele firm woli dalej MacOS albo Windows) </li>
+
+<li>Jeśli zdefiniujemy desktop w oderwaniu od wielkiej skrzyni stojącej pod biurkiem, to w wielu domach Windows jest w mocnym odwrocie (MS to zauważył implementując z takim zapałem WSL i inne cuda).</li>
+
+<li>Pisanie &quot;rok Linuxa na desktopach&quot; jakoś tak trąci myszką szczególnie, że teraz wszystko się przenika - wine, hyperv, wsl, itd. Pewne zmiany się dokonały i przestańmy żyć minionymi czasami (praca od podstaw wydaje się być w ogóle bardzo potrzebna, co zauważyłem też przy okazji wpisu o zarazie: <a href="?q=node/398">https://www.dobreprogramy.pl/marcinw2/Epidemia-i-podejscia-do-tematu-w...</a>)</li></ol>
+

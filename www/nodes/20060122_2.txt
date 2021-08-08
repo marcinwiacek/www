@@ -1,0 +1,35 @@
+﻿Title:Report 2006-01-22
+Author:marcin
+When:22 Jan 2006
+Taxonomy:English,English blog,Gammu
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I started to be more modern and started using Wiki for various tasks. Some words about my current work and plans (something like Weekly Newsletter for <a href="http://www.reactos.org">ReactOS</a>):</p>
+<ol><li>Wiki on Gammu.net is now splitted into NameSpaces:
+<ul><li>Gammu for Gammu family projects
+<!--break-->
+</li><li>GPlus for Gammu+ family projects
+</li><li>HydePark for various cellular related texts. It will replace Gammu.net HydePark section created in December 2005. I started moving RoadMap 2006 into Wiki. It's almost end (all links will be added during few days).
+</li><li>Phones for various phone compatibility reports and texts. I will add easy creating links inside from phone database.
+</li><li>additionaly in main NameSpace I will put various Reports about past, present and future for gammu.net and software. I hope, that <a href="http://cihar.com">Michal Čihař</a> and other people will use it too.
+</li><li>more NameSpaces will be added on request
+</li></ul></li><li>there are still some things ToDo with current wiki:
+<ul><li>creating real section about configuring Gammu (some texts about connection parameters) from main NameSpace texts and other
+</li><li>moving all Gammu documents from main NameSpace into Gammu NameSpace
+</li><li>moving Gammu man page content into other Gammu NameSpace documents and removing it
+</li><li>moving some Gammu FAQ parts into other Gammu NameSpace documents
+</li><li>cleaning content and rechecking links
+</li><li>compacting DB
+</li></ul></li><li>other gammu.net work:
+<ul><li>removing some grammar mistakes
+</li><li>moving <a href="http://cihar.com">Michal Čihař's</a> phone db into gammu.net phone database. Users will be able to report compatibility in "old" style + add comments into this wiki.
+</li><li>making speeches about gammu.net future with donors. There is big hope for better connection/server after April. Current work rather OK, but I need to make backup copies from DB and pages personally.
+</li></ul></li><li>I hoped to release new test Gammu during this weekend. Unfortunately, I didn't have enough time and this week will be very hard for me. I will try to make release then, but don't promise it in 100%. But don't worry - after 27.01 I will be almost free (or at least I hope it). It was calculated into my plans - ending some past projects and make few new releases in January and February.
+</li></ol><p>I hope, that:</p>
+<ol><li>other people will help especially with point 2 and cleaning this wiki.
+</li><li>there will created good documentation for Wammu too
+</li></ol><p>And 3 additional notes:</p>
+<ol><li>if this new wiki will be OK for everybody and I will not receive any reports during week (for example, that something is missed), I will finally remove old wiki's (they're hidden, but available).
+</li><li>current wiki allows for adding users (since December 2005 it was blocked by accident for old wiki's)
+</li><li>wiki can be used as bug report tool, newsgroup server and other...
+</li></ol>

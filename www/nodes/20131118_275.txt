@@ -1,0 +1,42 @@
+﻿Title:LTE to, LTE tamto... (2013)
+Author:marcin
+When:18 Nov 2013
+Taxonomy:Polski,Polski blog,GSM,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/LTE-to-LTE-tamto,Blog,49382.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>LTE to, LTE tamto, LTE kawę zaparzy, LTE wyprowadzi psa na spacer, LTE rozwiąże wszystkie problemy... Taki wniosek można mieć od kilku dni obserwując m.in. to jak reklamuje się Play.
+
+<p>Mają oni oczywiście co świętować - zaczynają bowiem obsługiwać komercyjnie kolejną sieć (działającą właśnie w technologii LTE). 
+
+<!--break-->
+<p>Jest w tym pewna korzyść również dla ich użytkowników - np. w ofertach karcianych za cenę 30 PLN kaucji (+ dodatkowych kwot przedłużających ważność konta na połączenia wychodzące) mogą oni sobie transferować praktycznie dowolną ilość danych o ile znajdą się w zasięgu tej "nowej" sieci (operator podaje w regulaminie, że do 200 GB transferu prędkość nie jest limitowana; zaś ponad tę ilość danych limit prędkości to max. 2 Mb/s/348 kb/s). Przykład: <a href=http://www.play.pl/oferta/play-internet/internet-na-karte/starter-zasiegowy/>Play Online na Kartę</a> lub <a href=http://www.redbullmobile.pl/oferta/na-karte/taryfy-na-karte/>Red Bull na kartę</a>.
+
+<p>Czy jednak jest REALNIE co świętować ? Tak i nie.
+
+<p><h2>Dlaczego tak ?</h2>
+
+<p>(Przynajmniej na papierze ;)) zwiększyła się konkurencja na rynku i mamy widoczny pewien rozwój technologiczny w Polsce. 
+
+<p>Do tego do końca 2014 (prawie) za darmo można nie mieć limitu na dane (Red Bull).
+
+<p><h2>Dlaczego nie ?</h2>
+
+<p><a href=?q=node/227>Dawno temu zrobiłem sobie rozpiskę technologii i częstotliwości w PL</a>. Tłok w eterze właśnie się powiększył i nie jest to zbyt dobre i nie chodzi już nawet o tzw. smog elektromagnetyczny, ale o coś innego - w przypadku Play telefony i urządzenia będą się przełączać między sieciami 4 operatorów (Play, Plus, Orange, T-Mobile) co za pewne nie przysłuży się zużyciu baterii (nie oszukujmy się), braku zakłóceń, itp. (oczywiście można częściowo wymusić ręczny wybór sieci, ale to z kolei nie jest zbyt wygodne)...
+
+<p>Pójdźmy dalej - <a href=http://pclab.pl/news55466.html>co z tego, że Internet w Play jest w LTE skoro realnie daje ok. 15 Mb/s</a> (wiem, wiem, że od czegoś trzeba zacząć, ale spokojnie możnaby użyć sieci 3.9 generacji...)
+
+<p>I wreszcie - terminale do LTE dopiero są mocno dopracowywane, na przykładzie S4 mini (<a href=?q=node/261>robiłem recenzję różnych wariantów we wrześniu</a>):
+
+<p><ul><li>producent nie chwali się obecnością VoLTE (a przynajmniej mam duży problem ze znalezieniem info na ten temat) czyli trzeba przyjąć, że połączenie głosowe do osoby korzystającej z LTE będzie zestawiane do kilku sekund i np. wiązać się może z przerwaniem transmisji danych i większym zużyciem baterii
+<li><a href=http://www.androidcentral.com/samsung-launch-dual-mode-tddfdd-dual-mode-lte-gs4-s4-mini>warianty obsługujące różne typy sieci LTE</a> (może nieistotne, ale...) były/są przez Samsunga dopiero zapowiadane
+</ul>
+
+<p><h2>Smutny wniosek</h2>
+
+<p>Mam wrażenie, że wprowadzanie LTE w Polsce trochę przypomina Inspiro, Pendolino czy DreamLinery - ma być bardzo nowocześnie, ale niekoniecznie działać. 
+
+<p>Da to oczywiście z czasem pewne korzyści, ale obecnie....dalej warto rozważać zakup Dual-SIMa, który obsłuży również Areo2 (prędkość tam jest bowiem niska, ale to działa i nie trzeba przepłacać za Internet szczególnie gdy jeszcze nie ma tam captchy i jest on często używany, ale pozostaje dodatkiem do "porządnego" łącza kablowego)
+
+<p>I niestety przy takim podejściu problemem może być dalej zestawienie zwykłego połączenia głosowego....
+
+<p>PS. Wygląda to trochę jak "rewolucja" Orange polegająca na wprowadzeniu Neo do 10 Mb/s i do 20 Mb/s (trochę użytkowników narzekało, że polegała ona na realnym OBNIŻANIU prędkości - operator ustawia dolną granicę tzw. widełek synchronizacji na 1 Mb/s tam gdzie wcześniej było to 2, 6, 10 lub 20 Mb/s minus bodajże 10% czy 20%)

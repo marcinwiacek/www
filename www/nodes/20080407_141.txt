@@ -1,0 +1,142 @@
+﻿Title:Gammu+ internals
+Author:marcin
+When:07 Apr 2008
+Taxonomy:English,GSM,Nokia,Gammu+,English article
+SkipMain:true
+
+<p>I will want to document some internals of project here... This page will grow with project...</p>
+<p>First of all, let's start to explain what we need to comunicate with phone... The most important is OS driver for medium used for communication (irda, BT, cable). It's external (for example provided by hardware manufacturer) and installed in OS.</p>
+<p>We can separate our project into two things:</p>
+<ul><li>common part (in common directory)
+</li><li>client applications (for example command-line version from gplus directory)
+<!--break-->
+</li></ul><p>Here is general structure. I'm not the best drawer, but it should explain many things:</p>
+<p><img src="sites/default/files/141/gplus_structure.png" /></p>
+<p>I didn't connected "various GSM &amp; non GSM functions" with all other blocks (they should be linked), because it would be very difficult to read. <b>As you see, many functions can be used independly from phone. You're not blocked and have freedom in accesing all things from client application</b></p>
+<h1>common part</h1>
+<p>We need three layers:<br /></p><table cellspacing="0" cellpadding="0" border="1"><tr><td><b>Name</b></td>
+<td>Directory</td>
+<td><b>Files</b></td>
+<td><b>Files content</b></td>
+</tr><tr><td rowspan="4">1. Gammu+ driver for medium used for communication (it communicates with OS medium driver).
+</td>
+<td>common/device</td>
+<td>gsmdev.*</td>
+<td>GSM_Device_Info class for defining various device parameters and GSM_Device class with device API. Used in files in subdirectories.</td>
+</tr><tr><td>common/device/serial</td>
+<td>ser_w32.*</td>
+<td>driver for serial cables in Windows (it covers USB cables with drivers, which "connects" cable into COM ports)</td>
+</tr><tr><td>common/device/irda</td>
+<td>irda.*</td>
+<td>driver for infrared in Windows/Linux</td>
+</tr><tr><td>common/device/bluetoth</td>
+<td>blue_w32.*</td>
+<td>driver for Microsoft stack in Windows (XP SP2 and later)</td>
+</tr><tr><td rowspan="3">2. Gammu+ driver for used protocol (it's using medium driver)
+</td>
+<td>common/protocol</td>
+<td>gsmprot.*</td>
+<td>GSM_Protocol_Info class for defining various protocol parameters and GSM_Protocol class with protocol API. Used in files in subdirectories.</td>
+</tr><tr><td>common/protocol/nokia</td>
+<td>fbus2.*</td>
+<td>Nokia FBUS2 for cable</td>
+</tr><tr><td>common/protocol/nokia</td>
+<td>phonet.*</td>
+<td>Nokia PHONET for bluetooth/infrared</td>
+</tr><tr><td rowspan="7">3. Gammu+ driver for used phone (it's using protocol driver to send and receive bytes to phone)
+</td>
+<td>common/phone</td>
+<td>gsmphone.*</td>
+<td><b>GSM_Phone_Info class for defining various phone models parameters and GSM_Phone class with phone API available for ordinary user. Used in files in subdirectories.</b></td>
+</tr><tr><td>common/phone/nokia</td>
+<td>nauto.*</td>
+<td>driver for automatic detecting Nokia phone model and switching to correct phone driver from subdirectories (DCT3 or DCT4S40)</td>
+</tr><tr><td>common/phone/nokia</td>
+<td>ndct34.*</td>
+<td>functions shared for DCT3 and DCT4S40</td>
+</tr><tr><td>common/phone/nokia/dct3</td>
+<td>n6110.*</td>
+<td>phone driver for old DCT3 phones</td>
+</tr><tr><td>common/phone/nokia/dct3</td>
+<td>n7110.*</td>
+<td>phone driver for latest DCT3 phones</td>
+</tr><tr><td>common/phone/nokia/dct3</td>
+<td>ndct3.*</td>
+<td>functions shared for n6110.* and n7110.*</td>
+</tr><tr><td>common/phone/nokia/dct4s40</td>
+<td>n6510.*<br /><br />
+6510cal.*<br /><br />
+6510sms.*<br /><br />
+6510file.*</td>
+<td>phone driver for DCT4, TIKU, BB5 phones (Series 40 1.0 - 3.0)</td>
+</tr></table><p>All things above use<br /></p><table cellspacing="0" cellpadding="0" border="1"><tr><td><b>Name</b></td>
+<td><b>Directory</b></td>
+<td><b>Files</b></td>
+<td><b>Files content</b></td>
+</tr><tr><td rowspan="6">1. structures, functions for GSM related stuff</td>
+<td rowspan="4">common/service</td>
+<td>gsmcal.*</td>
+<td>calendar</td>
+</tr><tr><td>gsmpbk.*</td>
+<td>phonebook</td>
+</tr><tr><td>gsmfiles.*</td>
+<td>filesystem</td>
+</tr><tr><td>gsmmisc.*</td>
+<td>for all other</td>
+</tr><tr><td>common/service/sms</td>
+<td></td>
+<td>for SMS</td>
+</tr><tr><td>common/service/backup</td>
+<td></td>
+<td>for backup/restore formats</td>
+</tr><tr><td rowspan="3">2. some general functions (can be used with non-GSM projects too)</td>
+<td rowspan="2">common/misc</td>
+<td>ini.*</td>
+<td>INI style files (sections, entries, values)</td>
+</tr><tr><td>misc.*</td>
+<td>for various usefull functions</td>
+</tr><tr><td>common/misc/coding</td>
+<td>coding.*</td>
+<td>for various encoding functions (encoding/decoding/recoding), they're sometimes are similiar to functions available in some libraries</td>
+</tr><tr><td>3. config file</td>
+<td>cfg</td>
+<td>config.h</td>
+<td></td>
+</tr></table><p>and are joined inside GSM_StateMachine in common/gsmstate.*</p>
+<p>When you want to use common part, you have to include:</p>
+<ul><li>common/gsmstate.h
+</li><li>required *.h files from common/service and subdirectories
+</li><li>required *.h files from common/misc and subdirectories
+</li></ul><p>Here is diagram showing (planned) structure for the most important functions from common/service:</p>
+<p><img src="sites/default/files/141/gplus_structure2.png" /></p>
+<h1>command line version</h1>
+<p>It's in the gplus directory - files gplus.* are main and gfiles.*, gsms.* are included</p>
+<h1>sending messages</h1>
+<p>Here is diagram, which show the most important things in sending/receiving messages process</p>
+<p><img src="sites/default/files/141/gplus_sendmsg.png" /></p>
+<p>All is done in one application thread. We have eliminated various typical bugs like using scheme:</p>
+<ol><li>send message
+</li><li>make one receiving and decode received bytes as message
+</li></ol><p>(it's wrong, because sometimes there is required reading bytes from device many times to get full answer).</p>
+<p>We handle incoming messages too (for example we don't have problems in situation, when we want to read phonebook and phone inform - SMS message received)</p>
+<h1>where are differences from Gammu ?</h1>
+<ul><li>GSM_Error is structure now. For example: when you have error code about missed file, structure contains info about file path &amp; name
+</li><li>SMS structure doesn't have ID in form folder &amp; location - it's string now (it allows to save file name &amp; path for Series 40 3.0)
+</li><li>some API (for example for getting folders for Java) has been moved from client application to common part
+</li><li>phone modules have internal cache for filesystem folders info (shared by Java, SMS and many other...)
+</li><li>some functions (like for MMS) are much more extended than Gammu versions (they decode more formats)...
+</li><li>during restoring phonebook, calendar, notes and other you have concrete info, which subentries were restored (available in Gammu in much more primitive form)...
+</li><li>there are put lists (instead of hard coded tables) in much more number of places...
+</li><li>some classes for SMS and MMS are orientated for "phisical" content (for example file with MMS), some for "logical" (for example decoded text). You can fill structure with "logical" content (for example text, ringtones,...) and later save it to "phisical" form using the same source...
+</li><li><b>you have GUI created with core. It's always actual</b>
+</li></ul><p>In short word: Gammu+ contains continued and extended Gammu internals modified for better handling modern (Nokia) phones...</p>
+<h1>what can be improved</h1>
+<p>Like <a href="http://blog.cihar.com/archives/2006/11/10/gammu_mistakes/">Michal Čihař notified</a> in November 2006 project internally isn't maybe excellent, but from my point of view removes many Gammu internal issues. It's also good, because it's already written and working. Let's see on Michal's comments now:</p>
+<ol><li>"There is no design document, where can developer find how the code is organised and what is supposed to be API" - we started it HERE
+</li><li>"There is no definition of external API. Everything is mixed together in simmilar way as in Gammu" - that's true, that we don't have one central h file; we try to give info about user API HERE (bold and other)
+</li><li>"I don't see reasong for passing pointers (and especially double pointers (eg. DebugInfo) instead of C++ references" - for me differences are partially invisible, help required with implementing...
+</li><li>"Why not using widestring constants instead of converting all using some function?" - some things don't need widestrings<br /><i>:: I meant using StringToUnicodeReturn("connection") instead of L"connection". Michal 10:17, 12 November 2006 (GMT)</i><br />:: As I said, I'm not C++ guru. If there is something like this and it's supported both in Linux &amp; Windows, I can use it. THX. Marcin 16:02, 12 November 2006 (GMT)
+</li><li>"Why there are reimplemented lists in backup? All those GSM_Backup_*Entry IMHO can be replaced by list\." - help required
+</li><li>"There is too much malloc used (you should need it very rarely in C++)" - yes, it could be improved, but doesn't affect user visible parts and ...
+</li><li>"Too much reimplementation of standard C library (eg. wcscasecmp vs. UnicodeCaseCmp)" - only few functions reimplemented because aren't available in some OS<br /><i>:: But it this case configure should check for such functions and use own only if it is necessary. Michal 10:17, 12 November 2006 (GMT)</i><br />:: Probably yes. But IMHO writing configure script would need more time than writing these few (because we speak about max. 5-6 functions) simple things. Marcin 16:02, 12 November 2006 (GMT)
+</li></ol><p>In 7 points I see 3 REAL problems. Isn't bad...</p>

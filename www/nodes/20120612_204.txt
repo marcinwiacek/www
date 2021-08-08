@@ -1,0 +1,15 @@
+﻿Title:2007-2012
+Author:marcin
+When:12 Jun 2012
+Taxonomy:English,English blog,GSM
+
+<p>I decided to compare a little bit 2007 and 2012 years...</p>
+<!--break-->
+<p>First Internet - many of us were connecting with it at home over phone lines. First using analog modems (do you remember 0202122 number?), later with Neostrada. In 2007 (to be more specific on 1st February) TP S.A. removed data transfer limits from it. It was revolution. In 2007 ADSL was offered with download speeds 128 kb/s - 6 MB/s (max. monthly fee with 24 month long was 206,18 PLN). Currently ADSL/ADSL2+ connections are provided by various operators, Orange (PTK Centertel + Telekomunikacja Polska) offers it and VDSL with download speeds 512 kb/s - 80 MB/s (max. monthly fee with 24 month long contract is 99,90 PLN).</p>
+<p>Firefox was in version 2 in 2007, we were using Internet Explorer 6 too. Now Internet Explorer seems to be like dinosaur for many users, Firefox is in version 13.0 and the most popular browser seems to be Google Chrome.</p>
+<p>Notebooks with Intel processors had earlier in the most expensive versions Core 2 Duo with 2 physical CPU cores inside. Currently a user can use maximally 8 cores (4 physical + 4 logical are available in the Core i7 CPU line) and they can automatically increase speed without when possible (Turbo Boost 2.0 hardware technology). And where is an additional revolution? Many new CPUs contain graphic card inside.</p>
+<p>Please note, that standard configuration for many users is currently using for example 8 GB RAM. It needs 64-bit operating system - in 2007 latest one was Vista (released year earlier on 8 November 2006) and currently it's the most often Windows 7 (Microsoft has got some later like Home Server 2011 from April 2011 too).</p>
+<p>In 2007 we haven't seen too many iPhones. The first model was released in the end of June. Android didn't exist - SDK for it was published 12 November and devices year later. Currently the last generation of iPhone is 4S model and Android last version is 4.0.4. It is a big technology difference. </p>
+<p>When we speak about cellular networks in the Poland, there is a progress too. In 2007 we had NMT, CDMA, GSM, UMTS. And now? CDMA, GSM, UMTS, LTE....each of them on various frequencies (for example UMTS on 900 Mhz and 2100 Mhz, LTE on 850, 1800 and 2600 Mhz). Some of them are extended by new data transfer technologies.</p>
+<p>We have different prices too. For example: regular prepaid offers allow for making voice call for 0,19 PLN with 1 second counter.  Earlier, it cost much higher (it was period before 0,29 PLN price "war" in 2009). BTW, it reminds me my first prepaid card with price 3,66 PLN for each started minute :) </p>
+<p>As you can see, there has been a big change in some areas available... We're using Facebook, Google, VOD, smartphones. What next ?</p>

@@ -1,0 +1,29 @@
+﻿Title:Report 2006-06-11
+Author:marcin
+When:12 Jun 2006
+Taxonomy:English,English blog,Gammu,GSM,Nokia
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>spammers don't like us, we will not like spammers - I will try to avoid making gammu.org good place for spam. Some first results are visible.
+<!--break-->
+</li><li>Series 40 3rd edition is much different and I will have some work with it. Some comments:
+<ul><li>(+) SMS are saved in filesystem. You seems to have Unicode/Default alphabet support, Class 0 SMS, assigning delivery reports to sent SMS too (there is one small issue only - phone doesn't display full text of sent SMS in Delivery Reports). I don't like SMS editor (there is changed indicator displaying left chars and there is smaller place for SMS text), but generally SMS support is much better. They should only add week days to dates and fix some small issues and it will be perfect !
+</li><li>(+) call lengths and other functions with call/SMS/MMS logs. Generally - there are some menu bugs/issues, but you have everything now :-)
+</li><li>(+) this will be rather comment about concrete model N6111 than family - screen is not too bright. I was working on other phones, where displays were much more bright (it wasn't possible to change it from phone menu or it didn't work correctly and service didn't want to fix it) and it was horrible for eyes, here this is very nice
+</li><li>(-) another N6111 comments - to connect charger you need screw, charger connector is smaller than in other Nokias (something like with N90)
+</li><li>(-) battery and network indicators are 4 level only
+</li></ul></li><li>''Some clarifications on the usage of --nokiaaddfile that would have saved me quite some time.'' - this is comment from wiki. Well, I have asked many times to help me in filling manual. And what response ? Almost 0%
+</li><li>new Gammu 1.07.00 is out. I haven't included one patch from Michal and some from other people. It will be done in next week, when I will be sure, that it's good tested. I will want to process all past emails from May/June soon.<br /><pre>
+    SMSD &amp; MYSQL:
+[-] * reports work OK now (they were wrong after updating all 00000000000000
+      to 0000-00-00 00:00:00 in DB)
+[-] * you can use " in outgoing sms too
+[-] * fix for multipart sms
+[+] * added new CreatorID entry in DB for outbox/sentsms
+    Series 40 3.0 (N6111 now)
+[+] * added: filesystem support, getting call lengths from call logs,
+      getting sent SMS log ("Message recipients" from "Log" in phone menu,
+      new memory SL in Gammu)
+[!] * checked: calendar, notes, todo (generally OK)
+[!] * SMS memory (decoding SMS files from filesystem) not supported yet
+</pre></li></ul>

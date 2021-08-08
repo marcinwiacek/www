@@ -1,0 +1,28 @@
+﻿Title:...
+Author:marcin
+When:22 Sep 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wściekłość, gdy ignorowani się daleko oddalamy,<br />
+albo też gdy w konia robić się w końcu nie damy,<br />
+wstyd z ograniczeń lub ze swojego pochodzenia,<br />
+strach, gdy przychodzi do czynów rozliczenia,</p>
+<p>zdziwienie, że opalenizna po koszu nie ciekawi,<br />
+że uczucie niepodsycane radości życia nie trawi,<br />
+dogłębna potrzeba posiadania małego stworzenia,<br />
+menopauza, ryczące trzydziestki i te spojrzenia,</p>
+<!--break-->
+<p>smutek, gdy wąsik piękny młody obraz przesłania,<br />
+gdy idealnie jest, ale do działania nie skłania,<br />
+niepewność przekroczenia tej cienkiej bariery,<br />
+radość, chęci, spojrzenie, wzrok chyba szczery,</p>
+<p>zazdrość, że można znaleźć wspólne brzmienie,<br />
+politowanie, gdy działa na kogo proste wkręcenie,<br />
+niszczenie swojej tożsamości za małe świecidełka,<br />
+zabijanie myśli, która jest mądra oraz wielka,</p>
+<p>chęć przeżycia przygody i od niej uciekanie,<br />
+gałęzi swojej w imię pierdółek małych odcinanie,<br />
+dziwnie to wszystko codziennie przewija i plecie,<br />
+co rządzi nami ? chyba sami czujecie i wiecie...</p>

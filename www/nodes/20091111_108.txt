@@ -1,0 +1,412 @@
+﻿Title:Co możemy dostać od Microsoftu za darmo? (2009)
+Author:marcin
+When:11 Nov 2009
+Taxonomy:Polski,benchmark.pl,Windows 7,Windows,Polski artykuł,x86,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Co_mozemy_dostac_od_Microsoftu_za_darmo.-2445.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"></center>
+<p align=justify>W tym artykule nie chciałbym przedstawić zestawu porad typu &bdquo;należy pobierać wszystkie poprawki bezpieczeństwa, bo to poprawia bezpieczeństwo&rdquo;, ale raczej zebrać różne ciekawostki i może niekoniecznie znane wszystkim użytkownikom informacje. Będzie to też krótki i stronniczy ;) przegląd tego, co za darmo oferuje Microsoft. Spróbuję również odpowiedzieć na pytanie, czy warto z tego korzystać...</p>
+<!--break-->
+
+<table border="1">
+    <tbody>
+        <tr>
+            <th bgcolor="#cccccc" scope="col">Spis treści</th>
+        </tr>
+        <tr>
+            <td>
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td><a href="#1">1. Programy na dopingu, podwójnym dopingu czy bez ?</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#2">2. Service Packi, poprawki, kumulacje aktualizacji....</a></td>
+                    </tr>
+                    <tr>
+
+                        <td><a href="#3">3. A teraz nakładamy maseczkę odmładzającą dla okien</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#4">4. Łatamy też biuro</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#5">5. Wstawiamy nowe mury</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="#6">6. A może okna za darmo ?</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#7">7. Programowanie...</a></td>
+                    </tr>
+                    <tr>
+
+                        <td><a href="#8">8. A na koniec samowolka i czuwanie Wielkiego Brata, czyli coś za coś</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#9">9. Podsumowanie</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+
+        </tr>
+    </tbody>
+</table>
+
+<p><strong><a name="1"></a></strong></p>
+
+<h1>Programy na dopingu, podwójnym dopingu czy bez ?</h1>
+
+<p align=justify>Zainstalowaliśmy właśnie Windows XP, przeszliśmy do Panelu Sterowania (Control Panel), kliknęliśmy na ikonę &bdquo;Aktualizacje automatyczne&rdquo; (&bdquo;Automatic Updates&rdquo;), wybraliśmy pierwszą opcję od góry i od ten pory nasz komputer powinien pobierać wszystkie możliwe poprawki. Czy to jednak prawda ?</p>
+
+<p align=justify>Niekoniecznie. Okno dialogowe aktualizacji nie informuje bowiem, czy nasz system korzysta z usługi Windows Update czy Microsoft Update. O ile pierwsza dba o aktualizacje samego systemu Windows, o tyle druga pozwala na łatanie większej ilości produktów Microsoftu (wchodzi w to pakiet Office i kilka innych).</p>
+
+<p align=justify>Jak uaktywnić tę drugą ? Należy otworzyć w przeglądarce Internet Explorer stronę <a href="http://update.microsoft.com/microsoftupdate/">http://update.microsoft.com/microsoftupdate/</a> i zgodzić się na włączenie usługi Microsoft Update. Na podanej stronie można również precyzyjnie wybrać, jakie poprawki mają być zainstalowane w systemie.</p>
+
+<p align=justify>Jak to działa w Viście/7 ? Tym razem bez większych zarzutów, co widać na załączonym obrazku.</p>
+
+<img height="307" width="500" src="sites/default/files/108/wu7.png" alt="" />
+
+<p align=justify>&nbsp;<br>Należy pamiętać, iż nie wszystkie poprawki udostępniane są automatycznie od razu &ndash; czasem bowiem pojawiają się wpierw w postaci plików instalacyjnych na stronie Microsoftu, a dopiero później z opóźnieniem w systemach Microsoft/Windows Update. Dzieje się tak np. z uwagi na to, aby różne firmy miały czas na przetestowanie działania swoich aplikacji po dodaniu konkretnej poprawki.</p>
+
+<p><strong><a name="2"></a></strong></p>
+
+<h1>Service Packi, poprawki, kumulacje aktualizacji....</h1>
+
+<p align=justify>Komercyjne produkty Microsoftu mają okres podstawowego wsparcia i czasem również rozszerzonego. W wielkim skrócie można powiedzieć, iż producent w trakcie trwania pierwszego z nich oferuje &bdquo;pełną&rdquo; pomoc (tj. oprócz poprawek związanych z bezpieczeństwem udostępnia publicznie np. również pakiety rozszerzające funkcjonalność), a w drugim tego typu usługi świadczy tylko po wykupieniu odpowiedniego pakietu. Szerzej można poczytać o tym np. <a href="http://support.microsoft.com/gp/lifepolicy">tutaj</a>. Przykładowe <a href="http://support.microsoft.com/lifecycle/search/">daty na dzień dzisiejszy</a>:</p>
+
+<table cellspacing="1" cellpadding="5" border="1">
+
+    <tbody>
+        <tr>
+            <th bgcolor="#cccccc" scope="col"><center>Produkt</center></th>
+            <th bgcolor="#cccccc" scope="col">Koniec wsparcia podstawowego</th>
+            <th bgcolor="#cccccc" scope="col">Koniec wsparcia rozszerzonego</th>
+        </tr>
+        <tr>
+
+            <td align="center">Windows XP</td>
+            <td valign="center" align="center" rowspan="2"><span style="color: rgb(192, 192, 192);">14 kwietnia 2009</span></td>
+            <td valign="center" align="center" rowspan="2">8 kwietnia 2014</td>
+        </tr>
+        <tr>
+            <td align="center">Office 2003</td>
+        </tr>
+
+        <tr>
+            <td align="center">Windows Vista Business/Enterprise</td>
+            <td valign="center" align="center" rowspan="3">10 kwietnia 2012</td>
+            <td valign="center" align="center" rowspan="2">11 kwietnia 2017</td>
+        </tr>
+        <tr>
+            <td align="center">Office 2007</td>
+
+        </tr>
+        <tr>
+            <td align="center">Windows Vista (inne wersje)</td>
+            <td align="center">nie dotyczy</td>
+        </tr>
+        <tr>
+            <td align="center">Windows 7 Professional/Enterprise</td>
+
+            <td valign="center" align="center" rowspan="2">13 stycznia 2015</td>
+            <td align="center">14 stycznia 2020</td>
+        </tr>
+        <tr>
+            <td align="center">Windows 7 (inne wersje)</td>
+            <td valign="center" align="center">nie dotyczy</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<p align=justify>&nbsp;<br>W chwili obecnej dostępne są różne rodzaje poprawek. Najpopularniejsze to (za stroną <a href="http://support.microsoft.com/kb/824684/">KB824684</a>):</p>
+
+<ul>
+    <li><div align=justify><b>Poprawka (Hotfix)</b> &ndash; pakiet zawierający jeden lub więcej plików służący do rozwiązania jakiegoś problemu (specyficznego np. dla jakiejś firmy i nierozpowszechnianego poza nią)</div></li>
+    <li><div align=justify><b>Aktualizacja zabezpieczeń (Security update)</b> &ndash; powszechnie dostępny pakiet poprawiający jakąś lukę w zabezpieczeniach (klasyfikowaną jako krytyczna, ważna, umiarkowana lub niska)</div></li>
+    <li><div align=justify><b>Aktualizacja krytyczna (Critical Update)</b> &ndash; powszechnie dostępny pakiet poprawiający jakąś krytyczną usterkę (nie związaną z zabezpieczeniami)</div></li>
+    <li><div align=justify><b>Uaktualnienie (Update)</b> &ndash; powszechnie dostępny pakiet poprawiający jakąś niekrytyczną i nie związaną z zabezpieczeniami usterkę</div></li>
+    <li><div align=justify><b>Service Pack</b> &ndash; zestaw hotfixów, aktualizacji zabezpieczeń, aktualizacji krytycznych i uaktualnień, czasem również dodatkowe elementy. Każdy kolejny Service Pack zawiera elementy z poprzedniego. Ciekawostką jest, iż pierwsza wersja Windows 2008 była udostępniania od razu z Service Pack 1</div></li>
+    <li><div align=justify><b>Kumulacja aktualizacji (Update Rollup)</b> - zestaw hotfixów, aktualizacji zabezpieczeń, aktualizacji krytycznych I uaktualnień</div></li>
+</ul>
+
+<p align=justify>Standardowym dniem, w którym udostępniane są poprawki, jest drugi wtorek miesiąca. Poprawki krytyczne pojawiają się oczywiście również w inne dni :)</p>
+
+<p align=justify>Część poprawek (np. Service Pack dla Windows XP i Office Professional) bez większych problemów może być integrowana z płytami instalacyjnymi produktów (w procesie tzw. slipstreamingu). Uniemożliwia to wprawdzie ich usunięcie, ale pozwala oszczędzić miejsce na dysku i czas podczas instalacji. Odpowiednie opisy można znaleźć bez problemu w Internecie (np. <a href="http://www.winsupersite.com/showcase/windowsxp_sp2_slipstream.asp">dla Windows XP</a>), istnieją też narzędzia osób trzecich, które idą dalej i pozwalają dodac praktycznie każdą poprawkę (np. <a href="http://www.nliteos.com/index.html">nLite</a>).</p>
+
+<p align=justify>W przypadku Service Pack dla Visty jest to trochę trudniejsze. Odpowiedzią Microsoftu na ten problem jest dodawane wraz z Service Pack 2 narzędzie &bdquo;compcln.exe&rdquo; - jego uruchomienie usuwa odpowiednie pliki.</p>
+
+<p><strong><a name="3"></a></strong></p>
+
+<h1>A teraz nakładamy maseczkę odmładzającą dla okien</h1>
+
+<p align=justify>W tym krótkim przeglądzie nie mogło oczywiście zabraknąć Windows 7 ;) Co z niego może się znaleźć również w starszych systemach ?</p>
+
+<p align=justify>Poniżej tabelka z przeglądem wybranych funkcjonalności - elementy wytłuszczone nie wymagają instalacji dodatkowych uaktualnień, jeśli jest to natomiast konieczne, podany został od razu odpowiedni adres.</p>
+
+<table cellspacing="1" cellpadding="5" border="1">
+    <tbody>
+
+        <tr>
+            <th valign="center" bgcolor="#cccccc" scope="col">&nbsp;</th>
+            <th valign="center" bgcolor="#cccccc" scope="col"><center>Windows XP<br />(NT 5.1)</center></th>
+            <th valign="center" bgcolor="#cccccc" scope="col"><center>Windows Vista<br />(NT 6.0)</center></th>
+            <th valign="center" bgcolor="#cccccc" scope="col"><center>Windows 7<br />(NT 6.1)</center></th>
+        </tr>
+        <tr>
+            <td valign="center" align="center">Service Pack</td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/windows/products/windowsxp/sp3/default.mspx">SP3</a></td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=891ab806-2431-4d00-afa3-99ff6f22448d&amp;DisplayLang=pl">SP2</a></td>
+            <td valign="center" align="center">Jeszcze brak</td>
+
+        </tr>
+        <tr>
+            <td valign="center" align="center"><a href="http://en.wikipedia.org/wiki/FAT64">System plików exFAT (FAT64)</a></td>
+            <td valign="center" align="center"><a href="http://support.microsoft.com/?kbid=955704">Tak</a></td>
+            <td valign="center" align="center">Tak (po zainstalowaniu przynajmniej SP1)</td>
+            <td valign="center" align="center"><strong>Tak</strong></td>
+
+        </tr>
+        <tr>
+            <td valign="center" align="center">Obsługa dysków &gt;137GB (adresowanie LBA)</td>
+            <td valign="center" align="center">Tak (po zainstalowaniu przynajmniej SP1)</td>
+            <td valign="center" align="center" colspan="2" rowspan="5"><strong>Tak</strong></td>
+        </tr>
+
+        <tr>
+            <td valign="center" align="center"><a href="http://pl.wikipedia.org/wiki/DEP">DEP</a></td>
+            <td valign="center" align="center" rowspan="2">Tak (po zainstalowaniu przynajmniej SP2)</td>
+        </tr>
+        <tr>
+            <td valign="center" align="center">Bluetooth</td>
+        </tr>
+
+        <tr>
+            <td valign="center" align="center"><a href="http://en.wikipedia.org/wiki/IPv6">IPv6</a></td>
+            <td valign="center" align="center">Tak (po zainstalowaniu przynajmniej SP2 i <a href="http://infojama.pl/121,artykul.aspx">wykonaniu dodatkowych kroków</a>)</td>
+        </tr>
+        <tr>
+            <td valign="center" align="center">Obsługa WPA2 w WIFI</td>
+
+            <td valign="center" align="center">Tak (po zainstalowaniu przynajmniej SP3)</td>
+        </tr>
+        <tr>
+            <td valign="center" align="center">Precyzyjne ustawianie wygładzanie czcionek (technologii ClearType)</td>
+            <td valign="center" align="center" colspan="2"><a href="http://www.microsoft.com/windowsxp/downloads/powertoys/xppowertoys.mspx">Tak</a> (część pakietu Power Toys)</td>
+            <td valign="center" align="center"><strong>Tak (ograniczony)</strong></td>
+
+        </tr>
+        <tr>
+            <td valign="center" align="center">Biblioteki .Net 1.1 SP1</td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=262D25E3-F589-4842-8157-034D1E7CF3A3&amp;displaylang=en">Pakiet</a> + <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=a8f5654f-088e-40b2-bbdb-a83353618b38">SP1</a></td>
+            <td valign="center" align="center">&nbsp;</td>
+            <td valign="center" align="center" rowspan="4"><strong>Tak</strong></td>
+
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Biblioteki .Net 2.0 SP2</td>
+            <td valign="center" align="center" rowspan="3" colspan="2"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7">Tak</a></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Biblioteki .Net 3.0 SP2</td>
+
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Biblioteki .Net 3.5 SP1</td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Windows Help (obsługa plików HLP)</td>
+            <td valign="center" align="center"><strong>Tak</strong></td>
+
+            <td valign="center" align="center"><a href="http://support.microsoft.com/kb/917607">Tak</a></td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=258aa5ec-e3d9-4228-8844-008e02b32a2c">Tak</a></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Obsługa plików XPS</td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=b8dcffdd-e3a5-44cc-8021-7649fd37ffee">Tak</a></td>
+
+            <td valign="center" align="center" colspan="2"><strong>Tak</strong></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center"><a href="http://en.wikipedia.org/wiki/Windows_Scripting_Host">Windows Scripting Host</a> (obsługa m.in. skryptów VBS)</td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=47809025-d896-482e-a0d6-524e7e844d81">5.7</a></td>
+            <td valign="center" align="center"><strong>5.7</strong></td>
+
+            <td valign="center" align="center"><strong>5.8</strong></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Remote Desktop</td>
+            <td valign="center" align="center" colspan="2"><a href="http://support.microsoft.com/?kbid=969084">7.0</a></td>
+            <td valign="center" align="center"><strong>7.0</strong></td>
+        </tr>
+
+        <tr style="">
+            <td valign="center" align="center">Linia komend Power Shell</td>
+            <td valign="center" align="center" colspan="2"><a href="http://support.microsoft.com/kb/968929">2.0</a></td>
+            <td valign="center" align="center"><strong>2.0</strong></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center"><a href="http://en.wikipedia.org/wiki/Directx">DirectX</a></td>
+
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=04ac064b-00d1-474e-b7b1-442d8712d553">9.0c</a></td>
+            <td valign="center" align="center"><a href="http://support.microsoft.com/kb/971644">11</a></td>
+            <td valign="center" align="center" colspan="2"><strong>11</strong></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center"><a href="http://en.wikipedia.org/wiki/Windows_search">Windows Search</a></td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/windows/products/winfamily/desktopsearch/choose/windowssearch4.mspx">4.0</a></td>
+
+            <td valign="center" align="center">4.0 (po zainstalowaniu przynajmniej SP2)</td>
+            <td valign="center" align="center"><strong>4.0</strong></td>
+        </tr>
+        <tr style="">
+            <td valign="center" align="center"><a href="http://en.wikipedia.org/wiki/Windows_installer">Windows Installer</a></td>
+            <td valign="center" align="center" colspan="2"><a href="http://www.microsoft.com/downloadS/details.aspx?familyid=5A58B56F-60B6-4412-95B9-54D056D6F9F4&amp;displaylang=en">4.5</a></td>
+            <td valign="center" align="center"><strong>5.0</strong></td>
+
+        </tr>
+        <tr style="">
+            <td valign="center" align="center">Internet Explorer</td>
+            <td valign="center" align="center" colspan="2"><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">8</a></td>
+            <td valign="center" align="center"><strong>8</strong></td>
+        </tr>
+        <tr style="">
+
+            <td valign="center" align="center">Windows Media Player</td>
+            <td valign="center" align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=1d224714-e238-4e45-8668-5166114010ca">11</a></td>
+            <td valign="center" align="center"><strong>11</strong></td>
+            <td valign="center" align="center"><strong>12</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<p align=justify>&nbsp;<br>Dodatkowo do Windows XP i Vista jest dostępny &bdquo;<a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=63ab51ea-99c9-45c0-980a-c556746fcf05">Windows Feature Pack for Storage 1.0</a>&rdquo;, który &bdquo;umożliwia platformie Windows nagrywanie optycznych dysków głównych na nośnikach Blu-Ray&rdquo;. Nie byłem w stanie potwierdzić jego funkcjonalności z uwagi na brak odpowiedniego sprzętu...</p>
+
+<p align=justify>Oddzielnym produktem jest np. <a href="http://www.microsoft.com/downloads/details.aspx?familyid=C26EFA36-98E0-4EE9-A7C5-98D0592D8C52&amp;displaylang=en">SyncToy</a> służący do synchronizacji katalogów i plików albo <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=983b941d-06cb-4658-b7f6-3088333d062f&amp;displaylang=en">Microsoft Network Monitor</a> służący do monitorowania sieci Ethernet.</p>
+
+<p align=justify>Chciałbym również wspomnieć tutaj o pakiecie &bdquo;<a href="http://www.microsoft.com/windowsxp/downloads/powertoys/xppowertoys.mspx">Power Toys dla Windows XP</a>&rdquo;. Zawiera on kilka bardzo prostych dodatków rozszerzających funkcjonalność systemu takich jak rozszerzenie okna dialogowego widocznego po naciśnięciu Alt-Tab.</p>
+
+<p align=justify>Bardzo ciekawy jest natomiast zestaw narzędzi z pakietu &bdquo;<a href="http://technet.microsoft.com/en-us/sysinternals/bb545027.aspx">Sysinternals</a>&rdquo;. Pozwalają one na bardzo szczegółowe monitorowanie/zmienianie różnych parameterów w systemie operacyjnym. Poniżej kilka przykładów:</p>
+<p align=justify>Process Explorer potrafi zastąpić Windows Task Managera (widocznego po naciśnięciu Ctrl+Alt+Del). Pokazuje chyba absolutnie wszystkio, co użytkownik, ale i programista może chcieć wiedzieć i zrobić z określonym procesem.</p>
+
+<p><img height="303" width="500" src="sites/default/files/108/pe.png" alt="" /></p>
+
+<p align=justify>Z kolei Process Monitor potrafi pokazać, co dany proces robi np. z plikami czy Rejestrem systemu:</p>
+
+<img height="273" width="400" src="sites/default/files/108/pm.png" alt="" />
+
+<p align=justify>&nbsp;<br>Mamy też narzędzia działające z linii komend. Moim zdaniem interesujące są przede wszystkim:</p>
+
+<ul>
+    <li><div align=justify>streams - pozwala stwierdzić, czy z jakimś plikiem na partycji NTFS oprócz jego zawartości nie są połączone dodatkowe dane w tzw. <a href=?q=node/111#2>alternatywnych strumieniach</a></div></li>
+    <li><div align=justify>junction - pozwala tworzyć <a href=?q=node/111#1>odnośniki do plików/katalogów na partycjach NTFS&nbsp;(w Windows 7 taki odnośnik został wykorzystany np. do stworzenia katalogu &bdquo;Documents and Settings&rdquo;)</a></div></li>
+
+</ul>
+
+<p align=justify>Ciekawych narzędzi w tym pakiecie jest znacznie więcej :)</p>
+
+<p><strong><a name="4"></a></strong></p>
+
+<h1>Łatamy też biuro</h1>
+
+<table cellspacing="1" cellpadding="5" border="1">
+    <tbody>
+        <tr>
+            <th bgcolor="#cccccc" scope="col">&nbsp;</th>
+            <th bgcolor="#cccccc" align="center" scope="col">Office 2003</th>
+            <th bgcolor="#cccccc" align="center" scope="col">Office 2007</th>
+
+        </tr>
+        <tr>
+            <td align="center">Service Pack</td>
+            <td align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=e25b7049-3e13-433b-b9d2-5e3c1132f206">SP3</a></td>
+            <td align="center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=b444bf18-79ea-46c6-8a81-9db49b4ab6e5">SP2</a></td>
+        </tr>
+        <tr>
+
+            <td align="center">Obsługa formatów XML (plików DOCX, XLSX)</td>
+            <td align="center">&nbsp;<a href="http://www.microsoft.com/downloads/details.aspx?displaylang=pl&amp;FamilyID=941b3470-3ae9-4aee-8f43-c6bb74cd1466">Pakiet</a> +&nbsp;<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4F97AB2F-1F7D-49A3-9123-7CA3E703B916&amp;displaylang=pl">SP2</a></td>
+            <td align="center"><strong>Tak</strong></td>
+        </tr>
+        <tr>
+
+            <td align="center">Okrojona obsługa plików OpenOffice</td>
+            <td align="center" rowspan="2">Nie</td>
+            <td align="center" rowspan="2">Tak (po zainstalowaniu przynajmniej SP2)</td>
+        </tr>
+        <tr>
+            <td align="center">Zapis do plików PDF</td>
+
+        </tr>
+    </tbody>
+</table>
+
+<p><strong><a name="5"></a></strong></p>
+
+<h1>Wstawiamy nowe mury</h1>
+
+<p align=justify>Każda następna wersja Windows zawiera więcej elementów typowych pakietów typu &bdquo;Internet Security&rdquo;. Z małą rewolucją mieliśmy przede wszystkim w 2004 wraz z Windows XP SP2. Pojawiły się wtedy:</p>
+
+<ul>
+    <li>konsola informująca o różnych problemach bezpieczeństwa, czyli Centrum Zabezpieczeń/Windows Security Center</li>
+
+    <li>widoczny firewall</li>
+</ul>
+
+<p align=justify>Później doszedł <a href="http://www.microsoft.com/windows/products/winfamily/defender/default.mspx">Windows Defender</a> służący do cyklicznego skanowania systemu pod kątem złośliwego kodu różnego rodzaju (obecnie rozpowszechniany w Microsoft/Windows Update), a teraz mamy również <a href="http://www.microsoft.com/Security_essentials/">pakiet antywirusowy (Security Essential)</a>.</p>
+
+<p align=justify>Można przyjąć, iż spełnią one oczekiwania niewymagających użytkowników, mogą nie mieć jednak takiej skuteczności jak produkty firm, które zajmują się wyłącznie bezpieczeństwem.</p>
+
+<p><strong><a name="6"></a></strong></p>
+
+<h1>A może okna za darmo ?</h1>
+
+<p align=justify>Microsoft udostępnia użytkownikom Windows Vista i XP program do wirtualizacji <a href="http://www.microsoft.com/windows/virtual-pc/support/virtual-pc-2007.aspx">Virtual PC</a>, natomiast posiadacze droższych edycji Windows 7 mogą pobrać jego zmienioną wersję połączoną z obrazem Windows XP SP3, czyli tak zwany <a href="http://www.microsoft.com/windows/virtual-pc/download.aspx">XP Mode</a>.</p>
+
+<p align=justify>W chwili obecnej mamy dostępne w formacie Virtual PC także obrazy angielskich Windows XP SP3 z Internet Explorerem 6/7/8 oraz Windows Vista z Internet Explorerem 7/8. Są udostępniane w celu umożliwienia sprawdzenia, jak w tym systemach wyświetlane są różne strony w różnych wersjach Internet Explorera. Więcej na stronie &bdquo;<a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef"><span style="color: windowtext;">Internet Explorer Application Compatibility VPC Image</span></a>&rdquo;.</p>
+
+<p align=justify>Microsoft udostępnia również &bdquo;<a href="http://www.microsoft.com/downloads/details.aspx?familyid=696DD665-9F76-4177-A811-39C26D3B3B34&amp;displaylang=en">Windows Automated Installation Kit</a>&rdquo;. Pozwala on np. na stworzenie na płycie okrojonej wersji Windows (tzw. Windows PE, czyli Windows Preinstallation Environment) umożliwiającej wykonanie różnych czynności administracyjnych. Obecna wersja Windows PE 3.0 jest oparta na jądrze Windows 7.</p>
+
+<p align=justify>Należy pamiętać, iż zgodnie z zapisami licencyjnymi wymagane jest posiadanie legalnej kopii Windows. Alternatywą do wyżej przedstawionych produktów (tj. Virtual PC i Windows PE) są odpowiednio np. darmowy <a href="https://www.vmware.com/tryvmware/?p=player&amp;lp=default">VMWare Player</a> i <a href="http://www.nu2.nu/pebuilder/">Bart PE</a> (oba firm/osób trzecich).</p>
+
+<p align=justify>Firma daje również możliwość darmowego przetestowania swoich produktów - np. mamy w ten sposób udostępnioną wersję 90-dniową <a href="http://www.dobreprogramy.pl/Microsoft-udostepnia-probna-wersje-Windows-Enterprise,Aktualnosc,14304.html">Windows 7 Enterprise</a>. Oprócz tego niektóre grupy (np. studenci po wykupieniu odpowiedniej opcji przez uczelnię w ramach MSDNAA) mają je całkowicie za darmo.</p>
+
+<p><strong><a name="7"></a></strong></p>
+
+<h1>Programowanie...</h1>
+
+<p align=justify>W chwili obecnej programiści mogą pobrać i wykorzystywać (również do celów komercyjnych) wersje Express różnych narzędzi programistycznych z pakietu Visual Studio. <a href="http://www.microsoft.com/Express/">Obecne obrazy płyt</a> zawierają zintegrowany Service Pack 1 (ciekawostka - Service Pack oraz inne poprawki do tego produktu wydają się być niedostępne w Microsoft/Windows Update).</p>
+
+<p align=justify>Oprócz nich mamy również pakiety SDK niezbędne do tworzenia aplikacji dla WIndows - np. <a href="http://www.microsoft.com/downloads/details.aspx?familyid=484269E2-3B89-47E3-8EB7-1F2BE6D7123A&amp;displaylang=en">Platform SDK dla Windows 2003</a>.</p>
+
+<p align=justify>Oprócz tego mamy języki skryptowe (np. w ramach wspomnianego już Windows Scripting Host).</p>
+
+<p align=justify>Można przyjąć, iż w chwili obecnej potrzeby programistów w podstawowym zakresie są całkowicie zaspokojone.</p>
+
+<p><strong><a name="8"></a></strong></p>
+
+<h1>A na koniec samowolka i czuwanie Wielkiego Brata, czyli coś za coś</h1>
+
+<p align=justify>Załóżmy, że wyłączyliśmy w Panelu Sterowania opcje aktualizacji. Okazuje się, że nasz komputer będzie dalej łączył się z serwerami Microsoftu i bez naszej zgody uaktualniał pliki służące do wyszukiwania, pobierania i instalowania poprawek. Żeby to wyłączyć, konieczne jest wyłączenie usługi systemowej &bdquo;Aktualizacje automatyczne&rdquo; (&bdquo;Automatic updates&rdquo;).</p>
+
+<p align=justify>Musimy pamiętać, iż Microsoft stopniowo wprowadza coraz większą kontrolę legalności licencji w zainstalowanych kopiach swoich aplikacji.</p>
+
+<p align=justify>Mamy kolejne poprawki wykonujące tę czynność i udostępniane w Microsoft/Windows Update, mamy aktywację, mieliśmy nawet próby totalnego ograniczania funkcjonalności systemu operacyjnego, gdy sprawdzenie nie wypadło pomyślnie (co mogło wystąpić również w wyniku błędu sprawdzenia i było widoczne w Viście bez Service Pack).</p>
+
+<p align=justify>Inna formą jest sprawdzanie legalności przy próbie pobierania niektórych uaktualnień ze strony www Microsoftu - według mnie niepokojącą ciekawostką jest fakt, iż w Firefoxie wymagane jest pobranie dodatku, który nie tylko wygeneruje unikalny kod (który trzeba wpisać na stronie), ale także nawiąże połączenie z jakimś serwerem...</p>
+
+<p><strong><a name="9"></a></strong></p>
+
+<h1>Podsumowanie</h1>
+
+<p align=justify>Nie mam zastrzeżeń do darmowych programów Microsoftu <a href="?q=node/107">tak jak do Windows 7</a> - wszak nic nie kosztują, jest ich dużo i na pewno wielu użytkowników jest w stanie wybrać z nich coś ciekawego. Należy pamiętać, iż niektóre z nich mogą być dostępne jedynie w języku angielskim, ale ten w sumie jest obecnie nieformalnym standardem.</p>
+
+<p align=justify>Jeden punkt zmuszony jestem odjąć wyłącznie za:</p>
+
+<ol>
+    <li>sposób dystrybucji (np. budzące czasem kontrowersje sposoby sprawdzania legalności)</li>
+    <li>brak obecności widocznych w dodatkach funkcjonalności w podstawowych produktach (nie jestem przekonany, iż ich dodanie spowodowałoby jakieś oskarżenia o praktyki monolistyczne, a naprawdę by się tam przydały)</li>
+</ol>

@@ -1,0 +1,1592 @@
+﻿Title:FAQ - monitor sieci w Nokiach DCT1 - DCT3 (część 5/7) (2002)
+Author:marcin
+When:07 Oct 2002
+Taxonomy:Polski,GSM,Nokia,Polski artykuł
+SkipMain:true
+
+<!--break-->
+<center><a href="?q=node/132">[Część 1]</a><a href="?q=node/133">[Część 2]</a><a href="?q=node/134">[Część 3]</a><a href="?q=node/135">[Część 4]</a><b>[Część 5]</b><a href="?q=node/137">[Część 6]</a><a href="?q=node/138">[Część 7]</a></center>
+
+<hr noshade width="60%" style="color: #004080" align=center>
+<a NAME="Top"></a>
+
+<font class="drukuj">
+<ol>
+<li><div align=justify><a href="?q=node/132#1"><b>Co to jest ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#2"><b>Czy jest mi potrzebny ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#3"><b>Czy po włączeniu monitora telefon pobiera więcej energii ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#4"><b>Jak go włączyć ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#5"><b>Jaką wersję monitora mogę włączyć w telefonie ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#6"><b>Czy włączenie monitora powoduje utratę gwarancji ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#7"><b>W moim telefonie menu monitora ma numer inny niż 10. Czy to normalne ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#8"><b>W moim telefonie menu monitora ma numer 11, natomiast poprzednia pozycja numer 9. Czy to normalne ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#9"><b>Jak się nim posługiwać ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/132#10"><b>Czy mogę zepsuć sobie telefon ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/133#11"><b>Słowniczek</b></a></div></li>
+<li><div align=justify><a href="?q=node/134#12"><b>Znaczenie poszczególnych testów</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#13"><b>Można też użyć programu...</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#14"><b>Czy można korzystać z monitora sieci, gdy nie ma w telefonie karty SIM, nie został podany jej PIN lub jest nieaktywna ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#15"><b>W jaki sposób mogę wyłączyć monitor sieci ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#16"><b>Czy powinienem wyłączyć monitor sieci przed oddaniem telefonu do serwisu ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#17"><b>Czy po wyłączeniu monitora sieci będę go mógł włączyć ponownie ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#18"><b>Czy monitor sieci jest dostępny także w analogowych Nokiach ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#19"><b>Czy monitor sieci pozwoli na używanie telefonu podobnie jak radiostacji ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#20"><b>Dlaczego w moim telefonie jest znacznie mniej testów niż zostało tutaj opisane ? Czy mogę zwiększyć ich ilość ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#21"><b>Czy mogę stwierdzić z pomocą monitora sieci, gdzie znajduje się mój rozmówca ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#22"><b>Czy mogę stwierdzić z pomocą monitora sieci, gdzie się znajduję ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#23"><b>Co to są kody monitora sieci ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#24"><b>Czy jest prawdą, że monitor sieci w telefonie z dodatkowym urządzeniem zmieniającym jego pasmo działa niepoprawnie ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#25"><b>Gdzie znajdę opis protokołu MBUS/FBUS i komendy związane z monitorem sieci ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#26"><b>Na liście sieci zabronionych mam nieistniejące sieci...</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#27"><b>Jak sprawdzić, w jakim pasmie częstotliwości (900 czy 1800 Mhz) działa telefon ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#28"><b>Czy mogę użyć kabla DLR-2/DLR-3 do aktywacji monitora ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#29"><b>Czy mogę użyć aktywować monitor sieci korzystając z Init File Editor (Nokia 9110) ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#30"><b>Czy mogę zmusić telefon do używania konkretnego pasma częstotliwości (900 lub 1800 Mhz) ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#31"><b>Jak zmieniać ustawienia w testach ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#32"><b>Mój telefon ma bardzo krótki czas czuwania - czy można sprawdzić, co jest tego przyczyną ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#33"><b>Czy monitor sieci dostępny jest tylko po angielsku ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#Literatura"><b>Użyte materiały</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#35"><b>Dodatkowe informacje</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#36"><b>Czy używanie/aktywacja monitora coś kosztuje ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#37"><b>Czy używanie monitora jest legalne ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#38"><b>Które komórki na karcie SIM są używane w testach monitora ?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#39"><b>Czy mogę netmonitora w 3310 uaktywnić programem do 3210?</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#40"><b>Po uaktywnieniu netmonitora/BTS TEST telefon "gubi" sieć komórkową...</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#41"><b>Netmonitor pokazuje inną pojemność baterii niż informacja na niej...</b></a></div></li>
+<li><div align=justify><a href="?q=node/138#42"><b>NetMonitor w Nokii 6310, 8310,...</b></a></div></li>
+</ol>
+<hr size="2" noshade width="60%" align="center" style="color: #004080">
+</font>
+
+<p><a NAME="Menu30"></a><b>Test 30</b>
+<br>Test z zawartościami rejestrów API dźwięku
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;aaaa bbbb<br>&nbsp;cccc dddd<br>&nbsp;eeee ffff<br>&nbsp;gggg hhhh &nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>A1Cnf&nbsp; A2Cnf<br>&nbsp; ST&nbsp;&nbsp; AU3<br>1Tone&nbsp; 2Tone<br>&nbsp;Conf&nbsp; HFVol</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaaa - API_AUD1_CTRL</div></li>
+<li><div align=justify>bbbb - API_AUD2_CTRL</div></li>
+<li><div align=justify>cccc - API_SIDETONE</div></li>
+<li><div align=justify>dddd - API_AU3</div></li>
+<li><div align=justify>eeee i ffff - API_1_TONE i API_2_TONE (patrz opis niżej)</div></li>
+
+<li><div align=justify>gggg - API_CONFIG: związany z ustawieniami dźwięku wybranymi w <b><a href="?q=node/137#Menu71_72">teście 71 i 72</a></b>. W zależności od tego, które menu tam ostatnio przeglądałeś(aś) (albo raczej, jakie cyferki były umieszczone w tamtym menu), tutaj zobaczysz (szesnastkowo) liczbę wybraną tam pod AUDIO ENHANCEMENT (podaję przykładowe):<p>&nbsp;<br><table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr ALIGN=CENTER><td><b>normalnie (np. w trybie czuwania)</b></td><td><b>wybieranie numeru</b></td><td><b>rozmowa</b></td></tr>
+<tr ALIGN=CENTER><td>5148 (trzaski) - 20808 dziesiątkowo</td><td>5149</td><td>5140</td></tr>
+<tr ALIGN=CENTER><td>851A - 34074 dziesiątkowo</td><td>851B</td><td>8512</td></tr>
+<tr ALIGN=CENTER><td>C6A4 (trzaski) - 50852 dziesiątkowo</td><td>C6AD</td><td>C6A4</td></tr>
+<tr ALIGN=CENTER><td>DB34 (trzaski) - 56116 dziesiątkowo</td><td>DB3D</td><td>DB34</td></tr>
+<tr ALIGN=CENTER><td>DF29 (standardowo po włączeniu telefonu) - 57129 dziesiątkowo</td><td>DF29</td><td>DF20</td></tr>
+<tr ALIGN=CENTER><td>F436 - 62518 dziesiątkowo</td><td>F43F</td><td>F436</td></tr>
+<tr ALIGN=CENTER><td>F437 - 62519 dziesiątkowo</td><td>F43F</td><td>F436</td>
+</tr>
+</table>
+<p>
+</div></li>
+
+<li><div align=justify><p>hhhh - API_HF_VOL: ustawienie głośności podczas rozmowy - obliczysz ją według wzoru 110 - hhhh (tzn. od 110 odejmujesz wartość tego parametru). Jest ona również podawana (tylko podczas połączenia) w <b><a href="?q=node/137#Menu76">teście 76</a></b>.
+Po podłączeniu zestawu słuchawkowego wartości tutaj pokazywane się zmieniają - głośność obliczasz ze wzoru 510 - hhhh (dla zestawu samochodowego 2210 - hhhh). Rodzaj podłączonego zestawu sprawdzisz także w <a href="?q=node/137#Menu75"><b>teście 75</b></a>. Telefon zapamiętuje ustawienie głośności dla każdego zestawu oddzielnie.</div></li>
+</ul>
+
+<p align=justify>Po naciśnięciu każdego klawisza generowany jest dźwięk składający się z dwóch tonów. Zmieniają się wtedy parametry eeee i ffff. Pierwszy dźwięk jest krótki, drugi trwa tak długo, jak trzymamy klawisz. Jeśli chodzi o klawisze C, NaviKey, Up i Down, zmienia się tylko parametr eeee (wartość 0E10 - 3600 dziesiątkowo) - dźwięk składa się bowiem tylko z jednego tonu. I teraz najciekawsza sprawa - jeżeli podzielisz podawane wartości przez 4, otrzymasz częstotliwości w Hz towarzyszące naciskaniu klawiszy w systemie tonowym (DTMF - <b>D</b>ual <b>T</b>one <b>M</b>ulti <b>F</b>requency). Z systemem tym zapewne spotykasz się na co dzień (jest używany we wszystkich nowoczesnych telefonach przy wybieraniu numeru i zastąpił tzw. wybieranie pulsowe). Odpowiednie wartości podaję w tabelce (dziesiętnie) - parametr eeee odpowiada wartościom w poziomie, ffff w pionie:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr ALIGN=CENTER><td></td><td>1209 Hz</td><td>1336 Hz</td><td>1477 Hz</td></tr>
+<tr ALIGN=CENTER><td>697 Hz</td><td>1</td><td>2</td><td>3</td></tr>
+<tr ALIGN=CENTER><td>770 Hz</td><td>4</td><td>5</td><td>6</td></tr>
+<tr ALIGN=CENTER><td>852 Hz</td><td>7</td><td>8</td><td>9</td></tr>
+<tr ALIGN=CENTER><td>941 Hz</td><td>#</td><td>0</td><td>*</td></tr>
+</table>
+
+<p>&nbsp;<br><a NAME="Menu31"></a><b>Test 31</b>
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>&nbsp;<br>Serial port&nbsp;<br>&nbsp; &nbsp;mode<br>&nbsp;</i></tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>&nbsp;<br>&nbsp; &nbsp;FBUS&nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp;mode<br>&nbsp;</i></tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Use menu to<br>&nbsp;activate<br>&nbsp;FBUS mode<br>for tracking</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p align=justify>&nbsp;<br>Kiedy włączony jest tryb FBUS, kabel DLR-2 (dołączany standardowo do telefonu) działa w trybie FBUS z takimi programami jak Logo Manager.
+
+<p><a NAME="Menu32"></a><b>Test 32</b>
+
+<p>Test z Nokii 6250 (brak pomocy):
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>&nbsp; &nbsp;&nbsp; 0 &nbsp; &nbsp; &nbsp;<br>0002922<br>3000<br>0205714</i></tt></td>
+</tr>
+</table>
+
+<p align=justify>&nbsp;<br>W czwartej linijce jest podana godzina. Przykład: 0205714 to 20 godzin, 57 minut i 14 sekund dnia.
+
+<p><a NAME="Menu34"></a><b>Test 34</b>
+<br>Informacje o połączeniu telefonu z komputerem <a href="?q=node/88">kablem FBUS</a>
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aa bb cc dd<br>eee fff ggg<br>hhh iii jjj&nbsp;<br>k</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>CM LD LM NM&nbsp;<br>PEC FEC OEC<br>ACC RXS TXS&nbsp;<br>Mod</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aa - typ danych przesyłanych obecnie przez <a href="?q=node/88">FBUS</a> (szesnastkowo)</div></li>
+<li><div align=justify>bb - ostatnie łączone urządzenie przez <a href="?q=node/88">FBUS</a> (szesnastkowo)</div></li>
+<li><div align=justify>cc - typ danych przesyłanych ostatnio (szesnastkowo)</div></li>
+<li><div align=justify>dd - następny typ danych przesyłanych przez <a href="?q=node/88">FBUS</a> (taki sam jak parametr aa, jeżeli połączenie nie zostało zrealizowane)</div></li>
+<li><div align=justify>eee - licznik błędów parzystości</div></li>
+<li><div align=justify>fff - licznik błędów ramki</div></li>
+<li><div align=justify>ggg - licznik błędów przepełnień</div></li>
+<li><div align=justify>hhh - licznik czasu aktywności <a href="?q=node/88">interfejsu FBUS</a></div></li>
+<li><div align=justify>iii - numer sekwencji odebranej</div></li>
+<li><div align=justify>jjj - numer sekwencji nadanej</div></li>
+<li><div align=justify>k - tryb pracy telefonu: S=slave (podrzędny), H=host (zawiadujący)</div></li>
+</ul>
+
+<p align=justify>Opis powyżej jest zaczerpnięty z pewnych angielskich opisów. W niektórych telefonach (np. Nokii 5110) wartości parametrów w tym teście są raczej inne, natomiast pomoc do niego taka sama. Kiedy łączysz telefon <a href="?q=node/88">kablem FBUS</a> i używasz programu posługującego się tym protokołem, pierwsza linijka z wartościami zmienia się zazwyczaj na "1E0C1E -". Kiedy spojrzysz do <a href="?q=node/138#25">opisów protokołu FBUS</a>, zobaczysz, że:
+
+<ul>
+<li><div align=justify>"1E" może oznaczać dane przesyłane <a href="?q=node/138#25">protokołem FBUS</a> przez kabel</div></li>
+<li><div align=justify>"0C" może oznaczać, że <a href="?q=node/88">kabel FBUS</a> jest podłączony do telefonu</div></li>
+</ul>
+
+<p align=justify>i jest to prawda. Tak więc, oznacza to, że powyższy opis jest prawdziwy (nawet, jeżeli test wygląda troszkę inaczej).
+
+<p>Obserwacje z Nokii 6150:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aabbccdd&nbsp; &nbsp;&nbsp;<br>eeffgghh i j<br>kk<br>l-m</tt></td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aabbcc:<ul>
+<li><div align=justify>000000 - brak transmisji od włączenia telefonu</div></li>
+<li><div align=justify>1E0C1E - była transmisja FBUS</div></li>
+<li><div align=justify>140000 - było połączenie podczerwienią przy użyciu NBS (wizytówka, kalendarz, logo, etc.)</div></li>
+<li><div align=justify>1C7F1C - była gra w węża dla 2 graczy (host)</div></li>
+<li><div align=justify>1C001C - była gra w węża dla 2 graczy (slave)</div></li>
+</ul>
+</div></li>
+<li><div align=justify>hh: 0 - brak transmisji podczerwienią w danej chwili</div></li>
+<li><div align=justify>i: powiększa się m.in. po każdym przesłaniu wiadomości podczerwienią z użyciem NBS lub zakończeniu transmisji</div></li>
+<li><div align=justify>j: P - podczerwień włączona, trwa szukanie drugiego urządzenia (mrugający symbol podczerwieni w telefonie)</div></li>
+<li><div align=justify>l: H - host przy transmisji podczerwienią; S - slave przy transmisji podczerwienią</div></li>
+<li><div align=justify>m: T - podczerwień włączona, połączenie przerwane (mrugający symbol podczerwieni w telefonie)</div></li>
+</ul>
+
+<p>W Nokii 9110 menu to wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>ll mm nn oo&nbsp;<br>ee ff gg<br>p&nbsp; q<br>r s tt</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>PA RS DR PR&nbsp;<br>PE FE OE<br>Rx Tx<br>D U DC</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>p i q to prawdopodobnie iii i jjj</div></li>
+</ul>
+
+<p align=justify>Adresy, pod którymi znajdziesz opis protokołu transmisji pomiędzy telefonem i komputerem, są podane w <a href="?q=node/138#25">pytaniu 25</a>.
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td><img SRC="sites/default/files/nm/tip.gif" height=36 width=27 align=LEFT></td>
+
+<td><div align=justify>Jeżeli wartości w tym teście zmieniły się od momentu włączenia telefonu, oznacza to, że był on podłączony do komputera i dane były transmitowane z użyciem <a href="?q=node/138#25">protokołu FBUS</a> (a nie MBUS).</div></td>
+</tr>
+</table>
+
+<p>W Nokii 9210:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>00 00 00<br>000 000 000&nbsp;<br>- - 00<br>H - -</i></tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>CM LD LM &nbsp; &nbsp;<br>PEC FEC OEC<br>RS TS RESND<br>Mode TXB RXB</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>&nbsp;<br><a NAME="Menu35"></a><b>Test 35</b>
+<br>Przyczyna ostatniego restartu oprogramowania telefonu
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;aaaaa&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br>&nbsp;bbbbbbbb<p>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Reset reason<br>Task name<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aa - przyczyna:<p><ul>
+<li><div align=justify>NORM: prawdopodobnie normalne wyłączenie/włączenie</div></li>
+<li><div align=justify>UNKNO: nieznana (domyślnie)</div></li>
+<li><div align=justify>SWSIM: kłopoty ze stykami karty SIM. Pokazywany, gdy telefon ma simlocka i wpisano błędny mastercode.</div></li>
+<li><div align=justify>STACK: przepełnienie stosu</div></li>
+<li><div align=justify>SWIDL: nie uruchamiał się tryb czuwania</div></li>
+<li><div align=justify>HW lub WD: <a href="?q=node/133#ASIC">ASIC</a> watchdog timeout. W Nokii 3310 SW WD ?</div></li>
+<li><div align=justify>SWDSP: restart <a href="?q=node/133#DSP">DSP</a> (potrzebny, aby znów prawidłowo działał)</div></li>
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify>bbbbbbbb - nazwa ostatniej wykonywanej czynności przed restartem (np. <nobr>"AUD TASK"</nobr>, <nobr>"CC TASK"</nobr> (potwierdzone), <nobr>"DDI TASK"</nobr>,
+<nobr>"DEV IO"</nobr> (potwierdzone), <nobr>"EM TASK"</nobr>, "FBUSTASK" (potwierdzone - przy błędach transmisji po kablu), <nobr>"L1 CONTR"</nobr>, <nobr>"L1 MEAS"</nobr>, <nobr>"L1 SYSPA"</nobr> (potwierdzone), <nobr>"L2 TASK"</nobr>, "LOCAL" (potwierdzone - pokazywany np., gdy w wyniku błędu w firmware telefon musiał się zrestartować), <nobr>"MDI RECE"</nobr> (potwierdzone), <nobr>"MDI SEND"</nobr> (potwierdzone), <nobr>"MM TASK"</nobr> (potwierdzone), <nobr>"OS IDLE"</nobr> (potwierdzone), <nobr>"PN TASK"</nobr> (potwierdzone), <nobr>"RR TASK"</nobr> (potwierdzone), <nobr>"RM TASK"</nobr>, <nobr>"SIM L2"</nobr> (potwierdzone), <nobr>"SIM UPL"</nobr> (potwierdzone), <nobr>"SMS TASK"</nobr> (potwierdzone), "TONETASK", <nobr>"UI TASK"</nobr> (potwierdzone), <nobr>"PND TASK"</nobr> (np. Nokia 6210), "WMLSTASK" (np. Nokia 6210), "IRDATASK" (np. Nokia 6210), <nobr>"IRDA MGR"</nobr> (np. Nokia 6210), <nobr>"PH TASK"</nobr> (np. Nokia 6210), <nobr>"DGC TASK"</nobr> (np. Nokia 6210), <nobr>"DGNTB TA"</nobr> (np. Nokia 6210), <nobr>"DGFAX TA"</nobr> (np. Nokia 6210), <nobr>"SCKT SRV"</nobr> (np. Nokia 6210), <nobr>"PMM CLUP"</nobr> (np. Nokia 6210), <nobr>"PMM WRBA"</nobr> (np. Nokia 6210), <nobr>"ND TASK"</nobr> (np. Nokia 6210), <nobr>"PPC TASK"</nobr> (np. Nokia 6210), <nobr>"No task!"</nobr> (np. Nokia 6210), <nobr>"START UP"</nobr> (np. Nokia 9210) albo "UNKNOWN" (nieznana) (potwierdzone - po normalnym włączeniu telefonu)). Można zauważyć, iż nazwy zadań pokrywają się z nazwami w pomocy <a href="?q=node/137#Menu84_86">testów 84-86</a>.</div></li>
+</ul>
+
+<p><a NAME="Menu36"></a><b>Test 36</b>
+<br>Przyczyny restartu oprogramowania telefonu (tzn. tutaj znajdziesz informacje, ile razy telefon musiał je wykonywać z tych powodów)
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;aa&nbsp; bb&nbsp; cc&nbsp;<br>&nbsp;dd&nbsp; ee&nbsp; ff<p>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp;UN&nbsp; WD DSP&nbsp;<br>SIM IDL STK<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aa - nieznana</div></li>
+<li><div align=justify>bb - <a href="?q=node/133#ASIC">ASIC</a> watchdog timeout (w niektórych telefonach możesz "zmusić" je wyłączenia się z tego powodu - patrz <a href="?q=node/132#9">pytanie 9</a>)</div></li>
+
+<li><div align=justify>cc - restart <a href="?q=node/133#DSP">DSP</a> (potrzebny, aby znów prawidłowo działał). W Nokii 3310 pokazywany również w <a href=?q=node/138#Menu130>teście 130</a></div></li>
+
+<li><div align=justify>dd - według opisów angielskich, jest to ilość restartów związanych z kłopotami ze stykami karty SIM (w niektórych telefonach możesz je "zmusić" do restartu z tego powodu - patrz <a href="?q=node/132#9">pytanie 9</a>). Zdążyłem jednak zaobserwować, że wyświetlana tutaj ilość zwiększa się też po wpisywaniu tzw. mastercodu (patrz FAQ w <a href="http://www.fkn.pl/">Fan Klubie Nokii</a> - <a href="http://www.fkn.pl/faqs/simlockfaq.html">www.fkn.pl/faqs/simlockfaq.html</a>) związanego z SIM-Lockiem poziomu 1 (jeżeli telefon ma simlocka).</div></li>
+
+<li><div align=justify>ee - nie uruchamiał się tryb czuwania</div></li>
+
+<li><div align=justify>ff - przepełnienie stosu</div></li>
+</ul>
+
+<p>Wartości liczników są zapamiętywane przy wyłączaniu telefonu.
+
+<p align=justify>W Nokii 3310 wartości niektórych liczników (tylko DSP ?) są wyświetlane "od końca" (np. 01 jest pokazywane jako 10, 02 jako 20, etc.)
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td><img SRC="sites/default/files/nm/tip.gif" height=36 width=27 align=LEFT></td>
+
+<td><p align=justify>Zawartość liczników z tego menu możesz wyzerować używając niektórych programów serwisowych - np. w Pc-Locals 1.3 w tym celu musisz wybrać menu 8 ("Event Trace"), menu 5 ("Permanent Counter Table..."), a następnie nacisnąć klawisz F6 ("Clear Counters"). Niestety :( "prawdziwe" liczniki pokazujące ilość prób wpisania mastercodu (Counter np. w WinTesli i WinLocku) nie zerują się w ten sposób...</td>
+</tr>
+</table>
+
+<p>W Nokii 9210 pomoc wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp;UN &nbsp;WD DSP&nbsp;<br>SIM IDL STK<br>&nbsp; &nbsp;Reset<br>&nbsp; counters</b></tt></td>
+</tr>
+</table>
+
+<p><a NAME="Menu37"></a><b>Test 37</b>
+<br>Reset (Nokia 9210)
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp; &nbsp;Causes a &nbsp;<br>&nbsp; divide by<br>&nbsp; &nbsp; zero<br>&nbsp; &nbsp; reset</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp; Use menu &nbsp;<br>&nbsp; to cause<br>&nbsp; div by 0<br>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>Przez bezpośrednie wejście możesz zresetować cały system
+
+<p><a NAME="Menu38"></a><b>Test 38</b>
+<br>Zrzut pamięci
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aaaaaaaaaaaa<br>aaaaaaaaaaaa<br>aaaaaaaaaaaa<br>aaaaaaaaaaaa</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Memory dump&nbsp;<br>&nbsp;<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaaa.... - szesnastkowa zawartość 24 komórek pamięci</div></li>
+</ul>
+
+<p align=justify>Numer komórki pamięci, od której ma być wykonany ów zrzut, możesz wpisać w książce telefonicznej na karcie SIM pod pozycją 30 (patrz podobny opis w <b><a href="?q=node/135#Menu17">teście 17</a></b>) - przykładowo dla adresu 0x0C89AB musisz tam wpisać 0C2089AB. Zrzut zostanie wykonany tylko wtedy, gdy wejdziesz bezpośrednio do tego menu.
+
+<p align=justify>To menu nie jest włączone w sprzedawanych telefonach (znalazłem tylko jeden taki telefon). Aby to zrobić, należy przed skompilowaniem oprogramowania zmienić odpowiednią stałą.
+
+<p>W Nokii 9210:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp; Causes a &nbsp;<br>&nbsp;data abort<br>&nbsp; &nbsp;reset<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp; Use menu &nbsp;<br>&nbsp; to cause<br>&nbsp; data abort<br>&nbsp; reset</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>Przez bezpośrednie wejście możesz zresetować cały system
+
+<p><a NAME="Menu39"></a><b>Test 39</b>
+<br>Przyczyna zakończenia ostatniego połączenia (gwiazdka oznacza, że diagnoza nie zostanie pokazana w sieci, tylko w telefonie) oraz wykonywania <a href="?q=node/133#LocationUpdate">Location Update</a>:
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;CC:&nbsp;&nbsp; aaa &nbsp;<br>&nbsp;MM:&nbsp;&nbsp; bbb<br>&nbsp;RR:&nbsp;&nbsp; ccc<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>CC CauseValu<br>MM CauseValu<br>RR CauseValu<br>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>przyczyna z warstwy kontrolującej połączenia (CallControl-Layer) - jest ona podawana w również <b><a href="?q=node/134#Menu2">teście 2</a></b> i <b><a href="?q=node/137#Menu63">teście 63</a></b>:<p><ol>
+<li><div align=justify>na podstawie specyfikacji GSM (sekcja 10.5.4.11/GSM 04.08):<p><ul>
+
+<li><div align=justify><tt>&nbsp; 1</tt>: nieprzypisany numer</div></li>
+<li><div align=justify><tt>&nbsp; 3</tt>: brak drogi do punktu przeznaczenia</div></li>
+<li><div align=justify><tt>&nbsp; 8</tt>: operator determined barring</div></li>
+<li><div align=justify><tt>&nbsp;16</tt>: normalne zakończenie rozmowy (rozmowa się odbyła albo usłyszałeś(aś) jakiś nagrany komunikat typu: "Abonent poza zasięgiem. Proszę spróbować
+później" albo "Nie ma takiego numeru")</div></li>
+<li><div align=justify><tt>&nbsp;17</tt>: numer był zajęty<p><ul>
+<li><div align=justify>jeżeli to Ty dzwoniłeś(aś), numer był zajęty - telefon wyświetlił 'Numer zajęty' - 'Number busy'</div></li>
+<li><div align=justify>jeżeli ktoś próbował się dodzwonić do Ciebie, usłyszał sygnał zajętości - rozmawiałeś(aś) albo odrzuciłeś(aś) połączenie (w Nokii 5110 lub 5130 trzeba nacisnąć klawisz C, w Nokiach 6110, 6130 lub 6150 czerwoną słuchawkę)</div></li>
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify><tt>&nbsp;18</tt>: brak odpowiedzi użytkownika</div></li>
+
+<li><div align=justify><tt>&nbsp;19</tt>: użytkownik wykonywał połączenie alarmowe (według specyfikacji - mnie się to zdarzyło również przy normalnym połączeniu (telefon wyświetlił 'No answer' ('Nie odpowiada')) ewentualnie, gdy połączenie przychodzące zostało przekierowane na pocztę głosową), brak odpowiedzi.</div></li>
+
+<li><div align=justify><tt>&nbsp;21</tt>: połączenie zostało odrzucone
+
+<p>
+<ul>
+<li><div align=justify>telefon był poza zasięgiem sieci, gdy próbowałaś(eś) wykonać połączenie (mógł wyświetlić 'Poza zasięgiem sieci' - 'No coverage network')</div></li>
+
+<li><div align=justify>próbowałeś(aś) się dodzwonić pod nieistniejący numer i usłyszałeś(aś) sygnał zajętości</div></li>
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify><tt>&nbsp;22</tt>: numer został zmieniony</div></li>
+
+<li><div align=justify><tt>&nbsp;27</tt>: punkt przeznaczenia poza zasięgiem</div></li>
+
+<li><div align=justify><tt>&nbsp;28</tt>: zły format numeru/numer niekompletny. Telefon wyświetlił 'Invalid phone number' ('Błędny numer telefonu')</div></li>
+
+<li><div align=justify><tt>&nbsp;31</tt>: unspecided. Najprawdopodobniej połączenie zakończone przez sieć (dzieje się tak np., gdy jest ona przeciążona). Pokazywany również czasami, gdy dzwonisz pod nieobsługiwane w danej taryfie numery (np. przy Tak-Taku numery 099099, 0991)</div></li>
+
+<li><div align=justify><tt>&nbsp;34</tt>: brak dostępnego (wolnego) kanału. Telefon wyświetlił 'Network busy' ('Sieć zajęta'). Zauważyłem również, że przy tym kodzie wartość RR zmieniała się na 1. Więcej o zajętości sieci piszę przy <a href="?q=node/133#TS">opisie
+TS</a>.</div></li>
+
+<li><div align=justify><tt>&nbsp;38</tt>: poza zasięgiem sieci</div></li>
+
+<li><div align=justify><tt>&nbsp;41</tt>: tymczasowa niesprawność</div></li>
+
+<li><div align=justify><tt>&nbsp;42</tt>: switching equipment congestion (komunikat "Network busy" - "Sieć zajęta")</div></li>
+
+<li><div align=justify><tt>&nbsp;44</tt>: żądany kanał nie jest dostępny</div></li>
+
+<li><div align=justify><tt>&nbsp;47</tt>: zasób niedostępny. Ten błąd pojawił się, gdy połączenie zostało "brutalnie" przerwane (konkretnie: w telefonie mojego rozmówcy była wyładowana bateria). Telefon wyświetlił 'Error in connection'.</div></li>
+
+<li><div align=justify><tt>&nbsp;50</tt>: żądana usługa nie została wykupiona (nie masz na nią abonamentu). W niektórych sieciach pokazywana również, gdy ustawisz nieobsługiwaną przez sieć funcję (np. funkcja "Own number sending" w sieci Era-GSM). Komunikat "Check operator services" ("Sprawdź usługi operatora").</div></li>
+
+<li><div align=justify><tt>&nbsp;65</tt>: bearer service not implemented. U mnie przyczyna jak przy błędzie 79 (używanie ALS).</div></li>
+
+<li><div align=justify><tt>&nbsp;68</tt>: ACM było równe albo większe niż ACMmax (najwyższa możliwa wartość ACM)</div></li>
+
+<li><div align=justify><tt>&nbsp;69</tt>: żądana usługa nie została zaimplementowana</div></li>
+
+<li><div align=justify><tt>&nbsp;88</tt>: niekompatybilny punkt przeznaczenia</div></li>
+
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify>z własnych (i nie tylko) doświadczeń:<p><ul>
+
+<li><div align=justify><tt>&nbsp;28</tt>: Pojawiał się u mnie, gdy numer telefonu był za długi</div></li>
+
+<li><div align=justify><tt>&nbsp;57</tt>: brak udostępnionej asynchronicznej transmisji danych
+(konkretnie: telefon nie mógł się łączyć w WAP z danej karty)</div></li>
+
+<li><div align=justify><tt>&nbsp;63</tt>: "Poza zasięgiem sieci"</div></li>
+
+<li><div align=justify><tt>&nbsp;79</tt>: błąd z komunikatem 'Sprawdź usługi operatora' ('Check operator services'). Pojawia się, gdy masz włączoną funkcję ALS (<b>A</b>lternative <b>L</b>ine <b>S</b>ervice) i wybrany drugi numer (choć nie jest on faktycznie przypisany do karty SIM) i próbujesz wykonać połączenie</div></li>
+
+<li><div align=justify><tt>111</tt>:'Error in connection' ('Błąd w połączeniu').</div></li>
+
+</ul>
+<p>
+</ol>
+</div></li>
+</div></li>
+
+<li><div align=justify>przyczyna z warstwy zarządzającej siecią komórkową (MobilityManagement-Layer) - jest ona również podawana w <b><a href="?q=node/137#Menu64">teście 64</a></b>. Wartości na podstawie specyfikacji GSM (sekcja 10.5.3.6/GSM 04.08):
+
+<p>
+<ul>
+<li><div align=justify><tt>&nbsp;2</tt>: <a href="?q=node/133#IMSI">IMSI</a> nieznany w <a href="?q=node/133#HLR">HLR</a> (karta SIM nieaktywna w sieci)</div></li>
+
+<li><div align=justify><tt>&nbsp;3</tt>: nielegalny telefon</div></li>
+
+<li><div align=justify><tt>&nbsp;4</tt>: <a href="?q=node/133#IMSI">IMSI</a> nieznany w <a href="?q=node/133#VLR">VLR</a></div></li>
+
+<li><div align=justify><tt>&nbsp;5</tt>: <a href="?q=node/133#IMEI">IMEI</a> telefonu nie został zaakceptowany</div></li>
+
+<li><div align=justify>
+<tt>&nbsp;6</tt>: niedozwolony ME</div></li>
+
+<li><div align=justify><tt>11</tt>: niedozwolony <a href="?q=node/133#PLMN">PLMN</a> (próba zalogowania się do sieci, która nie podpisanej odpowiedniej umowy z Twoją siecią macierzystą - telefon wyświetla 'Brak dostępu' ('No access') przy jej ręcznym wyborze; nie wiem, czy kod ten pokazuje się tylko w przypadku tzw. zabronionych sieci z karty SIM (tylko to mogłem sprawdzić - konkretnie: z kartą <a href="http://www.eragsm.pl/">Ery</a> próbowałem użyć sieci <a href="http://www.plusgsm.pl/">Plusa</a> i Idei) - ich listę znajdziesz w <b><a href="?q=node/134#Menu6">teście 6</a></b>)</div></li>
+
+<li><div align=justify><tt>12</tt>: niedozwolony kod obszaru (Location Area), w którym działa obsługująca telefon komórka. Możesz go sprawdzić w <b><a href="?q=node/135#Menu11">teście 11</a></b>.</div></li>
+
+<li><div align=justify><tt>13</tt>: procedura roamingu nie jest dozwolona na tym obszarze</div></li>
+
+<li><div align=justify><tt>17</tt>: niesprawność sieci</div></li>
+
+<li><div align=justify><tt>22</tt>: network congestion</div></li>
+
+<li><div align=justify><tt>32</tt>: service option not supported</div></li>
+
+<li><div align=justify><tt>33</tt>: service option not subscribed</div></li>
+
+<li><div align=justify><tt>34</tt>: service temporary out of order</div></li>
+
+<li><div align=justify><tt>38</tt>: call cannot be identified (call RE)</div></li>
+
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify>przyczyna z warstwy zarządzającej przydzielaniem kanałów (RadioRessourceManagement-Layer) - patrz specyfikacje GSM: sekcja 10.5.2.31/GSM 04.08:
+
+<p>
+<ul>
+<li><div align=justify><tt>&nbsp; 0</tt>: normalne zakończenie</div></li>
+
+<li><div align=justify><tt>&nbsp; 1</tt>: niezprecyzowana</div></li>
+
+<li><div align=justify><tt>&nbsp; 2</tt>: użyty kanał jest nie do zaakceptowania</div></li>
+
+<li><div align=justify><tt>&nbsp; 3</tt>: przekroczenie czasu ważności licznika</div></li>
+
+<li><div align=justify><tt>&nbsp; 4</tt>: brak aktywności w ścieżce radiowej</div></li>
+
+<li><div align=justify><tt>&nbsp; 5</tt>: Pre-emptive release</div></li>
+
+<li><div align=justify><tt>&nbsp; 8</tt>: <a href="#Handover">handover</a> niemożliwy, przekroczono wartość parametru <a href="?q=node/134#TA">TA</a></div></li>
+
+<li><div align=justify><tt>&nbsp; 9</tt>: tryb kanału nie do zaakceptowania</div></li>
+
+<li><div align=justify><tt>&nbsp;10</tt>: użyta częstotliwość nie zaimplementowana</div></li>
+
+<li><div align=justify><tt>&nbsp;65</tt>: połączenie zostało już (wcześniej) wykasowane</div></li>
+
+<li><div align=justify><tt>&nbsp;97</tt>: typ komunikatu niezgodny ze stanem protokołu</div></li>
+
+<li><div align=justify><tt>101</tt>: no cell allocation available</div></li>
+
+<li><div align=justify><tt>111</tt>: niezprecyzowany błąd w protokole</div></li>
+</ul>
+</div></li>
+</ul>
+
+<p align=justify>Jeżeli pokazywana jest gwiazdka przed trzecim parametrem z tego menu, to najczęściej oznacza to, że właśnie wykonywane jest połączenie. Czasami telefon podaje inne wartości - nie znam niestety ich sensownego opisu.
+
+<p>Wartości liczników nie są zapamiętywane przy wyłączaniu telefonu. Przy
+następnym pomiarze telefon nie zeruje tych liczników (tzn. przy następnym
+pomiarze zmienia tylko te, które go dotyczą; resztę pozostawia bez zmian).
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td><img SRC="sites/default/files/nm/tip.gif" height=36 width=27></td>
+
+<td><p align=justify>Na podstawie tego menu możesz dowiedzieć się, dlaczego właściwie Twój telefon nie chce działać - nie można wykonywać połączeń.</td>
+</tr>
+</table>
+
+<p><a NAME="Menu40"></a><b>Test 40</b>
+<br>Zerowanie liczników <a href="#Handover">handover</a> (przez bezpośrednie wejście)...
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;&nbsp; RESET<br>&nbsp; HANDOVER &nbsp;<br>&nbsp; COUNTERS<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp; Use menu &nbsp;<br>&nbsp; to reset<br>&nbsp; handover<br>&nbsp; counters</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p><a NAME="Menu41"></a><b>Test 41</b>
+<br>Informacje o <a href="#Handover">handoverach</a>
+
+<p align=justify><a NAME="Handover"></a>Handover to po prostu przenoszenie połączenia radiowego telefonu z jedną komórką na połączenie z inną (rozmowa telefoniczna ciągle trwa). Dzieje się tak:
+
+<p>
+<ol>
+<li><div align=justify>gdy nowe połączenie może zapewnić lepszą jakość (jego parametry są ciągle sprawdzane przez stację bazową i telefon)</div></li>
+
+<li><div align=justify>gdy telefon znajduje się na styku kilku komórek i może już korzystać z innych (powstałe wolne miejsce wykorzystują telefony, które są tylko w zasięgu "starej" komórki)</div></li>
+</ol>
+
+<p align=justify>Jeżeli są problemy z transmisją, decyzję o handoverze podejmuje telefonu (w pozostałych przypadkach robi to <a href="?q=node/133#BSC">BSC</a>). Jeżeli włączyłeś(aś) używanie jednego kanału przez telefon (<b><a href="?q=node/135#Menu17">test 17</a></b>), handovery nie są w ogóle wykonywane.
+
+<p>Są 4 rodzaje handoveru:
+
+<p>
+<ul>
+<li><div align=justify><a NAME="Intra"></a><b>Intra cell - Intra <a href="?q=node/133#BSC">BSC</a> handover</b> (zwany też <b>handoff</b>): najmniejszym z handoverów jest handover wewnątrz komórki. Wtedy odbiorca jest "przerzucany" z jednego kanału na drugi (generalnie na inną częstotliwość w obrębie jednej komórki). W tym wypadku decyzję o tym, czy przenieść abonenta, podejmuje <a href="?q=node/133#BSC">BSC</a>.</div></li>
+
+<li><div align=justify><b>Inter cell - Intra <a href="?q=node/133#BSC">BSC</a> handover</b>: abonent zostaje przeniesiony z jednej komórki do drugiej. O przeniesieniu decyduje <a href="?q=node/133#BSC">BSC</a>. Połączenie z pierwszą komórką zostaje przerwane, gdy nastąpi połączenie z drugą (przemieszczanie się między dwoma <a href="?q=node/133#BTS">BTSami</a> w ramach jednego <a href="?q=node/133#BSC">BSC</a>).</div></li>
+
+<li><div align=justify><b>Inter cell - Inter <a href="?q=node/133#BSC">BSC</a> handover</b>: przeniesienie połączenia między dwoma komórkami, które nie są obsługiwane przez to samo <a href="?q=node/133#BSC">BSC</a>. W tym wypadku handover jest przenoszony przez <a href="?q=node/133#MSC">MSC</a>, ale decyzję o przeniesieniu podejmuje pierwszy <a href="?q=node/133#BSC">BSC</a>. Połączenie z pierwszym <a href="?q=node/133#BSC">BSC</a> (i <a href="?q=node/133#BTS">BTSem</a>) jest kończone, gdy zostanie ustanowione połączenie z drugim <a href="?q=node/133#BSC">BSC</a> (i <a href="?q=node/133#BTS">BTSem</a>).</div></li>
+
+<li><div align=justify><b>Inter <a href="?q=node/133#MSC">MSC</a> handover</b>: odbiorca przenosi się z komórki kontrolowanej przez dany <a href="?q=node/133#MSC">MSC</a>/<a href="?q=node/133#VLR">VLR</a> do innej, która jest kontrolowana przez inny <a href="?q=node/133#MSC">MSC</a>/<a href="?q=node/133#VLR">VLR</a>. Tu sytuacja jest trochę bardziej skomplikowana. Zauważmy, że <a href="?q=node/133#MSC">MSC</a> jest połączony do GSMc przez łącza PSTN. W tym wypadku widać, że drugi <a href="?q=node/133#MSC">MSC</a> nie może dostać informacji z pierwszego tak po prostu.
+
+<p>Co się stanie gdy połączenie zostanie przeniesione do docelowego <a href="?q=node/133#MSC">MSC</a>/<a href="?q=node/133#VLR">VLR</a> ?
+
+<p>Ponieważ oba <a href="?q=node/133#MSC">MSC</a> należą do tej samej sieci, połączenie zostaje utrzymane. Aby je przenieść z jednego do drugiego <a href="?q=node/133#MSC">MSC</a> musi zostać wygenerowany specjalny numer HON (HON=CC+NDC+SN, CC - kod kraju, NDC - kod sieci, SN - numer abonenta), który jest podobny do numeru roamingowego (to też połączenie między dwoma <a href="?q=node/133#MSC">MSC</a>). Podczas handoveru między dwoma <a href="?q=node/133#MSC">MSC</a> połączenie nie może zostać przerwane (połączenie telefoniczne realizowane przez abonenta sieci).</div></li></ul>
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>HandOOk: aaa<br>PrevCh : bbb<br>HONotOK: ccc<br>HOIntra: ddd</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>HandOvOKCntr<br>PrevChanCntr<br>HandOvNOKCnt<br>HOIntraOKCnt</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaa - ilość poprawnie zrealizowanych <a href="#Handover">handoverów</a></div></li>
+
+<li><div align=justify>bbb - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału (numer aktualnego kanału sprawdzisz np. w <b><a href="?q=node/134#Menu1">Menu 10-1</a></b>)</div></li>
+
+<li><div align=justify>ccc - ilość niepoprawnych <a href="#Handover">handoverów</a></div></li>
+
+<li><div align=justify>ddd - ilość <a href="#Handover">handoverów</a> pierwszego rodzaju (<a href="#Intra">Intra cell - Intra BSC</a>) albo przypisań (?)</div></li>
+</ul>
+
+<p align=justify>Liczniki mogą przyjmować maksymalne wartości 999 (wtedy stają). Jeżeli chcesz je wyzerować, użyj <b><a href="#Menu40">testu 40</a></b> (albo <b><a href="?q=node/137#Menu60">testu 60</a></b>).
+
+<p align=justify>W telefonach dualnych (np. Nokii 6150, 3210 czy 7110) <b>test 41</b> wygląda tak i dotyczy <a href="#Handover">handoverów</a> Inter cell - Intra BSC, Inter cell - Inter BSC i Inter MSC:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;aaaa&nbsp; bbbb<br>&nbsp;cccc&nbsp; dddd<br>eeefffggghhh<br>iiijjjkkklll</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>G>G InterD>D<br>G>D&nbsp; OK&nbsp; D>G<br>InterHoFail<br>BackToPrev</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaa - ilość poprawnych <a href="#Handover">handoverów</a> GSM 900 - GSM 900</div></li>
+<li><div align=justify>bbb - ilość poprawnych <a href="#Handover">handoverów</a> GSM 1800 - GSM 1800</div></li>
+<li><div align=justify>ccc - ilość poprawnych <a href="#Handover">handoverów</a> GSM 900 - GSM 1800</div></li>
+<li><div align=justify>ddd - ilość poprawnych <a href="#Handover">handoverów</a> GSM 1800 - GSM 900</div></li>
+<li><div align=justify>eee - ilość błędnych <a href="#Handover">handoverów</a> GSM 900 - GSM 900</div></li>
+<li><div align=justify>fff - ilość błędnych <a href="#Handover">handoverów</a> GSM 1800 - GSM 1800</div></li>
+<li><div align=justify>ggg - ilość błędnych <a href="#Handover">handoverów</a> GSM 900 - GSM 1800</div></li>
+<li><div align=justify>hhh - ilość błędnych <a href="#Handover">handoverów</a> GSM 1800 - GSM900</div></li>
+
+<li><div align=justify>iii - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału (numer aktualnego kanału sprawdzisz np. w <b><a href="?q=node/134#Menu1">teście 1</a></b>) z GSM 900 do GSM 900</div></li>
+
+<li><div align=justify>jjj - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału z GSM 1800 do GSM 1800</div></li>
+
+<li><div align=justify>kkk - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału z GSM 900 do GSM 1800</div></li>
+
+<li><div align=justify>lll - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału z GSM 1800 do GSM 900</div></li>
+</ul>
+
+<p>Jeżeli liczniki osiągną wartości maksymalne, stają (9999 dla dwóch pierwszych linii, 999 dla dwóch ostatnich). Jeżeli chcesz je wyzerować, użyj <b><a href="#Menu40">testu 40</a></b>
+(albo <b><a href="?q=node/137#Menu60">testu 60</a></b>).
+
+<p align=justify>W Nokii 3310 suma wszystkich <a href=?q=node/136#handover>handoverów</a> jest również wyświetlana w <a href=?q=node/138#Menu131>teście 131</a> (?).
+
+<p>W Nokii 3110 test ten wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>HandOOk: aaa&nbsp;<br>PrevCh : bbb&nbsp;<br>HONotOK: ccc&nbsp;<br>T200: eeee</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>HandOvOKCntr&nbsp;<br>PrevChanCntr&nbsp;<br>HandOvNOKCnt&nbsp;<br>T200Cntr</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>eeee - o liczniku T200 wspominam w <b><a href="#Menu43">teście 43</a></b></div></li>
+</ul>
+
+<p>a tak w Nokii 6185/6188:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>BSI 01000<br>VBAT 388<br>BTEMP 018<br>BATT 2 CHG 0</i></tt></td>
+</tr>
+</table>
+
+<p><ul>
+<li><div align=justify>BSI - pojemność baterii. przykładowo: '1600' dla 1500 mAh; '984' dla 900 mAh, and '1000' dla 880 mAh.</div></li>
+<li><div align=justify>VBAT - napięcie baterii (/100V)</div></li>
+<li><div align=justify>BTEMP - temperatura baterii w C</div></li>
+<li><div align=justify>BATT - typ baterii: 1500 mAh=2; 900 mAh=1; 880 mAh=5</div></li>
+<li><div align=justify>CHG - wskaźnik ładowania baterii: 2 - ładowanie ładowarką biurkową, 1 - ładowanie szybką ładowarką, 0 - brak</div></li>
+</ul>
+
+<p><a NAME="Menu42"></a><b>Test 42</b>
+<br>To menu jest tylko w telefonach dualnych (np. Nokii 6150 czy 3210) i dotyczy tylko <a href="#Handover">handoverów</a> pierwszego rodzaju (<a href="#Intra">Intra cell - Intra BSC</a>):
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;aaaa&nbsp; bbbb<br>&nbsp;cccc&nbsp; dddd<br>eeefffggghhh<br>iiijjjkkklll</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>G>G IntraD>D<br>G>D&nbsp; OK&nbsp; D>G<br>IntraHoFail<br>BackToPrev</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaaa - ilość poprawnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 900 - GSM 900</div></li>
+<li><div align=justify>bbbb - ilość poprawnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 1800 - GSM 1800</div></li>
+<li><div align=justify>cccc - ilość poprawnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 900 - GSM 1800</div></li>
+<li><div align=justify>dddd - ilość poprawnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 1800 - GSM 900</div></li>
+<li><div align=justify>eee - ilość błędnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 900 - GSM 900</div></li>
+<li><div align=justify>fff - ilość błędnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 1800 - GSM 1800</div></li>
+<li><div align=justify>ggg - ilość błędnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 900 - GSM 1800</div></li>
+<li><div align=justify>hhh - ilość błędnych <a href="#Intra">handoverów Intra cell - Intra BSC</a> GSM 1800 - GSM 900</div></li>
+
+<li><div align=justify>iii - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału (numer aktualnego kanału sprawdzisz np. w <b><a href="?q=node/134#Menu1">teście 1</a></b>) z GSM 900 do GSM 900 w obrębie 1 komórki (INTRA CELL)</div></li>
+
+<li><div align=justify>jjj - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału z GSM 1800 do GSM 1800 w obrębie 1 komórki (INTRA CELL)</div></li>
+
+<li><div align=justify>kkk - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału z GSM 900 do GSM 1800 w obrębie 1 komórki (INTRA CELL)</div></li>
+
+<li><div align=justify>lll - ilość zakończonych sukcesem prób powrotów do używania poprzedniego kanału z GSM 1800 do GSM 900 w obrębie 1 komórki (INTRA CELL)</div></li>
+</ul>
+
+<p align=justify>Jeżeli liczniki osiągną wartości maksymalne, stają (9999 dla dwóch pierwszych linii, 999 dla dwóch ostatnich). Jeżeli chcesz je wyzerować, użyj <b><a href="#Menu40">testu 40</a></b> (albo <b><a href="?q=node/137#Menu60">testu 60</a></b>).
+
+<p>W Nokii 6185/6188 ten test wygląda jak <a href="?q=node/135#Menu20">test 20</a>.
+
+<p><a NAME="Menu43"></a><b>Test 43</b>
+
+<p>Niektóre angielskie opisy piszą o tym teście następująco:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>T200MS: aaaa<br>T200BS: bbbb<br>T200MS: cccc<br>T200BS: dddd</tt></td></tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>T200 MS GSM&nbsp;<br>T200 BS GSM<br>T200 MS DCS<br>T200 BS DCS</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaaa - dla GSM 900: licznik pokazujący, ile razy T200 w telefonie przekroczył okres ważności i transmisja L2 została powtórzona.</div></li>
+
+<li><div align=justify>bbbb - dla GSM 900: licznik pokazujący, ile razy T200 w <a href="?q=node/133#BTS">BTSie</a> (w sieci) przekroczył okres ważności i transmisja L2 została powtórzona.</div></li>
+
+<li><div align=justify>cccc - dla GSM 1800 dawniej zwanego DCS (tylko w telefonach dualnych): licznik pokazujący, ile razy T200 w telefonie przekroczył okres ważności i transmisja L2 została powtórzona.</div></li>
+
+<li><div align=justify>dddd - dla GSM 1800 (tylko w telefonach dualnych): licznik pokazujący, ile razy T200 w <a href="?q=node/133#BTS">BTSie</a> (w sieci) przekroczył okres ważności i transmisja L2 została powtórzona.</div></li>
+</ul>
+
+<p align=justify>Jeżeli liczniki osiągną wartości maksymalne, stają (9999 dla dwóch pierwszych linii, 999 dla dwóch ostatnich). Jeżeli chcesz je wyzerować, użyj <b><a href="#Menu40">testu 40</a></b> (albo <b><a href="?q=node/137#Menu60">testu 60</a></b>).
+
+<p align=justify>Znalazłem jednak drobne nieścisłości: znane mi telefony (zarówno dwupasmowe jaki i jednopasmowe) pokazują informacje JEDYNIE w dwóch pierwszych linijkach. Pomoc natomiast wygląda tak:
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>T200 MS &nbsp; &nbsp;&nbsp;<br>T200 BS<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+lub tak:
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>T200Cntr MS<br>T200Cntr Net<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+
+<td>lub tak:</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>T200Cutr MS<br>T200Cutr Net<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<p>W Nokii 6185/6188 ten test wygląda jak <a href="?q=node/135#Menu21">test 21</a>.
+
+<p><a NAME="Menu44"></a><b>Test 44</b>
+<br>Przez bezpośrednie wejście do tego menu, możesz zmienić wartość aa z 01 (wartości domyślnej) na 00 (albo odwrotnie).
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td>
+<br><tt>&nbsp;REVISION<br>LEVEL IS aa&nbsp;<br>&nbsp;</tt></td></tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Use menu to&nbsp;<br>&nbsp;&nbsp; change<br>&nbsp; Revision<br>&nbsp;&nbsp; Level</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>W Nokii 6185/6188 ten test wygląda jak <a href="?q=node/135#Menu22">test 22</a>.
+
+<p><a NAME="Menu45"></a><b>Test 45</b>
+<br>Ten test pozwala symulować sytuacje, w których telefon może normalnie odbierać sygnał sieci (jednakże ona nie może otrzymywać żadnych informacji od niego). Symulacja jest bardzo realistyczna (nawet w <b><a href="?q=node/134#Menu1">teście 1</a></b> w parametrze ddd pokazuje się gwiazdka przy próbie wykonania połączenia), ale nie całkowicie (w <b><a href="?q=node/135#Menu10">teście 10</a></b> przy przekroczeniu czasu ważności licznika T3212 w pierwszym parametrze zamiast numeru TMSI zobaczysz 'xxxxxxxx').
+
+<p>Zmiana przez bezpośrednie wejście.
+
+<p>
+<center><table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td>
+<br><tt>TRANSMITTER&nbsp;<br>&nbsp; ENABLED<br>&nbsp;</td></tr>
+</table>
+
+<p>(ustawienie domyślne)</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td>
+<br><tt>TRANSMITTER&nbsp;<br>&nbsp; DISABLED<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Use menu to&nbsp;<br>&nbsp;enable or<br>&nbsp; disable<br>transmitter</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></center>
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td><img SRC="sites/default/files/nm/tip.gif" height=36 width=27></td>
+
+<td><p align=justify>Po jego włączeniu nie jest możliwe np. uaktualnianie położenia przez telefon (patrz <b><a href="?q=node/137#Menu64">test 64</a></b>) ani nawiązywanie połączenia. Pozwala to:<ul>
+<li><div align=justify>"zablokować" telefon do czasu jego ponownego włączenia (np. obserwować parametry sieci, ale nie być dostępnym dla innych - jeżeli ktoś zadzwoni w tym czasie do Ciebie, sieć zachowa się tak, jakby Twój telefon był poza jej zasięgiem)</div></li>
+
+<li><div align=justify>szybko przypomnieć sobie numer telefoniczny wpisany do książki telefonicznej (jest zapisany np. na kartce, ale nie pamiętasz, kto Ci go dał): wystarczy zadzwonić, a telefon w czasie wybierania numeru wyświetli nazwę; będziesz ją mógł(mogła) później znaleźć na liście ostatnio wybieranych numerów)</div></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<p align=justify>Test NIE DZIAŁA POPRAWNIE w Nokii 3210, 3310, 7110 i 9110 (prawdopodobnie we wszystkich nowych modelach i wersjach firmware) - można zmieniać jego ustawienie, ale nie daje to rezultatów jak opisane wyżej.
+
+<p>W Nokii 6185/6188 ten test wygląda jak <a href="?q=node/135#Menu23">test 23</a>.
+
+<p><a NAME="Menu46"></a><b>Test 46</b>
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>BAND CLASS a<br>CS SUBSTATE<br>EM STATEnnn<br>TX POWER DB</b></tt></td>
+</tr>
+</table>
+
+<ul>
+<li><div align=justify>BAND - used cellular system: C= 800MHz CDMA, P=1.9GHz CDMA, A=800MHz AMPS</div></li>
+<li><div align=justify>CS SUBSTATE - cellular state: IDLE, CONVE, PAGE, PILOS, TIME_, SYNC_, RELE, etc</div></li>
+<li><div align=justify>EM STATE - emiter state: SLOT 1, SCANNING, RATE 1 (8k codec), RATE 2 (13k codec) or EVRC.</div></li>
+<li><div align=justify>TX POWER DB - TX power: usually between -75dB and +4dB</div></li>
+</ul>
+
+<p><a NAME="Menu48"></a><b>Test 48</b>
+<br>W Nokii 3110 test ten wygląda jak <b><a href="?q=node/134#Menu7">test 7</a></b>.
+
+<p><a NAME="Menu51"></a><b>Test 51</b>
+<br>Informacje o karcie SIM
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aaa bbb ccc&nbsp;<br>&nbsp;dddddddd<br>&nbsp;e f&nbsp; gg hh<br>&nbsp; i&nbsp;&nbsp; jjjj</tt></td></tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>VSel Bau SAl<br>SCond&nbsp; CStop<br>PIN12&nbsp; PUK12<br>&nbsp;ATR&nbsp; FE/PE</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aa - wybór napięcia zasilającego kartę SIM (3, 3/5 albo 5)</div></li>
+
+<li><div align=justify>bbb - współczynnik podziału określający prędkość komunikacji telefonu z kartą SIM (372, 64, 32 albo 0) zapisany w ATR (sekwencji wysyłanej przez kartę w odpowiedzi na restart - <b>A</b>nswer <b>T</b>o <b>R</b>eset). Jeżeli podzielisz częstotliwość zegara (maksymalnie 3,25 MHz = 3 250 000 Hz) przez niego, uzyskasz prędkość transmisji (np. 3 250 000 Hz / 372 = 8736,5 bodów). UWAGA ! NIE JEST MOŻLIWE ZMIENIENIE PRĘDKOŚCI KOMUNIKACJI Z KARTĄ SIM I WPŁYNIĘCIE NA TEN PARAMETR !</div></li>
+
+<li><div align=justify>ccc - informacja, czy możliwe jest zatrzymywanie zegara karty SIM (oszczędza to energię) w trybie czuwania (YES - jest możliwe, NO - niestety nie). Informację tę można również uzyskać (w Nokiach i nie tylko) stosując kod<b>*#SIM0CLOCK#</b> - gdy wyświetli się "SIM clock stop allowed", karta SIM ma tę możliwość. Niektóre Nokie 6110 (zależy to od ich oprogramowania) mogą nie obsługiwać prawidłowo (w ogóle) tego ostatniego kodu (wyświetlają np. "Result unknown"). Telefon wyłącza i włącza zegar karty SIM automatycznie - nie możesz tego robić ręcznie !</div></li>
+
+<li><div align=justify>dddd - informacja o tym, jaki jest preferowany stan zegara karty SIM:<p><ul>
+<li><div align=justify>UP</div></li>
+<li><div align=justify>DOWN</div></li>
+<li><div align=justify>DOWN(UP) - tak było w testowanych przeze mnie kartach SIM</div></li>
+<li><div align=justify>UP(DOWN)</div></li>
+<li><div align=justify>xxxxxxxx</div></li>
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify>e - ilość pozostałych prób wpisywania kodu PIN1. Jeżeli wartość ta przekracza 9, podawana jest tu tylko ostatnia cyfra (np. spotkałem takie karty Tak-Tak). Maksymalna ilość prób zależy od konkretnej karty SIM (może być ustawiona dowolnie), najczęściej jest jednak równa 3. W niektórych kartach SIM można wyłączyć podawanie kodu PIN w ogóle (np. <b>Menu 4-3-1</b> w Nokii 5110). Jeżeli licznik jest równy 0, telefon pokazuje "Sim card blocked" i pyta się o kod PUK1. Jeżeli kod został wpisany poprawnie, licznik jest zerowany (przyjmuje wartość maksymalną). Włączanie i wyłączanie telefonu go nie zeruje !</div></li>
+
+<li><div align=justify>f - ilość pozostałych prób wpisywania kodu PIN2 (gdy karta SIM nie obsługuje funkcji objętych tym kodem, wyświetla się tu x). To, czy karta może korzystać z tych funkcji, można sprawdzić próbując skorzystać z licznika kosztów rozmów (jeżeli karta nie pozwala, telefon wyświetla 'Nie dozwolone' - 'Not allowed'). Jeżeli chciałeś(aś) z nich korzystać, a karta ich nie obsłuży (wyświetla się tu x), musisz wymienić swoją kartę SIM. Maksymalna ilość prób zależy od konkretnej karty SIM (może być ustawiona dowolnie), najczęściej jest jednak równa 3. Jeżeli licznik ten jest równy 0, telefon pyta się o kod PUK2. Jeżeli natomiast ten kod jest wpisany poprawnie, licznik jest zerowany (przyjmuje wartość maksymalną). Oczywiście nawet wtedy, gdy jest równy 0, można normalnie korzystać z karty SIM (kody PIN2/PUK2 są niezależne od PIN1/PUK1), kiedy znasz PIN1. Włączanie i wyłączanie telefonu go nie zeruje ! Jeżeli karta ma zablokowane kody PIN2/PUK2, to można wejść do menu zawierających obsługiwane przez nie opcje (jedynie po zmianie kolejnych ustawień zobaczymy błąd).</div></li>
+
+<li><div align=justify>gg - ilość pozostałych prób wpisywania kodu PUK1. Maksymalna ilość prób zależy od konkretnej karty SIM (może być ustawiona dowolnie), najczęściej jest jednak równa 10. Telefon pyta się o ten kod, gdy licznik pozostałych prób wpisywania kodu PIN1 jest równy 0 (telefon pokazuje "Sim card blocked"). Jeżeli licznik prób wpisywania również tego kodu jest równy 0, karta może być w ogóle zablokowana (telefon pokazuje "Sim card rejected" - "Karta SIM odrzucona") albo (to zależy od karty) pytać się o kod PUK2. Jeżeli jednak kod ten zostanie wpisany poprawnie, liczniki prób wpisywania kodu PIN1 i PUK1 są zerowane (przyjmują wartości maksymalne). Włączanie i wyłączanie telefonu go nie zeruje !</div></li>
+
+<li><div align=justify>hh - ilość pozostałych prób wpisywania kodu PUK2 (gdy karta SIM nie obsługuje funkcji objętych kodem PIN2, wyświetla się tu xx). Maksymalna ilość prób zależy od konkretnej karty SIM (może być ustawiona dowolnie), najczęściej jest jednak równa 10. Jeżeli jest równy 0, korzystanie z funkcji objętych kodem PIN2 może już być niemożliwe w tej karcie SIM (zgłoś się do operatora po pomoc). Jeżeli dodatkowo byłeś pytany o ten kod, gdy licznik prób wpisywania kodów PIN1 i PUK1 był równy 0 i teraz również licznik prób wpisywania PUK2 jest równy 0, korzystanie z tej karty SIM w ogóle może być niemożliwe (trzeba ją wymienić na nową). Jeżeli natomiast ten kod został wpisany poprawnie, liczniki prób wpisywania tego kodu oraz PIN2 (o ile wpisywałeś PUK2, gdyż PIN2 był zablokowany) jest zerowany (przyjmują wartości maksymalne) ewentualnie liczniki prób wpisywania tego kodu i kodów PIN1 i PUK1 są zerowane (o ile wpisywałeś PUK2 po nieudanych próbach wpisania PIN1 i PUK1). Włączanie i wyłączanie telefonu go nie zeruje !</div></li>
+
+<li><div align=justify>i - licznik powtórzeń ATR (ATR to sekwencja wysyłana przez kartę w odpowiedzi na restart - <b>A</b>nswer <b>T</b>o <b>R</b>eset) (0-9)</div></li>
+
+<li><div align=justify>jjjj - ilość retransmisji ramki/błędów parzystości w komunikacji z kartą SIM (w przypadku ich wystąpienia jako dwie cyfry pojawia się FE (<b>F</b>rame <b>E</b>rror) albo PE (<b>P</b>arity <b>E</b>rror), a jako dwie ostatnie ilość retransmisji/błędów)</div></li>
+</ul>
+
+<p align=justify>W przypadku, gdy w telefonie nie ma karty SIM, w teście tym zobaczymy "ERROR1".
+
+<p align=justify>Jeżeli natomiast telefon ma problemy podczas komunikacji z nią, test ten może wyglądać następująco (parametry i i jjjj są opisane powyżej):
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>ERROR1 5 &nbsp;55<br>55<br>&nbsp; i&nbsp;&nbsp; jjjj<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<p align=justify>Parametr CStop (informacja, czy aktualnie zegar karty SIM jest zatrzymany, czy nie) jest pokazywany wyłącznie w pomocy (nie w teście). Po prostu, ktoś o nim zapomniał tworząc oprogramowanie telefonu.
+
+<p align=justify>Jeżeli chodzi o wybór napięcia zasilającego SIMa (pierwszy parametr), to (uwagi dla Nokii 5110 i dla testowanych przeze mnie kart SIM):
+
+<p align=justify>Po włączeniu telefon odczytuje różne informacje z karty SIM (np. ilość wiadomości <a href="http://www.fkn.pl/faqs/smsfaq.html">SMS</a>, numery z książki telefonicznej) - wtedy przy próbie skorzystania z tego, co jest na niej zapisane (np. książki telefonicznej), pokazywane jest "Karta SIM nie gotowa" ("SIM card not ready") - odczyt pierwszego parametru wskazuje 3. Zauważ również, że wtedy telefon nie potrafi wyświetlać nazw przypisanych do numerów z książki telefonicznej (np. gdy dzwonisz), jak również pokazuje, że na karcie SIM nie ma żadnych wiadomości <a href="http://www.fkn.pl/faqs/smsfaq.html">SMS</a> (nawet, gdy faktycznie tam są).
+
+<p align=justify>Później odczyt zmienia się na 3/5 - przypuszczam, że wtedy zegar karty SIM jest włączony.
+
+<p align=justify>Telefon go wyłącza (w teście z powrotem 3), gdy komunikuje się z siecią (zgłaszanie żądań, wysyłanie (odbieranie) <a href="http://www.fkn.pl/faqs/smsfaq.html">SMSów</a>), z uwagi na mniejsze zużycie energii (podobnie w stanie <a href="?q=node/134#NSPS">NSPS</a>).
+
+<p align=justify>Jeżeli dzwonisz pod numer z książki telefonicznej (albo przychodzący numer został rozpoznany), do zakończenia rozmowy wskazanie jest znów równe 3/5 (w przeciwnym razie zmienia się na 3). Po zakończeniu rozmowy jest ono zawsze równe 3. Logiczny wniosek: po włączeniu telefon zapisuje w swojej pamięci sumę kontrolną dla wszystkich numerów z książki telefonicznej (wystarczy 7 ostatnich cyfr - na ich podstawie jest dokonywana identyfikacja numerów przez Nokie). Jeżeli suma ta zgadza się z sumą kontrolną numeru, pod który dzwonisz (albo numeru przesłanego przez osobę dzwoniącą), następuje odczyt odpowiedniej nazwy z książki telefonicznej.
+
+<p align=justify>I jeszcze jedna uwaga: bez wykonania połączenia, itp. (patrz wyżej), wartość pierwszego parametru to 3/5 (tracona jest niepotrzebnie energia ? - prawdopodobnie tak (chociaż licznik w <b><a href="?q=node/135#Menu20">teście 20</a></b> nie pokazuje żadnej zmiany jej poboru))
+
+<p align=justify>Jeżeli spróbujesz odczytać "Skrzynkę nadawczą" ("Outbox") albo "Skrzynkę odbiorczą" ("Inbox"), telefon nie włącza zegara, jeżeli są puste (i stąd podejrzenie, że informacje o ilości wiadomości są dublowane w pamięci telefonu).
+
+<p align=justify>Dużo informacji o karcie SIM wyświetla również <a href="http://www.compelson.cz/simedit.htm">program SIMedit</a> (niestety, po czesku :-( )... Parametry takie jak ATR możesz badać np. programem SIM Scan (dostępny np. na stronie <a href="http://www.net.yu/~dejan">www.net.yu/~dejan</a> albo <a href="http://members.tripod.com/~dejank/">http://members.tripod.com/~dejank/</a>).
+
+<p>
+<table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td><img SRC="sites/default/files/nm/tip.gif" height=36 width=27></td>
+
+<td><p align=justify>Jeżeli chcesz uzyskać w telefonie komunikaty "Insert SIM card" ("Włóż kartę SIM") i (czasami) "SIM card rejected" ("Karta SIM odrzucona"), spróbuj wykonać następujące czynności (sprawdzone w Nokii 5110):
+
+<p align=justify>Naciśnij delikatnie uchwyt baterii i zacznij ją bardzo powoli przesuwać do dołu (przestaniesz, gdy usłyszysz cichutki trzask).
+
+<p align=justify>W tym momencie powinieneś już widzieć pierwszy komunikat, telefon zacznie komunikować o kłopotach w komunikacji z kartą (pojawi się "ERROR1" w tym teście)...
+</td>
+</tr>
+</table>
+
+<p>W Nokii 9210 pomoc wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>VSel Bau SAl<br>SCond(CStop)<br>PIN12&nbsp; PUK12<br>&nbsp;ATR&nbsp; FE/PE</b></tt></td>
+</tr>
+</table>
+
+<p>W Nokii 6185/6188 ten test wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>TASK0 0134 &nbsp;<br>TASK1 015C<br>TASK2 0138<br>TASK3 0170</i></tt></td>
+</tr>
+</table>
+
+<p><a NAME="Menu52"></a><b>Test 52</b>
+<br>Odczytuje zbiory danych z karty SIM
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>Read SIM-<br>data field&nbsp;&nbsp;<br>to SIM-SCM<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Use menu to&nbsp;<br>read SIM-<br>data field<br>to SIM-SCM</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p align=justify>Ten test pozwala odczytać binarne wartości zbiorów danych z karty SIM do pamięci SIM SCM (SCM = <b>S</b>hort <b>C</b>ode <b>M</b>emory - książka telefoniczna na karcie SIM).
+
+<p align=justify>Przed użyciem tego testu musisz zapisać adres zbioru w książce telefonicznej na karcie SIM na pozycji 34 (w postaci szesnastkowej) - odpowiednie wartości możesz znaleźć w specyfikacji GSM 11.11.
+
+<p align=justify>Na pozycji 35 w książce telefonicznej zostanie zapisana zawartość zbioru (wyświetlana w notacji szesnastkowej). Długość zbiorów jest różna (maksymalnie wynosi 10 bajtów). Jeżeli wspomniana pozycja książki telefonicznej nie może być przeczytana (jest pusta, itp.), pokazuje się NOT DONE.
+
+<p align=justify>Informacja, czy czytanie podanego zbioru powiodło się, jest zapisywana na pozycji 36 w książce telefonicznej (i wyświetlana przez chwilę na wyświetlaczu).
+
+<p>Możliwości są następujące:
+        
+<p>
+<table style="border-collapse:separate;" cellspacing=4 cellpadding=0>
+<tr><td>OK</td><td>zbiór został przeczytany poprawnie</td></tr>
+<tr><td>NOT BINARY</td><td>zły format danych</td></tr>
+<tr><td>NOT FOUND</td><td>zbiór danych nie został znaleziony na karcie SIM</td></tr>
+<tr><td>CARD ERROR</td><td>karta SIM nie odpowiedziała zgodnie z oczekiwaniami</td></tr>
+<tr><td>NO RIGHTS</td><td>brak uprawnień do przeczytania zbioru (PIN2,adm..)</td></tr>
+<tr><td>NOT STORED</td><td>nie można zapisać wartości w pozycji 35 książki</td></tr>
+<tr><td>NO ADDRESS</td><td>nie można przeczytać adresu z pozycji 34 książki</td></tr>
+<tr><td>UNKNOWN</td><td>niezidentyfikowany błąd</td></tr>
+</table>
+ 
+<p align=justify>W obecnych specyfikacjach tylko wymienione niżej zbiory danych istnieją na kartach SIM (w przyszłości może ich być więcej). Niektóre karty SIM mogą nie zawierać niektórych z nich.
+
+<p>
+<table style="border-collapse:separate;" cellspacing=4 cellpadding=0>
+<tr><td>2FE2</td><td>identyfikacja ICC</td><td>(10 bajtów)</td></tr>
+<tr><td>6F05</td><td>ustawienia językowe</td><td>(variable length)</td></tr>
+<tr><td>6F07</td><td><a href="?q=node/133#IMSI">IMSI</a></td><td>(9 bajtów)</td></tr>
+<tr><td>6F20</td><td>Ciphering key Kc (czytany z karty po wprowadzeniu PIN)</td><td>(9 bajtów)</td></tr>
+<tr><td>6F30</td><td>wybór <a href="?q=node/133#PLMN">PLMN</a></td><td>(variable length)</td></tr>
+<tr><td>6F31</td><td>odstęp szukania HPLMN (sieci domowej ?)</td><td>(1 bajt)</td></tr>
+<tr><td>6F37</td><td>maksymalna wartość ACM</td><td>(3 bajty)</td></tr>
+<tr><td>6F38</td><td>tablica obsługi SIM</td><td>(2-4 bajty)</td></tr>
+<tr><td>6F41</td><td>tablica waluty i kosztów jednostki rozmowy</td><td>(5 bajtów)</td></tr>
+<tr><td>6F45</td><td>Cell broadcast message identifier selection</td><td>(variable length)</td></tr>
+<tr><td>6F74</td><td>kanały kontroli nadawania komórkowego</td><td>(16 bajtów)</td></tr>
+<tr><td>6F78</td><td>klasa kontroli dostępu</td><td>(2 bajty)</td></tr>
+<tr><td>6F7B</td><td>zabronione <a href="?q=node/133#PLMN">PLMN</a> (zobacz <a href="?q=node/134#Menu7">test 7</a>)</td><td>(12 bajtów)</td></tr>
+
+<tr><td>6F7E</td><td>informacje o położeniu (<a href="?q=node/135#Menu10">TMSI</a>, <b>L</b>ocal <b>A</b>rea <b>I</b>nformation (składa się z MCC, MNC & LAC - są podane w <a href="?q=node/135#Menu11">teście 11</a>), ostatni status wykonania <a href="?q=node/133#LocationUpdate">Location Update</a>)</td><td>(11 bajtów)</td></tr>
+
+<tr><td>6FAD</td><td>Administrative data</td><td>(variable length)</td></tr>
+<tr><td>6FAE</td><td>identyfikacja Phase GSM</td><td>(1 bajt)</td></tr>
+<tr><td>6F43</td><td>status SMS</td><td>(variable length)</td></tr>
+<tr><td colspan=3>&nbsp;<p>Następne dwa zbiory są zdefiniowane w fazie 2+ GSM do użycia w przyszłości<p>&nbsp;</td></tr>
+<tr><td>6F3E</td><td>Group Identifier Level 1</td><td>(variable length)</td></tr>
+<tr><td>6F3F</td><td>Group Identifier Level 2</td><td>(variable length)</td></tr>
+</table>
+
+<p>W Nokii 6185/6188 ten test wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>TASK4 0134 &nbsp;<br>TASK5 015C<br>TASK6 0138<br>TASK7 0170</i></tt></td>
+</tr>
+</table>
+
+<p><a NAME="Menu53"></a><b>Test 53</b>
+<br>Zapisuje zbiór danych na kartę SIM
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt> &nbsp; &nbsp;Write<br>&nbsp;data field<br>from SIM-SCM<br>&nbsp;&nbsp;to SIM</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Use menu to<br>write data<br>field to SIM<br>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>Ten test pozwala zapisać zbiór danych na karcie SIM
+
+<p align=justify>Przed jego użyciem adres zbioru powinien być zapisany na pozycji 34 książki telefonicznej na karcie SIM (w notacji szesnastkowej) - odpowiednie adresy są podane w specyfikacji GSM 11.11. Wartość zbioru, która ma być zapisana, powinna być natomiast umieszczona (w notacji szesnastkowej) na pozycji 35 w książce telefonicznej karty SIM.
+
+<p align=justify>Rezultat całej operacji zostanie zapisana na pozycji 36 w książce telefonicznej karty SIM i przez chwilę pokazana na wyświetlaczu.
+
+<p>Możliwości są następujące:
+        
+<p>
+<table style="border-collapse:separate;" cellspacing=4 cellpadding=0>
+<tr><td>OK</td><td>zbiór został przeczytany poprawnie</td></tr>
+<tr><td>NOT BINARY</td><td>zły format danych</td></tr>
+<tr><td>NOT FOUND</td><td>zbiór danych nie został znaleziony na karcie SIM</td></tr>
+<tr><td>CARD ERROR</td><td>karta SIM nie odpowiedziała zgodnie z oczekiwaniami</td></tr>
+<tr><td>NO RIGHTS</td><td>brak uprawnień do przeczytania zbioru (PIN2,adm..)</td></tr>
+<tr><td>DATA ERROR</td><td>the data contents in SCM-location is coded wrongly</td></tr>
+<tr><td>NOT STORED</td><td>nie można zapisać wartości w pozycji 35 książki</td></tr>
+<tr><td>NO ADDRESS</td><td>nie można przeczytać adresu z pozycji 34 książki</td></tr>
+<tr><td>UNKNOWN</td><td>niezidentyfikowany błąd</td></tr>
+</table>
+
+<p align=justify>Jeżeli chcesz, aby zmiany zostały uwzględnione, często konieczny jest restart telefonu.
+
+<p>W Nokii 6185/6188 ten test wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>TASK8 0134 &nbsp;<br>TASK9 015C<br>TASK10 0138<br>TASK11 0170</i></tt></td>
+</tr>
+</table>
+
+<p><a NAME="Menu54"></a><b>Test 54</b>
+<br>Informacje o blokach pamięci
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aa bb&nbsp; aa bb<br>aa bb&nbsp; aa bb<br>aa bb&nbsp; aa bb<br>aa bb&nbsp; aa bb</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>ResF1&nbsp; ResF2<br>ResF3&nbsp; ResF4<br>ResF5&nbsp; ResF6<br>ResF7&nbsp; ResF8</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>zawartość poszczególnych linijek (informacje o poszczególnych blokach):
+
+<p>
+<ol>
+<li><div align=justify>1, 2</div></li>
+<li><div align=justify>3, 4</div></li>
+<li><div align=justify>5, 6</div></li>
+<li><div align=justify>7, 8</div></li>
+</ol>
+
+<p>
+<ul>
+<li><div align=justify>aa - ilość zarezerwowanych bloków</div></li>
+<li><div align=justify>bb - ilość wolnych bloków w najgorszym razie</div></li>
+</ul>
+
+<p>W Nokii 6185/6188 ten test wygląda następująco:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>TASK12 0134&nbsp;<br>TASK13 015C<br>TASK14 0138<br>TASK15 0170</i></tt></td>
+</tr>
+</table>
+
+<p>W Nokii 5210:
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>00016 00138&nbsp;<br>70976 09920<br>64176 00480<br>21344 01180</i></tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>Free# Used#&nbsp;<br>Fsize Usize<br>FMxSz UMxSz<br>MaxUs MaxSz</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p><a NAME="Menu55"></a><b>Test 55</b>
+<br>Informacje o blokach pamięci (nie ma go we wszystkich modelach - nie mają tak dużej pamięci)
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aa bb&nbsp; aa bb<br>aa bb&nbsp; aa bb<br>aa bb&nbsp; aa bb<br>aa bb&nbsp; aa bb</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>ResF9 ResF10<br>ResF11ResF12<br>ResF13ResF14<br>ResF15ResF16</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>zawartość poszczególnych linijek (informacje o poszczególnych blokach):
+
+<p>
+<ol>
+<li><div align=justify>9, 10</div></li>
+<li><div align=justify>11, 12</div></li>
+<li><div align=justify>13, 14</div></li>
+<li><div align=justify>15, 16</div></li>
+</ol>
+
+<p>
+<ul>
+<li><div align=justify>aa - ilość zarezerwowanych bloków</div></li>
+<li><div align=justify>bb - ilość wolnych bloków w najgorszym razie</div></li>
+</ul>
+
+<p>W Nokii 7110 liczniki kończą się na ResF11, w 6210/6250 na ResF15.
+
+<p>W Nokii 3110 test ten wygląda jak <b><a href="#Menu56">test 56</a></b>.
+
+<p>W Nokii 8210/3310 pomoc do tego testu jest troszkę inna (następny "błąd" ? ;-)):
+
+<p>
+<center><table style="border-collapse:separate;" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td>
+<tt><b>ResF9 ResF10<br>ResF11ResF12<br>ResF13ResF14<br>ResSF15ResF1<br></b></tt></td>
+</tr>
+</table>
+</td>
+
+</tr></table></center>
+
+<p>i informacje są pokazywane jedynie w pierwszej linijce...
+
+<p><a NAME="Menu56"></a><b>Test 56</b>
+<br>Informacje o blokach pamięci
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>&nbsp;aaaaaa bbb&nbsp;<br>&nbsp;cccccccc<p>&nbsp;</tt></td></tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp;Ptr&nbsp;&nbsp; Cntr&nbsp;<br>&nbsp;Task<p>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaaaaa - wskaźnik do pamięci, skąd została wywołana podwójna dealokacja (w syst. szesnastkowym)</div></li>
+
+<li><div align=justify>bbb - licznik nieudanych dealokacji</div></li>
+
+<li><div align=justify>cccccccc - nazwa zadania, które próbowało wykonać podwójną dealokację bloku pamięci (ich listę znajdziesz w opisie <a href="#Menu35"><b>testu 35</b></a>).
+
+<!--(np. "OS IDLE", "UNKNOWN" (nieznane) albo "NONETASK" (dwa ostatnie
+pokazują się po naciśnięciu klawisza)) -->
+
+</div></li>
+</ul>
+
+<p>Ten test zawiera poprawne wartości tylko, gdy licznik bbb jest różny od 0.
+
+<p>W Nokii 3110 wygląda jak <b><a href="#Menu57">test 57</a></b>.
+
+<p><a NAME="Menu57"></a><b>Test 57</b>
+<br>Stan pamięci telefonu przed restartem
+
+<p>
+<table style="border-collapse:separate;" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<tr>
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt>aaaaaaaaaaaa<br>aaaaa...<br>bbbbbbbb<br>&nbsp;</tt></td>
+</tr>
+</table>
+</td>
+
+<td>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><b>&nbsp;Status of<br>&nbsp;stacks<br>&nbsp;Block sets&nbsp;<br>&nbsp;</b></tt></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<p>
+<ul>
+<li><div align=justify>aaaaaa... - stan każdego stosu przed restartem. Pierwsza pozycja oznacza stan stosu 0, druga stan stosu 1, itd. Ostatnia pozycja zawiera stan stosu systemowego (System stack). Ilość stosów zależy od konfiguracji oprogramowania. Możliwe przyjmowane wartości są:
+
+<p>
+<ul>
+<li><div align=justify>0: stan stosu w porządku (brak przepełnienia) - <b>tak jest normalnie !</b></div></li>
+<li><div align=justify>1: coś źle (przepełnienie stosu)</div></li>
+</ul>
+<p>
+</div></li>
+
+<li><div align=justify>bbbbbbb - stan każdego ustawienia bloku pamięci przed restartem. Pierwsza pozycja oznacza stan 1 bloku pamięci, 2 2 bloku, itd. Możliwe przyjmowane wartości:
+
+<p>
+<ul>
+<li><div align=justify>0: wszystko w porządku</div></li>
+<li><div align=justify>1: blok zapełniony - <b>tak jest normalnie !</b></div></li>
+<li><div align=justify>2: błąd (de)alokacji albo ogólne uszkodzenie pamięci</div></li>
+</ul>
+</div></li>
+
+</ul>
+
+<p align=justify>Ten test zawiera poprawne wartości tylko, gdy zostało wykonane nieznane przerwanie (ewentualnie miało miejsce przepełnienie stosu). W niektórych telefonach możliwe jest "zmuszenie" ich do wykonania restartu w związku z przepełnieniem stosu (patrz <a href="?q=node/132#9">pytanie 9</a>) i obejrzenie działania tego testu...
+
+<p>W Nokii 6210 test jest większy i zajmuje cały ekran telefonu...
+
+<p>W Nokii 6185/6188 wygląd testu jest inny:
+
+<p>
+<table style="border-collapse:separate;" BORDER CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td><tt><i>16:3A 32:26<br>64:18 128:21<br>168:14<br>264:0E</i></tt></td>
+</tr>
+</table>
+
+<br><a class="shref" href="#Top"><small><em>Na początek</em></small></a><br>
+
+<p><center><a href="?q=node/132">[Część 1]</a><a href="?q=node/133">[Część 2]</a><a href="?q=node/134">[Część 3]</a><a href="?q=node/135">[Część 4]</a><b>[Część 5]</b><a href="?q=node/137">[Część 6]</a><a href="?q=node/138">[Część 7]</a>
+</center>
+
+<hr size="2" noshade width="60%" align="center" style="color: #004080">

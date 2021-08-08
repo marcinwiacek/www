@@ -1,0 +1,38 @@
+﻿Title:Ryczące....
+Author:marcin
+When:01 Dec 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Ciepłe kluchy są zamiast konkretu,<br />
+i żal, że nikt nie chce tego baletu,<br />
+gdzie każdy kto coś tam próbuje,<br />
+odmowę tylko zdecydowaną widuje,</p>
+<p>zdziwka, że nikt się wokół nie kręci,<br />
+gdy każdy nieszczere widzi chęci,<br />
+jest z automatu zawsze odrzucany,<br />
+i brak szansy na starcie mu dany,</p>
+<p>albo chęci są mocne z uciekaniem,<br />
+co się czasem zwą flirtowaniem,<br />
+i prowadzenie dotąd tej sprawy,<br />
+aż każdy ma dosyć takiej zabawy,</p>
+<!--break-->
+<p>bywa i trzymanie się tych co kaleczą,<br />
+nie kochają i bawią się jak rzeczą,<br />
+i co sami działają na frontów pięć,<br />
+liczą gdzie droższa rodzina lub zięć,</p>
+<p>i latka tak sobie powolutku mijają,<br />
+gorycz dają, pustkę nią dopełniają,<br />
+a na końcu jest zdziwienie wielkie,<br />
+że z psem u boku rwanie niewielkie,</p>
+<p>a najlepsze, że najnormalniejsi,<br />
+są ci mali, drobni, słabi, najmniejsi,<br />
+a ci co atrybuty rzeczywiście mają,<br />
+gwiazdorzą lub wkoło się puszczają,</p>
+<p>nie mogąc wyjść z szoku głębokiego,<br />
+że nie przynosi to im nic udanego,<br />
+i że wszystko jest im wypożyczone,<br />
+że liczy się to co innym zrobione,</p>
+<p>ale choć nie wiem jak prawdę ukrywać,<br />
+z TVN można ją było dziś wydobywać.</p>

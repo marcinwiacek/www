@@ -1,0 +1,27 @@
+﻿Title:Report 2007-01-03
+Author:marcin
+When:03 Jan 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Some words about future...</p>
+<p><b>Gammu</b></p>
+<p>Next test release - this week/weekend. What will be next in this project, depends mainly on Michal Cihar.</p>
+<p><b>Gammu+</b></p>
+<p>I'm working on real MMS decoder (this moved from Gammu is not too good). Can anyone send me as many example MMS as possible ? (I know, I know, that there are some softwares for creating, but this is not the same...) It will be treat confidential and not published.</p>
+<p>I have started MMS viewer too (GUI already can work without phone).</p>
+<!--break-->
+<p>For now I must do such things before next test release:</p>
+<ul><li>application can make memory cache for pbk, sms/mms folders. this is already working and many operations are really fast. But API for sms/mms folders can be joined with cache for filesystem. And I must do this last thing.
+</li><li>I have already done separate reading SMS/MMS (from single folders) for Series 40 3.0, this functionality for other generations wait for making.
+</li><li>end MMS issues
+</li><li>end Series 40 3.0 pbk features
+</li></ul><p>Next release - probably next week.</p>
+<p><u>Plan</u></p>
+<ul><li>0.16.0 - stable API for SMS, reading MMS, GUI can make majority things for pbk, sms, mms, filesystem
+</li><li>0.17.0 - GUI can do pbk, calendar restore, maybe full calendar display
+</li><li>0.18.0 - API for notes, todo
+</li><li>0.19.0 (March, April ?) - starting editing things in GUI... and starting work on full Linux port
+</li></ul><p><b>life</b></p>
+<p>Many things for diploma work done. No views for work and I have poor student life. I observe, that nobody is interested in my projects now too (no such popularity, which will force MS to send me Acer laptop :-(( ).</p>
+<p>From other things: my computer was measured to 2,3 point in Vista. I will want to buy version for commercial use, when will have money (current one is from MSDNAA).</p>

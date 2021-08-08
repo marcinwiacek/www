@@ -1,0 +1,60 @@
+﻿Title:APN 2.0 czyli jak sobie ułatwiłem życie w Androidzie.... (2014)
+Author:marcin
+When:12 Jan 2014
+Taxonomy:Polski,Polski blog,Android,GSM,dobreprogramy.pl,APN
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/APN-2.0-czyli-jak-sobie-ulatwilem-zycie-w-Androidzie.,51509.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dawno, dawno temu ktoś wymyślił, że MMSy i dostęp do Internetu w sieciach komórkowych wymaga ustawień takich jak adres komputera operatora. Użytkownicy zaczęli je pracowicie przepisywać z materiałów operatorów do swoich urządzeń, czasem operator pozwalał na przesłanie ich na urządzenie SMSem (w tamtych czasach takie SMS potrafiły też tworzyć aplikacje typu Open Source, czyli nie chwaląc się np. <a href=?q=gammu>"moje" Gammu</a>).
+<!--break-->
+Nie zawsze to jednak działało i wiedza ta dalej sprawiała wrażenie tajemnej....
+
+<p>Z czasem pojawił się Android, który zawierał w pliku XML zestawy jakichś domyślnych ustawień, co częściowo załatwiło sprawę, ale też wprowadziło zamęt, bo system nie bywał zbyt często uaktualniany przez producentów.
+
+<p>Android obecnie jest na tabletach, w telefonach, w zegarkach, nawet <a href=?q=node/238>czytnikach książek</a>.... I co tu zrobić ?
+
+<p>Dawno temu pomyślałem, że na własne potrzeby poświęcę kilka nocy i zrobię prostą aplikację, która będzie w określonych momentach ustawiać to za mnie. I jeszcze rozszerzę ideę - Android ustawia APNy stosownie do kodu sieci karty SIM, aplikacja miała to robić dla kodu sieci i nazwy sieci zapisanej na karcie SIM.
+
+<p>Dane te zapisywane są w wewnętrznej bazie SQLite i nieudokumentowane....ale od czegóż jest Internet ? :)
+
+<p>Niestety wujek Gugiel z czasem wymyślił sobie, że ich zapis ma być niedostępny (od 4.0), a później od 4.2 zablokowano nawet ich odczyt....a dokładniej mówiąc jest on dostępny tylko dla aplikacji, które zostały dostarczone przez producenta (tj. aplikacji systemowych).
+
+<p>I tu dochodzimy do sedna - żeby móc coś zrobić ciekawego w nowszych urządzeniach, dalej trzeba mieć do nich pełen dostęp (żeby aplikacja była systemową czyli w /system/app, to trzeba ją albo wgrać flasherem albo mieć tzw. roota i użyć linii komend). Mówiąc inaczej:
+
+<ol>
+<li>trzeba używać aplikacji flashujących np. producenta (i wgrać paczkę plików wraz z aplikacją gdzie trzeba) lub
+<li>szukać aplikacji, które uzyskują roota poprzez luki w zabezpieczeniach (ZergRush, Cydia Impactor, Kingo Root, itd.) i użyć linii komend lub
+<li>flashować tzw. insecure kernel, dodać co potrzeba do roota, (flashować secure kernel), użyć linii komend....
+</ol>
+
+<p>W zależności od zastosowanego rozwiązania można niestety stracić gwarancję (np. wieść niesie, że dzieje się tak w Samsungach po ustawieniu flagi Knox na 0x01)
+
+<p>To jest też jedna ze słabości Androida - niestety pomimo <a href=http://code.google.com/p/android/issues/detail?id=39987>zgłoszenia problemu wujkowi Gugielowi</a> (bądź co bądź taki odczyt danych APN może być naprawdę często i gęsto przydatny) trzeba korzystać z czasem podejrzanych rozwiązań (taką sławą cieszy lub przynajmniej cieszył się się np. Kingo Root).
+
+<p><center><img src=sites/default/files/287/Screenshot_2014-01-11-23-49-59.png></center>
+
+<p>Ale nic to.... Aplikację niedawno przepisałem do wersji 2.0 i obecnie:
+
+<ul><li>pokazuje systemową bazę ustawień internetowych/MMS
+<li>domyślnie zawiera bazę dla różnych polskich operatorów (Plus, mBank mobile, T-Mobile.pl, heyah, Orange, Play, Aero2, Manta Mobile, Red Bull MOBILE, FM GROUP MOBILE, Virgin mobile, INEA)
+<li>może korzystać z bazy wbudowanej (można ją eksportować) lub zewnętrznego pliku z danymi - format taki jak pliku androidowego z dodanym parametrem op dla każdego wpisu
+<li>może ustawiać APNy ręcznie, przy starcie lub przy zmianie typu sieci (przy czym jeśli znajdzie ustawienia ze "swoją" nazwą, to ich generalnie nie zmienia przez co można je dowolnie zmienić "po swojemu" i mieć dalej włączoną aplikację)
+<li>może wyłączać Internet przez dodanie 'apndroid' na końcu nazwy APN np. gdy sieć nie jest LTE (co pozwoli kontrolować koszty np. w Play i Red Bull jeśli korzystamy z promocji 30 złotowych) - być może jest do tego jakieś API, ale ja go nie znam
+<li>dla niektórych telefonów DualSIM (np. i9192) pokazuje część danych drugiej karty SIM - więcej nie umiem odczytać, a że we wszystkich urządzeniach tego typu producenci muszą stosować swoje czasem bardzo radosne rozwiązania, to niestety aplikacja chyba na razie skończy tylko na obsłudze pierwszego SIMa tak jak SDK przykazał
+</ul>
+
+<p><center><img src=sites/default/files/287/Screenshot_2014-01-12-11-45-24.png></center>
+
+<p>Potrzebne jest niestety kilka uprawnień:
+
+<ol><li>WRITE_APN_SETTINGS - do zmiany APN w każdej wersji Androida i odczytu w Androidzie 4.2 i późniejszym (przy czym powtórzę: potrzebne jest też ustawienie jako aplikacja systemowa w wyższych wersjach Androida)
+<li>RECEIVE_BOOT_COMPLETED - żeby móc się uaktywnić po starcie systemu
+<li>READ_PHONE_STATE - odczyt danych sieci i karty SIM
+<li>WRITE_EXTERNAL_STORAGE i READ_EXTERNAL_STORAGE - zapis i odczyt pliku z danymi
+</ol>
+
+<p>I tak w kilka wieczorów dało się załatwić odwieczny problem w ok. 36 kB - mam nadzieje, że wiadomość o tym, że istnieje coś podobnego polskiego przyda się komuś (a może ktoś się <a href=?q=node/121>zdecyduje na kontakt</a> w celu zlecenia jakiejś dłubaninki lub <a href=?q=node/121>przekazania np. jakichś BitCoinów lub PeeLeNów</a>, bo nic innego tak nie motywuje do podobnego pisania) i że ten poniekąd kryptoreklamowy tekst nie będzie źle przyjęty :)
+
+<p>PS. Jedyną niedogodnością jest, że czasami system pomimo oznaczania APNu do Internetu jako domyślny nie włącza go i trzeba to robić ręcznie z menu systemowego (o podobnej operacji nie wspomnę w telefonach DualSIM - patrz jeden z punktów powyżej)
+
+<p>PS2. Jeszcze link: <a href=https://play.google.com/store/apps/details?id=com.mwiacek.apn&hl=pl>APN</a>

@@ -1,0 +1,354 @@
+﻿Title:100 reasons why you shouldn&#039;t touch Vista (2007-2009)
+Author:marcin
+When:10 Mar 2009
+Taxonomy:English,Windows,Vista,x86,English article,OS
+
+<p>This document contains summary of various disadvantages available in Windows Vista collected from various sources and own experiences. I hope, that this page become popular and somebody from MS decide about eliminating some of described here issues in next Windows version.</p>
+<p>Although for some users this system can be good and <b><u>although author likes some new features inside</u></b>, generally <u><b><font color="red">doesn't recommend this system</font></b></u> now. </p>
+<!--break-->
+<p>(THIS IS WORK IN PROGRESS; IT WILL BE UPDATED AS LONG AS POSSIBLE; IF YOU WANT, PLEASE ADD OWN POINTS; it can contains some own thoughts too)</p>
+<p>Currently you can read <a href="?q=node/7">Why you should not touch Windows 6.x and Linux too</a>...</p>
+<h1>Reason 1 – sometimes has got shorter support than Windows XP</h1>
+<p>Microsoft provides <a href="http://support.microsoft.com/lifecycle/search/">http://support.microsoft.com/lifecycle/search/</a> page for checking, how long will support product. Interesting thing:</p>
+<p>Windows XP (both Home and Professional) released 12/31/2001 will have features updates/fixes up to 4/14/2009 and security fixes up to 4/8/2014 (according to <a href="http://support.microsoft.com/lifecycle/?p1=3221">some MS pages</a>), but 25 Jun 2008 Microsoft informed, that first term (features updates/fixes) will be moved into 4/8/2014.</p>
+<p>Windows Vista Home Basic and Ultimate released 1/25/2007 will have features updates/fixes up to 4/10/2012</p>
+<p>Have you notified ? Security fixes for all two XP releases will be done longer than for Vista. Bug on Microsoft page or reality ?</p>
+<p>Windows XP death time was moved few times. Currently there is even <a href="http://www.save-xp.com" save="" xp="" petition=""> in Internet and Gartner &amp; The Boston Group clear say to Microsoft, that XP should be available longer (see </a><a href="http://www.pcworld.pl/news/139660.html">note in Polish language</a>)... Current term: <a href="http://www.tgdaily.com/content/view/40676/140/">30 May 2009</a></p>
+<h1>Reason 2 – it's connected with many promises only</h1>
+<ul><li>WinFS – not available
+</li><li>Aero – looks worse than Beryl from 1999
+</li><li>Express Upgrade – users were waiting for updates very, very long and although problem was made by 3rd party company this wasn't too nice
+</li><li>faster system startup - not visible
+</li><li>less restarts after installing drivers and/or updates - not visible
+</li><li>Ultimate Extras (special bonus for Vista Ultimate users) – very delayed and only few available up to this moment (see <a href="http://windowsultimate.com/">http://windowsultimate.com/</a>)
+</li><li>performance improvements with Service Pack 1 – probably not visible. There are currently even <a href="http://www.winextra.com/2007/12/15/vista-copymove-the-service-pack-1-rc1-follow-up/">voices</a>, if it fix such bugs like slow files copying (known and discussed many times) or not...
+</li></ul><h1>Reason 3 – bigger hardware requirements even than with systems for servers</h1>
+<table border="1"><tr><td></td>
+<td>Windows XP</td>
+<td>Windows Vista (minimal/recommended)</td>
+<td>Windows HPC Server 2008</td>
+</tr><tr><td>CPU</td>
+<td>32/64 bit, 300Mhz</td>
+<td>32/64 bit, 800Mhz/1Ghz</td>
+<td></td>
+</tr><tr><td>RAM</td>
+<td>128MB</td>
+<td>512MB/1024MB</td>
+<td>512MB</td>
+</tr><tr><td>HDD</td>
+<td>1,5GB</td>
+<td>20GB/40GB with 15GB free space</td>
+<td></td>
+</tr></table><p>You can of course, that this is cost of new features. But from the other side - should OS take majority of system resources or should manage them and give to user applications ?</p>
+<p>Another issue with it - many users want notebooks and simply don't have money for something better for example with dedicated graphic. On such hardware you can't have very often good speed at all...and in Vista. The choice is clear: XP or Linux.</p>
+<p>Happily for many people Vista requirements were too big and Microsoft promised to DECREASE requirements in next Windows version (<a href="http://www.istartedsomething.com/20071019/eric-talk-demo-windows-7-minwin/">MinWin kernel presentation</a>) available in 2010.</p>
+<p>You should also remember, that KDE 4.x should use less RAM than KDE 3.x...</p>
+<h1>Reason 4 – you must learn everything from scratch</h1>
+<p>Many things are in different places. If you learned them during 12 years (Windows 95 – Windows XP), you have to forget about it.</p>
+<h1>Reason 5 – DRM</h1>
+<p>Although consumers and distributors don't like DRM protection (and I speak here about people, who don't think about sharing it without adequate licenses), Windows Vista contains such protections done on lowest possible level. And although Microsoft writes, that it doesn't affect user, there must be something with it – for example in Poland Vista refused playing content from legal DVD added to PC World April 2007. And it works even if you don't play any protected content...</p>
+<p>More about DRM in this system:</p>
+<p>* <a href="http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html">http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html</a><br />
+* <a href="http://badvista.fsf.org/">http://badvista.fsf.org/</a></p>
+<p>Please note, that sellers don't want it (there were such voices for example in UK), customers don't want it (online shops selling mp3 increased a lot sales after removing DRM from them !), even Steve Jobs and Jesper Johansson (the second one was MS security manager) don't want it.</p>
+<p>See also <a href="http://msinfluentials.com/blogs/jesper/archive/2007/09/24/blue-screen-of-drm-death-or-the-death-of-windows-media-center.aspx">sentence from Jesper's blog</a>: "How many lost sales of Microsoft's Media Center software and Windows Vista has it caused because the DRM sub-system randomly decides that you must be a criminal?". <b>In my opinion DRM is MAIN reason too which makes, that many users don't want to switch to this platform.</b></p>
+<p>And <a href="http://www.forbes.com/security/2007/02/10/microsoft-vista-drm-tech-security-cz_bs_0212vista.html">another one</a>: "Windows Vista includes an array of "features" that you don't want. These features will make your computer less reliable and less secure. They'll make your computer less stable and run slower. They will cause technical support problems."</p>
+<p>Another analysis: <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9005047&amp;pageNumber=1">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;...</a></p>
+<p>And another article, which tries to show, that visualization limits are put into license in low Vista versions, because visualization can easy break almost all DRM protections: <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9025466&amp;pageNumber=1">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;...</a> (update: in January 2008 Microsoft removed this limit)</p>
+<p>Remember, that playing DRM protected media in Vista needs supporting it hardware too...</p>
+<p>I'm thinking now - does DRM make, that Vista in my PC installed as "real system" work much slower than Server 2008 RC1 installed in VMWare ?</p>
+<p>From the other hand: have you notified, that "My computer" (like in XP) is not anymore "my" in Vista ;-) ?</p>
+<p>It looks, that SP1 will be even more restrictive: <a href="http://blogs.pcworld.com/staffblog/archives/006322.html">http://blogs.pcworld.com/staffblog/archives/006322.html</a></p>
+<p>...and how does it work: <a href="http://www.news.com/8301-10784_3-9943631-7.html">http://www.news.com/8301-10784_3-9943631-7.html</a></p>
+<h1>Reason 6 – NTFS streams</h1>
+<p>if you see file on HDD (NTFS partitions), you should know, that it can contains additional streams... In Vista you still don't have clear information about it. Additional streams can contain hidden data.</p>
+<h1>Reason 7 – because it doesn't have support for some popular formats</h1>
+<p>Vista RTM doesn't have support for example for HLP format, you have to download addins...</p>
+<h1>Reason 8 – contains many useless parts</h1>
+<ul><li>Have you notified, that it create more folders on your hard disk ? C:\boot, C:\Documents and Settings, C:\Program Files, C:\ProgramData, C:\Users, C:\Windows, C:\$Recycle.BIN (this one instead of C:\Recycler known from XP), C:\System Volume Information
+</li><li>Have you notified, that it still contains many tools, which aren't used by 99,9% of people: notepad, wordpad, paint, some MS-DOS files. They're not used (like debug) or simply replaced by more extended versions. You can't delete them from system without additional software. And where are located ? in Windows system folders, which are searched many times by system (and more files = more time for search)
+</li><li>do you have notebook ? if yes, why does it put thousands of unnecessary drivers into HDD in situation, when they will be never used ?
+</li><li>why does it create tons of log ? (see size of logs from disk cleanup and error reporting)
+</li></ul><p><i>(2 Dec 2007) [Note from your reader: EXCUSE ME?! Tools that aren't used by 99.9% of people: notepad?! MS-DOS files? Hehe, I think these are one of the most often used tools (unless you play games and surf the web exclusively of course :) (and even then you'd need tools like ping or ipconfig -- both DOS tools -- to troubleshoot your network). No scientific research had been done on this but IMHO you gave very wrong examples.]</i></p>
+<h1>Reason 9 – problems with applications compatibility</h1>
+<p>Do you have older Microsoft Office or one of many older applications ? You can have problems. And although there were many fixes done, compatibility isn't always excellent.</p>
+<h1>Reason 10 – contains new formats</h1>
+<p>Microsoft tries to create new own formats:</p>
+<ul><li>WIM for deploying
+</li><li>XPS as PDF replacement
+</li></ul><p>Wasn't better to use earlier created ? And why WIM support wasn't built in the system "from the box" ?</p>
+<h1>Reason 11 – UAC and other "security" functions</h1>
+<p>Microsoft started to force users to work on users (not admin) account. Unfortunately, after few minutes user wants to disable it, because it makes any work uncomfortable. </p>
+<p>Do you want to enable network connection from it ? Do you want to force Task Manager to show processes from all users ? All this requires user reaction for system prompt... How many users will disable it as fast as possible ?</p>
+<p>Additionally, software installers can be run with administrator privileges without any problems...</p>
+<p>More about good and bad sides of it: <a href="http://theinvisiblethings.blogspot.com/2007/02/running-vista-every-day.html">http://theinvisiblethings.blogspot.com/2007/02/running-vista-every-day.html</a> . You should remember about words <a href="http://arstechnica.com/news.ars/post/20080411-vistas-uac-security-prompt-was-designed-to-annoy-you.html">words "The reason we put UAC into the platform was to annoy users. I'm serious,"</a> too... Even Apple used it in [<a href="http://www.youtube.com/watch?v=VKM1cAtAdtQ">http://www.youtube.com/watch?v=VKM1cAtAdtQ</a> own Get a Mac Ad: "Cancel or Allow?" advertisement].</p>
+<p>Please note, that you can work in limited accounts in XP too and make it much more comfortable...</p>
+<p>Vista won't be probably more secure than XP and there is another proof for it: <a href="http://www.betanews.com/article/Microsoft_acknowledges_Vista_kernel_elevation_vulnerability/1197650616">http://www.betanews.com/article/Microsoft_acknowledges_Vista_kernel_elev...</a> And another one: <a href="http://www.betanews.com/article/Privilege_escalation_vulnerability_affects_Windows_Vista_SP1_XP/1208557846">http://www.betanews.com/article/Privilege_escalation_vulnerability_affec...</a></p>
+<p><b>And the most important proof, that something is very wrong here:</b> <a href="http://www.neowin.net/news/main/08/08/08/vista39s-security-rendered-completely-useless-by-new-exploit">http://www.neowin.net/news/main/08/08/08/vista39s-security-rendered-comp...</a></p>
+<h1>Reason 12 – even own manufacturer can't find any useful features inside it</h1>
+<p>Please look into <a href="http://www.microsoft.com/windows/products/windowsvista/100reasons.mspx">http://www.microsoft.com/windows/products/windowsvista/100reasons.mspx</a> : there are advertised such "wow" features like file sharing or RSS channels...</p>
+<h1>Reason 13 – less green</h1>
+<ul><li>DRM + other stuff = bigger CPU usage = bigger heat &amp; power usage = bigger bills for you
+</li><li>new mode "Hybrid sleep" - word sleep can make feeling, that computer is disabled (when it fact it still takes energy)
+</li><li>new boxes are made from plastic (instead of paper)
+</li><li>many devices must be replaced because of DRM and/or lack of drivers only
+</li><li>it makes feeling in users, that flash memories will increase a lot performance. They have limited number of write cycles. If more users will use them, we will have more scrap-heaps....
+</li></ul><p>There are of course voices, that <a href="http://www.infotech.com/Samples/Info-Tech-XP_vs._Vista_Consider_the_Power_Savings.pdf">Vista is better here than XP</a>, but they show only, that system from box is differently configured. Additionally, these voices are visible few days after releasing SP1 for Vista and are connected with marketing only - <a href="http://blog.foreignpolicy.com/node/2281">issue was known earlier</a> and Microsoft could do something with this...now wants to increase Vista sales only, nothing more.</p>
+<h1>Reason 14 – more editions</h1>
+<p><a href="http://www.microsoft.com/about/legal/useterms/default.aspx">Page with license info</a> speak about 14 versions: Starter, Starter N, Home Basic, Home Basic K, Home Basic KN, Home Basic N, Home Premium, Home Premium K, Business, Business K, Business KN, Business N, Ultimate, Ultimate K.</p>
+<p>You have also Vista Enterprise version</p>
+<p>With XP you had definitely less versions: Starter, Home, Home N, Professional, Professional N, Media Center, Media Center N</p>
+<p>Add 32/64 releases, OEM, Box, Upgrade, various education and commercial licenses...</p>
+<p>People don't understand it. And because of you can read for example about "Microsoft Vista Premium" in newspapers... It was used by <a href="http://www.youtube.com/watch?v=7RsOIdF_DdY&amp;feature=related">Steve Jobs from Apple during presentation of Mac OS X (10.5) in San Francisco</a> and <a href="http://www.youtube.com/watch?v=PxLgBx3W9Ss">in Apple "Apple Get a Mac Ad: Choose a Vista" advertisement</a> too.</p>
+<h1>Reason 15 -  less functionality than in Windows XP</h1>
+<p>many useful details were removed:</p>
+<ul><li>you can't force system for asking user, what should be done on pressing Power button
+</li><li>you can't easy decide about name of system folder
+</li><li>you can't decide about settings and look on drive defragmentation progress (oh yes, Microsoft will give you ability of selecting partitions for defragmenting with SP1 and you have somewhere hidden command line version ;-))
+</li><li>no battery info (technology + serial number)
+</li><li>default Vista doesn't show buttons for disabling/hibernating/closing and so on (it's enough to click) in "turn off computer" window (like XP), but needs selecting option from list and clicking OK
+</li><li>Win32 console programs can't run in full screen mode (example: FAR)
+</li></ul><p>More: <a href="http://en.wikipedia.org/wiki/Features_removed_from_Windows_Vista">http://en.wikipedia.org/wiki/Features_removed_from_Windows_Vista</a></p>
+<h1>Reason 16 – customers are forced to using it with dirty tricks</h1>
+<ul><li>new computers are sometimes sold with it only and there are problems with XP drivers for them (happily manufacturers partially resign from it)
+</li><li>DirectX 10 – it isn't available for Windows XP, there are not too many games for it and these, which are advertised as requiring DirectX 10 can be set for running with XP, but after some hacks (like Crysis demo)
+</li><li>SP3 for XP is moved and moved from term to term... Currently it was canceled because of bug connected with "Microsoft Dynamics Retail Management System". In the same time Vista SP1 is affected too and it wasn't canceled...
+</li><li>Vista Capable logo...
+</li><li>speaking, that Vista is more "green" than XP
+</li></ul><h1>Reason 17 – fatal marketing</h1>
+<ul><li>System name „Longhorn” was changed to „VISTA” (known currently as Viruses Intruders Spyware Trojans and Adware)
+</li><li>„Vista Capable” isn't too clear (wasn't better naming it "Vista Basic Capable")... Update: <a href="http://seattlepi.nwsource.com/business/350667_msftvista09.html">it looks, that Microsoft knew, that it can misled customers</a>.
+</li><li>2 start times (one for business, one for private)
+</li><li>Express Upgrade program - you had to pay additional money for Vista DVD and you can have problems, when you will decide to back from Vista to XP (license keys issues)
+</li><li>some shops make very funny promotions for some versions - for example they decrease price 5 USD, when you will buy no-popular 64 bit Vista with non-popular Office for home use.
+</li><li>there were advertised such facts like this, that creating some system sounds required one and half year (see <a href="http://www.msnbc.msn.com/id/15656246/">http://www.msnbc.msn.com/id/15656246/</a>). In my opinion it showed clear, how big failure it was...
+</li><li>system was advertised with "wow"...
+</li><li>in 2005 and 2006 there were many money put into advertising Windows XP ("Start Something"). More: <a href="http://www.microsoft-watch.com/content/vista/what_went_wrong_with_windows_vista.html">http://www.microsoft-watch.com/content/vista/what_went_wrong_with_window...</a>
+</li><li><a href="http://www.youtube.com/profile?user=WindowsVistaAndLive">http://www.youtube.com/profile?user=WindowsVistaAndLive</a> - look into people comments ;-)
+</li><li><a href="http://www.withinwindows.com/?p=35">http://www.withinwindows.com/?p=35</a>
+</li><li>SP1 is first available for some "special" customers (MSDN subscribers and some other), later for "normal" users...
+</li><li>Mojave experiment: <a href="http://news.cnet.com/8301-13860_3-9998336-56.html">http://news.cnet.com/8301-13860_3-9998336-56.html</a>
+</li><li>Microsoft is giving more and more money for devertisement, not for development: <a href="http://www.betanews.com/article/Vistas_image_problem_personified/1219344717">http://www.betanews.com/article/Vistas_image_problem_personified/1219344717</a> . It was notified by Apple too ("Get a Mac - Bean Counter"): <a href="http://www.youtube.com/watch?v=mjo629JpTyE">http://www.youtube.com/watch?v=mjo629JpTyE</a>
+</li></ul><p>One note: do you know, that Windows Server 2008 RTM is marked as system with SP1 too ? <a href="http://blogs.msdn.com/iainmcdonald/archive/2008/02/15/windows-server-2008-is-called-sp1-adventures-in-doing-things-right.aspx">Microsoft people say, that this is because it's sharing source with Vista</a>, but it looks to be another example of marketing only...</p>
+<h1>Reason 18 – problems with drivers</h1>
+<ul><li>Manufacturers have problems with creating new drivers for it (for example Creative has got problems with giving all effects with Augidy cards because Microsoft closed partially direct access to hardware)
+</li><li>many notebook manufactures don't update drivers on their pages and users are forced to use old, buggy versions.
+</li><li>64 bit version doesn't allow for unsigned drivers (this is good because of stability, but also very bad)
+</li></ul><p>Update: <a href="http://www.eweek.com/index2.php?option=content&amp;task=view&amp;id=46153&amp;pop=1&amp;hide_ads=1&amp;page=0&amp;hide_js=1">SP1 will need probably drivers update too</a>...</p>
+<h1>Reason 19 – performance issues</h1>
+<p>System is much slower in many tasks than XP. This is partially result of DRM existence... But not only - enabling network card (few seconds), displaying icons in Control Panel (few seconds)...and it was checked on quite fast PC.</p>
+<h1>Reason 20 – new restrictions in license</h1>
+<ul><li>users of cheap versions (Home Basic, Home Premium) wasn't able to use legally their system in virtual environments (VMWare, Virtual PC and so on). Was this restriction added, because visualization can easy break DRM ? (see <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9025466&amp;pageNumber=1">full story</a>). It was removed in January 2008...
+</li><li>much more about activation
+</li><li>much more about sending user data to Microsoft
+</li></ul><p>....</p>
+<p>Please note, that Vista licence agreements were changed few times - for box versions, <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9013638">for Vista Anytime Upgrade</a> and so on...</p>
+<h1>Reason 21 - contains many new totally untested parts</h1>
+<p>Example: although new network stack can be more useful in some situations, it's totally NEW</p>
+<h1>Reason 22 - you can't easy edit boot menu</h1>
+<p>Yes, in Windows XP you had simple text file, in new system you need to use command line tool with long options...</p>
+<h1>Reason 23 - more "spying"</h1>
+<ul><li>New license gives example of much more services, which can send various informations to Microsoft. And still you don't have 100% full knowledge, what is exchanged with Windows Update servers - there is used SSH (you can't sniff it) and you don't have clear info, which servers are safe (for example, where should you open firewall).
+</li><li>this point can be a little bit controversial, but...BitLocker Drive Encryption can use TPM module. Some companies can decide about obligation of using it. And it can make also, that people working inside will be totally 100% spyed (when TPM is enabled, with some additional software can be useful for it).
+</li></ul><p>How far company can go in collecting info about users ? In 2007 Microsoft announced <a href="http://wfp.microsoft.com/">"Windows Feedback Program"</a>, where people could get free software for giving all possible informations about their activity. It required signing by user, but... You can read very interesting <a href="http://yro.slashdot.org/article.pl?sid=07/12/11/238244">comments about it on slashdot</a>. Guess, why program was called "Vista Big Brother" in some www sites ? From the other side - why Microsoft is observing American users' behaviors only ?</p>
+<h1>Reason 24 - it can't sometimes cooperate with XP</h1>
+<ul><li>yes, it deletes Restore points for XP. And although there are some tricky solutions, it shouldn't touch files from other OS.
+</li><li>chkdsk from Windows XP can display errors for NTFS created in Vista. It shouldn't rather happen especially that according to various sources NTFS version in Vista and XP is the same...
+</li><li>you can not see computers with XP in network neighborhood
+</li></ul><h1>Reason 25 - it still uses unsafe solutions</h1>
+<p>Internet Explorer and some programs (which aren't the safest one) are still very integrated with system and can't be replaced. Example: even if you install own www browse, system tries to use Internet Explorer in some places (for example Windows Update site).</p>
+<h1>Reason 26 - it runs by default many unnecessary things</h1>
+<p>Do you have infrared USB dongle ? so, you will have all the time enabled service connected with it (even, if your dongle will be disconnected). The same for example for Wifi, printer, .... </p>
+<p>When it will end ? if some things need services, they should stop them, when they're not necessary. Without it each amount of RAM will be "too small"</p>
+<p>And additional note: can't be at least partially forced by Microsoft, that many drivers won't need some additional tools runned as separate processes visible in Task Manager as application ? (in other words: many manufacturers make drivers working as normal applications - can't be it prohibited during certification ?)</p>
+<h1>Reason 27 - more technologies for prefetching and similar things</h1>
+<p>another question for Microsoft: instead of developing various caches and speaking to people, that they must use for it big flash memories (which need some energy) maybe it will be better to optimalise system ? currently it uses one big registry and makes many sometimes unnecessary things. Remove it and part of prefetchers won't be required.</p>
+<p>...the same with various tools for making snapshots. if you will separate more runned programs and they won't be able to damage each other (such solutions like sandboxes or wirtualisation) and system, it won't be required to use HDD space and CPU cycles for (sometimes so many) system backups.</p>
+<h1>Reason 28 - it can increase piracy</h1>
+<p>What do some people, who bought Vista with PC and can't give it back ? Well, one of solution is downloading pirated XP and using it without various updates... Unfortunately, people don't know, that can legally use XP INSTEAD of Vista Business/Ultimate (there is such downgrade option even in OEM license, it doesn't work with Home versions).</p>
+<h1>Reason 29 - this is temporary system</h1>
+<p>When you look into history, almost each third MS system was good. Unfortunately, Vista had to be this bad...</p>
+<ul><li>Win 3.0 - not too good, Win 3.1 and 3.11 - excellent
+</li><li>Win 95 - excellent, Win 98 - not too good, Win 98 SE - much better, Win ME - :-(
+</li><li>Win NT 4 - good, Win 2000 - some issues, Win XP - excellent, Vista - :-(, future Windows 7 - excellent ;-) ?
+</li></ul><h1>Reason 30 - it can do some tasks without user knowledge</h1>
+<p>Well, as some users notified, there are automatically updated for example some Windows Update files (without user agreement). This happens in XP too, but... See <a href="http://blogs.technet.com/mu/archive/2007/09/13/how-windows-update-keeps-itself-up-to-date.aspx">MS explanation</a>. Wasn't it better to write to user info: system will update Windows Update libraries now ?</p>
+<h1>Reason 31 - activation and piracy protections can make more problems...</h1>
+<ul><li>Yes, <a href="http://apcmag.com/vista_activation">according to James Bannan</a> system can ask for activation after updating drivers...
+</li><li>system contains Reduced Functionality Mode (RFM) - when is found as not genuine, user can't work with it. In SP1 it will be happily limited...maybe because <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9032798">Microsoft had some problems with Genuine Advantage servers and some users even loose their access to their own legally bought systems</a>.
+</li></ul><p>Well, this is comment from <a href="http://www.pcworld.pl/news/133225.html">one of Polish pages</a> (my own very free translation): Apple and Linuxes invest money in improving system and creating many interesting adds. MS created currently the best protected against robbery calculator. System, where half of code are various protections against frauding MS and multimedia companies...</p>
+<p>(update 22 Jul 2008): there were problems with activation again. Very interesting is, that they were visible for WIndows XP and not for Vista. I don't want to create conspiracy theories, but... <a href="http://arstechnica.com/news.ars/post/20080718-microsofts-wga-and-oga-servers-are-down-again.html">http://arstechnica.com/news.ars/post/20080718-microsofts-wga-and-oga-ser...</a></p>
+<h1>Reason 32 - no full support from manufacturers</h1>
+<p>Unfortunately, some manufacturers didn't prepare all tools for Vista yet or their installation needs some tricks...</p>
+<h1>Reason 33 - system was developed few years and development was restarted</h1>
+<p>As you know, Vista was created few years. During it some ideas were put and some cut. There was no clear system vision...but customers had informations about exciting things. Additionally, in some moment developers had to hurry up and although system was available for wide testing we have what we have (many people think, that it came on market in beta state)...</p>
+<p>Please note, that there were tries of making own Vista version (called Longhorn Reloaded) from one of first Longhborn versions 6.0.4074 from 2004 (sic !). They had simply many better solutions than current final Vista.</p>
+<p>I think, that <a href="http://moishelettvin.blogspot.com/2006/11/windows-shutdown-crapfest.html">this blog</a> can also explain, why it went to so long and didn't give too many effects...</p>
+<h1>Reason 34 - no new exciting features</h1>
+<p>Majority of things can be added to XP or is in standard XP installation:</p>
+<ul><li>working on non-admin account
+</li><li>themes and sidebar
+</li><li>files encryption
+</li><li>.Net libraries
+</li></ul><p>....</p>
+<p>Please note, that some things from Vista must be added to XP too (see XP SP3 features).</p>
+<p>As summary to this point I will also add note about svchost.exe in Task Manager - this exe files is used for running some other system processes. Normal user will see this and in fact won't know, which processed used. Wasn't better to add Process Monitor or something, which will show it clear ?</p>
+<h1>Reason 35 - it has problems, where XP don't have</h1>
+<p>Example: Microsoft created patch for improving notebooks performance and compatibility. After applying it devices sometimes don't disable during hibernation...</p>
+<h1>Reason 36 - there are still not to many users of this system</h1>
+<ul><li>Vista is advertised as very secure system and this is in big part the truth. But the truth is, that there are not too many users of it (Microsoft speaks about millions of copies, but in big part these are OEMs, which are currently in distributors hands). It means, that hackers are not interested in hacking it very much (words from Symantec) and we don't know yet, how many real security flaws are inside... Additionally, less users won't find all possible bugs very fast and MS can give lower priority for fixing and improving some functions...
+</li><li>Microsoft is speaking, that new piracy protections made, that there are less of non-genuine Vista copies. My comment: maybe people don't want new Vista "quality" even for free ?
+</li><li><b>we don't know, how many Vista Business/Ultimate users (OEM versions) used right for downgrading it to XP </b> (more about this possibility <a href="http://download.microsoft.com/download/5/f/4/5f4c83d3-833e-4f11-8cbd-699b0c164182/royaltyoemreferencesheet.pdf">here</a>). They can be visible in MS statistics as Vista users... Some users are even <a href="http://dotnet.org.za/codingsanity/archive/2007/12/14/review-windows-xp.aspx">describing, what profits downgrade gave for them</a> (excellent text !). And Microsoft had page <a href="http://www.microsoft.com/poland/msp/recepta_na_sukces/kupic_viste_dla_xp.mspx">http://www.microsoft.com/poland/msp/recepta_na_sukces/kupic_viste_dla_xp...</a> (in free translation: buying Vista for XP)
+</li><li>Microsoft gives many free copies of Vista to people. Example - bug testers in 2006 received it, when had submitted bug. From one hand this is very good, from the second - maybe somebody in MS knew, that quality isn't the best and people won't buy this product ?
+</li><li>is difficult to say, how much this is true, but Gartner in his report warns about skipping Vista ("Don't Skip Windows Vista Entirely" report). More: <a href="http://news.zdnet.co.uk/software/0,1000000121,39291367,00.htm">http://news.zdnet.co.uk/software/0,1000000121,39291367,00.htm</a>. As you see, it's notified and clear, how many (business) users don't want Vista
+</li><li>more and more organizations are speaking "No" to Vista. See example of UK education agency: <a href="http://arstechnica.com/news.ars/post/20080111-uk-education-agency-says-no-to-vista-office-2007.html">http://arstechnica.com/news.ars/post/20080111-uk-education-agency-says-n...</a>
+</li><li>more and more companies say "no" to Vista. Example: General Motors will not buy it, Alaska Airlines buy it only because it allows for downgrading to XP
+</li></ul><p>Maybe it would be good to give users of XP (OEM versions) possibility of cheap upgrading to Vista (cheaper than buying new OEM) ?</p>
+<p>And some reports confirming, that people are not using Vista too much: <a href="http://blogs.pcworld.com/techlog/archives/006130.html">http://blogs.pcworld.com/techlog/archives/006130.html</a></p>
+<p>(update 22 Jul 2008): maybe numbers of sold licenses are really too high: <a href="http://www.tgdaily.com/content/view/38485/118/">http://www.tgdaily.com/content/view/38485/118/</a></p>
+<h1>Reason 37 - ReadyBoost</h1>
+<p>Well, I decided to create separate point. This is technology, which is using flash memories to increase  performance. They must give big transfer speeds and be connected over USB 2.0. Independed tests showed, that this technology doesn't big very big performance boost, but sometimes even decreased it (something like with hybrid HDD). </p>
+<p>And remember, that they have limited number of write cycles - how fast they must be replaced, when you work with your PC all the time ? Isn't better buying more RAM instead ?</p>
+<p>Isn't wasting money creating such feature ? Or maybe the main target for it is creating new market only ?</p>
+<h1>Reason 38 - no access for external developers</h1>
+<p>There is Kernel Patch technology in 64-bit version. External developers don't have access to kernel now (it can be useful for antyvirus software), maybe will have it with SP1.</p>
+<h1>Reason 39 - Service Pack marketing</h1>
+<p>Microsoft many times was speaking, that users shouldn't wait anymore for first Service Pack. If yes (and this is set of updates available via Windows Update service only), why does it need so many tests ? </p>
+<p>The answer is simple - it gives some totally new things (like new kernel) and Microsoft's words aren't true....</p>
+<h1>Reason 40 - it can cost more</h1>
+<p>It will be controversial, but ... compare prices of XP Professional BOX and Vista Ultimate BOX... From one hand you can say, that this is because, Vista has got more features. But from the second hand - will another OS from Microsoft for home users cost 10000 USD ?</p>
+<h1>Reason 41 - it won't be codebase for some current/new MS solutions</h1>
+<p>System for OLPC ? Based on XP. </p>
+<p>Windows Home Server ? Based on Windows 2003 SP2 (the same generation with XP SP2)</p>
+<h1>Reason 42 - system interface is not coherent</h1>
+<p>Enter into Fonts inside Control Panel. Enter "install new font". If Vista is such modern system, why does it contain such horrible and old looking windows ?</p>
+<p>More examples: <a href="http://www.windows7taskforce.com/sort/latest">http://www.windows7taskforce.com/sort/latest</a></p>
+<h1>Reason 43 - it's given on DVD</h1>
+<p>Well, some people would like to have ability of installing it from CD. It's a little difficult as all available on market versions by default are on DVD. From the other hand: why didn't Microsoft integrate 32 bit and 64 bit version on one DVD (and of course ordering new DVD means paying new money for user) ?</p>
+<h1>Reason 44 - dropped or decreased support for various older standards</h1>
+<p>APM, MPS, PNPBIOS support has been removed. If you have PC, which doesn't have ACPI, you can't use it.</p>
+<p>ISAPnP support has been limited.</p>
+<p>More: <a href="http://en.wikipedia.org/wiki/Features_removed_from_Windows_Vista">http://en.wikipedia.org/wiki/Features_removed_from_Windows_Vista</a></p>
+<h1>Reason 45 - it increases network traffic</h1>
+<p>SP2 standalone version for Windows XP is about 270MB size big. SP3 RC1 standalone version for Windows XP is about 340MB big.</p>
+<p>SP1 RC 32-bit standalone version for Vista is about 435MB or 550MB big (it contain many language versions inside). If you have slow network connection or pay your provider for size of downloaded data, then...</p>
+<h1>Reason 46 - accepting it would make, that next Windows version will be worse</h1>
+<p>Yes - if people will decide, that they like Vista, next Windows version would be created with the same targets:</p>
+<ul><li>broken compatibility
+</li><li>bigger hardware requirements
+</li><li>more solutions decreasing user privacy and rights
+</li></ul><h1>Reason 47 - it extends years old solutions</h1>
+<p>Microsoft is working on <a href="http://research.microsoft.com/os/singularity/">Singularity</a>. According on report from 2005 "creating and starting process" needs in this solution 300,000 cycles, in XP SP2 5,376,000, in Vista probably more. </p>
+<p>Does it have sense extending current platform ? Wasn't better to take Singularity solutions + add ability of running Windows applications in totally separated sandboxes (or virtual machines) ?</p>
+<p>Please note, that Microsoft added symbolic links to NTFS in Vista. Maybe will finally discover other solutions known from Unixes...</p>
+<p>I like very much comment from <a href="http://www.istartedsomething.com/20071019/eric-talk-demo-windows-7-minwin/">here</a>: "The first thing Microsoft needs to do is separate Windows Legacy from the next Windows Operating system. Simply build a virtual machine into the new OS, and leverage the power of new hardware to get perfect yet optional compatibility. And include a free VM optimised version of XP as an image file. Refund all the Vista purchases and apologize profusely.". In other words: there must be proposed something new instead of new elements to current architecture...</p>
+<p>Another interesting document is report from Gartner: <a href="http://www.geeksaresexy.net/2008/04/11/microsoft-windows-about-to-collapse/">http://www.geeksaresexy.net/2008/04/11/microsoft-windows-about-to-collapse/</a></p>
+<h1>Reason 48 - you can't have directly IE6 inside</h1>
+<p>Microsoft made big mistake, that stopped extending IE6 for years. It's in <a href="http://www.pcworld.com/article/id,125772-page,3-c,techindustrytrends/article.html">list of worst products</a>, but it is still standard. Users are sometimes forced to stay with it because of applications and it stops progress. Currently company has got problem with promoting IE7 (there was even taken out checking Windows license from it to promote it)...</p>
+<p>For Vista it's proposed installing <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&amp;DisplayLang=en">virtual machine with IE6 inside</a>. It needs resources and downloading it from time to time. Wasn't better making IE separate application and giving people ability of using it with other versions ?</p>
+<h1>Reason 49 - Windows Presentation Foundation</h1>
+<p>Vista contains WPF as new platform for building applications. If it is so great, why do we have after year 16 apps (see <a href="http://blogs.msdn.com/tims/archive/tags/portfolio/default.aspx">here</a>) ? </p>
+<p>Maybe it doesn't give so many improvements and is so slow, that nobody wants it ? We have next platform. More source (more space, more RAM usage) = more possible bugs (more patches) = need of separating MS programmers time for more projects</p>
+<h1>Reason 50 - smaller functionality of built-in tools</h1>
+<p>Example - removed any DOC support in WordPad, no diagnostic in DirectX Diagnostic Tool</p>
+<p>More: <a href="http://en.wikipedia.org/wiki/Features_removed_from_Windows_Vista">http://en.wikipedia.org/wiki/Features_removed_from_Windows_Vista</a></p>
+<h1>Reason 51 - Aero can not give anything to you</h1>
+<p>If you decide to have windows look like in older Windows versions (for example because of fonts), you loose all new things including Flip 3D (Windows Key+Tab), Windows preview on TaskBar and transparency. In other words: you can't control these things separately and enable/disable with any theme...</p>
+<h1>Reason 52 - you can't easy free HDD space used by updates</h1>
+<p>In Windows XP it wasn't elegant, but easy - you deleted $NTsomething directory from Windows directory. In Vista you have WinSXS directory. But how could you find correct directory with correct file ?</p>
+<h1>Reason 53 - it enables by default IPv6 support and it can make new security issues</h1>
+<p><a href="http://www.pcworld.com/businesscenter/article/140387/microsoft_vistas_ipv6_raises_new_security_doncerns.html">http://www.pcworld.com/businesscenter/article/140387/microsoft_vistas_ip...</a></p>
+<h1>Reason 54 - it needs sometimes BIOS update</h1>
+<p>In some notebooks it's required to update BIOS to have working brightness control. Some users are very afraid of it, in companies it can need IT support help. Additionally, if something will go wrong, device can need service support in worst case (and user will have probably pay for it).</p>
+<h1>Reason 55 - still in beta state ?</h1>
+<p>I think, that one fact will show clear, that this is still not mature solution - in many places (including <a href="http://windowsvistablog.com/blogs/windowsvista/default.aspx">official blog</a>) you have information about patches even if they are in beta state. In other words: it's maybe better to announce them and give improvements to people than wait and release as stable solutions...</p>
+<p>Even Steve Baller notified it: <a href="http://www.theregister.co.uk/2008/04/18/ballmer_vista_incomplete/">http://www.theregister.co.uk/2008/04/18/ballmer_vista_incomplete/</a> (Vista was "a work in progress")</p>
+<h1>Reason 56 - 32 bit version won't give you more RAM than XP</h1>
+<p>This point can be a little controversial, but...</p>
+<p>If you install 32 bit version with 4GB RAM, you won't receive them. Microsoft gives clear explanation <a href="http://support.microsoft.com/kb/929605/en-us">here</a>.</p>
+<p>I added this point, because many people think differently... This time MS made good his job and published cited KB.</p>
+<h1>Reason 57 - clean install with upgrade is tricky</h1>
+<p><a href="http://www.winsupersite.com/showcase/winvista_upgrade_clean.asp">http://www.winsupersite.com/showcase/winvista_upgrade_clean.asp</a></p>
+<p>I can check it and confirm, but it looks, that you can't use upgrade version directly for clean install (like with XP)</p>
+<h1>Reason 58 - it still needs patching system files for giving ability of using own themes</h1>
+<p>In other systems it's much easier. In Windows not - in XP it was required patching system files (like uxtheme.dll), in Vista it wasn't changed :-(</p>
+<h1>Reason 59 - even own manufacturers can't prove, that it's better than concurrency products</h1>
+<p><a href="http://www.microsoft.com/uk/getthefacts/default.mspx">Get the facts</a> still contains document about XP comparison. Nothing about Vista.</p>
+<h1>Reason 60 - it's on the list of worst products</h1>
+<ul><li><a href="http://crave.cnet.co.uk/gadgets/0,39029552,49293700-10,00.htm">November 2007, CNet, "Top ten terrible tech products"</a>
+</li><li><a href="http://www.pcworld.com/article/id,140583-page,5-c,techindustrytrends/article.html">December 2007, PCWorld, "The 15 Biggest Tech Disappointments of 2007"</a><br /><a href="http://www.pcworld.com/article/id,130638-page,3-c,techindustrytrends/article.html">December 2007, PCWorld, "The 20 Most Annoying Tech Products"</a>
+</li></ul><h1>Reason 61 - "Problem Reports and Solutions" can not give any help for you</h1>
+<p><a href="http://apcmag.com/6649/vista_150_problems_0_solutions">http://apcmag.com/6649/vista_150_problems_0_solutions</a></p>
+<h1>Reason 62 - after installing system you will want probably change many default settings</h1>
+<p>Example: folders menu is disabled by default, IE menu is disabled by default (Microsoft resigns from it and last IE7 build has got menu enabled)</p>
+<h1>Reason 63 - you can have problems with removing it</h1>
+<p>Some people report for example about problems with removing Boot folder: <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9004916&amp;pageNumber=17">full story</a></p>
+<h1>Reason 64 - Windows Performance Index mistakes</h1>
+<p>New Windows can give you number, which show you performance of your computer. Unfortunately, this system doesn't work too good - for example you can have excellent PC (and you're using it not for games) with weak graphic card. WPI number will be small. Does it mean that you should upgrade your PC ?</p>
+<p>This and other doubts are explained in <a href="http://pclab.pl/art27624.html">http://pclab.pl/art27624.html</a> (Polish language)</p>
+<h1>Reason 65 - still no things, which should be in each OS</h1>
+<p>Like undelete tool (real undelete from HDD)...</p>
+<h1>Reason 66 - there are some voices, that it has got back doors inside</h1>
+<p><a href="http://www.schneier.com/essay-198.html">http://www.schneier.com/essay-198.html</a></p>
+<h1>Reason 67 - voice recognition can help in hacking</h1>
+<p><a href="http://blog.washingtonpost.com/securityfix/2007/02/hacking_windows_vista_for_dumm.html">http://blog.washingtonpost.com/securityfix/2007/02/hacking_windows_vista...</a></p>
+<h1>Reason 68 - it isn't connected with MS Office</h1>
+<p>Well, Vista and MS Office aren't connected like for example Windows XP and Office XP. Different interface, no special benefits when you're using both and so on...</p>
+<h1>Reason 69 - it doesn't have some interesting features as result of antitrust cases</h1>
+<p>Microsoft is big company and it has got from time to time some problems for example with EU. It makes, that some features aren't inside Vista, some can be removed from it with future SP...</p>
+<h1>Reason 70 - when some problems will happen, Microsoft can suggest only reinstalling system</h1>
+<p><a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;946532&amp;sd=rss&amp;spid=11734">http://support.microsoft.com/default.aspx?scid=kb;en-us;946532&amp;sd=rss&amp;sp...</a></p>
+<h1>Reason 71 - it can have less security with SP1</h1>
+<p>In SP1 application will have probably possibility of deciding, if DEP should be used or not. In other words: if malicious software will want to use buffer overflow, will be able to disable DEP. More: <a href="http://www.computerworld.com/action/article.do?command=printArticleBasic&amp;articleId=9060486">http://www.computerworld.com/action/article.do?command=printArticleBasic...</a></p>
+<h1>Reason 72 - even own manufacturer suggest a little how to return to previous Windows XP</h1>
+<p><a href="http://support.microsoft.com/kb/933170">How to go back to Windows XP after you have upgraded a Windows XP-based computer to Windows Vista</a></p>
+<h1>Reason 73 - you can't have easy integrated SP1 with installation DVD</h1>
+<p>There are some solutions (see <a href="http://www.techit.pl/Artykuly/View.aspx?596.integracja+service+pack+1+z+plikami+instalacyjnymi+windows+vista">description in Polish language</a>), but they need time and are complicated</p>
+<h1>Reason 74 - own manufacturer say, that it contains misunderstood features</h1>
+<p><a href="http://windowsvistablog.com/blogs/windowsexperience/archive/2008/05/15/5-misunderstood-features-in-windows-vista.aspx">http://windowsvistablog.com/blogs/windowsexperience/archive/2008/05/15/5...</a> and <a href="http://www.microsoft.com/downloads/details.aspx?familyid=34f40386-9661-49b1-87ce-6d4a39e83747&amp;displaylang=en&amp;tm">http://www.microsoft.com/downloads/details.aspx?familyid=34f40386-9661-4...</a> :</p>
+<ul><li>User Account Control (UAC)
+</li><li>Image Management
+</li><li>Display Driver Model
+</li><li>Windows Search
+</li><li>64-bit architecture
+</li></ul><p>Maybe they're not too good ?</p>
+<h1>Reason 75 - Service Pack wasn't proposed for all users</h1>
+<p>Some users didn't see it in own Windows Update at all because had old drivers or there was some other incompatibility. Comment from me and some other people: it can make, that they will not know, that SP1 exist...</p>
+<h1>Reason 76 - programmers are not interested in creating applications for it</h1>
+<p>May 2008: according to report from Evans Data Corp:</p>
+<ul><li>8% of 380 American programmers create applications mainly for Vista, in the same time 49% makes it for Windows XP.
+</li><li>24% from them estimate, that will create applications mainly for Vista in next 12 months (29% will do it for Windows XP)
+</li></ul><h1>Reason 77 - Microsoft can't prepare good support for it</h1>
+<p>Example: <a href="http://www.microsoft.com/windows/compatibility/">Windows Vista Compatibility Center</a> is run, but currently (10 Jul) displays "The Windows Vista Compatibility Center will be launching soon, please check back." only.</p>
+<h1>Reason 78 - Microsoft already said, that there were many mistakes done with it</h1>
+<p>See <a href="http://www.informationweek.com/news/windows/operatingsystems/showArticle.jhtml?articleID=208803153">http://www.informationweek.com/news/windows/operatingsystems/showArticle...</a> : "We broke a lot of things. We know that, and we know it caused you a lot of pain. It got customers thinking, hey, is Windows Vista a generation we want to get invested in?"</p>
+<h1>Reason 79 - there are problems with creating hardware for it ?</h1>
+<p>Some manufacturers still have problems with providing fast hardware for it. I don't know, if they don't have good engineers or if problems is really in Vista: <a href="http://www.pcpro.co.uk/news/214236/sandisk-slams-vistas-solidstate-disk-performance.html">http://www.pcpro.co.uk/news/214236/sandisk-slams-vistas-solidstate-disk-...</a></p>
+<h1>Reason 80 - it needs indexing files again after installing update, which is marked in Vista as recommended</h1>
+<p>...it will happen with upgrading Windows Search to version 4.0. Another wasted time for users.</p>
+<h1>Reason 81 - Windows Vista (RED)</h1>
+<p>Vista was rather wrong received by market. Microsoft created product version (with few very minor changes like new wallpapers) with information, that selling will help against AIDS and Africa problems. I'm sorry, but many people can say, that this wrong method of increasing sales or this product...</p>
+<h1>Reason 82 - it doesn't support good new standards (from box)</h1>
+<p>Vista was sold with Internet Explorer 7. Currently Microsoft has got IE8 RC1 with improved engine. And <a href="http://www.tgdaily.com/content/view/40588/140/">it has got still only 21/100 points in ACID3</a>. Other browsers have much more and are faster...</p>
+<h1>Reason 83 - people don't understand, how to use it</h1>
+<p>...and Microsoft had to create <a href="http://answers.microsoft.com/en-us/windows/default.aspx">Windows Vista Answers site</a></p>
+<h1>Reason 84 - it contains very controversial features</h1>
+<p>WinSxS or 800 MB used for printers drivers (see <a href="http://blogs.msdn.com/e7/">Windows 7 blog</a>)</p>
+<h1>Reason 85 - no ability of registering promoted copy</h1>
+<p><a href="http://www.registerwindowsvistasp1.com">www.registerwindowsvistasp1.com</a> for NFR copies (Not For Resale) haven't worked for about month...</p>
+<h1>Reason 86 - Making people go crazy</h1>
+<p>a lot of people feel the need to write 85 reasons that most of them doesnt have any logic explanation rather that (you will not like this in my opinon, so vista is bad), it's vista's fault, its making people crazy.</p>
+<p>Some programs that I need to have my <a href="http://www.superiorpapers.com/">research paper</a> cannot read in this version. It's more reliable to use older version of windows.</p>
+<h1>Reason 88 -</h1>
+<h1>Reason 89 -</h1>
+<h1>Reason 90 -</h1>
+<h1>Reason 91 -</h1>
+<h1>Reason 92 -</h1>
+<h1>Reason 93 -</h1>
+<h1>Reason 94 -</h1>
+<h1>Reason 95 -</h1>
+<h1>Reason 96 -</h1>
+<h1>Reason 97 -</h1>
+<h1>Reason 98 -</h1>
+<h1>Reason 99 -</h1>
+<h1>Reason 100 -</h1>

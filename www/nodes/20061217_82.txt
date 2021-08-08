@@ -1,0 +1,33 @@
+﻿Title:Report 2006-12-17
+Author:marcin
+When:17 Dec 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>First: I hope, that this report (and each next) will start discussion on mailing list and here...</p>
+<hr /><p><u>Gammu</u></p>
+<p>Siemens &amp; OBEX improvements, added support for new SMS formats, updated ID for some Nokia models.</p>
+<p>Released as test source tarball.</p>
+<hr /><p><u>Gammu+</u></p>
+<p>Released as test source tarball and win32 binary builds.</p>
+<p><b>What is available now ?</b></p>
+<!--break-->
+<p>You can browse folders. When you will double click on file, it's get from phone and you can save it to HDD. There is no file sorting in window, other functions in popup menu don't work yet (I plan to make getting multiple files and folders in one click, renaming, deleting and all other)</p>
+<p><u>Developers: please note, that engine here is better than in Gammu - you can have info, that part of folder was missed and you can get content of single folders</u></p>
+<p><img src="sites/default/files/82/061217_files.gif" /></p>
+<p>This part allow to look into phonebook memories (SIM/phone phonebook, call lists, own numbers, for Series 40 3.0 sent SMS list too). You can sort by location, name, time (click on column name). Next here will be adding missed pbk features (especially for Series 40 3.0), searching, editing and deleting... And of course - when you will click on entry in up list, details will be below (in other sheets it's the same).</p>
+<p><u>Structures are more modern - for example engine assign call length to concrete number</u></p>
+<p><img src="sites/default/files/82/061217_pbk.gif" /></p>
+<p>You can get SMS from phone/SIM. Current GUI display names from phone phonebook instead of numbers, SMS are sorted by date. Some numbers are too long sometimes - engine need fixes. There will be required window for better displaying reading SMS progress and module for decoding SMS content (for example linking SMS), but first I will think about forwarding read SMS (it will be simple) and easy editor for sending SMS.</p>
+<p><u>GetNextSMS give info about progress, SMS structures use IDs instead of folder/location pairs (it allows to identify directly SMS files for Series 40 3.0), in Series 40 3.0 you can have info from engine, that part of folder was not read</u></p>
+<p>...and I have idea and probably I will implement it instead of current solution - making in GUI and instead of GetNextSMS something like with filesystem - getting content of some folders only, browsing, etc. (it will be much faster for user)</p>
+<p><img src="sites/default/files/82/061217_sms1.gif" /></p>
+<p><img src="sites/default/files/82/061217_sms2.gif" /></p>
+<p>Only getting notes in this moment.</p>
+<p><u>GetNextCalendar give info about progress</u></p>
+<p><img src="sites/default/files/82/061217_calendar.gif" /></p>
+<p>...everything is for free. I will try to do at least main things as long as possible... Currently there are visible many wxWidgets limits (for example: how to make splitter in such windows like current...) and I have some private (money, but not only... - for example I don't see sometimes sence in writing this &amp; PREVIOUS family because of lack reports from users; I still don't know, if my softwares will be compatible with MS Vista and won't know it quite long; and nomen omen there are more and more problems with MS Visual C++ - for example after installing SP1 it went crazy for me) problems. That's all.</p>
+<p><img src="sites/default/files/82/061217_about.gif" /></p>
+<p>...If you want to run, you have to edit manually config file first. Configuration wizard it will be done later after more required things.</p>
+<hr /><p><u>Me</u></p>
+<p>... No comments... It's not critical, but it was much, much better many times... I will try to make one report before Christmas, I will do payment for gammu.org for next months today/tomorrow. And that's all.</p>

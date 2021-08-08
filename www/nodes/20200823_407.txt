@@ -1,0 +1,107 @@
+﻿Title:Czy Samsung wyprzedził Intela w kategorii "żenada"? Czyli o granicy wytrzymałości użytkowników... (2020)
+Author:marcin
+When:23 Aug 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Czy-Samsung-wyprzedzil-Intela-w-kategorii-quotzenadaquot-Czyli-o-granicy-wytrzymalosci-uzytkownikow,110713.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Do napisania tego wpisu skłonił mnie krótki wpis innego użytkownika o Macbook Air 2020, ale również kilka innych rzeczy... Będzie to kilka słów na temat zakupu telefonu i małego urządzenia głównie do edycji tekstu (m.in. subnotebooków 13,3&quot; czy tabletów). Porównam przy tym pewną kwestię u Intela i Samsunga.</p>
+<!--break-->
+<center><img src="sites/default/files/407/digital-nomad-4749237_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Małe co nieco</b></p>
+
+<p>Poproszono mnie o pewną pomoc w poszukiwaniu sensownego urządzenia do edycji tekstów, takiego &quot;z matowym ekranem, nie za dużego, ale odpornego na brak prądu i czynniki zewnętrzne&quot;.</p>
+
+<p>Pomyślałem, że przy tej okazji przyjrzę się rynkowi nowych modeli - od tanich do (naj)droższych konstrukcji.</p>
+
+<p>O ile w przypadku dużych laptopów właściwie nie ma problemu (tzw. konstrukcje gamingowe nie działają zbyt długo na baterii i tam można się skupić na parametrach, podobnie w przypadku 15&quot;-16&quot; właściwie większość poleca Macbook Pro albo XPS 15/Dell Precision albo przy skromniejszym budżecie coś od Lenovo), to przy mniejszych 13,3&quot; pojawiają się dylematy.</p>
+
+<p>Problem jest oczywiście w wydajności (często i gęsto ograniczanej przez throttling) i wielkości baterii.</p><p>I tak najdłuższej działające na baterii według różnych serwisów są kolejne modele LG Gram i Asus ExpertBook.</p>
+
+<p>Pierwszy (<a href="https://www.notebookcheck.net/LG-Gram-14Z90N-Laptop-Review-Lightweight-at-the-Cost-of-Performance.465540.0.html" target="_blank" rel="noopener" rel="nofollow">LG Gram 14Z90N</a>) z baterią 72 Wh według notebookcheck.net w teście czytnika osiąga 45h&#160;35min (w teście przeglądarki 13h&#160;58min, obciążenia 3h 31min), ale ma niestety ekran z szybą.</p>
+
+<p>Drugi (<a href="https://www.notebookcheck.net/Asus-ExpertBook-B9450FA-Review-Ultra-light-and-high-endurance.465986.0.html" target="_blank" rel="noopener" rel="nofollow">Asus ExpertBook B9450FA</a>) ma certyfikat odporności MIL-STD 810G i w teście przeglądarki osiąga 16h&#160;31min, ale z kolei trochę odstraszył mnie jego zawias i unoszenie dolnej części po otwarciu całości.</p>
+
+<p>Popatrzyłem też na kolejnego faworyta stylu, czyli <a href="https://www.notebookcheck.net/Dell-XPS-13-9300-Core-i7-Laptop-Review-New-Chassis-Design-is-More-Exciting-than-the-New-CPU.458692.0.html" target="_blank" rel="noopener" rel="nofollow">XPS 13 9300</a> (w teście przeglądarki ma &quot;marne&quot; 12h&#160;43min) i <a href="https://www.notebookcheck.net/Dell-Latitude-7310-Core-i7-Laptop-Review-Better-Looks-Same-Performance.480792.0.html" target="_blank" rel="noopener" rel="nofollow">Dell Latitude 7310</a> (37h&#160;26min w teście czytnika, 12h&#160;38min w teście przeglądarki i &quot;marne&quot; 1h&#160;46min w teście obciążenia).</p>
+
+<p>W polskich serwisach zobaczyłem oczywiście <a href="https://www.purepc.pl/hyperbook-l14-ultra-test-laptopa-z-dlugim-czasem-pracy-na-baterii" target="_blank" rel="noopener" rel="nofollow">Hyperbook L14</a> z MIL-STD-810G działający ok. 25h 45min w teście czytnika (notabene jego odpowiednikiem jest najprawdopodobniej <a href="https://system76.com/laptops/lemur" target="_blank" rel="noopener" rel="nofollow">Lemur Pro od System76</a>)</p>
+
+<p><i>Zaraz, zaraz, a konstrukcje z Ryzenem?</i></p>
+
+<p>Lenovo oferuje obecnie X13 - <a href="https://www.notebookcheck.net/Lenovo-ThinkPad-X13-Gen-1-review-With-AMD-Renoir-the-fastest-13-inch-ThinkPad-laptop.487473.0.html" target="_blank" rel="noopener" rel="nofollow">ledwo </a><a href="https://www.notebookcheck.net/Lenovo-ThinkPad-X13-Gen-1-review-With-AMD-Renoir-the-fastest-13-inch-ThinkPad-laptop.487473.0.html" target="_blank" rel="noopener" rel="nofollow">do </a><a href="https://www.notebookcheck.net/Lenovo-ThinkPad-X13-Gen-1-review-With-AMD-Renoir-the-fastest-13-inch-ThinkPad-laptop.487473.0.html" target="_blank" rel="noopener" rel="nofollow">8h&#160;42min w teście przeglądarki</a> (tu mnie uderzyło to, że model ten jest opóźniony i firma sprzedaje również poprzednika X395, który w testach pracuje <a href="https://www.notebookcheck.net/Lenovo-ThinkPad-X395-Laptop-Review-A-fight-for-the-hegemony-of-business-laptops.438975.0.html" target="_blank" rel="noopener" rel="nofollow">do </a><a href="https://www.notebookcheck.net/Lenovo-ThinkPad-X395-Laptop-Review-A-fight-for-the-hegemony-of-business-laptops.438975.0.html" target="_blank" rel="noopener" rel="nofollow">10h&#160;55min w teście przeglądarki</a>)</p>
+
+<p>Asus Zenbook 14 w zależności od generacji procesora (zrobiłem wyjątek ze względu na wielkość i na chwilę zapomniałem o zawiasach) - ok. 16 - 17 h w trybie czytnika (<a href="https://www.purepc.pl/intel-core-i7-1065g7-vs-amd-ryzen-7-4700u-test-asus-zenbook-14" target="_blank" rel="noopener" rel="nofollow">test 1</a>, <a href="https://www.notebookcheck.net/Asus-ZenBook-14-UM431DA-laptop-review-Also-makes-a-good-impression-with-Ryzen.453723.0.html" target="_blank" rel="noopener" rel="nofollow">test 2</a>).</p>
+
+<p>Acer Swift 3 (znów 14&quot;) - <a href="https://www.notebookcheck.net/Acer-Swift-3-SF314-42-Laptop-Review-Fast-slim-and-with-good-battery-life-The-Ryzen-subnotebook-is-almost-completely-convincing.469302.0.html" target="_blank" rel="noopener" rel="nofollow">do 23h w trybie czytnika</a>.</p>
+
+<p>HP? Podobne czasy albo wszystko z szybą.</p>
+
+<p>I tu niestety dochodzimy do bardzo smutnego faktu - konstrukcje z Intelem miewają znacznie dłuższy czas pracy na baterii w trybie bezczynności (nie dziwię się temu - Latitude 7310 w trybie idle zużywa ledwo do 4,8 Watt, z kolei Ryzeny potrafią &quot;wciągnąć&quot; nawet 11.3 Watt). </p>
+
+<p>Może to być oczywiście kwestia większej ilości rdzeni... albo (to już moje gdybanie) tego, że Ryzeny nie są jeszcze tak idealne...</p>
+
+<p>W trybie obciążenia potrafi być na odwrót - 37.2 Watt dla X13 vs 69.7 Watt dla Latitude 7310). Kolejną ciekawostką jest dosyć duży rozrzut zużycia energii w trybie standby - nawet do 1W.</p>
+
+<p>Przyznam się szczerze, że najbardziej brakuje mi w tym momencie laptopa, w którym w UEFI mógłbym ustawić ilość rdzeni, undervolting i chwilowe limity mocy (narzędzia typu ThrottleStop to tylko półśrodki). Proste rozwiązanie pozwoliłoby na wybór odpowiedniego trybu, tymczasem obecnie mamy chipy podobno z TDP 15 Watt, które wykazują pewną niezgodność towaru z umową.</p>
+
+<p>Proszę zauważyć, że nie piszę nawet teraz o takich kwestiach jak brak TB3 w laptopach z Ryzenem, używaniu PWM czy kiepskiej jakości matryc.</p>
+
+<p>Nie jest problemem obecnie kupienie laptopa, który nowy działa na baterii ok. 10h. Mówię tu o realnym czasie i taka wartość wydaje się być wystarczająca dla tzw. większości. Nie liczy się nawet to, że te baterie potrafią dosyć szybko tracić pojemność (ich certyfikacja i gwarancja producenta obejmuje czasami jedynie 100 cykli ładowania).</p>
+
+<p>Mamy modele wydajne (Ryzen) i mniej wydajne (Intel), z throttlingiem lub bez, ładne (XPS czy Precision, ale również jabłka) i mniej eleganckie, nowe i używane... ale ktoś jakby uznał, że mobilność nie jest jednak potrzebna. Rozumiem, że gadżety ładować można non-stop albo raz dziennie, ale... część z nas jednak z wielką ochotą przywitałaby czas pracy rzędu 100h.</p>
+
+<p>Widać tutaj dużą przewagę rozwiązań amerykańskich czy koreańskich - te z Chin pozostają daleko w tyle (chociażby Huawei).</p>
+
+<p>Myślę, że w tej sytuacji najrozsądniejszy pozostaje wybór urządzenia dosyć taniego (np. <a href="https://www.notebookcheck.net/Lenovo-IdeaPad-5-14ARE05-in-review-A-lot-of-computing-power-in-a-compact-case.481703.0.html" target="_blank" rel="noopener" rel="nofollow">Lenovo IdeaPad 5</a>) albo drogiego (gdzie mamy naprawdę brak kompromisów i doskonały serwis)</p>
+
+<p>Prawdę mówiąc swego czasu pewną nadzieję pokładałem w konstrukcjach z ARM, ale te... albo zostały związane z Windows, albo miały szklane ekrany albo kosztowały nieadekwatnie do wydajności. Chciałbym wierzyć, że rynek przewrócą do góry nogami urządzenia Apple, ale rozsądek mówi, że to pewnie dopiero za jakiś czas...</p>
+
+<p>Myślałem też o kadłubkach, gdzie podłącza się telefony... ale tam zawsze te urządzenia były na zewnątrz (niezbyt to jednak wygodne).</p>
+
+<p>Rozważałem nawet wykorzystanie któregoś z czytników e-ink, ale ta myśl akurat odpadła dość szybko.</p>
+
+<p>Przy czasie działania rzędu 10h pewną alternatywą pozostaje tablet, czyli któryś Samsung (raczej nie ostatni Tab S7, bo ten kosztuje krocie) albo Apple (np. iPad mini, który poniekąd doskonale leży w ręce).</p>
+
+<p>Pomimo dużych braków produktów Intela ciągle są obszary, w których te jednak wygrywają... Nie można tego samego powiedzieć o pewnym producencie z Korei...</p>
+
+<p><b>I telefon</b></p>
+
+<p>Europa znowu dostaje Exynosa w absurdalnie drogim Note 20 / Note 20 Ultra (co śmieszniejsze pierwszy jest z plastiku) i takiego samego podobno ma mieć Galaxy S20 Fan Edition (aż chciałoby się go nazwać Fool Edition).</p><p><a href="https://antyweb.pl/galaxy-note-20-ultra-snapdragon-vs-exynos/" target="_blank" rel="noopener" rel="nofollow">Różnica rzędu 97000 punktów w Antutu</a> to nic, gorsze jest <a href="https://antyweb.pl/samsung-galaxy-note-20-ultra-recenzja/" target="_blank" rel="noopener" rel="nofollow">grzanie się urządzenia</a> (znacznie bardziej to przeszkadza niż przy laptopach) i krótki czas działania.</p>
+
+<p>Podobnie jak w przypadku notebooków zastanawia mnie - gdzie jest granica odporności użytkowników?</p>
+
+<p>Dali sobie wmówić, że brak większego wsparcia producenta to norma. Potem przełknęli brak 3,5mm i dziury w ekranie. A teraz jeszcze często i gęsto odbiera im się jakąkolwiek ochronę przed wilgocią albo w ogóle nie dba o wartości parametru SAR...</p>
+
+<p>Patrzę na wmuszane na siłę boczne ramki ekranu, patrzę na ceny i widzę również to, że podobnie jak przy laptopach pozostaje albo zakup czegoś taniego albo drogiego (przy drogim często i gęsto nie dostaniemy jednak dobrej jakości).</p>
+
+<p>Apple w przypadku iPhone zdecydowało się chociażby pokazywać stopień zużycia baterii, a Samsung?</p>
+
+<p>Ceny jego produktów rosną i przekraczają to, czego żąda największy konkurent (mówię nie tylko o telefonach, ale również o tabletach).</p>
+
+<p>Firma wydaje się robić coraz bardzo chaotyczne ruchy - ostatnio zdecydowała się wspierać trochę dłużej wybrane modele najtańsze i wszystkie najdroższe, ale nie zająknęła się w sprawie wielu innych (które nie odbiegają wydajnością czy funkcjami).</p>
+
+<p>Największe baterie rzędu 6000 mAh czy 7000 mAh są zarezerwowane dla tanich modeli, w których jakoś udaje się zmieścić i radio i złącze 3,5mm.</p>
+
+<p>Średniaki pozostały pozostawione samymi sobie, podobnie uczyniono ze wszystkimi modelami bez dziury w ekranie (np. S9). Żeby było śmieszniej, ten ostatni ma dostać UI 2.5...</p>
+
+<p>Myślę, że w tym momencie palmę pierwszeństwa w kategorii &quot;żenada&quot; przejmuje...</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>&quot;Niezwykłą i niespotykaną do dziś cechą pojazdu było to, że cały samochód można było rozkręcić, a następnie ponownie złożyć za pomocą jednego klucza szczękowego&quot;</p>
+
+<p><a href="https://pl.wikipedia.org/wiki/CWS_T-1" target="_blank" rel="noopener" rel="nofollow">Ten cytat pochodzi z Wikipedii </a>i dotyczy polskiego samochodu CWS T-1, który był budowany według innych zasad.</p>
+
+<p>Obecnie na świecie mamy tak &quot;ważne&quot; tematy jak dominacje różnych mniejszości, a jakość leży. Szczerze mówiąc to chciałbym jeszcze dożyć czasów, gdy słowa &quot;inżynier&quot;, &quot;honor zawodowy&quot; i &quot;świadomy konsument&quot; będą jeszcze coś znaczyły... </p>
+
+<p>Bo jak na razie dla ludzi najwyraźniej najważniejszy stał się fakt, że dana firma do komputera dołącza dwie naklejki (nieważne jest, że główny układ na płycie głównej z zasady non-stop może pracować na granicy swojej odporności termicznej)... Narzekamy na Chińczyków, że produkują produkty słabej jakości, ale... jest to zjawisko tak powszednie, że aż chce się płakać. Wisienką na torcie jest dla mnie tutaj awaria usług firmy Google z tego tygodnia albo to, <a href="?q=node/404">co wyprawiają z Ryzenami płyty główne</a> (napięcia VCore dochodzące prawie do 1,5V).</p>
+
+<p>Jak bardzo jesteśmy w stanie to wytrzymać?</p>
+
+<p>Doszliśmy do tego, że państwa i korporacje zaczynają agresywnie walczyć między sobą... co widać choćby w poniższym video nawiązującym do starej reklamy Apple (oczywiście są kolorowe przekazy podprogowe, bo jakżeby inaczej)...</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/euiSHuaw6Q4?controls=1&modestbranding=1
+&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>A ja wracam do poszukiwań...&#160;&nbsp;</p>

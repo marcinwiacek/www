@@ -1,0 +1,52 @@
+﻿Title:iMac 24”, czyli „Think Different” w praktyce (2021)
+Author:marcin
+When:31 May 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1139332,imac-24-czyli-think-different-w-praktyce>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Apple niedawno wypuściło na rynek nowego iMaca z ekranem o wielkości 24 cali. Maszyna dostępna jest w dwóch wersjach (z procesorem M1 z siedmioma lub ośmioma rdzeniami GPU). Podobne rozwiązanie zastosowano w zeszłym roku w Macbook Air, teraz jednak firma poszła o krok dalej – w zależności od wybranej wersji udostępnia nie tylko inny zestaw portów (zupełnie jak w przypadku Macbook Pro z procesorami Intela), ale… również inny układ chłodzenia. 
+<!--break-->
+<a href="https://www.notebookcheck.net/Single-fan-vs-dual-fan-iMac-24-M1-Apple-Silicon-s-performance-potential-in-7-core-base-model-spoiled-by-thermal-throttling-in-benchmark-battery.541578.0.html" target="_blank" rel="nofollow noopener">Napisał o tym notebookcheck</a>, porównanie widać na poniższym wideo:<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/HLF8Qdq7eYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Ceny tego sprzętu w polskim sklepie Apple wynoszą odpowiednio 6 799,00 zł lub 7 899,00 zł (celowo podaję je w tej formie, w jakiej znajdują się na stronie producenta), i wychodzi na to, że wydanie 1100 PLN w praktyce może być koniecznością – „tania” wersja nie pozwala wykorzystać pełnego potencjału procesora, który przy obciążeniu musi korzystać z tzw. throttlingu (obniżanie prędkości układu i przez to jego temperatury, gdy przekracza ona bezpieczne wartości).<br />
+<br />
+Zastanówmy się na spokojnie – ile osób przyjmie założenie, że jedyna różnica w wydajności wynika ze stosowania jednego rdzenia graficznego mniej? Ile osób będzie musiało z czasem wymienić swoje maszyny, bo te w końcu się przegrzeją? (nie od dzisiaj wiadomo, że wentylatory potrafią zapychać się kurzem; a skoro jest tylko jeden...) Czy nie można było przygotować jakiegoś super rewolucyjnego pasywnego chłodzenia grawitacyjnego? (całość jest ustawiona w pionie)<br />
+<br />
+Najwyraźniej liczy się przede wszystkim ładny kolor obudowy, jej cienkość i to, żeby obraz był „soczysty” (iMac w dalszym ciągu nie ma ekranu matowego i, jak przypuszczam, to nigdy się nie zmieni).<br />
+<br />
+Co najmniej dziwne jest łączenie „przestarzałej” dużej ramki pod ekranem z tak małą grubością komputera, magnetyczną wtyczką zasilającą czy specjalnie zaprojektowaną klawiaturą i myszką. Do tego dochodzi niewymienny RAM i niewymienny dysk SSD (pojawiły się głosy o możliwościach ich przelutowania, ale jak dotąd nikt tego nie oferuje), i... nieszczęsne chłodzenie. O ile w przypadku pasywnie chłodzonego MacBook Air można było się pogodzić z tzw. throttlingiem, o tyle w tym przypadku wymuszanie na użytkowniku zakupu droższego wariantu wygląda jak ordynarny skok na kasę. <br />
+<br />
+Policzmy sobie jeszcze raz – na „porządny” model należy wydać 7899 PLN, do tego dochodzi 1000 PLN za dodatkowe 8 GB RAM i 1000 / 2000 / 4000 odpowiednio za zwiększenie dysku do 512 GB / 1 TB / 2 TB. Z prostej arytmetyki wynika, że najdroższy wariant kosztuje 12899 PLN, a to przecież nie jest sprzęt „pro”. <br />
+<br />
+Szkoda, że takie są priorytety. Jakby mało, firma szczycąca się ekologicznością mocno promuje brak modułowości i powiela rozwiązania, które z ekologią nie mają nic wspólnego – <a href="https://www.ifixit.com/Teardown/iMac+M1+24-Inch+Teardown/142850" target="_blank" rel="nofollow noopener">serwis iFixIt przyznał tylko 2 z 10 punktów naprawialności dla nowego produktu</a> (dla porównania: MacBook Air z procesorem Intel mógł się „poszczycić” 4 punktami), a Genius Bar raczej zawsze proponuje wymianę całych elementów (zdarzają się nawet wyceny „naprawy” w wysokości 475 USD, gdy wystarczy podłączyć wtyczkę baterii).</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/K1A9y4S60kg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Widoczna jest obsesja na punkcie detali, która stała się znakiem rozpoznawczym Steve Jobsa (stąd np. <a href="https://youtu.be/jdlGvS1y_Ls?t=120" target="_blank" rel="nofollow noopener">podpisy twórców w oryginalnym Macu</a>), a która czasem prowadzi do karykaturalnych rozwiązań – w nowym sprzęcie zamiast jednej bateryjki CMOS zastosowano dwie, a złącza w środku są pokolorowane. W tym momencie przypomina mi się słynna podstawka do monitora Pro Display XDR za 4799 PLN, którą praktycznie wybuczano na oficjalnej prezentacji (na której są raczej sami fani marki), ewentualnie własna wariacja Apple na temat matowego ekranu, czyli szkło nanostrukturalne za 4000 PLN. Ale to tylko i aż pieniądze. Problem pojawia się, gdy mówimy o zdrowiu i życiu ludzkim – oprócz ekranów (problematycznych dla niektórych oczu) <a href="?q=node/433">mamy przecież iPhony 12, które w wyniku zastosowania silnych magnesów mogą zakłócać działania rozruszników serca albo urządzeń szpitalnych</a>.<br />
+<br />
+Czy tak ma właśnie wyglądać hasło „Think different” w praktyce? Czy za rok usłyszymy jak „nowe” i „rewolucyjne” są komputery iMac, bo nie mają ramek wokół ekranu? Czy naprawdę to jest ta słynna jakość premium? Czy zamiast trzech wariantów nie można było przygotować jednego i dodać tam odpowiednich opcji konfiguracyjnych, jak robi Dell? Wystarczyłoby np. napisać „Procesor M1 z 7-rdzeniami GPU i profesjonalnym układem chłodzenia” / „Procesor M1 z 8-rdzeniami GPU i podwójnym profesjonalnym układem chłodzenia”.<br />
+<br />
+Z jednej strony nie myli się ten, kto nic nie robi, z drugiej w przypadku Apple chyba zbyt często słyszymy o podobnych karygodnych sprawach – a to użytkownicy nie potrafią trzymać telefonów (antenna gate w iPhone 4), a to nowe ekrany miniLED mają poświatę, a to przy mniejszej pamięci wewnętrznej widać wolniejsze działanie (iPhone 7).<br />
+<br />
+Wielka szkoda, że firma tak bardzo chce się odciąć od Intela, a w praktyce idzie w kierunku tego, co widać w laptopach z układami tej firmy (<a href="?q=node/430">jakiś czas pisałem o tym, i wskazywałem, że coraz ciężej jest znaleźć taką konstrukcję, w której temperatury nie dochodzą do 100C</a>).<br />
+<br />
+Apple z jakiegoś niepojętego dla mnie powodu najwyraźniej chce być na ustach wszystkich, w tym dobrym i złym znaczeniu. Po ciepło przyjętej premierze M1 pojawiły się oczywiście choroby wieku dziecięcego, ale były one na tyle małe, że jak dotąd nie przyćmiły niewątpliwego sukcesu (pozostał jedynie <a href="https://www.notebookcheck.net/Apple-s-M1-chip-has-an-unfixable-security-flaw-baked-into-the-silicon.541583.0.html" target="_blank" rel="nofollow noopener">problem z usterką bezpieczeństwa opisaną w biuletynie CVE-2021-30747</a>). Obecnie firma dysponuje rozwiązaniem mobilnym z chłodzeniem pasywnym, aktywnym, rozwiązaniem stacjonarnym i All-In-One, pozostaje pytanie - co będzie następne?<br />
+<br />
+Temat z ładowarkami już przerabialiśmy (te od MacBook Air nie wykorzystują potencjału komputera, i użytkownik podobnie jak przy komórkach musi i tak ładowarkę kupić, a to oznacza koszty dla środowiska naturalnego), parowanie komponentów na poziomie sprzętowo-programowym również, przewinęło się też obniżanie wydajności bez powiadamiania użytkownika, były i klawiaturki motylowe, i tasiemki od matryc w MacBookach, i kilka innych rzeczy.<br />
+<br />
+Sprawa z chłodzeniem mocno kojarzy mi się z tzw. tanimi markami, które podają bardzo ogólne charakterystyki typu „matryca IPS, Full HD”, a do kolejnych egzemplarzy wkładają to, co akurat było w magazynie. Nie chcę tu wymieniać z nazw, ale takie loterie elementów zdarzają się coraz częściej (szczerze mówiąc, przypomina to działania z minionej epoki i tekst „bierz pan, co jest, bo jutro nie będzie”). <br />
+<br />
+Tutaj wygląda to oczywiście trochę inaczej (użytkownik kupuje sprzęt i jeśli zgodzi się na jedno ograniczenie, drugie i trzecie dostaje w gratisie), ale tak samo jest mocno naganne.<br />
+<br />
+Czy teraz będziemy świadkami umieszczania coraz gorszych komponentów w kolejnych egzemplarzach? (firmy inne niż Apple potrafiły rozsyłać do testów pierwotną wersję dysku, a potem „po cichu” podmieniać kości pamięci bez zmiany oznaczenia modelu)<br />
+<br />
+Jeżeli z jakichś względów ktoś woli stacjonarne rozwiązania tej firmy od mobilnych, to na dzień dzisiejszy najbardziej opłacalną opcją wydaje się być Mac Mini (cena rozpoczyna się od 3 699,00 zł, a więc jest o 4200 PLN niższa od iMac).</p>
+<p>
+<iframe width="710" height="355" src="https://www.youtube.com/embed/4MkrEMjPk24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>Musimy go oczywiście sparować z klawiaturą, myszką i odpowiednim monitorem, i choć całość nie będzie „amazing”, to trochę łatwiej będzie można wymieniać i uaktualniać komponenty (pamiętajmy, że iMac ma głośniki i kamerę, i wszystko działa tam z pudełka, a przy „składaku” nie uzyskamy wyglądu, zapewne również takiego obrazu i idealnego zgrania elementów).<br />
+<br />
+Innym rozwiązaniem jest oczywiście poczekanie na któryś kolejny produkt z M1X (powinien nie mieć <a href="https://www.notebookcheck.net/Apple-s-M1-chip-has-an-unfixable-security-flaw-baked-into-the-silicon.541583.0.html" target="_blank" rel="nofollow noopener">usterki związanej z CVE-2021-30747</a>) albo użycie laptopa z zewnętrznym monitorem.<br />
+</p>

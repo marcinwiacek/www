@@ -1,0 +1,26 @@
+﻿Title:To masz, co dasz
+Author:marcin
+When:24 May 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Radości, szczęście, westchnienia,<br />
+zabawność, mądrość, pragnienia,<br />
+oparcie, gwałtowność, konkrety,<br />
+pieprzyk, tajemnica, bzdety,</p>
+<p>co obudzisz, to to dostaniesz,<br />
+masz ikrę, to granicę złamiesz,</p>
+<p>a jeśli tylko narzekasz,<br />
+co się gapisz ? wciąż zarzekasz,<br />
+że ktoś patrzy "nie domyślisz",<br />
+o kredycie tylko myślisz,</p>
+<p>na kilometr będę stąd stał,<br />
+w nosie to i tamto miał,</p>
+<p>a jak będziesz tak kobieca,<br />
+zadzwonisz, dodasz do pieca,<br />
+to życie inne się stanie,<br />
+w pamięci coś zostanie,</p>
+<!--break-->
+<p>nie tylko są konwenanse,<br />
+ważne co tu, a nie anse...</p>

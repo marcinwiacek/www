@@ -1,0 +1,49 @@
+<html>  
+  <head>  
+     </head>  
+     <body>  
+       <canvas id="canvas" width="300" height="300"></canvas>  
+
+<script >  
+
+var canvas = document.getElementById("canvas");  
+var ctx = canvas.getContext("2d");  
+
+for (y=0;y<100;y++) {
+	for (x=0;x<300;x++) {
+		ctx.fillStyle = "rgb(0,0,0)";
+		ctx.fillRect(x+1,y+1,1,1);  
+	}
+}
+
+for (y=100;y<300;y++) {
+	for (x=0;x<300;x++) {
+		ctx.fillStyle = "rgb(0,8,255)";
+		ctx.fillRect(x+1,y+1,1,1);  
+	}
+}
+//powietrze
+for(y=100;y<110;y++) {
+	for (i=0;i<30;i++) {
+		x=Math.round(Math.random()*299);
+		ctx.fillStyle = "rgb(255,255,255)";
+		ctx.fillRect(x+1,y+1,1,1);  
+	}
+}
+
+function ani(x,y) {
+	x2=x;
+	y2=y;
+	var imageData = ctx.getImageData(0,0,300,300);
+	setTimeout ( ani(x2,y2), 50);
+}
+
+for (i=0;i<10;i++) {
+
+setTimeout (ani(Math.random()*290,Math.random()*290), 50);
+
+}
+      </script>  
+
+     </body>  
+    </html>  

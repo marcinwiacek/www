@@ -1,0 +1,143 @@
+﻿Title:"LineageOS for microG", czyli na zachodzie bez zmian? (2020)
+Author:marcin
+When:26 Sep 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/quotLineageOS-for-microGquot-czyli-na-zachodzie-bez-zmian,111252.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<!--break-->
+<p>W dawnych czasach wszystko było łatwiejsze - Cyanogen był synonimem jedynem słusznej alternatywnej dystrubucji Androida, obecnie zaś nawet Wikipedia podaje ponad 20 różnych rozwiązań (rozwijanych, ale i wstrzymanych).</p>
+
+<p>Część z nich jest &quot;zamknięta&quot;, część działa z zaledwie kilkoma modelami...</p>
+
+<p><a href="?q=node/415">/e/ nie przypadł mi do gustu</a> (m.in. brak spójności interfejsu, zbytnie małpowanie iOS i jakby nie do końca jasna sytuacja legalno-prawna z apkami z proponowanego sklepu), zapragnąłem więc sięgnąć do źródeł... czyli do LineageOS.</p>
+
+<p><b>instalacja</b></p>
+
+<p>ziew...</p>
+
+<p>Pobranie plików ze strony projektu, opcje developerskie, ADB debugging, </p><p><pre contenteditable="false"><code class="bash" data-lang="bash" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">adb devices
+adb reboot bootloader
+fastboot flashing unlock
+adb reboot bootloader
+fastboot flash boot .img
+adb reboot recovery
+adb sideload .zip</code></pre>
+
+<p>(ostatnia komenda oczywiście po włączeniu opcji instalacji z Apply Update / Apply from ADB i wyczyszczeniu danych z użyciem Factory Reset / Format data/factory reset)</p>
+
+<p><b>Start</b></p>
+
+<center>
+
+<img src="sites/default/files/418/Screenshot_20200918-180810_Trebuchet.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/418/Screenshot_20200918-180814_Trebuchet.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/418/Screenshot_20200918-180819_Trebuchet.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+</center>
+
+<p>Domyślnie nie wygląda to najładniej, ale przynajmniej nikt nie ściemnia i nie próbuje udawać iOS.</p>
+
+<center>
+
+<img src="sites/default/files/418/Screenshot_20200925-000800_Settings.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+</center>
+
+<p>W miarę świeżo, jeśli chodzi o to, co pod maską.</p>
+
+<p><b>microG</b></p>
+
+<p>microG to projekt tworzący zestaw bibliotek, które mają na celu implementację API dostępnego w systemach z zainstalowanym Google Play i innymi komponentami własnościowymi Google.
+
+<p><a href="?q=node/417">Zainstalowałem F-Droid</a>, dodałem <a href="https://microg.org/download.html" target="_blank" rel="noopener" rel="nofollow">repozytorium do microG</a>, zainstalowałem cztery pakiety i...</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200926-015029_microG_Services_Core.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/418/Screenshot_20200926-015038_microG_Services_Core.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/418/Screenshot_20200926-015207_microG_Services_Core.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Wtedy zapadła decyzja o ponownym flashu...</p>
+
+<p><b>LineageOS na sterydach</b></p>
+
+<p>Jest takie &quot;cuś&quot; jak LineagOS z dołączonym microG. Szybciutko pobrałem plik z <a href="https://download.lineage.microg.org/sailfish/" target="_blank" rel="noopener" rel="nofollow">https://download.lineage.microg.org/sailfish/</a> (sprawdziłem jego sumę, etc. etc.), przeszedłem do recovery i próbowałem zainstalować z użyciem &quot;adb sideload&quot;.</p>
+
+<p>I wystąpił problem... weryfikacji sygnatury.</p>
+
+<p>Teoretycznie wszystko wyglądało jak należy (gdy sprawdzałem z użyciem narzędzia <a href="https://github.com/lineageos4microg/update_verifier" target="_blank" rel="noopener" rel="nofollow">https://github.com/lineageos4microg/update_verifier</a>), ale recovery z lineageOS nie pozwalało na instalację.</p>
+
+<p>Jakoś niespecjalnie lubię błędy, więc wpierw sprawdziłem opcję instalacji &quot;migration ZIP&quot; z <a href="https://download.lineage.microg.org/extra/" target="_blank" rel="noopener" rel="nofollow">https://download.lineage.microg.org/extra/</a> (nie zadziałała - wystąpił ten sam błąd weryfikacji sygnatury), potem sprawdziłem opcję instalacji z recovery lineageOS w sytuacji, gdy w telefonie jest standardowy ROM (znów to samo), a dopiero na końcu wystartowałem TWRP, wyczyściłem dane z partycji i z użyciem funkcjonalności &quot;adb sideload&quot; wgrałem właściwy ZIP.</p>
+
+<p>Wyszło na to, że kolejność instalacji jest taka sama w przypadku oryginalnego LineageOS, ale... zamiast recovery LineageOS trzeba używać TWRP.</p>
+
+<p><b>Kwiatki i kwiatuszki</b></p>
+
+<p>&quot;The updater app does not support upgrades from one version of LineageOS to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing LineageOS for the first time&quot; (<a href="https://wiki.lineageos.org/devices/sailfish/upgrade" target="_blank" rel="noopener" rel="nofollow">źródło</a>)</p><p>To info ze strony oryginalnego LineageOS, a tu?</p>
+
+<p>Jeśli pominiemy kłopoty z instalacją, to system wygląda jak oryginał, ale ma dodatkowo F-Droida i microG.</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200924-230640_microG_Services_Core.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/418/Screenshot_20200926-172243_microG_Services_Core.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>I wszystko byłoby może dobrze, gdyby nie to:</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200926-172219_Settings.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>albo to:</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200926-142706_Updater.png" style="width:228px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/418/Screenshot_20200926-143214_Updater.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Dokładniej mówiąc: system próbuje się bez powodzenia zaktualizować do tej samej wersji</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200926-142806_Settings.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>Do tego takie drobiazgi takie jak &quot;standardowe&quot; błędy (po podłączeniu kabla nie ma połączenia w menu albo to, że aplikacja kalendarza wymaga konta</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200924-230450_Calendar.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p>albo że coś ma artefakty na ekranie)</p>
+
+<center>
+<img src="sites/default/files/418/Screenshot_20200924-230500_LineageOS_Settings.png" style="width:228px;height:405px;" alt="image" title="image" />
+</center>
+
+<p><b>&quot;Na zachodzie bez zmian&quot;</b></p>
+
+<p>Google i Apple mają bardzo duże zasoby, firmy i osoby trzecie niezbyt. O ile /e/ wydaje się być w początkowej fazie rozwoju, to LineageOS pokazuje dosyć wyważoną koncepcję.</p>
+
+<p>Brak spoofingu można wybaczyć... ale że &quot;Lineage for microG&quot; dla każdego modelu musi budować całą paczkę, to tego marnowania zasobów już nie rozumiem (tak samo jak nie rozumiem kalekich instrukcji z <a href="https://lineage.microg.org/" target="_blank" rel="noopener" rel="nofollow">https://lineage.microg.org/</a>, to znaczy rozumiem, ale w rzeczywistości widzę coś innego).</p>
+
+<p>Myślałem, że w 2020 da się już zainstalować i zadziałać &quot;alternatywnie&quot; bez problemu - same <a href="https://www.mobileappdaily.com/app-stores-list" target="_blank" rel="noopener" rel="nofollow">sklepy inne niż Google Play są dostępne </a>(Amazon App Store, etc. etc.)</p>
+
+<p>Wychodzi na to, że mamy do wyboru:</p>
+
+<p>1. ROMy oryginalne - dosyć krótko wydawane, w przypadku wielu marek dostępne na różnych &quot;dziwnych&quot; stronach, często z ogromną ilością śmieci, a czasem nawet z rootkitami</p>
+
+<p>2. Dystrybucje takie jak &quot;oryginalny&quot; LineageOS - coś budzącego jakieś zaufanie, ale bez wsparcia API Google</p>
+
+<p>3. coś jak Lineage OS for microG - wersje ze spoofingiem i jak dla mnie z większymi problemami (a nie sprawdziłem jeszcze przecież aplikacji)</p>
+
+<p>4. różne ROMy czy same paczki z &quot;oryginalnymi&quot; aplikacjami Google i nawet z opisami, jak &quot;certyfikować&quot; urządzenie - żeby było śmieszniej, jest o tym podstrona na stronie Lineage OS (<a href="https://www.lineageos.org/Google-Play-Certification/" target="_blank" rel="noopener" rel="nofollow">https://www.lineageos.org/Google-Play-Certification/</a>), ale z drugiej strony Google nie zawsze to błogosławi (<a href="https://www.xda-developers.com/how-to-fix-device-not-certified-by-google-error/" target="_blank" rel="noopener" rel="nofollow">link</a>)</p>
+
+<p>Powiedziałbym, że od lat jest to samo - brakuje mocnego porządnego systemu, który byłby realną alternatywą dla oryginalnych ROMów. A ilość elektronicznych śmieci rośnie... i cierpi na tym przede wszystkim nietechniczny użytkownik (np. taki, który chciałby mieć absolutną pewność, że nie łamie czyichś licencji).</p>
+
+<p>C.D. moich wpisów na ten temat powinien nastąpić ?&#160;&nbsp;</p>

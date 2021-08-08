@@ -1,0 +1,78 @@
+﻿Title:Nie da się? Czyli jak z przeglądarki zapisać 14639 tekstów z fantastyka.pl w plikach EPUB (2020)
+Author:marcin
+When:27 Aug 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,S.F.
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Nie-da-sie-Czyli-jak-z-przegladarki-zapisac-tekstow-z-fantastykapl-w-plikach-EPUB,110816.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Kilka miesięcy temu zachciało mi się przejrzeć teksty z <a href="http://fantastyka.pl" target="_blank" rel="noopener" rel="nofollow">fantastyka.pl,</a> ale... strona nie ma wersji mobilnej. Czytanie na telefonie z przeglądarki nie wchodziło w grę, więc zrobiłem dwie rzeczy:</p>
+
+<ol><li>usiadłem i na szybko napisałem w PHP konwerter do EPUB (<a href="?q=node/391">post</a>)</li>
+
+<li>zaproponowałem napisanie CMSa, który mógłby obsługiwać tę stronę i mieć dodaną taką funkcjonalność (<a href="?q=node/401">ostatni post o projekcie</a>)</li>
+
+</ol>
+
+<!--break-->
+
+<p>Konwerter spotkał się <a href="https://www.fantastyka.pl/hydepark/pokaz/23925" target="_blank" rel="noopener" rel="nofollow">raczej ze średnim przyjęciem</a>, ale uaktualniałem go o kolejne opcje i dodałem podobną funkcjonalność dla <a href="http://fantastykapolska.pl" target="_blank" rel="noopener" rel="nofollow">fantastykapolska.pl</a>. Na chwilę obecną całość sprawdza się całkiem nieźle i pozwala chociażby na szybkie uaktualnianie plików, które mamy na dysku. Wersja z github &quot;z pudełka&quot; jest przystosowana do Linuxa (operuje w /tmp i zawiera takie komendy jak &quot;rm&quot;).</p>
+
+<center><img src="sites/default/files/409/fantasy-4511623_1280.jpg" style="width:270px;height:405px;" alt="image" title="image" /></center>
+
+<p>Przyszedł sierpień i zauważyłem taką bibliotekę jak <a href="https://stuk.github.io/jszip/" target="_blank" rel="noopener" rel="nofollow">JSZip</a>.</p>
+
+<p>Czy kod w JavaScript może mieć taką samą funkcjonalność jak konwerter w PHP?</p>
+
+<p>Pytanie to nie dawało mi spokoju przez kilka nocy, więc usiadłem i napisałem co potrzeba.</p>
+
+<p>Jak tego użyć?</p>
+
+<ol><li>pobieramy i rozpakowujemy <a href="https://github.com/marcinwiacek/fantastyka/archive/master.zip" target="_blank" rel="noopener" rel="nofollow">https://github.com/marcinwiacek/fantastyka/archive/master.zip</a></li>
+
+<li>wczytujemy plik fantastyka.htm w przeglądarce</li>
+
+<li>wybieramy dział z fantastyka.pl, (jeżeli mamy) stary plik i to, czy chcemy usunąć z pliku &quot;martwe&quot; teksty</li>
+
+<li>klikamy &quot;Start&quot; i czekamy, a na końcu zapisujemy nasz plik</li></ol>
+
+<center><img src="sites/default/files/409/1.png" style="width:608px;height:129px;" alt="image" title="image" /></center>
+
+<p>Od strony technicznej:</p>
+
+<ul><li>wersja w JavaScript obsługuje lwią większość funkcji z wersji w PHP</li>
+
+<li>w obu zdecydowałem się na czytanie stron i tekstów jeden po drugim, żeby nie obciążać serwera docelowego (nie chcę rozwijać tego tematu)</li>
+
+<li>testowałem w wersji desktopowej w Chromium i Firefox, nie sprawdzałem w Safari</li>
+
+<li>w konsoli przeglądarki widać komunikat typu &quot;Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user’s experience&quot;</li>
+
+<li>w Chrome konieczne jest kliknięcie od czasu do czasu na przycisk Wait</li></ul>
+
+<center><img src="sites/default/files/409/2.png" style="width:608px;height:273px;" alt="image" title="image" /></center>
+
+<p>Co poszło nie tak?</p>
+
+<p>Z pełną premedytacją napisałem kod, który nie obciąża fantastyka.pl i robi rzeczy sekwencyjnie. Wiąże się to z tym, że kod w wątku przeglądarki działa poniekąd tak długo, że przeglądarka &quot;zauważa&quot;, że ten się zawiesił (stąd też informacje o stanie podaję w tytule strony - w Chromium DOM nie jest wystarczająco szybko odświeżany).</p>
+
+<p>Mógłbym oczywiście użyć Web Workera i przetwarzanie robić w jednym wątku, a wyświetlanie stanu w drugim... ale wtedy strona nie mogłaby być używana lokalnie z dysku.</p>
+
+<p>Kolejną ciekawostką tutaj jest, że strony musiałem czytać przez serwis zewnętrzny.</p>
+
+<p>A sam JSZip?</p>
+
+<p>Powiedziałbym, że pewne rzeczy nie są do końca intuicyjne (przykładowo nie znalazłem synchronicznej metody do czytania zawartości pliku wewnątrz skompresowanego pliku), ale całość daje radę.</p>
+
+<p>Swoją drogą widać, jaką drogę przeszedł JavaScript - z prostego narzędzia do wyświetlania okienek dialogowych i wyniku 2+2 (przypominają mi się książki Heliona i czerwone papierowe Chipy z okolic 1997) doszliśmy do tego, że do języka przemycana jest wielowątkowość i wiele konstrukcji z innych języków.</p>
+
+<p>Bardzo mi to przypomina historię Basica - z prostego z numerowanymi liniami, przechodził poprzez QBasic, Visual Basic, VBA i wersje .NET, aż w końcu został odsunięty na boczny tor.</p>
+
+<p> Niezależnie jednak od wszystkiego - całość działa wystarczająco dobrze, a ja pewnie będę sukcesywnie dodawał nowe funkcjonalności czy usuwał ewentualne usterki.</p>
+
+<p>Miłego czytania!</p>
+
+<center><img src="sites/default/files/409/3.png" style="width:608px;height:290px;" alt="image" title="image" /></center>
+
+<p>PS. Nie planuję tego dodać na stronę domową <a href=".">mwiacek.com</a> - chcę uniknąć sytuacji, że jakaś mądra duszyczka przyjdzie i zacznie się czepiać o to, że przechowuję pirackie pliki.&#160;</p>
+
+<p>PS2. <a href="https://github.com/marcinwiacek/fantastyka" target="_blank" rel="noopener" rel="nofollow">https://github.com/marcinwiacek/fantastyka</a>&#160;&nbsp;</p>

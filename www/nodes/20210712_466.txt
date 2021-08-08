@@ -1,0 +1,42 @@
+﻿Title:Stare, ale jare? (2021)
+Author:marcin
+When:12 July 2021
+Taxonomy:polski,polski blog,salon24.pl,Ubuntu,Windows,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1149970,stare-ale-jare>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>W tym tygodniu na jednym z komputerów uaktualniłem pakiety w ostatnim stabilnym Ubuntu - z ostatnią wersją pobłogosławionego przez Canonical jądra zainstalowałem sterowniki NVidii w wersji 465 zamiast 460. Zaraz po tym zrobiłem restart, i od razu zaliczyłem zwieszkę systemu (zatrzymywał się bez błędu na ekranie ładowania).</p>
+<p>Komputer zwykły i przeciętny, ot normalny Ryzen i karta graficzna sprzed kilku lat. Pod Ubuntu 20.10 nie było z nim problemów, pod wspomnianą wersją 21.04 jak dotąd miałem kilka zwieszek, i jak obstawiam, zawsze winne były sterowniki własnościowe od karty graficznej.</p>
+<!--break-->
+<p>Ponieważ to nie pierwszy raz, gdy trzeba coś poprawić, więc miałem opracowaną procedurę naprawy: wystartowałem z powrotem komputer, wpisałem hasło do szyfrowania dysku, raz i tylko raz wcisnąłem ESC, potem „e”, i zacząłem mozolnie zmieniać komendę tak, żeby uruchomić tzw. „emergency mode”. Potem już tylko ctrl+x i mogłem usunąć pakiety komendą „sudo apt-get remove nvidia*”, a po jakichś dziesięciu minutach mogłem wrócić do kodu od Nvidii (tylko tam działa mi tzw. night mode).</p>
+<p>Zamyśliłem się.</p>
+<p>Teoretycznie wszystko jest tak pozabezpieczane hasłami, itp., a tu można wymusić odpowiedni runlevel i zrobić co się chce z plikami (jedyną linią obrony pozostaje szyfrowanie dysku i ewentualnie hasło w UEFI). Widać w tym bardzo mocno podejście sprzed lat, gdy wszyscy ufali wszystkim (w systemach informatycznych często nie sprawdzano należycie uprawień).</p>
+<p>Tak w ogóle korzenie systemów uniksopodobnych sięgają mniej więcej 1969, gdy wypuszczono pierwszą wersję czegoś, co dzisiaj moglibyśmy nazwać „jakimś” Unixem (wtedy też założono AMD, a rok wcześniej powstał Intel). Przez kolejne lata różne firmy czy uniwersytety tworzyły wersje systemów, które coraz bardziej trzymały się pewnego wspólnego standardu. W 1983 zainicjowano ideę projektu GNU, w ramach którego miano przygotować darmową wersję podobnego rozwiązania. Jego ważny element powstał w 1991 – wtedy opublikowano pierwszą wersję jądra linuksowego, które obecnie jest najczęściej łączone właśnie z różnymi elementami z tego projektu (gcc, itd.)</p>
+<p>To stare dzieje i <a href="?q=node/159">o tej historii sam pisałem np. w 2010 dla Benchmark.pl</a>. Dziś mamy 2021 rok, a ja nadal korzystam z rozwiązań wywodzących się z kodu stworzonego ponad 50 lat temu (ktoś może powiedzieć, że to pewnie dlatego ten Linuks jest tak mało popularny i przestarzały - to oczywiście wskaże na jego / jej techniczną ignorację i niewiedzę, i mogłoby być tematem na oddzielny artykuł).</p>
+<p>
+<iframe width="860" height="483" src="https://www.youtube.com/embed/2XLZ4Z8LpEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>Teoretycznie nowy Windows 11 ma częściowo swoje korzenie w 1993 (pierwsza wersja Windows NT), a częściowo nawet w 1985. To mniej więcej 36 lat… ale Microsoft pod wodzą hinduskiego wodza zaczyna coraz częściej sięgać również po rozwiązania ze znacznie starszego świata uniksowego (niejako wracając do swoich początków). Pewne elementy tego zachowania zauważyłem, gdy potrzeba było naprawić wpisy menu startowego, a konkretnie odtworzyć pozycję dotyczącą opcji typu recovery (<a href="?q=node/441">pisałem o tym przy okazji wpisu „Czy tani laptop z Celeronem + Windows S da radę?”</a>). Firma wydaje się nie mieć żadnych zahamowań, o czym może świadczyć <a href="https://thenewstack.io/this-week-in-programming-github-copilot-and-the-generational-divide/" target="_blank" rel="nofollow noopener">informacja o tym, że cały publiczny kod na GitHub został użyty do trenowania tzw. sztucznej inteligencji w projekcie Copilot</a> (nie wiem, na ile to prawda, ale prawdopodobnie może to stanowić podstawę do żądania udostępnienia nowego kodu na jednej z „otwartych” licencji).</p>
+<p>Popatrzmy teraz na Apple. macOS już kilka razy przechodził kolejne rewolucje, i obecna wersja wywodzi się z Mac OS X (2001). Niektórzy powiedzą, że przecież mamy M1 i nową architekturę, ale… pod względem programowym to rozwiązanie dosyć zgodne z tym, co mieliśmy na Intelu (co więcej, ma w sobie rozwinięcie wielu idei z 1969).</p>
+<p>Systemy „inne” wywodzą się z tych trzech albo niespecjalnie przyjęły się na rynku – mówię o Qubes OS, BEOS czy Android na x86.</p>
+<p>Wszyscy kopiują od wszystko – i co z tego?</p>
+<p>Spójrzmy na kolejne przykładowe rozwiązania, które dziś są podstawą naszych zabawek:</p>
+<p>ASCII - 1963</p>
+<p>Unicode - 1991</p>
+<p>UFT8 - ok. 1997</p>
+<p>Mail - 1971</p>
+<p>HTML - 1991</p>
+<p>JavaScript - 1995</p>
+<p>Intel 8086 – 1978</p>
+<p>SSD - 1978</p>
+<p>VGA - 1987</p>
+<p>USB 1.1 - 1998</p>
+<p>HDMI - 2002</p>
+<p>Thunderbolt - 2009</p>
+<p>NVME - 2011</p>
+<p>Patrzę na swoją myszkę komputerową, pendrive, programy i wiele innych rzeczy, i mam absolutną pewność, że najwięcej dzisiejszych standardów cyfrowych powstało w okresie, gdy królowała wolna miłość i technologie analogowe (<a href="?q=node/457">częściowo pisałem o tym w notce „Cyfryzacja zabija? O bylejakości, bullshit job, analfabetach i alternatywnym świecie imdb”</a>). Ogromny rozwój widać było również wtedy, gdy ludzie na potęgę dzielili się plikami i wszelkiego rodzaju dziełami kultury (był to też czas, gdy braliśmy wszystko co najlepsze ze świata analogowego i cyfrowego). Obecnie widzimy głównie rozwinięcia starych idei… i kolejne skandale związane z dużymi firmami, do tego coraz większą odtwórczość i odcinanie kuponów od przeszłości. Ciągle jesteśmy bombardowani informacjami o nowościach (skąd, jak nie od konsumentów, firmy maja na to coraz większe pieniądze? Dlaczego nie przeznaczają ich na R&amp;D?), ale wiele z nich jest niewiele znaczącym rozszerzeniem tego, co mieliśmy i dziesięć i piętnaście lat temu.</p>
+<p>Serwisy IT żyją obecnie z sensacji, i biorą udział w propagowaniu sztuczek socjotechnicznych, np. pisząc teksty typu:</p>
+<p>Panie i panowie, Microsoft nie pomyślał o tym, że możecie wyłączyć sprawdzanie obecności TPM w Windows 11 (wczesnym buildzie, który może różnić się od wersji ostatecznej). Chcecie pokazać, jacy to jesteście mądrzejsi od korpoludków w wielkim korpo? Wystarczy tylko zmienić kilka wpisów w rejestrze, i już za darmo możecie uczestniczyć w darmowym testowaniu nowej rewolucji.</p>
+<p>albo</p>
+<p>Apple pracuje już nad nowymi produktami. Z przecieków wynika to i to… Są to oczywiście niepotwierdzone informacje, ale… (chodzi oczywiście o clickbait)</p>
+<p>Zastanówmy się ponownie nad tym – czy do czegokolwiek jest potrzebna (częściowa) kompatybilność wsteczna Windows? Czy jakąkolwiek różnicę robi to, czy przeglądarka uruchamia się dwie sekundy zamiast trzech? Czy to, że BSOD w Windows jest czarny zamiast błękitny, naprawdę powinno być newsem dnia? Czy jest podniecać się tym, że może coś się pojawi na rynku za pół roku?</p>
+<p>Ameryki pewnie nie odkryję, ale śmiem twierdzić, że to wszystko, co mamy w sklepach, to wyłącznie efekt mieszania w tym samym, za przeproszenie, bagnie. Powiedziałbym, że sprzęt jest na dzień dzisiejszy bardziej niż wystarczający, może w końcu czas na rewolucję w oprogramowaniu? (nie mówię rzecz jasna o tym, co wciska Microsoft czy inni). Tylko czy rozleniwieni wciskanym do gardła konsumpcjonizmem chcemy jeszcze cokolwiek zmienić? I czy zechce się nam kodować i zrobić coś bardziej inteligentnego niż filmy na Tik-Toka?</p>

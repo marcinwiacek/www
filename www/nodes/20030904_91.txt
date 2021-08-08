@@ -1,0 +1,590 @@
+﻿Title:Nadzieja dla Kontestatorów (2001)
+Author:marcin
+When:04 Sep 2003
+Taxonomy:Polski,GSM,Polski artykuł,MyGnokii,chip.pl,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst jest rozwinięciem artykułu opublikowanego na łamach czasopisma <a href="http://www.chip.pl">Chip Special Linux</a> zima 2001.</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"></center>
+<p align=justify><b>Producenci telefonów komórkowych często dołączają do swoich produktów oprogramowanie umożliwiające obsługę większości funkcji aparatu z klawiatury komputera. Kłopoty zaczyną się wówczas, jeżeli nasz komputer nie korzysta z "jedynie słusznych" systemów operacyjnych: MS Windows lub Mac OS ...</b></p>
+
+<p align=justify><b>Użytkownicy systemów BSD i Linux są w znacznie gorszej sytuacji. Jak dotychczas żaden producent "komórek" nie zdobył się na upublicznienie programów dla tych systemów. Życie jednak nie znosi próżni. Ponad 3 lata temu pojawił się Gnokii - projekt umożliwiający obsługę telefonów komórkowych Nokia w systemach uniksowych.</b></p>
+<!--break-->
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+
+<p><a name="1"></a><font color="#1f409f" size="+2" class="dzial">1. Nieco historii</font>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade"></p>
+
+<p align=justify>Gnokii wywodzi się z dwóch projektów: pierwszego, zapoczątkowanego m.in. przez Francois Dessarta i Hugh Blemingsa w październiku 1998, przeznaczonego dla modeli 3110 i 8110 oraz innego, rozpoczętego m.in. Staffana Ulfberga obsługującego model 6110. Projekty te połączone zostały w lutym 1999 roku. Założeniem twórców Gnokii było opracowanie interfejsu programistycznego oraz graficznego do obsługi najpopularniejszych wówczas modeli telefonów
+komórkowych. Tworzona aplikacja miał również umożliwiać wykonywanie transmisji danych, nie przewidziano jednak transmisji faksów.</p>
+
+<p align=justify>Projekt rozwijał się bez przeszkód do drugiej połowy zeszłego roku (wersja 0.3.3_pre8), Na skutek sporów dotyczących przyszłości pakietu, jego rozwój został na pewien czas wstrzymany. Odeszło wtedy kilka osób, które wnosiły wiele zmian.</p>
+
+<p align=justify>W tym roku prace nad pakietem zostały znów rozpoczęte. Programiści skupili się nad wersją rozwojową. Zdecydowano się przepisać tę część kodu źródłowego, która jest odpowiedzialna za komunikację programu z telefonem. Zmiany te mają pomóc w usuwaniu błędów, są także potrzebne aby współdzielić części kodu używane przez różne modele telefonów. Pojawiły się również pierwsze funkcje do Dancalla 2711 oraz Nokii 2110, 7110 i 62xx. Praca ta nie jest ciągle dokończona - wersja rozwojowa 0.4.0_pre2 z listopada może nie zapewniać jeszcze takiego wsparcia do niektórych modeli (np. serii 61xx) jak stabilna 0.3.3 opublikowana we wrześniu (do której nie dołączono wielu partii nowego kodu).</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="2"></a><font color="#1f409f" size="+2" class="dzial">2. Mygnokii</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>MyGnokii jest obecnie jedyną konkurencyjną dystrybucją dla oryginalnego Gnokii, Została stworzona w okresie sporów po opublikowaniu wersji 0.3.3_pre8 Gnokii. Twórcą tego projektu jest Marcin Wiącek.</p>
+
+<p align=justify>Nowa dystrybucja początkowo została oparta na Gnokii 0.3.3_pre8 i zawierała wyłącznie poprawki do oryginalnego kodu. Jednak w ciągu ostatnich miesięcy wprowadzono znaczne zmiany w stosunku zarówno do wersji rozwojowej jak i stabilnej Gnokii. Różnice te można scharakteryzować następująco:</p>
+
+<ol>
+  <li><div align=justify>Obsługiwane są praktycznie wszystkie nowe modele Nokii, a liczba dostępnych funkcji jest szersza niż w Gnokii. MyGnokii współpracuje z telefonami Nokia 3210, 3310, 8210/8850, 61xx/51xx, 62xx, 7110 oraz 3330. Niestety, trzy ostatnie modele nie mogą jeszcze wykorzystać wszystkich dostępnych opcji pakietu. MyGnokii nie zapewnia też dużego wsparcia modelom serii 3110/8110 (tzn. liczba obsługiwanych funkcji programu dla tych modeli jest mała), w ogóle nie współpracuje z Nokią 2110.</div></li>
+  <li><div align=justify>W pakiecie wprowadzono pełną obsługę technologii Smart Messaging. Dzięki temu MyGnokii nie ma żadnych problemów z przesyłaniem czy odbieraniem dzwonków, obrazków albo wpisów w kalendarzu.</div></li>
+  <li><div align=justify>Dokumentacje obydwu projektów różnią się nie tylko formą ale także treścią. Poświęcono jej osobny rozdział w artykule.</div></li>
+  <li><div align=justify>Udostępniono zestaw standardowych dzwonków i obrazków (m.in. logo startowych) różnych modeli telefonów Nokia.</div></li>
+  <li><div align=justify>Zmiany kodu źródłowego umożliwiły szybsze działanie programów.</div></li>
+  <li><div align=justify>Dostępne jest znacznie więcej funkcji i opcji w wersji działającej w konsoli niż w analogicznej aplikacji z <i>gnokii</i>.</div></li>
+  <li><div align=justify>MyGnokii przestało być oprogramowaniem wyłącznie dla systemów uniksowych. Kod źródłowy zawiera od razu w sobie wszystkie poprawki i pliki niezbędne do skompilowania w Windows (kompilator Visual C++ 6). Dostępna jest biblioteka DLL, którą można wykorzystać w praktycznie każdym języku programowania - w pakiecie znajduje się zresztą przykładowy, wykorzystujący ją interfejs użytkownika napisany w Delphi. Interfejs można skompilować używając bezpłatnego Delphi 6PE dostępnego na Chip CD 10/2001 oraz stronie WWW Borlanda. Skompilowana wersja pakietu i biblioteka DLL dostępna jest także na stronie domowej autora.</div></li>
+  <li><div align=justify>Inna jest struktura kodu odpowiedzialnego za wysyłanie komend do telefonu i ich odbieranie. Jest ona podobna do tej, która obecna jest w wersji stabilnej 0.3.3 Gnokii.</div></li>
+  <li><div align=justify>Programistów zainteresują procedury wspomagające "podglądanie" transmisji prowadzonej z innych programów pomiędzy komputerem a telefonem (zamiast prowadzić reverse engineering programów, których kody źródłowe nie są dostępne, można posłużyć się tą funkcją programu by uzyskać informacje w jaki sposób inne aplikacje komunikuja się ze sprzętem). Oprócz tych funkcji w pakiecie jest zresztą zawarta bogata dokumentacja opisująca protokoły użyte w różnych modelach telefonów.</div></li>
+</ol>
+
+<p align=justify>W momencie dodawania nowych funkcji do Gnokii, część z nich jest bieżąco adaptowana na potrzeby MyGnokii. Tak było np. z poprawkami dotyczącymi transmisji danych czy kodowania znaków na potrzeby SMS.</p>
+
+<p align=justify>Niestety, różnice pomiędzy dystrybucjami powodują, że część oprogramowania pisanego dla Gnokii może nie działać z MyGnokii. Jest tak przykładowo z modułem pozwalającym korzystać z funkcji pakietu z programów napisanych w Perlu.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="3"></a><font color="#1f409f" size="+2" class="dzial">3. Jak telefon z komputerem ...</font><br>
+</p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Istnieją 3 sposoby połączenia komputera z telefonem komórkowym: kabel, podczerwień i moduł Bluetooth. Dwa pierwsze postaramy się nieco przybliżyć.</p>
+
+<ol>
+  <li>
+    <b>Kabel.</b>
+  <p align=justify>Może działać w co najmniej jednym z trzech trybów: FBUS, MBUS (są to wewnętrzne protokoły Nokii) albo w trybie komend AT. Różnią się one fizycznie m.in. prędkością transmisji oraz używanymi sygnałami złącza szeregowego. Kable przeznaczone dla nowszych modeli telefonów wyprowadzają niższe napięcia. Oznacza to, iż do obsługi modeli serii 21xx/31xx/81xx możemy potrzebować innego kabla niż dla modeli serii 3210, 33xx, 62xx czy 7110.</p>
+  <p align=justify>Kable możemy zrobić korzystając ze schematów ogólnie dostępnych w Internecie (np. w Telekomunikacyjnym Serwisie Informacyjnym fkn.pl) ewentualnie skorzystać z tych dodawanych do oryginalnych pakietów Nokii - np. Nokia Cellular Data Suite. Nie znajdziemy oczywiście w żadnym salonie kabla do modeli serii 3210/33xx/8210/8850 dlatego, iż oficjalnie modele te nie mają takich możliwości - dlatego również wtyczek do nich należy szukać wyłącznie np. na giełdach elektronicznych albo w sprzedaży wysyłkowej.</p>
+  <p align=justify>Odpowiedni kabel możemy także kupić - na stronie domowej Marcina Wiącka znajdziemy adresy wytwórców. Polecamy kable FBUS/MBUS (mogą być opisane jako DAU9P), będą one działać praktycznie z każdym nowszym modelem telefonu.</p>
+  <p align=justify>Część telefonów (jak np.: 62xx, 7110 czy 8210/8850) posiadają wbudowany modem, z którym można kontaktować się poprzez zestaw komend AT (zgodny z standardem Hayes i normami ETSI). Niestety, aby korzystać z niego musimy nabyć kabel DLR-3P (ewentualnie starszą wersję DLR-3). Obsługuje on tryb komend AT oraz FBUS. Można go wykorzystać jedynie z Nokią 62xx/7110 - ze starszymi modelami nie będzie działał w ogóle, nawet w trybie FBUS ! Kabel taki trudno jest wykonać samodzielnie - posiada bowiem układ scalony zawierający unikalne oprogramowanie Nokii. Z tego też powodu możemy co najwyżej polecić odwiedzenie strony "Cable Connecting Data" - oprócz schematu elektrycznego zawiera także dane dotyczące zaprogramowania wspomnianego układu scalonego.</p>
+  <li><b>Podczerwień.</b>
+  <p align=justify>Część telefonów pozwoli skorzystać z podczerwieni. Komunikacja taka może być realizowana przez dwa rodzaje urządzeń. Pierwsze z nich to specjalny odbiornik, który podłączamy do złącza podczerwieni dostępnego w większości współczesnych płyt głównych (przykładowy schemat takiego urządzenia oraz więcej informacji na ten temat podano w Chipie 12/2000). Musimy także uaktywnić odpowiednią opcję w BIOSie. Sposób ten jest najczęściej realizowany w komputerach przenośnych. Drugi rodzaj urządzeń to tzw. dongle. Jest to pudełeczko podłączane zewnętrznie do portu szeregowego, zawierające port podczerwieni oraz całą niezbędną elektronikę.</p>
+  <p align=justify>Również komunikacja w podczerwieni może być realizowana na dwa sposoby. Pierwszy z nich jest używany we wszystkich nowych modelach: serii 8210/8850 oraz w modelach 62xx i 7110. Jest to tzw. podczerwień socketowa - realizowana przez system operacyjny komputera. Telefon używa tutaj pewnego znormalizowanego (dzięki temu wykorzystywanego w wielu różnych urządzeniach) formatu danych. Część funkcji potrzebnych programiście jest wbudowywana w system operacyjny. W systemie znajdują się także sterowniki do różnych modułów podczerwieni. Programy używające tego interfejsu mogą zająć się wyłącznie interpretacją otrzymywanych komend i ich wysyłaniem (poprzez wykorzystywanie odpowiednich funkcji systemowych). Użycie takiej podczerwieni wymaga włączenia jej obsługi w jądrze systemu.</p>
+  <p align=justify>Realizacja połączenia komputera z telefonem opisanym sposobem wymaga (oprócz portu podczerwieni oczywiście) aby jądro Linuksa umożliwiało taki rodzaj komunikacji, czyli musi być skompilowane z odpowiednią opcją. Po aktywacji portu podczerwieni w Nokii, Linux powinien znaleźć modem będący modemem telefonu, z którym komputer połaczony jest podczerwienią.</p>
+  <p align=justify>Drugi sposób dotyczy wszystkich modeli 61xx oraz 8210/8850 (w tych dwóch ostatnich podczerwień uruchamiamy opcją włączającą dwóch graczy w węża, a nie z menu głównego !). Telefon wykorzystuje tu wewnętrzny format Nokii. Ponieważ żaden system operacyjny nie zapewnia jego obsługi, w komputerze musi być uruchomiony odpowiedni program (np. MyGnokii lub Gnokii), który bezpośrednio odczyta i zinterpretuje każdy wysłany z telefonu znak, jak również prześle każdą komendę z komputera po przekształceniu jej do formatu Nokii. Taki rodzaj komunikacji podczerwonej to tzw. podczerwień bezpośrednia. Aby z niej korzystać, jądro Linuksa nie może być skompilowane z opcją wspomagania podczerwnieni (ponieważ opcja dotyczy tylko podczerwieni socketowej). Warto zauważyć, że MyGnokii nie jest w stanie komunikować się w ten sposób z Windows NT/2000/XP - w systemach tych oprogramowanie nie może bowiem bezpośrednio odwoływać się do żadnego urządzenia.</p>
+  <p align=justify>Ograniczeniem metody bezpośredniej jest także to, iż MyGnokii i Gnokii nie obsługuje wszystkich typów dongle. W chwili obecnej możliwa jest tylko obsługa urządzeń zgodnych ze standardem Tekram 210.</p>
+  <li><b>Bluetooth.</b>
+  <p align=justify>Moduły Bluetooth, dostępne obecnie tylko dla Nokii 6210, są stosunkowo słabo rozpowszechnione i autorzy MyGnokii i Gnokii nie mają żadnych informacji o możliwości wykorzystania tej metody komunikacji telefonu z komputerem. Wydaje się natomiast, iż moduły te są ciągle dopracowywane i lepszą stabilność połączeń uzyskamy używając podczerwieni lub kabla (wskazują na to testy publikowane w popularnych serwisach telekomunikacyjnych).</p>
+</ol>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="4"></a><font color="#1f409f" size="+2" class="dzial">4. Instalacja</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Kiedy połączylismy już telefon z komputerem, możemy przystąpić do instalowania i konfigurowania MyGnokii. Powinniśmy pobrać plik zawierający kod źródłowy pakiety mygnokii.tar.gz (pakiet nie jest dostepny w formatach rpm czy deb) wraz z plikiem zawierającym "skóry" telefonów mygnokii_skins.tar.gz . "Skóry" to nic innego jak piktogramy telefonów wykorzystywane w X-Window. Przystępujemy do instalacji. Najpierw rozpakowujemy pakiet zawierający kod źródłowy</p>
+
+<p align=justify><b>tar zxvf mygnokii.tar.gz</b></p>
+
+<p align=justify>Wchodzimy od utworzonego katalogu <i>mygnokii</i> i konfigurujemy MyGnokii.</p>
+
+<p align=justify><b>./configure --enable-security</b></p>
+
+<p align=justify>W podanym przykładzie, utworzony pakiet będzie mógł odczytać informacje związane z zabezpieczeniami telefonu (np.: kod zabezpieczający).</p>
+
+<p align=justify>Jeżeli nie zamierzamy korzystać z xgnokii ("okienkowej" wersji gnokii) powinniśmy do polecenia <i>./configure</i> dołączyć także parametr <i>--without-x</i>. Kompilacja xgnokii jest możliwa o ile posiadamy w systemie pliki nagłówkowe do tworzenia programów w gtk (<i>pakiety gtk+-devel-1.2.x, glib-devel-1.2.x</i>) oraz bibliotekę libXpm. Informacje o innych parametrach, które mogą zostać użyte przy konfiguracji znajdziemy w pliku <i>mygnokii/Docs/en_US/gnokii/config.htm</i>.</p>
+
+<p align=justify>W kolejnym kroku kompilujemy pakiet: </p>
+
+<p align=justify><b>make</b></p>
+
+<p align=justify>Po kompilacji instalujemy pakiet w systemie wykonując (tutaj są wymagane uprawnienia roota): </p>
+
+<p><b>make install</b></p>
+
+<p><b>make install-docs</b></p>
+
+<p align=justify>Od tego momentu w systemie powinny istnieć polecenia <i>gnokii</i> (wersja konsolowa), <i>xgnokii </i>(wersja pod X-windows) oraz <i>gnokiid</i> (transmisja danych w podczerwieni bezpośredniej/przez kabel).</p>
+
+<p align=justify>Pliki ze skórami telefonów do <i>xgnokii</i> rozpakowujemy i kopiujemy do katalogu <i>xpm</i> utworzonego podczas instalacji <i>xgnokii</i> - <i>/usr/local/lib/xgnokii/xpm/</i> lub <i>/usr/local/share/xgnokii/xpm/</i> zależnie od posiadanej dystrybucji Linuksa. Prawa dostępu do tych plików ma jedynie root. Oznacza to, że pozostali użytkownicy systemu nie będą mogli w pełni wykorzystać możliwości pakietu. Możemy to jednak zmienić, ponieważ prawa dostępu tych plików nie mają wpływu na bezpieczeństwo systemu (<i>chmod a+rw *</i>).</p>
+
+<p align=justify>W odróżnieniu od MyGnokii, Gnokii jest udostępniana także jako plik rpm, deb albo w formie CVS. Instalacja z posiadanego kodu źródłowego przebiega podobnie (nie trzeba jednak instalować "skór" z oddzielnego pliku - są włączone w pakiecie). Natomiast instalacja pliku w formacie rpm lub deb przebiega tak samo jak innych pakietów w tych formatach.</p>
+
+<p align=justify>Objętnie czy korzystamy z pakietu Gnokii czy MyGnokii polecenia uruchamiające aplikację (<i>gnokii</i> w trybie tekstowym i <i>xgnokii</i> w trybach graficznych) są takie same.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="5"></a><font color="#1f409f" size="+2" class="dzial">5. Konfiguracja.</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Przykładowy zbiór konfiguracyjny znajdziemy w katalogu <i>mygnokii/Docs/examples</i>(w Gnokii będzie to katalog <i>gnokii/Docs/sample</i>) pod nazwą <i>gnokiirc</i>.
+Kopiujemy go do katalogu domowego pod nazwą<i>..gnokiirc</i>lub katalogu <i>/etc</i> jako <i>gnokiirc</i>. W sekcji <i>global</i> ustawiamy następujące parametry:</p>
+
+<ul>
+  <li><div align=justify><i>Port</i> - podajemy port, do którego dołączony jest telefon. Może to być<i>/dev/ircommx</i> w przypadku podczerwieni socketowej lub <i>/dev/ttySx</i> w pozostałych (zamiast <i>x</i> wstawiamy numer portu). Należy oczywiście mieć prawa dostępu do wybranego portu (można je ustawić np. przez <i>chmod u+rwx nazwa_portu</i>)</div></li>
+  <li><div align=justify><i>Model</i> - podajemy model telefonu, np. <i>6210.</i>Podanie nazwy konkretnego modelu wymagane jest jeśli używamy Gnokii. Korzystając z MyGnokii, możemy też użyć parametru <i>auto</i> i pakiet przy każdym połączeniu będzie próbował automatycznie wykryć model.</div></li>
+  <li>
+    <div align=justify><i>Initlength</i> - w przypadku trybu komunikacji FBUS przez kabel albo przy użyciu bezpośredniej podczerwieni można skrócić czasu synchronizacji pomiędzy urządzeniami. Należy pamiętać, iż zbytnie zmniejszenie tego parametru może uniemożliwić komunikację. W większości przypadków wartość 30 jest tutaj w zupełności wystarczająca, w razie potrzeby należy ją zwiększyć.</div></li>
+  <li><div align=justify><i>Connection</i> - typ połączenia. Podawanym parametrem może być <i>irda</i> (podczerwień przez sockety), <i>infrared</i> (podczerwień bezpośrednia), <i>tekram210</i> (podczerwień bezpośrednia przez dongle zgodne ze standardem Tekram 210), <i>mbus</i> (tylko w MyGnokii: standard MBUS), <i>serial</i> (w Gnokii) albo <i>fbus</i> (w MyGnokii) - standard FBUS.</div></li>
+  <li><div align=justify><i>Synchronizetime</i> - parametr występuje wyłącznie w MyGnokii. Przenosi datę i czas komputera do telefonu przy każdym połączeniu (opcja przydatna, gdy synchronizujemy czas w komputerze z serwerów internetowych). Uwaga: ustawienie czasu w telefonie może powodować pewne drobne problemy - jeżeli w trakcie tej samej sesji (w której ustawiliśmy czas) zresetujemy telefon, czas będzie trzeba ustawić ponownie.</div></li>
+</ul>
+
+<p  align=justify>Jeśli chcemy korzystać z programu <i>gnokiid</i>, ustawienia z sekcji <i>global</i> należy powtórzyć w sekcji <i>gnokiid</i>.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="6"></a><font color="#1f409f" size="+2" class="dzial">6. Na konsoli i w X Window</font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Zarówno Gnokii jak i MyGnokii umożliwiają pracę w trybie tekstowym (w x-terminalu i na konsoli) jak i w trybach graficznych. Praca w trybie tekstowym nie jest zbyt wygodna (przykłady podane zostały w ramce na końcu tekstu), pozwala jednak wykorzystać w pełni wszystkie możliwości programu. O ile skompilowaliśmy pakiet wraz z <i>xgnokii</i> czyli interfejsem graficznym, wygodniej jest korzystać z MyGnokii w X Window. Możliwości pakietu są naprawdę duże. MyGnokii umożliwia m. in. obsługę smsów, kalendarza (tworzenie i edycja notatek), książki telefonicznej, tworzenie i przesyłanie logo oraz melodyjek. Oprogramowanie pozwala także uruchomić monitor sieci - funkcję umożliwiającą poznanie parametrów pracy sieci GSM i telefonu.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="7"></a><font color="#1f409f" size="+2" class="dzial">7. Konkurencja</font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>MyGnokii oraz Gnokii nie mają konkurentów w środowisku uniksowym. Jednak w systemie MS Windows, konkurencja dla MyGnokii jest silna. Najpopularniejszymi programami do obsługi telefonów komórkowych są z całą pewnością LogoManager i Oxygen. LogoManager pozwala użytkownikowi na tworzenie i przesyłanie logo oraz melodyjek. Umożliwia także edycję książki telefonicznej oraz wysyłać standardowe smsy, jednak tutaj oferowane możliwości są bardzo ograniczone. Natomiast Oxygen jest świetnym programem do modyfikowania książki telefonicznej, edycji notatek w kalendarzu, potrafi także wymieniać dane pomiędzy telefonem a MS Outlook i Lotus Notes. Podobnie jak LogoManager potrafi tworzyć loga nie mniej ustępuje temu ostatniemu pod względem wygody obsługi. Wielu użytkowników korzysta z obydwu programów wykorzystując Oxygen do zarządzania informacją w telefonie, a LogoManager do tworzenia i wysyłania grafik i dźwięków. Nie jest to zbyt wygodne rozwiązanie. Największą wadą tych programów jest jednak to, że są płatne. Można oczywiście za darmo pobrać wersje shareware, jednak posiadają one istotne ograniczenia wpływające na ich funkcjonalność.</p>
+
+<p align=justify>MyGnokii łączy w sobie zalety wymienionych wyżej programów. - wszystkie możliwości oferowane przez LogoManager czy Oxygen są dostępne także w MyGnokii. Jedynym wyjątkiem jest tu wymiana informacji pomiędzy MyGnokii a MS Outlook czy Lotus Notes. Jak każde oprogramowanie dostępne na licencji GNU, nie posiada ograniczeń czasowych czy funkcjonalnych. Co więcej, jest udostępniane z pełnym kodem źródłowym i pozwala na wykorzystanie funkcji telefonów we własnych aplikacjach.</p>
+
+<p align=justify>Nie znaczy to oczywiście, że MyGnokii jest pakietem idealnym. Pracująca w trybie tekstowym <i>gnokii</i> została dobrze dopracowana. Jedynie okienkowa wersja pakietu, <i>xgnokii</i>, mimo że bardzo prosta i intuicyjna w obsłudze, może sprawić mały zawód. Wersja <i>xgnokii</i> zawarta w pakiecie pochodzi sprzed prawie półtora roku i niestety nie jest niestety dokończona. Podczas testów przeprowadzonych przy użyciu dwóch telefonów Nokia 6210, stwierdziliśmy problemy z obsługą kalendarza i książki telefonicznej. W przypadku kalendarza - część typów alarmów nie można było ustawić. Z kolei książka telefoniczna nie umożliwiała zapisywania zmian na karcie SIM telefonu, ponadto nie można było wprowadzić nowego numeru telefonu. Oczywiście problemy te znikały, kiedy korzystano z <i>gnokii</i> w trybie tekstowym, trzeba jednak przyznać, że praca w trybie graficznym jest znacznie prostsza i przyjemniejsza niż w trybie tekstowym.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="8"></a><font color="#1f409f" size="+2" class="dzial">8. Transmisja danych</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Transmisja danych realizowana jest przez różne modele telefonów Nokia różnymi sposobami. W dodatku, nie w każdym modelu jest ona możliwa.</p>
+
+<p align=justify>MyGnokii (również Gnokii) daje użytkownikowi narzędzie, jakim jest <i>gnokiid,</i> służące przesyłaniu danych w starszych modelach telefonów.</p>
+
+<p align=justify>Transmisja danych z użyciem <i>gnokiid</i> jest prowadzona w specyficzny sposób. Po połączeniu się z telefonem poprzez kabel/podczerwień w wersji bezpośredniej <i>gnokiid</i> przetwarza dane z telefonu do postaci komend AT, które są przekazywane do innych programów w komputerze. Podobnie w przypadku otrzymania komendy AT, jest ona przetwarzana do postaci wewnętrznych poleceń Nokii i przesyłana do telefonu.</p>
+
+<p align=justify><i>Gnokiid</i> można wykorzystywać tylko z telefonami serii 31xx/51xx/61xx/81xx. Jeżeli chodzi o modele 21xx, brak jest odpowiednich funkcji. Nie zostały one bowiem przeniesione z oryginalnego oprogramowania Nokii (pakietu Nokia CellWare) z tej prostej przyczyny, iż po prostu nie ma chętnych do wykonania tego zadania.</p>
+
+<p align=justify>A co mają zrobić użytkownicy nowszych telefonów ? W przypadku modeli 3210/33xx transmisja danych jest oficjalnie niedostępna i projektanci MyGnokii i Gnokii nie posiadają żadnych informacji, czy funkcja ta faktycznie została usunięta z oprogramowania telefonów, czy też został zmieniony sposób jej wywołania.</p>
+
+<p align=justify>Z kolei w telefonach serii 62xx/7110/8210/8850 żadne dodatkowe oprogramowanie nie jest konieczne. Telefony te mają wbudowane modemy, wystarczy więc zakupić kabel (DLR-3P) lub wykorzystać porty podczerwieni by transmisja była możliwa. Korzystając z narzędzi dostepnych w systemie (np.: modemtool w dystrybucji Red Hat) Linux powinien rozpoznać przyłączony telefon jako modem i zainstalować go w systemie. Dalsza komunikacja ze sprzętem odbywa się tak, jak z tradycyjnym modemem.</p>
+
+<p align=justify>Konfigurując dostęp do Internetu musimy tylko pamiętać, że powinniśmy korzystać ze specjalnych numerów dostępowych naszego operatora sieci GSM a nie np.: z numeru dostępowego TPSA. Ten drugi może być bowiem niedostępny. Jeżeli natomiast uda się z nim nawet połączyć, jego użycie będzie na pewno znacznie droższe.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="9"></a><font color="#1f409f" size="+2" class="dzial">9. Dokumentacja</font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>W pakiecie użytkownik znajdzie wyczerpującą dokumentację, napisaną w formacie HTML. W procesie instalacji jest kopiowana z lokalnego katalogu z plikami źródłowymi do folderu <i>/usr/local/doc/gnokii</i>. W podkatalogach znajdziemy także loga do aparatów 3210, 3310, 6150 oraz 6210 oraz dźwięki (melodyjki), które możemy przesłać do telefonu. Znajdziemy także przykładowy zbiór konfiguracyjny oraz przykładowe pliki z danymi do wykorzystania z różnymi opcjami.</p>
+
+<p align=justify>Zawarta dokumentacja jest bardzo obszerna. W detalach opisuje procesy instalacji i konfiguracji (ze szczegółami wyjaśnia znaczenie poszczególnych komend), opisuje w jaki sposób połaczyć telefony 6210 i 7110 z komputerem przez podczerwień, wyjaśnia dostępne polecenia <i>gnokii</i>. Dociekliwi znajdą bardzo szczegółowe informacje o uruchomieniu i korzystaniu z monitora sieci, poradnik jak wykonać kabel łączący telefon z komputerem, informacje o zmianach w oprogramowaniu telefonów, kodach i dokumentację protokołów transmisji.</p>
+
+<p align=justify>Niestety, prawie wszystkie informacje podane zostały w języku angielskim.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="10"></a><font color="#1f409f" size="+2" class="dzial">10. Przyszłość</font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Niestety, nie rysuje się ona najlepiej. Gnokii i MyGnokii są rozwijane oddzielnie przez niewielkie grupy programistów, którzy nie mają dostępu do wszystkich sprzedawanych telefonów. A sami użytkownicy tego oprogramowania najczęściej nie są niestety zainteresowani jakąkolwiek pomocą w ulepszaniu pakietów czy zgłaszaniu lub usuwaniu błędów.</p>
+
+<p align=justify>Natomiast ciągle jest wiele do zrobienia: dokończenie graficznych interfejsów użytkownika, stworzenie bardziej wyspecjalizowanych struktur do obsługi niektórych funkcji (przykładowo: ulepszenie części związanej z sms), upraszczanie kodu źródłowego tak, aby implementacja obsługi nowych modeli była łatwiejsza, dodanie funkcji obecnych w innych pakietach "komórkowych", rozszerzenie obsługi komend AT. Na pewno także sporo będzie do zrobienia z nowymi modelami (np. Nokią 5510, która będzie się łączyć z komputerem przez USB).</p>
+
+<p align=justify>Bez tego oba pakiety z czasem staną się wyłącznie ciekawostką. Miejmy jednak nadzieję, iż tak się nie stanie i znajdą się programiści oraz użytkownicy, którzy pomogą w rozszerzaniu opisywanego oprogramowania. Naprawdę nie trzeba tutaj dużo: wystarczy znajomość programowania w Delphi (w celu dokończenia istniejącego interfejsu graficznego), Visual Basic (może ktoś zdecyduje się na rozpoczęcie napisania własnej wersji okienkowej Logo Managera ?), C (rozszerzanie całości pakietu lub jego części o nowe funkcje oraz usuwanie błędów), C++, pisania programów w GTK (dokończenie Xgnokii) albo chociażby znajomość HTML (opieka nad dokumentacją). Mile widziana byłaby także pomoc zaawansowanych programistów - wszak odkrywanie funkcji nowych modeli jest fascynującą przygodą, podobnie interesującym wyzwaniem może być kwestia stworzenia własnego sterownika modemu do starszych modeli telefonów do systemu Windows. Przeszkodą nie powinna być tutaj bariera językowa (nie trzeba znać języka angielskiego) - wszak zarówno MyGnokii i Gnokii są aktywnie tworzone przez Polaków - m.in. Marcina Wiącka i Pawła Kota. Można się z nimi skontaktować pod adresami email podanymi w ramce "Sieć".</p>
+
+<div align="right">Marcin Wiącek<br>
+Ryszard Gabryszewski</div>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="11"></a><font color="#1f409f" size="+2" class="dzial">11. Czy tylko Nokia ?</font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Telefony Nokii są najbardziej rozpowszechnionymi aparatami komórkowymi nie tylko w Polsce, także na świecie. Więcej, nazwa firmy stała się wręcz synonimem "komórki". Tak więc powstanie pakietów, które umożliwiają komunikacje Linuksa z tym typem aparatów nie powinno wydawać się dziwne.</p>
+
+<p align=justify>Na szczęście posiadacze Ericssonów, Alcateli, Siemensów i innych nie powinni tracić nadziei :-) Istnieje także inny, ciekawy projekt Open Source: gsmlib. Ma on na celu tworzenie biblioteki i programów w wersji na konsolę pozwalających wykonywać podstawowe czynności typu edycja książki telefonicznej czy smsów w telefonach używających komend AT. Podobnie jak MyGnokii można go bez problemu kompilować i używać także w Windows. Gsmlib obecnie rozwija się znacznie szybciej niż MyGnokii czy Gnokii. Dzieje się tak dlatego, ponieważ coraz więcej telefonów jest wyposażanych w komendy AT. A to oznacza, że popularność projektu z czasem będzie coraz bardziej rosnąć.</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="12"></a><font color="#1f409f" size="+2" class="dzial">12. MyGnokii w trybie tekstowym</font></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p>Poniżej zostały podane przykłady użycia poleceń i funkcji MyGnokii w trybie tekstowym.</p>
+
+<h1>Książka telefoniczna</h1>
+
+<p>gnokii --getmemory SM 1 10 -short &gt; ks-tel.txt
+
+<p align=justify>Pobiera pierwszych 10 numerów z książki telefonicznej na karcie SIM i zapisuje w pliku <i>ks-tel.txt</i>. Jeżeli nie podamy parametru -short, zostanie użyty format bardziej czytelny dla użytkownika, ale nie będzie można użyć opcji <i>--writephonebook</i> z utworzonym plikiem.</p>
+
+<p>gnokii --writephonebook &lt; ks-tel.txt</p>
+
+<p align=justify>Odtwarza książkę telefoniczną z pliku <i>ks-tel.txt</i>.</p>
+
+<h1>SMS</h1>
+
+<p align=justify>gnokii --getsms SM 1
+
+<p align=justify>Pobiera SMS z karty SIM, pozycja 1.</p>
+
+<p>gnokii --sendsms +48601234567 -d --long 200 &lt; file</p>
+
+<p align=justify>Czyta 200 znaków z pliku file, tworzy z nich treści SMSów (tutaj będą 2 SMSy - pierwszy o długości 160 znaków) i wysyła pod numer +48601234567. W telefonie zostanie zapisany raport doręczenia. Jeżeli zastąpimy <i>--sendsms</i> przez<i> --savesms</i>, SMSy zostaną zapisane na karcie SIM. Dodanie parametru <i>--unicode</i> spowoduje ich zakodowanie w Unicodzie (wtedy w jednym może zmieścić się tylko 70 znaków, ale będą mogły to być wszystkie znaki ze strony kodowej w komputerze).</p>
+
+<p>gnokii --getsmsc 1</p>
+
+<p align=justify>Pobiera pierwszy numer centrum SMS zapisany na karcie SIM.</p>
+
+<p>gnokii --renamesmsc 1 "Era GSM"</p>
+
+<p>Zmienia nazwę pierwszego centrum SMS na karcie SIM</p>
+
+<h1>Czas i data</h1>
+
+<p>gnokii --setdatetime
+
+<p align=justify>Ustawia w telefonie czas z komputera. Ustawianie czasu może być wymuszone także opcją <i>synchronizetime</i> w zbiorze<i>gnokiirc.</i></p>
+
+<p>gnokii --setalarm 22 10</p>
+<p>Ustawia w telefonie alarm na godzinę 22:10.</p>
+
+<h1>Kalendarz</h1>
+
+<p align=justify>gnokii --getcalendarnote 1 3 -v30
+
+<p align=justify>Pobiera pierwszą, drugą i trzecią notatkę z kalendarza telefonu (w Nokii 33xx jest on okrojony do 10 przypomnień - pod taką nazwą kalendarz dostępny jest w menu telefonu). Jeżeli nie podamy parametru <i>-v30</i>, zostanie użyty format bardziej czytelny dla użytkownika, ale nie będzie można użyć opcji <i>--writecalendarnote</i> i <i> --sendcalendarnote</i> z utworzonym plikiem. </p>
+
+<p>gnokii --sendcalendarnote +48601234567 vcardfile 1 -d</p>
+
+<p align=justify>Odczytuje 1 pozycję z pliku <i>vcardfile</i> i wysyła pod numer +48601234567 z raportem doręczenia (opcja <i>--getcalendarnote</i> wypisze treść takiej notki, jeżeli dodamy przełącznik <i>-v30</i>).</p>
+
+<p>gnokii --writecalendarnote vcardfile 1</p>
+
+<p align=justify>Odczytuje 1 pozycję z pliku <i>vcardfile</i> i wpisuje do telefonu (opcja <i>--getcalendarnote</i> wypisze treść takiej notki, jeżeli dodamy przełącznik <i>-v30</i>).</p>
+
+<h1>Dzwonki</h1>
+
+<p>gnokii --playringtone ringtonefile</p>
+
+<p align=justify>Odtwarza plik z dzwonkiem (format mid albo rttl) z pliku <i>ringtonefile</i> przez głośnik telefonu.</p>
+
+<p>gnokii --composer ringtonefile</p>
+
+<p align=justify>Pokazuje, co i jak należy wpisać w kompozytorze dostępnym w menu np. Nokii 3210/33xx, aby uzyskać dzwonek z pliku <i>ringtonefile</i> (nie wymaga połączenia z telefonem).</p>
+
+<p>gnokii --setringtone plik 1</p>
+
+<p>Ustawia dzwonek ze zbioru<i> plik </i>na pozycji 1.</p>
+
+<p>gnokii --sendringtone +48602123456 plik -d --scale --profilestyle</p>
+
+<p align=justify>Wysyła dzwonek pod numer +48602123456 z raportem doręczenia. Opcja <i>--scale</i> jest konieczna do użycia w przypadku błędnej interpretacji dzwonków przez niektóre modele (np. starsze Nokie 3310). Opcja <i>--profilestyle</i> pozwala zapisać długie dzwonki w 2 SMSach. Będą one poprawnie interpretowane wyłącznie przez nowsze telefony - np. Nokie 3330.</p>
+
+<p>gnokii --setbinringtone plik 1</p>
+
+<p align=justify>Jeżeli mamy plik z dzwonkiem w specjalnym formacie binarnym (w MyGnokii tak są zapisane wszystkie standardowe dzwonki umieszczone w katalogu <i>mygnokii/Docs/default/sounds</i>), przy pomocy tej opcji można je w niektórych modelach - np. serii 61xx/6210 - ustawić jako dzwonki wgrywane przez użytkownika).</p>
+
+<p>gnokii --getringtone plik 1</p>
+
+<p align=justify>Pobiera dzwonek z pozycji 1 i zapisuje w zbiorze<i> plik</i>. Dzwonek zostanie zapisany w formacie binarnym (Nokie 6xxx/3210) albo standardowym (Nokie 33xx).</p>
+
+<h1>WAP</h1>
+
+<p>gnokii --getwapbookmark 1
+
+<p>Pobiera zakładkę WAP z pozycji 1.</p>
+
+<p>gnokii --sendwapbookmark 1 +48602123456 -d</p>
+
+<p align=justify>Pobiera zakładkę WAP z pozycji 1 i wysyła pod numer +48602123456 (z raportem doręczenia).</p>
+
+<p>gnokii --getwapsettings 1</p>
+
+<p>Pobiera ustawienia WAP z pozycji 1.</p>
+
+<h1>Loga i obrazki</h1>
+
+<p>gnokii --showbitmap logofile
+
+<p>Pokazuje logo z pliku <i>logofile</i>. Dostępne formaty: bmp (2 kolorowe), ngg, nol, nlm, nsm.</p>
+
+<p>gnokii --getlogo picture plik.nlm 1</p>
+
+<p>Pobiera grafikę (tzw. Picture Image) z pozycji 1 i zapisuje w zbiorze <i>plik.nlm</i>.</p>
+
+<p>gnokii --setlogo picture plik.nlm 1 "tekst" +48602123456</p>
+
+<p>Odczytuje grafikę ze zbioru plik.nlm i zapisuje na pozycji 1 z dodatkowym tekstem "tekst" i numerem +48602123456.</p>
+
+<p>gnokii --sendlogo picture +48602123456 plik.nlm "tekst" -d</p>
+
+<p>Wysyła grafikę pod podany numer z raportem doręczenia i dodatkowym tekstem (Uwaga: 1 grafika to 3 SMSy).</p>
+
+<p>gnokii --getlogo startup|7110startup|6210startup plik.nlm</p>
+
+<p align=justify>Pobiera logo startowe (parametry <i>7110startup</i> lub <i>6210startup</i> pozwalają pobrać loga o rozmiarach wyświetlaczy Nokii 7110 i 6210) i zapisuje w pliku <i>plik.nlm</i>. Opcja <i>--setlogo</i> z takimi samymi parametrami ustawia logo w telefonie. W nowszych Nokiach 3210 oraz z serii 33xx przed wgraniem loga, trzeba użyć opcji <i>--resetphonesettings</i>, która wykasuje logo animowane (Uwaga: nie będzie można potem do niego powrócić !).</p>
+
+<p>gnokii --getlogo op|7110op plik.nlm</p>
+<p align=justify>Pobiera logo operatora (parametr <i>7110op</i> pozwala pobrać logo o rozmiarach dostępnych w Nokii 62xx/7110) i zapisuje w pliku <i>plik.nlm</i>.</p>
+
+<p>gnokii --setlogo op|7110op plik.nlm</p>
+<p align=justify>Ustawia logo operatora (jeżeli nie podamy nazwy pliku, logo zostanie wykasowane w telefonie).</p>
+
+<p>gnokii --sendlogo op +48602123456 logo.nlm kod_operatora -d</p>
+<p align=justify>Wysyła logo operatora (uwaga, dużych logo znanych z Nokii 62xx/7110 nie można przesyłać) pod numer +48602123456 z raportem doręczenia. Logo będzie pokazywane w sieci o kodzie <i>kod_operatora</i> ("260 01" dla Plusa, "260 02" dla Ery i "260 03" dla Idei). Jeżeli nie podamy numeru odbiorcy, parametru -d i zamienimy <i>--sendlogo</i> przez <i>--savelogo</i>, logo zostanie zapisane na karcie SIM.</p>
+
+<p>gnokii --getlogo caller logo.nlm 1</p>
+
+<p align=justify>Pobiera logo grupy o numerze 1 i zapisuje w pliku <i>logo.nlm</i>. Jeżeli zastąpimy <i>--getlogo</i> przez <i>--setlogo</i>, logo zostanie ustawione w telefonie.</p>
+
+<p><i>gnokii --setlogo dealer "tekst</i>"</p>
+
+<p align=justify>Ustawia w telefonie tzw. powitanie dealera - tekst z powitaniem widoczny po włączeniu telefonu, którego nie można ustawić z jego menu.</p>
+
+<h1>Inne</h1>
+
+<p>gnokii --reset soft</p>
+
+<p>Resetuje telefon.</p>
+
+<p>gnokii --dialvoice +48601123456</p>
+
+<p>Inicjuje połączenie głosowe pod numer +48601123456.</p>
+
+<p>gnokii --netmonitor devel</p>
+
+<p align=justify>Włącza pełne menu monitora sieci w telefonie (opcja ta pozwala dokładnie sprawdzać stan sieci komórkowej "widzianej" przez telefon oraz pokazuje dokładne informacje o samym telefonie, karcie SIM oraz baterii). Szerzej o tej funkcji można przeczytać na stronie autora artykułu lub w dokumentacji MyGnokii. W przypadku niektórych wersji oprogramowania telefonu, niezbędne będzie wyłączenie i ponowne włączenie aparatu by pojawiła się w nim nowa pozycja w menu.</p>
+
+<p>gnokii --identify</p>
+
+<p align=justify>Pokazuje podstawowe informacje o telefonie - m.in. model i wersję oprogramowania.</p>
+
+<p>gnokii --presskeysequence sequence</p>
+
+<p>W telefonie "wciska" kombinację klawiszy <i>sequence.</i></p>
+
+<p align=justify>gnokii --getsecuritycode SecurityCode
+
+<p  align=justify>Pobiera z telefonu kod zabezpieczający (SecurityCode). Opcja dostępna wyłącznie, gdy przy wywołaniu skryptu <i>configure</i> dodano przełącznik<i>--enable-security</i>.</p>
+
+<p align=justify>gnokii --simlock
+<p align=justify>Informacje o simlocku - zabezpieczeniu uniemożliwiającym korzystanie z kart SIM innych niż macierzystego operatora GSM. Blokada taka pojawia się najczęściej w telefonach sprzedawanych w promocjach.</p>
+
+<p align=justify>gnokii --phonetests
+<p align=justify>Wykonuje test telefonu. Krótkie wyjaśnienie do testów REAL TIME CLOCK BATTERY oraz MCU EEPROM COMPONENT: pierwszy testuje działanie baterii podtrzymującej datę/czas w telefonie po odłączeniu baterii głównej. Baterii tej nie ma m.in w Nokiach 3210 i 33xx i wtedy będzie on miał błędny wynik. Nie jest to jednak uszkodzenie telefonu ! Podobnie we wszystkich nowych modelach (33xx, 62xx, 7110, 8210/8850 i nowszych) pamięć z ustawieniami telefonu (EEPROM) nie jest w formie oddzielnego układu scalonego i program również pokaże tutaj błąd. </p>
+
+<p align=justify>gnokii --displayoutput<br>
+<p  align=justify>Pokazuje na ekranie komputera teksty wyświetlane przez telefon (dotyczy serii 51xx/61xx).</p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="13"></a><font color="#1f409f" size="+2" class="dzial">13. Porównanie</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p align=justify>Poniższa tabela zbiera informacje dotyczące sposobów komunikacji pomiędzy telefonem a komputerem. Znak zapytania w komórce oznacza, że dana konfiguracja nie była jeszcze sprawdzana. Natomiast znak x oznacza brak możliwości współpracy.</p>
+
+<table border="1" cellspacing="0" bordercolor="#000000">
+  <tbody>
+    <tr valign="top">
+      <td align="center" valign="top">&nbsp;</td>
+      <td>
+      <center>Mbus</center>
+      </td>
+      <td>
+      <center>Fbus</center>
+      </td>
+      <td>
+      <center>Podczerwień bezpośrednia</center>
+      </td>
+      <td>
+      <center>Podczerwień socketowa</center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+      <center>Nokia 21xx/9000</center>
+      </td>
+      <td>
+      <center>Gnokii</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+      <center>31xx/81xx</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <center>3210/33xx</center>
+      </td>
+      <td valign="top">
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+      <center>51xx</center>
+      </td>
+      <td>
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <center>61xx</center>
+      </td>
+      <td valign="top">
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td width="95">
+      <center>62xx/7110</center>
+      </td>
+      <td>
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+      <center>8210/8850</center>
+      </td>
+      <td>
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>Gnokii</p>
+      </center>
+      </td>
+      <td>
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>MyGnokii</center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+      <center>9110/9210</center>
+      </td>
+      <td>
+      <center>MyGnokii</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>?</center>
+      </td>
+      <td>
+      <center>?</center>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+      <center>Nokia Card Phone 2.0</center>
+      </td>
+      <td>
+      <center>MyGnokii
+      <p>(częściowo)</p>
+      </center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+      <td>
+      <center>X</center>
+      </td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>
+<p><a name="14"></a><font color="#1f409f" size="+2" class="dzial">14. Sieć</font><br></p>
+<hr align="left" size="3" width="300" color="#60c0a0" noshade="noshade">
+
+<p>MyGnokii
+<br><a href="http://www.mwiacek.com">http://www.mwiacek.com</a>
+<br><a href="mailto:marcin@mwiacek.com">marcin@mwiacek.com</a></p>
+
+<p>Gnokii
+<br><a href="http://www.gnokii.org/">http://www.gnokii.org</a>
+<br><a href="ftp://urtica.linuxnews.pl/pub/people/pkot/gnokii/">ftp://urtica.linuxnews.pl/pub/people/pkot/gnokii/</a>
+<br><a href="mailto:pkot@linuxnews.pl">pkot@linuxnews.pl</a>
+</p>
+
+<p>GSMLib
+<br><a href="http://www.pxh.de/fs/gsmlib/">http://www.pxh.de/fs/gsmlib/</a>
+</p>
+
+<p>Kable
+<br><a href="http://www.fkn.pl/varia/kable.html">http://www.fkn.pl/varia/kable.html</a>
+<br><a href="http://www.atrox.at/datacable/">http://www.atrox.at/datacable/</a>
+</p>
+
+<p>Specyfikacje GSM
+<br><a href="http://www.etsi.org/">http://www.etsi.org</a>
+</p>
+
+<p>Windows &amp; Nokia</p>
+
+<p>Oxygen Phone Manager: <a href="http://www.oxygensoftware.com/">http://www.oxygensoftware.com</a>
+<br>ActiveX dla Nokii: <a href="http://www.gertjaap.com/">http://www.gertjaap.com/</a>
+<br>Logo Manager: <a href="http://www.logomanager.co.uk/">http://www.logomanager.co.uk</a></p>
+
+<p><a class="shref" href="#Top"><small><em>Na początek</em></small></a></p>

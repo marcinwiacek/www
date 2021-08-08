@@ -1,0 +1,112 @@
+﻿Title:Kapitalizm wyczerpania na przykładzie zakupu najprostszego laptopa do najprostszych rzeczy (2021)
+Author:marcin
+When:3 Feb 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Kapitalizm-wyczerpania-na-przykladzie-zakupu-najprostszego-laptopa-do-najprostszych-rzeczy,113149.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>&quot;- Jak państwo widzicie, oferujemy w tym roku w naszym salonie dwa kolory, to jest piasek pustyni i szara perła.</p>
+
+<p>- A gdzie jest ta szara perła?</p>
+
+<p>- No, na razie nie mamy szarej perły, dopiero będzie w drugim roku, znaczy w następnym roku, w drugim...</p>
+
+<p>- Jak o stówę cena skoczy.</p>
+
+<p>- W drugim kwartale. No, to już ode mnie nie zależy.</p>
+
+<p>- A w ogóle coś zależy od pana?</p>
+
+<p>- Sprzedaż samochodów, żeby jak najwięcej poszło&quot;</p>
+
+<!--break-->
+
+<center><img src="sites/default/files/435/laptop-2298286_1280.png" style="width:484px;height:405px;" alt="image" title="image" /></center>
+
+<p>Fragment pochodzi z filmu „Fetysz” z 1985. Choć nie nastąpiła jeszcze katastrofa w Czarnobylu (którą wielu uważa za gwóźdź do trumny dla bloku wschodniego czy też ZSRR), to system komunistyczny w Polsce wtedy już oczywiście dogorywał. Wciąż produkowano chociażby Żuka (konstrukcja z 1959) czy Nysę (z 1958). Ludzie żyli w podwójnej rzeczywistości - komunistycznej i zachodniej. Wielu towarów zwyczajnie nie było, poszukiwano również sposobów na tzw. wolność i oszukiwanie systemu.</p>
+
+<p>Moim bardzo skromnym zdaniem daje się tu zauważyć dużo podobieństw z obecnym życiem w tzw. „cancel culture” (proszę poczytać w Internecie, jak zastrasza się ludzi o innych poglądach) i szukaniem przez zdesperowanych obywateli sposobów na przeżycie, które to np. zaowocowało wykorzystaniem przez maluczkich mechanizmów giełdowych w USA.</p>
+
+<p>System z 1985 charakteryzował się tym, że kupowało się to, co było w sklepach. Ludzie mieli niedosyt wszystkiego. Oczywiście, że w wielu sklepach był tylko ocet, ale czy nie brzmi to trochę znajomo?</p>
+
+<p>Obecnie dużo ludzi narzeka na swoje pensje, i choć może kupić więcej niż kiedyś, to często wygląda to tak, że towary są, ale nas na nie nie stać (określę to tak - obecny system przesunął granicę dobrobytu, ale też dotarł do swojej granicy).</p>
+
+<p>Ciągle się zbroimy (może nie wszędzie z użyciem karabinów, ale na pewno cybernetycznie) i żyjemy w niepewności.</p>
+
+<p>Czytam/czytałem ostatnio książkę &quot;kapitalizm wyczerpania&quot;, gdzie przedstawiono obecny system jako ten, który działa jak pasożyt - przychodzi gdzieś, eksploatuje, eksploatuje i dopiero po rabunkowym wyeksploatowaniu jakiegoś obszaru czy miejsca przesuwa się dalej.</p>
+
+<p>W IT można to określić - dochodzimy do pewnego poziomu (nie zastanawiamy się, ma ma sens) i wymuszamy, żeby ludzie z czegoś tam korzystali aż do znudzenia, a dopiero jak się znudzą i nie można tego ciągnąć dalej, to wtedy spróbujemy coś ulepszyć.</p>
+
+<p>Czy obecna epidemia jest m.in. sposobem na wzrost konsumpcji?</p>
+
+<p>Daleko mi od teorii spiskowych, za to obecnie w 2021 rozglądam się za czymś do pisania tekstów i ewentualnie podstawowego przeglądania internetu.</p>
+
+<p>Telefon czy tablety tym razem odpadają, urządzenie stacjonarne też.</p><p>Prosto? No to jedziemy.</p>
+
+<p>Kryteria:</p>
+
+<p>1. Ekran bez odblasków i mrugania z rozsądną rozdzielczością (1366x768 dziękujemy) - oczy nie sługa</p>
+
+<p>2. Długa praca na baterii</p>
+
+<p>3. Cisza - błagam!</p>
+
+<p>4. Najlepiej możliwość trzymania na kolanach (czytaj: jak najmniej otworów wentylacyjnych i temperatura z dołu w jakichś rozsądnych granicach)</p>
+
+<p>5. Możliwość rozkładania na płasko</p>
+
+<p>6. Najlepiej czarne wnętrze</p>
+
+<p>7. Rozsądna klawiatura</p>
+
+<p>8. Rozsądna waga</p>
+
+<p>Wydawać by się mogło, że w dobie coraz bardziej energooszczędnych komponentów i wyścigu na nm powinno to być banalnie łatwe. Moim zdaniem są to typowe kryteria dla komputera, przy którym na drugi plan schodzi on sam, a ważniejsza staje się sama treść.</p><p>No to popatrzmy:</p>
+
+<p>1. MacBook Air - 2 porty (co najmniej jeden za mało) i brak HDMI. Brak rozkładania na płasko. Ekran błyszczący.</p>
+
+<p>2. Dell - w większości grzałki (<a href="?q=node/430">pisałem o temperaturach rzędu 100C</a>), mógłbym za to ewentualnie <a href="?q=node/382">ustawiać sam wentylatory</a></p>
+
+<p>3. HP</p>
+
+<p>4. Lenovo czy np. ich tania marka Medion popularna w krajach niemieckojęzycznych – zaczyna iść w stronę Della (<a href="https://www.notebookcheck.net/Lenovo-ThinkPad-X1-Nano-Laptop-Review-Less-than-1-kg-for-the-Business-Subnotebook-with-LTE.517858.0.html" target="_blank" rel="noopener" rel="nofollow">X1 Nano nagrzewa się do 101C</a>)</p>
+
+<p>5. Huawei – mam pewne obawy, czy pokazywanie się z ich produktami jest wskazane</p>
+
+<p>6. Clevo – może Hyperbook L14 (ale tu widzę mało recenzji)</p>
+
+<p>7. Acer - myślałem o serii Swift (srebrna!), ewentualnie Travelmate (nie ma jeszcze Intela 11 gen.)</p>
+
+<p>8. Asus - nie wiem, czy kiedyś pisałem, ale u nich kilka razy odstraszył mnie pisk cewek i piszczące chłodzenie</p>
+
+<p>9. LG Gram - analogiczny do L14, ale błyszcząca matryca...</p>
+
+<p>10. inni (Samsung, MSI, etc.)</p>
+
+<p>Każdy producent ma swoje lepsze i gorsze serie, niektórzy są oczywiście przereklamowani, za to pozycja pierwsza wydaje się najlepsza... szczególnie po drobnej &quot;poprawce&quot; chłodzenia</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/ghDvyItIHTY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Należałoby tylko:</p>
+
+<ul><li>dokupić hub USB (i nie ładować przez niego komputera, bo <a href="https://spidersweb.pl/2021/01/spalilem-macbooka-pro-z-procesorem-m1.html" target="_blank" rel="noopener" rel="nofollow">konstrukcje z M1 potrafią wtedy paść</a>),</li>
+
+<li>znaleźć jakąś folię na ekran (no, tutaj to pewnie jakaś masakra będzie i z chęcią bym przeczytał w komentarzach, co ewentualnie wypróbować)</li>
+
+<li>przeboleć srebrny kolor (wiem, że są inne - ten jest najsensowniejszy i nie ma czarnego)</li>
+
+<li>przeboleć brak rozkładania na płasko i kontrolę Apple nad sprzętem.</li></ul>
+
+<p>No dobrze - inne pozycje potrafią nieźle kosztować, i raczej zawsze coś tam nie pasuje (a to mała bateria, a to PWM, a to temperatury, a to, a to...).</p>
+
+<p>Czy mi się wydaje, czy naprawdę, szczerze mówiąc, producenci jakoś się umówili i zdecydowali &quot;ok, ja produkuję czarne, ty srebrne, ty głośne, a ty ciężke&quot;? Albo dlaczego wielu zdecydowało się małpować Macbooka również z jego słabymi stronami?</p>
+
+<p>Nie chcę być jeleniem, który np. kupuje drogi procesor i musi go zbić na 1/10 wydajności (to był jeden z pkt w tekście &quot;<a href="?q=node/403">Kup panie Wieżę Eiffla... </a>czyli naiwniaków nie sieją, tylko sami się rodzą...&quot;)</p>
+
+<p>Intel od kilku lat produkuje Celerony i Pentium Silver o TDP 6 Watt, które przynajmniej w teorii powinny spełniać wymagane założenia (szczególnie jeśli chodzi o chłodzenie). Myślałem nawet o jakimś lepszym Chromebooku (po wymianie OS na Linuxa), ale po dodaniu szyfrowania obawiam się o wydajność...</p>
+
+<p>Czy naprawdę muszę z czegoś zrezygnować?</p>
+
+<p>Wygodne pisanie tekstów to nie jest jakiś rocket science do jasnej ciasnej.</p>
+
+<p>Szukam dalej, i myślę, że <a href="?q=node/429">moje stwierdzenie &quot;Do wyboru, do koloru... a i tak nie ma z czego wybrać&quot;</a> jest jakby prawdziwe, za to &quot;You don&#39;t have anything and you&#39;re happy&quot; chyba nie do końca.&#160;&nbsp;</p>

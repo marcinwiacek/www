@@ -1,0 +1,155 @@
+﻿Title:Witamy w młodym i dynamicznym zespole... (2020)
+Author:marcin
+When:22 Jan 2020
+Taxonomy:polski,Polski blog,dobreprogramy.pl
+
+<p>&quot;Poweroff&quot;</p>
+
+<p>Spracowany laptop Nasira przez chwilę jęczał i po chwili wyświetlił w okienku terminala &quot;Connection to foreign host closed&quot;.</p>
+
+<p>- Teraz komputer i badge. - Siedzący za nim John pomyślał, że wkrótce i jego to może czekać, odsunął jednak od siebie nieprzyjemne myśli i patrzył z uwagą, jak tamten się wylogowuje i zostawia na biurku wszystko, co łączyło go z firmą.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Witamy-w-mlodym-i-dynamicznym-zespole,105916.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<center><img src="sites/default/files/38900/1.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>&quot;Poweroff&quot;</p>
+
+<p>Spracowany laptop Nasira przez chwilę jęczał i po chwili wyświetlił w okienku terminala &quot;Connection to foreign host closed&quot;.</p>
+
+<p>- Teraz komputer i badge. - Siedzący za nim John pomyślał, że wkrótce i jego to może czekać, odsunął jednak od siebie nieprzyjemne myśli i patrzył z uwagą, jak tamten się wylogowuje i zostawia na biurku wszystko, co łączyło go z firmą.</p>
+
+<p>&quot;Praca w młodym dynamicznym zespole to w jego przypadku prawda&quot; - pomyślał patrząc na chłopaka, który o dziwo dobrze się trzymał.</p>
+
+<p>- Dziękuję - Nasir wstał, uścisnął rękę nadzorcy i wyszedł z ogromnego biura, w którym od tygodni był ostatnim pracownikiem, a przed zwolnieniami przychodził z rana pierwszy i wychodził wieczorem ostatni.</p>
+
+<p>John wiedział, że obroty spadały z miesiąca na miesiąc i ostatnio jechali na chwilówkach. Była to najmocniej strzeżona tajemnica firmy, której teraz pozostało robić dobrą minę do złej gry sprzedając produkt, który od miesięcy uaktualniała garstka najniższej opłacanych dzieciaków.</p>
+
+<p>***</p>
+
+<p>Kilka dni temu napisałem <a href="?q=node/386">dosyć luźno sformułowany</a> post o tym, jak setki tysięcy ludzi zajmują się tak nieistotnym faktem, jak zakończenie ogólnodostępnego wsparcia dla jednego z produktów mniej znaczącej niż kiedyś firmy.</p>
+
+<p>Produkt nie był bardzo dobry, ale dla różnego rodzaju blogerów, dziennikarzy i masy innych ludzi okazał się znów doskonałą okazją, żeby dorobić do swojej wierszówki.</p>
+
+<p>Na pewno wydarzenie odbiło się trochę mniejszym echem niż oficjalny koniec Windows XP (moim zdaniem dostarczył on najwięcej z rodziny NT, jeśli chodzi łącznie o niskie zużycie zasobów, spójność i łatwość interfejsu i wydajność).</p>
+
+<p>Tego samego dnia zobaczyliśmy informacje o kolejnych kolejnych lukach 0-day, jak również o migrowaniu Windows 7 na Windows 10 w cenie licencji (może to budzić pewne obawy z prawnego punktu widzenia) i równie wątpliwych trickach związanych z dostępem do wsparcia rozszerzonego.</p>
+
+<p>Myślę że historia zatoczyła znów krąg, wrócę wpierw jednak do przeszłości - Windows z 2004 był na tyle dobry, że nie do końca było wiadomo, jak przekonać użytkowników do kupna jego następców.</p>
+
+<p>Zaczęto wymyślać i tworzyć koncepty, których nie mogli przygotować programiści dochodzący w wielu wypadkach do kresu możliwości koncepcyjnych i (a może przede wszystkim) możliwości korporacyjnych. Pojawiała się nowa krew, nowe strategie... powstała Vista i 7.</p>
+
+<p>Mieliśmy pierwszy cykl.</p>
+
+<p>Potem przyszedł nakaz zmiany strategii i mieliśmy ósemkę...</p>
+
+<p>Tak nastąpił drugi cykl.</p>
+
+<p>&#211;semka się nie sprzedawała, to doszli kolejni pracownicy z nowymi pomysłami i w końcu mamy dziesiątkę z przedziwną mieszanką obsługi nowych technologii, misz-maszem starych i koszmarnym interface.</p>
+
+<p>Tkwimy w czymś, co w końcu padnie - co wtedy?</p>
+
+<p><a href="?q=node/386">W swoim poście</a> wspomniałem również o AMD, u którego widać pierwsze oznaki tego samego procesu (tzn. przechodzenie do defensywy po kolejnych ruchach niwelujących hegemonię Intela) - czerwoni robią wprawdzie kolejne generacje Zen, ale już w 2019 zakombinowali z podstawką i zrobili kombinacje alpejskie z układami 5x0.</p>
+
+<p>Oczywistym jest, że w ich wypadku stagnacja nie nastanie szybko, ale... ludzie z wyższymi Ryzenami pokroju 3900 czy 3950 i laptopami z Zen 2 na pewno nie będą chcieli ich szybko wymienić.</p>
+
+<p>Tak niestety wygląda dzisiaj rzeczywistość - jest rozwój, zdobywanie rynku, potem cięcie kosztów i upadek.</p>
+
+<p>Next please, i na pewno Ameryki tym nie odkryłem.</p><p>Wróćmy teraz do Mozilli: Firefox się nie sprzedaje (trudno o to, gdyż jest darmowy), misja kosztuje, zaczęto pozbywać się być może najcenniejszych zasobów, a młode i dynamiczne wilki chcą się wykazać.</p>
+
+<p>Jeśli chodzi o platformę Android, to naliczyłem już przynajmniej sześć przeglądarek wspieranych przez fundację:</p>
+
+<ol><li>&quot;Firefox Browser: fast, private &amp; safe web browser&quot; - stary</li>
+
+<li>&quot;Firefox Preview&quot; (nie liczę osobno Nightly) - najlepszy i najświeższy, ale w budowie</li>
+
+<li>&quot;Firefox Focus: The privacy browser&quot; / &quot;Firefox Klar: The privacy browse&quot; (jeden ma podobnież wyłączoną telemetrię)</li>
+
+<li>GeckoView example - kod, który pokazuje budowanie przeglądarek w oparciu o komponenty Mozilli</li>
+
+<li>Reference browser - kod z repozytorium reference-browser, który robi to samo będąc w zamyśle bazą dla programistów</li>
+
+<li>Example browser - prosta przeglądarka z repozytorium android-components<br/></li>
+
+</ol>
+
+<p>Bojownicy o sieć pokazali mi ostatnio, że nie mogę mieć żadnego zdania i stąd mój pomysł, żeby pobawić się kodem Preview i zobaczyć, co na szybko da się tam zmienić.</p>
+
+<p>Udało się - zrobiłem odpowiednie repozytoria na GitHub i dodałem trochę <a href="?q=node/389">opisu co i jak bym widział od strony użytkownika</a>, przygotowałem również trochę drobniejszych poprawek (więc każdy z Android Studio może sobie przygotować plik apk), takich jak m.in.</p>
+
+<ul><li>obsługa gestu refresh</li>
+
+<li>poprawka z przypisywaniem tytułów do adresów stron</li>
+
+<li>więcej info w historii</li>
+
+<li>więcej miejsca na stronie głównej</li>
+
+<li>lepsze rozdysponowanie miejsca w ustawieniach i menu</li>
+
+<li>wyłączenie niebieskiej kropy w hamburger menu</li>
+
+</ul>
+
+<p>Zabrałem się na kolekcje i w tym momencie trochę utknąłem, gdyż ich kod jest tam tak mocno zintegrowany z resztą, że chwilę to potrwa.</p>
+
+<p>Postanowiłem podejść do tematu również z innej strony i przygotowałem sobie drugi pisany od podstaw projekt, żeby jeszcze lepiej zorientować się w strukturze tego, co proponuje Mozilla.</p>
+
+<p>Wygląda na to, że cały engine Firefoxa o nazwie Gecko można bardzo łatwo dodać jako bibliotekę. Nazywane jest to GeckoView i ma bardzo przyjemne API - jest np. wszystko do obsługi dodatków (mogą wspierać blokowanie reklam), jest funkcja do blokowania requestów HTTP (więc każdy może napisać własny bloker), możliwość zmiany Agent-User i wiele innych rzeczy, których nie uświadczyłem w produktach dla końcowego użytkownika.</p>
+
+<p>Jak wygląda wydajność po wyłączeniu telemetrii i różnych funkcji debuggera?</p>
+
+<p>Krótko mówiąc - nie uzyskałem prędkości Chrome.</p>
+
+<p>A jak to wygląda u konkurencji?</p>
+
+<p>Programiści mogą korzystać z:</p>
+
+<ul><li> WebView (dosyć okrojony engine, będący początkowo oddzielnym komponentem, obecnie renderowany przez elementy Chrome; ma ciągle bardzo mikre API),</li>
+
+<li>CustomTabs (można powiedzieć, że niezależnie od wersji Android dostajemy więcej funkcjonalności Chrome, ale jest też obowiązkowo GUI)</li>
+
+<li>Trusted Web Activity (coś jak CustomTabs, ale bez interfejsu graficznego i ze znacznie większą kontrolą tego, co jest otwierane)</li>
+
+<li>silnika Chrome (który trzeba sobie skompilować i dołączyć jako blob do projektu - jest to robione przez wszystkie klony Chrome, a ja nie znam żadnego obecnego rozwiązania, które działałoby jak GeckoView)</li></ul>
+
+<p>Ze znaczących silników na rynku jest jeszcze WebKit, ale na platformie Android za bardzo się nie przyjął.</p><p>I powiem tyle.. jak robiono outsourcing działów supportu IT wewnątrz firm, to jeszcze można to było jakoś przeboleć (ludzie jakoś się organizowali lokalnie).</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4V2C0X4qqLY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Wiele razy naśmiewano się z działów obsługi klienta (czy pamiętacie Slumdoga z 2008?), ale jak robi się outsourcing inżynierii albo wykorzystuje młodych ludzi, to często i gęsto robi się niebezpiecznie. Pokazał to Boeing i nie ma co z tym dyskutować.</p>
+
+<p>Na dzisiejszy Mozilla ma dosyć ciekawą podstawę (wolną, ale ciekawą), natomiast ginie to w morzu pewnego rodzaju bylejakości (może niecałkowicie technicznej), a ja sam, jak widzę taki przerost formy nad treścią, to od razu mam w głowie ogromną czerwoną lampkę - to się dzieje na końcu takiego samego cyklu co w przypadku Windows.</p>
+
+<p>I teraz dochodzimy do ciekawej kwestii - czy opłaca się dobrze pisać kod?</p>
+
+<p>Mój niezły kod z lat ok. 1999 - 2007 (Gammu) bywa używany do dziś, natomiast znacznie bardziej zaawansowany Gammu+ w ogóle się nie przyjął.</p>
+
+<p>Jeśli chodzi o moją <a href="?q=taxonomy/term/drogowe">rodzinę produktów zaczętych w 2011</a>, to jest to dłuższa historia.</p>
+
+<p>W czasach Samsung Galaxy S użyłem WebView do przygotowania encyklopedii o znakach i przepisach drogowych (wtedy to było coś biorąc pod uwagę jakość komponentów systemowych). Wykorzystałem tam jeszcze inne technologie takie jak JSON i coś na wzór plików MD (tzn. użyłem plików tekstowych z nagłówkami i treścią zawierającą najprostsze formatowanie HTML) i zrobiłem coś co dziś może trąci myszką w obszarze interface, ale wciąż daje solidnego kopa przy treści.</p>
+
+<center><img src="sites/default/files/38900/2.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Koncept tam zastosowany stał się podstawą napisania kilku wariantów (HTML, iOS, Firefox OS, Tizen, ale również aplikacji Straż), niestety do dziś nie znalazłem nikogo do pomocy - pisałem, ogłaszałem się i lipa.</p>
+
+<p>Czy opłaca się więc pisać dobry kod?</p>
+
+<p>Jestem tego zwolennikiem, ale wiem też, że lepiej jest mieć działający kod niż żaden kod. Nie byłoby w tym nic złego (niektóre funkcje są wykorzystywane tymczasowo), gdyby nie to, że w dzisiejszych czasach stało się to pewną normą i ludzie często poprzestają na czymś co działa (ewentualnie idą w totalne przegięcie w drugą stronę i totalne przekombinowanie z wzorcami projektowymi).</p>
+
+<p>Problemem inżynierii oprogramowania jest to, iż (szczególnie w korpo i fundacjach) wielu specjalistów promuje takie średniactwo - wiedzą, że po stworzeniu czegoś perfekcyjnego (małego, szybkiego, prostego, czytelnego) nie byliby potrzebni i straciliby projekty lub zlecenia.</p>
+
+<center><img src="sites/default/files/38900/3.jpg" style="width:570px;height:405px;" alt="image" title="image" /></center>
+
+<p>Nie jest to może często katastrofa, gdyż te same firmy w końcu wymuszają usunięcie zbyt kiepskich rozwiązań, ale...</p>
+
+<p>Myślę sobie, że my sami do tego doprowadziliśmy - dwadzieścia lat temu musiałem pisać podstawowe funkcje w C bawiąc się we wskaźniki (ludzie się tego i wielu innych rzeczy naprawdę uczyli), dzisiaj przy tak dużej mocy obliczeniowej większość z nas stała się głównie odbiorcami tego, co jest nam dostarczane przez wielkich tego świata (tzn. bawimy się gotowymi funkcjami i konsumujemy treści zamiast tworzyć lepsze alternatywy dla wspomnianego średniactwa).</p>
+
+<p>PS. Wracając do Mozilli - mogliby ruszyć cztery litery, jeśli użytkownicy masowo pokazaliby im, co myślą. Nie namawiam do spamowania, tylko kulturalnego zgłaszania uwag i usterek na GitHub, ostrzegam jednak, że próby dialogu mogą zakończyć się banem.</p>
+
+<center><img src="sites/default/files/38900/4.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ja błędów zgłaszać już tam nie mogę (nie napiszę nic o błędzie związanym z &quot;Tab closed&quot;) - nie wiem, czy związane jest to zjawiskami zasygnalizowanymi powyżej, ale stary piernik został zamieciony pod dywan.</p>
+
+<p>Czego oczy nie widzą, tego sercu nie żal.</p>
+
+<p>Witamy w młodym i dynamicznym zespole.&#160;&nbsp;</p>

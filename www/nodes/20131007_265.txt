@@ -1,0 +1,44 @@
+﻿Title:Życie....
+Author:marcin
+When:07 Oct 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Chcę mieć wszystkie zmysły na raz drażnione,<br />
+chcę, by me szaleństwa były czasem tłumione,<br />
+pragnę nie myśleć za dziesięć mądrych innych,<br />
+pragnę choć raz nie mieć uwag mych niewinnych,</p>
+<p>nie chcę mieć w końcu brutalnej nagiej racji,<br />
+nie chcę czasem zamieniać w sprzedaż relacji,<br />
+krzyczę o zrozumienie się bez słów widoczne,<br />
+krzyczę, by spełniło się życzenie noworoczne,</p>
+<!--break-->
+<p>żądam wiedzy mej od czasu do czasu pokonania,<br />
+żądam życzenia powodzenia ranem znów czytania,<br />
+proszę o to, abym nie musiał pleców budować,<br />
+proszę, abym miał z kim uroki pogo ucztować,</p>
+<p>myślę o powrocie prostych rozrywek pożądania,<br />
+myślę o śniadania razem ranem przygotowywania,<br />
+ufam, że kiedyś będę miał sen całkiem spokojny,<br />
+ufam, że ktoś okryje, gdy rodnik złapie wolny,</p>
+<p>czekam na absztyfikanta oraz inne polskie słowa,<br />
+czekam, że pieścić me uszy będzie Słowian mowa,<br />
+mam nadzieję na oglądanie kształtów piękności,<br />
+mam nadzieję na słuchanie dowcipów subtelności,</p>
+<p>błagam, by ktoś mnie niedoskonałością oczarował,<br />
+błagam, bym na jej poprawę konkret jaki darował,<br />
+padam, bo nie dostanę tego za co warto harować,<br />
+padam, bo nie każdego szkiełkiem można wychować,</p>
+<p>dążę do tego, aby różne twarze me były ukazane,<br />
+dążę do tego, aby różne innym rzeczy były dane,<br />
+próbuję działać, gdy optymizmu wariant zawodzi,<br />
+próbuję żyć wtedy, gdy nikogo to nie odchodzi,</p>
+<p>i więcej w życiu mam różnych pragnień i planów,<br />
+i bardzo chcę znać więcej Polaków, Dam i Panów,<br />
+którzy potrafią wiele więcej dać niźli pustości,<br />
+którzy umią wykrzesać ten piękny kwiat radości,</p>
+<p>bo jestem synem wielkiego dumnego starego narodu,<br />
+bo nie mam z pochodzenia i wyznań wstydu powodu,<br />
+a każdy dzień piękny jest wśród Ziemi otoczenia,<br />
+a każdy dzień w czyny zamienia drobne marzenia...</p>

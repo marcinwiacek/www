@@ -1,0 +1,77 @@
+﻿Title:Wy tak naprawdę, na serio? (2020)
+Author:marcin
+When:14 Jan 2020
+Taxonomy:Polski,Polski blog,Windows,dobreprogramy.pl,x86
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Wy-tak-naprawde-na-serio,105730.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Katastrofa, olaboga! po prostu Armageddon i kosmiczna nicość w jednym, bo jakaś amerykańska firma (ważna szczególnie kiedyś) kończy z czymś tam.</p>
+<!--break-->
+<p><center><img src="sites/default/files/386/light-trails-on-highway-at-night-315938.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Pamiętam jak lata temu kolejne maszyny powodowały, że udawało zrobić mi się coś szybciej, istotnie oszczędzając czas. Zamiast kilku godzin potrzebowałem minut, zamiast minut sekund, potem przyszło USB bez zworek, malutkie kable SATA zamiast tasiemek, itp.</p>
+
+<p>Rozumiem, że wszelkiej maści gwiazdy, celebryci i “dziennikarze” muszą z czegoś żyć, ale świat zmienił się i firma Microsoft i Ameryka nie tworzą już takich przełomów technologicznych jak kiedyś (a w każdym razie nie w tzw. mainstreamie).</p>
+
+<p>Platforma Windows jest rzeczywiście jedynym wyborem, jeśli chodzi o różnej maści gry i programy specjalistyczne.</p>
+
+<p>Czy jednak narzekanie na koniec wsparcia dla siódemki na wszelkiego rodzaju portalach coś zmieni? </p>
+
+<p>A guzik z pętelką, pewne decyzje zapadły dawno temu w Redmond (a może bardziej w Indiach) i to, że wszyscy się tak podniecacie, jest co najwyżej oznaką poddańczego służalstwa i wskazaniem, że sami nie potraficie nic wymyślić.</p>
+
+<p>Powtórzę - czy ma sens zatrzymywanie się nad tym, że ktoś zrobił ogromne pieniądze, i robi je dalej? Czy warto pisać o trupie, którego w większości wypadków można bez problemu zmienić na coś innego?</p>
+
+<p>To jest mentalność rodem ze szkółki niedzielnej, gdzie małemu Jasiowi wmawia się, co ma myśleć.</p>
+
+<p>W dzisiejszym świecie można pisać teksty, liczyć czy grać czy wreszcie przeglądać sieć na tysiąc i jeden sposobów, co więcej nie trzeba w ogóle płacić za legalne oprogramowanie, które w zupełności wystarcza do wielu zastosowań.</p>
+
+<p>Ladies i gentleman, ogarnijcie się proszę, komputery to wyłącznie narzędzia, takie jak młotek czy śrubokręt, i tak naprawdę nieistotne czy jest tam Mac OS, Windows, Android czy Linux.</p>
+
+<p>To od was zależy, jak bardzo wykorzystacie te narzędzia i co z nimi zrobicie. To od was też zależy, czy chcecie trzymać z przegrywami czy z kimś/czymś, kto/co daje większe nadzieje na przyszłość.</p>
+
+<p>Microsoft dawno temu mógł tak obudować każdą aplikację, że kosztem niskiego zużycia zasobów uruchamiana byłaby zupełnie niezależnie od innych i nie miałaby na nie wpływu (wiem, wiem, że częściowo to jest, na pewno jednak w mniejszym stopniu niż w Androidzie czy iOS)</p>
+
+<p>Jeśli ktoś ma programy w Windows 7 nie korzystające z sieci, i jutro i za miesiąc i nawet za rok będzie mógł z nich bezpiecznie korzystać. Jeśli ktoś chce dokonać upgrade do Windows 10, ciągle jest to możliwe (nazwijmy to delikatnie nieoficjalnie). Linux? Przez lata instalowałem kolejne dystrybucje i dawało się je jakoś ogarnąć. Jabłko? Jak ktoś chce wydawać pieniądze albo bawić się w łamanie licencji… Jakieś FreeBSD czy inne coś? Why not?</p>
+
+<p>Możliwości są tysiące, i szczerze mówiąc każde z tych rozwiązań ma coś za uszami.</p>
+
+<p>I tak wszyscy mają albo PeCeta albo Maca albo telefon albo tablet, wyjdźmy może poza podniecanie się tą oczywistą oczywistością (oczywiście jeśli można)</p>
+
+<p>Jak obejść ograniczenia? Co fajnego można zrobić z tymi maszynami? Ile to zajmuje czasu i energii elektrycznej? Z jakimi wydatkami i głośnością się wiąże?</p>
+
+<p><center><img src="sites/default/files/386/woman-in-blue-suit-jacket-2422293.jpg" style="width:570px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ostatnio pisałem, że obawiam się o działania AMD – wskazywałem, że mieli moment dużego rozwoju i że teraz mogą stracić swój impet. I proszę bardzo – łups! Mamy nowe APU, ale konstrukcji/zapowiedzi na razie niewiele (naprawdę obawiam się, że pomimo postępu nie zobaczymy zbyt wielu pasywnie chłodzonych konstrukcji z tak dużą baterią, że będziemy mieli te 32h pracy bez gniazdka). W sprawie nowych chipsetów cisza… I jak na razie brak konstrukcji, które pozwalałyby budować ekstremalnie mocne maszyny wielkości Mac Mini.</p>
+
+<p>Piszę o tym, gdyż w dniu dzisiejszym AMD to chyba jedyna korporacja, która mogłaby dostarczyć na rynek coś, co istotnie zmieni jakość naszego życia (słowo klucz: istotnie).</p>
+
+<p><center><img src="sites/default/files/386/david-13710_1920.jpg" style="width:304px;height:405px;" alt="image" title="image" /></center>
+
+<p>Nawiasem mówiąc, to korporacje zaczęły nawet wyprzedawać taniej płyty AM4 i TRX40 (Gigabyte zdaje się do jutra, wcześniej o ile pamiętam Asus), bo nie idą jak świeże bułeczki, ale żeby je poprawić, to już nie...</p>
+
+<p> a propos sprzętu, to miałem też ostatnio pewną nadzieję na pewien &quot;bum&quot; na naszym polskim podwórku, ale szczerze mówiąc zawiodłem się - zarówno PurePC jak i Pan Urbaniak poniekąd potwierdzili, że HyperBook L14 nie pozwala na wymuszenie cichej pracy (sprzęt firmy niezbyt znanej mógłbym polecać w taniej konfiguracji bez Windows, a tak... brak odpowiedniego trybu ustawianego z UEFI i oszczędzanie na wiatraczku to więcej niż niedopatrzenie powodujące, że urządzenie w cenie starszego XPS 13 traci główny atrybut).</p>
+
+<p>Windows to historia i technologia przestarzała i nie ma o czym mówić – obecne pokolenie nie pamięta zresztą, jak Windows NT 4.0, 2000 czy nawet XP biły na głowę późniejsze “lekkie” i “nowoczesne” koszmarki w tej samej stajni.</p>
+
+<p>Żal, że wielu ignorantów pisze o wspaniałej jakości Windows 7, który był tylko i wyłącznie wyłącznie systemem, w którym zmniejszono upierdliwość błędów znanych z niesławnej Visty (zmniejszono, nie usunięto).</p>
+
+<p>No ale cóż, regres w inżynierii oprogramowania widać w wielu projektach, i obecni “inżynierowie” często robią to, co im się wydaje na zasadzie &quot;widzi mi się&quot; (ewentualnie boją się podjąć jakąkolwiek decyzję) albo muszą chwalić to, czym się zajmują, bo inaczej stracą pracę.</p>
+
+<p>Mam tu przykład z ostatnich miesięcy: pewna osoba (celowo nie piszę, czy mężczyzna czy kobieta, chociaż tutaj aż ciśnie się to na usta) jest inżynierem od dwóch lat i ma władzę nadawać etykietki raportom błędów.</p>
+
+<p>Zgłosiłem ich kilka i nieistotne coś (co dla średnio inteligentnego człowieka jest oczywiste) poszło przez pełen proces i zajęło cenny czas plutonowi UX-ów, a rzecz o wiele bardziej istotna (widoczna zapewne dla tysięcy użytkowników, którzy muszą się zżymać dniami i nocami i wykonywać kilka ruchów więcej ręką) już nie.</p>
+
+<p>Po moim pytaniu &quot;dlaczego?&quot; uzyskałem odpowiedź &quot;wszystkie zmiany zgodnie z procesem muszą być akceptowane przez UX&quot;, po wskazaniu nazwijmy to buga numer 2 uzyskałem wzruszenie ramionami, focha i oczywiście brak reakcji.</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Y-T1lBxWOPA?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center>
+
+<p>Ja rozumiem, że żyjemy w czasach dobrobytu i świetlanej przyszłości i taki &quot;mynyster&quot; cyfryzacji potrafi przekonać dostawców przeglądarek i w dwa miesiące odciąć Internet od pornografii, ale... (fragment od 11:40)</p>
+
+<p>Ehhh, przypominają mi się czasy &quot;ministry&quot; albo ludzi wybijających dinozaury...</p>
+
+<p>Mądrości życzę i wyjścia poza poziom takich ludzi i wojenek, które nic nie wnoszą - aż chce się powiedzieć &quot;czy Plus czy Era, jedna cholera&quot;, ale przecież nawet Ery już nie ma, jak w znanym wierszu ze słowami &quot;Kiedy przyszli, nie protestowałem&quot;.</p>
+
+<p>Naprawdę nie ma sensu zbyt dużo pisać o wielu śmieciowych tematach, a ja też biję się w swoje stare spracowane piersi, że moje teksty przez lata nie były odpowiednio dobre i brakowało im pokory.</p>
+
+<p>Dziękuję i przepraszam, że brak dzisiaj technicznej wartości dodanej.&#160;&nbsp;</p>

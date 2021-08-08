@@ -1,0 +1,131 @@
+﻿Title:Lecz się sam 3, czyli ustaw sobie wiatraki w Dellu (2019, wersja 1.1)
+Author:marcin
+When:5 Dec 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,x86
+
+<img src="sites/default/files/382/cpu1.png" width=300 align=right />
+
+<p><nobr>Ta część będzie</nobr> trochę ryzykowna (przy braku rozsądku możemy nadwyrężyć lub nawet uszkodzić sprzęt), ale pozwoli nam ustawić wiatraki w części modeli laptopów Dell.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Lecz-sie-sam-czyli-ustaw-sobie-wiatraki-w-Dellu,105166.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Ta część będzie trochę ryzykowna (przy braku rozsądku możemy nadwyrężyć lub nawet uszkodzić sprzęt), ale pozwoli nam ustawić wiatraki w części modeli laptopów Dell.</p>
+
+<p><center><img src="sites/default/files/382/fan-3645379_1280.jpg" style="width:603px;height:405px;" alt="image" title="image" /></center>
+
+<p>Całość została sprawdzona na Windows 10 i Dell Precision 5510, powinna działać na różnych G5, Inspiron, XPS i Precision (<a href="http://forum.notebookreview.com/threads/dellfancmd-%E2%80%93-tool-to-enable-manual-custom-control-of-the-laptop-fans.827106/" target="_blank" rel="noopener" rel="nofollow">więcej</a>).</p>
+
+<p>Historia jest krótka - ostatnio pracowałem nad PHP 7.4 (<a href="?q=node/380">opisałem nieinwazyjną instalację z PostgreSQL i Apache</a>), zrobiłem <a href="?q=node/381">krótkie orientacyjne porównanie wydajności Ubuntu w Hyper-V ...</a> i niejako przy okazji musiałem zająć się używanym sprzętem, na którym nie mogłem przesmarować CPU ani GPU ani dodać padów na VRM.</p>
+
+<p>Problemem był tu irytujący wiatrak GPU, który również był nie do ruszenia. </p>
+
+<p>Zacząłem oczywiście od ustawienia profili w odpowiednim narzędziu producenta i Windows, to jednak nie pomogło.</p>
+
+<p><center><img src="sites/default/files/382/dellpm.png" style="width:608px;height:298px;" alt="image" title="image" /></center>
+
+<p>Zrobiłem wszystko co możliwe jeśli chodzi o instalację sterowników, zmniejszenie obciążenia procesora i przełączenie wszystkich aplikacji na zaintegrowaną kartę graficzną (laptop miał być ostatecznie używany do zastosowań bardziej biurowych niż gier).</p>
+
+<p>W końcu zacząłem szukać alternatywy programowej... i znalazłem.</p>
+
+<p><b>DellFanCmd</b></p>
+
+<p><center><img src="sites/default/files/382/dellFan.png" style="width:608px;height:326px;" alt="image" title="image" /></center>
+
+<p>Narzędzie małe i z kodem źródłowym.</p>
+
+<p>Jest dostępne z GitHub (<a href="https://github.com/AaronKelley/DellFanCmd/releases" target="_blank" rel="noopener" rel="nofollow">https://github.com/AaronKelley/DellFanCmd/releases</a>) i posłuży nam do wyłączenia automatycznej kontroli wiatraków z BIOS.</p>
+
+<p><b>SpeedFan</b></p>
+
+<p>Znany i zasłużony program dostępny ze strony <a href="http://www.almico.com/sfdownload.php" target="_blank" rel="noopener" rel="nofollow">http://www.almico.com/sfdownload.php</a>, który pozwala na monitorowanie temperatur, wentylatorów, parametrów SMART, jak również zmienianie prędkości wiatraków i ustawianie zegara na płycie głównej.</p>
+
+<p>Ostatnia wersja pochodzi z 2016 i część opcji jest oznaczona jako eksperymentalna (autor odpowiada w swoim Mantisie, więc kod chyba nie jest porzucony).</p>
+
+<p><b>Połączenie klocków<br/></b></p>
+
+<p>Narzędzie DellFanCMD rozpakowywujemy do jakiegoś katalogu, zaś SpeedFan instalujemy.</p>
+
+<p>Przy SecureBoot niezbędne jest nieznaczne obniżenie zabezpieczeń po to, aby móc załadować DellFanCmd - w tym celu dodajemy w Rejestrze Windows wpis:
+
+<p><pre>
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Policy]
+"UpgradedSystem"=dword:00000000
+</pre>
+
+(<a href=http://forum.notebookreview.com/threads/dellfancmd-%E2%80%93-tool-to-enable-manual-custom-control-of-the-laptop-fans.827106/>więcej</a>)
+
+<p>Następnie tworzymy skrót do SpeefFan.exe - ważne jest zaznaczenie opcji &quot;Start minimized&quot; i &quot;Run as administrator&quot;.</p>
+
+<p><center><img src="sites/default/files/382/skrot1.png" style="width:288px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/382/skrot2.png" style="width:496px;height:405px;" alt="image" title="image" /></center>
+
+<p>Uruchamiamy SpeedFan, klikamy przycisk &quot;Configure&quot; i przechodzimy do zakładki &quot;Options&quot; i włączamy &quot;Enable DELL support&quot;, &quot;Set fans to 100% on program exit&quot; i &quot;Start minimized&quot;, a następnie klikamy OK i restartujemy aplikację.</p>
+
+<p><center><img src="sites/default/files/382/smoptions.png" style="width:543px;height:405px;" alt="image" title="image" /></center>
+
+<p>Po restarcie aplikacji klikamy &quot;Configure&quot; i przechodzimy do &quot;Speeds&quot; (powinny tam być wpisy &quot;Pwm1&quot; i &quot;Pwm2&quot; - w moim modelu są związane odpowiednio z wiatrakami CPU i GPU)</p>
+
+<p><center><img src="sites/default/files/382/smpwm.png" style="width:543px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ustawienia dotyczące naszych preferencji prędkości są zmieniane w &quot;Fan Control&quot;</p>
+
+<p><center><img src="sites/default/files/382/cpu1.png" style="width:518px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/382/cpu2.png" style="width:518px;height:405px;" alt="image" title="image" /></center>
+
+<p>Dodajemy tam nowy kontroler, wybieramy Pwm i temperatury które mają mieć wpływ na wiatrak, jak również podajemy przy jakich temperaturach powinna być zmieniana prędkość.</p>
+
+<p>Ważne jest tutaj zaznaczenie &quot;MAX of speeds&quot; (wtedy program będzie wybierał maksymalną prędkość z wartości ustawionych dla wszystkich czujników temperatury).</p>
+
+<p>Na rysunku jest tylko pewna propozycja - monitorowane są temperatury CPU i GPU.</p>
+
+<p>Można tutaj rozważyć ustawienie opcji &quot;Hystereris&quot; - po osiągnięciu przez wiatrak danej prędkości nie będzie ona zmniejszana dopóki temperatura nie spadnie o określoną w opcji wartość.</p>
+
+<p>Podobne ustawienia robimy dla drugiego wentylatora (znów - to są tylko pewne propozycje, które u mnie sprawdziły się całkiem dobrze, a do innych zastosowań mogą być niewystarczające).</p>
+
+<p><center><img src="sites/default/files/382/gpu1.png" style="width:518px;height:405px;" alt="image" title="image" /></center>
+
+<p>Następnie wchodzimy do Local Group Policy Editor (Edit Group Policy z menu Start).</p>
+
+<p><center><img src="sites/default/files/382/lgpe.png" style="width:491px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ustawiamy tam wyłączanie naszej kontroli przy wyłączaniu systemu</p>
+
+<p><center><img src="sites/default/files/382/logof.png" style="width:356px;height:405px;" alt="image" title="image" /></center>
+
+<p>i podobnie robimy dla jego startu (wszystko zadzieje się po logowaniu; pierwsza komenda to uruchomienie skrótu do SpeedFan).</p>
+
+<p><center><img src="sites/default/files/382/logon.png" style="width:356px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ostatnim krokiem będzie włączenie automatycznej kontroli prędkości w programie SpeedFan (Automatic fan speed).</p>
+
+<p><center><img src="sites/default/files/382/sfmain.png" style="width:347px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Podsumowanie&#160;</b></p>
+
+<p>Całość jest uruchamiana po logowaniu, nasze ustawienia działają również po standby. Po wylogowaniu SpeedFan ustawia wiatraki na 100%, a DellFanCmd przywraca kontrolę z BIOS.</p>
+
+<p>Nie mam problemów z funkcjami Fn+F11 i Fn+F12 ani żadnymi innymi. Jeżeli chcielibyśmy tego używać również po hibernacji, konieczne mogą być natomiast dodatkowe ustawienia typu zadanie Windows.</p>
+
+<p>Zauważyłem, że przez większą część spokojnej pracy przy obecnych temperaturach pokojowych temperatura CPU oscyluje normalnie w granicach 39 - 50 stopni, zaś GPU nagrzewa się do około 45 - 50 stopni.</p>
+
+<p>Widzę również, że wiatraki mają regulację skokową, a nie płynną (stąd takie zmiany w moich ustawieniach) i że po restarcie laptopa GPU ma kilka stopni więcej niż przed restartem (ciekawe).</p>
+
+<p>Sam SpeedFan również sprawił mi dużo problemów ze zrozumieniem zasad jego działania - jeszcze wczoraj napisałem:</p>
+
+<p><b><i>To dosyć daleko od wartości krytycznych, ale... nie do końca jestem przekonany jaki jest algorytm Speed Fan dotyczący nagłych zmian (na ile są one poprawnie przetwarzane czy ignorowane) i czy Speed Fan &quot;nie podkręca&quot; wiatraka na zapas (na wykresie w &quot;Fan Control&quot; np. widzę 50% prędkości wiatraka i dla podanych tam temperatur program potrafi ustawić 100%).</i></b></p>
+
+<p>Dzisiaj już po napisaniu i opublikowaniu wpisu widzę, że dodatkowym wymaganym ustawieniem jest zwiększenie wartości &quot;Warning&quot; dla wszystkich temperatur CPU - przy ich przekroczeniu program wydaje się ustawiać 100% niezależnie od sekcji &quot;Fan Control&quot; (ja zmieniłem to na 60 C).
+
+<p><center><img src="sites/default/files/382/Untitled.png" style="width:518px;height:405px;" alt="image" title="image" /></center>
+
+<p>Inną ciekawostką jest fakt obecności magistrali ISA (ilość archaicznych elementów w x86 jest jednak zbyt duża...).</p>
+
+<p>Podsumowując podsumowanie - rozwiązanie nie jest może idealne (być może pozostawię DellFanControl i użyję czegoś bardziej intuicyjnego zamiast SpeedFan), ale laptop już teraz stał się znacznie bardziej przyjemny w używaniu, bo w wielu momentach nie generuje pisku, a chłodzi się wyłącznie gdy tego naprawdę trzeba (przynajmniej tak wynika z odczytów).</p>
+
+<p><i>Mission complete.</i></p>
+
+<p>Oryginalny wątek dotyczący całości: <a href="http://forum.notebookreview.com/threads/dellfancmd-%E2%80%93-tool-to-enable-manual-custom-control-of-the-laptop-fans.827106/" target="_blank" rel="noopener" rel="nofollow">http://forum.notebookreview.com/threads/dellfancmd-%E2%80%93-tool-to-e...</a>&#160;</p>
+
+<p>PS. Sprawdzałem już Notebook FanControl (brak konfiguracji), HWInfo (niezbyt precyzyjna) i inne narzędzia...&#160;&nbsp;</p>

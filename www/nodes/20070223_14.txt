@@ -1,0 +1,88 @@
+﻿Title:MS Windows (2007)
+Author:marcin
+When:23 Feb 2007
+Taxonomy:English,Windows,Vista,English article,OS
+
+<p>These are my random thoughts about MS Windows for x86... IMHO, we can speak about few time periods:<br />
+--------------------<br />
+198x - Windows 1.x, 2.x<br />
+--------------------<br />
+1990 - Windows 3.0. First more widely accepted and used</p>
+<p>1992 - Windows 3.1 (Janus). Only protected mode, new: True Type fonts</p>
+<p>1993 - Windows 3.11. APM</p>
+<p>Summary: 16-bit time. Microsoft cooperated with IBM and there was OS/2 created during this time. First tries of making graphic subsystem (there was DirectX from it created). There were first network releases (Windows for WorkGroups).<br />
+--------------------</p>
+<!--break-->
+<table><tr><td>
+1993 - Windows NT 3.1. First "profesional line" version, interface like in Windows 3.0 - 3.11.
+<p>1994 - Windows NT 3.5 (Daytona)
+</p></td>
+<td></td>
+</tr><tr><td>
+1995 - Windows NT 3.51
+</td>
+<td>
+1995 - Windows 4.0.950 / 95 (Chicago). Milestone: 32 bit for "normal" people, Start button, TaskBar and other things.
+</td>
+</tr><tr><td>
+1996 - Windows NT 4.0 (Cairo). More widely used in many places, interface like in Windows 95. Quit good and stable for office work (although there are changed some architecture things since 3.51 like graphic driver layer).
+</td>
+<td>
+1996 - Windows 4.00.1111 / 95 OSR2 (Detroit): FAT32
+</td>
+</tr><tr><td>
+</td>
+<td>
+25 June 1998 - Windows 4.10.1998 / 98 (Memphis). Milestone: acceptable USB support, all Windows 95 fixes. First factory version with accelerated AGP support and ACPI. Wrong thing: (first time) big IE integration with system.
+<p>1999 - Windows 4.10.2222A / 98 SE. Mainly fixes.</p>
+<p>14 September 2000 - Windows 4.90.3000 / ME (Georgia). IMHO, not too popular, because it was based on old "Windows 95 - 98 SE" line, but had much less functionality.
+</p></td>
+</tr><tr><td colspan="2">
+<p>2000 - Windows NT 5.0 / 2000. Milestone: first try of connecting NT line with 95 line, many small issues for example connected with USB...</p>
+<p>2001 - Windows NT 5.1 / XP (Whistler). Milestone in good and wrong meaning. Especially after SP2 good and stable, when you don't install everything; SP2 adds for example Bluetooth. You have many things done double or more times - for example few user interfaces, logging windows, etc. sit in HDD and waste space. First time used activation and checking serial number during dowloading some patches.</p>
+<p>2002 - Windows XP Media Center Edition, Windows XP Tablet PC Edition</p>
+<p>2003 - Windows NT 5.2 / 2003. For servers</p>
+<p>2004(?) - Windows XP Started Edition. First release, where Microsoft cut off supported hardware and where product is for some markets only.</p>
+<p>2005 - Windows XP Pro X64. First 64-bit Windows version for x86. Created from 2003 version core, but named XP. Not too popular because of small amount of drivers and other issues (no 16-bit applications support).
+</p></td>
+</tr></table><p>Summary: started end of 16-bit time, domination of 32-bit code, started 64-bit era. Microsoft dominates. We had few unfinished projects here (like .NET)<br />
+---------------------</p>
+<p>2006/2007 - Windows NT 6.0 / Vista (Longhorn). Few notes:</p>
+<p>good</p>
+<ul><li>Microsoft moves graphic driver layer higher than kernel (similiar to NT 3.x ?). Less hangups, but also worse speed.
+</li><li>there are first tries of forcing user to forget about normal work in administator account (in XP you can use for example <a href="http://pcwelt-praxis.de/downloads/08-2006/pcwRunAs">RunAsGUI</a> for getting the same effect)
+</li><li>first Windows, which can look good on high resolution displays
+</li><li>first Windows with TCPIP6 stack
+</li><li>it looks, that fixes are differently integrated - maybe they won't need so much hdd space like now...
+</li><li>you have try of rating computer performance
+</li><li>you can set more options for power scheme (like brightness, max. cpu speed)
+</li><li>you can set delay boot for services
+</li><li>based on 2003 core
+</li><li>Aero is sometimes really nice
+</li></ul><p>wrong</p>
+<ul><li>a lot of place on HDD:
+<ul><li>much more things are done two or more times (classic interface, aero basic, aero, etc...), many dirs on HDD (boot, documents and settings, program files, program data, users, windows, $recycle.bin instead of recycler)
+</li><li>you still have many useless tools on hdd like notepad, wordpad
+</li><li>main system dirs have thousands of files inside (searching it need naturally time)
+</li><li>system is still monolitic and for example copies on notebook inf files for PCI cards...
+</li></ul></li><li>wasting resources:
+<ul><li><b>DRM. See for example <a href="http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html">Peter Gutmann text</a>, why it can be wrong.</b>
+</li><li>many things are still done as services - example, if you have BT device, BT service sit all the time in RAM (even when you will disable device)...
+</li><li>still big registry
+</li></ul></li><li>no changes in stability
+<ul><li>it still so stable like XP or even less
+</li><li>new system is still very buggy and in machine with 916 MB of RAM after short time there is free 1 MB (although in XP WITH antivirus there is normally 600 - 700 MB FREE)
+</li></ul></li><li>changed interface
+<ul><li>it breaks many known things. For example: many functions are in different places than in 95-XP (you can't find them), new network stack has different behaviors
+</li></ul></li><li>mess
+<ul><li>(too) many versions
+</li><li>Microsoft made Vista available for ordinary people 2 months after students and companies and it was very wrong. Mess in companies (they didn't work on drivers, because OS was not "released for users")
+</li><li>instead of making good architecture system (for example real sandboxes for programs and forcing them to saving all dirs, registry, etc. inside one directory like in <a href="http://www.sandboxie.com/">Sandboxie</a>) Microsoft adds much more and more things, which eliminate only results of wrong architecture...
+</li></ul></li><li>licensing
+<ul><li>no running lower versions in virtual computers (like VmWare) because of license
+</li></ul></li><li>small annoying glitches
+<ul><li>you can't kill "Safely remove hardware" icon and for example set "when there is new icon added to tray, it should ...." (you have setting for current icons only)
+</li><li>you still can't run few programs and you can't force, that programs on background will not go on top
+</li><li>it has less possibilities than XP. Example: you don't have info about battery ID for laptop, you don't have info about percentage in Defragmenter, setting startup menu need using TEXT tool bcdedit
+</li></ul></li></ul><p>Summary: it looks to be similar to ME (mainly bell and whistles). Some functions are interesting and good, but probably for many people XP will be much better. They need something more to be convinced, that Vista gives them something NEW (there are of course some security improvements, but in normal work more important are some other things like speed and similiar). IMHO, MS will prepare up to 2014 (time of XP death ?) new generation and people will like it more than Vista - there will be new drivers available, optimalisations done and bugs removed.</p>
+<p>From the second hand: Microsoft is much powerful now and marketing will do much more than few years earlier... Vista will be bought by programmers, etc. etc.</p>

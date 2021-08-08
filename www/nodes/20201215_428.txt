@@ -1,0 +1,72 @@
+﻿Title:Internet, jaki znamy, się kończy... nowe HTTP, czyli jedna z cichych rewolucji 2020 (2020)
+Author:marcin
+When:15 Dec 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Internet-jaki-znamy-sie-konczy-nowe-HTTP-czyli-jedna-z-cichych-rewolucji,112276.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dzisiaj dwa słówka o tym, jak wywołać sobie taki piękny obrazek:</p>
+<!--break-->
+<center><img src="sites/default/files/428/1.png" style="width:608px;height:233px;" alt="image" title="image" /></center>
+
+<p>Zacznijmy od tego, że dawno, dawno temu strony WWW były oczywiście bardzo proste, nienowoczesne, i w ogóle okropne. </p>
+
+<p>Jak wszyscy wiemy, powstawały kolejne wersje protokołu HTML, które opisywały treść dokumentów tekstowych do interpretacji i porządkowały to, co chociażby wyrabiał Netscape i Microsoft. </p>
+
+<p>W ten oto piękny sposób doszliśmy do HTML 5 (a nawet, jeśli spojrzeć na <a href="https://www.w3.org/TR/" target="_blank" rel="noopener" rel="nofollow">https://www.w3.org/TR/</a>, do HTML 5.3) i sytuacji, gdzie zamiast samych dokumentów z treścią mamy też arkusze stylów, pliki z JavaScript i różne inne elementy.</p>
+
+<p>Problemem jest w tym momencie fakt, że cały ten system nie zawsze pięknie pozwala opisać wygląd (coś, czego wielu użytkowników potrzebuje w pierwszej kolejności), natomiast niesie za sobą coraz większy bagaż kompatybilności wstecznej.</p>
+
+<p>Do tego dochodzą wszelkiego rodzaju reklamy, dodatkowe niewidoczne znaczniki, i nagle okazuje się, że wymieniamy znacznie więcej bajtów niż kiedyś (o wideo i Internecie Rzeczy nie trzeba chyba wspominać?)</p>
+
+<p>Rosnąca ilość urządzeń spowodowała, że IPv4 powoli zaczęto zastępować przez IPv6 (w bólach i w sposób widoczny dla użytkowników).</p>
+
+<p>Żeby nadążyć za rosnącymi potrzebami, trzeba było jeszcze pomajstrować przy kolejnej warstwie. </p>
+
+<p>Po opartym na TCP protokole HTTP/1.0 przyszła kolej na HTTP/1.1 (tu rozwój zatrzymał się w 2014, jeśli dobrze widzę na <a href="https://www.w3.org/Protocols/" target="_blank" rel="noopener" rel="nofollow">https://www.w3.org/Protocols/</a>). </p>
+
+<p>Jedną z głównych zmian było dodanie tzw. pipelingu - zamiast sekwencji &quot;pytanie o plik w połączeniu TCP-odpowiedź&quot; (ułożonych jedna za drugą), pozwolono tam na równoczesne nawiązanie kilku połączeń TCP i wysyłanie zapytań o kilka plików bez czekania na odpowiedź (przy czym odpowiedzi z serwera musiały przyjść w tej samej kolejności co zapytania). Nie wszystkie przeglądarki to wspierały z uwagi na problemy techniczne (<a href="https://en.wikipedia.org/wiki/HTTP_pipelining" target="_blank" rel="noopener" rel="nofollow">więcej</a>).</p>
+
+<p>W 2015 pojawiło się HTTP/2.0 będące niejako odpowiedzią na protokół SDPY Google, w którym dodano możliwość pobierania wielu plików przez jedno połączenie TCP, czyli tzw. multiplexing (co ważne, nie liczyła się już kolejność wysyłania odpowiedzi przez serwer)</p>
+
+<p>Inną zmianą było chociażby możliwość nadawania priorytetu plików, powiadomienia typu push (po rejestracji to serwer wysyła informację), kompresja nagłówków i kodowanie binarne przesyłanych plików HTML.</p>
+
+<p>To w wielu przypadkach przyspieszyło wczytywanie stron internetowych, teraz jednak postanowiono pójść dalej i zdefiniowano HTTP/3 bazujący na protokole QUIC od Google. </p>
+
+<p>Główną zmianą jest używanie połączeń UDP zamiast TCP, co w wielu uproszczeniu oznacza komunikację typu &quot;wysyłamy coś i nie martwimy się, czy doszło - odbiorca najwyżej poprosi jeszcze raz&quot; zamiast &quot;nawiązujemy połączenie z upewnieniem się, że połączenie jest nawiązane&quot;.</p>
+
+<p>Dzięki tej zmianie utrata chociażby jednego pakietu w połączeniu TCP nie blokuje na pewien czas całej transmisji.</p>
+
+<p>Kolejną nowością są nowe standardy szyfrowania - przeglądarki w HTTP/2 miały do wyboru wersję &quot;z&quot; i &quot;bez&quot; szyfrowania (i co trzeba zaznaczyć, implementowały HTTP/2 przez TLS), tutaj zakłada się generalnie zawsze używanie szyfrowania (choć w pewnych wypadkach mogłoby być wyłączone).</p>
+
+<p>Na każdej platformie mamy już eksperymentalną obsługę nowego protokołu. Apple zdaje się włącza go na stałe w Big Siur i iPhone, można go też mieć w Firefox i Chromie (w pierwszej przeglądarce w <a href="#" target="_blank" rel="noopener" rel="nofollow">about:config</a> włączamy parametr z końcówką http3, w drugiej w <a href="#" target="_blank" rel="noopener" rel="nofollow">chrome://flags</a> eksperyment z nazwą QUIC).</p>
+
+<center><img src="sites/default/files/428/2.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Działa? Działa.</p>
+
+<center><img src="sites/default/files/428/3.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Żeby jednak nie było wątpliwości - błąd 400 pochodzi z desktopowego Firefoxa i widzę go dosyć często po włączeniu HTTP/3 na YouTube.</p>
+
+<p>Nowość wymaga jeszcze doszlifowania i pewnie dlatego nie jest domyślnie włączana. Na różnych stronach można znaleźć informacje, że przyspiesza ładowanie stron do ok. 10% za cenę większego zużycia RAM i CPU na serwerach (co nieco może zabrać też po stronie klienta).</p>
+
+<p>Czy warto?</p>
+
+<p>Google mówi, że tak... i ja akurat w to wierzę. Myślę przy tym jedno - jest to rewolucja, ale... większą rewolucją jest używanie przeglądarki z porządnym ad-blockerem, który pewnie zmniejszy ruch znacznie bardziej niż HTTP/3 (do tego warto myśleć o prywatności i włączyć HTTPS dla DNS i własnego User-Agent, co np. na Androidzie jest możliwe w Bromite).</p>
+
+<p>I jeszcze jakieś linki (a co sobie żałować):</p>
+
+<p><a href="https://blog.cloudflare.com/introducing-http2/" target="_blank" rel="noopener" rel="nofollow">https://blog.cloudflare.com/introducing-http2/</a></p>
+
+<p><a href="https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/" target="_blank" rel="noopener" rel="nofollow">https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/</a></p>
+
+<p><a href="https://blog.cloudflare.com/http-3-vs-http-2/" target="_blank" rel="noopener" rel="nofollow">https://blog.cloudflare.com/http-3-vs-http-2/</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank" rel="noopener" rel="nofollow">https://en.wikipedia.org/wiki/HTTP/2</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/HTTP/3" target="_blank" rel="noopener" rel="nofollow">https://en.wikipedia.org/wiki/HTTP/3</a></p><p><a href="https://en.wikipedia.org/wiki/QUIC" target="_blank" rel="noopener" rel="nofollow">https://en.wikipedia.org/wiki/QUIC</a></p>
+
+<p><a href="https://www.fastvue.co/fastvue/blog/googles-quic-protocols-security-and-reporting-implications/" target="_blank" rel="noopener" rel="nofollow">https://www.fastvue.co/fastvue/blog/googles-quic-protocols-security-an...</a></p>
+
+<p>i mój ulubiony <a href="https://nodejs.org/api/quic.html" target="_blank" rel="noopener" rel="nofollow">https://nodejs.org/api/quic.html</a>&#160;&nbsp;</p>

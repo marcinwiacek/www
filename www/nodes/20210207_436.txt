@@ -1,0 +1,103 @@
+﻿Title:Jestem przegrywem... i dobrze mi z tym? (2021)
+Author:marcin
+When:7 Feb 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Jestem-przegrywem-i-dobrze-mi-z-tym,113196.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Ostatnio zdarzyło mi się pisać na swoim blogu przynajmniej dwa razy o tym, że produkowanie np. laptopów stało się celem samym w sobie:</p>
+
+<p>1. <a href="?q=node/429">Do wyboru, do koloru...</a> a i tak nie ma z czego wybrać (2020 / 2021)</p>
+
+<p>2. <a href="?q=node/435">Kapitalizm wyczerpania na przykładzie zakupu</a> najprostszego laptopa do najprostszych rzeczy</p>
+
+<p>Mamy dziesiątki czy setki modeli... ale ciężko jest znaleźć taki, który pozwoli się skupić na tak podstawowym zadaniu jak pisanie tekstów (w taki sposób, żeby samo urządzenie stało się tak nieistotnym dodatkiem jak długopis czy pióro).</p>
+
+<!--break-->
+
+<center><img src="https://gallery.dpcdn.pl/imgc/UGC/101209/g_-_608x405_-_-_x3060a865-fd2e-4321-b7ba-a5c64bda89f8.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+
+<p>Zdarzały się głosy rozsądku, np.</p>
+
+<p>&quot;A zobacz Dell Latitude 7390 / 7490 - zależy jaki rozmiar matrycy preferujesz. Wersje bez dotyku rozkładają się &quot;prawie&quot; na płasko&quot;</p>
+
+<p>albo</p>
+
+<p>&quot;Jak ma być maszynka do pisania i konsumpcji, to po co x86. Mi się podoba sosenka: <br/>
+<a href="https://www.pine64.org/pinebook-pro/" target="_blank" rel="noopener" rel="nofollow">https://www.pine64.org/pinebook-pro/</a>&quot;</p>
+
+<p>albo</p>
+
+<p>&quot;Sam szukam teraz 17 calowego i znam ten ból. Znalezienie dokładnych parametrów wyświetlacza graniczy z cudem&quot;</p>
+
+<p>Sam pisałem przez lata nawet na szrocie (np. godzinami patrzyłem w monitory CRT). Da się, nie oznacza to jednak, że jest to dobre. Nie chodziło mi przy tym o wywołanie żadnej krucjaty ani pisanie &quot;kiedyś to lepiej było&quot;, ale wskazanie, że obecnie w pewnych dziedzinach nie chodzi już o tworzenie urządzeń dla ludzi, ale o samo tworzenie dla tworzenia. Oczywistym jest, że tak działa postęp (tzn. wypróbowywane są kolejne opcje), jednakże równocześnie daje się zauważyć bardzo mocno, że nawet złe rozwiązania są klonowane właściwie w nieskończoność.</p>
+
+<p>Odsyłam znów do kilku wpisów blogowych, które popełniłem:</p>
+
+<p>1. <a href="?q=node/434">Jabłka niestrawne są &quot;by design&quot;?</a> (o tym, że właściwie bez zająknięcia zaczynamy zgadzać się na używanie urządzeń, które z punktu widzenia sztuki są niebezpieczne)</p>
+
+<p>2. <a href="?q=node/433">Mordercze jabłka (i nie tylko)</a>... czyli jednak elektronika jest niebezpieczna (nie o laptopach, ale ze wskazaniem, że również np. wyłączanie rozruszników serca przez elektronikę użytkową stało się OK)</p>
+
+<p>3. <a href="?q=node/432">Intel Evo - idź na drzewo?</a> (zróbmy sobie kolejną certyfikację, która tak naprawdę nie rozwiąże problemów najważniejszych)</p>
+
+<p>4. <a href="?q=node/430">Rewolucja zjada swoje dzieci</a>... czyli o grzałkach Intela [+ dwa słowa do różnych wydarzeń] (standardem stało się nagrzewanie procesorów w laptopach aż do throttlingu, co zresztą wpływa nie tylko na nie, ale również na płytę główną, baterię, etc.)</p>
+
+<p>5. <a href="?q=node/426">Bo każdemu wystarczy 640 kB... </a>(jak ładnie i ślicznie marnowana jest energia w naszych przenośnych gadżetach)</p>
+
+<p>To tylko kilka przykładów. Chciałbym zadać pytanie retoryczne - czemu albo komu to służy? Myślę, że nie jestem jedynym, który przy tej okazji twierdzi, że obecny tzw. &quot;kapitalizm&quot; zapada się w sobie.</p>
+
+<p>Można powiedzieć że laptopy na rynku są jakieś plus minus 30 lat. Przez ten czas co roku słychać o coraz lepszych rozwiązaniach. TDP procesora przynajmniej na papierze zmniejszało się do 45, obecnie w wielu wypadkach do 15 albo nawet 6 watt. Zmniejszała się również grubość, to fakt, ale czy jednak naprawdę przez 30 lat nie można było opracować przynajmniej jednego referencyjnego rozwiązania, które będzie radzić sobie z szybkim odprowadzaniem ciepła? Nie można, czy nikt nie ma w tym interesu?</p>
+
+<p>Można chyba podzielić duże grzejniki na mniejsze (płyty wieloprocesorowe nie są jakimś wielkim wymysłem) i wstawić ich np. przy krawędzi obudowy, a nie w środku. Albo dodać radiatory separujące wszystkie gorące elementy od pozostałych części. Nie jestem inżynierem projektującym tego typu rzeczy, ale...</p>
+
+<p>To tylko jedno z moich wymagań. Czy o tak dużo proszę mówiąc o ekranie, na którym chcę widzieć obraz, a nie siebie? Albo o baterii, która zwłaszcza za rok ma mi dać te kilka chwil? (warto dodać, że niektórzy producenci gwarantują tylko 100 cykli ładowania-rozładowania)</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/uKbuFYd468w?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Czasami mam wrażenie, że część komentujących chce tkwić w skansenie wsi radomskiej, znanym sobie środowisku, w którym Windows jest cacy, Linux be, a Apple to niedościgniony symbol luksusu. Dla takich ludzi kupienie jakiegoś tam gadżetu stało się obsesją i szczytem marzeń... bo wszystko, co amerykańskie, jest najlepsze.</p>
+
+<p>Pisałem już trochę o naszej bylejakości (<a href="?q=node/431">Jesteśmy debeściaki...</a> albo <a href="?q=node/396">Hey Joe! Potrzymaj mi piwo</a>), świat tymczasem poszedł mocno do przodu. Rosjanie, Chińczycy, Korea i Amerykanie walczą ze sobą w cichej wojnie elektronicznej... marnotrawią zasoby np. na kopanie walut (np. <a href="https://antyweb.pl/ethereum-jest-tak-drogie-ze-w-chinach-kopia-nawet-na-notebookach/" target="_blank" rel="noopener" rel="nofollow">na laptopach z RTX 30</a>) i robią wiele innych rzeczy, do których najwyraźniej nie dorośliśmy.</p>
+
+<p>Przykładowo <a href="https://www.zdnet.com/article/open-source-google-wants-new-rules-for-developers-working-on-critical-projects/" target="_blank" rel="noopener" rel="nofollow">Google zaczyna otwarcie mówić</a>, że krytyczne projekty Open Source wymagają &quot;większej kontroli&quot;. I z jednej strony postulaty typu konieczność wykonania dwóch oddzielnych przeglądów kodu przy commit wydają się być słuszne, z drugiej strony czy w ten sposób nie próbuje się bardziej wpływać na rozwój tego, czego jeszcze korporacja nie zawłaszczyła?</p>
+
+<p>To są ważne sprawy.</p>
+
+<p>A u nas co? Np. twierdzenie, że ekrany w MacBookach są matowe. Albo taplanie się, za przeproszeniem, w gnoju (&quot;Nie zrobię nic własnego, ale do krytyki to jestem pierwszy...&quot;).</p>
+
+<p>Może i nie piszę najlepszego bloga, ale przynajmniej próbuję, i zamiast tkwić w epoce kamienia łupanego chcę coś przekazać.</p>
+
+<p>Bądźmy w tym momencie świadomi czterech rzeczy:</p>
+
+<p>1. mądre komentarze nakręcają ludzi do tworzenia; jak tworzą, to piszą coraz lepsze wpisy blogowe; lepsze wpisy nakręcają lepsze komentarze, itd. Itd.</p>
+
+<p>2. ludzie, którzy są świadomi, nie dadzą sobie tak łatwo wcisnąć syfu</p>
+
+<p>3. zakup/wybór programu czy sprzętu wiąże się ze wspieraniem tego czy innego systemu politycznego z jego wadami i zaletami (ChRL, Amerykanów, kapitału tajwańskiego czy innego)</p>
+
+<p>4. unikanie trudnych tematów nie spowoduje, że znikną</p>
+
+<p>Myślę, że czas skończyć z tą mentalnością rodem z 1989, że wszystko, co z zachodu, jest najlepsze. Zacznijmy od tego video od około 1:42:06</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/psL_5RIBqnY?t=6122&controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Podstawka za 999 USD?</p>
+
+<p>Wczoraj sobie przeczytałem, że za wypożyczenie zestawu developerskiego do M1 Apple policzyło sobie 500 USD (200 USD można ewentualnie &quot;odzyskać&quot; kupując jeden z produktów firmy). Urządzenia nie są najwydajniejsze i pewnie nikt z nich nie będzie korzystał / pójdą od razu na złom - nie można było ich pozostawić u developerów?</p>
+
+<p>Możnaby sobie pomyśleć, że to tylko element budowania iluzji marki &quot;premium&quot;. Tak pewnie zrobią miłośnicy firmy, którzy (najczęściej za darmo) będą bronić jej do upadłego.</p>
+
+<p>OK, rozumiem, że ktoś uzależniony od czegoś będzie mówił, że wszystko jest w porządku. To naturalna obrona, która pomaga nam znaleźć uzasadnienie np. do wydania absurdalnych kwot za coś, co nie jest tego warte.</p>
+
+<p>Ciężko jest przyznać się, że jest się przegrywem, prawda? </p>
+
+<p>Ja sam, gdybym miał wydac 475 USD za podpięcie wtyczki, to na pewno bym się mocno wkurzył:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/K1A9y4S60kg?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p><a href="?q=node/423">Wskazywałem np. na pewne braki</a> funkcjonalne laptopów z M1, wskazywałem też wielokrotnie na <a href="?q=node/402">problem ciszy czy złego obrazu</a>. Może i nie zrozumie tego ten, kto ma lat 20 i cieszy się doskonałym zdrowiem... ale proszę nie powielać chamstwa i zawsze równać w górę (chciałbym zacytować wielu ludzi, ale dla fanów jabłek specjalnie ten wykład):</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/UF8uR6Z6KLc?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Powiedziałbym, że w dzisiejszych czasach <a href="?q=node/403">przekręty na kupowanie wieży Eiffla są na porządku dziennym</a>. Producenci coraz bardziej mają nas w poważaniu (Exynosy Samsunga, nawet w serii 21; ciche zamienianie komponentów względem egzemplarzy wysyłanych do testerów; sposonsorowane recenzje, itd. itd.), <a href="?q=node/411">testowanie również zeszło na psy</a>. I o tym trzeba mówić głośno, dopóki można... to nie boli.</p>
+
+<p>Dziękuję.&#160;&nbsp;</p>

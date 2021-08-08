@@ -1,0 +1,15 @@
+﻿Title:Report 2009-02-09
+Author:marcin
+When:09 Feb 2009
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Few notes:</p>
+<h2>gammu.org</h2>
+<p>Will be payed by me for next year, I will do some wiki updates soon. If you want something else, please let me know. For now you can read various notes about Windows 7 in <a href="?q=book">Articles section</a>.</p>
+<h2>gammu+</h2>
+<p>I have moved 0.40.02 tarball to <a href="/zips/gsm/gplus/src_0_4x/">mwiacek.com</a></p>
+<!--break-->
+<p>I'm very happy from Gammu growing, but I still don't like some solutions inside (it's a little "bloated" now in my opinion). Because of it I will do some updates for Gammu+ - in previous week I updated compilation for current Mandriva, yesterday and today I was improving getting multiple files, I will add all functionality to command line now, etc. etc. wxDev became dead end, but we have KDE on LGPL now and maybe it will be possible to make portable GUI using it in the nearest future. Maybe somebody will be interested in it then - it already has many things done much more generic than in Gammu.</p>
+<p>I would like to make this work my main work, but hmmm it' not possible probably now and this is "after hours" work.</p>
+<p>About phones - as said, I don't have any new phone since longer time. Maybe, when Nokia will release N6700 or other nice phone and it will be cheap ?</p>

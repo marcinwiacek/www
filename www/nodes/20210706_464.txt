@@ -1,0 +1,64 @@
+﻿Title:W poszukiwaniu największego przekrętu ostatnich lat (2021)
+Author:marcin
+When:6 July 2021
+Taxonomy:polski,polski blog,salon24.pl,x86,Apple,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1148554,w-poszukiwaniu-najwiekszego-przekretu-ostatnich-lat>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Część z nas się zapewne śmieje, gdy czyta reklamy typu „Procesor Intel! Karta GeForge!” (które bez podania dziesiątek parametrów tak naprawdę nic nie mówią). Od czasu do czasu zdarza mi się pisać o tym, jak w dzisiejszych czasach sprzedaje się chłam, a my się na to nabieramy (<a href="http://mwiacek.com/www/" target="_blank" rel="nofollow noopener">miałem cykl artykułów na poprzednich blogach</a>, <a href="?q=node/403">był tekst „Kup pan wieżę Eiffla”</a>, <a href="https://www.salon24.pl/u/techracja/" target="_blank">jest też sporo w samej TechRacji</a>).</p>
+<p>Dzisiaj jednak czas na coś więcej, czyli kolejna próba wytypowania przekrętów największych z największych.</p>
+<p>Moje cztery typy poniżej.</p>
+<!--break-->
+<h3><b>Trusted Computing (m.in. problem Intel ME i wyłączonego komputera) </b></h3>
+<p>Używanie systemów komputerowych powinno być bezpieczne, czyli nie powinni mieć do nich dostępu żadni niepożądani użytkownicy. Dawno temu (coś około 1999) grupa wielkich producentów skupiona w Trusted Computing Group wykuła termin „trusted computing”, który oznaczał mniej więcej tyle, że każde uruchamiane oprogramowanie jest sprawdzane pod kątem integralności i nieautoryzowanych zmian.</p>
+<p>Idea szczytna, niestety przy jej omawianiu najczęściej zapomniano wspomnieć, że to, co jest nieautoryzowane, określały wielkie korporacje (jak podaje Wikipedia: „TC is controversial as the hardware is not only secured for its owner, abut also secured against its owner”).</p>
+<p>Przez wiele lat mieliśmy wszelkiego rodzaju protesty (stąd również tak powolne wdrażanie Visty), i określenia typu „<strike>Safe</strike> Secure Boot” czy „TPM” aż do 2021 były obce tak wielu użytkownikom (obecnie zaś wszyscy nietechniczni na gwałt szukają informacji o nich, bo przecież jaśnie oświecony król Windows 11 będzie ich wymagał, i choć okazało się, że nie wymagał, a może tylko czasami sprawdzał ich obecność, to mleko i tak się rozlało…)</p>
+<p>Jak wspomniałem idea z założenia jest zacna – problem w tym, że zgodnie z nią wszystkie elementy sprzętowo-programowe mają dbać o nas… choć działają na sprzęcie, na którym jest wiele różnych bocznych wejść (to tak, jakby zamontować drzwi antywłamaniowe, ale zostawiać klucz pod wycieraczką).</p>
+<p>Zacznijmy od największego problemu - w każdym, ale to każdym nowym x86 z procesorem Intela (nawet tych z tanimi procesorami typu Pentium N5000) jest wbudowany oddzielny procesor w technologii ARM, na którym działa własnościowe oprogramowanie tej firmy. Początkowo przewidziane dla systemów, które wymagają zdalnego zarządzania, obecnie znajduje się wszędzie. Ciekawym faktem jest, że użytkownicy nie do końca wiedzą, co i jak robi, a do tego nie mają narzędzi do jego aktualizacji.</p>
+<p>Jeżeli w ogóle mówimy o Intelu, to podobna historia jest z błędami procesorów tej firmy – jeżeli microcode nie został dostarczony przez BIOS, to w najbardziej popularnym Windows może pojawić się nawet po pół roku. Ot takie łatanie, żeby nie łatać (z Ryzenami jest trochę lepiej, ale podobnie).</p>
+<p>Należy tu wspomnieć też kwestię UEFI. Oprogramowanie, które początkowo służyło wyłącznie do inicjalizacji sprzętu, obecnie rozrosło się tak bardzo, że chyba nie wszyscy do końca ogarniają, co i jak ono robi.</p>
+<p>Przypomnijmy sobie jeszcze standard ATX wprowadzony w 1995, czyli roku, gdy na rynek wchodził Windows 95. W standardzie tym jest taka mała drobna funkcjonalność o nazwie</p>
+<p>Soft Power (kontrola zasilania komputera z poziomu systemu operacyjnego). Bardzo dobra funkcja, ale obecnie w praktyce po „wyłączeniu” każdego laptopa czy IBM PC ma on ileś układów pod napięciem. Sam ostatnio byłem zaskoczony, gdy w BIOS taniego Mediona zobaczyłem funkcję „Ship Mode”, której działanie polega (o ile dobrze zrozumiałem) na tym, że sprzęt jest wyłączany „naprawdę”. Funkcji nie można było włączyć na stałe, i szczerze mówiąc ogólnie jestem mocno zniesmaczony widząc, że po naładowaniu baterii praktycznie każdego laptopa i przejściu w stan czuwania / „wyłączenia” tak szybko znika z niej energia (ogólnie wydaje się być winny temu sposób implementacji idei ATX czy Intel ME, dodatkowo w Acerze Swift 1 wybitnie przyczynia się do tego mrugająca na bursztynowo dioda).</p>
+<p>Jak więc wygląda dzisiejsze Trusted Computing w praktyce?</p>
+<ol>
+<li>Intel coś publikuje i potem producenci płyt głównych / laptopów muszą przygotować aktualizacje – czasem trwa to miesiąc, czasem kilka miesięcy, a czasem nie jest robione nigdy (problemu by nie było, gdyby firmware można było sobie szybko i łatwo uaktualnić paczką ze strony Intela)</li>
+<li>Nikt do końca nie wie, co jest zaszyte w sprzęcie</li>
+<li>Sprzęt działa nawet wtedy, gdy jest „wyłączony”</li>
+<li>W przypadku Secure Boot (funkcji pozwalającej na start tylko „zaufanego” systemu operacyjnego) nie wszystkie „darmowe” systemy są z nią zgodne, gdyż nie dostają błogosławieństwa bodajże od Microsoft – czy nie brzmi to jak piękny przepis na eliminowanie konkurencji?</li>
+</ol>
+<p>Ode mnie nominacja ze względu na mistrzowskie przekręcenie znaczenia słowo „trusted” (rodem z Orwella).</p>
+<p>A skoro ten Trusted jest taki trusted, to czy ktoś ma jeszcze ochotę na Always ON PC albo analogiczne rozwiązanie od Apple?</p>
+<h3><b>M1 </b></h3>
+<p>A właśnie – Apple.</p>
+<p>Firma, o której się dużo mówi. Firma, która jako pierwsza pokazała naprawdę udane układy ARM w technologii 5 nm. I firma, która pierwsza na tak masową skalę wprowadziła ideę Trusted Computing w jej najgorszej postaci - mówię o chipie T2, wysyłaniu informacji o tym, jaki program jest uruchamiany, itp. (z punktu widzenia niektórych specjalistów od bezpieczeństwa jest ogromny problem z przeprowadzeniem jakiegokolwiek sensownego zewnętrznego audytu całości)</p>
+<p>Teoretycznie wszystko z M1 jest jak należy… ale nie można tam zmienić dysku ani RAM. Oczywiście ktoś może dodać, że przecież przy zakupie można wybrać, co się chce. Pomińmy cenę, i skupmy się na tym co najważniejsze:</p>
+<ol>
+<li>wielu będzie wybierać najtańsze kombinacje dysk 256 GB + 8 GB RAM (to oznacza większe wykorzystanie swap)</li>
+<li>układy przez wielu będą wykorzystywane do obróbki dużej ilości danych (filmy, itp.), a to oznacza, że dyski w nich będą się szybko zużywać</li>
+<li>obecność SSD o niewiadomej trwałości jak jakby nieprofesjonalna… ale nawet nie to się liczy – najważniejszy jest fakt, że w przypadku uszkodzenia sprzętu nie można sobie ot tak wyjąć dysku (według oficjalnej wykładni najlepiej jest używać chmury, a jak to się kończy, to chyba wszyscy wiemy)</li>
+</ol>
+<p>Do tego dochodzi fakt, że duża wydajność bywa ograniczona (w przypadku MacBook Air w sposób jasny dla użytkowników, zaś w przypadku iMac z 7-rdzeniami GPU jest to zakamuflowane).</p>
+<p>Czy nie jest to wspaniała sprawa? Z jednej strony rodzina M to prawdopodobnie największe osiągnięcie ostatnich lat. Otrzymujemy układ szybszy od konkurencji (obecnie tak jest, w pełni będzie można to ocenić, gdy inni przejdą na 5 nm), ale z założonym z góry niewiadomym licznikiem zużycia, pełną kontrolą korporacji i przynajmniej w dwóch przypadkach zaciągniętym hamulcem ręcznym. I ludzie tego pragną. Genialne.</p>
+<h3><b>Windows </b></h3>
+<p>Stara zasada mówi, że im więcej kodu, tym więcej potencjalnych błędów. Problemem Windows jest to, że z każdą kolejną wersją obrasta w cyfrowy tłuszcz. Karykaturalnie rozumiana kompatybilność powoduje, że dostajemy komponenty, o których nawet producent pisze, że są niebezpieczne w użyciu.</p>
+<p>Smutne wydaje się to, że tak wielu użytkowników ciągle wierzy w gwiazdę Microsoftu, a ten w 2021 roku ma czelność żądać 64 GB dysku na obsługę tak podstawowych czynności, jak uruchamianie programów, obsługa systemu plików (NTFS, który ma już jakieś 20 lat) i kilka innych detali.</p>
+<p>Z każdą kolejną generacją Windows NT narzekamy na wolne działanie, błędy, wirusy, itp., ale wciąż wpadamy w tę samą pułapkę, i można powiedzieć, że pod tym względem jest to największy przekręt programistyczny wszech czasów (nie zmienia to faktu, że Microsoft oczywiście dokłada też różne warstwy zabezpieczeń).</p>
+<h3><b>Gwarancja </b></h3>
+<p>Użytkownik, któremu zepsuje się jakiś produkt, może wysunąć pewne roszczenia w stosunku do producenta lub sprzedawcy.</p>
+<p>Pierwsza możliwość jest dobrowolna, i niestety często można się tu spotkać z tym, że producenci starają się nic nie robić. Przykłady:</p>
+<ul>
+<li>jeżeli w urządzeniach zabarwią się specjalne kropki (teoretycznie mówiące, że zaszedł kontakt z cieczą), to gwarancja jest automatycznie anulowana – dotyczy to również sprzętu z teoretycznie gwarantowaną normą IP</li>
+<li>jeżeli „dysk” SSD zapisał więcej danych niż określono parametrem TBW, gwarancja się kończy (co ciekawe, w przypadku dysków w laptopach często brak jakiejkolwiek informacji na ten temat) – ciekawą kwestią jest to, na ile licznik jest dokładny</li>
+<li>Nvidia swego czasu próbowała anulować gwarancji w przypadku używania kart 24h na dobę</li>
+</ul>
+<p>Gwarancja do bramy, potem się nie znamy?</p>
+<p>W różnych wypadkach bardziej opłaca się korzystać z rękojmi (zgodnie z nią wada ujawniona w czasie pierwszego roku od zakupu istniała w momencie zakupu, w okresie 12-24 miesięcy konsument musi udowodnić jej istnienie w momencie zakupu), która jest odpowiedzialnością sprzedawcy. Ma on na rozpatrzenie roszczenia 14 dni kalendarzowych, z kolei kupujący po ujawnieniu wady ma rok na złożenie informacji o niej i żądanie zadośćuczynienia:</p>
+<ul>
+<li>obniżenia ceny lub</li>
+<li>usunięcia wady lub</li>
+<li>wymiany na wolną od wad lub</li>
+<li>odstąpienia od umowy (w przypadku wad istotnych, nie pozwalających na używanie rzeczy zgodnie z jej przeznaczeniem)</li>
+</ul>
+<p>Tak to wygląda w największym skrócie (są jeszcze oczywiście inne przepisy).</p>
+<p>Załóżmy, że coś kosztowało 4000 PLN, a teraz kosztuje 10000 PLN (np. karta graficzna). Jeżeli skorzystamy z gwarancji, to może się okazać, że dostaniemy zwrot na kwotę 4000 PLN.</p>
+<p>Przy rękojmi może to zadziałać w drugą stronę (piszę może, bo są też oczywiście odstępstwa) - załóżmy, że coś kosztowało 4000 PLN, i prawie po dwóch latach się zepsuło. Koszt nowego przedmiotu to 1000 PLN, a my możemy prosić o zwrot 4000 PLN.</p>
+<p>Z jednej strony dzięki takim przepisom koszt prowadzenia biznesu może być ogromny, z drugiej strony czy gwarancje i ich wykluczenia (gwarancji nie podlega…) nie mogą być doskonałym kandydatem na przekręt stulecia?</p>

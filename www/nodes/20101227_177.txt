@@ -1,0 +1,337 @@
+﻿Title:Galaxy S - czeskiego filmu ciąg dalszy ? (2010, wersja 1.02)
+Author:marcin
+When:27 Dec 2010
+Taxonomy:Polski,benchmark.pl,GSM,Polski artykuł,OS,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wcześniejsza wersja poniższego tekstu została wpierw <a href=http://www.benchmark.pl/mini-recenzje/Galaxy_S_-_czeskiego_filmu_ciag_dalszy_.-3528.html>opublikowana w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><a href="?q=node/171">O europejskiej wersji tego telefonu pisałem już wcześniej</a> - większość egzemplarzy była sprzedawana z Androidem 2.1, a uaktualnienie do wersji 2.2 było bardzo oczekiwane przez wielu użytkowników od kilku miesięcy.</p>
+
+<p>Co producent już je dostarczył ? Jak działa ?</p>
+<!--break-->
+
+<p><font size="+2">Dostępność</font></p>
+<p>Modeli z rodziny Galaxy S jest kilka (niektóre mają np. klawiaturę sprzętową, w innych domyślnie brakuje frontowej kamery do wideorozmów).</p>
+<p>Oprogramowanie do poszczególnych ich wariantów sprzedawanych w różnych krajach jest identyfikowane przez tzw. Product Code. I tak np. wersja z brandingiem polskiej Ery ma oznaczenie GT-I9000HKDERA, z Plusa to GT-I9000HKDPLS, z Orange GT-I9000HKDIDE, a wariant polski bez brandingu to GT-I9000HKDXEO.</p>
+<p>W polskim Internecie bardzo dużo się mówi również o GT-I9000HKDXEU (wersja niebrandowana brytyjska). Dlaczego ? Zawiera język polski, a nawet ustawienia charakterystyczne dla wariantu XEO czyli niebrandowanego polskiego (mówiąc bardziej precyzyjnie - w firmware z każdym Product Code mamy różne  Sales Code i GT-I9000HKDXEU zawiera odpowiednio Sales Code równe XEU,  XEO, KOR, DBT i CPW).</p>
+<p>Przy próbie wykrycia obecności uaktualnienia oficjalna firmowa aplikacja Samsunga (Kies) łączy się z serwerem firmy i sprawdza, czy dla określonych Product Code oraz numerów wersji wgranych w telefonie trzech modułów (PDA, Phone i CSC) istnieje możliwość uaktualnienia (Sales Code wybrany z części CSC oprogramowania prawdopodobnie nie jest w ogóle wykorzystywany).</p>
+<p>Jak dotąd Samsung przygotował i udostępnił Froyo (Androida 2.2) dla wielu wariantów (ale niestety nie wszystkich).</p>
+<p>I tak od 9 listopada odpowiednia paczka dostępna jest z brandingiem Ery (Product Code GT-I9000HKDERA) dla modułów oprogramowania wyłącznie w kombinacji wersji I9000XWJFB/I9000OXX/I9000XXJF5. Obecnie są jeszcze co najmniej dwie inne wersje systemu 2.2 z polskim językiem - dla GT-I9000HKDXEU i GT-I9000HKDXEE (ta ostatnia to wersja niebrandowana skandynawska). Niestety (pomimo że są OFICJALNE) zawierają pewne błędy - i tak np. <strong>telefon z ROM JPO dla GT-I9000HKDXEU restartuje się, gdy włączony jest właśnie ten język, budzik i podłączona jest ładowarka</strong>.</p>
+
+<p>Od kilku dni jest też inna alternatywa - Froyo w wersji 2.2.1 dostępne dla wariantu GT-I9000HKDXEU. Zastanówmy się, jak wygląda uaktualnienie Galaxy z Androida 2.1 właśnie do 2.2.1 i czy warto. Wykorzystamy oficjalnego Kiesa (nie użyjemy aplikacji Odin będącej chyba znacznie lepszym wyborem ale wyglądającej chyba na "wyciek" z Samsunga oraz nie użyjemy aplikacji Hemdall będącej programem typu Open-Source)</p>
+<p>Moja ocena: 4/10 (zbyt dużo niejasności i opóźnień)</p>
+<p><font size="+2">Instalacja</font></p>
+<p>Wpierw konieczne jest zainstalowanie aplikacji Kies w ostatniej wersji. Dalej powinno być łatwo - po naładowaniu baterii, podłączeniu telefonu do komputera i włączeniu Kiesa użytkownik powinien zobaczyć informację o aktualizacji, wybrać odpowiednią funkcję, odczekać kilka minut i cieszyć się już nowszym wydaniem Androida.</p>
+<p>Niestety rzeczywistość nie wygląda tak różowo. Dwa przykłady:</p>
+<ul>
+    <li>błąd "Aplikacja Wiadomości (proces com.android.mms) została nieoczekiwanie zatrzymana" przy próbie przeczytania lub wysłania SMS</li>
+    <li>Kies nie potrafił przeczytać SMS/MMS</li>
+
+</ul>
+<p>Jak sobie poradzić w takim wypadku ?</p>
+<p>Na problemy z wiadomościami można próbować użyć opcji "Menu -> Ustawienia -> Aplikacje -> Zarządzaj aplikacjami -> Wszystkie -> Wiadomości -> Wyczyść dane", podobne usterki mogą jednakże wystąpić również w innych modułach i znacznie lepszą opcją wydaje się użycie "Menu -> Ustawienia -> Prywatność -> Ustawienia fabryczne" (albo w przypadku Froyo alternatywnie kodu <strong>*#272*imei#*</strong> i zainstalowanie od nowa odpowiedniego Sales Code).</p>
+<p><strong>Opcje resetu jednakże wykasują wszystkie ustawienia/aplikacje</strong> i stąd niezbędne będzie wpierw zrobienie ich kopii zapasowej. Kies potrafi to wykonać dla kontaktów, kalendarza i wiadomości (ale tych ostatnich odtworzyć już nie), w Markecie są jednakże dostępne dla niego alternatywy. I tak z wiadomościami radził sobie np. <strong>SMS Backup & Restore</strong> i <strong>MyBackup</strong>.</p>
+
+<p>Ich kombinacja (<strong>MyBackup</strong> do wiadomości SMS, listy połączeń i kalendarza, Kies do kontaktów) przy testowanym telefonie spowodowała, że jedyną "stratą" był brak wiadomości na liście połączeń, ustawień (włączając informacje o punktach dostępowych do danych i MMS) oraz wyników w grach...</p>
+<p>"Specjaliści" od Androida oczywiście w tym miejscu stwierdzą, że istnieją lepsze alternatywy (np. <strong>Titanium Backup</strong>). Tutaj nie było dostępu do konta administratora (tzw. roota) ani potrzeby ich stosowania...</p>
+<p>Moja ocena: 7/10 (przeciętny użytkownik pewnie by się szybko poddał i oddał telefon do serwisu)</p>
+<p><font size="+2">Wersje</font></p>
+<p>Po zainstalowaniu i ustawieniu mojego wifi (z tego typu telefonami warto mieć własny punkt dostępowy, aby nie zbankrutować ;)) zostały mi automatycznie zaproponowane uaktualnienia <strong>Map Google</strong> do wersji 5.0.0, <strong>YouTube</strong> do 2.1.6, pojawił się również <strong>Street View w mapach Google</strong> 1.6.0.6 oraz <strong>Market</strong> 2.2.7.</p>
+
+<p><img width="300" height="500" alt="" src="sites/default/files/177/23_mark.png" /></p>
+<p>Ręcznie musiałem sobie zainstalować z Marketu np. <strong>Gmail</strong> (miałem wersję 2.3, otrzymałem 2.3.2) oraz <strong>Flash Player</strong> (była 10.1.92.8, jest 10.1.105.7).</p>
+<p>Jeśli chodzi o inne wersje, to:</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td> </td>
+
+            <td><strong>Eclair (2.1, ROM JM1)</strong></td>
+            <td><strong>Froyo (2.2.1, ROM JPY)</strong></td>
+        </tr>
+        <tr>
+            <td>jądro ("Menu -> Ustawienia -> O telefonie")</td>
+            <td><em>2.6.29</em></td>
+            <td>2.6.32.9 (root@SEP-51 #1)</td>
+
+        </tr>
+        <tr>
+            <td>firmware (kod <strong>*#1234#</strong>)</td>
+            <td>
+            <p>PDA: I9000XXJM1<br />
+            PHONE: I9000XXJM1<br />
+
+            CSC: I9000OXAJM1</p>
+            </td>
+            <td>
+            <p>PDA: I9000XXJPY<br />
+            PHONE: I9000XXJPY<br />
+            CSC: I9000OXAJPY</p>
+            </td>
+
+        </tr>
+        <tr>
+            <td>firmware kamery (kod <strong>*#*#34971539#*#*</strong>, należy bardzo uważać z uwagi na możliwość uszkodzenia firmware !)</td>
+            <td>SESBDE14:SESBDE27</td>
+            <td>SESBDI07:SESBDE27</td>
+        </tr>
+
+        <tr>
+            <td>firmware ekranu dotykowego (kod <strong>*#*#2663#*#*</strong>)</td>
+            <td>22</td>
+            <td>22</td>
+        </tr>
+        <tr>
+
+            <td>firmware klawiszy (kod <strong>*#*#2663#*#*</strong>)</td>
+            <td>0xa9</td>
+            <td>0xa9</td>
+        </tr>
+        <tr>
+            <td>Swype ("Menu -> Ustawienia -> Ustawienia lokalne i tekst -> Program Swype")</td>
+
+            <td><em>1.6</em></td>
+            <td>2.9.51.13071</td>
+        </tr>
+        <tr>
+            <td>Android System Recovery (klawisze Do góry+Home+klawisz wyłącznika przy wyłączonym telefonie)</td>
+            <td>2e</td>
+            <td>3e</td>
+
+        </tr>
+    
+</table>
+<p>Moja ocena: 9/10 (nie mogę dać 10 - modułowość powinna być znacznie większa)</p>
+<p><font size="+2">...i zmiany</font></p>
+<p>Widoczne jest sporo drobnych zmian w aplikacjach systemowych (takie są według mnie również uaktualnienia Google). Wymienię te główne...</p>
+<p>I tak "Menu -> Ustawienia" ma obecnie kolorowe ikonki, opcje dotyczące połączeń USB znajdują się teraz w "Menu -> Ustawienia -> Komunikacja". Mamy tutaj nową funkcję tetheringu (udostępniania) Internetu po USB. W trybie pamięci masowej na ekranie od razu widać opcję do uaktywnienia pamięci...</p>
+<p><img width="300" height="500" alt="" src="sites/default/files/177/23_usb.png" /></p>
+<p>W "Menu -> Lokalizacja i zabezpieczenia -> Zmień blokadę ekranu" można teraz wybrać jedną z kilku opcji blokady ekranu.</p>
+<p><img width="300" height="500" alt="" src="sites/default/files/177/23_lock.png" /></p>
+<p>W "Menu -> Ustawienia -> Wyświetlacz" dodano opcję "Kalibracja pozioma".</p>
+
+<p>Froyo dostał także opcję do wyłączania transmisji danych ("Menu -> Ustawienia -> Komunikacja -> Sieci telefonii komórkowej -> Użyj danych pakietowych" lub klawisz wyłącznika) - niestety po jej przestawieniu nie działały także MMSy (które miały rzecz jasna punkt dostępowy typu MMS). Pomógł <strong>APNDroid</strong> z Marketu...</p>
+<p>Menu kamery pozwala obecnie na przełączanie się między główną (5 megapikseli) i tą od wideorozmów (VGA).</p>
+<p>Wyłączenie alarmu budzika wymaga teraz przesunięcia po ekranie (podobnie jak na standardowym ekranie do odblokowywania), a nie dłuższego naciśnięcia przycisku...</p>
+<p>Na ekranie Powiadomienia jest nowy przycisk "Automat. obrót" do wyłączanie obracania ekranu.</p>
+<p>Opcja pomniejszenia (taka jak w przeglądarce) działa na ekranie aplikacji i czuwania (można wyświetlić od razu wszystkie pulpity).</p>
+<p>Dialer z kolei ma teraz nowe przyciski służące do przejścia do spisu połączeń i pisania wiadomości:</p>
+<p><img width="300" height="500" src="sites/default/files/177/23_dial.png" alt="" /></p>
+<p>Naciśnięcie klawisza Back + Home na dowolnym ekranie robi zrzut ekranu...</p>
+
+<p>Domyślna przeglądarka obsługuje maksymalnie 4 okna i wspierany jest też Flash. Niestety kilka razy zdarzało mi się, że po restarcie telefonu przestawiana była jasność ekranu do ustawień domyślnych...</p>
+<p>Podobnie w "Menu -> Ustawienia -> Aplikacje -> Zarządzaj aplikacjami" można zauważyć kolejną usterkę - brak jednostki przy wartościach. Oprócz tego obecnie można instalować aplikacje (te dostosowane) również na karcie pamięci...</p>
+<p><img width="300" height="500" alt="" src="sites/default/files/177/23_apps.png" /></p>
+<p>Polska lokalizacja jest generalnie poprawna, wysyłane SMSy mają teraz usuwane polskie litery, z drogiazgów - "Intensywność wibracji" w "Menu -> Ustawienia -> Dźwięk" zmienia nie tylko siłę przy dotykaniu ale również przy dzwonieniu :)</p>
+<p>Moja ocena: 9/10 (w porównaniu do innych rozwiązań na rynku takich jak Symbian jest naprawdę dobrze, brakuje drobiazgów typu ilość pozostałych znaków w SMS)</p>
+<p><font size="+2">Prywatność</font></p>
+<p>Android jest mocno związany z usługami Google - dostęp do Marketu wymaga konta, domyślnie jest proponowane z nim synchronizowanie kontaktów i kalendarza. Do tego się przyzwyczailiśmy i na nikim nie robi to już wrażenia.</p>
+<p>Moim zdaniem jednak każda kolejna wersja małymi kroczkami posuwa się dalej i dalej w zbieraniu informacji o użytkowniku. I nie mówię już nawet o tym, że wiele aplikacji wykorzystuje identyfikator urządzenia czy inne dane (co potwierdzają <a href="http://www.gazetaprawna.pl/wiadomosci/artykuly/473656,smartfony_sledza_swoich_uzytkownikow_bez_ich_zgody.html">kolejne doniesienia i raporty</a>), a myślę bardziej o ustalaniu położenia. Jest ono coraz bardziej rozbudowane (we Froyo w odpowiednich opcjach czyli "Menu -> Ustawienia -> Lokalizacja i zabezpieczenia" mamy teraz dodatkowo ustawienie "Wspomaganie czujnikiem").</p>
+
+<p><img width="300" height="500" alt="" src="sites/default/files/177/23_gps.png" /></p>
+<p>Problem w tym, że np. taki przycisk GPS na ekranie Powiadomienia nie wyłącza "Użyj sieci bezprzew." Jest to o tyle ciekawe, że po jej włączeniu można zobaczyć interesujące ostrzeżenie:</p>
+<p><img width="300" height="500" src="sites/default/files/177/23_gps2.png" alt="" /></p>
+<p>Po uaktywnieniu kamery (w przypadku ustawienia którejś z opcji lokalizacyjnych) w menu z nią związanym pojawia się ikonka GPS - informacja o lokalizacji jest automatycznie dodawana do zdjęcia i nie można tego stamtąd wyłączyć (jak w Eclair). <strong>Ilu użytkowników będzie tego nieświadomych albo po prostu zignoruje ?</strong></p>
+<p>Standardowa przeglądarka ma domyślnie ustawioną opcję "Włącz  lokalizację" - przy samoistnym restarcie ustawień była ona  przywracana... Czasami przy przeglądaniu stron jesteśmy wręcz pytani, czy nie chcemy przypadkiem jej  włączyć...</p>
+<p>Mapy Google mogą być teraz przeglądane w trybie offline (tzn. po pobraniu jakiegoś wycinka będzie on dostępny również po wyłączeniu wszelkiej transmisji danych), ale wyznaczanie trasy wymaga już połączenia (inna sprawa, że nawigacji głosowej dalej nie ma w naszym regionie)...</p>
+<p><strong>Bardzo ważną nową funkcją w testowanym ROMie (której nie było w 2.1) jest dostępność dodatku od Samsunga - opcji do aktualizacji oprogramowania z menu telefonu czyli tzw. OTA ("Menu -> O telefonie -> Aktualizacje systemu").</strong> Czy potrafi mi jednak ktoś wytłumaczyć, dlaczego trzeba się tam zarejestrować (z mailem i datą urodzenia) ?</p>
+<p>Można oczywiście częściowo używać innych programów, tylko czy naprawdę tak to powinno wyglądać ?</p>
+<p>Moja ocena: 6/10 (Permanenta inwigilacja Albercik ?)</p>
+<p><font size="+2">Szybkość</font></p>
+
+<p>Wpierw kilka suchych liczb:</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td><strong>Nazwa aplikacji z Marketu</strong></td>
+            <td><strong>Wersja użyta przy testach Froyo</strong></td>
+            <td><strong>Eclair (2.1)</strong></td>
+            <td><strong>Froyo (2.2.1)</strong></td>
+
+            <td><strong>Poprawa</strong></td>
+        </tr>
+        <tr>
+            <td>Quadrant Standard</td>
+            <td>1.1.4</td>
+            <td>876 punktów</td>
+            <td>1258 punktów</td>
+
+            <td>
+            <p>43,61%</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Android NBench</td>
+            <td>1.3</td>
+
+            <td>
+            <p>Memory 2,975,<br />
+            Integer 4,056,<br />
+            Float 0,779</p>
+            </td>
+            <td>Memory 2,98,<br />
+            Integer 4,05,<br />
+
+            Float 0,779</td>
+            <td>0,01%</td>
+        </tr>
+        <tr>
+            <td>BenchmarkPi</td>
+            <td>1.11</td>
+            <td>2665 ms</td>
+
+            <td>1332 ms</td>
+            <td>50,02%</td>
+        </tr>
+        <tr>
+            <td>CaffeineMark</td>
+            <td>1.0.0</td>
+            <td>1979</td>
+
+            <td>5326</td>
+            <td>169,13%</td>
+        </tr>
+        <tr>
+            <td>An3DBench</td>
+            <td>0.9.4</td>
+            <td>
+
+            <p>9,52 MP/sec<br />
+            31,79 fps<br />
+            55,58 fps<br />
+            46,64 fps<br />
+            55,71 fps<br />
+            55,72 fps</p>
+
+            </td>
+            <td>
+            <p>9,56 MP/sec<br />
+            36,59 fps<br />
+            55,75 fps<br />
+            52,32 fps<br />
+            55,60 fps<br />
+
+            55,73 fps</p>
+            </td>
+            <td>4,64%</td>
+        </tr>
+        <tr>
+            <td>GPUBench</td>
+            <td>1.0.0</td>
+
+            <td>
+            <p>Absolute: 34121<br />
+            Relative: 31979</p>
+            </td>
+            <td>
+            <p>Absolute 34416<br />
+            Relative: 32226</p>
+
+            </td>
+            <td>0,82%</td>
+        </tr>
+    
+</table>
+<p>Wyniki są dalej o wiele słabsze niż w ROMach nieoficjalnych, natomiast średnia poprawa wydajności według tych testów to aż 44,70%.</p>
+<p>Po przyjrzeniu się liczbom zacząłem się zastanawiać, czy ich źle nie zanotowałem....</p>
+<p>Z drugiej strony - wersja ta działa o wiele szybciej niż oficjalne wcześniejsze wydania Froyo  do Galaxy S (to daje się odczuć - tak zwane lagi są praktyczne  niewidoczne). No i wydaje się, że kompilator JIT jest faktycznie  włączony...</p>
+<p>Zrobiłem też kilka innych testów (tak z ciekawości):</p>
+
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td><strong>Aplikacja</strong></td>
+            <td><strong>Test</strong></td>
+            <td><strong>Froyo (2.2.1)</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Linpack for Android</strong> 1.1.7 (z Marketu)</td>
+
+            <td> </td>
+            <td>14,183 MFLOPS</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Standardowa przeglądarka 2.2.1</td>
+            <td><a href="http://clients.futuremark.com/peacekeeper/index.action">PeaceKeeper</a></td>
+            <td>
+
+            <p>352 punkty,<br />
+            462 punkty,<br />
+            477 punktów,<br />
+            480 punktów<br />
+            (średnia 443)</p>
+            </td>
+
+        </tr>
+        <tr>
+            <td>SunSpider 0.9.1</td>
+            <td>5733,7 ms +- 0,7%</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><br />
+             <br />
+
+            <strong>Mozilla Firefox Web Browser</strong> 4.0b3 (testowa z Marketu)</td>
+            <td><a href="http://clients.futuremark.com/peacekeeper/index.action">PeaceKeeper</a></td>
+            <td>
+            <p>494 punkty,<br />
+            449 punktów,<br />
+            454 punkty,<br />
+
+            465 punktów<br />
+            (średnia 465)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>SunSpider 0.9.1</td>
+            <td>3492,9 ms +- 2,1%</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2"><br />
+             <br />
+            <strong>Delphin browser</strong> 3.1.1 (z Marketu)</td>
+            <td><a href="http://clients.futuremark.com/peacekeeper/index.action">PeaceKeeper</a></td>
+
+            <td>
+            <p>496 punktów,<br />
+            492 punkty,<br />
+            504 punkty,<br />
+            497 punktów<br />
+            (średnia 497)</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td>SunSpider 0.9.1</td>
+            <td>5903,5 ms +- 1%</td>
+        </tr>
+    
+</table>
+<p>Operę Mini i Operę Mobile wykluczyłem z uwagi na problemy techniczne (wieszanie się, brak JavaScript, itp.). Ciekawe, jakby to wyglądało, gdyby aplikacje były natywne (a nie działały w maszynie wirtualnej)...</p>
+
+<p>Moja ocena: 8/10 (jest postęp, ale mógłby być jeszcze większy)</p>
+<p><font size="+2">Sięgaj tam gdzie wzrok nie sięga...</font></p>
+<p>Samsung pozostawił niestety system plików RFS (jest to o tyle dziwne, że Nexus S używa ext4). Jeśli chcemy użyć którejś z aplikacji konwertującej go na inny (szybszy) albo z jakichś innych względów uzyskać pełen dostęp do systemu (tzw. roota), musimy wgrać m.in. aplikację busybox.</p>
+<p>Zaglądamy do Marketu - <strong>One Click Lag Fix</strong> już nie ma, obecnie jest <strong> RyanZA's OCLF 2.0</strong>. Czytamy w nim:</p>
+<p><em>This app has been reposted to follow Google's guidelines better. Previous application was locked. Root ability has been removed. Just to clarify, Google forced us to remove the root ability because it violates Android's ToS. Check XDA on how to root.</em></p>
+<p>Troszkę googlowania i okazuje się, że Samsung wyłączył też możliwość wgrywania aplikacji z użyciem niepodpisanych plików update.zip (Android System Recovery w 2.2.1 jest w wersji 3e, która to blokuje).</p>
+
+<p>Co pozostało ? Teraz jest np. SuperOneClick...</p>
+<p>Całość może być o tyle przydatna, iż w 2.2.1 (jak zresztą w kilku innych wczesniejszych wydaniach Froyo od Samsunga) włączenie Galerii uaktywnia na stałe czujnik. Widać to dosyć wyraźnie po użyciu kodu <strong>*#*#4636#*#*</strong>, rozwiązaniem może być wgranie innych plików Galerii...<strong><br />
+</strong></p>
+<p><img width="300" height="500" alt="" src="sites/default/files/177/23_gale.png" /></p>
+<p>Po użyciu kodu <strong>*#*#4636#*#*</strong><strong> </strong>widać jeszcze jedną dziwną rzecz - proces "0", który najbardziej wykorzystuje sieć. Trudno powiedzieć, czy to zamierzone czy też błąd... <strong>Jeśli mówimy o zużyciu energii, to trzeba uważać na stan naładowania baterii przy ROMie JPY, gdyż telefon z nim nie informuje na ekranie czuwania o niskim jej stanie...</strong></p>
+<p>Kolejny przykład użycia roota to kasowanie pliku /data/system/batterystats.bin (zawiera statystyki użycia baterii, według niektórych użytkowników rozwiązuje to problemy z niewłaściwym sygnalizowaniem poziomu jej naładowania w nowszych ROMach obecne w różnych egzemplarzach).</p>
+<p>Jeżeli nie chcemy używać aplikacji Kies Registry Patcher (która pozwoli wgrać wersje testowe i te dla innych Product Code), root będzie niezbędny również do zmiany pliku /efs/nv_data.bin (i przez to Product Code).</p>
+
+<p>Wymieniać można dalej - usuwanie reklam (Adfree), itd. <strong>Możliwości przeróbek oprogramowania (nie tylko po uzyskaniu roota) jest dużo i tu Samsung jest znacznie bardziej elastyczny niż inne firmy, gdyż np. publikuje pełne kody źródłowe jądra (wprawdzie wersji JPX w przypadku 2.2.1, ale i tak duże brawa !)</strong>. Dodatkowo część osób pisze, że JPY uaktywnia tzw. tryb Download (klawisze Do dołu+Home+klawisz wyłącznika przy wyłączonym telefonie) w egzemplarzach, które go nie miały (nie mogę tego jednakże potwierdzić).</p>
+<p>Moja ocena: 9/10 (nie mogę dać 10 - można się poczuć jak w sklepie z cukierkami, jednak ich nadmiar może też zaszkodzić, a mianowicie coraz częściej używamy smartphonów np. do dostępu do banku i czasem jednak warto, aby całe podstawowe oprogramowanie w nich nie wymagało różnych "dziwnych" kroków)</p>
+<p><font size="+2">Podsumowanie</font></p>
+<p>Mam mocne wrażenie, iż sukces Galaxy S przerósł Samsunga. <a href="http://www.telix.pl/artykul/samsung-galaxy-s-przekroczy-bariere-10-mln-sprzedanych-sztuk-3,38431.html">Sprzedano ponad 9,3 miliona egzemplarzy</a> i stworzono chyba zbyt dużo wersji - widoczne są bardzo duże opóźnienia we  wspieraniu części wariantów, w obecnym oprogramowaniu również zdarzają się  usterki.</p>
+<p>Polska należy niestety do tych krajów, do których korporacja przywiązuje chyba mniejsze wrażenie - nie tylko brakuje oprogramowania, ale nie ma tutaj również oficjalnie wersji z 16 GB pamięci. Żeby nie było wątpliwości: <a href="http://forum.android.com.pl/f193/tutorial-jak-usunac-branding-ery-bez-zmiany-product-code-i-wgrywania-nowego-csc-34197/">usunięcie brandingu z firmware dla Ery to też dosłownie kilka kroków</a> i trudno logicznie uzasadnić opieszałość producenta w tym zakresie...</p>
+
+<p>Z drugiej strony <b>bardzo dobry telefon</b> stał się jeszcze lepszy. Android 2.2.1 w  wydaniu Samsunga zbiera generalnie bardzo pozytywne opinie - rozwiązał sporo różnych problemów (<a href="?q=node/171">o których pisałem</a>) i działanie z Galaxy S to obecnie znacznie większa przyjemność (<a href="http://pdaclub.pl/index.php?option=com_content&view=article&id=18792:recenzja-samsung-galaxy-s&catid=33:sprzet&Itemid=89">osoby nie używające go codziennie uprzejmie informuję, że nie jest to jednak i nie będzie ideał, o czym zresztą nie tylko ja ostatnio wspominałem</a> ;)). <strong>Mimo usterek można powiedzieć, że Froyo zostało dostarczone z sukcesem...</strong> Czy jest on pełny ?</p>
+<p>Niestety nie do końca - nową wersję trzeba jeszcze wszystkim udostępnić i wielu użytkowników może nawet nie wiedzieć o jej istnieniu (bałagan został niestety powiększony przez serwisy i firmy, które wgrywały te wydania, przy których Kies pokaże "tej wersji urządzenia nie można zaktualizować"). Do tego różne pułapki przy wgrywaniu. Nie chciałbym tutaj spekulować, ile jest w tym "winy" Samsuna, a ile Google. <strong>Fakt jest jednak faktem - to nie tak powinno działać</strong>.</p>
+
+<p>Miejmy nadzieję, że z oficjalnym uaktualnieniem do 2.3 (Gingerbread) będzie lepiej... Wszak Nexus S też jest produkcji Samsunga i nie różni się tak bardzo (<a href="http://forum.xda-developers.com/showthread.php?t=877800">co już potwierdzili niezależni programiści portując część ROMu z Nexusa na Galaxy</a>)...</p>
+<p>Średnia z ocen: 7,4</p>

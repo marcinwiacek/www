@@ -1,0 +1,13 @@
+﻿Title:Report 2007-05-15
+Author:marcin
+When:16 May 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>My comment to <a href="http://blog.cihar.com/archives/2007/05/15/why_do_people_buy_non_documented_phones/">http://blog.cihar.com/archives/2007/05/15/why_do_people_buy_non_document...</a> :</p>
+<p>you are generally Michal right. Well documented hardware = less problems...</p>
+<p>But: very often people buy, what they know and what is compatible with their other hardware (like memory cards). Sometimes not well documented hardware is much better than documented. I remember times of Nokia 3310. You simply didn't have cheap and so good phone...</p>
+<!--break-->
+<p>And my final comment: we were creating both Gammu. I was interesting in Nokia, because I knew it. But Gammu didn't meet some my requirements. Because of it I started new project. You went other way. If we could join our work together again, creating software could be easier and this type blog entries won't be necessary. Are you happy from all Gammu solutions ?</p>
+<p>Returning to Nokias. Believe me or not, but I'm still using very often old Nokia 5100. In Series 40 3.0 phones you can't easy save SMS to phone (at least I need more phones to hack it). And you don't have interesting device. My needs: GSM 900/1800/UMTS, good camera and battery and low SAR (and if possible protection again water). Smartphones have short standby. So, I stay with this, what I have... Do you have other manufactures alternatives ? OpenMoko ? I don't think so...</p>
+<p>Why I write it ? Because I don't see any motivation and resources to continue Nokia (Series 40) development and pair Gammu/Gammu+ can be last bigger project with good implementation for it (I don't speak about Gnokii from various reasons). In other words: my next projects will be probably for other devices (a little better documented Symbian or other).</p>

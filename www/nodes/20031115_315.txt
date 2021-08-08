@@ -1,0 +1,949 @@
+﻿Title:Podane na twardym talerzu (2003)
+Author:marcin
+When:15 Nov 2003
+Taxonomy:Polski,Polski artykuł,Windows,x86,Linux
+
+<div style="text-align: justify;"><big><big><big><span
+ style="font-weight: bold;">Podane na twardym talerzu</span></big></big></big><br>
+<!--break-->
+<br>
+<span style="font-weight: bold;">Wielu użytkowników ma w swoich
+komputerach zainstalowane kilka systemów operacyjnych. Bardzo
+ważne jest dla nich, aby móc bezproblemowo wymieniać między nimi
+pliki. W tym artykule postaramy sie uporządkować informacje na temat
+tego, co i jak należy ustawić, aby móc korzystać z tych samych
+danych w Linux i Windows. Zastanowimy się też nad różnymi
+możliwościami związanymi z obsługą plików w Linuxie.</span><br
+ style="font-weight: bold;">
+<big><br>
+<big style="text-decoration: underline;"><span
+ style="font-weight: bold;">Co wybrać ?</span></big></big><br>
+<br>
+Na początku zajmiemy się systemami plików. Od nich zależy bowiem
+wygoda używania naszego komputera i jego możliwości. Wskażemy,
+które z nich mogą być problemem dla naszego systemu
+operacyjnego.
+Zaczniemy od tego, czego używa się z dyskami twardymi, dyskietkami i
+pamięciami flash.<br>
+<br>
+Podstawowym systemem plików Linuxa przez długi czas był ext2.
+Jest on standardowo proponowany podczas instalacji wielu dystrybucji,
+ma
+jednakże trochę wad. Najpoważniejszą z nich jest brak tzw. kronikowania
+(journalingu). Dla przeciętnego użytkownika oznacza to, że w przypadku
+niespodziewanego wyłączenia lub zawieszenia się komputera zwiększa się
+prawdopodobieństwo utraty danych. W takich sytuacjach trzeba dodatkowo
+przy starcie systemu sprawdzić szczegółowo cały system
+plików, co może bardzo długo trwać (bez tego możemy mieć błędy
+logiczne na dysku). Jego zaletą jest znany format i dostępność wielu
+programów narzędziowych (kilka z nich do Windows podano w ramce
+obok).<br>
+<br>
+<big><span style="font-weight: bold;"><small> &lt;ramka&gt;</small><br>
+Obsługa systemów Linuksowych w Windows<br>
+</span><small style="font-weight: bold;">&lt;/ramka&gt;</small><span
+ style="font-weight: bold;"><br>
+</span></big><br>
+Rozszerzeniem systemu ext2 jest ext3. Dodano w nim kronikowanie. Jeżeli
+poprawnie wyłączyliśmy komputer używający ext3, do jego odczytania
+można
+użyć narzędzi projektowanych dla jego poprzednika.<br>
+<br>
+Kolejnym systemem często używanym w Linuxie z opcją kronikowania jest
+Reiserfs charakteryzujący się szybszą obsługą katalogów z dużą
+ilością (małych) plików.<br>
+<br>
+W przypadku dysków zapisywanych w DOS możemy się spotkać z
+systemami FAT12 i FAT16. Są one przestarzałe. Ich cechą
+charakterystyczną jest brak możliwości ustalenia jakichkolwiek praw
+dostępu oraz szybkie pojawianie się defragmentacji plików i
+związane z tym wydłużanie się długości ich odczytu. Wraz z Windows 95
+OSR2 Microsoft wprowadził FAT32. Pojawiła się w nim możliwość obsługi
+większych dysków i umieszczania dowolnej ilości plików w
+głównym katalogu, jednakże nie wyeliminowano głównych wad
+znanych z poprzedników.<br>
+<br>
+Windows 95 był pierwszym popularnym systemem Microsoftu z możliwością
+korzystania z długich nazw plików. Użyto rozszerzenia
+systemów FAT nazwanego VFAT. Tak określa się też wspólnie
+trzy systemy FAT w Linuxie. Nie ma on żadnych problemów z ich
+obsługą (odczytem i zapisem).<br>
+<br>
+Jeżeli wykorzystujemy Windows NT 4.0 lub nowsze, które wywodzą
+się z niego (tzn. edycję 2000/XP/2003), możemy mieć zapisane dyski z
+użyciem NTFS. Jest on w ogóle nieobsługiwany przez "okienka"
+95/98/ME, również Linux nie zawsze sobie z nim radzi. Każda nowa
+wersja Windows dodawała bowiem do niego kolejne rozszerzenia, na temat
+których Microsoft nie udostępniał pełnej dokumentacji. W chwili
+obecnej (Linux oparty na jądrze 2.4.x) można stwierdzić, że nie będzie
+kłopotów z odczytem tego systemu, o ile nie zastosowaliśmy w nim
+żadnych rozszerzeń typu kompresja czy szyfrowanie plików. Opcja
+zapisu jest zaznaczona jako niebezpieczna. Sytuacja powinna się zmienić
+na lepsze dopiero wraz z nową generacją 2.6.x jąder.<br>
+<br>
+W przypadku płyt na pewno spotkamy się z określeniem ISO9660. Jest to
+nazwa podstawowego i najstarszego systemu plików dla
+krążków. Każdy współczesny
+system
+operacyjny zapewnia jego obsługę.<br>
+<br>
+Z czasem pojawiła się konieczność zapisania długich nazw plików
+na płytach. Jednym z rozszerzeń jest stworzony przez Microsoft system
+Jouliet. Linux potrafi też w sposób niewidzialny dla użytkownika
+korzystać z tzw. tablic translacji - na płycie są umieszczane nazwy
+plików zgodne z ISO9660, natomiast system pokazuje użytkownikowi
+długie nazwy plików zawarte w plikach <span style="font-weight: bold;">trans.tbl</span>.<br>
+<br>
+Nośniki optyczne (np. CD-RW) mogą być zapisane w coraz bardziej
+popularnym trybie pakietowym
+UDF (pozwala on na korzystanie z płyty jak z dużej dyskietki). Linux
+nie ma z nim problemu.<br>
+<br>
+Powyższy przegląd zawiera informacje o zaledwie kilku z wielu
+obsługiwanych przez "pingwina" systemów.&nbsp; Nie piszemy&nbsp;
+o innych, ponieważ&nbsp; są one&nbsp; albo już nieużywane&nbsp; (mowa
+tutaj np.&nbsp; o&nbsp; systemie używanym w protoplaście Linuxa o
+nazwie Minix, a następnie
+początkowo w samym Linuxie "przed" ext2) albo dotyczą innych platform
+sprzętowych (np. system znany z komputera Commodore Amiga).<br>
+<br>
+Chcieliśmy w tym miejscu przypomnieć o jednym szczególe, o
+którym nie pamięta wielu początkujących użytkowników -
+sterownik
+głównego systemu plików (np. ext2 lub ext3) nie może być
+skompilowany jako moduł jądra. System musi bowiem "wiedzieć", jak
+czytać partycję z plikami zawierającymi moduły po to, aby móc je
+w
+ogóle załadować.<br>
+<br>
+<big><span style="font-weight: bold;"><small>&lt;ramka&gt;</small><br>
+Opcje jądra 2.4.x<br>
+</span><small>Poniżej przedstawiono nazwy wymaganych opcji kerneli
+2.4.x Linuxa wymaganych do obsługi wymienionych systemów lub
+urządzeń<br>
+<br>
+</small><span style="font-weight: bold;"><span
+ style="text-decoration: underline;">Systemy plików na dyskach
+twardych, dyskietkach i dyskach flash</span><br>
+</span><small>Ext2 - File systems | Second extended fs support<br>
+Ext3 - File systems | Ext3 journalling file system support<br>
+VFAT - File systems | DOS FAT fs support, File systems | MSDOS fs
+support, File systems | VFAT (Windows 95) fs support<br>
+NTFS - File systems | NTFS file system support<br>
+Reiserfs - File systems | Reiserfs support</small><br>
+<br>
+<span style="font-weight: bold;"><span
+ style="text-decoration: underline;">Systemy plików na CD-ROM,
+CD-RW i DVD-ROM</span><br>
+</span><small>File systems | ISO 9660 CDROM file system support, File
+systems | Microsoft Joliet CDROM extensions, File systems | Transparent
+decompression extension, File systems | UDF file system support</small><br>
+<br style="text-decoration: underline;">
+<span style="font-weight: bold;"><span
+ style="text-decoration: underline;">Obsługa pamięci USB</span><br>
+</span><small>SCSI support | SCSI support, File systems | /proc file
+system support, USB support | Support for USB, USB support |
+Preliminary
+USB device filesystem, USB support | EHCI/UHCI/OHCI (w zależności od
+posiadanego kontrolera USB), USB support | USB Mass Storage Support</small><span
+ style="font-weight: bold;"><br>
+<br>
+Inne<br>
+</span><small>Supermount - File systems | Supermount removable media
+support<br>
+Loopback - Block devices | Loopback device support<br>
+</small> <span style="font-weight: bold;"><small> &lt;/ramka&gt;<br>
+<br>
+</small></span><big style="text-decoration: underline;"><span
+ style="font-weight: bold;">Nazwy urządzeń</span></big></big><span
+ style="text-decoration: underline;"> </span><br>
+<br>
+Oprócz znajomości użytego systemu plików musimy dodatkowo
+podać
+Linuxowi informację, w jakim urządzeniu jest on wykorzystany.<br>
+<br>
+Sprawa jest stosunkowo prosta: kolejne urządzenia IDE podłączane do
+płyty głównej są oznaczane jako <span style="font-weight: bold;">/dev/hda</span>
+i kolejne (ostatnia literka "a" zamienia się na "b", "c" lub "d").
+Jeżeli mamy dodatkowy kontroler IDE (oraz sterownik do niego w jądrze),
+jego
+napędom zostaną przydzielone urządzenia logiczne <span
+ style="font-weight: bold;">/dev/hde</span>, <span
+ style="font-weight: bold;">/dev/hdf</span>, itd.
+Zgodnie z tymi zasadami, przykładowy napęd CD-ROM podłączony jako
+master
+do pierwszego kanału na płycie głównej będzie w
+Linuxie nazwany <span style="font-weight: bold;">/dev/hda</span>.<br>
+<br>
+Określenie partycji na dyskach twardych zawiera określenie dysku wraz z
+dodatkową cyfrą - np. <span style="font-weight: bold;">/dev/hdb1</span>
+to pierwsza partycja na dysku <span style="font-weight: bold;">/dev/hda</span>
+używanym jako slave w pierwszym kanale IDE. Podobnie zresztą określa
+się
+partycje na urządzeniach podłączanych do USB - np. <span
+ style="font-weight: bold;">/dev/sda1</span> to pierwsza partycja
+pierwszego urządzenia USB.<br>
+<br>
+Stacja dyskietek to z kolei <span style="font-weight: bold;">/dev/fd0</span>.<br>
+<br>
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Montowanie urządzeń</span></big></big><br>
+<br>
+Zgodnie z zasadą przyjętą w Linuxie jest tylko jeden logiczny system
+plików, do którego można podłączać (montować) fizycznie
+oddzielne urządzenia. Pozwala to np. na to, aby konta
+użytkowników (zawartość <span style="font-weight: bold;">/users</span>)
+znajdowały się na innym dysku twardym niż sam system, stacja dystkietek
+była widoczna w katalogu <span style="font-weight: bold;">/mnt/floppy</span>,
+a CD-ROM w katalogu <span style="font-weight: bold;">/cdrom</span>.<br>
+<br>
+Do montowania służy polecenie mount. Oto jego przykładowe użycie (z
+poziomu roota):<br>
+<br>
+<span style="font-weight: bold;">mount -t iso9660 -o noexec,ro /dev/hdc
+/mnt/cdrom</span><br>
+<br>
+Zawartość płyty z urządzenia <span style="font-weight: bold;">/dev/hdc</span>
+zostanie umieszczona w katalogu <span style="font-weight: bold;">/mnt/cdrom</span>.
+Będzie ona dostępna w trybie tylko do odczytu (parametr <span
+ style="font-weight: bold;">ro</span>). Wykorzystany zostanie system
+plików iso9660. Jeżeli wykonanie polecenia się nie powiodło,
+powodów może być kilka:<br>
+<ol>
+  <li>użytkownik nie ma praw dostępu do korzystania z polecenia <span
+ style="font-weight: bold;">mount</span> dla danej partycji (zostało to
+szerzej opisane dalej)<br>
+  </li>
+  <li>sterownik wybranego systemu plików (tutaj iso9660) nie
+jest wkompilowany w jądro. Aby to sprawdzić, należy obejrzeć zawartość
+pliku <span style="font-weight: bold;">/etc/filesystems</span> i
+zobaczyć, co obsługuje jądro systemu. Jeżeli czegoś brakuje, należy je
+skompilować ponownie.</li>
+  <li>brak praw dostępu do katalogu <span style="font-weight: bold;">/mnt/cdrom</span>
+lub brak tego katalogu w ogóle</li>
+  <li>brak sterownika do użytego urządzenia. Może się przykładowo
+zdarzyć, że odwołaliśmy się do CD-ROM i nazwa urządzenia jest poprawna,
+ale jądro nie zawiera sterownika do napędów CD-ROM</li>
+</ol>
+W tym miejscu warto wspomnieć, iż zamiast konkretnego określenia
+systemu plików (w przykładzie iso9660) można użyć <span
+ style="font-weight: bold;">auto</span> i Linux sam spróbuje
+określić, z czym ma do czynienia. Jest to wygodne, ale trzeba pamiętać,
+że nie zawsze działa poprawnie.<br>
+<br>
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Montowanie na skróty</span></big></big><br>
+<br>
+Możemy sobie zautomatyzować całą procedurę i nie podawać za każdym
+razem wszystkich niezbędnych parametrów procedurze mount. W tym
+celu wymyślono plik <span style="font-weight: bold;">/etc/fstab</span>.
+Poniżej przykładowa jego zawartość:<br>
+<br>
+<table cellpadding="0" cellspacing="0" border="0"
+ style="text-align: left; width: 100%;">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>/dev/hda8</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>ext3</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>defaults</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>1 1</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>/dev/hda1</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/mnt/win_c</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>ntfs      </pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>user,nosuid,nodev,noexec,ro</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>none</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/proc</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>proc</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>defaults</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>none</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/dev/pts</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>devpts</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>mode=0620</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>none</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/proc/bus/usb</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>usbdevfs</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>none</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0 </pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>/dev/fd0<br></pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/mnt/floppy</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>supermount</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>dev=/dev/fd0,fs=auto,auto</pre>
+      </td>
+      <td style="vertical-align: top;"><span
+ style="font-family: monospace;">0 0</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>/dev/hdd</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/mnt/cdrom2</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>supermount</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>dev=/dev/hdd,fs=iso9660,auto,ro</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>/dev/sda1</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/mnt/usb</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>supermount</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>dev=/dev/sda1,fs=auto,auto,users</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0</pre>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <pre>/dev/hdc</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>/mnt/cdrom</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>iso9660</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>noauto,ro,noexec</pre>
+      </td>
+      <td style="vertical-align: top;">
+      <pre>0 0</pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span style="font-weight: bold;"></span><br>
+Można powiedzieć, że każda linijka składa się z następujących części:<br>
+<ol>
+  <li>nazwy partycji lub urządzenia (np. <span
+ style="font-weight: bold;">/dev/hda8</span>)<br>
+  </li>
+  <li>informacji, gdzie zamontować daną partycję lub urządzenie (np. <span
+ style="font-weight: bold;">/</span>)<br>
+  </li>
+  <li>użytego systemu plików (np. ext3)<br>
+  </li>
+  <li>opcji (np. <span style="font-weight: bold;">defaults</span>)<br>
+  </li>
+  <li>cyfry określającej, jak często dany system plików ma być
+archiwizowany programem <span style="font-weight: bold;">dump</span>
+(0 - nigdy, 1 - codziennie, 2 - co dwa
+dni,
+itp.)</li>
+  <li>cyfry określającej, czy program <span style="font-weight: bold;">fsck</span>
+powinien sprawdzać dany system
+podczas startu Linuxa i jak go ma wtedy traktować (0 - nie sprawdzać, 1
+-
+sprawdzać jako główny system plików, 2 - sprawdzać jako
+inny niż główny system plików). <br>
+  </li>
+</ol>
+Zacznijmy od ostatniej linijki związanej z urządzeniem <span
+ style="font-weight: bold;">/dev/hdc</span>. Parametry tam zawarte są
+prawie identyczne jak podawane przez nas wcześniej w linii komend
+poleceniu <span style="font-weight: bold;">mount</span>. Dodano
+komendę <span style="font-weight: bold;">noauto</span>, która
+powoduje, że ten system plików nie będzie automatycznie
+montowany
+w czasie startu systemu. Wymieniona partycja nie będzie także
+sprawdzana programem
+<span style="font-weight: bold;">dump</span> ani <span
+ style="font-weight: bold;">fsck</span>.<br>
+<br>
+Widzimy też informację o głównym systemie plików Linuxa
+(pierwsza linijka pliku) oraz wiersze rozpoczynające się od <span
+ style="font-weight: bold;">none</span>. Zawarte są w tych ostatnich
+informacje o
+systemach tzw. pseudoplików. Jądro jest bowiem w stanie w
+czasie swej pracy przekazywać programom różne informacje w
+postaci
+dynamicznie tworzonych plików. Aby było wiadomo, gdzie i jak ma
+je składować, potrzebne są właśnie wpisy w <span
+ style="font-weight: bold;">/etc/fstab</span>: katalog <span
+ style="font-weight: bold;">/proc</span> zawierać będzie
+dane o aktualnie działających w systemie programach (system
+plików proc). Jest on wymagany do działania innego systemu
+pseudoplików (usbdevfs) umieszczonego<span
+ style="font-family: monospace;"> w </span><span
+ style="font-weight: bold;">/proc/bus/usb</span> i niezbędnego do pracy
+różnym programom do
+obsługi USB.<br>
+<br>
+Oddzielnego wyjaśnienia wymaga system plików supermount.
+Standardowo bowiem po włożeniu płyty lub dyskietki konieczne jest jest
+zamontowanie. Kosztem bezpieczeństwa systemu (nie jest bowiem
+bezpieczne
+automatyczne dołączanie i udostępnianie czegokolwiek, co mogłoby np.
+zawierać wirusa) można to ominąć. Wystarczy tylko zainstalować w jądrze
+sterownik do supermount i system sam zadba o właściwe podłączenie płyty
+albo (tak jak to zostało zrobione w podanym przykładzie) dyskietki.
+Należy pamiętać, że oryginalne jądro Linuxa nie zawiera obsługi tego
+systemu i trzeba ją do niego dodać w formie łaty (autorzy
+niektórych dystrybucji - np. Mandrake - robią to za nas i "ich"
+jajka mają już wewnątrz wymagany kod).<br>
+<br>
+Jeżeli chcemy zmienić
+któryś z wpisów w <span style="font-weight: bold;">/etc/fstab</span>
+tak, aby dotyczył supermounta, musimy pamiętać o trzech zasadach:<br>
+<ul>
+  <li>należy zmienić system plików na supermount</li>
+  <li>do parametrów należy dodać nazwę urządzenia (w przypadku
+stacji dyskietek dodano <span style="font-weight: bold;">dev=/dev/fd0</span>),
+określić system plików (np. <span style="font-weight: bold;">fs=auto</span>)
+i dodać parametr <span style="font-weight: bold;">auto</span>,
+który wymusi to, na czym na zależy (tzn. automatyczne montowanie
+nośnika)</li>
+  <li>warto sobie pozostawić możliwość ręcznego&nbsp; decydowania, czy
+dane urządzenie ma być podłączone czy nie (parametry <span
+ style="font-weight: bold;">user</span> i <span
+ style="font-weight: bold;">users</span> opisane dalej), gdyż czasem
+supermount nie potrafi prawidłowo odłączać np. dysków
+korzystających z USB<br>
+  </li>
+</ul>
+Jak jednak informacje z <span style="font-weight: bold;">/etc/fstab</span>
+mogą ułatwić używanie polecenia <span style="font-weight: bold;">mount</span>
+? Sprawa jest prosta: <span style="font-weight: bold;">mount</span>
+potrafi odczytać parametry
+dotyczące montowanego urządzenia z tego pliku. Przykładowo, aby
+podłączyć dane z CD-ROM, wystarczy napisac:<br>
+<br style="font-weight: bold;">
+<span style="font-weight: bold;">mount /mnt/cdrom</span><big><small><br>
+<br>
+</small></big> <big><span style="font-weight: bold;"><big
+ style="text-decoration: underline;">Każdemu według jego praw</big><br>
+</span><br>
+<small>Początkujący użytkownicy zastanawiają się zapewne, jak ustalane
+są prawa dostępu podczas podłączania "obcych" systemów
+plików ?<br>
+<br>
+Ogólnie mówiąc, jeżeli montujemy jakieś urządzenie w
+określonym katalogu, prawa dostępu do tego katalogu są zmieniane na te,
+które zostały podane jako parametr polecenia <span
+ style="font-weight: bold;">mount</span> (lub wpisane w <span
+ style="font-weight: bold;">/etc/fstab</span>). W przypadku, gdy dany
+system
+plików nie ma możliwości ich ustalania, pliki i katalogi "wewnątrz"
+również je "przejmą". Opiszemy teraz po kolei, jakich poleceń możemy
+użyć do ustalenia własnych praw:<br>
+<br>
+</small></big><big><small>Komendy <span style="font-weight: bold;">gid=xxx</span>
+i <span style="font-weight: bold;">uid=xxx</span> (gdzie <span
+ style="font-weight: bold;">xxx</span> to wartości numeryczne) pozwolą
+ustawić odpowiednio grupę i użytkownika zbiorów. Należy pamiętać, że
+nie działają one z systemem supermount.<br>
+<br>
+Jeżeli wykorzystaliśmy parametr <span style="font-weight: bold;">ro</span>,
+wykasowana zostanie możliwość zapisu
+(przeciwieństwiem <span style="font-weight: bold;">ro</span> jest
+komenda <span style="font-weight: bold;">rw</span> pozwalająca na
+zapis
+i odczyt).<br>
+<br>
+Standardowo wszystkie pliki będą miały atrybut
+wykonywalności
+- zapobiegamy temu korzystając np. z <span style="font-weight: bold;">noexec</span>
+(atrybut będzie zawsze wykasowany)&nbsp; lub&nbsp; <span
+ style="font-weight: bold;">showexec</span> (atrybut wykonywalności
+będą
+miały pliki z rozszerzeniem exe, com, bat).<br>
+<br>
+</small></big><big><small><span style="color: rgb(0, 0, 0);">Możemy
+też użyć komendy </span><span
+ style="font-weight: bold; color: rgb(0, 0, 0);">umask=xxx</span><span
+ style="color: rgb(0, 0, 0);">.
+Jej parametrem jest wartość numeryczna mówiąca, które
+atrybuty plików i katalogów system ma wyzerować. Szerzej
+o atrybutach
+plików piszemy w ramce obok. Należy zajrzeć do pokazanej tam
+tabeli, zsumować wartości atrybutów do wyzerowania i podać tutaj
+jako parametr. Przykładowo, aby wykasować możliwość zapisu i odczytu
+dla innych użytkowników (nie będących właścicielami ani nie
+należących do grupy przypisanej do pliku/katalogu), powinniśmy tutaj
+użyć wartości 2 + 4 = 6 i wpisać </span><span
+ style="font-weight: bold; color: rgb(0, 0, 0);">umask=6</span><span
+ style="color: rgb(0, 0, 0);">.</span><br>
+<br>
+<span style="font-weight: bold;">&lt;ramka&gt;</span><br>
+<big><span style="font-weight: bold;">Numeryczne prawa dostępu</span></big></small></big><br>
+<br>
+W systemach unixowych (również Linuksie) przyjęto zasadę, iż
+każdy plik i katalog posiada oddzielne prawa dostępu dla trzech
+kategorii użytkowników:<br>
+<big></big>
+<ol>
+  <li>właściciela</li>
+  <li>użytkowników należących do grupy, do
+której przypisano plik/katalog</li>
+  <li>pozostałych (nie wchodzących do kategorii
+pierwszej ani drugiej)<br>
+  </li>
+</ol>
+Każda w powyższych grup może mieć przypisane trzy prawa:<br>
+<ol>
+  <li>do czytania (read)</li>
+  <li>do zapisu (write)</li>
+  <li>do wykonywania (execute) - w przypadku pliku będzie to
+faktyczna możliwość uruchomienia pliku jako programu, dla katalogu
+możliwość wejścia do niego<br>
+  </li>
+</ol>
+Prawa dostępu podaje się często w formie literowej (stosuje ją np.
+polecenie <span style="font-weight: bold;">ls</span>) zapisując po
+sobie trzy kolejne litery ("rwx", gdy dany atrybut jest ustawiony lub
+"-", gdy go nie ma) dla właściciela, grupy i innych
+użytkowników. Zgodnie z tą zasadą, jeżeli plik ma prawa
+dostępu "rwx---r--", jego właściciel będzie mógł go zapisywać i
+wykonywać oraz z niego czytać, a użytkownik należący do grupy innych
+użytkowników dostanie tylko możliwość czytania.<br>
+<br>
+Możemy to też wyrazić w formie numerycznej. Wystarczy zajrzeć do tabeli
+poniżej i zsumować wartości ustawionych atrybutów podane w
+drugiej
+kolumnie, a następnie zamienić otrzymaną liczbę z systemu ósemkowego na
+dziesiętny (np. prawa dostępu "rwx---r--" będą
+określone ósemkowo jako 400+200+100+4 = 704, czyli 452 w formie
+dziesiętnej)<br>
+<br>
+<table style="text-align: left; width: 75%;" border="1" cellspacing="0"
+ cellpadding="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">r<br>
+      </td>
+      <td style="vertical-align: top;">0400<br>
+      </td>
+      <td style="vertical-align: top;">czytanie przez właściciela<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">w<br>
+      </td>
+      <td style="vertical-align: top;">0200<br>
+      </td>
+      <td style="vertical-align: top;">zapisywanie przez właściciela<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">x<br>
+      </td>
+      <td style="vertical-align: top;">0100<br>
+      </td>
+      <td style="vertical-align: top;">wykonywanie (przeszukiwanie
+katalogu) przez właściciela<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">r<br>
+      </td>
+      <td style="vertical-align: top;">0040<br>
+      </td>
+      <td style="vertical-align: top;">czytanie przez członka grupy<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">w<br>
+      </td>
+      <td style="vertical-align: top;">0020<br>
+      </td>
+      <td style="vertical-align: top;">zapisywanie przez członka grupy<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">x<br>
+      </td>
+      <td style="vertical-align: top;">0010<br>
+      </td>
+      <td style="vertical-align: top;">wykonywanie (przeszukiwanie
+katalogu) przez członka grupy<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">r<br>
+      </td>
+      <td style="vertical-align: top;">0004<br>
+      </td>
+      <td style="vertical-align: top;">czytanie przez innych</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">w<br>
+      </td>
+      <td style="vertical-align: top;">0002<br>
+      </td>
+      <td style="vertical-align: top;">zapisywanie przez innych</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">x<br>
+      </td>
+      <td style="vertical-align: top;">0001<br>
+      </td>
+      <td style="vertical-align: top;">wykonywanie (przeszukiwanie
+katalogu) przez innych</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<big><small><span style="font-weight: bold;">&lt;/ramka&gt;</span><br>
+</small></big><big><small></small></big><br>
+<big><small>Jak już wspomnieliśmy, domyślne prawa dostępu będzie można
+zmieniać w pewnym
+zakresie - takim, na jaki pozwalają możliwości użytego systemu
+plików (np. nie będzie można zmienić właściciela plików
+komendą <span style="font-weight: bold;">chown</span> na dysku z vfat,
+natomiast nie będzie problemu ze zrobieniem tego na partycji ext2).<br>
+<br>
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Polskie literki</span></big></big><br>
+<br>
+Jak z kolei uzyskać polskie literki w nazwach plików na
+partycjach fat i ntfs ?<br>
+<br>
+W tym wypadku w obu wypadkach musimy podać parametr <span
+ style="font-weight: bold;">iocharset=xxx</span> (gdzie <span
+ style="font-weight: bold;">xxx</span> to nazwa używanego przez nas
+zestawu znaków w Linuxie - najczęściej <span style="font-weight: bold;">iso8859-2</span>),
+natomiast systemy fat
+wymagają dodatkowo komendy <span style="font-weight: bold;">codepage=852</span>
+(Linux wymaga podania strony kodowej, jaka była oryginalnie używana w
+Windows przy zapisie plików na partycję).<br>
+<br>
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Odmontowywanie</span></big></big><br>
+</small></big><br>
+Jeżeli teraz chcielibyśmy "odłączyć" dane zamontowane urządzenie,
+należy wydać komendę:<br>
+<br>
+<span style="font-weight: bold;">umount /mnt/cdrom</span><br>
+<br>
+Należy pamiętać, że dopiero zrobienie tego pozwoli nam wyjąć płytę z
+napędu (alternatywnie można użyć polecenia <span
+ style="font-weight: bold;">eject /mnt/cdrom</span>, który
+odmontuje i otworzy tackę urządzenia).<br>
+<big><small><big><br>
+<small>Możemy sobie sprawdzić, które partycje pozostały
+zamontowane w systemie, wydając komendę <span
+ style="font-weight: bold;">df</span>.</small><span
+ style="font-weight: bold;"><br>
+<br>
+<big style="text-decoration: underline;">Kto to może montować ?</big><br>
+</span></big></small></big><big><small><br>
+Domyślnie dane urządzenie może być dołączane i odłączane przez
+administratora (roota). Jeżeli użyjemy parametru <span
+ style="font-weight: bold;">user</span>, to montować urządzenie będzie
+mógł każdy użytkownik, natomiast odmontować tylko ten sam
+użytkownik, który je zamontował. Z kolei komenda <span
+ style="font-weight: bold;">users</span> pozwoli na montowanie i
+odmontowywanie systemu dowolnemu użytkownikowi. Oczywiście podawanie
+wymienionych tutaj poleceń nie ma sensu z supermountem.<br>
+<br>
+</small><big style="text-decoration: underline;"><span
+ style="font-weight: bold;">Dyskietki bez bólu</span></big></big><br>
+<br>
+W Linuxie istnieje także inna możliwość korzystania z dyskietek
+zapisanych w DOS nie wymagająca ustawiania niczego w systemie. <br>
+<br>
+Stworzono bowiem pakiet mtools udostępniający szerzeg komend
+analogicznych do tych z MS-DOS (o podobnej składni i nazwie
+poprzedzonej
+literą "m"). Oto kilka przykładów ich użycia:<br>
+<br>
+<span style="font-weight: bold;">mdir a:</span> - pokazuje zawartość
+dyskietki<br>
+<br>
+<span style="font-weight: bold;">mcopy file a:</span> - kopiuje plik
+file na dyskietkę<br>
+<br>
+<span style="font-weight: bold;">mcopy a:\file</span> - kopiuje plik
+file z dyskietki do bieżącego katalogu<br>
+<br>
+<span style="font-weight: bold;">mformat a:</span> - formatuje dyskietkę<br>
+<br>
+<span style="font-weight: bold;">mlabel a:</span> - nadaje dyskietkę
+nazwę<br>
+<br>
+Więcej można poczytać w pomocy systemowej (<span
+ style="font-weight: bold;">man mtools</span>)<br>
+<br>
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Łączymy się z flashem</span></big></big><br>
+<big><span style="font-weight: bold;"></span></big><big><br>
+<small>Chcielibyśmy się teraz zająć coraz częściej używanymi pamięciami
+flash ze złączem USB. Jeżeli mamy włączone w jądrze opcje
+wymienione w ramce obok, </small></big><big><small>system powinien
+zarejestrować nowe urządzenie blokowe <span style="font-weight: bold;">sd</span>
+po podłączeniu naszego urządzenia (</small></big><big><small>do
+sprawdzenia tego nadaje się
+polecenie <span style="font-weight: bold;">cat proc/devices</span>)</small></big><big><small>.
+Możemy się również upewnić o poprawności ustawień patrząc na
+wynik działania </small></big><big><small>komendy <span
+ style="font-weight: bold;">cat
+/proc/scsi/scsi</span> - powinniśmy zobaczyć informację o tym, co
+podłączyliśmy.</small></big><big><small><br>
+<br>
+Jeżeli wszystko zadziałało prawidłowo, kolejnym krokiem będzie
+wykorzystanie znanej już komendy <span style="font-weight: bold;">mount</span>
+(w przykładzie podłączy ona
+pierwszą partycję pierwszego dołączonego dysku do katalogu<span
+ style="font-weight: bold;"> /mnt/usb</span>):<br>
+<br>
+<span style="font-weight: bold;">mount -t vfat /dev/sda1 /mnt/usb</span><br>
+<br>
+i można już korzystać z tego, co dołączyliśmy (alternatywnie użyjmy
+systemu supermount po to, aby cała operacja montowania była
+wykonywana automatycznie).<br>
+<br>
+Należy jednak pamiętać, że część opcji
+dostępnych w przypadku tych urządzeń w Windows (np. szyfrowanie
+zawartości partycji) może być niedostępna. Powinniśmy też być
+przygotowani na ewentualne problemy, gdy nasza pamięć ma blokadę zapisu
+w formie programowej.</small><span style="font-weight: bold;"><br>
+<br>
+<big style="text-decoration: underline;">Przygotowania do pracy</big><br>
+<br>
+</span><small>Umiemy już korzystać z dysków i innych
+nośników. Aby je jednak przygotować do pracy, potrzebne jest
+formatowanie.<br>
+<br>
+O ile w przypadku dyskietek jest to stosunkowo łatwe
+(można użyć komendy <span style="font-weight: bold;">mformat</span>
+lub jednego z programów działających
+w XWindows), w przypadku dysków twardych lub pamięci USB sprawa
+się trochę komplikuje. Najczęściej konieczne będzie skorzystanie z
+narzędzi tekstowych oraz zachowanie maksymalnej ostrożności.<br>
+<br>
+Omówimy sprawę na
+przykładzie pamięci USB. Ponieważ wpierw wymagane może być
+podzielenie nowego urządzenia na partycje, skorzystamy z komendy <span
+ style="font-weight: bold;">fdisk</span>:<br>
+<br>
+<span style="font-weight: bold;">fdisk /dev/sda</span></small></big><br
+ style="font-style: italic;">
+<pre>Command (m for help):</pre>
+Naciskamy p<br>
+<pre>Disk /dev/sda: 129 MB, 129740800 bytes<br>18 heads, 63 sectors/track, 223 cylinders<br>Units = cylinders of 1134 * 512 = 580608 bytes<br><br>   Device Boot    Start       End    Blocks   Id  System<br>   /dev/sda1             1       223    126409+  b  Win95 FAT32<br
+ style="font-style: italic;"><br></pre>
+Na naszym urządzeniu mamy już jedną partycję /dev/sda1 zajmującą całą
+przestrzeń (cylindry 1 - 223) sformatowaną w systemie FAT32
+(prawdopodobnie przez producenta). Chcielibyśmy ją wykasować. W tym
+celu
+używamy komendy d<big><small><br>
+</small></big>
+<pre>Command (m for help): d<br>Selected partition 1<br></pre>
+i ponownie wyświetlamy informację o podziale na partycje (komenda p):<br>
+<pre>Command (m for help): p<br><br>Disk /dev/sda: 129 MB, 129740800 bytes<br>18 heads, 63 sectors/track, 223 cylinders<br>Units = cylinders of 1134 * 512 = 580608 bytes<br><br>   Device Boot    Start       End    Blocks   Id  System<br></pre>
+Zgodnie z oczekiwaniami na urządzeniu się teraz nic nie znajduje.
+Dodamy teraz nową partycję (komenda n):<br>
+<pre>Command (m for help): n<br>Command action<br>   e   extended<br>   p   primary partition (1-4)<br>p<br>Partition number (1-4): 1<br>First cylinder (1-223, default 1):<br>Using default value 1<br>Last cylinder or +size or +sizeM or +sizeK (1-223, default 223):<br>Using default value 223<br></pre>
+Jak widać, konieczne było podanie typu partycji (podstawowa czy
+rozszerzona), jej numeru oraz początkowego i końcowego cylindra.<br>
+<br>
+Teraz zmienimy typ utworzonej partycji na Linuksową ext3 (komenda t):<br>
+<pre>Command (m for help): t<br>Selected partition 1<br>Hex code (type L to list codes): 83<br></pre>
+i wyświetlimy sobie ostateczną informację o naszym urządzeniu:<br>
+<pre>Command (m for help): p<br><br>Disk /dev/sda: 129 MB, 129740800 bytes<br>18 heads, 63 sectors/track, 223 cylinders<br>Units = cylinders of 1134 * 512 = 580608 bytes<br><br>   Device Boot    Start       End    Blocks   Id  System<br>/dev/sda1             1       223    126409+  83  Linux<br></pre>
+Wydawać by się mogło, że wszystko poszło zgodnie z oczekiwaniami.
+Należy jednak sprawdzić wypisane dane kilka razy. Jeżeli tworzyliśmy
+nową partycję na dysku twardym, mogliśmy bowiem przez przypadek
+wykasować lub zmienić dane partycji już istniejących. Dopiero wtedy,
+gdy
+upewnimy się, że podzieliśmy dysk zgodnie z oczekiwaniami i nie
+zrobiliśmy błędu, wciskamy w i
+<span style="font-weight: bold;">fdisk</span> zapisze zmiany.<br>
+<br>
+Teraz
+musimy
+wykonać właściwy format nowej partycji:<br>
+<br>
+<span style="font-weight: bold;">mkfs.ext3 /dev/sda1</span><br>
+<br>
+Oczywiście, jeżeli utworzyliśmy właśnie partycję w systemie fat,
+powinniśmy zamiast <span style="font-weight: bold;">mkfs.ext3</span>
+użyć <span style="font-weight: bold;">mkfs.vfat</span>. Po takim
+przygotowaniu do pracy możemy już zamontować nową partycję i jej używać.<br>
+<br style="text-decoration: underline;">
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Sprawdź się</span></big></big><br>
+<br>
+Czasami zachodzi potrzeba ręcznego sprawdzenia danego systemu
+plików pod względem poprawności zapisu danych. Aby to zrobić w
+odniesieniu do dysków z <span style="font-weight: bold;">ext2</span>
+lub <span style="font-weight: bold;">ext3</span>, można wykorzystać
+komendę <span style="font-weight: bold;">fsck</span>:<br>
+<br>
+<span style="font-weight: bold;">fsck.ext2 /dev/sda1<br>
+<br>
+fsck.ext3 /dev/sda2<br>
+</span><big><br>
+<small>Polecenia te z powodzeniem spełnią rolę analogiczną do <span
+ style="font-weight: bold;">chkdsk </span>z Windows</small><br>
+<br style="font-weight: bold;">
+<big style="text-decoration: underline;"><span
+ style="font-weight: bold;">Malujemy i oglądamy obrazy</span></big></big><br>
+<br>
+Istnieje jeszcze jedna funkcja Linuxa, o której warto wspomnieć.
+Możemy sobie zrobić kopię określonej partycji dysku twardego, płyty CD
+lub dyskietki, a następnie jej używać dokładnie tak samo samo,
+jakbyśmy to robili z oryginałem. Zaczniemy od utworzenia obrazu:<br>
+<br>
+<span style="font-weight: bold;">dd of=/dev/sda1 of=/home/marcin/plik</span><br>
+<pre>252818+ records in<br>252818+ records out<br></pre>
+Polecenie odczytało wszystko z <span style="font-weight: bold;">/dev/sda1</span>
+i zapisało do pliku <span style="font-weight: bold;">/home/marcin/plik</span>.
+Operacja zakończyła się sukcesem (liczby w obu wierszach oznaczające
+ilość odczytanych i zapisanych danych są takie same). Następnie
+konfigurujemy jedno z urządzeń loop:<br>
+<br>
+<span style="font-weight: bold;">losetup /dev/loop0 /home/marcin/plik</span><br>
+<br>
+i odtąd możemy z nim pracować tak samo jak z partycjami dysków
+twardych czy dyskietkami. Oto przykład montowania takiego urządzenia:<br>
+<br>
+<span style="font-weight: bold;">mount -t ext2 -o rw /dev/loop0
+/mnt/katalog<br>
+</span><br>
+Należy jedynie pamiętać, aby po zakończeniu pracy (odmontowaniu)
+urządzenie loop jeszcze dodatkowo odłączyć:<br>
+<br>
+<span style="font-weight: bold;">losetup -d /dev/loop0</span><br>
+<br>
+Istnieje też inna metoda tworzenia plików, które
+następnie mogą być montowane w charakterze urządzeń, niż używanie
+komendy <span style="font-weight: bold;">dd</span>. Wystarczy bowiem
+użyć polecenia <span style="font-weight: bold;">mkisofs</span>:<br>
+<br>
+<span style="font-weight: bold;">mkisofs -o plik katalog</span><br>
+<br>
+Program ten przeczyta zawartość katalogu <span
+ style="font-weight: bold;">katalog</span> i na tej podstawie utworzy
+obraz w pliku o nazwie <span style="font-weight: bold;">plik</span>.
+Sekwencje wymienionych poleceń (np. <span style="font-weight: bold;">mkisofs</span>,
+a następnie <span style="font-weight: bold;">losetup</span> i <span
+ style="font-weight: bold;">mount)</span> wykorzystuje się dosyć często
+po to, aby zobaczyć, jak dokładnie będzie wyglądać nagrana płyta CD
+(plik z obrazem może bowiem później bez problemu służyć jako
+źródło, z którego nagrywane są płyty).<br>
+<br>
+<big style="text-decoration: underline;"><big><span
+ style="font-weight: bold;">Partycje i pliki wymiany</span></big></big><br>
+<br>
+<big><small>Chcieliśmy jeszcze wspomnieć o bezpłatnym rozszerzaniu
+pamięci operacyjnej komputera w postaci plików i partycji
+wymiany. Idea jest prosta - jeżeli komputer ma za mało RAM, można w jej
+charakterze wykorzystać znacznie wolniejszy, ale większy dysk twardy.
+Najczęściej podczas instalacji różnych dystrybucji Linuxa tworzy
+się tzw. partycje wymiany, które spełniają właśnie tę rolę. Oto
+przykładowy wpis do <span style="font-weight: bold;">/etc/fstab</span>
+związany z taką partycją:<br>
+</small></big>
+<pre><big><small>/dev/hdc3&nbsp;&nbsp;&nbsp; none&nbsp;&nbsp;&nbsp; swap&nbsp;&nbsp;&nbsp; sw</small></big><br></pre>
+<big><small>Może się zdarzyć, że chcielibyśmy, aby rolę tę pełnił plik.
+Nic prostszego. Utworzymy taki o rozmiarze 16 MB:<br>
+<br>
+<span style="font-weight: bold;">dd if=/dev/zero of=plik bs=1024
+count=16384</span><br style="font-weight: bold;">
+<span style="font-weight: bold;">mkswap plik 16384</span><br
+ style="font-weight: bold;">
+<span style="font-weight: bold;">sync<br>
+<br>
+</span>i go podłączymy:<span style="font-weight: bold;"><br>
+<br style="font-weight: bold;">
+</span><span style="font-weight: bold;">swapon plik</span><br>
+<br>
+Możemy sobie dodać ostatnią komendę do <span style="font-weight: bold;">/etc/rc.d/rc.local</span>
+i plik wymiany będzie uaktywniany przy każdym starcie naszego pingwina
+(analogicznie komenda <span style="font-weight: bold;">swapoff plik</span>
+w pliku <span style="font-weight: bold;">/etc/rc.d/init.d/halt</span>
+będzie go "wyłączać" przy zamykaniu systemu). Nic nie stoi na
+przeszkodzie, aby plik wymiany znalazł się na tej samej partycji i
+nazywał się tak samo jak plik wymiany systemu Windows. Dzięki temu
+oszczędzimy miejsce na dysku.<br>
+<br>
+<br>
+</small><span style="font-weight: bold;"> </span><span
+ style="font-weight: bold;"><br>
+</span></big></div>

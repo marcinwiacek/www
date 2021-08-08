@@ -1,0 +1,204 @@
+﻿Title:CMS do serwowania WWW w kilkunastu KB ? Sobieski na GitHubie i w moim labie (2019)
+Author:marcin
+When:11 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Sobieski
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/CMS-do-serwowania-WWW-w-kilkunastu-KB-Sobieski-na-GitHubie-i-w-moim-labie,104653.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Do napisania tego wpisu skłoniło mnie kilka rzeczy:</p>
+
+<ol>
+<li>przeczytałem <a href="https://www.chip.pl/2019/11/alicja-polska-sztuczna-inteligencja/" target="_blank" rel="noopener" rel="nofollow">https://www.chip.pl/2019/11/alicja-polska-sztuczna-inteligencja/</a> (znowu poczułem, że to co polskie może być dobre)</li>
+
+<li>należy pisać o rozwiązaniach lekkich i wymieniać się doświadczeniami (a w każdym razie jest to zabawniejsze niż używanie gotowców)<br/></li>
+
+<li>lekka nostalgia, a może chandra (w 2011 moja prywatna strona zaczęła korzystać z jednego z systemów CMS, czas na zmiany i zamknięcie pewnego rozdziału - a ponieważ od zawsze byłem fanem tworzenia treści elektronicznych, kilka słów również o tym co było kiedyś...)</li>
+</ol>
+
+<p>Jeżeli kogoś nie interesują takie tematy jak PHP, proszony jest o poprzestanie w tym miejscu...</p>
+<!--break-->
+<p><b>Etap 1</b></p>
+
+<p>Na początku tworzyłem swoje teksty w plikach tekstowych albo korzystałem z binarnych własnościowych formatów - pierwsze rozwiązanie pozwalało generować mniejsze pliki (używano wtedy kodowania na 8 bitach i niezgodnych ze sobą stron kodowych i standardów takich jak Mazovia, strona kodowa 825 czy Windows 1250), drugie wymagało używania aplikacji komercyjnych.</p>
+
+<p>To był czas MS-DOS (a więc również komendy edit) i Norton Commandera, Windows 3.1 i 3.11, potem oczywiście pojawiło się Chicago (Windows 95) i Windows 98...do tego Internet Explorer 2.0, 3.0, 4.0 i odpowiednie wersje Netscape.</p>
+
+<p>Troszkę zapoznałem się z RedHatem i Mandrake/Mandrivą, zacząłem eksperymentować z Internetem (202122)... pochłaniałem również namiętnie Bajtka, PC-Kurier, Entera, Chipa... w których bardzo dużo można było poczytać o wykorzystaniu Internetu dla dobra ludzkości.</p>
+
+<p>I wtedy otworzyłem stronę... która pojawiła się w wersji offline na CD.</p>
+
+<p><center><img src="sites/default/files/372/marcin1.png" style="width:608px;height:335px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/372/marcin2.png" style="width:608px;height:335px;" alt="image" title="image" /></center>
+
+<p>Pionierskie dla mnie poniekąd czasy - adres wykorzystywał alias topnet.pl, początkowo używałem darmowego serwera free.com.pl.</p>
+
+<p><b>Etap 2 (1999-)</b></p>
+
+<p>Windows 2000 (i problemy z gubieniem plików Rejestru na komputerze z chipsetem VIA), potem nieśmiertelny XP... w międzyczasie pojawiło się też zauroczenie BeOS.</p>
+
+<p>Poniekąd mieliśmy już ustawę o prawach autorskich, a ja tworzyłem strony HTML (również z JavaScript, ale bez Flash) i eksperymentowałem z formatami takimi jak HLP (własnościowy format aplikacji WinHelp) albo CHM (Microsoft Compiled HTML Help czyli archiwa z plikami HTML i nagłówkami).</p>
+
+<p>Najbardziej bliski mi był chyba ten ostatni - przygotowałem np. <a href="?q=taxonomy/term/CHM">serię artykułów do polskiego Chipa</a>, w ramach własnych ćwiczeń wykonałem również konwersję roczników magazynów komputerowych (Enter, Chip, itd.) i Wiedzy i Życia, opowiadań klasyków, Pojęciownika Komputerowego czy własną wersję <a href="/zips/books/myhtmlib.chm" target="_blank">The HTML Reference Library 4.0</a> albo <a href="/zips/books/hwb.chm">The Hardware Book</a>.</p>
+
+<p>W tym okresie moje strony były statyczne (tzn. nie były budowane z użyciem żadnego engine), za to miałem już stały Internet (Neostrada 128).</p>
+
+<p>Życie zmusiło mnie do rejestracji własnej domeny (topnet.pl był i się zmył), a stronę przygarnął Fan Klub Nokii Radka Wrocławskiego ( <a href="https://web.archive.org/web/20040325034650/http://www.fkn.pl/" target="_blank" rel="noopener" rel="nofollow">https://web.archive.org/web/20040325034650/http://www.fkn.pl/</a>). Dużo udzielałem się w sprawach związanych z GSM - opis netmonitora, projekt Gammu, itp. (<a href="?q=node/8">więcej o tamtych czasach w podsumowaniu</a>).</p>
+
+<p>To były romantyczne czasy upowszechniania się telefonów komórkowych - 3,66 PLN z VAT z Tak-Tak (taktowanie co minutę) i brak SMS odchodziły do lamusa, Idea była już dwuzakresowa, itd.</p>
+
+<p><i>Gimby nie znajo, </i>pewien smak technologii tamtych czasów może dać np. <a href="http://wimmer.neostrada.pl/" target="_blank" rel="noopener" rel="nofollow">strona domowa pana Pawła Wimmera</a>.</p>
+
+<p><b>Etap 3 (2004-)</b></p>
+
+<p><center><img src="sites/default/files/4/mywww2.png" style="width:519px;height:405px;" alt="image" title="image" /></center>
+
+<p>Początkowo czasy Windows XP SP2 i wiara w Pentium 4 (miałem i używałem zarówno Northwooda jak i Prescotta), potem pojawiły się dwurdzeniowce (Turion 64 X2 i Core Duo) i koszmarek pod nazwą Vista (nie chcę słyszeć, że ten system był piękny i w ogóle - w stosunku do XP czy oryginalnego NT 4.0 marnotrawił zasoby wręcz gigantycznie i zdania nie zmienię).</p>
+
+<p>Miałem wtedy dwie strony (oprócz własnej było gammu.org) i używałem CMS takiego jak MediaWiki, jak również pracowałem nad własnymi aplikacjami PHP.</p>
+
+<p><center><img src="sites/default/files/165/gammuorg1.png" style="width:522px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/165/gammuorg2.png" style="width:522px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/165/gammuorg3.png" style="width:555px;height:405px;" alt="image" title="image" /></center>
+
+<p>W tym czasie zacząłem migrować do formatów darmowych takich jak ODT albo DOCX, zaś w TV leciały reklamy z prawdziwym jajem takie jak &quot;Simplus Team vs Heyah&quot; (polecam wyszukać na YouTube, chodzi o kampanię &quot;Dziewczyna&quot; z ofertą 39 groszy do swojaków) czy &quot;Reklama - Era Tak-Tak - Ratownicy&quot; (znów kłania się YouTube).</p>
+
+<p>Nokia straciła znaczenie i w końcu moje Gammu+ stało się już wspomnieniem (tzn. wielu użytkowników korzysta z Gammu, natomiast ja przestałem się zajmować tą tematyką).</p>
+
+<p><center><img src="sites/default/files/101/070318_mms.jpg" style="width:507px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Etap 4 (2010-)<br/></b></p>
+
+<p><center><img src="sites/default/files/4/mywww3.png" style="width:539px;height:405px;" alt="image" title="image" /></center>
+
+<p>Stronę postawiłem na Drupalu (wydawał się przyszłościowy w porównaniu do MediaWiki), zamknąłem gammu.org i ponieważ ciągnie wilka do lasu, to zacząłem zajmować się takimi systemami mobilnymi jak Android, Tizen, iOS czy Firefox OS.</p>
+
+<p>Zaczęło się od Galaxy S Samsunga (iPhone wydawał się jakiś taki okaleczony), <a href="?q=node/196" rel="nofollow">interesowałem się tematem używania XML do kodyfikacji prawa</a> - to wtedy powstały m.in. takie projekty jak <a href="?q=taxonomy/term/drogowe" target="_blank">Przepisy Drogowe </a>(enginy dla różnych platform + jeden zestaw danych).</p>
+
+<p>Słowa klucz z tamtego okresu - XML, JSON, UTF-8.</p>
+
+<p>Po serii artykułów moich &quot;ulubionym&quot; Linuxem zostało się Ubuntu (chyba z lenistwa). Coraz mniej korzystałem z Gadu-Gadu i ICQ, coraz więcej w WhatsApp i Facebooka, miałem na koncie również pierwsze nieśmiałe próby z GitHubem.</p>
+
+<p><b>Etap 5 (2019-)</b></p>
+
+<p><i>Gdy mówię video, myślę YouTube... Gdy mówię poczta, myślę GMail...</i></p>
+
+<p>Internet jest zdominowany przez kilka wielkich korporacji i jedną przeglądarkę, niestety to co według nas stało się częścią kultury, przechodzi do historii i jak widać w nowym regulaminie YouTuba wielu z nas może być niedługo niemile zaskoczonych.</p>
+
+<p><center><img src="sites/default/files/372/x1.png" style="width:608px;height:64px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/372/x2.png" style="width:608px;height:37px;" alt="image" title="image" /></center>
+
+<p>To nie jedyny przykładem tego, że właściwie wszystko podporządkowane jest mamonie - czy ktoś pamięta Flickra i usunięcie milionów zdjęć?</p>
+
+<p>Nasze komputery są potężniejsze niż kiedyś, mamy więcej rdzeni niż kiedykolwiek, ale czy potrafimy z tego jeszcze korzystać?</p><p>Coraz częściej słychać o wyciekach danych i Internet nie jest już wyłącznie romantycznym miejscem, gdzie ludzie chcą się dzielić - standardem są gównoburze, artykuły sponsorowane czy wszechobecne reklamy.</p>
+
+<p>Liczy się głównie to, żeby dokopać i mieć sensację - większość ludzi interesuje co jest na Allegro, Ali, co się dzieje na Instagramie i w kilku innych miejscach... i nic więcej, a w każdym razie takie mam wrażenie.</p>
+
+<p>Od strony technicznej - JQuery odchodzi do lamusa zastępowane innymi &quot;lekkimi&quot; rozwiązaniami i choć w różnych serwisach teksty tworzy się korzystając z ładnego edytora, to wynikiem edycji jest stary dobry HTML.</p>
+
+<p> Sam osobiście obecnie generuję kod HTML (zapisywany z użyciem UTF-8), czasem pliki MD, ODT, DOCX, PDF albo EPUB.</p>
+
+<p>I w tym miejscu podjąłem decyzję o przekształceniu swojej strony z Drupala na własny prosty engine.</p>
+
+<p><center><img src="sites/default/files/372/2019.png" style="width:415px;height:405px;" alt="image" title="image" /></center>
+
+<p>Projekt nosi nazwę Sobieski.&#160;</p>
+
+<p><b>Założenia projektowe</b></p>
+
+<ul><li>Artykuły i komentarze do artykułów są zapisywane w plikach tekstowych (UTF-8)</li>
+
+<li>Engine ma być prosty i ma wszystko generować automatycznie</li>
+
+<li>Interface ma być dostosowany do urządzeń mobilnych i desktopowych</li>
+
+<li>Strona ma zapamiętywać ilość odwiedzin (tzn. ile razy otwarto dany artykuł - jest to zliczane jako ilość wizyt z różnych adresów IP, przy czym wizyta z jednego adresu jest zaliczana jako nowa po ustalonym interwale czasowym)</li>
+
+<li>Generowane URL są niezmienne</li>
+
+<li>Całość ma być możliwie mocno zoptymalizowana</li>
+
+<li>Nie ma edycji komentarzy ani złożonego trackingu (niepotrzebne)</li>
+
+<li>Cookies i JavaScript są używane w ostateczności</li></ul>
+
+<p><b>Technologia</b></p>
+
+<p>Od strony serwera PHP (znam go od lat i jest wystarczający) + SQLite (powinien być wystarczający do zapisywania liczników odwiedzin) + pliki UTF-8, od strony klienta prosty HTML z prostym CSS (JavaScript jest używany dosłownie w jednym miejscu).</p>
+
+<p><b>Format plików z artykułami</b></p>
+
+<p>Pliki mają nazwy zgodne z regułą &quot;DATA_ID.txt&quot; (np. 20190404_256.txt), co pozwala je łatwo posortować.</p><p>Treść jest zapisana w kolejnych linijkach: nagłówki, pusta linia, (opcjonalnie: tekst podsumowujący i tag zamykający), tekst, (opcjonalnie jeden lub więcej komentarzy)</p>
+
+<p>Przykład 1<b>:<br/></b></p>
+
+<p><pre contenteditable="false"><code class="html" data-lang="html" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Title:Test page 1
+Author:marcin
+When:11 Nov 2019
+Taxonomy:Polski,Polski artykuł,x86
+
+Page teaser (but no beginning of page)
+&lt;!--teaser--&gt;
+Page context
+
+&lt;a href=?q=2&gt;Second page&lt;/a&gt;</code></pre>
+
+<p>Przykład 2<b>:<br/></b></p>
+
+<p><pre contenteditable="false"><code class="html" data-lang="html" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Title:Example page 2
+Author:marcin
+When:11 Nov 2019
+Taxonomy:English,x86,English article
+
+Page teaser and beginning of page
+&lt;!--break--&gt;
+Page context
+
+&lt;a href=?q=1&gt;First page&lt;/a&gt;
+&lt;p&gt;&lt;a href=?q=test&gt;First page&lt;/a&gt;
+
+&lt;!--comments--&gt;
+Title:my comment 1
+ID:369
+Author:Anonymous (not verified)
+When:1 Aug 2010
+
+Text
+&lt;!--comment--&gt;
+Title:my comment 2
+ID:370
+Author:Anonymous (not verified)
+When:1 Aug 2010
+
+&lt;b&gt;Text&lt;/b&gt;</code></pre>
+
+<p><b>Przykładowe linki</b></p>
+
+<ul><li>?page=5 - piąta podstrona strony głównej</li>
+
+<li>?q=taxonomy/term/dobreprogramy.pl&amp;page=2 - druga podstrona strony z artykułami z taxonomią &quot;dobreprogramy.pl&quot;</li>
+
+<li>?q=node/369 - artykuł o ID 369</li>
+
+<li>?q=time/2013-12 - lista artykułów z grudnia 2013</li>
+
+<li>?q=przepisy_drogowe - artykuł o aliasie &quot;przepisy_drogowe&quot;</li></ul>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Napisałem moduł importujący dane z Drupala, przekształciłem swoje artykuły i wygląda na to, że wszystkie założenia są spełnione i całość jest bardzo lekka i elastyczna (w każdym razie wystarczająca do moich celów). Do edycji używam edytora tekstowego, wersjonowanie plików tekstowych wykonuję wykorzystując git. Strona działa nawet bez JavaScript (jest używany jedynie do kolorowania linków, a dokładniej ustawiania stylu odnośników), cookies są używane jedynie do zapisywania info o tym, czy włączony jest tryb ciemny i mobilny.</p>
+
+<p><i>Phase 1 completed.</i></p>
+
+<p>Na chwilę obecną muszę popracować nad refaktoringiem kodu (to zawsze jest potrzebne), nad wydajnością wersji dark (Firefox Preview ma z tym problem - <a href="https://github.com/mozilla-mobile/fenix/issues/6549" target="_blank" rel="noopener" rel="nofollow">https://github.com/mozilla-mobile/fenix/issues/6549</a>) i wyglądem.</p>
+
+<p><center><img src="sites/default/files/372/Screenshot_20191111-135527_Firefox Preview.jpg" style="width:228px;height:405px;" alt="image" title="image" /> <img src="sites/default/files/372/Screenshot_20191111-135548_Firefox Preview.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Wersja na dzisiaj (cały engine ma ok. 25 KB kodu):</p>
+
+<p><a href="https://github.com/marcinwiacek/Sobieski" target="_blank" rel="noopener" rel="nofollow">https://github.com/marcinwiacek/Sobieski</a></p>
+
+<p>Jeżeli ktoś na tym portalu byłby zainteresowany tą tematyką, z chęcią ją rozwinę...&#160;&nbsp;</p>

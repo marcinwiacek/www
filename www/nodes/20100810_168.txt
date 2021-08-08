@@ -1,0 +1,28 @@
+﻿Title:O tym co się dzieje...
+Author:marcin
+When:10 Aug 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>W kwietniu na Krakowskim żeśmy ludzi widzieli,<br />
+jak stali godzinami i hołd składać umarłym chcieli.<br />
+W czerwcu zgoda buduje non-stop słyszeliśmy,<br />
+a w sierpniu przykład jego realizacji zobaczyliśmy.<br />
+Nie można było wstawić tablicy pamiątkowej,<br />
+nie taniej by było niż trzymać tej policji porządkowej ?<br />
+Czy trzeba było dać zgodę na happening zorganizowany,<br />
+w którym i krzyż i nawet Jan Paweł II był mocno wyśmiany ?<br />
+A tak o zmienionych podatkach Polska nie dyskutuje,<br />
+tylko tematem krzyża na Krakowskim się tak ekscytuje.<br />
+<!--break-->
+Chociaż ekonomiści raczej zgodnie w prasie alarmują<br />
+i na inne metody naprawy złej sytuacji finansów wskazują<br />
+Władzy miłościwej prezydent już teraz nie przeszkadza,<br />
+więc władza zmieniony VAT chociażby nam wprowadza.<br />
+Ludzi zalewa, ludzie radźcie sobie sami słyszymy,<br />
+ile jeszcze wkrótce zalewów w tym roku zobaczymy ?<br />
+Chyba niestety sprawdza się prawda od wieków znana<br />
+przez Jana Kochanowskiego tak dosadnie pięknie napisana,<br />
+Że nową przypowieść Polak sobie kupi,<br />
+Że i przed szkodą, i po szkodzie głupi...</p>

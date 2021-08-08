@@ -1,0 +1,32 @@
+﻿Title:Chciałbym....
+Author:marcin
+When:22 Nov 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Chciałbym się jeszcze powłóczyć z Tobą,<br />
+chciałbym móc nasycić Twą całą osobą,<br />
+ale chyba każdy jednak trochę to czuje,<br />
+że mnie mocno chce, lecz nie potrzebuje,</p>
+<p>chciałbym móc jeszcze zrobić tyle rzeczy,<br />
+chciałbym, by to i owo było na rzeczy,<br />
+ale chyba każdy jednak trochę to czuje,<br />
+że mnie mocno chce, lecz nie potrzebuje,</p>
+<p>chciałbym nie ranić i do bólu nie zmuszać,<br />
+chciałbym podświadomość Twoją poruszać,<br />
+ale chyba każdy jednak trochę to czuje,<br />
+że mnie mocno chce, lecz nie potrzebuje,</p>
+<!--break-->
+<p>chciałbym grzać i zmysły Twoje wypełniać,<br />
+chciałbym jang w każdej pozycji dopełniać,<br />
+ale chyba każdy jednak trochę to czuje,<br />
+że mnie mocno chce, lecz nie potrzebuje,</p>
+<p>chciałbym nie być awaryjnym Twym planem,<br />
+chciałbym być w życiu kimś i kompanem,<br />
+ale chyba każdy jednak trochę to czuje,<br />
+że mnie mocno chce, ale nie potrzebuje,</p>
+<p>chciałbym znaleźć w końcu kogoś takiego,<br />
+chciałbym znać i mieć kogoś bliskiego,<br />
+dla kogo nie będę głosem w słuchawce,<br />
+kto zaprosić mnie i poznać do bólu zachce...</p>

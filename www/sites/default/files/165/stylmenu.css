@@ -1,0 +1,244 @@
+<HTML>
+<STYLE TYPE="text/css">
+.bzyk {
+	font-family: 'Tahoma' ;
+}
+
+table.Body2 {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: #fff7e7;
+}
+table.Body2 a:link {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: #fff7e7;
+	text-decoration: underline;
+}
+table.Body2 a:active {
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: #fff7e7;
+	text-decoration: none;
+}
+table.Body2 a:visited {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: #fff7e7;
+	text-decoration: underline;
+}
+table.Body2 a:hover {
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: #fff7e7;
+	text-decoration: none;
+}
+
+.Title
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: brown;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+
+
+.Up {
+	background-color: lightsteelblue;
+	font-weight: bold;
+	font-size: 14pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+
+}
+.Up2 {
+	font-family: 'Tahoma' ;
+	font-size: 10pt;
+	background-color: lightsteelblue;
+	font-weight: normal;
+	color: black;
+	font-style: normal;
+}
+.SelectedTab
+{
+	background-color: #0033CC;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+}
+a.SelectedTab {
+	background-color: #0033CC;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: none
+}
+a.SelectedTab:active {
+	background-color: #0033CC;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: underline
+}
+a.SelectedTab:visited {
+	background-color: #0033CC;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: none
+}
+a.SelectedTab:hover {
+	background-color: #0033CC;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: underline
+}
+.OtherTab
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Tahoma;
+	text-decoration: none;
+	background-color: lightsteelblue;
+}
+a.OtherTab {
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+a.OtherTab:visited {
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+a.OtherTab:active
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+a.OtherTab:hover {
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Tahoma;
+	text-decoration: underline;
+	background-color: white;
+}
+.SelectedTab2
+{
+	background-color: gainsboro;
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Tahoma;
+}
+a.SelectedTab2 {
+	font-weight: bold;
+	font-size: 13px;
+	background-color: gainsboro;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+a.SelectedTab2:hover {
+	font-weight: bold;
+	font-size: 13px;
+	background-color: gainsboro;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+a.SelectedTab2:active
+{
+	font-weight: bold;
+	font-size: 13px;
+	background-color: gainsboro;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+
+.OtherTab2
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: none;
+	background-color: #0033CC;
+}
+a.OtherTab2 {
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: none;
+	background-color: #0033CC;
+}
+a.OtherTab2:visited {
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: none;
+	background-color: #0033CC;
+}
+a.OtherTab2:active
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+a.OtherTab2:hover {
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: Tahoma;
+	text-decoration: underline;
+	background-color: white;
+}
+
+.OtherTab2_2
+{
+	color:white;
+	font-weight: bold;
+	font-size: 2px;
+	font-family: Tahoma;
+	text-decoration: none;
+	background-color: #0033CC;
+}
+
+
+</STYLE>
+</HTML>

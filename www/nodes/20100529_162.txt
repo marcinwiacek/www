@@ -1,0 +1,24 @@
+﻿Title:Ten magiczny dzień...
+Author:marcin
+When:29 May 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Jest taki dzień jeden, jedyny i magiczny w roku,<br />
+gdy nikt nie jest w stanie dotrzymać nam kroku.<br />
+Gdy życzenia otrzymujemy, z przyjaciółmi radujemy,<br />
+gdy nastrój czujemy i niczym się nie przejmujemy.</p>
+<p>Bo jest zawsze co świętować w każde urodziny,<br />
+które obchodzimy i z tego na pewno się cieszymy,<br />
+że znów przeżyliśmy tyle przez ten czas nowego<br />
+i że poznaliśmy znowu kogoś i coś ciekawego.</p>
+<p>Wtedy często od niechcenia również planujemy,<br />
+mamy nowe marzenia i plany różniste snujemy.<br />
+Ja życzę Tobie tu i teraz wszystkiego najlepszego<br />
+na przyszłe chwile życia Twego wspaniałego.</p>
+<!--break-->
+<p>Aby wypełniły się Twoje najskrytsze życzenia,<br />
+abyś mógł realizować swe najgłębsze pragnienia.<br />
+Może to zwykłe, wiele razy powtarzane i oklepane,<br />
+ale z głębokości serca po wielokroć wypowiedziane...</p>

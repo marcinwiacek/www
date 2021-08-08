@@ -1,0 +1,41 @@
+﻿Title:Nasze zachowanie...
+Author:marcin
+When:03 May 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Kiedyś łatwiejsze zdecydowanie wszystko było,<br />
+lecz to nieubłaganie i bezpowrotnie się skończyło.</p>
+<p>Włosów ukradkiem poprawianie i oblicza pudrowanie,<br />
+zalotne oczu spoglądanie, dekoltu delikatne uchylanie.<br />
+Butów podwyższanie, obcasów podkutych klekotanie,<br />
+spodni biodrówek wciskanie, nóg długich pokazywanie.<br />
+Ust pomalowanie, wciętych talii paskiem przepasanie,<br />
+ciała zmysłowe ruszanie, ubiorów obcisłych zakładanie.</p>
+<p>Kiedyś łatwiejsze zdecydowanie wszystko było,<br />
+lecz to nieubłaganie i bezpowrotnie się skończyło.</p>
+<!--break-->
+<p>Teraz zmysły facetów po stokroć codziennie są rozpalone<br />
+detalami tymi wielokroć ze świadomością bywają drażnione.<br />
+Miłe, ale i straszne w tym kokietek samoprezentacji planie<br />
+jest nieuchronne tych kobietek podświadome wyrachowanie.<br />
+Że choćby mając blisko faceta głęboko w nich zapatrzonego<br />
+latami potrafią szukać kogoś dalekiego, pięknego i bogatego,</p>
+<p>Kiedyś łatwiejsze zdecydowanie wszystko było,<br />
+lecz to nieubłaganie i bezpowrotnie się skończyło.</p>
+<p>Bo jako ludzie różne rzeczy robimy, ale o nich nie mówimy,<br />
+sami tego nie widzimy, ale często podświadomie się mamimy.<br />
+Szkoda, że mimo otoczki ludzkości i całej praworządności<br />
+nie ma w nas wielu żadnej miłości ani krzty humanitarności.<br />
+Że w wyścigu szczurów podążamy i powolutku pełzniemy,<br />
+samych siebie pchamy, a słabszych bez pardonu depczemy.</p>
+<p>Kiedyś łatwiejsze zdecydowanie wszystko było,<br />
+lecz to nieubłaganie i bezpowrotnie się skończyło.</p>
+<p>Wszechobecny blichtr i ułuda panuje, często w nas dominuje,<br />
+doraźne cele wielu realizuje, inicjatywy innych złośliwie psuje.<br />
+Kto dobry bywa niedoceniony, po odejściu będzie zauważony,<br />
+obecnie często tak obciążony, że wszystkim wręcz przytłoczony.<br />
+Dlatego gdy czyjąś wielkość widzimy, nie czekajmy ani godziny<br />
+i nie żałujmy osobie nowiny, że w środku o niej dobrze myślimy.</p>
+<p>Jutro może być za późno...</p>

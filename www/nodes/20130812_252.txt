@@ -1,0 +1,40 @@
+﻿Title:inna ona....
+Author:marcin
+When:12 Aug 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Gdy słońce zachodzi i powietrze się schłodzi,<br />
+ochota na szybka sesję z nią mnie nachodzi,<br />
+Bo ona stoi i czeka wiernie wpatrzona oczami,<br />
+które świecą czasami na równi z gwiazdami,</p>
+<p>Jeszcze mnie ani razu w pole nie wyprowadziła,<br />
+wiernie mi w dzień i noc wciąż służy i służyła,<br />
+sa wprawdzie dni, gdy daje mi popić i popalić,<br />
+ale dnia kolejnego zawsze daje się pochwalić,</p>
+<!--break-->
+<p>ma nienasycony na wszystko apetyt i temperament,<br />
+bez dopingu idzie niczym nieoszlifowany diament,<br />
+wypije wszystko, poburczy, przetrawi i przepali,<br />
+wiem, że syf żaden przy tym jej wnętrza nie rozwali,</p>
+<p>rodowód i cena mnie do niej dawno temu zmamiła,<br />
+ale i młodsza i kusząca wtedy mocniej jakby była,<br />
+dziś też złotówki mógłbym topić w niej bez końca,<br />
+bo daje radość szczególnie jak już jest gorąca,</p>
+<p>nie skarży się też na pogodę, trud, znój, kłopoty,<br />
+tylko zamruczy mnie jak stracimy więź wspólnoty,</p>
+<p>choć dziś również zawstydza niejednego frajera,<br />
+niejedno słowo o wyglądzie i pochodzeniu zbiera,<br />
+przez wszystkich wokół od zawsze niedoceniana,<br />
+ciągle bywa na ulicy i w towarzystwie wyszydzana,</p>
+<p>zawsze ciekawi mnie ta opinia taka przesadzona,<br />
+choć ojciec Niemiec i serce jeszcze dużo dokona,<br />
+i choć matka z innego kraju na wschód pochodzi,<br />
+to wielu zamiast zalet tylko pochodzenie obchodzi,</p>
+<p>a maskę ma ładnie z tyłu i przodu zaokrągloną,<br />
+tylko cerę cały czas jakby cukrem przyprószoną,<br />
+dziewictwo w Polsce i poza nią już nieraz zgubiła,<br />
+i co ? i nic. Ani razu się przy tym nie pogubiła,</p>
+<p>nie zawsze rozumiem, dlaczego dziwią mi się ludzie,<br />
+że nie zmieniam jej, tylko żyję z nią w trudzie ?</p>

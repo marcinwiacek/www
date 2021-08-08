@@ -1,0 +1,168 @@
+﻿Title:Samsung Galaxy S9 4G po ponad dwóch latach użytkowania (2020)
+Author:marcin
+When:27 Nov 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Samsung-Galaxy-S-G-po-ponad-dwoch-latach-uzytkowania,111929.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Bardzo dużo testów w dzisiejszych przepięknych czasach wygląda tak - wezmę urządzenie, sprawdzę go przez godzinę / dwie / dzień / dwa / trzy, napiszę trochę słów i gotowe...</p>
+
+<p>Dzisiaj kilka słów o telefonie, który według różnych stron typu &quot;check IMEI&quot; został wyprodukowany w lipcu 2018, a co najważniejsze, miał iluś użytkowników.</p>
+
+<p>Model ten obecnie kosztuje na wolnym rynku około 1000 PLN, w różnych firmach można go zapewne dostać w ramach wymian za psie grosze, a kiedyś był tzw. flagowcem.</p>
+<!--break-->
+
+<p>Panie i panowie, oto S9 Dual SIM 64 GB w kolorze czarnym.</p>
+
+<p>Parametry urządzenia są znane z setek stron, ja chciałbym trochę zająć się tym, jak przetrwało ono ten czas i jak się sprawuje po wszystkich patchach ze strony firmy.&#160;</p>
+
+<h1>Z zewnątrz</h1>
+
+<p>Całość jest czarna z każdej możliwej strony, i o ile we wspomnianym egzemplarzu z przodu i tyłu nie ma jakichś znaczących uszkodzeń i rys, to na dole widać kilka odprysków, które są mocno widoczne.</p>
+
+<p>Jeśli mam być szczery, to srebrne ramki w S7 i S8 znacznie lepiej radziły sobie z podobnymi uszkodzeniami.</p>
+
+<p>Moja rada: jeśli kupujecie używkę, poproście o zdjęcia z każdej strony.</p>
+
+<h1><b>Ekran</b></h1>
+
+<p>O ile mój pierwszy w życiu S7 (jakoś tak z początków produkcji) po dłuższym czasie miał widoczne lekkie wypalenia na górze, to w testowanej S9 nic nie widać.</p>
+
+<p>Zagięte rogi uważam za najgorsze możliwe rozwiązanie - trzeba za nie ekstra płacić, przy korzystaniu z telefonu w ciemności bardziej widać z boku, że coś się świeci, no i dochodzą przypadkowe naciśnięcia.</p>
+
+<p>Z tym ostatnim problemem poradziłem sobie bohatersko instalując aplikację Edge Touch firmy &quot;Good Lock Labs&quot; z Galaxy Store - wydaje się działać i nie potrzebuje admina.</p>
+
+<p>Nie jest to rozwiązanie dobre, ale jedyne najlepsze.</p>
+
+<p>Do tego dochodzą zaokrąglone rogi, co początkowo mnie odrzucało, a do czego z czasem przyzwyczaiłem się z bólem serca (mając na względzie, że w nowszych modelach miałbym ohydną dziurę na aparat fotograficzny).</p>
+
+<p>W stosunku do nowszych generacji można wskazać mniejszą jasność... i to wszystko - po naklejeniu folii matowej (znalazłem taką obejmującą również rogi), włączeniu siatki aplikacji 4x6 (bez tego były zbyt ściśnięte i oczy mi się zwyczajnie buntowały) i ustawieniu własnej wielkości czcionek (Big Font się kłania) da się z tego korzystać.</p>
+
+<h2><b>One UI 2.5 i Android 10</b><br/></h2>
+
+<p>Ekrany AMOLED słyną z tego, że są najbardziej energooszczędne przy czarnym kolorze - o ile w S7 dominująca była biel, tutaj w aplikacjach systemowych można ustawić jedyny słuszny kolor.</p>
+
+<p>Co jednak razi - Samsung najwyraźniej zwolnił ludzi od designu.</p>
+
+<p>Zacznijmy od standarowych tapet - są paskudne (nie jest to zarzut, tylko stwierdzenie faktu).</p>
+
+<p>Podobnie w aplikacjach systemowych domyślnie mamy ogromny nagłówek na górze, który na szczęście znika gdy przesuwamy zawartość (ale, i to jest ważne - po wyjściu i wejściu do danego menu sytuacja się niestety powtarza i dajmy na to o ile kiedyś w galerii na starcie mieliśmy śliczną galerię zdjęć, to teraz startujemy nie wiadomo od czego).</p>
+
+<p>Różne portale prześcigały się oczywiście w opisywaniu jakie to nowoczesne rozwiązanie, że duży telefon można obsługiwać jedną łapką (i jak mniemam to jest część tej funkcjonalności), ale... moja babcia pewnie powiedziałaby, że jest &quot;coś&quot; zapakowane w papierku.</p>
+
+<p>Pójdźmy dalej.</p>
+
+<center><img src="sites/default/files/425/1.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Fajne to pole do edycji SMS na starcie - takie duże. A jeszcze fajniejsze jest to, że kiedyś (w S7) mieliśmy jeden przycisk do wysyłania, a zmiana karty SIM odbywała się przez jego dłuższe przytrzymanie.</p>
+
+<center><img src="sites/default/files/425/2.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Śmieszna sprawa z tym menu - jakoś się tak przez lata przyzwyczaiłem, że jeśli kliknięcie danej pozycji włącza/wyłącza pozycję, to obok nazwy menu mam &quot;ptaszka&quot; (a tu nie tylko są Settings, ale również Hide messages, które się zmienia w Show messages, etc. etc.)</p>
+
+<p>Kolejną sprawą jest brak możliwości blokowania hotspotu Wi-Fi tylko dla określonych MAC (żadne to może zabezpieczenie, ale...) i obecność opcji &quot;ta sieć WIFI jest ukryta&quot; tylko wtedy, gdy ją dodajemy (to przypadłość Androida - ten typ tak ma).</p>
+
+<p>Kilka opcji jest też dostępne wyłącznie w menu szybkiego wybierania (należy kliknąć na opis przy opcji).</p>
+
+<center><img src="sites/default/files/425/3.jpg" style="width:197px;height:405px;" alt="image" title="image" />
+
+<img src="sites/default/files/425/4.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Mógłbym długo przechodzić przez kolejne menu i narzekać, że ta czy inna opcja jest w innym miejscu. Na pewno zaletą tego Samsungo-Androidowego rozwiązania jest to, że lwia część ustawień jest dostępna z pudełka (i jeśli mieliśmy poprzedni model firmy, to generalnie poczujemy się jak w domu).</p>
+
+<p>Z wad bym wymienił nie tylko to, że wersja 2.5 UI różni się detalami od implementacji z innych modeli (np. nie mozna przypisać funkcji do przycisku Bixby), ale również to, że cały ekosystem Androida &quot;wymaga&quot; dodania konta Google. Dużo osób w tym momencie pewnie myśli, że to takie wygodne, mnie jednak zdarza się zakładać konta tylko na potrzeby używania danego urządzenia (które gdzieś zużywają ileś zasobów na serwerów, co na pewno ekologiczne nie jest, jeśli weźmiemy pod uwagę, że takich kont są miliony).</p>
+
+<center><img src="sites/default/files/425/5.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>W przypadku opisywanego urządzenia polecałbym przeklikanie opcji dotyczących wszystkich aplikacji w menu Apps i wyłączenie tego, z czego nie korzystamy (np. można w ten sposób odebrać masę uprawnień i ubić bardzo dużo procesów Samsunga i Google, jak również komponenty od Facebooka, które słyną z ciekawości).</p>
+
+<p>Przypomnę tylko, że opcja &quot;Show system apps&quot; pozwoli pokazać znacznie więcej procesów, a każdy z nich ma ustawienia &quot;Allow background data usage&quot;, &quot;Allow background activity&quot; i &quot;Permissions&quot;.</p>
+
+<p>Przeklikanie tego zajmuje kilka chwil, a nagrodą za to jest urządzenie, które nie ma żadnych zamyśleń.</p>
+
+<p>Mały hint z mojej strony: niektóre aplikacji będą wymagać komponentu WebView (więc go nie wyłączajmy), a rejestracja Whatsapp wymaga uprawnienia &quot;Send SMS&quot; dla Google Play Services (potem można je spokojnie odebrać).</p>
+
+<p>I drugi hint: opcje ubijania apek są w &quot;Device care&quot; w Battery.</p>
+
+<p>Po uporaniu się ze wszystkim sugeruję udać się do menu &quot;Privacy&quot;, &quot;Location&quot;, &quot;Accounts and backup&quot; i &quot;Google&quot;, gdzie (przynajmniej w teorii) będzie można wyłączyć takie opcje jak zbieranie historii (lokalizacji) na koncie Google.</p>
+
+<center><img src="sites/default/files/425/6.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Po tych operacjach konieczne jest oddzielne wylogowanie się w aplikacjach Google - czasem dostępne w najdziwniejszych miejscach (tak, da to się zrobić nawet w apce YouTube).</p>
+
+<center><img src="sites/default/files/425/7.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Jeśli zależy nam na prędkości, to polecałbym jeszcze wyłączyć opcję animacji w ustawieniach - jak dla mnie to był strzał w dziesiątkę.</p>
+
+<p>I to właściwie wszystko - kolejne wersje Androida są na tyle dojrzałe, że dla nietechnicznego użytkownika restart urządzenia wymagany jest właściwie tylko podczas wgrywania poprawek bezpieczeństwa (o ile oczywiście się zdarzają).</p>
+
+<p>Samsung dorzuca do tego ekosystemu opcję &quot;Secure Folder&quot; - po zainstalowaniu apki i dodaniu konta Samsungowego (może być połączone z kontem Google) dostajemy możliwość instalowania apek w pewnej separacji (tzn. nie widzą &quot;głównego&quot; dysku i dostęp do nich jest blokowany oddzielnym kodem). Jest to rozwiązanie na pewno dobre, ale... już np. wyłączenie WebView wewnątrz &quot;Secure Folder&quot; powoduje, że potrzebujące go apki poza &quot;Secure Folder&quot; również nie działają. Z innych wad wyliczyłbym to, że produkty chromopodobne wewnątrz nie pozwalają na ustawienie DNS przez HTTPS.</p>
+
+<h1>Wydajność i ba(k)teria</h1>
+
+<p>Jest. Tyle można powiedzieć.</p>
+
+<p>Urządzenie ma Exynosa. W celu oszczędzania energii zdecydowałem się zmniejszyć prędkość CPU o 20%, i przy moim profilu użytkowania (podładowywanie na kablu przy równoczesnym udostępnianiu Internetu przez tenże kabel + używaniu szybkiej ładowarki, gdy trzeba się szybko uzupełnić) bez problemów jestem mobilny.</p>
+
+<h1>Aparat</h1>
+
+<p>Jest. Tyle można powiedzieć.</p>
+
+<p>S9 ma zmienną przysłonę i przy starcie wymaga chwili, wydając ogłos &quot;cyk&quot;. To na pewno jest wada. </p>
+
+<p>Pomijając to - robi zdjęcia (mała uwaga: w nocy polecam raczej korzystać z trybu nocnego).</p>
+
+<h1>Łączność</h1>
+
+<p>A co tu się rozpisywać?</p>
+
+<p>Przy generacji S7 takie funkcje jak VolTE czy Wi-Fi calling były nowością, tutaj po prostu są. Tak samo dodano funkcję wyboru pasma dla udostępniania Internetu i LTE można wybrać już na obu kartach SIM (zabawne, że raz jest opisana jako LTE, a raz jako 4G).</p>
+
+<h1>Słowem podsumowania</h1>
+
+<p>Samsung bohatersko pracuje nad kolejną metodą odblokowywania telefonów (tym razem przez dźwięk) - takiego mniej więcej newsa przeczytałem dzisiaj na jednym z konkurencyjnych portali.</p>
+
+<p>Zastanawiam się, po co w ogóle całe to wymyślanie i odbieranie różnych funkcji, które do najpotrzebniejszych nie należą.</p>
+
+<p>Mamy czytnik linii papilarnych, siatkówki i tysiąc innych metod uwierzytelniania (z których część jest usuwana w kolejnych generacjach), a brakuje podstaw - takich jak ekran, na którym można coś normalnie zrobić.</p>
+
+<p>Generacja S9 jest pod tym względem jeszcze całkiem normalna - mogę podłączyć słuchawki i ładowarkę, mam diodę do powiadomień, w filmach nie widzę dziury, itp. itp.</p>
+
+<p>Samsung również tym modelem udowodnił, że potrafi wyprodukować przyzwoity sprzęt. Wielka szkoda, że firma nie poszła za ciosem i nie chce dawać kolejnych rzeczywistych ulepszeń, np.</p>
+
+<p>1. dwóch czy trzech baterii (zawsze mnie dziwiło, czy mamy do czynienia z jakimiś kwestiami cieplnymi, które powodują, że nie można np. zrobić ładowania równoległego ogniw)</p><p>2. informacji o zużyciu ogniwa jak u Apple</p>
+
+<p>3. możliwości wyłączenia starszych technologii (np. 2G)</p>
+
+<p>4. możliwości ograniczenia maksymalnego promieniowania jak w routerach (wiem, wiem, że to może czasem przesada, ale bardzo ciepło bym przywitał np. informację, że SAR przy mocy 50% wynosi tyle a tyle, a przy 100% tyle a tyle)</p>
+
+<p>Sam Android to również majstersztyk geniuszu - no bo jak inaczej nazwać dosyć spore marnowanie zasobów i tak mocne przekonanie milionów użytkowników, że prywatność i bezpieczeństwo to jednak w sumie puste słowa?</p>
+
+<p>Samsung go może tylko trochę poprawił, za to na szczęście nie zepsuł do reszty.</p>
+
+<p>W przypadku S9 aktualizacji bezpieczeństwa można się spodziewać coś koło dwóch lat... tylko i aż.</p>
+
+<p>Aktualizacje to jest ogólna bolączka tego ekosystemu, i jak czytam o Androidzie 12, gdzie mamy mieć większy dostęp do aktualizacji w ramach projektu Mainline, to mnie pusty śmiech bierze (uwierzę, jak zobaczę). Rzecz w tym, że mieliśmy chociażby Treble. I co? I nic.</p>
+
+<p>Jeśli miałbym być szczery - wybierałbym zawsze wariant 64 GB jako popularniejszy (nie wiadomo, czy 256 GB będzie tak samo ochoczo aktualizowany i czy nie powtórzy się sytuacja znana z S7 Duos, gdzie telefony zostawały z poprawkami z lutego 2020, a &quot;normalne&quot; warianty S7 miały je z września 2020).</p><p>W samej platformie możnaby np.</p>
+
+<p>- wprowadzić ekran z opcjami domyślnymi przy instalacji nowych apek (czyli np. podajemy, że nowe apki nie będą miały domyślnie dostępu do transmisji w tle)</p>
+
+<p>- dać opcję wyłączenia transmisji danych dla apek w ogóle</p>
+
+<p>- przywrócić opcję jednorazowej instalacji apek z innych apek (Samsung to miał, a nie ma)</p>
+
+<p>- zmienić ekrany, żeby wszystkie opcje apek (np. transmisja w tle) można było odbierać albo dodawać hurtowo</p>
+
+<p>- dać w końcu opcję obsługi w okienku normalną myszą i klawiaturą z poziomu komputera, gdy telefon udostępnia Internet przez kabel (wiem, że jest DEX, ale chciałbym zobaczyć pewne funkcje w standardzie w Windows, Ubuntu i MacOS)</p>
+
+<p>Pomarzyć wolno, a na dzień dzisiejszy podsumuję krótko - przy tak dobrym wykonaniu po porządnym skonfigurowaniu S9 nie ma potrzeby jego wymiany.</p>
+
+<p>Pozostaje tylko dobrze dobrać apki (choć nie chciałem tego pisać, bardzo dobrze do pisania się sprawuje WPS Office, w którym nomen omen znalazłem nawet opcje do wyłączenia przesyłania danych na serwery producenta; podobnie polecam klawiaturę Google, Bromite, RealCalc i inne) i można zapomnieć o jakichkolwiek problemach.</p>
+
+<p>Kolejne generacje Androida przynoszą oczywiście pewne zmiany w obrębie uprawnień (stąd np. słynne problemy z nagrywaniem rozmów w wydaniu numer 10), ale myślę, że dla wielu to bardziej kosmetyka.</p>
+
+<p>Jedyne obszary, w których tak naprawdę w widoczny sposób wygrywają nowe generacje Samsunga: ekran (jasność i ewentualnie odświeżanie), fotografie i 5G (choć 5G to powiedziałbym warunkowo).</p>
+
+<p>Reszta, tzn. wydajność (często i gęsto ograniczana throttlingiem) czy bateria (szczególnie przy Exynosach) pozostają dyskusyjne, i firma to wie, i właśnie dlatego wypuściła S20 FE. Ale to już temat na inną bajkę...&#160;&nbsp;</p>
+          

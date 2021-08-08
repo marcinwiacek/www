@@ -1,0 +1,110 @@
+﻿Title:Ustaw sobie własnego Apache na Windows (2019, wersja 1.1)
+Author:marcin
+When:28 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,OS,x86
+
+<img src="sites/default/files/380/apache1.png" width=350 align=right />
+
+<p>Pojawił się stabilny PHP 7.4 i ponieważ to jest blog, to zdecydowałem się zwerbalizować swoje notatki i krótko opisać procedurę instalacji Apache, PHP i PostgreSQL, którą używam w jednej z moich instalacji Windows do przygotowania środowiska do zabaw z PHP.</p>
+
+<p>Celowo sięgnę tutaj do źródeł (tzn. łączenia każdego z trzech komponentów) zamiast bawić się w jeden z gotowych pakietów.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Ustaw-sobie-wlasnego-Apache-na-Windows,104997.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Pojawił się stabilny PHP 7.4 i ponieważ to jest blog, to zdecydowałem się zwerbalizować swoje notatki i krótko opisać procedurę instalacji Apache, PHP i PostgreSQL, którą używam w jednej z moich instalacji Windows do przygotowania środowiska do zabaw z PHP.</p>
+
+<p>Celowo sięgnę tutaj do źródeł (tzn. łączenia każdego z trzech komponentów) zamiast bawić się w jeden z gotowych pakietów.</p>
+
+<p><b>Apache</b></p>
+
+<p>Na stronie <a href="https://httpd.apache.org/download.cgi" target="_blank" rel="noopener" rel="nofollow">https://httpd.apache.org/download.cgi</a> szukam ostatniej stabilnej wersji (obecnie 2.4.41), klikam na <a href="https://httpd.apache.org/docs/current/platform/windows.html#down" target="_blank" rel="noopener" rel="nofollow">Files for Microsoft Windows</a>, następnie klikam na pierwszy link (ApacheHaus) i pobieram wersję 64-bit skompilowaną z najwyższą wersją Visual Studio i OpenSSL (obecnie httpd-2.4.41-o111c-x64-vc15-r2.zip).</p>
+
+<p>Oczywistą oczywistością jest sprawdzenie sumy kontrolnej:</p>
+
+<p><pre contenteditable="false"><code class="powershell" data-lang="powershell" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">certutil -hashfile httpd-2.4.41-o111c-x64-vc15-r2.zip SHA1</code></pre>
+
+<p>Pakiet rozpakowywuję do jakiegoś katalogu (np. <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache\apache)</a> i w katalogu <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache\apache\conf</a> w pliku httpd.conf ustawiam ścieżkę:</p>
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Define SRVROOT &quot;d:\apache\apache&quot;</code></pre>
+
+<p><b>PHP</b>&#160;</p>
+
+<p>Przechodzę do <a href="https://www.php.net/downloads.php" target="_blank" rel="noopener" rel="nofollow">https://www.php.net/downloads.php</a>, klikam na &quot;Windows downloads&quot; i pobieram wersję &quot;VC15 x64 Thread Safe&quot; (Zip).</p>
+
+<p>Potem sprawdzam sumę kontrolną i rozpakowywuję do katalogu <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache\php.</a>&#160;</p>
+
+<p>W katalogu z PHP zmieniam nazwę pliku php.ini-development na php.ini, następnie w katalogu <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache\apache\conf</a> w pliku httpd.conf dodaję na początku linijki:</p>
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">LoadModule php7_module &quot;d:/apache/php/php7apache2_4.dll&quot;
+AddHandler application/x-httpd-php .php
+
+# ścieżka do php.ini
+PHPIniDir &quot;d:/apache/php&quot;</code></pre>
+
+<p>W pliku php.ini ustawiam odpowiednią ścieżkę do katalogu z rozszerzeniami:</p>
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">extension_dir = &quot;d:/apache/php/ext&quot;</code></pre>
+
+<p>Ponieważ czasami zamiast PostgreSQL używam SQLite, w pliku php.ini dodatkowo usuwam komentarz w odpowiedniej linii:</p>
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">extension=sqlite3</code></pre>
+
+<p>i (od wersji 7.4 PHP) w pliku httpd.conf dodaję:
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">LoadFile "d:/apache/php/libsqlite3.dll"</code></pre>
+
+<p>Podobnie należy załadować bibliotekę do PostgreSQL.
+
+<p><b>Start<br/></b>
+
+<p>W katalogu <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache</a> tworzę plik startowy runit.bat:</p>
+
+<p><pre contenteditable="false"><code class="text" data-lang="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">cd apache
+cd bin
+start httpd</code></pre>
+
+<p>Po jego uruchomieniu powinno być możliwe otworzenie adresu &quot;localhost&quot; w przeglądarce:</p>
+
+<p><center><img src="sites/default/files/380/apache1.png" style="width:608px;height:401px;" alt="image" title="image" /></center>
+
+<p><b>PostgreSQL<br/></b></p>
+
+<p>Przechodzę do <a href="https://www.postgresql.org/download/windows/" target="_blank" rel="noopener" rel="nofollow">https://www.postgresql.org/download/windows/</a>, klikam na &quot;zip archive&quot; i pobieram ostatnią wersję (12.1). </p>
+
+<p>Całość rozpakowywuję do katalogu <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache\pgsql.</a></p>
+
+<p>Przechodzę do <a href="#" target="_blank" rel="noopener" rel="nofollow">d:\apache\pgsql\bin\</a> i wykonuję komendę</p>
+
+<p><pre contenteditable="false"><code class="powershell" data-lang="powershell" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">initdb -D ../data -E UTF8 -U postgres</code></pre>
+
+<p>W pliku runit.bat dodaję linijki</p><p><pre contenteditable="false"><code class="powershell" data-lang="powershell" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">cd pgsql
+cd bin
+start pg_ctl -D ../data -l d:\apache\pgsql\logfile start
+cd ..
+cd ..</code></pre>
+
+<p>W pliku httpd.conf dodaję linijkę</p>
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">LoadFile &quot;d:/apache/pgsql/bin/libpq.dll&quot;</code></pre>
+
+<p>a w php.ini usuwam komentarz z linijek</p><p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">extension=pdo_pgsql
+extension=pgsql</code></pre><p>
+
+<b>Dodatki<br/></b>
+
+<p>W pliku httpd.conf:
+
+<ul><li>zmieniam port serwera</p>
+
+<p><pre contenteditable="false"><code class="php" data-lang="php" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Listen 8081</code></pre>
+
+<li>pozwalam na ustawianie własnych dyrektyw w .htaccess (zmieniam <b>AllowOverride None </b>na <b>AllowOverride All </b>w sekcji <b>&lt;Directory &quot;${SRVROOT}/htdocs&quot;&gt;</b>)
+
+<li>pozwalam na wyświetlanie pliku index.php: <b>DirectoryIndex index.html index.php</b>.
+</ul>
+
+<p><b>Podsumowanie</b>
+
+<p><strike>Procedura aktualnie nie pozwala powiązać ostatniego Apache z ostatnim PHP - ten pierwszy nie znajduje poprawnie dodatków, co ciekawe ostatni Apache z PHP 7.3.12 działa wyśmienicie.</strike></p>
+
+<p>Zdaję sobie sprawę, że ten wpis może wyglądać jak notatki studenta pierwszego roku informatyki, ale... jest to blog i warto spisywać również takie drobiazgi.<b><br/></b>&#160;&nbsp;</p>

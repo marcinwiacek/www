@@ -1,0 +1,71 @@
+﻿Title:N82 review (2008)
+Author:marcin
+When:30 Jul 2008
+Taxonomy:English,GSM,Nokia,English article
+
+<p>In many places you can read about about excellent features of Symbian devices. This article will show some their advantages and disadvantages in normal life on N82 example... In many places I will speak about iPhone and other too...</p>
+<h1>Battery</h1>
+<p>The more advanced phone, the shortest battery life. This is how we can describe devices created by Nokia and many other manufacturers. My question is: can't be created and produced for example 1600 mAh batteries (like in PDA) for them ? </p>
+<!--break-->
+<p>Instead of it we have 1050 or 1200 or 970 mAh...and all devices (with different hardware) have in fact similiar standby times. It allows for creating many (incompatible) battery models too.</p>
+<p>Happily, in Nokia devices you can disconnect battery without any tools.</p>
+<h1>Keyboard</h1>
+<p>Although looks strange in N82, is quite good, when you're not woman. Unfortunately, you have more buttons than in older devices. And you can't assign them some functionalities/disable them (I think for example about "Multimedia" button near red headset button).</p>
+<h1>Camera</h1>
+<p>Hardware quite good, firmware horrible:</p>
+<ul><li>settings are not saved (for example: each time, when you enter it, you must set all flash and other settings from scratch)
+</li><li>you can't normally disable emulated shutter sound (this can be connected with some law regulations, but...). workaround: you have to have disabled sounds in current phone profile...
+</li></ul><h1>Firmware speed</h1>
+<p>Very acceptable on N82.</p>
+<h1>Firmware stability</h1>
+<p>Very acceptable on N82. I don't know how it will look like after installing many 3rd party applications.</p>
+<h1>Default applications and features</h1>
+<p>Problems:</p>
+<ul><li>You still don't have indicators about enabling all phone radio devices (like GPS). Edge info isn't displayed like with Series 40 phones (you can see it even without any data transfers).
+</li><li>When you enter menu, you don't see all indicators on the top of screen
+</li><li>In some places everything is so small, that you need microscope to read it. You don't have Product Code in any menu (you have to check it under battery)
+</li><li>You can't copy menu folders to folders &amp; you can't assign icons from predefined folders to new one.
+</li><li>When you have locked keypad with code, you can't control volume on headset
+</li></ul><p>SMS:</p>
+<ul><li>you still don't have support for EMS. There could be explanation for that, that Nokia want to force to using MMS...but from the second hand - EMS are in 3G specs. Maybe it would be good to implement it after years ?
+</li><li>no assigning delivery reports to sent SMS (like in Series 40)
+</li></ul><p>Nokia maps - you can upgrade application for free to <a href="http://maps.nokia.com">version 2.0</a>. You can for free find your position and view maps, driving needs license. Unfortunately, in this version you don't have screen with satellite info. </p>
+<p>Problems with it: </p>
+<ul><li>Nokia Map Updater for PC needs Windows
+</li><li>N82 seems to have a little weak GPS chip :( - in a little worse weather it needs a lot of time before will find position ("integrated gps" + "network based" positioning methods)
+</li><li>in help it isn't written very clear, that assisted GPS (A-GPS) is using data transmission and user is charged for it
+</li><li>licensing is not clear and contains errors: you get free Nokia maps usage with N82 during 3 months. I haven't used it. in June 2008 there was one additional month for free offered in "my nokia". I used it. In one of last July 2008 days I activated my 3 months test period. And it looks, that I have only 2 months left (activating "my nokia" test period activated 3 months given with device too).
+</li><li>maps seems not to have all AutoMapa objects...
+</li><li><b>you should check careful, if you're charged or not for data transmission during using it.</b> In my case: I had to set "dummy" (non existing) access point in phone settings and Nokia Maps application...
+</li></ul><p>Games - Asphalt doesn't disable sound in 100%. You don't have so many games like in Series 40 / older Symbian devices... </p>
+<p>When you decide to download and install full n-gage application, it doesn't "see" installed Asphalt/Fifa demos, it removes n-gage demo application icon and it doesn't uninstall them (demos + n-gage demo).</p>
+<p>Word/Excel compatibility - I still not understand, why Nokia can't pay QuickOffice and put full version of their application. It annoys people a lot.</p>
+<p>Switch application - idea good (moving data from older device), but why application proposed me installing own client on 7610 and it didn't work ? And why this application can't be uninstalled to free phone memory ?</p>
+<p>Barcode reader - I haven't any success (tried many times, but haven't read even one code !)</p>
+<p>Calculator - this is one of these applications, which don't have too many features and waste HDD/memory space. Maybe it's time to make it really good after light years ?</p>
+<p>Clock - no stopper, you can't select timezones instead of cities.</p>
+<p>Radio - no RDS.</p>
+<p>Firmware updates - don't work in Linux. Very funny, that "my nokia" was sending very short time ago (July 2008) info, that there is upgrade available, although it doesn't exist. Additionally, you can't send from nokia.com SMS with settings, which will allow for downloading firmware upgrades directly from phone.</p>
+<p>Some other descriptions: <a href="http://www.mobile-review.com/review/series60v3fp1-en.shtml">http://www.mobile-review.com/review/series60v3fp1-en.shtml</a></p>
+<h1>Phone as computer</h1>
+<p>In some places you can read, that Symbian devices are computers with ability of making calls. And this is the truth. You have filesystem, files with settings, application, etc. etc.</p>
+<p>Unfortunately, in Symbian S60 3rd you can't install everything you want. Applications must be signed. You can do it for free on <a href="https://www.symbiansigned.com/app/page/public/openSignedOnline.do">Symbian Signed</a>. Please note, what does it mean - you have to give your IMEI &amp; email &amp; application. When you're hacker, you can install some patchers and don't care about it. Unfortunately, this is similiar like with DRM - legal/normal users can have worse life than hackers.</p>
+<p>What would be solution for this ? Maybe putting part of firmware in really read only memory (or putting in device microswitch, which would put it in read-write or read-only mode) and putting there required protections ?</p>
+<p>Anyway, some nice applications:</p>
+<p><a href="http://mitglied.lycos.de/gsmplanet/py/pynetmony.html">PyNetMony</a> - interesting small netmonitor</p>
+<p>Some more facts: </p>
+<ul><li>you can use OBEX for files transfer &amp; you can connect phone as mass storage device (both functions work good; unfortunately, phone displays warnings about missed files...) and you can use SyncML for synchronization (not too good working; you don't have SMS in default profile). You don't have some standard protocol for sending SMS and similiar...
+</li><li>you don't have tool for undeleting files from file system (be careful, when delete something)
+</li></ul><h1>Sales package</h1>
+<p>Good quality, small charger, nice idea with putting memory card to device. </p>
+<p>But my question is: can't be package smaller ? And (although for some people it can be good) I didn't like silver parts in protecting foils...</p>
+<h1>Device ergonomy and quality</h1>
+<p>Very good idea with protecting camera with cover. </p>
+<p>But very bad thing: device doesn't have exchangeable covers. When you will scratch them, you will have ask service for exchanging. You can't clean it easy. And because of it you can't make for example from white N82 black N82. </p>
+<p>Additionally - because of used method of connecting covers you can see gap between front cover and sides (visible especially near USB connector in black version)</p>
+<p>Charger on left side - horrible location (you can see it, when you charge device and want to take it to the hand)</p>
+<p>Keyboard - creak (especially near red headset button)</p>
+<p>memory card - some users will like it, but from security point of view you can probably remove card from phone (phone with keypad locked), copy and put again into phone (and user will not know anything about it)</p>
+<p>USB connector - finally something standard, unfortunately not protected against dust</p>
+<h1>My opinion</h1>
+<p>I have impression, that Nokia is going into the same problems as found by Microsoft (with Vista). There is no clear strategy of extending products. They still don't have many annoying things removed (like small batteries). We will see more and more useless features. And what is the biggest one problem ? You don't receive big firmware updates (for example with new Symbian releases).</p>

@@ -1,0 +1,12 @@
+﻿Title:Trzecia Ona
+Author:marcin
+When:09 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wielką sympatię do Ciebie czuję,<br />
+niejedną bowiem dobrą radę od Ciebie widuję.<br />
+Wiem, że ostatnio się przeprowadziłaś,<br />
+Czy na nowym miejscu dobre gniazdko uwiłaś ?</p>
+<!--break-->

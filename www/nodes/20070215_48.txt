@@ -1,0 +1,14 @@
+﻿Title:Report 2007-02-15
+Author:marcin
+When:15 Feb 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Few facts from my point of view ;-):</p>
+<!--break-->
+<ul><li>Vista this, Vista that. PC World Computer gave few HDTV videos in their 3/2007 number DVD. Quess what ? They seems to be legal, but in Vista you have only blank screen (according to <a href="http://bigo.pcworld.pl/">http://bigo.pcworld.pl/</a>)... The same it looks, that <a href="http://www.apple.com/hotnews/thoughtsonmusic/" letter="" from="" jobs=""> (...and Apple) about DRM problems is more and more popular... Interesting, isn't it ? </a><a href="http://bigo.pcworld.pl/">Bigo</a> showed good, that Vista will be good occasion for making OS X (and Linux) more popular... And many magazines will make big money on writing - how to add Vista functionality into XP (IMHO, 80% of things can be "moved") :-)
+</li><li>sponsoring. hmmm, do you know any cheap server provider, which could give PHP, Apache, mail and ability of executing one shell script for processing mail (few simple things) ? Ondrej doesn't speak anything, but he hosted me over years, payed bandwidth bills and I'm thinking, if I should still use his help (I have feeling, that I used it too long)...
+</li><li>gsm projects again. I'm looking into <a href="http://www.kmobiletools.org/">KMobileTools</a> now. Nothing changed since longer time. I'm asking myself - why more people can't share their efforts and make it once, but good ? is it matter of license or what ? please note, what I have done with Gammu+ GUI for about 2 and half month (BTW, today was released new version - you can see, how easy it's possible to view into backup files and similar; this version shouldn't hurt your phone and if something will go wrong, it will only hang or close). what could be done by few people ? maybe it's because this work isn't too profitable ? (please note, that ReactOS and many other projects can find concrete money...)
+</li><li>I'm looking into Gammu. Michal did good job in 1.09.19, but not at all - win32 makefiles are wrong. it should be fixed in daily snapshot, but I will wait rather for next release and will check then...
+</li><li>what my plans for Gammu+ future ? My queue is (order can change a little): testing with few phones generations, ending config wizard (it should save file), adding creating linked sms, uploading files and Java, making backup function, making restore function, adding todo and notes, EMS and Smart Messaging, VCARD, VCALENDAR and somewhere inside Linux port, editing and deleting entries. And all this in February, March, April (believe or not - it's possible especially that part of these things is in core already). And later last "magic" word - Symbian. And if there will be sponsors, some of these things will be probably done much faster and I will be more motivated.
+</li></ul>

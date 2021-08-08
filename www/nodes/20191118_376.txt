@@ -1,0 +1,57 @@
+﻿Title:Pliki tymczasowe w pamięci RAM - Linux i Windows (2019, wersja 1.1)
+Author:marcin
+When:18 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Windows,Linux,OS,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Pliki-tymczasowe-w-pamieci-RAM-Linux-i-Windows,104865.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dzisiaj kilka słów o tym jak przenieść sobie katalogi tymczasowe do pamięci RAM - przy dużej jej wielkości i używaniu dysków SSD może to mieć pewien sens.</p>
+
+<p>Poradnik celowo będzie krótki - zakładam, że użytkownik ma pewną wiedzę o tym co robi.</p>
+<!--break-->
+<p><b>Windows</b></p>
+
+<p>Pobieramy i instalujemy pakiet ze strony <a href="http://www.ltr-data.se/opencode.html/#ImDisk" target="_blank" rel="noopener" rel="nofollow">http://www.ltr-data.se/opencode.html/#ImDisk</a> (wystarczy &quot;Install package&quot;, dla zainteresowanych jest również kod źródłowy).</p>
+
+<p>Przechodzimy do &quot;Computer Management&quot; (prawy klawisz myszy na menu Start i &quot;Computer Management&quot;), rozwijamy drzewko po lewej (Computer Management (Local) \ System Tools \ Task Scheduler \ Task Scheduler Library) i np. tutaj dodajemy sobie nowe zadanie.</p>
+
+<p>Proponowane parametry:</p>
+
+<p><center><img src="sites/default/files/376/win1.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>(żeby dysk był dostępny jak najwcześniej, konieczne są uprawnienia i przed podobną operacją na niektórych maszynach może być potrzebna konsultacja z administratorem)</p>
+
+<p><center><img src="sites/default/files/376/win2.png" style="width:533px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/376/win3.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>(opcje z rysunku to utworzenie dysku X z systemem plików NTFS i wielkością 1GB)</p>
+
+<p><center><img src="sites/default/files/376/win4.png" style="width:533px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/376/win5.png" style="width:533px;height:405px;" alt="image" title="image" /></center>
+
+<p>Restartujemy maszynę - po tej operacji dysk powinien być dostępny po zalogowaniu.</p>
+
+<p>Przychodzimy do &quot;starego&quot; Panelu Sterowania (np. poprzez ikonę energii przy zegarku i opcję &quot;Power Options&quot; albo przez &quot;Change Adapter Options&quot; w &quot;nowym&quot; Panelu Sterowania w Network &amp; Internet \ Status), tam przechodzimy do wszystkich opcji (&quot;All Control Panel Items&quot;), klikamy System, link &quot;Advanced System Settings&quot; i &quot;Environment Variables&quot;.</p>
+
+<p>W otwartym okienku zmieniamy TEMP i TMP na górze i na dole na nasz dysk (w przykładzie jest to X)</p>
+
+<p><center><img src="sites/default/files/376/win6.png" style="width:362px;height:405px;" alt="image" title="image" /></center>
+
+<p>Zapisujemy, restartujemy i nasz system powinien już zapisywać pliki tymczasowe w RAM.</p><p>Plusem rozwiązania jest na pewno szybkość i niezużywanie dysku SSD na zapisywanie głupot, minusem pewne ustępstwa dotyczące bezpieczeństwa.</p>
+
+<p>Samo narzędzie ma również narzędzie do tworzenie większej ilości dysków (proszę przejść do &quot;starego&quot; Panelu Sterowania i kliknąć &quot;ImDisk Virtual Disk Driver&quot;).</p>
+
+<p>Jedyna uwaga z mojej strony - podczas używania podobnego rozwiązania napotkałem problemy z bardzo niewielką ilością programów instalacyjnych, np. w przypadku VirtualBox konieczne było rozpakowanie plików i uruchomienie setupu ze stworzonego katalogu tymczasowego.</p>
+
+<p><b>Linux</b></p>
+
+<p>W pliku /etc/fstab dodajemy wpisy: </p>
+
+<p><pre contenteditable="false"><code class="text" data-lang="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">tmpfs /tmp tmpfs rw,nodev,nosuid,size=512k 0 0
+tmpfs /var/tmp tmpfs rw,nodev,nosuid,size=512k 0 0</code></pre>
+
+<p>Zmiana powinna być natychmiast po restarcie - wpisy tworzą odpowiednio po 512KB (w moim systemie to wystarcza, można również wpisać np. 1g dla 1GB czy 512m dla 512 MB) z możliwością zapisu i odczytu i braku uruchamiania programów.</p>
+
+<p>Więcej o tmpfs np. w <a href="https://www.kernel.org/doc/Documentation/filesystems/tmpfs.txt" target="_blank" rel="noopener" rel="nofollow">dokumentacji kernela</a>, więcej o <a href="https://wiki.archlinux.org/index.php/fstab" target="_blank" rel="noopener" rel="nofollow">formacie fstab np. na ArchWik</a>i.&#160;&nbsp;</p>

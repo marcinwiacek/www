@@ -1,0 +1,88 @@
+﻿Title:Why (not) Samsung ? Why (not) Android ? Few comments from using Samsung Galaxy S... (2010, version 1.01)
+Author:marcin
+When:29 Oct 2010
+Taxonomy:English,Linux,GSM,Nokia,English article,OS,Android
+
+<p align="justify">8/16 GB disk space, Bluetooth, Wifi, camera (or more precise: two), headphones 3,5 mm jack, microphone and speakers, micro-USB, micro-SD card reader, FM radio with RDS, graphic accelerator, internal modem. Is it new computer model ?</p>
+<p align="justify">No - it's Samsung Galaxy S. 4" touchscreen, proximity sensor, big battery, Android and some other make, that it's probably the best phone released during this year... Samsung already sold more than 5 millions of units and is planning to sell 10 millions to the end of 2010. Is it ideal ?</p>
+<!--break-->
+<h1>Android on the board</h1>
+<p align="justify">Few loose notes about Android:</p>
+<ul><li>
+<div align="justify">it was and it is criticized because of methods of developing (cooperation with Open Source developers). See for example <a href="http://blog.peijnik.at/2009/11/08/android-mythbusters-and-openness/">Android, Mythbusters and openness</a>, <a href="http://www.kroah.com/log/linux/android-kernel-problems.html">Android and the Linux kernel community</a> and <a href="http://linuxhaters.blogspot.com/2010/02/they-took-our-codes.html">They took our codes !</a>. Good news is, that you get majority of sources for it (see for example <a href="http://developer.android.com/index.html">developer.android.com</a> and <a href="http://opensource.samsung.com/">opensource.samsung.com</a>. Wrong is that the most often it's not 100% (example are drivers for Snapdragon QSD8250 used in Nexus One/HTC Desire)...</div>
+</li><li>
+<div align="justify">it was and it is criticized because of structure (you don't have some functionality known from desktop systems provided for example by POSIX) - generally you have special limited version of Linux kernel and it's managing system able to run some Unix/Linux distribution tools (but this functionality the most often is not available from the box) and Dalvik Virtual Machine for applications (yes, Java is the most often used language for creating Android applications). On top of it you have often added some user interface specific for manufacturer (like TouchWiz for Samsung) and there are installed some add-ins (like calculator, alarm clock, etc.).</div>
+</li><li>
+<div align="justify">Market (central place, where you can download applications from) contains a lot of useless apps and in fact <a href="http://www.zdnet.com/blog/burnette/cnet-retracts-article-on-android-app-privacy-threat/1987">nobody cares, if they are getting sensitive data or not</a> (people are not looking into it and apps are not audited for it)</div>
+</li><li>
+<div align="justify">it's quite fragmented platform (there are still sold devices with version 1.6)</div>
+</li><li>
+<div align="justify">you have to disable many options when you want to disconnect data connections and automatic data synchronization with Google and other servers, additionally with version 2.1 even disabling everything in menu doesn't resolve it in 100% (you need APNDroid application from the Market)</div>
+</li><li>
+<div align="justify">it doesn't have so nice interface like iOS</div>
+</li><li>
+<div align="justify">you have advertisements in some places...</div>
+</li></ul><p align="justify">Is it bad ?</p>
+<p align="justify">No, it's probably the best solution on the market now. Let's look for competitors:</p>
+<ul><li>
+<div align="justify">Symbian - modified for touch screens, but still contains some strange interface elements and many so called "protections". And is slow... Additionally it's supported by Nokia only (Samsung and Sony Ericsson officially resigned from it), connected with it <a href="http://blogs.gartner.com/nick_jones/2010/10/26/will-the-symbian-foundation-close-does-it-matter/">Symbian Foundation can be closed in any moment</a> and some known blogs already resigned from writing about it (like <a href="http://www.symbian-guru.com/welcome/2010/07/symbian-guru-com-is-over.html">Symbian Guru</a>)... In short words: it's reanimated by Nokia, but it's dying...</div>
+</li><li>
+<div align="justify">Maemo - crippled by Nokia (even release 1.3 for Nokia 900 doesn't have MMS, you have to use tools from 3rd party developers) and finally abandoned by Nokia for Meego</div>
+</li><li>
+<div align="justify">Meego - it can be revolution in the future (full Open Source and high compatibility with desktop Linux distributions), but we still don't know, how it will finally look like..</div>
+</li><li>
+<div align="justify">Windows Mobile 6.5.x - disaster, it's removed from the market (some people are using it only because of Polish AutoMapa)</div>
+</li><li>
+<div align="justify">Windows Mobile 7 - big unknown, but for now it has got many disadvantages (for example - lack of real microSD in 2010 ?)</div>
+</li><li>
+<div align="justify">iOS - very strong, but available in Apple products only</div>
+</li><li>
+<div align="justify">Bada and WebOS - we will see</div>
+</li></ul><h1>Android in the Galaxy S</h1>
+<p align="justify">Currently you can use Android 2.1 (Eclair) with it, company is working on upgrade for Android 2.2 (Froyo). First problem: during almost each month since August we can see only Froyo beta releases, which don't work too good. This is "a little bit" annoying especially that all other flagship devices on the market received it (or more precise: almost all - Sony Ericsson is still working on update into Eclair for 1.6 devices and similar delays seems to be normal for this company).</p>
+<p align="justify">There are problems with official software Kies for devices support/updates (it's probably worse even than Nokia PC Suite and you can't for example restore SMS with it) and delays with updates for branded operators version - even adding one wallpaper can make, that you have to wait for official version month or two. Annoying, isn't it ? (one good news is, that you can remove branding using Kies and although it will probably break warranty, is very easy and doesn't delete data and applications)</p>
+<p align="justify">More things:</p>
+<ul><li>
+<div align="justify">it isn't known in 100%, if Samsung will enable <a href="http://www.taranfx.com/android-internals-jit-froyo">Just In Time compiler for applications</a> in Froyo</div>
+</li><li>
+<div align="justify">many people seems to search for methods of removing TouchWiz interface (phone seems to work better without it)...</div>
+</li><li>
+<div align="justify">users are complaining about so called "lags" (phone is freezing for a moment)</div>
+</li><li>
+<div align="justif">you don't have "offline" maps with it (Nokia has got Nokia Maps)</div>
+</li><li>
+<div align="justify">some Samsung "extras" are installed only by own application (you have to download them and sometimes it doesn't work - for example Task Manager update is not shown in many units)</div>
+</li><li>
+<div align="justify">when you write SMS with GSM alphabet and Polish chars, they're replaced to "?" (in Nokia phones even many years ago "ą" was replaced to "a", "ć" to "c", etc.)</div>
+</li><li>
+<div align="justify">Skype has got some problems with Android 2.1 on it</div>
+</li><li>
+<div align="justify">you don't have access in some units to some firmware recovery mode (download mode)</div>
+</li><li>
+<div align="justify">I'm disappointed by YouTube application on it</div>
+</li></ul><p align="justify">From good things: you have two bootloaders (it decrease chance of damaging unit on flashing) and many keypad codes (including netmonitor !!!) and this is more than excellent (see <a href="http://forum.xda-developers.com/showthread.php?t=721111">here</a> and <a href="http://forum.gsmhosting.com/vbb/f258/samsung-galaxy-s-working-codes-1046184/">here</a>)</p>
+<p align="justify">Some problems were eliminated by 3rd party developers. For example lags: replacing Samsung solution (RFS filesystem) with some more standard (EXT2 or other) made, that Galaxy S is like rocket (for example see <a href="http://forum.xda-developers.com/showthread.php?t=784691">One Click Lag Fix from the Market</a>). You can partially remove default applications (for example using <a href="http://forum.xda-developers.com/showthread.php?t=775154">SGS tools from the Market</a>) and you can flash Galaxy S even in Linux (<a href="http://forum.xda-developers.com/showthread.php?t=755265">Heimdall software</a>). SMS dictionaries have been fixed to change Polish chars, there is fix for recovery (it needs some flashing). This is the truth.</p>
+<p align="justify">But the truth is too, that people are looking for something more - there are some successful tries for running unmodified Debian/Ubuntu inside Android (for Galaxy S see info <a href="http://ghantoos.org/2009/08/08/running-debian-on-a-samsung-galaxy-under-android/">here</a>, <a href="http://burningbroccoli.se/post/949205350/chrootd-ubuntu-on-samsung-galaxy-s-android">here</a> and <a href="http://forum.xda-developers.com/showthread.php?t=759376">here</a>, you can have even XWindows and info about it is <a href="http://forum.xda-developers.com/showthread.php?t=762135">here</a>), Debian instead of Android (in <a href="http://www.android-devs.com/?p=152">Nexus One for example</a>), Android instead of Maemo (for Nokia 900). People are rooting their devices too (getting full root approvals and ability of making system modifications - with Galaxy it's again for example <a href="http://forum.xda-developers.com/showthread.php?t=784691">One Click Lag Fix</a>).</p>
+<p align="justify">Imagine, that companies instead of selling hardware+system will rather start using such selling model like with x86 platform: selling hardware+some included system+ability of easy installing other systems+drivers for them. With such approach we could see some interesting moves. And I think, that we're closer and closer to it. <b>This rabbit can't be closed in the hat...</b></p>
+<p align="justify">
+<a href="http://opensource.samsung.com/">Samsung happily publishes own modifications to the kernel used in their Android version.</a> Maybe we will see Meego some day ?</p>
+<h1>Hardware</h1>
+<p align="justify">FM radio is mono. Interesting limitation - company will make it stereo with Froyo. <a href="http://forum.xda-developers.com/showthread.php?t=709135&amp;page=5">You have probably USB host, but it's disabled</a>. Unfortunately, but it looks that Samsung plays here like other companies, for example:</p>
+<ul><li>N900 has got FM radio (no official support - <a href="http://maemo.org/downloads/product/Maemo5/fmradio/">application created by 3rd party developers</a>)</li>
+<li><a href="http://www.tombom.co.uk/blog/?p=124">USB host is working with Motorola Droid</a>
+</li><li><a href="http://www.softsailor.com/news/16916-htc-hd2-secrets-hidden-ram.html">HTC HD2 probably has got more RAM</a>
+</li></ul><p align="justify">There are some misunderstanding related to RAM size - many sources say, that Galaxy S has got 512 MB RAM. We can see less than 400 MB in Android system and expected to see more with Froyo. It didn't happen...</p>
+<p align="justify">Camera doesn't have protection cover and flash. In my opinion it's example of forcing users for faster buying new product.</p>
+<p align="justify">The same lack of LED for notifications (missed calls/unread SMS/etc.) - in my opinion even application FlashNotify from the Market doesn't replace it with 100% (it's using screen), <a href="http://forum.xda-developers.com/showthread.php?t=772672">BackLightNotification modification (using touch keys LEDs for it)</a> can be a little difficult for new users.</p>
+<p align="justify">You have cheap plastic back cover and frame in the front, which is a little bit movable and making sound sometimes on the phone top</p>
+<p align="justify">When we speak about UMTS antenna - yes, Galaxy S has got weaker coverage, when you put it into hand. But something for something - it has got minimal SAR because of it.</p>
+<p align="justify">Many people had and have problems with GPS - they were partially fixed with new ROMs, problems are partially connected probably with overheating.</p>
+<p align="justify">Again - does it mean, that Galaxy S is wrong ? No, you have good calls quality.</p>
+<p align="justify">You have quite big battery (few days with smaller usage even without SetCPU from the Market giving ability of downclocking processor) and you can install even bigger batteries from 3rd party companies.</p>
+<p align="justify">Processor works stable even up to 1,2 Ghz (with unofficial firmware).</p>
+<p align="justify">You have got brilliant display and Samsung made two small mistakes with it (display) only - removing protecting foil in the phone from the box is required (you have a lot of advertisements in contrast to Nokia, where you could use device with similar trade foil over months or years) and such type of display looks much better, when it's mate (I have used Brando mate foil and now it's more than excellent)</p>
+<h1>Summary</h1>
+<p align="justify">Nokia is thinking about mobile computers from years. Many people had big hopes after releasing N900. It's maybe looking as brick, but have good camera, FM transmitter, infrared, 32GB of internal memory and some hardware things unavailable even in such much later "killer" phones like Galaxy S. And you can run Linux ARM applications on it without anything special. Because of these features people were able to accept releasing MMS and some features "later". It didn't happen, many fans were disappointed. Disappointed twice - although new model <a href="http://mynokiablog.com/2010/10/04/eldarmurtazin-nokia-n9-hardware-is-near-perfect-i-like-it/">N9 is probably hardware excellent</a>, company still plays with software for it and doesn't release it (wasn't creating Maemo for it possible and later updating with Meego ? it's strange for me - instead of it we can see only "excellent" Symbian/Series 40 units). It looks, that there is too much bureaucracy inside this company...</p>
+<p align="justify">Apple went different way - they have few devices, but with continuously updated software. See on their sales...</p>
+<p align="justify">Samsung/other companies went different way. They're publishing devices with some strange limits, but more often. There are some tries of creating non-trivial solutions too - see for example Morotola Defy with water/dust protections. This way is nice, but it's really not such revolution like it can be...</p>
+<p align="justify">In other words: when you will buy Samsung Galaxy S, you will get <b>very good device</b>...but it will be only Samsung (with some lack in support for example) and probably soon you will want to select product from some other company. See <a href="http://www.mobile-review.com/review/samsung-galaxy-s-en.shtml">Mobile-Review</a> - they agree with me (or I rather agree with them ;)). The only one good thing is that Nexus Two will be probably very similar to Galaxy S and because of it Galaxy S will not be abandoned soon...</p>

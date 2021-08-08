@@ -1,0 +1,16 @@
+﻿Title:Report 2006-12-03
+Author:marcin
+When:03 Dec 2006
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p><img src="sites/default/files/80/Clipboard01.gif" /></p>
+<p>Well, in previous week I was playing with Borland Turbo C++, during weekend I found some alternative and enough solutions with <a href="http://wxwidgets.org">wxWidgets</a> and <a href="http://wxdsgn.sourceforge.net">wxDev-C++</a>.</p>
+<!--break-->
+<p>I have some first results (see screenshot). File with it uploaded to <a href="http://www.mwiacek.com/zips/gsm/gplus/gplus_win32.zip">gui.zip</a> - because it's primitive, you have to edit manually config file, later run exe file. Only displaying folders content is supported now.</p>
+<p>What next ?</p>
+<p>Because I don't have money (even for own things), I will work slowly. I hope to make some filesystem functions to end of incoming week, maybe will publish source code.</p>
+<p>I don't know, how about next test Gammu (without "+") in incoming week - I will probably only collect patches and release tarball with them (without new big functions).</p>
+<p>I know, I write about these chaotic... But I'm tired.</p>
+<p>If you want to help, please at least try to set and run gui.zip on Win 95/Win 98/Win 2000/Win XP with various themes/Win 2003/Win Vista. Let me know results. THX</p>
+<p>BTW, what with other OS than win32 ? I asked people to help me in Linux and there was silence. Shame. I will maybe sit and make Gammu+ fully compatible with it (maybe GUI too) during last December week. But there is still problem with Mac. Please don't expect it from me - I don't have it.</p>

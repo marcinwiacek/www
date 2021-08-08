@@ -1,0 +1,24 @@
+﻿Title:Wulkan
+Author:marcin
+When:21 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><i>Czy pora lanczu czy kolacji spożywanie, czas dobry jest to na rymowanie. Tym razem o wulkanie będzie, bo słychać o nim teraz wszędzie :)</i></p>
+<p>Minęła w Polsce żałoba narodowa,<br />
+Aż tu widoczna jest katastrofa nowa.<br />
+Vulcanus islandzki pyłem nam dmucha,<br />
+Europa pomału zaczyna padać bez ducha.<br />
+Rządy nad sytuacją się zastanawiają<br />
+Ino tutaj nic same niestety nie wskórają.<br />
+Czekać trzeba do samego końca,<br />
+Kiedy rozwieje się chmura dławiąca.</p>
+<p>Boleć i stracić musi człek duży i mały,<br />
+Lecz żywot ludzki niestety jest taki cały.<br />
+<!--break-->
+Od pewnych rzeczy nigdy nie uciekniemy,<br />
+Od Ziemi naszej zawsze uzależnieni będziemy.<br />
+Gdybyśmy nawet wszystko wokół zmienili,</p>
+<p>Panami planety w pełni nigdy byśmy nie byli.<br />
+Lecz do przypomnienia tego trzeba zdarzenia takiego...</p>

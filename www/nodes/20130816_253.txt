@@ -1,0 +1,41 @@
+﻿Title:aaaaaaaaaaa.....
+Author:marcin
+When:16 Aug 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Czy ktoś miałby siłę opinię mą zmienić,<br />
+czy ktoś potrafiłby odczucia odmienić,<br />
+czy ktoś potrafiłby zająć me myślenie,<br />
+na tyle żebym nie popadał w osłupienie,</p>
+<p>bo jak słyszę i widzę, co się wyprawia,<br />
+jak czuję, jak wielu sytuację naprawia,<br />
+słyszę rozmowy jak wczoraj zasłyszane,<br />
+przez wielu fakty poniekąd potwierdzane,</p>
+<p>że pszczoły nie brzęczą, kury nie gdaczą,<br />
+że konie też nie rżą i dzieci nie płaczą,<br />
+że większość stąd ucieka lub pouciekała,<br />
+że część stara lub na zasiłkach pozostała,</p>
+<!--break-->
+<p>że na polach jedynie kukurydza się złoci,</p>
+<p>że wszystko inne nienowoczesne się stało,<br />
+bo wszystko inne ofiarą dopłat zostało,<br />
+że smutni ludzi na pendolino patrzyć mogą,<br />
+w telewizji często zaś twarz wodzów drogą,</p>
+<p>ciągle słyszą, że plastikowy twór poleciał,<br />
+że postęp, bo bez awarii tu czy tam doleciał,<br />
+że więcej radarów budżet uleczy i wybawi,<br />
+że jak auta zabiorą, wszystkich to zbawi,</p>
+<p>w czasach, gdy Wilanów wielkim marzeniem,<br />
+gdy mieszkanie tam dla wielu zbawieniem,<br />
+uczelnie wszystkim bez wyjątku pomagają,<br />
+bo na gońca menadżerów też tylko wymagają,</p>
+<p>bo montownie kolejne tu i tam są otwarte,<br />
+gdzie azjatów dłonie już czekają rozwarte,<br />
+i choć nikogo co mówię już nie interesuje,<br />
+to jednak teraz koniecznie tutaj zanotuje,</p>
+<p>że po nocy słońce jak dotąd wschodziło,<br />
+i po zimie zawsze zboże również rodziło,<br />
+i gdy naprawdę wiele było i jest stracone,<br />
+to wszystko być może i będzie odrodzone...</p>

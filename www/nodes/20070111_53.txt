@@ -1,0 +1,11 @@
+﻿Title:Report 2007-01-11
+Author:marcin
+When:11 Jan 2007
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<!--break-->
+<ul><li>I have updated <a href="?q=node/98">http://www.mwiacek.com/gsm/money/money.htm</a>. Tomasz Motylewski helped me a lot and I want to help him. But because there weren't any donations since long time, Paypal seems to be enough...
+</li><li>Michal Čihař has new RSS channels for Wammu and Python-Gammu (they contains info about releases only - see "Release info" on left for links), there is also RSS channel for his phone database with info about latest adds (see "Devices support" on left for link) and Wammu has got configuration wizard (see <a href="http://blog.cihar.com/archives/2007/01/11/wammugammu_configuration_in_few_clicks/">Michal's blog</a>).
+</li><li>there are updated Gammu+ binaries
+</li></ul>

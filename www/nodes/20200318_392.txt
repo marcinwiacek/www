@@ -1,0 +1,106 @@
+﻿Title:Samsung rozważa wprowadzenie na rynek odświeżonego klasyka w rozsądnej cenie (2020)
+Author:marcin
+When:18 Mar 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,S.F.,GSM
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Samsung-rozwaza-wprowadzenie-na-rynek-odswiezonego-klasyka-w-rozsadnej-cenie,106943.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Według niektórych źródeł koreańskich Samsung Galaxy S20 w czasie pierwszego dnia sprzedaży został kupiony w tym kraju w ilości zaledwie około 71000 egzemplarzy, co jest wynikiem o połowę gorszym w stosunku do poprzedniej generacji.</p>
+<!--break-->
+
+<center><img src="sites/default/files/392/1.jpg" style="width:608px;height:342px;" alt="Modele Galaxy S20, S20+, S20 Ultra (za Wikipedią)" title="Modele Galaxy S20, S20+, S20 Ultra (za Wikipedią)" /></center>
+
+<p>Analitycy podają, że głównym powodem tak niskiego zainteresowania jest przyzwyczajenie Koreańczyków do tradycyjnego stacjonarnego modelu sprzedaży w sklepach i centrach handlowych, który nie działa zbyt dobrze w sytuacji zagrożenia koronowirusem.</p>
+
+<p>Kolejnym powodem może być fakt nasycenia rynku i wzrastającej funkcjonalności smartphonów ze średniej półki, które oferują wystarczającą funkcjonalność w znacznie bardziej atrakcyjnej cenie. Do tego dochodzą obniżki cen poprzedniej generacji, wprowadzenie na rynek modeli S10 Lite i S10 Note Lite i oczekiwanie wielu konsumentów na tzw. taniego iPhone.</p>
+
+<p>Sprzedaży nowych flagowców nie pomaga również fakt, iż użytkownicy oczekujący nowinek technicznych mogą być zainteresowani modelem Galaxy Z Flip albo Xiaomi Aquara.</p>
+
+<p>Pierwsi testerzy najdroższego wariantu S20 Ultra wskazują na <a href="https://www.spidersweb.pl/2020/03/samsung-galaxy-s20-ultra-opinia.html" target="_blank" rel="noopener" rel="nofollow">pewne niedoskonałności szeroko reklamowanego trybu zoom 100x</a> i ogromną wielkość, co automatycznie powoduje, że cała rodzina niekoniecznie jest tak atrakcyjna dla fanów mobilnej fotografii.</p>
+
+<p>Za wcześnie jest na przewidywanie, jakie będą rezultaty sprzedaży nowych słuchawek w kolejnych tygodniach, ale okresowe problemy z dostępnością komponentów powodują, że firma rozważa tymczasową zmianę strategii.</p>
+
+<h2>Pogłoski krążące w Internecie od kilku tygodniu potwierdziły się.</h2>
+
+<p>W dniu dzisiejszym firma Samsung niespodziewanie zaprosiła wybranych blogerów technicznych na zamkniętą video konferencję, na której zaprezentowano plan wprowadzenia na rynek modelu Galaxy S7 Neo. Ma to być swego rodzaju eksperyment, który ma pokazać, czy podobne rozwiązanie ma szansę na sukces.</p>
+
+<p>Przypomnijmy, że oryginalny Galaxy S7 został zaprezentowany 21 lutego 2016 roku podczas Mobile World Congress w Barcelonie. Bardzo ciepło przyjętą przez użytkowników zmianą było przywrócenie wsparcia dla kart pamięci i wodoszczelności według normy IP67, konsumenci chwalili również doskonały aparat, powiększoną w stosunku do poprzednika baterię i ogólne dopracowanie koncepcji wprowadzonej w modelu Galaxy S6. Firma sprzedała 20 milionów egzemplarzy modeli S7/S7 Edge w preorderze i 10 milionów w pierwszym miesiącu.</p>
+
+<center><img src="sites/default/files/392/2.png" style="width:394px;height:405px;" alt="Modele Galaxy S7 i S7 Edge (za Wikipedią)" title="Modele Galaxy S7 i S7 Edge (za Wikipedią)" /></center>
+
+<p>Nowości wprowadzane w kolejnych flagowcach były niekoniecznie ciepło przyjmowane przez fanów marki, którzy pozostawali przy używaniu &quot;siódemek&quot;. Wśród narzekań powtarzał się brak nieobecności płaskiego ekranu, brak dużych zmian w module aparatu czy wielkość. Część z tego naprawiono dopiero w Samsungu S10e, to jednak nie wystarczyło - w 2019 model S7 został przeniesiony do grupy urządzeń nie otrzymujących już poprawek zabezpieczeń, ale po protestach użytkowników przywrócono go do programu, obiecując udostępnienie kolejnej porcji poprawek co trzy miesiące. <a href="https://www.sammobile.com/news/samsung-galaxy-a80-galaxy-s7-and-more-get-december-security-update/" target="_blank" rel="noopener" rel="nofollow">Ostatnia wersja była rozprowadzana w grudniu 2019</a> i możemy to potwierdzić na telefonie używanym przez jednego z redaktorów, według niektórych źródeł firma <a href="https://piunikaweb.com/2020/02/05/galaxy-a51-december-update-galaxy-s7-january-patch/" target="_blank" rel="noopener" rel="nofollow">udostępniła uaktualnienie w styczniu 2020.</a>.</p>
+
+<h2>Jak przedstawiono na wspomnianej konferencji, strategia firmy nie zmienia się.</h2>
+
+<p>Samsung w dalszym ciągu chce pozostać liderem w każdym segmencie rynku i dostarczać słuchawki tanie albo oferujące wszystkie możliwe funkcje w połączeniu z doskonałymi ekranami Super AMOLED.</p>
+
+<h2>Nowy model jedynie wypełni pewną lukę.</h2>
+
+<p>Słuchawka ma mieć wymiary podobne do S10e (142.2 x 69.9 x 12 mm) i oferować ekran 5,75 cala Display Infinity z rozdzielczością 3040 x 1440 (Quad HD+), co zostało osiągnięte dzięki PPI 570 podobnemu jak w modelu oryginalnym.</p>
+
+<p>Aktualnie rozważane jest wprowadzenie trybu 90 Hz, pewny jest za to brak dziury na kamerę. Pokazane zostało rozwiązanie analogiczne do jednego z prototypów iPhone, który <a href="https://twitter.com/BenGeskin/status/1177242732550610945/photo/1" target="_blank" rel="noopener" rel="nofollow">grupował wszystkie elementy w cienkiej ramce na górze</a>.</p>
+
+<p>Kamera w tym wypadku nie będzie miała takiej wielkości matrycy jak we flagowcach (nie podano jej dokładnych parametrów), niemniej jednak według przedstawicieli firmy powinna wystarczać do wideokonferencji.</p>
+
+<p>Zmiany dotyczą również czytnika linii papilarnych, który tutaj zostanie przeniesiony do włącznika.</p>
+
+<p>Kolejną mocną stroną modelu S7 Neo będzie wykorzystanie ogniw o łącznej pojemności 4500 mAh zmieszczonych dzięki powiększeniu grubości, co w połączeniu z procesorem Exynos 990 i 8GB RAM (LPDDR5) ma zapewnić do 37 godzin rozmów i 13 dni w trybie czuwania (dla wariantu LTE).</p>
+
+<p>Na konferencji nie podano szczegółów dotyczących 5G, ale przedstawiciele firmy zapewniali o tym, że niezależnie od wersji kluczowe jest zapewnienie niskiego współczynnika wartości promieniowania SAR. Nowością ma być jego podawanie dla różnych technologii transmisji, co powinno pomóc klientom w rozpoznaniu, jak słuchawka zachowuje się przy ich profilu użytkowania.</p><p>Przypomnijmy, że oryginalny S7 nawet w wersji Duos był certyfikowany z wartościami 0.406 W/Kg i 0.621 W/Kg (promieniowanie odpowiednio w kierunku głowy i ciała), a wszystkie najnowsze flagowce koreańskiego flagowca mają w dokumentach certyfikacyjnych wartości ok. 1.5 W/Kg, co nie dyskwalifikuje ich z prawnego punktu widzenia, ale może być gorzej odbierane przez niektórych klientów.</p>
+
+<p>Z tyłu słuchawki Samsung zamierza umieścić moduły fotograficzne znane z wersji S20, tj.</p>
+
+<ul><li>obiektyw 12Mpix (przysłona f/1.7, wielkość piksela 1,8 &#181;m, kąt widzenia 79&#176;, z autofokusem 2PD oraz optyczną stabilizacją obrazu),</li>
+
+<li>teleobiektyw 64 Mpix (przysłona f/2.0, wielkość piksela 0,8 &#181;m, kąt widzenia 76&#176;, z optyczną stabilizacją obrazu) i</li>
+
+<li>obiektyw ultraszerokokątny (12 Mpix, przysłona f/2.2, wielkość piksela 1,4 &#181;m, kąt widzenia 121&#176;).</li></ul>
+
+<p>Z nowości warto wymienić również użycie złącza USB-C, wsparcie dla standardów eSIM i DeX i włączenie radia FM, które w niektórych krajach wciąż używane jest do rozsyłania wiadomości alarmowych.</p>
+
+<p>Pozostawione ma być również złącze jack, najlepsze jednak firma pozostawiła na koniec prezentacji - nowy model ma mieć zagwarantowane dwie główne aktualizacje systemu Android i wsparcie dla poprawek bezpieczeństwa przez kolejne trzy lata, ma być również rozważone wprowadzenie trzeciej płatnej głównej aktualizacji systemu.</p>
+
+<p>Jest to zaskakujące, ale ma być osiągnięte dzięki zaszyfrowaniu bootloadera i udostępnianiu klucza dla każdego egzemplarza oddzielnie.</p>
+
+<p>Prawdopodobna cena takiego modelu ma być trochę niższa niż modelu S10 Lite (zapewniano, że będzie &quot;rozsądna&quot;), nie podano jednak konkretnych szczegółów.</p>
+
+<p>Widać tutaj wyraźne nawiązanie do strategii Apple, które ma wprowadzić na rynek modelu iPhone SE2 (iPhone 9). Ta słuchawka w połączeniu z niską ceną i starszym designem ma zapewniać moc najnowszego procesora A13 i dać użytkownikom naprawdę poręczne urządzenie.</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/uELp-kWEeLA?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>Podobne rozwiązanie zastosował Google wypuszczając model Pixel 3A, kiedyś również Sony bardzo mocno wykorzystywało tę strategię wypuszczając kolejne modele Xperia Compact.</p>
+
+<p>Dwie jaskółki wiosny nie czynią, ale trzy?</p>
+
+<h2>Czyżbyśmy w roku 2020 mieli do czynienia z drastyczną zmianą strategii na skostniałym rynku?</h2>
+
+<p>W 2019 i 2020 wielu użytkowników krytykowało Samsunga za macosze traktowanie tego, z czego ta firma zawsze słynęła - słuchania głosów swoich fanów i dostarczania absolutnie topowego bezkonkurencyjnego sprzętu, który nie ma ograniczeń znanych z iPhone.</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/-4dNo6ASqbM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+</center>
+
+<p>W obecnej chwili klasa średnia koreańskiego producenta ma modele z bateriami 6000 mAh, złączem jack czy radiem FM, tego z kolei brakuje we flagowcach.</p>
+
+<p>Czyżby gigant w końcu się ugiął i chce sprawdzić, czy nie jest to ślepa uliczka?</p>
+
+<p>Zaiste ciekawych czasów się doczekaliśmy, szkoda, że zmiany wymusił dopiero koronawirus.</p>
+
+<p>To jest mój pierwszy wpis na tym portalu, proszę o uwagi w komentarzach i zapraszam do dyskusji, czy kupilibyście taki telefon.&#160;</p>
+
+<p>PS. Powyższy tekst jest oczywiście żartem. Planowałem go opublikować 1 kwietnia, ale plan zmieniłem, gdyż z każdy z nas potrzebuje trochę rozrywki w zwariowanym czasie.</p>
+
+<p>Chcę zauważyć, że w przypadku rodziny S20 użytkownicy wskazują na problemy z firmware, które powodują chociażby szybkie drenowanie baterii (większość z nich będzie pewnie załatana).</p>
+
+<p>Poważniejszą usterką wydaje się <a href="https://www.purepc.pl/urzadzenia_mobilne/samsung_galaxy_s20_wyraznie_mniej_wytrzymaly_niz_modele_s20_i_s20_ultra" target="_blank" rel="noopener" rel="nofollow">mniejsza odporność najmniejszego S20 na zginanie</a> i (to już w og&#243;le jakiś ponura kpina) <a href="https://www.notebookcheck.com/Fake-5G-Samsung-Galaxy-S20-Ultra-im-JRE-Teardown-ohne-mmWave-5G-Antennen.457394.0.html" target="_blank" rel="noopener" rel="nofollow">obecność innych anten 5G</a> przynajmniej w wariancie S20 Ultra.&#160;</p>
+
+<p>Jest też kwestia możliwych problemów z Exynosem...</p>
+
+<center>
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/CpMBuj0LaAw?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/6CUSe8kgIE8?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>&nbsp;</p>
+</center>

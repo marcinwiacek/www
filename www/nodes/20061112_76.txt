@@ -1,0 +1,12 @@
+﻿Title:Report 2006-11-12
+Author:marcin
+When:12 Nov 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>it looks, that communication between me and Michal is done more using blogs than emails now. It's good and bad.
+<!--break-->
+</li><li>I have released new Gammu+ and started making some [[GPlus:Internals|initial developer docs]]. Generally I must say, that I agree with some Michal's comments - there can be some things still improved internally in this project, but please note that I don't have very big C++ experience and I don't have time for some plays. If you want, please send me patches - I will apply with pleasure. Even now Gammu+ gives much more possibilities (it can look as C -&gt; C++ conversion only, but it's not exactly the truth) and I will work on it. It's already available, not "virtual". I know, that some people will maybe don't like licensing, but...
+</li><li>new test Gammu - I will probably wait few days for some Michal's patches for SE. If something is poor implemented, I will be happy, that it was fixed...
+</li><li>I have put compiled for win32 test Gammu (<a href="http://www.mwiacek.com/zips/gsm/gammu/test/gammu_test.zip">here</a>) and test Gammu+ (<a href="http://www.mwiacek.com/zips/gsm/gplus/gplus_test.zip">here</a>) into my server
+</li></ul>

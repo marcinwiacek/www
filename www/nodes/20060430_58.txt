@@ -1,0 +1,15 @@
+﻿Title:Report 2006-04-29
+Author:marcin
+When:30 Apr 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Long weekend in Poland, a lot of time... I have finally found time to play with gammu.org and software.</p>
+<p>First few words about site:</p>
+<!--break-->
+<ul><li>it's partially reorganized according to my vision. I have see also some efforts from other people about entering new content into wiki. This is good.
+</li><li>please remove all cache from you www browser. Earlier each wiki page was reloaded after change, now it should be done once a day. Bigger site transfer (which can make probles in the future), but required because of displaying latest versions of software on the top.
+</li></ul><p>If you have any problems with new site, please let me know.</p>
+<p>About software:</p>
+<ul><li>there is started making Delphi support for Gammu+. It should be available in 0.0.6 with end SMS.
+</li></ul>

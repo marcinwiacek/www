@@ -1,0 +1,97 @@
+﻿Title:Jesteśmy debeściaki... (opinia, może i trochę polityki) (2021)
+Author:marcin
+When:24 Jan 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Jestesmy-debesciaki-opinia-moze-i-troche-polityki,112965.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dzisiaj będzie trochę o jednym zjawisku (również w IT): zbyt wiele rzeczy robionych jest na huraaa (albo wręcz odwrotnie - jest niszczonych w zarodku, bo przecież &quot;za mniej niż 15k nie ruszamy klawiatury&quot;)</p>
+
+<!--break-->
+
+<p>Zacznijmy od odprężającego filmiku:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/EoFdzPSc8iE?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Tak się składa, że w styczniu usłyszeliśmy informacje o &quot;polskim kilerze Facebooka&quot; o nazwie rozpoczynającej się na literę A, który jest polski, ale jakoś nie ma domeny z końcówką pl.</p>
+
+<p>Po kilku dniach okazało się, że stronę napisano za darmo, w PHP i że bardziej wygląda na prototyp niż na wersję, która powinna trafić na produkcję (szkolne błędy powinny razić nawet początkującego programistę we wspomnianym języku).</p>
+
+<p>Mógłbym się zgodzić, że stworzenie konceptu podobnego serwisu to prosta sprawa... ale przygotowanie porządnej architektury (gdzie treści doładowują się dynamicznie, gdzie mamy szukanie potencjalnie niebezpiecznej treści typu pornografia dziecięca, itp. itd.) to już dłuższa zabawa i nie można tego robić na hurraaa.</p>
+
+<p>Jeden projekt, i oczywiście ogromna okazja do wypowiadania się wszelkich &quot;mądrych&quot; osób i wszelkiej maści &quot;specjalistów&quot;. Ktoś mógłby powiedzieć, że to modelowy przykład tworzenia czegoś przez ludzi, którzy nie mają o niczym pojęcia. Czy jest to jednak przykład jednostkowy?</p>
+
+<p>W międzyczasie pojawił się portal &quot;wolnislowianie.pl&quot; będący kolejną próbą stworzenia bańki dla ludzi o konkretnych poglądach. Był, i się zmył.</p>
+
+<p>Dzisiaj czytam o xepo.pl:</p>
+
+<center><img src="sites/default/files/431/screen1.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Niestety uderza mnie to jak bardzo dużo ludzi wydaje się narzekać zamiast wspierać dobrym słowem podobne inicjatywy (podobne, czyli próby tworzenia dobrego kodu do stawiania różnego rodzaju serwisów społecznościowych).</p>
+
+<p>Pójdźmy dalej - jest taka firma produkująca gry, w której produkty jakoś nie grałem, ale która ostatnio była na ustach graczy z całego świata.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/6H7MRGdVDHk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Filmików na YouTube jest wiele, jest nawet wideo z przeprosinami, którego nawet nie chcę komentować - jeżeli w firmie w produkcji była dosłownie jedna &quot;sztandarowa&quot; gra, to naprawdę nikt z zarządu nie miał czasu, żeby sobie pograć w kolejne buildy?</p>
+
+<p>CD Projekt się totalnie skompromitował, i smród będzie się ciągnął latami. Mieli wszystko. I ludzi, i markę, i tytuł, który miał szansę na sukces (i poniekąd go osiągnął, ale w negatywnym tego słowa znaczeniu), a teraz będzie poprawiany miesiącami (np. przez pogarszanie jakości grafiki, o czym się mocno trąbi) i raczej będzie to raczej łabędzi śpiew i sztuka dla sztuki.</p>
+
+<p>To się powtarza - testy w bankach na produkcji (tak, tak, błąd ludzki...), problemy z kolejnymi sklepami internetowymi, itp.</p>
+
+<p>Moje pytanie - czy naprawdę wszystko w polskim wydaniu musi kojarzyć z bylejakością? Naprawdę boli to, że albo mamy pieniactwo i robienie wszystkiego na sznurki albo tępienie ludzi, którzy są w stanie coś wnieść (sztandarowy przykład: prace Jacka Karpińskiego).</p>
+
+<p>Przy komputerach są same zera i jedynki i nie można tam wciskać kitu: <a href="https://streamable.com/3uriws" target="_blank" rel="noopener" rel="nofollow">https://streamable.com/3uriws</a></p>
+
+<p>(mówię to jako osoba, która robiła rzeczy pokazane z lewej i prawej strony wspomnianego wideo)</p>
+
+<p>Większość z nas zamiast wnieść coś pozytywnego działa jak pani na wózku:</p>
+
+<center><img src="sites/default/files/431/screen2.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Zamiast pracować na siebie, dla siebie i na swoją przyszłość wolimy się pienić i wybiórczo ekscytować tymi, którzy się nami w ogóle nie przejmują. </p>
+
+<p>Przykładem mogą być wydarzenia w Ameryce Północnej, w której ktoś przez miesiące pozwalał na różnego rodzaju demonstracje, potem praktycznie wpuścił ludzi do jednego z najważniejszych budynków na kontynencie, a po zmianie władzy zaczął z nimi walczyć. </p>
+
+<p>O ile o tych dwóch pierwszych rzeczach napisano setki słów, to o fakcie ostatnim są ledwo drobne wzmianki. A o tym, co poniżej, ile serwisów wspomniało?</p>
+
+<center><img src="sites/default/files/431/screen3.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ile wspomniało o nominacjach osób podejrzanych o powiązaniach z BigTech, albo o nominacji pani lobbującej za neutralnością sieci?</p>
+
+<p>Zamiast szukać u innych zacznijmy od swojego podwórka...</p>
+
+<p>Sam jakiś czas temu doświadczyłem problemu bylejakości, próbując unowocześnić jeden ze znanych portali. </p>
+
+<p>Kod został udostępniony na github, architektura pozwalała / pozwala na używanie HTTP/2 (a może nawet HTTP/3), treści doładowywały się dynamicznie, itp. itd. </p>
+
+<p>Cud, miód i orzeszki. </p>
+
+<p>Dałem konkret... i wtedy jakiekolwiek sensowne rozmowy się urwały... a nie, przepraszam - pojawiła się cała fala hejtu, że chcę odebrać znany i lubiany portal, że jak tak w ogóle tak można, że to trzeba przemyśleć, zrobić jednak w PHP...</p>
+
+<p>Skończyło się na tym, że portal dzisiaj stoi na PHP 5.5.9 (przy czym najniższa wspierana wersja tego języka to wersja 7.3)... a w międzyczasie np. znacznie ważniejszym problemem był emocjonalny post jednej osoby, który wymusił publikację numeru specjalnego, który to z kolei był związany z mniejszością związaną z tą osobą (przy czym pismo, które przez dziesiątki lat było ostrzejsze niż Charlie Hebdo, podeptowało przy tym swoją historię). Jak widać w kraju nad Wisłą są priorytety i priorytety.</p>
+
+<p>Co jest ważne w tej historii? Nie mówiłem, że napiszę kiler-app w dwa dni i nie stawiałem wersji produkcyjnej na hurraaa. Próbowałem podejść technicznie, i dostałem za swoje.</p>
+
+<p>Na zakończenie jedna dygresja - chciałbym naprawdę kupować wyłącznie polskie produkty i boli mnie, że firmy w PL same z siebie nie chcą się promować (głupi przykład - Hyperbook nie podaje ceny wysyłki do różnych krajów, a np. taki <a href="https://clevo-computer.com/en/shippingtable" target="_blank" rel="noopener" rel="nofollow">clevo-computer</a> ma tych opcji na stronie równo 46)</p>
+
+<p>To tez przykład bylejakości - takiej samej jak ta, którą widać np. tutaj</p>
+
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/89ZRCSamP9o?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p>(że o FSO nie wspomnę, w którym podobno potrafiono w piątek przygotować nadwozie do zabezpieczenia antykorozyjnego i sam proces przeprowadzić w poniedziałek)</p>
+
+<p>Ode mnie dzisiaj jedna sugestia (to od pana polskiego pochodzenia, który w kraju, którym się tak zachwycamy, był w stanie zrobić odpowiednik serwisu społecznościowego):</p>
+
+<center><img src="sites/default/files/431/screen4.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>&#160;<br/>I kilka linków:</p>
+
+<p>1. <a href="https://www.wirtualnemedia.pl/artykul/albicla-serwis-rejestracja-jak-dziala-tomasz-sakiewicz-reklamy-skopiowany-regulamin-facebook" target="_blank" rel="noopener" rel="nofollow">https://www.wirtualnemedia.pl/artykul/albicla-serwis-rejestracja-jak-d...</a></p>
+
+<p>2. <a href="https://zaufanatrzeciastrona.pl/?s=albicla" target="_blank" rel="noopener" rel="nofollow">https://zaufanatrzeciastrona.pl/?s=albicla</a></p>
+
+<p>3. <a href="https://tech.wp.pl/eksperci-albicla-czyli-polski-facebook-to-koszmar-trzymac-sie-od-niego-z-daleka-6599957464480640a" target="_blank" rel="noopener">https://tech.wp.pl/eksperci-albicla-czyli-polski-facebook-to-koszmar-t...</a></p>
+
+<p>4. <a href="https://tech.wp.pl/albicla-wlasnie-ruszyly-zapisy-do-kolejnego-polskiego-facebooka-6599303879281536a" target="_blank" rel="noopener">https://tech.wp.pl/albicla-wlasnie-ruszyly-zapisy-do-kolejnego-polskie...</a>&#160;&nbsp;</p>
+            

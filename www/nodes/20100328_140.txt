@@ -1,0 +1,13 @@
+﻿Title:gammu.org reorganization
+Author:marcin
+When:28 Mar 2010
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p>As you probably know, I'm hosting some content (articles, materials, etc.) on the <a href="http://www.gammu.org">gammu.org</a>. Some time ago I have decided, that it's not updated from longer time and additionally <a href="http://www.mediawiki.org">MediaWiki</a> is not developed too much. I have decided to make some reorganization:</p>
+<ol><li>moving all non-GSM content to the mwiacek.com (this page)
+<!--break-->
+</li><li>moving some GSM content to the <a href="http://www.wammu.eu">wammu.eu</a> and some to the mwiacek.com (like blog entries)
+</li><li>making gammu.org redirection to the <a href="http://www.wammu.eu">wammu.eu</a>
+</li></ol><p>Point 1 <a href="?q=node/139">almost done</a>, point 2 partially done, 3 will be done soon (gammu.org will be available in the provider's domain up to the moment when payed period will end)</p>
+<p>In near future I will maybe reactivate <a href="?q=gplus">Gammu+</a> or join <a href="?q=gammu">Gammu</a> again. I have in plans some sync engine for smartphones (as alternative). We will see...</p>
+<p>Any comments ?</p>

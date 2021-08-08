@@ -1,0 +1,14 @@
+﻿Title:Report 2007-09-29
+Author:marcin
+When:30 Sep 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>hmmmm, many various notes:</p>
+<!--break-->
+<ul><li>I have upgraded Wiki. Unfortunately, during process few notes from it were deleted.
+</li><li>I have released new Gammu+. I'm working on making it more and more stable and useable (for example this release brings initial EMS support and support for Siemens SMS). I think also about writing Linux drivers too. For now Linux users have new --readmmsfile like in Gammu. I hope, that people will start helping me in development and/or will want to donate it. Please note, that currently for Nokia is has majority of features available...
+</li><li>I have downloaded Gammu-1.13.91.tar.gz. In each directory you have CMakeLists.txt. When I make "cmake ." on root, I receive new 11 makefiles in root in few in Gammu. And none of them works... I'm asking myself - maybe it's time to return to project and create own package ?
+</li><li>Microsoft increased time of live for Windows XP OEM. Hmm, interesting especially when you will look into blog from <a href="http://msinfluentials.com/blogs/jesper/archive/2007/09/24/blue-screen-of-drm-death-or-the-death-of-windows-media-center.aspx">Jesper Johansson's blog</a> and read words "How many lost sales of Microsoft's Media Center software and Windows Vista has it caused because the DRM sub-system randomly decides that you must be a criminal?"
+</li><li>I have made some changes in my root related to computer. I hope, I will work more productive now...
+</li></ul>

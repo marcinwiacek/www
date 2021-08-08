@@ -1,0 +1,15 @@
+﻿Title:Report 2007-03-14
+Author:marcin
+When:14 Mar 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>I decided too, that Gammu bugs should be added to Michal's bug tracker. Expect disabling Gammu project in bug tracker on gammu.org soon</p>
+<!--break-->
+<p>On main wiki page I added some table with small projects comparison. Anyone could help in extending it ? please note one thing - we have two lines. they use the same config files, the same backup files (at least now). Users can easy try both and select better for them. this is real freedom. I hope additionaly, that we will exchange with Michal more source in the future and both projects targeted for a little different users will be better and better... I hope too, that Michal can fix it and all files will have time of (real) last modification, not time of building package...</p>
+<p>Michal gave his notes, what will be in implemented in Gammu, I will give own about Gammu+:</p>
+<ol><li>I have delay with release 0.21.0. I have done reading notes &amp; todo, currently I'm working on full backup/restore for them. There are done already improvements with backup, config and other issues (on my hdd). When I will investigate one bug with sms, end Java console and end getting info at least from gammu.org Phones database (NSU info is dropped for 0.22.0), will release it. This is matter of few days.
+</li><li>it's possible, that my Debian will be soon in point, when I will be able to use it for development. If yes, expect Linux in 0.22.0
+</li><li>I was thinking about MySQL SMSD support, but it will probably need resolving some license issues...
+</li><li>because 0.21.0 will have general support for pbk, calendar, todo, notes, filesystem, java, sms, mms, backup/restore (and it will work and believe me or not - this is enough stable for normal work), next steps will depend on users. If same of you will show me their opinions, I will take decision: adding all edit options in GUI or implementing OBEX/Series 60 protocols. or maybe you will want more series 40 phones support or more sms formats supported (ems, smart messaging, ....) ? VCARDs (I could use stuff from older Gammu) ? MMS daemon ? anyone ? generally everything depends on it, if I will hear any voices and what they will say...
+</li></ol>

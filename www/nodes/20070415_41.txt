@@ -1,0 +1,11 @@
+﻿Title:Report 2007-04-14
+Author:marcin
+When:15 Apr 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>I have upgraded gammu.org to latest versions: MediaWiki to 1.9.3 and Mantis to 1.0.7. Please report any problems...
+<!--break-->
+</li><li>I have released new test Gammu+ 0.24.00: it's rather another test release, but it brings new important things like much improved phonebook support, extended cfg dialog and other (I have added screenshots). It's time to add N6288 pbk features now, end connections (DLR3, etc.), add sending linked SMS and test on various phones. And we will have first stable release...
+</li><li>I would like to thank Carlo ROATTA for his help...
+</li></ul><p>From private things: I have sent ready PDF to my diploma work director... Unfortunately, still no views for concrete job...</p>

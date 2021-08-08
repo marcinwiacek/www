@@ -1,0 +1,28 @@
+﻿Title:...
+Author:marcin
+When:10 May 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Klajna gatki tak różowe,<br />
+koszulki wciąż piękne nowe,<br />
+handel samochodzikami,<br />
+swatka, co chodzi za nami,</p>
+<p>na dłoni duży zegarek,<br />
+na fejsie tłok sekretarek,<br />
+luz, blus, gorąca muzyka,<br />
+doskonałość, co nas tyka ;)</p>
+<p>a gdy wbijają mu szpilki,<br />
+to nie są ludzie, a wilki,<br />
+bo to towarzystwa dusza,<br />
+co go nic i nikt nie rusza,</p>
+<p>zawsze też wszystkim pomoże,<br />
+o każdej możliwej porze,<br />
+o kim mówię dojdźcie sami,<br />
+Panie, my zawsze z wami,</p>
+<!--break-->
+<p>życzenia już złożyliśmy,<br />
+wypieków skosztowaliśmy,<br />
+niech się wam teraz powodzi,<br />
+a Italia słońcem nie szkodzi ;)</p>

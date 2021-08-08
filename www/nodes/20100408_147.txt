@@ -1,0 +1,34 @@
+﻿Title:Wielki Piątek
+Author:marcin
+When:08 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Kiedy ją zobaczyłem,<br />
+od razu się zauroczyłem.<br />
+Do dziś nie wiem dlaczego<br />
+i czemu wracam do wspomnienia tego.<br />
+Nigdy nie usłyszałem, jaki głos miała<br />
+i jak się ta piękna niewiasta zwała.<br />
+Gdy mą uwagę zauważyła,<br />
+w ogóle się nie speszyła.<br />
+Wpierw stała przede mną z ukosa,<br />
+widziałem tylko kosmyki jej pięknego włosa.<br />
+Zalotnie je tylko dłonią poprawiała<br />
+ni to ukradniem o mnie się opierała.<br />
+Później kolejka nas rozdzieliła,<br />
+a wtedy przez chwilę mnie nie kusiła.<br />
+Potem stanąłem w pobliżu, oczy swe napawałem,<br />
+<!--break-->
+aż w końcu wielkiej radości się doczekałem.<br />
+Ty podeszłaś, przede mną Cię zobaczyłem,<br />
+lecz minut kilka później znowu utraciłem.<br />
+Odeszłaś, ja sprawę przemyślałem<br />
+i w pobliże Twoje znów się udałem.<br />
+Ta historia niestety dobrze się nie skończyła,<br />
+gdyż gęstwina ludzka nas później rozdzieliła.<br />
+Powiedz mi, dlaczego nie zaczekałaś na mnie zauroczonego ?<br />
+Miałabyś dziś w mej skromnej osobie sługę mocno uniżonego.<br />
+Czy byłem dla Ciebie zbyt miękki i niezdecydowany ?<br />
+Czy był to dla Ciebie kaprys tylko niezaplanowany ?</p>

@@ -1,0 +1,43 @@
+﻿Title:Jak iMac stał się przyczyną rozstania / bo miesiąc bez wpadki Apple jest stracony (2021)
+Author:marcin
+When:24 June 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1145467,jak-imac-stal-sie-przyczyna-rozstania-bo-miesiac-bez-wpadki-apple-jest-stracony>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Ludzie (podobno) latali na księżyc, (na pewno) potrafią przekraczać barierę dźwięku i robić różne inne niesamowite rzeczy… tymczasem zaczęło brakować im tak podstawowego przedmiotu jak centymetr.</p>
+<p>Przyznam się, to już się staje nudne, i szkoda, że tydzień czy miesiąc bez newsa o wpadce Apple jest stracony.</p>
+<!--break-->
+<p>„Ostatnio” przeczytałem o tym, że niektóre iMac z M1 są nierówne, ale tak dosłownie, nie w przenośni. Tego można by się spodziewać po jakiejś tańszej marce (i stąd np. troszkę niższą nóżkę w Acerze Swift 1 po prostu podkleiłem taśmą klejącą)… tymczasem również komputer dla typowej amerykańskiej nastolatki (jak go wielu nazywa) bywa krzywy.</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/kK7ajHzd5yw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>W sumie zastanawiam się nawet, czy to jakaś może nowa moda czy próba wprowadzenia trendu (może chodzi o sprzedanie iPodkładki?), ale z drugiej strony producent generalnie stara się, żeby umieszczać go na półce premium. Policzmy więc, ile to ciekawych rzeczy można powiedzieć o nowym produkcie z tego roku:</p>
+<ol>
+<li> kiepskie chłodzenie w "słabszej" wersji (po Apple naprawdę spodziewałbym się kosmicznej technologii i ciszy, jak w iPadach; a zastosowanie „tańszego” i „droższego” systemu przypomina iPhone 7 i jego różne prędkości pamięci masowej)</li>
+<li>niewymienność elementów</li>
+<li>odblaskowy ekran z brakiem regulacji i ogromną brodą</li>
+<li>krzywizny przynajmniej niektórych egzemplarzy</li>
+</ol>
+<p>A do tego… jest najwyraźniej tak sexi, że nawet słynny pan Rossmann musiał się rozstać z jego powodu</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe frameborder="0" src="//www.youtube.com/embed/CozE-kg6ia4"   class="note-video-clip">
+</iframe></div>
+<br />
+</p>
+<p>Czyżby Apple znowu dokonało cudu? I czyżby marki premium na zawsze skazane były na ordynarne niedoróbki? (tutaj mały przerywnik z branży moto)</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/J9a6E3p9rUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>Pozostawię te pytania bez odpowiedzi, a że chciałem pisać też o użytkownikach „pro”, to mam news zupełnie innego kalibru (bo zły egzemplarz komputera stacjonarnego raczej można wymienić, za to wad samego ekranu raczej nie da się poprawić). Jak dobrze wiemy, w nowych największych iPadach Pro mamy dostępne ekrany miniLED, w których zastosowano podświetlenie każdego z punktu z osobna.</p>
+<p>Niektórzy użytkownicy zauważyli tam poświatę (<a href="https://support.apple.com/pl-pl/HT212527" target="_blank" rel="nofollow noopener">powstała też na ten temat oddzielna strona supportu</a>), a <a href="https://www.notebookcheck.net/2021-Apple-12-9-inch-M1-iPad-Pro-with-mini-LED-display-shows-poor-display-characteristics-including-reduced-PWM-and-response-times.545476.0.html" target="_blank" rel="nofollow noopener">w ostatnich dniach notebookcheck.net zrobił dokładniejszy test matrycy modelu 12,9”</a>. Wynika z niego, że:</p>
+<ol>
+<li>PWM użyte do regulacji podświetlenia ma niższą częstotliwość niż w starszych modelach</li>
+<li>czas reakcji matrycy jest gorszy</li>
+</ol>
+<p>Zaraz, ale miało być lepiej?</p>
+<p>Nowe technologie mają to do siebie, że cierpią na choroby wieku dziecięcego, z drugiej jednak strony nikt chyba w Apple nie sądził, że użytkownicy tego nie zauważą?</p>
+<p>Przypomnijmy, że to chyba nie pierwsza taka sytuacja, gdy użytkownicy profesjonalni dostają coś słabego. Wspomnijmy klawiaturę motylkową (która pojawiła się w MacBookach 12”, potem Pro, a dopiero na końcu w modelu Air „dla ludu”) albo złącza (w MacBook Pro są teraz tylko dwa), ewentualnie taśmy matrycy ekranu czy StainGate.</p>
+<p>Tak mnie zastanawia, jak to się stało, że słyszeliśmy już o tym, że telefon trzeba trzymać odpowiednio (Antenna Gate w iPhone 4), że łuszcząca się farba to nie problem (Matte Black w „siódemce”), albo że telefony mogą się wyginać (iPhone 6 i 6 Plus)?</p>
+<p>Teraz trzeba chyba tylko czekać, aż dyski w systemach z M1 będą padać jak muchy… zabawnie będzie.</p>
+<p>Zgodnie z klasykiem „I hope you learnt something”.</p>

@@ -1,0 +1,116 @@
+﻿Title:Windows 7 – odgrzewany kotlet ? (2009)
+Author:marcin
+When:29 Oct 2009
+Taxonomy:Polski,benchmark.pl,Windows 7,Windows,Polski artykuł,x86,OS
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Windows_7__odgrzewany_kotlet_.-2398.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"></center>
+<h1>Skazany na sukces ?</h1><p align=justify>W 2007 roku Microsoft wprowadza nowy system. Opinie o nowym systemie są dosyć pozytywne, natomiast negatywne są krytykowane (chociażby <a href=http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html>raport Petera Gutmanna nt. DRM</a>). Z czasem okazuje się, że system nie zdobył zbytniej popularności, a sam Microsoft przyznaje się do tego, iż nie wszystko było zrobione poprawnie.</p>
+
+<p align=justify>Mamy 2009 rok. Wielu użytkowników dalej wykorzystuje Windows XP (można przyjąć, iż jest to przynajmniej wersja z 2004 z Service Packiem 2), który ma już swoje ograniczenia. Czy sytuacja z brakiem akceptacji nowego &bdquo;dziecka&rdquo; Microsoftu może się powtórzyć ?</p>
+
+<p align=justify>W tym artykule chciałbym wskazać w szczególności na pewne słabości/ciekawostki dotyczące Windows 7 i zastanowić się, jak duży sukces może odnieść.</p>
+<!--break-->
+
+<p><h1>Nowe funkcje...wymagające zmiany przyzwyczajeń</h1></p>
+
+<p align=justify>Podstawowym elementem widocznym dla użytkownika jest jego pulpit. W nowym systemie mamy do czynienia z różnymi zmianami, które mogą być niekoniecznie pozytywnie przyjęte przez wielu użytkowników.</p>
+
+<p align=justify>Rozwiązania w Windows 7 częściowo bowiem &bdquo;łamią&rdquo; to, do czego klienci firmy Microsoft zdążyli się przyzwyczaić przez ok. 14 lat (od 1995 i Windows 95). Przykładem może być brak paska postępu przy różnych operacjach (chociażby hibernacji) albo nieobecność tzw. &bdquo;klasycznego&rdquo; menu Start. Często poruszany był na <a href=http://blogs.msdn.com/e7>oficjalnym blogu systemu</a> również brak możliwości pokazania animowanych ikon związanych z konkretnymi kartami sieciowymi w tzw. obszarze powiadomień (obok zegarka systemowego). Są to może drobiazgi, ale czasem jakże ważne.</p>
+
+<p align=justify>Ludzie, którzy nie używali Visty, będą musieli teraz pracować bez przycisku &bdquo;do góry&rdquo; w Exploratorze (i w inny sposób zmieniać katalogi), poznać &bdquo;nowy&rdquo; styl okien oraz &bdquo;inny&rdquo; Panel Sterowania (w którym &bdquo;stare&rdquo; okna są wymieszane z &bdquo;nowymi&rdquo;, a pełna wersja zawiera 45 ikon !). W stosunku do Windows XP zmieniono też układ katalogów &ndash; np. zamiast &bdquo;Documents and settings&rdquo; mamy obecnie &bdquo;Users&rdquo;. Pewną ciekawostką (ciekawostką, gdyż programy niezależne takie jak <a href=?q=node/109>Far</a> działają poprawnie) są w tym momencie problemy aplikacji systemowych z <a href=?q=node/111#1>katalogami będących tylko odnośnikami do &bdquo;prawdziwych&rdquo; katalogów</a>. Przykładem może być właśnie &bdquo;Documents and Settings&rdquo; (Eksplorator nie jest w stanie tam wejść, a komenda &bdquo;dir&rdquo; nie pokazuje w nim nic).</p>
+
+<p align=justify>Ci, którzy nie używali Office 2007, będą na pewno zaskoczeni wstążkami zamiast elementów menu.</p>
+
+<p align=justify>Czy wszystkie nowości będą mieć jakichś przeciwników ? Moim zdaniem niekoniecznie. Interesujące są chociażby biblioteki w Eksploratorze (możliwość łączenia w jednym widoku plików z różnych katalogów) albo łatwiejsze opcje wyszukiwania z menu Start (po wpisaniu słowa kluczowego pokazywane są m.in. powiązane tematy z pomocy albo odnośniki do plików, które słowo to zawierają).</p>
+
+<p style="text-align: center;"><img width=500 alt="Wyszukiwanie w menu Start" src="sites/default/files/107/2(7).png" ></p>
+
+<p align=justify>Plusem jest to, iż gadżety znane z Visty mogą być teraz umieszczane w dowolnym miejscu pulpitu, ciekawie przebudowany został również pasek zadań:</p>
+
+<ul>
+
+    <li><div align=justify>ma obecnie duże możliwości konfiguracji (chociażby obszaru powiadomień)</div></li>
+    <li><div align=justify>pozwala na konfigurację sposobu wyświetlania uruchamianych aplikacji (mogą być teraz reprezentowane np. przez same ikony)</div></li>
+    <li><div align=justify>zawsze pokazuje przycisk &bdquo;Pokaż pulpit&rdquo;</div></li>
+    <li><div align=justify>bardziej eksponuje opcje przypinania ikon powiązanych z dowolnymi (nie tylko uruchomionymi) aplikacjami</div></li>
+    <li><div align=justify>dla każdej aplikacji wyświetla listę ostatnio edytowanych plików, czasem również różne opcje (na obrazku obok pokazano przykładowe menu tego typu dla Internet Explorera)</div></li>
+
+</ul>
+
+<p style="text-align: center;"><img src="sites/default/files/107/1(10).png" width=300 alt="Opcje dla ikony Internet Explorera + uruchomiony FireFox" /></p>
+
+<p align=justify>To naprawdę robi niezłe wrażenie.</p>
+
+<h1>Multimedia</h1>
+
+<p align=justify>Według materiałów reklamowych w nowym systemie duży nacisk został położony na lepsze odtwarzanie multimediów. Wykonałem najprostszy chyba test i spróbowałem odtworzyć DVD. Ciekawostką jest wynik w systemie zaraz po zainstalowaniu (komunikat na obrazku obok jest angielski, gdyż nie dodano nawet polskiego pakietu językowego).</p>
+
+<p style="text-align: center;"><img width=350 alt="Komunikat błędu Windows Media Player" src="sites/default/files/107/3(8).png" /></p>
+
+<p align=justify>Płyta zaczęła być odgrywana po ściągnięciu wszystkich poprawek z Windows Update i restarcie. Trudno mi powiedzieć, czy to wina mechanizmów DRM (którymi 7 jest przesiąknięty podobnie jak Vista) czy po prostu jakaś drobna niedoróbka programistyczna.</p>
+
+<h1>A pod maską rdza?</h1>
+
+<p align=justify>System wygląda nowocześnie, jednakże należy pamiętać o tym, iż jest to dalej następca Windows NT (który nosi oznaczenie wersji 6.1). Pozostało w nim niestety wiele wiekowych rozwiązań. Przykładowo:</p>
+<ul>
+    <li><div align=justify>mamy rejestr systemowy &ndash; wprowadzony ok. 1993 w Windows NT 3.1 (16 lat temu) w założeniu miał pełnić rolę bazy przechowującej ustawienia wszystkich zainstalowanych aplikacji. Krytykowany, gdyż z czasem ulega fragmentacji (kasowane logicznie elementy często pozostają fizycznie w odpowiednich plikach), rośnie (nie ma tutaj żadnych mechanizmów usuwania niepotrzebnych wpisów np. po odinstalowaniu aplikacji) i zawiera dosyć ograniczoną możliwość oddzielenia wpisów z poszczególnych aplikacji. Co więcej, wiele programów z niego w praktyce nie korzysta.</div></li>
+    <li><div align=justify>aplikacje instalują się i są usuwane jak w starszych wersjach Windows &ndash; nie ma eleganckiego sposobu, aby &bdquo;wymusić&rdquo; pełne usunięcie pozostałości np. z rejestru (poza wykorzystaniem aplikacji w oddzielnej maszynie wirtualnej oczywiście, być może będą to też robić produkty z logiem &bdquo;Designed for Windows 7&rdquo;)</div></li>
+
+    <li><div align=justify>widoczne są wprawdzie pierwsze próby rozdzielenia aplikacji i elementów systemowych (np. Internet Explorer po włączeniu tzw. &bdquo;trybu chronionego&rdquo; zapisuje pliki w &bdquo;wirtualnych&rdquo; katalogach), ale większość z nich dalej współdzieli katalog systemowy, katalog &bdquo;Program Files&rdquo; i &bdquo;Users&rdquo; (dawny &bdquo;Documents and Settings&rdquo;). Dodatkowo należy zauważyć, iż tak nagłośniona możliwość usunięcia Internet Explorera czy niektórych innych komponentów z systemu oznacza jedynie ich częściową deaktywację (pewne elementy zostają i służą np. do obsługi pomocy)</div></li>
+
+    <li><div align=justify>podstawowym systemem plików jest NTFS</div></li>
+    <li><div align=justify>brak jest centralnego miejsca z logami systemowymi i ustawieniami systemu</div></li>
+</ul>
+
+<p align=justify>Pozwoliło na uzyskanie bardzo dużej zgodności przede wszystkim z poprzednim systemem (Vistą). Jakby tego było mało, po zakupie droższych edycji (Professional, Enterprise/Ultimate) i przy odpowiednim procesorze/BIOS możliwe jest wykorzystanie za darmo wirtualnej maszyny (tzw. XP Mode) będącej w istocie połączeniem Virtual PC ze specjalnie przygotowanym Windows XP SP3.</p>
+
+<p align=justify>Z jednej strony zgodność jest niewątpliwą zaletą. Z drugiej strony jednak trzeba pamiętać o bardzo dużej ilości kodu i zasobów systemowych (RAM, HDD, itd.) niezbędnych do jej uzyskania. Jest to zresztą widoczne w różnego rodzaju recenzjach i podsumowaniach, które w większości raczej zgodnie wskazują na szybsze działanie systemu niż Visty, ale wolniejsze od Windows XP.</p>
+
+<h1>I (pseudo ?) bezpieczeństwo ?</h1>
+
+<p align=justify>Kolejnym elementem, który jest bardzo uwydatniany w tej edycji Windows, są zmiany w UAC. W skrócie mówiąc: można sobie teraz dosyć precyzyjnie ustawić, jak system ma się zachowywać, gdy aplikacja próbuje działać z uprawnieniami administratora. Niestety, ustawienia domyślne zmniejszają wprawdzie ilość ostrzeżeń, ale powodują, iż system jest mniej bezpieczny niż Vista z włączonym UAC. Pokazuje to dosyć wyraźnie przykład &bdquo;złośliwej&rdquo; aplikacji ze strony <a href=http://www.pretentiousname.com/misc/win7_uac_whitelist2.html>&bdquo;Windows 7 UAC whitelist&rdquo;</a>, która potrafi podnieść uprawnienia aplikacji bez ostrzeżenia ze strony Windows. Co gorsze, okna z aplikacjami uruchomionymi z uprawnieniami administratora nie są w żaden sposób oznaczane na pulpicie ani w standardowym Menedżerze zadań.</p>
+
+<p align=justify>Można również dosyć mocno utrudnić życie użytkownikom systemu w domyślnej konfiguracji (raczej na pewno będzie on wymagać reinstalacji) wykonując trzy bardzo proste kroki:</p>
+
+<ol>
+
+    <li><div align=justify>włączenie poziomu UAC na najwyższy</div></li>
+    <li><div align=justify>ustawienie typu uruchomienia usługi systemowej &bdquo;Informacje o aplikacji&rdquo; (&bdquo;Application Information&rdquo;) na &bdquo;Wyłączony&rdquo; (&bdquo;Disabled&rdquo;)</div></li>
+    <li><div align=justify>zrestartowanie systemu</div></li>
+
+</ol>
+
+<p align=justify>Od tej chwili każda bardziej skomplikowana operacja w systemie wymagająca UAC (typu instalacja aplikacji czy zmiana różnych ustawień) po prostu nie będzie działać, problemem będzie również ponowne włączenie wspomnianej usługi (dla porównania - w starszych Windows wyłączanie wszystkich krytycznych usług było blokowane w systemie &bdquo;z pudełka&rdquo;).</p>
+
+<p align=justify>7 w domyślnej konfiguracji nie pokazuje rozszerzeń plików (co w przeszłości bywało powodem różnych problemów), aplikacje systemowe (jak Eksplorator) w ogóle nie wyświetlają we właściwy sposób wielkości plików na partycjach NTFS (jeśli plik zawiera dane w tzw. <a href=?q=node/111#2>alternatywnych strumieniach</a>, informacja o nich nie jest w ogóle uwzględniana, co może być wykorzystywane np. przez złośliwy kod do ukrywania się).</p>
+
+<p align=justify>Pozytywna jest natomiast obecność darmowego Windows Defendera (przy czym trzeba też zauważyć, iż przy innej architekturze Windows byłby on niepotrzebny i nie zajmowałby zasobów systemowych) albo fabrycznie obecne w Panelu Sterowania opcje do konfiguracji tzw. autoodtwarzania płyt CD/DVD. Cieszy także duża ilość sterowników w Windows Update - spowoduje, iż na wielu komputerach nie będziemy mieli starych wersji ze znanymi dziurami i błędami.</p>
+
+<p align=justify>Ogólnie podsumuję krótko: jest dobrze, ale powinno być jeszcze lepiej...</p>
+
+<h1>Podsumowanie</h1>
+
+<p align=justify>Zacznę od analogii: na rynku mobilnym przez wiele lat bardzo mocnymi graczami był system Symbian i Windows Mobile/Phone. Mocno krytykowane, ale obecne w milionach urządzeń. Obecnie tracą rynek. Pojawił się bowiem iPhone oraz różne odmiany Linuxa (Android, Maemo, OpenMoko, itp.) skonstruowane w oparciu o zupełnie inne założenia. Jedyną odpowiedzią Microsoftu jest w tej chwili nie do końca udany Windows Mobile/Phone 6.5, a Nokia zaczyna się coraz bardziej interesować rozwojem Maemo...</p>
+
+<p align=justify>Przypuszczam, iż podobnie może być z systemem Windows. Pojawia się wiele technologicznie bardziej dopracowanych rozwiązań (Linux, MacOS, etc.), użytkownicy nie do końca są również zainteresowani wielkimi monolitycznymi systemami operacyjnymi i zaczynają preferować pełną mobilność, gry na konsolach czy pracę z przeglądarek www.</p>
+
+<p align=justify><strong>7 wnosi sporo bardzo widocznych i naprawdę korzystnych zmian chociażby w interfejsie, ale nie jest w stanie ukryć problemów platformy Windows. Moim zdaniem brakuje w nim miażdżącego efektu &bdquo;wow&rdquo;, który popchnąłby użytkowników do przesiadki na niego. </strong></p>
+
+<p align=justify>Kto może więc być zainteresowany nowym systemem ? Na pewno entuzjaści, programiści i wszyscy ci, którzy muszą korzystać z Windows, ale nie mogą/nie chcą używać Windows XP (np. są nim zwyczajnie znudzeni albo nie mają licencji czy sterowników)</p>
+<p>Czy będziemy obserwować masową i natychmiastową migrację na nowy system w firmach ? Chyba też niekoniecznie.</p>
+
+<p align=justify>Czyli jak ? Góra urodziła mysz ?</p>
+
+<p><span style="color: rgb(0, 0, 255);"><strong>PLUSY</strong></span></p>
+<ul>
+    <li><span style="color: rgb(0, 0, 255);"><strong>Wiele interesujących rozwiązań w interfejsie</strong></span></li>
+    <li><span style="color: rgb(0, 0, 255);"><strong>Zgodność z różnymi aplikacjami</strong></span></li>
+
+</ul>
+<p><strong><span style="color: rgb(255, 0, 0);">MINUSY</span></strong><span style="color: rgb(255, 0, 0);"><br />
+</span></p>
+<ul>
+    <li><span style="color: rgb(255, 0, 0);"><strong>Usterki w zabezpieczeniach</strong></span></li>
+    <li><span style="color: rgb(255, 0, 0);"><strong>Wykorzystanie przestarzałych rozwiązań</strong></span></li>
+    <li><span style="color: rgb(255, 0, 0);"><strong>Konieczność zmiany przyzwyczajeń użytkowników</strong></span></li>
+</ul>

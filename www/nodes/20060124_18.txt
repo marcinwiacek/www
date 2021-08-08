@@ -1,0 +1,12 @@
+﻿Title:What is &quot;PHONE FIRMWARE&quot;? 
+Author:marcin
+When:24 Jan 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p>'''Firmware''' is the phone's ''operating system'', the program which allows the phone to work.</p>
+<p>A mobile phone is really just a computer which can handle voice communications between two (or more) users, and - just like any other computer - it needs programs to work. This is called the ''firmware''.</p>
+<!--break-->
+<p>Firmware is a special kind of software, half way between ''hardware'' (the physical, electronic part of the computer), and ''software'', (the programs which allow the hardware to work); the firmware is a kind of software "fixed" in the hardware. It cannot be modified by users - at least, not by "normal" users.</p>
+<p>Actually, it ''is'' possible to modify the firmware, to upgrade it to newest releases, but it requires a technical skill which not all people have. Usually, only the phone manufacturer can upgrade the firmware, using special devices. So, if you want to upgrade your firmware, you should take your phone to your dealer, and wait for them to give the phone to the manufacturer. Often after "months" ;-)))), they will give you back your phone, upgraded, and your wallet, without a couple of $20 banknotes...</p>
+<p>''But'', it is also possible to do all this mess by yourself: you can find the required hardware on the internet - a Flasher Device (which could often cost ''more than'' $40!), a flasher program, and the latest release of the firmware, which is copyrighted by the phone manufacturer, and so ''couldn't'' be distributed on the Net....</p>
+<p>On the Gammu site you can find a lot of info about Mobile Phone Firmware, but ''nothing'' about flashing. To find this information, you should use a search engine, using keywords like "flasher", "firmware", "upgrade", "mobile phone" etc.</p>

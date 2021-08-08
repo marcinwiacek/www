@@ -1,0 +1,21 @@
+﻿Title:Piekiełko
+Author:marcin
+When:17 Apr 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><i>Tak mnie przy lunchu przyszła myśl niespodziewanie, żeby zrobić to poniższe tygodnia podsumowanie...</i></p>
+<!--break-->
+<p>Jeszcze żałoba się nie skończyła,<br />
+a Polska znowu się podzieliła.<br />
+Krzyczą ci, co na Krakowskim nie byli<br />
+i tego uczucia żalu nie doświadczyli.<br />
+Krzyczą ci, co chcą siebie wykreować,<br />
+coś wykrzyczeć i coś napiętnować.<br />
+Krzyczą Ci, co za Prezydentem stali<br />
+i jego dobrego imienia pilnowali.<br />
+Polskiego piekiełka przykład niestety mamy,<br />
+sami żeśmy niewarci, a drugiemu nie damy.<br />
+Skończmy z tym, bo świat się uśmiecha i dziwi,<br />
+jak to Polacy z zewnątrz są obłudni i fałszywi.</p>

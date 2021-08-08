@@ -1,0 +1,84 @@
+﻿Title:PC A.D. 2012, czyli o czym trzeba mieć świadomość... (2012)
+Author:marcin
+When:15 Jan 2012
+Taxonomy:Polski,Polski artykuł,OS,Windows,Windows 7,x86,NTFS
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Dostępna jest już <a href=?q=node/189>nowsza wersja tekstu</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"> 
+
+
+<p>Od czasu do czasu zdarza mi się pomagać znajomym w procedurze wyborze nowego komputera. Pomyślałem, że warto zebrać kilka (tendencyjnych ?) uwag dotyczących aktualnie dostępnego sprzętu przenośnego (a dokładniej notebooków) i zrobić skrótowy przegląd pewnych rozwiązań.<br>
+<!--break-->
+<p><span style="font-weight: bold;">Ekrany</span><br>
+<p>Dawno, dawno temu używano specjalnych monitorów z kineskopem (CRT) lub w tańszej wersji zwyczajnych telewizorów. Emitowały one różnego rodzaju promieniowanie, miały do tego zazwyczaj niską rozdzielczość i niestety najczęściej wyświetlany przez nie obraz nie był zbyt mocno stabilny (zdarzało się różnego migotanie czy drganie).
+<p>Wady te przynajmniej częściowo eliminowano - przez pewien czas używano np. zewnętrznych filtrów (niektóre z nich były reklamowane chwytliwym hasłem "Oczy nie włosy, nie odrosną"), z czasem udoskonalono również same monitory tak, że te mogły obsługiwac coraz większe rozdzielczości oraz częstotliwości odświeżania obrazu. Szczególnie ta druga właściwość była ważna - przy najniższej 60 Hz oczy wielu użytkowników były zwyczajnie zmęczone migotaniem, przy wyższych nie było to tak mocno widoczne.
+<p>Następnie pojawiły się monitory w technologii LCD. Te nie emitowały promieniowania, ale (szczególnie w pierwszych modelach) generowały nie do końca stabilny obraz (wykorzystywano połączenie kablami analogowymi i ciężko było dostroić odpowiednie parametry). Ich wadą było również tzw. smużenie, czyli widoczny przez chwilę ślad po zmianie obrazu (co było uciążliwe np. przy wyświetlaniu filmów).
+<p>Monitory poprawiano, technologię LCD zastosowano również w notebookach. Tu niestety w wielu modelach wykorzystywano i wykorzystuje się matryce gorszej jakości, producenci też nie zawsze podają wykorzystywane modele (poza ogólnikową informacją o wielkości lub rozdzielczości). Żeby nie było łatwo, matryce lepsze (np. wykonane w technologii IPS) mają również swoje wady (np. konieczność wygrzania przed kalibracją kolorów).
+<p>Kolejnym problemem może być fakt większej dostępności matryc lustrzanych (glare, BrightView, itd.), matowe (non-glare) z reguły są dostępne w droższych modelach lub seriach biznesowych.
+<p>Inne kwestie wiążą się z podświetleniem - jeszcze jakiś czas temu ekrany LCD podświetlane były świetlówkami (tzw. CCFL), obecnie wykorzystuje się diody LED. W przypadku tych ostatnich mamy kilka zalet, ale często pojawia się problem związany z mruganiem obrazu. Obrazuje to znakomicie poniższy filmik z YouTube - dla części użytkowników pokazany efekt może być odczuwalny (niekoniecznie natomiast mocno widoczny gołym okiem, a można udowodnić jego istnienie aparatem cyfrowym):
+<p><object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/ru474L8N15w?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/ru474L8N15w?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360"></object>
+<p>Kolejnym parametrem, na którą trzeba zwrócić uwagę, są proporcje obrazu. Tu właściwie nie ma wyboru: notebooków z ekranami 4:3 już nie ma, wybór jest jedynie pomiędzy 16:10 i 16:9 (16:9 wychodzą z użycia, więc trzeba się spieszyć z zakupem komputera chcąc posiadać jedną z nich).
+<p>I wreszcie ostatnia sprawa czyli rozdzielczość - temat stary jak świat: niestety ale obraz na LCD jest pokazywany "ostro" jedynie w maksymalnej rozdzielczości. Stąd najczęściej im więcej, tym lepiej (skalowanie w nowoczesnych systemach operacyjnych jest coraz lepsze i coraz częściej daje się wszystko poustawiać tak aby było odpowiedniej wielkości)
+
+<p><span style="font-weight: bold;">Skalowanie obrazu</span><br>
+<p>Systemem najczęściej dołączanym jest obecnie Windows 7. Może nie zawsze tak dobry jak Windows XP (nie oszukujmy się...), ale wersja 64-bit jest jedynym sensownym wyborem przy konfiguracjach mających ponad 4 GB RAM.
+
+<p>Opcje dotyczące skalowania można znaleźć w Control Panel w Display (Set custom text size (DPI)).
+<p>Pewne większe problemy sprawia tutaj obecne Ubuntu, ale też można sobie z nim poradzić :)
+<p><span style="font-weight: bold;"> Czcionki</span>
+<p>Windows 7 potrafi wyświetlać czcionki korzystając z jeden z trzech technologii: Bi-level, Font Smoothing, ClearType (szerzej opisuje je <a href=http://blogs.msdn.com/b/e7/archive/2009/06/23/engineering-changes-to-cleartype-in-windows-7.aspx>wpis na blogu Windows 7</a>). Aby je włączyć, należy:<br>
+    <ol>
+      <li>Bi-level: otworzyć Control Panel, wybrać ikonę "System and Security", wybrać ikonę "System", kliknąć odnośnik "Advanced System Settings", przejść do zakładki "Advanced", kliknąć "Settings..." przy "Performance", odznaczyć "Smooth edges of screen fonts"</li>
+      <li>Font Smoothing: należy wyłączyć Bi-level (opcja "Smooth edges of screen fonts" z punktu 1 zaznaczona), następnie otworzyć Control Panel, wybrać ikonę "Display", kliknąć odnośnik "Adjust ClearType text", odznaczyć "Turn on ClearType", kliknąć przycisk "Next"</li>
+      <li>ClearType: należy wyłączyć Bi-level (opcja "Smooth edges of screen fonts" z punktu 1 zaznaczona), następnie otworzyć Control Panel, wybrać ikonę "Display", kliknąć odnośnik "Adjust ClearType text", zaznaczyć "Turn on ClearType", kliknąć przycisk "Next", wybrać odpowiednie proponowane opcje i zamknąć kreatora</li>
+    </ol>
+    <p>Niestety nawet wtedy system może nie spełniać wymagań wszystkich użytkowników (którzy właśnie przesiedli się z Windows XP) i teksty  mogą być "nieostre". Powodem może być używanie czcionki z rodziny "Segoe UI" zamiast "Tahoma". Aby to zmienić, należy w kluczu Rejestru HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts usunąć wartości z wpisów:
+
+    <p style="font-style: italic;">"Segoe UI (TrueType)"="segoeui.ttf"<br>
+      "Segoe UI Bold (TrueType)"="segoeuib.ttf"<br>
+      "Segoe UI Italic (TrueType)"="segoeuii.ttf"<br>
+      "Segoe UI Bold Italic (TrueType)"="segoeuiz.ttf"<br>
+      "Segoe UI Semibold (TrueType)"="seguisb.ttf"<br>
+      "Segoe UI Light (TrueType)"="segoeuil.ttf"<br>
+      "Segoe UI Symbol (TrueType)"="seguisym.ttf"</p>
+    <p>a następnie w kluczu HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes dodać wpis <span style="font-style: italic;">"Segoe UI" = "Tahoma"</span>.
+
+    <p>Kolejną możliwą przyczyną jest problem z wyborem właściwych ustawień ClearType - Windows 7 zawiera wprawdzie odpowiedni kreator w Control Panel, ale lepszy może być <a href=http://www.microsoft.com/typography/ClearTypePowerToy.msp>dodatek napisany dla Windows XP w ramach pakietu PowerToys</a>. Należy go zainstalować i uruchamiać wybierając opcję "Run program" w okienku "Program Compatibility Wizard"
+
+    <p>Gdy i nie pomoże, należałoby wyłączyć style graficzne w oknach. Stracimy wtedy wprawdzie dużo efektów graficznych (np. przezroczystość tytułów okien, miniatury na pasku zadań, mogą się pojawiać artefakty na pasku zadań), ale system wtedy rzeczywiście będzie generował obraz podobny jak "stary" Windows XP. Aby to uczynić, należy otworzyć Control Panel, wybrać ikonę "System and Security", wybrać ikonę "System", kliknąć odnośnik "Advanced System Settings", przejść do zakładki "Advanced", kliknąć "Settings..." przy "Performance", odznaczyć "Use visual styles on windows and buttons". 
+<p><span style="font-weight: bold;">Głośność i chłodzenie</span><br>
+<p>Tu niestety niewiele się zmieniło od wielu lat - dosyć nagminnie zdarzają się konstrukcje, które generują irytujące dźwięki. Żeby było gorzej, nowe modele bywają gorsze niż starsze (przykładem może Asus G74SX, który wykazuje się zdecydowanie gorszą kulturą pracy niż G73SW - co widać chociażby <a href=http://www.notebookcheck.pl/>na notebookcheck.pl</a>).
+<p>Chłodzenie powinno być nie tylko ciche, ale również wydajne. I znów tu można mieć problem - w różnych notebookach dochodzi czasem wręcz do awaryjnego zwalniania pracy przegrzewających się podzespołów (np. widoczny jest tzw. throttling procesorów). Przykłady można mnożyć nawet w konstrukcjach z górnej półki.
+<p>Podobnie w niektórych modelach operacja przeczyszczenia wiatraka i otworów wentylacyjnych z kurzu wiąże się z rozebraniem praktycznie całego komputera.
+
+<p>Tutaj jedyną radą jest studiowanie recenzji notebooków (np. <a href=http://www.notebookcheck.pl>na notebookcheck.pl</a>) oraz ich instrukcji serwisowych (które pokazują, jak stonstruowano odpowiednie podzespoły), najlepsze mogą być konstrukcje z dwoma ciepłowodami i dwoma oddzielnymi wiatrakami - jednym dla procesora, jednym dla karty graficznej.
+<p>Oprócz problemów z układem chłodzenia można napotkać na buczenie wynikające z zastosowania szybkoobrotowego dysku 7200 obrotów/minutę. Tu niestety ciężko jest coś zrobić (poza wymianą dysku), można próbować z tym walczyć stawiając komputer np. na podkładkach gumowych takich jak uszczelki hydrauliczne (to działa :)).
+<p><span style="font-weight: bold;"> Procesory</span>
+
+<p>Warto wybrać jak najnowszą konstrukcję Intela (obecnie coś z rodziny Intel Core i5 lub i7 czyli układy o kodowej nazwie<b> "</b>Sandy Bridge", w 2012 pojawi się nowa rodzina o kodowej nazwie "Ivy Bridge"). Oferują one bardzo ciekawą i przydatną funkcjonalność, czyli automatyczną (sprzętową) możliwość zwiększania swojej prędkości w zależności od obciążenia (technologia Turbo Boost w wersji 2.0).
+
+<p>Układy Intela z rodziny Core i3 nie posiadają podobnej możliwości, po zakupie urządzenia warto sprawdzić jej faktyczne działanie np. programem HWiINFO (zdarza się, że konieczna jest aktualizacja BIOS).
+
+<p>Droższe układy posiadają także hyperthreading - oddzielny logiczny rdzeń procesora jest realizowany w ramach fizycznego (najczęściej  działa to szybciej niż przy braku tego rozwiązania, ale wolniej niż przy dwóch rdzeniach fizycznych). Przy wyborze danego układu warto zatem zawsze obejrzeć specyfikacje producenta lub spojrzeć w rankingi (<a href=http://www.notebookcheck.pl/Mobilne-procesory-rozpiska-osiagow.4344.0.html>jak       ten</a>).
+
+<p><span style="font-weight: bold;">Karty graficzne</span>
+
+<p>Obecnie tendencją jest łączenie zaintegrowanych kart graficznych z procesorami - nie są zasadniczo tak szybkie jak oddzielne konstrukcje, ale zużywają mniej energii, co przekłada się na dłuższą    pracę na baterii i wydzielanie mniejszej ilości ciepła.
+<p>Coraz częstszym rozwiązaniem jest również technologia Optimus - komputer posiada kartę graficzną zintegrowaną oraz drugą oddzielną    NVdii, przełączanie między nimi odbywa się w sposób automatyczny    (działa to obecnie w Windows 7). Pozwala to również generować mniej   ciepła i wydłuża czas pracy na baterii.
+
+<p>Zdarzają się rozwiązania, gdzie przy pracy bateryjnej obniżane są    częstotliwości taktowania karty graficznej (np. Dell M6600).
+
+<p>Zdecydowanie polecam zawsze poszukanie recenzji danego modelu lub    przejrzenie rankingów (<a href=http://www.notebookcheck.pl/Mobilne-karty-graficzne-rozpiska-osiagow.1174.0.html>jak      ten</a>).
+
+<p><span style="font-weight: bold;">Zakup i przetestowanie</span>
+
+<p>W chwili obecnej cło i podatek nie jest doliczany przy imporcie    sprzęt z obszaru Unii Europejskiej, możliwy jest zakup sprzętu np. z    Wielkiej Brytanii (dosyć dużą popularnością cieszy się np. tamtejszy outleet Della).
+
+<p>W przypadku urządzeń z Polski zakupionych na odległość generalnie    obowiązuje 10 dniowy okres zwrotu. Jest to regulowane prawnie i    obarczone różnymi obostrzeniami (np. brak śladów użytkowania, nie    dotyczy aukcji z licytacją, itd.), kwestią dyskusyjną bywa zazwyczaj    zwrot kosztów wysyłki towaru...
+
+<p><span style="font-weight: bold;"> Podsumowanie</span>
+
+<p>Moim zdaniem PC będą królować na rynku jeszcze przez wiele lat, nowe   konstrukcje są niewątpliwie bardzo interesujące. 
+
+<p>Należy jednak zwrócić uwagę na obecność archaizmów takich jak    chociażby dodawanie zainstalowanego systemu operacyjnego z partycją    recovery (tworzy to problemy np. związane z podziałem dysku na    partycje z uwagi na obecność MFT na środku partycji - konieczne jest    używanie programów takich jak PerfectDisk aby móc skorzystać z opcji Settings -&gt; Control Panel -&gt; Administrative Tools    -&gt; Computer Management -&gt; Storage -&gt; Disk Management -&gt;    Shrink Volume) czy nieatrakcyjne możliwości dołączanego    oprogramowania (np. w przypadku Office 2010 Starter wymagane jest stworzenie    na jego potrzeby niedostępnego dla użytkowników dysku Q:).
+<p>Niewygoda części z nich może powodować poszukiwanie przez    użytkowników alternatyw tak jak się stało w przypadku BlueRay    ("zabezpieczenia" i ograniczenia dostępnych systemów plików w    zakresie długości nazw plików czy ilości poziomów zagłębienia    katalogów nie dodały temu rozwiązaniu popularności).

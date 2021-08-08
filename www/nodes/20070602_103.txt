@@ -1,0 +1,311 @@
+﻿Title:nx6325 (2007)
+Author:marcin
+When:02 Jun 2007
+Taxonomy:English,x86,English article
+
+<p><i>Page moved from the gammu.org... Page was updated by me before June 2007 and later updated by other people on the gammu.org (I have marked it here by italic). <b>This is rather in IRC or blog blog than article - you have been warned ;)</b></i></p>
+<p>Currently new/used notebooks are cheaper and cheaper. If you want something for development, something 64 bit capable, you can consider the HP NX6325. We will describe problems with this family of notebooks here and give all kinds of possible tips...</p>
+<h1>Buying</h1>
+<!--break-->
+<p>In many countries you will have problems with buying an own config. <font color="red">You can't buy for example more powerful CPU without HP Windows. Why?</font></p>
+<p>If notebook is dead just after receiving from shop, you should call support and open a Dead-On-Arrival case. See <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1064111">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a></p>
+<h1>AMD CPU against Intel CPU</h1>
+<p>Turion X2 is maybe hotter (but it's the truth too, that HP made a lot of work and cooling system isn't bad) and <i>maybe</i> a little slower than comparable Intel CPUs, but it has got more popular instruction sets. Hardware virtualization could be probably disabled with correct BIOS too like with Intel CPUs (currently with BIOS F07 is permanently enabled).</p>
+<h1>other hardware design issues</h1>
+<p>This section is a list of issues with the hardware, and descriptions of how it should have been.</p>
+<ul><li>Pressing volume keys should change sound settings even without drivers (should be done hardware or by BIOS)
+</li><li>Although it's difficult to find an optimal place for components, HP should think about moving the loud <i>(??IF ITS LOUD THERES SOMETHING WRONG!)</i> HDD to the back (it's up front now) <i>(90% of all HP notebooks have its hdd situated at the front end and has caused no problems,so this point is absolutely pointless...)!!</i>
+</li><li>Optical drive should be more easier to replace (user should be able to exchange it to battery/FDD etc. like in older models - it was called MultiBay or something) <i>Klaus: Read the instructions! It's sooooooo easy to replace!</i>
+</li><li>The 2 USB ports shouldn't be located in the same place - one above another (you can't put two bigger devices without additional cables) <i>Klaus: There are 3 USB ports available - two on the left, one on the right side. Simply plug the "bigger device" into the USB port on the right side... And just FYI,even on a desktop,despite the fact that it has much more usb points,usb points are situated on top of each other,this is notebook,not desktop,what do you want to plug that's so big? If it bothers,get a docking station!</i>
+</li><li>You can't put headphones with a big plug, because the notebook case is not straight in this place. <i>80.126.49.40: the notebook's design has room for a MINI-jackplug (3.5 millimetres).</i>
+</li><li>There are two (doubled) power LEDs, two (doubled) Wireless LEDs... cut off LEDs with buttons and...
+<ul><li>Instead of one wireless LED (on front like now) should be two - one for BT, one for Wifi <i>(What a waste,1 does the trick,if you dont know how to check which is on,you should probably not be using a pc @ all....)</i>
+</li><li>Instead of one drive LED (on front like now) should be two - one for HDD, one for optical drive <i>(Again it will be a waste...)</i>
+</li></ul></li><li>I don't see any method of disabling touchpad with FN key (like in older models)
+</li><li>Why there are various screws used instead of one universal ? (to make replacements more difficult and getting more profits from selling parts ?) <i>(Noooo.....cause one size cant fit all.... one must hold only a cover where as the next the keyboard....one universal ? hehehe....you crack me up)</i>
+</li><li>There should be used digital VGA connector (DVI) <i>no....Digital Visual Interface and Video Graphics Array not quite the same thing is it?lol....digital vga....lol...lol...instead of analog (was analog used to force users to replace this notebook fast to new ? <i>80.126.49.40: No, DVI is a faster port, thus making it generate more heat,[lol..more heat..], and that's not something you'd want in a notebook.[who ever came up with this point is the only thing i dont want with or near my notebook]</i>  Marcin: yes and that's why it could be the most optimal to give user ability to disable it, when not used (I quess, that majority doesn't use it all the time...)
+<li>In HDD drive cover you could put more OEM stickers, but HP didn't allow for it... <i>OEM stickers for what....???? ONE OS....more than one oem sticker....lol....</i>
+</li><li><font color="red">Don't close optical drive (at least LG) too fast/too hard <i>[like anything in life]</i> - it can stop to respond (don't start CD/DVD, don't open). Try to use Eject in Windows/restart notebook/disable and enable notebook. If not help, use emergency <i>(LOL..emergency..doctor doctor my optical is not working...lol)</i> open method. It seems to be optical drive design issue - <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1070444">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1070444</a></font>
+</li><li>Sometimes during running some programs (like some specific documents in Acrobat Reader) on battery you can hear a "biipsss" sound from the mainboard parts... sometimes it's when reading SD card in the card reader... <i>(switch of your walky talky and try gain homes...)</i>
+</li><li>When switching from battery to AC (and vice versa) the notebook seems to disable parts for a small moment (about half a second). <i>80.126.49.40:Why? Because Windows detects the 'power-switch' and needs to set the OS in 'full-mode', thus disabling it's evergy-saving mode while on AC-power. And vice versa.</i> Marcin: first, it wasn't done this way in older HP, second, we don't know from manuals, if notebook loose some info from RAM or something similiar (in other words: if this is hadrware problem or not) <i>[NOOOOOO&gt;&gt;&gt;&gt;&gt;&gt;ITS BECAUSE YOU ARE USING A DIFFERENT HARDWARE PROFILE...THATS NOT THE LAPTOP,THATS THE OS......CALL MICROSOFT IF YOU DONT LIKE THAT]</i>
+</li><li>You can't block BIOS upgrade with a switch or something (ie. Read-only). <i>80.126.49.40: Which notebook can, and WHY would you want to do that?</i> Marcin: some desktop MB allow(ed) for blocking BIOS upgrade. It's the matter of time, when we will have viruses for BIOS... <i>A MATTER OF TIME...HMMM..... Klaus: You can disable it in the BIOS Setup</i>
+</li><li>at least some people report, that battery looses fast capacity.. <i>HMMM,ALL BATERIES WHEN USED LOOSES CAPACITY.....</i>
+</li><li>Bios includes a whitelist (with PCI-IDs) which prevents changing the WLAN PCI-Express Card to a card not enabled by HP. <i>AND THE PROBLEM IS....?</i>
+</li></i></li></ul><h1>BIOS</h1>
+<p>NOTE: some people report about failed BIOS upgrades. Read here ( <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1062484">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a> ), how can you try to "repair" notebook after such one...</p>
+<p>NOTE: if notebook ask for password on reboot with disabled "required on reboot" option, disable password at all, do reboot, disable notebook, enable, set password again</p>
+<p><u><b>F07</b></u></p>
+<ul><li>according to HP:
+<ul><li>"Updates the Microcode to provide support for AMD processors."
+</li></ul></li></ul><p><u><b>F06</b></u></p>
+<ul><li>according to HP:
+<ul><li>"Adds support for Microsoft Windows Vista OS." (see <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1095622">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a>)
+</li></ul></li></ul><p><u><b>F04</b></u></p>
+<ul><li>according to HP:
+<ul><li>"Corrects issue where the notebook stops responding (locks up) during restart when an IEEE 1394 (FireWire) hard drive is connected. "
+</li><li>"Adds Hard Drive Translation Mode option in the Setup utility (F10), which enables users to select either Bit-shift mode or LBA-assisted mode."
+</li></ul></li><li><font color="red">TPM works again</font>
+</li></ul><p>issues from F02 not checked yet (if were fixed or not)</p>
+<p><u><b>F02</b></u></p>
+<ul><li>according to HP "Fixes issue where some 16-bit PCMCIA cards are not properly recognized by the Device Manager.",
+</li><li>but it's tested and confirmed, that it disables TPM at all (F00 was OK here) for some PN (for example EY349EA), but for some (for example EY351EA) not. HP USA received info about it somewhere in first September days and ignored (because unit is outside USA) and HP Poland received info 16 October... During this time HP even added 3rd F02 image (although it's buggy) to www...
+</li></ul><p>Other known issues:</p>
+<ul><li>if you set "CD-ROM boot" to Disabled, you have notebook optical drive option in Boot Menu (F9)
+</li><li>you can't press F9 (Boot menu) from external USB keyboard
+</li><li>notebook enable Ethernet connection on notebook start (at least you have green light in connector)
+</li><li>(this can be MS issue, but BIOS too) if you have USB keyboard/mouse, resume Windows from hibernation and start to move external USB mouse before reinitialising these USB devices (flashing NumLock, CapsLock and ScrollLock), sometimes notebook will work like with pressed key (random key) all the time and/or like with pressed mouse button all the time. Pressing Num lock resolves it the most often.
+</li><li>BIOS quick HDD test seems to have bugs - sometimes show errors (in the same time all WIndows software for testing HDDs/reading SMART show, that everything is OK)
+</li></ul><p><u><b>F00</b></u></p>
+<p>Initial release. Seems to have ACPI problems.</p>
+<h1>manuals</h1>
+<p>manuals, how to change RAM, HDD, what are parts numbers...</p>
+<p><a href="http://h20000.www2.hp.com/bizsupport/TechSupport/DocumentIndex.jsp?contentType=SupportManual&amp;lang=en&amp;cc=us&amp;docIndexId=179111&amp;taskId=101&amp;prodTypeId=321957&amp;prodSeriesId=3200070">http://h20000.www2.hp.com/bizsupport/TechSupport/DocumentIndex.jsp?conte...</a></p>
+<p><font color="red">Note: service manual contains info about BIOS options unavailable in this series !</font></p>
+<h1>BLUETOOTH</h1>
+<p><i>BLUETOOTH.. Easy to add cable already inside laptop just need to get internal dongle(make sure its a version 2 model as these do faster transfer speeds upto 3mb :)and it fits into the corner of the battery bay when battery removed. HP even give you Widcomm 4 Bluetooth software in C:\SWsetup.But make sure you load software before fitting dongle or windows will load its own version of bluetooth which is poo.</i></p>
+<h1>docking station issues</h1>
+<h2>second monitor</h2>
+<p>from <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1106325:">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a></p>
+<p>"In theory &amp; by design, the output of the RGB signals could NOT drive two different 75 ohm devices at the same time. There are a switch inside the nx6325 to disable the output to the internal VGA port once you docked your nx6325.</p>
+<p>Therefore, you can only able to see the image via a CRT connected to your docking station.</p>
+<p>Graphics Driver from HP or ATI can not over-ride the hardware limitation to force the RGB signals to come out to your internal VGA port and also the VGA port in the docking station."</p>
+<h2>flashing display during connection</h2>
+<p><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1119520">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a></p>
+<p><i>Jan 2009 : HP 3 in 1 NAS Docking Station ,BIOS F07, works both internal LCD on Lappy and external 19" screen,plus if Docking Station is connected via LAN to your router you can access the 160GB hard drive via wireless on lappy on MSHOME ,from anywhere in house : ) What a brilliant idea from HP.</i></p>
+<h2>serial port</h2>
+<p>According to HP support it will be visible as device in Windows only, when notebook is connected to docking station...</p>
+<p><i>- On my 3-in-1 NAS Dockingstation the COM1 Port is visible as usual. But with my Polar IR Interface (hear rate monitor) it is not working. ;-(</i></p>
+<h2>DVI</h2>
+<p>from <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1065796:">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a></p>
+<p>"There are no DVI signals connected to the Docking Connector in this series of notebook.<br />
+Therefore even your Docking Station is equipped with DVI connector, you will not able to use it if you dock your nx6325. It has nothing to do with the version of your System BIOS ( either F.00 or F.02 )."</p>
+<p><i>----BIOS version F07 sorts this problem as my NX6325 works flawlessly on Dock with the DVI port. I am using the NAS 3in1 Advanced Docking Station and would recommend it as long as dock is plugged into router via LAN I can access it from my NX on wireless anywhere in the house,giving me another 160GB of storage on its internal drive thats safe and not part of Lappy :)I can even share it on MSHOME with the rest of the family....Pukka.</i></p>
+<h1>upgrading CPU</h1>
+<p>moved from Nx6325|Talk (based on some user experience):</p>
+<p><i>"- Is it possible to upgrade the processor in this line of notebooks? Specifically going from Sempron to Turion is what I was wondering about. Theoretically it should be, as both have the same socket, the chipset (1150) is capable of handling the Turion and the Sempron is also 64-bit enabled, however HP might have locked the option (I seriously doubt that they actually manufacture more than one type of motherboard for the family) somehow in the BIOS. Anyone has any experiences with this?</i></p>
+<p><i>- I didn't have, but I suggest to look into service manual. AFAIR, it doesn't speak about motherboards differences...</i></p>
+<p><i>- Thanks for the help anyway. I will risk the upgrade as soon as I can buy Vista and keep you updated with my results. By the way, two Nanya Technology's NT1GT64U8HA0BN-3Cs seem to work perfectly in dual channel.</i></p>
+<p><i>- I have done the upgrade. To my huge surprise, I swapped the processors and that was about it. Vista booted up alright (albeit the 32bit version, which is even more surprising) and i'm writing this now from a TL-60 instead of Sempron 3200+. Wow. "</i></p>
+<p><i>- I have also sucessfully upgraded the old Sempron 3500+ to the Turion 64 X2 Dual Core TL-56 1.8GHz<br />
+Pop off the keyboard, then remove the heatsink. Clean off the old heatpads/compound from processor, chipset and heatsink. I RECOMMEND USING A HIGH QUALITY COMPOUND AS A REPLACEMENT FOR THE EXTRA HEAT! (Arctic Silver will do nicely) Stick the new processor in, new heat compound on everything, heatsink back on. Boots up straight back to windows after telling you its detected hardware changes. No problems at all. It does run a little hotter than before, but nothing major. UPDATE: After over 6 months of using the hotter running X2 i'm still not having any major heat issues. The fan is on a lot more but no problems!<br />
+_Upgrade CPU</i></p>
+<p><i>- 01/2009  NX6325 just Upgraded from an AMD Sempron 3500+ to a Turion 64 X2 Dual Core TL-66 2.13Ghz , also running 100GB 7,200 rpm Hard drive and 2x1GB RAM ( Corsair Value RAM ),XP SP2 and 32bit WOW :) Blinding boot speeds and now runs 2 or 3 apps at once with no hesitation, pukka.Follow the directions above ,Remove keybooard and heatsink/fan (removed a chunk of fluff built up inside fan/heatsink assembly!!) and reeboted Lappy...MAX of 15 mins :)<br />
+Windows loaded fine and found new hardware auto-loaded "AmdPPM.sys" and asked to reeboot,I checked Device Manager and TL-66 was there Pukka !!Reeboot and ......SHIT loads of digits and numbers scrolling up screen just after post :( Undetered I got my BackUp drive out slapped it in and reebooted windows fine again,Windows does the same and loads AmdPPM.sys and we get "THE MATRIX" on reeboot again..So using a USB/Hard drive caddy and another PC i removed AmdPPM.sys and all went fine.(Didn't try SAFE MODE - could probably have done it that way ?? )<br />
+But I wasn't happy with this file not working so...I formatted and reloaded XP Pro (Note : NOT HP XP Pro) and then SP2 all went brilliant and was noticeably faster at doing the whole process, took the "AMD Windows Update-AmdPPM.sys" and it loaded fine?? Can't understand why I had these issues as I am and was running the newest Motherboard and Chipset drivers and BIOS F07, I was also using the 2008 ATI 1150 drivers ( Not OLD HP drivers) on one of the drives which were made 6 months apart, and I am running them now as I write,I've had this CPU in for 6 weeks now and WOW, glad I perseverred to make it work , and seems to be running cooler in normal apps ?? Could be down to fluff removal not sure but definitely not running too hot :) A VERY RECOMMENDED MOD got my CPU off Ebay for £70 to the door ,well worth it.</i></p>
+<p><i>- I just upgraded from an AMD Sempron 3500+ to a Turion 64 X2 Dual Core TL-58 1.9Ghz , a little artic silver paste and all running sweet.</i></p>
+<p><i>- I have done two upgrades - firstly from Sempron 3500+ to Turion TL-56 (worth mentioning - it had a G2 core revision and there were no compatibility problems) and worked much better (Windows Experience Index reached 4.3). After few months I upgraded it for the second time, to TL-66, and now it works really fast (WEI = 4.9). What is worth mentioning is to check if the fan and the heatsink match well, because during my first exchange I left a 1 mm on the one side, and the temperatures were similar to the present ones.</i></p>
+<h1>upgrading RAM</h1>
+<p>You need to be very careful, when you want to upgrade RAM. </p>
+<p>It works according to specification with DDR2 667Mhz RAM modules (if my info correct, they're SO-DIMM with 200 Pins and they aren't Micro-DIMM with 214 Pins). But in practice not each module sold as compatible with this specification "is good" for nx6325. The symptoms will be:</p>
+<ul><li>problems with USB devices (especially with FingerPrint reader, but not only) - you will have:
+<ul><li>slow device work,
+</li><li>devices will be detected as unknown or not detected,
+</li><li>you will have "0x000000fe (0x00000005,..." BSODs (BSOD = Blue Screen of Death) with BUGCODE_USB_DRIVER info
+</li></ul></li><li>rebooting without warning during making various tasks (even not connected with USB)...
+</li><li>checksums problems
+</li></ul><p>...</p>
+<p>With "wrong" RAM notebook can work during hours without error with memtest and similar, all BIOS tests can be OK. Problems will start in Windows (started and used USB).</p>
+<p>Compatible modules found for now:</p>
+<ul><li>256 MB Nanya NT256T64UH4A1FN-3C
+</li><li>512 MB Micron Technology 8HTF6464HDY-667B3
+</li><li><b>512 MB GoodRam GR667S264L5/512 and 1024 MB GoodRam GR667S264L5/1G (models from SPD, added by Marcin Wiącek)</b>
+</li><li>512 MB Aeneon AET94F30D A 0627 DDR2 (From Qimonda/Infineon; Order-Nr. EMHP512993A at <a href="http://www.speichermarkt.de/show.cgi?ID=hew10466.htm&amp;SRC=KACL">http://www.speichermarkt.de/show.cgi?ID=hew10466.htm&amp;SRC=KACL</a>)
+</li><li>2 GB Module (PC667) DDR2 <a href="http://www.speichermarkt.de">http://www.speichermarkt.de</a>
+</li><li>1024 MB DDR2-667  Kingmax (Part Number: KSCD48F-A8KB5). A lot of users fron Softpedia Forum: <a href="http://forum.softpedia.com/index.php?showtopic=158265&amp;hl=NX6325">http://forum.softpedia.com/index.php?showtopic=158265&amp;hl=NX6325</a> agreed that this memory is compatible. I tested it and it's ok.
+</li><li>1024 MB DDR2-667  CL4  64Mx8  16Chip  2 Bank BGA  MSO924-667-16 <a href="http://www.mdt.de">www.mdt.de</a> i bought it and seems to be ok (nor3k)
+</li><li>I bought two modules of the MDT memory mentioned above and they seem to work real fine. (Stefan Widmann)
+</li><li>512MB Samsung Unbuffered SODIMMs "M4 70T6554CZ3-CE6" DDR2-667 under <a href="http://www.samsung.com/global/business/semiconductor/productInfo.do?fmly_id=112&amp;partnum=M470T6554CZ3">http://www.samsung.com/global/business/semiconductor/productInfo.do?fmly...</a> (link updated --[[Special:Contributions/91.96.51.110|91.96.51.110]] 10:15, 20 October 2008 (UTC))
+</li><li>    Memory Module Properties:<br />
+      Module Name                 MCI Computer MDT DDR2<br />
+      Serial Number               None<br />
+      Module Size                 1024 MB (2 ranks, 4 banks)<br />
+      Module Type                 SO-DIMM<br />
+      Memory Type                 DDR2 SDRAM<br />
+      Memory Speed                DDR2-667 (333 MHz)<br />
+      Module Width                64 bit<br />
+      Module Voltage              SSTL 1.8<br />
+      Error Detection Method      None<br />
+      Refresh Rate                Reduced (7.8 us), Self-Refresh<br />
+      Memory Timings:<br />
+        @ 333 MHz                 5-4-4-15  (CL-RCD-RP-RAS) / 19-35-3-5-3  (RC-RFC-RRD-WR-WTR)<br />
+        @ 333 MHz                 4-4-4-15  (CL-RCD-RP-RAS) / 19-35-3-5-3  (RC-RFC-RRD-WR-WTR)<br />
+        @ 200 MHz                 3-3-3-9  (CL-RCD-RP-RAS) / 12-21-2-3-2  (RC-RFC-RRD-WR-WTR)
+</li><li>Hyundai HYMP512S64CP8-Y5 1 GB (according to <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1110995">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a> )
+</li><li>Apacer 512mb PC2-5300 78.92G63.9K1 works fine with samsung module menitoned above.
+</li><li>Mats L, Henri T: Kingston KVR667D2S5/1G works fine with Turion x2 TL-60
+</li><li>Marko D.: Infineon/Qimonda HYS64T128021HDL-3S-B works ok with Turion x2 TL-60
+</li><li><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1105439">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a> : Kingston 256MB 1Rx16 DDR533 KVR533D2S4/256 and Kingston 512MB 1Rx8 DDR533 KVR533D2S4/512 are probably compatible
+</li><li>Samsung M4 70T6554BZ0-CD5 (512 MB DDR2 533) Tested on Turion X2 TL-60
+</li><li>Corsair VS1GSDS667D2 (1024 MB DDR2 667) Tested on Turion X2 TL-52  ..........I can 2nd these ,Got 2x1GB of these workin pukka for over a year now :) Check out my bit above re:CPU to TL-66.
+</li><li>Spectek 2 GB 667 MHz DDR2 Notebook RAM CL5 Tested on Turion X2 TL-52
+</li><li>Crucial 2GBKIT (1GBx2) 200PIN DDR2 PC2-6400, working on Turion X2 TL-58. These are 800mhz, a nice bit of extra speed.
+</li></ul><p>Not compatible:</p>
+<ul><li>some Kingston modules (ValueRam checked in August 2006 with Turion X2 TL-52, KTH ZD8000B/1G checked with Turion, according to <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1075376">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a> ValueRAM is OK with Sempron, according to <a href="http://www.ec.kingston.com/ecom/configurator/modelsinfo.asp?SysID=31421&amp;mfr=HP/Compaq&amp;model=Business+Notebook+nx6325&amp;Sys=31421-HP/Compaq-Business+Notebook+nx6325&amp;distributor=0&amp;submit1=Search">http://www.ec.kingston.com/ecom/configurator/modelsinfo.asp?SysID=31421&amp;...</a> KTH are compatible (maybe these are new series ?))
+</li><li>OCZ
+</li><li>Twinmos
+</li><li>Trancend JetRam (Sold as JM488Q643A-667 in South Africa - possibly JM667QSJ-1G) - Turion X2 TL-60
+</li></ul><p><font color="red">Problem seems to be connected with CPU RAM controller or USB controler. Mixing modules seems to make this problem too. Disabling FingerPrint reader device is not solution.</font> More for example on: <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1058655">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a></p>
+<p><font color="red">No help from HP</font></p>
+<hr /><p>If you want use 4GB or RAM, please note, that Windows XP won't see everything. This is MS limit.<br /><br /><br /><i>Hmm. Not sure why you say this is an MS limit. XP is able to see that much memory if your motherboard supports it. Usually this is a motherboard limitation. The CPU has 36 address pins so it can access up to 64 GB of RAM, but some motherboards only have 32 address pins connected (to save money). Since some memory addresses are reserved (i.e. your Video memory needs addresses), some of your 4GB of RAM gets addresses above 4GB. That means that on motherboards that don't wire up more than 32 address pins, you can't access all of your RAM.</i></p>
+<p>Update (Marcin):</p>
+<p>I based my opinion on:</p>
+<ul><li><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1051964">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a>
+</li><li><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1013205">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a>
+</li></ul><p>Especially: "We have found that applying Service Pack 2 (SP2) to Windows XP imposes a 3gb limit for memory. All 4gb will be there, but XP SP2 only "sees" 3gb. (...) Running with no service pack or SP1 will allow all 4gb to be reconized by Windows XP." and <a href="http://h10025.www1.hp.com/ewfrf/wc/genericDocument?cc=us&amp;docname=c00612217&amp;lc=en&amp;jumpid=reg_R1002_USEN#">http://h10025.www1.hp.com/ewfrf/wc/genericDocument?cc=us&amp;docname=c006122...</a></p>
+<p>I didn't have personally 4 GB. Of course, if somebody will donate it, I will be much more than happy ;-)</p>
+<hr /><p><i>Update by Andrius Stanaitis</i></p>
+<p><i>I had this RAM issue on other hardware and have done research on this. 3GB limit is related to both hardware and OS. To be able to use more than that the following should be considered:</i></p>
+<ul><li><i>CPU and motherboard support all RAM installed (ie 36bit memory addressing rather than 32bit)</i>
+</li><li><i>Windows XP 32bit can address up to 4GB of RAM but it will allocate the top of RAM for motherboard resources so it will actually be able to use less than 4GB, typically 3.5GB or even less, depending on your hardware.</i>
+</li><li><i>Windows Server 2003 32bit with PAE enabled can address whole 36bit memory space - up to 64GB.</i>
+</li><li><i>Any 64-bit Windows will be able to use all the available RAM todays hardware can support.</i>
+</li></ul><hr /><p>There is no info about compatibility with RAM modules with heat spreaders (if they work and fit OK) like <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820144063">http://www.newegg.com/Product/Product.aspx?Item=N82E16820144063</a></p>
+<hr /><p>New notes about compatibility: </p>
+<ul><li><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1120569">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a>
+</li><li><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1152449">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a>
+</li></ul><hr /><p><font color="red">Majority/all predefined configs are sold with 2 RAM chips. If you want to upgrade RAM bigger with dual channel, you have to replace both - in dual channel RAM chips have to be the same</font></p>
+<p><i>Update by Fernando:</i></p>
+<p><i>I bought one Kingston KTH-Z8000B/1GB module about three weeks ago (19 Jun 2007) and upgrade computer RAM to 1,5GB (512MB original memory + 1GB Kingston). I paid near U$D80. Until now, i didn´t have any kind of problems. Everything works great, SO, Apps and devices (USB printer, USB Mouse, USB HDD, etc) works smoothly. Im very pleased with this notebook. Hope my experience helps anybody and thanks for this usefull page.<br />
+Computer model: HP NX6325 (AMD Sempron 3400+)</i></p>
+<p><i>Update by Pawel Ch.</i></p>
+<p><i>Installed 2 x '''Kingston KVR800D2S5/2G''' (2 GB PC6400 800 MHz).<br />
+Computer with TL-60 CPU. Everything`s working fine, dual channel, speed reduced to 667 MHz. Unfortuanately MS Vista x86, x64, OpenSUSE Linux x64 only see 2,87 GB RAM. Tried many methods (i.e. PAE) but without any luck.</i></p>
+<p><i>Update by Lars B</i></p>
+<p><i>I installed one extra Crucial 2GB 200pin DDR2 SODIMM 256MX64 PC2-5300 on a NX6325 with Turion X2. It had 1GB before.It gave bluescreen with different messages when starting W7, IRQ_Not_less_or equal whas one of them. W7 Safemode was ok. I removed the original (the one under the keyboard)and fitted a second 2GB crucial, same as above. After that no problem. Obviously a missmatch problem with the factory installed memory.<br />
+It seems to be a good idea to have identical memory modules.</i></p>
+<h1>memory for graphic card</h1>
+<p>See <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1059443">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a></p>
+<p>Please note, that <font color="red">HP disabled in BIOS option for setting maximal RAM size available for graphic</font> (although it could be very usefull).</p>
+<h1>replacing HDD</h1>
+<p>Fujitsu HDD is quite silent, but makes high frequency tone </p>
+<p>Philips 000 or Philips 00 screwdriver required for HDD frame</p>
+<p>HDD frame is compatible with nc6320, nx6310, nx6315, nx6320, nx7400,...), but <font color="red">not sold separately by HP (available with HDD only).</font> No comments... Available on <a href="http://www.newmode.us/caddies/HP.htm">http://www.newmode.us/caddies/HP.htm</a></p>
+<p><i>Hitachi Travelstar SATA 3 GBps 100GB 7,200 rpm drive works brilliant and seems quieter than std drive :)</i></p>
+<h1>SATA</h1>
+<p>According to some people (for example <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1067638">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?t...</a>):</p>
+<p><i>While the </i> (HDD) <i>drive itself is a SATA drive it is being accessed using legacy PATA mode.</i></p>
+<p><i>You can change the device "Standard Dual Channel PCI IDE Controller" into "ATI 4379 Serial ATA Controller" in Windows (32Bit) by changing the driver. 3 steps needed:</i></p>
+<ul><li><i>download Silicon Image Driver: <a href="http://www.siliconimage.com/docs/3x12-x86-1.3.68.2-logo.zip">http://www.siliconimage.com/docs/3x12-x86-1.3.68.2-logo.zip</a></i>
+</li><li><i>edit SI3112.inf: replace the subsys "43791002" with "30B0103C" (Line 95,100,401)</i>
+</li><li><i>update the device "Standard Dual Channel PCI IDE Controller" (PCI\VEN_1002&amp;DEV_4379&amp;SUBSYS_30B0103C&amp;REV_80) with the modified driver, "ATI 4379 Serial ATA Controller" should be shown now as compatible</i>
+</li></ul><p><i>(successfully tested an working on Vista32 Business.)</i></p>
+<p><i>Has anyone else tried this ?? 01/2009 would it make any difference in XP Pro SP2 32bit ........?</i></p>
+<p><i>Update by Pawel Ch.</i></p>
+<p><i>Checked ATI 4379 SATA Controller with HD Tune on Vista x86 and there`s no difference in performance comparing to Standard Dual Channel PCI IDE Controller. Same read/write speeds...</i></p>
+<p><i>It`s better to buy faster HDD like WD Scorpio Black 160 BEKT 7200 rpm, 16 MB buffer, as it runs in Ultra DMA-6 (Original Fujitsu HDD runs in Ultra DMA-5) and gives an increase in Vista Performace Index from 4,2 to 5,6. It`s also more silent.</i></p>
+<h1>cloning HDD with Norton Ghost</h1>
+<p><i><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1066020">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1066020</a></i></p>
+<h1>Linux</h1>
+<p>ACPI problems - see <a href="http://www.wolframschenck.de/nx6325.htm">http://www.wolframschenck.de/nx6325.htm</a>, <a href="http://gentoo-wiki.com/HARDWARE_Gentoo_on_HP_Compaq_nx6325">http://gentoo-wiki.com/HARDWARE_Gentoo_on_HP_Compaq_nx6325</a></p>
+<p><i>Fixed with newer kernels (Not sure which Version). I'm running BIOS F.07 and using Gentoo 2007.0 with Linux 2.6.23-gentoo-r3. (Works with both i386 and x86_64) Current Ubuntu (7.10) works also.</i></p>
+<p><i>HD is recognized as "/dev/sda"</i></p>
+<p><i>WLAN worked with Ubuntu 7.10 using restricted drivers (Module "bcm43xx" I think)</i></p>
+<p><i>WLAN now works with the "b43" driver</i></p>
+<p><i>Sound worked with Ubuntu 7.10 (ALSA)</i></p>
+<p><i>For model EY350EA (the one I have):<br />
+Cannot use some ACPI options (no /proc/acpi for me).<br />
+Problematic suspending/hibernating. Sometimes fails to turn screen back on after standby.<br />
+WLAN not working with bcm43xx for me. Used ndiswrapper - working. Had to blacklist bcm43xx.<br />
+Framebuffer working with VESA module. Highest possible resolution is working (1400x1050). But it really is getting slow sometimes.<br />
+Direct rendering is possible. Composite output is not supported by now. GL Desktop (Compiz/Beryl/Compiz Fusion) not working.<br />
+Card reader is working just fine. As well as everything not mentioned.<br />
+IMHO: Now that the biggest issue (the failing ACPI) is mostly resolved. This one is a very nice Notebook.</i></p>
+<h1>machine check in WIndows XP log</h1>
+<p>"Application popup:  : Machine Check: Regs" and "Application popup:  : Machine Check:" are available in Windows log in SYstem. This is normal for AMD CPU.</p>
+<h1>Ethernet card visible in "Safely Remove Hardware" in WIndows</h1>
+<p>disable "lan power saving" and/or "lan/wlan switching" (or similiary named) in BIOS</p>
+<h1>HP Windows</h1>
+<p><font color="red">If you can, please don't buy HP Windows.</font> Rather buy standard OEM. It will cost the same, but will be better...</p>
+<ul><li>You can make only one copy to CD/DVD, but problems can occur - see <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1061898">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1061898</a> Update: some solution <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1080999">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1080999</a></li></ul><p>discussion between user from IP 80.126.49.40 <i>(My apologies for not introducing myself, my name is Pascal Terpstra from Holland)</i> and Marcin:</p>
+<ul><li>80.126.49.40: <i>If you have problems with it (for example because of broken hardware/RAM) contact HP, tell them your problem, and they will HAVE to send you the recovery-set.</i> Marcin: and loose time and money and you won't know, what exactly you receive (recovery set is not free and at least in Poland it's DVD burned on DVD recorder, not produced in factory... (in other words: it depends on lowest level HP workers, if you will receive CD with viruses, errors or not...)
+</li><li>80.126.49.40: <i>Although you payed for using HP Windows on notebook, you can install other systems on it, but that will make you LOSE any type of support from HP (NOTE: Installing a standard OEM version makes you LOSE ANY type of support from the machine's manufacturer! Neither Microsoft NOR the vendor will offer support if you install a standard OEM version which did NOT came accompanied with your notebook/PC!)</i> Marcin: yes, but it's very often so "profesional", that you will do some things much better...
+</li><li>80.126.49.40: <i>You can use third-party software to create your own partitions, but it will be made at <b>YOUR OWN RISK!</b></i>
+</li><li>80.126.49.40: <i>During first enabling notebook you can select national/English version of Windows, enter name and company. You cannot change this at a later time. Be sure to choose the right language you want to use.</i>
+</li><li>80.126.49.40: <i>HP doesn't include installation CDs/DVDs, only an image on the HDD on a HIDDEN partition. Be sure NOT to delete this hidden partition, or you'll lose the recovery option! The reason? It's a lot cheaper to mass-produce pre-HDD installed Windows (including recovery option) then to accompany the package with CDs/DVDs. Do the math if you had to produce millions of CDs/DVDs, the machine would definately cost more money.</i> Marcin: definitely few Euro more and much less problems. For example for nx6325: when people bought notebook and updated RAM, wasn't able to use notebook after fixing RAM few weeks (reason: broken HDD files...)
+</li><li><i>I've bought a used NX6325 and last owner deleted the recovery partition.  Well, I contacted to Hp and they have shipped a copy of my Windows Xp Home on cd and a copy of "Application and Driver recovery DVD" on dvd.  It was shipped from Hp Latin America in Mexico, at no cost for me by TNT in about 3 days to Chile.  So for me Hp support service has worked very good.</i>
+</li></ul><p>Other (user from IP 91.7.217.99):</p>
+<p><i>It is possible to create an almost "normal" install cd:<br />
+    -copy the "I386" folder located in C: into a new folder (name is not important)<br />
+    -create a textfile "WIN51" (without .txt extension) containing "Windows" in that folder<br />
+    -copy that textfile twice and rename to "WIN51IC" and "WIN51IC.SP2"<br />
+    -use XP-ISO-Builder from WinFuture or a similar program to obtain a bootable image<br />
+    -correct my english if neccessary ;-)<br />
+That's it. I tried this install CD on various PCs (but not at the same time, of course). No problems. Activation successfull. At least for Germany, this is totally legal as it is not allowed to limit software licences to certain hardware.</i></p>
+<h1>drivers for 32bit Vista</h1>
+<ul><li>Currently you have drivers on HP www. Brightness control will work with BIOS F06 too...
+</li><li>HP battery check: install <a href="http://h30155.www3.hp.com/helpandsupport/npchphas.html">sp36082.exe</a>. Run C:\program files\hewlett packard\hp battery check\hpbc.exe and read C:\program files\hewlett packard\hp active support\logs\*.xml. <b><font color="red">You won't be able to uninstall this SP and you won't have icons in Control Panel &amp; Start menu.</font></b>
+</li><li>ATI Display (Catalyst 8.4): sp38832 <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=US&amp;swItem=ob-59970-1&amp;prodTypeId=321957&amp;prodSeriesId=1849082">link Download</a> ATI Catalyst 9.8 works much better (nice changes in Windows Experience Index - from 2.5 to 3.0 for Aero Desktop, and from 3.2 to 3.3 for Gaming)<br /><a href="http://support.amd.com/us/gpudownload/windows/Legacy/Pages/radeonaiw_vista32.aspx?type=2.4.1&amp;product=2.4.1.3.7&amp;lang=English">Download</a>
+</li><li>Fingerprint: sp39199 <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=US&amp;swItem=ob-60526-1&amp;prodTypeId=321957&amp;prodSeriesId=1849082">link Download</a>
+</li><li>Quick Launch Buttons: sp38341 <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=US&amp;swItem=ob-59262-1&amp;prodTypeId=321957&amp;prodSeriesId=1849082">link Download</a>
+</li><li>Touchpad Driver: sp38455 <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=US&amp;swItem=ob-58276-1&amp;prodTypeId=321957&amp;prodSeriesId=1849082">link Download</a>
+</li><li>Media Card Driver: sp35309 <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=US&amp;swItem=ob-58364-1&amp;prodTypeId=321957&amp;prodSeriesId=1849082">link Download</a>
+</li></ul><h1>drivers for 32bit Windows XP</h1>
+<p><b>HP site for drivers is here: <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareIndex.jsp?lang=en&amp;cc=us&amp;prodNameId=1849083&amp;prodTypeId=321957&amp;prodSeriesId=1849082&amp;swLang=8&amp;taskId=135&amp;swEnvOID=1093">Link</a></b></p>
+<p><b>We will show, how to use drivers provided directly by hardware manufacturers. The installing order of the drivers is specified below (chipset before graphic, UAA before SoundMax, etc.)</b></p>
+<p><i>Note that after installing a clean Windows XP Pro, the Ethernet card does not work by default - you have to have at least the Ethernet card drivers available on an USB stick/CD/DVD/HDD eventually. - get them as mentioned below</i></p>
+<p><u>Chipset &amp; graphic</u>: <a href="http://www.ati.amd.com">ATI page</a> - go into: Drivers &amp; software &gt; Windows XP &gt; Professional / Home &gt; Integrated/motherboard &gt; Radeon Xpress 1150 - download &amp; install driver (little green button) * <a href="http://ati.amd.com/support/drivers/xp/integrated-xp.html">direct link to Catalyst Software Suite</a> <a href="http://ati.amd.com/support/drivers/xp/integratedip-xp.html">individual components download</a></p>
+<p><i><b>Note for Catalyst Software Suite 7.2 (dated Feb 21, 2007)</b> - on a clean Windows XP Pro install, <b>do NOT install "Catalyst Control Center" component</b> because it requires .Net Framework 2.0 which is not available by default - trying to download and install <a href="http://www.microsoft.com/downloads/details.aspx?familyid=10CC340B-F857-4A14-83F5-25634C3BF043&amp;displaylang=en">.net v3 (x86 Redist Package)</a> &amp; <a href="http://www.microsoft.com/downloads/details.aspx?familyid=0856EACB-4362-4B0D-8EDD-AAB15C5E04F5&amp;displaylang=en">.net v2</a> did not help.</i></p>
+<p><i>Note: install it for faster IDE, USB and better support for thousands of things</i></p>
+<p><i>Note: you need Catalyst 7.2 or later (and it works from box then), in older you have to modify INI files inside</i></p>
+<ul><li><i>Note: you have to disable Vari-Bright in CCC and probably install <u>additional buttons</u> drivers (see below) for working brightness keys</i>
+</li><li><i>Note: according to one of users (<a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1072257">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1072257</a>) brightness keys are blocked by Logitech Setpoint software</i>
+</li><li><i>Note: You have to enable (the best set to "automatic", can't be "disabled") "ati hotkey poller" in Windows services to have ability for setting various power saving levels in CCC for various battery levels (without service you have one setting for battery for all levels)</i>
+</li><li><i>Note: according to some people original ATI catalysts have worse working power management (power saving) functions: <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1080566">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1080566</a></i>
+</li></ul><p><font color="red"><b>Note: Catalyst 7.3 - 7.5 make BSODs and other problems. Stay with 7.2 for now<br />News:Catalyst 7.6 Test OK!</b></font><br /><i>Klaus (2007-10-05): Just installed newest Driver from ATI-Homepage. Tip: Select "Custom Installation", and  then install only Driver plus SouthBridge, but <b>skip Catalyst/CCC</b>. Instead of Catalyst, there is a freeware tweak tool called "<a href="http://www.guru3d.com/article/atitraytools/189/">ATI Tray Tools</a>" available!</i></p>
+<p><font color="green"><b>   -ATI Catalyst Control Centre 8.1 tested and works fine BUT you must Uninstall OLD ATI drivers FIRST and reboot !! before loading new 8.1 newest as of Jan 2009 (depending on where you get CCC you may need to mod .inf file for driver to see HP ATI card as the PID/VID are slightly different :)!</b></font><br /></p>
+<p><u>sound</u>: HP (Microsoft Universal Audio Architecture (UAA) Bus Driver for High Definition Audio, later ADI SoundMAX HD Audio Driver)</p>
+<p><i>Note: for SP1 you need some MS updates before installing these <u>sound</u> drivers. See <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1057776">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1057776</a></i></p>
+<p><u>fingerprint reader</u>: HP (AuthenTec Fingerprint Driver)</p>
+<p><u>additional buttons</u>: HP (HP Quick Launch Buttons)</p>
+<p><i>Note: required for working info key and some other additional keys. The best check, if you need them</i></p>
+<p><u>touchpad</u>: <a href="http://www.synaptics.com">http://www.synaptics.com</a></p>
+<p><i>Note: without it touchpad will be detected as PS/2 mouse</i></p>
+<p><u>modem</u>: HP (Conexant HDAUDIO Soft Data Fax Modem with SmartCP Driver)</p>
+<p><u>Ethernet</u>: HP (Broadcom BCM440x 10-100 Ethernet Drivers or Broadcom NetXtreme Gigabit Ethernet - PCI Express)</p>
+<p><u>Wifi</u>: HP (Broadcom Wireless LAN Driver).</p>
+<ul><li><i>For WPA/WPA2 (from <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1065082">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1065082</a>): Are you running XP, SP2? Are you using Windows Zero config to connect to your wireless network? Under SP, sometimes it's better to use WZC. If so, make sure you have the following update loaded: Wi-Fi Protected Access 2 (WPA2) Update for Windows XP with Service Pack 2 (KB893357) Filename: WindowsXP-KB893357-v2-x86-ENU.exe <a href="http://www.microsoft.com/downloads/details.aspx?amp;amp;amp;amp;amp;amp;amp;displaylang=en&amp;familyid=662BB74D-E7C1-48D6-95EE-1459234F4483&amp;displaylang=en">http://www.microsoft.com/downloads/details.aspx?amp;amp;amp;amp;amp;amp;amp;displaylang=en&amp;familyid=662BB74D-E7C1-48D6-95EE-1459234F4483&amp;displaylang=en</a> If your Broadcom chip is WPA2-capable, then this is all you really need.</i>
+</li><li><i>If you need to use WPA2 with PAP you need the SecureW2 client from here: <a href="http://download.htwm.de/securew2/">http://download.htwm.de/securew2/</a></i>
+</li><li>if you have problems with Netgear DG834G, please look here - <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1068642">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1068642</a>
+</li></ul><p><u>card reader</u>: HP (Texas Instruments Media Card Driver and High-Speed Secure Digital (SD) Card Driver) or <a href="http://forums12.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1170947">newer version</a></p>
+<p><u>CPU</u>: <a href="http://www.amd.com">http://www.amd.com</a> (support section for CPU)</p>
+<p>Note: REQUIRED for CPU throttling (and saving a lot of energy). If you want to use this functionality:</p>
+<ul><li>you have to set correct Power Scheme in Control Panel too (see <a href="http://www.microsoft.com/whdc/archive/winpowmgmt.mspx">http://www.microsoft.com/whdc/archive/winpowmgmt.mspx</a>)
+</li><li>you should try better from two methods of throttling available after installing KB896256 fix (see <a href="http://support.microsoft.com/kb/896256">http://support.microsoft.com/kb/896256</a>)
+</li></ul><p><u>security</u>: HP</p>
+<ul><li>(HP ProtectTools Security Manager,
+</li><li>later HP Embedded Security for ProtectTools
+</li><li>and the HP Credential and Fingerprint Manager for ProtectTools,
+</li><li>you can install too HP BIOS Configuration for ProtectTools, HP Smart Card Security Module for ProtectTools, HP Device Access Manager for ProtectTools)
+</li></ul><p>Infineon Trusted Platform Module (TPM) driver is not required (install it only, when don't have installed <u>security</u> modules as above and want to have TPM)</p>
+<p><u>Bluetooth</u>: add lines in (WIndows directory)\inf\bth.inf</p>
+<pre> [HP.NT.5.1]
+ "HP Integrated Module"= BthUsb, USB\Vid_03F0&amp;Pid_171D</pre><p>
+and it will work with Microsoft software then. It's much better than WidComm stack.......</p>
+<p><i>####### ???????? WHAT !!!!!!!!!!!( This guy cannot be serious !!!!!!!!!!!!!!NO-ONE uses the Windows Bluetooth stack its crap ?????????????????You can't even send a pic from mobile to PC without first asking for it from PC and then sending it?? Unlike Widcomm you can send to PC and just accept it.  ("HP Integrated Module with Bluetooth Wireless Technology Software" from HP works perfectly with Widcomm ,mine is fine :))<br />
+Best to remove bth.inf from C:\windows\inf (Make sure hidden files are viewable Tools/view) and let btwusb.inf from Widcomm work,this will disable windows stack. </i></p>
+<p><i>Bluetooth stack software on the nx6325 driver download page is old and has issues (A2DP and HFP didn't work); a newer stack (5.1.0.4803 by WIDCOMM-BROADCOM) is here <a href="ftp://ftp.hp.com/pub/softpaq/sp40001-40500/sp40204.exe">ftp://ftp.hp.com/pub/softpaq/sp40001-40500/sp40204.exe</a></i></p>
+<p>You can install</p>
+<ul><li>HP Wireless Assistant from HP www (but sometimes you won't have working correctly blue LED with Wireless Button) for displaying info about BT/Wifi state,
+</li><li>HP Battery Check from HP www (<b>it can estimate battery condition during charging</b>)
+</li></ul><p>Some other are rather useless (you can need them only, if you have docking station for example).</p>
+<p><i>If you want to install and have problems with Help Support Center 3.0, please look this link - <a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1069656">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1069656</a></i></p>
+<p><i>Direct link to version 3.03B which is suitable for first install:</i></p>
+<p><i><a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=us&amp;prodTypeId=321957&amp;prodSeriesId=1849082&amp;prodNameId=1849083&amp;swEnvOID=1093&amp;swLang=8&amp;taskId=135&amp;swItem=hb-15257-3&amp;mode=3">http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&amp;cc=us&amp;prodTypeId=321957&amp;prodSeriesId=1849082&amp;prodNameId=1849083&amp;swEnvOID=1093&amp;swLang=8&amp;taskId=135&amp;swItem=hb-15257-3&amp;mode=3</a></i></p>
+<p><i>or use this one: <a href="http://tinyurl.com/2g2y2t">http://tinyurl.com/2g2y2t</a></i></p>
+<h1>drivers for 64bit Windows XP</h1>
+<p><i><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1059576">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1059576</a></i></p>
+<p><i><a href="http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1054836">http://forums1.itrc.hp.com/service/forums/bizsupport/questionanswer.do?threadId=1054836</a></i></p>
+<h1>drivers for Windows 2000</h1>
+<p><i>There are no Windows 2000 drivers for the new AMD Sempron 3500+ or Turion X2 CPUs. So you will not get any cool'n'quite features with that system. Try to use the application <a href="http://cpu.rightmark.org/products/rmclock.shtml">"RMclock"</a> instead.</i></p>
+<p><i>There are also no Modem Driver on the HP Win2000 drivers Website. You can use the WinXP driver.</i></p>
+<p><i>Please note that HP <b>DOES NOT</b> support Windows 2000 on this machine!</i></p>
+<!--comments-->
+Title:my hp nx6325 experiences
+ID:369
+Author:Anonymous (not verified)
+When:1 Aug 2010
+
+<p><strong>DVI -- no go!</strong>  I have tried both Docking Stations (regular and advanced 3-in-1) and neither gives a DVI signal (Windows XP, Bios F.07).</p>
+<p><strong>RAM upgrade</strong>  I have 2x 1GB MDT modules in mine, but all 8 chip Samsung SODIMM modules work just fine (2x1GB such as M470T2864QZ3-CE6 or M470T2864EZ3-CE6 modules).  Although Samsung M470T2953?Z3-CE6 modules work, they work _only_ in single channnel (16 memory chips per module!), therefore you ought to go for Samsung 2864 modules.  Pretty cheap on ebay these days.</p>
+<p><strong>CPU upgrade</strong>  I upgraded from TL-52 (1.6GHz,90nm) to TL-64 (2.2GHz,65nm).  Was easier than upgrading desktop Mobos.  CPU is greased, Graphics originally uses a thermal pad.  The pad needs to be replaced when changing the CPU (the Heatsink covers both, CPU and graphics).  TL-64 runs hotter, and RMClock undervolting no longer works (occasional reboots) -- RMClock undervolting worked perfectly over 3 years with the original TL-52, so I'm back to plain Cool-n-Quiet for now.</p>
+<p><strong>Secondary SATA-HDD (instead of DVD)</strong>  The internal DVD bay is a "regular" industry standard mounting bay for an optical drive with IDE/PATA mini-centronics on the left side (seen from above).  I've purchased a mounting adapter with integrated SATA-&gt;IDE converter for a secondary 2.5" SATA-HDD in the optical drive bay.  Basically it works, but is limited to Multiword DMA 2 under Windows XP (=16MByte/s), probably a design limitation of that notebook.  That is quite slow, considering that 2.5" SATA drives are capable of &gt;50 MByte/s.  Windows claims that UDMA causes CRC errors.  Linux will use UDMA2 with atiixp IDE driver, though.  The Advanced 3-in-1 Docking Station PA-187AA uses a DIFFERENT! "HP multibay 2" mounting bay than the notebook.  Although "HP multibay 2" uses SATA interface and a micro-SATA plug into the docking station, the device is actually connected to the notebook via USB and **NOT** native-SATA!  What a rip-off -- the 3-in-1 HP Advanced Docking station is probably the most clumsy and most expensive USB drive enclosure on the market.</p>

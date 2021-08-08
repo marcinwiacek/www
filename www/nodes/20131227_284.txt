@@ -1,0 +1,9 @@
+﻿Title:Takie tam....
+Author:marcin
+When:27 Dec 2013
+Taxonomy:Polski,Polski blog,rysunki
+SkipMain:true
+
+<p><img src="sites/default/files/284/cos1.jpg" width="600" /></p>
+<!--break-->
+<p><img src="sites/default/files/284/cos2.png" width="600" /><br /><img src="sites/default/files/284/cos3.jpg" width="600" /><br /><img src="sites/default/files/284/cos4.jpg" width="600" /><br /><img src="sites/default/files/284/cos5.png" width="300" /><br /><img src="sites/default/files/284/cos6.png" width="300" /></p>

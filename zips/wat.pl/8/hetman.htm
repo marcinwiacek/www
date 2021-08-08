@@ -1,0 +1,475 @@
+<html>
+<head>
+  <STYLE TYPE="text/css">
+    @media print {p.drukuj,hr.drukuj,noscript.drukuj,table.drukuj {display:none}}
+  BODY {font-family: Tahoma, Arial, Helvetica;}
+  </style>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+  <title>Laboratorium z przedmiotu 'Systemy Eksperckie'</title>
+  <meta name="author" content="Marcin Wiącek">
+</head>
+<body><center>
+<h1><a href=http://www.wat.edu.pl>Wojskowa Akademia Techniczna</a></h1>
+<h2><a href=http://www.wcy.wat.edu.pl>Wydział Cybernetyki</a></h2>
+<h3>Laboratorium z przedmiotu <i>Systemy Eksperckie</i><br>
+Prowadzący dr inż. Roman Wantoch-Rekowski</h3>
+Wykonał <a href=http://www.mwiacek.com>Marcin Wiącek</a> z grupy studenckiej C02E<br>
+semestr letni 2005/2006
+<p class=drukuj>Testowane w <a href=http://www.microsoft.com/ie>Internet Explorer 6</a>, <a href=http://www.opera.com>Operze 8.54</a> i <a href=http://www.mozilla.com>FireFoxie 1.5.0.3</a><br>Wymaga JavaScript</center></p>
+<hr>
+<p align=justify><b>Treść zadania</b> - <i>zaprojektować i zaimplementować algorytm
+heurystyczny (najpierw najlepszy) ustawiający na szachownicy n polowej n 
+hetmanów tak, aby nie atakowały się wzajemnie. W rozwiązaniu należy zaproponować
+modyfikację heurystycznej funkcji oceny wierzchołków zaproponowanej na wykładzie.</i></p>
+<hr>
+<p align=justify><b>Szachownica</b>
+(wg. <a href=http://pl.wiktionary.org>WikiSłownik</a>)
+- plansza do gry w szachy lub warcaby, składająca się z kwadratowych,
+dwukolorowych pól umieszczonych w taki sposób, że każdy kwadrat styka się 
+z kwadratem o innym kolorze.</p>
+
+<p align=justify><img src=hetman.gif align=left><b>Hetman</b>
+(wg. <a href=http://www.wikipedia.pl>WikiPedia.pl</a>) - najsilniejsza
+figura w szachach. Hetman nazywany jest również <i>damą, królową lub królówką.</i>
+(...) Hetman może poruszać się w dowolnym kierunku (poziomo, pionowo oraz na 
+ukos) o dowolną liczbę wolnych pól (...)</p>
+
+<p align=justify><b>Heuristic</b>
+(z. <a href=http://www.wikipedia.org>WikiPedia</a>) -
+"...For shortest path problems, the term has a different meaning. Here,
+a heuristic is a function, h(n) defined on the nodes of a search tree, 
+which serves as an estimate of the cost of the cheapest path from that 
+node to the goal node. Heuristics are used by informed search algorithms 
+such as Greedy best-first search and A* to choose the best node to explore. 
+Greedy best-first search will choose the node that has the lowest value for 
+the heuristic function. A* search will expand nodes that have the lowest value 
+for g(n) + h(n), where g(n) is the (exact) cost of the path from the initial 
+state to the current node. If h(n) is admissible-that is, if h(n) never 
+overestimates the costs of reaching the goal-, then A* will always find an 
+optimal solution..."</p>
+<hr>
+<p align=justify>Program liczy dla każdego położenia hetmanów na szachownicy wartość
+funkcji oceny i do położenia z najwyższą wartością dostawia kolejną kolumnę hetmanów,
+wylicza dla nich wartość funkcji, wybiera położenie z najwyższą wartością, dostawia kolejną kolumnę,
+itp. W teorii funkcja powinna prowadzić do celu
+najlepszą drogą, w praktyce dla dużych wielkości szachownicy przyjęte funkcje wpadają w "ślepe uliczki"
+i należy włączyć cofanie się (wybrać funkcję oceny z cofaniem).</p>
+
+<p align=justify><b>Jedna z przyjętych funkcji oceny</b>
+= 3000*długość_napisu_z_położeniami_hetmanów + suma_dla_wszystkich_możliwych_lokalizacji_nowych_hetmanów (współrzędna_x*wielkość + moduł(wielkość_szachownicy/2 - współrzędna_y))
++ suma_dla_wszystkich_położeń_hetmanów (współrzędna_x*200 + moduł(wielkość_szachownicy/3 - współrzędna_y))</p>
+<script>
+<!--
+var alfabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var alfabet_maly = 'abcdefghijklmnopqrstuvwxyz';
+var wszystkiepola = '';
+
+function pokazopis(opis) {
+	var wynik = opis;
+	for (var i=0;i<alfabet_maly.length;i++) {
+		wynik = wynik.replace(alfabet_maly.charAt(i),(i+1));
+	}
+	return wynik;
+}
+
+//znajduje, gdzie mozna jeszcze postawic hetmana
+function znajdzmozliwe(n,polozenia) {
+	var pola = wszystkiepola;
+	//przechodzi przez juz ustawionych hetmanow
+	//usuwa z "pola" atakowane przez nich pozycje
+	var pos = 0;
+	while (pos!=polozenia.length) {
+		//pobiera z "polozenia" polozenie kolejnego hetmana
+		var x0 = polozenia.charAt(pos);
+		var x0num = -1;
+		pos++;
+		var y0 = polozenia.charAt(pos);
+		var y0num = -1;
+		pos++;
+		for (var x=0;x<n;x++) {
+			var poz = alfabet.charAt(x);
+			if (poz == x0) {
+				x0num = x;
+				break;
+			}
+		}
+		for (var y=0;y<n;y++) {
+			var poz = alfabet_maly.charAt(y);
+			if (poz == y0) {
+				y0num = y;
+				break;
+			}
+		}
+
+		//usuwa wszystkie pola atakowane przez hetmana
+		for (var xy=0;xy<n;xy++) {
+			//poziom
+			var poz = alfabet.charAt(xy)+y0;
+			pola = pola.replace(poz,"");
+			//pion
+			var poz = x0+alfabet_maly.charAt(xy);
+			pola = pola.replace(poz,'');
+		}
+		//usuwa wszystkie pola atakowane przez hetmana
+		//na ukos w lewo dol i lew gora
+		y1 = y0num;
+		y2 = y0num;
+		for (var x=x0num;x>=0;x--) {
+			if (y1 >= 0) {
+				var poz = alfabet.charAt(x)+alfabet_maly.charAt(y1);
+				pola = pola.replace(poz,"");
+			}
+			var poz = alfabet.charAt(x)+alfabet_maly.charAt(y2);
+			pola = pola.replace(poz,"");
+			y1--;
+			y2++;
+		}
+		//usuwa wszystkie pola atakowane przez hetmana
+		//na ukos w prawo dol i prawo gora
+		y1 = y0num;
+		y2 = y0num;
+		for (var x=x0num;x<n;x++) {
+			if (y1 >= 0) {
+				var poz = alfabet.charAt(x)+alfabet_maly.charAt(y1);
+				pola = pola.replace(poz,"");
+			}
+			var poz = alfabet.charAt(x)+alfabet_maly.charAt(y2);
+			pola = pola.replace(poz,"");
+			y1--;
+			y2++;
+		}
+	}
+	return pola;
+}
+
+//kilka przykładowych funkcji oceny
+function funkcja_oceny(n,mozliwe,polozenia,algorytm) {
+	if (algorytm.indexOf('1')!=-1) {
+		var nn = 0;
+		for (var y=0;y<n;y++) {
+			for (var x=0;x<n;x++) {
+				var poz = alfabet.charAt(x)+alfabet_maly.charAt(y);
+				if (mozliwe.indexOf(poz)!=-1) {
+					nn+=x*n+Math.abs(n/2-y);
+				}
+				if (polozenia.indexOf(poz)!=-1) {
+					nn+=x*200+Math.abs(n/3-y);
+				}
+			}
+		}
+		return nn+polozenia.length*3000;
+	}
+	if (algorytm.indexOf('2')!=-1) {
+		var nn = 0;
+		for (var y=0;y<n;y++) {
+			for (var x=0;x<n;x++) {
+				var poz = alfabet.charAt(x)+alfabet_maly.charAt(y);
+				if (mozliwe.indexOf(poz)!=-1) {
+					nn+=x*n+Math.abs(n/2-y);
+				}
+				if (polozenia.indexOf(poz)!=-1) {
+					nn+=x*200+Math.abs(n/3-y)+(n-y/2)*10;
+				}
+			}
+		}
+		return nn+polozenia.length*3000;
+	}
+
+}
+
+//rysuje szachownice
+function pisz(n,pozycje,mozliwe,foceny) {
+	document.writeln("<br><table border=0 cellspacing=0 cellpadding=0><tr><td></td>");
+	for (var x=0;x<n;x++) {
+		document.writeln("<td align=center valign=center>");
+		document.writeln(alfabet.charAt(x));
+		document.writeln("</td>");
+	}
+	document.writeln("<td></td></tr>");
+
+	var start_color_black = true;
+	for (var y=n-1;y>=0;y--) {
+		document.write("<tr><td align=right>");
+		document.write((y+1));
+		document.write("&nbsp;</td>");
+		var color = start_color_black;
+		for (var x=0;x<n;x++) {
+			document.writeln("<td>");
+				document.writeln("<table bgcolor=gray width=100% border=1 cellspacing=0 cellpadding=0>");
+				document.writeln("<tr>");
+				document.writeln("<td width=44 height=44 align=center valign=center ");
+				var poz = alfabet.charAt(x)+alfabet_maly.charAt(y);
+				var tit = pokazopis(poz);
+				if (pozycje.indexOf(poz)!=-1) {
+					tit = tit+ " - hetman";
+				} else {
+					if (mozliwe.indexOf(poz) == -1) {
+						tit = tit+ " - atakowane";
+					}
+				}
+				document.write(" title='"+tit+"'");
+				if (color) {
+					document.writeln(" bgcolor=white>");
+				} else {
+					document.writeln(" bgcolor=F5F7E6>");
+				}
+				if (pozycje.indexOf(poz)!=-1) {
+					document.writeln("<img title='"+tit+"' src=hetman.gif>");
+				} else {
+					if (mozliwe.indexOf(poz) == -1) {
+						document.writeln("<b>x</b>");
+					} else {
+						document.writeln("&nbsp;");
+					}
+				}
+				color = !color;
+				document.writeln("</td>");		
+				document.writeln("</tr>");
+				document.writeln("</table>");
+			document.writeln("</td>");		
+		}
+		document.write("<td align=right>&nbsp;");
+		document.write((y+1));
+		document.write("</td>");
+		start_color_black = !start_color_black;
+		document.writeln("</tr>");
+	}
+	document.writeln("<tr><td></td>");
+	for (var x=0;x<n;x++) {
+		document.writeln("<td align=center valign=center>");
+		document.writeln(alfabet.charAt(x));
+		document.writeln("</td>");
+	}
+	document.writeln("<td></td></tr>");
+	document.writeln("</table>");
+}
+
+//pierwsza liczba to ilosc pol, druga ilosc hetmanow
+function licz(n,m,pokaz,algorytm) {
+	if (n=='' || m == '') {
+		alert('Pola formularza nie mogą być puste !');
+		return false;
+	}
+	if (isNaN(n) || isNaN(m)) {
+		alert('Pola formularza muszą być liczbami !');
+		return false;
+	}
+	if (n<=0 || m<=0) {
+		alert('Liczby muszą być większe od 0 !');
+		return false;
+	}
+	if (n>alfabet.length || m>alfabet.length) {
+		alert('Liczby muszą być mniejsze lub równe '+alfabet.length+' !');
+		return false;
+	}
+	if (Math.floor(n)!=n || Math.floor(m)!=m) {
+		alert('Liczby muszą być całkowite !');
+		return false;
+	}
+
+	cofanie = false;
+	if (algorytm.indexOf('cofanie')!=-1) cofanie = true;
+
+	//znajduje string ze wszystkimi pozycjami na szachownicy
+	for (var y=0;y<n;y++) {
+		for (var x=0;x<n;x++) {
+			wszystkiepola = wszystkiepola+alfabet.charAt(x)+alfabet_maly.charAt(y);
+		}
+	}
+
+	document.writeln("<center><a href="+document.location.href+">Powrót</a><p>");
+	document.write("<h3>Szachownica "+n+"x"+n+", "+m+" hetmanów");
+	if (cofanie) document.writeln(", cofanie się");
+	document.writeln("</h3>");
+
+	var polozenia = new Array();
+	var oceny = new Array();
+	var wlk = 0;
+	var ostatni = '';
+	var ilekrokow = 0;
+	var cofniecie = false;
+
+	//pozycje startowe w 1 kolumnie
+	//tylko polowa szachownicy, bo jest symetria
+	for (i=0;i<Math.floor(n/2)+n%2;i++) {
+		var s = 'A'+alfabet_maly.charAt(i);
+		var z = znajdzmozliwe(n,s);
+		var f = funkcja_oceny(n,z,s,algorytm);
+//		if (oceny.length == 0 || f<oceny[0]) {
+			polozenia.push(s);
+			oceny.push(f);
+//		} else {
+//			polozenia.unshift(s);
+//			oceny.unshift(f);
+//		}
+		if (pokaz) {
+			pisz(n,s,z,f);
+		} else {                             
+			document.writeln("<br>");
+		}
+		document.writeln(pokazopis(s)+", funkcja oceny "+f);
+		wlk++;
+	}
+
+	while (true) {
+		//znajdz polozenie z najwyzsza funkcja oceny
+		mm = oceny[0];
+		pozycja = 0;
+		for (var i=1;i<wlk;i++) {
+			if (oceny[i] > mm) {
+				pozycja = i;
+				mm = oceny[pozycja];
+			}
+		}
+
+		//czy koniec
+		if (cofanie && mm == 0) {
+			document.writeln("<br><font color=red>nierozwiązywalne ?</font></center>");
+			break
+		}
+
+		//znajdz ostatnia literke i jej numer
+		var poz = 0;
+		var x0num = -1;
+		var x0='';
+		var num = 0;
+		while (poz!=polozenia[pozycja].length) {
+			x0 = polozenia[pozycja].charAt(poz);
+			poz++;
+			poz++;
+			num++;
+		}
+		for (x=0;x<n;x++)  {
+			var poz = alfabet.charAt(x);
+			if (poz == x0) x0num = x;
+		}
+
+		//mamy juz wystarczajaca ilosc ?
+		if (num == m) {
+			if (!pokaz) {
+				var z = znajdzmozliwe(n,polozenia[pozycja]);
+				var f = funkcja_oceny(n,z,polozenia[pozycja],algorytm);
+				pisz(n,polozenia[pozycja],z,f);
+			}
+			document.write("<br><font color=green>ZROBIONE ("+ilekrokow+" kroków)");
+			if (cofanie && cofniecie) document.writeln(", było cofanie");
+			document.writeln("</font></center>");
+			break;
+		}
+
+		//bylo wybrane juz wczesniej ?
+		if (ostatni == polozenia[pozycja]) {
+			if (cofanie) {
+				ilekrokow++;
+				document.writeln("<br>Wybrane "+pokazopis(polozenia[pozycja]));
+				document.writeln("<br>cofa sie");
+				cofniecie = true;
+				oceny[pozycja] = 0;
+				if (oceny[pozycja] != 0) {
+					document.writeln("<br><font color=red>nierozwiązywalne lub inny blad ?</font></center>");
+					break;
+				}
+				//usuwamy polozenia "glebsze"
+				var i = 0;
+				while (i!=wlk-1) {
+					if (polozenia[i].indexOf(polozenia[pozycja])!=-1 && polozenia[i]!=polozenia[pozycja]) {
+						for (z=i;z<wlk-1;z++) {
+							polozenia[z] = polozenia[z+1];
+							oceny[z] = oceny[z+1];
+						}
+						polozenia.pop();
+						oceny.pop();
+						wlk--;
+						i = 0;
+						continue;
+					}
+					i++;
+				}
+				continue;
+			}
+			document.writeln("<br><font color=red>nierozwiązywalne ?</font></center>");
+			break
+		}
+		ostatni = polozenia[pozycja];
+
+		document.writeln("<br>Wybrane "+pokazopis(polozenia[pozycja]));
+		ilekrokow++;
+
+		//jezeli ostatnia linijka, wyjdz
+		if (x0num == n-1) {
+			if (num < m) document.writeln("<br><font color=red>nierozwiązywalne ?</font></center>");
+			break;
+		}
+
+		//gdzie mozna dostawic hetmana ?
+		var pol = znajdzmozliwe(n,polozenia[pozycja]);
+
+		//dodaj nowe
+		for (var q=0;q<n;q++)  {
+			var poz = alfabet.charAt(x0num+1)+alfabet_maly.charAt(q);
+			if (pol.indexOf(poz) != -1) {
+				var s = polozenia[pozycja]+poz;
+				var zly = false;
+				if (cofanie) {
+					for (var i=1;i<=wlk;i++) {
+						if (polozenia[i] == s) {
+							zly = true;
+							break;
+						}
+					}
+				}
+				if (!zly) {
+					var z = znajdzmozliwe(n,s);
+					var f = funkcja_oceny(n,z,s,algorytm);
+//					if (f<oceny[0]) {
+						polozenia.push(s);
+						oceny.push(f);
+//					} else {
+//						polozenia.unshift(s);
+//						oceny.unshift(f);
+//					}
+					if (pokaz) {
+						pisz(n,s,z,f);
+					} else {                             
+						document.writeln("<br>");
+					}
+					document.writeln(pokazopis(s)+", funkcja oceny "+f);
+					wlk++;
+				}
+			}
+		}
+	}
+
+	return false;
+}
+
+document.write("<hr class=drukuj><center><table class=drukuj><form name=formularz onSubmit='return licz(document.formularz.n.value,document.formularz.m.value,document.formularz.pokaz.checked,document.formularz.algo.value);'>");
+
+document.write("<tr><td>Ilość pól w pionie/poziomie (wielkość szachownicy)</td>");
+document.write("<td><input name=n value=9 maxlength=2 title='Liczba całkowita od 1 do "+alfabet.length+"' onMouseOver=\"this.style.color = 'red';\" onMouseOut=\"this.style.color = 'black';\"></td></tr>");
+
+document.write("<tr><td>Ilość hetmanów</td>");
+document.write("<td><input name=m value=9 maxlength=2 title='Liczba całkowita od 1 do "+alfabet.length+"' onMouseOver=\"this.style.color = 'red';\" onMouseOut=\"this.style.color = 'black';\"></td></tr>");
+
+document.write("<tr><td>Funkcja oceny</td>");
+document.write("<td><select name=algo title='Wybrana funkcja oceny' onMouseOver=\"this.style.color = 'red';\" onMouseOut=\"this.style.color = 'black';\">");
+document.write("<option value='1'>1</option>");
+document.write("<option value='1cofanie'>1 (z cofaniem się)</option>");
+document.write("<option value='2'>2</option>");
+document.write("<option value='2cofanie' selected>2 (z cofaniem się)</option>");
+document.write("</select></td></tr>");
+
+document.write("<tr><td colspan=2 onMouseOver=\"this.style.color = 'red';\" onMouseOut=\"this.style.color = 'black';\" title='Jeżeli odznaczone, działa szybciej'>");
+  document.write("<input style='cursor:pointer' name=pokaz type=checkbox>");
+  document.write("<span style='cursor:pointer' OnClick='document.formularz.pokaz.checked=!document.formularz.pokaz.checked;'>");
+  document.write("Pokazuj szachownice rozwiązań częściowych</span>");
+document.write("</td></tr>");
+
+document.write("<tr><td colspan=2 align=center><input type=submit value=LICZ></td></tr></form></table></center>");
+-->
+</script>
+<noscript class=drukuj>
+<hr><center>Program nie zadziała bez JavaScript !</center>
+</noscript>
+</body>
+</html>

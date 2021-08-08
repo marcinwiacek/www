@@ -1,0 +1,88 @@
+﻿Title:Litwo ojczyzno moja... czyli o Januszach biznesu, ebookach i kulturze słów kilka (2017)
+Author:marcin
+When:11 Nov 2017
+Taxonomy:Polski,Polski blog,Android,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Litwo-ojczyzno-moja-czyli-o-Januszach-biznesu-ebookach-i-kulturze-slow-kilka,84162.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Pojawił się... wreszcie... Panie i panowie, oto iPhone X, z którym pojawiły się od razu setki memów i prześmiewczych video podobnych do tego:<p>
+
+<!--break-->
+
+<p class="video-embed-container"><iframe frameborder="0" src="https://www.youtube.com/embed/2T8mIqQ0gKA?wmode=transparent&amp;hd=1&amp;modestbranding=1&amp;showinfo=0&amp;autoplay=0&amp;origin=https%3A%2F%2Fwww.dobreprogramy.pl&amp;autohide=1&amp;fs=1&amp;controls=2&amp;rel=0" width="640" height="360" class="note-video-clip" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+
+<p>albo tego:</p>
+
+<p class="video-embed-container"><iframe frameborder="0" src="https://www.youtube.com/embed/NCwBkNgPZFQ?wmode=transparent&amp;hd=1&amp;modestbranding=1&amp;showinfo=0&amp;autoplay=0&amp;origin=https%3A%2F%2Fwww.dobreprogramy.pl&amp;autohide=1&amp;fs=1&amp;controls=2&amp;rel=0" width="640" height="360" class="note-video-clip" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+
+<p>Oprócz tego dało się zauważyć próby dodatkowego zarobku na tym niezwykle drogim urządzeniu, a <a href="http://www.benchmark.pl/aktualnosci/janusze-biznesu-w-akcji-iphone-x-pozwala-sporo-zarobic.html" target="_blank" rel="nofollow">można było o tym przeczytać w Benchmarku.</a> Każdy orze jak może, a mnie naszła refleksja, że podobny mechanizm widzimy codziennie przy okazji ebooków, a nikt o tym za bardzo nie wspomina. Właśnie o tym będzie ten krótki post, dodatkowo chciałbym napisać co nieco o kulturze i podać dosłownie kilka linków.</p>
+
+<p>Prosiłbym, żeby tekstu dalej nie czytali wszyscy, którzy uważają, że jeżeli coś jest zrobione własnoręczne, jest za free i wydaje się być dobre, to nie można o tym pisać bo chodzi tylko i wyłącznie o uprawianie kryptoreklamy (na końcu tekstu podam link do własnej apki, która może pomóc w wyszukiwaniu książek).</p>
+
+<p>Przejdźmy więc do tematu - dawno dawno temu, gdy komputery raczkowały i pamięć dyskowa była niezwykle droga, dane zapisywano w formatach tekstowych.</p>
+
+<p>Później to się zmieniło i mieliśmy różne rodzaju pliki pomocy (np. HLP czy CHM w Windows, Norton Guides w DOS) czy zwykłe zestawy plików HTML z obrazkami, ludzie wymieniali się również binarnymi dokumentami (np. DOC). W tamtych czasach na różnych prywatnych stronach pojawiały się katalogi linków prowadzone przez prywatne osoby (sam to robiłem) albo konwersje pojedynczych utworów (kilka plików ostało się również u mnie).</p>
+
+<p>Po wielu latach dostaliśmy Google i wyszukiwarki... mamy też tekstowy format DOCX czy ODF (a dokładnie archiwum z wieloma plikami w środku), binarny format PDF (ten się jednak średnio nadaje do wielu zastosowań), archiwa EPUB i MOBI, w dalszym ciągu używa się również plików HTML czy tekstowego MD. Książki w najbardziej popularnych formatach (takich jak PDF, EPUB czy MOBI) są często trochę tańsze od papierowych, ale nie jest to też regułą. Wynika to z wysokości VAT, ale nie tylko.</p>
+
+<p>Jak je znaleźć?</p>
+
+<p>W przypadku popularnych tytułów najprostszym sposobem będzie wpisanie w Google np. wyrażenia &quot;wyszukiwarka ebooków&quot; (i można przejść na którąś ze stron, która w zamyśle ich autorów ma nam podać najtańsze legalne źródło) albo podanie tytułu z dopisanym formatem (np. &quot;pan tadeusz epub&quot;).</p>
+
+<p>Trzeba przyznać, że wybór jest spory i można natrafić zarówno na pliki przeznaczone zarówno dla przeciętnego Kowalskiego, jak i skany wydań sprzed wielu lat. Z najbardziej znanych projektów zagranicznych wymienić można np. <a href="https://www.gutenberg.org" target="_blank" rel="nofollow">Gutenberga</a>, czy <a href="http://www.feedbooks.com/publicdomain" target="_blank" rel="nofollow">Feedboks</a> czy wreszcie <a rel="nofollow" target="_blank" href="https://openlibrary.org/search?q=pan+tadeusz&amp;mode=ebooks&amp;has_fulltext=true">OpenLibrary</a> albo Google Books, ale te zawierają dzieła, które niekoniecznie mogą interesować typowego czytelnika.</p>
+
+<p>Jego może zainteresować to co musi przeczytać albo to co gadające głowy (czyli tzw. eksperci) określili jako dobre, ważny jest również format, który najczęsciej musi strawny dla jego elektronicznego ja, które bardzo ładnie zostało podsumowane w <a href="http://www.empik.com/tekst-glukhovsky-dmitry,p1166913779,ksiazka-p" target="_blank" rel="nofollow">opisie &quot;Tekstu&quot; pana Glukhovskiego</a> jako zapasowa kopia jego duszy i backup jego życia.</p>
+
+<p>Załóżmy więc, że chcemy znaleźć Pana Tadeusza, który pierwszy raz został wydany w 1834. </p>
+
+<p>I co się okazuje?</p>
+
+<p>Niektórzy spryciarze za plik w wersji elektroniczej (max. kilka MB) życzą sobie 30.63 PLN.</p>
+
+<p>Pójdźmy dalej: Quo Vadis - 19.90 PLN, Lalka - 24.50 + 24.50 PLN, Potop - 19.90 PLN</p>
+
+<p>Dochodzimy teraz do niezwykle ciekawej kwestii - utrzymanie serwerów i łącza kosztuje, ale z drugiej strony jaki jest sens żądania takich kwot za dzieła, które są dziedzictwem narodowym i które można znaleźć za darmo w wielu innych miejscach? Czy naprawdę doszliśmy już do momentu, że słowa klasyka &quot;Ludzie nie są tacy głupi, jak nam się wydaje. Są dużo głupsi&quot; sprawdzają się w całej rozciągłości?</p>
+
+<p>Mógłbym zrozumieć, że przygotowanie pięknie sformatowanego tekstu czy wspaniałych ilustracji kosztuje (bo o tłumaczeniu nie ma tu chyba co mówić), niemniej jednak czy podobna praktyka nie zasługuje na tytuł Janusza roku?  I czy naprawdę każdy Polak musi się uczyć, że najważniejszy jest spryt i kombinowanie i że każdy chce nas zrobić na szaro?</p>
+
+<p>Oczywiście każdy średnio inteligentny człowiek odpowie, że problemu nie ma. Może i nie ma, niemniej jednak chodzi o zasadę, ciekawe jest tutaj również to, że te wszystkie wydania mogą się różnić od oryginału...</p>
+
+<p>A co z dziełami nowszymi?</p>
+
+<p>Sytuacja robi się skomplikowana - autorzy i wydawnictwa chcą zarobić jak najwięcej, a to robi się coraz trudniejsze, gdy książka nie jest już dziełem, a stała się zwykłym masowym towarem takim jak papier toaletowy czy pasta do zębów (i wszyscy, ale to absolutnie wszyscy, krzyczą w opisach o niesamowitych przeżycia, które czekają nas po przeczytaniu danego utworu). Część użytkowników nauczona różnymi doświadczeniami jak również tym, że większość gier i filmów bywa kiepskiej wartości będzie szukała oczywiście darmowych kopii.</p>
+
+<p>W kontekście tego wszystkiego nie dziwi to, że początkującym autorom proponuje się zazwyczaj bardzo słabe warunki, a perełki często giną w zalewie tandety, która jest pisana pod dyktando wydawnictw. Ciężko tutaj znaleźć coś dobrego, wydaje się również, że czasem brak motywacji samym wydawcom do promocji.</p>
+
+<p>Weźmy taką nagrodę Zajdla rozdawaną w obszarze mojej ukochanej fantastyki - co roku nominowane teksty są dostępne za free (wynika to np. z <a href="http://swiatczytnikow.pl/antologia-zajdlowa-2017-opowiadania-nominowane-do-nagrody-po-raz-kolejny-bezplatnym-e-booku" target="_blank" rel="nofollow">opisu w świecie czytników</a>), ale... z czasem kasuje się je z niezrozumiałych dla mnie powodów i obecnie mamy dostępny tylko <a href="http://zajdel.art.pl/aktualnosci.html" target="_blank" rel="nofollow">rok 2017</a> i <a href="http://swiatczytnikow.pl/opowiadania-nominowane-do-nagrody-zajdla-w-czesci-za-darmo" target="_blank" rel="nofollow">rok 2013</a>.</p>
+
+<p>Leo, why?</p>
+
+<p>Na <a href="https://woblink.com/ebook/lem-antologia-stanislaw-lem-32411" target="_blank" rel="nofollow">darmową antologię Lema trafiłem</a> przez zupełny przypadek, podobnie na <a href="https://creatiofantastica.com/2017/07/12/antologia-x" target="_blank" rel="nofollow">X. Antologię opowiadań fantastycznych</a> czy zbiór <a href="https://ebooki.swiatczytnikow.pl/ebook/9788363598358,praca-zbiorowa--rok-2012-antologia.html" target="_blank" rel="nofollow">Rok 2012. Antologia</a> (tu nie wiem jeszcze jaka jest ich jakość), czasem pojawia się coś na stronie wydawnictw... I to chyba tyle... pochwalić można za to Insignis, które co roku wydaje darmowy tomik opowiadań z uniwersum Metro 2033 (<a href="https://ebooki.swiatczytnikow.pl/szukaj/insignis-metro" target="_blank" rel="nofollow">więcej</a>).</p>
+
+<p>Rynek publikacji się rozwija i to jest dobre, z drugiej jednak strony jest to rozwój niezbyt przyjazny dla nas przeciętnych zjadaczy chleba i po lekturze <a href="http://www.literutopia.pl/2014/11/skad-pobrac-darmowe-ksiazkiebooki.html" target="_blank" rel="nofollow">kolejnego wpisu o darmowych stronach</a> w ramach ćwiczeń postanowiłem zrobić małą apkę na Androida. <a rel="nofollow" target="_blank" href="https://play.google.com/store/apps/details?id=com.mwiacek.poczytaj.mi.tato">&quot;Poczytaj mi tato&quot; jest obecnie w wersji beta</a> i będzie rozwijana stosownie do potrzeb moich i osób, które przekażą mi swoje sugestie. Aplikacja w aktualnej wersji po wpisaniu wyrażenia (może to być fragment tytułu czy imię albo nazwisko autora) przekazuje je do serwisów:</p>
+
+<p><img align=center src=sites/default/files/360/Screenshot_20171111-183827.png width=300>
+
+<p>i następnie wyświetla listę rezultatów (na której te same książki są oczywiście pokazywane jako jeden wpis).</p>
+
+<p><img  align=center src=sites/default/files/360/Screenshot_20171111-173456.png width=300>
+
+<p><img  align=center src=sites/default/files/360/Screenshot_20171111-183656.png width=300>
+
+<p><img  align=center src=sites/default/files/360/Screenshot_20171111-220253.png width=300>
+
+<p><img  align=center  src=sites/default/files/360/Screenshot_20171111-183752.png width=300>
+
+<p><img  align=center src=sites/default/files/360/Screenshot_20171111-183818.png width=300>
+
+<p>Całość działa całkiem sprawnie jak na ilość spędzonego czasu, w przyszłości może dodam skanowanie co jakiś czas (i powiadomienia) i więcej księgarni, a teraz kryptoreklamy koniec i zapraszam do podzielenia się dobrymi linkami.</p>
+
+<p>Alleluja i do przodu...</p>
+
+<p>PS. Kodu źródłowego nie chciałbym udostępniać, jest on za to dostępny dla dosyć podobnej <a href="https://github.com/marcinwiacek/BooksAPIExample" target="_blank" rel="nofollow">wyszukiwarki z Google Books</a>.</p>
+<!--comments-->
+Title:https://www.dobreprogramy.pl
+ID:4982
+Author:marcin
+When:1 Nov 2017
+
+<p><a href="https://www.dobreprogramy.pl/marcinw2/Litwo-ojczyzno-moja-czyli-o-Januszach-biznesu-ebookach-i-kulturze-slow-kilka,84162.html">https://www.dobreprogramy.pl/marcinw2/Litwo-ojczyzno-moja-czyli-o-Janusz...</a></p>

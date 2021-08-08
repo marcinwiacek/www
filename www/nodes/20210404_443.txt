@@ -1,0 +1,62 @@
+﻿Title:A Bromite brnie do przodu... (2021)
+Author:marcin
+When:4 Apr 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Android
+
+<img align=right src="sites/default/files/443/1.jpg" style="width:100px" alt="image" title="image" />
+<p>Kolejna wersja... i doczekałem się DNS przez HTTPS w trybie Secure Folder na Samsungu S9.</p>
+<p>Nie jest to może zbyt ważna zmiana dotycząca bezpieczeństwa (<a href="https://madaidans-insecurities.github.io/encrypted-dns.html" target="_blank" rel="noopener" rel="nofollow">więcej</a>), ale cieszy. Z innych ciekawych funkcji jest oczywiście &quot;degoogling&quot; i ukrywanie User Agent:</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/A-Bromite-brnie-do-przodu,114203.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Kolejna wersja... i doczekałem się DNS przez HTTPS w trybie Secure Folder na Samsungu S9.</p>
+
+<center><img src="sites/default/files/443/1.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+    
+<p>Nie jest to może zbyt ważna zmiana dotycząca bezpieczeństwa (<a href="https://madaidans-insecurities.github.io/encrypted-dns.html" target="_blank" rel="noopener" rel="nofollow">więcej</a>), ale cieszy. Z innych ciekawych funkcji jest oczywiście &quot;degoogling&quot; i ukrywanie User Agent:</p>
+    
+<center><img src="sites/default/files/443/2.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+    
+<p>Do tego dochodzi import / eksport zakładek do pliku, pokazywanie kodu źródłowego stron, wymuszanie trybu tabletowego i przyciemnianie zawartości stron (oprócz pojedynczych przypadków działa idealnie):</p>
+    
+<center><img src="sites/default/files/443/3.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+    
+<p>Jest też usuwanie reklam - w Chrome dostaję np. reklamy wyskakujące, w treści strony i małym banerku na dole</p>
+    
+<center><img src="sites/default/files/443/4.jpg" style="width:146px;height:300px;" alt="image" title="image" /><img src="sites/default/files/443/5.jpg" style="width:146px;height:300px;" alt="image" title="image" /></center>
+
+<p>w Bromite co najwyżej czasem jakiś &quot;placeholder&quot; albo reklamę w treści stron (jest ich oczywiście mniej niż w Chrome)</p>
+
+<center><img src="sites/default/files/443/6.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Teoretycznie <a href="https://www.bromite.org/custom-filters" target="_blank" rel="noopener" rel="nofollow">można ustawić sobie własną listę filtrów w formacie AdBlock </a>(na jakimś serwerze)... jest też odtwarzanie filmów z YouTube w tle i inne funkcjonalności (<a href="https://github.com/bromite/bromite#features" target="_blank" rel="noopener" rel="nofollow">lista</a>, <a href="https://github.com/bromite/bromite/blob/master/CHANGELOG.md" target="_blank" rel="noopener" rel="nofollow">changelog</a>).</p>
+
+<p>Jeśli chodzi o wydajność, to <a href="?q=node/412">ostatnio pisałem o tym we wrześniu 2020</a>. Obecnie wygląda to następująco:</p>
+
+<p>Bromite</p>
+
+<center><img src="sites/default/files/443/7.jpg" style="width:146px;height:300px;" alt="image" title="image" /><img src="sites/default/files/443/8.jpg" style="width:146px;height:300px;" alt="image" title="image" /></center>
+
+<p>Chrome</p>
+
+<center><img src="sites/default/files/443/9.jpg" style="width:146px;height:300px;" alt="image" title="image" /><img src="sites/default/files/443/10.jpg" style="width:146px;height:300px;" alt="image" title="image" /></center>
+
+<p>Bromite</p>
+
+<center><img src="sites/default/files/443/11.jpg" style="width:146px;height:300px;" alt="image" title="image" /><img src="sites/default/files/443/12.jpg" style="width:146px;height:300px;" alt="image" title="image" /></center>
+
+<p>Chrome</p>
+
+<center><img src="sites/default/files/443/13.jpg" style="width:146px;height:300px;" alt="image" title="image" /><img src="sites/default/files/443/14.jpg" style="width:146px;height:300px;" alt="image" title="image" /></center>
+    
+<p>Wydanie 64-bit Chrome oficjalnie udostępniane będzie <a href="https://blog.chromium.org/2021/03/advanced-memory-management-and-more.html" target="_blank" rel="noopener" rel="nofollow">wyłącznie dla Android Q i 8GB RAM</a> - u mnie na telefonie sprawdziłem wersję 32-bit Chrome i 64-bitową Bromite. Nawet, jeśli wziąć to pod uwagę, to i tak wychodzi na to, że Bromite jest szybsze - czy wynika to z usunięcia różnych elementów od Google czy mniejszej ilości funkcji bezpieczeństwa?</p>
+    
+<p>(jedna uwaga: wersja 8x Bromite ma uciążliwy bug polegający na włączeniu Vulcane w Samsung S9 i przez to klatkowanie filmów i elementów - żeby to naprawić, w <a href="#" target="_blank" rel="noopener" rel="nofollow">chrome://flags</a> nalezy wyłączyć odpowiednią flagę).</p>
+    
+<p>Czy tak czy inaczej, myślę, że spokojnie można zrezygnować z wysyłania haseł do Google (odpowiednia funkcja do sprawdzania, czy coś nie wyciekło), używania funkcji Data Saver (serwowanie skompresowanych stron z serwerów Google, które przy obecnych technologiach ma coraz mniejszy sens i zasięg), pokazywania news-feedu na stronie głównej i &quot;starszego&quot; tab switchera (do którego nie chwaląc się przyłożyłem rękę).</p>
+    
+<p>Jedynym zgrzytem w używaniu tej aplikacji jest sposób uaktualniania - F-Droid (<a href="?q=node/417">pisałem o sposobie jego ustawienia</a>) czasami ma problem z &quot;zauważeniem&quot;, że nasza wersja jest najnowsza.</p>
+    
+<p>Najciekawsze w przypadku tej przeglądarki jest właśnie to, że &quot;oryginalny&quot; Chrome wydaje się być wolniejszy. Próbowałem korzystać z Edge i kilku innych, ale były one tworzone przez korporacje i próbowały wdrażać pewien narzucony światopogląd. Bromite to tak naprawdę zestaw skryptów nakładanych na oryginalny kod, które udostępniają w przeglądarce szereg podstawowych i potrzebnych funkcjonalności. W dobie zaangażowania Google w politykę (oskarżenia o usuwanie łapek w dół na YouTube, uczestniczenie w różnych projektach dla różnych krajów, modyfikacje wyników wyszukiwania i ciekawe sposoby traktowania pracowników się powtarzają) chyba warto go rozważyć... szczególnie, że amerykańska korporacja często nie kryje się ze swoim zapędami i jakoś nie potrafi wyjść z właściwą jakością (usterki kolejnych Pixeli, &quot;zamykanie&quot; Chromebooków i coraz bardziej widoczny oksymoron &quot;Google = prywatność&quot;).</p>
+    
+<p>PS. Mozilla jest nie lepsza. Firefox bardzo dużo stracił w moich oczach po wdrożeniu na siłę ostatniego GUI z karygodnymi jednak błędami (potem to samo zostało zrobione z Torem) - ciekawe, że oceny obu spadły w Google Play do 3.9 czy 3.8, a potem nagle pojawiły się praktycznie same piątki...&#160;&nbsp;</p>

@@ -1,0 +1,23 @@
+﻿Title:Policy privacy for APN in Google Play / Polityka prywatności dla APN w Google Play
+Author:marcin
+When:19 Dec 2017
+Taxonomy:Android,Polski blog,Polski,English,English blog,APN
+SkipMain:true
+
+<p>Android set APNs according to SIM card network code, application makes it according to network code and network name saved on the SIM card:</p>
+<p>1. none of user data (SIM card serial number, SIM card IMSI, SIM card network, phone network number) are saved in device or transmitted from device</p>
+<p>2. application is changing internal phone APN database: can use internal database (you can export it) or external file with data, changes are done on user request, on the start or when network type change</p>
+<p>Permissions:</p>
+<!--break-->
+<p>1. WRITE_APN_SETTINGS - for changing APN in each Android version and getting APN in Android 4.2 and later</p>
+<p>2. RECEIVE_BOOT_COMPLETED - to start after system start</p>
+<p>3. READ_PHONE_STATE - reading SIM card and network info</p>
+<p>4. WRITE_EXTERNAL_STORAGE i READ_EXTERNAL_STORAGE - saving and reading file with data</p>
+<hr /><p>Android domyślnie ustawia APNy stosownie do kodu sieci karty SIM, aplikacja robi to dla kodu sieci i nazwy sieci zapisanej na karcie SIM:</p>
+<p>1. żadne dane użytkownika (numer seryjny karty SIM, IMSI karty SIM, numer sieci karty SIM, numer sieci telefonu) nie są zapisywane w urządzeniu ani wysyłane z urządzenia</p>
+<p>2. aplikacja zmienia dane wewnętrznej bazy APN telefonu: może korzystać z bazy wbudowanej (można ją eksportować) lub zewnętrznego pliku z danymi, zmiany są dokonywane na żądanie użytkownika, przy starcie lub przy zmianie typu sieci</p>
+<p>Uprawnienia:</p>
+<p>1. WRITE_APN_SETTINGS - do zmiany APN w każdej wersji Androida i odczytu w Androidzie 4.2 i późniejszym</p>
+<p>2. RECEIVE_BOOT_COMPLETED - żeby móc się uaktywnić po starcie systemu</p>
+<p>3. READ_PHONE_STATE - odczyt danych sieci i karty SIM</p>
+<p>4. WRITE_EXTERNAL_STORAGE i READ_EXTERNAL_STORAGE - zapis i odczyt pliku z danymi</p>

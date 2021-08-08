@@ -1,0 +1,381 @@
+﻿Title:"All of this has happened before and will happen again" - zakup monitora + (szerzej) o wizji, fonii i gorącym dotyku (2020)
+Author:marcin
+When:23 May 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Linux,Windows,AMD
+
+<p>Dzisiaj "blue screen" czy "kernel panic" to święto, nie ma już często i gęsto potrzeby dźwigania kilogramów ani wystawiania się na promienie X, ale... czy naprawdę cokolwiek się zmieniło, jeśli spojrzymy na to, jak ludzie (od producenta) traktują innych ludzi (swoich drogich i najcenniejszych klientów)? Czy naprawdę, pomimo całego tego postępu technologicznego, staliśmy się lepsi jako gatunek? Wyciągnęliśmy wnioski?
+
+<p>Zapraszam na krótkie spojrzenie na kilka sprzętowych drobiazgów z trochę innej perspektywy, gdzie podam kilka historyjek z życia wziętych, jak również spróbuję podać kilka rozwiązań (kilka, kilka, kilka - wiem).
+
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/quotAll-of-this-has-happened-before-and-will-happen-againquot-zakup-monitora-szerzej-o-wizji-fonii-i-goracym-dotyku,107872.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Pomyślałem sobie, że najlepszym wstępem byłoby video</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/tWclMc0VsQQ?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>albo</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/pZwpcGbGmco?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>...skoro jednak jest to strona o IT, to zacznijmy od</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/rvM82T3C2Ik?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Niektóre z przedstawionych tu rzeczy pamiętam ze swoich doświadczeń. Z pewnej perspektywy bardzo dobrze się o nich pisze albo wspomina (bądź co bądź to jednak wspaniały przykład ludzkiego geniuszu), ja jednak chciałbym o nich serdecznie zapomnieć - co się z nimi nacierpiałem, tego nikt mi nie odbierze.</p>
+
+<p>Dzisiaj &quot;blue screen&quot; czy &quot;kernel panic&quot; to święto, nie ma już często i gęsto potrzeby dźwigania kilogramów ani wystawiania się na promienie X, ale... czy naprawdę cokolwiek się zmieniło, jeśli spojrzymy na to, jak ludzie (od producenta) traktują innych ludzi (swoich drogich i najcenniejszych klientów)? Czy naprawdę, pomimo całego tego postępu technologicznego, staliśmy się lepsi jako gatunek? Wyciągnęliśmy wnioski?</p>
+
+<p>Zapraszam na krótkie spojrzenie na kilka sprzętowych drobiazgów z trochę innej perspektywy, gdzie podam kilka historyjek z życia wziętych, jak również spróbuję podać kilka rozwiązań (kilka, kilka, kilka - wiem).</p>
+
+<p>To jest wpis bardziej amatorski niż pro... Trochę luźnych wspomnień, uwag, przemyśleń... Będzie głównie o monitorach.</p>
+
+<h2><b>Wzrok</b></h2>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/9jIcb5pOvUE?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Fajnie było, jak łzawiły oczy, gdy siedzieliście wiele godzin kilkanaście centymentów od ekranu?</p>
+
+<p>Przy dawnych monitorach CRT (tych z bańką) sprawa była prosta - w najstarszych zakładało się szklany filtr (redukowały promieniowanie), we wszystkich wchodziło się do odpowiedniego panelu sterowania i wybierało najwyższą możliwą częstotliwość odświeżania.</p>
+
+<p>Inną kwestią był fakt wykorzystania złącza analogowego:</p>
+
+<ul><li>dodatkowe, często niskiej jakości, konwertery tylko pogarszały ostrość</li>
+
+<li>trzeba było się bawić chociażby z ustawieniami fazy (że o wpisywaniu wszystkich tych niskopoziomowych ustawień trybów w plikach konfiguracyjnych XWindows nie wspomnę)<br/></li>
+
+</ul><p>Obecnie duża część z tych problemów odeszła, ale... pozostał temat PWM, FRC, DPI, częstotliwości odświeżania, czasu reakcji i niebieskiego światła.</p>
+
+<p>Dzisiaj dużo z nas pracuje z laptopami - juz kilka lat temu przy 15,6&quot; była w nich rozdzielczość Full HD (co daje PPI ok. 140), powłoka na ekranie skutecznie odbijała światło, a 8-bitowa matryca IPS miała czasy reakcji ok. 5 ms.</p>
+
+<p>Przyglądałem się ostatnio w killu miejscach monitorom firmy Dell - miałem możliwość obserwacji jednego z modeli serii E(konomicznej) z 2020, i jednego z serii P(rofesjonalnej) z 2018. </p>
+
+<p>Oba z nich miały 24 cali.</p>
+
+<p>Doznałem pewnego szoku, gdy zobaczyłem, że monitor E:</p>
+
+<ul><li>nie ma jacka (głośniki są)</li>
+
+<li>posiada w dalszym ciągu złącze VGA (jego fizyczną postać zdefiniowo ok. 1987, gdy na rynek wchodził 80386, OS/2 1.0 i zawrotna rozdzielczość 640x480) i PPI ledwo 96 (full HD)</li>
+
+<li>urzeka ładnym dopracowaniem pewnych szczegółów (np. sposobem wkręcania śrubek, który nie wymaga używania śrubokrętów)</li>
+
+<li>bije użytkownika po twarzy, jeśli chodzi o podstawowych funkcje - uchwyt jest niestabilny (monitor lekko drży) i pozwala obniżyć całość na ok. 10 cm nad powierzchnią, a ziarnista powłoka antyodlaskowa dosyć mocno pokazuje wszelkie niedoskonałości obrazu.</li></ul>
+
+<p>Wskazówka: ostatni punkt ma się nijak do zasady, że góra obrazu powinna być nie wyżej niż wzrok użytkownika (obrazek za Wikipedią).</p>
+
+<center><img src="sites/default/files/402/1.png" style="width:269px;height:405px;" alt="image" title="image" /></center>
+
+<p>Teraz monitor z serii P:</p>
+
+<ul><li>przy 24 calach oferuje on rozdzielczość 2560x1440</li>
+
+<li>uchwyt działa w nim o niebo lepiej (jest stabilny, ma też funkcję pivot i przekręcania w bok i obniża urządzenie o 6 cm niżej niż w przypadku ekonomicznego odpowiednika)</li>
+
+<li>nie posiada głośników (przy tej cenie to skandal!)</li></ul>
+
+<p>Żeby nie mieć wątpliwości co do uchwytów - Dell sprzedaje nawet monitory, które nie mają ŻADNEJ regulacji wysokości (mogę jedynie zrozumieć, że użytkownicy posiadają już własne stopki albo uchwyty VESA)</p><p>Granda! (zamiast dużej ilości modeli powinno być kilka z opcjonalnym wyborem stopki)</p>
+
+<p><b>PPI i rozdzielczość</b></p>
+
+<p>Popatrzmy, co daje Full HD, a co 1440p:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Q1GBebgWoIM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Przyznam się, że byłem w szoku, widząc taką dużą przepaść w stosunku do laptopów - obecne monitory stacjonarne ogólnie mają o wiele mniejszą gęstość pikseli i w ogóle nie mają porównania do przenośnych modeli.</p><p><u>Moja rada w tym wypadku</u> - im większe PPI, tym lepiej. Rozumiem, że karta graficzna może się bardziej męczyć, ale z drugiej strony... ostry przyjemny dla oka obraz jest nieporównywalny z niczym innym. Kropka.</p>
+
+<p><i>Ale więcej pikseli to większe zużycie energii.</i></p>
+
+<p>Właściciel modelu z serii P pozwolił mi się pobawić, i wyszło na to, że urządzenie zużywa od 11-13 do 24 W (pierwsze wartości w zależności od koloru przy komfortowej jasności 40%, ostatnia przy zbyt jasnych 100% i starcie komputera, gdy urządzenie nie respektuje ustawień użytkownika).</p>
+
+<p>Dawniej widywałem małe monitory LCD ze zużyciem 5 - 15W, z kolei CRT mogły pobierać znacznie więcej.</p>
+
+<p>Bardzo mi dzisiaj brakuje jasnej informacji, ile dany monitor zużywa prądu w różnych sytuacjach - oznaczenia A, A+ albo A++ są dosyć ogólnie, a przy wspomnianym modelu z serii P widziałem jednak bardzo rozbieżne liczby (manual podaje 20 albo 62W).</p>
+
+<p>Myślę, że dobrze byłoby widzieć liczby przy jasności podświetlenia 25%, 50%, 75% i 100% (i to, ile prądu zużywają dodatki typu porty USB).</p>
+
+<p><b>O co chodzi z tym PWM?</b></p>
+
+<p>Ekrany LCD mogą zawierać w sobie dwa rodzaje podświetlenia - diodami (niektórzy marketingowo nazywają je wtedy ekranami LED) albo świetlówkami (tak było kiedyś), które potrafią być umieszczane w różnych konfiguracjach (na krawędziach, pod całym ekranem, etc.) i mogą dotyczyć całego ekranu lub jego stref.</p>
+
+<p>Sposoby sterowania jasnością samych diód są wyłącznie dwa: analogowe/DC (Direct Current – regulujemy natężenie prądu płynącego do diód) albo PWM (Pulse-Width Modulation – stosujemy modulację szerokością impulsu, czyli włączamy i wyłączamy diody na określony czas).</p>
+
+<p>Niektórzy mówią jeszcze o podświetlaniu matrycowym, ale ono dotyczy wyłącznie konstrukcji, w której pojedyńczy układ steruje podświetlaniem PWM wszystkich składowych na raz (w przeciwieństwie do układów, gdzie poszczególne składowe są obsługiwane przez oddzielne elementy).</p>
+
+<p>DC wymaga bardziej skomplikowanych układów, przy PWM chyba jest coś mowa o oszczędnościach prądu (mogę się mylić)... dziwnym trafem wielu producentów &quot;zapomina&quot; wspomnieć, że to najbardziej oczywista droga do uzyskania efektu mrugania - jeżeli włączanie/wyłączanie dokonywane jest z niską częstotliwością, to oczy wielu z nas będą łzawić jak przy starych CRT.</p>
+
+<p>Przerywnik: przypomina mi się tu przypadek z zamierzchłej przeszłości - HP ProBook 6450b wykazywał właśnie objawy stosowania PWM (widać to było nawet na podglądzie kamery telefonu komórkowego). Była tam karta Intela i był to czas stosowania Windows 7. Pamiętam, jak się długo naszukałem, ale w końcu znalazłem małą aplikację (bodajże <a href="https://github.com/dmytrov/IntelPWMControl" target="_blank" rel="noopener" rel="nofollow">https://github.com/dmytrov/IntelPWMControl</a> albo <a href="https://github.com/Kappa71/PWM" target="_blank" rel="noopener" rel="nofollow">https://github.com/Kappa71/PWM</a>), po użyciu której częstotliwość była zwiększana i możliwe było wysiedzenie i używanie tego urządzenia.</p>
+
+<p>Producenci obecnych monitorów reklamują wiele z nich, pisząc o stosowaniu technologii typu &quot;flicker-free&quot; (w praktyce oznacza to używanie DC albo PWM z bardzo wysoką częstotliwością)</p>
+
+<p>Przykład z instrukcji Della: &quot;<b>Analog</b> backlight dimming control for <b>flicker free </b>display. Optimize eye comfort with a <b>flicker-free</b> screen.&quot;</p>
+
+<p>Przerywnik: na pytanie o stosowanie PWM jedna z firm odpowiedziała mi ostatnio, że rating konkretnego ekranu to 10.0 (mogę tylko przypuszczać, że chodziło o skalę ocen ze strony <a href="https://laptopmedia.com/top-laptop-pwm-ranking-rated-by-negative-impact-on-eyesight/" target="_blank" rel="noopener" rel="nofollow">https://laptopmedia.com/top-laptop-pwm-ranking-rated-by-negative-impac...</a>, który jakby ma się nijak do podania &quot;jest/nie ma&quot; albo &quot;PWM jest z częstotliwością 20000 Hz&quot;). Szkoda, że w AD 2020 dalej stosowane są takie tricki.</p>
+
+<p>Bardzo cieszą testy niektórych portali (np. <a href="https://www.notebookcheck.net/" target="_blank" rel="noopener" rel="nofollow">https://www.notebookcheck.net/</a>), gdzie podobne rzeczy mierzone są dokładnie w całym zakresie jasności np. dla testowanych laptopów.</p><p><u>Moja rada przy wyborze podświetlenia</u> - PWM ma nie być. Kropka.</p>
+
+<p>Więcej: <a href="https://www.eizo.pl/zmeczenie-oczu/zmeczenie-oczu-podswietlenie-led/" target="_blank" rel="noopener" rel="nofollow">https://www.eizo.pl/zmeczenie-oczu/zmeczenie-oczu-podswietlenie-led/</a> albo <a href="https://training.ti.com/dimming-methods-analog-dimming" target="_blank" rel="noopener" rel="nofollow">https://training.ti.com/dimming-methods-analog-dimming</a> (o podświetlaniu analogowym) albo <a href="https://laptopmedia.com/highlights/what-is-pwm-why-is-it-important-and-why-did-we-add-this-test-to-our-reviews/" target="_blank" rel="noopener" rel="nofollow">https://laptopmedia.com/highlights/what-is-pwm-why-is-it-important-and...</a> (bardzo ładne wykresy porównawcze różnych podświetleń PWM i DC, które pokazują, dlaczego nasze oczy bywają zmęczone)</p>
+
+<p><b>Czy FRC jest szkodliwe?</b></p>
+
+<p>I jest, i nie jest.</p>
+
+<p>Karty graficzne wyświetlają określoną ilość kolorów, a panele mają swoje fizyczne (mniejsze) możliwości. Wtedy do głosu dochodzi FRC, czyli naprzemienne wyświetlanie w miejscu pixela dwóch różnych kolorów. Jest to oczywiście najkrótszy sposób na mruganie, ale... o ile w przypadku PWM mruga cały panel, to tu zjawisko może dotyczyć tylko niektórych elementów.</p>
+
+<p>Tak było np. w przypadku &quot;starych&quot; paneli TFT (miały możliwość reprezentacji 6-bitowej pojedyńczej barwy RGB, co ogólnie dawało możliwość reprezentacji 18-bitowej palety kolorów i było niewystarczające w przypadku 16.7 milionów kolorów, czyli palety 24-bitowa). </p>
+
+<p>Żyliśmy z tym latami i jakoś problemu nie było.</p>
+
+<p>Takie 6-bitowe panele IPS proponował Dell w serii P(rofesjonalnej) nawet w 2018 roku. Są w dalszej sprzedaży, obecnie jednak różnica w cenie jest minimalna i<u> sugeruję się rozglądać za czymś, co nie używa tej techniki. Nie warto.</u></p>
+
+<p>Monitor powinien mieć jak najszersze pokrycie palet kolorów i pokazywać jak najwięcej barw. Kropka.</p>
+
+<p>Przy &quot;gorszach&quot; panelach można ewentualnie wymuszać na karcie graficznej obniżanie ilości kolorów z jej strony (zdaje się, że jest to opcja &quot;Depth&quot; z panelu NVidii, jak poniżej):</p>
+
+<center><img src="sites/default/files/402/2.png" style="width:549px;height:405px;" alt="image" title="image" /></center>
+
+<p>Przykład mrugania, który uzmysłowi całą sprawę: <a href="https://en.wikipedia.org/wiki/Frame_rate_control" target="_blank" rel="noopener" rel="nofollow">https://en.wikipedia.org/wiki/Frame_rate_control</a></p>
+
+<p><b>Częstotliwość odświeżania i czasy reakcji</b></p>
+
+<p>Pamiętam, jak przy ostatnich generacjach monitorów CRT wskazywano 85 albo 100 Hz jako ergonomiczne minimum, potem w panelach LCD przyszło 59 - 60 Hz, żeby teraz w konstrukcjach dla graczy osiągać 144 Hz czy więcej.</p>
+
+<p>Pamiętam też ekrany LCD z czasem reakcji 50 ms, na których widać mocne było smużenie.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/oLiiCjPDyFI?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Obecnie zeszliśmy do 5 - 8 ms, a w monitorach dla graczy nawet do 1 ms.</p>
+
+<p><u>Zasada jest tu prosta - 60 Hz i 5-8 ms w wielu wypadkach nie powinno być żadnym ograniczeniem... ale jeśli te parametry będą lepsze, to dla nas tylko lepiej. </u></p>
+
+<p>Osoby dużo pracujące zawodowo nad statyczną grafiką, przeglądające internet lub grające od czasu do czasu mogą chcieć kupić monitor z większym DPI czy szerszą barwą kolorów (gorąco polecam), z kolei osoby dużo grające (gdzie obraz zmienia się dynamicznie) mogą i będą potrzebować lepszych wartości tych parameterów.</p>
+
+<p>W przypadku monitorów Dell mamy jeszcze w menu opcję &quot;Response time&quot; - warto sprawdzić obie wartości (Normal/Fast).</p>
+
+<p>Jak wyglądają ekrany zmiany częstotliwości, przypominam poniżej (w pingwinie z Gnome &quot;Refresh Rate&quot; nie jest w ogóle pokazywane, jeśli wartość jest tylko jedna - z punktu ergonomii jest karygodne, bo sugeruje brak obsługi w ogóle):</p>
+
+<center><img src="sites/default/files/402/3.png" style="width:608px;height:312px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/402/4.png" style="width:483px;height:405px;" alt="image" title="image" /></center>
+
+<p>Windows-Pingwin 1:0.5</p>
+
+<p>Przerywnik: A jak będzie przy matrycach o niskim zużyciu energii? Zobaczymy (jedyne, jak dotąd widziałem, to takie z możliwością włączenia własnego odświeżania zamiast ustawienia wartości z komputera)</p>
+
+<p><center><img src="sites/default/files/402/5.png" style="width:608px;height:326px;" alt="image" title="image" /></center>
+
+<p><b>A jasność ekranu?</b></p>
+
+<p><u>Przy urządzeniach przenośnych jak najwyższa (są używane nawet na dworze), przy stacjonarnych pewnie wystarczy 250 - 300 cd</u> (sam ustawiam zazwyczaj jasność &lt; 50%).</p>
+
+<p>Ustawiam ją wpierw z panelu monitora, dopiero potem ewentualnie w sterownikach graficznych (chodzi o oszczędność energii na pewno osiągalną, jeżeli steruje tym monitor).</p>
+
+<p><b>Jak podłączać?</b></p>
+
+<p><u>Cyfrowo</u>. Na próbę podłączyłem oglądany zestaw pod miernik i sprawdziłem zużycie prądu przy statycznym obrazie testowym na DP i HDMI i różnic nie stwierdziłem. Proszę nie traktować tego jak profesjonalnej porady.</p>
+
+<p><b>Clear-Type, dithering i ułożenie pikseli</b></p>
+
+<p>Pisałem już o PPI, teraz trochę o części programowej - dawno, dawno określono pewne algorytmy, dzięki którym system operacyjny (znając rozdzielczość) jest w stanie wygenerować &quot;ładniej&quot; wyglądające czcionki.</p>
+
+<p>Ważne jest tutaj wybranie:</p>
+
+<ol><li>technologii antialiasingu (ClearType, subpixel, etc.)</li>
+
+<li>intensywności efektu polepszania (hintingu)</li>
+
+<li>sposobu, w jaki sposób zbudowano ekran LCD (jak ustawiono w nim piksele)</li></ol>
+
+<p>O ile w &quot;starym i nienowoczesnym&quot; Windows XP miałem &quot;Microsoft ClearType Tuner PowerToy&quot;, gdzie do dyspozycji był &quot;skomplikowany&quot; ekran</p>
+
+<center><img src="sites/default/files/402/6.png" style="width:498px;height:405px;" alt="image" title="image" /></center>
+
+<p>to w &quot;nowoczesnym&quot; Windows 10 <a href="https://www.howtogeek.com/howto/28790/tweak-cleartype-in-windows-7/" target="_blank" rel="noopener" rel="nofollow">mam wyłącznie &quot;prostego&quot; czarodzieja</a>, gdzie muszę wybierać między niewiele różniącymi się obrazkami (musze też użyć Rejestru, jesli mam wybrać sposób budowy ekranu).</p>
+
+<center><img src="sites/default/files/402/7.png" style="width:521px;height:405px;" alt="image" title="image" /></center>
+
+<p>Kurtyna.</p>
+
+<p>Jak wygląda to w Ubuntu z Gnome?</p>
+
+<p>Pozostaje np. instalacja &quot;Gnome Tweaks&quot; ze sklepu albo &quot;sudo apt install gnome-tweaks&quot;</p>
+
+<center><img src="sites/default/files/402/8.png" style="width:580px;height:405px;" alt="image" title="image" /></center>
+
+<p>Jeżeli chcemy poinformować system o sposobie ułożenia pikseli, to trzeba skorzystać z &quot;dconf-editor&quot;</p>
+
+<center><img src="sites/default/files/402/9.png" style="width:419px;height:405px;" alt="image" title="image" /></center>
+
+<p>(można też chyba nadal <a href="https://itectec.com/ubuntu/ubuntu-how-to-change-font-rendering-to-sub-pixel-bgr-ordering/" target="_blank" rel="noopener" rel="nofollow">użyć linii komend</a>).</p>
+
+<p>Ode mnie złota malina, podobnie jak w przypadku Windows. 0.5:0.5</p>
+
+<p>Aż chciałoby się zacytować mistrza Gordona: you, you, you, pi pi pi (grzecznie opuśćcie piekielną kuchnię i w spokoju skierujcie się do swoich pokojów)</p>
+
+<p>Linki na dziś: <a href="http://www.lagom.nl/lcd-test/subpixel.php" target="_blank" rel="noopener" rel="nofollow">http://www.lagom.nl/lcd-test/subpixel.php</a> (jeżeli nie możemy znaleźć informacji o budowie ekranu, strona pomaga ją sprawdzić)</p><p>
+
+<b>Wielkość czcionek i rozdzielczość</b></p>
+
+<p>Ze względu na ostrość ma być ustawiona jak największa rozdzielczość, a wielkość czcionek dostosowana stosownie do naszych preferencji.</p>
+
+<p>W Ubuntu do precyzyjnej kontroli tego ostatniego potrzebne jest wspomniane narzędzie &quot;Gnome Tweaks&quot; (standardowo mamy wyłącznie przełącznik &quot;małe/duże czcionki), a w Windows robimy to z Panelu Sterowania. </p>
+
+<p>1:0.5 dla szklarzy i kilka ekranów, tak dla zasady. Zacznijmy od historii:</p>
+
+<center><img src="sites/default/files/402/10.png" style="width:363px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/402/11.png" style="width:356px;height:405px;" alt="image" title="image" /></center>
+
+<p>Przejdźmy do surowej &quot;nowoczesnej&quot; siermiężności:</p>
+
+<center><img src="sites/default/files/402/12.png" style="width:608px;height:326px;" alt="image" title="image" /></center>
+
+<p>i skończmy na miksie:</p>
+
+<center><img src="sites/default/files/402/13.png" style="width:483px;height:405px;" alt="image" title="image" /></center>
+
+<p><b>Co z niebieskim światłem?</b></p>
+
+<p>W Ubuntu ochrona przed nim jest wbudowana (przy czym czasem nie włącza się pomimo ustawienia opcji):</p>
+
+<center><img src="sites/default/files/402/14.png" style="width:483px;height:405px;" alt="image" title="image" /></center>
+
+<p>ta sama opcja w Windows nie sprawia żadnych problemów:</p>
+
+<center><img src="sites/default/files/402/15.png" style="width:608px;height:326px;" alt="image" title="image" /></center>
+
+<p>1:0.5 dla okien.</p>
+
+<p>Nie wnikam w to, na ile takie światło jest szkodliwe, ale skądinąd doczytałem się, że w przypadku monitorów Dell konieczne jest wybranie zestawu &quot;ComfortView&quot;, żeby wykorzystać reklamowaną w broszurkach podobną, realizowaną sprzętowo funkcję.</p>
+
+<p><b>I kilka słów podsumowania</b></p>
+
+<p>Pingwin wciąż wypada trochę gorzej, jeśli chodzi o łatwość konfiguracji (w mojej subiektywnej punktacji 2:3.5) - jest wszystko, ale jest nie dostępne od pierwszego wejrzenia.</p>
+
+<p> Na samym monitorze nie ma co oszczędzać, nie chciałem też pisać peanów na cześć urządzeń amerykańskiej firmy.</p><p>Na pewno widzę, że mnie osobiście w nich bardziej odpowiadałaby powłoka ekranu określana jako &quot;3H Hard Coating&quot; niż zwykły &quot;Hard Coating&quot;. </p>
+
+<p>O ile nie przeszkadza nam brak precyzyjnego określenia barw przez temperaturę (monitory, które widziałem, mają wyłącznie nastawy &quot;Warm&quot;, &quot;Cool&quot;, itp.), to dla wielu z nas wystarczy seria P (i najważniejsza będzie tak naprawdę rozdzielczość)... albo trzeba szukać produktów innych firm, które mogą być znacznie tańsze i dawać znacznie lepsze wrażenia wizualne. Sugeruję tu bardzo uważne wczytywanie się w każdy parametr, bo diabeł ktwi w szczegółach (np. 6-bitowy panel). </p>
+
+<p>Pamiętam, jak lata temu starałem się używać telefonów z AMOLED, miałem też okazję przyjrzeć iPod Nano z LCD. Ten ostatni na papierze był znacznie gorszy, zaś w praktyce pozwalał na wielogodzinne granie...</p>
+
+<p>Dzisiaj w wielu wypadkach nie mam problemów, żeby u znajomych używać MacBooków (choć normalnie nietoleruję szklanych matryc). To sprowokuje mnie do stwierdzenia trzech rzeczy:</p>
+
+<ol><li>nawet najlepsze urządzenie jest nic nie warte, jeśli nasze podstawowe zmysły są gwałcone </li>
+
+<li>popularność niektórych marek nie wynika z tego, że są dobre, tylko dlatego, że zrobiły dobrze techniczną robotę w pewnych najważniejszych obszarach</li>
+
+<li>nawet najlepsza technologia może być wdrożona w karygodny sposób (stąd nie ma co łapać się na wartości cyferek, tylko samemu trzeba mozolnie wszystko posprawdzać po kolei)</li></ol>
+
+<p>Abstrachując od tego, przejdźmy do innych zmysłów, czyli poruszmy w kilku słowach temat dźwięku i dotyku (już znacznie krócej).</p>
+
+<h2><b>Dźwięk</b></h2>
+
+<p>Na szczęście powoli odchodzimy od głośnych zasilaczy, dysków twardych, wentylatorów, itp. </p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/MagpVOMeXlY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>To była prawdziwa zmora dla osób z wrażliwymi uszami, a obecnie nie jest problemem dobranie cichych komponentów do komputera stacjonarnego (sam ostatnio <a href="?q=node/383" target="_blank" rel="noopener" rel="nofollow">budowałem wyciszany system ITX z AMD na zamówienie</a>).</p>
+
+<p>Tutaj mała uwaga - przez długi czas było miło w przypadku płyt głównych i bardzo niedobrze się stało, że chipset X570 do AMD najczęściej parowany jest z wiatraczkiem.</p>
+
+<p>W laptopach różnie bywa z głośnością układu chłodzenia - są ustawiane tak, że włączają się właściwie dopiero blisko temperatur krytycznych (częściowo MacBooki) i mają ustawienie zerojedynkowe (cisza / praca pod pełnym obciążeniem).</p>
+
+<p>Użytkownicy radzą sobie z tym w różny sposób - ja np. <a href="?q=node/382" target="_blank" rel="noopener" rel="nofollow">pokazywałem, jak sobie radzić z Dellem w Windows 10</a>.</p>
+
+<p>Urządzenia zarówno stacjonarne, jak i przenośne, wciąż cierpią na piszczące cewki (mnie się to nie zdarza obecnie, ale w przypadku tańszych modeli jak najbardziej jest możliwe). Nie jest to chyba przypadek odosobniony, skoro pojawiają się takie filmiki:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/kFxAVxhpy30?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Te wszystkie aspekty (głośność i piszczenie) są testowane znów m.in. przez <a href="https://www.purepc.pl/" target="_blank" rel="noopener" rel="nofollow">https://www.purepc.pl/</a> i <a href="http://www.notebookreview.net" target="_blank" rel="noopener" rel="nofollow">https://www.notebookcheck.net/</a></p>
+
+<p>Jeżeli chodzi o układy dźwiękowe, to kiedyś mieliśmy bardzo dobrą sytuację - kolejne karty dźwiękowe oferowały coraz lepsze parametry.</p>
+
+<p>To się zmieniło z nadejściem kart zintegrowanych (mamy też nie tylko układy na płytach głównych, ale również możliwość przesyłania dźwięku z karty graficznej do monitora) i dzisiaj mało kto decyduje się na zakup oddzielnego pudełka na PCI-e czy USB.</p>
+
+<p>Stało się - ludzie o dobrym słuchu muszą się pogodzić, że czasem trzeba cierpieć...</p>
+
+<h2><b>Parzący dotyk</b></h2>
+
+<p>Temperatury to temat rzeka, który wraca jak bumerang - w komputerach przenośnych TDP bywa coraz niższe, a wraz z nim zmniejsza się grubość i wydajność układów chłodzenia. To widać szczególnie w najmniejszych modelach, ale nie tylko.</p>
+
+<p>Myślę, że częściowo ten temat będzie rozwiązany w 2020 - Dell wypuścił mocno zmienione układy w serii XPS i Precision, w modelach z Ryzen 3950x mamy więcej miedzi, itp.</p>
+
+<p>A na testy zapraszam na strony <a href="https://www.purepc.pl/" target="_blank" rel="noopener" rel="nofollow">https://www.purepc.pl/</a> i <a href="https://www.notebookcheck.net/" target="_blank" rel="noopener" rel="nofollow">https://www.notebookcheck.net/</a></p>
+
+<p>Wygląda na to, że narzekania użytkowników cześciowo zostały wysłuchane, co prowokuje do szerszej refleksji...</p>
+
+<h2><b>&quot;All of this has happened before and will happen again&quot;</b></h2>
+
+<p>Spectrum vs Atari, Java vs Kotlin, Amiga vs Pecet, Windows vs Linux, AMD vs Intel, x86 vs ARM - małe śmieszne wojenki trwały, trwają i będą trwać. Miliony bloggerów i dziennikarzy muszą żyć, młode wilki chcą się wykazać, w firmach ważny jest mityczny wzrost.</p>
+
+<p>Całe to czytanie &quot;rynek PC skurczył się o 10%&quot; (to co, wszyscy nagle wrzucili komputery do niszczarek?) albo &quot;AMD pracuje nad ZEN5&quot; / &quot;Samsung pracuje nad &quot;Galaxy Note 20&quot; / &quot;Apple pracuje nad iPhone 12&quot; (a nad czym innym mają, do jasnej ciasnej, pracować?) mnie szczerze mówiąc już męczy. Podobnie jest z oglądaniem płaczu, że po wielu latach &quot;wzrostu&quot; jeden gorszy kwartał to już katastrofa.</p>
+
+<p>Korporacje narzekają na brak zbytu i obniżają koszty, jak obniżają koszty, to spada jakość, jak spada jakość, to mniej nowych produktów znajduje nabywców. Zakup drogich urządzeń to brak wymiany przez dłuższy czas, a to też niedobre z punktu widzenia producentów (i dlatego nie zawsze drogie = dobrej jakości).</p>
+
+<p>To jest pewien cykl i (nie)naturalna kolej rzecz - dochodzimy do doskonałości, tniemy ją aż do progu bólu, po jego przekroczeniu zaczynamy zabawę od nowa.</p><p>Dobrze, jeżeli w międzyczasie na rynek wchodzi nowa technologia - wtedy i tylko wtedy jest na co się przerzucić i można mówić o postępie.</p>
+
+<p>Obecna sytuacja w wielu obszarach IT potwierdza koniec kolejnego cyklu tego procesu (<a href="?q=node/397" target="_blank" rel="noopener" rel="nofollow">pokazywałem to dla softu na porównaniu do lotnictwa</a>). Starają się właściwie tylko firmy, które chcą przejąć rynek - stąd &quot;wspaniałomyślna&quot; zmiana zdania przez AMD w przypadku obsługi Zen 3 (myślę, że doskonale czują problemy, jakie ich czekają na rynku laptopów). </p>
+
+<p>Ameryki chyba tym nie odkryję, że wpadliśmy w pewien kołowrotek... pod tytułem &quot;produkujemy tony śmieci, bo fabryki już są, jest też plan do wyrobienia i użytkownicy wezmą wszystko, jak leci&quot;.</p>
+
+<p>W przypadku monitorów: dlaczego nie można ich zasilać z USB? Dlaczego dołączane są do nich kable zasilające, papierowe instrukcje, słabej jakości stopki i kable VGA? Dlaczego w ogóle produkuje się jeszcze przetworniki do tego ostatniego standardu?</p>
+
+<p>W przypadku nowych płyt głównych: dlaczego mamy złącza VGA? (ASUS Prime B550M-A)</p>
+
+<p>Jakiś czas temu (naiwnie ?) myślałem, że jedynym rozwiązaniem byłby powrót do starej dobrej sprawdzonej modułowości, ale do tego nie dojdzie, bo elektronikę można produkować zbyt tanio.</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/ZgrnqSUgPt8?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Żeby obecna była elektronika dla ludzi, trzeba umieć ją projektować i przeciwdziałać sabotażom na etapie produkcji:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/AUaJ8pDlxi8?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>(ewentualnie <a href="https://antyweb.pl/uszkodzony-kabel-lightning-to-nie-przypadek-a-konsekwencja-podejscia-firmy/" target="_blank" rel="noopener" rel="nofollow">https://antyweb.pl/uszkodzony-kabel-lightning-to-nie-przypadek-a-konse...</a>)</p>
+
+<h2>Lecz się sam (znowu)</h2>
+
+<p>Może w tej sytuacji warto usiąść do nauki, poznać podstawowe zasady i zacząć coś tworzyć samemu?</p>
+
+<p>Popatrzmy na przykład na to:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/8jeLCQ62vFk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p>
+
+<p><b>i<br/></b></p>
+
+<p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/V-vFtiDYiIw?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Nie musimy czekać na kolejne wspaniałe urządzenia i na to, że ludzie pracujący po 12h w korporacjach sami za nas wszystko zrobią (wielu z nich jest za bardzo zmęczonych po tej harówce).</p>
+
+<p>Już dziś mamy wszystko, żeby rewolucje dokonywały się właściwie automatycznie... używajmy eGPU, NVME i wszystkiego innego... składajmy, róbmy i działajmy. Kiedyś internety były na dyskietkach, teraz są światłowody. Kiedyś nie było darmowego oprogramowania, teraz się zewsząd wylewa. Dużo tego jest.</p>
+
+<p>Myślę, że najlepszy przykład dają Azjaci albo inicjatywy z Kickstarter (pytanie tylko, czy chce nam się do nich dołączyć i uczknąć trochę z tego tortu). Nie potrzebujemy nawet 5G czy innych &quot;wspaniałych&quot; wynalazków - wydaje mi się, że w naszym interesie jest wręcz opóźniać ich wprowadzanie i tym samym zmuszać producentów do lepszej utylizacji tego, co już jest (proszę nie myśleć, że chodzi o jakiś sprzeciw przeciw postępowi - to są dwie różne rzeczy)</p>
+
+<p>Dobry przykład tej zasady, to reakcja na burzę rozpętaną przez AMD. Początkowo nawet ich tłumaczono:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/JluNkjdpxFo?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>obecnie &quot;łaskawie&quot; zmienili zdanie, bo nie mieli wyjścia.</p><p>Tak samo było ostatnio z Netflix, który ocenzurował nawet &#39;Powrót do przyszłości&#39; (<a href="https://antyweb.pl/skrocone-usuniete-i-zmienione-sceny-w-filmach-na-netflix/" target="_blank" rel="noopener" rel="nofollow">więcej</a>).</p>
+
+<p>Dzisiejsze zakupy to przede wszystkim pole minowe... pisałem o tym kilka razy i powtórzę to ponownie. Mamy możliwość zakupów na odległość i możliwości zwrotu towaru w przeciągu 28 dni (14 dni na wysłanie oświadczenia i 14 dni na odesłanie towaru, który nie powinien być uszkodzony i ma spełniać różne kryteria). Nie nadużywajmy tego, ale również korzystajmy, gdy musimy, dzielmy się doświadczeniami i próbujmy wyciągnąć coś dobrego z całej sytuacji.</p>
+
+<p>...i bardzo uważajmy, której firmie dajemy nasze pieniądze.</p>
+
+<p>Tylko tyle, i aż tyle.</p>
+
+<h2><b>Nie daj się zwariować</b></h2>
+
+<p>Ktoś mógł przyjść tutaj, żeby wszcząć gównoburzę, a ja coś bredzę o jakimś myśleniu, o jakimś tworzeniu i innych głupotach.</p>
+
+<p>Myślę, że zbyt wielu daje się wciągnąć w jakieś nieistotne, sztucznie napędzane, ekscytacje. Wspomnę o dwóch najważniejszych rzeczach, czyli polityce i polityce.</p>
+
+<p>Sprawa pierwsza, czyli radiowa Trójka. Wielu ludzi z poprzedniego pokolenia czasem musiało podpisywać różne dokumenty (byli młodzi, chcieli wyjechać, itd.), obecny rynek muzyczny też ma swoje za uszami. Dobrze ujęła to pani Rabczewska (podobnież bardzo inteligentna kobieta):<a href="https://web.facebook.com/officialdoda/posts/3164887936889801?_rdc=1&amp;_rdr" target="_blank" rel="noopener" rel="nofollow"> https://web.facebook.com/officialdoda/posts/3164887936889801?_rdc=1&a...</a></p>
+
+<p>Czy coś zmieni, jak jakiś Kowalski zacznie krzyczeć na jakimś tam forum?</p>
+
+<p>Tak samo wirusy były, są i będą... ten ostatni daje nam się we znaki w sposób niespotykany i to jest jedyna różnica. Myślę, że wielu ludzi chce od tego uciec i mieć nadzieję, że już jutro wszystko będzie jak dwanaście miesięcy temu. Świat oczywiście przetrwa, ale dużo rzeczy się zmieni. Zamiast nazywać innych pospólstwem albo tkwić w śmiesznych dyskusjach pod tytułem &quot;skoro masz Androida, to nie jesteś mi godzien pucować butów&quot;, zacznijmy w końcu coś robić z tą techniką... albo przynajmniej pisać, jakie są jej wady i zalety. </p>
+
+<p>Pamiętajmy przy tym jedno - po całej tej awanturze w wirusem będzie duża nagonka na konsumpcjonizm. Nie dajmy się zwariować. Nie warto.</p>
+
+<p>Tyle ode mnie, może bez ładu i bez składu, ale sam jestem zmęczony różnymi rzeczami.</p>
+
+<p>PS. Dla porównania kilka słów z 2011:<a href="?q=node/189" target="_blank" rel="noopener" rel="nofollow"> http://mwiacek.com/www/?q=node/189</a> (Notebook A.D. 2012, czyli o czym trzeba mieć świadomość...) czy <a href="?q=node/188" target="_blank" rel="noopener" rel="nofollow">http://mwiacek.com/www/?q=node/188</a>&#160;&nbsp;</p>

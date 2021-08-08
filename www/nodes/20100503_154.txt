@@ -1,0 +1,15 @@
+﻿Title:Startujemy (2)
+Author:marcin
+When:03 May 2010
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Pomyślałem, że się jednak nic strasznego nie stanie,<br />
+jak na stronie mojej zacznę wierszy publikowanie.<br />
+Tak pomyślałem i tak dzisiaj w końcu zrobiłem,<br />
+nową kategorię <a href="?q=taxonomy/term/wiersz">"wiersz"</a> tutaj utworzyłem.<br />
+Żeby twórczość zobaczyć, trzeba <a href="?q=taxonomy/term/wiersz">w nią w menu kliknąć</a>,<br />
+inaczej dużej części na stronie głównej można uniknąć...<br />
+Jest też nowy długi utwór dzisiaj światu pokazany,<br />
+po długim łykendzie obserwacji opublikowany...</p>
+<!--break-->

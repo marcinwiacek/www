@@ -1,0 +1,103 @@
+<HTML>
+<STYLE TYPE="text/css">
+.bzyk {
+	font-family: 'Tahoma' ;
+}
+
+Body {
+	background-color: gainsboro;
+}
+.Body {
+	background-color: gainsboro;
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+}
+div.body a {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: gainsboro;
+	text-decoration: underline;
+}
+div.body a:visited {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: gainsboro;
+	text-decoration: underline;
+}
+div.body a:active {
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: gainsboro;
+	text-decoration: none;
+}
+div.body a:hover {
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: gainsboro;
+	text-decoration: none;
+}
+
+
+.Body3 {
+	font-weight: normal;
+	font-size: 10pt;
+	color: white;
+	font-style: bold;
+	font-family: 'Tahoma' ;
+	background-color: blue;
+}
+
+.Body4 {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: none;
+	font-family: 'Tahoma' ;
+	background-color: white;
+}
+
+a {
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: white;
+	text-decoration: underline;
+}
+a:active {
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: white;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	font-style: normal;
+	font-family: 'Tahoma' ;
+	background-color: white;
+	text-decoration: none;
+}
+
+</STYLE>
+</HTML>

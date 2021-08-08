@@ -1,0 +1,99 @@
+﻿Title:I przyszła koronka, i nastała normalność... (2020)
+Author:marcin
+When:14 Nov 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android,x86,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/I-przyszla-koronka-i-nastala-normalnosc,111810.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p><b>Oprogramowanie</b></p>
+
+<p>Rozszerzone wsparcie dla Microsoft Office 2010 właśnie się kończy i część firm budzi się za przeproszeniem z ręką w nocniku. Wcześniej to samo przeżywaliśmy chociażby z Windows 7 i Windows XP, podobny &quot;problem&quot; jest też widoczny z kolejnymi wydaniami Androida i wieloma innymi produktami.</p>
+<!--break-->
+<p>Pomyślmy teraz chwilę o roku 2010. Co też się wtedy działo?</p>
+
+<p>Z wybranych wydarzeń - znana wszystkim katastrofa (nie mogłem się powstrzymać) i wybranie Bronisława K., otwarcie Centrum Nauki Kopernik w Warszawie, wyłączenie ostatniej Odry 1305 (w PKP), premiera pierwszego iPada, zamknięcie przestrzeni powietrznej nad większą częścią Europy, opublikowanie w WikiLeaks tysięcy dokumentów na temat Guantanamo i wojen w Afganistanie i Iraku, końcówka Nehalemów (Westmere w 32 nm) i Phenomów.</p>
+
+<p>Nowoczesność polega na tym, żeby korzystać z coraz wydajniejszych, bardziej ekologicznych i dających większe korzyści rozwiązań.</p>
+
+<p>Office 2010 w 2020 roku do wielu rozwiązań jest oczywiście wystarczający, ale czy optymalny?</p>
+
+<p>Pakiet Microsoftu przez lata był niedoścignionym wzorem, któremu w Polsce bardzo pomogło tzw. piractwo i trzymanie się własnościowych &quot;zamkniętych&quot; formatów plików.</p>
+
+<p>Obecnie przyszedł Internet, komórki, tablety i masa innych rozwiązań, dostępnych chociażby z przeglądarki.</p>
+
+<p>Pakiet chmurowy kosztuje zdecydowanie zbyt dużo, jeżeli chcemy tylko od czasu coś napisać, policzyć albo zaprezentować.</p>
+
+<p>Podobnie ciekawa sytuacja widoczna jest w firmach, które szczególnie teraz powinny uważać na rozwiązania chmurowe (bezpieczeństwo, ale również &quot;przypominanie&quot; sobie przez korporacje, że infrastruktura jednak kosztuje).</p>
+
+<p>To tyle, jeśli o chodzi o Office - moim zdaniem był kamieniem milowym, ale chyba czas najwyższy na emeryturę całego modelu oprogramowania proponowanego przez Microsoft.</p>
+
+<p>Co do samych wersji, to powiedziałbym, że mamy co najmniej dwa modele migracji oprogramowania - czekamy na koniec wsparcia i migrujemy się na hurra, albo dokonujemy migracji, gdy tylko nowe rozwiązanie przejdzie choroby wieku dziecięcego.</p>
+
+<p>Na maszynach produkcyjnych migracje potrafią być wystarczające skomplikowane (i tu pewnie przez długi czas zdarzać się będą starsze, tylko łatane, wersje), ale na wszystkich innych warto robić to regularnie i zdobywać przy tym cenną wiedzę techniczną.</p>
+
+<p>Jeśli chodzi o systemy operacyjne, to mam tu jedno przemyślenie, i podam to na konkretnym przykładzie.</p>
+
+<p>Wpierw pytanie - ile aktualnie mamy <a href="https://ubuntu.com/about/release-cycle" target="_blank" rel="noopener" rel="nofollow">wspieranych wydań Ubuntu</a>?</p>
+
+<p>14.04 LTS jest w obrębie ESM (Extended Security Maintenance), więc go nie liczę.</p><p>16.04 LTS zdecydowanie zalicza się do obszaru &quot;Maintenance Updates&quot;, z kolei 18.04 LTS i 20.04 w okresie &quot;Hardware and maintenance updates&quot;.</p>
+
+<p>Wychodzi więc na to, że obecnie wspierane są trzy wersje LTS (Long Time Support), do tego dochodzi oczywiście &quot;krótka&quot; wersja 20.10.</p>
+
+<p>W przypadku macOS uzyskujemy wsparcie dla trzech wydań 10.13, 10.14 i 10.15 (po wydaniu Big Siur 10.13 prawdopodobnie przejdzie do lamusa).</p>
+
+<p>A jak radzi sobie z tym Microsoft?</p>
+
+<p>Mówiąc krótko: na bogato.</p><p>Dla Windows 10 w <a href="https://docs.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro" target="_blank" rel="noopener" rel="nofollow">wersjach Pro i Home wydawane są poprawki</a> do czterech wariantów (1903, 1909, 2004, 20H2), do tego dochodzi wydanie 2019 LTSC (wsparcie do 2029), 2015 LTSB (do 2025 roku) i 2016 LTSB (do 2021 / 2026 roku).</p>
+
+<p>Jak widać, mamy przynajmniej siedem wariantów. To jednak nie wszystko, zasoby firmy są używane również na wspieranie Windows Server i odpłatne wsparcie chociażby dla Windows 7 i 8.1.</p>
+
+<p>Dlaczego o tym piszę?</p>
+
+<p>W życiu nie ma nic stałego - zmiany są nawet pożądane i stymulujące. Jeżeli zużywamy za dużo energii na kurczowe trzymanie się przeszłości i stoimy w miejscu, nie idziemy do przodu, a nawet się cofamy.</p>
+
+<p>Kiedyś dla wielu okres wsparcia produktów Microsoft oznaczał wręcz katastrofę, dzisiaj można powiedzieć, że firma powoli, ale nieubłaganie traci swoją pozycję. A traci dlatego, bo się rozdrabnia...i zamiast iść do przodu, to kurczowo się trzyma przeszłości (a jeśli robi coś od nowa, to najczęściej tak, żeby użytkownik poczuł lekkie wku...nie).</p>
+
+<p>Z drobiazgów: pisałem o drobnym problemie z usunięciem windows.old (tak, tak, robiłem to początkowo z narzędzia systemowego) i proszę - jest fix Microsoftu.</p>
+
+<p>Z rzeczy większych: nowy &quot;lepszy&quot; Panel Sterowania nie nawet odnośników do niektórych starych okien dialogowych (a ze &quot;starego&quot; usunięto je ze znanych lokalizacji).</p>
+
+<p>Jeżeli ja mam płacić za wybrakowany produkt, to przepraszam... nie jestem zainteresowany.</p>
+
+<p>Oprogramowanie Open Source w tym wypadku poniekąd ma ważną cechę - w większości stawia się tam na otwarte standardy i brak opłat (Androida proszę nie brać pod uwagę - można powiedzieć, że jest to chora korporacyjna implementacja szlachetnej idei).</p>
+
+<p>W sumie pozostaje mi mieć nadzieję, że zła sytuacja na świecie tylko spowoduje wzrost popularności tego ostatniego i wypieranie kalekich reliktów przeszłości.</p>
+
+<p><b>A sprzęt?</b></p>
+
+<p>Bardzo dobrze się stało, że firmy takie jak Samsung zaczynają widzieć mniejsze przychody w obszarze tzw. flagowców. </p>
+
+<p>Jeżeli mam być szczery, to nawet na telefonie z 2016 jestem w stanie uzyskać wynik &gt; 200 Mbps. Zagrywki typu &quot;kończymy koniec wsparcia&quot; (albo &quot;dajemy wsparcie tylko dla wersji z jedną kartą SIM&quot;, co wystąpiło w Samsung S7) są delikatnie mówiąc poniżej pasa, problemy z dotykiem żenują (Samsung S20 FE), tak samo jak zapowiadane <a href="https://www.benchmark.pl/aktualnosci/masz-telefon-ze-starszym-androidem.html" target="_blank" rel="noopener" rel="nofollow">problemy z Internetem na starszych Androidach</a>.</p>
+
+<p>Wygranymi roku 2020 są moim zdaniem tylko AMD i Apple. </p>
+
+<p>Choć pierwsza firma dosyć jednak niefajnie potraktowała użytkowników z grubszym portfelem (mówię szczególnie o użytkownikach pierwszych Threadripperów, również o brakach zgodności z chipsetami i kilku innych rzeczach), to konsekwentnie doprowadza do sytuacji, że potrzebujący mocy ją uzyskują.</p>
+
+<p>A Apple jak to Apple - oszczędza, oszczędza i oszczędza, ale... również pokazuje, jak powinien wyglądać sprzęt z ARM. Sam chciałem coś takiego kiedyś przytulić, ale albo kadłubki (do włożenia telefonu i podłączenia go w trybie DEX) były niezbyt wygodne i miały szybę, albo całość była delikatnie mówiąc brzydka i niefunkcjonalna.</p>
+
+<p>Jaki będzie sprzęt z M1, zobaczymy - na razie firma dała innym korpo porządnego kopala w dupala i nawet jeśli nie kupimy jabłka, to na pewno dzięki nim pojawi się więcej czegoś normalnego na rynku.</p>
+
+<p>Jak dla mnie bomba - mam dosyć przeglądania &quot;szybkich&quot; sprzętów z Intelem i bateriami, które padają po gwarancji (mój przykład z ostatnich dni - laptop znanego producenta, w którym bateria z 90% schodzi od razu do 5%).</p>
+
+<p>W pierwszym okresie należy się oczywiście liczyć z mniejszym &quot;emezing&quot; (co widać już po premierze Big Siur, gdzie problemem okazało się serwowanie 12GB zamiast jakichś 3-5GB) i potem być może jeszcze większym monopolem, ale... to w przyszłości.</p>
+
+<p>Na razie Apple wykonało dobry ruch i akurat za ten ruch należy ich pochwalić, za to wiele innych firm zasługuje na złote maliny za wciskanie chłamu ludziom, którzy szczególnie teraz mają mniejsze możliwości zakupu.</p>
+
+<p><b>Podsumowanie&#160;</b></p>
+
+<p>Niektórzy ciągle żyją w Matrixie</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Ptld98KjPuM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>i przeżywają szok, że dajmy na to Google zaczął kasować bezpłatne usługi chmurowe.</p>
+
+<p>Myślę, że wiele firm czuje już pismo nosem (wiedzą, że nie da się sprzedać rzeczy słabych) i stąd już teraz &quot;premiery&quot; laptopów z Ryzen 5000.</p>
+
+<p>Co będzie dalej?</p>
+
+<p>Zobaczymy (a ja ze swojej strony polecam zainteresować się sprzętem używanym i darmowym softem).&#160;&nbsp;</p>
+            

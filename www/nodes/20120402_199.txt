@@ -1,0 +1,13 @@
+﻿Title:ehhh...
+Author:marcin
+When:02 Apr 2012
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Niewypowiedzane marzenia, niemożliwe do spełnienia,<br />
+niespodziewane ograniczenia, piekło cierpienia,<br />
+prawo do patrzenia, ukryte westchnienia,<br />
+wysłuchanie skomlenia, pracoholizmu wrażenia,<br />
+piękności szerzenia, tyle mam dziś do powiedzenia...</p>
+<!--break-->

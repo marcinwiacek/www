@@ -1,0 +1,30 @@
+﻿Title:x86, a M1 (wersja krótka i może trochę żartobliwa) (2021)
+Author:marcin
+When:14 June 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1143043,x86-a-m1-wersja-krotka-i-moze-troche-zartobliwa>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Wielu z nas pewnie słyszało o tym, jak firma Apple dokonała „rewolucji”. Rewolucja tak naprawdę okazała się ewolucją i sprytnym połączeniem kilku elementów (ale się udała), a ja postaram się ją przedstawić „na chłopski rozum”.<br />
+<!--break-->
+<br />
+Uprzedzam, że notka jest krótka, i pisana dosyć na szybko.<br />
+<br />
+Załóżmy, że mamy ogromnie szeroką rzekę i masę chętnych, którzy chcą się przez nią przedostać. Na początku próbowano tam wstawić taki jeden mały mostek, z drewna. Potem postawiono drugi, i trzeci, i czwarty. Każdy z nich był inny. Tak naprawdę nikt nie wiedział, jak je budować, i dlatego wszystko powstawało metodą prób i błędów. Mostki były tworzone, burzone, i przez lata w zupełności to wystarczało.<br />
+<br />
+Wtedy przyszła wielka korporacja, i stwierdziła, że weźmie mostek, który wybudowali ich kumple, coś tam doda, coś tam odejmie, i pokaże światu jako swój projekt. I że każdy może budować taki sam, ale… uwaga, korporacja nie da nikomu za darmo informacji, jak zbudować szlaban na mostku (w tym projekcie był niezbędny). Ponieważ korporacja była duża i znana, to ludzie się na to rzucili, bo projekt może był marny, ale prosty, i do tego pozwalał przejeżdżać nawet samochodami (które nie mokły, gdyż nad całością rozpostarto daszek).<br />
+<br />
+Z początku każdy jeździł po tych mostkach jak chciał. Zdarzało się, że ludzie wpadali na siebie. Wtedy postanowiono wydzielić pasy, ale żeby nie było łatwo, to pozostawiono możliwość zjazdu na część z pasami, ale z powrotem już nie (to pojawiło się później).<br />
+<br />
+Później zdecydowano też, że na mostkach będzie 2x więcej pasów. I że ruch będzie mógł coraz szybszy. I to wszystko działało. Korporacja zobaczyła, że powstało wiele kopii, i w tym momencie zapragnęła utworzyć kolejny projekt… ale nikt go nie chciał. Mostków było coraz więcej, a z czasem zdecydowano, że jeden wjazd będzie prowadził na dwa połączone mostki (i że będą one jeszcze szersze).<br />
+<br />
+W końcu Johny Hamburger wpadł na pomysł, żeby zamiast samochodów na mostki wpuszczać wielkie lory. I może by to wypaliło, ale lory często czekały na chętnych, i ciężko je było rozpędzić i wyhamować, o cofaniu nie mówiąc (wtedy też Moshe poszedł do Johnego i wybił mu ten pomysł z głowy).<br />
+<br />
+Przez lata dodawano w ten sposób kolejne pasy. Pasów było coraz więcej, pojawiły się światła, policjanci, nadzorcy ruchu, itd. W końcu jednak nieprzekraczalnym problemem okazały się coraz większe korki - samochody musiały czekać coraz dłużej na wjazd na odpowiedni pas, i jak jeden się zepsuł, to objazd był bardzo kosztowny.<br />
+<br />
+Ale to nie wszystko. Pojawili się motocykliści, którzy podjeżdżali i zabierali z samochodów różne rzeczy z siedzeń (a jeszcze częściej robili zdjęcia dowodów nieświadomych pasażerów i potem brali na nich kredyt). Ktoś zauważył też, że nad mostkami można latać, a z samochodów tego nie widać. Problemów było coraz więcej – doszły jakieś problemy z budową (mosty przypominały ogromne betonowe bestie, nad którymi unosiły się opary spalonego paliwa i łuna z tysiąca latarni), ciężarem, konserwacją, itp.<br />
+<br />
+I wtedy przyszło Apple i stwierdziło, że łatwiej będzie zabierać samochody na drugą stronę małymi łódkami. Można je było kierować tam, gdzie były rzeczywiście potrzebne. Samochody nie musiały już stać w korkach i spalać cennego paliwa. Przeprawa była szybsza i bardziej ekonomiczna… a nawet udało się wstawić takie fajne ekrany, że komputery w autach nie potrafiły odróżnić łupinek od wielkich mostów.<br />
+<br />
+I tyle. Pytanie dla chętnych – które punkty historii wskazałem? I pytanie dla reszty – w którym punkcie tej opowiastki znajduje się Polska?<br />
+</p>

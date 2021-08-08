@@ -1,0 +1,122 @@
+﻿Title:Era (głupiego?) upraszczania złącz i portów (2021)
+Author:marcin
+When:22 Feb 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<p>Poznajcie Osborne 1 działającego z systemem operacyjnym CP/M.</p>
+ 
+<p>Urządzenie wybrałem celowo - pierwsze &quot;laptopy&quot; wyglądały właściwie jak walizki, w których umieszczono normalne &quot;stacjonarne&quot; podzespoły i dodano małe ekraniki CRT (nie było tam nawet mowy o pracy na baterii).</p>
+ 
+<p>Podobnie w tamtych czasach wyglądały klony IBM-PC</p>
+ 
+<p>Potem poszło już łatwo - ekrany CRT zostały zastąpione przez LCD (na początku oczywiście mono z ogromnym smużeniem), a całość poszła w kierunku, który znamy dzisiaj (na &quot;dole&quot; bateria, klawiatura i płyta główna, a w pionie matryca LCD)</p>
+
+<!--teaser-->
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Era-glupiego-upraszczania-zlacz-i-portow,113475.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Poznajcie Osborne 1 działającego z systemem operacyjnym CP/M.</p>
+ 
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/h6PUWZ0FOZM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+ 
+<p>Urządzenie wybrałem celowo - pierwsze &quot;laptopy&quot; wyglądały właściwie jak walizki, w których umieszczono normalne &quot;stacjonarne&quot; podzespoły i dodano małe ekraniki CRT (nie było tam nawet mowy o pracy na baterii).</p>
+ 
+<p>Podobnie w tamtych czasach wyglądały klony IBM-PC</p>
+ 
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/euhp8Vn2FTw?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+ 
+<p>Potem poszło już łatwo - ekrany CRT zostały zastąpione przez LCD (na początku oczywiście mono z ogromnym smużeniem), a całość poszła w kierunku, który znamy dzisiaj (na &quot;dole&quot; bateria, klawiatura i płyta główna, a w pionie matryca LCD)</p>
+ 
+<p>Około 1999 urządzenia wyglądały już tak:</p>
+ 
+<center><img src="sites/default/files/438/Dell_Inspiron_3500.jpg" style="width:540px;height:405px;" alt="Obrazek z Wikipedii (hasło Dell Inspiron laptops) na licencji CC BY-SA 4.0" title="Obrazek z Wikipedii (hasło Dell Inspiron laptops) na licencji CC BY-SA 4.0" /></center>
+ 
+<figcaption>Obrazek z Wikipedii (hasło Dell Inspiron laptops) na licencji CC BY-SA 4.0</figcaption>
+ 
+<p>Pokazany Dell Inspiron 3500 miał z przodu z lewej strony wnękę na takie akcesoria jak dodatkowa bateria, CD-ROM, DVD-ROM, Iomega Zip czy stacja dyskietek (wybierało się jedno z nich i wkładało do wnęki), jak również możliwość wymiany baterii (wnęka z prawej) i obsługę PC-Card (w ogromnym uproszczeniu można powiedzieć, że były to cartridge z kartami rozszerzeń).</p>
+ 
+<p>Dosyć podobne rozwiązania oferowała np. firma Lenovo albo HP (sam pamiętam możliwość instalacji drugiego dysku 2,5 cala zamiast CD-ROM albo w seriach biznesowych dodatkowe baterie podpinane z dołu).&#160;</p>
+ 
+<p>W 2008 świat IT przeżył mały szok, gdy zaprezentowany został pierwszy Macbook Air, w którym postawiono na drastyczne zmniejszenie wymiarów (polecam otworzyć sobie <a href="https://www.youtube.com/results?search_query=macbook+air+jobs+2008" target="_blank" rel="noopener" rel="nofollow">któreś z video na YouTube</a>). Można powiedzieć, że firma Apple tym samym utworzyła wzorzec, do którego próbowali równać konkurenci.</p>
+ 
+<p>Air przez lata był wyśmiewany za różne rzeczy, takie jak niemodny design czy bardzo słaba wydajność, ale pokazał, że komputer przenośny może być mały, lekki i nawet w takim wydaniu wystarczający do różnych zadań. Pewnym problemem było to, że jego producent poniekąd traktował go jako namiastkę komputera, co przejawiało się w <a href="https://www.notebookcheck.net/The-Apple-MacBook-Air-2020-is-30-brighter-when-you-use-Windows.464451.0.html" target="_blank" rel="noopener" rel="nofollow">sztucznym ograniczaniu jasności ekranu</a> czy specyficznym &quot;układzie&quot; chłodzenia</p>
+ 
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/iiCBYAP_Sgg?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+ 
+<p>Dosyć charakterystyczną cechą kolejnych wersji tego urządzenia był również zestaw wyłącznie dwóch portów USB (+ złącze słuchawkowe). To ostatnie rozwiązanie było powielone w tańszych MacBook Pro z procesorami Intela, a obecnie jest we wszystkich przenośnych modelach z procesorem M1.</p>
+ 
+<p>Argumentem z tym związanym i często przedstawianym przez różnych zwolenników firmy jest to, że więcej nie trzeba, a jak trzeba, to można sobie dokupić sobie hub albo łączyć się bezprzewodowo.</p>
+ 
+<p>Wpierw spróbuję rozprawić się z ostatnim stwierdzeniem, bazując na przykładzie iPhone generacji 12. Urządzenia te domyślnie tworzą hotspot WiFi w oparciu o 5Ghz i oferują tryb kompatybilności, który powinien wymusić 2,4Ghz. I w sumie bym może nawet nie uwierzył, ale w lutym 2021 widziałem drukarkę EPSONA (poniekąd rewelacyjną, bo korzystającą z rozwiązania EcoTank), która bez zająknięcia łączy się z hotspotem iPhone generacji 7, bez problemu łączy się z hotspotem Samsunga, a z dwunastką dogadać się nie może za żadne skarby.</p>
+ 
+<p>Ktoś powie, że to problem EPSONA albo wypadek przy pracy (i to zupełnie niezwiązany z laptopami), a ja już biegnę z tłumaczeniami - wcześniej drukarka była sparowana z telefonem, który dzielił Internet również z komputerem (i z komputera można było drukować), obecnie drukarka musi być oddzielnie sparowana z komputerem, a oddzielnie z telefonem.</p>
+ 
+<p>Moja konkluzja - jak działa, to działa, a jak nie działa, to miło byłoby mieć więcej portów w komputerze.</p>
+ 
+<p>W tym momencie myślę sobie bardzo, ale to bardzo prosto:</p>
+ 
+<ol><li>część &quot;nowoczesnych&quot; laptopów wymaga ładowania przez port USB, a nie przez hub - <a href="https://spidersweb.pl/2021/01/spalilem-macbooka-pro-z-procesorem-m1.html" target="_blank" rel="noopener" rel="nofollow">dotyczy to urządzeń z procesorem M1</a> (i nie ma co tu się zarzekać)</li>
+ 
+<li>drugi port potrzebny jest na myszkę - jak wiadomo, w dobie pracy zdalnej standardem stało się udostępnianie laptopa, na którym spokojnie można sobie &quot;stacjonarnie&quot; pracować, a myszka w tej konfiguracji pozostaje minimum</li></ol>
+ 
+<p>Wychodzi mi z tego prostego wyliczenia, że w przypadku laptopów minimum obecnie powinny być dwa &quot;małe&quot; porty USB / Thunderbolt + jeden &quot;duży&quot;, a i tak często i gęsto nie uniknie się huba. Z jednej strony bardzo dobrze, że zniknęło multum &quot;starych&quot; portów typu PS/2, RS-232, Centronics, etc. etc., z drugiej strony obecna unifikacja do standardu bezprzewodowego lub USB wywołuje jeden ogromny problem, który można opisać jednym słowem:</p>
+ 
+<p>bezpieczeństwo.</p>
+ 
+<p>Błędy w implementacji Thunderbolt zdarzały się już nieraz, mieliśmy też do czynienia z różnymi kreatywnymi sposobami oszukiwania prowadzącymi np. do tego, że użytkownik podłączając myszkę czy ładowarkę tak naprawdę podłączał również pendrive ze złośliwym oprogramowaniem.</p>
+ 
+<p>Samo ładowanie przez USB bywa również problematyczne, co kiedyś widzieliśmy w przypadku Macbook Pro (<a href="https://www.imore.com/heres-why-you-should-probably-charge-your-macbook-using-ports-its-right-side" target="_blank" rel="noopener" rel="nofollow">należało je ładować wyłącznie z prawej strony</a>).</p>
+ 
+<p>Wymuszenie używania hubów albo przejściówek powoduje, że oprócz lekkiego laptopa musimy mieć dodatki, co</p>
+ 
+<ol><li>łącznie waży więcej niż jeden laptop z dodatkowymi portami</li>
+ 
+<li>dodaje problemy typu konieczność pakowania i rozpakowywania (i pilnowania, żeby nic się nie pogubiło) albo wymusza wydanie większych pieniędzy na kilka zestawów dodatków (a gdzie tu ekologia? Miało być mniej, a nie więcej)</li>
+ 
+<li>dodaje nowe potencjalne problemy z bezpieczeństwem (jeśli nasz pracodawca ma huby w salkach konferencyjnych, to nikt ich nie pilnuje jak laptopów, zaś ich uzłośliwienie potencjalnie może wpłynąć na wiele komputerów)</li></ol>
+ 
+<p>Z wyżej wymienionych względów myślę, że wskazane byłoby pozostawienie przynajmniej oddzielnego złącza video i dźwiękowego, jak również gniazda ładowarki.</p>
+ 
+<p>Takie laptopy na szczęście ciągle się zdarzają - chciałbym tu wymienić np. Clevo L140MU / Hyperbook L14 (nikt mi nie płaci za reklamę, ale przy wadze mniejszej niż w przypadku MacBook Air upchnięto baterię 73WH, 1 slot RAM, czytnik kart, 3 USB, 1 HDMI, 2 porty M2 i złącze słuchawek).</p>
+ 
+<p>Właśnie - jeśli mówimy o portach, to nie można zapominać o tych wewnętrznych.</p>
+ 
+<p>I tu dochodzimy do pewnego dylematu - im większa integracja, tym większe prędkości można uzyskać (i to pewnie częściowo było powodem do takiej, a nie innej konstrukcji M1), z drugiej strony w poważniejszych rozwiązaniach absolutnie podstawowym i kluczowym wymaganiem jest możliwość wyciągnięcia dysku z danymi. </p>
+ 
+<p>I powiedzmy sobie jeszcze raz jasno w tym momencie:</p>
+ 
+<p>Urządzenia Apple nie są bezpieczne z definicji, bo nawet takie operacje jak ich wyzerowanie wymagają podłączenia do Internetu.</p>
+ 
+<p>Poza tym, gdzie tu ekologia w przypadku M1? Po &quot;zużyciu&quot; dysku SSD trzeba zmieniać całą płytę główną, a może również już cały komputer (Apple ma zapędy do parowania komponentów i nie zdziwiłbym się, gdyby było to konieczne już teraz)</p>
+ 
+<p>Jeżeli mówimy o korporacyjnym bezpieczeństwie, to często i gęsto stosuje się zabezpieczenia w postaci SmartCard albo kluczy USB - w komputerze do tego typu zastosowań wymagany jest więc kolejny port albo wspomniany czytnik. Ktoś powie, że przecież można użyć Windows Hello albo czytnika linii papilarnych. Zgodziłbym się z tym stwierdzeniem, że ewentualnie mogłaby to być jakaś alternatywa, ale ta wymaga zbierania danych biometrycznych i... zapewne całej procedury z przypisywaniem użytkownika do urządzenia (a kartę czy klucz można po prostu przepiąć).&#160;</p>
+ 
+<p>Tak więc wracając do tematu upraszczania obecnych urządzeń - miniaturyzacja powoduje, że zyskujemy możliwość budowania cudów techniki o niebo lepszych niż Osborne 1, ale... te tracą różne możliwości dostępne jeszcze pięć czy dziesięć lat temu.</p>
+ 
+<p>Nie służy to nikomu, co najwyżej producentom tych cacek, którzy często biorą tyle samo pieniędzy za mniej sprzętu (czyli de facto podwyższają ceny). W dobie pogoni za kolejnymi premierami i mniejszymi kosztami cały zaś czas będziemy problemy z błędami czy zgodnościami kolejnych akcesoriów i najlepiej dla nas jest, gdy mamy więcej, a nie mniej możliwości ich podłączania.</p><p>Jak ktoś nie wierzy, to oprócz wspomnianych kilka przykładów błędnych implementacji z ostatnich lat:</p>
+ 
+<ol><li><a href="https://9to5mac.com/2021/01/11/m1-mac-bluetooth-problems/" target="_blank" rel="noopener" rel="nofollow">M1 i Bluetooth</a></li>
+ 
+<li><a href="https://www.purepc.pl/amd-zdaje-sobie-sprawe-z-problemami-interfejsu-usb-na-plytach-glownych-b550x570-i-prosi-uzytkownikow-o-pomoc" target="_blank" rel="noopener" rel="nofollow">USB na płytach B550/X570</a> (wiem, że chodzi o modele stacjonarne, ale...)</li>
+ 
+<li><a href="https://www.purepc.pl/procesory/intel_potwierdza_blad_usb_w_chipsetach_dla_haswella" target="_blank" rel="noopener" rel="nofollow">USB 3.0 na płytach dla procesów Haswell</a> (2013)</li>
+ 
+<li><a href="https://thunderspy.io/" target="_blank" rel="noopener" rel="nofollow">Thunderspy czyli błędy Thundebolt 3</a></li></ol>
+ 
+<p>To jednak jest &quot;tylko&quot; problem z bezpieczeństwem, brakiem połączeń czy prędkością - brak zewnętrznych złączy, ale dla baterii, grozi nam czymś zupełnie innym.</p>
+ 
+<p>Czy ktoś pamięta Samsung Note 7?</p><p>To chyba najbardziej znany przykład, że ogniwa mogą być niebezpieczne nawet przy normalnym użytkowaniu urządzeń.</p>
+ 
+<p>Nie jest to odosobniony przypadek - w laptopach używa się większych ogniw, a producenci muszą robić dosyć często akcje &quot;naprawcze&quot; polegające na zastępowaniu uszkodzonych egzemplarzy poprawnymi.</p>
+ 
+<p>O ile kiedyś same baterie miały stosunkowo grube obudowy, obecnie potrafią puchnąć, a ponieważ są w środku obudów, to często potem wymiany wymaga duża część innych elementów (takie problemy były chociażby z Dellami XPS 13 czy Precisionem 5510). To nie jedyny problem - kiedyś wymiany baterii w laptopie na gwarancji mógł dokonać w dwie sekundy sam użytkownik, a obecnie robi się z tego większa operacja...</p>
+ 
+<p>Mała dygresja - produkty dużych firm nieraz były niebezpieczne (Ford Pinto, 777 Max, itp.) i nieraz będą.</p>
+ 
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/R1zm_BEYFiU?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+ 
+<p>Podsumowując - Próba tłumaczenia &quot;ten minimalizm jest dla naszego dobra&quot; jest w pewnych wypadkach tylko nieudolną próbą dorobienia racjonalnie wyglądającej legendy do tego, w co zostaliśmy wrobieni. Nie mylmy dobrego trendu polegającego na eliminowaniu chaosu i przestarzałych rozwiązań z głupią tendencją do usuwania wszystkiego, co się da, która powoduje, że musimy wydać więcej albo mamy więcej problemów.</p>
+ 
+<p>PS. Podobny trend z upraszczaniem jest zresztą widoczny także w obszarze mobilnym (zrezygnowano z gniazda zasilania czy jacka) albo oprogramowania (np. w tym, że po erze chłodno przyjętego Windows 8 mamy wszędzie Windows 10 z, nazwijmy to delikatnie, gwałcącymi wzrok motywami).</p>
+ 
+<p>Czy jest to dobre dla użytkowników?&#160;&nbsp;</p>

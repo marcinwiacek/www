@@ -1,0 +1,50 @@
+﻿Title:...
+Author:marcin
+When:03 Aug 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p style="font-family:Lucida Console,monospace;">
+To, co w swoim wnętrzu krzyczymy,<br />
+gesty, chęci i pragnienia ukryte,<br />
+wszystko co myślimy oraz widzimy,<br />
+jak uczucia maskami są przykryte,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+to jak w pracy się ciągle kajamy,<br />
+i co robić ludziom czasem dajemy,<br />
+jak politykę tam wciąż uprawiamy,<br />
+nawet gdy przez to tak chorujemy,
+</p>
+<!--break-->
+<p style="font-family:Lucida Console,monospace;">
+i to, jak otworzyć się wstydzimy,<br />
+jak później lęk jutra przychodzi,<br />
+i choć o prawdzie mówić wielbimy,<br />
+i tak rezygnacja z niej wychodzi,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+i smutku całego życia wymuszanie,<br />
+konsumpcji postawa wciąż wpajana,<br />
+naiwniaków na dzieci wyłapywanie,<br />
+i później gorycz latami widziana,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+duszenie siebie wszelkimi syfami,<br />
+otaczanie bogactwem wypożyczonym,<br />
+chodzenie tylko swoimi ścieżkami,<br />
+i śmianie się w twarz wyzwolonym,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+hipokryzja i nieprawdy głoszenie,<br />
+w tym czasie i uczuć oczekiwanie,<br />
+prawdy przekłamanie oraz tajenie,<br />
+do perfekcji czasami oszukiwanie,
+</p>
+<p style="font-family:Lucida Console,monospace;">
+i kogo nazwać tu mianem chorego ?<br />
+tego co duszę sprzedał dla tego ?<br />
+czy tego kto zgodny z sumieniem ?<br />
+dla kogo życie jest spełnieniem ?
+</p>

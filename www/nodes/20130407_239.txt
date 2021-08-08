@@ -1,0 +1,8 @@
+﻿Title:ISTQB glossary (2013)
+Author:marcin
+When:07 Apr 2013
+Taxonomy:English,English blog,Android,ISTQB
+
+<p>DOC, DOCX, PDF, EPUB, ODT, CHM,....</p>
+<p>There were many formats of documents created over years, ISTQB provides own glossary in PDF format. I decided to convert it some time ago to form of Android application: <a href="https://play.google.com/store/apps/details?id=com.mwiacek.istqb.glossary">https://play.google.com/store/apps/details?id=com.mwiacek.istqb.glossary</a>. You can search topics, jump to related topics, etc. Small, fast, effective.</p>
+<!--break-->

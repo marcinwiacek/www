@@ -1,0 +1,61 @@
+﻿Title:Śmiej się
+Author:marcin
+When:28 Jan 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Z dnia na dzień coś się na świecie dzieje,<br />
+każdy coś robi, cieszy się lub smutnieje,</p>
+<p>jedni nie mają co jeść lub wody szukają,<br />
+z chorobą walczą, z depresją zmagają,<br />
+kolejni cieszą się cudem narodzin,<br />
+myślą, jak zmieni to życie ich albo rodzin,</p>
+<p>niektórzy mają za cel tylko zaliczyć,<br />
+robią wszystko, by im podboje wyliczyć,<br />
+są też mocno doświadczeni albo nieśmiali,<br />
+do nich nikt cholewek niestety nie smali,</p>
+<!--break-->
+<p>duża część w niewolnictwie się zatraca,<br />
+życie nad stan, kredyty i praca,<br />
+wielu zajętych jest różnymi urojeniami,<br />
+akcjami na giełdzie lub gwiazdek zbytkami,</p>
+<p>są tacy, co boją się cienia własnego,<br />
+albo są męką dla otoczenia swojego,<br />
+są naukowcy, kapłani, wierszokleci,<br />
+lekkoduchy, brutale oraz wieczne dzieci,</p>
+<p>choć większość przekonana o swej wielkości,<br />
+i o historii swego bytu wyjątkowości,<br />
+to człowieczy los nie bywa bajką ani snem,<br />
+ale jest często zwyczajnym szarym dniem,</p>
+<p>i choć razem obok siebie na Ziemi żyjemy,<br />
+to wszyscy tak niewiele o sobie wiemy,<br />
+to wszyscy jesteśmy tacy słabi i delikatni,<br />
+to wszyscy żeśmy w czasu działania matni,</p>
+<p>i człowieczy los niesie trudy, żal i łzy,<br />
+ale można zmienić ten los w dobry lub zły,</p>
+<p>i dlatego ciesz się na niebo spoglądając,<br />
+i dlatego śmiej się auto odśnieżając,<br />
+i dlatego uśmiechaj się jak chorujesz,<br />
+i dlatego nie bój się, jak spadki widujesz,</p>
+<p>i wierz, że po nocy nadchodzą zawsze dni,<br />
+i wierz, że pójdą precz ludzie źli,<br />
+i wierz, że też spotkasz wesołego Grabarza,<br />
+i wierz, że dobrem innym płacić się zdarza,</p>
+<p>i ciesz się co chwila szeroko uśmiechając,<br />
+i ciesz się każdą chwilą życia upajając,<br />
+i ciesz się, jak skaleczysz sobie palec,<br />
+i ciesz się, jak zachlapie Ciebie malec,</p>
+<p>i nie bój się przyznać do pochodzenia,<br />
+i nie bój się zdania dającego wykluczenia,<br />
+i nie bój się mówić o tym co jest złe,<br />
+i nie bój się walczyć, jak bywa coś mdłe,</p>
+<p>i uśmiechaj się przy tym do każdej chwili,<br />
+i uśmiechaj się, jak bedą Ciebie gnoili,<br />
+i uśmiechaj się na dzień inny nie czekając,<br />
+i uśmiechaj się nawet złotówkę tylko mając,</p>
+<p>aby Twój uśmiech pomagał biedakom innym,<br />
+aby odsłonił cudy świata niewinnym,<br />
+aby dodał skrzydeł tym, których zobaczysz,<br />
+aby wsparł tych, dla których coś znaczysz,</p>
+<p>ważne żeby na końcu jak najmniej żałować....</p>

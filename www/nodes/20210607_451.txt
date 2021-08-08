@@ -1,0 +1,30 @@
+﻿Title:Też jestem geniuszem i też zbieram pieniądze… o internetowym żebractwie krótka opinia (2021)
+Author:marcin
+When:7 June 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1141225,tez-jestem-geniuszem-i-tez-zbieram-pieniadze-czyli-o-internetowym-zebractwie-krotka-opinia>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Z ogromnym zainteresowaniem przeczytałem <a href="https://www.salon24.pl/newsroom/1140192,mloda-polka-o-kosmosie-wie-niemal-wszystko-jej-imieniem-nazwano-planetoide" target="_blank">notatkę o młodej Zofii, która zbiera na wymarzone studia</a>.</p>
+<!--break-->
+<p>Załóżmy, że jest to historia prawdziwa:</p>
+<ol>
+<li>dlaczego w opisie na zrzutka.pl nie ma żadnych linków choćby do jednej publikacji albo jednego nagrania video z prezentacji dziewczyny?</li>
+<li>jak to się stało, że skoro dostała się na studia w Cambridge, to nie otrzymała żadnego dofinansowania ze strony uczelni ani żadnej firmy na Zachodzie? (trzeba być naiwnym, żeby wierzyć w to, że korporacje nie wyszukują talentów)</li>
+</ol>
+<p>Załóżmy, że to historia nieprawdziwa:</p>
+<ol>
+<li>ile już było matek, co mają hore curki? Osób, które mają nowotwory?</li>
+<li>czy wykorzystywanie dobrego serca nie powinno być karalne?</li>
+<li>czy pisanie, że pieniądze muszą już być, nie jest typowe? (o Brexicie nie było wiadomo od tygodnia czy miesiąca)</li>
+<li>czy darowizny rzędu 20000PLN nie podpadają pod pranie brudnych pieniędzy? (żeby było jasno – poza granicami Polski nie zawsze są to gigantyczne pieniądze, za to w polskich realiach…)</li>
+</ol>
+<p>Przyznam się szczerze, że jestem trochę rozdarty widząc podobne historie.</p>
+<p>Przez ponad dwadzieścia lat napisałem masę różnego rodzaju kodu i setki różnego rodzaju tekstów (artykułów, notek, wpisów, wierszy, a nawet kilka książek). Oczywiście brałem udział w różnych konkursach, i odnosiłem sukcesy. Przeżyłem też transformację ustrojową. Spowodowała, że bardzo dużo czasu musiałem poświęcić na sprawy bardzo przyziemne. Nieraz miałem nieprzespane noce i nieraz kończyłem pracę po północy. Technologia była wtedy nawet bardziej kapryśna niż kiedyś, ale tanim kosztem udawało się chociażby przygotowywać programy do stawiania serwisów SMS (w 2007 napisałem pracę magisterską z darmową gotową implementacją podwójnej autoryzacji – z wykorzystaniem HTTP i telefonu komórkowego). Nie chcę w tym momencie narzekać, ale potem były chociażby „Przepisy drogowe” (które pomogły tysiącom kierowców w Polsce), „Straż” (informacje dla strażaków) czy „Historia Polska” (przedstawienie wielkich dzieł polskiej sztuki). Tworzyłem je, dopóki miałem na to zasoby (a więc czas i sprzęt), a trzeba wiedzieć, że np. do legalnego umieszczania aplikacji w App Store trzeba mieć komputer Apple i subskrypcję za 99 USD. Były też inne inicjatywy. Poświęciłem swój czas na zmienianie Google Chrome. Poznałem do bólu tradycyjny rynek wydawniczy, w którym liczy się tylko to, żeby na książce zarobić (jeżeli ktoś nie ma marki, ciężko mu się przebić). Próbowałem promować najlepsze praktyki w IT, i nie tylko.</p>
+<p>Przez ten cały czas (ponad 20 lat) dało się zauważyć, że Internet w większości przestał być miejscem rozmów o nauce, rozwoju ludzkości, itp. (a stał się targowiskiem próżności, w którym, cytując klasyka, najważniejszy jest „ciuch, fryz i wymów”). I teraz nagle pojawia się młoda (to ważne) kobieta (choć podobno mamy równouprawnienie, to w osiągnięciach jest wyraźnie podkreślona informacja o tym, że jest to druga kobieta w historii olimpiady, która ją wygrała) z Torunia (gdzie urzęduje, nie wymawiając, pewien znany zakonnik). Medialna sprawa, że tak powiem.</p>
+<p>Nie chciałbym, żeby moja notka wyglądała na narzekania starego gościa, który niewiele zrobił, a teraz źle mówi o młodych talentach. Chcę tylko zauważyć, że moje pokolenie przez lata ciężko walczyło o technologię, a teraz młodzi wykorzystują ją, żeby żebrać.</p>
+<p>Żeby była jasność – tam, gdzie przez pewną część swojego życia pracowałem, zasiłki i inne podobne rzeczy rozdawane są w lwiej większości z tego, co dana osoba sobie uzbiera. Bo (przenosząc to na grunt polski) plusy rozleniwiają. I życzę młodej Zofii jak najlepiej, ale… zastanawiam się, ile teraz przekrętów na „zdolne dziecko” się pojawi.</p>
+<p>Przy okazji - wielka szkoda, że technologia, zamiast skrócić nasz czas pracy (i dać nam więcej na rozwijanie pasji i zainteresowań), spowodowała, że jesteśmy jeszcze bardziej obciążani. To jest jedna wielka tragedia, i „niektórzy” to jeszcze bardziej pogłębiają, tworząc kolejne dotacje i przywileje.</p>
+<p>Czy tak ma wyglądać kolejne dziesięciolecie? Że uczciwi będą pracować i siedzieć po nocach, a sprytni będą żebrać?</p>
+<p>Każdy może zrobić ze swoimi pieniędzmi, co chce. Myślę jednak, że bardzo sceptycznie trzeba podchodzić do „cudownych dzieci” z Internetu. To, że niektóre są bardzo promowane, nie oznacza wcale, że są takie „specjalne” (przykładem niech będzie bożyszcze ostatnich lat, czyli pan Musk). Za sukcesem takich jednostek stoi masa zbiegów okoliczności i innych ludzi (a może też kapitał rodziców), i często ogromne tragedie (co zauważono w ostatnich dniach w wideo pewnej grupy o nazwie rozpoczynającej się na A). Do tego dochodzi marketing, który z niewolnika może zrobić króla, a z króla parobka - proszę zauważyć, jak nieskazitelny wizerunek miał pan Jobs (a ile faktów o jego gwałtownym charakterze wyszło na jaw po jego śmierci).</p>
+<p>Tyle ode mnie. Promujmy Polskę i polskie talenty, ale zachowujmy też rozsądek. A ode mnie jeszcze parafraza klasyka „nie o takem technologiem walczyłem”</p>

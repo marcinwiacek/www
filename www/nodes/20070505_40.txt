@@ -1,0 +1,12 @@
+﻿Title:Report 2007-05-04
+Author:marcin
+When:05 May 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Few facts:</p>
+<!--break-->
+<ul><li>I'm working hard on next Gammu+. There is done a lot: you can set phone features without recompiling source (it will speed a lot fixing compatibility with many models), there is improved recognizing phones, Martin works hard on getting BT in Linux to work (maybe it will be working in 100% soon and you will get even binary packages...) and some other. It's during testing and I'm working on some more things... Generally giving full support for few main things (pbk, calendar, todo, notes, filesystem, partially sms &amp; mms....) on Linux and win32 for Nokias DCT3/DCT4/Series 40 is very close... What next ? I would like to play with Series 60, but still problems with getting phone... From the second hand... There are more and more cellular projects... Maybe world doesn't need my work here ?
+</li><li>I will have to work on gammu.org - there some issues with spam and recognizing Gammu test version for top part of page
+</li><li>I was offline few days. In fact I was fighting with reinstalling everything. It started from RAM, which was probably scratched by me. Big problem especially, that it's almost new... I would like to replace it, but you know - no money. Happily, that it works at least now without visible errors... BTW, I'm getting closer and closer to give advice to anyone - don't buy HP notebook...
+</li></ul>

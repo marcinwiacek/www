@@ -1,0 +1,36 @@
+﻿Title:Report 2006-07-30
+Author:marcin
+When:31 Jul 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>It was week of silence. Because of it I decided to write this report.</p>
+<p>First I will say about facts - I was trying to explain reason of repeating Windows BSOD (Blue Screen of Death) BUGCODE_USB_DRIVER. I had given up. Tomorrow my private PC will go to service. I hope, that they will do their job without additional problems, which are here visible in companies very often. Everything next will depend on it (especially on tomorrow day). I hope to explain some other things during this week too :-)</p>
+<!--break-->
+<p>Second - I hope, that some of you read <a href="http://www.kroah.com/log/linux/ols_2006_keynote.html" myths="" lies="" and="" truths="" about="" the="" linux="" kernel="">.</a></p>
+<p>I will try to make own Gammu version. <b>Because of my mood (I hope, it's correct word) it as "as is" - maybe not too political correct, maybe long as spaghetti, maybe not too 100% clear (I'm after beer ;-))... If you don't want, please don't read.</b></p>
+<p><b>"Nobody extend it..."</b></p>
+<p>I work on it, Michal work on it, some other people work on it... Everybody according to his time, financial possibilities, etc. It's the truth, that progress is sometimes less visible... But many of us don't earn money like 40 years old senior manager in big company...and we can't give 24 hours per day for Gammu only (or if you want it, please give us normal full time job).</p>
+<p>If you expect from us writing many things + buying many phones for own money, we will say - sorry.</p>
+<p>If you complain about bad support - please try to give something from you too (some reports, some improvements for wiki, etc.)</p>
+<p><b>"CVS will help in development"</b></p>
+<p>Maybe, but could you show me, how to install this or other tool on current Gammu server (with PHP, MySQL and probably nothing more). Or show me some good and cheap company, which can give it (but no SourceForge, FreshMeat, etc.).</p>
+<p>Generally I think - not tool is the most important, but rather people, who will be able to give valuable source for long time... Show me such one...</p>
+<p><b>"My phone doesn't work, you don't do anything"</b></p>
+<p>We try to make things according to our possibilities (like described in 1st point). Sometimes we can do it fast, sometimes slower, sometimes we say - we can do it, if you will give access to this and this.</p>
+<p>I will show 3 examples now - (1) sms and other things for series 40 3.0 were done in two or three weeks... (2) Symbian support goes very slow, but after year there are finally visible results. (3) things with some models go from June (or even May) up to today, because user didn't want to send cable, which is unavailable locally. </p>
+<p>Generally we do something or we can do something, when second side want to cooperate. Each case is individual, but situations, when we don't do anything, aren't visible too often...</p>
+<p><b>"You make big business on Gammu, but additionally you speak about money only..."</b></p>
+<p>yeah, I had promised trip over Europe, USA and many other things... It could be nice to have it. </p>
+<p>Few times AFTER doing something I was left with them (promises) only too...</p>
+<p>We have to speak about money... They're real and allow for continuing this project.</p>
+<p><b>"Gammu is difficult"</b></p>
+<p>Partially it must be. You need to know something more about your connection (cable, Bluetooth, ...) and phone... Other things are quite easy...</p>
+<p>From the second side - some people say, that for example <i>--getallsms</i> should give all PDU values for SMS instead of decoded content.</p>
+<p>In other words - Gammu will be wrong somehow always. When you make difficult software, it's wrong... When it's easy, it's wrong too...</p>
+<p><b>"You cut incorrect (for you) opinions from wiki and mailing list"</b></p>
+<p>Once I removed user with correct subscription after many warnings...</p>
+<p><b>"There is no warranty for Gammu"</b></p>
+<p>We can't give you money, when you will loose your phonebook or SMS... But we will do everything for finding REAL reason for it and eliminating it...</p>
+<p><b>"You speak sometimes like people, who know everything and don't want to hear voices against"</b></p>
+<p>We have some experiences with development. We learned many things during it. We still make sometimes mistakes, but please believe me - many times finally WE are right.</p>

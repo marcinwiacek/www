@@ -1,0 +1,66 @@
+﻿Title:Ewolucja wersja 2.0 (2012)
+Author:marcin
+When:05 Nov 2012
+Taxonomy:Polski,Polski blog,Android,Windows,x86,Windows 7,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/11/gdzie-te-rewolucje-i-logika.html>opublikowany w serwisie Spider's Web</a>, rozwinięcie tekstów <a href=?q=node/216>1</a> i <a href=?q=node/218>2</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<P>Zacznijmy od zagadek:
+
+<ul><li>w aplikacji można zobaczyć "pokaż mi rekordy z datą > data wskazana". Jakie rekordy pokaże aplikacja ? 
+<li>aplikacja ma pozwalać na wpisanie adresów witryn postawionych z użyciem SharePoint Microsoftu. Jakie adresy będzie wspierać aplikacja ? (chodzi o przedrostek)
+<li>aplikacja ma działać z rozdzielczościami minimum 1024x764. Czy niedziałanie z 1400x1050 jest poprawne ?
+</ul>
+
+<p>Odpowiedzi poprawne to oczywiście: dni późniejsze niż data wskazana, http i https, nie
+
+<!--break-->
+<p>Dlaczego o tym mówię ? Bo <strike>czasem</strike> coraz częściej napotykam w świecie IT niespodzianki, o których się naprawdę nie śniło i filozofom (czytaj - np. dowody na to, że wspomniane odpowiedzi nie bywają poprawne) i wystarczyłoby tylko pomyśleć, żeby ich nie było (zabrzmiało to oczywiście podobnie do tego, że "komputery służą do rozwiązywania problemów, których by nie było, gdyby nie było komputerów" :)).
+
+<p>Ludzie po prostu często i gęsto zapominają, że technologia to młotek i ten młotek służy czemuś. I tak aplikacje powinny szybko i bezbłędnie podawać wyniki, muzyka/obraz powinny być odtwarzane bez zająknięć, instalacja urządzenia nie powinna łączyć się z tysiącem magicznych zaklęć, itd. itd.
+
+<p>A tak powstaje masa niezgodnych ze sobą rozwiązań, które dodatkowo często przeczą np. podstawowym zasadom wpajanym inżynierom przez wiele lat (<a href=http://zaufanatrzeciastrona.pl/post/hasla-klientow-810-sklepow-iai-shop-przesylane-otwartym-tekstem/>np. hasła potrafią być zapisywane lub przesyłane otwartym tekstem</a>)
+
+<p>Może nie jestem z tej epoki i powinien się pasjonować jedynie losami pewnej mamy Madzi, ale z drugiej strony: kto płaci za obecną sytuację w IT ? A Pan i Pani. Przykład - <a href=http://www.geekorb.com/windows-surface-rt-32gb-effectively-has-20gb-available/>oferowanie rozwiązania, które z obecnej przestrzeni 32 GB realnie zostawia użytkownikowi 20 GB</a>
+
+<p>Dlaczego tak się dzieje ? Niestety, ale w wielu wypadkach logiczne myślenie/zdrowy rozsądek jest przykrywany korporacyjnymi regułkami i innymi wymysłami (<a href=http://antyweb.pl/dzial-it-nie-da-sie-zrobic/>co dobrze obrazuje ten tekst</a>).
+
+<p>Do tego dochodzi marketing, na przykład taki:
+
+<p><a href=http://blog.orange.pl/technologiczny/entry/microsoft-8-hit-czy-kit/>"Windows 8 ma małe wymagania sprzętowe i pracę na nim pociągnie nawet nie najnowszy sprzęt."</a>
+
+<p><a href=http://tech.money.pl/samsung-galaxy-s-iii-mini-juz-jest-fajny-0-1177447.html>"Z przyjemnością oddajemy w ręce naszych klientów GALAXY S III mini z rewolucyjnym wzornictwem, intuicyjną obsługą oraz inteligencją zamkniętą w bardziej kompaktowej obudowie."</a>
+
+<p>Wymieniać mógłbym długo - wszystko jest teraz inteligentne, rewolucyjne, niewiarygodne (oczywiście w opinii firm to tworzących lub sprzedających). Marketingowcy posuwają się zresztą do wszystkiego co możliwe - ostatnio pojawiają się już reklamy z płonącą Ziemią i datą 21.12.2012.
+
+<p>A jak wygląda rzeczywistość ? A choćby tak: <a href=http://www.dobreprogramy.pl/Microsoft-sprzedal-4-miliony-aktualizacji-do-Windows-8,Aktualnosc,37049.html>"Na koniec ciekawostka zza Oceanu: w Stanach Zjednoczonych tuż przed premierą Windowsa 8 przeprowadzone zostało badanie na próbce 1200 dorosłych. 52% ankietowanych nie miało pojęcia o tym, że wychodzi nowy system Microsoftu. Z tych, którzy byli tego świadomi, 61% nie było zainteresowanych kupnem nowego systemu lub urządzenia z nim. Tylko 35% z tych, którzy o „ósemce” słyszeli, uważa, że będzie on lepszy od poprzednich. Ciekawe jak jest w Polsce… "</a>
+
+<p>No właśnie - na rynku od dosyć dawna brakuje rewolucji. O ile kiedyś zmiana Windows na nowszy miała sens (np. 95 wprowadzały 32-bity, XP to była jednak większa stabilność rodem z NT, 7 to pierwszy 64-bitowy system nadający się realnie "dla mas"), o tyle teraz czym może przyciągnąć Windows 8 ? 
+
+<p><strike>Rewolucyjnym</strike> Pokracznym interfejsem i aplikacjami wyświetlanymi na całym ekranie ? (gdzie celowo jest umieszczone tylko kilka elementów, co dodatkowo wygląda dziwnie na monitorach "dwadzieścia parę" cali)
+
+<p>Dotykiem ? (przepraszam, ale nie spieszy mi się do tego, aby mieć szklany monitor i widzieć na nim swoje linie papilarne)
+
+<p>Większą stabilnością ? (przecież to dalej NT ze swoim zaletami i wadami)
+
+<p>Podobnie jest ze smartfonami - czy nowe cuda androidowe to rewolucja i przepaść jak między monochromatyczną Nokią 3310 i Nokia 7610 (była taka z Symbianem) czy tylko kolejny numerek wersji Androida i brak definitywnego rozwiązania problemów tej platformy ? Skoro mówimy o nowościach, to rewolucją mogłoby być połączenie "wnętrzności" Galaxy S III z ekranem 4 cali i LTE (i np. wodoszczelną obudową)
+
+<P>O Applu nie wspominam - do starszych wersji również można wgrać iOS 6, a iPhone 5 będzie przez wiele osób kojarzony z kartami nanoSIM...które ciągle nie są mocno rozpowszechnione.
+
+<p>Wydaje się, że obecna wymiana i zakup sprzętu IT to w większości efekt naturalnego zużycia czy "śmierci" technologicznej. Ot jak z moim starym modemem ADSL - nie działał w trybie ADSL2+ i trzeba go było wymienić. Częściowo jest to niestety sztucznie wymuszane - np. dodanie IPv6 w większości to kwestia firmware, ale przecież lepiej wypuścić nowy model routera, modemu, itp.
+
+<p>Nie twierdzę oczywiście, że nie ma postępu (<a href=http://pclab.pl/art51473.html>widać to na przykładzie CPU</a>), niemniej jednak zysk z częstej wymiany nie jest niestety rekompensowany kosztami i niewiele osób/firm się na to decyduje.
+
+<p>Co do przyszłych technologii: na monitory np. OLED chyba pozostaje jeszcze trochę poczekać, może wcześniej doczekamy się np. <a href=http://m.interia.pl/nowe-technologie/news,1822733,1010>pamięci memrystorowych</a> ?
+
+<P>Ciekawe byłoby dostać sprzęt nie mający rozróżnionej pamięci RAM i dyskowej wraz z monitorem, który nie męczyłby oczu (z uwagi na brak podświetlenia)...Sprzęt, w którym zastosowano by wreszcie pełną separację sterowników, procesów i co tam jeszcze trzeba (technologia mikrojąder lub lepsza) po to, aby podłączenie urządzenia X nie powodowało zawieszenia się całości, a co najwyżej info "sorry, but..."
+
+<p>Właśnie apropo takiego sprzętu - mam (nie)przyjemność testować ostatnio Maca mini pewnej znanej firmy chlubiącej się tym, że dostarcza luksus. I co mogę powiedzieć ? 
+
+<p>Dosyć mocno przemyślana konstrukcja - zrezygnowano bez skrupułów z rzeczy realnie rzadko używanych (np. złącze analogowe VGA i napęd optyczny), dano możliwość wymiany "aż" pamięci RAM (przełożenie dysku nie jest już przewidziane), ale równocześnie nie budzi w niej zbytniego zaufania dół obudowy (mam wrażenie, że po położeniu czegoś ciężkiego możnaby uszkodzić jakiś komponent elektroniczny chroniony jedynie przez plastikową giętką zaślepkę).
+
+<p>Sprzęt zbliża się koncepcją do ideału - działa, jest mały cichy (układ chłodzenia jest mocno przemyślany), nie ma zbyt dużych przywieszek.
+
+<p>Co do oprogramowania - nie ma nośnika z backupem systemu/wersją instalacyjną, dźwięk to tania zintegrowana karta (możnaby pomyśleć, że powinno być tutaj coś klasy SB), brak opcji do ustawienia DPI, nie mam takich opcji do ustawiania kolorów/gamma/itp. jak w Windows (oczywiście "fachowcy" powiedzą, że do takiego sprzętu należałoby kupić odpowiedni monitor, ale...), uaktualnienia od Apple czasem wymagają magicznych kroków (tak było z Safari 6.0.2).
+
+<p>Ogólnie - 4+, chciałbym widzieć podobne dopracowanie w przypadku PC...z drugiej strony mam pytanie - jak szybko ten sprzęt pójdzie na śmietnik z uwagi na teoretycznie niewymienny dysk i ile surowców i CO<sub>2</sub> będzie trzeba zużyć na jego utylizację i produkcję kolejnego podobnego w sumie cuda ? I czy stać nas i Ziemię na to ?

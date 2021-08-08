@@ -1,0 +1,21 @@
+﻿Title:Report 2007-06-04
+Author:marcin
+When:05 Jun 2007
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Do you know what ?</p>
+<p>Michal speak about new API for Gammu and I have new idea too ;-). Currently MMS can have many files inside. Let's make decoding SMS using the same stuff.</p>
+<p>Do you want to have text inside ? Add one "file" with "text/plain" MIME type. Nokia Smart Messaging bitmap ? One "file" with bitmap/gif... etc. etc. </p>
+<!--break-->
+<p>Why is it so important ? You can make one content viewer and use it both for SMS/MMS. It will be extended step by step and some day you will have everything (EMS/SMS/MMS/Smart Messaging/Siemens SMS and other) inside... You can save one content and encode it as MMS or specific SMS. And everything with one source only :-)</p>
+<p>From technical point of view:</p>
+<table border="1"><tr><td>GSM_SMSEntry - single SMS</td>
+<td>GSM_MMSEntry - single MMS</td>
+</tr><tr><td>GSM_SMSList - list of GSM_SMSEntry</td>
+<td></td>
+</tr><tr><td colspan="2">GSM_SMSMMSDecoded - will contains decoded SMS/MMS (with methods for decoding/encoding from/to GSM_SMSList/GSM_MMSEntry)</td>
+</tr></table><p>I have updated "a little" <a href="?q=node/141">Gammu+ developer docs</a> with this and other useful info.</p>
+<p>You can of course still ask, where is bigger sense: writing tons of new source (which can be not good tested for a moment) or simply upgrading old (Gammu). I decided to first one road, because Gammu in some moment was too orientated for older GSM devices (let's look into bitmaps support for example) and updating it required a lot of work (if Michal will do it <u>with success</u>, will be really big man). There was license problem too, but it wasn't the most important. I left quite good and enough source. But now I have much more generic version (core), which can handle much more in flexible form... And it isn't important, that sometimes it isn't the best example of programming art (because it works)...</p>
+<p>I would be happy, if Michal will give me permission for using some his sources from Gammu under any licese (it could boost development a little), but even without it (I don't have too big hope for it, because Michal decided to ignore everything, what is not "GPL2 only") you can expect such things like sending VCARDs, WAP bookmarks over SMS soon and many other usefull things known from Gammu.</p>
+<p>From other technical issues: I have payed more expensive hosting plan for gammu.org. I hope, there won't be bandwidth problems available again...</p>

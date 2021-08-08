@@ -1,0 +1,13 @@
+﻿Title:Przepisy drogowe 1.47 (2019)
+Author:marcin
+When:01 Sep 2019
+Taxonomy:Polski,Polski blog,Android,drogowe,Straż
+
+<p><img align="right" src="sites/default/files/365/Screenshot_20190901-203044.png" width="200" style="margin:2px" /></p>
+<p><img align="right" src="sites/default/files/365/Screenshot_20190810-141602.png" width="200" style="margin:2px" /></p>
+<p>W wersji 1.46 eksperymentowałem z wyglądem, ostatecznie jednak zdecydowałem się na implementację prowizorycznego menu widocznego po długim naciśnięciu listy tematów.</p>
+<!--break-->
+<p>Menu to dubluje menu widoczne po naciśnięciu odpowiednika klawisza sprzętowego w starych urządzeniach i zawiera dwie opcje eksperymentalne (czytania na pełnym ekranie i chowania linijki wyszukiwarki).</p>
+<p>Dodałem też oczywiście znaki D51a i D51b.</p>
+<p>W wersji 1.47 dodałem ostatnie jednolite wersje ustaw z dziennikustaw.gov.pl (praktycznie w całości odtworzone przez skrypty z plików PDF) + linki do wersji ujednoliconej przez pracowników Sejmu (jest bardziej aktualna, ale z uwagi na format jest mi ją ciężko przerobić na HTML)</p>
+<p>Plan na kolejne dni: 1.47 dla iOS + Straż 1.0 dla iOS + lepsze wsparcie dla wspomnianych opcji zmiany interfejsu (np. trybu pełnoekranowego) i pewnie należałoby wykonać interfejs od nowa (żeby był bardziej nowoczesny).</p>

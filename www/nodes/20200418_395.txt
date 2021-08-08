@@ -1,0 +1,141 @@
+﻿Title:Czy 2020 będzie rokiem rozwoju czy regresu technologicznego? (2020)
+Author:marcin
+When:18 Apr 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl
+SkipMain:true
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Czy-bedzie-rokiem-rozwoju-czy-regresu-technologicznego,107353.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Dużo się dzieje ostatnio na świecie. Ludzkie tragedie, częsta zmiana sytuacji, duży gierek politycznych, brak rzetelnych informacji i... technologia, która nas przenika.</p>
+
+<p>Myślę, że niektórzy z nas trochę się oswoili z tym nowym światem - dlatego postanowiłem zrobić <b>krótkie i bardzo małe (subiektywne) podsumowanie spraw w IT</b> na podstawie &quot;newsów&quot; z ostatnich tygodni.</p>
+<!--break-->
+<p>Jest to doskonała okazja ku temu - ciężkie czasy zawsze najlepiej pokazują, jakie są prawdziwe cele i możliwości poszczególnych firmy.</p>
+
+<p><b>Subiektywne krótkie podsumowanie per firma czy marka<br/></b></p>
+
+<p>AMD - firma dokonała już swojego &quot;bliztkriegu&quot;, teraz okopuje się i stara rozwinąć linie zaopatrzeniowe, podpisywać umowy, itp.</p>
+
+<p>Chipset x570 i PCIe 4 to był jeden z ostatnich rzutów na taśmę, obecnie nie spodziewałbym się przez jakiś czas &quot;nowych&quot; układów (czytamy, że <a href="https://www.purepc.pl/procesory-amd-ryzen-4000-vermeer-beda-zgodne-z-chipsetem-b450" target="_blank" rel="noopener" rel="nofollow">procesory Zen 3 będą zgodne z B450</a>, a to świadczy o braku chęci wprowadzania czegoś nowego; podobnie <a href="https://www.purepc.pl/plyty-glowne-z-chipsetem-amd-b550-zadebiutuja-w-czerwcu" target="_blank" rel="noopener" rel="nofollow">premiera B550 to może czerwiec</a> i być może będzie wyłącznie na papierze).</p>
+
+<p>Myślę też, że wzrost IPC o 10/15% w procesorach Zen3 będzie przez wielu przyjęty ze wzruszeniem ramion - nabywcy Zen+ i Zen2 w większości przy nich pozostaną; dużego skoku oczekiwałbym dopiero w 2021 czy 2022 (DDR5).</p>
+
+<p>Apple - kura dalej znosi złote jajka, ale pojawiają się pewne zgrzyty:</p>
+
+<ul><li>nowy MacBook Air ma starą / &quot;nową&quot; klawiaturą i nie posiada heatpipe, a do tego przy bardzo dużej rozdzielczości miewa problemy z 4K<br/></li>
+
+<li>iPhone SE2 to w praktyce zaledwie iPhone 8 z nowym CPU</li>
+
+<li>kółka do Mac Pro kosztują ledwie ok. 3500 PLN</li></ul>
+
+<p>Widać tutaj szacunek do ekologii, lekceważący stosunek do klientów i bardzo precyzyjne pozycjonowanie sprzętu, który nie ma być najlepszy, ale nadawać się do ściśle określonych zadań i niczego więcej.</p>
+
+<p>Ewentualnych większych ekscytacji można się spodziewać dopiero w 2021 lub później (ARM w laptopach).</p>
+
+<p>Dell - brak nawet zapowiedzi laptopów XPS z procesorami Ryzen 4000, postawowy <a href="https://www.notebookcheck.net/Dell-XPS-13-9300-Laptop-Review-Smaller-but-slower-CPU.458539.0.html" target="_blank" rel="noopener" rel="nofollow">XPS 13 bywa wolniejszy niż model z 2019</a> (wg. notebookreview). 2021?</p>
+
+<p>Epic Games Store - promocje się nie skończyły. Duży plus.</p>
+
+<p>Empik - udostępnienie usługi Empik Premium na 60 dni (oferta ograniczona, ale wystarczająca; do tego całkiem profesjonalnie napisana aplikacja). Ogromny plus.</p>
+
+<p>GOG - przez chwilę były spore promocje na gry, co jest dużym plusem.</p>
+
+<p>Intel - m.in. premiera &quot;nowych&quot; procesorów do laptopów, z których niektóre mają mieć chwilowe zużycie na poziomie 135W (do tego oczywiście nowe podstawki i nazewnictwo, w którym gubią się nawet najstarsi górale). Nowa architektura w 2032?</p>
+
+<p>Lenovo - ciągłe promocje na modele z AMD Ryzen 3000 i wycofywanie się z obsługi TB3 w modelach z AMD pomimo wcześniejszych zapowiedzi</p>
+
+<p>Microsoft - ciągłe problemy z nowymi aktualizacjami i opóźnienie z wprowadzaniem nowości w Skype, właściwie jedynym bardzo dobrym ostatnim projektem jest nowy Edge, który zaczyna dyktować tempo rozwoju Google Chrome.</p>
+
+<p>Samsung - zakończenie wsparcia dla serii Galaxy S7 i różnych telewizorów (w czasie pandemii jest to krok, który oczywiście może przysporzyć firmie wielu zwolenników); brak jasnej odpowiedzi na sprzedawanie Exynosów w tej samej cenie co Snapdragonów; do tego problemy z wyginaniem się modelu S20, różnymi antenami 5G w różnych &quot;galaktykach&quot; i ogólne problemy z aktualizacjami Androida.</p>
+
+<p>Już teraz widać, że pewnych nowości można spodziewać się dopiero w 2021.</p>
+
+<p>Steam - od czasu do czasu promocje</p>
+
+<p>Zoom - efekt skali, czyli wykrywanie kolejnych błędów przy wzroście użytkowników</p>
+
+<p><b>Druk 3D</b></p>
+
+<p>Dziedzina, o której zapewnie dużo słyszeliśmy - drukowanie elementów do respiratorów, masek, itp.</p>
+
+<p>Progres.<b><br/></b></p>
+
+<p><b>Dyski i pamięci flash<br/></b></p>
+
+<p>W zastosowaniach nieserwerowych obecne SSD są aż nadto wystarczające, trochę użytkowników na pewno zdecyduje się na zakup modeli SATA do starych laptopów.</p>
+
+<p>Brak postępu, bo jest niepotrzebny.<b><br/></b></p>
+
+<p><b>RAM</b></p>
+
+<p>Zero ekscytacji.<b><br/></b></p>
+
+<p><b>Smartphony</b></p>
+
+<p>Maleje nam ilość producentów układów ARM (Exynoxy Samsunga być może będą jeszcze dostępne pod marką Google; Kirin Huawei nieubłaganie wychodzi z rynku) i w praktyce pozostaje nam Snapdragon, układy Apple i tanie marki typu MediaTek.</p>
+
+<p>Firmy kojarzone z niską ceną zaczynają być drogie (nie mówię nawet o Samsungu, ale również o ostatnich nieskładanych modelach Huwaei, OneNote czy Xiaomi), a &quot;drogie&quot; stosunkowo tanie (Apple SE2 jest tańsze od różnych modeli z Androidem i jest to fakt bezsporny).</p>
+
+<p>(Częściowo uzasadniona) nagonka na 5G powoduje, że wielu użytkowników nawet nie myśli o zakupie nowego urządzenia z tą technologią.</p><p>Powiem więcej - sposób, w jaki forsuje się tę technologię, jest delikatnie mówiąc oburzający. </p>
+
+<p>Pamiętajmy o jednej rzeczy - infrastruktura 5G docelowo wymagać będzie szybkich kablowych łączy; proszę wybaczyć, ale dlaczego nie można ich położyć i używać szybkiego WiFi do obsługi tzw. &quot;ostatniej mili&quot;?</p>
+
+<p>(tak, oczywiście znam argumenty przeciwników i zwolenników 5G i wiem, jakie są jej potencjalne wady i zalety, i czuję, jaki jest prawdziwy powód)</p>
+
+<p>Producenci usuwają z kolejnych modeli funkcje, które kiedyś tam były - pod nóż idzie złącze jack, płaskie ekrany bez dziur czy IP67.</p>
+
+<p>Samsung, który przed lata wygrywał przez stosowanie anten o niskiej radiacji, w wielu wypadkach stracił swój atut.</p>
+
+<p>Regres.</p>
+
+<p><b>Tablety</b></p>
+
+<p>Albo Apple (ale bez normy IP), albo Samsung (bez normy IP, z doskonałymi ekranami AMOLED, ale ograniczeniami Androida). Są też oczywiście inne marki, ale od dawna w tym obszarze nie ma nic nowego.</p>
+
+<p><b>Laptopy</b></p>
+
+<p>Producenci bardzo opornie podchodzą do tematu AMD w procesorach czy kadłubkach i nowe urządzenia są nadal &quot;kastrowane&quot;. Widać tutaj wpływ kontraktów (podpisane na lat), być może również niższą jakość AMD (rozwiązania Intela zostały dopracowane przez lata, AMD nie miało takiego szczęścia).</p>
+
+<p>Strategii w dalszym ciągu nie zmienia Apple - nowy Air to w dalszym ciągu karykatura, jeśli chodzi o sposób chłodzenia.</p>
+
+<p>Pewnym odświeżeniem mogłyby być układy ARM, ale te można na razie policzyć na palcach jednej ręki - Apple być może wprowadzi je dopiero w przyszłym roku, pojedyńcze modele ze Snapdragonem sprzedawane są w cenach &quot;pełnoprawnych&quot; x86 (chociaż są wolniejsze i dodatkowo obciążane &quot;lekkim&quot; Windows 10).</p>
+
+<p>Dużo producentów w dalszym ciągu m.in. używa PWM czy ma problem z throttlingiem.</p>
+
+<p>Miałem gorącą nadzieję na producentów niszowych, ale rozczarowałem się szczególnie w zeszłym roku (jeden z importerów Clevo kadłubków wprowadził wprawdzie model L14, ale zabrakło tam tak podstawowej funkcji jak ograniczenie limitów CPU do poziomu pozwalającego na cichą pracę, brak jest również wyłączenia ME).</p>
+
+<p>W przyszłości po &quot;koronie&quot; chciałbym sprawdzić może <a href="https://system76.com/laptops/lemur" target="_blank" rel="noopener" rel="nofollow">model Lemur Pro</a> od System76 - może będzie się sprawował lepiej?</p>
+
+<p>Progres w stopniu naprawdę minimalnym, może coś się zmieni przy obecności większej ilości modeli z Ryzen 4000.</p>
+
+<p><b>Nasze portfele</b></p>
+
+<p>Zacznijmy od tego, że wielu z nas będzie dokładnie zastanawiać się nad wydatkami, dokładnie oglądając każdą złotówkę, każde Euro, franka i dolara. </p>
+
+<p>Czy w tej sytuacji będziemy chętnie myśleć o dobrach luksusowych/niepotrzebnych do normalnego funkcjonowania?</p>
+
+<p>Myślę, że nie i wiele firm zdecydowanie nie odnalazło się w tej sytuacji.</p>
+
+<p>Idealnie widać też, jak przez lata świat uległ pewnej biegunowości i mamy głównie:</p>
+
+<ul><li>produkty chińskie (coraz droższe i niestety nie zawsze dobrej jakości, co wykazały maski)</li>
+
+<li>produkty amerykańskie (które w różnych obszarach zdecydowanie zatrzymały się na pewnym poziomie - dla mnie idealną oznaką tego jest Intel i działania Mozilli, ale również <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=118639" target="_blank" rel="noopener" rel="nofollow">niemożność rozwiązania problemu keyDown i keyUp</a> w Chrome na Androidzie przez całe 8 lat i dosyć nieporadne tłumaczenia inżynierów)</li></ul>
+
+<p>Przez lata była jeszcze Korea z produktami Samsunga, te jednak (nie oszukujmy się) tracą na jakości, gdyż producent rozdrabnia się i skupia na średniej i niskiej półce.</p>
+
+<p>Oprócz nich daleko nie ma nic - w różnych dziedzinach jest tylko masa małych firemek, czyli w porównaniu do gigantów niestety plankton.</p>
+
+<p>Świat po koronie się podzielił - może w tej sytuacji doczekamy się sytuacji, że po wybraniu większego/drogiego urządzenia będziemy czekać na jego wyprodukowanie? I może sklepy przestaną być zalewane masą tandety?</p>
+
+<p>Pewna drobna nadzieja w Unii Europejskiej i podobnych strukturach - od czasu do czasu pojawiają się żądania wydłużenia wsparcia dla produktów, używania wspólnych ładowarek, możliwości wymieniania baterii, itp.</p>
+
+<p>W dziedzinie sprzętu spodziewałbym się bardziej oddolnych inicjatyw (jak z drukiem 3D), nie będzie jednak dużych przetasowań na rynku dużych graczy, gdyż fabryki i projekty kosztują.</p>
+
+<p>Myślę, że zakończyliśmy większy cykl gwałtownego rozwoju sprzętu - na pewno dużo projektów (jak DDR5 czy pamięci memrystorowe) będzie odłożonych w czasie, a kilka &quot;rewolucji&quot; (jak chociażby ekrany microLED) to co najwyżej rozszerzenie tego, co znamy.</p>
+
+<p>Możliwe, że tzw. sztuczna inteligencja będzie jeszcze przez chwilę napędzać rynek, ale to wszystko - kolejny gwałtowny skok to dopiero komputery kwantowe.</p>
+
+<p>Jeżeli mamy mieć jakąkolwiek rewolucję, to co najwyżej może się pojawić w obszarze usług (naprawy sprzętu), software (widać to po programach do pracy zdalnej, może pojawi się więcej wdrożeń Open Source) i twórczości (erotyki koronawirusowe, ale nie tylko).&#160;</p>
+
+<p>Moim zdaniem w tych obszarach 2020 może być okresem pewnych przełomów, a w pozostałych... no cóż.&#160;&nbsp;</p>

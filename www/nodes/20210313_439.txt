@@ -1,0 +1,88 @@
+﻿Title:Nie chcę Twoich pieniędzy... ale daj, daj, daj (2021)
+Author:marcin
+When:13 Mar 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Nie-chce-Twoich-pieniedzy-ale-daj-daj-daj,113506.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Właściwie to dzisiaj dopadł mnie nastrój melancholijny i chciałem zacząć od podstawowego pytania &quot;to do czego są nam te komputery?&quot;</p>
+<!--break-->
+<p>Dawno temu odpowiedź na to była bardzo prosta - dzięki nim mogliśmy szybciej i bardziej bezbłędnie policzyć, ile to jest dwa razy dwa (albo szybciej znaleźć interesującą nas informację, co bardzo umiejętnie wykorzystała pewna amerykańska firma, sprzedając tę technologię pewnemu dominującemu państwu w Europie).</p>
+
+<p>Największy rozwój napędzały oczywiście konflikty, i stąd właśnie powstawały kolejne maszyny mechaniczne, potem ENIAC, seria CRAY i inne tego typu rozwiązania. Ludzie dążyli do tego, żeby wyprzedzić &quot;tych złych&quot;, co zaowocowało chociażby stworzeniem komputera AGC:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/2KSahAoOLdU?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Technologia powoli stawała się coraz tańsza i mniej militarna, aż w końcu mieliśmy wysyp wszelkiego rodzaju samoróbek w stylu Apple I:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/jRKmpoDXgGk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>W tym momencie przyszła ochota na zabawę (stąd konsole, popularność ZX Spectrum, C64 i Amigi), na kolejne sposoby porządkowania danych w arkuszach kalkulacyjnych (IBM PC i nie tylko), jak również na pisanie tekstów.</p>
+
+<p>Internet w końcu zszedł pod strzechy i miliony użytkowników mozolnie tworzyło swoje strony hobbistyczne. W Polsce zaczęliśmy od 202122, potem Neostrada, połączenia przez komórki, itd. itd. Sam pamiętam, jak w latach 90-tych wciąż bardzo duży nacisk kładziono w prasie na edukację, opisywanie języków programowania typu Pascal, kolejne idee i algorytmy.</p>
+
+<p>Z czasem jednak to wszystko zanikło - od naszych własnych aplikacji i stron (Gadu-Gadu, Allegro, Nasza-Klasa, itp.) przeszliśmy do rozwiązań globalnych.</p>
+
+<center><img src="sites/default/files/439/woman-5779323_1920.jpg" style="width:304px;height:405px;" alt="image" title="image" /></center>
+
+<p>W dniu dzisiejszym wszędzie królują cztery hasła: </p>
+
+<p>1. wydajność (albo żeby ładniej brzmiało performance)</p>
+
+<p>2. bezpieczeństwo / security</p>
+
+<p>3. ekologia</p>
+
+<p>4. poprawność</p>
+
+<p>ale w wielu wypadkach straciły one pierwotne niewypaczone znaczenie.</p>
+
+<p>Niektórzy jeszcze próbują zaklinać rzeczywistość i pisać, że przy informatyzacji chodzi o zmniejszenie kosztów, ale... w praktyce ta piękna idea ludzkości dawno poszła do kosza. </p>
+
+<p>Ludzie sami z siebie pracują dla korporacji, tworząc recenzje sprzętu. Można tam zobaczyć <a href="https://www.dobreprogramy.pl/gtxxor/Uwaga-bede-bronic-iPhonea-mini-To-naprawde-rewelacyjny-sprzet-tylko-rynek-oszalal,113258.html" target="_blank" rel="noopener">próby zaklinania rzeczywistości</a> i mówienie, że &quot;konsumenci oczekują urządzeń spełniających ich oczekiwania w 100%, a producenci głowią się, jak im dogodzić&quot;. Jest to oczywista nieprawda, a obecna tzw. pandemia tylko pokazała, jak kruchy i nietrwały jest obecny system.</p>
+
+<p>Wcześniej zresztą nie było lepiej - a to &quot;przypadkiem&quot; zapaliła się jakaś fabryka pamięci, to gdzieś coś zalało... a my w to wierzyliśmy, jak w te gazetki, gdzie procesory 5,33 Ghz były w sprzedaży już w 2006 roku.</p>
+
+<center><img src="sites/default/files/403/11.png" style="width:338px;height:405px;" alt="image" title="image" /></center>
+
+<p>Coraz biedniejszego (w przenośni i dosłownie) konsumenta próbuje się złapać nawet przez odpowiednie nazwy:</p>
+
+<p>1. mamy masę &quot;różnych&quot; urządzeń, które często różnią się od siebie tylko nazwą (np. &quot;polskie&quot; laptopy pewnej firmy to Clevo)</p>
+
+<p>2. niektóre firmy wprowadzają na rynek produkt pod jakąś nazwą, a po recenzjach bez zmiany nazwy po cichu zmieniają wnętrzności (np. robił tak Kingston, <a href="https://www.tomshardware.com/news/adata-xpg-sx8200-pro-controller-change" target="_blank" rel="noopener" rel="nofollow">zdarza się Adacie</a>)</p>
+
+<p>3. nadużywanie przyrostków pro, hiper, super, mega (np. Samsung 980 PRO ma kości z &quot;konsumenckich&quot; serii) albo tych samych nazw serii na różne produkty (np. AMD 5000 zawiera procesory Zen 2, jak i Zen 3)</p>
+
+<p>4. pisanie o ogólnych parametrach (np. producent używa trzech różnych modeli matryc i zapewnia wyłącznie odpowiednią rozdzielczość)</p><p>5. współczynniki, które nie do końca opisują rzeczywistość (np. TDP 15 Watt w danym modelu laptopach może oznaczać, że procesor chwilowo &quot;wciągnie&quot; nawet 50 czy 60 Watt)</p>
+
+<p>Najciekawsze jednak sa pełne (udawanych?) emocji dyskusje, gdzie broni się bezsensownych decyzji. Przykładem niech będzie zmniejszenie ilości portów w Macbookach Pro. Moje pytania: czy nagle profesjonaliści stali się półludźmi (bardziej dosadnie: półgłówkami), że potrzebują połowy złącz? I jak to się ma do &quot;przecieków&quot;, że różne porty wrócą w kolejnej odsłonie tych urządzeń?</p>
+
+<p>Doszliśmy do sytuacji, gdy sami z siebie obrzucamy błotem, a słowa typu &quot;biedota&quot; i &quot;beznadzieja&quot; królują (bo komentujący nie są w stanie napisać nic bardziej sensownego). A ja się zapytam w tym momencie - można oczywiście zapłacić za jedną kopię Cyberpunka 10.000 PLN, tylko po co? Człowiek mądry rozsądnie rozporządza swoim majątkiem, a niezbyt rozgarnięty... no cóż.</p>
+
+<p><a href="https://www.dobreprogramy.pl/gtxxor/Uwaga-bede-bronic-iPhonea-mini-To-naprawde-rewelacyjny-sprzet-tylko-rynek-oszalal,113258.html" target="_blank" rel="noopener">Ktoś tu ostatnio płakał</a>, jaki to iPhone 12 mini jest rewelacyjny, a rynek go nie docenił. Myślę, że w dniu dziejszym jabłkowcy musieliby chyba dać baterię rzędu 100 mAh, żeby urządzenie nie było dobre. Rzecz w tym, że obecnie każde trochę droższe urządzenie ma dobre parametry... bo taki jest standard. A że na rynku można znaleźć masę innych modeli w tej samej lub mniejszej cenie, które dadzą nawet więcej, to rynek docenił 12 mini jak ocenił... A że pana Jobsa już nie ma, a firmą kieruje księgowy, który jednak nie potrafi stworzyć magii, to inna sprawa...</p>
+
+<p>I tu dochodzimy do mojej konkluzji - z jednej strony firmy narzekają na kryzys, pandemię i niedobrych użytkowników, którzy nie chcą kupować nowych rzeczy, z drugiej strony... byłem ostatnio zdziwiony, że towar jest, ale firmy bronią się rękami i nogami przed jego kupnem. </p>
+
+<p>Jeśli na jakiejś stronie małej firmy widzę &quot;wysyłamy tylko z pomocą kuriera X, w przypadku wysyłek zagranicznych prosimy o kontakt&quot;, a w odpowiedzi na maila firma pisze &quot;nie wysyłamy do wszystkich krajów na tym samym kontynencie (z pomocą firmy X) i nie możemy wysłać też z pomocą firmy Y ani żadnej innej&quot;, to mnie ręce opadają... wszyscy niby chcą zysku, ale... co komu szkodzi oddać towar innemu kurierowi, jeśli użytkownik płaci z góry?</p>
+
+<p>Czyli z jednej strony &quot;kupuj i daj nam nasze pieniądze&quot;, a z drugiej &quot;nie chcemy Twoich pieniędzy&quot;. To trochę jak z blokadami regionalnymi (firmy nawet wolą zamknąć filmy w magazynach niż je udostępniać) albo z dziwnymi decyzjami produktowymi - np. na kontynent X wysyłamy tylko wariant czarny, na kontynent Y głównie wariant szary.</p>
+
+<p>Czy można to w ogóle usprawiedliwiać problemami?</p>
+
+<p>Nie. Np. na najniższej półce głównie widzimy Celerony. A gdzie są Pentium Silver? Te można policzyć na palcach jednej ręki. Dlaczego nie można mieć 2x Pentium silver, umieszczonych np. daleko od siebie w dwóch rogach laptopa? (to razem 8 rdzeni i TDP 12 Watt). Dlaczego nie mogę sobie skomponować takiego Pentium Silver z dobrym ekranem i baterią rzędu 73 Watt? </p>
+
+<p>Dlaczego wreszcie nie mogę kupić sobie kadłubka i wymieniać tam płyty głównej? Czy naprawdę <a href="https://www.extremetech.com/computing/320337-new-startup-unveils-modular-laptop-coming-this-summer-2021" target="_blank" rel="noopener" rel="nofollow">trzeba aż startupu, żeby to ostatnie pokazało się</a> na rynku? (Clevo częściowo pokazało, że jest to możliwe i skoro rozwiązania SoC są tak popularne, wystarczyłoby dać taki układ na oddzielnej płytce i podłączać do niego z płyty głównej zasilacz, USB/TB4, anteny i może HDMI czy RAM).</p>
+
+<p>Mogę poczekać na wyprodukowanie takich urządzeń nawet i miesiąc i może to być wysłane do mnie prosto z fabryki.</p>
+
+<p>Nadprodukcja spowodowała bardzo dużo śmiesznych rzeczy - np. jedne firmy oferują jakiegoś konkretnego laptopa z Intelem 10 gen., inne w tej samej cenie sprzedają urządzenie z tej samej serii z lepszym Intelem 11 gen. (tak samo śmiesznym jest oferowanie za duże pieniądze Macbooka z Intelem, gdy dostępny jest o wiele lepszy z procesorem M1). Dużo rozwiązań przez to jest blokowanych, a firmy same sobie strzelają w stopę - np. dlaczego wyprowadzenie złącza do zewnętrznej karty graficznej w laptopie to jakiś kosmos?</p>
+
+<p>Coś w tym jest, że to wszystko wygląda jak za czasów gospodarki sterowanej centralnie (tylko, że teraz komitetem są grupy manadżerów korporacji).</p>
+
+<p>To tyle, a zgodnie z obecną modą powinienem jeszcze napisać, że Apple mnie dyskryminuje - około 2010 mogłem kupić MacBooka z matowym ekranem, a teraz... jestem dyskryminowany ze względu na słabszy wzrok, który nie toleruje odbić.</p>
+
+<p>PS. Dalej nie wiem, do czego dziś są komputery, ale dzisiaj to chyba wyłącznie religia i sposób na bezproduktywne marnowanie potencjału ludzkości (komputery służą wyłącznie do rozwiązywania problemów, których nie było przed nimi).</p>
+
+<p>PS2. Jeśli mówimy o zastosowaniach praktycznych - ostatnio szukałem prostego edytora, który pozwoli mi wyświetlić podział na sylaby (a najlepiej policzy, ile jest w każdym wierszu).</p>
+
+<p>Nie ma.&#160;&nbsp;</p>

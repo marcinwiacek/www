@@ -1,0 +1,75 @@
+﻿Title:Few notes about design flaws with Asrock X570 Phantom Gaming-ITX/TB3 (version 1.1, 2020)
+Author:marcin
+When:4 Jan 2020
+Taxonomy:English,English blog,Linux,AMD,x86
+
+<img src="sites/default/files/383/bug.png" width=300 align=right />
+
+<p><nobr>In December</nobr> I had ability of creating powerful ITX system with AMD Ryzen processor. After this build I created an article in Polish language describing with details problems found during it (see <a href=?q=node/383>Największa niewiadoma 2020 to AMD (pełne case study budowy mocnego systemu ITX</a>), here I wanted to make some extract and short conclusion in English language.
+
+<!--teaser-->
+
+<p>In December I had ability of creating powerful ITX system with AMD Ryzen processor. After this build I created an article in Polish language describing with details problems found during it (see <a href=?q=node/383>Największa niewiadoma 2020 to AMD (pełne case study budowy mocnego systemu ITX</a>), here I wanted to make some extract and short conclusion in English language.
+
+<p><b>Cooling</b>
+
+<p>First of all, the biggest problem, which I found, is lack of AM4 motherboard with good VRM and passive cooling - x570 is always combined with noisy and very annoying fan. I can understand, that 15W needs some cooling, but why we can't have one heatpipe connecting chipset and VRM with horizontal cooler located in motheboard back with hole in the back motherboard panel?
+
+<p>Cooler is taking HOT air from internal area and it's not affective - taking COLD air from outside (and moving hot air directly OUTSIDE case) could be much better. This is not difficult for implementing and could be done exactly like in laptops.
+
+<p>Current design has got one more issue - high passive cooler for VRM is blocking many more advanced air coolers and is heating them (this is making huge temperature spike especially in scenarios with increased TDC).
+
+<p><b>NVME</b>
+
+<p>Motherboard has got 4 obsolete SATA ports and only one NVME connector on the motherboard back - wasn't it possible to decrease amount of SATA (to save PCI lines) and give one more NVME?
+
+<p>Additional issue with current design - NVME disks are heating a lot (even to 65C), Gigabyte made much better solution...
+
+<p><b>UEFI</b>
+
+<ul>
+
+<li>Some pages don't have description,
+
+<li>Some pages don't have options at all:
+
+<center><p><img src="sites/default/files/383/puste.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<li>there is bug with F12 option:
+
+<p><center><img src="sites/default/files/383/bug.png" style="width:540px;height:405px;" alt="image" title="image" /></center>
+
+<li>Once I've lost ECO mode option (it was required to reset UEFI settings)
+
+<li>Options are not logically sorted - for example option for maximal CPU temperature is hidden in PBO screen (I think, it has got much bigger sense to have such options for throttling or disabling system, when system is overheated, in fan related screen)
+
+<li>Motherboard doesn't propose 3200 profile for DDR by default, also some power saver options are not enabled
+
+<li>You can't disable for example Ethernet card for saving power
+
+<li>We don't have options for hardware tests or making stress test
+</ul>
+
+<p>Note: AM4 will be used by many people for Linux (compiling software, etc.) and I think, that companies creating motherboards should  help Linux people in making support for fan/temperature monitoring - for example with this MB Ryzen and MB info is not available at all (for me it's not very interesting, who should be blamed).
+
+<p><b>Let's compare to Intel</b>
+
+<p>During my research I've found EPC621D4I-2M motherboard from Asrock - supports XEON up to 200W TDP (socket is much bigger than AM4!), has got 4 memory slots, integrated graphic and 7x SATA.
+
+<p>It's much more than for AM4! Asrock, WHY?
+
+<p><b>Summary</b>
+
+<p>Asrock was thinking about such details like LED, but forgotten about the most important things. Motherboard is working, TB4 is nice extension, but... I would expect much more - for example version with simple integrated graphic chip (this could allow using PCI slot for something else than dedicated graphic).
+
+<p>For now the whole solution is dedicated more for AIO, which is blocker for some scenarios (some building rules for some systems are not allowing for using it).
+
+<p>Cooling method makes motherboard noisy, temperatures for NVME slot are too high.
+
+<p>I think, that this MB can be estimated for max. 8 points (in 1-10 scale).
+
+<p>Happily these things can be really easy fixed and I hope to see revision 2 with changed design.
+
+<p><b>Update 8.2.2020:</b> ASRock has got X570D4I-2T - X570 is with passive cooling, own graphic, support for CPU up to 105W and SODIMM slots
+(I don't see it in shops, but it will cost probably more than 300 Euro). Additionally
+X570 Phantom Gaming-ITX/TB3 has got Thunderbolt 3 certificate.

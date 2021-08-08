@@ -1,0 +1,18 @@
+﻿Title:Report 2006-07-25
+Author:marcin
+When:26 Jul 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>Gammu 1.07.15 has been released today - it contains various fixes, improvements for new models, filesystem, etc. I also spent a lot of time on Symbian.
+</li><li>gammu.org
+<ul><li>I moved content of Gammu:FAQ to other subpages. This is another step into making one big logic structure.
+<!--break-->
+</li><li>another one of my "old" Nokia pages moved to this Wiki - this one contains <a href="?q=node/15">Nokia keypad codes</a>
+</li><li>after uploading 1.07.15 I had rather not too nice surprise - my scripts for reading versions from RSS went crazy. I changed them fast, but the problem seems to be opened - how to read HTTP file in PHP with possibility of breaking after some maximal time (in other words: how to make script, which will go into other tasks, when reading need too much time)
+</li><li>my mood - much better after reading <a href="http://www.geocities.com/badroot31337/hl.txt">http://www.geocities.com/badroot31337/hl.txt</a> (I'm happy, that server was changed and I hope, that current is better)
+</li></ul></li><li>my time - probably busy to end of this week (I'm ending one big project), I don't know how in August (I wanted to work more on GSM things then, but...they are not profitable for me in this moment and I have enough promises and probably I will have to go to other tasks - something like in July).
+</li><li>soon future
+<ul><li>Gammu - Symbian, maybe Motorola, I promised CA42 and ending old things and I will try to make it step by step
+</li><li>Gammu+ - new release soon (planned filesystem and reporting, which calendar/pbk features in entries were restored to phone and which not), maybe will have it tested enough for end of next week. I plan to change version numbering for it (it will be the same to Gammu)
+</li></ul></li></ul>

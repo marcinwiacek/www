@@ -1,0 +1,10 @@
+﻿Title:&quot;Wzory znaków drogowych - informacja publiczna tylko do kupienia, czyli re-use po polsku&quot; (2012)
+Author:marcin
+When:24 Oct 2012
+Taxonomy:Polski,Polski blog,Android,GSM,drogowe
+
+<p>Przeglądałem DI, trafiłem na tekst <a href="http://di.com.pl/news/46787,0,Wzory_znakow_drogowych_-_informacja_publiczna_tylko_do_kupienia_czyli_re-use_po_polsku.html">Wzory znaków drogowych - informacja publiczna tylko do kupienia, czyli re-use po polsku</a>, a później na stronę <a href="http://prawo.vagla.pl/node/9880">Oddajcie obywatelom znaki drogowe w wersji elektronicznej (źródłowej)</a>.</p>
+<!--break-->
+<p>Zaciekawił mnie fragment "Zacząłem nagle mieć wielką ochotę na zdobycie elektronicznej wersji załączników do rozporządzenia. (...) Jak tylko uzyskałbym do nich dostęp - chętnie doprowadziłbym do tego, by w ramach serwisu Sejmometr.pl powstały darmowe kursy na prawo jazdy wzbogacone znakami, albo inne narzędzia edukacyjne, które pozwoliłyby obywatelom na sprawdzenie swojej wiedzy o znakach drogowych, sygnalizacji, itp."</p>
+<p>Sam od ponad roku piszę "Przepisy drogowe" (<a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe&amp;hl=pl">wersja na Androida</a>, <a href="http://www.mwiacek.com/PrzepisyDrogowe/">wersja na www</a>, może kiedyś na iOS :)), w których nie potrzeba było dokładnych co do milimetra wzorców znaków do tego, aby można było możliwie jasno i czytelnie przedstawiać zawiłości prawa polskiego. No właśnie - tylko że ja zająłem się kodowaniem, a nie robieniem tzw. szumu (bo o ile walka o darmowy re-use ma sens, o tyle akcja wygląda mi na marketing). Może ktoś chce się dołączyć ?</p>
+<p>PS. Przy okazji <a href="http://prawo.vagla.pl/node/9879">"Mamy schemę XML dla aktów prawnych do wykorzystywania w systemie konsultacji On-Line"</a> - może kiedyś doczekam darmowego i automatycznego przetwarzania prawa polskiego ?</p>

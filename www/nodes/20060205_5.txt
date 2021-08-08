@@ -1,0 +1,19 @@
+﻿Title:Report 2006-02-05
+Author:marcin
+When:05 Feb 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>After few days in bed I have a lot of power :-D :</p>
+<ol><li>I started making real &amp; actual manual for command line options.It will be put in the future instead of gammu.txt into source tarball.
+<!--break-->
+<p>From technical details: page is created from many smaller Wiki subpages. The problem is, that normally (when you try to go inside it with internal Wiki link), page doesn't contains latest versions of subpages. You have to use full external link with ''action=purge'' on end like above.</p>
+<p>I plan to make similiar steps for readme.txt in source tarball (all before 1.05.00).</p>
+<p><b>Please note, that each user can put easy own contribution into this documentation. The more, the better.</b></p>
+</li><li>few people were speaking in January about problems with SMS locations.
+<p>Generally you can show location of each SMS using two numbers: SMS location AND SMS folder. Each SMS has unique number in specified folder. You can use always folder "0" or sometimes folders higher than "0". I started explaining it in the part of SMS manual.</p>
+<p>And now the trick is, that Gammu functions the most often return folder higher than "0" (to notify user, if there was used Inbox, Outbox or something else) AND location from folder "0" (example: if you used '''--savesms''' and have folder 1 and location 5, to get this SMS use '''--getsms 0 5''', where 0 is folder 0 and 5 is location inside folder 0).</p>
+</li><li>I though a lot about using CVS and other tools. I will maybe put BugTracker into gammu.net and some other.
+</li><li>version 1.04.07 of Gammu contains the most important bugfixes + written source for getting phonebook from Series 40 3.0 phones. If there will be users, who will play with it (with my help), there will be fast support or them. If not, it will be end, when I will have access to such phone.
+</li><li>there were some temporary problems with access to gammu.net/wiki. If you will have them again, please let me know.
+</li></ol>

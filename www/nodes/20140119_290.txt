@@ -1,0 +1,59 @@
+﻿Title:Bezpieczeństwo w praktyce....Czyli jak zostać gimbusem... (2014)
+Author:marcin
+When:19 Jan 2014
+Taxonomy:Polski,Polski blog,Android,GSM,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.dobreprogramy.pl/marcinw2/Bezpieczenstwo-w-praktyce.Czyli-jak-zostac-gimbusem,51665.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Niedawno opublikowałem tutaj krótki typowo blogowy wpis <a href=?q=node/287>Bezpieczeństwo w praktyce....czyli krótki przegląd zabezpieczeń w...</a>. Było to kilka uwag z punktu widzenia bardzo przeciętnego zjadacza chleba na temat tego, co można zobaczyć w kilku znanych sklepach (a nie szczegółowa analiza jaką czasem możemy przeczytać na różnych stronach zajmujących się tematyką bezpieczeństwa).
+
+<!--break-->
+<p>Chciałbym się odnieść do komentarzy.... Przede wszystkim widać, że niektórzy uważają pocztę elektroniczną za medium bezpieczne. Ja oczywiście zgodzę się, że szanujące się programy pocztowe mają opcję włączenia SSL, ale to działa tylko pomiędzy programem, a serwerem, z którym ten się łączy. A co z pozostałymi, które przekazują wiadomości ?
+
+<p>W tym miejscu dziękuję Anonimowi, który opisał stan najbliższy prawdzie:
+
+<p><i>"Jeśli myślisz, że serwery SMTP "renomowanych" dostawców poczty jak np. gmail wymuszają szyfrowanie połączeń między sobą to bardzo się mylisz. E-mail nigdy nie był i nie jest bezpiecznym sposobem przesyłu informacji. Nie masz żadnej gwarancji, że ktoś nie podsłucha Twojej komunikacji, dopóki sam nie zaszyfrujesz swojej wiadomości. I nie masz żadnego wpływu na bezpieczeństwo maili przychodzących do Ciebie dopóki nie postawisz własnego serwera SMTP. I nawet wtedy nie masz żadnego wpływu na to, co się dzieje z tymi mailami po drodze do Twojego serwera."</i>
+
+<p>Ja dodam tylko tyle, że nie bez powodu w takim Outlooku znajdują się opcje do SZYFROWANIA wiadomości. Chcę też zauważyć, że istotą Internetu jest to, że użytkownik najczęściej nie ma wyboru, którędy idą jego pakiety (mogą iść przez USA) i że wielu użytkowników używa poczty Gmail, do której zapewne mają dostęp odpowiednie służby. Mówiąc inaczej - jeśli w mailu znajduje się pełna faktura albo link do pobrania e-booka (po kliknięciu którego można go ściągnąć bez autoryzacji w sklepie np. z naszym znakiem wodnym), to.....
+
+<p>Druga sprawa to przeglądanie produktów.... Już jakiś czas temu takie Google wprowadziło szyfrowanie przy wyszukiwaniu (Firefox pokazuje TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, 128 bit keys). Oni jakoś widzą potrzebę tego typu działania (pomijam to, czy NSA ma do tego dostęp czy nie). A na takim Allegro mamy przecież kategorię Erotyka.... A w sklepach z książkami możemy kupić książki Salmana Rushdie, na którym w dalszym ciągu ciąży fatwa (czy warto więc wszem i wobec informować, że je czytamy albo ich szukamy ?). To tylko przykłady, ale....
+
+<p>Wracając do <a href=?q=node/287>poprzedniego wpisu</a> - w przypadku części wymienianych przeze mnie sklepów Firefox mi pokazuje SSL_RSA_WITH_RC4_128_MD5, 128 bit keys. Aczkolwiek może WikiPedia nie jest najlepszym źródłem, to <a href=http://pl.wikipedia.org/wiki/RC4>zacytuję ją w tym miejscu</a>: "Pomimo, że RC4 jest odporny na kryptoanalizę liniową i kryptoanalizę różnicową to jest obecnie uznawany za niezbyt bezpieczny kryptosystem". Nie jestem matematykiem, ale w tym samym czasie w różnych bankach można już zauważyć np. TLS_RSA_WITH_AES_256_CBC_SHA, 256 bit keys. A tak uwielbiany FaceBook ? TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, 128 bit keys. One jakoś widzą potrzebę wprowadzania innego szyfrowania....
+
+<p>Nawiasem mówiąc w liście najpopularniejszych wpisów na tym blogu widnieje wpis <a href=http://www.dobreprogramy.pl/bravo/Test-przegladarek-internetowych-na-Androida-Styczen-2014,51361.html>Test przeglądarek internetowych na Androida (Styczeń 2014)</a>. Całkiem poprawne porównanie cyferek, ale ile można tam przeczytać na temat uprawnień lub tego, jak te przeglądarki naprawdę działają ?
+
+<p>Ten test jasno pokazuje, że dla przeciętnego zjadacza chleba liczy się wygoda i tylko ona, co zostało potwierdzone również komentarzem do mojego wpisu:
+
+<p><i>"Normalny człowiek wolałby mieć ma mejlu jednak pełne dane zamówienia, bo to się przydaje w razie problemów ze sklepem"</i>
+
+<p>I dlatego powtórzę jak mantrę - informatycy powinni wymuszać poprawne zachowania, a nie "odwalać fuszerkę".
+
+<p>Żeby nie było wątpliwości, dlaczego zwróciłem uwagę na test przeglądarek - wziąłem sobie takie <a href=https://play.google.com/store/apps/details?id=com.skyfire.consumer.browser&hl=pl>SkyFire 5</a>. Dużo uprawnień, po odpaleniu dodatkowo prosi o SID i LSID (dostęp do konta googlowego ?), a jak kliknę w <a href=http://www.skyfire.com/about/privacy-and-security>Privacy Policy</a>, to widzę slicznie HTTP 404 File Not Found. Kiedyś <a href=q=node/181>w 2011 sam robiłem porównanie przeglądarek</a> i tamta wersja SkyFire pokazywała przynajmniej jasno
+
+<p><center><img src=sites/default/files/181/sky_eula2.png></center>
+
+<p>Ilu użytkowników zwraca uwagę na podobne kwestie ?
+
+<p>Według mnie pewien niepokój powinny budzić doniesienia typu: <a href=http://op-co.de/blog/posts/android_ssl_downgrade/>Why Android SSL was downgraded from AES256-SHA to RC4-MD5 in late 2010</a> albo <a href=https://badsector.pl/zagrozenia/wiadomosci/2013/12/rsa-10-mln-usd-za-oslabienie-szyfrowania.141.html>RSA: 10 mln USD za osłabienie szyfrowania</a>
+
+<p>Dlaczego ? Ileś różnych osłabień zabezpieczeń może prowadzić do tego, że gdzieś jednak można się włamać.... Jeśli nie wiecie, to nawet w Firefoxie <a href=http://kb.mozillazine.org/Security.tls.version.*>domyślnie wyłączone bywa TLS 1.1</a>.
+
+<p>Do tego należy pamiętać, że w wielu projektach liczy się głównie czas czy budżet i czasem różne kwestie bezpieczeństwa schodzą na setną pozycję (bo "to ma tylko działać").... Albo używa się iluś bibliotek, które w połączeniu nie zawsze mają szansę poprawnie zadziałać (i nikt nie sprawdza czy np. nie osłabiono przez to szyfrowania).
+
+<p>Chciałbym jeszcze obalić krótko jeszcze jeden mit:
+
+<p><i>"Jeżeli nie chcesz by inni wiedzieli co oglądasz wystarczy zabezpieczyć WiFi. Podsłuchiwanie WiFi zabezpieczonej WPA/WPA2 nie jest proste (o ile hasło nie jest trywialne)."</i>
+
+<p>Coraz więcej użytkowników używa WiFi - to jest fakt. Dużo tych WiFi jest jednak publicznych i nie używa zbyt mocnego szyfrowania - to też jest fakt. A routery ? <a href=http://niebezpiecznik.pl/post/dziura-w-routerach-z-firmwarem-zyxel-a-m-in-tp-link/>Zdarza im się mieć "tylne furtki"</a> i hasła mogą wyciekać....
+
+<p>A nawet jeśli, to nie można zapominać, że najpopularniejszym systemem bywa właśnie Android - a tam użytkownicy raczej nie sprawdzają zbyt mocno, co i gdzie aplikacje przesyłają. Do tego kontrola uprawnień była dostępna domyślnie tylko przez chwilę - <a href=http://www.dobreprogramy.pl/Kontrola-uprawnien-aplikacji-wycofana-z-Androida,News,50964.html>od wersji 4.4 jest wycofana</a>, a tłumaczone jest to względami....bezpieczeństwa.
+
+<p>Żeby było ciekawiej, w tym systemie należy pamiętać o takich uniwersalnych błędach (czy też "błędach" w kontekście doniesień o NSA) jak zła obsługa dwóch plików o tych samych nazwach w plikach APK (słynny "master key"). Mogą być uzyskane do złamania zabezpieczeń urządzenia....i część użytkowników je wykorzystuje, aby.....np. włączyć firewall (przy okazji nie analizując pakietów, które łamią urządzenie).
+
+<p>Podsumowując - nie dla wszystkich najważniejszy bywa pokój na świecie, bezpieczeństwo jednak bywa fikcją, w wielu wypadkach należy niestety leczyć się samemu, a nawet proste wskazanie najbardziej typowych błędów....pokazuje, że wiedza użytkowników bywa nie do końca poprawna. Ktoś napisał:
+
+<p><i>"Gimbazjalny specjalista zabezpieczeń?"</i>
+
+<p>A ja się pytam - czy jest sens pisać o konkretach, jak nawet podstawy mogą nie być rozumiane w sposób właściwy przez odbiorców ?
+
+<p>Czy tak czy inaczej - życzę rozsądku i wiedzy, a o przesyłaniu haseł otwartym tekstem czy opieraniu całego hashowania na MD5 (bo takie kwiatki też się czasem zdarzają) mam zamiar dalej pisać :)

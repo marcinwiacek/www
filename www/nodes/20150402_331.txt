@@ -1,0 +1,22 @@
+﻿Title:x
+Author:marcin
+When:02 Apr 2015
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wiem, że nie dostanę już daru,<br />
+wiem, że "tego" nie ujrzę czaru,<br />
+wiem, że telefon nie zadzwoni,<br />
+wiem, że nie zechce dać mi dłoni,</p>
+<p>wszystko chyba już zniszczone,<br />
+wszystko już zaprzepaszczone,<br />
+wszystko jest bajką tak daleką,<br />
+wszystko jak za górą i rzeką,</p>
+<p>tyle rzeczy wciąż zawieszonych,<br />
+tyle spraw jest niedokończonych,<br />
+tyle teraz mam wątpliwości,<br />
+tyle teraz tu niepewności,</p>
+<p>tak boli ze snu przebudzenie,<br />
+taka cena za swe istnienie...</p>
+<!--break-->

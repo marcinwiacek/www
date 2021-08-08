@@ -1,0 +1,97 @@
+﻿Title:Bo każdemu wystarczy 640 kB... (2020)
+Author:marcin
+When:8 Dec 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Bo-kazdemu-wystarczy-kB,112191.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Zacznijmy od malutkiego obrazka...</p>
+<!--break-->
+<center><img src="sites/default/files/426/1.png" style="width:584px;height:194px;" alt="image" title="image" /></center>
+
+<p>Obrazek pozwoliłem sobie zapożyczyć z <a href="https://www.notebookcheck.net/Apple-MacBook-Air-2020-M1-Entry-Review-Apple-M1-CPU-humbles-Intel-and-AMD.508057.0.html" target="_blank" rel="noopener" rel="nofollow">recenzji Macbooka Air Late 2020</a>.</p>
+
+<p>Porównajmy sobie zużycie w trybie Off / Standby z kilkoma innymi modelami z tej strony:</p>
+
+<p>1. <a href="https://www.notebookcheck.net/Dell-XPS-15-2017-9560-7300HQ-Full-HD-Notebook-Review.195668.0.html" target="_blank" rel="noopener" rel="nofollow">Dell XPS 15 2017 9560</a> - 0.36 / 0.55 Watt</p>
+
+<p>2. <a href="https://www.notebookcheck.net/HP-Envy-13-Laptop-Review-Elegant-metal-case-and-solid-performance.508407.0.html" target="_blank" rel="noopener" rel="nofollow">HP Envy 13</a> - 0.35 / 0.9 Watt</p>
+
+<p>3. <a href="https://www.notebookcheck.net/Asus-ZenBook-Pro-15-UX535-laptop-review-It-could-still-be-a-little-more-Zen.508050.0.html" target="_blank" rel="noopener" rel="nofollow">Asus ZenBook Pro 15 UX535</a> - 0.3 / 0.7 Watt</p>
+
+<p>4. <a href="https://www.notebookcheck.net/Lenovo-Yoga-Slim-7-14ARE05-in-Review-Compact-Powerhouse-with-Good-Battery-Life.508459.0.html" target="_blank" rel="noopener" rel="nofollow">Lenovo Yoga Slim 7 14ARE05</a> - 0.6 / 0.7 Watt</p>
+
+<p>5. <a href="https://www.notebookcheck.net/MacBook-Pro-13-2020-in-Review-Apple-s-subnotebook-only-gets-the-mandatory-update.467617.0.html" target="_blank" rel="noopener" rel="nofollow">MacBook Pro 13 2020</a> - 0.05 / 0.32 Watt</p>
+
+<p>6. <a href="https://www.notebookcheck.net/Dell-Precision-5550-Workstation-Review-The-XPS-15-For-Professionals.483877.0.html" target="_blank" rel="noopener" rel="nofollow">Dell Precision 5550</a> - 0.14 / <b>1.8 Watt</b></p>
+
+<p>Mógłbym tak wymieniać w nieskończoność, i choć nie wiem, czy standby w przypadku Mac oznacza zapis na dysk i całkowite wyłączenie, ale zauważam, że laptopy z Windows pobierają bardzo dużo prądu w trybie standby (nawet MacBook Pro 13 2020 potrzebuje o rząd więcej energii niż model z M1).</p>
+
+<p>Oczywistym jest, że pamięć DRAM potrzebuje pewnej porcji energii do podtrzymania zawartości.</p>
+
+<p>Czy coś więcej?</p>
+
+<p>Możliwe, że sam wyłącznik nie jest już tylko mechanicznym wyłącznikiem, tylko jest podpięty do układu, który musi być cały czas czas zasilany.</p>
+
+<p>Do tego... dochodzi niestety niesławny Intel ME. Zastanówmy się - układ, który dostajemy &quot;za darmo&quot; i który w praktycznie każdym systemie z Intelem pozwala na takie cuda jak zdalny dostęp (oczywiście teoretycznie z hasłem, i oczywiście teoretycznie tylko po uaktywnieniu odpowiedniej funkcjonalności).</p>
+
+<p>Dla osób nieznających tematu może małe zrozumiałe wprowadzenie w oparciu o Macbooki (od 8:31):</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/4bgLKZ6dBnY?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Nie jestem serwisantem i nie szukam teorii spiskowych, ale najwyraźniej kolejne osoby potwierdzają, jakie kwiatki mamy w używanych przez nas laptopach czy desktopach.</p>
+
+<p>A jak wygląda to przy Ryzenach? Kilka pierwszych lepszych recenzji:</p>
+
+<ol><li><a href="https://www.notebookcheck.net/Lenovo-ThinkPad-E15-Gen-2-Review-Office-laptop-with-an-AMD-chip-and-new-design.506035.0.html" target="_blank" rel="noopener" rel="nofollow">Lenovo ThinkPad E15 Gen.2</a> - 0.41 / 0.62 Watt </li>
+
+<li><a href="https://www.notebookcheck.net/Lenovo-IdeaPad-S540-13-inch-Laptop-Review-Ryzen-has-turned-this-small-office-laptop-into-a-real-powerhouse.506062.0.html" target="_blank" rel="noopener" rel="nofollow">Lenovo IdeaPad S540</a> - 0.29 / 0.4 Watt</li>
+
+<li><a href="https://www.notebookcheck.net/A-Ryzen-7-4800U-for-Businesses-HP-EliteBook-845-G7-Ryzen-7-Pro-4750U-Laptop-Review.505401.0.html" target="_blank" rel="noopener" rel="nofollow">HP EliteBook 845 G7 Ryzen 7</a> - 0.21 / 0.49 Watt</li>
+
+<li><a href="https://www.notebookcheck.net/Surface-Laptop-3-15-Ryzen-5-Review-Microsoft-Can-Do-Better.440183.0.html" target="_blank" rel="noopener" rel="nofollow">Surface Laptop 3 15 Ryzen 5</a> - 0.2 / 0.51 Watt</li></ol>
+
+<p>Można w tym momencie oczywiście przerzucać się liczbami i mówić, że to wina zasilacza, itp. itp., ale bardziej zasadne będą trzy pytania:</p>
+
+<p>1. co tam działa?</p>
+
+<p>2. ile energii się marnuje? Przyjmijmy średnio (skromnie), że rocznie sprzedaje się 70 milionów systemów. Część z nich zastępuje te stare, więc roboczo podzielę sobie to przez dwa. Przyjmijmy, że w trybie off marnujemy 0.2 Wat, a w standby jakieś 0.5 Watt. 35 milionów razy 0.2 albo 0.5 to w dalszym ciągu pewna konkretna wartość.</p>
+
+<p>3. czy jest to wina tego, że x86 obecnie przypomina słynnego Czarnego Kota &quot;Gargamela&quot; z Warszawy sprzed rozbiórki dodatkowych pięter?</p>
+
+<p>Oryginalny IBM PC to dosyć prosta konstrukcja - kontroler klawiatury, przerwań, pamięć, procesor i kilka innych układów, natomiast cała reszta (porty równoległe i szeregowe, kontroler dysków, dyskietek, karta graficzna) były oddzielne.</p>
+
+<p>Od 1981 przeszliśmy oczywiście bardzo długą drogę - ISA została zastąpiona przez PCI, mamy USB, NVME, Thunderbolt, lepsze pamięci, itp. itd.</p>
+
+<p>Dzisiaj podłączamy klawiatury przez USB 3.x, mamy ogromne (z punktu widzenia wcześniejszych systemów) pamięci i dyski, a często używamy tego do tego co kiedyś - np. pasjansa, pisania tekstów i wyliczania wyniku 2x2 (oczywiście trochę żartuję).</p>
+
+<p>Zastanawia mnie jedno - co by było, gdyby całą płytę x86 sprzed kilku lat (z kilkoma rozsądnymi rozszerzeniami) wytrawić w formie chipa w technologii 7nm?</p>
+
+<p>Czy dajmy na to jakiś stary model z obsługą 64-bitów byłby przynajmniej równy współczesnym wyrafinowanym konstrukcjom pokroju Ryzen 5xxx?</p><p>Naprawdę często nie potrzebujemy 14 portów USB czy 8 SATA.</p>
+
+<p>To, że dałoby się, to pewne:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Q4qJf50YSVk?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>A gdyby zrobić to w całości? </p>
+
+<p>I ile energii idzie na &quot;zabezpieczenia&quot; w trybie włączenia? (TPM, problemy z prefetchingiem i konieczność wykonywania dodatkowych instrukcji w celu zabezpieczania danych, i inne cuda)</p>
+
+<center><img src="sites/default/files/426/light-bulb-3104355_1920.jpg" style="width:608px;height:342px;" alt="image" title="image" /></center>
+
+<p>Inną sprawą jest to, że wielu wybierze pewnie wariant 8 GB / 256 GB od Apple - czy to też jest zwiastun wymuszonej rewolucji, w której słowo optymalizacja w końcu odzyska swoje znaczenie? I czy układ 4+4 rdzeni trochę nie przypomina trochę Intela, który też przez lata promował w wielu segmentach 4 rdzenie z HT? (chodzi mi o ilość)</p>
+
+<p>Mam wrażenie, że obecnie Intel i AMD to takie dinozaury jak kiedyś IBM, który w dobie mikrokomputerów produkował systemy mainframe. AMD oczywiście będzie miało jeszcze kilka momentów chwały, ale... w końcówce roku wydaje się, że Apple wyprzedziło ich o lata świetlne.</p>
+
+<p>W mocy pozostają oczywiście moje pytania m.in. o żywotność dysku SSD w M1 (we wcześniejszych wpisach) i obawa o to, kiedy rewolucja pożre swoje dzieci (obecnie zachwycamy się rodziną M, ale prędzej czy później w przyszłości będzie to tak zamknięte rozwiązanie, że będziemy płakać), nie zmienia to faktu, że x86 czas chyba wyrzucić do śmietnika... i o ile Samsung i inni mieli sposobność to zrobić, to jedynie Apple miało jajecznicę (bo nie chcę mówić bardziej dosłownie). </p>
+
+<p>Ludzie kiedyś krzyczeli &quot;Bal-ce-rowicz! Musi odejść!&quot;, może czas zmienić to na &quot;x86! Musi odejść!&quot;?&#160;</p>
+
+<p>Tak na marginesie co do x86: inną sprawą jest kwestia oprogramowania - zawsze zastanawiało mnie to, ile usług i &quot;niezbędnych&quot; elementów uruchamianie jest w Windows.</p>
+
+<p>Jeśli dodamy do tego jakieś oprogramowanie antywirusowe (bierze jednak swoją część zasobów), to wychodzi mi na to, że tutaj też pewnie dałoby się w skali globalnej zaoszczędzić sporo.</p>
+
+<p>Mac OS jest sprzedawany razem ze sprzętem i reklamowany jako idealnie dopasowany. Nie lubię tego przywiązania, nie zmienia to jednak faktu, że sprzęt z M1 + ten system są co najmniej interesujące.</p>
+
+<p>A jak nie to, to pozostaje nieśmiertelne Ubuntu czy jakaś inna potwora... (tak, tak, wiem, że nie ma gier, sterowników do bardzo egzotycznych sprzętów, itd.)&#160;&nbsp;</p>
+         

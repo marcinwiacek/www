@@ -1,0 +1,50 @@
+﻿Title:Tizen SDK Larkspur 1.0 (2012)
+Author:marcin
+When:12 May 2012
+Taxonomy:GSM,Tizen,Android,English,English article,jQuery,jQuery Mobile
+
+<p>Many years ago Windows systems were more popular. Microsoft created CHM then. It was compressed archive/file including HTML files (with CSS, Java Script, etc.) with additional TOC, indexes and similar things. I have used it for various purposes and even today it's possible to open and read many of these files. Example for it can be <a href="/zips/books/myhtmlib.chm">"The HTML Reference Library 4.0" (my conversion of original release prepared by Stephen Le Hunte)</a>. </p>
+<!--break-->
+<p>You can download it and after unblocking</p>
+<p><img src="sites/default/files/202/Untitled.png" width="50%" /></p>
+<p>it can provide all content:</p>
+<p><img src="sites/default/files/202/Untitled2.png" width="50%" /></p>
+<p>It was years ago. We have 2012 now. It's time of Windows 7/iOS 5/SSD disks and 3D monitors. Situation is totally different. And we're using Java very often. And although I really don't like in my phone (Android isn't so nice and I was writing it many times - see for example <a href="?q=node/182">"Comment about Geimini - quo vadis Android..."</a>), there isn't available any real alternative for it.</p>
+<p>You can use of course Apple products, but you will be very limited to one company. You can use Windows phone, but situation will look even worse. Bada ? not too popular. Meego or WebOS ? Abandomed.</p>
+<p>Android can provide all main tools and it can be relative cheap. For example - yesterday I was using it as modem (Samsung Galaxy S finally has got tethering over USB), I have various apps and it's enough.</p>
+<p>The problem is, that it's not too secure, not too fast, needs a lot of hardware resources and it's visible, that Google probably lost idea, how to change it (or it's known, but for example too expensive or not interesting for the company).</p>
+<p>Why do I write all these things ? Android consists generally of modified Linux kernel + some standard libraries + some Google libraries + Java (Dalvik). </p>
+<p>Maybe it would better to remove as many system elements as possible and leave only these required for displaying/executing html code (with JavaScript, CSS, etc.) ?</p>
+<p>Mozilla works on such solution (<a href="https://wiki.mozilla.org/B2G">Boot 2 Geeko</a>), it's even possible to see <a href="http://www.techspot.com/news/47747-mozillas-boot-2-gecko-mobile-os-hands-on.html">some demos on Galaxy S II</a>.</p>
+<p>And Samsung (and Intel ?) are working on similar solution too. It's Tizen. We don't have real device (only prototypes) and we have only <a href="https://developer.tizen.org/sdk">initial BETA of SDK</a>.</p>
+<p>Few words on it: Samsung is using <a href="http://jquery.com/">jQuery</a> and <a href="http://jquerymobile.com/">jQueryMobile</a> and on top of it is building own framework. This is preferred way for rendering applications, but you can of course use any other.</p>
+<p>I have used it for displaying HTML/JSON files prepared initially for my <a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe">Polish Android application "Przepisy drogowe"</a>:</p>
+<p><img src="sites/default/files/202/tizen1.png" width="50%" /></p>
+<p><img src="sites/default/files/202/tizen2.png" width="50%" /></p>
+<p>You can even <a href="sites/default/files/202/Przepisy%20drogowe.wgt">download it and install on the emulator</a>. It's primitive and doesn't contains many features known from the Android version, but works.</p>
+<p>And (this is very nice) almost the same solution allowed me preparing <a href="/PrzepisyDrogowe">initial www version of "Przepisy drogowe"</a>.</p>
+<p>My first impression on such writing applications: it has got various advantages, but there also many problems with it (connected with poor HTML implementation in various browser, but not only). An example can be Android 2.3.7 browser. Initially www application looks nice:</p>
+<p><img src="sites/default/files/202/SC20120513-155136.png" width="50%" /></p>
+<p><img src="sites/default/files/202/SC20120513-155156.png" width="50%" /></p>
+<p>...but you have problems with scrolling and selecting something from the footer. Of course, there is possibility, that I don't have experience with this technology, but...</p>
+<p>Returning to the Tizen - SDK is in very initial version and it's not too much complete and mature. Examples:</p>
+<ul><li>applications need putting libraries inside (Tizen framework is 4,5 MB big !)
+</li><li>there are problems with Back button (it can't be disabled and is always displayed in the footer)
+</li><li>longer texts in the header are cut off
+</li><li>there can be put only 4 radio buttons in the header
+</li><li>Eclipse needs administrator privileges
+</li><li>selects in footer are rendered incorrectly
+</li><li>you don't have integrated system search (at least I don't see it)
+</li><li>you don't have option for easy scaling some elements (something like in Android in the HTML control)
+</li><li>you don't have smooth scrolls (you have to create them like in Android)
+</li></ul><p>Funny thing is, that in some places it seems to be Android SDK with cosmetic changes (compare for example ADB and SDB)</p>
+<p>In short words: currently it's simply too primitive. Of course we should remember, that this is initial version and <a href="http://blog.steventroughtonsmith.com/2012/05/2007s-pre-m3-version-of-android-google.html">even Android looked primitive on the beginning</a>.</p>
+<p>Does it have future ?</p>
+<p>Yes, but:</p>
+<ul><li>there should be possibility of installing "native" applications too.
+</li><li>there should be available more extended functionality (I hope, that Samsung is working on it) like full access to SMS PDU.
+</li><li>system libraries (like jQuery) should be minimized to decrease big number of unnecessary stuff.
+</li><li>jQueryMobile should be changed a lot and should allow for example for more flexible elements positioning
+</li><li>there are required visual editors for developers (<a href="http://codiqa.com/">codiga.com</a> is really not enough) and much better controls
+</li><li>it must be updated much better than Android and must be much more flexible (in other words: it must be secure, but experienced users should receive "legally" full control/root when required)
+</li></ul><p>For now the main question is, whether Tizen will be used by Samsung for easy and fast earning only or whether company has got in plans creating technology jump. I'm also afraid, that there will be available for longer time only device with very big screen, which is not too useful (for me device shouldn't be bigger than Galaxy S)</p>

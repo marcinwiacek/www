@@ -1,0 +1,23 @@
+﻿Title:przepraszam
+Author:marcin
+When:10 May 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Widziałem serduszko Twoje<br />
+i niezwykłości podwoje,<br />
+próbę kontaktu codzienną<br />
+i iskrę zadziorną płomienną,</p>
+<p>bo Ty niczym paw przepiękny,<br />
+kwiat doskonały niezmienny,<br />
+niczym najlepsza muzyka,<br />
+a widok Twój wciąż przenika,</p>
+<p>mam jedną wielką nadzieję,<br />
+że szczęścia pełnia istnieje,<br />
+i że masz kogoś takiego,<br />
+kto nie zrani ducha Twego,</p>
+<p>przez Ciebie jam inną osobą,<br />
+i lubię mówić z Tobą,<br />
+dziękuję i wciąż przepraszam....</p>
+<!--break-->

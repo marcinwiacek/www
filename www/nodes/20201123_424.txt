@@ -1,0 +1,61 @@
+﻿Title:Papierowe premiery są dobre, czyli o watach, optymalizacjach i innych potworach (2020)
+Author:marcin
+When:23 Nov 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86,Android
+
+<p>Kilka ostatnich lat było w wielu obszarach sprzętu zwykłą patologią - co dwa, trzy miesiące pojawiał się &quot;nowy&quot; model, kt&#243;ry od &quot;starego&quot; często r&#243;żnił się nazwą, zmienionym taktowaniem czy jakimś innym drobiazgiem.</p>
+
+<p>Nadprodukcja była widoczna gołym okiem, a wręcz szkodliwa - każdy model trzeba było zaprojektować, wyprodukować, przewieźć, zmagazynować i potem obsłużyć (sterowniki, itp.)</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Papierowe-premiery-sa-dobre-czyli-o-watach-optymalizacjach-i-innych-potworach,111978.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<center><img src="sites/default/files/424/mobile-devices-2017978_1280.png" style="width:608px;height:304px;" alt="image" title="image" /></center>
+
+<p>Kilka ostatnich lat było w wielu obszarach sprzętu zwykłą patologią - co dwa, trzy miesiące pojawiał się &quot;nowy&quot; model, kt&#243;ry od &quot;starego&quot; często r&#243;żnił się nazwą, zmienionym taktowaniem czy jakimś innym drobiazgiem.</p>
+
+<p>Nadprodukcja była widoczna gołym okiem, a wręcz szkodliwa - każdy model trzeba było zaprojektować, wyprodukować, przewieźć, zmagazynować i potem obsłużyć (sterowniki, itp.)</p>
+
+<p>Producenci dwoili się i troili, żeby kolejne &quot;nowe&quot; modele wyglądały jak nowe, z drugiej jednak strony ile razy narzekaliśmy chociażby na oświeżanie oferty u Intela, generowanie ciągle nowych podstawek, itp.?</p>
+
+<p>Narzucony obowiązek wynikający z harmonogram&#243;w był patologią - firmy &quot;wrzucały&quot; to, co udało się przygotować, a rewolucje przenosiły na przyszłość.</p>
+
+<p>Przypomnijmy sobie aparaty w telefonach i to, że moduł z Samsunga S8 był dosyć podobny do tego z S7, a ten z S9 podobny do tego z S8.</p>
+
+<p>Obecna sytuacja w obszarze IT jest zdrowa z kilku powod&#243;w:</p>
+
+<ol><li>jeśli ktoś ma coś zam&#243;wić z czasem dostawy za miesiąc, to zastanowi się pięć razy, czy jest to dobry wyb&#243;r (czy parametry są wystarczające, czy cena jest odpowiednia, czy nie można tego kupić taniej, itp.)</li>
+
+<li>skoro taki TSMC nie będzie produkował wszystkiego jak leci, to firmy nie będą robiły nieprzemyślanych zam&#243;wień</li>
+
+<li>większa uwaga będzie zwr&#243;cona na moduły używane albo na naprawy, upgrade, itp.</li>
+
+<li>do łask wr&#243;ci optymalizacja, a producenci nie będą mieli wyboru, tylko w pewnych wypadkach będą musieli przedłużać wsparcie (to pokazał już Samsung)</li></ol>
+
+<p>Problemy z produkcją w końcu spowodują, że oferta będzie bardziej przemyślana i dopracowana. I oczywiście, może pojawią się (sczeg&#243;lnie początkowo) spekulacje na cenie albo wykupywanie na pniu tego co jest, w końcu jednak ludzie przyzwyczają się do nowej normalności, bo nie będą mieli wyboru.&#160;</p>
+
+<p>Tak powinna wyglądać sytuacja idealna, jestem jednak realistą i wiem, że ona jednak nie nastąpi...</p>
+
+<p>Zastan&#243;wmy się teraz nad kilkoma typowymi urządzeniami. Zacznę od laptop&#243;w. </p>
+
+<p>W przypadku system&#243;w z Intelem mamy chipset, w kt&#243;rym na ARM-ie hula sobie Intel ME. Do tego dochodzi chipset, taki jak np. HM370 z obsługą 14 (słownie: czternastu) port&#243;w USB i 4 port&#243;w SATA, jak r&#243;wnież zintegrowaną kartą LAN.</p>
+
+<p>Przeglądałem sobie ostatnio np. <a href="https://www.notebookcheck.net/Dell-Precision-5550-Workstation-Review-The-XPS-15-For-Professionals.483877.0.html" target="_blank" rel="noopener" rel="nofollow">recenzję Dell Precision 5550</a> i wyszło tam, że w trybie Off pobierane jest z baterii 0.14 W, a w trybie standby 1.8 W.</p>
+
+<p>Moje bardzo proste pytanie: gdzie energia ta wypływa, i dlaczego marnowana jest na niepotrzebne bajery? (wiem, wiem, że 1W czy 2W to w sumie mało, ale...) I wreszcie dlaczego u licha ciężkiego nie możemy w BIOS / UEFI ustawić limit&#243;w energetycznych ? (np. chwilowy max. tyle i tyle, długotrwały tyle i tyle)</p>
+
+<p>W lapkach z Ryzenem jest dosyć podobnie - wspomnijmy tylko AMD Platform Security Processor i użycie tych samych chipset&#243;w co w desktopie.</p><p>No i na końcu dochodzą jeszcze wentylatory, kt&#243;re swoje mA jednak biorą.</p>
+
+<p>Jeżeli mam być szczery, to pasywne chłodzenie MacBook Air i usunięcie r&#243;żnego rodzaju naleciałości x86 to rzecz, o kt&#243;rej będziemy pamiętać przez lata. Myślę, że problemy wieku dziecięcego (np. <a href="https://support.apple.com/en-us/HT211983" target="_blank" rel="noopener" rel="nofollow">personalization error</a> przy odwarzaniu systemu czy kompatybilność) zostaną przezwyciężone, a wtedy dla wielu inne marki staną się niewidoczne. Oby tylko nie było to związane z efektem gotowanej żaby i żeby udało się uruchomić inne systemy na tym sprzęcie... swoją drogą, ile TBW ma wewnętrzny SSD w M1 i jak dużo zapis&#243;w do swap jest wykonywane w lapkach z 8GB RAM?</p>
+
+<p>Drugą ciekawą kategorią urządzeń są kom&#243;rki - po dosyć dobrych i tłustych latach przyszedł czas na bezsensowną zabawę w dziurawienie obrazu, zakrzywanie krawędzi i inne tego typu pomysły... Ludzie jakoś to racjonalizują, ale nie jest to specjalnie dobre... Trend został trochę zatrzymany (na szczęście widać to z 5G i powrotem do prostych ekran&#243;w), ale... czy potrzebujemy kolejnych wydań Androida? Skoro jest Treble, to czy telefony nie mogłyby dostawać naprawdę normalnej instalacji OS?</p>
+
+<p>I wreszcie tablety, w kt&#243;rych nikt nie daje IP67. Może sytuacja na świecie to zmieni?</p>
+
+<p>Myślę, że to doskonały czas na dopracowane implementacje pomysł&#243;w typu stacja dokująca do telefonu (kadłubek z ekranem, klawiaturą i baterią do włożenia telefonu) czy obliczenia w chmurze (np. kupujemy laptopa i wynajmujemy 100 rdzeni na minuty). Wiem, że to jest, ważne, żeby było dopracowane.</p>
+
+<p>Tak się też zastanawiam, że przez ostatnie lata słychać było tylko o tym, że kolejna wersja czegoś tam jest szybsza, lepsza, a... tego nie było widać. Gdyby tak policzyć te wszystkie obietnice związane chociażby z Androidem w wersji zubożonej, to aż dziwne, że nie ma go wszędzie.</p>
+
+<p>Powiem to wprost: postęp jest dobry, ale z drugiej strony ludzie nie muszą grać w 8K czy pisać tekst&#243;w na sprzęcie z 32GB RAM.</p>
+
+<p>Tyle ode mnie. Przypominam, że to blog.&#160;&nbsp;</p>
+          

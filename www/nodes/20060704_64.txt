@@ -1,0 +1,14 @@
+﻿Title:Report 2006-07-03
+Author:marcin
+When:04 Jul 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Another report, where are some <i>private</i> and project things...</p>
+<!--break-->
+<p><i>Well, sometimes I ask myself - why good projects and things have always problems and are replaced by worse ? Few examples: <a href="http://www.reactos.org" reactos=""> was suspended for long time, AIDA32 was replaced by Everest and now is dead, </a><a href="http://mbm.livewiredev.com">MBM</a> is dead, my favorite computer magazine <a href="http://www.chip.pl">Chip</a> is almost dead (after good <a href="http://www.enter.pl">Enter</a> and Bajtek). I don't see any big new source from Michal Cihar since long time too... Even Tomek Motylewski doesn't write since long time... I have new neighbours too (the most important - I don't know them)... Additionally there are equal and more equal people - see <a href="http://www.computerworld.com/blogs/node/2803">latest words from Bill Gates</a> "Stolen's a strong word. It's copyrighted content that the owner wasn't paid for". When you see/read about it, it's sometimes very distressing experience. But I don't give up and will still try to make what I make...</i></p>
+<ul><li>I haven't received any reports about problems with connecting to current server. Because of it I payed it up to September
+</li><li>As probably some of you have seen, there are filled and formatted some last places moved from "old" gammu.net (like licenses). It starts to be place now, where materials are put a little bit logically.
+</li><li>Gammu - I will have much more time and will want to end Symbian (I can say, that I have holidays now and free time). Clean my mailbox and <a href="http://www.gammu.org/bugs">bug tracker</a> issues. What next ? I'm not sure... Maybe I will code more Gammu+, maybe will go into Motorola, maybe <b>will add receiving MMS by SMSD</b>. Everything depends on possible sponsors and needs... What I know is, that I will want to make (simply for fun) more options in <a href="http://www.gammu.org/support/phones/phonedb.php">phones database</a>
+</li><li>during this week I will try send emails again to <a href="http://www.gmane.org">Gmane</a> admins. It would nice to have cleaned archives things...
+</li></ul><p>Generally I would like to have new test Gammu version during this week (3-9 July) and new stable version in July.</p>

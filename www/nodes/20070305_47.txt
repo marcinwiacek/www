@@ -1,0 +1,15 @@
+﻿Title:Report 2007-03-05
+Author:marcin
+When:05 Mar 2007
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Few new things:</p>
+<ul><li>I'm thinking a little about last wiki change about hacking... it looks to be stupid joke, but...
+<!--break-->
+</li><li>new Gammu+ will be available during this week. it won't have Linux support, because my Internet connection is too slow to download all Debian packages and I will have to buy some distribution in free moment... But the good news is, that it will have Notes, ToDo and some other...
+</li><li>I'm starting thinking about Symbian 6.x - 8.x support (because I don't have access to Symbian 9.x phone). I have made first steps connected with installing programming tools and other... Generally (because Gammu+ is going fast into point, where will have 99% of really usefull things) it looks, that I will have a lot of time for Series 60 soon...
+</li><li>I started testing Windows Longhborn Server too. Better than Vista ;-)
+</li><li>I'm thinking of preparing an article about successes and failures in Gammu...
+</li><li>I hope, that my computer won't go into service soon :-(
+</li></ul>

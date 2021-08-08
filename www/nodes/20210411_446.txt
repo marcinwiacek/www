@@ -1,0 +1,125 @@
+﻿Title:O logice... żeby się w końcu odrodziła (opinia) (2021)
+Author:marcin
+When:11 Apr 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl
+
+<img align=right src="sites/default/files/446/1.jpg" style="width:100px;" alt="image" title="image" />
+<p>Czy ktoś zauważył, co tu się nie zgadza?</p>
+
+<p>Załóżmy, że oprzemy się na zwykłej normalnej logice. Przez około 83 lata dużo się zmieniło na świecie, i nie mówię tylko o skonstruowaniu tranzystorów i układów scalonych. Jeżeli ktoś minimalnie orientuje w historii, to będzie wiedział, że tragicznie utracony Orzeł, o którym mowa, był prawie rówieśnikiem ORP Błyskawicy, która (o ile nie jest remontowana) stoi zacumowana jako okręt-muzeum w porcie w Gdyni.&#160;</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/O-logice-zeby-sie-w-koncu-odrodzila-opinia,114447.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<center><img src="sites/default/files/446/1.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>Czy ktoś zauważył, co tu się nie zgadza?</p>
+
+<p>Załóżmy, że oprzemy się na zwykłej normalnej logice. Przez około 83 lata dużo się zmieniło na świecie, i nie mówię tylko o skonstruowaniu tranzystorów i układów scalonych. Jeżeli ktoś minimalnie orientuje w historii, to będzie wiedział, że tragicznie utracony Orzeł, o którym mowa, był prawie rówieśnikiem ORP Błyskawicy, która (o ile nie jest remontowana) stoi zacumowana jako okręt-muzeum w porcie w Gdyni.&#160;</p>
+
+<p>Pójdźmy teraz na stronę <a href="https://stat.gov.pl/dla-mediow/komunikaty-prasowe/oswiadczenie-rzecznika-prasowego-prezesa-glownego-urzedu-statystycznego-ws-logowania-do-formularza-spisowego-przy-uzyciu-numeru-pesel-,109,1.html" target="_blank" rel="noopener" rel="nofollow">https://stat.gov.pl/dla-mediow/komunikaty-prasowe/oswiadczenie-rzeczni...</a>:</p>
+
+<p>&quot;Zwracam też uwagę, że podszywanie się pod czyjąś tożsamość w celu zalogowania się do formularza spisowego jest przestępstwem, zgodnie z art. 190a Kodeksu Karnego. Każde takie zdarzenie GUS będzie zgłaszał na policję i do Agencji Bezpieczeństwa Wewnętrznego&quot;</p>
+
+<p>Pytania za sto punktów - czy ktoś się poczuje bezpieczniej? I ilu &quot;złych&quot; hakierów się tego przestraszy?</p>
+
+<p>Ciekawe, że PESEL w pięknym kraju nad Wisłą stał się niewiadomo czym, z drugiej strony tworzenie logowania w oparciu o niego to jednak proszenie się o problemy.</p><p>Tak trochę mi się przy okazji przypomniało, jak szukałem kilka razy laptopa:</p>
+
+<ul><li>Dzień dobry.</li>
+
+<li>Dzień dobry.</li>
+
+<li>Interesuje mnie ten i ten model laptopa.</li>
+
+<li>OK.</li>
+
+<li>Potrzebuję jedynie sprawdzić, jaka tam włożona jest matryca.</li>
+
+<li>Eeeeee.</li>
+
+<li>Komputer ma Windows. Wystarczy go zainstalować, sprawdzić w Device Managerze, o tu i tu, i potem można przywrócić do stanu fabrycznego.</li>
+
+<li>Może pan sobie go obejrzeć, jak go zainstalujemy. Będzie na wystawie.</li>
+
+<li>Super. I będę go mógł kupić?</li>
+
+<li>Nie, nie. Bo tam będzie nasza aplikacja demo. Pan sobie sprawdzi, a potem weźmie drugi egzemplarz z magazynu.</li>
+
+<li>No ale to może być tak, że producent wstawił co innego do drugiego egzemplarza. To się zdarza. Producent znany jest z takich sztuczek.</li>
+
+<li>Przykro nam, nie możemy pomóc.</li>
+
+<li>To pan zainstaluje przy mnie, wspólnie sprawdzimy i po sprawie. Albo pan spisze i mi powie.</li>
+
+<li>Nie, nie, procedury.</li>
+
+<li>No dobrze, a jak kupię i będzie źle, to mogę zwrócić?</li>
+
+<li>To by musiał pan kupić zdalnie.</li>
+
+<li>Czyli jak chcę kupić i sprawdzić tutaj, to nie mogę? A jak zdalnie, to mogę?</li>
+
+<li>No tak.</li>
+
+<li>To już zamawiam z dostawą do salonu. Tutaj jest numer zamówienia. Sprawdzę i najwyżej zaraz oddam.</li>
+
+<li>Eeeeeee.</li></ul>
+
+<p>Przypominała mi się stara anegdota:</p>
+
+<ul><li>Dzień dobry, chciałem odwołać wizytę u lekarza.</li>
+
+<li>Pięćdziesiąt złotych, bo to w tym tygodniu.</li>
+
+<li>Jakby nie było w tym, to za darmo?</li>
+
+<li>Tak. To płatność kartą czy gotówką?</li>
+
+<li>A mogę przesunąć wizytę?</li>
+
+<li>Tak.</li>
+
+<li>Za darmo?</li>
+
+<li>No tak.</li>
+
+<li>Proszę przesunąć na przyszły tydzień.</li>
+
+<li>Już.</li>
+
+<li>To teraz chciałem odwołać.</li>
+
+<li>Eeeeee.</li></ul>
+
+<p>Pójdźmy dalej - przez lata mieliśmy promowanie błyszczących ekranów (niestety ciężko znaleźć i idealnie nakleić ładną folię na duże), do tego doszło &quot;wybielanie&quot; obudów (były czarne, teraz się stały szare albo aluminiowe wzorem MacBooka &quot;premium&quot;, a niektórzy już proponują całkiem biel) i używanie PWM (chociaż wiadomo, że szkodzi oczom nie mniej niż złoty strzał narkomanowi), podnoszenie &quot;dołów&quot; laptopów (ciekawe, jak wpłynie to na ich trwałość) i usuwanie złącz.</p>
+
+<p>To tylko przykłady tego, co urąga zdrowemu rozsądkowi - o wielu innych rzeczach tego typu pisałem w poprzednich postach.</p>
+
+<p>Na tym portalu mogliśmy przeczytać o lekko skośnookiej dziewczynie, która z dumą nosi z przodu dwa duże atrybuty hakerskie (i post o niej jest obecnie na szczycie popularności), i o żebraczce zbierającej na sprzęt Apple, do tego dochodzi narzekanie na to, że Open Source pokazuje jak na dłoni swoje problemy (analogiczne rzeczy często i gęsto są zwyczajnie niewidoczne w komercyjnych projektach, bo się je skrzętnie ukrywa), a ostatnio... była również wzmianka, że należy ograniczać graczom dostęp do sprzętu.</p>
+
+<p>Tak sobie myślę, że z jednej strony tak bardzo chcemy normalności, ładnych samochodów, komputerów i lepszego życia, z drugiej strony wypadałoby ruszyć cztery litery... i promować wyłącznie dobre rozwiązania techniczne zamiast syfu i syfku, który nas zalewa.</p>
+
+<p>Mrugające ekrany? Już dziękujemy.</p>
+
+<p>Głośne komputery? Do 65W TDP można bez problemu złożyć coś pasywnego.</p>
+
+<p>Płacenie ciężkich pieniędzy za 5G w pakietach 10, 20 czy 30 GB? (ile czasu oszczędzimy? sekundę? dwie?)</p>
+
+<p>itd. itd.</p>
+
+<p>Pamiętajmy, że nawet ci uważani za mesjaszy robią &quot;błędy&quot;</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/X8lWIKb-uWQ?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Tak w ogóle, to w większości zastosowań wystarczą dzisiaj małe tanie komputerki, nie musimy też mieć często i gęsto jeszcze bardziej wypasionych smartphonów i innych zabawek, ważne natomiast, co się w nich znajdzie...</p>
+
+<p>A może się znaleźć np. darmowe oprogramowanie w najnowszych wersjach albo stare pakiety komercyjne, za które zapłacono ciężkie pieniądze (np. stary MS Office, który jest wciąż wspierany, a przez to może jeszcze długo nie zostanie wymieniony).</p>
+
+<p>Wielu młodych ludzi odkrywa na nowo koło - promuje idee komunistyczne i inne (np. bogatym zabrać, biednym dać, wyrównać wszystko i wszystkich, i będzie dobrze), a co gorsza ma środki techniczne na propagowanie swoich &quot;mądrości&quot;.</p>
+
+<p>Czy jest to związane z trendem opisanym na stronie <a href="https://tygodnik.tvp.pl/53199649/czym-jest-inteligencja-jest-wrodzona-czy-mozna-sie-jej-nauczyc-i-czy-mierza-ja-testy-iq" target="_blank" rel="noopener" rel="nofollow">https://tygodnik.tvp.pl/53199649/czym-jest-inteligencja-jest-wrodzona-...</a>, a mówiącym, że &quot;<b>tracimy średnio ok. 7 punktów IQ na pokolenie&quot;?</b></p>
+
+<p>Na dzień dzisiejszy spustoszenia w narodzie są już wielkie (patrz &quot;artykuł&quot; ze wzmianką o Orle), z drugiej strony rolą portali typu dobreprogramy powinno być promowanie tego, co pozwoli nam wzrastać... czy to się stanie, zależy tylko od nas. Rycerz na białym koniu nie przyjedzie, samemu trzeba się zabrać za robotę. Wystarczy wrócić do logiki, zwykłej normalnej logiki... i budować na niej nową rzeczywistość.</p>
+
+<p>Przykładem niech będzie to, że do użycia NVIDIA vGPU z kartami &quot;nieprofesjonalnymi&quot; wystarczyło zmienić identyfikator urządzenia w sterowniku: <a href="https://github.com/DualCoder/vgpu_unlock" target="_blank" rel="noopener" rel="nofollow">https://github.com/DualCoder/vgpu_unlock</a></p>
+
+<p>Dziękuję za uwagę.&#160;&nbsp;</p>

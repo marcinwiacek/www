@@ -1,0 +1,12 @@
+﻿Title:Report 2006-07-17
+Author:marcin
+When:18 Jul 2006
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Last week wasn't the best for me (when we speak about coding). First - it was horrible hot in Poland, second - I had many tasks, which had to be done first (some repairs, exchanges, making some things, etc.). Happily I have passed everything.</p>
+<p>But now it looks, that I have (and will have) things much more stable. I updated gammu.org to MediaWiki 1.7.1, my eyes like much more new screen settings, etc. etc. I decided, that:</p>
+<!--break-->
+<ul><li>I WILL TRY to make new Gammu this week. It can be difficult, because I can work in Linux environment only, but I will try. I will add Symbian "as is" (what is written, will be included), will want to end 3220 issue (I will work on it tomorrow) and will want to end some past issues. Also dku5/ca42 issues still wait for resolving (will be bought, when I will be sure, that I have money, which are not required for more important things).
+</li><li>I will make filesystem for Gammu+ (some work already done), will think about Motorola for it (please don't ask, why Motorola).
+</li></ul><p>As you see - nothing special.</p>

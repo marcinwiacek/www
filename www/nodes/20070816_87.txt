@@ -1,0 +1,10 @@
+﻿Title:Praca dyplomowa (2007)
+Author:marcin
+When:16 Aug 2007
+Taxonomy:Polski,Polski blog,Gammu,GSM,Polski artykuł,WAT,PDF,EPUB
+
+<p>W dniu dzisiejszym dodałem na stronę swoją pracę dyplomową "Projekt i realizacja podsystemu uwierzytelniania zdalnych użytkowników systemu informatycznego wspomagającego funkcjonowanie instytucji edukacyjnej".</p>
+<!--teaser-->
+<p>W dniu dzisiejszym dodałem na stronę swoją pracę dyplomową "Projekt i realizacja podsystemu uwierzytelniania zdalnych użytkowników systemu informatycznego wspomagającego funkcjonowanie instytucji edukacyjnej". </p>
+<p>W pracy opisano wybrane potrzeby instytucji edukacyjnych (ze szczególnym naciskiem na wydziały akademickie) w zakresie stosowania systemów informatycznych z uwierzytelnieniem. Następnie przedstawiono rodzaje, wady i zalety metod uwierzytelniania stosowanych we współczesnych systemach informatycznych. Przygotowano również projekt i opartą na nim implementację podsystemu uwierzytelniania, którą można użyć w aplikacjach napisanych w języku PHP. Wykorzystuje ona hasła, loginy oraz wiadomości SMS.</p>
+<p><a href="/zips/wat.pl/mgr.pdf">Format PDF</a>, <a href="sites/default/files/87/mgr.doc">Format DOC</a>, <a href="sites/default/files/87/mgr.odt">Format ODT</a> oraz (zgrubna konwersja wykonana w 2013) <a href="sites/default/files/87/mgr.epub">Format EPUB</a></p>

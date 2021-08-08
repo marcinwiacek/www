@@ -1,0 +1,8 @@
+﻿Title:Wkrótce... (2015, ISBN 978-83-941996-0-9 i ISBN 978-83-941996-1-6)
+Author:marcin
+When:08 May 2015
+Taxonomy:Polski,Polski blog,S.F.,książka 1
+SkipMain:true
+
+<p><img src="sites/default/files/329/Untitled_3.png" width="800" /></p>
+<!--break-->

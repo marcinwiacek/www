@@ -1,0 +1,367 @@
+﻿Title:Skonfiguruj system plików w Windows - 12 przydatnych wskazówek dla mniej początkujących (2009)
+Author:marcin
+When:27 Nov 2009
+Taxonomy:Polski,benchmark.pl,Windows 7,NTFS,Windows,Polski artykuł,x86,OS
+
+<p align=justify>Redakcja benchmark.pl przygotowała artykuł &quot;<a href="http://www.benchmark.pl/testy_i_recenzje/Skonfiguruj_Windows_7_-_14_przydatnych_wskazowek_dla_poczatkujacych-2444.html"><b>Skonfiguruj Windows 7 - 14 przydatnych wskazówek dla początkujących</b></a>&quot;. W odpowiedzi na związany z nim konkurs przygotowałem swoją odpowiedź, czyli <strong>poradnik</strong> dotyczący partycji NTFS i obsługi dysków w Windows.</p>
+
+<p align=justify>Większość moich uwag dotyczy systemów XP/Vista/7, niektóre są związane tylko z tym ostatnim.</p>
+<!--teaser-->
+
+<a name="gora"></a>
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw opublikowany w serwisie benchmark.pl (<a href=http://www.benchmark.pl/mini-recenzje/Skonfiguruj_Windows_-_7_przydatnych_wskazowek_dla_mniej_poczatkujacych-2455.html
+>część 1</a> i <a href=http://www.benchmark.pl/mini-recenzje/Skonfiguruj_Windows_-_5_przydatnych_wskazowek_dla_mniej_poczatkujacych-2472.html>część 2</a>)</font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<table style="border-collapse:separate;" cellspacing="0" cellpadding="2" border="0" align="right" width=300><tbody><tr><td>&nbsp;</td><td bgcolor="#e6eaee"><strong>Spis treści</strong></td></tr><tr><td>&nbsp;</td><td bgcolor="#f0f4f9"><ol><li><a href="#1">Linki i sznurki na NTFS</a><li><a href="#2">Alternatywne strumienie na NTFS</a><li><a href="#3">Błędy na NTFS</a><br><li><a href="#4">Kompresja plików na NTFS</a><li><a href="#5">Czas ostatniego dostępu na NTFS</a><li><a href="#6">Pliki z pustą zawartością na NTFS</a><li><a href="#7">TRIM</a><li><a href="#8">Nazwy plików i katalogów z uwzględnianiem małych i wielkich liter</a><li><a href="#9">Szyfrowanie pliku wymiany</a><li><a href="#10">Partycje w pliku</a><li><a href="#11">Uprawnienia</a><li><a href="#12">Co jest teraz otwarte ?</a></ol></td></tr></tbody></table>
+
+<p align=justify>Redakcja benchmark.pl przygotowała artykuł &quot;<a href="http://www.benchmark.pl/testy_i_recenzje/Skonfiguruj_Windows_7_-_14_przydatnych_wskazowek_dla_poczatkujacych-2444.html"><b>Skonfiguruj Windows 7 - 14 przydatnych wskazówek dla początkujących</b></a>&quot;. W odpowiedzi na związany z nim konkurs przygotowałem swoją odpowiedź, czyli <strong>poradnik</strong> dotyczący partycji NTFS i obsługi dysków w Windows.</p>
+
+<p align=justify>Większość moich uwag dotyczy systemów XP/Vista/7, niektóre są związane tylko z tym ostatnim.</p>
+
+<p align=justify>Na tym prawdopodobnie zakończę tę tematykę. Przedstawione porady jej oczywiście nie wyczerpują. Mamy przecież chociażby śledzenie zmian (tzw. USN journal) albo transakcyjność (możliwe jest wykonanie szeregu operacji w systemie plików i &quot;pokazanie&quot; zmian aplikacjom po fizycznym wykonaniu ostatniej operacji). Obawiam się jednak, iż pisanie o nich mogłoby być interesujące tylko dla programistów - wydaje mi się natomiast, iż nie taki jest cel mini-recenzji.</p>
+
+<p align=justify>Jeżeli któreś z moich wskazówek były przydatne/źle przedstawione, proszę o dodanie odpowiedniego komentarza - tylko w ten sposób będę mógł uzyskać pewność, iż jest sens pisać podobne poradniki/będę mógł poprawić jakość. Z&nbsp;góry dziękuję za taką pomoc, jak również za wystawione oceny.</p>
+
+<p align=justify>Artykuł jest przewidziany raczej dla użytkowników <strong>mniej początkujących :)</strong></p>
+
+<h1><a name="1"></a>Linki i sznurki na NTFS</h1>
+
+<p align=justify>Na partycjach NTFS możemy przechowywać nie tylko pliki i katalogi. Przykładem dodatkowych obiektów są odnośniki do prawdziwych plików czy katalogów:</p>
+
+<ul>
+    <li><div align=justify>połączenie (junction point) między katalogami na dysku lokalnym dostępne od czasów Windows 2000 - po wykasowaniu &quot;prawdziwego&quot; katalogu połączenie pozostaje na dysku, wykasowanie połączenia nie kasuje &quot;prawdziwego&quot; katalogu. W ten sposób jest obecnie tworzony katalog &quot;Documents and Settings&quot;.</div></li>
+    <li><div align=justify>łącze stałe (hard link) między plikami na dysku lokalnym dostępne od czasu Windows 2000 - po jego utworzeniu na dysku zapisany będzie&nbsp;fizycznie jeden plik widoczny jako dwa pliki o tej samej wielkości, fizyczna zawartość pliku zostanie wykasowana po usunięciu obu</div></li>
+    <li><div align=justify>łącze symboliczne (symbolic link) między katalogami dostępne od czasu Windows Vista - po wykasowaniu &quot;prawdziwego&quot; katalogu połączenie pozostaje na dysku, wykasowanie połączenia nie kasuje &quot;prawdziwego&quot; katalogu. W ten sposób jest obecnie tworzony katalog &quot;All Users&quot; w &quot;Documents and Settings&quot;.</div></li>
+    <li><div align=justify>łącze symboliczne (symbolic link) między plikami dostępne od czasu Windows Vista - po jego utworzeniu na dysku zapisany będzie&nbsp;fizycznie jeden plik widoczny jako dwa pliki (gdzie łącze będzie mieć wielkość 0 bajtów), po wykasowaniu &quot;prawdziwego&quot; pliku łącze pozostaje na dysku, wykasowanie łącza nie kasuje &quot;prawdziwego&quot; pliku</div></li>
+</ul>
+
+<p align=justify>Poniżej przedstawiłem komendy służące do ich tworzenia (gdzie katalog/plik.txt to źródło, a link/link.txt to stworzone odnośniki)</p>
+
+<table cellspacing="0" cellpadding="4" border="1">
+    <tbody>
+        <tr>
+            <th bgcolor="#e6eaee" scope="col">Typ</th>
+            <th bgcolor="#e6eaee" scope="col">Łączone obiekty</th>
+            <th bgcolor="#e6eaee" scope="col">Komenda</th>
+        </tr>
+        <tr>
+
+            <td valign="center" align="center">
+            <p>połączenie<br>(junction point)</p>
+            </td>
+            <td valign="center" align="center">katalogi</td>
+            <td>
+            <p><font face="Courier New">mklink link katalog /j</font><br>(nie wymaga uprawnień administratora, nie działa w Windows XP)</p>
+            <p><font face="Courier New">junction link katalog</font><br>(bezpłatne narzędzie Microsoftu należy pobrać <a href="http://technet.microsoft.com/en-us/sysinternals/bb896768.aspx">stąd</a>, nie wymaga uprawnień administratora)</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="center" align="center">
+            <p>łącze stałe<br>(hard link)</p>
+            </td>
+            <td valign="center" align="center">pliki</td>
+            <td>
+
+            <p><font face="Courier New">mklink link.txt plik.txt /h</font><br>(nie wymaga uprawnień administratora, nie działa w Windows XP)</p>
+            <p><font face="Courier New">fsutil hardlink create link.txt plik.txt</font>
+            </td>
+        </tr>
+        <tr>
+            <td valign="center" align="center" rowspan="2">
+
+            <p>łącze symboliczne<br>(symbolic link)</p>
+            </td>
+            <td valign="center" align="center">katalogi</td>
+            <td>
+            <p><font face="Courier New">mklink link katalog /d</font><br>(wymaga włączenia łączy na partycji, nie działa w Windows XP)</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td valign="center" align="center">pliki</td>
+            <td>
+            <p><font face="Courier New">mklink link.txt plik.txt</font><br>(wymaga włączenia łączy na partycji, nie działa w Windows XP)</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;
+<p align=justify>Obecność łączy symbolicznych na partycji możemy sprawdzać i kontrolować stosując fsutil, np.</p>
+
+<p align=justify><font face="Courier New">fsutil behavior query SymlinkEvaluation</font></p>
+
+<p align=justify>służy do sprawdzenia, czy opcja jest aktywna.</p>
+
+<p align=justify>Aby sprawdzić, czy do danego pliku są dołączane łącza stałe (znów w Vista/7), należy z kolei wykonać</p>
+
+<p><font face="Courier New">fsutil hardlink list plik.txt</font></p>
+
+<p align=justify>Pewną bardzo specyficzną formą odnośników są nazwy plików w formacie 8 znaków + 3 znaki rozszerzenia (pozostałość zachowana w celu uzyskania zgodności z DOS - oprócz długiej nazwy pliku tworzona jest też krótka). Możemy zmienić wygenerowaną nazwę na inną stosując</p>
+
+<p><font face="Courier New">fsutil file setshortname plik.txt krotka.txt</font></p>
+
+<p>Potwierdzenie zmiany możemy uzyskać wykonując np. komendę</p>
+
+<p><font face="Courier New">dir /x</font></p>
+
+<p align=justify>Tworzenie skróconych nazw plików można kontrolować na poszczególnych partycjach stosując znowu komendę <font face="Courier New">fsutil</font> (wersja dla Vista/7 dla partycji c:):</p>
+
+<ul>
+    <li><font face="Courier New">fsutil behavior query Disable8dot3 c:</font> w celu sprawdzenia</li>
+    <li><font face="Courier New">fsutil behavior set Disable8dot3 c: 1</font> w celu wyłączenia</li>
+    <li><font face="Courier New">fsutil behavior set Disable8dot3 c: 0</font> w celu włączenia</li>
+</ul>
+
+<p align=justify>Z kolei w Windows XP ustawienie jest globalne (dotyczy wszystkich partycji) i należy użyć odpowiednio:</p>
+
+<ul>
+    <li><font face="Courier New">fsutil behavior query Disable8dot3</font></li>
+    <li><font face="Courier New">fsutil behavior set Disable8dot3 1</font></li>
+    <li><font face="Courier New">fsutil behavior set Disable8dot3 0</font></li>
+</ul>
+
+<p align=justify>Możliwe jest również podłączanie partycji pod określone katalogi. Należy na dysku stworzyć standardowo katalog, a następnie użyć komendy <font face="Courier New">mountvol</font>. Pokaże ona szeregi ciągów znaków</p>
+
+<p><font face="Courier New">\\?\Volume{numer}\</font></p>
+
+<p align=justify>dla każdej partycji. Wybieramy jeden z nich, wykonujemy komendę</p>
+
+<p><font face="Courier New">mountvol katalog \\?\Volume{numer}\</font></p>
+
+<p align=justify>i od tej pory partycja jest już podłączona. Aby to odwołać, wystarczy wykonać</p>
+
+<p><font face="Courier New">mountvol katalog /d</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="2"></a><h1>Alternatywne strumienie na NTFS</h1></p>
+
+<p align=justify>Większość z nas jest przyzwyczajona, iż plik ma jedną zawartość. W przypadku NTFS tak nie jest - z jednym plikiem mogą być powiązane dane z wielu niezależnych od siebie tzw. alternatywnych strumieni. Żeby uzyskać do nich dostęp, należy podać nazwę pliku połączoną z dwukropkiem i nazwą strumienia. Przykładowo komenda</p>
+
+<p><font face="Courier New">notepad plik.txt:strumien</font></p>
+
+<p align=justify>będzie edytować strumień o nazwie &quot;strumien&quot; połączony z plikiem plik.txt.</p>
+
+<p align=justify>Niestety Eksplorator nie pokaże poprawnie wielkości pliku na dysku (tj. wielkości podstawowej zawartości + wielkości alternatywnych strumieni). Aby je odczytać (również z konta bez podwyższonych uprawnień), należy użyć np. komendy</p>
+
+<p><font face="Courier New">dir /r</font></p>
+
+<p align=justify>(przełącznik /r dostępny jest w Windows Vista/7) albo darmowego narzędzia <a href="http://technet.microsoft.com/en-us/sysinternals/bb897440.aspx">Streams</a> Microsoftu (poniższa komenda pokaże informacje o pliku plik.txt):</p>
+
+<p><font face="Courier New">streams plik.txt</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="3"></a><h1>Błędy na NTFS</h1></p>
+
+<p align=justify>Załóżmy, że chcemy sprawdzić partycję c: pod względem błędów (np. mieliśmy zanik prądu). Standardowa opcja</p>
+
+<p><font face="Courier New">chkdsk c: /f</font></p>
+
+<p align=justify>może nie zadziałać (np. w tle działa program antywirusowy, który na to nie pozwala albo chcemy sprawdzić partycję systemową). Aby nakazać systemowi sprawdzenie partycji c: przy starcie, należy ustawić tzw. &quot;bit zanieczyszczenia&quot; przez wykonanie komendy</p>
+
+<p><font face="Courier New">fsutil dirty set c:</font></p>
+
+<p align=justify>Jeżeli pomimo jej zastosowania partycja nie została sprawdzona, należy wykonać</p>
+
+<p><font face="Courier New">chkntfs /c c:</font></p>
+
+<p>albo alternatywnie</p>
+
+<p><font face="Courier New">chkntfs /d</font></p>
+
+<p align=justify>(wtedy system będzie sprawdzał wszystkie dyski po ustawieniu na nich &quot;bitu zanieczyszczenia&quot;).</p>
+
+<p align=justify>Możemy skrócić czas oczekiwania na uruchomienie chkdsk przy starcie ze standardowych 10 sekund np. na 2 sekundy stosując</p>
+
+<p><font face="Courier New">chkntfs /t:2</font></p>
+
+<p align=justify>Począwszy od Visty mamy też opcje &quot;samonaprawiania&quot; - w przypadku wykrycia uszkodzeń jakiegoś pliku dostęp do niego jest blokowany, a system dokonuje poprawek. Funkcjonalność ta powinna być standardowo włączona. Aby to sprawdzić dla partycji c: należy wykonać</p>
+
+<p><font face="Courier New">fsutil repair query c:</font></p>
+
+<p>Włączenie uzyskamy przez</p>
+
+<p><font face="Courier New">fsutil repair set c: 1</font></p>
+
+<p align=justify>W obecnych systemach Microsoftu możemy również wymusić, aby system wygenerował &quot;niebieski ekran&quot;, gdy wykryje błąd na danej partycji NTFS. Wykorzystujemy w tym celu przynajmniej dwie komendy:</p>
+
+<p><font face="Courier New">fsutil behavior set BugCheckOnCorrupt 1</font><br>
+<font face="Courier New">fsutil repair set c: 0x10</font></p>
+
+<p align=justify>(drugą komendę powtarzamy po restarcie systemu dla wszystkich partycji, dla których ma to działać)</p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="4"></a><h1>Kompresja plików na NTFS</h1></p>
+
+<p align=justify>Pliki i katalogi na dyskach NTFS mogą być kompresowane, co wydłuża czas dostępu do nich, ale zmniejsza zajmowane przez nie miejsce (plik jest zapisany w postaci spakowanej na dysku, przed dostarczeniem go aplikacjom jego zawartość jest rozpakowywana przez system operacyjny). I tak komenda</p>
+
+<p><font face="Courier New">compact /s /a /c *.* </font></p>
+
+<p align=justify>wymusza kompresję wszystkich plików (również z atrybutem ukrytym i systemowym) w katalogu bieżącym i podkatalogach, zaś</p>
+
+<p align=justify><font face="Courier New">compact /s /a /u *.* </font></p>
+
+<p align=justify>to wycofuje. Możliwe jest wyłączenie funkcji kompresji na wszystkich partycjach</p>
+
+<p align=justify><font face="Courier New">fsutil behavior set DisableCompression 1</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="5"></a><h1>Czas ostatniego dostępu na NTFS</h1></p>
+
+<p align=justify>NTFS oprócz czasu modyfikacji pliku/katalogu przechowuje również informację o czasie ostatniego dostępu do niego. Aby go zobaczyć, można użyć np. komendy</p>
+
+<p><font face="Courier New">dir /t:a</font></p>
+
+<p align=justify>albo dodać odpowiednią kolumnę w Eksploratorze Windows. Opcja jest globalna i musi być uaktywniona (jej włączenie może nieznacznie spowolnić system):</p>
+
+<p align=justify><font face="Courier New">fsutil behavior set DisableLastAccess 0</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="6"></a><h1>Pliki z pustą zawartością na NTFS</h1></p>
+
+<p align=justify>Tym razem dwie ciekawostki dotyczące plików z bajtami o kodzie 0x00. Żeby &quot;wyczyścić&quot; w ten sposób dowolny plik, należy użyć komendy</p>
+
+<p align=justify><font face="Courier New">fsutil file setzerodata offset=0 length=100 plik.txt</font></p>
+
+<p align=justify>gdzie zamiast 0 i 100 wstawiamy odpowiednio numer pierwszego czyszczonego bajtu i długość obszaru.</p>
+
+<p align=justify>Możemy zaoszczędzić miejsce na dysku w przypadku tzw. plików rozszedzonych (ich pusta część nie jest tam fizycznie zapisywana). Wpierw zaznaczamy plik jako wykorzystujący tę funkcję (działa w Windows Vista/7):</p>
+
+<p align=justify><font face="Courier New">fsutil sparse setflag plik.txt</font></p>
+
+<p align=justify>Następnie informujemy system, że określony obszar (w przykładzie 100 bajtów począwszy od pierwszego bajtu w pliku) może być wyczyszczony (zostanie wypełniony bajtami o kodzie 0x00, miejsce poprzednio zajmowane przez nie na dysku zostaną zwolnione)</p>
+
+<p><font face="Courier New">fsutil sparse setrange plik.txt 0 100</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="7"></a><h1>TRIM</h1></p>
+
+<p align=justify>Windows 7 obsługuje komendę TRIM. O ile jest ona zaimplementowana w firmware dysku SSD, pozwala w określonych przypadkach na zwiększenie prędkości jego działania (więcej można przeczytać np. <a href="http://en.wikipedia.org/wiki/TRIM_%28SSD_command%29">tutaj</a>).</p>
+<p>Sprawdzenie, czy jest włączona w systemie, uzyskamy przez wykonanie</p>
+
+<p><font face="Courier New">fsutil behavior query DisableDeleteNotify</font></p>
+
+<p align=justify>(wartość 0 oznacza, że działa). Możemy ją włączyć komendą</p>
+
+<p><font face="Courier New">fsutil behavior set DisableDeleteNotify 0</font></p>      
+
+<p><a name="8"></a><h1>Nazwy plików i katalogów z uwzględnianiem małych i wielkich liter</h1></p>
+
+<p align=justify>Przyzwyczailiśmy się, że w Windows wielkość liter w nazwach plików i katalogów nie ma znaczenia (w przeciwieństwie np. do Linuxa, gdzie pliki &quot;PLIK&quot; i &quot;plik&quot; to dwa różne zbiory). W tym punkcie chciałbym zmienić to przeświadczenie i pokazać, jak uzyskać efekt widoczny na obrazku:</p>
+
+<p><img height="381" alt="" src="sites/default/files/111/dir1(1).png" /></p>
+
+<p>Opiszę to na przykładzie Windows 7 Ultimate:</p>
+
+<ol>
+    <li><div align=justify>Przechodzimy do <strong>Panelu Sterowania</strong></div></li>
+    <li><div align=justify>Klikamy na ikonę <strong>Programy i funkcje</strong></div></li>
+    <li><div align=justify>Klikamy na odnośnik <strong>Włącz albo wyłącz funkcje systemu Windows</strong></div></li>
+    <li><div align=justify>Instalujemy <strong>Podsystem aplikacji systemu Unix</strong></div></li>
+    <li><div align=justify>Z menu <strong>Start</strong> klikamy na odnośnik <strong>Wszystkie Programy\Subsystem for UNIX-based Applications\Download utilities for Subsystem for UNIX-based Applications</strong></div></li>
+    <li><div align=justify>Pobieramy 32-bitową lub 64-bitową wersję (oczywiście bezpłatną :))</div></li>
+    <li><div align=justify>Instalujemy pobrane narzędzia (wybieramy &quot;Change the default behavior to case sensitive&quot; w trakcie instalacji)</div></li>
+    <li><div align=justify>Z menu <strong>Start</strong> klikamy na <strong>Wszystkie Programy\Subsystem for UNIX-based Applications\Korn Shell</strong></div></li>
+    <li><div align=justify>Przechodzimy do odpowiedniego katalogu komendami <font face="Courier New">cd ..</font> i <font face="Courier New">cd nazwa_katalogu</font></div></li>
+    <li><div align=justify>Możemy teraz stworzyć kolejne pliki np. komendą <font face="Courier New">cp</font> (przykład użycia: <font face="Courier New">cp PLIK.txt plik.txt</font>) oraz kolejne katalogi np. komendą <font face="Courier New">mkdir</font> (przykład użycia: <font face="Courier New">mkdir KATALOG</font>)</div></li>
+</ol>
+
+<p align=justify>Cała sztuczka polega na tym, iż partycje NTFS są &quot;wrażliwe&quot; na wielkość znaków w nazwach, standardowo w Windows brak jest natomiast narzędzi, które potrafią tworzyć odpowiednie pliki/katalogi. Wykonując opisane wyżej komendy zainstalowaliśmy w &quot;okienkach&quot; kolejny subsystem (tzw. <b>Interix</b> lub <b>SUA</b>, czyli <b>Subsystem for Unix-based Applications</b>) zawierający odpowiednie programy. Jego różne wersje były dostępne również dla wcześniejszych Windows (np. 2003 Server), ma on w sobie dużo typowych unixowych narzędzi. Więcej można poczytać np. <a href="http://en.wikipedia.org/wiki/Interix">tutaj</a>.</p>
+
+<p align=justify>Należy pamiętać o tym, iż próba działania na takich plikach/katalogach przez aplikacje windowsowe (chociażby Notatnik) może skończyć się nieprzywidywalnie (np. wybierany będzie inny plik niż tego będziemy chcieć).</p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="9"></a><h1>Szyfrowanie pliku wymiany</h1></p>
+
+<p align=justify>Obecne wersje Windows (Vista/7) mają opcję szyfrowania pliku wymiany. Wystarczy wykonać:</p>
+
+<p><font face="Courier New">fsutil behavior set EncryptPagingFile 1</font></p>
+
+<p align=justify>Analogicznie opcja zostanie wyłączona po użyciu komendy</p>
+
+<p><font face="Courier New">fsutil behavior set EncryptPagingFile 0</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="10"></a><h1>Partycje w pliku</h1></p>
+
+<p align=justify>Można mówić o powrocie do korzeni - starsi Czytelnicy na pewno pamiętają takie programy jak Stacker/DoubleSpace czy DriveSpace. Pozwalały one stworzyć pliki, które były następnie &quot;montowane&quot; jako oddzielne dyski.</p>
+
+<p align=justify>Windows 2008/7 zawierają podobne możliwości - tym razem użytym formatem pliku jest VHD wykorzystywany przez Virtual PC. Co więcej - ich droższe edycje (np. Windows 7 Ultimate) nie mają ograniczeń licencyjnych i pozwalają na takim &quot;dysku&quot; zainstalować sam system (przykład procedury jest podany np. <a href="http://www.dobreprogramy.pl/Instalacja-Windows-na-wirtualnym-dysku-VHD,Artykul,11419.html">tutaj</a>). Należy jednak pamiętać o tym, iż pewne funkcje mogą być wtedy niedostępne (chociażby hibernacja).</p>
+
+<p align=justify>Możemy zamontować plik VHD z poziomu okna <strong>Zarządzanie komputerem</strong>, ale też używając komendy <font face="Courier New">diskpart</font>. Wystarczy wykonać dwa polecenia:</p>
+
+<p><font face="Courier New">select vdisk file=plik.vhd</font> <br />
+<font face="Courier New">attach vdisk</font></p>
+
+<p align=justify>Z kolei zabezpieczenie takiego dysku przed zapisem uzyskamy wykonując w <font face="Courier New">diskpart</font>:</p>
+
+<p><font face="Courier New">select volume 4<br />
+attributes volume set readonly</font></p>
+
+<p align=justify>(w przykładzie wybraliśmy wolumin numer 4 - aby dobrać właściwy numer, wystarczy wykonać <font face="Courier New">list volume</font>). Takie zabezpieczanie możemy również wykonać dla części partycji, alternatywą jest tutaj oczywiście ustawienie (czy raczej usunięcie) odpowiednich praw dostępu np. z poziomu <strong>Eksploratora</strong>.</p>
+
+<p align=justify>Na cofnięcie tej blokady pozwolą:</p>
+
+<p><font face="Courier New">select volume 4<br />
+attributes volume clear readonly</font></p>
+
+<p align=justify>Kolejną opcją jest przypisanie wybranej litery:</p>
+
+<p><font face="Courier New">select volume 4</font><br />
+<font face="Courier New">assign letter=Z</font></p>
+
+<p align=justify>Możliwe jest zapisanie wymienionych powyżeń poleceń w pliku i wywołanie ich przez <font face="Courier New">diskpart</font> w trybie wsadowym:</p>
+
+<p><font face="Courier New">diskpart /s plik</font></p>
+
+<p align=justify>Dodanie takiego skrótu do Autostartu może spowodować, iż Windows będzie automatycznie montował dyski również przy starcie.</p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="11"></a><h1>Uprawnienia</h1></p>
+
+<p align=justify>Zdarza się, że nawet będąc administratorem systemu, nie mamy dostępu do jakiegoś katalogu (przykładem jest np. <strong>System Volume Information</strong>). W takich wypadkach najczęściej wystarcza oczywiście wybranie właściwości katalogu w <strong>Eksploratorze</strong> i dodanie pełnych praw dostępu w zakładce <strong>Zabezpieczenia</strong>. Czasem jednak jest z tym problem (np. w Windows XP Home). Jak sobie z tym poradzić ?</p>
+
+<p align=justify>Wyświetlamy nazwę zalogowanego użytkownika korzystając z polecenia</p>
+
+<p align=justify><font face="Courier New">whoami</font></p>
+
+<p>Następnie dodajemy sobie uprawnienia z linii komend wykonując</p>
+
+<p align=justify><font face="Courier New">cacls &quot;katalog&quot; /E /G nazwa_uzytkownika:F</font></p>
+
+<p align=justify>(zamiast <font face="Courier New">katalog</font> wpisujemy w cudzysłowie nazwę katalogu, zamiast <font face="Courier New">nazwa_uzytkownika</font> ciąg znaków podanych przez whoami)</p>
+
+<p align=justify>Uprawnienia możemy usunąć wykonując</p>
+
+<p align=justify><font face="Courier New">cacls &quot;katalog&quot; /E /R nazwa_uzytkownika</font></p>
+
+<p align="right"><a href="#gora">Do góry</a></p>
+
+<p><a name="12"></a><h1>Co jest teraz otwarte ?</h1></p>
+
+<p align=justify>Załóżmy, że chcielibyśmy zobaczyć, które pliki są otwarte przez konkretny proces. Pozwala na to sam system Windows. Wpierw należy włączyć tę opcję:</p>
+
+<p align=justify><font face="Courier New">openfiles /local ON </font></p>
+
+<p align=justify>Następnie trzeba zrestartować system i użyć</p>
+
+<p align=justify><font face="Courier New">openfiles </font></p>
+
+<p align=justify>Minusem jest to, iż komenda nie pokazuje zawsze pełnej ścieżki do plików. Plusem, iż mamy również od razu informację o plikach otwartych z innych komputerów.</p>
+
+<p align=justify>Na koniec można opcję wyłączyć:</p>
+
+<p align=justify><font face="Courier New">openfiles /local OFF</font></p>
+
+<p align=justify>Alternatywą może być użycie np. bezpłatnego <a href="http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx">Process Explorera</a> od Microsoftu.</p>
+
+<p align="right"><a href="#gora">Do góry</a></p>

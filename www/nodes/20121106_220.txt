@@ -1,0 +1,45 @@
+﻿Title:…rewolucje są, ale ukryte (2012)
+Author:marcin
+When:06 Nov 2012
+Taxonomy:Windows,Android,x86,GSM,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/11/rewolucje-sa-ale-ukryte.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<P>Wczoraj pytałem się o to, gdzie w świecie IT podziały się rewolucje i zwykła logika. Całkiem prawidłowym komentarzem jednego z użytkowników było stwierdzenie, że nie będzie ich co roku. Nie będzie i koniec i kropka i m.in. to właśnie chciałem wykazać ;)
+
+<p>Dziś chciałbym zastanowić się nad tym, jak zmieniło się nasze życie przez ostatnie kilka(naście) lat w związku z rozwojem technologii.
+
+<!--break-->
+<p>Typowy domowy sprzęt był kiedyś małą grubą klawiaturą podłączoną do telewizora (Amigi, 8-bitowce, itp.), później zastąpiła ją duża mniej lub bardziej szara skrzynia PeCetowa z dużym monitorem. Skrzynia była wpierw niema i głucha, a dane przenoszono na dyskietkach.
+
+<p>Z czasem monitory urosły, pojawiły się na nich filtry, obraz był w końcu stabilny, oprócz dyskietek użytkownicy zaczęli wykorzystywać płyty i dyski twarde, rewolucją okazało się bezzworkowa konfiguracja sprzętu oraz tzw. "multimedialność" (dźwięk, filmy na DVD, itp.)
+
+<p>Coraz więcej ludzi miało też telefony komórkowe - już nie cegiełki, ale prawdziwe hity z wężem, Saperem, a później i Symbianem. Telefony zyskały możliwość pracy na iluś pasmach (GSM 900, GSM 1800, UMTS 2100), kolory, aparaty, GPS.
+
+<p>Pojawiły się również ekrany LCD - wpierw ze smużeniem i widocznymi defektami, później z coraz lepszym podświetleniem, aby na końcu zamienić się w panoramiczne "monstra" z oszczędnościowymi rozwiązaniami (np. jedna świetlówka generująca niestety ruchome pasy widoczne kamerą cyfrową) i najczęściej szybą.
+
+<p>Uzyskaliśmy dostęp do Internetu - wpierw przez nieśmiertelny 0202122, później przez Neostradę czy kablówkę, a na końcu przez rozwiązania komórkowe (np. Aero2 dostępne za free do końca 2016).
+
+<p>Staliśmy się również bardziej mobilni - pojawiły się notebooki (różnie klasyfikowane), tablety, a telefony stały się "sprytne" (smartphony). 
+
+<p>Po latach "dzikiego zachodu" wyklaryfikowały się pewne rozwiązania takie jak microSD, USB albo SSD. Coraz częściej pracujemy czy załatwiamy sprawy zdalnie, chcemy też więcej oglądać, czytać czy słuchać.
+
+<p>Dlaczego to wszystko wspominam ? Wiele z wymienionych wyżej rzeczy to rzeczywiste cuda czy rewolucje, jednakże widać jedną prawidłowość i oczywistość - coś co jest wygodne, nie potrzebuje reklamy, coś co jest delikatnie mówiąc średnie musi być podparte milionami USD.
+
+<p>Druga uwaga jest taka, że rynek IT przechodzi stagnację z uwagi na patenty - coraz więcej pieniążków zamiast w R&D idzie na prawników.
+
+<p>Trzecia jest taka, że producenci "trochę" sami decydują, że dana technologia wychodzi z rynku (i tu paradoks - sami na to narzekając). Przykładem niech będą PeCety właśnie - coraz częściej podstawowym sprzętem jest jakiś notebook. Jak wygląda takie przeciętne urządzenie ?
+
+<p>Ano ma ekran błyszczący (bo dzięki temu uzyskiwane są "lepsze" kolory), kartę dźwiękową generującą plastikowy dźwięk, system operacyjny dostępny tylko na dysku twardym z dodatkiem wielu "rewelacyjnych" darmowych programów, do tego jest głośne i gorące (bo producent oszczędził na łożysku wiatraczka lub skonstruował go tak, aby szybko pokrył się kurzem).
+
+<p>A dlaczego ludzie rezygnują z płyt ? (pomijam cenę i niewygoy wynikające z rysowania się lub głośnej pracy napędów) Systemy plików wprowadzały wiele ograniczeń (długość nazwy plików, ilość poziomów katalogów, itd. itd.), a z kolei filmy są często poprzedzane toną materiałów, których nie można wyłączyć.
+
+<p>Czy ludzie korzystają z Androida, bo jest taki dobry i wspaniały czy dlatego, bo nie ma nic lepszego ?
+
+<p>Przykładów można mnożyć dużo, jednakże znów - to co wygodne rozchodzi się samo "jak świeże bułeczki", to co jest szeroko opisywane i wręcz celebrowane to niestety często "zakalec". Prawda jest również taka, że produkt zawierający naleciałości wielu poprzedników również nie będzie "księżniczką", a co najwyżej "żabą". I tak Windows 8 nie będzie szybki, gibki, a Windows RT z jego 16 GB w urządzeniach z opłaconą pamięcią 32 GB...hmmm, hmmm
+
+<p>Polemizując z innym wpisem - myślę, że PeCety wymrą dopiero wtedy, gdy producenci zamkną totalnie tę platformę (UEFI z szyfrowanymi bootloaderami, itd. itd.), a dopiero przesiadka na co innego przyniesie wystarczającą ilość zalet (np. oparcie kas fiskalnych na tabletach zapewni w przeciętnym hipermarkecie zmniejszenie rachunków za prąd o 5000 PLN miesięcznie i skróci czas szkolenia pracownika o 2h). Nie ma do końca sensu też wieszczenie końca jakiegoś rozwiązania na podstawie tego, jaki jest wzrost sprzedaży nowych urządzeń (to tak jakby oceniać, czy ludzie przesiadają się na samoloty na podstawie statystyk od dealerów aut).
+
+<p>Szkoda tylko, że agonia niektórych przestarzałych rozwiązań tyle trwa...i że rozwój jest związany z wszechobecną inwigilacją. I dodatkowo szkoda, że ta ewolucja czasem jest taka bolesna - np. myślę, że z zyskiem dla nas wszystkich byłoby zastąpienie wszystkich tych sieci komórkowych (w Polsce - GSM 900, GSM 1800, UMTS 2100, itd.) jedną w technologii LTE, gdzie przenoszone byłyby tylko dane (głos byłby kodowany jako "klasyczny" VOiP, SMS/MMS wymieniane z użyciem HTTP, itd.). Zysk być może dla zdrowia fizycznego (mniejszy smog elektroniczny), a na pewno dla baterii (mniej pasm do obsłużenia,...) i środowiska (mniej stacji nadawczych).
+
+<p>Jeśli miałbym natomiast porównać sprzęt i oprogramowanie, to rewolucje z oczywistych względów będą częstsze w tym drugim obszarze. Tyle na dziś :)

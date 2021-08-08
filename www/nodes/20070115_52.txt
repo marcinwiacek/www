@@ -1,0 +1,12 @@
+﻿Title:Report 2007-01-15
+Author:marcin
+When:15 Jan 2007
+Taxonomy:English,English blog,Gammu,GSM
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p><b>Development</b></p>
+<p>This is not easy for me, but... I was looking about Gammu in google. Results (I will soon some links to wiki) made, that I finally decided...</p>
+<!--break-->
+<p>Users of my projects can be assigned to 2 categories: (1) private users and companies and (2) private users and companies, who helped somehow (I speak about many types of help, not only money). First category is much bigger. I want to help both of them, but... When Gammu was in early stage, there were some members from second group available. Now, when it has enough (for many tasks) support for Nokias Series 40, nobody is interested in sponsoring. It looks, that nobody wants (believes) too, that I will do some SE or other development after donation...The same promised things, which never were received by me. It doesn't motivate me too much...</p>
+<p>Command line Gammu is not nice for me for everything. I would like to have normal application, when I will be able to click and make some tasks. There is also some research exciting for me. This is reason, that I develop Gammu+, which is much more advanced (yeah, yeah, that's truth, that I use some C language things - but it doesn't change fact, that Gammu+ is better).</p>
+<p>These two big things make, that I decided to suspend Gammu development from my side. I will do some fixes, will try to answer posts on mailing list (and clean mess on gmane.org), will manage gammu.org and freshmeat.net accounts (but partially I can give access to other people too), maybe some other. But (new things): If Michal will want, he should make new tarballs. That's OK for me. If he will want, I will do new releases after receiving patches (like in fact was from few releases).</p>

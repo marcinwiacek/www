@@ -1,0 +1,119 @@
+﻿Title:Wersja 9 &quot;Przepisów drogowych&quot;, Taryfikator mandatów (wydanie XI) + inne nonsensy drogowe (2012)
+Author:marcin
+When:02 Aug 2012
+Taxonomy:Polski,Polski artykuł,Android,GSM,drogowe
+
+<p>Wydałem dzisiaj <a href=?q=node/203>wersję 9 aplikacji www i na Androida "Przepisy drogowe"</a> (pod podanym linkiem jest przedstawiona np. podstawa prawna). Są one dostępne jak zawsze pod adresami:
+
+    <ul>
+      <li><a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe">Aplikacja
+na
+<!--break-->
+          platformę Android</a> (status beta). Użyto tam m.in. <a
+          href="http://www.fasterxml.com/">bibliotek Jackson 2.0.4 na
+          licencji Apache 2.0/LGPL 2.1</a>
+      </li>
+      <li><a href="http://www.mwiacek.com/PrzepisyDrogowe">Wersja www</a>
+        (status beta)
+      </li>
+      <li><a
+          href="http://mwiacek.com/www/sites/default/files/Przepisy%20drogowe.wgt">Aplikacja
+          na
+          platformę Tizen</a> (to wydanie jest nieaktualnione i ma status alpha)
+      </li>
+    </ul>
+
+<p>W chwili obecnej różnią się kilkoma "drobiazgami":
+
+<ul>
+<li>w wersji www brakuje Taryfikatora w opisach znaków
+<li>w wersji www w Taryfikatorze pokazującym oryginalne tabele z Rozporządzeń wpisy są sortowane i scalane, w wersji na Androida tego brak
+<li>w wersji www jest historia we własnym opracowaniu Taryfikatora (w wydaniu na Androida nie)
+<li>w wersji www nie ma rozdziałów w Kodeksie i Ustawie o Kierujących (w wydaniu na Androida tak)
+<li>w wersji www na starcie pokazywane są wszystkie znaki (w wydaniu na Androida Znaki ostrzegawcze)
+<li>w wersji www "About" jest w innym miejscu
+<li>w wersji www nie ma przeszukiwania opisów znaków
+</ul>
+
+<p>Dodatkowo wpadł w moje ręce Taryfikator Mandatowy - wydanie XI Wydawnictwa Rondo (z motocyklistą na okładce). Publikacja o tyle ciekawa, że łącząca taryfikator mandatów i punktów karnych w jedno i podobnież używana przez funkcjonariuszy w naszym pięknym kraju...
+
+<p>A tak kilka kwiatków:
+
+<ul><li>"Nieustąpienie pierwszeństwa przejazdu na skrzyżowaniu oznaczonym znakami określającymi pierwszeństwo przejazdu" - brak mandatów, za to mandaty pojawiają się kilka stron przy pozycji "nieustąpienie pierwszeństwa przejazdu w związku ze znakiem A7 i znakiem A7+C12". Ciekawe skąd wzięte te ostatnie pozycje (o tych znakach w tabelach wykroczeń w Dziennikach Ustaw ani słówka) i ciekawe skąd taki brak konsekwencji...
+<li>"Niewłączenie przez kierującego pojazdem wymaganych świateł w czasie jazdy w warunkach zmniejszonej przejrzystości powietrza" to 100 PLN (powinno być 200)
+<li>brak kwot 20-500 na stronie 33 (połowa wykroczeń związanych wg. autorów ze skrzyżowaniami)
+<li>"Nieustąpienie miejsca nadjeżdżającemu pojazdowi szynowemu przez kierującego pojazdem" - w Dz.U. jest 250 PLN, w opracowaniu 20-500 PLN
+<li>na stronie 33 na samym dole jest mowa o przejeździe (a artykuł związany z przejazdami mówi o 300 PLN i 4 pkt karnych)...
+<li>jest takie wykroczenie jak "Spowodowanie zagrożenia bezpieczeństwa w ruchu drogowym przez osobę znajdującą się w stanie po użyciu alkoholu lub podobnie działającego środka" w Dz.U. - w opracowaniu jest info, że niepodlega to postępowaniu mandatowemu (str. 49)
+<li>niestosowanie się do znaku B-20 "stop" to 100 PLN i 2 punkty karne !
+<li>znak C-17 zawiera w nazwie "towarami"
+<li>nie znajduje takiego wykroczenia "niestosowanie się do znakow B-3 w wyjątkiem B-3a, ...." w Dz.U.
+<li>"Niezastosowanie się do znaków F-10, F-11, F-15 do F-19, kierunki na pasach ruchu określające dozwolony kierunek jazdy z poszczególnych pasów ruchu lub sposób ich wykorzystania" połączone z niestosowaniem się do strzałek P-8a - P-8c (podane są dwa kody czynów, ale może to być nieczytelne)
+<li>nieprzestrzeganie P-19 "Linia wyznaczająca pas postojowy" też jest wykroczeniem (autorzy nie uwzględnili)
+<li>"Niestosowanie się do sygnałów świetlnych przez kierującego pojazdem wjeżdżającego za sygnalizator, kiedy jest to zabronione" to 300-500 PLN, ale obok za "niezastosowanie się do sygnałów świetlnych, w tym: niezastosowanie się do sygnałów zakazujących wjazdu za sygnalizator" autorzy podają 20-500 PLN
+<li>autorzy dodają wykroczenia za "wjazd za sygnalizator nadający sygnał zielony lub sygnał w kształcie kreski, kiedy jest to zabronione" i "wjazd na pas ruchu, nad którym jest sygnalizator S-4 nadający sygnał czerwony" (czy to nie zawiera się w "Niestosowanie się do sygnałów świetlnych przez kierującego pojazdem wjeżdżającego za sygnalizator, kiedy jest to zabronione" ?)
+<li>"Naruszenie przepisów określających warunki oraz zakazy zatrzymywania lub postoju" chyba powinno pozostać...
+<li>"Naruszenie zakazu holowania (na autostradzie)" zabrakło mi...
+</ul>
+
+<p>Do tego brak wyjaśnienia skąd 20-500 PLN przy wielu wykroczeniach (chodzi o dostępność ogólnego zapisu k.w.).
+
+<p>W Przepisach drogowych zdecydowałem się też na inne podejście w różnych miejsach niż autorzy tegoż opracowania (z uwagi na czytelność):
+
+<ul>
+<li>"Naruszenie przepisów dotyczących przewozu dzieci lub młodzieży przez kierującego pojazdem przewożącym dzieci lub młodzież oraz autobusem szkolnym" - "oraz autobusem szkolnym" nie występuje w Taryfikatorze mandatów i u mnie nie ma
+<li>"Niezachowanie szczególnej ostrożności przez kierującego pojazdem, który omija pojazd przeznaczony do przewozu osób niepełnosprawnych" - wolałem u siebie zamiast "Naruszenie przepisów dotyczących przewozu osób niepełnosprawnych przez kierującego innym pojazdem"
+</ul>
+
+<p>Na dzień dzisiejszy nie wiem też, czy we wszystkich przypadkach wykroczeń ze str. 49 opracowania nie ma przypadkiem postępowania mandatowego....
+
+<p><b>I tu nasuwa się pytanie - czy ustawodawca nie mógłby przygotować jednej tabeli ? I czy prawo nie mogłoby być tutaj prostsze ?</b>
+
+<p>Przykład: w tabeli mandatowej mamy "Zawracanie w warunkach, w których mogłoby to zagrażać bezpieczeństwu ruchu lub ruch ten utrudnić", a w punktowej "Naruszenie zakazu nawracania". Niby to samo, ale... zdecydowałem się umieścić informację o obu oddzielnie (w drugim podając kwotę 20-500 PLN)
+
+<p><b>Mogłoby, ale łatwiej jest tylko powiększać kary...czy zmniejszać płynność ruchu...co <a href=https://www.facebook.com/PoselBeataBublewicz>Pani Poseł Bublewicz</a> i Rząd ostatnio udowadnia gęsto i często.</b>
+
+<p>O możliwych zmianach pisałem już jakiś czas temu:
+
+<p>"Proponowałbym zajęcie się upraszczaniem przepisów tak, aby kierowca nie miał wątpliwości, co powinien robić. Pozwolę sobie skierować uwagę np. na skrzyżowanie jak opisane tutaj <a href=http://www.forum.prawojazdy.com.pl/viewtopic.php?t=23722>http://www.forum.prawojazdy.com.pl/viewtopic.php?t=23722</a> lub <a href=http://www.forum.prawojazdy.com.pl/viewtopic.php?t=15136>http://www.forum.prawojazdy.com.pl/viewtopic.php?t=15136</a>. Jeśli poszukać w Internecie głębiej, to podobne skrzyżowania wywołują tyle interpretacji, ilu kierowców.
+
+<p>Inny przykład - droga z W-wy do Mińska Mazowieckiego po przebudowie to głębokie rowy na 2 metry + sztucznie wymuszany brak możliwości wyprzedzania na bardzo długich odcinkach. Wystarczy jeden pojazd jadący np. 30 km/h, aby ciągnął się za nim korek.....Frustracja potrafi sięgać zenitu...i sytuacji niebezpiecznych potrafi być sporo. A wystarczyło zamiast regularnych wysepek na środku zrobić regularne pasy do wyprzedzania (na przemian)...
+
+<p>Sytuację poprawiłaby również eliminacja sygnalizacji świetlnej na różnych skrzyżowaniach i usunięcie wielu niepotrzebnych znaków (np. sztucznych ograniczeń prędkości na drogach dwujezdniowych w przysłowiowym szczerym polu jak z Wilanowa do Konstancina)...."
+
+<p><b>I co ? I nic.</b>
+
+<p>Podobnie z zielonymi strzałkami, które stały się solą w oku, a znakomicie ułatwiają życie: "jedno ze skrzyżowań przy Arkadii, jeden pas do skrętu w prawo (chociaż spokojnie możnaby zrobić dwa), mamy czerwono światełko, strzałki i zielonego na przejściu długo nie ma, zapala się zielone na przejściu dla pieszych, pojawia się na chwilkę zielona strzałka, gaśnie, gaśnie zielone dla pieszych, długo nic, krótkie zielone (nie strzałka, tylko normalne zielone) i cykl się powtarza.
+
+<p>O co chodzi ? Strzałka mogłaby się palić non-stop i ruch by się szybko rozładowywał, obecnie przejeżdza jedno, dwa auta i ruszają równo z pieszymi.
+
+<p>Mówiąc inaczej - ktoś delikatnie mówiąc nie znal się na swojej robocie rozplanowywując cykl świateł. Czy z tego powodu należy kasować ideę rozwiązania upłynniającego ruch ? Może raczej pojechać po premii inżyniera ruchu dopuszczającego skrzyżowanie do eksploatacji ? I całość przebudować zgodnie z logiką ?"
+
+<p>Brakuje np. zmian dotyczących "kręcenia" liczników, zmian w dowodach rejestracyjnych (coby było więcej miejsca na pieczątki, a mniej na uwagi), ma być za to:
+
+<ul>
+<li>obniżenie prędkości
+<li>likwidację zielonych strzałek (pamiętamy, jak wyglądała W-wa ok. 2004 jak ich nie było)
+<li>podwyższenie mandatów nawet o kilkaset %
+<li>obowiązkowe używanie określonych opon (zimowe/letnie) w określonych miesiącach
+</ul>
+
+<p>Żeby nie było, że nie tylko mnie nie podobają się te pomysły - w Motorze 31/2012 można przeczytać <b>"posłowie próbują zmieniać przepisy, jednak wykazują się przy tym niekompetencją. To wstyd, że osoby, które powinny mieć wiedzę na temat bezpieczeństwa drogowego, publicznie posługują się nieprawdziwymi argumentami..."</b> oraz "członkowie parlamentarnego zespołu chcą osiągnąć spektakularny sukces. Zapominają, że w dziedzinie bezp. drogowego nie jest to proste i zmiany polegające na zaostrzeniu przepi
+sów nie zawsze się sprawdzają" 
+
+<p><b>No ale z drugiej strony skoro ślimak jest rybą, Polska nie ma dostępu do morza, to i zimę można wprowadzić dekretem, prawda ?</b>
+
+<p>Więcej na ten temat można znaleźć np. <a href=https://www.facebook.com/PoselBeataBublewicz>na Facebooku Pani Beaty Bublewicz</a>. Mnie np. "spodobał" się jej argument "Dlatego właśnie uważamy, że taryfikator grzywien, najniższych w UE, nieaktualizowany od 1995 roku (17 lat!) powinien zostać dostosowany do rzeczywistości.", który jest mocno wprowadzający w błąd (ostatnie zmiany w tymże dokumencie wprowadzono <a href=http://dziennikustaw.gov.pl/DU/2011/s/105/0615>Rozporządzeniem Prezesa Rady Ministrów z dnia 24 maja 2011 r. zmieniającym właśnie rozporządzenie w sprawie wysokości grzywien nakładanych w drodze mandatów karnych za wybrane rodzaje wykroczeń</a>)
+
+<p>Czy tak czy inaczej - w "Przepisach drogowych" czeka mnie jeszcze dużo roboty:
+
+<ul>
+<li>z Taryfikatorem (trzeba zrobić review z review),
+<li>zrobienie historii Taryfikatora (Android),
+<li>dokończenie kalkulatora alkoholowego, 
+<li>dokończenie implementacji wyszukiwania nieuwzgledniającego polskich liter (Android), 
+<li>poprawienie przewijania strony w Firefoxie (www), 
+<li>wyszukiwanie treści na nowo po zmianie strony na dole (www)
+</ul>
+<p>i inne... 
+<p>To wszystko po kolei - chcę utrzymać wysoki poziom, ale aplikacje te nie są moim źródłem zarobku.

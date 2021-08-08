@@ -1,0 +1,30 @@
+﻿Title:Pierwsza miłość ?
+Author:marcin
+When:27 Jul 2013
+Taxonomy:wiersz,Polski,Polski blog,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Jej oczy we mnie wpatrzone,<br />
+jej usta wciąż nienasycone,<br />
+jej piersi, które twardniały,<br />
+jej łono i ciała świat cały,<br />
+jej ręce po mnie błądzące,<br />
+jej nogi dotyku mocno łaknące,<br />
+jej uczucie, co ją trawiło,<br />
+co ją jak kacem dniem żywiło,</p>
+<p>tyle lat od tego upłynęło,<br />
+ale to nigdy tam nie minęło,<br />
+na zawsze będzie w pamięci,<br />
+na zawsze wspomnienie kręci,</p>
+<!--break-->
+<p>bo nie miało to wyrachowania,<br />
+które życie teraz odsłania,<br />
+w wariackiej rzeczywistości,<br />
+gdzie taniec Wita wciąż gości,<br />
+i słyszę życie na moje słowa,<br />
+i pantofli czerwonych wymowa,<br />
+stringi, perfumy i wyuzdanie,<br />
+od rozmów trudnych uciekanie,<br />
+i wiem, gdy chcą mi powiedzieć,<br />
+lecz taniej im daleko siedzieć...</p>

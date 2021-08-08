@@ -1,0 +1,10 @@
+﻿Title:Nokia top model N900 sales below 100,000 &amp; Microsoft: 30 Million Windows Phone 7 devices will be sold by the end of 2011
+Author:marcin
+When:29 May 2010
+Taxonomy:English,English blog,GSM,Nokia
+
+<p>Two interesting articles from last time: <a href="http://www.mobiletechworld.com/2010/05/27/microsoft-30-million-windows-phone-7-devices-will-be-sold-by-the-end-of-2011"></a>Microsoft: 30 Million Windows Phone 7 devices will be sold by the end of 2011 and <a href="http://www.reuters.com/article/idUSTRE64R1DI20100528">Nokia top model N900 sales below 100,000: Gartner</a></p>
+<p>My answer: first is system, which will probably not have many features known from competitors. Second is system, which was not supported correctly by own manufacturer. How could you think, that they could be successful ?</p>
+<!--break-->
+<p>To write it more clear: Maemo was discontinued on start, Nokia has not implemented such things like MMS (maybe not used widely, but they're everywhere else), there was only one device with it... There is additionally obsolete Symbian advertised (like Eldar Murtazin said <a href="http://mobile-review.com/articles/2010/birulki-64-en.shtml">"I have a feeling that Nokia had settled in some fairyland, where users buy tons of the company products. However, it is not so. Nokia N8 as the flagship looks not just pale, it is something vague. The company will attract the audience with the help of advertising and then start selling the product and it will sell it only to push more people away from the brand. I have an impression that Nokia has agents from another vendor working for it, sabotaging and deliberately destroying Nokia brand. Otherwise it is impossible to explain what is happening."</a>) And Windows, which will have to exist on the market with such players like Apple's iPhone/iPod OS or Android...</p>
+<p>Nokia &amp; Microsoft, how could you think, that they will win ?</p>

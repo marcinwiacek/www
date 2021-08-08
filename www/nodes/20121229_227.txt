@@ -1,0 +1,64 @@
+﻿Title:Komórki w Polsce... (2012)
+Author:marcin
+When:29 Dec 2012
+Taxonomy:Polski,Polski blog,GSM,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/12/komorki-w-polsce.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Ostatnio zadano mi pytanie dotyczące tego, jak tak naprawdę wyglądają sieci komórkowe i technologie transmisji danych w tych sieciach. Przygotowałem orientacyjną ściągawkę, za uproszczenia i błędy z góry przepraszam (nie piszę pracy mgr).
+
+<!--break-->
+<p>Sieci komórkowe cały czas się zmieniają, powstają kolejne tzw. "generacje" określane 1G, 2G, 3G, 4G (nazwy te pokazują jedynie stopień "zaawansowania" danego rozwiązania - to, że dane urządzenie wspiera "3G", nie oznacza, że działa w "1G"). Niektóre nazwy używane przez użytkowników czy operatorów wywodzą się od nazwy standardów, niektóre od nazwy technologii określającej sposób transmisji.
+
+<p>Można powiedzieć, że tłok w eterze się powiększa, obecnie z głównych większych sieci można wyróżnić te działające w następujących częstotliwościach (niektóre przeznaczone tylko do transmisji danych): CDMA 420/450/850 Mhz, GSM 900/1800 Mhz, UMTS 900/2100 Mhz, LTE 1800/2500 Mhz, WiMAX 3500/3700/5400 Mhz.
+
+<p>Jak natomiast zmieniały się maksymalne (możliwe do osiągnięcia w idealnych warunkach, przy implementacji przez operatorów i twórców urządzeń maksymalnego wariantu danej technologii) prędkości transmisji danych "do" użytkownika ?
+
+<p>Poniżej podaję nazwę technologii, generację, typ sieci, maksymalną prędkość:
+
+<p>bez transmisji danych - 1G, sieci analogowe (np. kiedyś w Polsce NMT450i Centertela)
+
+<p>===============================
+
+<p>CDMA - 2G/3G, sieci CDMA, 1 Mbit/s
+
+<p>===============================
+
+<p>CSD - 2G, sieci GSM, 9,6 Kbit/s, opłaty za czas połączenia !
+
+<p>HSCSD - 2G, sieci GSM, 57,6 Kbit/s
+
+<p>GPRS - 2.5G, sieci GSM, 115 Kbit/s
+
+<p>EDGE - 2.5G lub 2.75G, sieci GSM, 236 Kbit/s
+
+<p>===============================
+
+<p>UMTS/WCDMA - 3G, sieci UMTS, 384 Kbit/s
+
+<p>HSPA/HSDPA/HSUPA - 3.5G lub 3.75G, sieci UMTS, 168 Mbit/s
+
+<p>Evolved HSPA/HSPA+ - 3.5G lub 3.75G (lub według niektórych 4G), sieci UMTS, 337 Mbit/s
+
+<p>===============================
+
+<p>LTE - 3.9G, sieci LTE, 300 Mbit/s
+
+<p>LTE Advanced - 4G, sieci LTE, 1 Gbit/s
+
+<p>===============================
+
+<p>WiMAX - 4G, sieci WiMAX, 365 Mbit/s
+
+<P>Jak wspomniałem, obsługa danej technologii nie oznacza, że uzyskamy prędkość maksymalną. Zawsze należy:
+
+<p>1. wczytać się dokładnie w informacje producenta telefonu/modemu/urządzenia, gdzie podawane są dokładne informacje dotyczące nie tylko prędkości w danej technologii (czasem ta może się zwiększyć po aktualizacji firmware), ale też wspieranej częstotliwości.
+
+<p>2. sprawdzić u operatora, jakie limity prędkości stosuje (np. Play ma według siebie 4G, a obsługuje jedynie HSPA+ i limituje prędkość do 1 Mbit/s lub 4 Mbit/s).
+
+<p>3. sprawdzić organoleptycznie, jakie prędkości są w danej okolicy - np. ostatnio zdarza się, że operatorzy wręcz pogarszają swoje obecne sieci próbując je rozbudowywać (tu polecam np. lekturę <a href=http://www.gsm.biz.pl>http://www.gsm.biz.pl</a>)
+
+<p>Bardzo ciekawą kwestią jest też limitowanie przez operatorów ilości pobieranych danych/pobieranie dodatkowych opłat lub zmniejszenie prędkości praktycznie do zera po przekroczeniu limitu (nagminne)
+
+<p>Mamy też <a href=http://aero2.pl/bdi.html>obecny nielimitowany darmowy Internet w ofercie Aero2</a>: zapewniana jest prędkość 512 Kbit/s na pewno do 21.12.2016 (HSPA+ 900 MHz lub LTE 2500MHz). Operator podaje w regulaminie, że należy wykorzystywać "terminal kategorii 10, obsługujący transmisję danych w technologii HSPA+ w paśmie 900 MHz (pasmo 8) lub kategorii 3 obsługujący transmisję danych w technologii TD-LTE w paśmie 2500MHz (pasmo 38)", niemniej jednak spełnienie kategorii nie wydaje się być konieczne.
+
+<p>Sieci częściowo obsługują roaming wewnętrzny, np. Play (i jego operatorzy wirtualni) pozwalają wykorzystywać sieci Plus i Orange, Aero2 zaś Plus.

@@ -1,0 +1,32 @@
+﻿Title:Nowe aplikacje...czyli Bryły i Historia polska w Google Play (2014)
+Author:marcin
+When:17 Jul 2014
+Taxonomy:Polski,Polski blog,Android,GSM,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Nowe-aplikacjeczyli-Bryly-i-Historia-polska-w-Google-Play,56537.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+Miesiąc lipiec upływa pod znakiem kodowania... Pomyślałem, że podzielę się info o tym bo chyba niektóre osoby może to jednak zainteresować :) Najnowsze dziełko to <a href=https://play.google.com/store/apps/details?id=com.mwiacek.historia.polska&hl=pl>Historia polska</a>
+
+<p><img src=sites/default/files/320/1.jpg>
+<!--break-->
+<br><img src=sites/default/files/320/2.jpg>
+
+<p>Aplikacja zawiera reprodukcje wybranych dzieł malarskich nawiązujących do konkretnych wydarzeń historycznych (obecnie 62) + krótkie opisy tych wydarzeń. Materiały te pochodzą z różnych źródeł (m.in. polskiej Wikipedii) i wszystkie powinny należeć do tzw. domeny publicznej.
+
+<p>Możliwe jest oglądanie dzieł chronologicznie (galeria 'Wydarzenia') lub posortowanych dniami/miesiącami (galeria 'Kalendarz dzienny'), przeglądanie ich listy, jak również ich powiększanie.
+
+<p><b>Dlaczego akurat ten temat ? Historia Polski jest bogata, pełna chwały i wspaniałych wydarzeń, również sami Polacy wielokrotnie pokazywali swoją potęgę, waleczność i inne godne naśladowania cechy.</b> To naprawdę nie jest "kamieni kupa" jak niektórzy by chcieli....
+
+<p><b>Moim zdaniem aż się prosi, aby na najbardziej popularnej platformie mobilnej móc mieć w wersji "offline" podobny zbiór, który przypomni przede wszystkim o zwycięstwach, ale nie tylko...</b> Nie wiem, czy uda się rozszerzyć to na zdjęcia i bardziej "świeże" wydarzenia... Wchodzą tutaj w grę np. prawa autorskie - jedna z agencji już odpowiedziała, że owszem, mogę użyć ich jednego zdjęcia, ale za konkretną kwotę będę mógł to robić tylko rok; druga agencja do dziś nie dała znaku życia....
+
+<p>A wcześniej <a href=https://play.google.com/store/apps/details?id=com.mwiacek.bryly&hl=pl>Bryły</a> - aplikacja pozwala na obejrzenie typowych brył z różnych perspektyw (narysowanych liniami lub z wypełnionymi ścianami) oraz zawiera podstawowe informacje na ich temat (wystarczy podwójnie kliknąć na bryle, aby otworzyć odpowiedni opis)
+
+<p><img src=sites/default/files/320/Screenshot_2014-07-07-21-22-21.png width=300><img src=sites/default/files/320/Screenshot_2014-07-07-21-23-00.png width=300>
+
+<p><b>Czyż nie jest to ułatwienie edukacyjne ?</b>
+
+<p>PS. I dobiłem już do szczęśliwej siódemki w Google Play - <a href=?q=przepisy_drogowe>"Przepisy drogowe"</a> (tematyka też specyficznie polska :)), <a href=https://play.google.com/store/apps/details?id=com.mwiacek.apn&hl=pl>"APN"</a> (aplikacja mocno systemowa tym razem), <a href=https://play.google.com/store/apps/details?id=com.mwiacek.istqb.glossary&hl=pl>"ISTQB glossary"</a> (słownik ISTQB w wersji moim zdaniem wygodniejszej niż PDFy), <a href=https://play.google.com/store/apps/details?id=com.mwiacek.bryly&hl=pl>"Bryły"</a>, <a href=https://play.google.com/store/apps/details?id=com.mwiacek.historia.polska&hl=pl>"Historia polska"</a>, "Polskie przepisy" (zdeaktywowana, ale mam nadzieję kiedyś wrócić do tematu automatycznego tworzenia aktów prawnych z XMLi), "Rachunek telefoniczny" (zdeaktywowana, gdyż pełne liczenie kosztów różnych taryf na podstawie logów urządzenia okazało się średnio trafne)
+
+<p>PS2. Jakieś komentarze czy uwagi ma ktoś ?
+<hr>
+<a href=http://www.dobreprogramy.pl/marcinw2/Nowe-aplikacjeczyli-Bryly-i-Historia-polska-w-Google-Play,56537.html>http://www.dobreprogramy.pl/marcinw2/Nowe-aplikacjeczyli-Bryly-i-Historia-polska-w-Google-Play,56537.html</a>
+<a href=http://www.wykop.pl/link/2085588/historia-polska-i-bryly-w-google-play/>http://www.wykop.pl/link/2085588/historia-polska-i-bryly-w-google-play/</a>

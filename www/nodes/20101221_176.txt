@@ -1,0 +1,9 @@
+﻿Title:Greetings/Życzenia
+Author:marcin
+When:21 Dec 2010
+Taxonomy:English,English blog,Polski,Polski blog,wiersz,książka 4
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>I wish all of you Merry Christmas and Happy New Year. For people understanding Polish language small poem...</p>
+<p><a href="http://mocii.com/free-vector-graphics/37-christmas-postcard-templates-for-2011/"><img src="sites/default/files/176/3.png" border="0" width="600" /></a></p>
+<!--break-->

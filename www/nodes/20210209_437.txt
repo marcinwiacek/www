@@ -1,0 +1,82 @@
+﻿Title:Źli hakierzy i CD Projekt (2021)
+Author:marcin
+When:9 Feb 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<p>Jak widać (a jak nie widać, to wyjaśnię) - w używanym przeze mnie Samsungu S9 zdarza się, że czasem przez przypadek wyłączę powiadomienie o możliwości &quot;wymontowania&quot; zewnętrznego dysku. Nie działają żadne sposoby jego przywrócenia, pomaga jedynie sformatowaniu dysku i (jak przypuszczam) nadanie mu nowego numeru seryjnego. Telefon ma przy tym włączony tryb ciemny... ale ktoś w firmie Google czy Samsung zapomniał czy &quot;zapomniał&quot; o jego włączeniu na wszystkich ekranach. Zdarza się. Można to nazwać ludzką pomyłką czy przeoczeniem. Bardziej obeznani w temacie inżynierii oprogramowania mogą stwierdzić, że widocznie zmiany tematu kolorystycznego akurat tego ekranu nie przewidziano w specyfikacji (zakładamy oczywiście, że proces wprowadzenia tej funkcjonalności przebiegł zgodnie ze sztuką). Można by oczywiście to zgłosić, ale znając życie, zgłoszenie byłoby przekierowane na Berdyczów... if you know, what I mean.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Zli-hakierzy-i-CD-Projekt,113255.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Zacznijmy od małego przykładu:</p>
+     
+<center><img src="sites/default/files/437/screen1.jpg" style="width:197px;height:405px;" alt="image" title="image" /><img src="sites/default/files/437/screen2.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+     
+<p>Jak widać (a jak nie widać, to wyjaśnię) - w używanym przeze mnie Samsungu S9 zdarza się, że czasem przez przypadek wyłączę powiadomienie o możliwości &quot;wymontowania&quot; zewnętrznego dysku. Nie działają żadne sposoby jego przywrócenia, pomaga jedynie sformatowaniu dysku i (jak przypuszczam) nadanie mu nowego numeru seryjnego. Telefon ma przy tym włączony tryb ciemny... ale ktoś w firmie Google czy Samsung zapomniał czy &quot;zapomniał&quot; o jego włączeniu na wszystkich ekranach. Zdarza się. Można to nazwać ludzką pomyłką czy przeoczeniem. Bardziej obeznani w temacie inżynierii oprogramowania mogą stwierdzić, że widocznie zmiany tematu kolorystycznego akurat tego ekranu nie przewidziano w specyfikacji (zakładamy oczywiście, że proces wprowadzenia tej funkcjonalności przebiegł zgodnie ze sztuką). Można by oczywiście to zgłosić, ale znając życie, zgłoszenie byłoby przekierowane na Berdyczów... if you know, what I mean.</p>
+     
+<p>Takich drobnych i w sumie nieszkodliwych albo zabawnych błędów jest masa - znajdują się wszędzie, poczynając od MacOS, Linuxa, Ubuntu na Androidzie i Windows skończywszy.</p>
+     
+<p>Skąd się w ogóle biorą?</p>
+     
+<p>Małe firmy są małe i zatrudniają bardzo mało ludzi. Wtedy każdy zdrowo myślący pracownik stara się aż do bólu. Rozwój zazwyczaj powoduje rozrost siły roboczej, ale również kadry zarządzającej. Kadra zarządzająca, jak to kadra zarządzająca, czasem potrafi przedstawić pewne sprawy... z lepszej strony i równocześnie dokonać &quot;optymalizacji&quot; w tym, co dotąd być może działało bez zarzutu. I tak rozkazy i coraz mniej realistyczne plany płyną w dół przez coraz większą liczbę poziomów pracowników, a w górę coraz bardziej optymistyczne raporty (wiem, wiem, że upraszczam, ale robię to celowo). Odpowiedzialność za różne sprawy staje się bardziej rozmyta, poszczególni ludzie zaczynają żyć w swoistej bańce (&quot;jacy to my zaje... fajni jesteśmy&quot;)... i klops murowany.</p>
+     
+<p>Czy można nad tym zapanować?&#160;</p>
+     
+<p>W firmach IT wytworem jest albo oprogramowanie, albo jakiś sprzęt, albo usługi.</p>
+     
+<p>Jeśli chodzi o to pierwsze, to na pewno trzeba unikać problemów, o których pisałem we wpisie <a href="?q=node/411">Testowanie to nieco zapomniana już sztuka ?</a>. W przypadku produkcji sprzętu albo świadczenia usług na pewno warto inwestować we wszelkiego rodzaju certyfikacje, szkolenia, itp., dzięki którym będziemy mieć pewność, że trzymamy przynajmniej minimum branżowe.</p>
+     
+<p>W tym wszystkim nie można jednak zapominać również o rozsądku - liczy się praktyka i osoba z dobrą intuicją i prawdziwym doświadczeniem powinna mieć dla firmy większe znaczenie niż ten, kto jest świeżo po studiach, ale może się pochwalić trzydziestoma certyfikatami, w tym poświadczeniem ukończenia kursu szydełkowania w Pcimiu Dolnym.</p>
+     
+<p>Wróćmy teraz do naszej ukochanej firmy CD, która, jakby to rzec, znana jest z konieczności dopracowania swoich sztandarowych produktów (których nie ma znów tak wiele).</p>
+     
+<p>Największą tragedią stało się to, że gra wyszła, jaka wyszła, i mleko się rozlało. Marka się popsuła, koniec i finito. Można by się nawet nad tym trochę pośmiać, ale... CD Projekt nie wydaje się tak duży jak Samsung, Google czy inne korpo, które raczej nie zwróci na uwagi typu &quot;w moim Androidzie motyw czarny nie jest wszędzie czarny&quot; i raczej nie odniesie uszczerbku, gdy będzie to przeszkadzać nawet milionowi użytkowników.</p>
+     
+<p>Problem, który tu wystąpił, można chyba opisać jako - przerost managementu i marketingu nad działem zatrudniającym realnych pracowników (czy raczej wyrobników), czyli wszelkiej maści inżynierów od kodu, tekstów, dźwięku, itp.</p>
+     
+<p>Kilka dni po całej tej aferze pojawiło się wideo</p>
+     
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/O3V4UBZmC9o?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+     
+<p>Fajne, ładne, ale... pokazujące wyłącznie tragedię pewnego człowieka i prawdopodobnie jego oderwanie od rzeczywistości.</p>
+     
+<p>Nikt nie widział katastrofy czy nikt nie chciał widzieć katastrofy?</p>
+     
+<p>W przypadku ostatniego dzieła dało się nawet zauważyć takie zachowania, jak przedstawianie dziennikarzom gry bez możliwości własnoręcznego pogrania. Nie byłem, za to o tym czytałem.</p>
+     
+<p>Może więc chodziło o coś innego?</p>
+     
+<p>Na giełdzie można grać na shortowanie - pożyczamy od kogoś akcje firmy, sprzedajemy, czekamy, aż spadną, odkupujemy po niższej cenie i oddajemy.</p>
+
+<p>Tak na głupi chłopski rozum - czy atak &quot;złych hakierów&quot; jakoś tak w dniu bezpiecznego internetu może być próbą zarobku na shortowaniu? A może te kolejne &quot;zbiegi&quot; okoliczności (niedopracowany Cyperpunk, błąd w którymś tam patchu blokujący rozgrywkę, błąd zabezpieczeń gry, a teraz &quot;to&quot;) to przemyślna strategia, żeby CD Projekt zmienił właściciela? Czy chora strategia marketingowa?</p>
+     
+<p>Przyznam się, że czytając to wszystko mam wrażenie, że firmy nie ma. A szkoda, bo chciałbym wierzyć, że pomimo pewnej bylejakości i nadmiernego optymizmu (nie chcę być nudny: <a href="?q=node/431">Jesteśmy debeściaki...</a> albo <a href="?q=node/396">Hey Joe! Potrzymaj mi piwo</a>) naprawdę jesteśmy w stanie zrobić coś wielkiego u siebie i dla siebie.</p>
+     
+<p>W głowie chodzi mi jeszcze jedna myśl - kiedyś, dawno temu był sobie pan Adam Słodowy i panowie od Sondy w telewizji. Starali się oni przekazać pewną kulturę techniczną i rozbudzać w chętnych zamiłowanie do techniki. Dziś ich produkcje tkną myszką i urządzenia się zmieniły, ale fakt jest faktem - o ile poprzednie pokolenie samo potrafiło zmienić sznur przy lampce czy wymienić baterię w laptopie, to obecne najczęściej woli zapłacić fachowcowi, który &quot;oczywiście ma wszystkie wymagane certyfikaty i uprawnienia&quot; (czytaj: &quot;jak zrobić, żeby się nie narobić&quot;).</p>
+     
+<p>Nie twierdzę, że certyfikaty i uprawnienia oczywiście są niepotrzebne (i sam np. do wykonania i odbioru instalacji elektrycznej w domu wzywam elektryka z odpowiednią grupą SEP), ale nawet w dobie jednorazowej elektroniki wiele można i należy zrobić samemu.</p>
+     
+<p>Wracając do tematu - może przypadek CD Projekt to przykład &quot;nowoczesnego i dynamicznego zarządzania zaspołem&quot; albo &quot;młodego i dynamicznego zespołu&quot;? (wspomniane &quot;jak zrobić, żeby się nie narobić&quot;)</p>
+     
+<p>A o tym już <a href="?q=node/38900">kiedyś pisałem</a>...</p>
+     
+<p>A może to jest przykład tego, co widać również wśród starszych?</p><p>&quot;Biegłym sądowym może zostać osoba, która:</p>
+     
+<ul><li>korzysta z pełni praw cywilnych i obywatelskich;</li>
+     
+<li>ma ukończone 25 lat życia;</li>
+     
+<li>posiada teoretyczne i praktyczne wiadomości specjalne w danej gałęzi nauki, techniki, sztuki, rzemiosła, a także innej umiejętności dla której ma być ustanowiona;</li>
+     
+<li>daje rękojmię należytego wykonywania obowiązków biegłego;</li>
+     
+<li>wyrazi zgodę na ustanowienie jej biegłym&quot;</li></ul>
+     
+<p>Naiwnym jest twierdzenie, że państwo zapewni pełną ochronę. Im większy kapitał, tym więcej trzeba włożyć w dbanie o niego. Przepisy można różnie rozumieć, można równie interpretować. Skoro biegłym sądowym może zostać chyba w sumie każdy, to dlaczego każdy tak samo nie może zostać specjalistą od bezpieczeństwa?</p>
+     
+<p>Czy więc CD Projekt za mało dbał o swoje interesy? Za mało robił oddzielnych, potwierdzających swoje wyniki kontroli?</p>
+     
+<p>Najwyraźniej zbyt mało.</p>
+     
+<p>Czy tak, czy inaczej, świat cały czas idzie do przodu... i firmy, które wypuszczają takie niedoróbki jak Cyperpunk, mogące trzymać podobną &quot;jakość&quot; w wewnętrznej infrastrukturze, w końcu doczekują się zewnętrznego audytu, jakim jest &quot;atak złych hakierów&quot;.</p>
+     
+<p>Z jednej strony szkoda, z drugiej strony zawsze mówię, żeby nigdy, ale przenigdy, nie trzymać klucza pod wycieraczką i nie ignorować błędów i problemów. Po prostu - nie ułatwiajmy życia potencjalnych włamywaczom i aktualizujmy się, separujmy ważne dane, itd. itd. itd. Laptopa czy serwer można wymienić, a dorobek czy dobre imię często są zbyt bezcenne.&#160;&nbsp;</p>

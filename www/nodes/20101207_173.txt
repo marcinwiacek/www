@@ -1,0 +1,290 @@
+﻿Title:Samsung GT-E2370 - czy warto ? (2010)
+Author:marcin
+When:07 Dec 2010
+Taxonomy:Polski,benchmark.pl,GSM,Polski artykuł
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/Samsung_GT-E2370_-_czy_warto_.-3484.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p style="text-align: left;">Nokia kiedyś miała modele 5210, 5100, 5140 i 5140i, był nawet 5500 z Symbianem, Siemens miał serię M, Motorola będzie miała swoją Defy, a Samsung nieustannie wprowadza kolejne telefony z SOLID w nazwie. Łączy je jedno - według producentów znoszą warunki, w których "normalna" elektronika dawno przestałaby działać.</p>
+<p>Ostatnio miałem przyjemność bliżej zapoznać się z modelem GT-E2370 z serii SOLID. Czy warto go używać ?</p>
+<!--break-->
+
+<p><font size="+2">Porównanie</font></p>
+<p>Wpierw krótkie porównanie z innymi "braćmi" (m.in. na podstawie danych producenta z <a href="http://www.samsung.pl">www.samsung.pl</a>):</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td><strong> </strong></td>
+            <td><strong>B2100</strong></td>
+            <td><strong>B2700</strong></td>
+
+            <td><strong>B2710</strong></td>
+            <td><strong>E1130B</strong></td>
+            <td><strong>E2370<br />
+            </strong></td>
+        </tr>
+        <tr>
+            <td><strong>System</strong></td>
+
+            <td>GSM 850 / 900 / 1800 / 1900</td>
+            <td>GSM 850 / 900 / 1800 / 1900, UMTS 2100</td>
+            <td>GSM 850 / 900 / 1800 / 1900, UMTS 900 / 2100</td>
+            <td>GSM 900 / 1800</td>
+            <td><strong>GSM 900 / 1800<br />
+            </strong></td>
+
+        </tr>
+        <tr>
+            <td><strong>Wyświetlacz</strong></td>
+            <td>TFT 120x160, 1,77" 256tys.</td>
+            <td>TFT <span>176x220 1,9" 262tys.<br />
+            </span></td>
+            <td>TFT 240x320 2" 262tys.</td>
+
+            <td>TFT 128x128 1,52" 65tys.</td>
+            <td><strong>TFT 128x160 1,77" 65 tys.</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Łączność</strong></td>
+            <td>Bluetooth, USB</td>
+            <td>Bluetooth, USB</td>
+
+            <td>Bluetooth, USB</td>
+            <td>Bluetooth</td>
+            <td><strong>Bluetooth, USB</strong></td>
+        </tr>
+        <tr>
+            <td><strong>GPS</strong></td>
+            <td>nie</td>
+
+            <td>nie</td>
+            <td>tak</td>
+            <td>nie</td>
+            <td><strong>nie</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Radio FM</strong></td>
+
+            <td>z RDS</td>
+            <td>bez RDS</td>
+            <td>z RDS</td>
+            <td>bez RDS</td>
+            <td><strong>bez RDS</strong></td>
+        </tr>
+
+        <tr>
+            <td><strong>Wymiary</strong></td>
+            <td>113 x 48,9 x 17,4 mm</td>
+            <td><span>115,00 x 52,00 x 18,00 mm</span></td>
+            <td>120,7 x 53 x 16,3 mm</td>
+            <td>108 x 46 x 16,2 mm</td>
+
+            <td><strong>112 x 49 x 19 mm </strong></td>
+        </tr>
+        <tr>
+            <td><strong>Waga</strong></td>
+            <td>103 g</td>
+            <td>115 g</td>
+            <td>116 g</td>
+
+            <td>81 g</td>
+            <td><strong>115 g</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Bateria</strong></td>
+            <td>Li-Ion 1000 mAh</td>
+            <td>Li-Ion 1300 mAh</td>
+
+            <td>Li-Ion 1300 mAh</td>
+            <td>Li-Ion 1000 mAh</td>
+            <td><strong>Li-Ion 2000 mAh</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Czas rozmów/czuwania</strong></td>
+            <td>9 h / 600 h</td>
+
+            <td>8 h / 370 h</td>
+            <td>19 h / 600 h</td>
+            <td>10 h / 670 h</td>
+            <td><strong>22 h / 1600 h               </strong></td>
+        </tr>
+        <tr>
+            <td><strong>Aparat</strong></td>
+
+            <td>1,3 Mpix</td>
+            <td><span>1600 x 1200 i 640 x 480</span></td>
+            <td>1600 x 1200 (brak drugiej kamery, ale są wideo rozmowy)</td>
+            <td>brak</td>
+            <td><strong>640 x 480</strong></td>
+        </tr>
+
+        <tr>
+            <td><strong>Video</strong></td>
+            <td>tak</td>
+            <td><span>176 x 144</span></td>
+            <td>160 x 120</td>
+            <td>brak</td>
+
+            <td><strong>160 x 120<br />
+            </strong></td>
+        </tr>
+        <tr>
+            <td><strong>Przeglądarka</strong></td>
+            <td>tak</td>
+            <td>tak</td>
+
+            <td>Samsung Dolfin Browser v2.0</td>
+            <td>Samsung Mobile Browser v1.0 (Dolphin WebKit)</td>
+            <td><strong>Openwave 6.2.3.3               </strong></td>
+        </tr>
+        <tr>
+            <td><strong>Transmisja danych</strong></td>
+            <td>GPRS/EDGE (klasa 10, klasa B)</td>
+
+            <td>GPRS/EDGE (klasa 10, klasa B)</td>
+            <td>GPRS/EDGE (klasa 12, klasa B), HSDPA 3,6 Mbps</td>
+            <td>GPRS (klasa 10, klasa B)</td>
+            <td><strong>GPRS (klasa 10, klasa B) </strong></td>
+        </tr>
+        <tr>
+            <td><strong>Pamięć</strong></td>
+
+            <td>7 MB + karty 8 GB microSD</td>
+            <td>39 MB + karty 8 GB microSD</td>
+            <td>50 MB + karty 16 GB microSD</td>
+            <td>700 kB</td>
+            <td><strong>5 MB + karty 2 GB microSD<br />
+            </strong></td>
+
+        </tr>
+        <tr>
+            <td><strong>Odporność</strong></td>
+            <td>IP 57</td>
+            <td>IP 67</td>
+            <td>IP 67</td>
+            <td>IP 54</td>
+
+            <td><strong>IP 54</strong></td>
+        </tr>
+        <tr>
+            <td><strong>SAR</strong></td>
+            <td>0,716 W/kg</td>
+            <td>0,997  W/kg</td>
+            <td>0,665 W/kg</td>
+
+            <td>nieznany</td>
+            <td><strong>0,408  W/kg</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Cena (Skapiec)<br />
+            </strong></td>
+            <td>289 - 418 PLN</td>
+
+            <td>699 PLN</td>
+            <td>448 - 498 PLN</td>
+            <td>136-320 PLN</td>
+            <td><strong>248 - 355 PLN</strong></td>
+        </tr>
+    
+</table>
+<p><font size="+2">Sprzęt</font></p>
+
+<p><font size="+2"><img width="490" height="222" src="sites/default/files/173/3small.png" alt="" /></font></p>
+<p>O ile obecne kiedyś na rynku "wytrzymałe" telefony tak naprawdę nie spełniały oficjalnie żadnej normy, obecne są klasyfikowane np. z użyciem normy IP (Internal Protection). Podam <a href="http://pl.wikipedia.org/wiki/IP_%28stopie%C5%84_ochrony%29">niektóre jej wartości za Wikipedią</a>. I tak pierwsza cyfra mówi o ochronie przed ciałami stałymi:</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td>5</td>
+            <td><em>ochrona przed wnikaniem pyłu w ilościach nie zakłócających pracy urządzenia</em></td>
+        </tr>
+        <tr>
+
+            <td>6</td>
+            <td><em>całkowita ochrona przed wnikaniem pyłu</em></td>
+        </tr>
+    
+</table>
+<p>Druga z kolei określa odporność na wodę:</p>
+<table cellspacing="1" cellpadding="1" border="1">
+    
+        <tr>
+            <td>4</td>
+
+            <td><em>ochrona przed kroplami padającymi pod dowolnym kątem, ze wszystkich stron (deszcz)</em></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><em>ochrona przed zalaniem przy zanurzeniu na taką głębokość, aby dolna  powierzchnia obudowy znajdowała się 1 m pod powierzchnią wody, a górna  nie mniej niż 0,15 m w czasie 30 min</em></td>
+        </tr>
+    
+</table>
+
+<p>Testowany E2370 powinien spełniać IP54 (i tak pisze o tym Samsung w specyfikacjach na stronie www), ale w instrukcji obsługi (tej dołączonej i tej do pobrania z www) nie ma o tym słowa. Jest o tyle ciekawe, że w instrukcji do innego modelu (B2710) producent jasno określa pewne rzeczy:</p>
+<ul>
+    <li><strong><em>Odporność telefonu na pył i wodę w określonych warunkach została przetestowana w kontrolowanym środowisku (spełnione zostały wymagania klasyfikacji IP67, zdefiniowane w międzynarodowej normie IEC 60529 - Stopnie ochrony zapewnianej przez obudowy (Kod IP); warunki testowe: 15-35°C, 86-106 kPa, 1 metr, przez 30 minut). Pomimo takiej klasyfikacji telefon może ulec uszkodzeniu wskutek kontaktu z wodą.</em></strong></li>
+    <li><em>Niewłaściwe uszczelnienie otworów w obudowie telefonu, wystawianie na działanie pyłu i/lub nadmiernego ciśnienia może spowodować przedostanie się wody do wnętrza telefonu. Nie należy celowo zanurzać telefonu w wodzie, dopuszczać do jego kontaktu z wodą lub wystawiać go na działanie wilgoci.<br />
+    </em></li>
+    <li><em>Niewłaściwe zakrycie otworów w obudowie telefonu, wystawianie na działanie pyłu i/lub nadmiernego ciśnienia może spowodować wniknięcie pyłu do wnętrza telefonu. Nie należy wystawiać urządzenia na działanie pyłu i/lub piasku przez dłuższy okres.<br />
+    </em></li>
+    <li><em>Telefon jest złożonym urządzeniem elektronicznym. Należy chronić go przed wstrząsami oraz obchodzić się z nim ostrożnie, aby uniknąć poważnych uszkodzeń urządzenia. Uszkodzenie obudowy telefonu może prowadzić do zmniejszenia jego szczelności. Nie należy wkładać ostrych obiektów do otworów głośnika, mikrofonu lub słuchawki, ponieważ może to spowodować przebicie powierzchni ochronnej i umożliwić przedostanie się wody i pyłu.</em></li>
+
+</ul>
+<p>A tu ? Mamy jedynie standardową gwarancję z punktem:</p>
+<p><em>Gwarancją nie są objęte:<br />
+</em></p>
+<ul>
+    <li><em>mechaniczne uszkodzenia i wywołane nimi wady<br />
+    </em></li>
+    <li><em>uszkodzenia na skutek niewłaściwego, niezgodnego z instrukcją obsługi użytkowania i przechowywania produktu<br />
+    </em></li>
+
+    <li><em>uszkodzenia spowodowane przez czynniki zewnętrzne takie jak zalanie cieczą, zawilgocenie (np. przez opady atmosferyczne lub kondensację pary wilgotnej w zmiennych temperaturach), zbyt wysoka lub zbyt niska temperatura, wyładowania atmosferyczne, działanie czynników chemicznych a także innych będących poza kontrolą Gwaranta.<br />
+    </em></li>
+    <li><em>uszkodzeń wynikających z naturalnego zużycia takich jak: zarysowania, zabrudzenia, otarcia, wytarcia napisów, itp.</em></li>
+</ul>
+<p>Z jednej strony rozumiem, że firma musi się zabezpieczać i nie będzie przyjmować reklamacji np. po spuszczeniu telefonu z 10 piętra. Z drugiej przypomina to trochę bulwarowe terenówki (które ładnie wyglądają, ale do terenu w ogóle się nie nadają). Mamy bowiem wzmocnione urządzenie, ale jakby go w ogóle nie było... Niekorzystnego obrazu moim zdaniem dopełnia brak określenia twardości wyświetlacza (inny model B2710 ma ją podaną). Żeby jeszcze gdzieś był dostępny opis IP54 wg. Samsunga, wtedy przynajmniej reguły byłyby całkowicie jasne... A tak....</p>
+<p>Przyznam się, że w opisach takich "specjalnych" rozwiązań dodatkowo brakuje mi jeszcze zakresu temperatur, w których producent gwarantuje ich działanie. E2370 niestety nie jest tutaj wyjątkiem, a standardowe <em>Należy unikać wystawiania baterii na działanie bardzo niskich albo bardzo wysokich temperatur (poniżej 0 stopni C lub powyżej 45 stopni C) </em>mnie nie satysfakcjonuje.</p>
+<p><img width="490" height="221" src="sites/default/files/173/2small.png" alt="" /></p>
+<p>A jak wygląda sprawa rzeczywistych testów ? Tylna klapka nie jest przykręcana ani dodatkowo dociskana i odpada przy spadku z większej wysokości (np. 1,5 m).</p>
+
+<p><img width="490" height="491" src="sites/default/files/173/1small.png" alt="" /></p>
+<p>Podobnie pełnego zaufania nie budziło we mnie zabezpieczenie złącza. Trzeba o nim niestety również powiedzieć kilka słów. W nowych telefonach powszechnie używa się oddzielnych microUSB czy mini jack 3,5 mm. A tu ?</p>
+<p>Mamy rozwiązanie autorskie Samsunga czyli jedno niestandardowe złącze do ładowania, transmisji danych i słuchawek.  Dołączona jest wprawdzie ładowarka i zestaw słuchawkowy douszny (kabla  do połączenia z komputerem brak), ale niedosyt pozostaje... Przejściówki na mini jacka 3,5 mm (dostępne oddzielnie) sprawy zdecydowanie nie rozwiązują...</p>
+<p>Z uwagi na klasę odporności (i konieczność zwrócenia całości) nie zdecydowałem się np. na zanurzanie w wodzie czy rysowanie gwoździem (żeby tego nie zabrakło w tej miniRecenzji, podaję link do recenzji z tymi elementami na <a href="http://smartmobile.pl/recenzja-samsung-solid-e2370">SmartMobile.pl</a>).</p>
+<p>Czego mi było mocno brak ? Brak klawiszy do regulacji głośności z boku (zmiana jej klawiszami funkcyjnymi jest jednak czasami mocno niewygodna).</p>
+<p>Co mi się spodobało ? Dioda LED pełniąca rolę latarki (włączana klawiszem z boku).</p>
+<p><font size="+2">Oprogramowanie</font></p>
+<p>Na początek kilka kodów działających w "moim" telefonie:</p>
+
+<p>*#7465625# - informacje o blokadach<br />
+*#06# - IMEI<br />
+*#0228# - informacje o baterii<br />
+*#1111# - wersja oprogramowania (u mnie E2370.03)<br />
+*#1234# - wersja urządzenia (u mnie E2370XXJF4, CSC:E2370OXAJF5)<br />
+*#2222# - wersja sprzętowa (u mnie 0.2)<br />
+*#92782# - model telefonu w przeglądarce WAP<br />
+*#232337# - adres Bluetooth</p>
+<p>Po włożeniu karty SIM POP zostały zaproponowane m.in. ustawienia MMS. Wszystko działało bez zarzutu... Z kolei z kartą MBank nie poszło już tak dobrze i zaproponowano mi ustawienia Plusa (MBank korzysta z infrastruktury tego operatora, ale wolałbym mieć to, co podaje u siebie na stronie). Podobnie po kilku przełożeniach kart z kartą POP zaproponowano mi ustawienia Plusa :) Dodatkowym "drogiazgiem" jest to, że czas zeruje się od razu po wyciągnięciu baterii i niemożliwe jest jego <span>automatyczne </span><span>pobieranie z sieci komórkowej...<br />
+
+</span></p>
+<p>Na ekranie czuwania natomiast możliwe jest pokazanie jednego zegarka, dwóch zegarków albo zegarka i kalendarza. Zamiast tego może się tam pojawić siatka ikon z funkcjami. Do tego każdemu z czterech klawiszy funkcyjnych można przypisać jedną z wielu opcji. Ot takie namiastki funkcji znanych ze smartphonów.</p>
+<p>W menu mamy dosyć standardowe funkcje związane z połączeniami, książką telefoniczną, odtwarzaczem MP3, przeglądarką WAP, wiadomościami, systemem plików, dodatkowymi aplikacjami, aparatem fotograficznym i ustawieniami.</p>
+<p>Urządzenie może przechować w swojej pamięci 1000 kontaktów, 300 wiadomości i 400 wpisów kalendarza. W menu jest opcja wyboru domyślnej pamięci np. dla wiadomości - po wybraniu karty pamięci nie pojawiają się na niej żadne pliki (co jest o tyle ciekawe, że po zmianie karty SIM i wyjęciu karty pamięci wiadomości są widoczne ;)). Być może jest w tym jakaś logika - ja jej jednak do końca nie zrozumiałem :(</p>
+<p>Aplikacje to tutaj Bluetooth, radio FM, alarm, kalendarz, aplikacje Java (standardowo dostępne jest 7 gier), dyktafon, notatki, funkcja pokazująca czas w wybranych miastach, kalkulator, przelicznik miar, stoper, funkcja odliczania czasu i latarka.</p>
+<p>Odtwarzacz MP3 nie ma żadnych funkcji polepszania dźwięku (żadnego equalizera, itp.). Nie można wyjść z niego bez przerwania odtwarzania muzyki. Z drugiej strony - jeżeli telefon automatycznie zablokuje klawiaturę po określonym czasie (jest taka opcja), to dźwięk będzie dalej odwarzany, ale też będą działać funkcje zmiany głośności.</p>
+<p>Obsługiwane są formaty MP3, AMR (w nagraniach głosowych), AAC+, WMA  oraz H.263, MPEG4, ASF, WMV. Kontakty/wpisy kalendarza i inne dane są  przesyłane jako załączniki w MMS - całość działała całkiem dobrze przy  przesyłaniu do/z telefonu z Androidem 2.2 (Eclair). Należy jedynie  pamiętać, aby w testowanym Samsungu wejść do otrzymanej wiadomości,  wyświetlić załączniki, wejść w nie i dopiero wtedy można zobaczyć opcje  importu (telefon nie pokazuje od razu informacji typu "Otrzymano wpis  kalendarza..."). Z kolei wpis książki telefonicznej wysłany SMSem z  Nokii już nie został rozpoznany...</p>
+<p>Załączam również kilka przykładowych fotografii - z uwagi na niską rozdzielczość aparat jest tu bardziej ciekawostką (zdjęcia robione wieczorem w pomieszczeniu, widoki są pobrane z kalendarzy ściennych). Telefon ma nawet opcję drukowania przez Bluetooth !</p>
+<p><img width="490" height="368" alt="" src="sites/default/files/173/zdjecie-0001.jpg" /></p>
+<p><img width="490" height="368" alt="" src="sites/default/files/173/zdjecie-0002.jpg" /></p>
+
+<p><img width="490" height="368" alt="" src="sites/default/files/173/zdjecie-0005.jpg" /></p>
+<p><img width="490" height="368" src="sites/default/files/173/zdjecie-0006.jpg" alt="" /></p>
+<p>Dostępne jest kilka profili - dosyć bogate są funkcje sygnalizacji połączeń przychodzących (mamy dużo kombinacji typów dzwonienia i wibracji - np. "wibracja, potem melodia", "Narastająca melodia", itd.) i wiadomości przychodzących. Niestety minusem jest dostępność jedynie 4 sygnałów wiadomości, na plus należy zaliczyć szybkie wyciszenie/włączenie dźwięku (ustawienie odpowiednio profilu cichego i normalnego) przez dłuższe przytrzymanie #.</p>
+<p>Jeżeli chodzi o bezpieczeństwo, brak jest blokady klawiatury z kodem (urządzenie pozwala jedynie na wpisanie dodatkowego kodu zabezpieczającego, który trzeba podać przy jego uruchomieniu).</p>
+<p>Pewnym plusem jest funkcja Mobile Tracker pozwalająca na automatyczne wysłanie wiadomości SMS z podaną treścią (i dodatkowo IMEI telefonu) pod podany numer (lub nawet dwa) po zmianie karty SIM. Trzeba pamiętać o jednej rzeczy - karta SIM musi mieć włączoną opcję wysyłania SMS (czyli np. dodatnie saldo konta w prepaidze).</p>
+<p>Mamy też wiadomość alarmową - po jej ustawieniu wystarczy cztery razy naciśnąć jeden z klawiszy, aby została wysłana do podanych odbiorców. Podobnie cztery razy naciskamy jeden z klawiszy, aby zasymulować połączenie przychodzące (funkcja fałszywe połączenie).</p>
+<p><font size="+2">Podsumowanie</font></p>
+<p>Ponawiam tytułowe pytanie - czy warto polecić opisywane urządzenie ?</p>
+<p>Jego mocną stroną jest bateria (jest większa nawet niż we "flagowym" Galaxy S) - np. zostawienie odtwarzacza MP3 na cały dzień i później kilkugodzinne zabawy z różnymi funkcjami to jedynie zużycie 20%. Poza tym telefon ma kilka niedomagań, ale nie wyróżnia się niczym niesamowitym na plus/minus (no może poza latarką, która jest jednak miłym dodatkiem) i będzie  po prostu dobrze spełniać swoją rolę. Jedyne warunki - nie możemy mieć zbyt dużych wymagań i musimy zaakceptować chwilowe zamyślenia, brak różnych funkcji znanych chociażby z obecnych smartfonów (to nie ta klasa) czy malutki wyświetlicz.</p>
+<p>Pewne mocne wątpliwości budzi natomiast jego wytrzymałość.</p>
+
+<p>Z tego względu - jeżeli decydowałbym się na coś wzmacnianego, odłożyłbym jednak dodatkowe 200 PLN i kupił B2710 (który ma gorszą baterię i złącze Samsunga, ale dodatkowo GPS, UTMS i kilka innych funkcji). Albo w ogóle skusiłbym się na zakup Motoroli Defy (inna półka cenowa, ale jest z Androidem). Bądź co bądź oba mają "pewne" IP67, a E2370 tylko IP54.</p>

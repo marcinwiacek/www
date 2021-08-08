@@ -1,0 +1,22 @@
+﻿Title:Report 2006-06-18
+Author:marcin
+When:19 Jun 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Well, this report will be rather personal. I write it here, because it's connected with development too...</p>
+<ul><li>studies: I'm waiting for 2 results, 2 things to write (and pass)
+</li><li>work: I should (or rather: I have to) go somewhere to practise. I had company, but this is probably not actual. So, I don't have any job place for now. I will have to search again for it.
+<!--break-->
+</li><li>my private life: I have lost bicycle. Stolen.
+</li><li>my mood: <b>medium.</b> My private plans have to be suspended, because my situation is not stable. No 64 bit CPU, etc. etc.
+</li><li>Gammu development:
+<ul><li>reading SMS done for Series 40 3.0 (see Gammu 1.07.07), I still don't understand some details (+ don't know, how to handle SIM), but even now it works quite good. There can be problems with current Gammu and these phones - you can have unlimited number of SMS files in each SMS folder AND SMS are identified by file names.
+</li><li>adding SMS for Series 40 3.0. I'm not sure, when will be done and how will work (differently - if there won't be problems with creating files, it will be done fast; if there will be, slower)
+</li><li>reading MMS for Series 40 3.0 will be done soon - easy coder work
+</li><li>planned ending gnapplet support soon
+</li></ul></li><li>Gammu+ development: I planned SMSD, but probably it will go for further plan and my diploma solution will work with Gammu SMSD now (but please note, that I need Gammu+ SMSD during half of year and it have to be done during this time)
+</li><li>Gammu.org:
+<ul><li>I have played "a little" with phones database PHP application. I don't know, what should I do now. After fixing few things it will be quite complete. <b><u>But should I allow to putting texts from Service Bulletins ?</u></b> Nokia seems not to take care about it, but from the second hand - there is always possibility, that [[Phone_database|notes here]] will be not enough, livenet.pl will close gammu.org and I will have to search new place for server then. Maybe world doesn't need it and firmware versions will be enough...
+</li><li>gmane admins seems to have problems and don't answer on my emails. I have tried cleaning mess with archives there and there is bigger than it was... what should I do ?
+</li></ul></li></ul>

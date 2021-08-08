@@ -1,0 +1,106 @@
+﻿Title:Ridero - jak za rozsądne pieniądze opublikować i/lub wydrukować książkę (2019)
+Author:marcin
+When:8 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,książka 4,PDF,EPUB
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Ridero-jak-za-rozsadne-pieniadze-wydrukowac-ksiazke,104642.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Stało się - zebrałem się w sobie i przygotowałem porządnie zredagowaną wersję swoich publikowanych i pisanych częściowo do szuflady wierszy, a przy okazji poznałem Ridero (o którym będzie ten wpis).</p>
+<!--break-->
+
+<p><center><img src="sites/default/files/370/gdynawaspatrze.png" style="width:265px;height:405px;" alt="image" title="image" /></center>
+
+<p>Od razu mówię, że będę ignorował komentarze o kryptoreklamie - nikt nikogo nie zmusza do czytania + zależy mi na opisaniu co ta usługa potrafi, a trudno to zrobić bez pokazania zaplecza.</p>
+
+<p>Od czego by tu zacząć?</p>
+
+<p>Każdy (szczególnie początkujący) autor staje przed dylematem związanym z przygotowaniem wersji drukowanej swojego dzieła. Możliwości jest kilka:</p>
+
+<ol>
+
+<li>wykorzystanie drukarki (np. Ecotank Epsona) i zrobienie wszystkiego na własną rękę<br/></li>
+
+<li>zrobienie korekty i składu na swoją rękę i wysłanie PDFów do którejś z drukarni</li>
+
+<li>podpisanie umowy z jednym z wydawnictw, które deklarują pomoc w zamian za partycypowanie w kosztach<br/></li>
+
+<li>podpisanie umowy z jednym z wydawnictw, które biorą na siebie koszty i ryzyko niepowodzenia projektu</li>
+</ol>
+
+<p>W pierwszym wypadku trudno mówić o dużych nakładach, dodatkowo może się skończyć na bindowaniu (produkt będzie znacznie różnił się od typowych książek).</p>
+
+<p>Opcja druga jest lepsza, ale koszty bywają znaczne (drukarnie chociażby ze względów technologicznych zazwyczaj są zorientowane na większy nakład i jeśli chcemy mieć rozsądną cenę, to...).</p>
+
+<p>Trójka to często tzw. vanity - publikacja często zrobiona jest niezbyt profesjonalnie i za duże pieniądze, a autor pomimo deklaracji w praktyce pokrywa całość (myślę, że <a href="https://pl.wikipedia.org/wiki/Samopublikowanie#Vanity_publishing" target="_blank" rel="noopener" rel="nofollow">Wikipedia całkiem nieźle opisuje perypetie z tym związane</a>, dosyć ciekawy był również <a href="https://www.fantastyka.pl/hydepark/pokaz/15488" target="_blank" rel="noopener" rel="nofollow">wątek na fantastyka.pl</a>).</p>
+
+<p>Jest też opcja najlepsza czyli ostatnia, ale ta zdarza się zazwyczaj wtedy, gdy mamy już ugruntowaną pozycję na rynku.</p>
+
+<p>W moim wypadku zrobiłem małe poszukiwania i tym razem zdecydowałem się spróbować zrobić całość z ridero.pl.</p>
+
+<p>Strona pozwala na wydruk własnych plików (PDF) oraz...
+
+<p><center><img src="sites/default/files/371/ridero10.jpg" style="width:607px;height:405px;" alt="image" title="image" /></center>
+
+<p>W moim wypadku skład i korektę mogłem zrobić na własną rękę (poezja ma to do siebie, że czasem nie trzeba się ściśle trzymać jakichś zasad i możemy zrobić wszystko tak jak chcemy).</p>
+
+<p>Mój projekt był na tyle mały, że zainteresował mnie tzw. druk na żądanie (książka jest drukowana po zakupieniu przez klienta i ja jako autor nie muszę do tego dopłacać) i druk z różnymi opcjami od czterech kopii do użytku własnego.</p>
+
+<p><center><img src="sites/default/files/371/ridero9.jpg" style="width:593px;height:405px;" alt="image" title="image" /></center>
+
+<p>Serwis nadaje również numer ISBN (usługa ta jest niezależna od wydawnictw i bezpłatna, natomiast jeśli numer jest nadawany przez wydawnictwo, to może to być wygodne dla osób piszących pod pseudonimem) i udostępnia dystrybucję książki i ebooka przez virtualo.pl.</p>
+
+<p>Po utworzeniu projektu i załadowaniu pliku Worda do edytora online okazało się, że wspierana jest kursywa, pogrubienie, kilka innych funkcji... i tylko tyle.</p>
+
+<p><center><img src="sites/default/files/371/ridero4.png" style="width:530px;height:405px;" alt="image" title="image" /></center>
+
+<p>Nie ma tu np. pozycjonowania, a cała edycja w Ridero opiera się na stylach - każdy wiersz tekstu przypisujemy do innego stylu.&#160;</p>
+
+<p>Przyznam się szczerze, że sprawiało mi to trochę problemów - początkowo chciałem wycentrować wszystko w pionie (pomimo pomocy supportu w praktyce okazało się to niemożliwe) i ostatecznie zdecydowałem się na używanie stylu &quot;wiersz&quot; naprzemiennie ze stylem &quot;Zwykły tekst&quot;, &quot;Rozdział&quot; i &quot;Data/podpis&quot;.</p>
+
+<p><center><img src="sites/default/files/371/ridero7.jpg" style="width:530px;height:405px;" alt="image" title="image" /></center>
+
+<p>Ostateczny wygląd tekstu zależy od styli wybranych dla każdej linii, a układ stron od &quot;szablonu tekstu&quot;.</p>
+
+<p>Ten ostatni definiuje czy treść w książce ma wyglądać bardziej jak proza czy poezja, bardziej nowocześnie czy konserwatywnie, czy jest przeznaczona dla młodego autora czy nie - zdefiniowana jest czcionka (jedna z kilku zaproponowanych, nie ma własnych), jej wielkość, miejsce na numer strony i to, czy chcemy tytuł książki/autora na górze albo na dole.</p>
+
+<p>W większości wypadków edytor mi wszystko ładnie podzielił - w kilku miejscach musiałem dodać jakiś dodatkowy wers tekstu, w kilku musiałem poprosić support o wstawienie znaku przejścia do nowej linii (nie widać ich w edytorze i opcja ta nie jest dostępna dla użytkownika).</p>
+
+<p>Co do okładki, to proponowane są szablony (wybieramy predefiniowany układ i możemy np. dodać własny obrazek), support wskazał mi również na możliwość załadowania przygotowanego przeze mnie pliku PDF (wtedy mamy własny wygląd przodu, boku i tyłu książki).</p>
+
+<p><center><img src="sites/default/files/371/ridero5.jpg" style="width:530px;height:405px;" alt="image" title="image" /></center>
+
+<p>Całość możemy obejrzeć na podglądzie.</p>
+
+<p><center><img src="sites/default/files/371/ridero6.jpg" style="width:530px;height:405px;" alt="image" title="image" /></center>
+
+<p>I to właściwie tyle - po edycji musiałem tylko wybrać opcję publikacji, podać opisy książki, potwierdzić kwoty sprzedaży i zgodę na rozpowszechnianie.</p>
+
+<p><i>Mission complete.</i></p>
+
+<p><center><img src="sites/default/files/371/ridero1.jpg" style="width:505px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/371/ridero2.jpg" style="width:505px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/371/ridero3.png" style="width:505px;height:405px;" alt="image" title="image" /></center>
+
+<p>Usługa Ridero jest kompleksowa i wydaje się być częściowo nakierowana na początkującego/nietechniczego użytkownika (zapewne stąd nie ma tutaj różnych styli, opcji, itp.). System prowadzi za rączkę i zmniejsza ilość niepotrzebnego &quot;szumu&quot; powodując, że możemy skupić się na treści.</p>
+
+<p>Spodobało mi się nadawanie numeru ISBN, jak również wysyłanie egzemplarzy obowiązkowych do bibliotek (pomimo wyjaśnień supportu nie do końca rozumiem zasady, ale wynika z nich, że jest to realizowane w wersji drukowanej LUB elektronicznej), dostępność jednego egzemplarza autorskiego (wysyłany w koszcie wysyłki) i dostępność formatu EPUB i PDF za darmo (dla autora).
+
+<p>W tym serwisie to twórca decyduje za ile książki mają być udostępniane i w jakiej formie, dodatkowo (cytuję za <a href=https://ridero.eu/pl/faq/?p=118>https://ridero.eu/pl/faq/?p=118</a>):
+
+<p><i>"Warto dodać, że w odróżnieniu od większości wydawnictw, Ridero nie żąda od autora zbycia majątkowych praw autorskich. Prawa te zawsze pozostają przy autorze. Co najwyżej, przy zleceniu niektórych usług (tj. pośrednictwa w sprzedaży książek/e-booków w sklepach internetowych) autor może zostać poproszony o udzielenie wąskiej licencji na rzecz Ridero, niezbędnej do wykonania usługi. Również w tym przypadku, majątkowe prawa autorskie pozostają przy autorze"</i>
+
+<p>Niektórzy mogą być zawiedzeni brakiem zaawansowanych opcji edytorskich i tym, że &quot;druk na żądanie&quot; dotyczy wyłącznie formatu A5 z papierem offsetowym i miękką okładką (w normalnym zamówienia nie ma oczywiście tego ograniczenia), jak również nadaniem jednego ISBN wersji drukowanej i elektronicznej.</p>
+
+<p>Taki serwis na pewno uzupełnia ogromną lukę na rynku - wielu ludzi i wiele firm potrzebuje niewielkich nakładów np. do użytku własnego albo łatwego generatora plików elektronicznych i Ridero sprawdza się tu idealnie (istnieje ryzyko rozplenienia się grafomanii, ale... to jest zawsze).</p>
+
+<p>Ceny wydają się być dosyć rozsądne jak na wybrane opcje i tak naprawdę zależą od tego czy zamawiamy książkę detalicznie czy hurtowo (na upartego można np. wydrukować sobie tysiąc egzemplarzy i rozprowadzać je na własną rękę). Nie do końca wprawdzie jestem przekonany jak to się ma do każdej konkurencji (myślę o Amazonie), ale może za jakiś czas uda mi się zrobić porównanie (na chwilę obecną stwierdzam, że tu nie ma cudów i proszę nie oczekiwać, że wydruk jednego egzemplarza będzie kosztował 2 PLN)</p>
+
+<p>PS. Na dzień dzisiejszy z Ridero korzystają <a href="https://wolnelektury.pl/" target="_blank" rel="noopener" rel="nofollow">Wolne lektury</a>.</p>
+
+<p><center><img src="sites/default/files/371/ridero11.jpg" style="width:608px;height:404px;" alt="image" title="image" /></center>
+
+<p>Ja ze swojej strony szczególne dziękuję pani Joannie z supportu, która miała anielską cierpliwość.&#160;&nbsp;</p>
+
+<p>PS2. Inny opis z innego portalu - <a href="https://www.spidersweb.pl/2017/02/ridero-opinie.html" target="_blank" rel="noopener" rel="nofollow">https://www.spidersweb.pl/2017/02/ridero-opinie.html</a>&nbsp;</p>

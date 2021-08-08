@@ -1,0 +1,25 @@
+﻿Title:Jedyne.... (2)
+Author:marcin
+When:09 Mar 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Jedyne co mam to marzenie<br />
+i upadki, wzloty, szczęścia tchnienie<br />
+i emocje, instynktu działanie<br />
+i ryzyka kalkulowanie</p>
+<p>i rozkoszne czasem zmęczenia<br />
+i chwile dłuższego wytchnienia<br />
+i humorek co często gości<br />
+i łatanie rzeczywistości</p>
+<p>i niezależności cenienie<br />
+i podświadomości walczenie<br />
+i muskułów pokazywanie<br />
+i słabostek przezwyciężanie</p>
+<p>i wybaczenie za złe rzeczy<br />
+i coś czemu wielu nie przeczy<br />
+i czasami też skrupulatność<br />
+i do spożycia wciąż przydatność</p>
+<p>i jak żyć ?</p>
+<!--break-->

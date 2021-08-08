@@ -1,0 +1,27 @@
+﻿Title:Życie
+Author:marcin
+When:14 Jun 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wielu walczy ciągle ze sobą,<br />
+próbując być wciąż lepszą osobą,</p>
+<p>choć to podróżnicy przez życie,<br />
+marzący ciągle mocno skrycie,<br />
+napędzani wciąż działaniami,<br />
+popychani ciągle uczuciami,<br />
+z góry zaprogramowani,<br />
+na ziemi swojej przytrzymani,</p>
+<p>gdzie jedni drugich wciąż pilnują,<br />
+wielu rzeczy zaś nie pojmują,<br />
+mówiąc wciąż mantry o rozwoju,<br />
+lecz taplają często w gnoju,<br />
+niszcząc to co jest najważniejsze,<br />
+myśląc, że korale są większe,</p>
+<!--break-->
+<p>zamiast ciągle wspólnie budować,<br />
+losu swego nie komplikować,<br />
+ciesząc się swą mocą tworzenia,<br />
+darami swoimi od urodzenia,</p>
+<p>i jak żyć ?</p>

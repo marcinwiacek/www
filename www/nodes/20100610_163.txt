@@ -1,0 +1,308 @@
+﻿Title:iBOX Wee - z czym do ludzi ? (2010)
+Author:marcin
+When:10 Jun 2010
+Taxonomy:Polski,benchmark.pl,Polski artykuł
+
+<p style="text-align: justify;"><a name="gora"></a>Najtańszy iPod kosztuje minimalnie 187 PLN&nbsp;(cena ze Skąpca, iPod Shuffle 2GB), zaś najtańszy odtwarzacz Creative od 155 PLN&nbsp;(cena ze Skąpca, Creative Zen V Plus). Jest też wiele produktów innych firm.</p>
+<p style="text-align: justify;">Czym na ich tle wyróżnia się na plus i na minus iBOX&nbsp;Wee ? (najniższa cena na Skąpcu to 83 PLN)</p>
+<p style="text-align: justify;">Postaram się to opisać oceniając poszczególne elementy w skali 1-5.</p>
+<!--teaser-->
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/mini-recenzje/iBOX_Wee_-_z_czym_do_ludzi_.-2988.html>opublikowany w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><table style="border-collapse:separate;" cellspacing="0" cellpadding="2" border="0" align="right">    <tbody><tr><td>&nbsp;</td><td bgcolor="#e6eaee"><strong>Spis treści</strong></td></tr><tr><td>&nbsp;</td><td bgcolor="#f0f4f9"><ol>                <li><a href="#1">Marketing</a></li>                <li><a href="#2">Zawartość zestawu</a></li>                <li><a href="#3">Energia</a></li>                <li><a href="#4">Dysk</a></li>                <li><a href="#5">Muzyka</a></li>                <li><a href="#6">Wideo</a></li>                <li><a href="#7">Radio FM</a></li>                <li><a href="#8">Zdjęcia</a></li>                <li><a href="#9">Tekst</a></li>                <li><a href="#10">Nagrywanie</a></li>                <li><a href="#11">Przeglądarka</a></li>                <li><a href="#12">Podsumowanie</a></li>            </ol>            </td>        </tr>    </tbody></table>
+
+<p style="text-align: justify;"><a name="gora"></a>Najtańszy iPod kosztuje minimalnie 187 PLN&nbsp;(cena ze Skąpca, iPod Shuffle 2GB), zaś najtańszy odtwarzacz Creative od 155 PLN&nbsp;(cena ze Skąpca, Creative Zen V Plus). Jest też wiele produktów innych firm.</p>
+<p style="text-align: justify;">Czym na ich tle wyróżnia się na plus i na minus iBOX&nbsp;Wee ? (najniższa cena na Skąpcu to 83 PLN)</p>
+<p style="text-align: justify;">Postaram się to opisać oceniając poszczególne elementy w skali 1-5.</p>
+
+<p><a name="1"></a><strong>Marketing</strong></p>
+<p style="text-align: justify;">Na początek dane producenta. Wpierw podaję je z <a href="http://www.ibox.pl">jego polskiej strony WWW</a> (<a href="http://www.ibox.eu">strona europejska</a> jest jedynie przekierowaniem do nich)</p>
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>Kod Producenta</td>
+            <td>IMP32GB3535</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Wbudowana pamięć</td>
+            <td bgcolor="#f2f2f2">2 GB</td>
+        </tr>
+        <tr>
+            <td>Typ   wbudowanej pamięci</td>
+            <td>Flash</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Akceptowalna   pamięć zewnętrzna</td>
+            <td bgcolor="#f2f2f2">Brak</td>
+        </tr>
+        <tr>
+            <td>Obsługiwane   formaty</td>
+            <td>MP3, WAV, WMA, APE, FLAC,   MPEG-4(AVI), JPG, BMP</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Odtwarzanie   VIDEO</td>
+            <td bgcolor="#f2f2f2">Tak</td>
+        </tr>
+        <tr>
+            <td>Wyświetlacz</td>
+            <td>Tak</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Wyświetlacz   (rozmiar)</td>
+            <td bgcolor="#f2f2f2">1,72&quot; CSTN</td>
+        </tr>
+        <tr>
+            <td>Wbudowane   radio</td>
+            <td>Tak</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Możliwość   nagrywania</td>
+            <td bgcolor="#f2f2f2">Wbudowany mikrofon i z radia</td>
+        </tr>
+        <tr>
+            <td>Interfejs</td>
+            <td>USB 2,0 (na kablu)</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Pilot</td>
+            <td bgcolor="#f2f2f2">Nie</td>
+        </tr>
+        <tr>
+            <td>Słuchawki</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Zasilanie</td>
+            <td bgcolor="#f2f2f2">POPRZEZ PORT USB LUB ŁADOWARKĘ   USB</td>
+        </tr>
+        <tr>
+            <td>Maks.   czas pracy z baterii (odtwarzanie muzyki)</td>
+            <td>11 h</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Waga</td>
+            <td bgcolor="#f2f2f2">50 g</td>
+        </tr>
+        <tr>
+            <td>Kolor</td>
+            <td>CZARNY</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">Dodatkowe   wyposażenie</td>
+            <td bgcolor="#f2f2f2">ODTWARZACZ MP4, SŁUCHAWKI, KABEL   USB, KARTA GWARANCYJNA, PODRĘCZNIK UŻYTKOWANIA</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Na opakowaniu jej kilka drobnych różnic. Mozna tam bowiem przeczytać o:</p>
+<p><img width="200" height="217" align="right" alt="" src="sites/default/files/163/wee400.png" /></p>
+<ul>
+    <li style="text-align: justify;">wbudowanym akumulatorze Li-ion</li>
+    <li style="text-align: justify;">braku potrzeby instalowania sterowników poza Windows 98 SE</li>
+    <li style="text-align: justify;">wsparciu dla WIN98SE/ME, WIN2000, WIN XP</li>
+    <li style="text-align: justify;">7 trybach equalizera</li>
+    <li style="text-align: justify;">funkcji powtórzeń A-B</li>
+    <li style="text-align: justify;">wspieraniu efektów PlayFX</li>
+    <li style="text-align: justify;">funkcji książek elektronicznych (dokładnie jest opisane po angielsku: &quot;E-book Function&quot;)</li>
+    <li style="text-align: justify;">wspieraniu wielu języków i aktualizacji firmware</li>
+    <li style="text-align: justify;">dostępności 65 tysięcy kolorów</li>
+</ul>
+<p style="text-align: justify;">Moja ocena: 4 (zabrakło mi tutaj bowiem informacji chociażby o pojemności akumulatora i prądzie ładowania)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="2"></a><strong>Zawartość zestawu</strong></p>
+<p style="text-align: justify;"><img width="174" height="309" align="left" src="sites/default/files/163/wee2.png" alt="" />Opakowanie jest estetyczne. Zawartość z grubsza zgadza się z opisem - znalazłem słuchawki douszne (bez pilota i mikrofonu), płytę CD (w małym formacie - na niej sterownik wymagany do zmiany firmware i program konwertujący, o którym piszę dalej), gwarancję, instrukcję, kabel mini-USB i urządzenie.</p>
+<p style="text-align: justify;">Instrukcja jest po polsku i angielsku. Chociaż zas<img width="202" height="357" align="right" src="sites/default/files/163/wee1.png" alt="" />adniczo rzadko zwracam na podobne rzeczy, w tym wypadku muszę napisać, iż jest ona dosyć skrótowa, czarno-biała i z widocznymi niedoróbkami (np. brak liter), nie ma jej również na stronie www. Nie tworzy to zbyt dobrego pierwszego wrażenia... Brak w niej wspomnianej informacji o prądzie ładowania. Dziwne jest dla mnie to, iż producent pisze w niej o wspieraniu &quot;ID3 TAG&nbsp;(tytuł, artysta oraz tekst)&quot;, z kolei brak słowa o tym w innych miejscach (bądź co bądź może to wpłynąć na decyzję o wybraniu lub nie tego odtwarzacza).</p>
+<p style="text-align: justify;">Urządzenie z przodu zostało zabezpieczone folią ochronną (zakryty został nią ekran i 5 przycisków), z boku jest malutki sticker z napisem WARRANTY (gwarancja) i złącze mini-USB (żal, że nie micro-USB, który to staje się standardem w komórkach i nie tylko), z drugiej strony z boku mamy wtyk jack 3,5 mm, z tyłu jest numer seryjny i mały otwór do resetu. Całość jest czarna i błyszcząca (od razu widać niestety ślady palców i obudowa zachowuje się jak lusterko). Przyciski są twarde i mają wyraźny skok, brak jest jakichkolwiek śrubek ale i zaślepek (trzeba więc mocno uważać na wodę, piasek, itp.), akumulator jest umieszczony w środku i użytkownik nie może go samodzielnie zmieniać. Wymiary to 80 mm x 41 mm x 8 mm.</p>
+<p style="text-align: justify;">Firmware jest w wersji 03.00.0002 (27 stycznia 2010), na stronie www brak było aktualizacji, dostępne języki to polski (wybrany przeze mnie), angielski i francuski. Blokada klawiatury dostępna jest poprzez dłuższe przytrzymanie razem klawiszy Play i M (brak o tym słowa w instrukcji), razi też niekonsekwencja w położeniu wskaźnika poziomu baterii (w menu głównym nie ma, w ekranach związanych z różnymi funkcjami na dole lub górze).</p>
+<p style="text-align: justify;">Moja ocena: 4 (odejmuję punkt głównie za instrukcję i niewymienność akumulatora)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="3"></a><strong>Energia</strong></p>
+<p style="text-align: justify;"><img width="130" vspace="5" hspace="5" height="164" align="right" alt="" src="sites/default/files/163/wee_batt.png" />Jak już napisałem, brak jest informacji o prądzie ładowania. USB 2.0 według specyfikacji daje maksymalnie 0,5 A, czy ładowanie popularnymi ładowarkami z prądem 1 A spowoduje jakieś uszkodzenia ? Nie wiadomo... Instrukcja jedynie ostrzega przed podłączaniem do zasilania na ponad 8 h.</p>
+<p style="text-align: justify;">Po dołączeniu Wee kablem do komputera mamy w nim  widoczny dodatkowy dysk (odtwarzacz działa w trybie pamięci  masowej, nie można wtedy zrobić nic w jego menu). W&nbsp;instrukcji jest informacja, iż ładowanie się rozpocznie, gdy z niego wyjdziemy (nie podaje jak). Niestety próby wykonania tego spełzły na niczym - po prostu żaden klawisz na to nie pozwalał... Dodatkowo - instrukcja swoje, a życie swoje (odtwarzacz był ładowany w tym trybie). <strong>I co najważniejsze - wyświetlany jest wtedy obrazek jak poniżej (komputer) i nie ma żadnej sygnalizacji, czy bateria jest już naładowana w całości...</strong></p>
+<p style="text-align: justify;">Podświetlenie może działać cały czas albo się wyłączać (zwłoka 5 - 30 sekund), jasność ekranu ma 5 poziomów (przy niskich nie widać totalnie nic w słońcu, domyślna to 4, ponieważ nie ma czujnika, więc sobie ustawiłem najwyższą możliwą), tryb podświetlenia jest normalny lub oszczędny (nie zauważyłem różnic). O dziwo nie jest najgorzej z kolorami (są żywe i ładne) i pikselami (gorszy wyświetlacz był już np. w Nokii 3510i). Ciekawostką jest, że pomimo wyłączenia ustawienia opcji automatycznego wyłączenia urządzenie jednak przestawało działać po pewnym czasie (o ile oczywiście nic nie odtwarzamy)...</p>
+<p style="text-align: justify;">Podaję kilka czasów (działanie polegało na odtwarzaniu muzyki non-stop z maksymalną jasnością wyświetlacza i stale włączonym podświetleniem w trybie normalnym)</p>
+<table cellspacing="1" cellpadding="1" border="0" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td bgcolor="#f2f2f2"><b>Pełne naładowanie akumulatora<br />
+            </b></td>
+            <td bgcolor="#f2f2f2"><b>Działanie</b></td>
+        </tr>
+        <tr>
+            <td>ok. 50 minut (z komputera, prąd ładowania do 0,5 A)</td>
+            <td>ok. 6 h 24 minut</td>
+        </tr>
+        <tr>
+            <td bgcolor="#f2f2f2">ok. 18 minut (ładowarka z prądem 0,75 A)</td>
+            <td bgcolor="#f2f2f2">ok. 4 h 20 minut</td>
+        </tr>
+        <tr>
+            <td>ok. 35 minut (częściowo z komputera i częściowo ładowarką)</td>
+            <td>ok. 6 h 09 minut</td>
+        </tr>
+    </tbody>
+</table>
+<p>Nie byłem w stanie ustalić, z czego wynikał ten rozrzut.</p>
+<p>Moja ocena: 3 (odejmuję za kwestie związane z ładowaniem)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="4"></a><strong>Dysk</strong></p>
+<p style="text-align: justify;"><img width="130" vspace="5" hspace="5" height="164" align="left" alt="" src="sites/default/files/163/wee_mass.png" />Po pierwszym podłączeniu w pamięci znalazłem przykładowy plik MP3 (MPEG  Audio Layer-3 192Kbps) i <a href="http://en.wikipedia.org/wiki/LRC_%28file_format%29">plik z  napisami do niego (LRC)</a>, do tego 4 obrazki (JPG o rozdzielczości od  800x600 do 1082x768), jeden plik AVI i pusty katalog VOICE. Po resecie do ustawień fabrycznych wszystko to zginęło...</p>
+<p style="text-align: justify;">Dysk został  sformatowany fabrycznie w systemie FAT32 (rozmiar sektora 4096 bajtów) i  jego całkowita wielkość to 1,871,179,776 bajtów. <strong>Jak widać, nie należy  się spodziewać &quot;pełnych&quot; 2 GB przeznaczonych na pliki. A szkoda...</strong> Obsługiwane są polskie litery w nazwach plików, nie można kasować plików z menu urządzenia (działa to jedynie od strony komputera), sterownika do Windows 9x nie stwierdzono (myślę, że można to jednak pominąć)...</p>
+<p style="text-align: justify;">Testy przeprowadziłem w ATTO Disk Benchmark 2.46. Wpierw liniowy odczyt  i zapis danych na bloku o maksymalnej wielkości 1 GB (każdy taki blok  dzielony był na pakiety o wielkości 512 bajtów - 8 MB).</p>
+<p style="text-align: justify;"><img width="400" height="269" alt="" src="sites/default/files/163/wee_1gb(1).png" /></p>
+<p style="text-align: justify;">Później to samo dla bloku o typowej wielkości (wybrałem 4 MB).</p>
+<p style="text-align: justify;"><img width="400" height="271" alt="" src="sites/default/files/163/wee_4mb.png" /></p>
+<p style="text-align: justify;">I wreszcie test dla najmniejszego dostępnego bloku (64 KB).</p>
+<p style="text-align: justify;"><img width="400" height="271" src="sites/default/files/163/wee_64kb.png" alt="" /></p>
+<p style="text-align: justify;">Transfery te nie porażają, ale z drugiej strony są całkowicie wystarczające.</p>
+<p style="text-align: justify;">Moja ocena: 2 (głównie ze względu na ilość miejsca i braku możliwości rozbudowy)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="5"></a><strong>Muzyka</strong></p>
+<p style="text-align: justify;"><img width="130" vspace="5" hspace="5" height="162" align="left" alt="" src="sites/default/files/163/wee_music.png" />Equalizer ma następujące ustawienia: normalny, <a href="http://www.playfx.pl/">MS PlayFX</a> (3d HeadPhone albo Pure Bass), Rock, Pop, Klasyczny, Bass, Jazz, EQ użytkownika. W trakcie odtwarzania można zobaczyć <a href="http://en.wikipedia.org/wiki/LRC_%28file_format%29">teksty z pliku LRC</a> albo graficzny  equalizer (wraz z info, co jest ustawione), jest informacja o nazwie  utworu, jego bitrate, długości, czasie do końca.</p>
+<p style="text-align: justify;">Pliki MP3 można odtwarzać według  artysty, albumu, rodzaju (jest to rozpoznawane na podstawie  tagów). Utwory w menu są rozpoznawane po nazwach.</p>
+<p style="text-align: justify;">Powtarzanie dostępne jest dla kawałka pliku (jest to właśnie tryb A-B), zbioru, katalogu, można ogrywać muzykę ze wszystkich plików w katalogu lub ze wszystkich katalogów (wyszukiwane są MP3 i WAV), są  też ulubione. Kolejny utwór może zostać wybrany również losowo.</p>
+<p style="text-align: justify;">Jakość dźwięku sprawdzałem na znanych mi słuchawkach i jest ona bardzo dobra - nie zauważyłem żadnych szumów, trzasków albo przekłamań. Oceniłbym ją jako trochę lepszą niż w mojej zintegrowanej karcie dźwiękowej SoundMAXa w komputerze. Głośnika nie ma, więc nie mogłem z nim zrobić testu ;)</p>
+<p>Moja ocena: 5</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="6"></a><strong>Wideo</strong></p>
+<p style="text-align: justify;">Rozdzielczość przykładowego pliku to 160x128 (obraz jest obracany o 90 stopni), wideo kodowane jest w standardzie Xvid 160x128 15.00fps 401Kbps, zaś dźwięk w MPEG Audio 44100Hz stereo 128Kbps. Urządzenie nie jest w stanie zrobić żadnych poprawek &quot;w locie&quot; (np. zmiany jasności).</p>
+<p style="text-align: justify;">Producent dodaje program konwertujący na załączonej płycie albo stronie www. Zająłem się wersją na płycie (Nano 1.1.1). Instalator jest po angielsku lub chińsku, na rysunku poniżej widać śliczne &quot;angielskie&quot; napisy...</p>
+<p style="text-align: justify;"><img width="500" height="217" src="sites/default/files/163/wee_soft.png" alt="" /></p>
+<p style="text-align: justify;">Chciałem przekonwertować z jego pomocą darmowy <a href="http://www.starwreck.com">Star Wreck: In the Pirkinning</a> (długość 1 h 43 minuty). Wybrałem domyślne ustawienia jakości i po ok. 8 minutach program pokazywał 99% i się zwyczajnie zawiesił (plik był o dziwo w porządku, a jego wielkość ok. 400 MB).</p>
+<p style="text-align: justify;">Pomyślałem, że warto zobaczyć, jak to działa od wewnątrz (bądź co bądź jest to zwykła nakładka na mencodera). Po dłuższej chwili mogłem sobie sam robić odpowiednią konwersję (podaję wersję sprawdzoną pod <a href="?q=node/159">Ubuntu 10.04</a>, która z pliku <em>input.mpg</em> tworzy plik docelowy <em>output.avi</em>, a dźwięk jest prawidłowo zsynchronizowany z obrazem):</p>
+<p><font face="Courier New">mencoder input.mpg -o output.avi -ofps 15 -vf scale=160:128 -srate 44100 -ovc xvid -xvidencopts bitrate=400:max_bframes=0:quant_type=h263:max_key_interval=1 -oac lavc -lavcopts acodec=mp2:abitrate=128</font></p>
+<p style="text-align: left;">Można zrobić dodatkowo skorygowanie podawanej długości materiału (bez tego programy odtwarzające na komputerze np. dla zbioru 5 minutowego będą pokazywać 7 h):<br />
+<font face="Courier New"><br />
+ffmpeg -i output.avi -acodec copy -vcodec copy output2.avi</font></p>
+<p>Moja ocena: 3 (jakość oprogramowania)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="7"></a><strong>Radio FM</strong></p>
+<p style="text-align: justify;"><img width="130" vspace="5" hspace="5" height="162" align="right" src="sites/default/files/163/wee_radio2(2).png" alt="" />Radio FM nie ma RDS, można sobie ustawiać ręcznie częstotliwość albo przeskanować całe pasmo (tworzona jest lista zakładek z częstotliwościami). Nie udało mi się znaleźć obiecywanej funkcji nagrywania, ale również nie ma możliwości skorzystania z tych ulubionych.</p>
+<p style="text-align: justify;">Słuchawki (dowolne, a nie tylko te producenta) pełnią funkcję anteny, po  ich odłączeniu możliwe jest wejście do menu radia...</p>
+<p style="text-align: justify;">W ustawieniach można sobie:</p>
+<ol>
+    <li style="text-align: justify;">wybrać region (Chiny, Europa, Japonia lub USA)</li>
+    <li style="text-align: justify;">włączyć lub wyłączyć stereo (według instrukcji) lub stero (według polskiego tłumaczenia na ekranie)</li>
+</ol>
+<p>Moja ocena: 2 (obsługa jest po prostu niewygodna)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="8"></a><strong>Zdjęcia</strong></p>
+<p>Tym razem napiszę bardzo krótko: obrazki są skalowane do wielkości wyświetlacza i obracane podobnie jak w przypadku wideo (szerokość do dłuższego boku).</p>
+<p>Moja ocena: 5</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="9"></a><strong>Tekst</strong></p>
+<table style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td><img width="130" height="162" align="left" alt="" src="sites/default/files/163/wee_read.png" /></td>
+            <td valign="top">
+            <p align="justify">Funkcja pozwala wyświetlić na ekranie zawartość pliku tekstowego. Jest ona nieruchoma albo może być przesuwana w dół co jedną linijkę co kilka sekund (dokładnie 2 - 10).</p>
+            <p>Moja ocena: 5</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="10"></a><strong>Nagrywanie</strong></p>
+<p style="text-align: justify;"><img width="130" vspace="5" hspace="5" height="163" align="left" src="sites/default/files/163/wee_micro.png" alt="" />Nagrane pliki WAV są zapisywane w jednym określonym katalogu (wspomniany VOICE). Wykorzystywany kodek to MS ADPCM 8000Hz mono 32Kbps (jakość normalna) lub MS ADPCM 16000Hz mono 64Kbps (wysoka). Wielką ciekawostką jest, że firmware tworzy katalog jak i pliki bez daty modyfikacji...</p>
+<p style="text-align: justify;">Po wejściu do menu pokazywany jest status &quot;Przygotowywuję...&quot;, należy nacisnąć klawisz Vol w celu rozpoczęcia (status zmieni się bez ostrzeżenia na &quot;Nagrywanie&quot; po ok. sekundzie), ponowne użycie Vol włączy pauzę, zaś klawisz M zapisze plik (status &quot;Zapisz plik&quot;). Nie jest to do końca intuicyjne. Podobnie przy zbyt szybkim naciskaniu klawiszy można doprowadzić do tego, iż powstanie plik, który nie będzie rozpoznawany przez urządzenie...</p>
+<p style="text-align: justify;">Przygotowałem dwie przykładowe próbki (tekst odtwarzany na <a href="http://www.ivona.com/">stronie IVONY</a>, odtwarzacz przyłożony do głośnika komputera): <a href="sites/default/files/163/rec00007.wav">jakość normalna</a> i <a href="sites/default/files/163/rec00006.wav">jakość wysoka</a>.</p>
+<p>Moja ocena: 3 (z chęcią bym widział jakieś inne formaty i lepszą obsługę)</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="11"></a><strong>Przeglądarka</strong></p>
+<table style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td><img width="130" height="164" align="left" src="sites/default/files/163/wee_viewer.png" alt="" /></td>
+            <td valign="top">
+            <p align="justify">Prosty menedżer plików, który po kliknięciu na plik otwiera pozwiązaną z nim &quot;aplikację&quot; (odtwarzacz muzyki, grafiki czy też tekstu).</p>
+            <p>Moja ocena: 5</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><a name="12"></a><strong>Podsumowanie</strong></p>
+<table cellspacing="0" cellpadding="0" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#e6eaee" colspan="6"><strong>Ocena</strong></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Marketing</td>
+            <td width="40" bgcolor="#99ff99" colspan="4">4</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Zawartość zestawu&nbsp;</td>
+            <td width="40" bgcolor="#99ff99" colspan="4">4</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Energia</td>
+            <td width="30" bgcolor="#99ff99" colspan="3">3</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Dysk</td>
+            <td width="20" bgcolor="#99ff99" colspan="2">2</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Muzyka</td>
+            <td width="50" bgcolor="#99ff99" colspan="5">5</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Wideo</td>
+            <td width="30" bgcolor="#99ff99" colspan="3">3</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Radio FM</td>
+            <td width="20" bgcolor="#99ff99" colspan="2">2</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Zdjęcia</td>
+            <td width="50" bgcolor="#99ff99" colspan="5">5</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Tekst</td>
+            <td width="50" bgcolor="#99ff99" colspan="5">5</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Nagrywanie</td>
+            <td width="30" bgcolor="#99ff99" colspan="3">3</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+            <td width="10" bgcolor="#ff0066">&nbsp;</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td bgcolor="#f0f4f9">Przeglądarka</td>
+            <td width="50" bgcolor="#99ff99" colspan="5">5</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Moim zdaniem iBOX WEE to typowe urządzenie budżetowe i raczej jednorazowe choćby ze względu na niewymienny akumulator.</p>
+<p style="text-align: justify;">Do tzw. szpanu się ono zupełnie nie nada, jeśli natomiast nie chcesz zabierać ze sobą np. na rower komórki (która zazwyczaj ma już gniazdo 3,5 mm, radio i odtwarzacz), to możesz się nim zainteresować... <strong>Dobrze bowiem spełnia swoją podstawową rolę (odtwarzania muzyki).</strong> W kilku innych miejscach również wystawiłem ocenę 5, ale <strong>wszystko inne wydaje się w nim dodanie troszkę jakby na siłę i jeśli oczekujesz tutaj cudów, możesz się zawieść... </strong>Są też drobne problemy z tłumaczeniem czy działaniem niektórych funkcji (po prostu widać pewien bałagan i niejasności).</p>
+<p style="text-align: justify;">Być może dałoby się zastosować jakiś inny firmware (mam wrażenie, iż urządzenie może być zbliżone do innych tanich modeli). Niestety z braku danych w Internecie&nbsp;dokładne informacje sprzętowe (informacja, iż chipset pochodzi najprawdopodobniej od firmy Rockchip  Electronic pewnie nie wystarczy ;)) można byłoby uzyskać jedynie rozbierając je (co tutaj było niemożliwe).</p>
+<p style="text-align: justify;">To z jednej strony.</p>
+<p style="text-align: justify;"><strong>Z drugiej cena w dużej mierze rekompensuje te różne niedogodności,</strong> użyte też są w nim uznane standardy (pamięć masowa i ładowanie po USB, itd.). Jeżeli tylko wsparcie producenta jest w porządku (nie miałem okazji go sprawdzić, z różnymi firmami produkującymi czy sprowadzającymi produkty z niższej półki natomiast różnie bywa...), nie ma za bardzo czego tutaj się &quot;czepiać&quot;. Żeby nie było wątpliwości - całość dostarczamy do serwisu na swój koszt, natomiast jest nam odsyłana bezpłatnie (podaję za kartą gwarancyjną).</p>
+<p style="text-align: justify;">Krótko mówiąc WYPIWYG (What You Pay Is What You Get czyli ile płacisz, tyle dostajesz)...i moim zdaniem urządzenie wypada tu co najmniej dobrze. Potwierdza to średnia z ocen (3,73 czyli po zaokrągleniu 4).</p>
+<p align="right"><a href="#gora">Do góry</a></p>

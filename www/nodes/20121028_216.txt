@@ -1,0 +1,29 @@
+﻿Title:Ewolucja... (2012)
+Author:marcin
+When:28 Oct 2012
+Taxonomy:Polski,Polski blog,Windows,x86
+SkipMain:true
+
+<p></p><p>Ostatnio ciągle ktoś próbuje mnie "nawrócić"... Zacznijmy od zagadek jednak:</p>
+<ul><li>w aplikacji można zobaczyć "pokaż mi rekordy z datą &gt; data wskazana". Jakie rekordy pokaże aplikacja ? 
+</li><li>aplikacja ma obsługiwać Share Pointy. Jakie adresy będzie wspierać aplikacja ? (chodzi o przedrostek)
+</li><li>aplikacja ma działać z rozdzielczościami minimum 1024x764. Czy niedziałanie z 1400x1050 jest poprawne ?
+</li></ul><p>Odpowiedzi poprawne to oczywiście: dni późniejsze niż data wskazana, http i https, nie</p>
+<!--break-->
+<p>Dlaczego o tym mówię ? Bo czasem napotykam w świecie IT niespodzianki, o których się naprawdę nie śniło i filozofom (czytaj - np. dowody na to, że wspomniane odpowiedzi nie bywają poprawne) i wystarczyłoby tylko pomyśleć, żeby ich nie było (zabrzmiało to oczywiście podobnie do tego, że "komputery służą do rozwiązywania problemów, których by nie było, gdyby nie było komputerów" :)).</p>
+<p>Niestety przez lata dało się zauważyć, że ludzie po prostu często i gęsto zapominają, że technologia to młotek i ten młotek służy czemuś. I tak aplikacje powinny szybko i bezbłędnie podawać wyniki, muzyka powinna być odtwarzana bez zająknięć, itd. itd.</p>
+<p>Tymczasem co się dzieje ? Niestety, ale w wielu wypadkach logiczne myślenie/zdrowy rozsądek jest przykrywany korporacyjnymi regułkami i innymi wymysłami (<a href="http://antyweb.pl/dzial-it-nie-da-sie-zrobic/">co dobrze obrazuje ten tekst</a>).</p>
+<p>I później powstają potworki takie jak Windows 8 (co ludzie naprawdę o nim myślą - zapodam np. <a href="http://www.benchmark.pl/testy_i_recenzje/wielozadaniowosc-windows-8-i-obsluga-okien/strona/18542.html">link komentarzy pod tekstem na benchmarku</a>). </p>
+<p>Żeby nie było, że to tylko Microsoft - uaktualniłem sobie Ubuntu do wersji 12.10. I co teraz mam ? wyszukiwanie po Amazonie (nie można wyłączyć), usunięto ikonę/link do "update-manager" (trzeba sobie dodać), nie ma oczywiście ikony do shella (co mógłbym przeżyć, gdyby Unity było funkcjonalne), a całość spowolniła x razy pod VirtualBox....</p>
+<p>Mac OS ? Działa wolniej po update do ostatniego releasu (na kompie, z którego zdarza mi się korzystać)</p>
+<p>Postęp ? Litości...</p>
+<p>Oczywiście można powiedzieć, że złe rozwiązania zostaną wyparte przez dobre, jak się stało z:</p>
+<p><b>VHS</b> - kiedyś podstawa (wraz z "LP", "SP", śnieżeniem, czasem dźwiękiem mono), teraz właściwie wyparte w całości przez płyty (z uwagi na lepszą jakość).</p>
+<p><b>płytami CD/DVD/BlueRay</b> - w przypadku PC technologia powoli wymierająca (istniały ograniczenia na ilość plików, poziom zagłębienia katalogów, do tego dochodziły wibracje, podatność na uszkodzenia, z każdą kolejną generacją również problemy z systemami "zabezpieczeń")</p>
+<p><b>monitorami CRT</b> - i dobrze, że odeszły :)</p>
+<p><b>dyskietkami<b> - było, minęło...</b></b></p>
+<p><b>ISA</b> - z ich zworkami :)</p>
+<p>itd. itd.</p>
+<p>Tylko że niestety reguła nie sprawdza się w przypadku dużych firm, które potrafią działać jak Borg....</p>
+<p>Istnieje oczywiście niestety druga strona medalu - <a href="http://blog.bart.prokop.name/2011/02/technologia.html">jak ktoś ładnie zauważył "A ogólna sentencja z mojej branży to... jeśli chcesz dobrze zrobić jakiś projekt i jesteś Anglosasem, to lecisz do Polski, Indii lub Chin, zatrudniasz lokalnych geniuszy (za 1/20 tego co w USA/UK) i siedzisz na miejscu na dupie i pilnujesz tego bajzlu wg. anglosaskich wzorców. Sukces gwarantowany. Jeśli jednak zostawisz sam sobie autochtonów, żeby ci projekt skończyli to porażka murowana."</a></p>
+<p>W tej sytuacji wypada tylko zapytać - jak żyć ? jak żyć ?</p>

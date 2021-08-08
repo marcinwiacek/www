@@ -1,0 +1,70 @@
+﻿Title:Czas
+Author:marcin
+When:08 Feb 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Czas leczy rany, daje zapomnienie,<br />
+pozwala koić, przywołać marzenie,<br />
+uodparnia nas i wygładza wspomnienia,<br />
+budzi nadzieję na zmianę myślenia,</p>
+<p>popycha ludzi ciągle do działania,<br />
+nowe obszary wyzwala, odsłania,<br />
+zamienia również człowiecze sprawności,<br />
+aby mogły nas cieszyć inne czułości,<br />
+bo z wiekiem wszystko ludziom się zmienia,<br />
+odchodzi to coś, na coś się wymienia,</p>
+<!--break-->
+<p>jedyne czego nie może dokonać,<br />
+to Ciebie cofnąć, byś mógł się przekonać,<br />
+jak z wiedzą, wigorem oraz siłami,<br />
+uporałbyś się z dawnymi strachami,<br />
+mądrze jest jednakże ten los urządzony,<br />
+możesz żyć, by rozum był niezmącony,</p>
+<p>a człowieczy los nie jest bajką ni snem,<br />
+ale często zwyczajnie szarym bywa dniem,<br />
+żyjemy tematem powracającym,<br />
+czy bywać gorszym czy też przodującym,<br />
+bo natura taka jest wielu ludzi,<br />
+że sukces widoczny lęk w nich budzi,</p>
+<p>i zrobią wszystko nawet wielokrotnie,<br />
+byś poległ, zginął, zatonął sromotnie,<br />
+inni po prostu na zapas działają,<br />
+co niezrozumiałe, to to strącają,<br />
+tak jest w polityce i na drodze,<br />
+sąsiadka też może zawieść Cię srodze,</p>
+<p>powiesz, że to brednie, duby smalone,<br />
+lecz życie to jednak jest pokręcone,<br />
+często działamy pod wpływem impulsu,<br />
+jak zwierzęta umiemy żałować pulsu,<br />
+patrzymy podświadomością na rzeczy,<br />
+z walki o ogień nas nic nie wyleczy,</p>
+<p>po sukcesie na kanapach drzemanie<br />
+smutek dać może chyżo niesłychanie,<br />
+nie zawsze to regułą jest oczywiście,<br />
+są ludzie nieskazitelni wieczyście,<br />
+na szczęście na te życia okoliczności,<br />
+można wyliczać rad proste mądrości,</p>
+<p>dlatego żyj w zgodzie z naturą,<br />
+miej rodzinę, dzieci, nie karm się bzdurą,<br />
+nie zmieniaj również porządku wiecznego,<br />
+nie twórz na nowo człowieka nowego,<br />
+choć ucieczką i walką będziesz rozdarty,<br />
+nie łap za dużo też, nawet gdyś warty,</p>
+<p>a jeśli co wokół złego się dzieje,<br />
+ufaj, że dobrem wnet może zawieje,<br />
+myśleć musisz samemu i nieustannie,<br />
+nie ufaj wciąż obcemu Panu i Pannie,<br />
+bo wielu z nich ma za coś płacone,<br />
+również, byś wierzył w lody kręcone,</p>
+<p>hartuj siłę moralności i duszy,<br />
+niechaj polityk winny ich nie wzruszy,<br />
+też możesz dosięgnąć galaktyk parę,<br />
+jak nosisz duszę, moralność i wiarę,<br />
+a nawet jak nie wszystko Tobie się uda,<br />
+to w oczach wielu czynić będziesz cuda,</p>
+<p>i wiedz, że tak wiele czynów najmniejszych,<br />
+niźli uśmiech, uroda czy auta ważniejszych,<br />
+więc jak widzisz tylko kogoś mądrego,<br />
+nie wahaj się trzymać kogoś takiego....</p>

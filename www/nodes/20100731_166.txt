@@ -1,0 +1,1397 @@
+﻿Title:Klonujemy komputer - maszyny wirtualne (2010)
+Author:marcin
+When:31 Jul 2010
+Taxonomy:Polski,benchmark.pl,Windows 7,Windows,Polski artykuł,x86,OS
+
+<p style="text-align: justify;">Po dłuższym używaniu swojego komputera wielu użytkowników&nbsp; dochodzi do wniosku, iż chciałoby mieć możliwość przetestowania&nbsp; czy używania jakichś programów &quot;w odosobnieniu&quot;. Dzieje się tak niezależnie od tego czy pracują z Windows, jakąś dystrybucją Linuxa czy innym systemem operacyjnym. Jak tego dokonać ?</p>
+<p style="text-align: justify;"><strong>W artykule przedstawione zostaną wady i  zalety  przykładowych darmowych rozwiązań oraz podjęta zostanie próba oceny tego, jak  bardzo spowalniają one aplikacje.</strong></p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Poniższy tekst został wpierw <a href=http://www.benchmark.pl/testy_i_recenzje/Klonujemy_komputer_-_maszyny_wirtualne-3161.html>opublikowany z pewnymi zmianami w serwisie benchmark.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<table cellspacing="1" cellpadding="5" border="0" align="right" style="border-collapse:separate;" >    <tbody>        <tr>            <td>            <table cellspacing="1" cellpadding="1" border="0" style="border-collapse:separate;" >                <tbody>                    <tr>                        <td style="text-align: left;">                        <p>&nbsp; <a href="#1">1. Rodzaje</a><br />                        &nbsp; <a href="#2">2. Bezpieczeństwo i sprzęt</a><br />                        &nbsp; <a href="#3">3. VirtualBox</a><br />                        &nbsp; <a href="#4">4.  Dodatki do VirtualBoxa</a><br />                        &nbsp; <a href="#5">5.  VirtualBox z USB</a><br />                        &nbsp; <a href="#6">6.  QEMU i KVM</a><br />                        &nbsp; <a href="#7">7.  Rozwiązania VmWare/Player</a><br />                        &nbsp; <a href="#8">8.  Rozwiązania Microsoftu/XP Mode</a>                         <br />                        &nbsp; <a href="#9">9. Virtual PC</a><br />                        <a href="#10">10. DOS wiecznie żywy...</a><br />                        <a href="#11">11.  Java na zawsze ?</a><br />                        <a href="#12">12.  FAUMachine</a><br />                        <a href="#13">13. Bochs</a><br />                        <a href="#14">14. Zabawy z obrazami</a><br />                        <a href="#15">15. Limitowanie sieci</a><br />                        <a href="#16">16. Wydajność przeglądarek</a><br />                        <a href="#17">17. Wydajność - inne testy<br />                        </a><a href="#18">18. Podsumowanie</a></p>                        </td>                    </tr>                </tbody>            </table>            </td>        </tr>    </tbody></table>
+
+<p style="text-align: justify;">Po dłuższym używaniu swojego komputera wielu użytkowników&nbsp; dochodzi do wniosku, iż chciałoby mieć możliwość przetestowania&nbsp; czy używania jakichś programów &quot;w odosobnieniu&quot;. Dzieje się tak niezależnie od tego czy pracują z Windows, jakąś dystrybucją Linuxa czy innym systemem operacyjnym. Jak tego dokonać ?</p>
+<p style="text-align: justify;"><strong>W artykule przedstawione zostaną wady i  zalety  przykładowych darmowych rozwiązań oraz podjęta zostanie próba oceny tego, jak  bardzo spowalniają one aplikacje.</strong></p>
+
+<p style="text-align: justify;"><font size="+2"><a name="1"></a>Rodzaje</font></p>
+<p style="text-align: justify;">Podstawowe funkcje kontroli  udostępniane są przez praktycznie każdy współczesny system operacyjny -  mamy chociażby możliwość ustawiania uprawnień w obecnych systemach plików. Najczęściej jest to niestety tylko kontrola  na poziomie użytkowników.</p>
+<p style="text-align: justify;">Lukę tę wypełniają  tzw. piaskownice. Działają między systemem operacyjnym oraz uruchomionym programem i pozwalają na dokładne określenie, co może zrobić ten ostatni. Ich charakterystyczną cechą jest możliwość &quot;oszukiwania&quot; programów tak, iż przy próbie zapisywania pliki w jakiejś lokalizacji robią to fizycznie w innej (np. zamiast katalogu z systemem używany jest wskazany w konfiguacji).</p>
+<p style="text-align: justify;"><img width="400" height="222" src="sites/default/files/166/virtual2.png" alt="" /></p>
+<p style="text-align: justify;">Najbardziej chyba znaną aplikacją tego typu jest  SandBoxie (darmowa do zastosowań niekomercyjnych), taką funkcjonalność mają obecnie coraz częściej pakiety typu  Internet Security (np. Safe Run w Kaspersky Internet Security). Rozwiązania tego typu przenikają nie tylko do jądra linuksowego (chociażby SELinux  czy AppArmor), ale są również fabrycznie wbudowane w &quot;okienka&quot; Microsoftu - można przyjąć, iż pewną formą implementacji tej koncepcji jest np. <a href="http://msdn.microsoft.com/en-us/library/bb250462%28VS.85%29.aspx">Protected    Mode w Internet Explorerze w systemach Vista/Windows 7</a>.</p>
+<p style="text-align: justify;">Istnieją maszyny wirtualne.  Są one uruchamiane w praktycznie niezmodyfikowanym systemie operacyjnym  rzeczywistej maszyny (tzw. gospodarza czy hosta).  Pozwalają stworzyć cały &quot;oddzielny&quot; komputer (nazywany często gościem), w   którym instaluje się system operacyjny, a w nim uruchamia   programy.</p>
+<p style="text-align: justify;">Maszyny wirtualne często dają możliwość skorzystania poprzez dodane  sterowniki np. z podłączonych do gospodarza urządzeń USB. Niektóre z  nich pozwalają stworzyć systemy zaliczane do innej platformy  sprzętowej - dzieje się tak wtedy, gdy naśladowane jest również działanie procesora (czasem mówi się wtedy o emulatorze). Wiele z opisywanych  dalej rozwiązań pozwala również na działanie 64-bitowych systemów operacyjnych gościa  w sytuacji, gdy system gospodarza jest 32-bitowy.</p>
+<p style="text-align: justify;"><img width="400" height="225" src="sites/default/files/166/virtual1.png" alt="" /></p>
+<p style="text-align: justify;">Można jeszcze spotkać rozwiązania parawirtualizacyjne takie jak darmowy Xen albo komercyjny Hyper-V. Zawierają one przede wszystkim tzw. hypervisor, który w wielkim uproszczeniu jest  systemem operacyjnym uruchamianym na rzeczywistym sprzęcie i który dostarcza pewnych narzędzi do  tworzenia maszyn i obsługi sprzętu. Pod jego kontrolą działa  zawsze jeden system mający bezpośredni dostęp do zasobów (w Xen mówimy o  tzw. domenie 0, spotyka się też określenie partycji nadrzędnej) oraz  inne systemy operacyjne bez takich uprawnień (najczęściej odpowiednio  zmodyfikowane, chociaż obecnie nie zawsze).</p>
+<p style="text-align: justify;"><img width="400" height="224" src="sites/default/files/166/virtual3.png" alt="" /></p>
+<p style="text-align: justify;"><strong>Dalsze opisy związane będą przede wszystkim z platformą x86 (PeCety) i  darmowymi maszynami wirtualnymi dostępnymi w Windows i Ubuntu</strong> - sprawdzone zostanie ich współdziałanie z Ubuntu 10.04 (uwagi te też praktycznie w całości będą odnosić się również do Mint 9), będzie także powiedziane kilka słów o DOS, Windows XP i Windows 7. <a href="?q=node/159">Artykuł można  potraktować jako uzupełnienie wcześniejszego tekstu autora o  wspomnianych dystrybucjach linuksowych</a>.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="2"></a>Bezpieczeństwo i sprzęt</font></p>
+<p style="text-align: justify;">Niektóre maszyny wirtualne jak i hypervisory mogą potrzebować odpowiedniego wsparcia sprzętowego. W przypadku x86 wymagane jest spełnienie dwóch warunków:</p>
+<ol>
+    <li style="text-align: justify;">procesor musi mieć wbudowaną obsługę technologii AMD-V lub Intel VT-x (odpowiednią listę dla produktów Intela <a href="http://ark.intel.com/VTList.aspx">można znaleźć na stronie tej korporacji</a>)</li>
+    <li style="text-align: justify;">wspomniane technologie muszą być uaktywnione przez BIOS/EFI (dokonuje się tego przez przestawienie jednej z opcji)</li>
+</ol>
+<p style="text-align: justify;">Należy tu zauważyć, iż ustawienia te są zazwyczaj domyślnie wyłączone, dodatkowo przez dłuższy czas wielu producentów płyt głównych czy komputerów wzbraniało się przed ich udostępnianiem. Dlaczego ?</p>
+<p style="text-align: justify;">Rozwiązania wirtualizacyjne (szczególnie te wspierane sprzętowo) rodzą bowiem pewne obawy z co najmniej dwóch przyczyn:</p>
+<ol>
+    <li style="text-align: justify;">doskonała wirtualizacja (do której się poniekąd dąży) powinna powodować, iż oprogramowanie nie będzie mieć możliwości sprawdzenia, że nie działa na rzeczywistym sprzęcie</li>
+    <li style="text-align: justify;">w przypadku uzyskania kontroli przez złośliwy kod nad systemem operacyjnym i uruchomieniu go pod kontrolą hypervisora może być niezwykle trudno wykryć fakt wystąpienia ataku (z powodu opisanego w poprzednim punkcie) i jemu przeciwdziałać</li>
+</ol>
+<p style="text-align: justify;">To tylko przykłady, ale częściowo niestety poparte praktyką - od 2006 (<a href="http://en.wikipedia.org/wiki/Blue_Pill_%28malware%29">rootkit &quot;Blue Pill&quot; Joanny Rutkowskiej udostępniony później z kodem źródłowym</a>) co jakiś czas chociażby na <a href="http://www.blackhat.com">konferencjach Black Hat</a> można znaleźć informacje o kolejnych przykładach zagrożeń związanych z wirtualizacją.</p>
+<p style="text-align: justify;">Z drugiej strony wspomniana Joanna Rutkowska <a href="http://qubes-os.org/files/doc/arch-spec-0.3.pdf">właśnie w tych technologiach widzi jedyny sposób na istotne zwiększenie bezpieczeństwa systemów operacyjnych na platformie x86</a>. Praktycznym przykładem ma być jej <a href="http://qubes-os.org">system operacyjny </a><span class="style"><a href="http://qubes-os.org">Qubes</a>, którego wersja testowa Alpha 2 pojawiła się dosłownie kilkanaście dni temu (1 lipca). Jest on </span><span class="style">bazowany m.in. na hypervisorze Xen.</span></p>
+<p style="text-align: justify;"><span class="style"><img width="400" height="226" alt="" src="sites/default/files/166/browse-shop-work.png" /></span></p>
+<p style="text-align: justify;">Czy należy więc się obawiać ?</p>
+<p style="text-align: justify;">Nie ma tutaj niestety jednoznacznej odpowiedzi. Każda kolejna warstwa zabezpieczająca może skutecznie zniechęcić  potencjalnego włamywacza (i to jest duża zaleta stosowania tego typu rozwiązań). Dodatkowo wsparcie sprzętowe można najczęściej wyłączyć i wiele z opisywanych&nbsp; dalej aplikacji będzie działać bez niego.</p>
+<p style="text-align: justify;">Tylko że dalej jest jedno małe &quot;ale&quot; - mogą one nawet wtedy zawierać potencjalne luki i potencjalnie wpływać na system operacyjny gospodarza (choćby przez dołączane do niego sterowniki)...</p>
+<p style="text-align: justify;">Z ciekawostek - w Ubuntu mamy dostępną aplikację <font face="Courier New">imvirt</font>, która pokazuje, czy jest uruchomiona w maszynie wirtualnej czy nie.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="3"></a>VirtualBox</font></p>
+<table cellspacing="5" align="right"  style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.virtualbox.org/">VirtualBox</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">maszyna  wirtualna</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">tak (wersja OSE  - licencja GPL 2),<br />
+                        nie (wersja pełna)</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępna</td>
+                        <td style="text-align: justify;"><a href="http://www.virtualbox.org/wiki/Guest_OSes">Windows, GNU/Linux, Mac  OS&nbsp;X i inne</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Oprogramowanie dostępne jest w wersji  pełnej i Open Source (OSE). <a href="http://www.virtualbox.org/wiki/Editions">W tej drugiej ze względów  licencyjnych brak jest np. wsparcia dla USB</a>, jest ona natomiast  dostępna standardowo w Ubuntu w <strong>Centrum Oprogramowania Ubuntu</strong>  (co jest zgodne z <a href="http://www.ubuntu.com/community/ubuntustory/philosophy">zasadami  tworzenia tej dystrybucji</a>). W celu jej instalacji uruchamiamy <strong>Centrum</strong>, w  nim w polu wyszukiwania wpisujemy <strong>virtualbox</strong> i  naciskamy Enter.</p>
+<p style="text-align: justify;"><img width="500" height="352" alt="" src="sites/default/files/166/centrum.png" /></p>
+<p style="text-align: justify;">Wybieramy <strong>VirtualBox OSE</strong>  i klikamy przycisk <strong>Zainstaluj</strong>. Możemy zostać wtedy  poproszeni o wpisanie hasła administratora.</p>
+<p style="text-align: justify;"><img width="300" height="195" alt="" src="sites/default/files/166/uwierzytelnij.png" /></p>
+<p style="text-align: justify;">Po pobrana aplikacja zostanie  zainstalowana, w menu systemowym w <strong>Akcesoria</strong> zobaczymy  wtedy ikonkę <strong>VirtualBox OSE</strong>.</p>
+<p style="text-align: justify;">Poniżej pokazano ekran  główny programu - na liście widać stworzone maszyny, informację o ich  ustawieniach (zakładka <strong>Szczegóły</strong>), zapisane przez nas  ich stany w danym momencie (np. z załadowanymi konkretnymi aplikacjami -  zakładka <strong>Migawki</strong>) oraz podany przez nas opis (zakładka  <strong>Opis</strong>). W menu głównym czy też menu dostępnym pod  prawym klawiszem myszy mamy dostępne okno z ustawieniami.</p>
+<p style="text-align: justify;"><img width="400" height="300" src="sites/default/files/166/vbox.png" alt="" /></p>
+<p style="text-align: justify;">W celu stworzenia nowej maszyny należy  kliknąć przycisk<strong> Nowa</strong> - zostanie wtedy uruchomiony  kreator jak na obrazku poniżej.</p>
+<p style="text-align: justify;"><img width="400" height="296" alt="" src="sites/default/files/166/as1.png" /></p>
+<p style="text-align: justify;">Klikamy przycisk <strong>Dalej</strong>,  na kolejnym ekranie wpisujemy nazwę naszej maszyny i wybieramy system  operacyjny, który będziemy chcieli tam zainstalować.</p>
+<p style="text-align: justify;"><img width="400" height="296" alt="" src="sites/default/files/166/as2.png" /></p>
+<p style="text-align: justify;">Po naciśnięciu <strong>Dalej</strong>  wskazujemy wielkość pamięci RAM przydzielonej symulowanej maszynie.</p>
+<p style="text-align: justify;"><img width="400" height="296" alt="" src="sites/default/files/166/as3.png" /></p>
+<p style="text-align: justify;">Następnie w kreatorze możemy stworzyć  nowy dysk (zostanie otwarty opisany dalej kreator) albo wybrać jeden z istniejących (wtedy zobaczymy przedstawiony niżej menedżer dysków).</p>
+<p style="text-align: justify;"><img width="400" height="296" alt="" src="sites/default/files/166/as4.png" /></p>
+<p style="text-align: justify;">Kolejny krok związany jest z  potwierdzeniem parametrów maszyny.</p>
+<p style="text-align: justify;"><img width="400" height="296" alt="" src="sites/default/files/166/as10.png" /></p>
+<p style="text-align: justify;">VirtualBox ma łatwe w użyciu okno do  wyboru plików z dyskami twardymi, obrazami płyt albo dyskietek.  Kliknięcie przycisku <strong>Dodaj</strong> pozwala wybrać odpowiedni  zbiór, natomiast <strong>Nowy</strong> otwiera odpowiedni kreator.  Obsługiwane są tutaj formaty VMDK&nbsp;firmy VmWare (używamy m.in. przez  opisywanego dalej VmWare Playera), VHD promowany m.in.  przez Microsoft, własny VDI oraz Parallers znany z komercyjnych  produktów firmy o tej nazwie.</p>
+<p style="text-align: justify;"><img width="300" height="236" alt="" src="sites/default/files/166/as5.png" /></p>
+<p style="text-align: justify;">Po otwarciu kreatora do tworzenia nowego  dysku zobaczymy ekran jak na rysunku. Klikamy <strong>Dalej</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="280" alt="" src="sites/default/files/166/as6.png" /></p>
+<p style="text-align: justify;">Wybieramy teraz typ dysku - podajemy,  czy jego wielkość na fizycznym nośniku ma od  razu odpowiadać zadeklarowanej przez nas czy też ma być możliwie mała  (rosnąć w miarę potrzeb maksymalnie do podanej wielkości).</p>
+<p style="text-align: justify;"><img width="400" height="280" alt="" src="sites/default/files/166/as7.png" /></p>
+<p style="text-align: justify;">Kolejny krok to wskazanie wielkości  dysku.</p>
+<p style="text-align: justify;"><img width="400" height="280" alt="" src="sites/default/files/166/as8.png" /></p>
+<p style="text-align: justify;">Na końcu potwierdzamy wybrane wcześniej  ustawienia.</p>
+<p style="text-align: justify;"><img width="400" height="280" alt="" src="sites/default/files/166/as9.png" /></p>
+<p style="text-align: justify;">Po wejściu w opcję ustawień maszyny  wirtualnej możemy zobaczyć bardziej rozbudowane opcje, wybrana ich część została pokazana niżej. I tak <strong>Włącz  obsługę VT-x/AMD-V</strong> uaktywnia obsługę wsparcia sprzętowego.</p>
+<p style="text-align: justify;"><img width="500" height="254" src="sites/default/files/166/vbox3.png" alt="" /></p>
+<p style="text-align: justify;">Opcja <strong>Włącz akcelerację 3D</strong>  pozwoli symulowanemu systemowi na  przyspieszenie grafiki 3D.</p>
+<p style="text-align: justify;"><img width="500" height="254" src="sites/default/files/166/vbox2.png" alt="" /></p>
+<p style="text-align: justify;">Z kolei uzyskanie takiego dostępu do  sieci  jak w systemie gospodarza umożliwi ustawienie <strong>Mostkowana karta  sieciowa  (bridged)</strong>. Nawiasem mówiąc - w Windows (jako systemie gospodarza) dodawana jest jedna karta sieciowa i możemy ją wyłączyć o ile  korzystamy tylko z ustawienia mostkowanego.</p>
+<p style="text-align: justify;"><img width="500" height="256" src="sites/default/files/166/ubu4.png" alt="" /></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="4"></a>Dodatki do VirtualBoxa</font></p>
+<p style="text-align: justify;">Po uruchomieniu maszyny wirtualnej warto  również zainstalować w niej różne dodatki.</p>
+<p style="text-align: justify;">W tym celu należy wpierw z menu <strong>Urządzenia</strong>  wybrać opcję <strong>Zainstaluj Dodatki</strong>. W symulowanej  maszynie pojawi się wtedy dodatkowy napęd CD z płytą VBOXADDITIONS - w  Ubuntu standardowo widoczna będzie jego ikona na pulpicie. Wystarczy kliknąć na niej dwa razy myszą, w otwartej <strong>Przeglądarce  plików</strong> wybrać opcję<strong> Otwórz pytanie o automatyczne  uruchamianie</strong>, potwierdzić (przycisk <strong>Uruchom</strong>),  podać hasło administratora i już po chwili całość będzie zainstalowana.</p>
+<p style="text-align: justify;"><img width="400" height="343" src="sites/default/files/166/ubuntu.png" alt="" /></p>
+<p style="text-align: justify;">Tak przygotowany system jest w  stanie korzystać z rozdzielczości  większej niż 800x600. Aby to zrobić, w menu <strong>Maszyna</strong>  okna maszyny wirtualnej zaznaczamy opcję <strong>Włącz automatyczne   skalowanie ekranu gościa</strong> i następnie skalując okno w zależności  od  potrzeb uzyskamy żądany rozmiar. Opcja ta jest bardzo często użyteczna z jeszcze jednego powodu - zmiana wymiarów wymusza odświeżenie ekranu gościa...</p>
+<p style="text-align: justify;">Znacznie ciekawsze jest to, iż możliwe jest także  użycie trójwymiarowych efektów - symulowana maszyna zachowuje się tak, jak gdyby umieszczona w niej kartę graficzną z odpowiednim wsparciem. sprzętowym. Całość współdziała z efektami graficznych pulpitu w Ubuntu - wystarczy kliknąć na <strong>Wygląd</strong>  z menu systemowego <strong>Preferencje</strong>, przejść do zakładki<strong>  Efekty wizualne</strong>, wybrać inną opcję niż <strong>Brak</strong> i  kliknąć przycisk <strong>Zamknij</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="413" alt="" src="sites/default/files/166/ubu2.png" /></p>
+<p style="text-align: justify;">System i maszyna wirtualna mogą  również współdzielić jakiś katalog. Pierwszym krokiem w celu uaktywnienia tej funkcjonalności jest wejście np. w ustawienia maszyny i użycie opcji za zakładce <strong>Współdzielone katalogi</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="204" src="sites/default/files/166/ubu3.png" alt="" /></p>
+<p style="text-align: justify;">Następnie w symulowanej maszynie  tworzymy katalog (np. komendą <font face="Courier New">mkdir</font>).</p>
+<p style="text-align: justify;">Kolejną czynnością jest &quot;podłączenie&quot; tam katalogu z hosta (komenda <font face="Courier New">mount</font>  uruchomiona z uprawieniami administratora). Przykład pokazano na  ekranie poniżej:</p>
+<p style="text-align: justify;"><font face="Courier New">sudo mount -t  vboxsf -o rw,uid=1000,gid=1000 testowy ~/katalog</font></p>
+<p style="text-align: justify;">gdzie obie liczby <font face="Courier
+New">1000</font> zostały odczytane dla użytkownika z wyniku działania  komendy <font face="Courier New">id</font>, zamiast <font face="Courier
+New">testowy</font> podajemy nazwę zasobu wpisaną w ustawieniach maszyny  wirtualnej, a zamiast <font face="Courier New">~/katalog</font> pełną  ścieżkę do katalogu gościa.</p>
+<p style="text-align: justify;"><img width="400" height="343" alt="" src="sites/default/files/166/ubu1.png" /></p>
+<p style="text-align: justify;">Wyraźnie brakuje tutaj łatwiejszego rozwiązania (np. przeszukiwania okna podobnego do <strong>Otoczenia Sieciowego</strong> w Windows).</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="5"></a>VirtualBox z USB</font></p>
+<p style="text-align: justify;">Możliwe jest zainstalowanie w Ubuntu również &quot;pełnego&quot; pakietu VirtualBox - <a href="http://www.virtualbox.org/wiki/Linux_Downloads">odpowiedni opis podany jest stronie  producenta</a>.</p>
+<p style="text-align: justify;">Wpierw w dowolnej przeglądarce pobieramy  plik <a href="http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc">oracle_vbox.asc</a>.</p>
+<p style="text-align: justify;">Następnie  należy uruchomić <strong>Menedżer aktualizacji</strong> (<strong>System\Administracja\Menedżer  aktualizacji</strong>). W nim klikamy na przycisk <strong>Ustawienia, </strong>przechodzimy do zakładki <strong>Inne oprogramowanie</strong> i klikamy  na przycisk<strong> Dodaj</strong>. W&nbsp;otwartym oknie wklejamy  tekst</p>
+<p style="text-align: justify;"><font face="Courier New">deb  http://download.virtualbox.org/virtualbox/debian lucid non-free</font></p>
+<p style="text-align: justify;"><img width="400" height="241" alt="" src="sites/default/files/166/zrodla1.png" /></p>
+<p style="text-align: justify;">Następnie klikamy na przycisk <strong>Dodaj  źródło</strong> i w oknie powinniśmy zobaczyć dodatkową linijkę</p>
+<p style="text-align: justify;"><font face="Courier New"><strong>http://download.virtualbox.org/virtualbox/debian  lucid</strong> non-free</font></p>
+<p style="text-align: justify;">Przechodzimy teraz do zakładki <strong>Uwierzytelnianie</strong>.  Klikamy na przycisk <strong>Zaimportuj plik klucza</strong> i  wskazujemy na plik <a href="http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc">oracle_vbox.asc</a>.  Powinniśmy wtedy zobaczyć nowy wpis</p>
+<p style="text-align: justify;"><font face="Courier New">98AB 5139<br />
+Oracle Corporation (VirtualBox archive signing key)</font></p>
+<p style="text-align: justify;">Teraz klikamy na <strong>Zamknij</strong>  i <strong>Sprawdź</strong>.  Od tej chwili w <strong>Centrum  Oprogramowania Ubuntu</strong> pojawi się pakiet <strong>Oracle  VM&nbsp;VirtualBox</strong>.</p>
+<p style="text-align: justify;">Po jego zainstalowaniu zgodnie z <a href="http://www.virtualbox.org/wiki/User_FAQ">FAQ  producenta</a> należy jeszcze  dodać użytkownika systemu do grupy <font face="Courier New">vboxusers</font>. W tym celu w Ubuntu:</p>
+<ol>
+    <li style="text-align: justify;">uruchamiamy aplikację <strong>Ustawienia  użytkowników</strong> (<strong>System\Administracja\Użytkownicy i grupy</strong>)</li>
+    <li style="text-align: justify;">klikamy na przycisk <strong>Zarządzaj  grupami</strong></li>
+    <li style="text-align: justify;">odnajdujemy i zaznaczamy <strong>vboxusers</strong></li>
+    <li style="text-align: justify;">klikamy na przycisk <strong>Właściwości</strong></li>
+    <li style="text-align: justify;">w polu <strong>Członkowie grupy</strong>  zaznaczamy użytkownika</li>
+    <li style="text-align: justify;">klikamy <strong>OK</strong>, <strong>Zamknij</strong>,  <strong>Zamknij</strong></li>
+    <li style="text-align: justify;">restartujemy system</li>
+</ol>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="6"></a>QEMU i KVM</font></p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.qemu.org/">QEMU i KVM</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">emulator  (QEMU),<br />
+                        maszyna wirtualna (KVM)</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">tak (licencja  GPL 2)</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępność</td>
+                        <td style="text-align: justify;">różne systemy  (QEMU),<br />
+                        GNU/Linux (KVM)</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">QEMU jest emulatorem stworzonym przez  Fabrice Bellarda, zaś KVM (skrót od Kernel-based Virtual Machine)  opartym na nim rozwiązaniem dostępnym od wersji 2.6.20 jądra Linuxa  (dokładniej mówiąc maszyną wirtualną wymagającą wirtualizacji sprzętowej  składającej się z modułów jądra i zmodyfikowanej wersji QEMU).</p>
+<p style="text-align: justify;">W Ubuntu w <strong>Centrum  Oprogramowania Ubuntu</strong> wyszukujemy <strong>qemu-kvm</strong> i  instalujemy pakiet o tej samej nazwie. Dyski są zapisywane w formatach  CLOOP (Linux Compressed Loop), COW (znany z User Mode Linux), VMDK (znów  znany z produktów VmWare), QCOW i QCOW2 (oba własne) oraz RAW.</p>
+<p style="text-align: justify;">KVM zawiera moduły jądra. Czasem mogą one kolidować z innym oprogramowaniem. Należy je wtedy wyłączyć np. poprzez wydanie odpowiednich komend z konsoli (podaję wersję dla procesorów Intela).</p>
+<p><font face="Courier New">sudo modprobe -r kvm_intel</font></p>
+<p><font face="Courier New">sudo modprobe -r kvm</font></p>
+<p>Ich uaktywnienie uzyskamy z kolei poprzez</p>
+<p><font face="Courier New">sudo modprobe kvm-intel</font></p>
+<p style="text-align: justify;">Oba rozwiązania wymagają skorzystania z  linii komend. Z tego względu dodatkowo warto zainstalować program,  który dostarczy wygodnego interfejsu do ich obsługi. Do celów testowych w Centrum  został wybrany pakiet <strong>aqemu</strong> - dzięki niemu w menu <strong>Narzędzia  systemowe</strong> pojawiła się aplikacja AQEMU.</p>
+<p style="text-align: justify;">Program ten jest  dosyć prosty w obsłudze, wymaga jedynie znajomości języka angielskiego.</p>
+<p style="text-align: justify;">Po naciśnięciu zielonego przycisku &quot;+&quot; na liście dodawana jest nowa maszyna. Jej konfigurację uzyskujemy poprzez zakładki po prawej stronie okna - i tak np. w <strong>General </strong>jesteśmy w stanie ustawić chociażby ilość przydzielanej pamięci RAM czy typ karty dźwiękowej.</p>
+<p style="text-align: justify;">Poniżej zostały pokazane wykorzystywane ustawienia dla QEMU.</p>
+<p style="text-align: justify;"><img width="500" height="327" src="sites/default/files/166/aqemu2.png" alt="" /></p>
+<p style="text-align: justify;">KVM był bardzo podobny w konfiguracji</p>
+<p style="text-align: justify;"><img width="500" height="327" src="sites/default/files/166/aqemu1.png" alt="" /></p>
+<p style="text-align: justify;">Dodatkowo wymagane były tylko dwie czynności - na zakładce <strong>HDD</strong> niezbędne było wskazanie  pliku z obrazem dysku twardego oraz dodanie karty sieciowej na zakładce<strong> Network</strong> (przyciskiem <strong>Add</strong>).</p>
+<p style="text-align: justify;"><img width="500" height="314" src="sites/default/files/166/aqemu3.png" alt="" /></p>
+<p style="text-align: justify;">Maszyny wirtualne uruchamiane z użyciem tych rozwiązań nie mają żadnych dodatków, w oknie z maszyną nie ma także żadnych informacji o stanie symulowanych urządzeń (np. czy aktualnie pracuje dysk twardy).</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="7"></a>Rozwiązania VmWare/Player</font></p>
+<p style="text-align: justify;">Firma VmWare ma w swojej ofercie  szereg komercyjnych rozwiązań wirtualizacyjnych. Jej produkty znają chociażby  użytkownicy komputerów Apple z procesorem Intela (płatnym <a href="https://www.vmware.com/products/fusion/">VmWare Fusion</a>  pozwalający na uruchamianie okienek firmy Microsof), jest też natomiast  darmowy <a href="http://www.vmware.com/products/server">VmWare Server</a>  i VmWare Player.</p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.vmware.com/products/player/">VmWare Player</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">maszyna  wirtualna</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">nie</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępność</td>
+                        <td style="text-align: justify;">Windows,  systemy GNU/Linux i inne</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Poniżej zostanie przedstawiony ten ostatni pakiet (jako najprostszy). Jego  pobranie wymaga bezpłatnego założenia konta i rejestracji na stronie    producenta.</p>
+<p style="text-align: justify;">Po <a href="http://www.vmware.com/download/player/">ściągnięciu</a> pliku z  końcówką bundle w   Ubuntu należy go uruchomić z prawami administratora -  jedna z możliwości to kliknięcie prawym klawiszem myszy na tym zbiorze w  standardowej <strong>Przeglądarce plików</strong>, wybranie opcji <strong>Otwórz  za pomocą...</strong> i uruchomienie z aplikacją <strong>gksudo</strong>.</p>
+<p style="text-align: justify;">Później podajemy hasło administratora i  możemy oglądać bardzo prosty program instalacyjny (wystarczy w nim klikać na przyciski <strong>Next</strong> i <strong>Install</strong>).</p>
+<p style="text-align: justify;"><img width="400" height="300" alt="" src="sites/default/files/166/player.png" /></p>
+<p style="text-align: justify;">Aplikacja (widoczna w Ubuntu w menu <strong>Narzędzia  systemowe</strong>) ma podobny układ jak VirtualBox.  Jej minusem może być brak polonizacji oraz współdziałanie wyłącznie z  własnym formatem dysków VMDK.</p>
+<p style="text-align: justify;"><img width="400" height="349" alt="" src="sites/default/files/166/vplayer.png" /></p>
+<p style="text-align: justify;">W ustawieniach maszyn również mamy praktycznie  te same możliwości co w VirtualBox - można wybierać ilość rdzeni procesora, łatwo  dodawać i usuwać dyski, podłączać urządzenia USB, itd.</p>
+<p style="text-align: justify;">W Windows (jako systemie gospodarza) dodawane są dwie karty sieciowe - możemy wyłączyć obie o ile używamy mostkowanego połączenia karty sieciowej.</p>
+<p style="text-align: justify;"><img width="400" height="294" alt="" src="sites/default/files/166/vsett1.png" /></p>
+<p style="text-align: justify;"><img width="400" height="294" alt="" src="sites/default/files/166/vsett2.png" /></p>
+<p style="text-align: justify;">Ciekawostką jest możliwość zapisywania jednego wirtualnego dysku w wielu plikach (gdzie każdy z nich jest jego częścią).</p>
+<p style="text-align: justify;">Inną ciekawą opcją jest funkcja wykorzystania fizycznego dysku czy też jego partycji. W tym celu przy dodawaniu nowego dysku do maszyny (np. poprzez przycisk <strong>Add</strong> w jej ustawieniach) w kreatorze należy wybrać trzecią dostępną opcję (<strong>Use a physical disk</strong>).</p>
+<p style="text-align: justify;"><img width="400" height="325" alt="" src="sites/default/files/166/addhardwarewizard.png" /></p>
+<p style="text-align: justify;">Dostępne są również dodatki do  symulowanych maszyn.  W&nbsp;przypadku Ubuntu ich instalacja nie jest  niestety tak wygodna jak w  przypadku opisywanego wcześniej konkurenta.</p>
+<p style="text-align: justify;">Po uruchomieniu maszyny wirtualnej i  kliknięciu na  opcję <strong>Install VmWare Tools</strong> w menu  głównym jej okna w maszynie widoczny będzie napęd z płytą <strong>VMWare  Tools</strong>. Znajduje się w nim archiwum w popularnym w systemach  unixopodobnych formacie tar.gz. Należy go wpierw rozpakować (po  kliknięciu na ikonę napędu na pulpicie trzeba kliknąć prawym  klawiszem myszy na tym plików, wybrać opcję <strong>Otwórz za pomocą  menedżer archiwów</strong>, w otwartym programie wybrać opcję  dekompresji, czyli z menu<strong> Plik</strong> opcję <strong>Rozpakuj</strong>).</p>
+<p style="text-align: justify;">Następny krok to uruchomienie terminala (<strong>Akcesoria\Terminal</strong>).  Przechodzimy w nim do katalogu z rozpakowanymi plikami (zamiast <font face="Courier New">katalog</font> podajemy pełną ścieżkę do niego):</p>
+<p style="text-align: justify;"><font face="Courier New">cd katalog</font></p>
+<p style="text-align: justify;">i uruchamiamy instalację</p>
+<p style="text-align: justify;"><font face="Courier New">sudo  ./vmware-install.pl</font></p>
+<p style="text-align: justify;">Program działa w trybie tekstowym i  wymaga np. odpowiedzi na pytania, w jakich katalogach umieszczać pliki  (można naciskać klawisz Enter i zgadzać się na proponowane wartości). Po  instalacji system warto zrestartować.</p>
+<p style="text-align: justify;">Uruchomienie dodatków uzyskujemy wydaną z  terminala komendą</p>
+<p><font face="Courier New">sudo vmware-toolbox</font></p>
+<p><font face="Courier New"><img width="300" height="251" src="sites/default/files/166/tools1.png" alt="" /></font></p>
+<p><img width="300" height="251" src="sites/default/files/166/tools2.png" alt="" /></p>
+<p><img width="300" height="251" src="sites/default/files/166/tools3.png" alt="" /></p>
+<p><img width="300" height="251" src="sites/default/files/166/tools4.png" alt="" /></p>
+<p style="text-align: justify;">Na usunięcie tych narzędzi pozwoli z kolei</p>
+<p><font face="Courier New">sudo vmware-uninstall-tools.pl</font></p>
+<p style="text-align: justify;">Mamy również wersję Open Source wspomnianych dodatków tworzoną w ramach projektu <a href="http://open-vm-tools.sourceforge.net">Open Virtual Machine Tools 		</a>- w <strong>Centrum Oprogramowanie Ubuntu</strong> jest to m.in. pakiet <strong>VMWare User Agent</strong>. Niestety po jego zainstalowaniu i wybraniu w menu odpowiedniej pozycji nic się nie dzieje... Z&nbsp;kolei <font face="Courier New">sudo vmware-toolbox&nbsp;</font>uruchomi dokładnie tę samą aplikację co w wersji &quot;komercyjnej&quot;.</p>
+<p style="text-align: justify;">Żeby usunąć VmWare Playera w Ubuntu,  należy otworzyć terminal i wpisać w nim komendę</p>
+<p style="text-align: justify;"><font face="Courier New">sudo bash  vmware-installer -u vmware-player</font></p>
+<p style="text-align: justify;">Podczas testowania tej aplikacji w Ubuntu widoczne było niestety dosyć nieprzyjemne cechy:</p>
+<ol>
+    <li style="text-align: justify;">podczas używania   maszyny wirtualnej z Windows XP zdarzało się, że komputer (również   host) był po prostu zawieszany (całkowicie lub czasowo)</li>
+    <li style="text-align: justify;">przydzielenie jednego rdzenia   procesora powodowało, iż system hosta miał obciążone dwa rdzenie w   całości</li>
+</ol>
+<p style="text-align: justify;">Również w Windows XP zdarzało się, że   wielokrotne włączanie i wyłączanie maszyn z połączeniem sieciowym doprowadzało do tego, iż system hosta nie był w stanie się wyłączyć  (wieszał się na ekraniu <strong>Windows is shutting down...</strong>) albo nie można było w nim włączyć/wyłączyć karty sieciowej.</p>
+<p style="text-align: justify;">Dużym rozczarowaniem jest niestety brak działającego wsparcia sprzętowego dla grafiki 3D&nbsp; w Ubuntu jako systemie gościa (pomimo istnienia odpowiedniej opcji).</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="8"></a>Rozwiązania Microsoftu/XP Mode</font><font size="+2"><br />
+</font></p>
+<p style="text-align: justify;">Firma Microsoft dostarcza coraz więcej  różnorodnych produktów wirtualizacyjnych. Mamy nie tylko hypervisora  Hyper-V i odpowiednie rozszerzenia do obecnych wersji serwerowych  Windows, ale również szereg rozwiązań tego typu w Windows 7. Korporacja publikuje również obrazy testowe  różnych wersji swoich  systemów (w ramach <a href="http://www.microsoft.com/technet/try/vhd/default.mspx">programu   VHD Test Drive</a>, pliki można znaleźć również w <a href="http://www.microsoft.com/downloads/results.aspx?pocId=&amp;freetext=msvhds&amp;DisplayLang=en">ramach   Download Center</a>) oraz <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef">pliki   umożliwiające sprawdzenie działania różnych wersji Internet Explorera  pod kontrolą  Windows XP/Vista</a>.</p>
+<p style="text-align: justify;">Siódemka zawiera <a href="?q=node/111#10">obsługę formatu VHD  (wszystkie edycje)</a>, <a href="http://www.microsoft.com/windows/virtual-pc/">tryb XP (XP&nbsp;Mode)</a> oraz <a href="http://www.dobreprogramy.pl/Instalacja-Windows-na-wirtualnym-dysku-VHD,Artykul,11419.html">ma możliwość  instalacji na partycji zapisanej fizycznie w pliku w formacie  VHD</a>. Te dwie ostatnie funkcjonalności przewidziane są dla droższych edycji Professional, Ultimate i Enterprise, tryb XP jest natomiast niczym innym jak <a href="http://www.microsoft.com/windows/virtual-pc/">zintegrowaną z systemem maszyną wirtualną z   Windows XP SP3</a> (początkowo wymagała ona wsparcia sprzętowego, <a href="http://support.microsoft.com/kb/977206">obecnie zaś nie jest to niezbędne</a>).</p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.microsoft.com/windows/virtual-pc/">Windows Virtual  PC<br />
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">maszyna  wirtualna</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">nie</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępna</td>
+                        <td style="text-align: justify;">Windows 7</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><a href="http://www.microsoft.com/windows/virtual-pc/">Pobranie trybu XP</a> jest bezpłatne, wymaga jedynie sprawdzenia legalności systemu. Instalujemy trzy moduły - Windows Virtual PC (aplikację do obsługi i tworzenia maszyn wirtualnych), tryb XP (maszynę wirtualną) i <a href="http://support.microsoft.com/kb/977206">uaktualnienie pozwalające na działanie całości bez funkcji wirtualizacji sprzętowej</a>.</p>
+<p style="text-align: justify;">Windows Virtual PC zawiera dodatki dla Windows XP SP3, Vista SP1 oraz 7, maszyna z Windows XP ma je w sobie zainstalowane i od  razu np. dzieli dyski twarde z gospodarzem czy pozwala na dodanie do menu Start gospodarza wpisów dotyczących zainstalowanych w niej aplikacji (opcja <strong>Narzędzia/Ustawienia/Automatyczne  publikowanie</strong> w oknie maszyny).</p>
+<p style="text-align: justify;">Możliwe jest tutaj również współdzielenie różnych urządzeń (np. podłączonych do interfejsu USB) albo&nbsp; tworzenie maszyn z innymi systemami operacyjnymi (wspierane są tylko te 32-bitowe).</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="9"></a>Virtual PC</font></p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.microsoft.com/windows/virtual-pc/support/virtual-pc-2007.aspx">Virtual  PC 2007 SP1<br />
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">maszyna  wirtualna</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">nie</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępna</td>
+                        <td style="text-align: justify;">Windows XP/Vista</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Poniżej przedstawione zostanie rozwiązanie dostępne  użytkownikom Windows XP/Vista (czyli darmowa aplikacja Virtual PC 2007 SP1).</p>
+<p style="text-align: justify;">Po <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=28C97D22-6EB8-4A09-A7F7-F6C7A1F000B5&amp;displaylang=en">pobraniu</a>  niezbędna jest krótka instalacja - prośba o wskazanie katalogu, zaakceptowanie licencji i  podanie danych oraz tego, czy program ma być dostępny dla wszystkich  użytkowników systemu.</p>
+<p style="text-align: justify;">Po instalacji w menu Start pojawia się nowa ikona <strong>Microsoft  Virtual PC</strong>, w ustawieniach karty sieciowych widoczna jest  usługa <strong>Virtual Machine Network Services</strong>.</p>
+<p style="text-align: justify;">Pierwsze uruchomienie i widać dosyć  standardowe okno (polski język nie jest obsługiwany).</p>
+<p style="text-align: justify;"><img width="200" height="140" alt="" src="sites/default/files/166/vpc1.png" /></p>
+<p style="text-align: justify;">Jest też kreator. Klikamy w nim przycisk  <strong>Next</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc2.png" /></p>
+<p style="text-align: justify;">Ponieważ interesuje nas nowa maszyna,  najlepsza będzie pierwsza  opcja (<strong>Create a virtual machine</strong>).  Wybieramy ją i klikamy przycisk <strong>Next</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc3.png" /></p>
+<p style="text-align: justify;">Program standardowo proponuje zapisanie  katalogu z plikami maszyny w <strong>My Documents</strong> - można to   oczywiście zmienić korzystając z <strong>Browse</strong>. Podajemy nazwę  i klikamy <strong>Next</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc4.png" /></p>
+<p style="text-align: justify;">Teraz potwierdzamy system operacyjny  gościa i klikamy <strong>Next</strong>.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc5.png" /></p>
+<p style="text-align: justify;">Na kolejnym ekranie wybieramy możemy  wybrac ilość RAM.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc6.png" /></p>
+<p style="text-align: justify;">Kolejne pytania dotyczy wyboru dysku  twardego - można wybrać istniejący (format VHD) lub stworzyć nowy.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc7.png" /></p>
+<p style="text-align: justify;">&nbsp;<img width="400" height="314" alt="" src="sites/default/files/166/vpc8.png" /></p>
+<p style="text-align: justify;">Na końcu trzeba jeszcze potwierdzić i  maszyna zostaje stworzona.</p>
+<p style="text-align: justify;"><img width="400" height="314" alt="" src="sites/default/files/166/vpc9.png" /></p>
+<p style="text-align: justify;">Po stworzeniu maszyny jej nazwa pojawi  się w głównym oknie programu. Można ją uruchomić lub wejść w ustawienia.  Dosyć ciekawą funkcją jest <strong>Undo Disks</strong>, która pozwala  na pracę z maszyną, a później na powrót do jej wcześniejszego stanu  (tego, co było wczesniej zapisane na dysku). Mamy opcję współdzielonych  folderów, która jednakże wymaga zainstalowania dodatków w maszynie.</p>
+<p><img width="500" height="343" alt="" src="sites/default/files/166/vpc11.png" /></p>
+<p style="text-align: justify;">Z kolei z głównego menu programu lub z opcji związanych z dyskami twardymi można uruchomić kreatora dysków. Pozwoli on na ustawienie, żeby plik z dyskiem miał cały czas zadeklarowaną wielkość (a nie ustalaną stosownie do potrzeb i równą  podanej tylko w najgorszym przypadku) albo spakowanie zawartości.</p>
+<p style="text-align: justify;">Dodatki do maszyn przeznaczone są dla OS2, DOS i Windows. Ciekawostką jest, iż oprogramowanie to nie pozwoliło na testowym komputerze użycie sprzętowej wirtualizacji oraz to, że w maszynach nie działało przewijanie w myszy.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="10"></a>DOS&nbsp;wiecznie żywy...<br />
+</font></p>
+<p style="text-align: justify;"><strong>Co zrobić, gdybyśmy natomiast chcieli  zagrać w jedną z gier do DOS&nbsp;?</strong></p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.dosbox.com/">DOSBox</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">emulator</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">tak</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępność</td>
+                        <td style="text-align: justify;">Windows,  GNU/Linux i inne</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Możliwości jest kilka - jednym  rozwiązaniem jest instalacja DOSa&nbsp; (chociażby darmowego <a href="http://www.freedos.org/">FreeDOSa</a>) korzystając z wcześniej  przedstawianych rozwiązań, innym zaś skorzystanie z maszyn, które są  ukierunkowane na ten typ oprogramowania.</p>
+<p style="text-align: justify;">Pierwszy z takich pakietów to DOSBox - w  <strong>Centrum Oprogramowania Ubuntu</strong> szukamy  pakietów z  frazą <strong>dosbox</strong>  i instalujemy pakiet <strong>DOSBox   Emulator.</strong></p>
+<p style="text-align: justify;">Później pozostaje nam uruchomienie  naszemu emulatora komendą <font face="Courier New">dosbox</font>, a w  nim podłączenie katalogu z naszymi plikami</p>
+<p><font face="Courier New">mount /home/marcin/virtual D: -t cdrom</font></p>
+<p style="text-align: justify;"><img width="400" height="267" src="sites/default/files/166/dosbox.png" alt="" /></p>
+<p style="text-align: justify;">Program emuluje 32-bitową platformę x86, zgodnie z informacją z zamieszczonego powyżej zrzutu ekranu wprowadzenie można obejrzeć po użyciu komendy <font face="Courier New">intro</font>.</p>
+<p style="text-align: justify;">Ciekawostką jest, iż wersje DOSBoxa działające na platformie Symbian i Android pozwoliły na uruchomienie tam Windows 3.1 (szerzej można poczytać chociażby na <a href="http://www.frazpc.pl/b/232621">FrazPC</a> i <a href="http://androidblog.therevolve.com/?p=12">ANDROID BLOG</a>).</p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www.dosemu.org/">DOSEmu</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">maszyna  wrtualna</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">&nbsp;darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">&nbsp;tak</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępny</td>
+                        <td style="text-align: justify;">&nbsp;Linux,  NetBSD</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Jest również DOSEmu - W <strong>Centrum  Oprogramowania Ubuntu</strong> szukamy pakietów z frazą <strong>dosemu</strong>   i instalujemy pakiet <strong>DOS&nbsp;Emulator</strong><strong>.</strong> Obsługiwane jest również jedynie oprogramowanie 32-bitowe.</p>
+<p style="text-align: justify;">Próba uruchomienia komendą <font face="Courier New">dosemu</font> w terminalu może skończyć się  wyświetleniem komunikatu</p>
+<p><font face="Courier New">LOWRAM mmap: Operation not permitted<br />
+Cannot map low DOS memory (the first 640k).<br />
+You can most likely avoid this problem by running<br />
+sysctl -w vm.mmap_min_addr=0<br />
+as root, or by changing the vm.mmap_min_addr setting in<br />
+/etc/sysctl.conf or a file in /etc/sysctl.d/ to 0.</font></p>
+<p style="text-align: justify;">Zgodnie z podaną sugestią można użyć  komendy</p>
+<p><font face="Courier New">sudo sysctl -w vm.mmap_min_addr=0</font></p>
+<p style="text-align: justify;">i już po chwili np. komenda</p>
+<p style="text-align: justify;"><font face="Courier New">dosemu &amp;</font></p>
+<p style="text-align: justify;">pozwoli na zadziałanie tego  programu.</p>
+<p style="text-align: justify;">Jak widać na pokazanym niżej ekran, dysk D domyślnie zawiera pliki z katalogu domowego użytkownika.</p>
+<p style="text-align: justify;"><img width="400" height="238" alt="" src="sites/default/files/166/dosemu.png" /></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="11"></a>Java na zawsze ?</font></p>
+<p style="text-align: justify;"><strong>Zostaną teraz wskazane rozwiązania, które może wprawdzie niekoniecznie są bardzo  uniwersalne czy dopracowane, ale za to mają pewne unikalne cechy albo są  po prostu klasyką...</strong></p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Nazwa</td>
+                        <td style="text-align: justify;"><a href="http://jpc.sourceforge.net/">JPC</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">emulator</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">tak (licencja  GPL 2)</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępna</td>
+                        <td style="text-align: justify;">systemy z Javą</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Java jest niewątpliwie językiem o dużych  możliwościach (jeżeli ktoś w to wątpi, można polecić poniższego filmiku - jego kopii z YouTube lub oryginału z <a href="http://jz10.java.no/java-4-ever-trailer.html">Java.no</a>).</p>
+
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/FwwWo-NzPFo&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/FwwWo-NzPFo&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+
+
+<p style="text-align: justify;">A gdyby tak emulować z jej użyciem całą  platformę x86 ?</p>
+<p style="text-align: justify;">JPC to próba realizacji takiego  rozwiązania. Jego autorzy szacują jego wydajność na poziomie 20% rzeczywistej prędkości maszyny. Obecnie nie uruchomimy w ten sposób Ubuntu czy Windows XP,  ale np.&nbsp; DSL (Damn Small Linux) już tak. Obsługiwany format dysku  to tym razem RAW.</p>
+<p style="text-align: justify;">Całość możemy sprawdzić w  przeglądarce albo uruchomić jako oddzielny program - potrzebna jest  jedynie maszyna wirtualna Javy. W&nbsp;przypadku Ubuntu przed instalacją  jej wersji dostarczonej przez firmę Sun trzeba wykonać pewien dodatkowy  krok, czyli wydać komendy</p>
+<p><font face="Courier New">sudo add-apt-repository &quot;deb  http://archive.canonical.com/ lucid partner&quot;</font></p>
+<p><font face="Courier New">sudo apt-get update</font></p>
+<p style="text-align: justify;">z terminala albo dodać napis w  cudzysłowiu w aplikacji <strong>Źródła Oprogramowania</strong> (podobnie  jak było to opisane wcześniej dla VirtualBoxa). Później  wystarczy w <strong>Centrum Oprogramowania Ubuntu</strong> zainstalować  pakiet <strong>Wtyczka Sun Java 6</strong> (przy wyłączonej  przeglądarce).</p>
+<p style="text-align: justify;">Następnie odwiedzamy <a href="http://jpc.sourceforge.net/home_home.html">stronę domową</a> i już  można wybierać jeden z systemów do testowania.</p>
+<p style="text-align: justify;"><img width="400" height="417" src="sites/default/files/166/jpc.png" alt="" /></p>
+<p style="text-align: justify;"><strong>Widoczne są tutaj niestety pewne problemy z udostępnianymi dystrybucjami Linuxa (chociażby z kursorem myszy), bardzo dobrze z kolei działają programy dla DOS obsługiwane z użyciem klawiatury.</strong></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="12"></a>FAUMachine</font></p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Produkt</td>
+                        <td style="text-align: justify;"><a href="http://www3.informatik.uni-erlangen.de/Research/FAUmachine/">FAUMachine</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">emulator</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowa</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">tak</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępna</td>
+                        <td style="text-align: justify;">GNU/Linux, Mac OS X</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;"><strong>FAUMachine wyróżnia się  tym, iż nie wymaga żadnych modułów jądra ani uprawnień administratora  (potencjalnie więc wpływa mniej na system gospodarza).</strong></p>
+<p style="text-align: justify;">W <strong>Centrum Oprogramowania Ubuntu</strong>  instalujemy pakiet <strong>FAUMachine</strong>, aplikacja pojawia się w  menu <strong>Narzędzia systemowe</strong> pod nazwą <strong>FAUMachine</strong>.</p>
+<p style="text-align: justify;">Przy pierwszym uruchomieniu podajemy  katalog (w którym będą zapisywane maszyny) i parametry - architektura 32  czy 64-bitowa (ta ostatnia tylko dla procesorów AMD), wielkość RAM i dysku.</p>
+<p style="text-align: justify;">Widać tutaj niestety  bardzo duże ograniczenia aplikacji - np. RAM to maksymalnie 256 MB, po  wstępnej konfiguracja kolejna jest możliwa wyłącznie przez edycję  pliku ~/.faumrc, pliki z maszyną mają dosyć nietypowe nazwy (jeżeli umieścimy je na partycji NTFS, Windows będzie mieć problemy z ich usunięciem).</p>
+<p style="text-align: justify;"><strong>Przyjęte rozwiązania są  dalekie od intuicyjności, brak jest też jakiegokolwiek opisu na stronie projektu...</strong></p>
+<p style="text-align: justify;">Z ciekawostek: program pozwala na posiadanie procesora Pentium II działającego z  prędkością 2 Ghz.</p>
+<p><img width="400" height="332" src="sites/default/files/166/fau.png" alt="" /></p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="13"></a>Bochs</font></p>
+<table cellspacing="0" cellpadding="5" border="0" align="right" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td>
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse:separate;">
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Nazwa</td>
+                        <td style="text-align: justify;"><a href="http://bochs.sourceforge.net/">Bochs</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Typ</td>
+                        <td style="text-align: justify;">emulator</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Koszt</td>
+                        <td style="text-align: justify;">darmowy</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">Kod źródłowy</td>
+                        <td style="text-align: justify;">tak</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td style="text-align: justify;">Dostępność</td>
+                        <td style="text-align: justify;">Windows,  GNU/Linux, inne</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">W Centrum Oprogramowania Ubuntu szukamy   pakietów z frazą <strong>bochs</strong> i instalujemy pakiet <strong>IA-32   PC Emulator</strong><strong>.</strong> Program pozwala na emulację  32-bitowej platformy x86.</p>
+<p style="text-align: justify;">Jest obsługiwany i konfigurowany tylko z konsoli, z tego względu został potraktowany wyłącznie jako ciekawostka.</p>
+<p style="text-align: justify;"><img width="400" height="327" src="sites/default/files/166/bochs.png" alt="" />&nbsp;</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="14"></a>Zabawy z obrazami</font></p>
+<p style="text-align: justify;">Dyski twarde używane przez maszyny wirtualne są najczęściej fizycznie plikami w różnych formatach - VMDK&nbsp;(VmWare), VHD (Microsoft), VDI&nbsp;(VirtualBox), itp. Jak poradzić sobie z ich obsługą ?</p>
+<p style="text-align: justify;">Konwersję między wiekszością formatów zrobimy z użyciem <font face="Courier New">qemu-img</font>, przykładowe wywołanie z konsoli może wyglądać</p>
+<p><font face="Courier New">qemu-img convert -O raw plik_wejsciowy.vhd plik_wyjsciowy.bin</font></p>
+<p style="text-align: justify;">Jest też narzędzie <font face="Courier New">VBoxManage</font>, pozwoli ono na obsługę VHD, VDI i VMDK. Konwersję pliku uzyskamy tutaj przez</p>
+<p><font face="Courier New">VBoxManage clonehd plik_wejsciowy.vmdk plik_wyjsciowy.vhd --format VHD</font></p>
+<p>gdzie zamiast <font face="Courier New">VHD</font> podajemy docelowy format pliku.</p>
+<p style="text-align: justify;">Jeżeli chcielibyśmy zmienić rozmiar pliku VMDK (tzn. pliku, a nie partycji w nim zapisanych), opcja do tego znajduje się w pakiecie VmWare Player (przy ustawieniach maszyn wirtualnych, do których ten plik podłączono).</p>
+<p style="text-align: justify;">Pakiet ten zawiera jeszcze jedną przydatną aplikację (<font face="Courier New">vmware-fuseUI</font>) - pozwala ona na łatwe &quot;podłączenie&quot; zawartości pliku VMDK w jakimś katalogu systemu plików. Z kronikarskiego obowiązku: <a href="?q=node/111#10">podobne rozwiązanie ma Windows 7 (w odniesieniu do plików VHD)</a>.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="15"></a>Limitowanie sieci</font></p>
+<p style="text-align: justify;">Praktycznie każda z przedstawionych wcześniej maszyn ma funkcje ustawiania ilości rdzeni CPU czy dostępnej ilość RAM, niestety żadna nie potrafi ograniczyć pasma przeznaczonego dla karty sieciowej. Czy da się coś z tym zrobić ?</p>
+<p style="text-align: justify;">Można założyć odpowiednie ograniczenie w samej maszynie wirtualnej. Ubuntu ma do tego celu narzędzie <font face="Courier New">wondershaper</font>. W celu ustawienia limitu wydajemy komendę z konsoli</p>
+<p style="text-align: justify;"><font face="Courier New">wondershaper eth0 100 200</font></p>
+<p style="text-align: justify;">gdzie zamiast <font face="Courier New">eth0</font> podajemy nazwę naszego interfejsu sieciowego (uzyskamy ją np. poprzez komendę <font face="Courier New">ifconfig</font>), zamiast <font face="Courier New">100</font> prędkość pobierania w kilobitach/s i zamiast <font face="Courier New">200</font> prędkość wysyłania w kilobitach/s.</p>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="16"></a>Wydajność przeglądarek<br />
+</font></p>
+<p style="text-align: justify;">Na testowym komputerze zainstalowane były dwa &quot;główne&quot; systemy - <a href="?q=node/159#4">32-bitowe Ubuntu 10.04  na partycji NTFS (instalator w technologii WUBI)</a> oraz 32-bitowy  Windows XP Pro SP3.</p>
+<p style="text-align: justify;">Przygotowana została maszyna  wirtualna z 32-bitowym Ubuntu 10.04. Dodawano/usuwano w niej dodatki   proponowane przez producentów opisywanych rozwiązań oraz konwertowano format dysku twardego (z VMDK na VHD). Do celów testowych maszyny wirtualne miały ilość RAM ograniczoną do 512 MB, zawsze (czy to w systemach rzeczywistych czy maszynach wirtualnych) ustawiano rozdzielczość 800x600 i przydzielano tylko jeden z dwóch fizycznych rdzeni procesora (Core 2 Duo).</p>
+<p style="text-align: justify;">W takiej konfiguracji przetestowano wpierw przeglądarki WWW. Rozpoczęto od Firefoxa 3.6.6 (który nawiasem mówiąc ostatnio <a href="http://www.sutor.com/c/2010/07/ibm-moving-to-firefox-as-default-browser/">został wybrany jako domyślny w korporacji IBM</a>) i testu <a href="http://service.futuremark.com/peacekeeper"><strong>PeaceKeeper</strong></a> (w którym większa ilość punktów oznacza lepszy wynik).</p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center" rowspan="2" style="text-align: center;"><strong>System gospodarza</strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Rozwiązanie</strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td colspan="2" style="text-align: center;"><a href="http://service.futuremark.com/peacekeeper"><strong>PeaceKeeper</strong></a></td>
+            <td rowspan="2" style="text-align: center;"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>Wyniki cząstkowe (pkt)</strong></td>
+            <td style="text-align: center;"><strong>Średnia (pkt)</strong></td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">brak</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1997, 2036, 2052</td>
+            <td style="text-align: center;">2028</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">KVM 0.12.3</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1838, 1888, 1852</td>
+            <td style="text-align: center;">1859</td>
+            <td style="text-align: center;">8</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1617, 1797, 1863</td>
+            <td style="text-align: center;">1759</td>
+            <td style="text-align: center;">13</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1540, 1751, 1755</td>
+            <td style="text-align: center;">1682</td>
+            <td style="text-align: center;">17</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1548, 1726, 1688</td>
+            <td style="text-align: center;">1654</td>
+            <td style="text-align: center;">18</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1581, 1637, 1667</td>
+            <td style="text-align: center;">1628</td>
+            <td style="text-align: center;">20</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1568, 1521, 1600</td>
+            <td style="text-align: center;">1563</td>
+            <td style="text-align: center;">23</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1607, 1530, 1494</td>
+            <td style="text-align: center;">1543</td>
+            <td style="text-align: center;">24</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1513, 1553, 1513</td>
+            <td style="text-align: center;">1526</td>
+            <td style="text-align: center;">25</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1424, 1420, 1504</td>
+            <td style="text-align: center;">1449</td>
+            <td style="text-align: center;">29</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">Virtual PC 2007 SP1</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1059, 974, 1074</td>
+            <td style="text-align: center;">1036</td>
+            <td style="text-align: center;">49</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">QEMU 0.12.3</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">92, 91, 97</td>
+            <td style="text-align: center;">93</td>
+            <td style="text-align: center;">95</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Sprawdzono również wyniki <strong><a href="http://www2.webkit.org/perf/sunspider-0.9/sunspider.html"><strong>SunSpider  0.9</strong></a></strong> (tutaj liczy się czas wykonania operacji). Z dosyć oczywistego względu nie sprawdzono już tutaj i dalej wydajności QEMU.</p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center" rowspan="1" style="text-align: center;"><strong>System gospodarza</strong></td>
+            <td style="text-align: center;"><strong>Rozwiązanie</strong></td>
+            <td style="text-align: center;"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td style="text-align: center;"><a href="http://www2.webkit.org/perf/sunspider-0.9/sunspider.html"><strong>SunSpider 0.9 (ms)<br />
+            </strong></a></td>
+            <td style="text-align: center;"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">brak</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1152 +/- 2.8%</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1413 +/- 6.3%</td>
+            <td style="text-align: center;">18</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">KVM 0.12.3</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1439 +/- 3.6%</td>
+            <td style="text-align: center;">25</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1441 +/- 3.4%</td>
+            <td style="text-align: center;">25</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1518 +/- 2.4%</td>
+            <td style="text-align: center;">32</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1700 +/- 16%</td>
+            <td style="text-align: center;">47</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Windows</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">2226 +/- 9.5%</td>
+            <td style="text-align: center;">93</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">2284 +/- 10%</td>
+            <td style="text-align: center;">98</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">Virtual PC 2007 SP1</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">2580 +/- 6.6%</td>
+            <td style="text-align: center;">124</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">2584 +/- 13.9%</td>
+            <td style="text-align: center;">125</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">3039 +/- 4.3%</td>
+            <td style="text-align: center;">164</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Przetestowana została także przeglądarka Chromium 5.0.375.99. W wynikach widoczny jest rozrzut  znacznie większy  niż w przypadku Firefoxa, co może sugerować o nieprzydatności użytego  testu w przypadku tego programu (trudno ocenić, czy jest to kwestia  wbudowanych optymalizacji czy przyczyna jest inna).</p>
+<p style="text-align: justify;">Również pewne wątpliwości budzi wynik  dla KVM - test wskazywał większe wartości niż w rzeczywistym systemie i  również ciężko stwierdzić, czy jest to wynik zastosowania jakichś  operacji związanych z zegarem czy innych czynników (dalej świadomie  przyjęto, iż opóźnienie tutaj wynosi 0, gdyż raczej ciężko jest przyjąć,  iż aplikacja może działać szybciej).</p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center" rowspan="2" style="text-align: center;"><strong>System gospodarza</strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Rozwiązanie</strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td colspan="2" style="text-align: center;"><a href="http://service.futuremark.com/peacekeeper"><strong>PeaceKeeper</strong></a></td>
+            <td rowspan="2" style="text-align: center;"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>Wyniki cząstkowe (pkt)</strong></td>
+            <td style="text-align: center;"><strong>Średnia (pkt)</strong></td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">brak</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">5117, 5147, 4597</td>
+            <td style="text-align: center;">4954</td>
+            <td style="text-align: center;">&nbsp;0</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">KVM 0.12.3</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">5166, 5319, 5378</td>
+            <td style="text-align: center;">5288</td>
+            <td style="text-align: center;">&nbsp;0</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">4987,5009, 4852</td>
+            <td style="text-align: center;">4949</td>
+            <td style="text-align: center;">&nbsp;0</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">4904, 4669, 4182</td>
+            <td style="text-align: center;">4585</td>
+            <td style="text-align: center;">&nbsp;7</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">3796, 4262, 4066</td>
+            <td style="text-align: center;">4041</td>
+            <td style="text-align: center;">&nbsp;18</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">3587, 3571, 3563</td>
+            <td style="text-align: center;">3574</td>
+            <td style="text-align: center;">&nbsp;28</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">3212, 3519, 3466</td>
+            <td style="text-align: center;">3399</td>
+            <td style="text-align: center;">31</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">3211, 3517, 3391</td>
+            <td style="text-align: center;">3373</td>
+            <td style="text-align: center;">&nbsp;32</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">3116, 3171, 3378</td>
+            <td style="text-align: center;">3222</td>
+            <td style="text-align: center;">&nbsp;35</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">3144, 3180, 3188</td>
+            <td style="text-align: center;">3171</td>
+            <td style="text-align: center;">&nbsp;36</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">Virtual PC 2007 SP1</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1642, 2282, 3012</td>
+            <td style="text-align: center;">2312</td>
+            <td style="text-align: center;">&nbsp;53</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Dodano też oczywiście wyniki <strong><strong><a href="http://www2.webkit.org/perf/sunspider-0.9/sunspider.html"><strong>SunSpider   0.9</strong></a>.</strong></strong></p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center" rowspan="1" style="text-align: center;"><strong>System gospodarza</strong></td>
+            <td style="text-align: center;"><strong>Rozwiązanie</strong></td>
+            <td style="text-align: center;"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td style="text-align: center;"><a href="http://www2.webkit.org/perf/sunspider-0.9/sunspider.html"><strong>SunSpider 0.9 (ms)<br />
+            </strong></a></td>
+            <td style="text-align: center;"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">brak</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">549 +/- 11.2%</td>
+            <td style="text-align: center;">&nbsp;0</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">KVM 0.12.3</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">550 +/- 1.9%</td>
+            <td style="text-align: center;">&nbsp;0</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">591 +/- 4.9%</td>
+            <td style="text-align: center;">&nbsp;8</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">619 +/- 3.9%</td>
+            <td style="text-align: center;">13</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">792 +/- 39.6%</td>
+            <td style="text-align: center;">44</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">882 +/- 24.3%</td>
+            <td style="text-align: center;">&nbsp;61</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1302 +/- 19.3%</td>
+            <td style="text-align: center;">137</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">Virtual PC 2007 SP1</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1326 +/- 9.1%</td>
+            <td style="text-align: center;">141</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1373 +/- 30.6%</td>
+            <td style="text-align: center;">150</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">1400 +/- 34.9%</td>
+            <td style="text-align: center;">155</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">1601 +/- 9.9%</td>
+            <td style="text-align: center;">192</td>
+        </tr>
+    </tbody>
+</table>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p style="text-align: justify;"><font size="+2"><a name="17"></a>Wydajność - inne testy<br />
+</font></p>
+<p style="text-align: justify;">Z uwagi na obecność działającej akceleracji 3D podjęta została próba uruchomienia jednego z bardziej rozbudowanych benchmarków graficznych (opartego na enginie Unigine). W tym celu w <strong>Centrum Oprogramowania Ubuntu</strong> zainstalowany został wpierw pakiet <strong>phoronix-test-suite</strong>, następnie w konsoli wydano komendę</p>
+<p style="text-align: justify;"><font face="Courier New">phoronix-test-suite benchmark unigine</font></p>
+<p style="text-align: justify;"><font face="Courier New"><img width="400" height="313" src="sites/default/files/166/unigine.png" alt="" /><br />
+</font></p>
+<p style="text-align: justify;">O ile w rzeczywistym Ubuntu uzyskano odpowiednie wyniki, o tyle w VirtualBox test niestety zwyczajnie się nie uruchomił&nbsp; - jest to o tyle ciekawe, że rozszerzenia Compiz i gra TuxRacer nie miały tam większych problemów. Najbardziej prawdopodobna przyczyna to brak wsparcia dla jakichś bardziej zaawansowanych funkcji OpenGL.</p>
+<p style="text-align: justify;">Sprawdzone zostały inne zestawy testów związanych z grafiką (chociażby <font face="Courier New">phoronix-test-suite benchmark xrender</font> i<font face="Courier New"> phoronix-test-suite benchmark x-testing</font>). Skutek był niestety ten sam...</p>
+<p style="text-align: justify;">Phoronix zawiera również inne rodzaje benchmarków (ich pełną listę można   poznać poprzez&nbsp; <font face="Courier New">phoronix-test-suite  list-suites</font>). Wybrany został test <strong><font face="Courier New">cryptography</font></strong>, a z niego wynik drugiego testu (OpenSSL), czyli znów czas wykonania się pewnych operacji zależny od wydajności obliczeń i operacji dyskowych.</p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center" rowspan="1" style="text-align: center;"><strong>System gospodarza</strong></td>
+            <td style="text-align: center;"><strong>Rozwiązanie</strong></td>
+            <td style="text-align: center;"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td style="text-align: center;"><strong>OpenSSL (znaki/s)</strong></td>
+            <td style="text-align: center;"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">brak</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">12.72</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">KVM 0.12.3</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">12.47</td>
+            <td style="text-align: center;">2</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">12.32</td>
+            <td style="text-align: center;">3</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">12.20</td>
+            <td style="text-align: center;">4</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">12.12</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">11.97</td>
+            <td style="text-align: center;">6</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">11.90</td>
+            <td style="text-align: center;">6</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">11.75</td>
+            <td style="text-align: center;">8</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">10.76</td>
+            <td style="text-align: center;">15</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">WIndows XP</td>
+            <td style="text-align: center;">Virtual PC 2007 SP1</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">10.72</td>
+            <td style="text-align: center;">15</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td rowspan="1" style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">9.86</td>
+            <td style="text-align: center;">22</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Przeprowadzono także test związany z pamięcią. W&nbsp;tym celu w <strong>Centrum Oprogramowania Ubuntu </strong>pobrano aplikację <strong>mbw</strong>, a następnie uruchomiono z konsoli komendę</p>
+<p style="text-align: justify;"><strong><font face="Courier New">mbw -n 3 -t0 256</font></strong></p>
+<p style="text-align: justify;">(<strong><font face="Courier New">256</font></strong> oznacza 256 MB przetestowanej pamięci, <strong><font face="Courier New">3</font></strong> to ilość powtórzeń, a <strong><font face="Courier New">-t0 </font></strong>wymusza wybranie pierwszego testu). Liczby związane są z prędkością (im mniejsze, tym lepsze).</p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center" style="text-align: center;" rowspan="2"><strong>System gospodarza</strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Rozwiązanie</strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td style="text-align: center;" colspan="2"><strong><font face="Courier New">mbw -n 3 -t0 256</font></strong></td>
+            <td rowspan="2" style="text-align: center;"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>Elapsed</strong></td>
+            <td style="text-align: center;"><strong>Średnia</strong></td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">brak</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">0.21, 0.21, 0.21</td>
+            <td style="text-align: center;">0</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">KVM 0.12.3</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">21, 18, 27</td>
+            <td style="text-align: center;">22</td>
+            <td style="text-align: center;">22</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">19, 23, 26</td>
+            <td style="text-align: center;">23</td>
+            <td style="text-align: center;">23</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">22, 20, 30</td>
+            <td style="text-align: center;">24</td>
+            <td style="text-align: center;">24</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">Virtual PC 2007 SP1</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">36, 20, 43</td>
+            <td style="text-align: center;">33</td>
+            <td style="text-align: center;">33</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">53, 41, 84</td>
+            <td style="text-align: center;">60</td>
+            <td style="text-align: center;">59</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">75, 70, 52</td>
+            <td style="text-align: center;">66</td>
+            <td style="text-align: center;">66</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">64, 75, 127</td>
+            <td style="text-align: center;">89</td>
+            <td style="text-align: center;">89</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Ubuntu</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">tak</td>
+            <td style="text-align: center;">82, 108, 104</td>
+            <td style="text-align: center;">98</td>
+            <td style="text-align: center;">98</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VirtualBox 3.2.6 r63112</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">114, 82, 140</td>
+            <td style="text-align: center;">112</td>
+            <td style="text-align: center;">112</td>
+        </tr>
+        <tr bgcolor="#f2f2f2">
+            <td style="text-align: center;">Windows XP</td>
+            <td style="text-align: center;">VmWare Player 3.1.0 build-261024</td>
+            <td style="text-align: center;">nie</td>
+            <td style="text-align: center;">72, 99, 274</td>
+            <td style="text-align: center;">148</td>
+            <td style="text-align: center;">148</td>
+        </tr>
+    </tbody>
+</table>
+<p align="right"><a href="#gora">Do góry</a></p>
+<p><font size="+2"><a name="18"></a>Podsumowanie<br />
+</font></p>
+<p style="text-align: justify;"><strong>Czy rozwiązania wirtualizacyjne pozwalają łatwo testować aplikacje w odosobnieniu ?</strong></p>
+<p style="text-align: justify;">Tak - nowe systemy można tworzyć dosyć prosto, do wygodnej pracy wymagana  jest jedynie odpowiednia ilość pamięci RAM oraz przynajmniej dwa rdzenie  procesora.&nbsp;</p>
+<p style="text-align: justify;">Oprócz zalet są i wady - pewne kwestie z dzieleniem przepustowości łącza sieciowego, wpływanie na &quot;główny&quot; system operacyjny (np. zawieszanie go), emulacja czasem archaicznych urządzeń i standardów., konieczność pamiętania o bezpieczeństwie. Do tego dochodzą duże problemy z grafiką 3D, czasem również trzeba użyć konsoli (co może być męczące dla niektórych użytkowników).</p>
+<p style="text-align: justify;">Jest też problem wydajności - niewątpliwie najlepiej również używać systemów operacyjnych gościa  mających mikroskopijne wymagania sprzętowe. Testowany Ubuntu 10.04 dosyć dobrze  spełnia to ostatnie wymaganie - <a href="?q=node/156">był testowany  przez autora z powodzeniem nawet przy 256 MB RAM</a> i nie potrzebuje  rozbudowanego (zajmującego moc obliczeniową) oprogramowania antywirusowego.</p>
+<p style="text-align: justify;">Możemy się także spotkać z kwestiami..... prawnymi - okazuje się   przykładowo, że niektórych starszych Windows nie można w ogóle używać w   takich środowiskach (zgodnie ze <a href="http://www.microsoft.com/About/Legal/EN/US/IntellectualProperty/UseTerms/Default.aspx">stroną  Licence Terms</a> dotyczy to np.  wersji Vista Home Basic i Vista Home  Premium). Czasy się jednak na szczęście zmieniają - licencja do Windows 7 nie ma już tutaj ograniczeń, miłą niespodziankę sprawia swoim użytkownikom również np. firma Kaspersky (<a href="http://support.kaspersky.com/pl/faq/?qid=208280570">przynajmniej część jej produktów jest licencjonowana na fizyczną maszynę, a nie określoną ilość systemów w niej zainstalowanych</a>)</p>
+<p style="text-align: justify;"><strong>Z wymienionych względów </strong><strong>maszyny  wirtualne </strong><strong>do  niektórych zastosowań zwyczajnie się nie nadają.</strong><strong> A która jest najlepsza ?</strong><strong><br />
+</strong></p>
+<p style="text-align: justify;">Przedstawione wcześniej wyniki pozwoliły na uzyskanie następujących wyników:</p>
+<table cellspacing="1" cellpadding="1" border="1" style="border-collapse:separate;">
+    <tbody>
+        <tr valign="center" align="center">
+            <td rowspan="3"><strong>System   gospodarza</strong></td>
+            <td style="text-align: center;" rowspan="3"><strong>Rozwiązanie</strong></td>
+            <td rowspan="3"><strong>Sprzętowa wirtualizacja</strong></td>
+            <td style="text-align: center;" colspan="7"><strong>Opóźnienie (%)</strong></td>
+        </tr>
+        <tr valign="center" align="center">
+            <td style="text-align: center;" colspan="2"><strong>Firefox</strong></td>
+            <td style="text-align: center;" colspan="2"><strong>Chromium</strong></td>
+            <td rowspan="2"><strong>Open SSL</strong></td>
+            <td rowspan="2"><strong>mbw</strong></td>
+            <td rowspan="2"><strong>Średnia</strong></td>
+        </tr>
+        <tr valign="center" align="center">
+            <td><strong>Peace Keeper</strong></td>
+            <td><strong>Sun Spider</strong></td>
+            <td><strong>Peace Keeper</strong></td>
+            <td><strong>Sun Spider</strong></td>
+        </tr>
+        <tr valign="center" bgcolor="#f2f2f2" align="center">
+            <td>Ubuntu</td>
+            <td style="text-align: center;">KVM   0.12.4</td>
+            <td>tak</td>
+            <td>8</td>
+            <td>25</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>22</td>
+            <td>10</td>
+        </tr>
+        <tr valign="center" align="center">
+            <td>Ubuntu</td>
+            <td style="text-align: center;">VmWare   Player 3.1.0 build-261024</td>
+            <td>nie</td>
+            <td>13</td>
+            <td>25</td>
+            <td>0</td>
+            <td>13</td>
+            <td>5</td>
+            <td>66</td>
+            <td>20</td>
+        </tr>
+        <tr valign="center" bgcolor="#f2f2f2" align="center">
+            <td>Ubuntu</td>
+            <td>VmWare   Player 3.1.0 build-261024</td>
+            <td>tak</td>
+            <td>17</td>
+            <td>18</td>
+            <td>7</td>
+            <td>8</td>
+            <td>6</td>
+            <td>98</td>
+            <td>26</td>
+        </tr>
+        <tr valign="center" align="center">
+            <td>Ubuntu</td>
+            <td>VirtualBox   3.2.6 r63112</td>
+            <td>tak</td>
+            <td>25</td>
+            <td>47</td>
+            <td>35</td>
+            <td>61</td>
+            <td>3</td>
+            <td>23</td>
+            <td>32</td>
+        </tr>
+        <tr valign="center" bgcolor="#f2f2f2" align="center">
+            <td>Ubuntu</td>
+            <td>VirtualBox   3.2.6 r63112</td>
+            <td>nie</td>
+            <td>18</td>
+            <td>32</td>
+            <td>28</td>
+            <td>137</td>
+            <td>22</td>
+            <td>24</td>
+            <td>44</td>
+        </tr>
+        <tr valign="center" align="center">
+            <td>Windows XP</td>
+            <td>VmWare   Player 3.1.0 build-261024</td>
+            <td>nie</td>
+            <td>20</td>
+            <td>93</td>
+            <td>31</td>
+            <td>44</td>
+            <td>6</td>
+            <td>148</td>
+            <td>57</td>
+        </tr>
+        <tr valign="center" bgcolor="#f2f2f2" align="center">
+            <td>Windows XP</td>
+            <td>VmWare   Player 3.1.0 build-261024</td>
+            <td>tak</td>
+            <td>23</td>
+            <td>125</td>
+            <td>32</td>
+            <td>155</td>
+            <td>15</td>
+            <td>59</td>
+            <td>68</td>
+        </tr>
+        <tr valign="center" align="center">
+            <td>Windows XP</td>
+            <td>Virtual   PC 2007 SP1</td>
+            <td>nie</td>
+            <td>49</td>
+            <td>124</td>
+            <td>53</td>
+            <td>141</td>
+            <td>15</td>
+            <td>33</td>
+            <td>69</td>
+        </tr>
+        <tr valign="center" bgcolor="#f2f2f2" align="center">
+            <td>Windows XP</td>
+            <td>VirtualBox   3.2.6 r63112</td>
+            <td>tak</td>
+            <td>24</td>
+            <td>164</td>
+            <td>18</td>
+            <td>150</td>
+            <td>4</td>
+            <td>89</td>
+            <td>75</td>
+        </tr>
+        <tr valign="center" align="center">
+            <td>Windows XP</td>
+            <td>VirtualBox   3.2.6 r63112</td>
+            <td>nie</td>
+            <td>29</td>
+            <td>98</td>
+            <td>36</td>
+            <td>192</td>
+            <td>8</td>
+            <td>112</td>
+            <td>79</td>
+        </tr>
+        <tr valign="center" bgcolor="#f2f2f2" align="center">
+            <td>Ubuntu</td>
+            <td>QEMU   0.12.4</td>
+            <td>nie</td>
+            <td>95</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>95</td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: justify;">Być może rozkład wyników byłby zupełnie  inny, gdyby w maszynie wirtualnej działał Windows albo gdyby użyto innych testów (to w kolejnej części tekstu, o ile oczywiście powstanie ;-)). Obecnie można wysnuć następujące wnioski:</p>
+<ul>
+    <li style="text-align: justify;">przedstawione rozwiązania pod względem wydajności można uszeregować następująco: KVM (wymaga jednak wsparcia sprzętowego), VmWare Player, Virtual PC, VirtualBox i QEMU</li>
+    <li style="text-align: justify;">wsparcie sprzętowe niekoniecznie pozwala na wzrost wydajności</li>
+    <li style="text-align: justify;">opisywane aplikacje działają szybciej pod kontrolą Ubuntu niż Windows (może to być jednakże związane z faktem, iż ten ostatni system wymagał np. programu antywirusowego)</li>
+</ul>
+<p style="text-align: justify;"><strong>Biorąc pod uwagę przenośność, faworytami będa tutaj VmWare Player i VirtualBox, wybór konkretnego z nich zależeć będzie wyłącznie od preferencji konkretnego użytkownika (np. tego czy zależy mu na efektach graficznych czy nie).</strong></p>
+<p style="text-align: justify;">Czy jest natomiast jeszcze jakieś lepsze rozwiązanie ?  Można próbowac instalować oddzielny system do różnych &quot;eksperymentów&quot;  bez dodatkowego partycjonowania np. na pamięciach flash (tutaj bardzo  elastyczne w tym względzie są dystrybucje Linuxa - odpowiedni opis można  znaleźć dla praktycznie każdej bardziej liczącej się na rynku) albo w pliku  udającym partycję (umożliwiają to np. <a href="http://www.dobreprogramy.pl/Instalacja-Windows-na-wirtualnym-dysku-VHD,Artykul,11419.html">Windows 7  Professional/Ultimate/Enterprise</a> lub <a href="http://wubi-installer.org/">dystrybucje Linuxa z użyciem instalatora w technologii WUBI</a>).  Tylko że wtedy systemy te dalej będą miały dostęp do wszystkich dysków,  jeżeli zaś zastosujemy szyfrowanie, to może to być na dłuższą metę  uciążliwe...</p>
+<p style="text-align: justify;">I stąd wniosek może być tylko jeden -  jeżeli chcemy coś  potestować w rzeczywistym odosobnieniu przy obecnej architekturze systemów operacyjnych, najlepiej (choć nie będzie to też  zbyt wygodne) jest to umieścić w innej instalacji systemu, a tę np. na  innym dysku twardym (który będzie podłączany zamiast tego &quot;właściwego&quot;).  A jeszcze lepiej kupić drugi komputer ;)</p>
+<p style="text-align: justify;"><strong>Stara prawda mówiąca o tym, iż udawana kopia jest zawsze gorsza od oryginału, okazuje się być dalej aktualna...</strong></p>
+<p align="right"><a href="#gora">Do góry</a></p>

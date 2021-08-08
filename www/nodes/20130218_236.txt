@@ -1,0 +1,28 @@
+﻿Title:Znów temat drogowy...czyli można legalnie oślepiać, kwiatki wynikające z Ustawy o kierujących, nowe opisy aplikacji i zgłoszenie do konkursu (2013)
+Author:marcin
+When:18 Feb 2013
+Taxonomy:drogowe,Polski,Polski blog,Android,App Store
+
+<p>Wpierw cytat z Auto Świata: "do 19.1.2013 w procesie szkolenia i egzaminowania kierowców panowała fikcja na wszystkich poziomach. Prawo o ruchu drogowym jest napisane chaotycznie i niezrozumiale, ośrodki szkolenia kierowców udawały, że uczą przepisów, a testy przedstawiane kandydatom na egzaminach tylko markowały sprawdzanie wiedzy. Po 19.1 bez zmian pozostały: bubel pod tytułem "Prawo o ruchu drogowym" oraz dramatycznie niski poziom nauczania w większości ośrodków szkolenia (...) Szkoda też, że w Sejmie nie ma dziś ludzi mogących ogarnąć i napisać od nowa "Prawo o ruchu drogowym".
+<!--teaser-->
+<p>Wpierw cytat z Auto Świata: "do 19.1.2013 w procesie szkolenia i egzaminowania kierowców panowała fikcja na wszystkich poziomach. Prawo o ruchu drogowym jest napisane chaotycznie i niezrozumiale, ośrodki szkolenia kierowców udawały, że uczą przepisów, a testy przedstawiane kandydatom na egzaminach tylko markowały sprawdzanie wiedzy. Po 19.1 bez zmian pozostały: bubel pod tytułem "Prawo o ruchu drogowym" oraz dramatycznie niski poziom nauczania w większości ośrodków szkolenia (...) Szkoda też, że w Sejmie nie ma dziś ludzi mogących ogarnąć i napisać od nowa "Prawo o ruchu drogowym". (...) panie posłanki, panowie posłowie, weźcie np. niemiecki kodeks drogowy i przetłumaczcie na język polski bez zmian. Trudne kwestie staną się zrozumiałe, ludzie będą wiedzieć więcej i jeździć bezpieczniej."
+
+<p>I wiecie co ? Dużo w tym racji... Pisałem o różnych problemach dotyczących np. pierwszeństwa we wcześniejszych tekstach, nie chciałbym się powtarzać.
+
+<p>Podam kilka nowych linków świadczących o "światłości" ustawodawcy (albo bardziej dosadniej mówiąc - pokazujących jego prawdziwy cel):
+
+<ul>
+<li><a href=http://www.wykop.pl/link/1405741/beda-blyskac-mocniej-niz-swiatla-drogowe-minister-zezwolil/>lampy błyskowe w radiowozach ITD stały się podobnież legalne !</a>
+<li><a href=http://www.wykop.pl/link/1416381/mnostwo-nieprawidlowosci-przy-przetargu-na-nowe-fotoradary-mandaty-do-kosza/>opisana kwintesencja tego, co się dzieje czyli o sposobie organizowania sieci pomiaru prędkości</a>
+<li><a href=http://prawonadrodze.org.pl/>piękne podsumowanie obecnej "demokracji" czyli o równych i równiejszym na drogach i wygodnych sposobach interpretacji prawa</a>
+<li><b><a href=http://www.youtube.com/watch?feature=player_detailpage&v=n_hXoHXVqZA>...do czego ma służyć Straż Miejska i jak ma być GORZEJ kierowcom po przebudowie ulic (tak, GORZEJ !)...i pisze się o tym wprost i oficjalnie</a> <a href=http://warszawa.gazeta.pl/warszawa/1,34889,13416633,Zlikwiduja_5_tys__miejsc_parkingowych__W_zamian_sciezki.html>(podobnie jest w W-wie)</a></b>
+<li><a href=http://www.gazetawroclawska.pl/artykul/755529,ten-fotoradar-to-postrach-karetki-pogotowia,id,t.html?cookie=1>...jak zająć czas pracownikom służby zdrowia</a> (od razu uprzedzę ewentualne komentarze, że przecież można to załatwić naprawdę lepiej i bardziej automatycznie)
+<li><a href=http://www.wykop.pl/ramka/1416415/zdal-egzamin-na-prawko-moze-czekac-nawet-6-lat/>...przepisy zostały tak zmienione, że po zdaniu egzaminu niektórzy być może będą czekać kilka lat na dokument</a> oraz <a href=http://www.wykop.pl/link/1417407/na-prawo-jazdy-kat-c-i-d-chetni-beda-musieli-czekac-jeszcze-2-lata/>tak, że niektórzy nie mogą zdać egzaminu</a>
+<li><a href=http://www.wykop.pl/ramka/1414867/egzaminy-na-prawo-jazdy-zostana-wstrzymane-sa-klopoty-z-oprogramowaniem/>...jak przygotowano reformę i dlaczego być może nie będzie można przeprowadzać egzaminów</a> (przypomnę, że dwa razy nowelizowano przepisy zmieniając terminy !)
+</ul>
+
+<p>...no ale czego się spodziewać, jeśli <a href=http://www.wykop.pl/link/1414695/policjanci-w-warszawie-nie-moga-pouczac/>służby mundurowe mają normy mandatowe do wyrobienia.</a>
+
+<p><a href=?q=przepisy_drogowe>Aplikacja "Przepisy drogowe"</a> w międzyczasie została zauważona na Wykopie (<a href=http://www.wykop.pl/link/1389931/wasza-ulubiona-aplikacja-na-androida-iphone-a-czesc-2/?utm_source=link_1389931&utm_medium=hits_2013-02-03&utm_campaign=HityTop>link w wątku "Wasza ulubiona aplikacja"</a>) oraz <a href=http://appacz.net/2013/02/przepisy-drogowe-aplikacja-dla-kierowcow-i-nie-tylko/>w serwisie Appacz.net</a>.
+
+<p>I teraz najważniejsze: udało się ją zgłosić do <a href=http://www.appaward.pl/>konkursu AppAward 2013</a>: <a href=http://www.appaward.pl/android/narzedzia/przepisy-drogowe.html>wersja androidowa</a>, <a href=http://www.appaward.pl/ios/narzedzia/przepisy-drogowe-wersja-w-appstore.html>wersja w AppStore</a>. Głosowanie od 28 lutego.

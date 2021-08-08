@@ -1,0 +1,32 @@
+﻿Title:Prawi
+Author:marcin
+When:22 Jan 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Chociaż to nikogo nie obchodzi,<br />
+i rym słaby też dzisiaj wychodzi,<br />
+to czasem myśl mi taka nachodzi,<br />
+i wibrując po członkach wchodzi,</p>
+<p>myśl z dawna to wszem poznana,<br />
+że prawość w biedzie widziana,</p>
+<p>taki ktoś nie zakaże się gapić,<br />
+odsłoni, byś mógł cudność złapić,<br />
+taki ktoś nie kończy molestować,<br />
+byś mógł radość życia smakować,</p>
+<p>taki ktoś skomentuje samobójstwo,<br />
+nie da, by stało się zabójstwo,<br />
+taki ktoś odważne tematy podejmuje,<br />
+nie ucieka i odwagi nie żałuje,</p>
+<!--break-->
+<p>taki ktoś pomoże jak nic nie masz,<br />
+i politowanie w ręku tylko trzymasz,<br />
+taki ktoś z delikatnością steruje,<br />
+byś rzekł wnet szczęście znajduje,</p>
+<p>mam tu i tam, czym miękki i mały,<br />
+i są to takie oczywiste banały,</p>
+<p>ale ten co tylko się korzyścią kieruje,<br />
+takich czynów rzadko dokonuje,<br />
+i proszę niech się tylko nie dziwi,<br />
+że odpłacają mu tyle ludzi życzliwi.</p>

@@ -1,0 +1,38 @@
+﻿Title:ADSL - podsumowanie (2012)
+Author:marcin
+When:23 Sep 2012
+Taxonomy:Polski,Polski artykuł
+
+<p><a href=?q=node/208>Chwilę temu pisałem o pułapkach ADSL w Polsce</a>, teraz kontynuacja...
+
+<p>Generalnie rzecz biorąc operatorzy świadczą takie usługi na swoich łączach (np. Netia mówi wtedy o technologii "CU") albo łączach Telekomunikacji Polskiej S.A. (i tu może się pojawić kilka skrótów oznaczających odpowiednio technologie/sposób rozliczeń dla telefonu i właśnie ADSL: "LLU", "BSA", "WLR")
+
+<!--break-->
+<p>Do dnia dzisiejszego nieuregulowane są procedury przejścia między różnymi operatorami (np. Netia nie chce migrować użytkowników PTC twierdząc, że problemem jest niepodpisanie przez PTC porozumienia MNP o przenoszeniu numerów), w takich wypadkach można próbować metody niebezpośredniej (należy poprosić UKE o pomoc).
+
+<p>W przypadku firm trzecich świadczących usługi na łączach Telekomunikacji Polskiej S.A. problemy powstają czasem także w przypadku uszkodzeń technicznych lub pogorszenia się parametrów, można wtedy próbować pisać do <a href=http://blog.orange.pl/wojciechjabczynski/>rzecznika Orange (na blogu)</a> albo <a href=http://blog.netia.pl/netia/entry/internet-i-tv-w-pakiecie-za-79-90-zl-miesiecznie>rzecznika Netii (w przypadku Netii)</a>
+
+<p>Moim zdaniem warto walczyć o szybsze i sprawne łącze - wszak obecnie wszyscy dążą do tego, aby wszystko (Internet/TV/telefon) szło internetowo.
+
+<p>Inna sprawa, że polscy operatorzy nadal nie mogą się odnaleźć w tej sytuacji i:
+
+<ul><li>"za drobną opłatą" proponują kanały dostępne darmowo na DVB-T
+<li>każda kolejna usługa automatycznie obcina określoną ilość pasma internetowego (niezależnie od tego czy jest używana czy nie)
+<li>nie dają elastyczności (np. dostępność niektórych kanałów TV)
+</ul>
+
+<p>Są pewne światełka w tunelu świadczące o przystosowywaniu się do zmian oczekiwań rynku (np. nielimitowane rozmowy na stacjonarne w Netii/Orange), ale nie jest to zbyt powszechne i często trafia kulą w płot (np. relatywnie drogie abonamenty na usługi VOD albo <a href=http://www.sportfan.pl/artykul/gwozdz-do-trumny-ppv-z-moldawia-tez-slabiutki-wynik-37102>porażki z PPV</a>).
+
+<p>Częściowo można samemu sobie radzić - np. nie jest problemem znalezienie oferty za gwarantowną cenę <a href=https://www.dialnow.com/calling_rates>2,5 grosza na stacjonarne</a> po VOIP (w tym konkretnym przypadku można użyć bramki sip.poivy.com).
+
+<p>Jest tu niestety jedno ograniczenie czyli zmienne IP - wielu operatorów VOIP daje wprawdzie 200 lub 300 minut tygodniowo "za darmo" na stacjonarne, ale limit jest liczony dla adresu IP i w przypadku braku szczęścia można trafić na taki adres, przy którym rozmowy są taryfikowane od początku (zazwyczaj za 4 grosze lub więcej).
+
+<p>Nie spodziewałbym się tutaj zbyt dużych zmian na rynku w najbliższym czasie - wszak <a href=http://www.spidersweb.pl/2012/09/biurokratyczny-wirus-tp-s-a-pozera-od-srodka-orange.html>najważniejszy operator stacjonarny musi jeszcze zrobić dużo, aby zintegrować systemy z Orange</a> i <a href=http://reklamisko.com/2011/1225/serce-rozum-pieprz-i-yourself-wszystkie-reklamy/>dla wielu użytkowników najlepsze przez długi czas będą chyba tylko reklamówki (polecam kultową już "a pieprz yourself")</a>.
+
+<p><a href=http://cozanet.pl/2012/08/straszne-wyniki-analizy-obslugi-klienta-netia/>Największy operator "alternatywny" też ma swoje problemy...</a>
+
+<p>W miastach pozostają oczywiście kablówki, ale tam z kolei są ograniczenia na ilość komputerów (gdzie kilka systemów uruchomionych wirtualnie na jednej fizycznej maszynie bywa liczone jako kilka maszyn).... Można to oczywiście obejść, ale...
+
+<p>Można też korzystać z dostępu radiowego (komórki), ale tutaj problemem jest często słowo "nielimitowane" (<a href=http://www.wykop.pl/ramka/1271393/nielimitowany-to-tylko-slowo-ono-nic-nie-znaczy/>jak pokazują ostatnie dni nielimitowany to tylko słowo, które nic nie znaczy</a>), no i eter nie jest z gumy (pojemność pasma jest ograniczona). Chociaż z drugiej strony - jak ktoś chce, to może np. mieć <a href=http://aero2.pl/bdi.html>darmowe Aero2</a>.
+
+<p>PS. Nie należy obarczać tylko operatorów za dosyć wolny rozwój sieci - nie można bowiem zapominać również o zakusach na coraz większe monitorowanie ruchu internetowego. <a href=http://di.com.pl/news/46560,0,Retencja_danych_duzo_kosztuje_Ba_Kazda_inwigilacja_kosztuje.html>Według ostatnich szacunków obecne koszty tego w Polsce to 74 miliony PLN.</a> Operatorzy muszą za to płacić, a to może być tylko początek - po ACTA i innych "światłych" pomysłach mówi się o <a href=http://www.wykop.pl/ramka/1271065/czysty-internet-wyciek-ujawnia-plany-arbitralnego-cenzurowania-sieci/>"czystym internecie"</a>

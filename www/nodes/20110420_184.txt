@@ -1,0 +1,19 @@
+﻿Title:Życzenia
+Author:marcin
+When:20 Apr 2011
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<table style="border-collapse:separate;"><tr><td>
+<p>Jakże ten czas biegnie szybko i nieubłagannie,<br />
+wczoraj choinka, a tu juz świąteczne śniadanie.<br />
+do tego jajek magia czy też pisanek malowanie,<br />
+z zimną wodą polowanie albo od niej uciekanie.</p>
+<p>Ten czas co rok może być piękny i niesamowity,<br />
+rodzinny, szalony albo całkiem inaczej przeżyty,<br />
+ja życzę Tobie w ten czas wypoczynku udanego,<br />
+<!--break-->
+radości, ucieczki od kłopotów i spokoju pełnego...</p>
+</td>
+<td><a href="http://www.4freephotos.com/Bunny_in_the_grass-image-bdae84505e2c5c58b9d6682293c2e561.html"><img border="0" src="sites/default/files/145/easter.png" /></a></td>
+</tr></table>

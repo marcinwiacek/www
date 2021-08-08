@@ -1,0 +1,11 @@
+﻿Title:Google Play - APN version 4 (2012)
+Author:marcin
+When:30 Apr 2012
+Taxonomy:English,English blog,Android,GSM
+
+<p>This time short info. Yesterday I have found <a href="https://github.com/cyanogenmod/android_vendor_cm/blob/ics/prebuilt/common/etc/apns-conf.xml">https://github.com/cyanogenmod/android_vendor_cm/blob/ics/prebuilt/commo...</a> and <a href="http://wiki.cyanogenmod.com/wiki/APN_List">http://wiki.cyanogenmod.com/wiki/APN_List</a> files. Nice initiative, but I decided not to use it. </p>
+<p>Reasons are simple:</p>
+<!--break-->
+<p>1. these files don't contain such important thing like SIM card operator name (returned by the getSimOperatorName()). Without it you can't easy select correct one in situation when one network is supporting many MVNO.</p>
+<p>2. files seems to be not too actual (for example Era GSM doesn't exist since longer time).</p>
+<p>Currently I decided to build own list - if APN doesn't have info for your SIM card, you can click Report option and all MMS/Internet settings for the SIM card network (from your phone) will be sent to me in the email. Simple and effective :)</p>

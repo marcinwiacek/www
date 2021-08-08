@@ -1,0 +1,32 @@
+﻿Title:co lepsze ?
+Author:marcin
+When:29 Aug 2013
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Uśmiech, radość, zaspokojenie,<br />
+sexus, eros, philia, ukojenie,<br />
+podlotków wrabianie i głupawka,<br />
+na dół dzwonienie oraz zabawka,</p>
+<p>na piwo wszystkich zapraszanie,<br />
+na konsoli wspólne przycinanie,<br />
+ciastek wcinanie bez opamiętania,<br />
+z wieku całego pełnia żartowania,</p>
+<p>z niewyspania wesołość ogólna,<br />
+agape czy masażu chęć szczególna,<br />
+środkami całkowita konserwacja,<br />
+gwałt słowny oraz demoralizacja,</p>
+<!--break-->
+<p>biurwa, urwa, stare panny, panowie,<br />
+z okna krzyki i mruczenie krowie,<br />
+o bananach długaśne opowieści,<br />
+żarty, żarciki i takie tam wieści,</p>
+<p>miało być goło, kolorowo i wesoło,<br />
+bo jak dotąd obiło mi się w koło,<br />
+że smutno, że dużo zesztywnienia,<br />
+że dużo myślenia, za mało robienia,</p>
+<p>tak mógłby wyglądać dzień wariata,<br />
+gdyby miał za nic opinię świata,<br />
+do pokoju zwierzeń by wywędrował,<br />
+wtedy nikt by dziada nie żałował....</p>

@@ -1,0 +1,14 @@
+﻿Title:Gammu future ?
+Author:marcin
+When:30 Jan 2012
+Taxonomy:GSM,English,English blog,Gammu,Nokia,Linux
+
+<p><b>Michal Čihař:</b></p>
+<p>as you probably noticed that I'm not so active here as I used to be, I've written down something about Gammu future on my blog: <a href="http://blog.cihar.com/archives/2012/01/27/future-gammu/?utm_source=ml">http://blog.cihar.com/archives/2012/01/27/future-gammu/?utm_source=ml</a></p>
+<p><b>Marcin Wiącek (me):</b></p>
+<!--break-->
+<p>I was tracking Gammu project after my leave (it was done from personal and other reasons) and I have few comments. World is totally different than many years when I started Gammu. We're using smartphones, there are tablets, x86 is much faster, much more aggressive advertisements, etc. Etc. Additionally there are many changes in the quality of our life for example because of (good and very wrong and dangerous) law changes.</p>
+<p>When we speak about smartphones - Nokia seems to be currently Microsoft department and Meego is discontinued (the only one chance for this software line is connected with Samsung/Intel - they will release maybe continuation of this system merged with Bada under name Tizen), Android is very poor is some areas (I have already various practical experiences with it) and we have additionally less or more closed Apple solutions, all other systems have very/too small amount of market.</p>
+<p>Please note, that Linux distributions still don't have big luck on desktops (and I think, that various changes done for example in the Gnome/Ubuntu/KDE are blind way), we still don't have revolution in phones too (Android contains of course Linux kernel, but...it's not full system).</p>
+<p>Does anybody need Gammu now ? I have proposed some changes to avoid issues many years ago (Gammu+) and nobody was interested, I have done SyncML implementation for N82 and nobody was interested too. Additionally I have tried to create some import program on the Android over BT and it failed, I see that there are many solutions to do it now too.</p>
+<p>Maybe it would be good to ask people subscribing this list - what do you require ? Maybe SMSD on the Android will be good idea ? What do you think ?</p>

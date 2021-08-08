@@ -1,0 +1,17 @@
+﻿Title:Rachunek telefoniczny...czyli jak porównać taryfy na Androidzie (2012)
+Author:marcin
+When:03 Oct 2012
+Taxonomy:Android,Polski,Polski artykuł,GSM
+
+<p>Niedawno do Polski <a href="http://www.virginmobile.pl">wszedł Virgin Mobile</a>. Z hukiem - <a href="http://www.telix.pl/artykul/klient-dla-virgin-mobile-polska-to-ciec?--aktualizacja--3,50234.html">Klienci to podobno "cieciowie"</a>, a <a href="http://niebezpiecznik.pl/post/wpadka-sieci-virgin-mobile-dostep-do-danych-6-milionow-klientow/">bezpieczeństwo...no cóż kiepskie</a>. Przypomina to jakość Ebay-a, który edukował Klientów Allegro...</p>
+<!--break-->
+<p>...ale do rzeczy - czy opłaca się przejść do tej "sieci" korzystającej z infrastruktury Play ? <a href="https://play.google.com/store/apps/details?id=com.mwiacek.rachunek.telefoniczny">Niewiele myśląc popełniłem drobne narzędzie, które porównuje kwoty m.in. dla mBank mobile i Virgina. A robi to idąc z duchem czasu - jest napisane na Androida i porównanie robi na podstawie logów telefonu (połączenia wychodzące, SMS, MMS). Rachu ciachu, dosłownie dwa dni roboty i jest...</a></p>
+<p>Obliczenia są przybliżone:</p>
+<p>1) z uwagi na możliwość innego zaokrąglania czasu przez operatorów</p>
+<p>2) z uwagi na zastrzeżenia operatorów typu 'Z przyczyn technicznych minuty z Promocyjnego pakietu minut są rozliczane według kolejności zarejestrowania w systemie naliczającym opłaty za poszczególne jednostki (minuty, SMS, MMS).' (tak jest w taryfie T-Mobile)</p>
+<p>3) z uwagi na traktowanie wszystkich połączeń jak głosowe (brak informacji w logach Androida o typie połączenia)</p>
+<p>4) z uwagi na to, że polskie numery komórkowe mogły przynależeć do innej sieci niż dziś (aplikacja wysyła każdy polski numer komórkowy z użyciem metody GET do jednej z bramek w Internecie i tam to sprawdza)</p>
+<p>W koszcie nieuwzględnione są dane pakietowe - brak ich ilości w logach Androida lub są one niedostępne <b>(to nie pierwszy przypadek, że nie ma w Androidzie podstawowej w sumie rzeczy)</b>.</p>
+<p>Wyszło jeszcze kilka innych ciekawostek, np. dosyć zawiłe przydziały numeracji (widać to na stronie UKE)</p>
+<p>PS. Przy okazji mogę polecić <a href="https://developers.t-mobile.pl/">T-Mobile Open API</a> czyli ciekawą w sumie inicjatywę pozwalającą tworzyć ciekawe aplikacje :)</p>
+<p>PS2. <a href="http://www.vectonemobile.pl/">Kolejny operator to Vectone</a>. Na razie się reklamuje kwotą 10 groszy za minutę i planuje rozpocząć działalność raczej w tym roku... Wejdzie, pewnie uaktualnię aplikację :D</p>

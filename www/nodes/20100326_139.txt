@@ -1,0 +1,10 @@
+﻿Title:New page layout is online !
+Author:marcin
+When:26 Mar 2010
+Taxonomy:English,English blog
+
+<p>During few last weeks I was working on refreshing this site. Yesterday I have decided, that beta version is "good enough" to be published. And here it is !</p>
+<p>This is naturally not the end. </p>
+<p>In next days I will work on some pending minor things (like setting better categories for posts, improving formatting in some articles or adding some old articles/pages) and later create new articles and sections :)</p>
+<p>Any comments or suggestions ?</p>
+<!--break-->

@@ -1,0 +1,14 @@
+﻿Title:Report 2006-10-31
+Author:marcin
+When:31 Oct 2006
+Taxonomy:English,English blog,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>gammu.org account was disabled for about 3-4 hours during 26 October (I will try to investigate it with provider), page was unavailable in majority of 30-31 October too (this time server was exchanged after cpu+mainboard dead). Everything is restored from backups - if you will see any problems or missed things, please let me know ASAP.
+<!--break-->
+</li><li>Visual C++ 2003 and 2005 facts
+<ul><li>I was speaking last time about possible bugs in Gammu+. I'm not sure now, if they exist. When I compile project with VC 2003, during executing there are lost procedures addresses and after ending some function program doesn't return to function, which executed it. It happens for bigger options (like --getallsms or --getfilesystem) only. I tried to compile the same source with VC2005 and voila - it works OK. if it will be OK with gcc too, it will mean - no VC 2003.
+</li><li>when you have both VC 2003 and 2005, you have to install 2005 after 2003
+</li><li>it seems, that VC 2003 installer doesn't like IE 7 (simply hangs during installing MSDN viewer)
+</li></ul></li><li>I'm downloading latest Bluez and Linux kernel. It's time for D-BUS during this week...
+</li></ul>

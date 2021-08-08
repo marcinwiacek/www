@@ -1,0 +1,22 @@
+﻿Title:dotyk
+Author:marcin
+When:21 Aug 2015
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dotyk platyny, srebra i złota<br />
+W rozkoszy ogromna spiekota<br />
+Płatki kobiet tęskne za dotykiem<br />
+Chwile, gdy żyje sie połykiem<br />
+Mamienie każdego komórką<br />
+Zachwycanie czyjąś córką<br />
+W pępku i języku kolczyki<br />
+W sklepie na legalu narkotyki<br />
+Życie na ciągłym świata haju<br />
+Szukanie podniet każdego rodzaju<br />
+Szkoda tylko, że wielu tak boli<br />
+Szkoda, że wielu życie się pier...<br />
+Szkoda, że wielu nie wytrzymuje<br />
+Szkoda, że kroku nie dotrzymuje...</p>
+<!--break-->

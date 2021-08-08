@@ -1,0 +1,9 @@
+﻿Title:Aplikacja &quot;Przepisy drogowe&quot; może być pobrana z App Store + opisy wersji androidowej (2012)
+Author:marcin
+When:06 Dec 2012
+Taxonomy:Polski,Polski blog,App Store,Android,drogowe
+
+<p></p><p>Z wielką przyjemnością chciałbym poinformować, iż aplikacja "Przepisy drogowe" może być pobrana z App Store:</p>
+<p><a href="https://itunes.apple.com/us/app/przepisy-drogowe/id583045779?ls=1&amp;mt=8"><img src="sites/default/files/203/Download_on_the_App_Store_Badge_PL_135x40_0824.png" /></a></p>
+<!--break-->
+<p>Wczoraj natomiast zaciekawił mnie opis wersji androidowej umieszczony na stronie Orange (<a href="http://aplikacje.orange.pl/cid,61,id,4015,nazwa,Przepisy-drogowe,plid,1,prid,5912,opis-aplikacji.html">http://aplikacje.orange.pl/cid,61,id,4015,nazwa,Przepisy-drogowe,plid,1,...</a>). Przykładowe urywki: "Korzystanie z aplikacji ułatwia doskonale działająca wyszukiwarka, pozwalająca prowadzić poszukiwania zarówno po nazwach i opisach, jak i poprzez wyszukiwanie konkretnych słów kluczowych w treści (w zależności od kategorii).", "Przepisy drogowe posiadają niezwykle elastyczny silnik, pozwalający m.in. na płynne przybliżanie i oddalanie treści oraz wszelkiego rodzaju obiektów graficznych. Aplikacja działa wyjątkowo szybko oraz płynnie – co z uwagi na fakt obsługiwania potężnej ilości danych nie zawsze jest takie oczywiste. Autor udostępnił także sporą liczbę opcji i ustawień, pozwalających skonfigurować program pod swoje preferencje."</p>

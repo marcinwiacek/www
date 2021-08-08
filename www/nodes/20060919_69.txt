@@ -1,0 +1,18 @@
+﻿Title:Report 2006-09-18
+Author:marcin
+When:19 Sep 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<ul><li>Gammu 1.08.00 is finally out. Small changes and fixes since 1.07.25 (for example added songs sorting with --nokiaaddplaylists, some fixes for Series 40 3.0), big changes since 1.07.00 (SMS for Series 40 3.0 and many others). I hope, I tested included changes good. If not, please report.
+</li><li>Gammu+ 0.07.00 should be available during this week (at least my developer tree).
+<!--break-->
+</li><li>I have started using more "Bug tracker"
+</li><li>you can read about Gnokii/Gammu/Gammu+ in Polish language in <a href="http://www.lpmagazine.org">Linux+</a> (number from September). I will add this article to my www in the future.
+</li><li>I have switched to gcc 4.x. It's time to kill all warnings (task for Gammu 1.08.xx ;-)).
+</li><li>I will want to continue adding info to structures, what was restored (for calendar too) for both my projects, I will want to work on better call functions for Gammu (promised for somebody), think about <a href="http://libusb.sourceforge.net/">libsub</a>, non GPL usage for <a href="http://www.bluez.org">Bluez</a> and other... It's highest time to write SMSD for Gammu+, add MMS there, there are waiting patches for both projects, etc. etc.
+</li><li>gammu.org server has been payed for few next months
+</li><li>please note, that Gammu family contains info about few new projects...
+</li><li><i>private: I still don't have money from one job made in first months of this year, one of sponsors seems to resign (no contact and nothing more than promises since August), but I live somehow and situation doesn't look so bad like few months ago. I can say - it's not good, but it's not bad too.</i>
+</li><li><i>private: I have almost resolved my hardware things for longer time. Almost, because I HAVE to make research for more silent HDD and replace current one (I can work with current, but without any comfort and sometimes I'm very tired because of it). Not so easy task not because of money, but because of lack of time and some other...</i>
+</li></ul>

@@ -1,0 +1,62 @@
+﻿Title:Intel Evo - idź na drzewo? (2021)
+Author:marcin
+When:25 Jan 2021
+Taxonomy:polski,polski blog,dobreprogramy.pl,x86
+
+<p>Według bardzo różnych stron niekwestionowanym liderem w długości czasu pracy na baterii jest <a href="https://laptopmedia.com/review/apple-macbook-air-late-2020-review-the-macbook-air-is-a-more-viable-option-than-ever/" target="_blank" rel="noopener" rel="nofollow">Macbook Air</a>, bardzo pozytywnie wyróżnia się tutaj również np. <a href="https://www.notebookcheck.net/Dell-Latitude-9510-2-in-1-Review-A-5G-15-inch-Convertible-That-Isn-t-Huge-Or-Unwieldy.481704.0.html" target="_blank" rel="noopener" rel="nofollow">Dell Latitude 9510 2-in-1</a> (w trybie idle 59 godzin!) czy <a href="https://www.notebookcheck.net/A-Mini-Multitasking-Monster-Asus-ZenBook-Duo-14-UX482-Laptop-Review.513033.0.html" target="_blank" rel="noopener" rel="nofollow">Asus ZenBook Duo 14 UX482</a>.</p>
+   
+<p>Z &quot;polskich&quot; akcentów warto wymienić Hypebooka L-14, który w najnowszym wydaniu jest lokalną wersją Clevo L140MU (z nowych elementów należy wymienić procesor Intela 11 generacji i Thunderbolt)</p>
+   
+<p>Intel dostrzegł trend przechodzenia na ARM-y i konkurencję ze stronę Ryzenów (te jednak wydają się być wciąż gorsze w trybie idle), co wywołało potrzebę wprowadzenia certyfikacji Intel Evo.</p>
+
+<!--teaser-->
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Intel-Evo-idz-na-drzewo,112952.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Według bardzo różnych stron niekwestionowanym liderem w długości czasu pracy na baterii jest <a href="https://laptopmedia.com/review/apple-macbook-air-late-2020-review-the-macbook-air-is-a-more-viable-option-than-ever/" target="_blank" rel="noopener" rel="nofollow">Macbook Air</a>, bardzo pozytywnie wyróżnia się tutaj również np. <a href="https://www.notebookcheck.net/Dell-Latitude-9510-2-in-1-Review-A-5G-15-inch-Convertible-That-Isn-t-Huge-Or-Unwieldy.481704.0.html" target="_blank" rel="noopener" rel="nofollow">Dell Latitude 9510 2-in-1</a> (w trybie idle 59 godzin!) czy <a href="https://www.notebookcheck.net/A-Mini-Multitasking-Monster-Asus-ZenBook-Duo-14-UX482-Laptop-Review.513033.0.html" target="_blank" rel="noopener" rel="nofollow">Asus ZenBook Duo 14 UX482</a>.</p>
+   
+<p>Z &quot;polskich&quot; akcentów warto wymienić Hypebooka L-14, który w najnowszym wydaniu jest lokalną wersją Clevo L140MU (z nowych elementów należy wymienić procesor Intela 11 generacji i Thunderbolt)</p>
+   
+<center><img src="sites/default/files/432/wordpress-923188_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+   
+<p>Intel dostrzegł trend przechodzenia na ARM-y i konkurencję ze stronę Ryzenów (te jednak wydają się być wciąż gorsze w trybie idle), co wywołało potrzebę wprowadzenia certyfikacji Intel Evo.</p>
+   
+<p>W dokumentach można m.in. poczytać o następujących wymaganiach:</p>
+   
+<p>&quot;Consistent responsiveness on battery</p>
+   
+<p>Wake from sleep in less than 1 second</p>
+   
+<p>9 or more hours of real-world battery life on laptops with full HD display</p>
+   
+<p>4 or more hours of battery life in a 30-minute charge on laptops with full HD display&quot;</p>
+   
+<p><a href="https://www.ultrabookreview.com/42630-intel-evo-laptops/" target="_blank" rel="noopener" rel="nofollow">na różnych stronach </a>można również poczytać np. o obecności przynajmniej 8GB RAM i 256GB dysku, Thunderbolt 4 czy podświetlenia klawiatury.</p>
+   
+<p>Można powiedzieć, że jest to krok we właściwym kierunku - Intel ostatnio zaprezentował laptop &quot;referencyjny&quot;, a teraz podaje minimalne wymagania dla przyzwoitego urządzenia (tzn. takiego, z którym nie będziemy musieli szukać non-stop gniazdka i będziemy chociaż mogli zainstalować uaktualnienia w ulubionym systemie operacyjnym).</p>
+   
+<p>Czego tu brakuje?</p>
+   
+<ul><li>Urządzenia w trybie standby / off zużywają swoje - nawet do 2 Watt (<a href="?q=node/426">pisałem o tym</a>)</li>
+   
+<li>Problemem jest osiąganie temperatur bliskich krytycznych (<a href="?q=node/430">również o tym wspominałem</a>).</li>
+   
+<li>Elementy dodatkowe (czytniki kart, kamery, mikrofony, etc.) zużywają swoje, a producenci czasem implementują karykaturalne sposoby ich wyłączania (myślę o Dellu i przesłonce, która się odsłania, gdy jakiś proces chce skorzystać z kamery)</li></ul>
+   
+<p>Intel Evo to trochę taka certyfikacja, którą warto mieć, ale którą spełni znacząca większość lepszych urządzeń. Można też wybrać Macbooka, ale z drugiej strony... proszę też popatrzeć na wideo, gdzie porównano jabłko z X1 Nano:</p>
+   
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/wbX-0iltwAM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+   
+<p>Co jeszcze mógłbym powiedzieć?</p>
+   
+<p>Warto kupować laptopa z matrycą SLP (Super Low Power), baterią o przedłużonej wytrzymałości nie tracącą tak szybko pojemności (Dell określa je jako Long Life Battery) i procesorem jak najnowszej generacji (w przypadku Intela procesor 11 generacji wykonany w technologii 10nm, w przypadku Ryzena APU z rdzeniami &quot;Cezanne&quot; Zen 3).</p>
+   
+<p>Należy też patrzeć na porównania laptopów i po prostu wybierać te, które zostały &quot;poprawnie&quot; wykonane pod względem energetycznym.</p>
+   
+<p>Do tego powiedziałbym, że wskazane jest używane trybu czarnego, wybieranie oczywiście jak największej baterii i ewentualnie &quot;zabawa&quot; z ustawieniami chłodzenia (nie odpowiadam za uszkodzenia, ale <a href="?q=node/382">kiedyś pisałem</a>, jak w Dellach można sobie ustawić wentylatory tak, że włączają się tylko w razie potrzeby).</p>
+   
+<p>Z rzeczy mniej inwazyjnych można wyliczyć wyłączenie turbo i części rdzeni (wiąże się z dużą stratą wydajności), osoby zaawansowane mogą spróbować również ustawić limity energetyczne PL1 i PL2 (dla Intela).</p>
+   
+<p>Należy jeszcze oczywiście pamiętać o dbaniu o wyłączaniu nieużywanego Bluetooth, aktualizacji sterowników do dedykowanych i dbanie o niskie obciążenie CPU (oznacza to zapewne wybór &quot;odpowiedniej&quot; przeglądarki www, a w najpopularniejszym systemie świata związane jest zapewne z wyłączeniem niektórych usług systemowych).</p>
+   
+<p>Nie chciałem pisać o wszystkim i o niczym, ale... nie dla wszystkich te oczywistości są oczywiste.&#160;&nbsp;</p>

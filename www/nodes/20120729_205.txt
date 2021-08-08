@@ -1,0 +1,13 @@
+﻿Title:Post PC era -&gt; is it really market regulated ?
+Author:marcin
+When:29 Jul 2012
+Taxonomy:English,English blog,x86,Windows
+
+<p>In various places we can read, that PC (Personal Computers like notebooks and desktops) are less and less popular.</p>
+<p>What can be reason for it ?</p>
+<p>Standard X86 platform is of course much better and faster, but... many users complain about generally worse quality, worse screens and various "revolutionary" solutions (which allow to save few $ for manufacturers, but make a lot of problems for users).</p>
+<!--break-->
+<p>I was writing about it few months ago in <a href="?q=node/189">Polish article</a>, we will observe Windows 8 soon (where advanced user interface is in fact replaced with something primitive and ugly) and now we have similar example of fail in Firefox - <a href="http://blog.mozilla.org/ux/2012/06/site-identity-ui-updates/">nice information about correct https connection was replaced with something totally non-functional</a>.</p>
+<p>I will add few personally found during last month - I can't easy see in BIOS which SATA is assigned to my HDD or DVD, after setting power down time for HDD it's disabled, enabled, disabled, enabled (and I'm almost, that this is rather not regular applications activity)</p>
+<p>These are smaller or bigger details, but we can observe a lot of them last times... And they make users very unhappy. Unhappy users are searching for something different...</p>
+<p>My tip for various companies: fix your behaviour, provide full matt screens and other things and many users will decide to use their PCs more often. In other case they will drop it like it was with BlueRay.</p>

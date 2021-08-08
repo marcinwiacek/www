@@ -1,0 +1,16 @@
+﻿Title:Report 2006-11-09
+Author:marcin
+When:09 Nov 2006
+Taxonomy:English,English blog,Gammu,GSM,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<p>Another page from the series "What is going on ?"</p>
+<ul><li>I found debugger Visual C++ Express 2005. It's not comfortable, but enough. It looks, that I have to switch into this environment, because Microsoft will probably ignore my Visual C++ 2003 problem (described in one of earlier reports)
+<!--break-->
+</li><li>I have looked into <a href="http://cihar.com/talks/2006/linuxalt/">Michal's presentations</a> and I even understood some things :-) Unfortunately, many Michal's comments are magic for me (they looks to be some critic sometimes, but I'm sure it in 50% only)... I would like to explain what is current status of my development work:
+<ul><li>as long as people will show some Gammu errors, I will try to fix them (if possible of course) according to my possibilities
+</li><li>as long as I will have abilities, I will add access to new phones (especially Nokias) to Gammu. Currently I work using N6111 and the last platform (I can cover) is Series 40 3.0 (Series 40 3.0 FP1 is inaccessible for me). If Michal will give me patches for SE, I will add them
+</li><li>I would like to see critic for Gammu+ as fast as possible from people.<br />I hope, it will be possible soon - I plan to have Bluez support in November and everybody should be able to use both Gammu and Gammu+ with the same config.<br />I hope, that in November (if everything will go fine) it will be for example possible to get SMS sequences (linked of course), restore pbk (at least for Series 40 2.0 and earlier), restore calendar, upload/get files and Java apps.<br />You can say, that it's maybe not required - future will show it. Even Microsoft thinks about future and Vista will be probably last Windows ;-)
+</li><li>for KMobileTools there will be probably Gammu+ and not Gammu used
+</li></ul></li><li>what could you expect in near future ? I will probably start writing articles about Linux for some magazines, Series 40 3.0 FP1 support goes into unknown future now, I will test Vista support probably, when it will be available for "ordinary" people in end of January (none of companies answered on my personal requests). In short words: as noted above, it will be time of making two projects usable for older phones...
+</li></ul>

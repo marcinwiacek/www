@@ -1,0 +1,51 @@
+﻿Title:S4 mini - czy warto ? Pierwszy komentarz.... (2013)
+Author:marcin
+When:04 Sep 2013
+Taxonomy:Polski,Polski blog,Android,GSM
+
+<p>Pomyślałem, że zrobię krótkie orientacyjne podsumowanie dotyczące Galaxy S4 mini (po kilku zabawach na dostępnym czasowo egzemplarzu) i jego porównanie do S1. Wpierw cyferki (<a href="?q=node/177">stare dane pobrane z tekstu z 2010</a>):</p>
+<!--break-->
+<table border="1"><tr><td>software</td>
+<td>S4 mini</td>
+<td>S1</td>
+</tr><tr><td>PeaceKeeper w standardowej przeglądarce</td>
+<td>613</td>
+<td>443</td>
+</tr><tr><td>Quadrant Standard</td>
+<td>6870</td>
+<td>1258</td>
+</tr><tr><td>NBench</td>
+<td>Memory 10,182,<br /><br />
+Integer 11,14,<br /><br />
+Float 16,516</td>
+<td>Memory 2,98,<br /><br />
+Integer 4,05,<br /><br />
+Float 0,779</td>
+</tr><tr><td>CaffeineMark</td>
+<td>14496</td>
+<td>5326</td>
+</tr><tr><td>An3DBench</td>
+<td>10,82/10,67<br />38,83<br />59,39<br />25,59<br />58,43<br />59,63</td>
+<td>9,56 MP/sec<br /><br />
+36,59 fps<br /><br />
+55,75 fps<br /><br />
+52,32 fps<br /><br />
+55,60 fps<br /><br />
+55,73 fps</td>
+</tr><tr><td>GPUBench</td>
+<td>41610 / 41058</td>
+<td>Absolute 34416<br /><br />
+Relative: 32226</td>
+</tr><tr><td>BenchmarkPi</td>
+<td>183 ms</td>
+<td>1332 ms</td>
+</tr></table><p><b>Wniosek:</b> orientacyjne testy były przeprowadzone przy włączonym oszczędzaniu energii, w niektórych widać duży przyrost (w sumie mamy 2 szybsze rdzenie, a nie jeden), ale w niektórych testach bardzo słabo; cały telefon generalnie się nie przycina (bardzo precyzyjne określenie ;))....</p>
+<p><b>Ekran:</b> trochę inna (tzn. wyższa) rozdzielczość, co prowadzi do tego, że niektóre gry się jednak źle skalują (na obrazku może nie widać, ale....):</p>
+<p><img src="sites/default/files/259/Screenshot_2013-09-02-23-12-52.png" width="300" /></p>
+<p>(można też przywołać sobie w nich pasek z góry ekranu)</p>
+<p>Generalnie rzecz biorąc literki i elementy interfejsu są znacznie mniejsze, ale ostrzejsze (ekran nie ma już matrycy PenTile). Może to sprawiać problemy osobom z wadą wzroku...</p>
+<p><b>Zabezpieczenia:</b> zmiana karty/kart SIM (bo jest wariant S4 mini na 2 karty SIM) i karty pamięci wymaga wyłączenia telefonu (dla mnie +), można też zaszyfrować całe urządzenie (ale Samsung zmienił procedurę i później wymagane jest odblokowywanie kodem, PIN nie wystarczy)</p>
+<p><b>Złącza:</b> doszła podczerwień (duży +), niestety złącze USB jest gorsze (w Galaxy S nie ma problemu z trafieniem kablem; tutaj jest; poza tym brak klapki, któa chroniłaby przed kurzem i brudem), obsługiwane są karty micro SIM (duży -), w wersji dual SIM brak NFC</p>
+<p><b>Rozmiary:</b> S4 mini jest kilka mm węższy</p>
+<p><b>Werdykt:</b> każdy powinien zdecydowanie obejrzeć sobie ekran i wybrać, czy chce LTE i NFC (wersja i9195 z troszkę większym SARem w stronę ciała, z pełnym wsparciem CyanogenModa i oficjalnie wprowadzona na polski rynek) czy chce obsługę 2 kart SIM w wariancie i9192 (gdzie Aero2 działa wyśmienicie, ale nie ma NFC i na razie wsparcia CyanogenMod, no i telefony są z polskim menu, ale generalnie z krajów poza Polską).
+</p><p>Ciekawa jest głównie wersja dual SIM (gdyż Samsung w sumie nie ma żadnego tańszego SENSOWNEGO telefonu tego typu), jeśli nie potrzebujemy tej funkcjonalności - o ile nie przeszkadza nam rozmiar (podobno nie ma znaczenia ;)), to za cenę i9195 można mieć w sumie trochę lepszy S3 (bez podczerwieni jednakże)</p>

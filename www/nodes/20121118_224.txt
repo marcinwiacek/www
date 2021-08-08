@@ -1,0 +1,29 @@
+﻿Title:Nowoczesność, a „nowoczesność”
+Author:marcin
+When:18 Nov 2012
+Taxonomy:Polski,Polski blog,Windows,x86,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2012/11/nowoczesnosc-a-nowoczesnosc.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Norton Commander 1.0 – 1986, FAR 3.0 – 2012. Znajomi widząc tę ostatnią aplikację u mnie nie mogą się nadziwić mojemu „zacofaniu”.
+<!--break-->
+I mnie zawsze zastanawia – jak można efektywnie używać Eksploratora Windows ?
+
+<p>Tutaj dostaję komplet dwóch okienek, między którymi mogę szybko i łatwo i kopiować swoje pliki i katalogi (przy Eksploratorze muszę je sobie oddzielnie otwierać i dodatkowo zmniejszanie wymaga 2x więcej operacji).
+
+<p>Nie jest problemem wejście do katalogów takich jak „Documents and Settings” czy „Users\Default User” (FAR jest aplikacją win32 i potrafi obsługiwać różnego rodzaju linki na partycjach NTFS oraz różne funkcje Windows NT).
+
+<p><img src=sites/default/files/224/Untitled_0.png width=600>
+
+<p>Całość jest darmowa i może być rozszerzana wtyczkami oraz makrami, nie jest również problemem wywoływanie komend linii poleceń.
+
+<p>Do tego dochodzi szybki edytor z konwersją stron kodowych i innymi użytecznymi opcjami.
+
+<p>Gdyby przyjąć tutaj model niektórych znanych firm, to powinienem mieć już tutaj co najmniej 3D. Pytanie tylko – po co ? Dostajemy coś co się sprawdziło, jest stosunkowo małe, szybkie i co warto chyba rozszerzać. Po co to zmieniać na siłę ?
+
+<p>Tak tak – nawiązuję do systemu operacyjnego pewnej znanej firmy. Gdyby rozwiązania „Modern UI” były dodatkiem, problemu z Windows 8 by nie było… Gdyby rozwiązano bolączki architektoniczne Windows NT, użytkownicy pewnie by nie mieli dylematu z przesiadką… A tak… Mamy przykład działania „na siłę” i wspaniałości „konsupcjonizmu”
+
+<p>PS. Więcej o funkcjach NTFS pisałem tutaj: <a href=?q=node/111>Skonfiguruj system plików w Windows - 12 przydatnych wskazówek dla mniej początkujących (2009)</a>
+
+<p>PS2. …a FARa już raz też opisywałem: <a href=?q=node/109>Far Manager, czyli jak mógłby teraz wyglądać Norton Commander... (2009)</a>
+
+<p>PS3. oczywiście wiem, że Eksplorator Windows 8 ma np. nowe okno kopiowania plików.

@@ -1,0 +1,205 @@
+﻿Title:Wszystko się zużywa? (2021)
+Author:marcin
+When:13 June 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1142688,wszystko-sie-zuzywa>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Panie i panowie, dziewczęta i chłopcy, ladies and gentlemen, dzisiaj czas na ogólny przegląd tego, co mogło się zużyć w ostatnich latach w sprzęcie IT (samoistnie lub z niewielką pomocą).</p>
+<!--break-->
+<p>Zaczęło się od tego, że ostatnio znalazłem dosyć ciekawą dwuodcinkową serię m.in. na temat pamięci lampowych i ferrytowych<br />
+</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/JqMA7ifdpIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Od tamtego czasu dużo się zmieniło, głupotą jednak byłoby twierdzić, że absolutnie wszystkie działania producentów podporządkowane są temu, żeby urządzenia były nietrwałe. Tych, którzy czytali moje wcześniejsze wpisy, być może zaszokuję, że powiem wprost - planowane postarzanie zdarza się nagminnie często, ale... (zawsze musi być jakieś ale) bywamy też ograniczeni technologią.<br />
+<br />
+Ktoś może powiedzieć, że sprawa jest prosta i nie ma o czym mówić. Częściowo jest to racja. Pomyślmy sobie, że właśnie kupiliśmy jakiś nowy gadżet. Od razu po zakupie jest dotykany, naciskany, skręcany, ściskany czy szarpany. Z czasem pojawiają się na nim pierwsze rysy czy wgniecenia, tu i tam tłuszcz z palców, a może i woskowina z uszu, kropelki śliny, czy inne płyny. Do tego dochodzi wilgoć, kondensująca się na przykład przy przejściu z zimnego wilgotnego dworu do ciepłego pokoju.<br />
+<br />
+Brrr. Okropieństwo.<br />
+<br />
+Ale to nie wszystko...<br />
+</p>
+<h2>Elementy elektroniczne – układy scalone<br />
+</h2>
+<p>Poniżej zastosuję pewne uproszczenia, za które z góry przepraszam:<br />
+</p>
+<ol>
+<li>układy scalone składają się z tysięcy, milionów czy miliardów elementów, które realizują funkcje w arytmetyce operującej na cyfrach 0 i 1. Przykładem takiej funkcji jest operacja AND zwracająca 1 na wyjściu elementu w sytuacji, gdy na wszystkich wejściach jest 1. Można powiedzieć, że 1 fizycznie uzyskane jest przez stan „prąd płynie” i 0 uzyskane jest przez stan „prąd nie płynie”.</li>
+<li>elementy półprzewodnikowe użyte do budowy układów charakteryzują się tym, że prąd płynie przez nie tylko wtedy, gdy dostarczamy określone natężenie i napięcie (nie mogą być zbyt małe, ale i nie mogą być za duże, bo wtedy dojdzie do zwarcia, element zmieni się w przewodnik, i prąd od tego momentu będzie zawsze w nim płynąć). Dokładniej wyjaśnia to <a href="https://pl.wikipedia.org/wiki/Pasmowa_teoria_przewodnictwa" target="_blank" rel="nofollow noopener">pasmowa teoria przewodnictwa</a>.</li>
+<li>temperatura układu wzrasta nie tylko przy przepływie wyższego prądu / napięcia, ale również przy szybszym taktowaniu (dane i instrukcje „przesuwane” wraz z kolejnymi taktami zegara odmierzającego czas)</li>
+<li>oprócz prądu o złych parametrach wrogiem układów jest zbyt duża temperatura. Teoretycznie obecne konstrukcje są bardziej odporne niż kiedyś (zawierają czujniki, które wymuszają wyłączenie albo obniżenie taktowania w sytuacjach krytycznych), ale prawa fizyki są nieubłagane i szczególnie ciągła praca w pobliżu granicy przegrzania może powodować degradację samego układu albo elementów towarzyszących (stąd raczej należy unikać <a href="?q=node/430">bardzo licznych laptopów z procesorami Intela, które osiągają 100C w sytuacji, gdy temperatura krytyczna&nbsp; to 105C</a>).&nbsp; Uniwersalna zasada: zawsze trzeba dbać o stan chłodzenia (wentylatory nie mogą być zapchane kurzem, kratki wentylacyjne zasłonięte, itp.)</li>
+<li>zwarcie może wywołać zalanie cieczą - nie musi to być faktyczny z nią kontakt, czasem wystarczy kondensacja pary wodnej (nawiasem mówiąc, producenci umieszczają w komputerach specjalne kropki, które zmieniają kolor również w ostatnim przypadku, co może być podstawą do unieważnienia gwarancji)</li>
+<li>przy bardziej zaawansowanym procesie technologicznym prądy i napięcia są mniejsze (układ się mniej grzeje), również drogi przepływu danych są krótsze. Z uwagi na to można wykorzystać wyższe taktowanie i przetworzyć więcej danych - układ M1 Apple wykonany jest w procesie 5nm (wartość oznacza wielkość elementów), i to jest jednym z powodów jego większej efektywności od konstrukcji AMD (7nm) czy Intela (14 lub 10nm)<br />
+ </li>
+</ol>
+<p>Jeżeli mówimy o czymś takim jak „normalne” zużycie – układ prawidłowo użytkowany powinien wytrzymać długo, o ile… jest prawidłowo zbudowany. Istnieje bowiem takie zjawisko jak dyfuzja (przyspieszająca wraz z temperaturą), i choć tego nie widzimy, to jeśli położymy jeden związek obok drugiego, to elektrony na ich styku potrafią się przenikać. Z tego względu stosuje się różne domieszki, które powodują, że tego typu operacje wymagają (zbyt) dużo energii. Wyjaśnię to obrazowo – woda łatwo wsiąka w glebę; ale nie widzimy tego, jeśli wlejemy ją (wodę oczywiście) do szklanego naczynia.<br />
+<br />
+W ostatnich latach dało się też zauważyć działanie producentów płyt głównych, którzy chcieli zwiększyć wydajność obliczeniową (czytaj: mieć lepsze wyniki niż konkurencja), i podawali na procesory Ryzen bardzo duże wartości napięć w trybie turbo. <a href="?q=node/404">Sam to widziałem z Asrockiem TB3 ITX X570 (najwyższa wartość VCore wynosiła 1,48V)</a>, robili to również inni. Teoretycznie chwilowa praca z taką wartością nie powinna zaszkodzić tym układom, z drugiej strony w internecie na forach pojawiały się np. informacje o 1,3V i wskazanie, że dłuższa praca z wyższymi napięciami powoduje degradację Ryzenów z serii 3000 (być może dotyczy to tylko konkretnych egzemplarzy, i związane jest z tzw. szerzeniem FUD)<br />
+<br />
+Kiedyś mówiono, że kontrola jest najwyższą formą zaufania. Istnieje obecnie wiele programów, dzięki którym możemy na bieżąco kontrolować napięcia i temperatury różnych elementów. <a href="https://www.bestmaccleaner.com/mac-temperature-monitor/" target="_blank" rel="nofollow noopener">W MacOS można np. wymienić TG Pro czy Temp Monitor</a>, w Windows speedFan (nie jest już zbytnio uaktualniany) czy <a href="https://www.hwinfo.com/download/" target="_blank" rel="nofollow noopener">hwInfo</a>, a pod Linuxem np. Psensor w połączeniu z czujnikami wbudowanymi w jądro.<br />
+<br />
+Warto też wspomnieć, że jedną z przyczyn braku działania układów może być słabe przymocowanie do podłoża (obecna cyna nie zawiera ołowiu, i z czasem może ulec degradacji; dodatkowo płyty główne mogą ulegać różnym naprężeniom). Jest z tym związana pewna ciekawa historia. Około 2011 komputery właściwie wszystkich producentów miały problemy z kartami graficznymi Nvidii. Bardzo dużo serwisów proponowało tzw. rebailling, czyli ponowne lutowanie układu, ale najwyraźniej nie rozwiązywało ono prawdziwego problemu:<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/1AcEt073Uds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Jeżeli chodzi o zwarcia, to np. na kanale Daniela Rakowieckiego jest <a href="https://www.youtube.com/watch?v=Qj8AXxsXT24" target="_blank" rel="nofollow noopener">wideo z naprawy laptopa, do którego do złącza jack podłączono 48V</a> (w sieci można również znaleźć schematy tzw. „USB Killera”, którego zadaniem jest przepuszczenie przez kontroler na płycie głównej zbyt dużego ładunku elektrycznego, a więc doprowadzenie do jego zwarcia).<br />
+<br />
+Ciekawe jest również <a href="https://youtu.be/qN3YdGS1WJ0?t=1742" target="_blank" rel="nofollow noopener">wideo o naprawie Asus VivoBook 15</a> i <a href="https://youtu.be/oOjIVhLf4eU?t=106" target="_blank" rel="nofollow noopener">o błędach starszych Apple</a> (w obu wypadkach mowa jest o braku chłodzenia albo przegrzewaniu jednego układu przez drugi)<br />
+</p>
+<h2>Elementy elektroniczne – kondensatory</h2>
+<a href="https://pl.wikipedia.org/wiki/Kondensator_elektrolityczny#%22Choroba_kondensator%C3%B3w%22" target="_blank" rel="nofollow noopener">W starszych konstrukcjach (ok. 1999 – 2007) zdarzało się pękanie obudowy kondensatorów elektrolitycznych i wyciek elektrolitu, który potrafił wywołać korozję na płycie z elektroniką</a>. Trzeba zauważyć, że niektórzy producenci potrafią je umieszczać w pobliżu grzejących się elementów, a to również wywołuje z czasem awarię<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/s0cfUlxJ5dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+<h2>Nośniki danych – pamięci taśmowe</h2>
+Wielkie szpule jak w magnetofonach szpulowych (albo znacznie większe) przeszły do historii<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/7Lh4CMz_Z6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+W przypadku komputerków 8-bitowych używało się zwykłych kaset magnetycznych (kto pamięta nagrywanie programów z radia albo przestawianie skosu głowicy śrubokrętem?), pierwsze IBM PC również miały odpowiednie złącze<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/G_8CXyF5M1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Tu nośnikom mogła zaszkodzić temperatura, pole magnetyczne i zwykłe normalne zagięcia.<br />
+<h2>Nośniki danych - dyskietki</h2>
+Kiedyś popularne, obecnie tak zapomniane, że można usłyszeć „Tato, tato, fajnie, że wydrukowałeś tę śmieszną ikonę na drukarce 3D”.<br />
+<br />
+Na dyskietkach zapisywano dane na magnetycznym elastycznym okrągłym nośniku. Podobnie jak przy taśmach szkodziła im temperatura, pole magnetyczne i zwykłe normalne mechaniczne uszkodzenia.<br />
+<h2>Nośniki danych - dyski twarde</h2>
+Te ciągle dzielnie walczą z pamięciami półprzewodnikowymi, i prawdopodobnie pozostaną z nami przez długie lata. Ich coraz większej skomplikowanie i większa precyzja powoduje, że bardziej niż kiedykolwiek szkodzą im wstrząsy czy wibracje w trakcie pracy. Ważne jest też, żeby ich obudowa pozostawała hermetyczna (a więc na pewno nie powinno otwierać się ich bez odpowiedniej komory).<br />
+<br />
+Na pewno plusem obecnych konstrukcji jest to, że po wyłączeniu same parkują głowice (tzn. umieszczają je w specjalnych miejscach z dala od talerzy). Dla porównania / kiedyś wymagało to użycia odpowiednich komend (na wideo od 42:25 pokazano komendę „park”) <br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/o5e10zn5FfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+<p></p>
+<h2>Nośniki danych - płyty CD/DVD/BlueRay </h2>
+<p>Mało odporne na dużą prędkość<br />
+<br />
+<iframe width="480" height="360" src="https://www.youtube.com/embed/ktSDj7V8ZLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Innym wrogiem były / są rysy (powodujące odbijanie światła lasera), temperatura, światło i czas (w zależności od użytego materiału dolna warstwa nośnika ulega zmatowieniu, przez co laser nie może odczytać warstwy danych)<br />
+</p>
+<h2>Nośniki danych - pamięci flash</h2>
+<p>Pamięci półprzewodnikowe zrewolucjonizowały rynek - są dosyć odporne na warunki zewnętrzne (o tym za chwilę), nie zawierają części mechanicznych i pozwalają uzyskać niedostępne wcześniej prędkości. Używamy ich w różnych postaciach - jako kart (np. MMC, SD), kostek wlutowanych w płytę główną (eMMC, UFS) albo dysków (SSD w formacie 2,5", mSATA, czy kart M.2 SATA lub NVME). Zagrażają im właściwie trzy główne rzeczy: temperatura, bezczynność i zapis danych.<br />
+<br />
+Z grubsza rzecz ujmując - z pamięci zapisujących jeden bit w komórce (SLC) przeszliśmy do dwubitowych (MLC), trzybitowych (TLC) i czterobitowych (QLC albo TLC 4 bit), mówi się też już o pięciu bitach (PLC). Im więcej bitów, tym więcej danych można zapisać... ale ponieważ komórki mają ograniczoną ilość zapisów (z reguły mniejszą przy wyższej ilości bitów), to i pamięć będzie nadawać się szybciej do wyrzucenia... żeby było ciekawiej, producenci udostępniają coraz szybsze interfejsy do swoich wyrobów, a to mocno zachęca do intensywniejszego ich używania (<a href="https://www.anandtech.com/show/16577/qlc-pcie-40/6" target="_blank" rel="nofollow noopener">sam AnandTech zauważa, że kombinacja QLC i PCIe 4 w akurat testowanym nośniku nie jest chyba najlepsza</a>).<br />
+<br />
+Parametrem określającym trwałość nośnika jest TBW. Podaje on, ile danych można zapisać w ramach gwarancji. Nie jest on oczywiście wartością graniczną, po przekroczeniu której nośnik od razu nadaje się do kosza, ale dosyć dobrze określa jakość użytych komórek pamięci (w czasie, gdy królowały kostki MLC i TLC, przeprowadzano testy, i przykładowo <a href="https://techreport.com/review/27909/the-ssd-endurance-experiment-theyre-all-dead/" target="_blank" rel="nofollow noopener">840 Pro 256GB z 73TBW zapisał trochę ponad 2.4PB</a>, <a href="https://www.heise.de/newsticker/meldung/SSD-Langzeittest-beendet-Exitus-bei-9-1-Petabyte-3755009.html" target="_blank" rel="nofollow noopener">w innym teście 850 Pro 256GB z TBW 150GB zapisał 9,1PB</a>).<br />
+<br />
+Ilość zapisanych danych i czas pracy urządzeń jest podawana przez wiele programów badających SMART (hwInfo, CrystalDiskInfo, smartctl, etc.), obecnie pewne statystyki dotyczące „zużycia” dostępne są również dla „dysków” eMMC (szczególnie tych w standardzie 5.0) – patrz <a href="https://www.cnx-software.com/2019/08/16/wear-estimation-emmc-flash-memory/" target="_blank" rel="nofollow noopener">tutaj</a> albo <a href="https://forums.sandisk.com/t/emmc-health-status-sdin7dp2-4g/35786" target="_blank" rel="nofollow noopener">tutaj</a>.<br />
+<br />
+Należy zauważyć, że nagminną praktyką jest lutowanie układów – w laptopach zdarza się to przy pamięciach eMMC albo SSD (robi to podobno tak bardzo ekologiczne Apple przy systemach z M1).<br />
+<br />
+Jeżeli chodzi o przechowywanie danych na nieużywanych nośnikach, to <a href="https://www.anandtech.com/show/9248/the-truth-about-ssd-data-retention" target="_blank" rel="nofollow noopener">w 2015 pewne dane podawał na ten temat Anandtech (niestety nie udało znaleźć mi się nic późniejszego)</a>.<br />
+</p>
+<h2>Wentylatory</h2>
+<p>Mają najczęściej podaną żywotność i potrafią się zatrzeć (należy o nie dbać, czyli regularnie czyść).<br />
+<br />
+…a monitoring można przeprowadzać wspomnianymi już programami typu SpeedFan.<br />
+</p>
+<h2>Płyty główne</h2>
+<p>Oprócz wcześniejszej wymienionych czynników (przegrzanie elementów, wylanie kondensatorów czy zwarcia) szkodzą im różnego rodzaju naprężenia, które wynikają z tego, że są używane w urządzeniach przenośnych albo z ciężkimi elementami - w przypadku urządzeń stacjonarnych nie jest niczym specjalnym chociażby montowanie bloków chłodzenia ważących ponad 1kg, albo coraz bardziej skomplikowanych kart graficznych (z tego względu konieczne jest montowanie odpowiednich podkładek, przestrzeganie sposobu montażu, albo również demontaż przed transportem, o czym nie można zapominać).</p>
+<p>A tak swoją drogą - dlaczego stacjonarne płyty główne nie mają podobnego chłodzenia jak laptopy (tunelu powietrznego, który wywiewałby całe gorące powietrze z tyłu obudowy?)<br />
+</p>
+<h2>Zawiasy w laptopach</h2>
+<p>Niektórzy producenci chyba po prostu chcą produkować buble:<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Blxiric7Srw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+(nawiasem mówiąc zawiasy w nowym Medionie Akoya również nie budziły mojego zaufania, <a href="https://youtu.be/CiRi4lK77kc?t=1529" target="_blank" rel="nofollow noopener">pan Rakowiecki pokazuje problem również w Asus Zenbook</a>)<br />
+<br />
+Moim prywatnym zdaniem unikać należy również laptopów, w których dół podnoszony jest ponad powierzchnię (cały nacisk rozkłada się na zawias, który musi cały czas pracować)<br />
+</p>
+<h2>Złącza, wtyczki i cienkie kabelki</h2>
+<p>Można powiedzieć, że praktycznie wszystkie problemy z tymi elementami wynikają ze zbyt oszczędnościowego wykonania lub celowego wprowadzania planowego zużycia (producenci chcą zmusić użytkowników do częstszych wymian). Przykłady:<br />
+</p>
+<ol>
+<li>złącza typu MicroUSB bywają lutowane sztywno do płyt głównych, i po wielu podłączeniach możliwa jest utrata styku</li>
+<li>kabelki Lighting mające bardzo cienkie obudowy</li>
+<li><a href="https://antyweb.pl/kolejne-sadowe-problemy-apple-sedzia-nie-zostawia-na-koncernie-suchej-nitki/" target="_blank" rel="nofollow noopener">używanie „chyba najtańszej i najbardziej tandetnej tasiemki, jaką dało się znaleźć na chińskim rynku” (znów Apple, i tym razem problemy z podświetleniem matryc w laptopach)</a></li>
+<li>brak separatora we wtyczkach - <a href="https://youtu.be/X8lWIKb-uWQ?t=2016" target="_blank" rel="nofollow noopener">wideo "Błędy konstrukcyjne MacBook vs Laptop - porównujemy Największe Porażki Apple" ok. 33.32</a><br />
+ </li>
+</ol>
+<p><a href="https://support.hp.com/pl-pl/product/hp-pavilion-g6-2100-notebook-pc-series/5262606/document/c04409613" target="_blank" rel="nofollow noopener">Problematyczna sytuacja z kablami przydarzyła się również HP, ten jednak producent zarządził odpowiednią akcję serwisową</a>.<br />
+</p>
+<h2>Pasty i pady termoprzewodzące</h2>
+<p>Z czasem twardnieją albo się kruszą i tracą swoje zdolności przylegania.<br />
+<br />
+Dobre chłodzenie jest oczywiście podstawą – stąd tak bardzo liczy styk między powierzchnią układu i elementami odprowadzającymi ciepło (między nimi nie może być powietrza, tylko całkowicie wypełnienie np. z odpowiedniej, dobrze przewodzącej ciepło pasty). Jak to „doskonale” realizują niektórzy producenci, pokazał chociażby Daniel Rakowiecki w wideo „Uważaj na swojego Asus'a, wada fabryczna w większości modeli - naprawa kodu 43 w Asus GL552”</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/7n1TkvY2k_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Należy też pamiętać, że niektóre pasty termoprzewodzące przewodzą również prąd (trzeba być ostrożnym przy ich nakładaniu) i nie dają się łatwo / w praktyce w ogóle usunąć. Mówię to o tzw. ciekłym metalu.<br />
+</p>
+<h2>Baterie i akumulatory</h2>
+<p>Baterie litowe / polimerowe ze swojej natury tracą pojemność z każdym cyklem ładowania. Nie służą im również zbyt niskie i zbyt wysokie temperatury (a więc i szybkie ładowanie), jak i przechowywanie w stanie całkowitego naładowania i całkowitego rozładowania (np. <a href="https://www.apple.com/pl/batteries/maximizing-performance/" target="_blank" rel="nofollow noopener">Apple zaleca przechowywanie przy naładowaniu w pobliżu 50%</a>).<br />
+<br />
+Pod Windows informację o stopniu utraty pojemności podaje np. aplikacja hwInfo.<br />
+<br />
+W świecie Apple bezpośrednio w iOS i MacOS można sprawdzić sprawdzić stopień utraty pojemności i ilość odbytych cykli ładowania (bezpośrednio albo przez narzędzia analizy). Należy zauważyć, że w przeszłości korporacja z Cuppertino z premedytacją zmniejszała maksymalny pobór prądu / wydajność w telefonach z bardziej zużytymi ogniwami, nie informując o tym użytkownika (po protestach dodano odpowiedni przełącznik).<br />
+<br />
+<a href="https://support.apple.com/pl-pl/HT201585#cyclecount" target="_blank" rel="nofollow noopener">W większości obecnych komputerów Apple gwarantuje 20% zużycia po 1000 cykli</a> (podobnie wartości są dla telefonów i tabletów), u innych producentów często brak tak szczegółowych informacji, ewentualnie oferują oni „normalne” baterie i baterie o przedłużonej trwałości.<br />
+<br />
+Taka mała dygresja w tym miejscu: w przypadku taniego Acera Swift 1 po około półtora miesiąca zużycie wynosi 0,4% (czyli z deklarowanych 17h teoretycznie „ubyły” 4 minuty). Komputer był ładowany mniej więcej 15 razy. Po roku powinno to być mniej więcej około 4% / 40 minut i 150 cykli ładowania (celowo nie liczę dokładnie), a po 1000 cyklach ładowania (6 latach) około 27%.<br />
+<br />
+Podaję te wartości, żeby pokazać, że niższa półka również może oferować niezłą jakość. Trzeba zauważyć, że szybkie ładowanie (ładowanie większym natężeniem prądu) bardziej zwiększa temperaturę ogniw, a to dodatkowo może przyczyniać się do ich degradacji (<a href="https://antyweb.pl/200-w-niszczy-baterie-jak-szybko/" target="_blank" rel="nofollow noopener">z drugiej jednak strony Xiaomi podało, że ładowarka 200W pozwoli na zachowanie 80% po 800 cyklach</a>, a <a href="https://www.benchmark.pl/aktualnosci/xiaomi-hypercharge-200w-niszczy-baterie.html" target="_blank" rel="nofollow noopener">Benchmark przy okazji podawania tej informacji zupełnie pokazał brak profesjonalizmu, odkrywając fakt, ze bateria nie ma stałej pojemności</a>). <br />
+<br />
+Przy obecnych bateriach zdarzają się przypadki puchnięcia ich obudowy (powiększania jej wielkości), czyli po angielsku tzw. swallowing. Jest to problem nagminny i tym bardziej przykry, że obecne ogniwa wbudowane są wewnątrz urządzeń, a ponieważ mają bardzo cienkie obudowy, to niszczą wszystko wokół, gdy zmieniają swoją objętość. <a href="?q=node/367">Tego typu problemy mieli np. użytkownicy XPS 15 / Precision 5110 (Dell częściowo zarządził akcję serwisową w 2017 roku, i w niektórych wypadkach potrzebna była wymiana obudowy i touchpada).</a><br />
+<br />
+Ogniwa ulegają akcjom serwisowym również z innych powodów, takich jak nieplanowana utrata pojemności czy zwarcia / samozapłon (to ostatnie działo się np. z Samsungiem Galaxy Note 7). Oba problemy mogły ujawniać się po jakimś czasie, i producenci profilaktycznie wymieniali całe partie elementów.<br />
+<br />
+Ostatnim problemem jest wyciekanie elektrolitu bateryjek, które podtrzymują zawartość pamięci CMOS. Zdarza się to zazwyczaj po latach i dotyczy raczej „starego” sprzętu, skutki bywają opłakane:<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/kNhVQWH318M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+albo</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/qn6sHMqvRMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<h2>Obudowy</h2>
+<p>Tutaj właściwie głównie można mówić tylko o rdzewieniu albo żółknięciu. Z tym drugim „walczy” 8-bit Guy, który ma serię wideo o odświeżaniu starych plastików, np. <br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/_GH0ZpaTwqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+albo<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/SO4mjEasdTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Dobrą praktyką szczególnie w przypadku urządzeń mobilnych jest wybieranie tych konstrukcji, które mogą poszczycić się normami typu MIL-STD-810G lub IP (określają one odporność na zginanie, nacisk, ewentualnie pył i zalanie) – większość telefonów spełnia IP67, ale… dostanie się cieczy do środka nie jest uwzględnianie przy gwarancji.<br />
+</p>
+<h2>Klawiatury</h2>
+<p>Przy klawiaturach można mówić głównie o zwarciach i braku odporności na czynniki mechaniczne. <a href="https://pogotowie-komputerowe.org.pl/jakie-klawiatury-odporne-na-zalanie-mozna-kupic-w" target="_blank" rel="nofollow noopener">Teoretycznie mamy urządzenia odporne na zalanie</a>, podobną deklarację składają producenci laptopów… ale stara zasada „lepiej zapobiegać niż leczyć” jest tu podstawą.<br />
+<br />
+Apple chyba nie byłoby sobą, gdyby nie dodało tu nowej kategorii problemów. W pogoni za zmniejszaniem grubości najwyraźniej zapomniano o tym, że na świecie jest kurz i użytkownicy, którzy naciskają klawisze. Problem miały różne modele pomiędzy 2015 i 2019, powstał <a href="https://support.apple.com/pl-pl/keyboard-service-program-for-mac-notebooks" target="_blank" rel="nofollow noopener">program naprawczy, który niczego nie naprawiał </a>(<a href="https://antyweb.pl/apple-wycial-motylkowa-klawiature-ale-sady-nie-pozwola-mu-o-niej-zapomniec/" target="_blank" rel="nofollow noopener">do tego pozew zbiorowy</a>), a całość zgrabnie opisuje tekst <a href="https://pl.classicfoxvalley.com/key/scissor-vs-butterfly-keyboard/" target="_blank" rel="nofollow noopener">„Klawiatura nożycowa vs motyl”</a> albo <a href="https://spidersweb.pl/2015/03/jaka-klawiatura.html" target="_blank" rel="nofollow noopener">„Wszystko co musisz wiedzieć o klawiaturach, a nie zwracałeś nawet na to uwagi”</a>.<br />
+<br />
+</p>
+<h2>Ekrany kineskopowe</h2>
+<p>W najstarszych ekranach zdarzało się wypalenie luminoforu</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Df8RT4BM6U0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<h2>Ekrany LCD / LED / miniLED / microLED</h2>
+<p><br />
+Ekrany LCD składają się z punktów, a składowe koloru każdego punktu wyświetlane są oddzielnie (kontrolowane są przez oddzielne tranzystory). Producenci oznaczają panel jako całkowicie sprawny i nie podlegający wymianie gwarancyjnej, gdy ma on włączone na stałe maksymalnie określoną ilość punktów (ewentualnie określoną ilość składowych koloru w iluś punktach). Odpowiednie normy są zdefiniowane w standardach ISO, albo we własnych dokumentach producenta. Niektóre sklepy oferują płatny „test” na tę przypadłość, ale chcę przypomnieć, że usterka może pojawić się z czasem, a dodatkowo przy zakupie wysyłkowym w Polsce jest możliwość sprawdzenia i zwrotu produktu przez 14 dni. W bardzo specyficznych przypadkach można taki tranzystor „naprawić”, wyświetlając na przemian określone kolory, ewentualnie delikatnie uciskając powierzchnię panelu (ostatni sposób nie jest polecany, gdyż nacisk może spowodować uszkodzenie kolejnych punktów).<br />
+<br />
+Technologia LCD dodatkowo wymaga podświetlenia. Kiedyś stosowano do tego lampy rtęciowe (z czasem świeciły one coraz słabiej), obecnie wykorzystuje się w tym celu diody LED, które chyba nie sprawiają już takich problemów (zresztą obecne monitory Della i większości producentów bardzo często mają tzw. tryby serwisowe, w których pokazują ilość godzin pracy urządzenia).<br />
+<br />
+W przypadku produktów Apple (w sumie śmieszne, że często trzeba o nich oddzielnie wspomniać) można jeszcze mówić o dwóch problemach:<br />
+</p>
+<ol>
+<li><a href="https://boncode.hk/hk/blog/staingate/" target="_blank" rel="nofollow noopener">z powłoką antyrefleksyjną (tzw. Staingate) </a></li>
+<li><a href="https://antyweb.pl/kolejne-sadowe-problemy-apple-sedzia-nie-zostawia-na-koncernie-suchej-nitki/" target="_blank" rel="nofollow noopener">ze wspomnianą już tasiemką</a> czy wtyczką od matrycy<br />
+ </li>
+</ol>
+<h2>Ekrany AMOLED</h2>
+<p>Ekrany AMOLED charakteryzują się tym, że nie powinno na nich wyświetlać się statycznego obrazu (gdyż ten utrwala się, jak w ekranach plazmowych czy bardzo starych ekranach LCD). Z generacji na generacji efekt jest mniej widoczny, ale… np. widziałem go jeszcze w Samsungu S7.<br />
+<br />
+Przypomnę też, że na powierzchniach szklanych ekranów można przyklejać folie ochronne – jak np. polecam mat od Smart Engineered.<br />
+</p>
+<h2>Drukarki i materiały eksploatacyjne</h2>
+<p>
+W drukarkach atramentowych może zajść potrzeba wymiany poduszki czy pojemnika na atrament używany do czyszczenia głowic, a w laserowych co jakiś czas trzeba wymienić bęben.<br />
+<br />
+Pomijając to urządzenia drukujące to temat rzeka. Doniesień o tym, że tanie konstrukcje pokazują błędy zaraz po gwarancji, albo że nie potrafią drukować, gdy w pojemniku jest jeszcze tusz, jest masa (tutaj nasuwa się właściwie tylko jeden zwrot, czyli „planowane postarzanie”). <br />
+<br />
+Sam miałem kiedyś niesamowite problemy z atramentowym HP, średnie doświadczenia z EPSONEM na cartridge, za to nie zauważyłem praktycznie nic złego z produktem z serii EcoTank (również produkcji firmy EPSON).<br />
+</p>

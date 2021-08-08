@@ -1,0 +1,105 @@
+﻿Title:Raport z postępu prac, czyli Sobieski+ MileStone 3 (2020)
+Author:marcin
+When:11 May 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Sobieski
+
+<img align=right src="sites/default/files/401/1.png" style="width:250px;" alt="image" title="image" />
+
+<p>Projekt na chwilę obecną osiągnął już taką dojrzałość, że na upartego możnaby odtworzyć całą główną funkcjonalność pewnego znanego portalu z fantastyką (jest skrypt do migracji danych i są zaimplementowane wszystkie ważne elementy, a całość ma podstawowe elementy bezpieczeństwa).</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Raport-z-postepu-prac-czyli-Sobieski-MileStone,107845.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Na początku kilka zrzutów ekranu:</p>
+
+<center><img src="sites/default/files/401/1.png" style="width:438px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/401/2.png" style="width:519px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/401/3.png" style="width:570px;height:405px;" alt="image" title="image" />
+
+<p><img src="sites/default/files/401/4.png" style="width:543px;height:405px;" alt="image" title="image" /></center>
+
+<p>Projekt na chwilę obecną osiągnął już taką dojrzałość, że na upartego możnaby odtworzyć całą główną funkcjonalność pewnego znanego portalu z fantastyką (jest skrypt do migracji danych i są zaimplementowane wszystkie ważne elementy, a całość ma podstawowe elementy bezpieczeństwa).</p>
+
+<p>Aplikacja jest już aplikacją webową w pełnym tego słowa znaczeniu - część kliencka całkowicie sprawdza połączenie z serwerem, a ten uaktualnia klientów (we wszystkich głównych przypadkach).</p>
+
+<p>W międzyczasie wyczyściłem w dużej mierze kod:</p>
+
+<ul><li>jest znacznie lepiej opisany niż w MileStone 2</li>
+
+<li>same funkcje są krótsze i czytelniejsze</li>
+
+<li>praktycznie wszystko jest zmigrowane na język angielski</li>
+
+<li>magic numbers pozostały wyłącznie w kilku miejscach (gdzie mogą zostać)</li>
+
+<li>używam let zamiast var</li>
+
+<li>nie mam mieszanych znaków końca linii (w końcu wygląda to poprawnie pod Linuxem)</li></ul>
+
+<p>Chciałbym się odnieść do kilku uwag:</p>
+
+<ul><li>nodemailer pod Windows 10 pomimo poprawnej instalacji wymaga u mnie importu z użyciem ścieżki (wygląda to na jakąś przypadłość nodeJS) i nie wystarcza użycie &quot;<i>require(&#39;nodemailer&#39;);</i>&quot;</li>
+
+<li>konkatenacja stringów vs templaty - pierwszy sposób wydaje się być znacznie czytelniejszy (i nie jest wolniejszy)</li>
+
+<li>brak testów - testy to wspaniała rzecz... o ile mamy w miarę stabilny kod. Na poziomie wczesnych MileStone często i gęsto nie jest dobrą rzecz tracić czas na ich pisanie</li>
+
+<li>używanie synchronicznych i asynchronicznych funkcji - stopniowo eliminuję te pierwsze</li>
+
+<li>&quot;składnia <i>array[&#39;text&#39;] = &#39;something&#39;</i>&quot; - według różnych mądrych źródeł stosowanie tu obiektów może wpływać na wydajność, do tego skoro działa wyśmienicie... (<i>[]</i> zamiast <i>new Array()</i> oczywiście już są)</li>
+
+<li>&quot;plik index.js jest zdecydowanie za duży&quot; - mam oddzielny config.js na razie, do tego nie jestem zwolennikiem podziału, dopóki całość nie jest w miarę stabilna (tu daje chyba znać wygoda w pisaniu i naleciałości z C i C++, gdzie lepiej przy kompilacji mieć wszystko razem)</li>
+
+<li>&quot;za dużo switch case&quot; - kwestia gustu</li>
+
+<li>&quot;logowanie błędów do konsoli, ogarnąłbym jakąś dobrą biblioteką&quot; - na razie tak naprawdę nie ma tu jeszcze przyzwoitego debug pomocnego przy analizie błędów, będę go rozwijał później (nie chcę jednak używać bibliotek)</li>
+
+<li>&quot;ogólnie bym zastosował np utils.promisify, aby zmienić funkcje z first error callbacków na Promise&#39;y&quot; - może kiedyś</li>
+
+<li>&quot;zmienne nie powinny mieć krótkich nazw, typu t - zwłaszcza, jeżeli jest używana na przestrzeni kilku stron/scrollowań.&quot; - tu się zgadzam, kod w dużej mierze został już przeczyszczony</li></ul>
+
+<p>Na dzień dzisiejszy zauważyłem, że V8 w dalszym ciągu wydaje się mieć problemy z obsługą forEach:</p>
+
+<p><pre contenteditable="false"><code class="javascript" data-lang="javascript" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">for (let index in cacheTexts) {
+   entry = cacheTexts[index];
+   ...
+}</code></pre>
+
+<p>przy trochę większej ilości danych wykonuje się w około 1 ms, a:</p>
+
+<p><pre contenteditable="false"><code class="javascript" data-lang="javascript" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">cacheTexts.forEach(function(entry) {
+   ...
+});</code></pre>
+
+<p>potrzebuje nawet 3500 ms.</p>
+
+<p>Innym ciekawym spostrzeżeniem z ostatnich dni jest to, że JavaScript idzie trochę drogą Basica i innych języków programowania - z prostego tworu używanego do wyświetlania okienek typu alert albo sprawdzania poprawności danych formularza pod wpływem zdarzeń przeszedł w coś, co wymaga pewnych mechanizmów współbieżności.</p>
+
+<p>Z tego powodu musiałem zaimplementować mutex (a właściwie semafor z ilością dozwolonych równoczesnych wejść do sekcji krytycznej równych jeden) - używam go przy uaktualnianiu plików z tekstami (bez niego - gdyby z dwóch przeglądarek robić zmianę w dokładnie tym samym pliku w dokładnie tym samym momencie, to wynik zmian w mojej pamięci podręcznej związanej z tym plikiem byłby losowy).</p>
+
+<p>Podsumowując:</p>
+
+<ol><li>Bardzo dziękuję za poprzednie komentarze, zapraszam do pisania nowych, kontaktu, forkowania, itp. (myślę, że właśnie wymiana doświadczeń najwięcej napędza postęp) </li>
+
+<li>Nic nie reklamuję ani nikomu nie wciskam, co najwyżej przedstawiam postęp w pisaniu pewnego potencjalnie bardzo obiecującego projektu (jest na tyle prosty, że można dosyć szybko wejść w pisanie podobnych wprawek)</li>
+
+<li>Teoretycznie dzisiaj każdy mógłby sobie pobrać ten projekt, zaimportować dane z portalu (&quot;<i>php fantastyka.php</i>&quot; spowoduje wygenerowanie plików w /tmp/biblioteka) i pobawić się całą koncepcją.</li>
+
+<li>Mam różne plany co do rozwoju, zobaczymy co przyniesie przyszłość (Minix 3 też miał być edukacyjny, a skończył na milionach maszyn :)). Przykład: pliki, na których testuję, mają ok. 126 MB - w przyszłości być może zdecyduję na używanie LZ4 i kompresję.</li></ol>
+
+<p>Poprzednie wpisy:</p>
+
+<ol><li>Poprzednik (czyli Sobieski w PHP) - <a href="?q=node/372">https://www.dobreprogramy.pl/marcinw2/CMS-do-serwowania-WWW-w-kilkunas...</a></li>
+
+<li>Milestone 1 - <a href="?q=node/393">https://www.dobreprogramy.pl/marcinw2/Jak-napisac-kompaktowego-CMS-run...</a></li>
+
+<li>Milestone 2 - <a href="?q=node/394">https://www.dobreprogramy.pl/marcinw2/Jeden-uparty-kaleczy-JavaScript-...</a></li>
+
+<li>Co nieco o tworzeniu kodu z radością - <a href="?q=node/396">https://www.dobreprogramy.pl/marcinw2/Hey-Joe-Potrzymaj-mi-piwo-dlacze...</a></li>
+
+<li>Info o skrypcie w PHP, którego po zmianach użyłem do migracji danych testowych (oryginalnie był to kod do tworzenia plików EPUB ze stron <a href=http://fantastyka.pl>fantastyka.pl</a> i <a href=http://fantastykapolska.pl>fantastykapolska.pl</a>) - <a href="?q=node/391">https://www.dobreprogramy.pl/marcinw2/fantastyczne-teksty-a-nawet-wiec...</a></li>
+
+<li><a href="?q=node/398">https://www.dobreprogramy.pl/marcinw2/Epidemia-i-podejscia-do-tematu-w...</a> - ten wpis nie trafił na główną, ale myślę, że jest warty wskazania (spojrzałem krótko na GitHub i wysnułem kilka wniosków na temat jakości kultury programistycznej w różnych krajach w oparciu o dane/kod związany z zarazą)</li></ol>
+
+<p>C.D.N.</p>

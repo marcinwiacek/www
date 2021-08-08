@@ -1,0 +1,63 @@
+﻿Title:Report 2005-12-23
+Author:marcin
+When:23 Dec 2005
+Taxonomy:English,English blog,Gammu,Gammu+
+
+<p><i>Content moved from gammu.org blog</i></p>
+<table border="0" style="border-collapse:separate;"><tr><td align="justify" valign="top">There will be done a lot of work for advertising Gammu and Gammu+ family and there are plans of making gammu.net portal with various services. To achieve it's required to work on
+<ul><li>ending phone database</li>
+<ul><li>data should be completed for all models</li>
+<li>users should be able to report theirs comments to phones</li>
+<li>users should be able to report bugs</li>
+<!--break-->
+<li>Gammu should be able to take firmware versions from it (maybe using XML)
+</li>
+<li>support for more formats should be added</li>
+</ul><li>giving shared accounts for all services (Wiki, phone database and other)</li>
+<li>adding more tutorials<br /></li>
+</ul><p>Gammu will have added Symbian support. This is the highest time to make it. The same story is with BenQ(Siemens)/Motorola and other. Backup files (maybe with all filesystem files) will be done probably using ZIP, we will think about XML too. Maybe finally <a href="http://www.debian.com">Debian</a> will contains this software. We will try to do everything to end this topic with success.</p>
+<p>Gammu+ will have end SMS support for Series 40 and DCT3 phones. If there will be any sponsors or programmers help, there will be big chance to boost adding other new functions. There should be started win32 gui for it.</p>
+<p>We want to stop some trends too. For example let's look on such statistic (it's for Gammu):</p>
+<table border="1" cellpadding="0" cellspacing="0"><tr><td><b>Year</b></td>
+<td><b>Number of versions</b></td>
+<td><b>Size of last source tarball</b></td>
+<td><b>Source tarball size increment</b></td>
+</tr><tr><td align="center">2002</td>
+<td align="center">65<br /></td>
+<td align="right">428,136 bytes</td>
+<td align="right">428,136 bytes</td>
+</tr><tr><td align="center">2003</td>
+<td align="center">31<br /></td>
+<td align="right">691,223 bytes</td>
+<td align="right">263,087 bytes</td>
+</tr><tr><td align="center">2004</td>
+<td align="center">16<br /></td>
+<td align="right">834,916 bytes</td>
+<td align="right">143,693 bytes</td>
+</tr><tr><td align="center">2005</td>
+<td align="center">18<br /></td>
+<td align="right">929,295 bytes</td>
+<td align="right">94,379 bytes</td>
+</tr></table><p>We can find such possible conclusions:</p>
+<ul><li>there were implemented almost all usefull things for available for developers phones</li>
+<li>developers had less and less time for development<br /></li>
+<li>developers didn't have enough creativity for finding new things to write</li>
+<li>we have smaller increments and we start to have a little more versions (see years 2004 and 2005) - after adding many lines of source we have rather testing and making them stable</li>
+</ul><p>In majority they aren't too positive. We can of course try to explain, that we had to share time among more and more projects and we worked on<br />
+some services (like this www site), but this is signal too, that we (people creating this software) should improve our methods, be more creative and spend more time on development.</p>
+<p>...and probably we need to search for funds more effectively. Please note, that many people will buy for example Nokia 6233 (Series 40 3.0 phone with UMTS) and will expect support for it. Developers will need to access it. The same it will be good finally to start normal work on 64-bit systems. There will be Windows Vista (Longhorn) released too. There are many things to buy.</p>
+<p>But don't speak about money, let's return to Nokia. We hope, that this<br />
+manufaturer will finally do few things:</p>
+<ol><li>allow people to download and upload firmwares without giving phone to service (over PopPort or using data calls)</li>
+<li>improve Polish (and probably some other) PPM and won't finally force users to wait about second during opening each SMS or SMS folder</li>
+<li>will make some functions a little bit logical - for example we will see phones, which will display, if SMS is on SIM or not</li>
+</ol><p>We will see...
+</p></td>
+<td align="justify" valign="top"><b>January, February</b><br /><ul><li>work on gammu.net
+</li><li>ending SMS for Gammu+
+</li></ul><p><b>April</b><br /></p>
+<ul><li>Paying for gammu.net domain and server space for next year
+</li></ul><p><b>Q2/Q3</b><br /></p>
+<ul><li>Getting access to 6233
+</li></ul></td>
+</tr></table>

@@ -1,0 +1,25 @@
+﻿Title:Jedyne....
+Author:marcin
+When:06 Apr 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Jedyne co mam to złudzenie,<br />
+i w emocji moc i gapienie,<br />
+i osłupienie czasem na akcje,<br />
+i wymówkę na te sytuacje,</p>
+<p>i minę i ciągnące sprawy,<br />
+i chcicę na różne zabawy,<br />
+i skaz urody wstręt smakowania,<br />
+i smutku z pracą mieszania,</p>
+<p>i skupienie i dziur łatanie,<br />
+i moc i rymów pokalanie,<br />
+i ucieczkę w inne wszechświaty,<br />
+i biedy rys czasem bogaty,</p>
+<p>i kpinę wielką i siedzenie,<br />
+i bumelowania niesienie,<br />
+i nieufność ludzia innego,<br />
+i uprzedzenie do mnie dużego,</p>
+<p>i jak żyć ?</p>
+<!--break-->

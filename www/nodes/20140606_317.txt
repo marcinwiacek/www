@@ -1,0 +1,24 @@
+﻿Title:żuczek
+Author:marcin
+When:06 Jun 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Żuczek niewinny jest, że jest żuczkiem,<br />
+a tłuczek też, że urodził się tłuczkiem,<br />
+nie zmienisz jednak całkiem każdego,<br />
+każdy ma moc do czegoś innego,</p>
+<p>nie żałuj też, że mama gen dała,<br />
+bo może tam być przygoda cała,<br />
+wszak masz ręce i magię myślenia,<br />
+masz już też aż pół mocy tworzenia,</p>
+<p>nie wiń innych za resztę słabości,<br />
+lecz łataj tym, co od innych gości,<br />
+i wiedz, że jedno jest życie Twoje,<br />
+i ważne są wyborów podwoje,</p>
+<!--break-->
+<p>jak energię wciąż ssiesz bez wzajemności,<br />
+lub z rozmysłem depczesz ludzkości,<br />
+nie dziw się, jak reakcja zszokuje,<br />
+jak ktoś w końcu Ci podziękuje...</p>

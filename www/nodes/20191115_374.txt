@@ -1,0 +1,101 @@
+﻿Title:Firefox Preview - dosłownie kilka słów (również o wydajności) (2019)
+Author:marcin
+When:15 Nov 2019
+Taxonomy:Polski,Polski blog,dobreprogramy.pl,Android,TrueFenix
+
+<p>Google ciągle dodaje nowe API w Chrome (budzi to obawy specjalistów od bezpieczeństwa) robiąc z niego m.in. platformę do budowania &quot;pełnokrwistych&quot; aplikacji desktopowych, a obecnie zastanawia się nad zmianami tzw. manifestu rozszerzeń (co według wielu osób skutecznie zablokuje adblockery i ma stać się w lutym 2020 - <a href="https://www.xda-developers.com/google-chrome-manifest-v3-ad-blocker-extension-api/" target="_blank" rel="noopener" rel="nofollow">&quot;nietechniczny&quot; opis zmiany z czerwca</a> znalazłem na xda-developers).</p>
+
+<p>Mozilla walczy, a jedną z jej ostatnich aplikacji jest Firefox Preview na platformę Android. Zbiera on bardzo pozytywne recenzje w Google Play, a ja tytułem prób zacząłem korzystać z niego jako głównej przeglądarki.</p>
+
+<!--teaser-->
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Firefox-Preview-doslownie-kilka-slow-rowniez-o-wydajnosci,103648.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Google ciągle dodaje nowe API w Chrome (budzi to obawy specjalistów od bezpieczeństwa) robiąc z niego m.in. platformę do budowania &quot;pełnokrwistych&quot; aplikacji desktopowych, a obecnie zastanawia się nad zmianami tzw. manifestu rozszerzeń (co według wielu osób skutecznie zablokuje adblockery i ma stać się w lutym 2020 - <a href="https://www.xda-developers.com/google-chrome-manifest-v3-ad-blocker-extension-api/" target="_blank" rel="noopener" rel="nofollow">&quot;nietechniczny&quot; opis zmiany z czerwca</a> znalazłem na xda-developers).</p>
+
+<p><center><img src="sites/default/files/374/main.jpg" style="width:228px;height:405px;" alt="image" title="image" /></center>
+
+<p>Mozilla walczy, a jedną z jej ostatnich aplikacji jest Firefox Preview na platformę Android. Zbiera on bardzo pozytywne recenzje w Google Play, a ja tytułem prób zacząłem korzystać z niego jako głównej przeglądarki.</p>
+
+<p>Do testów wydajnościowych zbierałem się dłuższy czas i od czasu do czasu robiłem sobie krótkie porównania na Pixelu z Android 10 i Galaxy S7 z Android 8 (wykorzystując aktualny na dany moment build Canary z Google Play i aktualny build Firefox Preview z Google Play).</p>
+
+<p>Celowo nie podaję tutaj dokładnie wersji ani daty testy, gdyż chodzi mi tylko o ogólne przedstawienie pewnego trendu - Firefox pokazany jest z lewej, Chrome z tego samego dnia z tego samego telefonu z prawej (w wersji mobilnej DP Firefox jest pierwszy, a Chrome zaraz pod nim).</p>
+
+<p><b>Na rozgrzewkę...</b></p>
+
+<p><center><a href="sites/default/files/374/sun1.png"><img src="sites/default/files/374/sun1.png" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/sun2.png"><img src="sites/default/files/374/sun2.png" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><b><a href="https://browserbench.org/JetStream" target="_blank" rel="noopener" rel="nofollow">JetStream2</a></b></p>
+
+<p><center><a href="sites/default/files/374/js1.png"><img src="sites/default/files/374/js1.png" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/js2.png"><img src="sites/default/files/374/js2.png" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><center><a href="sites/default/files/374/js3.jpg"><img src="sites/default/files/374/js3.jpg" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/js4.jpg"><img src="sites/default/files/374/js4.jpg" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><b><a href="https://browserbench.org/MotionMark1.1/" target="_blank" rel="noopener" rel="nofollow">MotionMark 1.1</a></b></p>
+
+<p><center><a href="sites/default/files/374/mm1.png"><img src="sites/default/files/374/mm1.png" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/mm2.png"><img src="sites/default/files/374/mm2.png" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><center><a href="sites/default/files/374/mm3.jpg"><img src="sites/default/files/374/mm3.jpg" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/mm4.jpg"><img src="sites/default/files/374/mm4.jpg" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><b><a href="https://browserbench.org/Speedometer2.0/" target="_blank" rel="noopener" rel="nofollow">Speedometer 2.0</a></b></p>
+
+<p><center><a href="sites/default/files/374/s1.png"><img src="sites/default/files/374/s1.png" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/s2.png"><img src="sites/default/files/374/s2.png" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><center><a href="sites/default/files/374/s3.jpg"><img src="sites/default/files/374/s3.jpg" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/s4.jpg"><img src="sites/default/files/374/s4.jpg" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><b><a href="https://www.basemark.com/benchmarks/basemark-web/" target="_blank" rel="noopener" rel="nofollow">Basemark Web 3.0</a></b></p>
+
+<p><center><a href="sites/default/files/374/b1.png"><img src="sites/default/files/374/b1.png" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/b2.png"><img src="sites/default/files/374/b2.png" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><center><a href="sites/default/files/374/b3.png"><img src="sites/default/files/374/b3.png" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/b4.png"><img src="sites/default/files/374/b4.png" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><center><a href="sites/default/files/374/b5.jpg"><img src="sites/default/files/374/b5.jpg" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/b6.jpg"><img src="sites/default/files/374/b6.jpg" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p><b>Podsumowanie</b>
+
+<p>Co do stabilności, to nie jestem w stanie zarzucić nowemu liskowi dosłownie nic:</p>
+
+<ul><li>działa,</li>
+
+<li>nie zawiesza się,</li>
+
+<li>całkiem sensownie renderuje strony (może co najwyżej czasem trzeba przełączyć się na wersję dekstopową danej strony jak w przypadku strony Lenovo)</li>
+
+<li>nie jest ociężały (w porównaniu do starego Firefoxa na Androidzie różnica jest kosmiczna).</li></ul>
+
+<p>Jeśli mówimy o zgodności, to Firefox Preview nie potrafi przejść JetStream 2 (błąd zgłosiłem) i ma jeden punkt więcej zgodności z HTML5.</p>
+
+<p>Problem pojawia się, gdy porównamy cyferki - praktycznie w każdym wypadku Chrome jest znacznie szybszy (często około 100%, czasami kilka razy). Nie wiem, czy jest to kwestia (nie)używania przyspieszenia sprzętowego, ale... wyniki są dosyć podobne na obu telefonach.</p>
+
+<p>Co może uratować produkt Mozilli?</p>
+
+<ol><li>świeże spojrzenie na interface - ten działa szybko, gdyż został napisany od nowa i nie zawiera wieloletnich naleciałości (na chwilę obecną brakuje w nim dosłownie drobiazgów). Jedyną dla mnie nielogicznością okazało się umieszczenie zakładek i historii w &quot;My library&quot;, podobnie aplikacja niezbyt precyzyjnie informuje czy dane uprawnienie wynika z ustawień Androida czy nie, spodobały mi się za to np. kolekcje (z grubsza jest to grupowanie zakładek w folderach dostępne ze strony głównej)<br/></li>
+
+<li>wtyczki - część funkcjonalności działa już na tej zasadzie, <a href="https://blog.mozilla.org/addons/2019/10/23/fx-preview-geckoview-add-ons-support/" target="_blank" rel="noopener" rel="nofollow">oficjalne wsparcie pojawi się prawdopodobnie w I połowie 2020</a></li>
+
+<li>użytkownicy - czyli wszyscy ci, którzy na przekór wszystkiemu nie będą chcieli korzystać z niczego &quot;chromopodobnego&quot;</li>
+
+<li>opcje prywatnościowe - obecnie dostępne jest już &quot;Enhanced tracking protection&quot; (jednakże nie daje takich ustawień w aplikacji desktopowej)</li></ol>
+
+<p>Z oczywistych względów program nie ma Lite Mode (strony bez https są kompresowane i serwowane z serwera Google), ale nawet to mnie od niego nie odstraszyło.</p>
+
+<p><b>Na chwilę obecną całość jest bardzo dojrzała</b> i właściwie nie polecałbym jedynie dokonywania z jej użyciem transakcji finansowych (z dwóch powodów: beta to beta + robienie tego na Androidzie to czasami proszenie się o kłopoty samo w sobie).</p>
+
+<p>Jedyne co polecam, to przejrzenie wszystkich ustawień.</p>
+
+<p><center><a href="sites/default/files/374/sett1.jpg"><img src="sites/default/files/374/sett1.jpg" style="width:169px;height:300px;" alt="image" title="image" /></a>
+<a href="sites/default/files/374/sett2.jpg"><img src="sites/default/files/374/sett2.jpg" style="width:169px;height:300px;"  alt="image" title="image" /></a></center>
+
+<p>(są tam takie przełączniki jak &quot;Remote debugging via USB&quot;, &quot;Usage and technical data&quot; and &quot;Experiments&quot; i warto upewnić czy zgadzamy się na ich włączenie).</p>
+
+<p><b>Z mojej strony gorąca rekomendacja - świat naprawdę potrzebuje alternatywy, żebyśmy nie skończyli z HTML obsługiwanym wyłącznie przez jeden jedyny słuszny engine.</b>&#160;&nbsp;</p>

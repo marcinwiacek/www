@@ -1,0 +1,171 @@
+﻿Title:Okiem użytkownika: minimalizm (2020)
+Author:marcin
+When:4 Feb 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,AMD,x86
+
+<img src="sites/default/files/390/laptop-1443559_1920_2.jpg" width=300 align=right>
+<p>Niedawno przeczytałem sobie trzy pozornie niezwiązane ze sobą rzeczy - opis płyty ASRock X570D4I-2T, wpis <a href="https://www.dobreprogramy.pl/lukasamd/Okiem-programisty-minimalizm,106097.html" target="_blank" rel="noopener">&quot;Okiem programisty: minimalizm&quot;</a> i komentarze do tekstu &quot;<a href="https://www.dobreprogramy.pl/Krogulec/Mocno-subiektywny-ranking-internetowych-sklepow-z-elektronika,105989.html" target="_blank" rel="noopener">Mocno subiektywny ranking internetowych sklepów z elektroniką</a>&quot;.</p>
+
+<p>Mam kilka przemyśleń, którymi chciałbym się podzielić - spora ich część nie jest związana z informatyką.</p>
+
+<!--teaser-->
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Okiem-uzytkownika-minimalizm,106030.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Niedawno przeczytałem sobie trzy pozornie niezwiązane ze sobą rzeczy - opis płyty ASRock X570D4I-2T, wpis <a href="https://www.dobreprogramy.pl/lukasamd/Okiem-programisty-minimalizm,106097.html" target="_blank" rel="noopener">&quot;Okiem programisty: minimalizm&quot;</a> i komentarze do tekstu &quot;<a href="https://www.dobreprogramy.pl/Krogulec/Mocno-subiektywny-ranking-internetowych-sklepow-z-elektronika,105989.html" target="_blank" rel="noopener">Mocno subiektywny ranking internetowych sklepów z elektroniką</a>&quot;.</p>
+
+<p>Mam kilka przemyśleń, którymi chciałbym się podzielić - spora ich część nie jest związana z informatyką.</p>
+
+<p>Przypomniały mi się dziś stare czasy, gdy pod stołem stała bardzo duża skrzynka, na stole miejsce zajmował monitor z dużą dupą, a przed nim leżała wielka klawiatura z dodatkowymi &quot;multimedialnymi&quot; klawiszami i myszka o normalnej wielkości.</p>
+
+<p><center><img src="sites/default/files/390/computer-1895383_1920_2.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center></p>
+
+<p>Z czasem dorobiłem się kieszeni na dysk(i) 3,5 cala, pojawiły się również płyty CD o niebotycznej jak na tamte czasy pojemności ok. 650 - 700 MB.</p>
+
+<p>Zwiększałem pojemności dysków twardych, a z czasem zacząłem również zapisywać niewielkie ilości danych na coraz pojemniejszych kartach pamięci i nośnikach podłączanych do USB (było to wygodne i bardzo mocno zwiększało szanse na pozytywny odczyt).</p>
+
+<p>Nie zawsze miałem wtedy miejsce, stąd popularność takich rozwiązań jak DoubleSpace i kompresja plików. To był ten okres, gdy nauczyłem się, żeby nie przechowywać śmieci i żeby cenić każdy bajt.</p>
+
+<p>Zacząłem się rozglądać za możliwością korzystania z komputerów przenośnych, tam jednak każdy megabajt czy gigabajt kosztował krocie. To uświadczyło mnie w tym, że nie ma nic za darmo i że każdy, ale to każdy plik powinien być przydatny.</p>
+
+<p>Od Windows 95 do 98, od 98 do 2000, od 2000 do XP - te systemy były bardzo &quot;edukacyjne&quot;, gdyż (przede wszystkim w rozwiązaniach z rodziny NT) domyślnie uruchamiały masę niepotrzebnych usług systemowych.</p>
+
+<p>To był ten okres, gdy nauczyłem się, że nie zawsze potrzebuję takich elementów jak obsługa drukarki (gdy jej nie mam) albo obsługa rozproszonych linków NTFS.</p>
+
+<p>Rosły pojemności i wzrastała ilość możliwych do przesłania danych w tym samym czasie przez moje złącze internetowe, ale ja na przekór wszystkiemu dalej potrafiłem sortować zdjęcia, usuwając z nich niepotrzebne duplikaty.</p>
+
+<p>W swoich technologicznych poszukiwaniach zainteresowałem się systemami innymi, które potrafiły zdecydowanie lepiej obchodzić się z zasobami... i tak mi pozostało do dziś.</p>
+
+<p>Minimalizm wyszedł mi zdecydowanie na zdrowie - moje główne archiwum mieści się na karcie pamięci wielkości paznokcia (i ponieważ tego nie jest dużo, miewam po kilka kopii), w chmurze umieszczam tylko to co powinno tam być, a nie wszystko co leci.</p><p>Zgadzam się z tezą autora wpisu o minimaliźmie, że jest on bardzo dobry.</p>
+
+<p>Przez długi czas potrafiłem korzystać z laptopów bez żadnych urządzeń zewnętrznych (nie było ze mną zewnętrznej klawiatury ani myszki, jak również stacji dokującej ani monitora). To wyszło na dobre mojemu portfelowi (ewentualnie portfelowi firm, dla których pracowałem), mojemu kręgosłupowi (mniej urządzeń do noszenia to jednak ulga) i moim umiejętnościom (jeżeli potrafiłem coś zrobić w sensownym czasie na wolniejszym laptopie, to kod po przeniesieniu na mocniejsze serwery wykonywał się błyskawicznie, a ja często mogłem zająć się szkoleniami czy zwyczajnie zregenerować siły).</p>
+
+<p>To ostatnie to też ciekawa kwestia, bo nauczyłem się wtedy, że ludzie podświadomie próbują wykorzystywać innych i czasami absolutnie nie można za darmo oddawać zbyt dużo (dasz palec, chcą rękę, dasz rękę, ...)</p>
+
+<p>W tamtym okresie nie używałem monitorów zewnętrznych - bywa to oczywiście wygodne, ale efektywnie kodować czy robić większość rzeczy można nawet na większym laptopie.</p>
+
+<p><center><img src="sites/default/files/390/laptop-1443559_1920_2.jpg" style="width:608px;height:327px;" alt="image" title="image" /></center></p>
+
+<p>Dzięki tamtym doświadczeniem cały czas staram się ograniczać ilość elektrośmieci - stąd przekładanie części (zamiana dysku talerzowego na SSD, zabawy z RAM, itp.) i wykorzystywanie sprzętu do granic jego możliwości (chociażby przez <a href="?q=node/379" target="_blank" rel="noopener" rel="nofollow">włączenie SST</a>) i w końcu jego recycling poprzez używanie do głównych zadań, potem pobocznych, a na końcu nieistotnych.</p>
+
+<p>Obecnie dużo korzystam z internetu przez komórkę, ale... podłączam ją zwykłym kabelkiem - brak włączonego Wifi w laptopie i telefonie to zysk energetyczny, mniejsze zaśmiecanie pasma radiowego, większe bezpieczeństwo i możliwość naładowania baterii telefonu bez podłączania dodatkowego zasilacza.</p>
+
+<p>Podobnie nie łączę się radiowo do routera, gdy ten stoi na tym samym biurku metr od laptopa - lepiej jest użyć kabla.</p>
+
+<p>Gdy nie muszę, to nie mam dodatkowej klawiatury ani myszy (a jeśli już, to ich mniejsze wersje podłączane zazwyczaj kablem)</p>
+
+<p>Po instalacji każdego oprogramowania czy sprzętu przeglądam opcje i staram się wyłączyć to co nieużywane czy totalnie niepotrzebne albo niszczące sprzęt. Dotyczy to nie tylko usług, ale również takich drobiazgów jak sposób działania układu chłodzenia (szczególnie po gwarancji używam własnych ustawień, co <a href="?q=node/382" target="_blank" rel="noopener" rel="nofollow">pokazałem na przykładzie laptopów Dell</a>) czy <a href="?q=node/376" target="_blank" rel="noopener" rel="nofollow">zapisywanie plików tymczasowych w pamięci RAM</a> zamiast na dysku SSD.</p>
+
+<p>W przypadku oprogramowania zasada minimalizmu sprawdza się idealnie i tak naprawdę każda zmiana na przykład poprzez skrócenie kodu o kilkadziesiąt linii (w większym projekcie, który będzie kompilowany kilkaset razy), usunięcie warningów czy zmniejszenie ilości danych wysyłanych przez sieć to dla mnie dobra zmiana.</p>
+
+<p>Chciałbym tutaj zaznaczyć, że zarówno nie popieram zbyt wielkiego bogactwa funkcji, jak i prymitywizmu.</p>
+
+<p>Przykładem może być tzw. bloatware (wielu producentów laptopów dołączało do nich wiele darmowych wspaniałych programów dosłownie wysysających całą moc sprzętu i zawsze z nimi walczyłem), kombajny w stylu Nero Burning ROM (dodawanie do nich zbyt wielu funkcji spowodowało, że nie potrafiły już łatwo i szybko robić tego, co najważniejsze) i Windows 8, 8.1 i 10, w których zbyt prostackie aplikacje nie potrafią przebić się do dzisiaj.</p>
+
+<p>Ludzie potrzebują prostoty, ale również piękna, spójności i poczucia bezpieczeństwa (muszą wiedzieć, co ich sprzęt robi i tutaj XP sprawdzał się znacznie lepiej niż WIndows 7 czy 10). Z tego powodu firma Apple radziła sobie tak doskonale i pewnie będzie radziła jeszcze przez jakiś czas, natomiast niskie małe i ciasne pomieszczenia nie dają przestrzeni, która jest niezbędna do tworzenia, a (zbyt) małe samochody nie zastąpiły wielkich konstrukcji.</p>
+
+<p>Ludzie podświadomie szukają minimalizmu i stąd chociażby tak wielkie zainteresowanie adblockerami i sprawdzaniem, która przeglądarka jest najszybsza. Tak się składa, że przykład reklam pokazuje również inną część naszej rzeczywistości, czyli to, że drobne grzeszki powodują duże problemy (dodajmy reklamę, potem dwie, jeszcze trzy, pięć, dziesięć,...):</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/dzduvW8Ii04?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center>
+
+<p>To powoduje, że należy walczyć nawet z drobnymi patologiami i nie należy nigdy się poddawać.</p>
+
+<p>Tworząc również zawsze należy dbać o szczegóły.</p>
+
+<p>Nielogicznym dla mnie jest na przykład projektowanie laptopa przez raczej mało znaną firmę, sprzedawanie go w cenie porównywalnej z uznaną konkurencją i oszczędzanie na tak drobnym elemencie jak wentylator albo brak opcji do ustawienia limitów energetycznych (co z tego, że laptop działa 32h na baterii, waży mniej niż kilogram i ma spełnioną normę militarnej odporności, jeśli potencjalnie działa jak odkurzacz, co będzie nieustannym problemem dla mnie i otoczenia).</p>
+
+<p>Tak samo nielogicznym dla mnie jest wypuszczanie na rynek kolejnych modeli laptopów z wadą fabryczną (to znaczy rozumiem, że wynikać to może z korporacyjnych gierek, harmonogramu czy innych powodów, ale...) - takiej firmy unikam i na przykład development na związaną z nią platformę wykonuję raczej na jej tańszym sprzęcie.</p>
+
+<p>Z opisanych wyżej względów staram się nie uzależniać od jednego dostawcy - z tego względu najlepszy wydaje się dla mnie x86, Open Source, Android i produkty wielkich firm tworzone w okresie największego wzrostu, a nie cięcia kosztów (stąd obecnie na przykład AMD jest dla mnie istotny, a Intela praktycznie nie biorę pod uwagę).</p>
+
+<p>Mogę dodać, że minimalizm zauważyłem przede wszystkim w krajach rozwiniętych i bogatych - ludzie nie zaśmiecający sobie umysłu nieistotnymi drobiazgami mniej gestykulują, mniej obnoszą się z dużo kosztującymi gadżetami i mniej widoczny jest u nich ostracyzm, gdy ktoś czegoś nie posiada (a przynajmniej nie jest on tak ostentacyjny).</p>
+
+<p>Oni często wybierają również produkty droższe, które często mogą mieć dłuższy cykl życia (stąd laptopy typu XPS 13 czy 15, a nie tanie maszyny w cenie ok. 1000 PLN), ewentualnie bardzo precyzyjnie dobierają sprzęt pod zastosowania (stąd np. nie kupują drogich MacBook Pro do pisania tekstów w kawiarenkach).</p>
+
+<p>Jak dla mnie, to tragedią Polaków jest kupowanie niekoniecznie tego co potrzebują (albo przepłacanie przez kupowanie z absurdalnymi abonamentami) - stąd &quot;<a href="https://www.rp.pl/Spoleczenstwo/200209934-Polacy-wpadaja-w-dlugi-przez-smartfony-laptopy-i-tablety.html" target="_blank" rel="noopener" rel="nofollow">Polacy wpadają w długi przez smartfony, laptopy i tablety</a>&quot;</p><p>Myślę, że w moim wypadku zasada racjonalnego minimalizmu spowodowała, że nauczyłem się mieć samodyscyplinę i cały czas próbuję szanować drugiego człowieka.</p>
+
+<p>Nie oznacza to oczywiście, że zrezygnowałem z bycia młodym przebojowym wilkiem - mówię tylko, że staram się tylko nie robić tego:</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Ll_jocx8Vr4?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p>I dochodzimy teraz do tematu sklepów - zdarza się że Szanowni Klienci oczekują takiej samej obsługi przy towarze przynoszącym zysk 5 PLN jak przy sprzęcie, który kosztuje 10 000 PLN.</p>
+
+<p>Zdarza się również, że Szanowni Klienci oczekują od wszystkich pracowników wiedzy godnej światowego guru techniki i wykorzystują do granic możliwości możliwości, jakie daje prawo (polecam tekst <a href="https://pomorska.pl/pomysly-januszow-na-zakupy-oderwie-galazke-i-pomidory-waza-mniej-jajka-z-kobialki-l-wlozy-do-s/ar/c3-14300093" target="_blank" rel="noopener" rel="nofollow">Pomysły &quot;Januszów&quot; na zakupy</a>)</p>
+
+<p>Wielu z nas zapomniało, że ludzie pracujący w wielkich sieciach to dalej ludzie - im większa sieć, tym bardziej ograniczeni przez więzy narzucone przez szefa, procedury, centralę czy prawo.</p>
+
+<p>W wielu sprawach idzie się z nimi kulturalnie porozumieć, wystarczy jedynie zachować się po ludzku i na litość, trzeba przy tym znać choć podstawowe przepisy.</p>
+
+<p>Jest rękojmia i gwarancja, możliwość odstąpienia od umowy - używajmy ich, ale z rozsądkiem (jeśli wszyscy zaczynają januszować, nawet najlepiej prowadzony interes może mieć problemy).</p>
+
+<p>Kupujmy z głową i tylko to co naprawdę potrzebne.</p>
+
+<p>W dobie internetu i porównywarek nie ma sensu zastanawiać, kto ma niższe ceny - każdy towar jest unikalny i normalnie zwyczajnie należy zaprząc własne cztery litery i samemu wszystko sprawdzać na bieżąco.</p>
+
+<p>Należy przeglądać rankingi sprzętu, wybierać ten, który daje nadzieję na lepszą jakość (nie łudźmy się, że laptop za kilkaset PLN da tyle samo, co laptop za kilka tysięcy) i sprawdzać, sprawdzać i jeszcze raz sprawdzać, żeby nie zostać z niepasującymi do siebie elementami.</p>
+
+<p>Rozumiem również, że zamawianie do domu to wygoda, ale często lepiej tego nie robić i lepiej samemu osobiście odebrać daną rzecz - w większych miastach nie jest to problem, przy okazji można często zrobić inne zakupy...</p>
+
+<p>Zdarzyło mi się w życiu kilka sytuacji:</p>
+
+<ol><li>odebrałem dysk twardy i po zakupie od razu go sprawdziłem odpowiednim programem, który potwierdził możliwe problemy z jedną z głowic - sklep nie robił problemu, gdy odwiozłem go kilka godzin później</li>
+
+<li>nie miałem wyboru (model laptopa nie był dostępny w inny sposób, a ja potrzebowałem jego specyficznych właściwości) - zamówiłem go wysyłkowo, sprawdziłem jego funkcje, i po negatywnej weryfikacji już następnego dnia z rana odjechał z powrotem</li>
+
+<li>karta graficzna miała problemy z wentylatorem - oddałem ją i nie protestowałem, gdy sklep poprosił o zapłatę jakiejś drobnej sumy za uszkodzenie pudełka</li>
+
+<li>pamięć nie chciała działać z konkretnym modelem laptopa - poprosiłem o kilka modeli i wspólnie przetestowaliśmy co i jak, temat zamknięty</li></ol>
+
+<p>W dzisiejszych czasach wszelkie rankingi również nie mają głębszego sensu:</p>
+
+<ol><li>mogą być sponsorowane (inne myślenie jest po prostu naiwne)</li>
+
+<li>same firmy często i gęsto nie mają wyboru robiąc to, do czego również zmusza ich błędne/coraz gorsze prawo</li>
+
+<li>obsługa w danym punkcie mogła zmienić się już kilka razy<br/></li></ol>
+
+<p>Niewłaściwe wzorce idą niestety z pewnego kraju w Ameryce Północnej - obserwuję trochę pewien kanał na YouTube i ostatnio obejrzałem tam m.in. takie filmiki:</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/kd3Qa9tlA3o?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p>i</p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/-vmbDczK-78?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p>To samo jest w Polsce - złe wybory przy urnie i ciche siedzenie powoduje, że złe rozwiązania wygrywają, a przegrywamy my wszyscy.</p>
+
+<p>&quot;...moja TŻ - księgowa, niestety z długim stażem - cała na biało i oświadcza, że bardziej patologicznego podatku od VAT to ona nie widziała, od kiedy skończyła szkołę. I że przyczyną wszelkiej patologii w VAT jest sam fakt jego istnienia...&quot;</p>
+
+<p>To jest cytat z komentarza do artykułu &quot;<a href="https://www.spidersweb.pl/2020/02/karuzela-vat-zatrzymani-cbs.html" target="_blank" rel="noopener" rel="nofollow">Sprzedawali telefony, ale nie płacili podatków...</a>&quot; - zgadzam się z tym i myślę, że moje poglądy obecnie w części pokrywają się z tym co głosi &quot;krul&quot; Janusz.</p>
+
+<p>I w końcu dochodzimy do Azjatów - jakiś czas temu pisałem o braku &quot;porządnej&quot; płyty mini-ITX pod AM4, kilka tygodni i się pojawiła (ASRock X570D4I-2T). Nie widzę jej w sklepach, nie zmienia to faktu, że wizja złożenia 16-rdzeniowego PC w pudełku o wielkości dwóch czy trzech Mac Mini byłaby obecnie przeze mnie zbadana w pierwszej kolejności.</p>
+
+<p>Największa fabryka świata, jaką jest Azja, jest obecnie w stanie dostarczyć dowolną ilość dowolnych (złych i dobrych) produktów.</p>
+
+<p>Piszę o tym, gdyż to właśnie my kupując to co właściwe sami decydujemy, w czym będziemy tkwić - czy wśród tanich i psujących się kiepskich rzeczy czy wśród perełek.</p>
+
+<p>Raz oprogramowanie wyprzedza sprzęt, raz sprzęt oprogramowanie - moim zdaniem obecnie praktycznie wszędzie ma miejsce to drugie i to naszą rolą jest wymuszać na producentach oprogramowania wyższą jakość.</p>
+
+<p>I naszą rolą jest również decydować o tym, czy naprawdę potrzebujemy kart graficznych palących 200 Watt czy lepiej wydać pieniądze np. na jakieś dobre szkolenie...</p>
+
+<p>Narzędzia już mamy, poraz z nich teraz mądrze skorzystać.</p>
+
+<p><b>Podsumowanie</b></p>
+
+<p>Dużo do myślenia powinna dawać sytuacja z Czech, w której <a href="https://www.chip.pl/2020/01/czesi-wygrali-z-asseco-programisci-open-source-za-darmo-zrobili-platforme-poboru-oplat/" target="_blank" rel="noopener" rel="nofollow">programiści Open Source podobno wygrali z Asseco</a>.</p>
+
+<p>Polska byłaby dzisiaj w znacznie lepszej pozycji, gdybyśmy wszyscy &quot;od dołu&quot; promowali rozwiązania tanie, a wystarczające.</p>
+
+<p>Czasy, gdzie wszystko musi być na drogim Oracle, Windows i MS Office bezpowrotnie minęły i wielu z nas powinno w końcu odnaleźć się w tej nowej rzeczywistości.</p>
+
+<p>Sorry - taki ReactOS czy bardzo minimalistyczny Haiku może się nie przebiją, ale na dzień dzisiejszy nawet Ubuntu połączone z naprawdę wieloma konfiguracjami sprzętowymi jest lata świetlne przed konkurencją (nawet Apple).</p>
+
+<p>Przyznam się szczerze, że bardzo dużo jest również innych nowych rozwiązań i z wielką chęcią czytałbym o nich również na DP (zamiast oglądać kolejne dosyć inteligentne wprawdzie, ale prześmiewcze posty o tym, że Open-Source jest &quot;be&quot;, bo nie ma którejś tam funkcji)</p>
+
+<p>Nie bądźmy niewolnikami technologii, niech ona dla nas pracuje!</p>
+
+<p>Logika, wiedza, ciężka praca, szacunek i empatia do innych - ostatecznie to dla nas powinno się najbardziej liczyć, bez nich pozostają gównoburze, roszczeniowość Szanownego Klienta i to: </p>
+
+<p><center><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/S_Vz-NJWwDE?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></center></p>
+
+<p>PS. To jest blog i wpis pisany na szybko.</p>

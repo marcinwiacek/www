@@ -1,0 +1,59 @@
+﻿Title:Przygoda trwa dalej... czyli Przepisy Drogowe 1.44 i planowane nowości (2017)
+Author:marcin
+When:10 Dec 2017
+Taxonomy:Polski,Polski blog,drogowe,Android,Straż
+
+<p>Z wielką przyjemnością chciałbym ogłosić wydanie "Przepisów drogowych" 1.44 w wersji na Androida. </p>
+<!--break-->
+<p>
+</p><hr /><p>Uwzględnione zostały następujące akty prawne: </p>
+<p><b><font color="green">Część "Na drodze"</font> (OBECNIE PRAKTYCZNIE CAŁKOWICIE AKTUALNA)</b></p>
+<ol><li><a href="http://dziennikustaw.gov.pl/DU/2015/1313/1">Rozporządzenie Ministrów Infrastruktury i Rozwoju oraz Spraw Wewnętrznych z dnia 3 lipca 2015 r. zmieniające rozporządzenie w sprawie znaków i sygnałów drogowych</a> (DONE!)
+</li><li><a href="http://dziennikustaw.gov.pl/DU/2016/646/1">Rozporządzenie Ministrów Infrastruktury i Budownictwa oraz Spraw Wewnętrznych i Administracji z dnia 19 kwietnia 2016 r. zmieniające rozporządzenie w sprawie znaków i sygnałów drogowych</a> (DONE!)
+</li><li><a href="http://dziennikustaw.gov.pl/DU/2015/1314/1">ROZPORZĄDZENIE MINISTRA INFRASTRUKTURY I ROZWOJU z dnia 3 lipca 2015 r. zmieniające rozporządzenie w sprawie szczegółowych warunków technicznych dla znaków i sygnałów drogowych oraz urządzeń bezpieczeństwa ruchu drogowego i warunków ich umieszczania na drogach</a><br />
+(Data ogłoszenia: 	2015-09-07) (TODO, informacja o niebieskim tle znaku P-24 już wprowadzona)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2016/647/1">Rozporządzenie Ministra Infrastruktury i Budownictwa z dnia 8 kwietnia 2016 r. zmieniające rozporządzenie w sprawie szczegółowych warunków technicznych dla znaków i sygnałów drogowych oraz urządzeń bezpieczeństwa ruchu drogowego i warunków ich umieszczania na drogach</a><br />
+(Data ogłoszenia: 	2016-05-10) (TODO)
+</li><li><a href="http://dziennikustaw.gov.pl/DU/2017/1062/1">Rozporządzenie Ministra Infrastruktury i Budownictwa z dnia 24 maja 2017 r. zmieniające rozporządzenie w sprawie szczegółowych warunków technicznych dla znaków i sygnałów drogowych oraz urządzeń bezpieczeństwa ruchu drogowego i warunków ich umieszczania na drogach</a><br />
+(Data ogłoszenia: 	2017-05-31) minutniki, nie ma na nie oddzielnego znaku)
+</li></ol><p><b><font color="orange">Część "Tekst"</font> (TODO)</b></p>
+<ol><li><a href="http://dziennikustaw.gov.pl/DU/2015/1273/1" style="text-decoration: line-through">Ustawa z dnia 24 lipca 2015 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw</a><br />
+(Data ogłoszenia: 	2015-08-31) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2015/1335/1" style="text-decoration: line-through">Ustawa z dnia 24 lipca 2015 r. o zmianie ustawy – Prawo o ruchu drogowym oraz ustawy o strażach gminnych</a><br />
+(Data ogłoszenia: 	2015-09-09) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2015/1326/1" style="text-decoration: line-through">Ustawa z dnia 5 sierpnia 2015 r. o zmianie ustawy – Prawo o ruchu drogowym</a><br />
+(Data ogłoszenia: 	2015-09-08) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2017/128/1" style="text-decoration: line-through">Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 14 grudnia 2016 r. w sprawie ogłoszenia jednolitego tekstu ustawy – Prawo o ruchu drogowym</a><br />
+(Data ogłoszenia: 	2017-01-20) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2015/2183/1" style="text-decoration: line-through">Ustawa z dnia 16 grudnia 2015 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw</a><br />
+(Data ogłoszenia: 	2015-12-24) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2017/1260/1">Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 8 czerwca 2017 r. w sprawie ogłoszenia jednolitego tekstu ustawy – Prawo o ruchu drogowym</a><br />
+(Data ogłoszenia: 	2017-06-27) (będzie wstawiona w aplikacji, na razie link)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2017/1926/1">Ustawa z dnia 15 września 2017 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw</a><br />
+(Data ogłoszenia: 	2017-10-17) (todo)
+<hr /></li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2016/2001/1" style="text-decoration: line-through">Ustawa z dnia 30 listopada 2016 r. o zmianie ustawy o kierujących pojazdami oraz niektórych innych ustaw</a><br />
+(Data ogłoszenia: 	2016-12-12) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2016/627/1" style="text-decoration: line-through">Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 8 kwietnia 2016 r. w sprawie ogłoszenia jednolitego tekstu ustawy o kierujących pojazdami</a><br />
+(Data ogłoszenia: 	2016-05-05) (do pominięcia)
+</li>
+<li><a href="http://dziennikustaw.gov.pl/DU/2017/978/1">Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 25 kwietnia 2017 r. w sprawie ogłoszenia jednolitego tekstu ustawy o kierujących pojazdami</a><br />
+(Data ogłoszenia: 	2017-05-18) (będzie wstawiona w aplikacji, na razie link)
+</li></ol><p><b><font color="green">Część "TARYFIKATOR"</font> (AKTUALNA)</b></p>
+<ol><li><a href="http://dziennikustaw.gov.pl/DU/2017/1436/1">Rozporządzenie Prezesa Rady Ministrów z dnia 18 lipca 2017 r. zmieniające rozporządzenie w sprawie wysokości grzywien nakładanych w drodze mandatów karnych za wybrane rodzaje wykroczeń</a><br />
+(Data ogłoszenia: 	2017-07-27) (DONE)
+</li></ol><p>Wyeliminowane zostały również błędy logiczne, przez które nie widać było np. kodu błędu A03 i A05.</p>
+<p>Przejrzałem również komentarze z Google Play i widzę... że w mojej apce poprawnie nie wskazuję kodu E06.</p>
+<p><b><font color="red">Część "TREŚĆ"</font> (do zweryfikowania i TODO)</b></p>
+<p>
+</p><hr /><p>Jak pisałem, byłem zajęty do 4 grudnia i nie jest to wymówka (brak zmian merytorycznych przez tak długi czas jest niewybaczalny, no ale cóż... stało się), obecnie jeżeli wszystko pójdzie z planem, chciałbym publikować kolejne wersje mniej więcej co tydzień.</p>
+<p>Równocześnie będę chciał wyrównać wersję iOS i webową "Przepisów", zrobić wersję iOS "Straży" i... wiele więcej.</p>
+<p><font color="red"><b>Update 22 Maj 2019</b></font>: coś w końcu udało się zrobić, <a href="?q=node/363">kilka pierwszych słów tutaj</a>.</p>

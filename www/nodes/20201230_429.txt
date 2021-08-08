@@ -1,0 +1,191 @@
+﻿Title:Do wyboru, do koloru... a i tak nie ma z czego wybrać (2020 / 2021) (2020)
+Author:marcin
+When:30 Dec 2020
+Taxonomy:polski,polski blog,dobreprogramy.pl,Android,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Do-wyboru-do-koloru-a-i-tak-nie-ma-z-czego-wybrac,112246.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>Ludzie urządzenia wymieniają, i jest taka firma, która szczyci się &quot;magią&quot; i poziomem dopracowania swoich produktów.</p>
+
+<p>W grudniu widziałem taką oto sytuację - stare i dosyć mocno zmęczone życiem urządzenie samo z siebie zaczęło naciskać elementy na ekranie. Zachodziły dwie możliwości, to znaczy uszkodzenie digitizera (tak to się zdaje nazywa) albo jakiś przedziwny magiczny włam. Wyglądało to nie tylko strasznie przerażająco, ale pokazało, że z laptopa tej firmy... owszem można sprawdzić integralność systemu telefonu, ale wyłącznie z usunięciem wszystkich danych (a dokładniej przywróceniem ich z backupu i chmurowych zasobów).</p>
+<!--break-->
+<p>Czy tak czy inaczej, urządzenie miało dla właściciela status End-Of-Life, i ostatecznie na nowo zakupionym japkowym telefonie potrzeba było wszystko ustawić (a najlepiej przenieść wszystko ze znacznie starszego modelu).</p>
+
+<p>Operacja poniekąd prosta - wpierw należało ustawić język i klawiaturę (nie wiem po co, skoro docelowo miało tam być to, co na starym japku), a tam... zabrakło nawet tak podstawowej rzeczy jak posortowanie listy języków albo funkcja ich wyszukiwania.</p>
+
+<p>Po dokonaniu wstępnej konfiguracji telefon pokazał m.in. opcję bezprzewodowego przeniesienia ustawień ze starego urządzenia.</p>
+
+<p>Należało tam sparować oba... i na tym się skończyło - zarówno przy opcji ze zrobieniem zdjęcia obrazka jak i przy podawaniu kodu operacja kończyła się na tym, że oba telefony nie potrafiły się porozumieć (na starym został oczywiście włączony hotspot, wifi i Bluetooth)</p>
+
+<p>Wersje iOS się zgadzały (14.2), teoretycznie wszystko powinno działać, a jednak nie... poszliśmy inną drogą i po odtworzeniu danych z backupu z komputera okazało się, że nie ma wiadomości, tych samych aplikacji i wielu innych elementów.</p>
+
+<p>W tym momencie zacząłem się męczyć z WhatsApp (czaty można było tylko przerzucić przez chmurę... i to też nie działało) i wieloma innymi elementami i zadumałem się... że przez lata IT nie potrafi / nie chce (właściwe wybrać) rozwiązać najprostszych problemów.</p>
+
+<p>Skoro teoretycznie najlepszy system świata w wersji 14 (słownie: czternaście, a nie jeden czy dwa) zachowuje się jak Windows 95 czy 98, gdzie też musiałem sobie wypracować metodę reinstalacji, to... coś jest mocno nie tak.</p>
+
+<p>Żeby nie być złośliwym - na nowym telefonie nie można również wymusić 3G, co czasem byłoby zbawieniem (nie raz, nie dwa bywa tak, że sieć komórkowa ma chwilową zadyszkę i Internet działa tylko przy połączeniu ze starszymi BTS w technologii 3,5G)</p>
+
+<p>Do tego okazuje się, że klawiatura Apple dalej nie ma Swype dla języka polskiego.</p><p>Zostawmy jednak jabłka - dzisiaj chciałem pomyśleć o tym, co mamy dzisiaj, i puścić wodze fantazji, jeśli chodzi o rok 2021.</p>
+
+<center><img src="sites/default/files/429/piglet-3045288_1920.jpg" style="width:608px;height:208px;" alt="image" title="image" /></center>
+
+<p><b>Brak nowych koncepcji sprzętu</b></p>
+
+<p>Wpierw podzielmy sobie najbardziej popularne &quot;samodzielne&quot; systemy komputerowe na grupy:</p>
+
+<p>1. telefony komórkowe - powiedzmy do 6,8 cala</p>
+
+<p>2. tablety - małe o wielkości ok. 8 cali (właściwie tylko iPad Mini) i duże o wielkości ok. 10-12 cali</p>
+
+<p>3. laptopy - małe (13,3-14 cali), średnie (15,6 cala) i duże (&gt;=17 cali)</p>
+
+<p>4. skrzyneczki - od malutkich sticków, płytek do montażu, poprzez wszelkiego rodzaju małe PC, po potworki w stylu Ryzen 3950x, stacje robocze i komputery all-in-one (z monitorem), jak również konsole.</p>
+
+<p>Jeżeli mam szczery, to w grupie 1 i 2 nie ma praktycznie niczego poza ARM, w pozostałych trwa podgryzanie x86 przez arm.</p>
+
+<p>Sprzętu komputerowego w domach mamy dziesiątki, szczególnie jeśli oprócz &quot;samodzielnych&quot; urządzeń policzymy również elementy wbudowane w AGD, automaty, itp.</p>
+
+<p>Producenci mogą wypuszczać kolejne modele, ale... fakt jest faktem, że poza kowidowymi sytuacjami (trzeba czegoś oddzielnego dla dzieci, żony, kochanki, itp.) najczęściej nie potrzebujemy już nowego sprzętu, i sam wielokrotnie widziałem &quot;stare&quot; myszki i klawiatury, wiekowe pendrive, kable, przejściowki, itp., których po prostu nie ma sensu zmieniać.</p>
+
+<p>Obecnie tak naprawdę dzieje się to w kilku przypadkach - urządzenie się zużyło (np. dysk SSD), zniszczyło fizycznie (np. telefon upadł), jest niekompatybilne albo zupełnie nie przystaje do nowoczesnych realiów.</p>
+
+<p>To ostatnie dzieje się coraz rzadziej, ale np. jeżeli ktoś ma dajmy na to iPhone 7+ i przy tych samych rozmiarach chce mieć znacznie większy ekran, to wybierze 12 Pro max i przy obecnych cenach za rok raczej nie będzie chciał go znowu wymieniać.</p>
+
+<p>Ludzie trochę bardziej zaczęli się liczyć z pieniędzmi, i tym tłumaczyłbym gorsze wyniki sprzedaży S20 i 20 Note (Exynos, itp.), jak również iPhone 12 Mini (absurdalna bateria).</p>
+
+<p>Kwestie zużycia to też temat rzeka - np. Apple sprzedaje podstawowe konfiguracje z 8 GB RAM, i w pierwszych recenzjach M1 można poczytać o swap rzędu 3-4 GB (i rzecz jasna, ponieważ dysk jest w jednym układzie, to szybciej padnie całość), w wielu laptopach są słabe zawiasy, itd. itd.</p>
+
+<p>Nie za dużo zmieniło się nawet w kwestii złącz - w iPhone 12 ciągle używany jest Lighting.</p>
+
+<p>Powiedziałbym, że doszliśmy do ściany - urządzenia szczególnie na rynek konsumencki są bardziej niż wystarczające, co widać chociażby po tym, że największym rozmiarem dysków niektórych producentów w rozsądnej cenie jest 1TB.</p>
+
+<p>Powiedziałbym też, że M1 jest jedynym znaczącym nowym rozwiązaniem roku 2020 (jednak firma nie oferuje laptopów z matowym wyświetlaczem i dla wielu może to być ograniczenie nie do przeskoczenia), i w 2021 nie mamy na co czekać.</p>
+
+<p>Mógłbym tu wymienić kilka możliwych do zrealizowania elementów:</p>
+
+<ul><li>małe moduły all-in-one, które można wpiąć w obudowę modułowego &quot;laptopa&quot; (kupuję np. M1 i wkładam go w obudowę 13,3 cali z taką baterią i wyświetlaczem, jak chcę)</li>
+
+<li>rozwijane telefony</li>
+
+<li>sensowne kamery pod wyświetlaczem (np. Samsung chce przesuwać fragment ekranu odsłaniając kamerę)</li>
+
+<li>matowe folie albo ekrany, tam gdzie ich nie było (zakładane w fabryce)</li>
+
+<li>iPhone z trybem podobnym do DEX Samsunga</li>
+
+<li>więcej rdzeni w M1X</li>
+
+<li>micro-LED<br/></li></ul>
+
+<p>ale to w praktyce to jedynie rozwinięcie tego, co już było. Pamiętam, jak jeszcze niedawno była mowa o &quot;innych&quot; układach chłodzenia Intela do laptopów (komory parowe + chłodzenie grawitacyjne), o pamięciach zastępujących i RAM i SSD, bateriach grafenowych, i kilku innych rozwiązaniach.</p>
+
+<p>I co? I nic.</p>
+
+<p>Ale czego tu oczekiwać, jeśli w większych firmach nawet support wygląda jak wygląda: <a href="https://www.youtube.com/c/LinusTechTips/search?query=PC%20Secret%20Shopper" target="_blank" rel="noopener" rel="nofollow">seria wideo z kanału Linusa</a>.</p>
+
+<p><b>Mniej za więcej<br/></b></p>
+
+<p>Wydaje się, że trend związany z ładowarkami będzie się pogłębiał i ogólnie będziemy dostawać coraz mniej za te same / podobne pieniądze.</p>
+
+<p>Widać to po płaskich ekranach w telefonach (zamiast wersji Edge) i Gorilla Glass 3, używaniu plastiku zamiast szkła, itp. itp.</p>
+
+<p>Coraz bardziej każdy gadżet to jednorazówka, w której nasze dane zapisane są na słowo honoru, dosłownie (mówię to o kolejnych dyskach SSD, które na papierze są tak trwałe jak Samsung PRO 980) i w przenośni (nie można ich wydłubać inaczej jak przez chmury i różne dziwne kroki).</p>
+
+<p>Apple zaprezentowało M1 i zażyczyło sobie porównywalnych cen za większą w sumie wydajność, czy jednak jest to na zasadzie, że tylko pierwsza generacja jest &quot;za darmo&quot;?</p>
+
+<p>Ciekawe jak M1X i M2 wyceni firma, która przecież słynie z absurdalnych cen.</p>
+
+<p>Podobnie jest z AMD - w 2020 wydawało się podwyższać ceny.</p>
+
+<p>Tego typu myślenie jest też wciąż np. w obszarze drukarek - dzisiaj czytałem o konieczności <a href="https://www.wykop.pl/link/5872597/zero-waste-wedlug-serwisu-hp/" target="_blank" rel="noopener" rel="nofollow">używania tuszu startowego w atramentowym urządzeniu HP</a>, co delikatnie trąci myszką w dobie urządzeń, gdzie tusz ładuje się w pojemnikach.</p>
+
+<p><b>Papierowe premiery</b></p>
+
+<p>Niektórzy zauważyli znacznie większe zapotrzebowanie na sprzęt w 2020 (jak wspomniałem - oddzielny dla dzieciaków, żony, kochanki, itp...), myślę jednak, że to mamy już za sobą.</p>
+
+<p>Jak jednak życie potoczy się tak jak ostatnio, to z uwagi na koronkowe sytuacje w 2021 standardem staną się papierowe premiery... albo zamawianie większości zestawów tylko i wyłącznie prosto z fabryki.</p>
+
+<p>Czy tak czy inaczej, nie oczekiwałbym jeszcze złamania monopolu Wintel.</p>
+
+<p>Będzie za to coraz więcej botów wykupujących całe partie towaru. Pamiętacie konsole? Wszystko zeszło na pniu, i potem próbowano to odsprzedać za większe pieniądze (często i gęsto trzymając towar w magazynach, przez co nie generował zysku dla producenta konsoli).</p>
+
+<p>Czasami mam nawet wrażenie, że sami producenci nie chcą, żeby kupować ich sprzęt:</p>
+
+<center><img src="sites/default/files/429/1.jpg" style="width:197px;height:405px;" alt="image" title="image" /></center>
+
+<p>(okienko popup zasłania cały konfigurator, do którego za Chiny na komórce nie można przejść)</p>
+
+<p><b>Więcej i mniej internetu i chmur</b></p>
+
+<p>Na pewno w 2021 jeszcze więcej rzeczy będziemy robić elektronicznie, a to oznacza częstsze problemy z infrastrukturą (coś podobnego jak w grudniu 2020 z usługami Google, z aktywacją gadżetów Apple w Święta, i wcześniej pobieraniem Big Sur)</p>
+
+<p>Firmy mają swoje strony ze statusem, np.</p>
+
+<p><a href="https://www.google.com/appsstatus" target="_blank" rel="noopener" rel="nofollow">https://www.google.com/appsstatus</a></p>
+
+<p><a href="https://status.cloud.google.com/" target="_blank" rel="noopener" rel="nofollow">https://status.cloud.google.com/</a></p>
+
+<p><a href="https://www.apple.com/support/systemstatus/" target="_blank" rel="noopener" rel="nofollow">https://www.apple.com/support/systemstatus/</a></p>
+
+<p>ale żeby je znaleźć, musi działać wyszukiwarka...</p>
+
+<p>Moim zdaniem coraz więcej będziemy płacić za &quot;darmowe&quot; kiedyś usługi. Zaczęło się od paywall, teraz w 2021 pewne ograniczenia dotkną np. Google Photos.</p>
+
+<p>Większa ilość danych częściowo będzie rekompensowana przez HTTP/3, jednakże czy to wystarczy? I czy w końcu wielu z nas skończy z bezkrytycznym podchodzeniem do chmur?</p>
+
+<p>Firmy dały, teraz będą zabierać... Przykładowo kiedyś pisałem o funkcjach UEFI w płycie AsRock z chipsetem X570, dzisiaj czytałem o <a href="https://antyweb.pl/google-daje-google-zabiera-aparaty-w-pixel-5-i-4a-po-aktualizacji-stracily-funkcje/" target="_blank" rel="noopener" rel="nofollow">odebraniu pewnych funkcji aparatu w ostatnich Pixelach</a>.</p>
+
+<p><b>Podziały między firmami i państwami<br/></b></p>
+
+<p>Apple w iOS 14 dodało opcje do informowania o tym, z czego korzysta dana apka (czym wywołało reakcje Facebooka). Z kolei wojna o prowizje spowodowała obniżenie prowizji do 15% developerom, którzy nie mają zbyt dużych dochodów.</p>
+
+<p>Moim zdaniem korporacyjne zagrywki wejdą w kolejnym roku na wyższy poziom - będzie jeszcze więcej wojenek nazwijmy to narodowych (Huawei to dopiero początek), jak również działań, które mają zmniejszyć prawdopodobieństwo podziału (jak obniżka prowizji).</p>
+
+<p>Firmy będą jeszcze bardziej bronić swoich obecnych ekosystemów (zamiast budować nowe i lepsze od podstaw) - stąd np. pierwsze informacje o wielu kontach w iOS.</p>
+
+<p>W skrócie mówiąc - wszyscy się będą do siebie upodabniać.</p>
+
+<p>A jakby tego mało, to Internet będzie coraz bardziej podzielony i &quot;narodowy&quot;</p>
+
+<p><b>Abonamenty, preordery i recenzje</b></p>
+
+<p>Obecne preordery najwyraźniej wyglądają tak, że płacimy za kota w worku, pieniążki płyną, a produktu brak.</p>
+
+<p>Chociaż kibicuję redsom, to Cyberpunk 2077 pokazał jak bardzo to patologiczny system. Zaczęło się od pozytywnych recenzji, zamkniętych prezentacji (gdzie ludzie podobnież nie mogli sami grać, itp. itp.), a skończyło wiadomo na czym.</p>
+
+<p>“You’ll own nothing - And you’ll be happy about it.”</p>
+
+<p>Według World Economic Forum tak ma wyglądać przyszłość - z samymi abonamentami i brakiem czegokolwiek na własność (żadnych płyt, żadnych książek, itp.)</p>
+
+<p>A jak wyglądają abonamenty, każdy chyba widzi...</p>
+
+<p>Jeżeli poszukać w znanym serwisie VOD, to właściwie jest dużo i nic... każda (nawet historyczna) produkcja porusza właściwie podobne tematy albo zawiera te same postępowe trendy tak barwnie przedstawione przez poniższe wideo:</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/eDG9FrX5HCA?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>Budowanie wiedzy na tym do niczego dobrego nie prowadzi... ale nawet jeśli to pominiemy, to co z takimi produkcjami jak Sliders, Seaquest, Battlestar Galactica, Caprica, Doctor Who czy Babilon 5?</p>
+
+<p>Różne filmy nie są szeroko dostępne, i nikomu jakoś to nie przeszkadza...</p>
+
+<p><b>Zmiana światopoglądu i myślenia</b></p>
+
+<p>Firmy starają się pokazać swoją ludzką twarz, co widać na przykładzie Amazona (polecam poczytać teksty na stronie <a href="https://bezprawnik.pl/ambasadorzy-amazona/" target="_blank" rel="noopener" rel="nofollow">https://bezprawnik.pl/ambasadorzy-amazona/</a>)</p>
+
+<p> Wygląda to tak naturalnie jak nie przebierając w przykładach reklama znanej firmy, która wystąpiła o pomoc rządu (celowo podaję pariodię)</p>
+
+<center><p class="video-embed-container"><iframe class="note-video-clip" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/Ptld98KjPuM?controls=1&modestbranding=1&rel=0" title="Klip wideo" frameborder="0" allowfullscreen></iframe></p></center>
+
+<p>albo szukanie pomocy od właściciela 17 mieszkań, który &quot;nie może związać końca z końcem&quot;.</p>
+
+<p>W wielu serwisach jakoś związanych z IT mamy w sumie masę tych samych / podobnych materiałów lub chwytliwe posty typu &quot;Wszystko co MUSISZ wiedzieć o...&quot;.</p>
+
+<p>Czy 2021 to będzie większy zalew tego typu rzeczy? Chcę zauważyć, że coraz więcej oglądamy wideo, a słowo pisane jest w odwrocie (do zmian wybitnie przyczynia się <a href="https://www.instalki.pl/aktualnosci/nauka/22619-rysik-lepszy-od-klawiatury.html" target="_blank" rel="noopener" rel="nofollow">pisanie na klawiaturach zamiast używanie rysików czy długopis...</a>).</p>
+
+<p>Tylko gdzie to wszystko nas zaprowadzi?</p>
+
+<p>Ja właśnie widziałem w grudniu szok, gdy wspomniane na wstępie drogie w sumie urządzenie zaczęło samo decydować za siebie. I wtedy pomyślałem sobie ponownie, jak bez refleksji wrzucamy NASZE dane na czyjeś serwery i jak bez refleksji fotografujemy i pokazujemy wnętrza NASZYCH domów, biur i inne najintymniejsze sekrety.</p>
+
+<p>Tylko czy kogoś to jeszcze interesuje?</p>
+
+<p>Zobojętnieliśmy przez zalew różnych bardzo niefajnych informacji i działań, co widać chociażby po braku większych reakcji po słowach &quot;Jeżeli mówimy o pandemii, o tym, że ludzie umierają, to nie możemy mówić o podstawach prawnych, musimy chronić każde ludzkie życie&quot;&#160;&nbsp;</p>
+            

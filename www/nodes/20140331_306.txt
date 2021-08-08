@@ -1,0 +1,30 @@
+﻿Title:Barry White....
+Author:marcin
+When:31 Mar 2014
+Taxonomy:English,English blog,poem,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>I will say yes to you,<br />
+but let me in thru<br />
+and let me just know,<br />
+that I can now come,</p>
+<p>And I will love here<br />
+and make us hot there<br />
+and hold you in arms<br />
+with all your charms,</p>
+<p>I will say yes to you,<br />
+but let me in thru<br />
+and let me just know,<br />
+that I can now come,</p>
+<p>And I will kiss here<br />
+and feel you there<br />
+and hold you with arms<br />
+with all your charms,</p>
+<p>I will say yes to you,<br />
+but let me in thru<br />
+and let me just know,<br />
+that I can now come,</p>
+<!--break-->
+<p>Just show me it tight<br />
+each day and night....</p>

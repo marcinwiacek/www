@@ -1,0 +1,69 @@
+﻿Title:Microsoft wypuści nowy system… Kogoś to jeszcze obchodzi, że się tak zapytam? (2021)
+Author:marcin
+When:13 June 2021
+Taxonomy:polski,polski blog,salon24.pl,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1142618,microsoft-wypusci-nowy-system-kogos-to-jeszcze-obchodzi-ze-sie-tak-zapytam>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+
+<p>To jest doprawdy news (miś?) na miarę współczesnych czasów, i stereotypowi klienci Media Expert czy innego elektromarketu powinni już biec do swoich ulubionych świątyń konsumpcjonizmu i zamawiać po kilka kopii Windows, bo za 4 lata go nie będzie. Szybciej, szybciej, bo nie wszyscy zdążą...<br />
+<!--break-->
+<br />
+Obecny harmonogram dziesiątki wszyscy znali od początku, i zakładał on, że produkt będzie powstawał w latach 2015-2025 (skąd więc to zdziwienie?). Dostaliśmy niekończącą się próbę przerobienia interfejsu użytkownika, dużo ukłonów w stronę Open Source… i masę problemów praktycznie z każdym uaktualnieniem. Doszło do tego, że na tanich maszynach wdrażane są kolejne „duże” wydania tego tworu, a w systemach markowych robi się to z dużym opóźnieniem (przykładowo – na Acerze Swift 1 wersję 21H1 dostałem z Windows Update w dniu premiery, na markowym Dellu Precisionie czekam na nią do dzisiaj, a że nie mam ochoty instalować jej samodzielnie...).<br />
+<br />
+Istniejący przez lata duopol Intel-Microsoft (użytkownicy profesjonalni wybierali wyłącznie Windows+procesor Intela, a wybór każdej nowej wersji okienek wiązał się z wymianą całego sprzętu) jest bardzo skutecznie łamany przez rewolucję komórkową, Chromebooki, AMD, procesory ARM czy nowe rózwiązania Apple (który umieszcza M1 w tabletach, komputerach stacjonarnych i przenośnych, a w przyszłości pewnie i telefonach).<br />
+<br />
+Co jakiś czas Phoronix porównuje wydajność Windows z Linuxem i przykładowo wychodzi na to, że <a href="https://www.phoronix.com/scan.php?page=article&amp;item=3970x-windows-linux&amp;num=1" target="_blank" rel="nofollow noopener">w 2019 system Microsoft wygrał mniej niż 20% testów (platforma AMD Threadripper)</a>, <a href="https://www.phoronix.com/scan.php?page=article&amp;item=4500u-windows-linux&amp;num=1" target="_blank" rel="nofollow noopener">w 2020 miał przewagę w 46% testów (Ryzen 4500U)</a>, a <a href="https://www.phoronix.com/scan.php?page=article&amp;item=11900k-windows-linux&amp;num=1" target="_blank" rel="nofollow noopener">w 2021 odpowiednio w 61% testów (Intel i9 11900K)</a>, <a href="https://www.phoronix.com/scan.php?page=article&amp;item=win10-ubuntu2104-5900x&amp;num=1" target="_blank" rel="nofollow noopener">37% testów (Ryzen 5900X)</a> i <a href="https://www.phoronix.com/scan.php?page=article&amp;item=windows10-ubuntu21-tr3990x&amp;num=1" target="_blank" rel="nofollow noopener">18% testów (Threadripper)</a>. Na stronie jest oczywiście o wiele więcej takich porównań, i to są tylko przykłady. Różnice nie zawsze są kolosalne (np. dla Ryzena w 2021 przewaga Linuxa wynosi 8%) i bardzo zależą od metodologii, ale trend jest dosyć jasny – im więcej rdzeni procesora i bardziej „profesjonalny” sprzęt, tym mocniej Windows odstaje na niekorzyść od swojego rywala.<br />
+<br />
+Są jeszcze oczywiście rozwiązania Apple. W ich przypadku bardzo wyraźnie widać dużą przewagę w stosunku do starszych konstrukcji z Intelem. <a href="https://antyweb.pl/adobe-wypuszcza-kolejne-aplikacje-na-procesory-m1-pr-owcy-intela-sie-zalamia/" target="_blank" rel="nofollow noopener">Aplikacje przygotowane natywnie dla M1 są szybsze niż kiedykolwiek (np. Adobe przyspiesza w określonych miejscach nawet 3x)</a>, i myślę, że każdy trzeźwo myślący człowiek będzie kierował się w ich stronę, a przynajmniej mocno rozważał tę platformę.<br />
+<br />
+Oprócz rozwiązań wydajnych mamy też urządzenia typu komórki i tablety, które spokojnie wystarczają do bardzo wielu zadań.<br />
+<br />
+Co to wszystko oznacza? Baza oprogramowania dla Windows jest ogromna, ale… poza wielkimi firmami coraz rzadziej z niej korzystamy (firmy wskroś amerykańskie, takie jak Dell, proponują zresztą systemy z Ubuntu, i na pewno ten trend będzie się pogłębiał).<br />
+<br />
+Windows nie zniknie. Będzie używany do grania i będzie miał swoje miejsce w mniej technicznych korporacjach (bo te lepsze pokroju Google dawno mają swoje rozwiązania), urzędach, za to będzie się coraz mniej liczył wszędzie tam, gdzie myślimy o szybkim przetwarzaniu dużej ilości danych (mała dygresja – nigdy się nie liczył nie tylko z uwagi na problemy z obsługą dużej ilości zasobów, ale również przez koszty licencji).<br />
+<br />
+Czy dostaniemy przedłużenie wsparcia jak w Windows XP? W sumie chyba większości użytkowników niewiele to będzie obchodzić – do 2025 przeniosą się na (darmowe) alternatywy, albo będą używać ostatniego wydania tak długo, jak będzie działał ich sprzęt (a wraz z nowym sprzętem pomyślą, co dalej).<br />
+<br />
+Teraz wróćmy do tego, co się wyprawia w internetach. Od kilku dni portale IT prześcigają się w pisaniu o tym, że za kilka dni zobaczymy wspaniały i niesamowity comeback po tytułem „wyblakła amerykańska korporacja ma jednym ruchem zmienić wszystko na lepsze”.<br />
+<br />
+Jeżeli dzisiaj porównać system Windows do kobiety, to zdaniem Microsoftu jest on młodą, przebojową i pełną wigoru dziewczyną, myślę jednak, że blisko jej do starszej, dystyngowanej, sporo mogącej, ale przygłuchej i przyślepej damy (bo do MILF raczej bym jej nie zaliczył).<br />
+<br />
+Oglądałem ostatnio wideo Motobiedy na temat Buicka Skylarka (uwaga: zawiera przekleństwa) i uderzył mnie tam tekst o producentach amerykańskich, którzy w drugiej połowie lat 80-tych z 2,5 litra uzyskiwali niecałe sto koni (podczas gdy Włosi mieli takie osiągi z 1,6 litra pod koniec lat 60-tych).<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/UD2jHVCfUsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Gwiazdy Microsoft i Windows są podobnie wyblakłe, i żeby je rozjaśnić, trzeba czegoś na miarę rewolucji Windows NT (ale takiej naprawdę technicznej, a nie udawanej). <br />
+<br />
+Pogdybajmy sobie – gdyby dostać rdzeń systemu ważący 500 MB, rzeczywiste odseparowanie aplikacji (coś jak snapy), i modułowość wyrażającą się w tym, że każdy najmniejszy element typu .NET instalowany jest tylko w razie potrzeb (dotyczy to również sterowników), to kto wie… Prawdopodobnie konieczne byłoby wtedy porzucenie dużej części kompatybilności wstecznej, a tego bym się szczerze mówiąc nie spodziewał (być może to był jeden z powodów porzucenia Windows X) - sam producent  proponuje wyluzowanie i relaks, a więc najwyraźniej sugeruje obniżenie oczekiwań i emocji:<br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/fMr4Qm5ZWrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Kilka przykładów tego, jak obecne rozwiązanie jest po prostu słabe (i czego Microsoft nie poprawił, co sugeruje jego brak mocy sprawczej):<br />
+</p>
+<ol>
+<li>w 2012 wypuszczono na rynek system plików ReFS, do dzisiaj musimy się męczyć z NTFS</li>
+<li>największa nowość ostatnich miesięcy, czyli przeglądarka Edge, to produkt innej korporacji (ze zmianami, co prawda, ale jednak)</li>
+<li>ramach jednej korporacji do dziś nie przygotowano wspólnego systemu uaktualnień dla różnych produktów (jest Windows Update, Microsoft Store, aktualizator Edge, aktualizator Office)</li>
+<li>określone pozostałości po starych dziurawych rozwiązaniach wciąż pozostają w systemie (mówię np. o engine IE, którego nie można normalnie usunąć, choćby się chciało)</li>
+<li>do dnia dzisiejszego nie przygotowano instalatora dla wersji S systemu (która wydaje się działać znacznie sprawniej) i pozostawiono furtki dla chcących „za darmo” uaktualnić Windows 7 czy 8.x (ogólnie całe licencjonowanie jest dosyć mętne)</li>
+<li>najlepszym sposobem optymalizacji Windows jest m.in. włączenie „battery saver”, ale wtedy nie można uruchamiać zadań w harmonogramie, a przez to np. w łatwy sposób ustawić sobie katalogu tymczasowego w RAM (to i wiele innych operacji to pestka u konkurencji)</li>
+<li>Windows zamiast być nienachalną i nierzucającą się w oczy platformą, postawił na uruchamianie wielu ulepszaczy i optymalizatorów (które nie byłyby potrzebne, gdyby architektura była zupełnie inna), co niepotrzebnie marnuje coraz bardziej cenne zasoby</li>
+<li>wygląd</li>
+<li>takie rzeczy jak nowy microcode do procesorów Intela mogą pojawiać się nawet po pół roku (tak w ogóle wielu problemów byśmy uniknęli, gdyby takie rzeczy jak ME czy microcode CPU użytkownik mógł sobie sam uaktualniać, pobierając stosowny pakiet ze strony tego producenta)</li>
+</ol>
+<p>Nie ma co się oszukiwać – gdyby dzisiaj dostępny był Windows XP „na sterydach” (z obsługą NVME, etc.), wielu użytkowników pewnie w ogóle by nie spojrzało na dziesiątkę. Tak samo rok 2025 trzeba pewnie traktować dosyć luźno – firma może już wcześniej próbować stawiać mniejszy nacisk na poprawki Windows 10 (podobnie jak zdarzało się to w przypadku Windows 7).<br />
+<br />
+Można dużo zarzucać Billowi Gatesowi (nawiązuję do jego działań proklimatycznych i notorycznie powtarzających się wątkach z nim związanych w teoriach spiskowych), ale to za jego czasów stworzono XP i pierwsze, niemal prorocze, kompilacje tworu zwanego Longhorn.<br />
+<br />
+Potem pojawił się pan od „developers, developers”, i mieliśmy Vistę (tak, wiem, że CEO został mniej więcej w 2006, a Vistę wypuszczono pod koniec 2006, niemniej jednak wysokie decyzyjne stanowisko zajmował już wcześniej), Windows Mobile, Windows 8.x i ogólnie bałagan (zasada Dilberta tu zdecydowanie nie zadziałała).<br />
+<br />
+Obecny zarządzający firmą robi perskie oczko tu i tam. Na dzień dzisiejszy mnie nie przekonał, i nawet Microsoft Surface czy wersje na ARM są jakieś takie słabe (tak samo nie płacę za kolejne wersje Microsoft Office – ponieważ nie muszę przetwarzać gigabajtowych plików, wystarcza mi LibreOffice czy do mało ważnych rzeczy WPS Office).  <br />
+<br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/rX0JpYGfoSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
+Jeżeli mam porównywać obecną ofertę Microsoft do innych, to powiedziałbym, że to oferta w stylu wielkich sieci – duża metka z ceną i małe możliwości (nie zmienia to faktu, że np. ten tekst piszę pod Windows, ale to wynika tylko z tego, że system był w cenie laptopa, a przyzwyczajenie drugą czy trzecią naturą człowieka).<br />
+<br />
+Co z tego wszystkiego wyniknie dalej, zobaczymy. Obecnie coraz bardziej liczą się usługi (stąd należy liczyć na ogromny sukces Apple, które ma i sprzęt, i oprogramowanie, i inne elementy typu serwis VOD), do 2025 jeszcze dużo rzeczy się wydarzy.<br />
+<br />
+A na koniec powtórzę: gdyby ktoś zobaczyć przyszłość już dziś, nie można mu polecać Windows ani tym bardziej Windows-on-ARM. Powinien skierować się przede wszystkim w stronę M1 (i odżałować niewymienialność SSD i RAM), albo bardziej polubić pingwina. Gier może nie będzie, problemy będą inne, ale (przy tym ostatnim) przynajmniej płacić nie trzeba.<br />
+</p>

@@ -1,0 +1,56 @@
+﻿Title:Słabość
+Author:marcin
+When:30 Jan 2014
+Taxonomy:Polski,Polski blog,wiersz,książka 4
+SkipMain:true
+
+<hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Wiersz w nowszej wersji pojawił się w książce <a href=?q=taxonomy/term/książka+4>Gdy na was patrzę</a></font></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dom jest parterowy i głównie drewniany,<br />
+dach jest dachówkowy, dół zaś murowany,<br />
+z drewna okiennice, wokół żółte ściany,<br />
+dachu krzywe lice, ganek z frontu dany,</p>
+<p>kuchnie dwie w środku oraz dwa pokoje,<br />
+sień pośrodku, w niej rodzin dwóch stroje,<br />
+ganek ze ścianami, kolejne tam podwoje,<br />
+strych żyje duchami, skarbów kryje zwoje,</p>
+<p>chłodno w domu w lato, gorąco zaś zimą,<br />
+miejsca tyle na to, że jedną żyją rodziną,</p>
+<!--break-->
+<p>Przed domem stoi ogromny orzech włoski,<br />
+co osłania cieniem ich wszelkie troski,<br />
+jest też studnia z krystaliczną wodą,<br />
+zimną, czystą, również będącą ochłodą,</p>
+<p>Z boku drobne leszczyny oraz grusza<br />
+co konarami ciągle powoli porusza,<br />
+z drugiej strony domu ogród stoi cały,<br />
+wszystko w nim, śliwy też tam cień mały,</p>
+<p>Przed ogrodem zaś droga jest wytyczona,<br />
+czasem autem ktoś powoli ją pokona,</p>
+<p>A za drogą przestrzenie nieskończone,<br />
+pełne dobra ziemi są całe niezwykłego,<br />
+które nie będą nigdy całkiem docenione,<br />
+przez kogoś niewtajemniczonego.</p>
+<p>I niebo jest niebieskie, czyste i jasne,<br />
+a słońce zawsze nieprzysłonięte,<br />
+lepsze od kupionych, gdyż są własne,<br />
+zboża i inne skarby stamtąd wzięte.</p>
+<p>Ludzie zaś mają tak dużo radości,<br />
+chociaż zmęczenie u nich często gości...</p>
+<p>Takich ojczyzn mnóstwo w Polsce było,<br />
+budowane latami, aż odwiedzić miło,<br />
+ludzie zaś siły wielkie wtedy mieli,<br />
+dzień chwytali, mądrość też widzieli,</p>
+<p>wiedzieli, że jeden ma wspierać drugiego,<br />
+pracować, a nie pasożytem być innego,<br />
+wiedzieli, że poświęcenie bywa w cenie,<br />
+a nie smutku pełne leniwe ględzenie,</p>
+<p>i może nie mam teraz racji całkowicie,<br />
+ale różni znani mi słabsi są chyba niezbicie...</p>
+<p>Nie wiedzą, co w życiu bywa tak ważne,<br />
+myślą, że zakazane są gesty odważne,<br />
+albo że latami na coś trzeba czekać,<br />
+że w nieskończoność można też zwlekać,</p>
+<p>tak wynika z tego co tu i tam widzę,<br />
+i tego wniosku się w ogóle nie wstydzę,<br />
+a jeśli ktoś ma odwagę coś powiedzieć,<br />
+to wprost, nie chcę zza pleców się dowiedzieć.....</p>

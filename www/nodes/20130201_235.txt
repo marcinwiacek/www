@@ -1,0 +1,84 @@
+﻿Title:„Jestem złodziejem i jestem z tego dumny” ? (2013)
+Author:marcin
+When:01 Feb 2013
+Taxonomy:Polski,Polski blog,Spider&#039;s Web
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=http://www.spidersweb.pl/2013/02/jestem-zlodziejem-i-jestem-z-tego-dumny-2.html>opublikowany w serwisie Spider's Web</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Patrzę na tekst <a href=http://www.spidersweb.pl/2013/02/jestem-zlodziejem-i-jestem-z-tego-dumny.html>http://www.spidersweb.pl/2013/02/jestem-zlodziejem-i-jestem-z-tego-dumny.html</a> i mam dużooo refleksji... 
+
+<p>Przede wszystkim 7 przykazanie mowi jasno "nie kradnij" i tu NIE MA wątpliwości, podobnie nie ma wątpliwości, że z patologiami TRZEBA walczyć. Dodatkowo nie chcę nikogo wybielać, ale też jednak TRZEBA zwrócić uwagę na tło problemu i o tym chciałbym powiedzieć kilka słów (dotyczyć to będzie i oprogramowania i tzw. "kultury").
+<!--break-->
+
+<p><b>1. wątpliwości pojawiają się czasem/często przy próbie oceny, co w świecie IT bywa kradzieżą. Przykłady:</b>
+
+<ol><li>licencje Adobe na CS2 i Acrobat 7 (<a href=http://www.dobreprogramy.pl/Oficjalne-stanowisko-polskiego-Adobe-CS2-i-Acrobat-7-tylko-dla-posiadaczy-starych-licencji,Aktualnosc,38533.html>http://www.dobreprogramy.pl/Oficjalne-stanowisko-polskiego-Adobe-CS2-i-Acrobat-7-tylko-dla-posiadaczy-starych-licencji,Aktualnosc,38533.html</a> - po udostępnieniu plików przez kilka dni brak było jasnego stanowiska, co można z nimi zrobić, a co nie)
+
+<li>licencje Microsoft na Windows OEM (przez długie lata były wątpliwości, kto i jak może instalować takie oprogramowanie)
+
+<li>różne możliwości przedłużania licencji trial Windows, które pojawiały się od czasu do czasu (np. z 30 na 120 dni poprzez wykonanie jednego polecenia z linii komend)
+
+<li>instalacja narzędzi Google na urządzeniach z CyanogenMod (na których oryginalnie te narzędzia były zainstalowane)
+
+<li>istnieje instytucja dozwolonego użytku, płacimy za nią pewien podatek (w płytach, xero, itp.) i tak naprawdę brakuje do końca precyzyjnego określenia co on pokrywa
+
+<li>licencje często bywają podchwytliwe i nie regulują pewnych kwestii, które się zdarzają (albo próbują nam zabrać takie prawa jak prawo do odsprzedaży)
+
+<li>jeśli coś jest udostępniane, czasem na pierwszy rzut oka trudno wiedzieć, że z tej kopii nie odprowadzono jakichś opłat do firm trzecich (bo nie oszukujmy, że pieniądze te w większości dostają twórcy - prawda często wygląda tak: <a href=http://di.com.pl/news/47458,0,ZAiKS_i_S-ka_Miliony_niewyplacone_artystom_i_miliony_za_czyste_nosniki.html>http://di.com.pl/news/47458,0,ZAiKS_i_S-ka_Miliony_niewyplacone_artystom_i_miliony_za_czyste_nosniki.html</a>)
+
+<li>patenty - tu coraz częściej obowiązuje zasada, że ważna jest interpretacja tego, kto zapłaci więcej.
+
+<li>itd. itd.
+
+</ol>
+
+<p><b>2. "Publicznie mnóstwo ludzi chwali się łamaniem prawa bez żadnej refleksji moralnej. No, ale czego wymagać w tych zdegenerowanych czasach."</b>
+
+<p>Urzekło mnie ostatnio stwierdzenie Pana Rybińskiego, że Polska jest krajem trzeciego świata (<a href=http://forsal.pl/artykuly/677061,rybinski_polska_krajem_trzeciego_swiata.html>http://forsal.pl/artykuly/677061,rybinski_polska_krajem_trzeciego_swiata.html</a>). To tylko kolejny kamyczek dołożony do "drobnego" tematu ZUS (na który "dobrowolnie" oddajemy bezpowrotnie czasem większą część pensji), kilku składek zdrowotnych (jeśli prowadzimy kilka rodzajów działalność, płacimy kilka składek nie otrzymując nic więcej), podatków i parapodatków (np. w paliwie połowa to zwykły haracz) i innych rzeczy, które się dzieją (np. odwrotne interpretacje tego samego prawa przez Sądy i sytuacje, gdy osoby poszkodowane nie dostają zwrotu należnych im pieniędzy). 
+
+<p>Do tego bombardowanie tak "ważnymi" tematami jak równość rodziny i związku osób jednej płci, przelot jednego samolotu firmy zza oceanu czy nazywanie ludzi piratami i bandytami drogowymi w sytuacji, gdy wielu z nich jest niewinnych.
+
+<p>Jeśli ktoś jest ciągle karmiony taką propagandą i takimi problemami, to później takie są skutki... Jeśli ktoś oddaje większą część pracy na podatki, to później takie są skutki (paradoksalnie, ale kiedyś była tylko dziesięcina, a dziś ?)... Jeśli tylko pracuje i nie widzi sensu życia, to później takie są skutki...
+
+<p>Poza tym nikt inny nie jest powodem, że czasy są zdegenerowane, tylko ludzie.  Kiedy ostatnio reagowaliście, gdy ktoś robił komuś krzywdę na ulicy ? Kiedy protestowaliście przeciwko niesprawiedliwości w swojej pracy ?
+
+<p>Zaczyna się właśnie od prostych rzeczy takich jak wyścigi szczurów, swingowanie czy deptanie wartości moralnych na co dzień przez główne media... Zaczyna się od tego, że jedni chcą się bogacić jedynie kosztem innych. 
+
+<p>I oczywiście, że jeśli ktoś nakręci film, to może nie chcieć go rozpowszechniać cyfrowo albo chce za kopię cyfrową tyle co za płytkę. Ma do tego prawo... 
+
+<p>Autor pisze, że "Dzieci Youtuba, Sadistica, kwejka i całej reszty, są być może pokoleniem straconym dla kultury.", bo zamiast tworzyć wartościową treść wolą wrzucić psa/dziecko do wody. 
+
+<p>Zastanówmy się nad analogią - ktoś ma obrazy Picassa i zamyka je w swojej galerii niedostępnej dla innych. Czy to wina obecnego pokolenia, że zabrano im Picassa i daje się ochłapy ? Kto jest stracony dla kultury ? Ten kto zamyka Picassa czy ten, kto się o niego dopomina ?
+
+<p>Chcecie obejrzeć jakiś mniej popularny serial SF ? Pójdźcie do sklepu i spróbujcie go znaleźć. Spróbujcie zamówić go wysyłkowo - niektórych nie ma, a niektóre zostały np. wydane dla regionu 4 i właściciel nie planuje wydania dla regionu 2, bo pewnie przyniesie zbyt małe zyski... (tak jest np. z Seaquest DSV 2032).
+
+<p>I tak pozostaje kombinowanie...albo z regionami albo szukanie w Sieci. I znów - nie popieram łamania 7 przykazania, niemniej jednak w roku 2013 dżin pod tytułem "wygoda korzystania z VOD i streamingu" nie da się schować do butelki. Dla wielu jest to paradoksalnie po prostu walka o kulturę...tak samo jak ludzie chcą wody i prądu, tak łakną książek, obrazów, muzyki...i wybierają najlepszą drogę dostępu do nich.
+
+<p>Bo jeżeli kupuje się płytę, to wspomaga się mocno niszczenie środowiska. I dodatkowo za każdym razem trzeba oglądać tony antypirackich ostrzeżeń i reklam (za własne pieniądze). 
+
+<p>Myślę, że gdyby dać ludziom wybór pod tytułem 2 czy 5 PLN za kanał w stramingu, zainteresowanie byłoby ogromne. Problem w tym, że obecni monopoliści musieliby się więcej napracować nad zyskiem. Problem też w tym, że Polska jest rynkiem "B" czy nawet "Z" dla wielu korporacji, a działania "piratów" są po prostu odpowiedzią na traktowanie ich jak nie obrażając bydła.
+
+<p><b>3. "Trzeba jasno powiedzieć. Dobra treść kosztuje."</b>
+
+<p>Paweł pisał w kontekście filmów, ale myślę, że da to się również odnieść do oprogramowania. Istnieje bowiem kategoria oprogramowania, które wprawdzie kosztowało i kosztuje wielu ludzi wiele wysiłku, ale można je mieć za darmo. Poczytajcie sobie o jednej z filozofii dotyczącej tzw. Wolnego Oprogramowania: <a href=http://www.gnu.org/philosophy/free-sw.pl.html>http://www.gnu.org/philosophy/free-sw.pl.html</a>, przeczytajcie tekst <a href=http://gnu.ist.utl.pt/philosophy/right-to-read.pl.html>http://gnu.ist.utl.pt/philosophy/right-to-read.pl.html</a>, który pokazuje co się dzieje na świecie.
+
+<p>Można wyśmiewać takie podejście do kodowania, ale spójrzcie na swojego smartphona - u większości z was jest to Android, który wykorzystuje właśnie takie wolne oprogramowanie. Od razu odpowiecie, że przecież Android jest niebezpieczny, wolny, wiesza się, itp. OK, tylko, że duża w tym wina Google i innych korporacji, które wzięły komponenty tworzone w ramach GNU, zmieniły je "po swojemu" i oto mamy rezultaty. Żeby nie być gołosłownym, przez długi czas trwała dosyć regularna wirtualna "wojna" między twórcami jądra linuksowego i Google. Ja proponuję poczytać o korzeniach...licencji i podejść do tworzenia oprogramowania jest zresztą wiele i na pewno znajdziecie coś interesującego dla siebie.
+
+<p>Zapytam się przekornie - a używacie jakiejś dystrybucji Linuxa ? różne mają swoje wady, ale zgodzicie się, że np. taki Debian często bije Windows stabilnością i wymaganiami sprzętowymi po prostu drastycznie.
+
+<p>I znów - twórcy takiego oprogramowania często bywają nazywani piratami, tak było np. przy tworzeniu odtwarzacza płyt DVD (tak, tak, przez długi czas ich oglądanie było dostępne jedynie w systemach takich jak Windows). Czy jednak nie jest prawdą, że metoda tworzenia oprogramowania/sprzętu przyjęta przez wiele korporacji nie daje dobrych produktów, a może zapewnić ją właśnie i jedynie twórczość nastawiona na kreatywność, a nie na zysk ?
+
+<p>Myślę, że przerażające jest też, ile obecnych gadżetów jest wynikiem cierpienia ludzkiego (przy wydobywaniu minerałów czy składaniu w jakiejś azjatyckiej fabryce)... A są one produkowane nie dlatego, bo są potrzebne, ale dlatego bo sztucznie zapewnia się na nie popyt.
+
+<p>Myślę też, że nie jest przesadą powiedzenie, że jedynie dzięki takim opisanym wyżej "piratom" dziś nie jest tak, że płacimy za wypożyczenie nam jakiegoś gadżetu, a możemy go kupić i posiąść na własność (choć granica ta bywa niestety czasem bardzo bliska).
+
+<p>Myślę, że nie będzie przesadą, że najwięcej jako ludzie zyskaliśmy dzięki "otwartym" standardom, a nie nagonkom takim jak teraz urządzane na tzw. "piratów".
+
+<p><b>4. " Zdanie się na „rynek” powoduje zwycięstwo masy nad inteligentnymi. To tez jedna z wad demokracji. "</b>
+
+<p>Jaka demokracja ? Poczytajcie np. <a href=http://prawonadrodze.org.pl/>http://prawonadrodze.org.pl/</a> i szereg innych tekstów, które dosyć jasno pokazują, że obecny ustrój w Polsce czasem trudno nazwać demokratycznym.
+
+<p>Proponuję zresztą też lekturę <a href=http://www.wykop.pl/ramka/1396783/fotoradary-i-prawo-jazdy-czyli-lupienie-kierowcow/>http://www.wykop.pl/ramka/1396783/fotoradary-i-prawo-jazdy-czyli-lupienie-kierowcow/</a> - dobrze odpowiada na to, jak należy nazwać to co się dzieje (zastanówcie się, czy tego chcą rzeczywiście ludzie)...
+
+<p>Kiedy z tym ostatnio walczyliście ? (zgodnie z prawem oczywiście) Kiedy protestowaliście w sytuacji, gdy dosyć często łamie się wasze podstawowe prawa ? Albo czy wybieraliście w ostatnich wyborach na podstawie realnego programu wyborczego czy dlatego, bo ktoś tam nie ma konta w banku i jest kawalerem ?
+
+<P>PS. Nie miałem i nie mam konta na zlikwidowanym serwerze, lektura na dziś to <a href=http://en.wikipedia.org/wiki/Good_Copy_Bad_Copy>http://en.wikipedia.org/wiki/Good_Copy_Bad_Copy</a> i <a href=http://www.futrega.org/wk/>http://www.futrega.org/wk/</a> ("Wolna Kultura" Lawrence Lessiga)

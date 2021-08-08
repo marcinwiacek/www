@@ -1,0 +1,31 @@
+﻿Title:Dell wymienia baterie (XPS 15 9550, Precision 5510) i patchuje ME (2017, 2018 albo TBD) (2017)
+Author:marcin
+When:25 Nov 2017
+Taxonomy:Polski,Polski blog,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.dobreprogramy.pl/marcinw2/Dell-wymienia-baterie-XPS-15-9550-Precision-5510-i-patchuje-ME-2017-2018-albo-TBD,84436.html>opublikowany w serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Baterie to nieodłączny element praktycznie każdego elektronicznego gadżetu, i to element który nie tylko może ulec zużyciu, ale może być również przyczyną pożaru i wpłynąć na zdrowie i życie ludzi wokół. I właśnie z tego powodu istnieją odpowiednie ograniczenia na przykład na wielkość baterii, które mogą być wnoszone na pokład samolotów, jak również producenci profilaktycznie wymieniają tysiące tych elementów nawet wtedy gdy istnieje tylko podejrzenie, że są wadliwe.</p>
+<!--break-->
+
+<p>Od dłuższego czasu w Internecie znaleźć można zdjęcia komputerów Dell XPS 15 9550 i Dell Precision 5510, w których baterie puchną uszkadzając touchpad. Znany jest na pewno jeden przypadek zapłonu takiej baterii, o zjawisku tym <a href="http://www.frazpc.pl/aktualnosci/935041,dell-xps-15-9550---kolejne-urzadzenie-z-niebezpieczna-bateria/7.html" target="_blank" rel="noopener" rel="nofollow">pisał chociażby FrazPC</a>, problem wydaje się dotyczyć jedynie baterii powiększonych (ale tutaj nie mam pewności).</p>
+
+<p>Przez dłuższy czas nie było na ten temat żadnego większego komunikatu firmy Dell, w październiku jednakże na oficjalnym forum można było przeczytać, że <a href="http://en.community.dell.com/support-forums/laptop/f/3518/t/20022402" target="_blank" rel="noopener" rel="nofollow">rozpoczęta została akcja wymiany tychże baterii</a>.</p>
+
+<p>W celu jej dokonania należy wejść na odpowiednią stronę DellProduct, wpisać swój tag serwisowy (Service Tag), podać dane adresowe (prawdopodobnie muszą być zgodne z danymi z gwarancji) i już. Wymianie ulega bateria i w razie potrzeby również touchpad, wszelkie problemy z procedurą można zgłaszać na podane na stronie adresy mailowe, ewentualnie można również skontaktować się np. z <a href="https://twitter.com/DellCaresPRO" target="_blank" rel="noopener" rel="nofollow">DellCaresPRO na Twitterze</a>.</p>
+
+<p>W tym miejscu trzeba zauważyć, że wymiany można dokonać samodzielnie lub zamawiając technika, użytkownicy w Internecie donoszą, że jest ona dokonywana również w przypadku komputerów po gwarancji (co moim zdaniem z jednej strony należy pochwalić, z drugiej strony powinno być normalną praktyką np. przez trzy lata od zakończenia produkcji danego modelu).</p>
+
+<p>Mnie osobiście zastanawia w tej sytuacji jedna rzecz: dlaczego komunikatu nie ma na stronie ze sterownikami? Albo dlaczego bodajże żadna z firm, które wymieniają baterie w komputerach, nie przygotuje upgrade BIOS, który jasno pokazuje &quot;Twoja bateria powinna być wymieniona&quot;? Podobną operację zrobił Samsung z Note 7 i powinna być ona chyba wręcz nakazana prawem.</p>
+
+<p>Oprócz baterii mamy też ostatnio problem z Intel ME, w którym znaleziono <a href="https://www.dobreprogramy.pl/Chcesz-rootkita-Intel-przyznaje-sie-do-fatalnych-bledow-w-Management-Engine,News,84331.html" target="_blank" rel="noopener">kilka nowych poważnych usterek</a>. Kilka firm (np. HP albo Lenovo) wydało już odpowiednie uaktualnienia (czyli skopiowało firmware Intela i udostępniło go użytkownikom), natomiast Dell jak na razie wydał oświadczenie, w którym zdefiniował daty uaktualnień. Na udostępnionej liście zastanawiące jest, że część systemów zostanie poprawiona dopiero w 2018, w przypadku części data aktualizacji zostanie dopiero zdefiniowana, pewne wątpliwości budzi brak Dell M6600 z 2011 roku (który w tym roku dostał aktualizację BIOS i który prawdopodobnie powinien zostać potraktowany jak Dell M6700 z 2012 roku).</p>
+
+<p>Zastanawiające dla mnie jest to, że tak długo należy czekać na poprawkę w sytuacji, gdy wydaje się dosyć krytyczna i w sytuacji gdy producent sprzętu raczej nie wprowadza do niej żadnych własnych zmian.</p>
+
+<p>Wydaje się to być podobnie niezrozumiałe jak chociażby fakt wyłączania SpeedShift w różnych nowych modelach (<a href="http://forum.notebookreview.com/threads/the-throttlestop-guide.531329/" target="_blank" rel="noopener" rel="nofollow">do jej aktywacji należy użyć narzędzia ThrottleStop</a>), oczywiście zasadne jest również znowu pytanie: a czy musimy być uraczeni Intelem ME? (kryporeklama - gdy zastanawiałem, do czego mógłby się przydać, to napisałem dwa krótkie opowiadania Duchy i A miało być tak pięknie, które są u mnie na stronie pod adresem <a href=?q=taxonomy/term/S.F.>http://mwiacek.com/www/?q=taxonomy/term/46</a>)</p>
+
+<p>Dwa linki podaję oddzielnie w tekście z uwagi na fakt usuwania ich z wpisu blogowego (prawdopodobnie błąd albo ochrona spamowa platformy Dobrych Programów):</p>
+
+<ul>
+<li>Program wymiany baterii - <a href=https://www.dellproduct.com/Program.aspx?PI=Y1GZ2GvfmoM%3D>https://www.dellproduct.com/Program.aspx?PI=Y1GZ2GvfmoM%3D</a></li>
+<li>Oświadczenie w sprawie nowych wersji Intel ME w produktach Dell - <a href=http://www.dell.com/support/article/us/en/04/sln308237/dell-client-statement-on-intel-me-txe-advisory--intel-sa-00086-?lang=en>http://www.dell.com/support/article/us/en/04/sln308237/dell-client-statement-on-intel-me-txe-advisory--intel-sa-00086-?lang=en</a></li>
+</ul>
