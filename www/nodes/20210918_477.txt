@@ -1,0 +1,50 @@
+﻿Title: Google i inni dają nam kopa z laczka, bo sami tego chcemy (2021)
+Author:marcin
+When:18 Sep 2021
+Taxonomy:polski,polski blog,salon24.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1166637,google-i-inni-daja-nam-kopa-z-laczka-bo-sami-tego-chcemy>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Z ogromnym zainteresowaniem przeczytałem notatkę <a href="https://www.salon24.pl/newsroom/1166309,google-da-wam-z-laczka-i-poprawi-z-kopyta" target="_blank">„Google da wam z laczka. I poprawi z kopyta”</a>, która ogólnie potwierdziła to, co też wielokrotnie opisywałem (<a href="https://www.salon24.pl/u/techracja/" target="_blank">na TechRacji</a> <a href="http://mwiacek.com/www/" target="_blank" rel="nofollow noopener">i wcześniej</a>). Przebiła się być może do świadomości iluś osób, miała dobry marketing i trafiła na wykop, ale czy coś zmieniła?</p>
+<p>Ogarnęła mnie smutna refleksja, że w sumie sami tego wszystkiego chcemy. To nie jest po części tak, że przyszli jacyś oni, i nam wcisnęli pewne rzeczy do gardła.</p>
+<!--break-->
+<p>Ale po kolei… Lata mojej młodości i wieku bardziej dojrzałego. Edytor TAG, Foltyn Commander, Pajączek (z tego nie korzystałem, bo uważałem, że lepszy jest zwykły edytor tekstowy), PCKurier, Enter, Bajtek, od 1997 Chip. Były i polskie gry, i masa artykułów technicznych, o szachach i rozwoju. Było Gadu-Gadu (przez chwilę miałem), Nasza Klasa (nie korzystałem), przez długi czas w moim życiu pojawiło się swojskie Allegro (wtedy jeszcze takie było), itd. itd. Pewne elementy były może i karykaturalne (część słownictwa pana Bieleckiego), ale tworzono je lokalnie.</p>
+<p>A potem Polska zachłysnęła się zachodem.</p>
+<p>A teraz? Patrzę na dużo spraw z pewnej perspektywy, i może mam zaburzony ogląd rzeczywistości, ale… mam wrażenie, że w wielu miejscach działa się na zasadzie „Zrobi pan to za flaszeczkę, i będzie dobrze panie Areczku”. I zamiast postawić porządny serwer w firmie (nie, nie trzeba do tego dużych piniędzy), wszystko wrzuca się w chmurę. Zamiast wszędzie, gdzie tylko się da, używać darmowego softu, wszystko robi się na bogato, czyli obowiązkowo z użyciem „Microsoft Office w najdroższej możliwej wersji” i „Windows Professional” (ewentualnie z Office 365, którego koszty na koniec często i gęsto przewyższają koszt wersji pudełkowej). Zamiast inwestować w rozwój, oddaje się decyzje osobom nietechnicznym, a do tego w żaden sposób nie wspiera lokalnych inicjatyw. Jeden jedyny przykład niech to będzie fantastyka.pl (<a href="https://www.fantastyka.pl/hydepark/pokaz/24257" target="_blank" rel="nofollow noopener">nie chcę już nawet opisywać tej drogi przez mękę, histerii zbiorowej i wyjaśniania, że nikt nie chce zlikwidować ulubionego portalu, tylko chodzi o jego ruszenie do przodu – litościwie podam tylko jeden z linków</a>), drugi dobreprogramy.pl (po rewolucjach w kwietniu wyszli chyba jak Zabłocki na mydle, i szkoda, że kilku ich starych blogerów dalej podtrzymuje ich treścią, co działa jak kurowanie umierającego kroplówką), a trzeci pclab.pl.</p>
+<p>Jednym z największych kłamstw jest to, że kapitał nie ma narodowości. Ma, i to jak (za przeproszeniem) jak cholera. Kupując chińskie, wspieramy Chińczyków. Kupując amerykańskie, wspieramy Amerykanów. Itd. itd. Z firm polskich (lub takich, które na polskie wyglądają) mógłbym wymienić GoodRam, HyperBook, nazwa.info czy lh.pl. A ty? Kiedy ostatnio coś u nich kupiłeś? Kiedy ostatnio sprawdziłeś, kogo popierasz? Nie wszędzie potrzebny jest MacOS, czy pewne rzeczy znane np. z Della (jak gwarancja on-site). To się zresztą odnosi też do innych dziedzin życia – czy ostatnio kupowałeś coś w sieciówce czy lokalnym sklepiku pani Krysi? Czy zapłaciłeś gotówką i nie dałeś przy tym prowizji jakimś tam zagranicznym <span style="text-decoration: line-through;">cfaniakom</span> ludziom sukcesu?</p>
+<p>Ja np. zamiast kupować MacBooka <a href="?q=node/447">wpierw do pisania próbowałem użyć Acera Swift 1</a> (Acer to generalnie firma tajwańska), a <a href="?q=node/471">potem skierowałem się w stronę HyperBooka L14 (produkt polsko / tajwański, który coraz bardziej szanuję)</a>. Z telefonów (jeśli mogę) nie wybieram marek chińskich ani pogryzionego jabłka, a o wszystkim piszę na swoich stronach.</p>
+<p>A Ty? Naprawdę musisz mieć ostatniego Iphone? (swoją drogą, przypomina mi się pewna młoda osóbka z mojej rodziny, która chorowała na ten telefon, a po roku stwierdziła, że ten nie umywa się do tego, co miała wcześniej) Musisz płacić bezprzewodowo? Albo czy naprawdę musisz ekscytować się Xiaomi? I czy musisz co roku mieć nowy model? Czy coś zmienia to, że ma 1 GB RAM więcej? Urośnie ci od tego kilka cm?</p>
+<p>Pójdźmy dalej. Na WikiPedii, Tik-Toku, Google.com czy YouTube świat się nie kończy. Kiedy ostatnio ruszyłeś dupę i spróbowałeś chociażby DuckDuckGo? Czy potem gdziekolwiek opisałeś swoje doświadczenia? Czy próbowałeś zainteresować znajomych? Czy w ogóle stworzyłeś lub próbowałeś stworzyć cokolwiek wartościowego?</p>
+<p>Na tym właśnie powinno to wszystko polegać – zamiast pisać sponsorowane „coś” (i polecać pasty, które niszczą szkliwo), należy nazywać rzeczy po imieniu. Podam dwa przykłady:</p>
+<ol>
+<li>jakiś czas temu oglądałem video którego z YouTuberów, na którym mówił o tym, że poszukiwani są ochotnicy do wszczepienia chipów płatniczych, i reklamowania, jakie to są wspaniałe płatności z ich użyciem (opinia oczywiście nie była zbyt pozytywna)</li>
+<li>podoba mi się również inicjatywa tępienia scamów<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Ql33nmGPCjo" class="note-video-clip"   frameborder="0">
+</iframe></div>
+ <br />
+ </li>
+</ol>
+<p>Można też oczywiście uczestniczyć w różnych darmowych (ale dobrych inicjatywach) – sam np. widzę, że praktycznie nikt z użytkowników moich darmowych programów nie chciał wysłać nawet jednego najmarniejszego commita czy komentarza.</p>
+<p>A ty? Jak nie napisałeś niczego, to może chociaż zostawiłeś łapkę lub komentarz pod czymś dobrym? Czy ci się nie chciało?</p>
+<p>Chociaż generalnie nie popieram abonamentów, to czasami są potrzebne. I tak np. przez chwilę używałem Legini, ale… było to na zasadzie masowego czytania, i rezygnacji z tegoż. Ale jak tak można, ktoś się zapyta? Najważniejsze, żeby wyciągać korzyści dla siebie. Zamiast regularnie opłacać NetFlixa, HBO czy Prime (i dokładać się regularnie do ich ideologii), można wziąć jedną z ich usług co jakiś czas i na najkrótszy okres, obejrzeć wszystko, co wartościowe, i zrezygnować.</p>
+<p>Inna sprawa, że życie wirtualne jest tylko dodatkiem do życia w realu. Spójrzmy na to, co się działo w sejmie w tym tygodniu:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/dqy-_J-5jqM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+</p>
+<p>W zeszłym roku jakoś wszyscy mogli się zorganizować, żeby wyjść na ulice. I mieliśmy oburzone matki polki</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/stamNXYDzCU" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>a w tym? Przypomnijcie sobie tylko, na kogo głosowaliście. I kto z nich mówi, żeby zamykać, bez żadnych danych i ładu i składu.</p>
+<p>Od drobnych rzeczy się zaczyna. Od tego, żeby za przeproszeniem ganiać święte krowy na rowerach</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/8eQVf5KK8lk" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+czy w samochodach (<a href="https://www.youtube.com/channel/UCPX5smy7RVy9FpMPTeYZctw/videos" target="_blank" rel="nofollow noopener">polscy kierowcy</a>, <a href="https://www.youtube.com/c/STOPCHAM/videos" target="_blank" rel="nofollow noopener">stop cham</a> czy <a href="https://www.youtube.com/c/samochodoza/videos" target="_blank" rel="nofollow noopener">samochodoza</a>). Żeby tępić chamstwo i miernotę intelektualną (nie może być, że słowa „tolerancja” i „równość” będą pozwalać jednostkom na narzucanie swojej woli, i nikt nie będzie na to reagował). Żeby krytykować, jak ktoś mówi, że rząd ma swoje pieniądze (przypomnę, że  „Rzeczpospolita Polska jest dobrem wspólnym wszystkich obywateli”, i nawet te spółki skarbu państwa, posadzone lasy i inne „rządowe” rzeczy powstały z pracy obywateli). Żeby wychodzić na ulicę, gdy trzeba (jak w Paryżu i innych miejscach). Żeby walczyć o dobre prawo, o możliwość płatności gotówką i tysiąc innych rzeczy. Żeby nie iść jak baran za trendami, tylko wszystko wyliczać (zamiast Tesli może wystarczy mieć używany dupowóz za dziesięć tysi ? Zamiast czasem koszmarnie drogiej stacjonarki np. jakiegoś taniego, a nawet używanego laptopa?)</p>
+<p>Wielkie korporacje wielkimi korporacjami. One były, są i będą. Mają pieniądze, ale muszą mieć również rząd dusz. Zarabiają szczególnie na tym, że jesteśmy podzieleni i skłóceni ze sobą. Na tym, że się ekscytujemy panem Tuskiem i Kaczyńskim (tymczasem oni mieli już swoje szanse, i widać, jak wszyscy byli / są zadowoleni z ich rządów). Że się śmiejemy z potknięć pana Dudy (dla szukających dziury w całym - nie znieważam urzędu prezydenta RP, tylko stwierdzam, że obecnie wybranemu przynajmniej w opinii niektórych zdarzają się pewne wpadki).<br />
+</p>
+<p>Jeszcze mamy pewne możliwości, żeby wybierać to, co dla nas najlepsze. Na Google świat się nie kończy. To, że teraz jest, nie znaczy, że będzie za dwadzieścia lat. Ja już przeżyłem i Yahoo, i AltaVistę, i Netscape i Internet Explorera, coraz rzadziej korzystam nawet z Windows (do większości zadań mam Androida, Linuxa, czasem iPadOS). A Ty? Naprawdę musisz się dokładać do tego, żebyś ciągle dostawał kopa? To, że nawet wyślesz zapytanie w Google, jest właśnie takim dokładaniem cegiełki… Meeee….<br />
+</p>

@@ -1,0 +1,26 @@
+﻿Title:Dlaczego Open Source się nie przyjęło? Czyli o Papuasach, biurokracji i innych rzeczach (2021)
+Author:marcin
+When:1 Aug 2021
+Taxonomy:polski,polski blog,salon24.pl,Linux,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1154958,dlaczego-open-source-sie-nie-przyjelo-czyli-o-papuasach-biurokracji-i-kilku-innych-rzeczach>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Załóżmy, że jakiś rekord (nazwijmy go X) wymaga 1 MB do zapisania swojej historii. W tej sytuacji 1024 rekordów wymaga 1 GB, 1048 576 rekordów (czyli 1024 x 1024) potrzebuje 1 TB, a 100 milionów 100 TB.</p>
+<p>Przeciętny dysk twardy w komputerze, czy to domowym, czy służbowym, ma dajmy na to 0,5 – 1 TB. Można sobie założyć, że taka przestrzeń kosztuje ok. 100 PLN (nie wszyscy mają SSD, a ceny tych nieustannie jednak spadają).</p>
+<p>100 x 100 PLN = 10 000 PLN</p>
+<p>Przemnóżmy to razy 10 (profesjonalny sprzęt kosztuje więcej) - dostaniemy 100 000 PLN. Do tego dochodzi oczywiście koszt sprzętu na samą bazę danych, serwisy i zapewne serwer www (więc powiedzmy, że możemy się zmieścić w 200 000 PLN).</p>
+<p>Załóżmy teraz, że X to PESEL. I choć wcześniej podałem tylko moje bardzo szacunkowe wyliczenia, to nawet z nich wynika jedna rzecz - dobrze przygotowany system tego typu nie powinien być bardzo drogi. Oczywiście zdaję sobie sprawę, że mamy jeszcze koszty utrzymania i zmian (system musi działać z innymi i od czasu do czasu trzeba migrować dane).</p>
+<!--break-->
+<p>Teraz jeden fakt historyczny - poprzednicy obecnego systemu PESEL (podaję za Wikipedią) powstawały od 1973, i podobne wielkości danych były wtedy gigantyczne.</p>
+<p>A dzisiaj? Czy naprawdę trzeba płacić ogromne pieniądze za różne państwowe systemy?</p>
+<p>Przez około 50 lat technologia zmieniła się diametralnie, i gdyby wdrażać tam kolejne wersje systemu Windows czy innych komercyjnych wynalazków, to koszty byłyby pewnie ogromne. Ileś razy próbowano zastąpić rozwiązania Microsoft przez Open Source w administracji (w Monachium i chyba kilka innych miejscach), i tak sobie myślę, że poza przyzwyczajeniami użytkowników i potrzebą zatrudniania pracowników z odpowiednią wiedzą (nie wystarczą praktykanci z przysłowiową pensją 2000 PLN czy 2000 Euro i podstawową znajomością najpopularniejszych rozwiązań) jednym z głównych powodów niepowodzenia mogło być to, że raz dobrze zrobionego rozwiązania nie można sprzedawać w nieskończoność.</p>
+<p>Żeby nie było, że darmowe odpowiedniki są gorsze od komercyjnych - wystarczy tylko „wpompować” odpowiednio dużo pieniędzy na start, i potem można odcinać kupony w nieskończoność (Android, Chrome, etc.)</p>
+<p><a href="https://www.obserwatorfinansowy.pl/bez-kategorii/rotator/bardzo-wysoka-cena-postepu/" target="_blank" rel="nofollow noopener">Ostatnio przeczytałem też następujące słowa „kiedy członkowie plemienia Papuasów (…) odwiedzili Londyn, nie mogli uwierzyć, że Londyńczycy pracują po 9-10 godzin dziennie, tylko po to, by spłacić kredyt na mieszkanie”. Myślę, że można zgodzić z artykułem, że obecne zasady pracy powstawały, gdy wzrost gospodarczy był o wiele mniejszy niż obecnie, a rakiem toczącym zachodnią cywilizację jest tzw. problem bullshit job i stawiania pieniądza / mitycznego wzrostu na pierwszym miejscu.</a> Gdyby nie on, to kto wie, czy dzisiaj w każdym obszarze byśmy nie widzieli tylko oprogramowania Open Source.</p>
+<p>Swoją drogą, około 2012 zajmowałem się tematem wykorzystywania XML do kodyfikacji polskiego prawa. Idea była / jest prosta i polega na tym, że kolejne pliki opisują zmiany w tekstach źródłowych (dysponując nimi możnaby bez problemu zbudować wersję obowiązującą w danym dniu). Teoretycznie w 2021 obywatele mają ślicznie wygenerowane PDF-y, ale… czy ktoś jeszcze rozeznaje się w przepisach? I czy zgodnie z ustawą o informacji publicznej nie powinniśmy dostawać plików XML, z których potem powstają PDF-y?</p>
+<p>Warsaw Enterprise Institute opublikował wideo, na którym pokazuje szacunki dotyczące ilości opracowanego prawa od 1989 roku.</p>
+<p>Ile to jest? 1000 stron? 10000 stron?</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/m06djpXmeRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>A guzik – ponad 420000 stron.</p>
+<p>Już dawno temu pisałem o tym, że Kodeks Drogowy zaczyna przypominać Biblię, a ilość zasad, przepisów i uwag zaczyna powodować, że robimy coraz więcej błędów na drogach. To się dzieje też w innych dziedzinach.</p>
+<p>Gdy więc z jednej strony czytam o nowych systemach (np. SI2PEM, dzięki któremu można sprawdzić przewidywany poziom smogu elektromagnetycznego), to z jednej strony się cieszę, z drugiej jednak myślę – czy wiele z nich nie jest jedynie plasterkiem na ogromną ranę? Czy nie należy przeprowadzić wpierw pracy u podstaw? Tylko czy kogokolwiek ona dzisiaj w Polsce obchodzi?</p>

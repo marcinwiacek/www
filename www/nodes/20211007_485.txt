@@ -1,0 +1,34 @@
+﻿Title: To kto rządzi (również w IT)? (na podstawie dyskusji o biednych emigrantach na granicy) (2021)
+Author:marcin
+When:7 Oct 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1171317,to-kto-rzadzi-rowniez-w-it-na-podstawie-dyskusji-o-biednych-emigrantach-na-polskiej-granicy>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Z dużym zainteresowaniem przeczytałem komentarze do <a href="?q=node/484">mojej poprzedniej notatki „Współczesne pokolenie nie umie nawet szukać, a ja wiem dlaczego”</a>, w której wyraźnie wskazałem na przesuwanie granic w rozumieniu problemów.
+<!--break-->
+Od słowa do słowa, i nagle temat umiejętnie został skierowany w stronę prześladowania pewnego narodu w trakcie II wojny światowej. Poniekąd przykro mi się zrobiło, że nie było tu jeszcze mowy o nietolerancji, mniejszościach seksualnych czy szurach (w "postępowym świecie" to tematy dyżurne), ale i tak z drugiej strony nawet na tej próbce dało się zauważyć:</p>
+<ul>
+<li>albo totalną ignorancję / naiwność (nie chcę mówić o głupocie, bo tej najwyraźniej nie było)</li>
+<li>albo realizowanie konkretnych celów</li>
+</ul>
+<p>Tak się składa, że w wielu przypadkach, gdy ktoś nie ma nic merytorycznego do powiedzenia, to zaczyna właśnie wspominać chociażby o niemieckich obozach. I tu się pojawia pewien problem. Wbrew widocznej tu i tam narracji nikt nie neguje tragedii i ludobójstw z II wojny światowej (nie, nie było tylko jednego, a wiele), do tego każdy słyszał o tym do znudzenia. Ale żeby wrzucać to do każdej rozmowy? Żeby się przerzucać tym, kto jest bardziej pokrzywdzony? To już nie jest nawet nudne, natomiast robi się niesmaczne, nachalne, uciążliwe i wywołuje efekt obronny (i jak tu się dziwić, że ludzie później się irytują?)</p>
+<p>Ci, którzy bronią Polski albo próbują się do niej włamać, nie mają chyba nic wspólnego z wyczynami SS-manów. Tak się składa, że dziś przeczytałem o tym, że <a href="https://pism.pl/konferencje/w-obliczu-zaglady-rzad-rp-na-uchodzstwie-wobec-zydow-1939-1945" target="_blank" rel="nofollow noopener">Instytut Spraw Międzynarodowych zrobił publikację o pomocy ze strony Polaków dla ich braci, a w niej wykazał wielkość tego, co robiła polska dyplomacja (i nie są to drobiazgi)</a>. Pójdźmy dalej – kojarzy ktoś <a href="https://en.wikipedia.org/wiki/IBM_during_World_War_II" target="_blank" rel="nofollow noopener">firmę IBM i jej techniczny wkład w cały proces (o dziwo, pisze o tym nawet Wikipedia)</a>, albo <a href="https://www.history.com/news/wwii-jewish-refugee-ship-st-louis-1939" target="_blank" rel="nofollow noopener">historię statku „St. Louis”</a>? I kto jest bielszy?</p>
+<p>To wszystko bolesne tematy, ale żeby to łączyć z hybrydową wojną z Polską, to dla mnie nowość. Pytanie teraz, czy Polacy dadzą się urobić jak inni i pozwolą sobie na przekraczanie kolejnych granic?</p>
+<p>Bardzo mi się spodobały merytoryczne komentarze o polskiej emigracji, która miała zupełnie inną sytuację (dziękuję!). Porównajmy to zresztą do narracji z Onetu z dzisiaj. <a href="https://wiadomosci.onet.pl/bialystok/migranci-na-granicy-grodek-kongijczycy-krzyczeli-ze-prosza-o-azyl-w-polsce/5psfkd8?utm_source=duckduckgo.com_viasg_wiadomosci&amp;utm_medium=referal&amp;utm_campaign=leo_automatic&amp;srcc=ucs&amp;utm_v=2" target="_blank" rel="nofollow noopener">Biedni ludzie z Kongo (gdzie Rzym, a gdzie Krym? Pieszo przeszli z Afryki?) trzy dni się błąkali, i niedobra Straż Graniczna udała, że nie widzi ich rozpaczliwej sytuacji (oczywiście za to na wysokości zadania stanęli bohaterscy reporterzy i aktywiści, którzy przypadkiem znaleźli się w strefie chronionej).</a></p>
+<p>Ludzie, w jakim świecie my żyjemy?</p>
+<p>Ja rozumiem, że kraj, w którym jest tygiel wszystkiego, łatwiej podbić (stąd te podchody z „uchodźcami”), ale… z czymś takim do Polaków? Naprawdę tak nisko jesteśmy oceniani na świecie? Ktoś myśli, że można tak nas podejść?</p>
+<p>Ale OK, spójrzmy trochę dalej. <a href="?q=node/482">Sobota. Pan, którego można nie lubić za poglądy, próbuje wjechać do kraju, z którymi nie mamy otwartego konfliktu. I co? I nic. Bardzo prawdopodobne jest, że do tego przyczyniła się pani o hinduskich korzeniach. Czyli kobieta tak naprawdę z Azji (choć urodzona w UK, ma geny azjatyckie) uczy człowieka z Polski, jak wygląda jego własna historia. Znów wchodzimy w tematy obozów, itp.</a></p>
+<p>Tak wygląda realizacja czyichś celów, i w tym świecie nie liczą się fakty, tylko polityka. „Ktoś” podrzuca nam kukułcze jajo, i mówi, żebyśmy się nie bronili, a nawet Biblia nie odmawia prawa do obrony (owszem, jest słowo o pomocy bliźniemu, ale tylko do pewnej granicy, i ta granica jest mocno przekraczana).</p>
+<p>No dobrze, tyle o tematach ważnych i ważniejszych, wróćmy do IT. Ostatnio miała premiera kolejnego wspaniałego systemu od firmy Microsoft. Można tu i tam poczytać o tym, że gry mogą chodzić nawet do 30% wolniej, że przy niewspieranej konfiguracji możemy nie dostać uaktualnień bezpieczeństwa z Windows Update, a na Ryzenach wydajność spada nawet o 15%. Tak się zastanawiam, że wspomniany system operacyjny zaczyna przypominać filmy z Bollywood (oczywiście to, że Hindus jest CEO, to tylko przypadek) – dużo gadżetów i błyskotek, a merytorycznie…</p>
+<p>I teraz moje pytanie na dzisiaj: to kto rządzi światem (albo w IT)? Poniżej podam typy (w kolejności alfabetycznej):</p>
+<ol>
+<li>Amerykanie</li>
+<li>Chińczycy</li>
+<li>ludzie z Indii</li>
+<li>przedstawiciele pewnego kraju z Bliskiego Wschodu</li>
+</ol>
+<p>Kto z nich jest najbardziej wygranym? I komu z nich może zależeć na tym, żebyśmy byli uwikłani we wzajemne konflikty, albo żebyśmy byli „ubogaceni” albo działali "jak należy"?</p>
+<p>Weźmy choćby ekologię:</p>
+<p>Tak bardzo jesteśmy upominani o węgiel, a tu proszę: <a href="https://www.carbonbrief.org/analysis-which-countries-are-historically-responsible-for-climate-change" target="_blank" rel="nofollow noopener">według carbonbrief.org USA wyprzedzają mocno wszystkich w emisjach, podobnie nad nami stoją Chiny, Niemcy, UK, itd.&nbsp; </a></p>
+<p>Tak wygląda polityka.</p>
+<p>Mądrość na dzisiaj: tak się składa, że wszystkie wojenki o słowa (uchodźcy czy emigranci, przyjmować czy nie przyjmować, itd.) tylko zajmują nam czas i odciągają nas od prawdziwych problemów i budowania w nas siły. I owszem, może i instytucje od wieków uważane za ostoję naszej kultury się kompromitują, ale… nawet w tych ciężkich czasach można być dobrym człowiekiem i nie dać się złu, które najwyraźniej tu i tam podnosi głowę. Dlatego nie dajmy się - w jedności moc. Polacy już raz stworzyli najjaśniejszą Rzeczpospolitą Obojga Narodów, i mają mądrość w genach.</p>

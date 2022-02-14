@@ -1,0 +1,68 @@
+﻿Title: Przepisy drogowe 1.48 (na dziesięciolecie) (2021)
+Author:marcin
+When:27 Oct 2021
+Taxonomy:polski,polski blog,salon24.pl,Android,drogowe
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1175547,przepisy-drogowe-1-48>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+Pierwsza wersja tej aplikacji napisana została na Androida 2.x i pojawiła się w Google Play 4 listopada 2011, ostatnie wydanie 1.47 przygotowałem 1 września 2019. W międzyczasie (głównie lata 2012-2014) mocno eksperymentowałem z innymi platformami (web, Tizen, FirefoxOS) i udało mi się zrobić wersję na iOS (niestety w wyniku różnych perturbacji życiowych obecnie nie mam opłaconego abonamentu w App Store, a ostatnia wersja na urządzenia Apple mocno odstawała aktualnością danych od tej androidowej).
+<!--break-->
+<center><p><img src="sites/default/files/490/1.png" style="width: 268.467px; height: 476.9px;" alt="image" /></p></center>
+<p>Po dwóch latach mam przyjemność zaprezentować pierwszy krok w zupełnie nowej rzeczywistości. <a href="https://github.com/marcinwiacek/przepisy_drogowe" target="_blank" rel="nofollow noopener">Obecnie kod dostępny jest na GitHub</a>, i <a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe&amp;hl=pl" target="_blank" rel="nofollow noopener">dnia 26 października 2021 na jego podstawie zbudowałem wersję 1.48 na Androida</a>. To nie tylko zmiany przepisów (tj. aktualne wersje Prawa o Ruchu Drogowym, Ustawy o kierujących pojazdami, uaktualnienia dotyczące znaków, itp.), ale również pierwsza wersja skompilowana z użyciem SDK dla Android 12 na Ubuntu.</p>
+<p>Od 2011, jak również 2019, zmieniło się właściwie wszystko.</p>
+<p>Na samym początku pisałem aplikację w Eclipse na znakomitym (wtedy) laptopie HP z procesorem Core 2 Duo - wspominam go bardzo dobrze (ekran 4:3, pełen mat, Windows XP, itd.), choć oczywiście nie miałby porównania do obecnych maszyn (żeby było ciekawe, HP ciągle udostępnia do niego sterowniki pod XP i Vistę).</p>
+<p>W dniu dzisiejszym mamy inną sytuację światową (i polityka całkowicie zdominowała również IT, na co wielokrotnie zwracałem uwagę opisując softwarowo - sprzętowe działania różnych firm). U mnie też się sporo zmieniło. Piszę coraz więcej tekstów na laptopie sprzedanym przez polską firmę (Hyperbook L14 działający pod Ubuntu, który potrafi dociągać do 36h pracy na baterii), mam możliwość programowania na szybszej niż kiedyś maszynie (zdradzę, że Ryzeny dają o wiele więcej, niż analogiczne konfiguracje z Intelem), i szukam możliwości, żeby znowu móc umieszczać programy w AppStore (wymaga to nakładów finansowych, ale jestem dobrej myśli…)</p>
+<p>Chciałbym zacząć znowu publikować regularnie nowe wersje i tworzyć jak kiedyś nowe aplikacje. Wiem, że takie plany miałem i jakiś czas temu, ale... tym razem na pewno się uda.</p>
+<p>Obecnie zapraszam też na moją stronę www.mwiacek.com (gdzie można znaleźć m.in. archiwum moich dokonań) czy TechRację (blog głównie techniczny, a czasem zahaczający o inne tematy, z którego nie mam żadnych dochodów, ale który chciałbym prowadzić choćby dla zasady).</p>
+<p>Od czasu 2019 mógłbym zresztą wymienić kilka ciekawszych artykułów:</p>
+<ol>
+<li>Recenzje i opisy konfiguracji Hyperbook L14 pod Ubuntu (i częściowo każdego innego lapka z Intelem) - m.in. <a href="?q=node/480">"Producent / sprzedawca (obecnie) mówią o 20h na baterii, ja mam nawet prawie 36h"</a> czy <a href="?q=node/471">"Polski laptop, który działa na baterii nawet w okolicach 30h – pierwsze wrażenia"</a></li>
+<li><a href="?q=node/447">Recenzja Acer Swift 1 SF114-32</a></li>
+<li><a href="?q=node/441">Recenzja Medion Akoya E4251</a></li>
+<li>Recenzja i informacje o konfiguracji Ryzena 3950x - m.in. <a href="?q=node/383">"Największa niewiadoma 2020 to AMD (pełne case study budowy mocnego systemu ITX)"</a></li>
+<li>Kilka uwag dotyczących konfiguracji Ubuntu, m.in. <a href="?q=node/405">"Krótka ściąga dla Ubuntu"</a></li>
+<li>Kilka uwag dotyczących konfiguracji Windows, m.in. "<a href="?q=node/378">Obywatelu lecz się sam, czyli jak uaktualniać firmware CPU w Windows"</a>, <a href="?q=node/382">"Lecz się sam 3, czyli ustaw sobie wiatraki w Dellu"</a> czy <a href="?q=node/376">"Pliki tymczasowe w pamięci RAM - Linux i Windows"</a></li>
+<li><a href="?q=node/454">Tekst o zużywaniu się sprzętu</a> (nie wszystko wbrew pozorom to planowane postarzanie)</li>
+<li><a href="?q=node/402">Tekst o konfiguracji obrazu (ClearType, PWM, etc.)</a></li>
+<li><a href="?q=node/409">Sposób na generację EPUB z fantastyka.pl i fantastykapolska.pl (już w sierpniu 2020 było to ponad 14639 tekstów)</a></li>
+<li><a href="?q=taxonomy/term/Sobieski">Praktycznie gotowy CMS napisany w nodejs (stworzony dla konkretnego klienta, nigdy niestety nie użyty produkcyjnie, jak przypuszczam ze względów politycznych)</a></li>
+</ol>
+<p>Jest tego więcej, i będzie jeszcze więcej, choćby z tego względu, że różne rzeczy robi się łatwiej niż kiedyś (żeby nie było wątpliwości, zaczynałem od 80386SX w technologii 1500nm, zaś obecne CPU na rynku konsumenckim dochodzą do 5nm, a jak wiadomo, im mniej nm, tym większa wydajność).</p>
+<p>Bodajże ze dwa razy pisałem już o kolejnych krokach - wyrównanie wersji w AppStore z wersją na Androida, przepisanie enginu na Kotlina, zrobienie w końcu porządnego black mode, użycie bardziej standardowych formatów na pliki z danymi (np. plików MD), itd. itd. To w końcu się wydarzy, jako że wilka zawsze ciągnie do lasu (a inżyniera do klawiatury). Chcę przypomnieć, że nikt mi w tym nie pomaga:</p>
+<ul>
+<li>jedna jedyna oferta była komercyjna, ale podziękowałem (zaproponowano podział zysków z aplikacji, która generalnie jest darmowa)</li>
+<li>brzydzę się żebraniem o datki</li>
+<li>nie widzę nawet zbyt wielu maili od użytkowników</li>
+</ul>
+<p>Przejrzyjmy krótko funkcjonalności na podstawie wydania na Android:</p>
+<h2>Na drodze</h2>
+<p>Mamy tutaj spis znaków oraz urządzeń bezpieczeństwa ruchu drogowego. Oprócz ikon jest też lista z opisami (wystarczy kliknąć na checkbox):</p>
+<center><p><img src="sites/default/files/490/2.png" style="width: 261.698px; height: 465px;" alt="image" /></p></center>
+<p>Po kliknięciu na znak czy urządzenie otwiera się jego opis, który w starej wersji zajmował część ekranu:</p>
+<center><p><img src="sites/default/files/490/3.png" style="width: 262.157px; height: 465.817px;" alt="image" /></p></center>
+<p>a od wydania 1.48 jest bardziej pełnoekranowy (nie wygląda to może tak ślicznie, ale powinno być wygodniejsze):</p>
+<center><p><img src="sites/default/files/490/4.png" style="width: 262px; height: 465.537px;" alt="image" /></p></center>
+<p>Pod opisami są też wyciągi z taryfikatora, a klikanie na linkach czy znakach prowadzi do kolejnych opisów (przycisk Back / trójkącik z kolei wywołuje powrót do poprzedniego ekranu). Zaimplementowałem też gest przewijania w lewo i prawo, który nie wlicza się tu do historii (był robiony w czasach Androida 2.x i nie widać pięknej animacji, bo wtedy telefony nie miały na to pamięci).</p>
+<h2>Treść</h2>
+<p>M.in. aktualne "Prawo o ruchu drogowym" czy "Ustawa o kierujących pojazdami". Wszystko jest podzielone na rozdziały.</p>
+<center><p><img src="sites/default/files/490/5.png" style="width: 260px; height: 461.983px;" alt="image" /></p></center>
+<p>Po dłuższym kliknięciu na dropdown list (na każdej zakładce czyli "Na drodze", "Treść", "Taryfikator" i "Inne") można wyświetlić sobie menu z dodatkowymi opcjami (nie chciałem robić hamburger menu, żeby nie marnować miejsca na ekranie).</p>
+<center><p><img src="sites/default/files/490/6.png" style="width: 258px; height: 458.43px;" alt="image" /></p></center>
+<p>Ciekawe są zwłaszcza dwie ostatnie, które pozwalają włączyć tryb pełnoekranowy albo pokazać / ukryć linię z kontrolkami do szukania (podpowiedź - pokazanie menu w trybie pełnoekranowym osiągniemy przez long click).</p>
+<center><p><img src="sites/default/files/490/7.png" style="width: 258px; height: 458.43px;" alt="image" />
+<img src="sites/default/files/490/8.png" style="width: 257.646px; height: 457.8px;" alt="image" /></p></center>
+<p>Samo szukanie wszędzie jest "przybliżone" - jeżeli wpiszę wyraz bez polskich liter (np. "ogolne"), zostanie też znaleziony jego polski odpowiedni ("ogólne").</p>
+<p>W zakładce "Treść" jest też dostępny tryb ciemny (włączamy go przez jedną z opcji w "Opcje")</p>
+<center><p><img src="sites/default/files/490/9.png" style="width: 258.509px; height: 459.333px;" alt="image" /></p></center>
+<h2>Taryfikator</h2>
+<center><p><img src="sites/default/files/490/10.png" style="width: 258px; height: 458.43px;" alt="image" /></center></p>
+<p>Prawo polskie ma dwa główne akty prawne, które określają kary pieniężne i punktowe - tu mam je oba oddzielnie + moje własne opracowanie łączące je w całość (po kliknięciu na link otwieramy podstawę prawną).</p>
+<p>Uwaga: nie ma kar większych kar związanych m.in. z przekraczaniem prędkości, bo... nie ma jeszcze zmiany przepisów (całość jest teraz bodajże w Senacie)</p>
+<h2>Inne</h2>
+<center><img src="sites/default/files/490/11.png" style="width: 264px; height: 469.674px;" alt="image" /></center>
+<p>Duża część z tych rozdziałów jest w miarę aktualna (albo będzie w kolejnych wersjach). Można oczywiście zgłaszać do mnie własne opracowania.</p>
+<h2>Podsumowanie</h2>
+Wersje HTML aktów prawnych robię obecnie coraz bardziej automatycznie - w 2021 to co najmniej godne ubolewania, że państwo nie udostępnia plików XML, które zdaje się są tworzone od dawna.
+<center><p><img src="sites/default/files/490/12.png" style="width: 265px; height: 470.868px;" alt="image" /></p></center>
+<p>W wersji 1.48 mam pewien miks starego i nowego kodu - możliwe, że tu i tam pozostał jakiś babol... najciekawsze jednak, jak wiele udało się stworzyć już lata temu (na tym engine działa zresztą też aplikacja "Straż" z opisami dla straży pożarnej).</p>
+<p>Obecnie dodałem historię w każdej zakładce (na pewno działa w 99% :)), poprawiłem błędy związane z menu i czarnym trybem, uaktualniłem główne akty prawne (np. przepisy z 1 czerwca o pierwszeństwie i obowiązkach pieszych, usunięciu prędkości 60 km/h, przepisy z marca o zmianie znaku B-19, E-15a - E-15e, E-16 czy usunięciu znaków E-15f - E-15h), użyłem najnowszego Jacksona, Gradle czy Android SDK...</p>
+<p>Zrobię wszystko, żeby kolejny update NIE BYŁ za 2 lata, tylko wcześniej. A pomóc można chociażby zwracając mi uwagę na błędy, czy wysyłając bardziej aktualne pliki (można wziąć je z GitHub, poprawić i odesłać mailem albo przez pull request).</p>

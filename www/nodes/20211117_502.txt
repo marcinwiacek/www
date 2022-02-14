@@ -1,0 +1,52 @@
+﻿Title: Agile, czyli jak dziewięć kobiet może dostarczyć jednego bobasa w miesiąc (2021)
+Author:marcin
+When:17 Nov 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1182090,agile-czyli-jak-dziewiec-kobiet-moze-dostarczyc-jednego-bobasa-w-miesiac>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>„- Dzień dobry.<br />
+- Dzień dobry.<br />
+- Chciałbym dodać do mojej aplikacji trzy nowe funkcjonalności, i sprawdzić, czy moi klienci mogą pracować z tym nowym systemem od Microsoftu.<br />
+- Nie ma problemu. Potrzebujemy tygodnia, kosztować to będzie trzy razy mniej niż u konkurencji.<br />
+- Dziękuję.<br />
+- Dziękuję”</p>
+<p>Każdy z nas, przychodząc do specjalistów, oczekuje, że sami zajmą się wszystkimi ważnymi detalami (najlepiej, jak znajdą odpowiedzi, nie musząc nas o nic kłopotać), i dostarczą w jak najkrótszym czasie jak najlepszą jakość przy jak najlepszej cenie.</p>
+<!--break-->
+<p>Jak to się w praktyce może skończyć, to chyba widać:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/qTx6puDMhAY" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Ktoś się ostatnio oburzył, że napisałem „Agile, w którym często i gęsto nie liczy się jakość (tylko to, żeby cokolwiek dostarczyć, a potem się poprawi)”.</p>
+<p>Ludzie od języków maszynowych przeszli na języki strukturalne trochę wyższego poziomu (np. C, gdzie dosyć sporo rzeczy należy robić w kodzie), potem języki obiektowe (m.in. C++), języki obiektowe próbujące wyeliminować typowe błędy (chociażby Java czy Rust) czy języki skryptowe. Wielki żal, że z rynku praktycznie zniknęły pewne rozwiązania typu Delphi (gdzie jednak można było osiągnąć wspaniałe rezultaty), ale to chyba zgodnie z zasadą, że gorszy pieniądz zawsze wypiera lepszy.</p>
+<p>Oprogramowanie z czasem robiło się bardziej skomplikowane... i okazało się, że przetestowanie kombinacji wszystkich możliwych elementów jest właściwie niemożliwe. Dodatkowo przez lata wypracowano poprawny sposób wykonywania różnych elementów związanych z produkcją oprogramowania, ale te generalnie wymagały dużo czasu i zasobów.</p>
+<p>Zaczęto sobie radzić z tym wszystkim w różny sposób. Jedną z opcji jest <a href="?q=node/369">tworzenie w konwencji bazaru, a nie katedry (o co tu chodzi, pisałem co najmniej 2x)</a>, jednakże w większych firmach czy organizacjach nie zawsze jest to możliwe.</p>
+<p>Właśnie tym ostatnim przypadkiem zajmę się dalej.</p>
+<p>W najbardziej chyba klasycznym V modelu założono, że mamy ileś etapów, przygotowujemy wiele elementów, na wszystko jest odpowiedni czas, itp. Okazało się to o tyle nieefektywne, że elementy typu testowanie wykonywano dosyć późno i w praktyce często przy okrojonych zasobach (a to się odbijało na jakości).</p>
+<p>Obecnie częściej używamy różnych metodyk, które, powiedziałbym, w dużej mierze opierają się na podziale zadań na małe elementy i dostarczanie tego, co możliwe, w kolejnych regularnych cyklach. Rozwiązanie na papierze ma dużo zalet, diabeł tkwi jednak w szczegółach.</p>
+<p>I tak załóżmy, że mamy dosyć typową firmę z typowymi projektami (a więc nie takimi, od których zależy życie ludzkie, albo tymi, w których nie ma absolutnie żadnego marginesu na błędy). Ludzie tam przychodzą i odchodzą (jest to normalne, i mówię również o zwolnieniach macierzyńskich, itp.). Po jakimś czasie mamy pracowników z mniejszym doświadczeniem (którzy się uczą i chcą się nauczyć), tych, którym wszystko jest obojętne (zasada „czy się stoi czy się leży...” ewentualnie nuda, gdy ktoś się zasiedzi), i tych, którzy chcą się wykazać.</p>
+<p>Załóżmy, że w takim zespole wszystko działa jak w zegarku, i wtedy...</p>
+<ul>
+<li>przychodzi ktoś nowy, kto szuka sposobu na wykazanie się (wtedy słyszymy najczęściej magiczne słowo optymalizacja) albo</li>
+<li>odchodzi ktoś, kto siedział tam długo, i wykonywał za innych pracę albo</li>
+<li>kadra kierownicza widząc dobre wyniki decyduje o przesunięciu sił na inny front robót (to mi przypomina sprawę Internet Explorera).</li>
+</ul>
+<p>To tylko trzy przykłady - zabawnych możliwości jest znacznie więcej.</p>
+<p>Pójdźmy dalej.</p>
+<p>Co się składa na poprawnie wykonaną pracę? Ano spotkania, pisanie dokumentacji, wypełnianie zgłoszeń w systemach, i praca właściwa, czyli analityczna / techniczna (zależy od roli).</p>
+<p>Im większa firma, tym więcej pojawia się w niej managerów... a oni też muszą się wykazać coraz lepszymi wynikami (więc zmieniają terminy, cele albo budżety).</p>
+<p>Na co ludzie niżej mają coraz mniej czasu? Czy nie jest tak, że często i gęsto dostają coraz więcej zadań (skoro są takie małe jak metodyka mówi...), i muszą wykonywać coraz więcej rzeczy związanych z tzw. biurokracją (spotkania, zgłoszenia, itp.), a mają coraz mniej czasu na pracę właściwą?</p>
+<p>Jeśli do tego dodać coraz mniejszą ogólną wiedzę techniczną (obecni inżynierowie to często bardziej klepacze kodu, którzy co najwyżej umieją z czegoś skorzystać, a jak zaczyna się sypać, to rozkładają ręce) czy problemy z infrastrukturą (szewc zazwyczaj chodzi bez butów), to robi się ciekawie…</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/4V2C0X4qqLY" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Czy wiadomo już dlaczego tak wiele projektów wypuszczanych jest z błędami? Albo dlaczego w różnych firmach mamy do czynienia z żenującymi sytuacjami?</p>
+<p>Celowo w tytule podałem tekst nawiązujący do suchara „Projekt manager to ktoś, kto uważa, że dziewięć kobiet może dostarczyć jednego bobasa w miesiąc”. Obecne metodyki (albo bardziej sposób ich wdrożenia) powodują często różne nonsensy, i to niestety też jest źródłem kolejnych konfliktów i problemów. Podam tylko kilka haseł:</p>
+<ul>
+<li>kurczowe trzymanie się wymagań (i nieuwzględnianie wszystkiego, co jest obok)</li>
+<li>przedkładanie elementów metodyki nad zdrowy rozsądek i np. ścisłe przestrzeganie zasad pisania różnych elementów (np. konieczność wypełniania zgłoszeń błędów zgodnie z templatką niezależnie od tego, czy ma to sens czy nie)</li>
+<li>przesuwanie elementów "mniej ważnych" na przyszłość (mogą być nieważne dla projekt managera, ale być kluczowe dla odbioru projektu)</li>
+</ul>
+<p>A jeśli ktoś nie zauważył skrótów myślowych w słowach „Agile, w którym często i gęsto nie liczy się jakość (tylko to, żeby cokolwiek dostarczyć, a potem się poprawi)”, to chyba nigdy nie pracował przy większym projekcie.</p>
+<p>PS. <a href="?q=node/411">Polecam też tekst „Testowanie to nieco zapomniana już sztuka”, gdzie trochę rozwinąłem sprawę testowania w obecnym zwariowanym świecie.</a></p>

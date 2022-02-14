@@ -1,0 +1,57 @@
+﻿Title: Przepisy drogowe 1.50 i 1.51 (2022)
+Author:marcin
+When:2 Jan 2022
+Taxonomy:polski,polski blog,salon24.pl,drogowe,Android,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1194225,przepisy-drogowe-1-50-i-1-51>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<!--break-->
+<h1 style="text-align: left;">Poprawki i uzupełnienia w wersji dla Android (1.50)</h1>
+<p>Aplikacja nie zamyka się, gdy w Taryfikatorze nie znaleziono żadnej treści (mea culpa - błąd pojawił się w wersji 1.49).</p>
+<p>Dodałem też opcję "Sharowania" zewnętrznych linków (po ich klinięciu pokazuje się opcja "Udostępnij", dzięki czemu można je otworzyć np. w znakomitym Bromite) - poniekąd jest to odpowiedź na zacofanie technologiczne Androida (normalnie link otwierany jest w domyślnym Chrome, i nie można wymusić wyboru przeglądarki, a przynajmniej nie znam standardowej metody na to)</p>
+<center><p style="text-align: center;"><img src="sites/default/files/512/1.png" style="width: 254.333px; height: 451.624px;" alt="image" />
+<img src="sites/default/files/512/2.png" style="width: 254.333px; height: 451.624px;" alt="image" /></p>
+</center>
+<h1 style="text-align: left;">Wydanie dla iOS (1.50)</h1>
+<p>Wreszcie się pojawiło w AppStore (zaraz przed Świętami). Aplikacja jest wyrównana w stosunku do wersji Android, do zrobienia pozostało:</p>
+<ol>
+<li>drobne poprawki kolorów (pasek na dole nie powinien nigdy być biały)</li>
+<li>skalowanie (na emulatorach wszystko wygląda, na urządzeniach rzeczywistych po obrocie trzeba czasami ręcznie zmniejszać wielkość tekstu)</li>
+</ol>
+<p>Punkt 2 wynika z tego, że nie używam już UIWebView (WKWebView ma natomiast różne irytujące cechy)</p>
+<h1>Taryfikator (1.51)</h1>
+<p>Rozporządzenie pojawiło się 30 grudnia jako ostatnie (można przyjąć, że umieszczono je w godzinach mocno wieczornych):</p>
+<p><a href="https://dziennikustaw.gov.pl/DU/2021/2484" target="_blank" rel="nofollow noopener">https://dziennikustaw.gov.pl/DU/2021/2484</a></p>
+<p>Bardzo dużo przepisów zostało zmienionych (nie tylko treść, ale również kolejność i podstawa prawna). Niektóre kary poniekąd cieszą (np. za jazdę pod prąd), ale... w wielu wypadkach mam wrażenie, że chodzi tylko i wyłącznie o ordynarny skok na kasę.</p>
+<p>Ogólnie mówiąc podobne zmiany w przepisach powinny być widoczne dla ludu z dużym wyprzedzeniem (14 lub 30 dni), a rząd podał je formalnie dzień przed Sylwestrem. To nie jest jednostkowy przypadek - w Dzienniku Ustaw zdarzają się Rozporządzenia obowiązujące od dnia x, i publikowane tego samego dnia (czyli mówiąc wprost - coś jest publikowane np. w środku dnia, a obowiązuje od rana, czyli poniekąd łamana jest zasada, że prawo nie działa wstecz).</p>
+<p>Jaki robi to rozgardiasz, widać chociażby tutaj: <a href="https://www.salon24.pl/u/prosto/1194093,taryfikator-mandatow-2022-stek-bzdur" target="_blank">https://www.salon24.pl/u/prosto/1194093,taryfikator-mandatow-2022-stek-bzdur</a> (sam 30 grudnia miałem trochę podobny wpis)</p>
+<p>Nie mam najmniejszych złudzeń, że Policja będzie rozliczana ze ściągalności nowych kar (hipotetycznie ktoś tam, gdzieś tam może celowo zmuszać funkcjonariuszy do tego, żeby prowokowali, a potem wystawiali mandaty), a sytuacja jako żywo przypomina sytuację z fotoradarami stacjonarnymi.</p>
+<p>Zadam pytania retoryczne: może od razu karać więzieniem, albo robić pokazową karę śmierci? Albo zakazać ruchu w ogóle?</p>
+<p>Wtedy to na pewno poprawi bezpieczeństwo.</p>
+<p>Czy Polacy się w tym momencie obudzą? Czy ktoś na to zareaguje? W przeciągu ostatnich lat mieliśmy wybory, które się nie odbyły, nazywanie Polski "Polin", i tysiące innych rzeczy (jak majstrowanie przy drażliwym temacie aborcji i równoczesne dręczenie obywateli mandatami na podstawie Rozporządzenia). Władza tyle "rozdaje", że zaczyna mocno "ściągać" (to na pewno tylko początek). Powinienem napisać, że nóż się w kieszeni otwiera, ale ktoś mógłby jeszcze wziąć przykład z ministra i złożyć na mnie jakiś śmieszny pozew.</p>
+<p>Ze szczegółów technicznych:</p>
+<ol>
+<li>dzisiaj (2 stycznia) lub jutro powinienem umieścić wersję 1.51 dla Androida w Google Play i kod na GitHub. Zawierać będzie plik stworzony na podstawie Rozporządzenia<br />
+<center><img src="sites/default/files/512/3.png" style="width: 286.843px; height: 509.367px;" alt="image" />
+</center>
+</li>
+<li>w tygodniu powinienem jeszcze raz przejrzeć plik + zacząć pracę nad Taryfikatorem połączonym (zajmie to pewnie tydzień czy dwa, bo nowy plik jest naprawdę inny, a nie chcę pomieszać rzeczy)</li>
+<li>zapewne jutro (3 grudnia) umieszczę 1.51 w AppStore, w tygodniu może też kod na GitHub</li>
+</ol>
+<p>Ogólnie jakość tych przepisów jest taka sobie - urzędnicza hydra produkuje coraz więcej, i coraz ciężej się w tym połapać.</p>
+<p>Jeden drobny przykład:</p>
+<center><p class="a-img"><img src="sites/default/files/512/4.png" alt="image" /></p></center>
+<p>Teoretycznie lp. 242 ma te same podstawy prawne co 239 i 240, ale... ktoś równie dobrze powiedzieć, że tak nie jest (może się i czepiam, ale przepisy powinny być krystalicznie jasne).</p>
+<p>Inny drobny przykład:</p>
+<center><p class="a-img"><img src="sites/default/files/512/5.png" alt="image" /></p></center>
+<p>Czy urzędnik chciał tu napisać coś innego, czy po prostu przez przypadek rozdzielił te dwa wpisy?</p>
+<p>Mamy podobno epokę informatyzacji, i widziałbym to tak, że w końcu dostajemy pliki XML z odpowiednią treścią (ewentualnie JSON, czy cokolwiek innego), i w aplikacjach takich jak moja operujemy na nich (dzięki czemu nie ma błędów copy &amp; paste, i można oszczędzić sobie masę pracy).</p>
+<p>A do tego przepisy powinny być coraz prostsze... (obecnie nie mam pewności, czy coś tu nie jest sprzeczne z obecnym porządkiem).</p>
+<h1>Przyszłość</h1>
+<p>Dokończenie zabaw z wyglądem (iOS), tryb pełnoekranowy (iOS), tryb black-white korzystający z natywnych API (iOS, Android), i wiele innych rzeczy...</p>
+<p>Jak zawsze zapraszam do czytania tego blogu i mojej strony, i udzielania się na GitHub. Linki:</p>
+<ol>
+<li><a href="https://www.salon24.pl/u/techracja/" target="_blank">blog TechRacja</a></li>
+<li><a href="https://www.mwiacek.com" target="_blank" rel="nofollow noopener">moje www</a></li>
+<li><a href="https://github.com/marcinwiacek/przepisy_drogowe" target="_blank" rel="nofollow noopener">https://github.com/marcinwiacek/przepisy_drogowe</a></li>
+<li><a href="?q=node/508" target="_blank" rel="nofollow noopener">poprzednie Release Notes</a></li>
+</ol>

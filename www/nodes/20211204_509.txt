@@ -1,0 +1,41 @@
+﻿Title: Nudno i smutno jakoś zarazem (2021)
+Author:marcin
+When:4 Dec 2021
+Taxonomy:polski,polski blog,salon24.pl,x86
+
+<p>„Ma być tanio, ale dobrze… Ma być szybko, ale najlepiej, żeby cała ta moc brała się znikąd… Taki sprzęt to ja mogę kupić maksymalnie za 2000 PLN…”</p>
+<p>Taką wyliczankę można robić w nieskończoność. <a href="https://www.purepc.pl/test-acer-swift-3-multimedialny-laptop-z-systemem-windows-11-oraz-z-pelnym-wsparciem-dla-platformy-intel-evo" target="_blank" rel="nofollow noopener">Czytałem ostatnio recenzję laptopa</a> (będę urządzenie nazywał laptopem, bo laptop to laptop, a nie jakiś ultrabook czy inne cudo). Urządzenie zostało w tytule zareklamowane jako multimedialne i z Windows 11, i ze wsparciem dla „platformy” Intel Evo.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1186680,nudno-i-smutno-jakos-zarazem>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<h2>Laptopy</h2>
+<p>„Ma być tanio, ale dobrze… Ma być szybko, ale najlepiej, żeby cała ta moc brała się znikąd… Taki sprzęt to ja mogę kupić maksymalnie za 2000 PLN…”</p>
+<p>Taką wyliczankę można robić w nieskończoność. <a href="https://www.purepc.pl/test-acer-swift-3-multimedialny-laptop-z-systemem-windows-11-oraz-z-pelnym-wsparciem-dla-platformy-intel-evo" target="_blank" rel="nofollow noopener">Czytałem ostatnio recenzję laptopa</a> (będę urządzenie nazywał laptopem, bo laptop to laptop, a nie jakiś ultrabook czy inne cudo). Urządzenie zostało w tytule zareklamowane jako multimedialne i z Windows 11, i ze wsparciem dla „platformy” Intel Evo.</p>
+<p>Matryca? Dostępna od kilku ładnych miesięcy (lat) – PurePC już w 2019 pisał, że widział ją w kilku modelach.</p>
+<p>Klawiatura? Ugina się na środku.</p>
+<p>Gładzik/touchpad? Podobno słaby.</p>
+<p>Czytnik kart? Brak</p>
+<p>Temperatury? Do 90C.</p>
+<p>Głośniki? Słabe (a przecież ma to być urządzenie multimedialne, cokolwiek to nie znaczy w sytuacji, gdy nie ma DVD)</p>
+<p>Z jednej strony w tekście dało się zauważyć ogromne „zaskoczenie”, jaki to sprzęt nowoczesny i idealnie obsługiwany przez najwspanialszy system świat (w tej roli Windows 11), z drugiej strony… te wszystkie laptopy są przecież coraz bardziej podobne sprzętowo i coraz mniej jest problemów z ich obsłużeniem – najczęściej procesor + chipset + karta graficzna pochodzą od jednej firmy (ewentualnie dwóch z trzech do wyboru), do tego mamy jakąś standardową kartę Wifi, dysk, kamerkę, czytnik… nawet BIOS-y są obecnie z bodajże trzech czy czterech korporacji na świecie.</p>
+<p>Doszliśmy do trochę śmiesznej sytuacji – producenci chcą sprzedawać coraz więcej, a użytkownicy kupować coraz taniej. Nakłady na realny R&amp;D są coraz większe… i bardziej opłaca się robić się małe kroczki. Przy słabych nowych modelach dokonywane są cudy zręczności, żeby to coś „wcisnąć”. I tak to się kręci, że wszyscy narzekają, a postęp często i gęsto jest iluzoryczny.</p>
+<p>Żeby nie było wątpliwości – za cenę opisywanego Acera Swift 3 nabyłem jakiś czas temu Hyperbooka L14, i ten przynajmniej ma większą baterię, miejsce na drugi dysk i czytnik kart (nie ma za to nalepki Intel Evo, ale to akurat mi nie przeszkadza).</p>
+<p>Po raz kolejny dochodzę do wniosku, że doszliśmy do momentu, w którym ten, kto wybrał rozsądnie w przeciągu ostatnich lat, nie ma właściwie na co wydać pieniędzy.</p>
+<p>No bo co ekscytującego może być w kolejnym modelu? Możliwość uruchamiania jakieś aplikacji o 0,5 sec szybciej?</p>
+<p>Jedyne, co bym widział, to jeszcze więcej efektów graficznych (w sensie – możliwości obróbki wideo), ale… do tego już np. M1 (zwłaszcza sparowany z 16GB RAM) nadaje się więcej niż nieźle.</p>
+<p>Może więc warto kupić laptopa do grania? Przy tych cenach i ich podbijaniu? To ja już wolałbym poczekać na układy w 3nm (nawet ze zintegrowaną grafiką), a to oznaka tego, co już opisywałem (nasza cywilizacja coraz bardziej opiera się na czekaniu na nowe rzeczy, które dopiero się pojawią).</p>
+<h2>Urządzenia stacjonarne</h2>
+<p>Sytuacja podobna, jak z laptopami – ci, co zbudowali blaszaka w ciągu ostatnich lat, przy obecnej sytuacji raczej nie będą walczyć o kilka klatek więcej.</p>
+<h2>Komórki</h2>
+<p>Może lepiej jest w obszarze komórkowym?</p>
+<p>Producenci dwoją się i troją, żebyśmy nie musieli ich zbyt często ładować, ale w praktyce kończy się na tym, że i tak musimy podłączać kabelek co najmniej raz dziennie (to jest trochę jak z ruchem ulicznym, że zwiększenie przepustowości w jednym miejscu spowoduje, że od razu zostanie to wykorzystane, i po chwili sytuacja się powtórzy).</p>
+<p>Teoretycznie jesteśmy mamieni informacjami o super szybkich transferach, ale… dochodzi kwestia promieniowania (już przecież 5G budzi ogromne promocje) i tego, że trzeba zbudować też infrastrukturę stacjonarną (a to powoduje, że operatorzy muszą dyktować ceny, które niekoniecznie są akceptowalne).</p>
+<p>I po co to wszystko? Żeby móc ściągnąć film w kilkanaście sekund szybciej?</p>
+<p>Może więc są lepsze aparaty fotograficzne? Tylko, czy dla nich warto wydawać np. 4000 PLN?</p>
+<p>Albo ekrany? Tu argumentem mogłaby być lepsza jasność, ale… ciągle tkwimy w chorej sytuacji dziurawienia płaszczyzn obrazu kółkami albo wcięciami.</p>
+<h2>Podsumowanie</h2>
+<p>Portale straszą, że mamy niedobory, co stwarza wrażenie, jakbyśmy to wszystko zmieniali co miesiąc.</p>
+<p>Teoretycznie postęp widoczny jest w obszarze oprogramowania… ale często polega on na tym, że wszystko puchnie, zwalnia, i zaczyna irytować.</p>
+<p>Kilka przykładów:</p>
+<p>Chrome 96 cierpi na problemy ze sprawdzaniem pisowni (jest zgłoszenie w odpowiednim trackerze błędów), wyroby Microsoft to niestety w dalszym ciągu pudrowanie technologicznego trupa, a w grach czasy preorderów i wielkich produkcji chyba bezpowrotnie minęły.</p>
+<p>Jedyna ekscytacja jest związana z tym, że usuwa się jakieś funkcjonalności. Weźmy takie YouTube. Kiedyś go nie było, ale przyznam się szczerze, że ledwo pamiętam tamte czasy. Czy będzie dominujące za ileś lat? Wątpię (sytuacja jest trochę jak z Allegro, i jednym z wielu gwoździ do trumny może okazać się chociażby brak licznika łapek w dół).</p>
+<p>Ogólnie nudno jakoś, i szczerze mówiąc jedyna nadzieja na przerwanie tego smutnego kręgu, to przerwanie łańcucha dostaw i wymuszenie na użytkownikach bardziej kreatywnego używania tego, co już mają (podobno wystarczy tu katastrofa statku o nazwie FSO Safer, ale to już oddzielna historia...). Potrzebna jest tu świeża krew, bo ta "stara korporacyjna" jakby zakrzepła.</p>

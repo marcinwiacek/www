@@ -1,0 +1,39 @@
+﻿Title: Świat mojej młodości właśnie odchodzi w niebyt… O niedrogim Apple, ale nie tylko... (2021)
+Author:marcin
+When:28 Nov 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple,x86,Windows,Hyperbook
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1184849,swiat-mojej-mlodosci-wlasnie-odchodzi-w-niebyt-o-niedrogim-apple-ale-nie-tylko>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Siedzę po turecku na łóżku, a przede mną stoi mały laptop. Waży mniej więcej jeden kilogram. Wygląda elegancko, choć dosyć surowo, jak twardziel, który tylko czeka, żeby (za przeproszeniem) zdzielić go w pysk. W ogóle go nie słychać. Obraz jest dosyć jasny, a do tego stabilny. Od spodu urządzenie nie ma żadnych kratek wentylacyjnych, i nie muszę się obawiać o to, że jakaś odrobina płynu zniszczy cenną elektronikę (ewentualnie, że zatkam sobie układ chłodzenia, i wszystko się przegrzeje).</p>
+<p>Tak mógłby wyglądać opis wielu laptopów, które używane są obecnie w naszych domach. Sukces pasywnie chłodzonego MacBooka Air, ale również kilku modeli z procesorami x86, pokazał, jak wielkie jest zapotrzebowanie na tego typu maszyny.</p>
+<p>Panie i panowie, dzisiaj dwa słowa na temat małego sprzętu do tzw. zwykłej pracy, czyli pisania tekstów, pracy nad arkuszami, przeglądania internetu, może lekkiej wirtualizacji czy prostego programowania (ogólnie chodzi o zastosowania, w których nie zależy nam na najwydajniejszej karcie graficznej czy nie wykonujemy ciągłych zaawansowanych obliczeń).</p>
+<p>Ile tak naprawdę trzeba tu wydać, żeby potem się nie denerwować?</p>
+<!--break-->
+<h2>Półka najniższa</h2>
+<p>W 2021 miałem przyjemność zapoznać się z dwiema maszynami: Acer Swift 1 i Medion Akoya e4251. Ceny zaczynają się od trochę ponad 1000 PLN, kończą nawet na 2500 PLN.</p>
+<p>Dostajemy tutaj słabe ekrany, w których główną zaletą jest wykonanie w technologii IPS (problemem są nie tylko kąty widzenia czy mniejsza paleta barw). „Hitem” są konfiguracje z układami eMMC, zdarzają się nawet egzemplarze z 4GB RAM (a to raczej nie wystarcza do Windows).</p>
+<h2>L14</h2>
+<p>Być może niepotrzebnie wspominam o nim z uporem maniaka, ale… na nim właśnie powstaje ten tekst (i to jest to mój punkt odniesienia).</p>
+<p>Jeśli miałbym użyć kilku słów – czarna obudowa, matowy ekran, wentylator o mocno szumiącym odgłosie (można go programowo odłączyć), klawiatura zbliżona do stacjonarnych, drobne niedociągnięcia, duża bateria i możliwości rozbudowy… ogólnie kawał twardego mocnego ...syna w pozytywnym tego słowa znaczenia (nie zmienia to faktu, że może to być moja ostatnia maszyna na procesorze Intela, albo x86 w ogóle).</p>
+<p>3999 PLN / 4499 PLN - ja wybrałem wariant tańszy, bo i7 do niczego mi nie jest potrzebny (nie zapłaciłem też za Windows, który na stronie Hyperbook kosztuje od 539 PLN wzwyż)</p>
+<h2>MacBook Air</h2>
+<p>Lekki throttling przy dużym obciążeniu, tylko dwa porty, możliwe problemy z tasiemką ekranu, pękającym ekranem czy ponadnormatywnym zużyciem dysku SSD, i PWM do 50% jasności... za to jest to Mac, z którym nie musimy się nigdzie wstydzić (tzn. część użytkowników wydaje się twierdzić, że wersja złota wygląda niezbyt dobrze w korporacyjnych murach, ale tu wchodzimy w kwestię gustów, guścików, przesądów i przyzwyczajeń).</p>
+<p>W sklepie Apple za 5199 PLN (do poważniejszych zastosowań warto chyba dopłacić 1000 PLN za 8GB RAM, co oznacza cenę 6199 PLN).</p>
+<h2>I co dalej?</h2>
+<p>Apple znane jest z ogromnych cen, tymczasem jeśli postawić ich najtańszy model w szeregu, okazuje się, że potrafi być porównywalnie tani / drogi - 5199 za najtańszy Air jest pomiędzy 3999 PLN i 6999 (ostatnia cena ze skapiec.pl dla Dell XPS 13, który słusznie / niesłusznie jest uznawany na Mercedesa wśród laptopów).</p>
+<p>W tym momencie mógłbym powiedzieć, że na rozsądny sprzęt przenośny 14-cali należy wydać minimum 4000-5000 PLN wzwyż (półkę najniższą odrzucam, gdyż producenci wylewają tam dziecko z kąpielą, oszczędzając grosze chociażby na ekranach).</p>
+<p>Teoretycznie można np. zejść do 3000 PLN i kupić coś z tanich serii laptopów uznanych producentów (tylko, że wtedy może być widoczne zdziwienie, że pękają obudowy, albo serwis jest nie najwyższych lotów, albo… albo...). Innym rozwiązaniem jest wybór sprzętu poleasingowego.</p>
+<p>A może lepiej kupić coś stacjonarnego?</p>
+<p>Mac mini jest w cenie od 3699 PLN (uwaga jak wyżej - przy poważniejszych zastosowaniach dobrze chyba dopłacić 1000 PLN do 8GB RAM, co winduje cenę do 4699 PLN).</p>
+<p>Gdybym miał wybierać mocniejszy sprzęt stacjonarny x86, to zgrubnie licząc Ryzen 5900x – ok. 2600 PLN, płyta na AM4 B550 – ok. 500 PLN, RAM 16 GB – ok. 400 PLN (dochodzi obudowa, zasilacz i karta graficzna).</p>
+<p>Tu również wychodzi na to, że cena Apple jest dosyć rozsądnie skalkulowana, i tak naprawdę tylko od nas zależy, czy chcemy iść w x86 (gdzie pewnie zapłacimy jak za zboże za karty graficzne) czy rozwiązania jabłkowe (tu jesteśmy koszeni na dyskach, RAM i wersjach „pro”, podobnie zresztą jak przy różnych Dellach czy HP).</p>
+<p>Ciekawe jest przy tym kilka rzeczy:</p>
+<ol>
+<li>Teoretycznie należałoby jeszcze wspomnieć o tabletach czy Chomebookach (ewentualnie starych-nowych konstrukcjach z Windows 11 SE). Czy jest sens mówić o kastratach, gdy mamy dostępne znacznie bardziej uniwersalne maszyny?</li>
+<li>Standard IBM PC zdefiniowano w 1981. Pierwsze skrzynki były ciężkie, ale proste i pozwalające na wiele majsterkowania (na płytach głównych nie było nawet podstawowych kontrolerów). Obecnie zamykamy się, i coraz częściej normalnością jest jedna mała płytka drukowana, na której jest zaledwie kilka układów.</li>
+<li>Procesory x86 walczą dzielnie, ale opóźnienia we wdrażaniu kolejnych procesów wytwarzania i wiele decyzji projektowych wyraźnie działa na ich niekorzyść. Intel próbuje wchodzić z architekturą rdzeni szybkich i energooszczędnych, ale… pierwsze realnie dopracowane konstrukcje będą w przyszłym roku, jak nie w 2023 czy później. A co do tego czasu pokaże Apple albo AMD?</li>
+<li>Windows to obecnie coraz większa prehistoria. Zawiera w sobie założenia architektoniczne sprzed lat, i takie elementy jak komponenty Internet Explorera 11 (które tworzono w czasach, gdy strony HTML miały mieć możliwość uruchamiania kodu z uprawnieniami admina). Wydawanie na niego ok. 10-25% ceny komputera to chyba lekka przesada, nieprawdaż?</li>
+</ol>
+<p>Niezależnie od naszych preferencji (najtańszy sprzęt z x86, coś droższego, albo coś ze stajni świętego jabłka) – podział znany z wielu lat odchodzi w niebyt.</p>
+<p>Nie chciałbym tego nazywać erą post-PC, ale coś w tym jest. Przyszłość należy do bezgłośnych, szybkich i lekkich konstrukcji, a nie ogromnych warczących klocków. A do tego… konstrukcje mobilne potrafią być (prawie) w tych samych cenach co stacjonarne… i coraz więcej tu zasługi Tajwańczyków, a nie Amerykanów.</p>
+<p>Inną sprawą jest to, że obecnie najsłabszym ogniwem pozostaje człowiek - niszczymy te wszystkie zabawki od pierwszej chwili ich używania, i od nas zależy, czy ten sprzęt wykorzystamy (zmarnujemy) na tworzenie wszelkiego rodzaju selfików i durnych komentarzy, czy będzie on używany do tworzenia rzeczy mądrych, dobrych i pożytecznych.</p>

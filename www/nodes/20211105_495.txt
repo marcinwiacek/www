@@ -1,0 +1,30 @@
+﻿Title: Niezależność, czyli ballada o domenie, morderstwie w szpitalu i innych rzeczach (2021)
+Author:marcin
+When:5 Nov 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1178631,niezaleznosc-czyli-ballada-o-domenie-i-kilku-innych-rzeczach>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>W 2002 zarejestrowałem pewną domenę. Impulsem do tego było to, że firma, w której miałem swoje cyfrowe dobra, po prostu wyłączyła usługi. Nie straciłem wtedy plików, za to straciłem adres, który był podawany w różnych miejscach. Pomyślałem w tamtym momencie, że warto mieć coś swojego, może małego, ale własnego. NASK przynajmniej w tamtych czasach nazywany był na różnych forach Niezwykle Aktywną Siatką Kretynów, do tego domena pl kosztowała więcej niż coś globalnego - z tych względów zdecydowałem się na adres najwyższego poziomu w domenie com.</p>
+<!--break-->
+<p>Wybrałem, opłaciłem, przypisałem do hostingu. Problemu nie było przez lata... zmieniałem serwery, opłacałem faktury, a adres był i był…</p>
+<p>W tym roku chciałem zrobić to ponownie, jednakże strona mojego rejestratora nazwa.info nie działała. Początkowo myślałem, że to zwykła awaria. Poczekałem jeden dzień, a ponieważ nic się nie zmieniło, to zacząłem szukać. <a href="https://www.gowork.pl/opinie_czytaj,21688685" target="_blank" rel="nofollow noopener">Wtedy trafiłem na informację, że firma się zmyła</a>. Aż mnie trochę zmroziło. Z dnia na dzień wyłączono wszystko. Nie wiem, czy był to wynik czyjejś tragedii (np. osoba za to odpowiedzialna uległa chorobie, wypadkowi czy czemuś gorszemu) czy głupoty, ale iluś użytkowników znalazło się w tej samej sytuacji co ja, a niektórzy totalnie z ręką w nocniku.</p>
+<p>Ale... ale... jest przecież whois. Dzięki niemu znalazłem namiar na firmę „wyższą” od nazwa.info, a oni wydali mi kod authinfo do domeny.</p>
+<p>Zrobiłem dłuższy research, i okazało się, że niektórzy za odnowienie chcą 36.9PLN (ale tylko promocyjnie), inni zaś za ten sam „towar” liczą grubo ponad 100PLN. Do tego wyszło na to, że różne są zasady wydawania kodu authinfo (np. trzeba wysłać podpisany papier pocztą), nie wiadomo nic na temat ukrywania danych we whois albo ustawiania statusu clientTransferProhibited, itp.</p>
+<p>Mała uwaga - bezcenne w przypadku domen globalnych jest to, że nie jesteśmy przywiązani do jednej firmy czy kraju. Ważne w tym wypadku jest, żeby starać się wybrać mądrze. Jak dobrze widać sytuacja jest średnio stabilna, i przekazanie władzy nad tym dobrem np. jakiejś mało znanej firmie na końcu świata może skutkować problemami.</p>
+<p>Sprawę ostatecznie załatwiłem. Wspomniana sytuacja pokazała mi jasno, że:</p>
+<ol>
+<li>nie należy wkładać jajek do tego samego koszyka (usługi powinny być możliwie zdywersyfikowane, i w tym momencie oddzielenie dostawcy domeny od dostawcy dns okazało się decyzją bardzo rozsądną)</li>
+<li>choć kupowanie wszystkiego w firmach polskich jest bardzo dobrą sprawą, są tematy, które lepiej i taniej załatwić globalnie (tak - znalazłem ofertę poza Unią, która wydaje się rozsądna i chyba bardziej odporna na różne zawirowania dziejowe)</li>
+</ol>
+<p>Podsumowując - szkoda firmy spod adresu nazwa.info (przez lata radzili sobie jak należy), natomiast mój hosting pozostał tam gdzie wcześniej (w coraz lepiej radzącej sobie firmie lh.pl).</p>
+<p>W tym momencie naszła mnie też refleksja, jak ważne jest budowanie wszystkiego na mocnych podstawach. Wielka szkoda, że ludzie ze sceny politycznej udają, że tego nie widzą.</p>
+<p>Zamordowano jakąś kobietę w szpitalu przez niejasne przepisy? Nic się nie stało.</p>
+<p>Inflacja idzie w górę? Nie ma problemu.</p>
+<p>Coraz więcej krajów ma o nas złą opinię? (ale nie wynikającą z tego, że mamy sprzeczne interesy, tylko z tego, że zachowujemy się jak prostak na salonach). Jakoś to będzie.</p>
+<p>Jakieś podstawy prawne? A na co to komu.</p>
+<p>Efekty już są. Wczoraj nazwa.info, jutro mogą być inni. Obecnie ten temat przerabiają Amerykanie (przez pogarszanie się jakości życia demokraci tracą poparcie w tempie błyskawicznym), my zaś możemy od 1 stycznia (albo dokładniej od momentu wejścia wielkiego wałka).</p>
+<p>Ale spójrzmy na ten temat szerzej - czy Polska w ogóle jest przygotowana i próbuje budować swoją niezależność technologiczną? I czy to jest możliwe w dzisiejszych czasach?</p>
+<p>„Chiny miały wprowadzić sprzętowego backdoora do 30 amerykańskich firm, w Apple, Amazona i Facebooka”</p>
+<p>To tytuł z 4 października 2018 z niebezpiecznika. Mowa tam o artykule z Bloomberga i małym sprzętowym dodatku, który miał się znajdować w iluś serwerach sprzedawanych m.in. do USA.</p>
+<p>Temat potem obalono, ale... takich doniesień będzie na pewno coraz więcej. W czasach przed internetem mówiło się np. o odpowiednich dodatkach w centralach telefonicznych (które sprzedawano, a jakże sojusznikom), obecnie coraz częściej słyszy się o sprzęcie elektronicznym. I co? I w sumie nic. Niektóre korporacje zabraniają używania laptopów konkretnych firm, w niektórych krajach wycofuje się urządzenia sieci komórkowych od określonych dostawców. I tyle.</p>
+<p>Myślę, że dzisiaj każdy szpieguje każdego. Dzieje się to z powodów politycznych, ekonomicznych (chęć zarobku) czy przestępczych (np. organizowanie włamania). Na cenzurowanym są różne firmy chińskie, i nie tylko. Informacje znalezione w internecie to oczywiście wierzchołek góry lodowej, ale... coraz więcej słychać chociażby o różnych dodatkowych funkcjonalnościach w telefonach komórkowych (które zgodnie z oficjalną wykładnią w wariantach europejskich znalazły się przez błąd czy przypadek).</p>

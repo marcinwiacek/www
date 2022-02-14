@@ -1,0 +1,150 @@
+﻿Title: Producent / sprzedawca (obecnie) mówią o 20h na baterii, ja mam nawet prawie 36h (2021)
+Author:marcin
+When:25 Sep 2021
+Taxonomy:polski,polski blog,salon24.pl,Hyperbook,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1168411,producent-sprzedawca-obecnie-mowia-o-20h-na-baterii-ja-mam-ok-36h>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Co łączy drukarkę Mera D-100M z lat 80-tych XX-wieku i nowoczesnego laptopa z 2020 roku?</p>
+<!--break-->
+<p>
+<center><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/RKiEsexNDNc" class="note-video-clip"   frameborder="0">
+</iframe></div></center>
+</p>
+<p>O tym też dzisiaj będzie, wpis jednak chciałbym rozpocząć od tego obrazka:</p>
+<center><p class="a-img"><img src="sites/default/files/480/1.png" style="width: 246.421px; height: 207.333px;" alt="image" />
+</p></center>
+<p>Można? Można.</p>
+<p><a href="https://www.notebookcheck.net/Dell-Latitude-9510-2-in-1-Review-A-5G-15-inch-Convertible-That-Isn-t-Huge-Or-Unwieldy.481704.0.html" target="_blank" rel="nofollow noopener">Teoretycznie notebookcheck.net testował kiedyś urządzenie, które w ich teście osiągnęło ok. 59h</a>. Piszę teoretycznie, gdyż w praktyce (biorąc pod uwagę możliwości energetyczne obecnych systemów) takie wyniki w praktyce można chyba uzyskać tylko:</p>
+<ul>
+<li>podczas pracy z zewnętrznym monitorem (ekran komputera jest cały czas wyłączony)</li>
+<li>przez chwilę po odłączeniu ładowarki (stąd pochodzi mój zrzut ekranu)</li>
+</ul>
+<p>Czy tak czy inaczej, cały czas próbuję wycisnąć co nieco z Hyperbooka L14 pod Ubuntu 21.04. System obecnie wskazuje mi na to, że bateria trochę się „rozruszała” i zamiast deklarowanych 73.9 Wh ma 74.6 Wh. Zrobiłem kilka ustawień:</p>
+<h2><b>Zmniejszenie ilości zapisów na dysku</b></h2>
+<p>System był instalowany z szyfrowaniem (<a href="?q=node/385">patrz artykuł</a>) i po instalacji miał plik wymiany, który wyłączyłem:<br />
+<pre>sudo swapoff -a
+sudo rm /swapfile</pre>
+<p>i usunąłem wpis z pliku /etc/fstab
+<p>Następnie wyłączyłem modyfikację czasów dostępu do plików i katalogów, i włączyłem TRIM - w pliku /etc/fstab dodałem opcje</p>
+<pre>noatime,nodiratime,discard</pre>
+<p>do głównego systemu plików.</p>
+<p>Katalogi /tmp i /var/tmp też przeniosłem do RAM - <a href="?q=node/376">patrz artykuł </a>(na każdy wystarcza spokojnie 512 MB)</p>
+<p>Kolejną opcją była deaktywacja serwera drukowania i dziennika systemowego:</p>
+<pre>sudo systemctl disable rsyslog
+sudo systemctl disable cups</pre>
+<p>i dodanie</p>
+<pre>Storage=none</pre>
+<p>do pliku /etc/systemd/journald.conf
+<p>Możnaby pójść dalej, ale mi się nie chciało (nawiasem mówiąc, popularne dystrybucje Linuxa z logami i monitorowaniem niebezpiecznie idą w stronę Windows)<br />
+<h2><b>Wykorzystanie opcji modułów jądra</b></h2>
+<p>We wpisie <a href="?q=node/476">"Sprzęt i soft, który żyją własnym życiem"</a> opisywałem włączanie trybu D3 dla poszczególnych urządzeń PCI urządzenia. Zaczynałem tam od wydania komendy, która wypisała mi ich listę:</p>
+<pre>sudo lspci -vvv</pre>
+<p>Można tam zobaczyć nazwy modułów jądra, które zostały załadowane. Dla każdego z nich można sprawdzić listę opcji, np.</p>
+<pre>modinfo -p i915</pre>
+<p>Na tej podstawie stworzyłem listę, którą dodałem w pliku /etc/default/grub do opcji GRUB_CMDLINE_LINUX. Potem jeszcze tylko</p>
+<pre>sudo update-grub</pre>
+<p>restart i mogłem już przystąpić do testów.</p>
+<p>Początkowo moja lista wyglądała następująco:</p>
+<pre>GRUB_CMDLINE_LINUX="i915.enable_fbc=1 i915.enable_dc=4 i915.enable_psr=1 i915.enable_dpcd_backlight=1 snd_hda_intel.power_save=1 snd_hda_intel.power_save_controller=true iwlwifi.power_save=true iwlwifi.led_mode=3"</pre>
+<p>Uzyskałem wtedy niewidoczność karty Wifi i dźwiękowej, i brak jakichś specjalnych różnic (może nawet pogorszenie). Metodą prób i błędów uzyskałem wersję ostateczną:</p>
+<pre>GRUB_CMDLINE_LINUX="i915.enable_fbc=1 i915.enable_dc=4 i915.enable_psr=1"</pre>
+<h2>Mikrokod do procesora</h2>
+<p>Zauważyłem, że nie jest najwyraźniej ładowany, a że lubię życie na krawędzi (just joking)... w pliku /etc/modprobe.d/intel-microcode-blacklist.conf wystarczyło odkomentować linijkę</p>
+<pre>blacklist microcode</pre>
+<h2>Tuxedo</h2>
+<p>W <a href="?q=node/474">notce "W poszukiwaniu urządzenia doskonałego…"</a> pisałem o instalacji aplikacji od firmy Tuxedo, która m.in. pozwala na kontrolę prędkości wentylatorów (do tego włącza kombinację Fn+F1 do wyłączania touchpada, wyłącza kamerę i robi kilka innych rzeczy). Zarzucono mi, że wspominam o instalowaniu aplikacji podejrzanych (<a href="?q=node/475">patrz moja polemika)</a>... w międzyczasie zauważyłem m.in. to, że chociażby włączenie odpowiedniej usługi wydaje się bardzo szkodliwe dla czasu pracy na baterii (usługa jest dosyć energożerna, a zgłaszanie usterek jest średnio skuteczne na GitHub).</p>
+<p>Na chwilę obecną wspomnianą aplikację mam wyłączoną, ale zainstalowaną:</p>
+<p>wystarczyło wydać komendy</p>
+<pre>sudo systemctl stop tccd
+sudo systemctl mask tccd</pre>
+<p>i w pliku /etc/systemd/system/tccd-sleep.service mieć linijki</p>
+<pre>ExecStart=/bin/bash -c "systemctl stop tccd"
+ExecStop=/bin/bash -c "(systemctl start tccd; systemctl stop tccd)"</pre>
+<p>(chciałem mieć pewność, że kamera się nie włączy; pewnie można to zrobić lepiej)
+<h2>Limity procesora</h2>
+<p>Można tu wyróżnić zarówno limity energetyczne (ilość W, która może być zużywana), jak i prędkościowe. O ustawianiu tych pierwszych <a href="?q=node/474">wspominałem w notce "W poszukiwaniu urządzenia doskonałego…"</a>, w drugim przypadku nie chciałem limitować maksymalnej prędkości, i wystarczało mi ustawienie trybu oszczędzania zamiast pełnej prędkości, więc użyłem</p>
+<pre>sudo cpupower frequency-set --governor powersave</pre>
+<p>(uwaga: aplikacja od Tuxedo nie obsługuje jeszcze powersave, i warto wyłączyć opcję dotyczącą procesora w opcjach głównych)</p>
+<h2>Wersja ostateczna</h2>
+<p>Pomyślałem, że zbiorę te wszystkie swoje ustawienia w jeden skrypt, i będę go uruchamiał po starcie systemu i wybudzeniu z trybu standby. Treść skryptu:</p>
+<pre># przy XWindows można zmieniać gammę
+xgamma -rgamma 0.7 -ggamma 0.7 -bgamma 0.7<br>
+# włączam usługę (ona mi ustawia kamerę), wyłączam
+# i na wszelki wypadek jeszcze upewniam, że jest nieaktywna
+sudo systemctl start tccd
+sudo systemctl stop tccd
+sudo systemctl mask tccd<br>
+# tryb oszczędzania energii procesora; 
+# nie limituję maksymalnej prędkości, mógłbym to zrobić z użyciem Tuxedo
+# albo właśnie cpupower frequency-set
+sudo cpupower frequency-set --governor powersave<br>
+# odpowiednio 10 i 20W, co jest co sprawdzimy przez powercap-info -p intel-rapl
+sudo rapl-set -p 0 -c 0 -l 10000000 -e 1
+sudo rapl-set -p 0 -c 1 -l 20000000 -e 1
+sudo rapl-set -p 0 -c 2 -l 20000000 -e 1
+sudo rapl-set -p 1 -c 0 -l 20000000 -e 1
+sudo rapl-set -p 1 -c 1 -l 20000000 -e 1</pre>
+<p>Skrypt zapisałem w pliku, następnie po wybudzeniu z trybu standby jest odpalany przez plik od Tuxedo (wiem, wiem, powinien być oddzielny):</p>
+<pre>ExecStop=/bin/bash -c "sciezka_do_pliku"</pre>
+<p>w pliku /etc/systemd/system/tccd-sleep.service</p>
+<p>a po starcie systemu uruchamia mi się usługa foo, tzn. stworzyłem plik /etc/systemd/system/foo.service:</p>
+<pre>[Unit]
+Description=Foo Service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "sciezka_do_pliku"
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target</pre>
+<p>i zrobiłem</p>
+<pre>sudo systemctl daemon-reload
+sudo systemctl enable foo.service</pre>
+<p>(<a href="https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up">pomysł z askubuntu.com</a>)</p>
+<h2>Czy osiągnięto ideał?</h2>
+<p>Zabawy z energią uskuteczniałem np. w 2013 (<a href="?q=node/285">300h czasu standby w Samsung Galaxy S4 mini</a>). Gdybym teraz walczył o każdy mW, to wtedy pewnie powinienem ze środka wyjąć kartę Wifi, jak również w ogóle wyłączyć podświetlenie ekranu, nie włączać podświetlenia klawiatury, itd. Sprzęt tymczasem jest po to, żeby go używać. Producent gwarantuje 20h, niektóre teksty mówiły nawet o 32h, mnie zaś przy pewnych scenariuszach udało się uzyskać realne wyniki rzędu 36h (oczywiście bez wifi, dźwięku, i głównie podczas pisania tekstów), i śmiać mi się w tym momencie, gdy czytam sponsorowane teksty laptopów z <a href="?q=node/432">„technologią” Intel Evo</a> i gwarantowanym czasem pracy 9h.</p>
+<p>Nie ma jednak róży bez kolców. Zdecydowałem się wyłączyć Secure Boot (<a href="?q=node/475">szerzej o tym wynalazku</a>), gdyż wydaje się blokować pewne funkcje jądra. Irytujące jest to, że w trybie standby zużycie jest dosyć wysokie (jest to prawdopodobnie typową cechą wszystkich "dorosłych" systemów z Intelem). Irytujące jest też aktywne chłodzenie (tzn. sama obecność wentylatora, ale i to, że pod Linuxem do kontroli dostępna jest wyłącznie aplikacja od Tuxedo, która sama wydaje się obciążać akumulator). Nie ma żadnych deklaracji dotyczących baterii, nie wiadomo jak będą wyglądały uaktualnienia (jak dotąd zaliczyłem jedno, i właściwa procedura jest taka, że plik EFI należy uruchomić pod <a href="https://download.schenker-tech.de/package/bios-update-via-efi-shell/" target="_blank" rel="nofollow noopener">shellem dostępnym np. ze strony Schenkera</a>), a sam BIOS jest mocno okrojony.
+<p><a href="?q=node/447">Z drugiej strony jednak strony SF114-32 przy baterii ok. 49Wh miał deklarowane 17h pracy</a>. Gdyby to przeskalować do wielkości baterii Hyperbooka (np. tak, że 49Wh * 1,5 = 73.5h), to mały komputerek Acera powinien działać ok. 25,5h. Nie wiem, co najbardziej dało zysk konstrukcji Clevo, ale możliwości jest kilka:
+<ol>
+<li>dysk (Samsung 980 vs WD SN520)</li>
+<li>system operacyjny (Ubuntu 21.04 vs Windows 10)</li>
+<li>ekran (1.65W max. vs 2.9W max.)</li>
+</ol>
+<p>A właśnie, ekran. Miałem o nim napisać, więc kilka słów: najbardziej poprawny i mało męczący obraz uzyskałem z następującymi ustawieniami:</p>
+<center><p>(aplikacja gnome-tweaks)</p>
+<p class="a-img"><img src="sites/default/files/480/2.png" alt="image" style="width: 473.3px; height: 326.441px;" /></p>
+<p>(dconf-editor)</p>
+<p class="a-img"><img src="sites/default/files/480/3.png" alt="image" style="width: 474.3px; height: 319.133px;" /></p>
+<p>(Settings)</p>
+<p class="a-img"><img src="sites/default/files/480/4.png" alt="image" style="width: 474.3px; height: 399.916px;" /></p>
+<p class="a-img"><img src="sites/default/files/480/5.png" alt="image" style="width: 474.3px; height: 399.717px;" /></p>
+</center>
+<p>Do tego dodałem sobie gammę na poziomie 0.7. Wydaje się, że mój wzrok bardziej lubi ekrany innego typu, ale… nie jest źle i ogólnie matryca sprawia dobre wrażenie (dobre pokrycie kolorów, 8-bit, etc.)
+<p>Czego mi się nie udało?</p>
+<ol>
+<li>Ustalić, jaką kość pamięci włożono, i czy rzeczywiście jest energooszczędna (ogólnie nie lubię lutowanego RAM, ale... jeśli miałby wydłużać czas, to dlaczego nie?
+ </li>
+<li>Wyłączyć z sensem urządzenia np. na PCI (<a href="?q=node/476">ustawianie trybu D3 wydaje się skracać czas pracy na baterii</a>)</li>
+<li>Znaleźć jeszcze bardziej energooszczędnego dysku (nawiasem mówiąc, po prawie miesiącu mam 100GB odczytów i ledwo 53.7GB zapisów, i moim ostatnich zmiana liczba zapisów drastycznie spadła) - teoretycznie dyski WD mają mniejsze zużycie w trybie PS4, ale... w innych wypadają gorzej niż Samsungi (do tego do końca nie wiem, jak poprawnie stwierdzić, ile czasu dysk spędza w którym trybie)</li>
+</ol>
+<p>Czy w ogóle jeszcze warto kupować dzisiaj konstrukcję z procesorem Intela?</p>
+<p>Tutaj dochodzi do drukarki z czasów PRL. Produkowano ją w czasie, gdy system dogorywał. W tamtym czasie i miejscu była właściwie cudem techniki, dziś jednak możemy spokojnie powiedzieć, że nie umywa się do różnych nowszych konstrukcji (a może nawet jej współczesnych, ale produkowanych w innych krajach).</p>
+<p>Przerywnik: proszę mnie w tym momencie nie zrozumieć źle - gospodarka PRL potrafiła produkować bardzo dobre produkty, ale... często i gęsto poprzestawano na jakimś projekcie i klepano go latami (Nysa miała drewnianą podłogę nawet pod koniec w latach 90-tych), albo wprowadzano "optymalizacje" (stąd Fiat odciął się od FSO 1500, którego jakość spadła tam mocno, że wszyscy rwali włosy z głowy).</p>
+<p>Obecny czas jest czasem dziwnym i strasznym, a na rynku elektroniki panuje i drożyzna i zastój (tak, wiem o M1 i różnych innych rzeczach, ale jedna jaskółka wiosny nie czyni). Nie warto obecnie kupować niektórych rzeczy, i najlepiej po prostu się wstrzymywać (AMD może wtedy dojdzie do poziomu Intela w pewnych sprawach, Apple dopracuje ekrany miniLED i Emki, itd.). Z drugiej strony, choć oczywiście wszyscy marzą o powrocie do normalności za 2 tygodnie, to nie nastąpi. Świat za bardzo poszedł do przodu, sojusze się zmieniły, i... w całym tym prześciganiu we wprowadzaniu kolejnych organiczeń <a href="?q=node/478">brakuje chyba tylko sytuacji, żeby ktoś zaproponował karę śmierci za rozpowszechnianie ulubionego mikroba</a>.</p>
+<p>Niebiescy też doszli do granic swoich możliwości, i sugerowałbym bardzo dużą ostrożność z ich 12-generacją (warto zaczekać na wyniki niezależnych testów i rozpracowanie całości, które pewnie potrwa miesiące, jak nie lata). Obawiać się można o pozew ze strony Chin (przy dużej utracie zysków jakość Intela może pójść w dół) i o to, że obecna architektura x86 doszła do ściany:</p>
+<ol>
+<li>po co w sprzęcie obsługa trybu 16-bitowego czy wielu innych starych rozwiązań?</li>
+<li>tryb standby to porażka</li>
+<li>wyłączanie niepotrzebnych elementów leży i kwiczy (Intel ME jest smutnym przykładem)</li>
+<li>układy są z Ameryki, i biorąc pod uwagę sytuację polityczną, nie wszędzie prawdopodobnie można ich używać</li>
+</ol>
+<p>Czy tak czy inaczej, Hyperbook / Clevo zrobiły dużo, żeby różne niedoskonałości Intela zniwelować, i ich obecna konstrukcja jest warta rozważenia. Orientacyjne 4000 PLN za laptopa, który w terenie potrafi zadziałać &gt; 30h, to cena naprawdę fair. Można się zżymać na wentylator, jasność na poziomie 300 cd, i inne rzeczy...ale i tak powiem, że w obecnym systemie światowym taka konstrukcja to cud podobnie jak kiedyś drukarka Mery w PRL.</p>
+<p>Nie zapominajmy bowiem o jednej rzeczy: <a href="?q=node/435">użytkownik ma brać co jest, a zdarza się, że tak naprawdę nie ma z czego wybrać</a>. Zdarzają się wciąż "laptopy", gdzie jest zaledwie 4 GB RAM, albo dysk 64 GB, albo mrugające ekrany, albo... ktoś może powiedzieć, że można oczywiście wybrać coś innego od innego producenta, ale... no właśnie, wystarczy jeden statek w Kanale Sueskim (i wtedy półki są równo wymiecione), do tego takie "normalne" laptopy potrafią kosztować nawet 8000 czy 12000 PLN... a tu proszę - płacę 4000 PLN, i cały ten balans funkcjonalności jest bardziej niż adekwatny do ceny.<br />
+</p>
+<p>Za kilka lat może być tak, że będziemy własne europejskie procesory, albo że ARM-y tak zdeklasują x86, że o nim zapomnijmy. Na pewno świat się mocno zmieni - mamy pierwsze bardziej prywatne loty w kosmos, mamy projekty samolotów o prędkości 7 Mach, mamy zakusy na eliminację własności prywatnej i na masowe wprowadzenie elektryków (co akurat nie wyjdzie na dobre). W takim to świecie:</p>
+<ul>
+<li>Hyperbook L14 przynajmniej przeze mnie będzie wspominamy z łezką w oku (dzięki niemu mam bowiem i mobilność, i kilka innych ważnych możliwości)...</li>
+<li>przy wyborze kolejnych modeli będę brał pod uwagę również polską firmę z Ostrobramskiej (co do Acera, to <a href="?q=node/479">jak pisałem w notce "Marki i produkty premium - kiedy?", naprawdę musi popracować nad pewnymi kwestiami</a> i przestać zachowywać się jak biegacz, który zatrzymuje się zaraz przez metą).</li>
+</ul>
+<p>Tylko tyle, i aż tyle.</p>

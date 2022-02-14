@@ -1,7 +1,7 @@
 ﻿Title:MacBook Air, a tani laptop innego producenta (2021)
 Author:marcin
 When:28 May 2021
-Taxonomy:polski,polski blog,salon24.pl,x86,Apple
+Taxonomy:polski,polski blog,salon24.pl,x86,Apple,Acer
 
 <a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1138623,macbook-air-a-tani-laptop-innego-producenta>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
 

@@ -1,0 +1,102 @@
+﻿Title: Sprzęt i soft, który żyją własnym życiem (m.in. o wewnętrznych bateriach i energii) (2021)
+Author:marcin
+When:14 Sep 2021
+Taxonomy:polski,polski blog,salon24.pl,x86,Hyperbook
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1165584,sprzet-i-soft-ktory-zyja-wlasnym-zyciem-m-in-o-wewnetrznych-bateriach-i-oszczedzaniu-energii>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Czy maszyny już na dobre przejęły panowanie nad światem?</p>
+<p>Ostatnio miałem następującą sytuację – sprzęt, którego używam, tak mocno się pogubił, że nie dało się go nawet wyłączyć (teoretycznie sprawę powinno załatwić naciskanie wyłącznika przez kilkanaście sekund, tu jednak nie zadziałało). Urządzenie miało baterię, a w baterii ok. 30% energii, co oznaczało, że na jego wyłączenie musiałbym czekać pewnie z 10h (do tego poczułem wyraźne nagrzewanie się całości, która zaczęła wręcz parzyć).</p>
+<!--break-->
+<p>I co w tej sytuacji? Producenci wielu urządzeń używają własnych śrubek. Moim szczęściem w nieszczęściu było to, że akurat byłem w pobliżu odpowiedniego śrubokręta i mogłem go użyć. A gdybym nie był przezorny i nie miał właściwego narzędzia? A gdybym był w podróży, gdzie wszystko rusza się i trzęsie? (i nie ma co marzyć o spokojnym rozkręceniu i poskładaniu delikatnej elektroniki)</p>
+<p>Baterie „niewymienne” stały się standardem w telefonach czy laptopach. Niektórzy producenci potrafią jakoś odnaleźć się w tej sytuacji (odpowiednia kombinacja klawiszy zawsze mi działała chociażby w Samsungach i iPhonach), inni implementują małą dziurkę do chwilowego odpięcia baterii (jeżeli dobrze rozumiem, tak jest w Acerze Swift 1), a jeszcze inni… nie potrafią znaleźć rozwiązania do poważnego problemu, który sami stworzyli.</p>
+<p>Pójdźmy dalej. Ponad pół roku temu sam widziałem iPhona, który sam sobie wciskał punkty na ekranie. Powiedziałbym, że to było raczej traumatyczne przeżycie – wyglądało to jakby ktoś się tam włamał.</p>
+<p>Ostatnio miałem też inny dylemat. Pod Linuxem wykonałem sobie ostatnio<br />
+<pre>sudo lspci -vvv</pre>
+<p>Ta komenda w przypadku laptopa, który ostatnio testuję, pokazała maksymalne zużycie energii odpowiednio 375mA (dla czytnika kart microSD), 55mA (dla karty dźwiękowej) i 3x375mA (dla kontrolerów USB / Thunderbolt). Według uzyskanych tam informacji wszystkie wymienione urządzenia działały w trybie D0 (który jest najmniej energooszczędny), co oznaczało, że prawdopodobnie marnują cenne mA (tutaj chwila dygresji - standard PCI Express definiuje tryby D0-D3, a im większa cyferka, tym głębszy stan uśpienia).</p>
+<p>Uzbrojony w tę wiedzę postanowiłem, że tytułem rozrywki intelektualnej popróbuję, czy w ogóle mogę coś zyskać zmieniając stany wymienionych urządzeń na D3. Zacząłem od specyfikacji „PCI Bus Power Management Interface Specification” (niestety za darmo można pobrać sobie wyłącznie Revision 1.1 ze strony Intela). Tam mogłem sobie doczytać o tym, że istnieje coś takiego jak 16 bitów Power Management Power/Status, a zmieniając ich wartości na pozycjach 0 i 1 mogę kontrolować stan.</p>
+<p>Dalej poszło już łatwo – po wyłączeniu sterownika urządzenia (rmmod) wystarczyło spojrzeć na adres sekcji Power Management urządzenia, dodać 4 (Power/Status znajduje się w offsecie 4 względem początku sekcji), sprawdzić wpisane tam dane,&nbsp; dodać do nich 3 i wysłać do urządzenia.</p>
+<p>Szach mat!</p>
+<p>Przekładając z polskiego na nasze:</p>
+<p>Jeżeli lspci dla urządzenia o adresie 34:00.0 pokazywało
+<p>„Capabilities: [40] Power Management version”
+<p>to do liczby uzyskanej przez komendę
+<pre>sudo setpci -s 34:0.0 0x44.W</pre>
+<p>należało dodać 3 i wydać komendę
+<pre>sudo setpci -s 34:0.0 0x44.W=3</pre>
+<p>(gdzie 3 to oczywiście liczba uzyskana wcześniej po dodaniu magicznej trójki)</p>
+<p>Poniżej gotowy skrypt, który sobie przygotowałem dla wspomnianego laptopa:
+<pre>sudo systemctl stop tccd<br />
+# czytnik kart
+sudo rmmod rtsx_pci_sdmmc
+sudo rmmod rtsx_pci
+sudo setpci -s 34:0.0 0x44.W
+sudo setpci -s 34:0.0 0x44.W=3
+sudo setpci -s 34:0.0 0x44.W<br />
+# karta wifi
+sudo rmmod iwlmvm
+sudo rmmod iwlwifi
+sudo setpci -s 00:14.3 0xcc.W
+sudo setpci -s 00:14.3 0xcc.W=B
+sudo setpci -s 00:14.3 0xcc.W<br />
+# Thunderbolt
+sudo rmmod thunderbolt
+sudo setpci -s 00:0d.2 0x84.W
+sudo setpci -s 00:0d.2 0x84.W=B
+sudo setpci -s 00:0d.2 0x84.W<br />
+# USB
+sudo rmmod xhci_pci
+sudo setpci -s 00:14.0 0x74.W
+sudo setpci -s 00:14.0 0x74.W=B
+sudo setpci -s 00:14.0 0x74.W
+sudo setpci -s 00:0d.0 0x74.W
+sudo setpci -s 00:0d.0 0x74.W=B
+sudo setpci -s 00:0d.0 0x74.W<br />
+# Intel ME
+#1. add blocklist mei_me into
+#/etc/modprobe.d/blacklist-ath_pci.conf
+#2. sudo update-initramfs -u
+#3. reboot
+sudo setpci -s 00:16.0 0x54.W
+sudo setpci -s 00:16.0 0x54.W=B
+sudo setpci -s 00:16.0 0x54.W<br />
+#sudo lspci -vvv</pre>
+<p>I co się okazało?</p>
+<ol>
+<li>zmienić stany można było, ale tylko wtedy, gdy wyłączony jest Secure Boot (<a href="?q=node/475">patrz mój poprzedni wpis na jego temat</a>).</li>
+<li>w przypadku sterownika mei_me nie wystarczyło użyć rmmod</li>
+<li>laptop bez zmian pokazuje nawet do 34h, z moimi "zmianami" do 28h</li>
+<li>przypomniałem sobie o komendzie powertop, a ta pokazała, że usługa ttcd z Tuxedo Control Center też swoje zabiera<br />
+ </li>
+</ol>
+<p>Powiedziałbym, że to rewolucja nieudana (fakt, że mogłem coś pominąć, ewentualnie zrobić źle)… ale dająca kilka lekcji z <a href="?q=node/471">użytym Hyperbookiem L14</a>:<br />
+</p>
+<ol>
+<li>do rozważenia jest to, czy powinienem włączać usługę ttcd z Tuxedo Control Center</li>
+<li>nie trzeba się bawić z rejestrami PCI jak w starszych sprzętach, gdyż obecnie mamy tryby L1.2 i inne cuda wianki</li>
+<li>Linux potrafi być dosyć energooszczędny nawet na nowoczesnym sprzęcie i nie ma co mu zbytnio pomagać</li>
+<li>sprzęt Intela jest jednak nieźle rozpracowany przez firmy trzecie, i chociaż go często nie polecam, to dalej widoczne jest jedno - Ryzeny to cudeńka, ale tam problemem jest uświadczenie lapka ze wszystkim bajerkami, na którym można działać &gt; 30h (na pewno nikt nie oferuje baterii 73Wh przy oszczędnym ekranie na 14 calach, do tego moje doświadczenia z płytami stacjonarnymi mówią, że AMD ciągle jest mocno na dorobku)<br />
+ </li>
+</ol>
+<p>Pójdźmy jeszcze dalej – przez lata bardzo popularne w Windows były wszystkie czyściciele rejestru i narzędzia do optymalizacji systemu. Sam korzystałem z różnych takich programów, ale… do czasu. Czy ktoś rozsądny jeszcze się z nimi bawi? I czy nie jest tak, że coraz mniej orientujemy się, co się tam dzieje? Że mamy tam coraz mniej opcji konfiguracyjnych?</p>
+<p>Powiedziałbym, że wszelcy wieszcze mówiący o tym, że maszyny zapanują nad światem, nie mają racji. Moim zdaniem one już zapanowały.</p>
+<p>Zarówno sprzęt, jak i oprogramowanie są coraz bardziej skomplikowane, a znajdowanie w nich błędów zajmuje coraz więcej czasu (najczęściej nie można przetestować wszystkich kombinacji wszystkich elementów, i można mieć tylko nadzieję, że problemów nie będzie zbyt dużo). Testujemy i projektujemy kolejne modele z użyciem poprzednich (a właściwie coraz częściej klikamy na guzik start, i po jakimś czasie dostajemy zoptymalizowany projekt stworzony w oparciu o algorytm komiwojażera czy przez sztuczną sieć neuronową).<br />
+</p>
+<p>Wielu z nas myśli, że jak będzie mieć nowy telefon, telewizor czy laptopa, to nagle stanie się innym człowiekiem, z którym wszyscy się będą liczyć. Jest to trend widoczny szczególnie wśród młodych czy mających mniej pieniędzy. Maszyny zawładnęły ich myślami, i część z nich żyje od premiery do premiery nowego gadżetu.</p>
+<p>Uzależniliśmy się od nich, mentalnie i fizycznie. Powierzamy im swoje życie. Kontrolują nasze wodociągi, produkcję naszego jedzenia czy niezbędnego prądu. Żeby nie szukać nawet tak daleko - każdy samolot to obecnie latający komputer, tak samo komputerem stały się samochody czy autobusy. Kontrola dotyczy tam każdego aspektu – począwszy od tego gdzie i jak pojedziemy (nawigacja, czy systemy nadzoru), gdzie się zatrzymamy (ABS, czy systemy kontroli trakcji), a nawet kiedy się zatrzymamy (coraz popularniejsze są systemy autopilota).</p>
+<p>W idealny świecie powinny wygrywać rozwiązania, które zużywają najmniej zasobów, tymczasem taki Windows ciągle przegrywa z Ubuntu, a jego popularność... (<a href="https://www.phoronix.com/scan.php?page=article&amp;item=windows-11-september&amp;num=1" target="_blank" rel="nofollow noopener">Phoronix przetestował nawet betę jedenastki, i tam jest to samo - w 67% wygrywał darmowy rywal</a>).</p>
+<p>Spójrzmy sobie też na to video:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/21jH39rlvDA" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+</p>
+<p>Jest tak lepiej... że aż gorzej? Czy to nie jest tak, że jedenastka miała być gigantycznym krokiem do przodu? (chociażby przez odcięcie kompatybilności).<br />
+</p>
+<p>To nie jest jednostkowy przypadek - np. obecnie reinkarnuje się stare modele kart graficznych. Czy nie jest to analogiczne do sytuacji, gdy silniejszy szeryf czy szef bandy mówi słabszym, co ma być dla nich dobre?<br />
+</p>
+<p>Maszyny zużywają naszą energię, choćby przez serwery, które chodzą 24h na dobę (popularne chmury, stacje bazowe sieci komórkowej, i inne). I potem sobie żyjemy w środowisku, w którym smog elektromagnetyczny jest coraz większy (i mówię to bez snucia tzw. teorii foliarskich).</p>
+<p>Trzeba o nie dbać (nie lubią wody czy za dużej temperatury), "karmić", doglądać i od czasu do czasu leczyć.<br />
+</p>
+<p>Wspomniany laptop jest też poniekąd przykładem tego, że to wszystko żyje swoim własnym elektronicznym życiem. A baterie wewnętrzne i brak możliwości wyłączenia różnych rzeczy tylko pogłębiają to wrażenie.</p>
+<p>Podsumowując – niektórzy z nas na produkcję maszyn poświęcają całe życie, niektórzy całe życie je utylizują, wszyscy zaś są ich niewolnikami. A wprowadzenie różnych tzw. sztucznych inteligencji tylko spowoduje, że będziemy widzieć ich wyraźniejszy wpływ na nas samych (i pewnie jeszcze bardziej się od siebie samych odseparujemy).<br />
+</p>

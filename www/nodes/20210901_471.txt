@@ -1,0 +1,132 @@
+﻿Title:Polski laptop, który działa na baterii nawet w okolicach 30h – pierwsze wrażenia (2021)
+Author:marcin
+When:1 Sep 2021
+Taxonomy:polski,polski blog,salon24.pl,x86,Hyperbook,Acer
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1162528,polski-laptop-ktory-dziala-na-baterii-nawet-w-okolicach-30h-pierwsze-wrazenia>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Można powiedzieć, że większość zakupów dzieli się na trzy grupy:<br />
+</p>
+<ol>
+<li>wykonywane bez większej refleksji (określone rzeczy są tanie, nie ma z czego wybierać, ewentualnie standard jest tylko jeden i nikt nie bawi się w żadne januszowanie i półśrodki)</li>
+<li>robione z dużym nakładem sił (ale w pierwszym podejściu)</li>
+<li>takie, do których podchodzimy po kilka razy, ale z różnych względów nie finalizujemy (brak pieniędzy, dostępność znacznie ciekawszych alternatyw, teściowa)<br />
+ </li>
+</ol>
+<p>W roku 2021 testowałem dwa laptopy, i gdybym je miał najkrócej scharakteryzować, to pewnie trafiłyby do dwóch pierwszych szufladek:</p>
+<ol>
+<li><a href="?q=node/441">Medion Akoya E4251</a> moim subiektywnym zdaniem znalazłby się w grupie chińska taniocha<br />
+ </li>
+<li><a href="?q=node/447">Acer Swift 1 SF114-32</a> powędrowałby na półkę zakupów wykonanych z dużym wysiłkiem (chodzi o to, że testowany wariant czarny został wycofany ze sprzedaży, i ostatnie egzemplarze są w absurdalnych cenach)</li>
+</ol>
+<p>Moje testy polegały na sprawdzeniu obu modeli pod kątem przydatności na cichą, lekką i niedrogą&nbsp; 14-calową maszynę do pisania.</p>
+<!--break-->
+<p>Testowany Medion odpadł w przedbiegach ze względu na mrugający ekran (PWM), wskazywałem również na obecność „dysku” eMMC (który nie jest wymienny, i z zasady nie można sprawdzić jego stopnia zużycia) i kilka innych detali.</p>
+<p>W przypadku Acera zauważyłem pewne problemy moich oczu z użytym ekranem (nie jestem ekspertem, ale wydaje się, że zastosowana matryca nie jest odpowiedniej jakości, ewentualnie nie umiem jej ustawić). Pomijając to produkt tajwański w testowanej wersji był po prostu ideałem (bo jak inaczej można nazwać sprzęt za 1000-2000PLN, który działa na baterii ok. 17h, jest bezgłośny, bardziej uniwersalny niż Chromebook, waży ledwo 1,2 kg, wygląda na 2x droższy i bardziej niż wystarcza do mobilnego pisania tekstów czy surfowania?).</p>
+<p>W dniu dzisiejszym do tego szacownego i elitarnego grona chciałbym dołączyć jeszcze normalny „pełnowymiarowy” laptop sprzedawany przez firmę polską (dalej zawsze będę używał nazwy handlowej Hyperbook, chociaż formalnie spółka nazywa się Blue Technology sp. z o.o.). Sprzęt porównam do Acera, Mediona i kilku innych urządzeń.<br />
+</p>
+<h2><b>Samo urządzenie</b></h2>
+<p>Miejsca, w których produkowano najlepszą elektronikę na świecie, zmieniały się przez lata. Pozwolę przytoczyć sobie dwa dialogi:</p>
+<p>„- I pomyśleć, że przez taki kawałek złomu mieliśmy taki problem. Nic dziwnego, że nawalił. Japoński.<br />
+- Nie rozumiem. Japończycy robią najlepsze rzeczy”</p>
+<p>i</p>
+<p>„- Nie znasz tych urządzeń.<br />
+- Amerykańskie. Rosyjskie. Wszystkie są z Tajwanu”.</p>
+<p>Obecnie wiele firm tylko dokonuje ostatecznego montażu albo sprowadza gotowe zestawy. Biorąc to pod uwagę, myślę, że stwierdzenie „polski laptop” jest w pełni uzasadnione, i poniekąd cieszę się, że nie wszystko jeszcze projektowane jest w Chinach czy USA.</p>
+<p>Nad komputerami fizycznie dostarczanymi przez tajwańskie Clevo zastanawiałem się już od kilku lat, niemniej jednak zupełnie nie podobał mi się ich design.</p>
+<p>Hyperbook L14 z procesorem Intela 10 generacji pojawił się na końcu 2019 roku. Z miejsca w wielu polskich portalach IT mogliśmy przeczytać notatki mówiące o czasie pracy na baterii rzędu 32h. Myślałem o tym laptopie już wtedy, potem próbowałem go zakupić (ale zawsze coś stawało mi na drodze), aż w końcu udało się zebrać chęci, możliwości, i dorwać go w swoje ręce w sierpniu 2021 (mówimy o jego refreshu z procesorem 11 generacji). Wybrana została konfiguracja z procesorem i5 i pastą termiczną Grizzly Cryonaut. Całość nosi formalnie oznaczenie Clevo L140MU, a w Internecie można znaleźć <span style="color: #CEC6CE;">trzy </span>większe recenzje modelu tej serii:<br />
+</p>
+<ol>
+<li><a href="https://www.purepc.pl/hyperbook-l14-ultra-test-laptopa-z-dlugim-czasem-pracy-na-baterii" target="_blank" rel="nofollow noopener">na purepc.pl</a> i oddzielnie <a href="https://www.dobreprogramy.pl/hyperbook-l14-ultra-ultrabook-z-bialegostoku-w-akcji-test,6628722808608897a" target="_blank" rel="nofollow noopener">na dobreprogramy.pl </a>(dotyczą polskiej wersji z procesorem 10 generacji)</li>
+<li><a href="https://www.notebookcheck.net/Schenker-VIA-14-laptop-review-Lightweight-materials-combined-with-a-big-battery.461625.0.html" target="_blank" rel="nofollow noopener">na notebookcheck.net</a> (wariant z procesorem 10 generacji, w innym kolorze, o minimalnie innej konfiguracji, sprzedawany przez firmę z Niemiec)<br />
+ </li>
+<li><a href="https://www.notebookcheck.net/Schenker-VIA-14-laptop-in-review-Lightweight-magnesium-ultrabook-with-extremely-long-battery-life.530814.0.html" target="_blank" rel="nofollow noopener">na notebookcheck.net</a> (wariant z procesorem 11 generacji, w innym kolorze, o minimalnie innej konfiguracji, sprzedawany przez firmę z Niemiec)<br />
+ </li>
+</ol>
+<h2>Wrażenia z kilku pierwszych dni</h2>
+<p>Urządzenie z uwagi na lekkość i design w pierwszym momencie sprawiło na mnie wrażenie zabawki - jest mu znacznie bliżej do Mediona niż Acera (wszystko jest poprawne aż do bólu i nie ma tu fikuśnego zawiasu pod ekranem,&nbsp; na początku miałem niesłuszne podejrzenie użycia podobnego materiału jak w produkcie chińskim, do tego klawiatura wydała się w sumie jakaś taka znajoma). Pomijając to całość jest dobrze spasowana, i w sumie nie można się w niej do niczego czepić (no może poza tym, że górna i dolna pokrywa po zamknięciu wydają się być przesunięte o jakiś ułamek mm, <i>ale to akurat zdarza się nawet w laptopach z najwyższej półki renomowanych producentów</i>).</p>
+<p>Jeżeli chodzi o samą klawiaturę, to jej układ niestety powiela mikroskopijne klawisze PageDown i PageUp (tu Medion był lepszy). Zanim się do niej przyzwyczaiłem, to wydawała mi się dosyć głośna, podobnie jak sztywny touchpad.</p>
+<p>Ekran i pokrywa na czas transportu zabezpieczona zostały folią, i wszystko byłoby w porządku, gdybym nie zauważył braku jednej śrubki na dolnej pokrywie. Okazało się, że z jakiegoś względu nie została ona (pokrywa) idealnie do końca przykręcona, i nie wciśnięto w niej jednego zatrzasku. Wyjaśniłem to oczywiście ze sprzedawcą (przeprosił i zaoferował wysłanie kompletu), natomiast cała sytuacja stała się podstawą i pretekstem do tego, żebym bardzo dokładnie przyjrzał się środkowi.</p>
+<p>Tutaj przeżyłem szok, i to podwójny.</p>
+<p>Bardzo spodobało mi się to, jak wszystko zrobione jest czysto i schludnie. I tak patrząc po kolei – ładne luty, poprzyklejane dobrze zabezpieczone przewody, bardzo poprawnie skręcony układ chłodzenia (przypomnę, że prosiłem o zmianę pasty na Grizzly), i przede wszystkim przemyślany układ całości (przy wadze &lt;1kg mieszczą się dwa dyski M.2 i jeden slot pamięci, do wszystkiego jest dostęp, a bateria CMOS raczej nie wyleje się na płytę główną).</p>
+<p></p>
+<p>Wszystko byłoby idealnie, gdyby nie to, że kabel bateryjki CMOS może ocierać się o drugi dysk twardy (tutaj daje się zauważyć to, że w trakcie montażu w fabryce Clevo przyklejono bateryjkę dosłownie o jeden milimetr za bardzo w prawo), a cztery układy na płycie głównej mają po jednej srebrnej okrągłej plamce (choć mogę się mylić, nie wygląda mi to na luty, ani na pastę termoprzewodzącą, tylko bardziej na <span style="background-color: rgb(255, 255, 255);"><span style="color: #EFEFEF;"><span style="text-decoration: line-through;">fizyczne uszkodzenie ich zewnętrznej powierzchni albo ewentualnie</span></span> </span>jakieś ich oznaczanie).</p>
+<p>Czy się w tym momencie czepiam? Fakt, że w większości urządzeń nie zaglądamy do obudowy (i pewnie nie wiemy, jakie kwiatki tam siedzą). Hyperbook działa idealnie, całość musiała przejść przez niejedną kontrolę jakości, niemniej jednak drobne poczucie wątpliwości pozostało (<span style="background-color: rgb(255, 255, 255);"><span style="color: #EFEFEF;"><span style="text-decoration: line-through;">a ja z ciekawością dowiedziałbym się o co tu chodzi</span></span></span> <i>po kilku dniach okazało się, że kropki na układach to na szczęście oznaczenie ich położenia na płycie głównej</i>).</p>
+<p>Czy tak czy inaczej - ogólnie mówiąc mam na razie wrażenie, że ktoś miał doskonały pomysł i przygotował naprawdę niezły projekt sprzętu, ale na końcu zabrakło kilku detali wykończenia:<br />
+</p>
+<ol>
+<li>na obudowie jest aż pięć naklejek (w konfiguratorze z chęcią wybrałbym ich brak), połączana jest też płyta CD ze sterownikami (Hyperbook moim zdaniem zdecydowanie nie musi jej dodawać)</li>
+<li>karta pamięci microSD wystaje na jakiś milimetr z czytnika (Medion / Lenovo rozwiązało to znacznie lepiej i tam należy ją docisnąć paznokciem, a wtedy wyskakuje)</li>
+<li>Clevo przygotowało miejsce na termopady i modem LTE, a Hyperbook nie oferuje takiej opcji</li>
+<li>nóżki na dole obudowy są lekko sprężynujące (nie wiem, czy sztywne nie wykonywały lepiej roboty)</li>
+<li>komputer był / jest reklamowany jako działający długo na baterii (w zależności od źródła wiadomości podawane były liczby bodajże pomiędzy 20 i 32h), ale na finiszu chyba zabrakło chęci walki o każdy mW energii. Widać to w tym, że po starcie czasem włączane jest podświetlenie klawiatury, jak i w tym, że w BIOS nie ma opcji do fizycznego wyłączenia na stałe USB, czytnika kart pamięci, kamery, WiFi, Bluetooth, a nawet drugiego dysku (z wielką chęcią umieściłbym w środku jakiś tani magazyn i włączał go tylko wtedy, gdy jest mi rzeczywiście potrzebny). Co ja mówię - myślę, że nikt nie obraziłby się mając opcję do przełączania profili energetycznych kombinacją FN+coś albo z BIOS (i wtedy jeśli chcemy mieć najbardziej cichą maszynę, włączamy niskie P1 i P2, a jeśli chcemy ją wygrzać, to uaktywniamy „performance mode”).</li>
+<li>obecny BIOS jest bardzo okrojony i prosty. Mamy dosłownie kilka głównych funkcji i nic więcej (edycja ustawień Secure Boot i botowania, możliwość włączenia TPM 2.0, ustawienia trybu SATA, hasła, włączenia FlexiCharger, VT-d, szybkiego startu, dźwiękowej informacji o niskim stanie baterii). Jest to zdecydowanie zbyt mało, jeżeli ktoś chce przyciągnąć "profesjonalistów" albo „dłubaczy”. I nie trzeba robić tu kombinacji alpejskich - <a href="http://forum.notebookreview.com/threads/clevo-l140cu-l141cu.831690/page-4" target="_blank" rel="nofollow noopener">wydaje się, że odpowiednie pliki są dostępne</a>. Moja sugestia dla Hyperbooka - Prema Mod, krótki guide co skąd pobrać albo oferowanie zmian przygotowanych przez System 76 (mają własną wersję L14, która się zwie Lemur Pro, i dają tam CoreBoot)</li>
+<li>zamiast przesłonki na kamerę jest oddzielna zaślepka do dokupienia<br />
+ </li>
+</ol>
+<p>Możliwe, że tutaj trochę się czepiam, niemniej jednak ten model po kilku drobnych szlifach mógłby stawiać w szranki z najwyższej pozycjonowaną elitą x86, która kosztuje 2x – 4x więcej.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+</p>
+<h2>Pierwsze koty za płoty, czyli Ubuntu na pendrive<br />
+</h2>
+<p>Tak się też złożyło, że w chwili dostarczenia całości nie dysponowałem dyskiem M.2.</p>
+<p>I jak żyć w tej sytuacji?</p>
+<p>A bardzo prosto – ponieważ dysponowałem pamięcią flash na USB o pojemności 8 GB i z natury jestem leniwy, to:<br />
+</p>
+<ol>
+<li>pobrałem Ubuntu</li>
+<li>w maszynie wirtualnej VirtualBox dodałem dysk twardy o wielkości 10GB i dołączyłem moją pamięć</li>
+<li>na dysku flash dodałem partycję UEFI 100MB, małą partycję dla BIOS, małą partycję FAT32 100MB na wymianę plików i partycję EXT4 na nowe Ubuntu</li>
+<li>na partycji EXT4 normalnie zainstalowałem Ubuntu<br />
+ </li>
+</ol>
+<p>Pamięć była gotowa, więc uruchomiłem z niej komputer, doinstalowałem kilka dodatków, dokończyłem konfigurację i (choć wszystko chodziło wolno z uwagi na ograniczenia „dysku”) zacząłem sprawdzanie sprzętu. Kilka komend:<br />
+</p>
+<ul>
+<li><a href="?q=node/376">wyłączenie pliku swap i włączenie używania katalogu tymczasowego z pamięci RAM (zrobiłem kiedyś poradnik)</a></li>
+<li>potwierdzenie, jaki panel LCD zastosowano: sudo sudo apt-get install read-edid i sudo get-edid</li>
+<li>informacje o limitach energetycznych (limit krótki aż do 46W, a peak to 65W, a więc ok. 2x więcej niż nominalnie, co jest raczej totalnie bez sensu dla układu z TDP 12-28W i przewija się w wielu laptopach): sudo apt install powercap-utils i powercap-info -p intel-rapl</li>
+<li>ogólne informacje o sprzęcie: hardinfo</li>
+<li>informacje o baterii: upower -i `upower -e | grep 'BAT'`<br />
+ </li>
+</ul>
+<p>Zauważyłem kilka rzeczy, które świadczą o tym, że albo Ubuntu ma swoje za uszami, albo BIOS powinien mieć w sobie kilka dodatkowych linii kodu:</p>
+<ol>
+<li>system operacyjny po restarcie z uparciem maniaka przełącza profil na „Balanced power” (wyłączając „Power saver”), czasem trzeba również ręcznie wyłączać podświetlenie klawiatury</li>
+<li>nie działa kombinacja Fn+F1 (według firmy Hyperbook wyłącza ona touchpad)</li>
+<li>system operacyjny nie pokazuje żadnej reakcji na Fn+F10 (służy do wyłączania kamery) i tylko np. hardinfo pokazuje informację, że kamera została odłączona. Dodatkowo sytuacja jest jak w punkcie pierwszym (po restarcie komputera kamera jest włączona)</li>
+<li>po wprowadzeniu komputera w standby i otwarciu klapy jest on wybudzany ze stanu czuwania, co jest bardzo niepraktyczne<br />
+ </li>
+</ol>
+<p>Ogólnie prawie całkowicie cud, miód i orzeszki (i mniej więcej orientacyjne 25h na baterii). Przy moim zakładanym profilu pracy (głównie wprowadzanie tekstów) wentylator praktycznie 100% czasu pozostaje wyłączony, a jeśli się uaktywnia, to tylko na kilka sekund (jest głośny, ale na szczęście szumiący, a nie piszczący).</p>
+<h2>Praca z „normalnym” dyskiem</h2>
+<p>Wybór dysku twardego (bardziej poprawnie: pamięci flash) do laptopów jest obecnie sprawą dosyć skomplikowaną. W skrajnych wypadkach (dyski bez pamięci DRAM z cache) otrzymujemy zaledwie jeden kontroler i jedną kostkę pamięci, a ponieważ urządzenia są coraz szybsze, to generują coraz więcej ciepła i potrafią zużywać więcej energii niż jakiś czas temu. Kolejnym problemem jest ich malejąca gwarancyjna wytrzymałość (w przypadku nowych laptopów i dysków OEM najczęściej w ogóle nie podaje się wartości TBW), i nie do końca widoczna troska części firm o eliminację tzw. throttlingu. <br />
+</p>
+<p>Biorąc pod uwagę wszystkie za i przeciw (problemy z zakupem Hynixa Gold S31, brak recenzji różnych obiecujących kandydatów, rozwój technologii i to, że super wypasiony dysk za rok czy za dwa lata i tak nie będzie oferował wszystkich funkcji, ceny, itp.) postanowiłem dać szansę czemuś taniemu od najpopularniejszego producenta na świecie, czyli Samsunga. Nie był to może wybór najlepszy z najlepszych, ale chyba bezpieczny. Zdecydowałem się na model 980, który z założenia nie jest najwydajniejszy, ale według większości recenzji nagrzewa się mniej niż 980 PRO czy 970 EVO Plus (wiele ze stron, jak np. Anadtech, wskazuje też na jego pewną przewagę w kwestiach energetycznych).</p>
+<p>Chcę zauważyć, że Hyperbook ma otwory montażowe na dyski o długości 2280 (nie można więc zamontować krótszych), jak również wskazany jest wybór tych produktów, które są jednostronne (jest to dobre ze względu na chłodzenie - po obejrzeniu laptopa nie jest pewien, czy nie zmieściłby się tam również dyski dwustronne, ale ponieważ nie mam żadnego, to nie mogę tego potwierdzić).</p>
+<p>System został posadzony na <a href="?q=node/385">dysku z szyfrowaniem partycji (więcej na ten temat)</a> i bez oddzielnej partycji na pliki tymczasowe (wyłączyłem również swap wewnątrz). BIOS nie wskazuje na możliwość włączenia Secure Boot, a samo Ubuntu potrafi przewidywać nawet 32h pracy na baterii. Zauważalnym objawem jest sporadyczne włączanie się na stałe przy obciążeniu wentylatora (w takich wypadkach urządzenie trzeba wprowadzić na chwilę w tryb standby).<br />
+</p>
+<h2>A jak to się ma do Acera Swift 1?</h2>
+<ol>
+<li>ogromny żal i smuteczek, że urządzenie Hyperbooka w ogóle ma wentylator, i że nie można sobie „łatwo” ustawić limitów energetycznych (Clevo udostępnia odpowiednią aplikację, ale tylko do Windows). Podczas ładowania zarówno bok urządzenia, jak i zasilacz 65W, nagrzewają się dosyć mocno, i choć jest to normalne, to cały czas przywodzi na myśl Swifta, który jest chłodny, nie katuje uszu, a do tego ma ładowarkę jak w telefonach (wkładamy ją do gniazdka i całe ciepło pozostaje przy gniazdku, a my się nie musimy przejmować tym, że coś nam się grzeje na łóżku czy biurku)</li>
+<li>po wstępnych obserwacjach wydaje się, że L14 pod Ubuntu ma spore zużycie energii w trybie standby – tutaj Acer chyba sprawuje się o niebo lepiej (będę to jeszcze potwierdzał)</li>
+<li>bateria w L14 jest większa i można się spodziewać orientacyjnie więcej 10h-12h pracy, dobrze świadczy o niej również trochę większa pojemność niż zadeklarowana (według jednego programu 74,1 Wh zamiast 73,9 Wh)</li>
+<li>Acer ma „szlachetniejszy” i bardziej „artystyczny” design, włączając w to wygląd, cichszą i ładniej opisaną klawiaturę, a L14 jest po prostu samcem alfa, który nie bierze jeńców, a śniadanie zapija kwasem siarkowym<br />
+ </li>
+</ol>
+<h2>Podsumowanie</h2>
+<p>Proszę zauważyć, że nie wspominałem nic o ekranie. Matryca B140HAN06.2 została wybrana przez Clevo ze względu na niskie zużycie energii i dobre pokrycie palety barw. Pod BIOS-em obraz wygląda prześlicznie, pod Ubuntu czegoś jeszcze mi w nim brakuje (może to być kwestia samego OS – np. Wayland w dalszym ciągu nie wspiera zmiany parametru gamma). Na chwilę obecną praktycznie wszędzie musiałem wyłączyć motyw czarny (wydaje się, że powłoka matowa nie jest niestety idealna i potrzebne jest odpowiednie odbicie światła od powierzchni).<br />
+</p>
+<p>Do tego ostatniego punktu zapewne jeszcze wrócę. Wtedy też przedstawię bardziej szczegółowy opis pod Linuxem i może Windows. Powstanie on, gdy komputer podziała dłużej z „docelowym” dyskiem NVME.</p>
+<p>Jak na razie mogę stwierdzić, że L14 wygląda dobrze zarówno na papierze, jak i „w realu”. Jest to konstrukcja z procesorem Intela, i należą się słowa uznania, zarówno Clevo, jak i Hyperbookowi, że nie powielono w niej różnych typowych dla tej klasy sprzętu błędów.</p>
+<p>Zamówienie zostało zrealizowane konkretnie i sprawnie, wykazano również dużo cierpliwości przy korespondencji mailowej (mniej więcej na poziomie, który oczekiwałem od firmy tej wielkości), obecnie pozostaje kilka otwartych pytań:<br />
+</p>
+<ol>
+<li>co z obrazem? Czy moje oczy będą w 100% zadowolone? Czy konieczne będzie szukanie kolejnej matrycy? </li>
+<li>jak będzie wyglądała kwestia zużywania się baterii? (duże korporacje potrafią gwarantować ją na 20% po 1000 cyklach ładowania)</li>
+<li>jak będą wyglądać uaktualnienia Intel ME?</li>
+</ol>
+<p>Dla jasności - punkt pierwszy spowodował, że wyeliminowałem ze swojego celownika Mediona i miałem pewne mocno wątpliwości co do Swifta 1 (gdyby nie one, pewnie do dnia dzisiejszego nie miałbym w swoich rękach L14).</p>
+<p>A jak wyglądają ceny? O ile Medion Ekoya E4251 kosztował kilka miesięcy temu mniej więcej 1200 PLN, a Acer Swift 1 wymagał wydania 1000-2000 PLN, to całość zakupu L14 zamyka się w orientacyjnej kwocie ok. 4000-4500 PLN. Powtórzę, że za tę cenę otrzymujemy komputer z procesorem Intela 11 generacji, Thunderbolt, miejscem na dwa dyski (jeden SATA), możliwością użycia do 40 GB RAM, i baterią 73Wh. Jest oczywiście wiele rozsądnych alternatyw z procesorem „niebieskich”, ale często są droższe, a w rozmiarze 14-cali z baterią 73Wh można znaleźć chyba tylko LG Gram (ale ma błyszczącą matrycę!). Możemy oczywiście też zamówić podobny do L14 model od innego dostawcy Clevo, ale wtedy musi to być już firma za granicą Polski (najczęściej z wyższymi cenami), a do tego często nie dostaniemy obudowy w czerni. Coś za coś, i Hyperbook ma naprawdę silne atuty w ręku.</p>
+<p>A co oferują inni?</p>
+<p>MacBook Air to koszt od 5199 PLN wzwyż, a Ryzeny ze wszystkim zrobionym jak należy też są droższe.</p>
+<p>Niezależnie jednak od marki czy producenta kości ważne jest jedno - obecne urządzenia elektroniczne mają przede wszystkim być funkcjonalne, czyli działać cicho, długo i nie męczyć wzroku użytkownika. Ja sam nie miałbym nic przeciwko temu, żeby kupić nawet Celerona, ale z pasywnym chłodzeniem, najlepszą klawiaturą i najlepszym ekranem matowym na rynku, a do tego z największą możliwą baterią (ich wielkości określają przede wszystkim linie lotnicze) i odporną obudową. A na dzień dzisiejszy, to albo trzeba rezygnować z mobilności, albo z dobrej matrycy, albo... i Hypebook L14 na szczęście w dużej mierze łamie ten "standard".<br />
+</p>

@@ -1,0 +1,31 @@
+﻿Title: Przepisy drogowe 1.49 (2021)
+Author:marcin
+When:3 Dec 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple,Android,drogowe
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1186407,przepisy-drogowe-1-49>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Po opublikowaniu wersji 1.48 wpadłem w mały ciąg programistycznego natchnienia, i zacząłem pracować nad kilkoma rzeczami.</p>
+<!--break-->
+<h2>Czyszczenie kodu</h2>
+<p>Po kolei: wpierw chciałem wyeliminować różne drobne usterki starego jakby nie było kodu. Zacząłem wtedy przeglądać opisy dotyczące WebView (to kontrolka systemowa, która pozwala osadzać w aplikacji strony HTML), i się z lekka przeraziłem... Android początkowy był stworzony niejako na kolanie (szybko i niechlujnie), potem podkupiony przez Google i rozwijany na zasadzie "zachowujemy ile się da kompatybilności wstecznej". Dużo początkowych założeń architektonicznych (jak również obawa o możliwe procesy wytoczone firmie) spowodowało, że do dzisiaj mamy tutaj anachronizmy albo brak nowoczesnych funkcji znanych z Chrome. Eksperymentowałem z opcjami, i szukałem sposobów na zrobienie chociażby tego, co znakomicie działało w okolicach Android 2.x i chyba jeszcze 4.x (można było sobie powiększyć gestem stronę w taki sposób, że elementy łamały się do szerokości ekranu).</p>
+<p>I co? Wydaje mi się, że zmiany powinny spowodować szybsze ładowanie treści i kilka innych rzeczy, za to wspomnianego powiększania nie ma i chyba już nie będzie (za to będę mógł zrobić czarny tryb "po bożemu", czyli bez własnych funkcji).</p>
+<p>Na pewno jest tu jeszcze sporo do zrobienia, i obecny kod jest trochę przejściowy... natomiast ten system jawi mi się coraz bardziej jako totalna prowizorka (jeśli pominiemy politykę, to nic dziwnego, że prawdopodobnie będziemy mieć Fuchsię).</p>
+<h2>Pieśń przyszłości - Kotlin</h2>
+<p>Trochę podłamany brakiem super wyników zdecydowałem się spróbować konwersji na Kotlina – to taki nowy język Google, który ma zastąpić Javę, a pod spodem… ma Javę (kod jest kompilowany do tej samej formy). Udało się, jednak tej wersji nie będę umieszczał na razie w Google Play – według różnych doniesień aplikacje w Kotlinie mogą działać wolniej niż (tfu, tfu) stara, dobra Java.</p>
+<h2>Przepisy</h2>
+<p>To jest właśnie główny powód, że wydaję wersję 1.49 – mamy zmiany w znakach od 2 grudnia i (jeśli dobrze liczę) 17 stycznia.</p>
+<p>Dodane, a kolor znaków pewnie ujednolicę w okolicach 1.50 – 1.51 (ustawodawca zmienił to i owo w Rozporządzeniach, i pewnie powinienem trzymać się nowej kolorystyki).</p>
+<p>Linki:</p>
+<ul>
+<li><a href="https://dziennikustaw.gov.pl/DU/rok/2021/pozycja/2065" target="_blank" rel="nofollow noopener">https://dziennikustaw.gov.pl/DU/rok/2021/pozycja/2065</a></li>
+<li><a href="https://dziennikustaw.gov.pl/DU/rok/2021/pozycja/2066" target="_blank" rel="nofollow noopener">https://dziennikustaw.gov.pl/DU/rok/2021/pozycja/2066</a></li>
+</ul>
+<h2>Mac</h2>
+<p>W końcu mogę rozpocząć pracę…</p>
+<h2>Linki</h2>
+<ul>
+<li><a href="https://github.com/marcinwiacek/przepisy_drogowe" target="_blank" rel="nofollow noopener">GitHub</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.mwiacek.przepisy.drogowe&amp;hl=pl" target="_blank" rel="nofollow noopener">Google Play</a></li>
+<li><a href="?q=node/490">Release Notes dla poprzedniej wersji</a></li>
+</ul>
+<p>Zapraszam też do czytania tego bloga, gdzie staram się przekazywać różne uwagi m.in. technologiczne (ale nie tylko).</p>

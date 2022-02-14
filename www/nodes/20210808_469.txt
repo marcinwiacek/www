@@ -1,0 +1,45 @@
+﻿Title:Zwariowałem… i kod i pliki rozdaję (2021)
+Author:marcin
+When:8 Aug 2021
+Taxonomy:polski,polski blog,salon24.pl,Android,APN,Apple,App Store,CHM,drogowe,EPUB,Firefox OS,Gammu,Gammu+,ISTQB,S.F.,Sobieski,Straż,Tizen
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1156458,zwariowalem-i-kod-i-pliki-rozdaje>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Coś się zaczyna, coś się kończy.<br />
+<br />
+W życiu każdego człowieka przychodzi taki moment, że trzeba zrobić podsumowanie minionych dni, zrobić kopię zapasową i zacząć myśleć o kolejnej wersji czy iteracji (czasem oznacza to rozpoczęcie starych rzeczy w zupełnie inny sposób, a czasem myślenie o emeryturze).<br />
+<br />
+Pomyślałem, że zrobię takie podsumowanie. A oto rezultat:<br />
+<br />
+Na GitHub umieściłem kilka nowych repozytoriów:<br />
+</p>
+<!--break-->
+<ol>
+<li><a href="https://github.com/marcinwiacek/www" target="_blank" rel="nofollow noopener">www - te pliki z mojej strony www z lat 1999 – 2021, które mogę upublicznić</a> (trochę kodu, trochę plików, do tego setki wpisów i artykułów). Można sobie powspominać gammu.org czy projekty Open Source do obsługi telefonów komórkowych (mówiąc nieskromnie, dużo z nich jadło mi z ręki, a był to wynik kilku lat pracy, dużej ilości reverse engineeringu, itd.), wrócić do techniki HTML Help, artykułów o Linuxie czy innych rzeczy.</li>
+<li><a href="https://github.com/marcinwiacek/RachunekTelefoniczny" target="_blank" rel="nofollow noopener">RachunekTelefoniczny – aplikacja do Androida z 2012</a>, która skanowała połączenia i wiadomości i pokazywała ich koszt dla różnych taryf</li>
+<li><a href="https://github.com/marcinwiacek/PolskiePrzepisy" target="_blank" rel="nofollow noopener">PolskiePrzepisy – research mniej więcej z lat 2012-2013</a>, w którym w wersji www i na Androidzie automatycznie generowałem ujednoliconą treść polskich aktów prawnych</li>
+<li><a href="https://github.com/marcinwiacek/PoczytajMiTato" target="_blank" rel="nofollow noopener">PoczytajMiTato – multiwyszukiwarka do Androida i plików EPUB do 6 wyszukiwarek czy też stron</a>. 2017 rok.</li>
+<li><a href="https://github.com/marcinwiacek/ISTQBGlossary" target="_blank" rel="nofollow noopener">ISTQBGlossary – Android, 2014 rok. Słowniki ISTQB.</a></li>
+<li><a href="https://github.com/marcinwiacek/straz" target="_blank" rel="nofollow noopener">straz – 2019 i Android</a>. Dużo przydatnych informacji dla strażaków. CIągle dostępne w Google Play.<br />
+ </li>
+<li><a href="https://github.com/marcinwiacek/przepisy_drogowe" target="_blank" rel="nofollow noopener">przepisy_drogowe</a> – w 2011 rozpocząłem projekt, który miał za zadanie przekazać w jasnej i zrozumiałej formie różne informacje dla polskich kierowców. Kody dla Android (wersja 1.47), iOS (1.40), Firefox OS (1.22b2), Tizen (1.06 i 1.22b2) i www (1.38), jak również skrypty do tworzenia plików HTML z ustaw z PDF. Ciągle dostępne w Google Play.<br />
+ </li>
+<li><a href="https://github.com/marcinwiacek/bryly" target="_blank" rel="nofollow noopener">bryly</a> <a>– kod źródłowy aplikacji do Androida</a>, która pozwalała bawić się rzutami różnych brył (taka moja mała wariacja na temat używania technologii w służbie nauki)</li>
+<li><a href="https://github.com/marcinwiacek/apn" target="_blank" rel="nofollow noopener">apn – kod źródłowy aplikacji do starszych wersji Androida</a>, która potrafiła zmieniać APN po przełożeniu karty SIM (również w Dual-SIMach Samsunga)</li>
+</ol>
+<p>Jest to dodatek do już istniejących repozytoriów, np.</p>
+<ol>
+<li><a href="https://github.com/marcinwiacek/fantastyka" target="_blank" rel="nofollow noopener">fantastyka - łatwy sposób na generację plików EPUB ze stron fantastyka.pl i fantastykapolska.pl</a></li>
+<li><a href="https://github.com/marcinwiacek/cucumberselenium" target="_blank" rel="nofollow noopener">cucumberselenium</a> - jak sama nazwa mówi, używanie Cucumber i Selenium do testowania aplikacji (pisałem to w lutym 2020 i teraz pewnie wykorzystałbym znacznie bardziej zaawansowane biblioteki)</li>
+<li><a href="https://github.com/marcinwiacek/SobieskiPlus" target="_blank" rel="nofollow noopener">SobieskiPlus</a> - praktycznie cały gotowy engine do utworzenia serwisu webowego. Napisany w JavaScript, miał napędzać fantastyka.pl (więc jest bardzo skrojony pod tę stronę). Nowoczesne rozwiązania - nodeJS, HTTP/2, doczytywanie treści stron i wiele innych feature (jest edytor do tekstów, chat, integracja z Google, etc.)<br />
+ </li>
+</ol>
+<p>Przy dzisiaj opublikowanych kodach można sobie popatrzyć na starszą technologię (jak się kodowało w Androidzie 2.x czy 4.x, jak się używało Gradle czy Eclipse, jak ładnie wyglądały wizualnie aplikacje pod iOS 6, jak wyglądały aplikacje pod Firefox OS czy Tizena, etc.), screenshoty do wielu z tych rozwiązań publikowałem na swojej stronie www, obecnie chciałbym się skupić na kilku elementach:<br />
+</p>
+<ol>
+<li>w przypadku Przepisów Drogowych chciałbym reaktywować konto w AppStore (kosztuje zdaje się dalej ok. 400 PLN rocznie), do tego chciałbym przygotować wersję aplikacji pod iOS (będzie to wymagać zakupu sprzętu Apple i chyba największy sens ma czekanie na najtańszego laptopa lub Mac Mini z M1M)</li>
+<li>wersja Przepisów pod Androida wymaga przepisania, i chyba ogólnie zrobienia engine od nowa (nowe wzorce, Maven, etc.). O ile kiedyś pliki z danymi i użyte rozwiązania były rewelacyjne, o tyle dziś za progiem jest Android 12 i przy mojej większej wiedzy programistycznej (i lepszych komputerach) programowanie wygląda zupełnie inaczej. Nie powiem, przydałby się też telefon referencyjny, czyli Pixel, a to kolejne koszty.</li>
+<li>gdy Przepisy będą gotowe (nie wiem, czy z aktami prawnymi czy bez), pewnie można by użyć tego samego do Straży, zrobić wersję www Przepisów (ale bez trącącego myszką jQuery), etc.<br />
+ </li>
+</ol>
+<p>Ogólnie te punkty nie są może jakieś straszne, ale jest jeszcze jeden czynnik, czyli zdrowie. Musi ono dopisywać, i jest to warunek konieczny (wiek, lata przesiadywania przed ekranem, praca dla różnych firm i tworzenie darmowego kodu, ale też zawistni i mali ludzie jednak swoje zrobiły).</p>
+<p>Czy tak czy inaczej – ze swojej strony będę się starał, commity czy pull request (ewentualnie pomoc w rozpropagowaniu całości i tzw. marketing) zawsze mile widziane.</p>

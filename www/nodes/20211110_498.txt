@@ -1,0 +1,37 @@
+﻿Title: Intelowskie koszmary, czyli w USA bez zmian (+ słówko o Apple, Google i MS) (2021)
+Author:marcin
+When:10 Nov 2021
+Taxonomy:polski,polski blog,salon24.pl,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1180077,intelowskie-koszmary-czyli-w-usa-bez-zmian-slowko-o-apple-google-i-ms>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Na rynek wchodzi 12-generacja procesorów Intela. Jest to wydarzenie szeroko komentowane, które w pewnym sensie na pewno zmieni historię platformy PC - firma przez ostatnie kilka lat cały czas bazowała na jednej architekturze, nieznacznie ją rozbudowując i udoskonalając, obecnie zaś po raz pierwszy w swojej historii wprowadziła rdzenie „słabe” (ich główną zaletą ma być energooszczędność) i „mocne” (tu liczy się wydajność), jak i obsługę pamięci DDR5.</p>
+<!--break-->
+<p><a href="https://www.purepc.pl/test-procesora-intel-core-i9-12900k-alder-lake-vs-amd-ryzen-9-5900x-porownanie-wydajnosci-pamieci-ram-ddr4-vs-ddr5?page=0,37" target="_blank" rel="nofollow noopener">Pierwsze testy najwyższego procesora i9-12900K pokazują jasno, że jednostka jest w stanie przegonić Ryzen 5950x, ale... kosztem większego zużycia energii.</a></p>
+<p>Niebiescy do tego dalej brną w swoje rozwiązanie Intel ME (są tak pewni swojej dominacji, że dalej chcą wszędzie umieszczać coś, co budzi kontrowersje w sprawie bezpieczeństwa). Bardzo ciekawe jest też to, że tuż <a href="https://www.purepc.pl/intel-w-najnowszej-aktualizacji-wylacza-obsluge-directx-12-w-starszych-procesorach-powodem-luka-w-zabezpieczeniach" target="_blank" rel="nofollow noopener">po premierze 12-generacji wyłączono DirectX 12 w procesorach Haswell</a> (firma ogólnie znana jest z tego, że kolejne poprawki bezpieczeństwa zmniejszały wydajność <a href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-TSX-Off-New-Microcode" target="_blank" rel="nofollow noopener">albo usuwały instrukcje</a>). Czy taka „nowoczesność” jest potrzebna obecnemu światowi?</p>
+<p>W obszarze x86 najlepszą ofertę wydaje się wciąż obecnie mieć AMD, coraz lepiej na rynku procesorów radzi sobie Apple (ich procesory z serii M kosztem niższego zużycia energii potrafią przewyższać jednostki konkurencji, i choć może to mocno wynikać z bardziej zaawansowanego procesu produkcji, to i tak budzi duży podziw).</p>
+<p>Zastanawia mnie w tej sprawie kilka rzeczy - dlaczego nie we wszystkich jednostkach Intela są dostępne rdzenie energooszczędne? (czy są to odrzuty z produkcji?) Dlaczego firma manipuluje nazewnictwem? (10nm to obecnie Intel „7”, TDP też ma inną nazwą) I wreszcie dlaczego praktycznie nigdzie w recenzjach nie ma porównania pomiędzy Intel 12-gen, Ryzenem i Windows działającym w Rosetta na którejś z jednostek Apple? (jest to ciekawe, bo serwisy IT bardzo chwalą nowe układy M, i myślę, że bardzo ciekawie wyglądałoby to w kontekście mocy obliczeniowej na 1 W energii - pewien przedsmak daje <a href="https://www.purepc.pl/apple-m1-w-starciu-z-procesorami-intel-tiger-lake-oraz-amd-cezanne-czy-architektura-arm-jest-lepsza-od-tradycyjnego-x86?page=0,18" target="_blank" rel="nofollow noopener">tekst "Apple M1 kontra procesory Intel Tiger Lake i AMD Cezanne - czy architektura ARM jest szybsza od tradycyjnego x86?"</a> albo <a href="https://www.chip.pl/2021/11/pojedynek-procesorow-intela-i-apple/" target="_blank" rel="nofollow noopener">zajawka tekstu "Pojedynek procesorów Intela i Apple. Jak wypada M1 Pro i M1 Max na tle Alder Lake-S?"</a>).</p>
+<p>Czy można więc powiedzieć, że w obozie niebieskich nic się nie zmieniło? I że wraz z Microsoft dalej stanowią dream-team, który niekoniecznie jest w stanie dostarczyć w sposób fair-play najlepsze rozwiązania na rynek? (bo jak inaczej nazwać „błędy” związane z procesorami Ryzen po wypuszczeniu Windows 11?)</p>
+<p>Wydaje się, że to tylko potwierdza, że na rynku w USA nadal panuje niezmienny podział i zasady:</p>
+<ol>
+<li>wintel działa ramię w ramię (tzn. Microsoft w porozumieniu z Intelem robią sporo, żeby Windows pracował przede wszystkim na najnowszych i „najlepszych” układach na rynku)</li>
+<li>układy niebieskich wymagają nowych podstawek i potrzebują duuużooo prądu</li>
+<li>AMD na przekór wszystkiemu próbuje jakoś przeżyć, podgryzając co tylko się da (a niestety jest to problematyczne, szczególnie, że sprzedawcy Intela dostaną wiatr w żagle)</li>
+<li>Apple ma doskonały marketing, ale... ciągle na czymś wpada i żąda za to ogromne pieniądze (a ludzie w to idą)</li>
+</ol>
+<p>Właśnie... chciałbym jeszcze co nieco wspomnieć o tej ostatniej firmie. Mieli i mają swoje pięć minut w temacie procesorów, podkupili moce przerobowe związane z najlepszymi procesami (5nm, a niedługo 3nm)... i niestety często sprzedają buble - w ostatnich latach widzieliśmy odłażenie powłoki antyodblaskowej na ekranach, problematyczne klawiatury, ekrany z poświatą, galaretowate przewijanie na ekranie, nierówne podstawki do monitorów, a ostatnio pękające ekrany w laptopach (winny jest piasek czy inne drobne przedmioty - ta, jasne) i wycieki pamięci w systemach z procesorami M. I teraz największy problem - wielu, naprawdę wielu spraw by nie było, gdyby pewne rzeczy zrobione były po inżyniersku albo zgodnie z logiką znaną z całego cywilizowanego świata. I tak np.</p>
+<ol>
+<li>zamiast powłok antyodblaskowych można by użyć ekranów matowych</li>
+<li>konstrukcja klawiatur znana jest od dziesięcioleci i trzeba tam nic poprawiać</li>
+<li>iMac mógłby mieć regulację położenia</li>
+<li>wycieki pamięci to zwykły normalny problem, który zdarza się każdemu, i ludzie w ogóle by o nich nie mówili, gdyby nie problemy z wymianą SSD (żeby go oszczędzić, to ludzie wręcz piszą, jak wyłączyć cache w przeglądarkach)</li>
+</ol>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/1-I_raOAnBc" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>W ekosystemie Apple trzeba bohatersko walczyć np. z problemem aktualizacji na telefonie (trzeba ją pobrać przez Wifi) czy synchronizacją plików przez Bluetooth (cały świat wymyślił już, żeby je przesyłać, ale u Apple to nie może oczywiście przejść…). Ogólnie pewne proste rzeczy stają się mocno problematyczne, np. dużym dylematem jest to, czy wybrać 8 czy 16GB RAM (myślę, że dużo do myślenia da video, na którym pokazano, o ile różni się swap po uruchomieniu jednej jedynej maszyny wirtualnej, która ma ledwo 4GB na pokładzie):</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/UH17590SfI0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+Tak więc podsumowując - w USA bez zmian, przynajmniej w Intelu (zrobili coś, bo musieli, ale do Ryzena sporo im jeszcze brakuje), Microsoft (Windows 11 to kolejna rewolucja na papierze) i Apple (choć naprawdę mogliby zawojować świat, to wiele rzeczy robią naokoło, zgodnie z zasadą „think different”), że o Google i Facebook nie wspomnę (czy naprawdę ktoś wierzy, że firma Cukierberga wykasuje jakieś dane?). Ten rynek jest tak zatęchły i zacementowany, że aż się czasem niedobrze robi.<br />

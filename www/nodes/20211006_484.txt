@@ -1,0 +1,58 @@
+﻿Title: Współczesne pokolenie nie umie nawet szukać, a ja wiem dlaczego (2021)
+Author:marcin
+When:6 Oct 2021
+Taxonomy:polski,polski blog,salon24.pl,Android
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1171101,wspolczesne-pokolenie-nie-umie-nawet-szukac-a-ja-wiem-dlaczego>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>„- Numer 112, słucham.</p>
+<p>- Dzień dobry. Do mojego domu włamał się mężczyzna.</p>
+<!--break-->
+<p>- Nie mężczyzna, tylko człowiek. Jakiego koloru skóry jest?</p>
+<p>- No takiego i takiego.</p>
+<p>- No to pod żadnym pozorem proszę nie robić nieprzyjaznych ruchów. Może pan jego uczucia zranić. Powiedział, żeby mu mówić na on?</p>
+<p>- Tak. I ja już mu herbatkę zrobiłem, i jego płyny z dywanu posprzątałem.</p>
+<p>- Dobrze. A użył pan czarnej czy białej ściereczki? Bo wie pan, czarny w niektórych kulturach jest bardzo negatywny.</p>
+<p>- Białej, nie czarnej.</p>
+<p>- Dobrze, dobrze. I taka mała dobra przyjacielska rada – proszę zawsze mówić przykurzonej albo białej inaczej zamiast czarnej. Rozumiemy się?</p>
+<p>- Tak, tak. Ale sam pan powiedział...</p>
+<p>- To jest specjalny test, żeby wykrywać mowę nienawiści. Rozumie pan?</p>
+<p>- No tak. Oczywiście.</p>
+<p>- A ile ma pan izb?</p>
+<p>- No trzy.</p>
+<p>- To proszę jedną natychmiast zwolnić. Trzeba się dzielić z potrzebującymi matkami i dziećmi, a z ludźmi wysoko wykształconymi to już w ogóle</p>
+<p>- A jak…</p>
+<p>- A jak będzie chciał pojechać do muzeum lotnictwa, to zabierze go pan do muzeum lotnictwa, jego mać”</p>
+<p>Taka mniej więcej logika towarzyszy wielu obecnym dyskusjom na temat nieszczęśników, którzy bagna i moczary przy wschodniej granicy ostatnio przemierzają. Jest to oczywiście tragedia, bo</p>
+<ul>
+<li>ktoś ich do tego wszystkiego zachęcił</li>
+<li>ktoś im zapewne pomógł</li>
+</ul>
+<p>I teraz pytanie – czy głaskać ich po głowie czy stosować push-back? I czy ta sytuacja jest etapem wstępnym do tego, co widzimy w niektórych „postępowych” krajach? (i naprawdę proszę nie wchodzić w dyskusje typu „biednym trzeba pomagać” – jeżeli chcą wejść do Polski, to niech użyją przejścia granicznego. Kropka)</p>
+<p>Piszę o tym, gdyż <a href="https://ithardware.pl/aktualnosci/studenci_uczelni_technicznych_nie_rozumieja_struktury_katalogow_w_systemie_operacyjnym-17953.html" target="_blank" rel="nofollow noopener">przeczytałem ostatnio informację o tym, że absolwenci uczelni technicznych nie orientują się w tym, co to jest katalog i plik.</a></p>
+<p>Czyż to nie jest piękny wstęp do pracy korporacyjnej?</p>
+<center><p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/u8Kt7fRa2Wc" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p></center>
+<p>Sam na własne oczy miałem do czynienia z podobną sytuacją. Zbierzmy fakty:</p>
+<ol>
+<li>W miarę sensowny Android pojawił się na rynku ok. 2010 roku (a więc nie jest jakimś magicznym potworem)</li>
+<li>Żeby móc korzystać w nim z Internetu czy innej formy transmisji danych (np. MMS), w telefonach komórkowych od wielu lat konieczne jest wpisanie tzw. APN.</li>
+<li>Użyto karty operatora a2mobile, który nie może wysłać wiadomości z konfiguracją APN (trzeba je sobie wklepać w większości modeli)</li>
+</ol>
+<p>Łącząc to wszystko – problemem nie do przeskoczenia nawet dla najmłodszych (a i starszych) okazało się:</p>
+<ul>
+<li>skorzystanie z wyszukiwarki</li>
+<li>znalezienie informacji, co i jak tu ustawić</li>
+</ul>
+<p>Bardzo mocno mi się przypominają te trzy filmiki:</p>
+<center>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Uo0KjdDJr1c" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/iKcWu0tsiZM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/XM-HJT8_esM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</center>
+<p>Jeszcze więcej narracji jak we wstępie, rozmiękczania ludzkiej logiki i zasypywanie jej masą nonsensownych faktów, i będzie coraz fajniej.</p>
+<p>PS. Apropo ekologii, którą jesteśmy tak zasypywani przez wielkie korporacje zza wielkiej wody - przypomniały mi się właśnie dokumenty, jak USA dawno temu miało naprawdę rozbudowane linie tramwajowe i trolejbusowe, a potem do głosu doszło lobby samochodowe...</p>

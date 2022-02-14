@@ -1,0 +1,76 @@
+﻿Title: Bohaterowie nie potrzebują błysków fleszy - przychodzą w bólu i ciszy. (2021)
+Author:marcin
+When:15 Oct 2021
+Taxonomy:polski,polski blog,salon24.pl,Ubuntu,Windows,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1173426,bohaterowie-nie-potrzebuja-blyskow-fleszy-przychodza-w-bolu-i-ciszy>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>„Wszyscy” się „ekscytują” Rotą pewnej jasnowłosej gwiazdki polskiej polityki, tymczasem tego samego dnia miała miejsce premiera, i to premiera nie byle jaka, bo dotycząca systemu, który ma ambicję być przeciwwagą dla Windows.
+<p>Panie i panowie, Ubuntu pokazało się w wersji 21.10, nie chcę jednak zanudzać suchymi numerkami (które mamy jądro, które Gnome, o ile ma być lepsza kompresja pakietów, etc.), tylko na podstawie kilku maszyn podam kilka twardych faktów dotyczących instalacji (żeby nie było smutno, to jeszcze dodam coś ze świata Windows).
+<!--break-->
+<h2>Zestaw 1 – laptop</h2>
+<p>Maszyna została skonfigurowana mniej więcej zgodnie z <a href="?q=node/480">ustawieniami z notki „Producent / sprzedawca (obecnie) mówią o 20h na baterii, ja mam nawet prawie 36h”</a>. Po podłączeniu do internetu pokazała się informacja o nowej wersji systemu. Wyraziłem zgodę na jej instalację. W trakcie zostałem poproszony o zaakceptowanie nowej wersji trzech plików konfiguracyjnych, potem jednak pojawiły się błędy związane z kilkoma pakietami:</p>
+<center><p><img src="sites/default/files/486/1.png" alt="image" /></center>
+<p>zostałem też uraczony sprzecznymi informacjami:</p>
+<center><p><img src="sites/default/files/486/2.png" alt="image" /></p>
+<p><img src="sites/default/files/486/3.png" style="width: 497.265px; height: 492.233px;" alt="image" />
+</center>
+<p>Po restarcie okazało się, że nowe jądro 5.13 pokazuje tzw. kernel panic, a po wystartowaniu jądra 5.11 z Ubuntu 21.04 mam co prawda system w wersji 21.10, ale z kilkoma błędami czy tez zmianami (z Waylanda musiałem ręcznie przełączyć na X11, ręcznie wybrać profil graficzny w Settings i ręcznie przestawić kolory w terminalu). Teoretycznie wszystko było OK, ale…
+<p><pre>sudo apt-get upgrade</pre>
+<p>sypało błędami, z których zwłaszcza jeden (No space left on device) był zastanawiający. Po drobnej komplementacji dwukrotnie zwiększyłem obszary na katalogi /tmp i /var/tmp w RAM (z 512MB na 1GB) i ponowiłem próbę z apt-get, po restarcie wyczyściłem dysk:
+<p><pre>sudo apt-get clean<br />
+sudo apt-get autoremove<br />
+snap list --all | awk '/disabled/{print $1, $3}' |
+    while read snapname revision; do
+        sudo snap remove "$snapname" --revision="$revision"
+    done
+</pre>
+<p>i na koniec przywróciłem zawartość plików konfiguracyjnych i wyłączyłem usługę cups.
+<p>Nudy.
+<p>Ilość zajętego miejsca zmieniła się z 11479660 na 11711596 (mamy mniej więcej 230MB więcej), a ilość zapisów na dysku wzrosła z 66,8GB na 77,2GB (wzrost o 10,4GB).
+<h2>Zestaw 2 - stacjonarny</h2>
+<p>Potrzebny był jeden nadwymiarowy restart (kwestia sprzętowa), ale wszystko poszło jak należy. Miejsca na dysku po wyczyszczeniu pakietów nawet przybyło (zwolniło się ok. 1,784GB), wskaźnik zapisów dysku przed i po pokazywał 13,2TB.
+<p>Nudy.
+<h2>Zestaw 3 – laptop</h2>
+<p>Dokonano uaktualnienia Windows 10 21H1 (zwykła miesięcznica) - ilość zapisów z 15839GB / 15.468TB zmieniła się 15854GB / 15.482TB (zapisano 15GB, trzeba pamiętać, że oddzielnie trzeba jeszcze uaktualnić chociażby pakiet Office).
+<p>Microsoft nie proponował tu Windows 11.
+<p>Nudy, nudy, nudy.
+<h2>Zestaw 4 – laptop</h2>
+<p>Sprzęt mniej więcej z tym samym zestawem aplikacji co zestaw 1 (system operacyjny, przeglądarka, pakiet biurowy). Na dysku zajęte ok. 32GB.
+<p>Tu wgrano poprawki z dwóch czy trzech miesięcy. Zapisano mniej więcej 19GB i zajęto dodatkowo ok. 1 GB (nie uruchamiałem procedury usuwania plików z dysku).
+<p>Microsoft nie proponował tu Windows 11.
+<p>Też jakoś smutno.
+<h2>Podsumowanie</h2>
+<p>Duża część branży IT żyje oczywiście systemem Windows, który podobnie jak kot ma siedem żyć i właśnie pokazał się w wersji pośmiertnej (po świecie krążyła informacja, że Windows 10 będzie ostatnią inkarnacją okienek, i że pod koniec 2021 pojawi się dramatycznie graficznie odmienione wydanie, tymczasem Microsoft spłatał wszystkim figla i wydał całość jako Windows 11).
+<p>Rozwiązanie już od pierwszych chwil wydawało się przygotowane pospiesznie i na kolanie:
+<ol>
+<li>są mocne niejasności związane z wymaganiami sprzętowymi (w niektórych scenariuszach takie, w innych być może inne, do tego zmieniały się w kolejnych dniach, a odpowiednia aplikacja Microsoft i Windows Update potrafiły pokazywać sprzeczne zeznania)</li>
+<li>mamy udostępnianie falami podobnie jak w niesławnej Viście (ludzie już spekulują, że w wyliczance „co drugi Windows jest dobry” ten system będzie stał na pozycji „zły jak diabli”)</li>
+<li>wirtualizacja podobno ogranicza wydajność aż o 15% (podobno czasem można ją wyłączyć)</li>
+<li>są błędy związane z procesorami Ryzen -  pierwsze doniesienia mówiły nawet o utracie 15% wydajności, o opóźnieniach pamięci L3 do ok. 17ns, które <a href="https://www.theverge.com/2021/10/13/22723998/windows-11-update-amd-ryzen-cpu-performance-worse" target="_blank" rel="nofollow noopener">zwiększyły się z październikowymi poprawkami Microsoft nawet do ok. 32ns</a> (ciekawe, że podobnych problemów nie ma przy Intelu - czy jest to sabotaż AMD w białych rękawiczkach? Ciekawe, że <a href="https://www.instalki.pl/aktualnosci/internet/50271-xbox-20-lat-amd-intel-przeprosiny.html" target="_blank" rel="nofollow noopener">dzisiaj przeczytałem o tym jak to Microsoft 20 lat temu wyprodukował prototypy XBOX na układach AMD, na prezentację zaprosił inżynierów AMD i dopiero wtedy ogłosił, że wybiera Intela</a>)</li>
+<li>są niejasności związane z poprawkami bezpieczeństwa dla „niewspieranych” konfiguracji</li>
+</ol>
+<p>System jest absurdalnie przerośnięty i wydaje się burzyć to, co w Windows było od lat (jednakże pod maską tak naprawdę niewiele się zmieniło, i mamy chociażby zalecenia, żeby klucze Rejestru nie używały różnych literek). Nie chcę oczywiście nawiązywać do narodowości CEO Microsoftu, ale… czy nie przypomina to coraz bardziej filmów z Bollywood?
+<p>Tak wygląda jedna strona barykady. A druga? Chciałoby się powiedzieć, że na zachodzie bez zmian (choć tu coś nowego, tam zmienionego, ale każdy się odnajdzie), ale z drugiej strony Phoronix zrobił kilka testów i pokazał w nich, jak w ostatnim czasie zmieniła się wydajność. Wyszło, że co nieco widać:
+<ol>
+<li><a href="https://www.phoronix.com/scan.php?page=article&amp;item=ubuntu-2110-zen2vega&amp;num=1" target="_blank" rel="nofollow noopener">na Ryzenach</a></li>
+<li><a href="https://www.phoronix.com/scan.php?page=article&amp;item=ubuntu-2110-tiger&amp;num=1" target="_blank" rel="nofollow noopener">na Intelach</a></li>
+</ol>
+<p>a do tego <a href="https://www.phoronix.com/scan.php?page=article&amp;item=autumn-2021-tigerlake&amp;num=1" target="_blank" rel="nofollow noopener">nad Ubuntu góruje wciąż dystrybucja od Intela</a> (czy to nie chichot historii, że Open Source od Intela jest lepsze niż to „prawilne”?)
+<p>Przy wymianie całego systemu i podstawowych aplikacji na dysku w zestawie 1 zapisano mniej więcej 10GB (w Windows przy wgraniu tylko kumulacyjnych poprawek idzie 15GB-20GB), a całość zajmuje mniej więcej 11GB (Windows ok. 30 GB). Aż chce się powiedzieć „szkoda, że gorszy system wypiera lepszy” (parafraza do powiedzenia o pieniądzu). I choć Ubuntu chyba coraz bardziej przypomina korporacyjne twory, to wciąż nie zepsuto zbyt wiele, i zrobiono kolejny krok do przodu. Mission complete. Finito.
+<p>To wszystko pokazuje, że oprogramowanie w modelu bazaru bywa jednak lepsze (co nie znaczy, że jest idealne albo perfekcyjne). I proszę nie pisać, że Windows to gry, MS Office i Active Directory. Nie o to mi chodzi, ale żeby to zrozumieć, odwołam się do wideo:
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Cs27FtYKEos" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>To nie jedyna taka historia. W wielkim skrócie wszystko zaczyna się od rzeczy małych, potem poniekąd przekłada się i na produkty (na wideo jest również o tym mowa). Myślę, że podobnie jest z Microsoft – gdyby nie ideologia i pewne zasady czy kwestie kompatybilności, to Windows pewnie co kilka lat miałby rewolucje na miarę przejścia z generacji 9x na NT.
+<p>A zmiany na pewno są potrzebne, i poniekąd rozumiem, że Microsoft szuka czegoś innego. Świat idzie do przodu, do głosu dochodzą coraz młodsi użytkownicy (i chcą czegoś innego niż starsi). Interfejsy i detale będą się zmieniać, i zrozumiałe jest to, że ani Windows ani Linuks nie będą utrwalone jak „Kevin sam w domu” (nomen omen, Disney chce zrobić kontynuację i nie da się odzobaczyć zwiastuna)
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/2BkVf2voCr0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Ale ale… jak to się dzieje, że w dużych korporacjach wszyscy ci, którzy dostali namiastkę władzy, podejmują często nonsensowne decyzje?
+<p>Ciekawe, czy historycy za ileś lat będą mówić o różnych produktach z XXI wieku w kontekście tego, że te wszystkie szczurki w garniturach to jednak pracowały w obozach pracy podobnie jak pokolenia wcześniej (tylko że teraz same się nadzorowały i wykonywały pracę bardziej głową niż mięśniami). A o tym, że Open Source jest dobre, to wie przecież nawet Google - jeśli ktoś nie chce mówić o Androidzie, to niech wspomni chociażby Chromebooki i spojrzy na statystyki ich popularności w USA.
+<p>Zastanawia mnie jeszcze w ogóle przy okazji zupełnie inna kwestia. Po instalacji różnych poprawek na zestawie stacjonarnym numer 2 (nie tylko OS) zużycie energii w trybie idle spadło mniej więcej o 2W. Nie wiem, co tu najbardziej pomogło, ale jakiś czas np. czytałem o tym, że w przypadku jądra linuksowego AMD pracuje nad innym schedulerem, który powinien pomóc w oszczędnościach.
+<p>Sprawy energetyczne nasunęły mi kilka pytań – czy można zmniejszyć zużycie baterii energii przy korzystaniu z linuksowego wydania LibreOffice? (teoretycznie przy samym pokazywaniu tekstu jest zerowe, ale powertop równocześnie pokazuje pewne podwyższone wartości). Ile może zużywać przeciętny laptop w trybie idle? 3W? A ile zużywa przyzwoita maszyna stacjonarna? 45 + 17? (W grudniu 2019 pisałem o zestawie z Ryzenem 3950x i kartą graficzną 1650, który w trybie idle zużywał mniej więcej 45W, a dołączony monitor pobierał 16,7W). Czy naprawdę nie można przerzucić całej produkcji na rozwiązania, które jednak zbliżają nas do 3W? Tylko, czy to kogoś to jeszcze interesuje?
+<p>Poniekąd na pewno nie ma się co tym wszystkim zbytnio ekscytować (czy Windows, czy Ubuntu, czy laptop czy blaszak czy inny wynalazek, to wszystkie one służą wyłącznie do tego, żeby coś zrobić), z drugiej strony należy znać różne fakty i liczby, i jak najmniej używać tego, co jest zwykłą wydmuszką.
+<p>A ja mam nadzieję, że nie wszyscy poprzestają na komentowaniu pewnej jasnowłosej gwiazdeczki polskiej polityki (i choć nie lubię cytować polityków pewnej partii i nie należy wzywać imienia pana Boga nadaremno, to komentarz „O mój Boże” jest chyba więcej niż wymowny)
+<p>A co z cytowania polityków wychodzi, to widać tutaj (telefon z Milionerów):
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/uJRa6K7upPc" class="note-video-clip"   frameborder="0">
+</iframe></div>

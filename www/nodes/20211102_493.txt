@@ -1,0 +1,39 @@
+﻿Title: Czy w Polsce (IT) jest jeszcze kapitalizm? (2021)
+Author:marcin
+When:2 Nov 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1177545,czy-w-polsce-it-jest-jeszcze-kapitalizm>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dzisiaj kilka luźnych przemyśleń. Chciałbym zwrócić uwagę na franka szwajcarskiego, który ostatnio bije rekordy i kosztuje średnio coś koło 4.36PLN. Pomyślałem, że spojrzę na ofertę ulubionej przez wszystkich firmy i porównam cenę pierwszego lepszego produktu. A wygląda ona następująco:</p>
+<!--break-->
+<center><p class="a-img"><img src="sites/default/files/493/1.jpg" style="width: 354.989px; height: 729.733px;" alt="image" />
+<img src="sites/default/files/493/2.jpg" style="width: 354.146px; height: 728px;" alt="image" /></p></center>
+<p>10 799 PLN (podatki 2032 PLN) i 2199 CHF (163 CHF).</p>
+<p>Ile to jest?</p>
+<p>2199 * 4.36 = 9588 PLN (podatki 710,68 PLN)</p>
+<p>Wychodzi na to, że bogaty Polak musiałby wydać na sprzęt więcej niż Szwajcar, a różnica w cenie wynika z podatku.</p>
+<p>Na potrzeby eksperymentu pomyślmy teraz, że frank kosztuje 4.1 PLN. Wtedy 9016 PLN (podatek 668PLN) i różnica w cenie wynosi jedyne 1783 PLN.</p>
+<p>Ten prosty zabieg pokazuje o ile bardziej drenowani jesteśmy z ciężko zarobionych pieniędzy (na 500+ i inne programy musi być, prawda?). Czy nie przypomina to ustroju, w którym bohatersko dąży się do tego, żeby wszyscy mieli po równo?</p>
+<p>„Socjalizm bohatersko walczy z problemami nieznanymi w innym ustroju”.</p>
+<p>Hasło to towarzyszyło nam przez lata - czy coś się zmieniło?</p>
+<p>Postaram się na to odpowiedzieć głównie z punktu widzenia IT, ale nie tylko.</p>
+<p>Zacznijmy od ulubionej firmy sadowniczej. Pokazali nowe komputery przenośne, i z jednej strony chwała im za to. Teoretycznie wszystko jest tam jak należy, ale… spore kontrowersje budzi notch. Znienawidzone wcięcie na ekranie w nowym sprzęcie okazuje się być niezgodne z aplikacjami, które w brakującym miejscu potrafią pokazywać elementy menu. Mamy oczywiście opcję do skalowania określonych programów… ale wtedy nie wszystko jest idealne. Czyż to nie jest przykład tego, że producent stworzył problem, z którym będzie trzeba teraz bohatersko walczyć?</p>
+<p>Notch jest problemem nie tylko w Apple – wcięcia czy dziurki są używane przez kolejnych producentów, którzy nawet na zdjęciach promocyjnych starają się je ukrywać (proszę sobie spojrzeć na stronę producenta jabłek, na których pokazują zdjęcia poglądowe).</p>
+<p>Takim samym problemem jest brak ramek. W starszym sprzęcie mamy kawałek plastiku, na którym możemy położyć palec... a w nowym urządzenie trzeba chwytać w bliżej nieokreślony sposób (inaczej będziemy naciskać i palcować sam ekran).</p>
+<p>Nowe komputery Apple nie rozwiązały jeszcze jednego problemu profesjonalistów, i nie można w nich legalnie wymienić dysków. Zużywanie się dysków SSD wynika z ich konstrukcji, i poniekąd stało się problemem dla całej branży. Z jednej strony ostatnio widzieliśmy narzekania producentów, że są niedobory i niedobrzy użytkownicy „górniszkodnicy” zapisują coraz więcej bitów, z drugiej strony odpowiedzią na to ma być obniżenie TBW w kolejnych modelach... Czy komuś się tu coś nie pomyliło? Czy wypuszczanie kolejnych „nowych” modeli jest właściwą reakcją? (tak, tak, chodzi oczywiście o zarobek, natomiast idealnie również wskazuje na wspomnianą zasadę bohaterskiej walki z problemami wcześniej nieznanymi).</p>
+<p>Tak w ogóle w socjalizmie w Polsce z jednej strony mieliśmy do czynienia z patologiami typu „produkowanie aut z drewnianą podłogą nawet pod koniec lat 80-tych”, z drugiej jednak strony wiele produktów ze względu na niedobory materiałów przewidywano na lata.</p>
+<p>Co się stało dzisiaj?</p>
+<p>Ano sprzedaż to obecnie paskudna praca.</p>
+<p>Załóżmy, że ktoś ma doskonały produkt, i musi go sprzedać, bo za miesiąc będzie mieć jeszcze lepszy. Albo że pracuje w jakimś korpo, które klepie produkty o niebo gorsze niż konkurencja.</p>
+<p>W obu przypadkach bohatersko robi się marketingowe fikołki, byleby coś tylko wypchnąć z magazynu… jak dla mnie przykładem takich fikołków jest masowe produkowanie gier czy systemów operacyjnych Windows, a potem rozdawanie ich za darmo (gdyby były bardzo dobre, to nie trzeba by robić takich promocji).<br />
+I w ten piękny sposób produkujemy dla produkowania, a potem walczymy z ocieplaniem klimatu i innymi negatywnymi skutkami.</p>
+<p>Nawiasem mówiąc pewnym problemem jest również system podatkowy. Im bardziej branża jest „interesująca”, tym więcej podatków się tam wprowadza. I tak np. mamy podatki na paliwie, mamy też VAT, który jest ciekawy ze względu na zasadę jego zwrotu w określonych warunkach (zamiast zastąpić go czymś innym, co nie wymaga całego tego fiskalizmu, brnie się w coraz więcej kontroli, coraz bardziej skomplikowane formy rozliczeń, specjalne konta bankowe, itp.), i podatek dochodowy, którym tak naprawdę kara się przedsiębiorczość.</p>
+<p>Wróćmy jednak do IT, a konkretnie serwisów społecznościowych. Jak dosyć powszechnie wiadomo, ich wspólną cechą jest nakręcanie (negatywnych) emocji i zamykanie użytkowników w bańkach. Co mamy po latach? Po latach mamy przyciski do zgłaszania mowy nienawiści. Szach mat.</p>
+<p>A cookies i oświadczenia o prywatności? Teraz po wejściu na każdą stronę, jesteśmy raczeni kolejnymi komunikatami. To straszne, że system pozwolił na śledzenie każdego z nas (poprzez brak odpowiedniego prawa, które respektowano by z całą surowością), a teraz zamiast naprawić przyczynę przykleił plasterek czy też bardziej papierek lakmusowy.</p>
+<p>To wszystko jakoś tak mocno przypomina system miniony, i rzeczy tam robione.</p>
+<p>PS. Czytałem ostatnio o szczycie klimatycznym. Popatrzyłem tam na video z maskowaniem (jak politycy zdejmują szmatki, gdy nikt nie widzi) i poczytałem o ilości samolotów i samochodów, które tam zaangażowano. I jakoś tak w tym miejscu dziwnie przypomniała mi się prezentacja Motobiedy o Czajce i pewnych klasach mocno uprzywilejowanych:</p>
+<p>
+<center><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/gbQ1VtZX3Xc" class="note-video-clip"   frameborder="0">
+</iframe></div></center>
+</p>
+<p>I hope you have learnt something.</p>

@@ -1,0 +1,63 @@
+﻿Title:Biednemu wiatr w oczy wieje? Gdzie ma być granica odpowiedzialności producenta? (2021)
+Author:marcin
+When:1 Aug 2021
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1154961,biednemu-zawsze-wiatr-w-oczy-wieje-gdzie-ma-byc-ustawiona-granica-odpowiedzialnosci-producenta>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Youtuberzy i popularne serwisy w większości testują nowe produkty, i poniekąd z jednej strony nie ma co się temu dziwić.</p>
+<p>A gdyby spojrzeć na coś po dłuższym czasie? Czy możemy wtedy zżymać się na różne niedomagania? Jeżeli nie, to czy powinniśmy mieć wtedy jakiekolwiek oczekiwania względem producentów?</p>
+<p>Sezon ogórkowy w pełni. Dzisiaj wezmę na warsztat kilka dosyć standardowych produktów (czasem konkretnych modeli) i przedstawię bardzo luźne uwagi na temat tego, na ile poważnie jesteśmy traktowani.</p>
+<!--break-->
+<h2>Płyty główne </h2>
+<p>Firmy mają do wyboru ileś chipsetów od wiodących dostawców (np. X570 od AMD czy ICH-9 od Intela), każdy ze ściśle określoną specyfikacją (wbudowaną obsługą określonej ilości złączy, pamięci, itp.) Do tych układów dodawany jest laminat i złącza, odpowiednie układy zasilające, karty dźwiękowe, WI-FI czy kontrolery temperatur.</p>
+<p>Oczywisty jest fakt, że projekt całości częściowo jest przygotowywany na podstawie wersji referencyjnej, i producent końcowy w dużej mierze okazuje się być monterem gotowych klocków (zdarzają się firmy takie jak Lenovo, które zaczynają tworzyć na własną rękę najbardziej podstawowe elementy typu konwertery napięć, ale są one w mniejszości).</p>
+<p>Kiedyś można było sobie zamieniać firmware między konstrukcjami różnych producentów</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/KHhEdgd7shk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>Obecne oprogramowanie układowe wciąż w dużej mierze jest standaryzowane, i często składa się z gotowych elementów – np. paczka UEFI zawiera informację o dostępnych / włączonych opcjach, mikrokod do procesora / AGESA, uaktualnienia Intel ME, kontrolera Thunderbolt, TPM i wielu innych elementów (z odpowiednimi narzędziami teoretycznie możliwe jest np. dodanie czy usunięcie wsparcia dla konkretnych CPU).</p>
+<p>Moje pytania – jak długo producent powinien zapewniać uaktualnienia? 5 lat? 10 lat? Tak długo, jak Intel czy AMD będą publikować nowe microcode? Czy nie jest tak, że jakkolwiek długo będą one udostępniane, to i tak będzie to zbyt krótki okres czasu? Może w tej sytuacji po prostu powinniśmy dostać oprogramowanie, dzięki któremu oddzielnie moglibyśmy ładować kolejne komponenty?</p>
+<p>Bardzo ciekawą kwestią jest to, że w wielu wypadkach „inność” elementów na płytach głównych wynika wyłącznie z innych identyfikatorów. Czy nie powinno to być napiętnowane? (tu widać przewagę rozwiązań otwarto-źródłowych, które dzięki podobieństwom potrafią zapewnić wsparcie nawet dla wiekowego sprzętu).</p>
+<p>Czy tak czy inaczej, w większości wypadków poza wadliwymi projektami sprzętu wsparcie najczęściej bywa co najmniej poprawne, a producenci płyt czasem dają znacznie więcej niż chciałby Intel albo AMD. A jeśli mówimy o wadliwych projektach, to wspomnę wentylatory przy X570 - jeżeli trzeba go chłodzić aktywnie, należałoby zastosować chłodzenie jak w laptopach, tzn. z wydmuchiwaniem powietrza z tyłu.</p>
+<h2>Pamięci flash i dyski </h2>
+<p>Spójrzmy teraz na przykład z innej półki, czyli dyski. W wielu wypadkach widać tu produkcję od podstaw (np. Samsung ma swoje kontrolery, kostki pamięci, itp.), ale też przerzucanie odpowiedzialność na inne firmy – mówię o sytuacji, gdy jesteśmy zmuszani do kupna laptopa z dyskiem, i ten ostatni jest w wersji OEM, co oznacza mniej więcej tyle, że nie znamy parametru TBW ani nie mamy paczek firmware do urządzenia. W tej sytuacji należy albo kupić najmniejszy dysk, albo kupić dysk, i po zakończeniu gwarancji wymienić go na kolejny egzemplarz.</p>
+<p>Czy nie jest to generowane elektrośmieci? Do tego jak to się dzieje, że im mniejszy dysk półprzewodnikowy, tym bardziej użytkownicy są zachęcani do jego szybszej wymiany?</p>
+<p>Nie myślę o najbardziej oczywistej sprawie, czyli mniejszej przestrzeni i przez to mniejszej ilości bajtów do zapisania, tylko o następujących faktach:</p>
+<ol>
+<li>na partycjach NTFS o wielkości poniżej 128 GB domyślnie włączone jest zapisywanie informacji, kiedy ostatnio dany plik był odczytywany – zmniejsza to prędkość i zwiększa zużycie (w Windows można to zmienić komendą <b>fsutil behavior set DisableLastAccess</b>).</li>
+<li>swap file jest zazwyczaj większy w urządzeniach, które mają mniej RAM (a jak mają mniej RAM, to są zazwyczaj tanie i mają mniejsze dyski). Proszę zauważyć, że chińskie firmy zaczynają proponować to rozwiązanie nawet w telefonach (te zawierają często kości gorszej jakości) – generacja elektrośmieci jak się patrzy.</li>
+<li>w niektórych urządzeniach tańsza wersja ma znacznie wyższe temperatury pracy, a to oznacza również pracę SSD w gorszych warunkach – sztandarowy przykład to iMac z tego roku.</li>
+<li>mniejszy dysk w danej serii ma mniejszą prędkość. Nie jest to reguła i można to tłumaczyć tym, że znajduje się tam mniej fizycznych kostek (a więc nie można operować równolegle na danych), z drugiej jednak strony czy w takim iPhone 7 wersja 32GB powinna być 8x wolniejsza?</li>
+<li>najtańsze pamięci w laptopach obecnie to eMMC, a te są lutowane (jakby nie można było na płytach głównych umieszczać czytników kart)</li>
+</ol>
+<p>Ciekawą kwestią jest to, że część użytkowników nigdy nie odda napędów do naprawy (z uwagi na dane) i że w przypadku kart pamięci zdarza się gwarancja wieczysta (dlaczego więc tego nie ma przy dyskach? Obawa, że rzeczywiście będą szybko zużywane do końca?)</p>
+<p>Tak więc podsumowując – dyski OEM to patologia, małe dyski częściowo też.</p>
+<h2>Telefony i tablety </h2>
+<p>Urządzenia z Androidem to temat rzeka. Choć to coraz bardziej standardowe konstrukcje, i choć obecnie każdy producent zapewnia wsparcie dla standardu Treble, to i tak większość użytkowników jest przyzwyczajona do dwóch lat wsparcia, a kolejne okresy traktuje jak błogosławieństwo.</p>
+<p>Czy w tym wypadku nie powinno być standardem co najmniej kilka lat wspierania od zakończenia produkcji? A może określać wsparcie przez ilość urządzeń, które się ciągle łączą z serwisem aktualizacji producenta?</p>
+<p>Można mówić, że to Apple jest mistrzem w wyciąganiu pieniędzy od użytkowników, ale jak czytam, że telefony za 5000 PLN mają zapewnioną jedynie jedną nową wersję systemu, to zaczynam myśleć, że to chyba lepszy przykład tego, do czego prowadzi brnięcie w obecne trendy konsumpcji. I choć normalnie w wielu przypadkach sam piszę, że Apple jest nieekologiczne, to… akurat ta firma jest całkiem w porządku ze wsparciem (urządzenia podają nawet takie informacje jak ilość cykli ładowania czy stopień zużycia baterii). Gdyby jeszcze SAR w jabłkach był niższy i promieniowanie takie jak w Samsungu S7 kiedyś...</p>
+<h2>Karty graficzne </h2>
+<p>Przez lata widać było działania zwłaszcza Nvdii, która próbowała anulować gwarancje przy pracy ciągłej (kopanie walut), a obecnie blokuje ją w inny sposób.</p>
+<h2>Routery </h2>
+<p>Tu zapytam się krótko – czy nie powinniśmy mieć wymuszonego prawnie wsparcia na co najmniej kilka albo nawet kilkanaście lat?</p>
+<h2>Drukarki </h2>
+<p>Miałem do czynienia z urządzeniami HP, obecnie z EPSON. W przypadku HP hasła o planowanym postarzaniu przewijają się chyba na wszystkich możliwych forach, w przypadku EPSON jedno urządzenie (które wykorzystuję do skanowania i wydrukowania kartki papieru raz na kilka miesięcy) nie daje żadnej przyjemności… ale już model ET-3750 z serii Ecotank wydrukował bez większych sensacji 2924 stron w czerni i 4696 w kolorze (konieczne było dokupienie 2x tuszy czarnych i 1x kolorowych).</p>
+<p>Tu chyba zawsze sprawdza się zasada, że im urządzenie droższe, tym bardziej można liczyć na jego producenta.</p>
+<h2>Laptopy </h2>
+<p>Tutaj mam właściwie tylko cztery przykłady na sprzęcie, który gdzieś kiedyś przewinął się przez moje ręce.</p>
+<p><b>Tanie Lenovo / Medion</b> – producent nie potrafił mi podać, jaką matrycę zamontowano, i ostatecznie przekonałem się o używaniu mocnego PWM, co chyba zdecydowanie powinno być prawnie zakazane (<a href="?q=node/441">szerzej w recenzji modelu E4251</a>)</p>
+<p><b>Acer Swift 1 z 2018 roku</b>, czyli mój mały eksperyment z ostatnich miesięcy. <a href="?q=node/447">Pisałem o nim w recenzji „Acer Swift 1 - czy w ogóle ma sens?”</a>. Zauważyłem problemy z jakością supportu jak powyżej (brak informacji o modelu matrycy). Dysk w środku obecnie wskazuje 464h pracy, i urządzenie pracuje bez większych problemów. Jedyną niegodnością jest to, że bateria po około 1,5% zużycia (<a href="?q=node/454">szerzej o jej przewidywanej degradacji pisałem w tekście "Wszystko się zużywa?”</a>) zaczęła wskazywać 0% zużycia. Producent nie deklaruje stopnia zużycia, innym problemem jest średni ekran (na szczęście w moim egzemplarzu bez PWM), ale <a href="?q=node/447">to już wskazywałem we wspomnianej obszernej recenzji</a>. Zauważyłem też szybką dostępność Windows 10 21H1, ale też brak BIOS z nowym microcode (ostatnia wersja jest z lutego).</p>
+<p><b>Dell Precision 5510 z 2016 roku.</b> Dosyć nieźle wykonany. Działa, obudowa nie jest jakoś mocno zniszczona. Trudno mi ocenić czas jego używania. Jego pierwszy dysk wskazuje dzisiaj 3443h pracy (część przepracował w innym urządzeniu), obecny 2112h. Na ekranie pojawił się wypalony subpiksel (matryca ma obecnie rozlanie widoczne na ciemnym kolorze – po pojawieniu się usterki doszło jeszcze uszkodzenie mechaniczne).</p>
+<p>W przypadku BIOS - ostatnia wersja jest z lipca tego roku (Dell zawsze wydaje się je publikować ze sporym opóźnieniem po publikacjach poprawek przez Intela).</p>
+<p>Co do baterii, to dłuższa historia - w starszych modelach biznesowych producent potrafił gwarantować jedynie 100 cykli ładowania (obecnie jest to albo 300 albo 1000), co jest lekką żenadą w porównaniu do Apple. Laptop miał wymieniane ogniwo (to był już chyba po formalnej gwarancji i musiałem o to sam poprosić, wskazano mi opcję wymiany samodzielnej albo przez technika, przy czym nie poznałem ewentualnego kosztu jego dojazdu), obecne ma najprawdopodobniej uszkodzoną jedną celę (pojemność spada z bodajże 60% do 10% w kilka chwil)</p>
+<p><b>Modele biznesowe HP</b> – poza pojedynczymi wpadkami z nimi nie miałem nigdy większych problemów, bardzo satysfakcjonujące były zwłaszcza szybkie uaktualnienia BIOS i Intel ME.</p>
+<p>Jeżeli chodzi ogólnie o laptopy, to sytuacja chyba jest jak jak z płytami głównymi – wiele z ich elementów jest standardowa aż do bólu i producenci spokojnie mogliby udostępniać np. narzędzia do uaktualniania microcode (wtedy każdy zamiast polegać na Dellu, Acerze, HP czy innym pośredniku mógłby po prostu brać pliki bezpośrednio od Intela czy Nuvoton).</p>
+<p>Producenci powinni też chyba iść śladem Apple i przynajmniej deklarować stopień zużywania baterii, a do tego nie niszczyć zdrowia swoich użytkowników choćby przez używanie PWM.</p>
+<h2>Podsumowanie </h2>
+<p>Teoretycznie marki premium zapewniają więcej niż niska czy średnia polka. Piszę teoretycznie, bo wielu producentów zdaje się kanibalizować „górę” i co ważniejsze nowinki wprowadzać głównie w produktach z niskiej półki (obecnie często robi to Samsung). Żeby było śmieszniej, w określonych przypadkach pojawia się nawet takie coś</p>
+<p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/J9a6E3p9rUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>(przepraszam za użycie przykładu z innej branży).</p>
+<p>Obecne gwarancje często wydają się być pułapką (o tym, żeby korzystać z rękojmi, pisałem w tekście <a href="?q=node/464">„W poszukiwaniu największego przekrętu ostatnich lat”</a>), a wsparcie potrafi być iluzoryczne. Jak czytam, że w takich Chinach określa się prawnie maksymalne zużycie baterii, a u nas chyba w ogóle nie ma o tym mowy, to zastanawiam się często, w jakim świecie żyję.</p>
+<p>Tylko czy kogoś w ogóle jeszcze obchodzi ekologia czy dobro użytkownika?</p>

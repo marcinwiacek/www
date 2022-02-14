@@ -1,7 +1,7 @@
 ﻿Title:Stare, ale jare? (2021)
 Author:marcin
 When:12 July 2021
-Taxonomy:polski,polski blog,salon24.pl,Ubuntu,Windows,Apple
+Taxonomy:polski,polski blog,salon24.pl,Ubuntu,Windows,Apple,Linux
 
 <a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1149970,stare-ale-jare>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
 <p>W tym tygodniu na jednym z komputerów uaktualniłem pakiety w ostatnim stabilnym Ubuntu - z ostatnią wersją pobłogosławionego przez Canonical jądra zainstalowałem sterowniki NVidii w wersji 465 zamiast 460. Zaraz po tym zrobiłem restart, i od razu zaliczyłem zwieszkę systemu (zatrzymywał się bez błędu na ekranie ładowania).</p>

@@ -1,0 +1,119 @@
+﻿Title: Starcie gigantów - user experience w praktyce (MacBook vs x86 – m.in. E4251, Swift 1, L14) (2022)
+Author:marcin
+When:21 Jan 2022
+Taxonomy:polski,polski blog,x86,Apple,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1199453,starcie-gigantow-user-experience-w-praktyce-macbook-vs-x86-m-in-e4251-swift-1-precision-5510-i-l14>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><a href="https://www.anandtech.com/show/17127/qualcomms-8cx-gen-3-for-notebooks-nuvia-core-in-20222023" target="_blank" rel="nofollow noopener">„Ostatnio” przeczytałem artykuł na Anandtech o układach Qualcomm</a>. Wyrażono tam opinię o tym, że firma wydaje się coraz bardziej skupiać na „user experience”, a coraz mniej na rzeczywistych parametrach technicznych.
+<!--break-->
+<p>Przypomniało mi się to wideo:
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/aSs5vvKlHEg" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Pewien kapitan nie może tam awansować przez trzydzieści lat.
+<p>Czy czegoś podobnego nie widać w przypadku przeróżnych firm technologicznych? Czy ich produkty cały czas nie powielają tych samych błędów i schematów, a to nie pozwala zdobyć im rynku? A może te firmy nie chcą zdobyć tego rynku, i wystarcza im to, co już mają?
+<p>To wrażenie zostało pogłębione po <a href="https://www.purepc.pl/amd-ryzen-9-6900hx-specyfikacja-topowego-procesora-rembrandt-dla-laptopow-na-pokladzie-8-rdzeni-zen-3-oraz-radeon-680m" target="_blank" rel="nofollow noopener">krótkim tekście o nadchodzącym Ryzenie 6900HX</a>. Naszło mnie sporo refleksji. Mamy coraz bardziej skomplikowane procesy technologiczne (mniej nm), teoretycznie ciągle słyszymy o coraz większej sprawności energetycznej i mniejszych kosztach produkcji, integracji i optymalizacji układów, inwestowaniu, itd., itd., a mimo to nie dostajemy kolejnych rewolucyjnych produktów w coraz niższych cenach.
+<p>Czy nie przypomina to „1984” Orwella, w którym ciągle informowano o sukcesach w bohaterskiej walce o wzrost produkcji butów i innych dóbr?
+<p>Ktoś powie, że cały zysk zjadany jest przez coraz droższe R&amp;D, ktoś doda, że korporacje stosują planowe postarzanie, że wszystko się jednak zmienia, itd. itd. To oczywiście jest prawda (czasy „dwa rdzenie wystarczą każdemu” w dużej mierze na szczęście dawno minęły), ale z drugiej strony czy nie jest tak, że my jako ludzie nie chcemy czy nie potrzebujemy lepszych maszyn?
+<p>Dzisiaj zajmę się głównie notebookami. W poprzednim roku pracowałem z czterema „nowymi” modelami:
+<ol>
+<li>Medion Akoya E4251 (<a href="?q=node/441">recenzja</a>)</li>
+<li>Acer Swift 1 SF114-32 (<a href="?q=node/447">recenzja</a>)</li>
+<li>Hyperbook L14 z Intelem 11-generacji (<a href="?q=taxonomy/term/Hyperbook">seria artykułów</a>)</li>
+<li>Macbook Air z M1 (<a href="?q=node/510">recenzja</a>)</li>
+</ol>
+<p>Postaram się krótko podsumować wspomniane teksty i urządzenia, dodam też spostrzeżenia, które zrobiłem później. Wielką nieobecną jest firma AMD, ale o niej też co nieco wspomnę (dodam też ze dwa słowa na temat innego sprzętu).</p>
+<p>Propozycja Apple jest w całości przygotowana firmę z Cupertino (tzn. dostarcza ona i sprzęt, i system operacyjny), urządzenia od Della i Acera to wyłącznie sprzęt (na którym fabrycznie działa Windows), Medion Akoya to tania marka Lenovo (domyślnie również z Windows), a L14 to urządzenie od firmy Clevo, do którego polski Hyperbook dodaje swój brand (można na nim zainstalować m.in. Windows 10, a ja używam go z Ubuntu).</p>
+<p>Uogólniając można powiedzieć, że Macbook jest w 100% applowski, a konstrukcje z Intelem mniej lub bardziej opierają się na projektach własnych / referencyjnych (i służą do uruchamiania „generycznego” oprogramowania x86).</p>
+<h2>Bezpieczeństwo</h2>
+<p>Mają je wszyscy… i w pewnym sensie nie ma nikt (nie ma co udawać, że żyjemy w świecie tęczy i jednorożców, i warto nazwać rzeczy po imieniu).</p>
+<p>Jeśli chodzi o Apple, to ciągle słyszymy, jak firma odmawia FBI dostępu do iPhonów. Dostajemy coraz bardziej skomplikowane procesory, chip T1 i T2, ciągłe poprawki bezpieczeństwa, widzimy pozwanie producentów Pegasusa… z drugiej strony hakowanie przez Pegasus może być wierzchołkiem góry lodowej (taki macOS nie ma znaczącej części rynku, i być może stąd nie słyszymy o spektakularnych włamaniach), o dyskusyjnym podejściu Apple do tematu świadczy również mocne promowanie chmury i sposób czyszczenia zawartości urządzeń bez internetu.</p>
+<p>W x86 prosty BIOS został zastąpiony znacznie bardziej rozbudowanym UEFI, który (z uwagi na wielkość i stopień skomplikowania) bywa uważany za znacznie mniej bezpieczny.</p>
+<p>Badacze zwracają też uwagę na obecność Intela ME (AMD ma swój odpowiednik), który w ogromnym uproszczeniu i skrócie służy nie wiadomo do czego, a do tego nie zawsze jest uaktualniany (teoretycznie pozwala na zdalne zarządzanie w maszynach, w których wpierw jest odpowiednio skonfigurowany, w praktyce przez lata podejrzewany był dosłownie o wszystko, i miał swoje błędy).</p>
+<p>Kwestia firmware to ogólnie pięta achillesowa x86 – firmy tworzą problem i „bohatersko” z nim walczą (zdalne zarządzanie nie jest przecież potrzebne w wielu systemach, prawda? A do tego jak to możliwe, że w popularnym systemie operacyjnym Microsoft paczki microcodu procesora bywają aktualizowane z kilkumiesięcznym opóźnieniem?), dodatkowo (teoretyczna?) dezaktywacja Intel ME w systemach z Intelem 11-generacji zwiększa zapotrzebowanie na energię (czy w Intelu 12-generacji będzie tak samo?).</p>
+<p>Nie lepiej bywa w świecie ARM – bywa, że producenci nie dają żadnych poprawek do znanych luk.</p>
+<p>Podsumowując:
+<p>Acer wydaje się dbać o produkty 2 lata (mówię to na podstawie Acer Swift 1 SF114-32), Dell co najmniej 6 lat (tyle w każdym razie było przy takich modelach jak M6600, przy 5510 poprawki są ciągle dostarczane i tak być może będzie do końca wspierania Windows 10), HP przeciętnie chyba mniej więcej 5 lat (przy czym w moim odczuciu firma znacznie szybciej publikowała poprawki Intel ME niż Dell), Apple ok. 7 lat (<a href="https://support.apple.com/en-us/HT212551" target="_blank" rel="nofollow noopener">w 2021 mamy ciągle wsparcie dla MacMini z 2014 </a>), przy Clevo/Hyperbook ciężko mi się wypowiedzieć (dostałem jedną aktualizację UEFI, i to bez Intel ME)
+<h2>Ekran wewnętrzny</h2>
+<p>W świecie Apple nie ma żadnego wyboru (musimy brać to, co jest). Wielokrotnie wskazywałem na to, że szklana powłoka (teoretycznie z warstwą antyodblaskową) nie daje właściwego odbicia światła, i ludzie wrażliwi nie mogą używać urządzeń z Cuppertino. Jest jeszcze kwestia rozdzielczości (im więcej pikseli, tym jednak większe zużycie energii) i stosowania technologii micro-LED, która wydaje się niedopracowana (stąd poświata i galaretowate przewijanie na tabletach). Do tego dochodzi notch… do którego pewnie się przyzwyczaimy (na zasadzie syndromu sztokholmskiego).</p>
+<p>W świecie x86 firmy masowo wykorzystują ekrany, w których jedyną i główną zaletą jest ich wykonanie w technologii IPS. Podświetlenie z użyciem PWM? Standard. 6-bitowe kodowanie barw? Też. Niskie pokrycie kolorów? Oczywiście. Słaba powłoka antyodblaskowa? Jak najbardziej.</p>
+<p>Żeby było śmiesznie, czasem nawet ekran w laptopie z 2010 daje mniej męczący oczy obraz.</p>
+<p>Można powiedzieć, że w przedziale 1000-2000PLN mamy czystą loterię (testowany Medion miał problematyczny ekran BOE0718, „mój” Acer Swift 1 trafił na nienajgorszą matrycę B140HAN04.0, ale równie dobrze mógł mieć B140HAN04.0 albo NV140FHM-N48), podobnie jednak trzeba uważać przy konstrukcjach droższych – przykładowo <a href="https://www.purepc.pl/test-acer-aspire-vero-laptop-z-obudowa-wykorzystujaca-materialy-z-recyklingu-na-pokladzie-m-in-core-i7-1195g7-oraz-windows-11?page=0,4" target="_blank" rel="nofollow noopener">Acer do „ekologicznego” modelu wybrał ekran B156HAN02.1</a>, <a href="https://www.purepc.pl/test-acer-swift-3-multimedialny-laptop-z-systemem-windows-11-oraz-z-pelnym-wsparciem-dla-platformy-intel-evo?page=0,4" target="_blank" rel="nofollow noopener">w delikatnie mniejszym modelu Swift 3 w tej samej cenie umieścił o wiele lepszą matrycę B140HAN06.2</a> (mam ją w Hyperbooku L14 - nie jest może idealna i cały czas mam wrażenie, że delikatnie odstaje od ekranu Della z 2016 roku, ale zużywa mało energii i naprawdę robi robotę).</p>
+<p>O jakich trendach warto tu jeszcze wspomnieć?</p>
+<p>Cały czas widzimy żonglerkę formatem 16:9 i 16:10, zdarzają się matryce o rozdzielczości 2K czy 4K (które mają sens, gdy ktoś nie dba o zużycie energii), urządzenia AMOLED (tu jednak mimo wszystko obawiałbym się wypalania),  obecność odświeżania o częstotliwości większej niż 60Hz czy różnego rodzaju rozwiązania sprzętowe zmniejszające światło niebieskie (chociażby <a href="https://eyesafe.com/standards/" target="_blank" rel="nofollow noopener">EyeSafe</a>).</p>
+<h2>Obudowy i wygląd ogólny</h2>
+<p>Standardem przy mniejszych laptopach (13,3 i 14 cali) staje się waga ok. 1 – 1,3kg, i jest to poniekąd dobra informacja (cały czas w pamięci mam pierwsze urządzenie, które regularnie nosiłem – miało matrycę 15 cala i ważyło ok. 2,7 kg).</p>
+<p>Przy wyborze warto zwrócić uwagę na kilka rzeczy:</p>
+<ol>
+<li>sztywność (w Macbooku wzorowa...ale niektórym użytkownikom pękają ekrany; dodatkowo w niektórych modelach, jak w L14, jest mowa o spełnianiu standardu MIL-STD 810G, cokolwiek to w praktyce nie znaczy)</li>
+<li>możliwość otwierania całości na płasko (tego dramatycznie brakuje w sprzęcie Apple i Della)</li>
+<li>jeżeli możliwe, brak (lub jak najmniej) otworów wentylacyjnych z dołu (mają to: MacBook Air, Swift 1, L14)</li>
+<li>stabilność klapy matrycy (wszystkie konstrukcje są dobre poza testowanym Medionem)</li>
+</ol>
+<p>Jeżeli chodzi o odczucia:</p>
+<ol>
+<li>wygląd MacBooków jest pewnym standardem w branży (może się podobać, albo nie), wiele innych urządzeń ma najczęściej ciemno-srebrny albo czarny layout – w moim odczucie ten ostatni jest najładniejszy (Acer, L14), ale… to kwestia gustu</li>
+<li>przy niewielkiej wadze można spotkać się z delikatnym uginaniem się obudowy (w L14, gdy łapię go mocniej w konkretnych miejscach, zdarza mi się czuć przyklejanie / odklejanie jakiegoś fragmentu taśmy klejącej od baterii, co oczywiście nie jest wadą, ale jakby zwiększa moje wrażenie, że to sprzęt dla samców alfa)</li>
+<li>przy niewielkiej wadze można mieć mylne pierwsze wrażenie, że coś jest zabawką (tak w sumie miałem przy L14 i Medionie</li>
+</ol>
+<h2>Klawiatura i inne urządzenia wejścia-wyjścia</h2>
+<p>Kiedyś w laptopach bez problemu można było zmienić klawiaturę, ta obecnie najczęściej zintegrowana została z górną obudową. Do historii odeszło sprzedawanie przez Apple problematycznych klawiatur ze świadomością, że te się psują. Konstrukcja klawiszy zazwyczaj jest najczęściej na tyle dopracowana, że problemy mogą wyniknąć z czterech rzeczy:</p>
+<ol>
+<li>niewygodny układ (np. małe strzałki)</li>
+<li>zalanie cieczą</li>
+<li>uginanie się</li>
+<li>zła intensywność podświetlenia</li>
+</ol>
+<p>Można długo dyskutować, czy lepsze jest pisanie na czymś miękkim czy sprężynującym, wyższym czy niższym, głośniejszym czy cichszym. Z urządzeń wymienionych na początku bardzo polubiłem klawiaturę ze Swifta 1 i Della, zawsze ceniłem też konstrukcje HP, z kolei przy Hyperbooku na początku czasami w nocy irytowała mnie głośność (całość mocno przypomina porządne stacjonarne klawiatury mechaniczne).</p>
+<p>Przy touchpadach również nie jestem specjalnie wybredny, i właściwie również wszędzie byłem w stanie się odnaleźć (nie zmienia to faktu, że konstrukcja w Apple wydaje się najlepsza na rynku, a konstrukcja w Clevo daje czasami efekt przyklejania się do palca, i zdarzało mi się tam naciskanie „klawisza” lewego zamiast prawego)</p>
+<h2>Złącza</h2>
+<p>Chciałbym tutaj odejść od ogólników, że dwa złącza USB to za mało (ludzie mają różne potrzeby). Co jednak jest ważne - w przypadku systemów przenośnych z procesorem M1 raczej niezbędne będzie stosowanie przejściówek, a te nie zawsze działają dobrze (<a href="?q=node/510">co opisywałem w poprzednim tekście</a>).</p>
+<p>Ogólnie im więcej, tym lepiej (dobrze też, jeżeli BIOS pozwala wyłączyć określone porty, a tego nie ma w L14 czy Acerze).</p>
+<h2>Wydajność, zużycie energii i praca na baterii</h2>
+<p>Apple miało swoje półtora roku z bardziej zaawansowaną technologią wykonania niż inni.</p>
+<p>Czy ich procesory są szybsze i lepsze od innych? Niekoniecznie. Czy firma zawojowała rynek? Nie. Czy wykonała dobrą robotę z migracją z x86 na ARM? Tak (na pewno o wiele lepszą niż Microsoft, który od lat nie potrafi czy nie chce poradzić sobie z tym tematem, a który poniekąd przez lata miał umowę na wyłączne używanie Windows na ARM ze wspomnianym na wstępie Qualcommem).</p>
+<p>Seria M ma sprzętowe wyspecjalizowane bloki do różnych czynności, i tam układy Apple wydają się radzić coraz lepiej. Jeśli chodzi o część ogólną - w 2022 inni producenci zaczną dołączać do klubu 5nm, a może nawet 3nm, i dopiero wtedy będzie można docenić, na ile procesory z Cuppertino są lepsze (na dzień dzisiejszy ARM wydaje się bardziej przyszłościowy, ale niekoniecznie może to być całkowicie prawdziwe).</p>
+<p>Czy tak czy inaczej - jeszcze niedawno w laptopach standardem było umowne TDP równe 45W, obecnie coraz częściej schodzimy do 15W.</p>
+<p>Na pewno istotne są trzy rzeczy:</p>
+<ol>
+<li>gdy zmniejszyłem TDP w Intelu i5 11-generacji, to bez WiFi przy pisaniu tekstów dochodzę na baterii nawet w okolice 36h (L14 pod Ubuntu)</li>
+<li>Intel usuwa wsparcie dla Blue-Ray UHD (brak Intel SGX)</li>
+<li>wieści głoszą, że kolejne „tanie” laptopy Apple nie będą mieć wcale znacząco większej wydajności (podobnie Intel ogranicza możliwość korzystania z AVX-512 w 12-generacji, a AMD wydaje się dawkować wydajność, i coraz bardziej korzystać z odpadów produkcyjnych)</li>
+</ol>
+<p>Widać tu jak na dłoni, jak warto inwestować w DRM, i jak korporacje zmieniają swoje zdanie. Ostatni punkt oznacza przy tym mniej więcej tyle, że nie spodziewałbym się w 2022 gigantycznych wzrostów wydajności – taką rewolucją były (szczególnie) pierwsze Ryzeny i M1 (ale to tylko dlatego, bo odpowiednie firmy rozpaczliwie potrzebowały zainteresowania użytkowników), a obecnie dostaniemy co najwyżej ochłapy (Intel podkupił ludzi od M1, i może za jakiś czas będzie w stanie zrobić coś naprawdę rewolucyjnego, a obecnie spodziewałbym się odgrzewanych kotletów w nowym opakowaniu).</p>
+<p>Teoretycznie można sobie kupić dobrego laptopa z układami AMD (7nm, a nie 10, jak u Intela), ale w praktyce nie w każdej kategorii można je znaleźć (gdy robiłem research jeszcze kilka miesięcy temu). Wielka szkoda.</p>
+<p>A co do długości pracy na baterii – Intel promuje znaczek Evo, tymczasem każdy lepszy model spokojnie podziała na baterii przeciętnie 20h (a czasem dojdzie w granice 36h).</p>
+<h2>Dysk i RAM</h2>
+<p>Cały sprzęt od Apple sprawia największy możliwy problem – ma lutowany dysk (jak w najtańszych x86), i choć ten teoretycznie powinien wystarczyć na lata, to fakt jego niewymienności automatycznie powoduje, że przy ogromnych projektach trzeba liczyć się szybszą wymianą całego sprzętu (szczególnie, że w 2021 zdarzały się różne wpadki programistyczne, i zarówno programy od Apple jak i aplikacje firm trzecich potrafiły niepotrzebnie zapisywać TB danych). Sprawy nie poprawiają też lutowane kości RAM (należy słono dopłacić, żeby komputer mniej korzystał z pamięci swap).</p>
+<p>Konstrukcje x86 są w większości w porządku, jeśli chodzi o pamięć masową (nie mówię o najtańszych wariantach z kościami eMMC), z kolei Acer Swift 1 nie daje wyboru związanego w RAM (przy starszym modelu SF114-32 jesteśmy przywiązani do 4 lub 8 GB, i pierwsza opcja jest zdecydowanie niewystarczająca dla fabrycznego systemu Windows)</p>
+<p>Z moich obserwacji wynikają fakty następujące:</p>
+<ol>
+<li>najmniej na dysk zapisuje Ubuntu, MacOS i Windows nie są w ogóle oszczędne (przykładowo u mnie na Macbooku z 16 GB RAM przy zwykłym programowaniu miałem ok. 50 GB dziennie).</li>
+<li>problematyczne są przeglądarki (potrafią co kilkanaście sekund niepotrzebne zapisywać setki MB danych)</li>
+<li>dyski ssd mają swoje za uszami – producenci bardzo często zmieniają po cichu specyfikacje, zmniejszają TBW, potrafią wypuszczać produkty z throttlingiem.</li>
+</ol>
+<h2>Temperatury i głośność </h2>
+<p>Coraz cieńsze obudowy spowodowały, że dostaliśmy „grzałki Intela” – urządzenia niejednokrotnie dochodzące do 100C.</p>
+<p>Procesory ARM miały być chłodniejsze. Zdarza się ich throttling w rożnych komórkach, czy jednak tego samego nie obserwujemy w komputerach przenośnych? Pasywnie chłodzony Macbook Air ma o ok. 10% niższą wydajność niż Macbook Pro z procesorem M1. A modele z 2021 roku? Air osiągał ok. 75C, tymczasem <a href="https://laptopmedia.com/review/apple-macbook-pro-14/" target="_blank" rel="nofollow noopener">Macbook Pro 14 cali AD 2021 dochodzi do ok. 92C</a>.</p>
+<p>Czy nie przypomina to czegoś? Czy niedługo nie będziemy mówić o grzałkach Apple? Korporacja jest znana z tego, że woli włączenie wentylatorów chłodzących w ostatniej możliwej chwili.</p>
+<p>Chłodzenie aktywne z mojej zeszłorocznej listy ma Hyperbook. Na szczęście można je kontrolować.</p>
+<h2>System operacyjny</h2>
+<p>Mac OS ma rozwiązania jak za czasów Steve Jobsa (stąd np. skalowanie elementów wyłącznie względem rozdzielczości). To zaczyna trącić myszką, dodatkowo moim skromnym zdaniem infrastruktura Apple na dzień dzisiejszy ma ogólnie problemy z dystrybucją dużych pakietów – w iphonie trzeba włączać zewnętrzne WiFi, na Air instalacja XCode potrafi trwać nawet 2h (ściągnięcie chwilę, a potem długo trwają jakieś czynności, niezbyt obciążające CPU). Firma nie daje przy tym pewnych opcji oszczędzających ilość zapisów na dysku (np. nie ma opcji, żeby pobierać wyłącznie wersję ARM pakietów) ani jakoś nie idzie za ciosem i nie tworzy infrastruktury do obsługi gier.</p>
+<p>Windows to klasa zepsucia sama w sobie – przestarzała architektura, niekończące się problemy z aktualizacjami (które ważą zbyt dużo), i niekończące się przebudowywanie podstawowych elementów. Nie chciałbym tu nawiązywać do narodowości CEO Microsoft, ale obecny OS przypomina filmy z Bollywood. Windows 10 nie jest zbyt dobry, ale Windows 11 przewyższa nawet to – damy albo nie damy (na Acerze do dziś widzę informację o zgodności, ale brak upgrade), zrobimy coś albo nie zrobimy (czy naprawdę nie było ważniejszych problemów, niż zmiana UI?), itd. itd.</p>
+<p>I wreszcie mityczny Linux. Na stare lata leniwy się robię, i na L14 mam obecnie Ubuntu. Działa.</p>
+<p>Jeżeli miałbym porównywać te trzy rozwiązania, to… właściwie byłoby to niemożliwe. Mac OS jest przypisany do sprzętu Apple (zapomnijmy, że istnieją Hackintoshe), z kolei przy x86 moja rada jest jedna – jeżeli można, należy uciekać od Windows (i nie mówię tego dlatego, bo z zasady jestem przeciwny, tylko mówię dlatego, bo widzę ogrom marnowania zasobów).</p>
+<h2>Podsumowanie</h2>
+<p>Wydać 1000PLN (tanie warianty Acera i Mediona), 2000PLN (drogie warianty Acera i Mediona), 4000-6000 (L14, Air) czy więcej? Kupować podstawowe wersje czy bardziej rozbudowane? Znanych producentów czy nie?</p>
+<p>Producenci „markowi” (w moim wypadku HP i Dell) teoretycznie zapewniają długie wsparcie i dają uaktualnienia BIOS czy systemu operacyjnego przez długie lata… jeśli sprzęt jest z droższej serii (Apple jest wyjątkiem, i powinno wspierać Aira przez taki sam okres jak Macbooka Pro).</p>
+<p>Czy ta zasada spełnia się również w przypadku tzw. brandów? (Hyperbook) Nie wiem. L14 mam od września, i jak dotąd zobaczyłem jedną nową wersję BIOS. Myślę, że w tym wypadku uaktualnień można spodziewać się jedynie wtedy, gdy coś przestanie działać (prawdopodobnie nowych wersji Intel ME nie będzie).</p>
+<p>Czy należałoby więc skreślać tani/niemarkowy sprzęt? Niekoniecznie. Gdy potrzebujemy czegoś do obsługi np. programów księgowych czy pisania tekstu (gdzie głównie czeka się na wprowadzanie danych) albo pracujemy z zewnętrznym monitorem, to pewne wady stają się nieistotne (proszę pamiętać, że nie wszystko jest podłączane do internetu).</p>
+<p>W przypadku obecnego sprzętu (najbardziej tego drogiego) na pewno w wielu wypadkach mamy przerost formy nad treścią - wiele firm wpadło we wspomnianą na wstępie pułapkę „skupiamy się na user experience”.</p>
+<p>Rzecz w tym, że np. reklamowanie „lepszych” rozmów wideo przy okazji procesorów może świadczyć wyłącznie o sprzętowym wspieraniu bardzo konkretnych kodeków czy standardów kompresji. Załóżmy, że ktoś bardziej ogarnięty technicznie szuka laptopa – czy wybierze procesor wolniejszy „z lepszym user experience” czy procesor wydajniejszy, na którym może szybciej uruchamiać całe dostępne oprogramowanie? (a więc również to, które programowo coś koduje czy dekoduje)</p>
+<p>Dzięki „user experience” nie może również przebić się Apple – tam ogromną barierą są ekrany, i nie zmienią tego żadne magiczne zaklęcia.</p>
+<p>Inną pułapką są układy SoC – producenci zakładają, że skoro ktoś nie potrzebuje topowego sprzętu w rodzaju Ryzena 6900HX, to wystarczy mu słaba matryca czy mikroskopijna bateria. Myślę, że ciekawym rozwiązaniem byłaby np. sprzedaż bardzo porządnych kadłubków, do których każdy mógłby dodać np. dowolnie wybrany ekran czy wybraną płytę główną.</p>
+<p>Ohhh wait…</p>
+<p>Mamy przecież rozwiązania typu „do telefonu podłącz zewnętrzną obudowę a’la laptop” albo <a href="https://frame.work/" target="_blank" rel="nofollow noopener">zbuduj sobie własnego</a>…<br />
+<p>Jeśli mam być szczery, to sam za jakiś czas być może wymieniłbym w Hyperbooku płytę na płytę z Intelem 12-gen (gdyby te były w rozsądnej cenie i dawały istotne korzyści). Czy naprawdę nie mogłoby być tak, że ten element zamknięty jest po prostu w odpowiednim module? (swoją drogą, Chińczycy potrafili produkować nowoczesne płyty nawet do archaicznych IBM Thinkpad).</p>
+<p>Pułapkę „user experience” widać również w przypadku oprogramowania. Mac OS jest taki sam od lat, i poniekąd zaczyna rozśmieszać. Windows? Mieliśmy dostać Windows X z konteneryzacją starego softu (w teorii pełne odseparowanie starych API i frameworków od lekkiego, nowoczesnego rdzenia), skończyło się na szlifowaniu ikonek. Najmniej (na szczęście) mówi się o tym w przypadku dystrybucji linuksowych, i te spokojnie wciąż można wykorzystywać do typowych zadań, szczególnie, że podstawowe aplikacje typu „przeglądarka internetowa” często dają dokładnie to samo (z oprogramowaniem specjalistycznym czy grami bywa różnie, ale to już inna historia).</p>
+<p>I tyle.</p>
+<p>Czy jest więc po rzucać się do sklepów?</p>
+<p>Na pewno nie – wymiana sprzętu w ramach „normalnego” cyklu spokojnie wystarczy. Ze swojej strony życzę, żeby wszyscy planowali swoje zakupy po zrobieniu długiego researchu. Jak zawsze polecam przeglądanie recenzji na różnego rodzaju portalach technicznych, które podają twarde fakty techniczne.</p>

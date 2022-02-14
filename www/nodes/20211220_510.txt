@@ -1,0 +1,93 @@
+﻿Title: O Apple praktycznie (MacBook Air), granatach w domach, gwałcie, YouTube i innych rzeczach (2021)
+Author:marcin
+When:20 Dec 2021
+Taxonomy:polski,polski blog,salon24.pl,Apple,x86
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1190927,o-apple-w-praktyce-macbook-air-granatach-w-kazdym-domu-gwalcie-youtube-i-innych-rzeczach>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Ostatnio przyszło mi do zrobienia czegoś w tzw. ekosystemie Apple, i musiałem skorzystać z MacBooka Air. To obiekt westchnienia zapewne sporej części nastolatków i yuppie, o którym powiedziano chyba już wszystko (tak mi się wydaje, choć nie wiem tego na 100%, bo nie jestem nastolatkiem ani yuppie). Laptop z ekranem 13,3 cala jest bardziej masywny niż niektóre 14-calowe laptopy z procesorami x86 (jest zdaje się z taniego aluminium), ma ekran z żywymi kolorami (ciężki do wyczyszczenia i paskudnie łapiący odciski palców), dobrą klawiaturę i bezkonkurencyjny touchpad, do tego gwarantuje pełną ciszę, niezłą wydajność i czas pracy na baterii.</p>
+<p>Czy to jednak wszystko?</p>
+<!--break-->
+<h2>Dysk i RAM</h2>
+<p>600GB. Tyle zapisałem na dysku od 6 do 19 grudnia (średnio ok. 50 GB dziennie), i to przy niezbyt dużej ilości operacji (zainstalowanie upgrade systemu do 12.0.1 i 12.1, dodanie X-Code i zrobienie jego upgrade do wersji 13.2 i 13.2.1, zainstalowanie Firefox i wykonanie „trochę” kompilacji niewielkiego kodu).</p>
+<p>A co byłoby, gdyby maszyna użyta została do czegoś super obciążającego?</p>
+<p>Apple nie podaje parametru TBW nawet dla maszyn profesjonalnych, i jedynie można przypuszczać, że na każde 256GB dysku przypada co najmniej 75 TBW lub 150 TBW. Załóżmy więc, że dziennie zapisujemy 200 GB i robimy tak dzień w dzień (nie są to wartości kosmiczne czy totalnie oderwane od rzeczywistości). Po roku będziemy mieli ok. 73 TB (200 * 365 = 73000 GB). Budzi to pewne obawy, a przynajmniej niepokój z tyłu głowy.</p>
+<p>Czy możliwość wymiany kości pamięci nie powinna być zagwarantowana w każdej maszynie? Czy nie powinno wymusić się określania wartości TBW? I czy przy aplikacjach z AppStore na dysk trafia wersja dla ARM i niepotrzebnie równocześnie wydanie dla Intela? (cały czas mnie to nurtuje)</p>
+<p>I jest tu jeszcze jedna bardzo ważna sprawa – maszyna miała 16GB, dzięki czemu nie musiała (zbyt często) korzystać z pamięci swap (jest to krytyczne, gdyż w tym roku mieliśmy błędy typu „zajmowanie 40GB” nawet w apkach od Apple).</p>
+<p>Zauważyłem, że komputer domyślnie miał skonfigurowane zapisywanie zawartości RAM na dysk w różnych sytuacjach – po wydaniu komendy</p>
+<p><b>pmset -g</b></p>
+<p>zobaczyłem, że przy standby i hibernatemode widać wartości inne niż 0 (wyłączyłem je).</p>
+<p>W Firefox zdeaktywowałem cache (w about:config przestawiłem cache.disk.enable i memory.disk.enable na false) i w opcjach dotyczących zapisywania stanu sesji zmieniłem czas (domyślnie co 15 sekund przeglądarka robi zrzut dosłownie wszystkiego, odpowiedzialna jest za to m.in. opcja sessionstore.interval).</p>
+<p>Aha, ilość danych sprawdziłem po zainstalowaniu dodatkowej aplikacji smartctl z pakietu smartmontools (dostępna np. z brew):</p>
+<p><b>/usr/local/sbin/smartctl -a /dev/disk0</b></p>
+<p>Tutaj Apple ogólnie powinno dostać pałę z wykrzyknikiem – co to za nowoczesność, że należy oszczędzać ilość zapisów na dysk? I dlaczego sama korporacja ma problem z większymi pakietami z AppStore i instaluje je ludziom po kilka razy? (X-Code).</p>
+<h2>Ekran</h2>
+<p>Odblaski są wprost koszmarne. Gdy ktoś dostaje taką maszynę w pracy, to zaczynają się ogromne problemy… gdy ktoś musi pisać aplikacje na taką platformę, to jest tak samo.</p>
+<p>Jedyne pocieszenie w tym, że można się podłączyć do zewnętrznego monitora przez przejściówkę albo używać maszyny stacjonarnej (Mac Mini), z drugiej strony czy podobne kwestie nie powinny być uregulowane prawnie?</p>
+<p>Wiem, że to, o czym właśnie napisałem, to dzisiaj może kosmos, ale… przy cywilizacji elektronicznej prawo powinno uwzględniać różne takie rzeczy, i zmuszać producentów (szczególnie tych wiodących) do udostępniania również maszyn z ekranami matowymi.</p>
+<p>Jeżeli mówimy o skalowaniu, to pojawia się pewien problem – można zmienić rozdzielczość, ale… nie można powiedzieć „chcę, żeby wszystko na ekranie było przeskalowane np. 1,15x” (jak w Windows czy Ubuntu). Jeśli miałbym to porównać do konkurencji, to przecież już w Windows 95 można było sobie ustawić „chcę duży font” (tylko, że tam skalowanie jest niezależne od rozdzielczości, a w świecie Apple wszystko od niej zależy).</p>
+<p>Ode mnie pała.</p>
+<h2>Profesjonalna praca z czymś więcej w praktyce</h2>
+<p>Inną kwestią jest możliwość używania zewnętrznego ekranu. Obecny Air ma tylko dwa złącza USB-C, i konieczne jest zakupienie odpowiedniej przejściówki / huba. Zdecydowałem się, że w moim wypadku jedno złącze wykorzystywane będzie na kabel ładowania (mieliśmy już do czynienia z sytuacją, że ładowanie przez urządzenie firmy trzeciej uceglało komputer), a drugie na pudełeczko z rozdzielaczem USB / HDMI.</p>
+<p>Żeby komputer nie przechodził w sleep po zamknięciu pokrywy, użyłem Amphetamine z AppStore. Jestem w trakcie konfiguracji, i coraz lepiej to wygląda… ale czasami zdarza się, że po starcie komputera muszę odpinać i wpinać jeszcze raz myszkę i klawiaturę na USB (wydają się dostawać napięcie, ale nie działają). Innym problemem jest to, że muszę też ręcznie kończyć i zaczynać sesję w wyżej wymienionym programie.</p>
+<p>Ogólnie – Apple miało już kilka wpadek z własnym USB, i nie zdziwiłbym się, gdyby winna okazała się niewłaściwa implementacja (nie podejrzewam przelotki, tylko bardziej to, że urządzenia nie są chyba właściwie inicjowane przez komputer).</p>
+<p>Być może to choroby wieku dziecięcego, a być może mocne wskazanie na to, że systemy tego typu MUSZĄ mieć wszystko podłączane do portów USB / HDMI bezpośrednio w urządzeniu (tutaj uwaga – różne strony wskazują na problemy Mac Mini przy wyświetlaniu obrazu, a tam złącza są fabryczne).</p>
+<p>Ze skalowaniem też jest problem. Trochę pomogła aplikacja RDM z github (można zainstalować przez brew), dzięki której doszedłem, że system ustawił sobie natywną rozdzielczość mojego zewnętrznego monitora dla wewnętrznego wyświetlacza, a potem robił skalowanie przyjmując ją za bazową (co w znaczący sposób pogorszyło jakość obrazu). Po zmianie obu rozdzielczości na wymaganą dostałem coś, przy czym da się jako tako pracować…</p>
+<p>Średniowiecze.</p>
+<p>I znów pała (ekran to jednak podstawa, i gwałt na oczach to zbrodnia niewybaczalna).</p>
+<h2>Niezawodność Apple</h2>
+<p>Systemy z procesorami M są na rynku od roku, i wiele chorób wieku dziecięcego mają już za sobą. Ogólnie mówiąc praktycznie wszystko jest już w wersjach ARM, ale czy wszystko działa idealnie?</p>
+<p>Próba wyłączenia iCloud ciągnie się w nieskończoność, przy zmianach rozdzielczości z Settings aplikacja czasami się zamyka, a update systemu pobierane są niepotrzebnie i instalują się w nieodpowiedniej kolejności (dzięki czemu dostajemy malowniczy komunikat „package %@ is missing or invalid”)</p>
+<p>Problemy się zdarzają… a gdy instalowałem duże pakiety z AppStore (Xcode), to aktualizacje potrafiły trwać i po dwie godziny.</p>
+<p>Za drobne usterki nie ma co obniżać oceny, ale czy za ostatnią przypadłość nie należy dać co najwyżej trójki?</p>
+<h2>Prędkość</h2>
+<p>Tu nie będę zbytnio się rozwodził – maszyna rzadko ładuje wszystko po kilkanaście sekund i ogólnie nie daje powodów do narzekań.</p>
+<p>Jest nieźle (chociaż w trybie „oszczędnym” np. od kliknięcia na ikonkę Xcode do pojawienia się menu czekamy 29s, a kolejne kilka na pojawienie się okienka startowego).</p>
+<p>Myślę, że tu mogę dać piątkę z plusem.</p>
+<h2>Dźwięk</h2>
+<p>Średni. Lepszy mam na karcie Sound Blaster na USB.</p>
+<p>Taka mocna trója lub czwórka.</p>
+<h2>Klawiatura</h2>
+<p>Konstrukcja wewnętrznej klawiatury OK, irytują domyślne ustawienia (musiałem sobie zamienić klawisze ze względu na przyzwyczajenie, że prawy Alt mam zaraz przy spacji).</p>
+<p>A na klawiaturze zewnętrznej nie działają mi wszystkie klawisze (tak, tak, to na pewno jej wina), i może byłoby wszystko OK, gdyby przygotował własny plik definiujący układ klawiszy. Cudowne.</p>
+<p>Trója z plusem.</p>
+<h2>Touchpad</h2>
+<p>Zawsze mi się podobał.</p>
+<p>Piątka.</p>
+<h2>Ba(k)teria</h2>
+<p>Apple mówi o 17h, ja osiągam różne wartości… to chyba normalne przy pełnym wykorzystaniu funkcjonalności. Pewne rzeczy budzą podziw (np. to, że bateria praktycznie nie jest zużywana, gdy mamy włączone WiFi i nic nie transmitujemy). Jeżeli miałbym porównać to do systemu z Intelem, to tam (w Intelu) przy trochę większej baterii (ale wyłączonym WiFi) miewam grubo ponad 30h.</p>
+<p>Ciekawe jest też to, że po wydaniu komendy</p>
+<p><b>pmset -g</b></p>
+<p>widać było włączenie funkcji powernap i tcpkeepalive, a disksleep wskazywał na więcej niż 1 (przy użyciu pmset można to zmienić).</p>
+<p>Ogólnie piątka (polecam od czasu do czasu sprawdzić, czy np. system samoistnie nie włączył nam Bluetooth)</p>
+<h2>Developerka</h2>
+<p>W trakcie swojej pracy musiałem uaktualnić kod aplikacji działającej pod iOS. Xcode jest wolny, i po zmianie czegoś w edytorze, myśli po kilka sekund. To i wiele innych rzeczy męczy. Owszem, sam projekt aplikacji budził kiedyś podziw, ale… teraz zaczyna trącić myszką.</p>
+<p>I jeżeli mam szczery, to najmilej w życiu pisało mi się chyba w Delphi. Można było tam szybko i naprawdę łatwo stworzyć profesjonalnie wyglądające aplikacje z pełnym GUI. Z roku na rok coraz lepiej używa się takich środowisk jak Intellij czy Eclipse, ale te tak często irytują uciążliwymi usterkami (to dotyczy też Android Studio). Podobnie jest z tworzeniem czegoś większego w Java Script, co do Visual Studio nie będę się wypowiadał (gdy go jeszcze używałem, wyglądał jak inne aplikacje Microsoft, czyli lekko przestarzale).</p>
+<p>W przypadku Apple mógłbym dużo pisać o nieintuicyjnym generowaniu widoków aplikacji (teoretycznie „automatyka” powinna we wszystkim pomagać, w praktyce przeszkadza; dodatkowo na samym początku Xcode ładował mi w nieskończoność moje stare pliki), nieintuicyjnych kwestiach migracji (nie wiedziałem, jak uaktualnić segue i wiele innych rzeczy), ustawień projektu czy usuwania kontrolki UIWebView (zastępowana przez WKWebView, która nie ma chociażby opcji scale-to-width w viewport i według różnych źródeł jest o wiele wolniejsza i pamięciożerna).</p>
+<p>Błędem okazało się robienie wspomnianych aktualizacji do Xcode, która trwało po kilka h (sic).</p>
+<p>Co najwyżej trója (i szczerze mówiąc do developerki w innych środowiskach niż applowe wolałbym porządną maszynę x86)</p>
+<h2>Regulować?</h2>
+<p>Środowisko Apple to taki stary znajomy, dobry kumpel, który ostatnio kupił nową kurtkę, ale nie zmienił się od wielu lat (jest w tym i pochwała, i równocześnie mocna nagana). M1 mocno poprawił sytuację firmy, jednak nie rozwiązał w sposób magiczny wszystkiego (dużą niewiadomą jest też to, czy aby większość przewagi nad konkurentami nie wynika z procesu 5nm). Korporacja nie pozbyła się dużej części swoich problemów, naleciałości i zaszłości historycznych, i to do bólu widać. Większość użytkowników być może nie będzie chciała problemów nigdy widzieć, i to też jest jasne (Apple na tym bazuje i regularnie wypuszcza na rynek kolejne wersje swoich produktów, które fani po prostu rozchwytują).</p>
+<p>Czy z czystym sumieniem można polecić to, co jest tu obecne?</p>
+<p>NIE. O błędach i planowanym postarzaniu napisano już tomy. Produkty Apple robią bardzo dobre pierwsze i drugie wrażenie, jednakże przy pracy zaawansowanej potrafią irytować. Większość problemów jest oczywiście znana (ten typ tak ma) i każdy korzysta z tych urządzeń ze świadomością usterek, czy nie są to jednak rzeczy, które należałoby prawnie uregulować?</p>
+<p>Żeby spróbować odpowiedzieć na to pytanie, spojrzę przez chwilę na konkurencję.</p>
+<p>YouTube dokonał ostatnio rzeczy niebywałej, i wyłączył licznik przy łapkach w dół (przez co ludzie nie będą mieli pełnej informacji). Teoretycznie mówimy o usłudze prywatnej firmy, która może dostarczać dowolną funkcjonalność i regulamin, w praktyce… słowo YouTube stało się synonimem serwisu do przechowywania wideo.</p>
+<p>Czy w tej sytuacji możemy już mówić o fałszowaniu rzeczywistości? O niszczeniu dobra publicznego? Może należałoby je znacjonalizować albo uregulować? I czy byłoby to w ogóle wskazane?</p>
+<p>Przypomnijmy sobie kwestię wyboru przeglądarki w systemie Windows, i to, jak dużym niewypałem okazał się odpowiedni ekran i „możliwość” usunięcia Internet Explorera (ewentualnie jak niską popularność zdobyła edycja N okienek bez Windows Media Playera).</p>
+<p>Teoretycznie korporacje mają nad sobą rządy - połączenia wielkich firm są bardzo wnikliwie nadzorowane, i nawet Apple zaczyna umożliwiać wymianę części (mówię teoretycznie, gdyż jak to mówią „pożyjemy, zobaczymy”).</p>
+<p>Czy nie są to jednak bajeczki dla grzecznych dzieci? Czy nie jest za późno?</p>
+<p>Dzięki korporacjom mamy w domach wszystko, włączając w to dziesiątki małych bomb, które coraz ciężej rozbroić. Mówię oczywiście o bateriach litowo-jonowych i tym, że coraz częściej do ich zmiany czy wyjęcia wymagany jest specjalistyczny śrubokręt czy coś do usunięcia warstw kleju.</p>
+<p>Urządzenia elektroniczne bardzo rzadko ulegają samozapłonowi, w praktyce jednak często wszystko zaczyna się od puchnięcia baterii (jest to zjawisko normalne, bo wynikające z procesów chemicznych). Im bardziej je zużywamy, tym większe ryzyko, że coś zacznie szwankować. Szybkie ładowanie, przegrzewanie, ciągłe doładowywanie… różne algorytmy minimalizują problemy z tym związane, ale… nawet obecnie ta technologia nie jest dopracowana, i może nigdy nie będzie.</p>
+<p>Bateriom szkodzi również bezczynność. To trochę tak jak z samochodami. Mówi się, że te najbardziej niszczeją, gdy nie jeżdżą. Coś w tym jest. Paliwo traci swoją moc, oleje gęstnieją, uszczelki parcieją, a blachy łapią rudą. Właściwie każde bardziej zaawansowane urządzenie stworzone przez człowieka jest podobne. Tak samo w większości przypadków jest też z elektroniką (dane na nieużywanych dyskach SSD i pamięciach półprzewodnikowych z czasem mogą stać się nieczytelne, a połączenia czy kondensatory stracić swoje właściwości). W przypadku aut też „tylko” ryzykujemy, że przestaną jeździć, albo, że się rozpadną (różnica jest taka, że baterie mogą zakończyć swój ziemski żywot w sposób bardzo widowiskowy).</p>
+<p>Korporacje niejeden raz pokazały, że nie do końca liczą się dla nich ludzie. Produkowanie gadżetów za grosze, jak również ignorowanie ludzkich ograniczeń użytkowników. I to może byłoby częściowo akceptowalne, gdy jest możliwość wyboru. A co, gdy jej nie ma? Gdy coś staje się standardem, i musimy z tego korzystać? I co będzie za pięć, dziesięć czy dwadzieścia lat, gdy komputery będą mieć większe znaczenie niż teraz?</p>
+<p>Na dzień dzisiejszy myślę, że opcją minimum byłoby:</p>
+<ol>
+<li>wprowadzenie obowiązkowych wymiennych pamięci dyskowych (wtedy nikt nie przejmowałby się jakimś tam TBW)</li>
+<li>obecność opcji z ekranem matowym (nie musiałbym korzystać z zewnętrznego monitora)</li>
+<li>szybkie wypinanie i wymiana baterii</li>
+</ol>
+<p>W przypadku Apple jedyne pocieszenie w tym, że niższe konfiguracje są rozsądnie wycenione. Moim zdaniem z tego powodu należałoby je plasować na drugim miejscu (zaraz za najlepszymi maszynami z Intelem / AMD, na których można używać tzw. „wolnego” oprogramowania). Na pewno sprawią się o wiele lepiej niż tani / słaby sprzęt, którym nieustannie zalewany jest rynek.</p>
+<h2>Brak czegoś istotnie nowego w 2021</h2>
+<p>I tak oto dochodzimy do końca roku, w którym tak naprawdę nie pojawiło się nic ciekawego (co mogłoby wywołać istotną chęć zakupu). Producenci pokazali kolejne iteracje swoich sztandarowych produktów, i w żaden sposób nie zmienili strategii (niektóre rzeczy może dostaną swoje szanse na doszlifowanie dopiero w 2022 lub 2023 roku).</p>
+<p>Czego więc można się spodziewać?</p>
+<p>Istotnie dopracowanych Macbooków Air i MacMini (miejmy nadzieję, że w niepamięć odejdzie wymienna pamięć masowa, notch, błyszczące ekrany i złe  skalowanie), super dopracowanych laptopów z AMD (może), masówki z Intelem 12-generacji (na pewno) i dobrego Windows (just kidding), do tego część z nas przeniesie się na DDR5 czy szybsze „dyski” SSD, może nawet przekona do Linuxa (nie będę pisać o roku pingwina, ale w dobie obecnej „jakości” jest to jakieś rozwiązanie).</p>
+<p>I tyle. To tylko technika. Ten, kto potrzebuje jakiegoś cuda, może znaleźć je już obecnie (i to chyba całkiem dobrze udowodniłem swoimi poprzednimi wpisami).</p>
