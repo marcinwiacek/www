@@ -1,0 +1,21 @@
+﻿Title: Szybsze, lepsze, ładniejsze (2022)
+Author:marcin
+When:4 Jun 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1231556,szybsze-lepsze-ladniejsze>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Ostatnio na YouTubie obejrzałem sobie wideo, na którym poruszono temat kiepskiej jakości nowych samochodów z dwóch ostatnich lat (nie, nie, tu nawet nie chodzi o żadną nową aferę z "fałszowaniem" wyników badań spalin):</p>
+<!--break-->
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/rkLiW9xMYH8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Na innym kanale pokazano z kolei takie proste cudo:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/t7MeqkJPRwA" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Zamyśliłem się. Przez lata produkowano bezawaryjne silniki, które na gnojówce (potoczne określenie oleju napędowego lub wszystkich jego zastępników, takich jak olej od frytek) przy normalnej wielkości samochodzie osobowym potrafiły zejść w trasie do 3,5 – 4 litra. Tych silników już nie ma, bo… ekologia. Samochody urosły, mają coraz więcej ułatwiaczy, i… też ich nie ma. Bo COVID, bo Chińczycy, bo wojna, do dodatkowe obowiązkowe wyposażenie. Producenci poniekąd wpadli w swoją pułapkę, a proponowane elektryki (to te, w których nawet przy delikatnym uderzeniu czasem trzeba wymienić całą baterię akumulatorów) po prostu się nie nadają do eksploatacji.</p>
+<p>I teraz mała analogia – dawno, dawno temu na płycie głównej wymieniłem procesor. Płyta była projektowana, gdy standardem było mniej więcej 266 Mhz, a ja tam włożyłem 800 Mhz. Urządzenie podziałało jeszcze długą chwilę, i wszyscy byli zadowoleni. Dzisiaj, gdy chciałbym kupić to czy tamto, to tego nie ma w rozsądnej cenie. Bo COVID, bo to, bo tamto. Doszliśmy tu do podobnej pułapki jak w przypadku samochodów – nowych dobrych rzeczy ni widu ni słychu, wszystko jest plastikowe i jednorazowe, i zamiast jak kiedyś dorzucać po kilka PLN do nowych komponentów / tuningu tak naprawdę opłaca się jedynie używać graty do końca (czyli przez kilka lat, bo te obecnie są naprawde mocarne), a to powoduje... że część systemów pewnie przestanie dostawać poprawki bezpieczeństwa.</p>
+<p>Źle dla użytkowników, ale widać też, że chytry traci dwa razy… ciekawe tylko, że wszędzie poza Europą można jakoś produkować „stare” i „niedobre” auta, a nam się cały czas mówi o ekologii (I tak – np. w Ameryce czy Afryce przez długi czas „tłuczono” Golfa I).</p>
+<p>Czy nie świadczy to o tym, że Europa cofa się w rozwoju?</p>

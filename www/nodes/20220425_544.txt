@@ -1,0 +1,89 @@
+﻿Title: Ubuntu 22.04 to (u mnie?) na razie porażka, czyli beznadziejna walka o każdy mW energii (2022)
+Author:marcin
+When:25 Apr 2022
+Taxonomy:polski,polski blog,salon24.pl,Hyperbook,Linux,Ubuntu,dobreprogramy.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1223293,ubuntu-22-04-to-u-mnie-na-razie-porazka-czyli-beznadziejna-walka-o-kazdy-mw>opublikowany w serwisie salon24.pl</a> i <a href=https://www.dobreprogramy.pl/@marcinw2/ubuntu-2204-to-u-mnie-na-razie-porazka-czyli-beznadziejna-walka-o-kazdy-mw,blog,115922>serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>- To wybór między dżumą i cholerą. – Takie opinie można było spotkać na temat niedzielnych wyborów we Francji, i tak się czasami czuję, gdy muszę wybrać jakiś sprzęt komputerowy.</p>
+<p>Reklamy i zapewnienia producentów często <a href="https://www.o2.pl/informacje/lukaszenka-o-polsce-zobaczcie-co-sie-dzieje-6761774824049472a" target="_blank" rel="nofollow noopener">wyglądają tak samo poważnie jak wynurzenia pewnego dyktatora</a> (wielokrotnie wspominałem o tym na swoich blogach), a nawet proste zakupy mogą się zamieniać w coś takiego:</p>
+<!--break-->
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/s8960bze69s" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>
+<p>Dla tych, którzy nie znają historii - przez pewien czas szukałem sprzętu do pisania tekstów. Ważne były następujące kwestie:</p>
+<ul>
+<li>duża bateria, matowy ekran,</li>
+<li>(w przypadku tabletów) wodoszczelność i obsługa rysika,</li>
+<li>(w przypadku laptopów) rozkładanie na płasko, dobra klawiatura, brak kratek od dołu, w miarę możliwości czarna obudowa i cisza.</li>
+</ul>
+<p>Rozważałem mocno Macbook Air, ale ten nie miał / nie ma matowego ekranu (a ładnej folii nie namierzyłem). Gdy nie znalazłem nic w świecie ARM (odpadły np. kadłubki, w które wkłada się telefony, a one poprzez Samsung DEX pozwalają używać zewnętrznej klawiatury, touchpada i ekranu), przetestowałem następujące urządzenia: Medion Akoya E4251, Acer Swift 1 SF114-32 i HyperBook L14 / Clevo L140MU (szczegółowe opisy można znaleźć w moich wcześniejszych wpisach blogowych).</p>
+<p>Teoretycznie sprawa energii jest prosta - uruchamiamy edytor, raz na jakiś czas naciskamy klawisz, wywoływane jest przerwanie, i sprzęt / oprogramowanie wykonują związaną z tym akcję (np. pokazanie tekstu), a w pozostałym czasie nic nie musi być robione (na dobrą sprawę wystarczy tylko, że włączony jest ekran, i pamięć RAM)</p>
+<p>Na popularnym sprzęcie sprawy nie są takie oczywiste – w tle pracuje ileś procesów, a nie tylko edytor (powodują one, że elementy zestawu nie przechodzą w stan uśpienia), dodatkowo często nie możemy odciąć zasilania od niepotrzebnych elementów (np. cały czas pracuje USB).</p>
+<p>Wszystko komplikuje też fakt, że popularne x86 nie było projektowane pod kątem oszczędności i bezpieczeństwa – na początku wszystkie elementy działały cały czas z pełną prędkością, a dokładanie klocków związanych z separacją procesów spowodowało, że procesor (mówiąc kolokwialnie) się nie nudzi.</p>
+<p>Czy sprawa jest więc beznadziejna? I jakie punkty są najważniejsze?</p>
+<h2>Duża bateria i energooszczędne podzespoły</h2>
+<p>Propozycja Clevo przy 14 calach jako jedyna na rynku na baterię 73Wh i matowy ekran o obniżonym zużyciu energii.</p>
+<p>Sprawa procesora to rzeczywiście problem – gdybym mógł, uciekłbym od x86 (od tych wszystkich konstrukcji z Intel ME i innymi podobnymi potworkami) albo wybrałbym AMD, gdyż ten dostępny jest w 7nm i wydaje się mieć o niebo lepiej zaprojektowany sposób wykonywania rozkazów (<a href="https://www.notebookcheck.net/Intel-Alder-Lake-efficiency-Intel-s-newest-CPUs-might-cut-down-the-battery-life.615383.0.html" target="_blank" rel="nofollow noopener">notebookcheck.net już potwierdza, że w przypadku 12-generacji Intela nowe maszyny będą mieć krótsze czasy działania na baterii, gdyż Intel stara się dogonić AMD w kwestii wydajności, a ze swoją technologią może to osiągnąć wyłącznie przez podbijanie TDP</a>).</p>
+<p>Ogólnie mówiąc wybór pomiędzy Intelem i AMD jest jak wspomniany wybór między dżumą i cholerą (nie chcę iść w teorie spiskowe, ale np. <a href="https://www.notebookcheck.net/The-latest-MSI-Bravo-15-B5DD-is-a-step-backwards-for-the-series.615143.0.html" target="_blank" rel="nofollow noopener">MSI nowy model z Ryzenem zrobiło znacznie gorzej niż stary</a>, do tego obecne x86 ze względu na stopień skomplikowania jest „defective by design”, i szczerze mówiąc ciekawe byłoby zobaczyć, jak wyglądałaby sytuacja, gdyby wziąć stare, bardzo proste projekty z niewielką ilością tranzystorów, i zaimplementować je w 7nm).</p>
+<p>Skoro jednak to się kocha, co się lubi, i to się lubi, co się ma: wspomniane laptopy Clevo występowały z procesorem Intela 10 generacji (L14xCU), procesorem Intela 11 generacji (L14xMU), będą też sprzedawane z 12 generacją (L14xPU). Pierwsze dwa w testach notebookcheck.net w trybie bezczynności osiągały odpowiednio 4,6W i 2,9W – na tej podstawie kupiłem egzemplarz z jedenastką (u polskiego dostawcy Hyperbook).</p>
+<p>Przy dysku myślałem mocno o Hynix Gold P31, ostatecznie jednak zmuszony byłem wybrać Samsunga.</p>
+<p>RAM jest wlutowany – nie lubię tego rozwiązania, ale 8GB jest aż nadto wystarczające, do tego to chyba LPDDR (nie jestem pewien).</p>
+<h2>Wsparcie OS dla oszczędzania energii i jak najmniejsza ilość procesów w tle</h2>
+<p>Co do OS, to znów poniekąd wybór na rynku nie rozpieszcza – mamy albo Windows z jego rozpasaniem, albo coś linuksowego (czy mówiłem coś o dżumie i innych chorobach?), reszta to raczej oryginalne wynalazki.</p>
+<p>Do swoich eksperymentów wybrałem Ubuntu – uznałem, sprzęt ma pracować na siebie, a ja jednak nie mam zamiaru się w nim grzebać (ponieważ to jednak Linux,  pewne opcje konfiguracji pozostają).</p>
+<center><img width=300 src=sites/default/files/544/ubuntu-g957dd070f_1280.png></center>
+<p>Z perspektywy czasu stwierdzam, że do ostatniego czwartku to był niezły wybór – <a href="?q=node/480">napisałem nawet większy tekst o tym, jak ustawić Ubuntu 21.10, żeby</a>:</p>
+<ul>
+<li>zapisywało mało danych na dysku</li>
+<li>limitowało TDP i prędkość procesora (fabryczne limity Clevo były dosyć absurdalne)</li>
+<li>limitowało TDP i prędkość karty graficznej</li>
+<li>przynajmniej programowo wyłączało kamerę</li>
+</ul>
+<p>Ubuntu 22.04 niestety nie wzbudza już takiego entuzjazmu – obciążenie procesora nie jest drastyczne (nie mam nagle 100%), ale nawet w trybie bezczynności zdarzają się piki 20%, dodatkowo procesy związane z Gnome i Xorg cały czas coś robią (jest to obciążenie rzędu 1%), w tle pojawiają się też elementy związane ze snap, uaktualnieniami, itp.</p>
+<p>I proszę nie zrozumieć mnie źle – w 21.10 być może było podobnie… ale skoro laptop nagle z dnia na dzień przy podobnym używaniu pokazuje kilka dobrych h mniej pracy na baterii, coś jest zrobione mocno gorzej w nowej dystrybucji. Może to tylko choroby wieku dziecięcego, ale…sam Linux ma masę sposobów, żeby rzeczy zrobić „dobrze” (np. można ustawić sobie trigger i nakazać uruchomić proces za 24h, a nie odpalać go regularnie, gdy nie jest potrzebny), i wypadałoby trzymać poziom.</p>
+<p>Jestem na etapie szukania, czy mogę coś uzyskać przez zmianę jądra, itp., na chwilę obecną to jednak niewypał. Środki, które podjąłem (to są dodatkowe komendy do <a href="?q=node/480">skryptu, który opisywałem wcześniej</a>):</p>
+<p>Próba wyłączenia trzech usług, których nie potrzebuję (jako ćwiczenie polecam poszukać, co robią):</p>
+<p><pre>sudo systemctl stop systemd-oomd
+sudo systemctl mask systemd-oomd
+sudo systemctl stop irqbalance
+sudo systemctl stop fwupd.service
+sudo systemctl mask fwupd.service</pre></p>
+<p>(+ wyłączenie automatycznej synchronizacji czasu)</p>
+<p>Dalsze ograniczenie TDP procesora:</p>
+<p><pre>sudo rapl-set -p 0 -c 0 -l 8000000 -e 1
+sudo cpupower frequency-set -u 2400000
+sudo cpupower --cpu 2,3,6,7 frequency-set -u 400000</pre></p>
+<p>i próby dodatkowego zmniejszania prędkości:</p>
+<p><pre>sudo cpupower --cpu 1 frequency-set -u 1200000
+sudo cpupower --cpu 4,5 frequency-set -u 800000
+PIDOF=$(pidof Xorg)
+taskset -cp 4 $PIDOF
+PIDOF=$(pidof gnome-shell)
+taskset -cp 4 $PIDOF</pre></p>
+<p>Wyżej wspomniane komendy wymuszają mniejsze prędkości maksymalne kolejnych rdzeni procesora, i przypisują dwa cały czas używane procesy, do konkretnego rdzenia (nie mogę zrezygnować z Xorg ze względu na używanie korekty gamma na ekranie).</p>
+<p>Przy okazji sprawdziłem też, czy aby nowe jądro nie ma włączonego szybszego timera, charakterystycznego dla zastosowań typu realtime (w /boot mamy konfigurację).</p>
+<h2>Możliwość fizycznego odłączania nieużywanych elementów</h2>
+<p>Tu mamy pewien problem – UEFI od Clevo / Insyde (przynajmniej w wydaniu Hyperbook) nie daje możliwości wyłączenia USB czy kamery czy rdzeni CPU (coś, co pojawia się w Dell czy HP).</p>
+<p><a href="?q=node/480">Z kamerą przynajmniej programowo radzi skrypt od Tuxedo (pisałem o tym)</a>, jak to jednak wygląda sprzętowo (czy fizycznie odcinany jest prąd)  – nie mam pojęcia.</p>
+<p>W Linuxie mam obecnie w opcjach jądra dodatkowo „isolcpus=2,3,6,7” (zmieniamy GRUB_CMDLINE_LINUX w pliku /etc/default/grub i wydajemy komendę update-grub). Powoduje ona, że jądro nie przydziela tam żadnych procesów… a ponieważ mam na nich prędkość 400 Mhz, teoretycznie i praktycznie całkowicie powinny być wyłączone.</p>
+<p>Dwie rzeczy tu mocno zastanawiają:</p>
+<ol>
+<li>powertop nie pokazuje mi przy procesorze wejścia w tryby C9 i C10, i nie wiem do końca, czy na tym sprzęcie jest to kwestia płyty głównej (brak wsparcia dla odpowiedniego wyłączenia napięcia), UEFI, Intel ME czy samego Linuxa (wzbudzanie procesora przez procesy).</li>
+<li><a href="?q=node/476">gdy próbowałem wyłączać urządzenia PCI przez zabawy rejestrami, zużycie energii wydawało się wzrastać</a></li>
+</ol>
+<h2>Podsumowanie</h2>
+<p>Kupujemy nowoczesny sprzęt i mamy do wyboru – oszczędzanie energii albo wydajność (znów się kłania dżuma i cholera).</p>
+<p>Nowe Ubuntu mnie mocno rozczarowało. Wygląda na to, że dystrybucja nie jest zbyt dobrze przygotowana (np. włączany jest zawsze Remote Desktop, przy kartach Nvdii używany jest Xorg, zmienione są opcje wirtualizacji, niektórzy raportują problemy ze standby, itd.), a mój bug został zamknięty…</p>
+<p>Należy tu też jasno powiedzieć kilka rzeczy:</p>
+<ol>
+<li>ilość wakeups/second w narzędziu powertop powinna być jak najmniejsza (u mnie potrafi zejść do mniej więcej 90, ale przy pisaniu tekstów w Libre Office wynosi już około 400-600, i to jest relatywnie sporo)</li>
+<li>procesor i karta graficzna powinny „chętniej” wchodzić w wyższe stany oszczędzania (tymczasem przy karcie mam maksymalnie RC6, a przy CPU C8)</li>
+<li>może się zdarzać, że mamy dużo wejść w tryby oszczędzania energii albo niską ilość wakeups, ale moc pobierana z baterii (widać w powertop) jest spora. Intel 11-generacji w teorii ma wszystkie rdzenie takie same (choć te związane z hyperthreading prawdopodobnie mogą pobierać mniej energii). I teraz należy zadać sobie pytania – czy bardziej opłaca się uruchamiać poszczególnie procesy na oddzielnych rdzeniach? Co daje HT? Czy sumaryczne zużycie energii przez dłuższy czas przy niższym taktowaniu jest mniejsze niż przez krótki czas przy wysokim taktowaniu? Czy jądro rzeczywiście robi wszystko optymalnie ? (może 5.13 było lepsze niż 5.15)</li>
+<li>we wszystkim nie chodzi o aptekarskie mierzenie każdej porcji energii, ale znalezienie takiego złotego środka, żeby maszyna była wystarczająco szybka, a do tego ilość pobieranej mocy jak najniższa przez jak najdłuższy czas </li>
+<li>mówimy tu o takim poziomie optymalizacji, że nawet wyświetlanie sekund w zegarku na pulpicie albo częste zapisywanie logów może generować zużycie „bardzo dużej” energii. Jeżeli Szanowny Czytelniku jesteś na etapie „o, mamy nowe Gnome! Jak fajnie, że ma inne kolorki!”, to pewnie wszystko, co napisałem, jest nieistotne.</li>
+<li>jedyne, czego nie spróbowałem, to chyba tylko undervolting</li>
+</ol>
+<p>I teraz liczby: w trybie idle (brak sieci, komputer pokazuje tylko desktop) przy mojej jasności ekranu (bodajże 10%) chwilowo potrafię zejść nawet do 1,83 W, średnie wartości to mniej więcej 2-2,2 W, z kolei przy pisaniu tekstów w Libre wchodzę na co najmniej 2,8-3,5 W.</p>
+<p>Niby wszystko jest OK, ale… nie jest (patrz punkt 5 powyżej)</p>
+<p>C.d.n. może nastąpić.</p>

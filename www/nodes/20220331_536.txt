@@ -1,0 +1,21 @@
+﻿Title: Gdy drzazgę widzisz, a belki w swoim oku nie dostrzegasz (2022)
+Author:marcin
+When:31 Mar 2022
+Taxonomy:polski,polski blog,salon24.pl,Apple
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1217676,gdy-drzazge-widzisz-a-belki-w-swoim-oku-nie-dostrzegasz>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p><a href="https://motoryzacja.interia.pl/wiadomosci/ciekawostki/news-putin-cofnal-rosje-o-cwierc-wieku-wlasnie-wchodza-w-1997-rok,nId,5929555" target="_blank" rel="nofollow noopener">Dzisiaj przeczytałem, że w Rosji Łada będzie sprzedawać silniki, które będą spełniać normę Euro 2 zamiast Euro 5.</a> Powodem ma być wojna, a dokładniej brak odpowiednich elementów elektronicznych. Prawda, nie prawda… na pewno obecny konflikt bardzo źle wpłynie na środowisko (pożary, spalanie paliwa niskiej jakości przez kopcące silniki wojskowe, konieczność produkcji elementów broni i przedmiotów, które mają zastąpić zniszczone), nie o tym chciałem jednak mówić.</p>
+<!--break-->
+<p>Mianowicie ostatnio Apple pokazało kolejny układ z serii M, który jest w praktyce „sklejką” zawierającą dwa połączone poprzednie układy. Po zachwytach przyszła szara rzeczywistość.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/TYF527DqnwY" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Teoretycznie nowy produkt ma wymienne dyski, ale… te nie są standardowe. Istnieją mocne podejrzenia, że produkt będzie miał zapychające się kurzem chłodzenie (to nie sprzyja wymianie ciepła), i to tylko dlatego, bo Apple nie chciało zrobić układu pasywnego. A do tego… ktoś policzył, że wydajność całości nie skaluje się w sposób liniowy, a dokładniej mówiąc droższe warianty nie mają takiej wydajności na dolara jak modele tańsze.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/s59f-kYdStE" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Zaskoczeni? Bo ja nie. I nawet jeśli wziąć pod uwagę, że może chodziło o zaoszczędzenie kilku Watt energii, to i tak zastanawia mnie hipokryzja ludzi Zachodu, które „dostrzegają” „problem” norm Euro, a nie widzą, że większość rzeczy w sklepach (jeśli nie wszystkie) bywa sztucznie ograniczana po to, żeby użytkownicy byli zmuszeni częściej je wymienić. Ta bylejakoś jest widoczna w kwestii hardware, jak i płatnego software (bo to najlepsze i bezpłatne cały czas się rozwija, i pobija kolejne rekordy).</p>
+<p>Kurtyna.</p>
+<p>PS. To znowu potwierdza też, że często najbardziej opłacalne są konfiguracje najtańsze albo co najwyżej średnie (choć nie zawsze, i kontrprzykładem mógłby być iMac 24 cali, który tylko w droższej wersji ma chłodzenie z dwoma wentylatorami).</p>

@@ -1,0 +1,53 @@
+﻿Title: Korporacyjne czempiony – czy pycha podąża przed upadkiem? (2022)
+Author:marcin
+When:19 Jun 2022
+Taxonomy:polski,polski blog,salon24.pl,dobreprogramy.pl
+
+<p>Jakiś czas temu jeden z programistów usunął swój własny kod z repozytoriów NPM. Miał do tego pełne prawo, a kod służył wyłącznie do wykonywania prostej operacji na napisach. Zrobiło się o tym głośno, bo ileś korporacyjnych aplikacji przestało działać. Ktoś tę sprawę przeanalizował, i wyszło mu, że super kod miał błędy, a napisanie go w sposób prostszy jest o wiele lepsze. O tym i innych podobnych przykładach można usłyszeć np. tutaj:</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1234515,korporacyjne-czempiony-czy-pycha-podaza-przed-upadkiem>opublikowany w serwisie salon24.pl</a> i <a href=https://www.dobreprogramy.pl/@marcinw2/korporacyjne-czempiony-czy-pycha-podaza-przed-upadkiem,blog,116202>serwisie dobreprogramy.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<center><img width=300 src=sites/default/files/551/pexels-olia-danilevich-4974912.jpg></center>
+<p>Jakiś czas temu jeden z programistów usunął swój własny kod z repozytoriów NPM. Miał do tego pełne prawo, a kod służył wyłącznie do wykonywania prostej operacji na napisach. Zrobiło się o tym głośno, bo ileś korporacyjnych aplikacji przestało działać. Ktoś tę sprawę przeanalizował, i wyszło mu, że super kod miał błędy, a napisanie go w sposób prostszy jest o wiele lepsze. O tym i innych podobnych przykładach można usłyszeć np. tutaj:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/FyCYva9DhsI" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Rozważmy coś innego, czyli popełnianie literówek – z jednej strony cechą ludzką jest mylić się, z drugiej strony swego czasu w znanych repozytoriach wstawiano pakiety o bardzo podobnych nazwach do tych najpopularniejszych, i okazywało się, że w wielu wypadkach dawało się idiotycznie łatwo przemycać złośliwy kod do renomowanych korporacji.</p>
+<p>Spójrzmy też na generowanie 1,5 miliona plików przed napisaniem własnego kodu (aplikacja React):</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/001SxQCEuv8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Ten ostatni przykład to oczywiście tylko wierzchołek góry lodowej (i pomyśleć, że kiedyś śmialiśmy się z Nero Burning ROM). Czy wiemy już, dlaczego taki Windows 95 zajmował kilkanaście dyskietek, a Windows czy 11 czy 10 grube gigabajty? (celowo strasznie upraszam, z drugiej strony jednak koszt wydajnościowy przy przechodzeniu z systemów Microsoft opartych o generację XP na generację związaną z Vistą był po prostu koszmarny, a dla mnie największą bolączką jest obserwowanie okienka „Preparing to delete” z komunikatem „Discovered”, które to okienko jest pokazywane w obecnych Windows przed właściwym kopiowaniem plików, a jego uaktualnianie trwa w nieskończoność).</p>
+<p>A Rust? (to taki modny język, który ma nie mieć bolączek związanych z używaniem C czy C++, a który chyba niekoniecznie jest tak dobry, jak wiele osób mówi, czy sądzi, a najlepiej o tym chyba świadczy „sukces” projektu Servo, którego pozbyła się Mozilla).</p>
+<p>A usunięcie tzw. buildów Jumbo z Chrome? (rozwiązanie to pozwalało na wielokrotnie szybsze budowanie tej aplikacji, co dawało ogromne oszczędności w zużyciu energii czy zasobów u programistów na całym świecie).</p>
+<p>A inne rzeczy, które niekoniecznie spełniają kryteria łatwości używania czy lekkości?</p>
+<p>Czy więc w korporacjach siedzą sami głupcy? Jak to się dzieje, że dostajemy takie potworki?</p>
+<p>Pewne rzeczy we współczesnym IT zostały wielokrotnie opisane, i przeanalizowane… szczerze mówiąc wystarczy przejrzeć internet, i bez problemu można znaleźć gotowy algorytm. Sam swego czasu bawiłem się trochę podobnymi rzeczami, i np. po kilku drobnych zmianach osiągałem te same wyniki w ułamku pierwotnego czasu. Drobne przykłady z mojego repozytorium <a href="https://github.com/marcinwiacek/coding" target="_blank" rel="nofollow noopener">https://github.com/marcinwiacek/coding</a>:</p>
+<ul>
+<li>plik Main52 (szukanie, który napis w tablicy napisów powstał przez połączenie innych) – pierwotna wersja ok. 618 milionów jednostek czasu, wersja ostateczna ok. 3 miliona (mówię około, gdyż chodzi o podanie skali)</li>
+<li>plik Main 57 (szukanie któregoś w kolejności najwyższego elementu w tablicy) – wersja najszybsza ok. 5 milionów, najwolniejsza ok. 47 milionów</li>
+<li>plik Main 58 (szukanie napisów zaczynających się od czegoś konkretnego) – moja wersja ok. 242 tysiące jednostek, wersja polecana na YouTube ok. 400 tysięcy</li>
+<li>plik Main 60 (szukanie podciągów danego ciągu) – najdłuższy czas 3,2 miliarda jednostek, najkrótszy 300 milionów</li>
+<li>plik Main 61 – czas pomiędzy 990 jednostek, a 61 jednostek</li>
+</ul>
+<p>Wymieniać można długo. Czasami wystarczyło użyć innej struktury danych, a czasami trochę zmienić algorytm (zmienić jego złożoność), i… można było dojść do 17% pierwotnego czasu (żeby było ciekawiej, sposoby rozwiązania proponowane przez renomowanych programistów na YouTubie nie zawsze są najlepsze).</p>
+<p>Jak to więc dzieje się, że niby wszystko jest na wyciągnięcie ręki, a niezbyt cieszymy się z tego, co dostarczają wielkie firmy softwarowe? Załóżmy, że nie mamy do czynienia z tym, co na wideo: </p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/qTx6puDMhAY" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>O konkretnych problemach związanych z jakością pisałem np. w tekstach <a href="?q=node/411">„Testowanie to nieco zapomniana już sztuka?”</a> i <a href="?q=node/502">„Agile, czyli jak dziewięć kobiet może dostarczyć jednego bobasa w miesiąc”</a>. Nie biorą się one znikąd, i oczywiście powstają z wielu przyczyn (np. nakładanie się sprzecznych celów różnych zespołów, realizacja interesów krajów, w których firmy pracują, czy zwykła głupota)… ale jest też jeszcze jedna, mniej oczywista, o której chciałem dzisiaj wspomnieć… w wielkich firmach z czołówki gazet wykonuje się rozmowy o pracę w formie wywiadu, podczas którego kandydat ma napisać na sucho na białej tablicy rozwiązanie jednego z problemów.</p>
+<p>Dlaczego tak się dzieje? Rekruterzy mają dosłownie kilka lub kilkanaście minut na ocenę, czy ktoś jest dobry (mówiąc inaczej – ilość kandydatów jest tak duża, że odrzucenie większości nie jest problemem).</p>
+<p>Teoretycznie wygląda to na doskonały sprawdzian umiejętności, w praktyce wiele osób wydaje się uczyć najbardziej typowych algorytmów, i „zdaje” nie mając żadnej innej wiedzy (powstało zresztą wiele płatnych kursów z tym związanych).</p>
+<p>Weźmy dosyć typową sytuację – ktoś ma ileś lat praktycznego doświadczenia, ale podczas takiej rozmowy dostaje opisanie któregoś tam algorytmu sortowania (takiego, którego normalnie się nie używa, ewentualnie wykonuje się go przez wywołanie odpowiedniej funkcji bibliotecznej).</p>
+<p>Czy kandydat, który nie doczytał odpowiedniego fragmentu podręcznika, ale ma ogromną wiedzę innego rodzaju, jest gorszy od tego, który zaraz po coding camp „skalibrował się” pod interview tego rodzaju?</p>
+<p>Można powiedzieć, że dobry inżynier jest zawsze dobry, z drugiej strony proszę spojrzeć na <a href="https://www.youtube.com/c/HellsKitchenGlobal" target="_blank" rel="nofollow noopener">Hells Kitchen,</a> gdzie non-stop krzyczy się „how long?”, „concentrate”, „focus”, „you don’t know basic things”. Czy praca umysłowa w IT rzeczywiście polega na tym samym i czy interview powinny być robione dokładnie w tym duchu? (nie muszę chyba dodawać, że ten, kto pozytywnie przeszedł taki młyn, może wpaść w rodzaj samouwielbienia, i osiąść na laurach).</p>
+<p>W <a href="https://bulldogjob.pl/readme/programisci-nadal-potrzebuja-skromnosci" target="_blank" rel="nofollow noopener">artykule „Programiści nadal potrzebują skromności”</a> przeczytałem o słynnym panu Dijkstrze, który w 1972 w swoim wykładzie miał wskazać wiele różnych przyczyń niepowodzeń w pisaniu programów (tytuł jego tekstu „Skromny programista” / „The humble programmer”). Mamy 2022, i wydaje się, że z jednej strony mamy lepszą inżynierię oprogramowania, z drugiej strony możemy mieć do czynienia z inżynierami, którzy może i idealnie zdali egzaminy, ale… no właśnie, czy zawsze mają to, co potrzeba do wykonywania tej pracy?</p>
+<p>(z idealnym zdawaniem egzaminów też być może przesadziłem – jak legenda głosi, swego czasu robiono badania wśród pracowników pewnej renomowanej korporacji, i wychodzi na to, że część z nich nie ma pojęcia, czy przeszłoby drugi raz proces rekrutacyjny).</p>
+<p>Czy tym samym próbuję stwierdzić, że ludzie w takich firmach są źli? Myślę, że nie. Wielu z nich to swego rodzaju elita, wielu dochodzi do granic swoich możliwości, i rzeczywiście się stara… ale:</p>
+<ol>
+<li>same interview promują tylko jeden określony wzorzec, a tam, gdzie nie mamy różnorodności, to zawsze w końcu kończymy na równaniu wszystkiego w dół (to tak jak z pulą genów, która jednak musi być zróżnicowana).</li>
+<li>osoby świeżo po coding camp (z przykładu wcześniej) muszą mieć czas na nabycie doświadczenia, i z tego punktu widzenia, zatrudnianie ludzi z długim stażem może być znacznie lepsze.</li>
+</ol>
+<p>Moim skromnym zdaniem weszliśmy w ślepą uliczką, taką samą, jak angażowanie się Big Tech w politykę (np. ostatnio przeczytałem o podpisaniu aktu o zwalczaniu). Może warto wrócić do źródeł, i zobaczyć, po co mamy technologię? Cofnąć się i ponownie rozważyć alternatywy? Tak zrobiono chociażby z procesorami – okazuje się, że uproszczenie ich konstrukcji (powrót do czasów Intela 4004) pozwala na wykonywanie ich z plastiku. Jaką rewolucję może to spowodować, nie muszę chyba mówić.</p>

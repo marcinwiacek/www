@@ -1,0 +1,31 @@
+﻿Title: „Ktoś” zauważył, że bylejakość dotyka wszystkich, a komputery to nie święte krowy. (2022)
+Author:marcin
+When:21 May 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1228760,ktos-zauwazyl-ze-bylejakosc-dotyka-wszystkich-a-komputery-to-nie-swiete-krowy>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dawno temu, gdy rozpoczynałem przygodę ze sprzętem komputerowym, był on bezgłośny (brak jakiegokolwiek aktywnego chłodzenia), ale podłączany do zwykłego telewizora CRT (promieniowanie, nieostrość obrazu, czasem lekkie drżenie z uwagi na jego pełną analogowość).</p>
+<p>Tamte telewizory poniekąd miały w sobie różne niebezpieczne elementy (kto pamięta Rubiny, które paliły się szczególnie przy niedostatecznej wentylacji w meblościankach?):</p>
+<!--break-->
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/S_Ddj1LM1WA" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Potem zły wpływ maszyn na człowieka w domach się zmniejszył (monitory CRT z odświeżaniem 100Hz i filtrami), ale i zwiększył (głośne wiatraczki w zasilaczu, piszczące dyski, warczące stacje dyskietek, mechaniczne klawiatury, i wreszcie aktywne chłodzenie niskiej jakości na kartach graficznych i CPU).</p>
+<p>Pewnym rozwiązaniem na część bolączek okazało się przejście na używanie telefonów, tabletów, dysków SSD, jak również częściowo laptopów… ale maszyny poniekąd zdominowały nasze życie, i obecnie warczące brzydactwa spotykamy na każdym kroku, a nawet najnowsze i najlepsze ekrany LCD i Amoled potrafią męczyć wzrok bardziej niż stare CRT.</p>
+<p><a href="https://spidersweb.pl/2022/05/szum-wentylatorow-w-laptopie.html" target="_blank" rel="nofollow noopener">I tu nagle pojawia się osoba pisząca dla jednego z bardziej znanych serwisów w Polsce, i ze zdumieniem odkrywa, że praktycznie każdy laptop z Windows (nawet, gdy nic nie robimy) atakuje nas swoim szumem swojego wiatraczka (zostało to porównane do MacBooka Air, który takowego szkodliwego elementu nie zawiera).</a></p>
+<p>Zamyśliłem się.</p>
+<p>Pisałem o tym, jak sobie sobie całkiem sprytnie ustawić Della Precisiona (przynajmniej trochę starsze modele), i włączać tenże szumiący element tylko wtedy, gdy temperatura naprawdę wzrasta… ale to ma sens tylko wtedy, gdy założymy kaganiec na Windows i wyłączymy te wszystkie optymalizatory, schedulery, i inne cyrkowe rzeczy, które wymuszają stałą pracę CPU na wyższych obrotach. Rozwiązanie zmniejsza problem, choć go nie eliminuje – jeśli mamy CPU z TDP 45W i więcej, i mocną kartę graficzną, to kiedyś trzeba je jednak przewietrzyć (załóżmy, że laptop nie jest z tych 2mm grubości, i układ chłodzenia coś daje).</p>
+<p>MacBook Air to oczywiście zacna pod względem hałasu maszyna (pod kilkoma innymi też), ale… nie można jej polecać z czystym sumieniem choćby dlatego, bo atakuje co bardziej wrażliwe oczy szkodliwymi odblaskami.</p>
+<p>Rozwiązaniem alternatywnym są oczywiście wspomniane telefony, tablety, może nieliczne urządzenia stacjonarne z TDP 65W (gdzie można uświadczyć pasywne chłodzenie), ewentualnie maszyny z tanimi procesorkami pokroju Pentium N (zasadniczo chyba wszystkie ekrany w tej klasie wołają o pomstę do nieba), obniżanie TDP procesorów/używanie rozwiązań podobnych do opisanego przeze mnie (własna mapa obrotów wentylatora), albo wymiana Windows na coś innego… przykładowo piszę ten tekst z L14 (wyrób Clevo brandowany przez Hyperbooka) i przy operacjach typowych wentylator nie musi się włączać.</p>
+<p>Tak naprawdę dochodzimy w tym momencie do podstawowego pytania – ile z mocy obliczeniowej tak naprawdę wykorzystujemy? I ile z niej marnujemy używając jedynego słusznego Windows?</p>
+<p>Jak pokazał eksperyment Linusa, sprzęt z 2012 nawet w dzisiejszych czasach może być aż nadto wystarczający:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/0SyLqFuf_SU" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Samo Apple nie do końca bywa przyjazne dla użytkownika, a ekrany z odblaskami albo (oczywiście bez informowania użytkownika) wstawianie zupełnie innej klasy chłodzenia w trochę tańszym wariancie urządzenia jest po prostu żałosne (jeden wentylator zamiast dwóch musi chodzić więcej czy szybciej).</p>
+<p>Myślę, że dożyliśmy czasu, gdy będzie coraz bardziej liczyło się zmniejszanie mocy obliczeniowej (to znaczy teoretycznie będziemy mieć więcej wydajności w przeliczeniu na jeden zużywany watt, w praktyce w wielu wypadkach dostaniemy dostaniemy głównie odgrzewane kotlety, w których ograniczono zużywaną moc).</p>
+<p>Kupowanie sprzętu przestało być celem samym w sobie, a większość przechwałek i historii z tym związanych można traktować w kategorii „stary! Moja bryka teoretycznie wyciąga 3,9s… jak jej zdejmę kaganiec, a pogoda będzie sprzyjała” (w obu przypadkach zakładam, że działamy jak ludzie inteligentni, a nie bezmyślna masa, która się daje marketingowi)</p>
+<p>Przyszłość należy do rozwiązań, które rzeczywiście służą człowiekowi, i wnoszą faktyczną wartość dodaną. A te nowe wspaniałe modele należy oceniać wyłącznie z chłodną głową… tym bardziej, że przedstawiciele każdego z producentów zawsze powiedzą, że ich produkty są absolutnie niezbędne i najlepsze.</p>
+<p>A żeby nie szukać daleko: niektóre serwisy ostatnio dziwiły się, że w pewnych modelach tańsza konfiguracja jest szybsza niż droższa (np. <a href="https://spidersweb.pl/2022/05/core-i5-kontra-core-i7-alder-lake.html" target="_blank" rel="nofollow noopener">https://spidersweb.pl/2022/05/core-i5-kontra-core-i7-alder-lake.html</a>). Wyjaśnienie tutaj jest proste - intelowe układy są daleko jeśli chodzi o energooszczędność, i na papierze lepszy model zbyt szybko dochodzi do swoich limitów, i musi zwalniać (a ten "gorszy" działa dłużej z pełną prędkością).</p>

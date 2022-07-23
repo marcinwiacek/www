@@ -1,0 +1,54 @@
+﻿Title: AMD i Intel są siebie warci, czyli jak kapitalizm znów zbliżył się do komunizmu (2022)
+Author:marcin
+When:15 May 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Od czasu, gdy produkowano takie odbiorniki, sporo się zmieniło. Nie chciałbym tutaj wpadać w nutę pod tytułem „za PRL to było lepiej”, ale fakt faktem, że wtedy w kraju mieliśmy przynajmniej własne marki. W różnych przypadkach produkty się opierały na częściach zachodnich, i może zaprojektowano je bez większego sensu, ale… były.</p>
+<!--teaser-->
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1227363,amd-i-intel-sa-siebie-warci-czyli-jak-kapitalizm-znow-zblizyl-sie-do-komunizmu>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/oJf5YkycKyU" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Od czasu, gdy produkowano takie odbiorniki, sporo się zmieniło. Nie chciałbym tutaj wpadać w nutę pod tytułem „za PRL to było lepiej”, ale fakt faktem, że wtedy w kraju mieliśmy przynajmniej własne marki. W różnych przypadkach produkty się opierały na częściach zachodnich, i może zaprojektowano je bez większego sensu, ale… były.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/mlJ0i11mom8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Dzisiaj teoretycznie wszystko powinno być proste – idę do sklepu (stacjonarnego czy elektronicznego), wybieram to, co jest mi potrzebne, płacę, i mogę się cieszyć moim zakupem.</p>
+<p>I faktycznie… jak kupię takiego Windows 10 (albo dostanę go „za darmo” ze sprzętem), to mogę na nim nawet uruchomić archaicznego Worda czy Excel (<a href="https://www.youtube.com/results?search_query=office+3.0+on+windows+10" target="_blank" rel="nofollow noopener">jeżeli ktoś będzie oglądał jedno z podanych wideo, to przypominam, że strony, jak tam są pokazane, nie działają w pełni zgodnie z polskim prawem, a nawet Word czy Excel 1.0 są chronione prawami autorskimi</a>)</p>
+<p>Teoretycznie i praktycznie wygląda na to, że mamy wspaniałe możliwości uruchamiania wybranego oprogramowania mniej więcej sprzed 30 lat. I teraz takie małe pytanka: czy ktoś przy zdrowych zmysłach tego jeszcze potrzebuje? I nie mówię nawet o funkcjonalności (taki Word czy Excel z tamtych czasów używa formatów binarnych, a te z lekka są problematyczne), ale o zwykłym normalnym bezpieczeństwie. I czy nie przypomina to sytuacji, że coś, jak raz zrobiono, to jest klepane i dostępne przez lata? Mówię tutaj o Nysce, która miała drewnianą podłogę w latach 90-tych XX wieku (uwaga! Video z przekleństwami)</p>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/cBVDvx2OoPU" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Na to więc na ile obecny system różni się od komunistycznego?</p>
+<p>Punkt 1: od miesięcy jesteśmy straszeni załamaniem się łańcuchów dostaw. W PRL była stonka i zachodni imperialiści, a teraz? Pożary, wirusy, i inne takie.</p>
+<p>Punkt 2: przez lata słyszeliśmy o wyzysku w azjatyckich fabrykach, ostatnio zresztą można było zobaczyć następujące wideo:</p>
+<p>Dotyczy ono wprawdzie Apple, ale czy ktoś przy zdrowych zmysłach uważa, że wszędzie pracę wykonują maszyny? Teoretycznie ktoś może powiedzieć, że podobne scenki są widoczne obecnie wyłącznie w krajach komunistycznych, ale… z tych produktów korzystamy w krajach kapitalistycznych.</p>
+<p>Punkt 3: marnotrawstwo</p>
+<p>AMD chwali się Ryzenami z serii 6000, portale rozpływają się nad serią 7000 (chociaż&nbsp; ta jest widoczna głównie na papierze), i wróżą z fusów, co będzie dalej. </p>
+<p><a href="https://www.purepc.pl/amd-ryzen-5000c-procesory-z-mysla-o-chromebookach" target="_blank" rel="nofollow noopener">Ostatnio przeczytałem też o modelach przeznaczonych specjalnie (sic!) do Chromebooków, czyli maszyn, które najczęściej mają niezbyt dużą baterią, niezbyt dobry ekran czy bardzo ograniczony BIOS / UEFI (w nowych modelach jest blokowany, żeby użytkownik nie mógł mieć nic poza Chrome OS).</a></p>
+<p>Popatrzmy na slajdy:</p>
+<p>TDP 15 Watt (lubię to!), wydajność większa niż w Intelu i5 11 generacji (super!), czas pracy na baterii 2x dłuższy niż wcześniej (lanie wody, ale przyjmijmy, że to prawda)</p>
+<p>W zeszłym roku miałem przyjemność pracy z Acerem Swift 1, który w tamtym czasie mniej więcej odpowiadał Chromebookom. Maszyna całkiem przyjemna, ale… z tak dobranymi elementami, żeby nie miała szans rozwinąć skrzydeł.</p>
+<p>I tak się zastanawiam – słyszymy o niedoborach, ale producenci wytwarzają kiepskie komponenty (we wspomnianych nowych modelach mamy mieć Vegę!), i bohatersko zapełniają nimi magazyny. Ludzie chcą kupić coś sensownego, ale wciska im się kit (bo magazyny trzeba opróżnić).</p>
+<p>Czy nie przypomina to gospodarki sterowanej centralnie? Takiej, w której bezwładność jest ogromna? I dlaczego nie mogę np. wybrać ogromnej baterii, pięknego ekranu i procesora, który jest odpowiedni do moich potrzeb?</p>
+<p>To marnotrawstwo widoczne jest na każdym kroku. Producenci baterii produkują baterie, tymczasem czy te są potrzebne w laptopach, które używane są głównie w biurach? Optymalne byłoby, gdyby dzisiaj móc zamówić np. Delle czy HP czy inne marki z baterią rzędu 10Wh czy 5Wh (wystarczającą do pracy 1h, a więc awaryjnej prezentacji czy zamknięcia wszystkich dokumentów).</p>
+<p>A cała sytuacja z podstawką AM4, w której wsparcie dla lepszych procesorów było wyłącznie / w pierwszej kolejności dla x570? Cały ten cyrk związany z tym, że teoretycznie chipset jest całkowicie niezależny od CPU, a w praktyce wyszło jak zawsze? Nie wiem do końca, na ile „zawiniło” tu AMD, ale miało przecież możliwość ustalenia odpowiednich kryteriów dla producentów, i wymuszenia, żeby „lepsze” chipsety to była tylko inna ilość portów SATA, USB czy podobnych rzeczy (można było zrobić, żeby płyty miały odpowiednie kości na BIOS i odpowiednie sekcje zasilania).</p>
+<p>I skoro x570 jest nieudany, to czy trzeba go nadal produkować?</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/qk3PD-4zPN0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Jeżeli o marnotrawstwie i kwestii jednorazowych podstawek mówimy, to wypada jeszcze wspomnieć o Threadripperach:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/h74mZp0SvyE" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Punkt 4: Kontrola najwyższą formą zaufania.</p>
+<p>Ludzie dużo pisali o Intel ME, tymczasem nie zapominajmy o AMD Secure Processor.</p>
+<p><a href="https://cyberdefence24.pl/prywatnosc/facebook-nie-wie-co-sie-dzieje-z-naszymi-danymi-ani-do-kogo-trafiaja" target="_blank" rel="nofollow noopener">Już Facebook mówił, że nie wie, co się dzieje z naszymi danymi: "Zbudowaliśmy systemy z otwartymi granicami. Skutkiem tej otwartości jest to, co możemy opisać za pomocą analogii, w której w dłoni trzymamy butelkę atramentu, będącego mieszaniną wszystkich możliwych rodzajów danych użytkowników. Kiedy wylejemy ten atrament do wody, płynie wszędzie. (...) Jak z powrotem wlać go do butelki? Jak go zorganizować tak, aby płynął jedynie w miejsca, gdzie powinien?"</a></p>
+<p>Moja konkluzja: czym to różni się od działań komunistycznych? Czy tylko tym, że granica pewnych problemów jest przesunięta? Że mamy więcej gadżetów i trochę więcej towarów w sklepach? Trochę więcej iluzorycznej wolności?</p>
+<p>Teoretycznie dzisiaj możliwe jest wyprodukowanie wydajnego laptopa 14-calowego z baterią znacznie większą niż 73Wh, wagą mniejszą niż 1kg, mniejszym zużyciem energii i pasywnym chłodzeniem. Teoretycznie… a praktycznie?</p>
+<p>Tak sobie myślę, że AMD rzeczywiście potrzebowało odbicia (stąd wydali Ryzeny), a teraz… no cóż, skoro ludzie je kupują, to zamiast monopolu Intela mamy albo będziemy mieć duopol. I owszem, będziemy słyszeć o przekraczaniu kolejnych granic, ale za jaką cenę?</p>
+<p>Jedyną słuszną metodą walki z tym jest przestać kupować produkty. <a href="https://ithardware.pl/aktualnosci/netflix_rezygnuje_z_cenzury_przez_odplyw_uzytkownikow_wrazliwi_pracownicy_powinni_odejsc-21234.html" target="_blank" rel="nofollow noopener">Zaczyna to działać z Netflixem, który chyba rezygnuje z LGBT i innych wynalazków</a>, może zadziała i z AMD. Ja, szczerze mówiąc, chciałbym w końcu zobaczyć, że Windows (czy co po nim przyjdzie) czy x86 zrywają z tym, co niosą od 30 czy 40 lat. Mam dosyć telewizorów lampowych...</p>

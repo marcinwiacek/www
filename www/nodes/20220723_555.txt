@@ -1,0 +1,127 @@
+﻿Title: Poczytaj mi tato 2.0 (2022)
+Author:marcin
+When:23 Jul 2022
+Taxonomy:polski,polski blog,Android,Sobieski,poczytaj,EPUB
+
+<a href=https://play.google.com/store/apps/details?id=com.mwiacek.poczytaj.mi.tato&hl=pl>W Google Play umieściłem właśnie pewną aplikację.</a>
+Może ona mieć jedną lub wiele zakładek (zupełnie jak przeglądarka www),
+z których każda może odwoływać się do tych samych tekstów, ale inaczej je sortować albo filtrować (czyli np. na jednej
+możemy całą poczekalnię z fantastyka.pl, a na drugiej tylko poczekalnię z ulubionymi autorami).
+<!--break-->
+<p>
+<center>
+<img src=sites/default/files/555/Screenshot_20220723-163615.jpg width=200>
+<img src=sites/default/files/555/Screenshot_20220723-163907.jpg width=200>
+<img src=sites/default/files/555/Screenshot_20220723-164714.jpg width=200>
+</center>
+
+<p>Motyw czarny dostępny jest bodajże od Android 10 (nie implementowałem własnego) i włączalny w ustawieniach
+samego systemu Android,
+strony dostępne offline (wcześniej czytane i załadowane) są wyróżnione kolorem białym lub niebieskim. Po kliknięciu
+na tekst możemy go czytać (przy czym aplikacja pamięta, do którego miejsca to robiliśmy, i wraca tam przy kolejnym
+otwarciu).
+
+<h1>Ustawienia</h1>
+
+<p>Pod hamburger menu (trzy kropki po prawej stronie pola Szukaj) mamy różne opcje dla danej zakładki:
+<p><center>
+<img src=sites/default/files/555/Screenshot_20220723-163926.jpg width=200>
+<img src=sites/default/files/555/Screenshot_20220723-163934.jpg width=200>
+</center>
+
+<p>Można sobie tu przede wszystkim wybrać, co chcemy czytać w danej zakładce (który serwis). Do tego istnieje możliwość
+automatycznej synchronizacji w tle (bez tego należy użyć gestu swype, czyli przeciągnąć palcem z samej góry listy w dół)
+albo wymuszenia na aplikacji wczytania spisu treści ze wszystkich stron (normalnie aplikacja czyta tylko dwie pierwsze
+strony, gdzie zazwyczaj dzieje się najwięcej). Dostępne są też dodatkowe możliwości filtrowania po tagach (to ta ostatnia
+linia przy każdej pozycji) lub autorach:
+
+<p><center>
+<img src=sites/default/files/555/Screenshot_20220723-164027.jpg width=200>
+</center>
+
+<h1>Czerwone / zielone</h1>
+
+<p>Każdą pozycję na liście tekstów można przesunąć w lewo lub prawo i przypisać do czerwonej lub zielonej kategorii:
+
+<p><center>
+<img src=sites/default/files/555/Screenshot_20220723-163914.jpg width=200>
+</center>
+
+<p>Takie strony widzimy wtedy po wybraniu jednej z dwóch pierwszych opcji w hamburger menu (Pokaż zielone lub pokaż
+czerwone). Żeby wrócić do "normalnej" listy, wystarczy ponownie wybrać opcję w hamburger menu i wtedy zostanie odhaczona.
+Stronę w zielonej lub czerwonej kategorii można przesunąć do kategorii "normalnej" lub przeciwnej przesuwając w bok.
+
+<p>Do czego to może się przydać? Czerwona kategoria to mogą być teksty złe, zielona dobre. Albo zielona do kolejka do czytania,
+a czerwona to przeczytane.
+
+<h1>Szukanie</h1>
+
+<p>Każdą zakładkę można przeszukiwać - teksty jest szukany w tytule, autorach i tagach (obecnie ta część wymaga
+polskich liter) albo w pobranych tekstach (tu nie musimy podawać polskich liter, a aplikacja i tak je dopasuje).
+
+<p><center>
+<img src=sites/default/files/555/Screenshot_20220723-164342.jpg width=200>
+<img src=sites/default/files/555/Screenshot_20220723-164344.jpg width=200>
+</center>
+
+<p>Znalezione dopasowane teksty są podświetlane na zielono.
+
+<h1>EPUB</h1>
+
+<p>Pobrane teksty z danej zakładki można eksportować do EPUB, albo z powrotem wczytać. Konwerter jest trochę inny niż
+w poprzednich projektach, o których piszę poniżej.
+
+<p><center>
+<img src=sites/default/files/555/Screenshot_20220723-164547.jpg width=200>
+</center>
+
+<h1>Zakładka szukania</h1>
+
+<p>To jest funkcjonalność z wersji 1.0 aplikacji. Zapytanie wysyłane jest do wybranych stron, a aplikacja próbuje
+scalić wyniki, czasem z lepszym, a czasem gorszym rezultatem.
+
+<p><center>
+<img src=sites/default/files/555/Screenshot_20220723-164103.jpg width=200>
+<img src=sites/default/files/555/Screenshot_20220723-164123.jpg width=200>
+</center>
+
+<h1>Uprawnienia</h1>
+
+<p>W manifeście są trzy: INTERNET, ACCESS_NETWORK_STATE i WRITE_EXTERNAL_STORAGE. Pierwsze dwa potrzebne są do dostępu
+do sieci (pobierania plików), trzeci wymagany jest, gdy aplikacja chce znaleźć folder Downloads (tego trzeciego
+wymagania nie trzeba przyznawać; bez niego link do plików EPUB będą otwierane w przeglądarce www zamiast w systemowym
+managerze pobierania).
+
+<h1>Prywatność danych</h1>
+
+<p>Sam jako autor nic nie zbieram.
+
+<p>Gdzie możliwe, używam https (czyli praktycznie wszędzie).
+
+<p>W zakładce Search aplikacja wysyła zawartość zapytania do wybranych stron, a w zakładce z czytaniem musi odpytywać
+strony z indeksami i strony z tekstami (czy też obrazkami do tekstów). Myślałem, żeby dodać obsługę TOR, i jeśli
+będzie zainteresowanie...
+
+<h1>Historia</h1>
+<p>W 2017 opublikowałem malutkę aplikację, która na Androidzie zadawała pytanie kilku stronom i łączyła wyniki wyszukiwania.
+Więcej na ten temat można było przeczytać m.in. w tekście <a href=?q=node/360>Litwo ojczyzno moja... czyli o Januszach biznesu, ebookach i kulturze słów kilka</a>.</p>
+
+<p>W tym samym roku <a href=https://github.com/marcinwiacek/BooksAPIExample>opublikowałem kod aplikacji BooksAPIExample, która wyszukiwała książki w Google Books</a>,
+rok później nie tylko <a href=https://github.com/marcinwiacek/BooksAPIExample2>sklonowałem repozytorium</a> (już nie mogę sobie przypomnieć po co),
+ale też <a href=https://github.com/marcinwiacek/TasksDemo>przygotowałem aplikację TasksDemo pokazującą różne zabawy z elementami w Androidzie</a>.
+
+<p><a href=https://github.com/marcinwiacek/fantastyka>Luty 2020 to początek skryptu do generacji plików EPUB 
+z fantastyka.pl i fantastykapolska.pl (początkowo w PHP, a od sierpnia wersja dla fantastyka.pl w Java Script)</a>.
+
+<p><a href=https://github.com/marcinwiacek/SobieskiPlus>Około kwietnia-maja 2020 zaproponowałem kod enginu, który mógłby napędzać serwis fantastyka.pl (nodejs, lekkie komponenty, 
+kod źródłowy, itp.)</a>. <a href=?q=taxonomy/term/Sobieski>Dyskusję o tym można znaleźć np. tutaj, kod też był stosunkowo dojrzany.</a>
+
+<p><a href=https://github.com/marcinwiacek/PoczytajMiTato>W 2021 "Poczytaj mi tato" 1.0 trafił na GitHub, a w lato 2022 dodaję funkcję czytania tekstów z fantastyka.pl i opowi.pl,
+jak również możliwość wyszukiwania, zakładkowania, eksportu i importu EPUB.</a>
+
+<h1>Co dalej?</h1>
+
+<p>Zależy od użytkowników. Obecna wersja jest dosyć dojrzała, ale... trzeba ją trochę traktować jak demo preview.
+Jeżeli będzie zainteresowanie, będę całość oczywiście rozwijał, i dodawał to, co np. było całkiem zrobione
+w enginie dla fantastyka.pl (komentarze, itp.). Czy tak czy inaczej, kod jest już dostępny... i zawiera ostatnie
+kontrolki androidx, etc. (nie jest to jakaś prehistoria).

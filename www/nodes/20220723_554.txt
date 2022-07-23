@@ -1,0 +1,41 @@
+﻿Title: Kapitalizacja, czyli jak nic nie bierze się z niczego, i co do tego mają startupy (2022)
+Author:marcin
+When:23 Jul 2022
+Taxonomy:polski,polski blog,salon24.pl,dobreprogramy.pl,x86,Apple,Windows
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1238501,wyjasnijmy-kilka-rzeczy-czyli-odrzucmy-nowomowe-i-zobaczmy-co-jest-epokowe>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Wpierw małe relaksujące wideo:</p>
+<!--break-->
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/AmfY8vdf2o4" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Widać tam tzw. luksus, jest mowa o Chopinie, a sam kanał lubię oglądać choćby ze względy na pewne treści, <a href="https://www.youtube.com/watch?v=kOD-BBUx4Bc" target="_blank" rel="nofollow noopener">czasem ocierające się o kicz, ale mające swój urok (np. tutaj)</a>.</p>
+<p>Czy cała Ameryka wygląda jak na pierwszym filmie? Czy te piękne domy nie dotyczą jedynie wybranej grupki? Czy nie jest tak, że leczenie czy studia kosztują grube tysiące, a ludzie raczej robią to:</p>
+<p><a href="https://www.youtube.com/results?search_query=kitchen+nightnares" target="_blank" rel="nofollow noopener">https://www.youtube.com/results?search_query=kitchen+nightnares</a></p>
+<p>To są oczywiście pytania retoryczne, na które wszyscy znamy odpowiedź. I tak. Mamy biedę, mamy rozwarstwienie, ale i celebrytów, którzy latają odrzutowcami po bułki, a mówią o walce z ociepleniem… No ale OK, chciałem dzisiaj wspomnieć dwa słowa o różnych wielkich firmach, i kilku trendach, które (może) pojawią się w kolejnych latach.</p>
+<p>I tak Apple to korporacją, która jest mocno na ustach użytkowników. Byli oni oczywiście również wcześniej, teraz jednak dokonali pewnej zmiany, a mianowicie zamienili procesory Intela na swoje własne. Ich obecna kapitalizacja (szacunek wartości) to mniej więcej 2849 mld USD. Kwota niewyobrażalna, jednak pokazująca, że korporacja miała środki na przeprowadzenie całego procesu. I chociaż coraz więcej wskazuje, że cały pęd do nowości całkiem wyhamował (duża część zwiększonej wydajności M2 to większe limity energetyczne, chłodzenie nie wyrabia zarówno w modelu Air, jak i Pro, a mogłoby, gdyby zastosować zwykłe pady, w modelach stacjonarnych montuje się różne układy chłodzenia, itp.), to sam proces budzi podziw.<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/BSkcMwzZEFo" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Jedno pytanie retoryczne – czy producent z taką ilością gotówki musi przejmować się reklamacjami? Nawet jak ilość zepsutych urządzeń w czasie gwarancji pójdzie w miliony, to i tak nie będzie to problemem. A inni producenci procesorów?</p>
+<p>AMD ma mniej więcej kapitalizację 177 mld USD. Firma generalnie nie ma swoich fabryk, stara się wyciągnąć jak najwięcej z rynku korporacyjnego, i próbuje konkurować z Intelem, który jest szacowany na 202 mld USD (a więc tu generalnie skala wielkości jest mniej więcej podobna, i choć niebiescy walczą, to ich produkty w różnych porównaniach przegrywają). Ogólnie widać tutaj, że wyjście z rynku x86 dla obu mogłoby może nawet oznaczać ich koniec (w przypadku porażki).</p>
+<p>A jak sobie radzi Qualcom? Ich kapitalizacja to również mniej więcej 172 mld USD.</p>
+<p>Przy kartach graficznych sprawa jest mniej ciekawa - Nvidia może się pochwalić kwotą 684mld USD, co jest sumą o wiele większą niż przy AMD (a to chyba pozwala im dyktować inne warunki, ewentualnie w ogóle nie obawiać się konkurencji).</p>
+<p>Przy dyskach wszystko jest jasne. Seagate ma skromne 19 mld USD. WD 15 mld USD, a to nie pozwala im równać się z Samsungiem.</p>
+<p>A HP od laptopów? Skromne 38mld USD (podobnie Dell, który ma mniej więcej 32mld). Pomyślmy teraz, że Intel wypowiada im umowy… tak w ogóle ostatnio czytałem o EliteBook 845 G9 z AMD, a ten w Cinebench R15 osiągał mniej 1900 punktów i zostawiał całą intelową konkurencję w tyle.</p>
+<p>A ile daje handel naszymi danymi albo produktami? Google 1434 mld USD, Amazon 1657 mld USD, zaś Facebook 605 mld USD.</p>
+<p>Z kolei VOD nie wydaje się zbyt dochodowe - Netflix ma mniej więcej 166mld USD (tu problemów jest dużo, od propagandy, przez podwyższanie cen, na obniżaniu jakości skończywszy, widać też, że nie mogą konkurować z Amazonem).</p>
+<p>Jest jeszcze jednak korporacja, o której się mówi, że sobie nie może poradzić z różnymi problemami. Mówili, że Windows 10 będzie ostatni, potem, że 11, a teraz coś przebąkuje się o wersji 12. Ich kapitalizacja 2311 mld USD, i niech nikt nie mówi, że nie mają środków na poprawę jakości, albo że nie mogą przygotować zupełnie nowego systemu operacyjnego.</p>
+<p>Co z dawnymi potęgami? Cisco to skromne 231mld USD, IBM 116mld USD, Xerox 3mld USD, Oracle 238mld USD, podobnie niewiele daje wirtualizacja (Vmware 47mld USD).</p>
+<p>Z powyższej wyliczanki można wysnuć kilka oczywistych wniosków:</p>
+<ol>
+<li>Apple rzeczywiście miało czy ma środki na kosztowną zmianę platformy, inni producenci procesorów niekoniecznie</li>
+<li>na rynku kart graficznych jest monopol</li>
+<li>produkcja sprzętu nie daje dużo, i również stąd producenci laptopów mają tak świetne pomysły na ich wymianę (a klimat cierpi)</li>
+<li>sprzedaż (danych) stała się eldorado</li>
+<li>Netflix raczej przestaje być konkurentem dla kogokolwiek, a… Microsoft mógłby rozwiązać problemy, ale czy chce?</li>
+<li>pieniędzy (czy też wirtualnych pieniędzy) jest tyle, że nie opłaca się konkurować jakością.</li>
+</ol>
+<p>Ogólnie doszliśmy do punktu, gdzie wielkie korporacje mają środki na zmienianie świata, ale niekonieczne chcą robić to w sposób przyjazny dla ludzi czy planety.</p>
+<p>A teraz coś z drugiej strony – mała firma ze Szwajcarii przedstawiła laptopa Primebook, w którym układ SOC i mikroskopijna płyta główna zamknięte są w kasecie, umieszczonej w normalnej obudowie (to tak zwane rozwiązanie NUC Intela). Można? Można. I choć nie popieram integracji z RAM i kartą Wifi, to przynajmniej dysk można wymienić.</p>
+<p>Ta sama firma przedstawiła też miniaturowy desktop bez chłodzenia aktywnego. To tylko pokazuje, że nie jesteśmy skazani na zalew takich samych konstrukcji, a nawet z obecnym świecie wiele można zmienić. I tak widzieliśmy już modularnego laptopa, widzieliśmy laptopowe kadłubki na telefony, a teraz to… (ostatnio zresztą czytałem o karcie z kontrolerem USB na M2).</p>
+<p>Może więc w końcu przyszłością staną się kadłubki, w których wszystko będzie na M2, standardem okażą się pamięci SODIMM i pasywne chłodzenie, a wymiana procesora to będzie wymiana kasetki? Albo procesory oparte na innym podłożu niż krzem? W których energia zostanie pobrana wyłącznie wtedy, gdy użytkownik rzeczywiście coś robi?</p>
+<p>Tylko czy małe firmy / startupy będą miały na to środki? I czy klasa średnia będzie w ogóle istnieć?</p>

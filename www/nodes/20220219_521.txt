@@ -1,0 +1,38 @@
+﻿Title: Płać za to, czego nie chcesz (i w przedsprzedaży)… a i tak skończysz na bieda-sprzęcie (2022)
+Author:marcin
+When:19 Feb 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<a name=gora></a><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);"><div align="center"><font size="1">Artykuł został <a href=https://www.salon24.pl/u/techracja/1206749,plac-za-to-czego-nie-chcesz-i-w-przedsprzedazy-a-i-tak-skonczysz-na-bieda-sprzecie>opublikowany w serwisie salon24.pl</a></font><a name=Top></a></div><hr size="2" noshade="noshade" width="60%" align="center" style="color: rgb(0, 64, 128);">
+<p>Dzisiaj obejrzałem sobie wideo, na którym ktoś rozbija Samsunga Ultra S22.<br />
+<!--break-->
+<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/mSuikzejDD0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+Jak na polskie realia, jest to urządzenie dosyć drogie, a co więcej posiadające dużo różnych elementów, które niekoniecznie wszystkim są potrzebne (jak zakrzywiony ekran czy rysik).</p>
+<p>Zastanowiłem się głębiej.</p>
+<p>Wymyślono smartphony, zaczęto do nich dodawać kolejne funkcje, a wspomniane funkcje spowodowały, że urządzenia kosztują coraz więcej i stały się coraz bardziej delikatne i mniej przystosowane do tego, do czego służyły pierwotnie. OK. Taki rynek, takie fanaberie producentów, taki marketing i tysiąc innych rzeczy (Ameryki tym nie odkrywam). Podział na modele droższe i tańsze (te drugie trzeba produkować, bo coraz mniej ludzi sięga po półkę najwyższą) powoduje, że producenci się rozdrabniają… a że ich dzieła mają również dużo kodu, to mają więcej błędów i dziur.</p>
+<p>I teraz co się stanie, gdy ktoś kupi takie cudo i będzie zmuszony np. wymienić  ekran?</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/78-u0AOo7kI" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+Czyli z jednej strony mamy planowane postarzanie i blokowanie przed naprawami (różne są sposoby, od parowania części poprzez zamykanie schematów i zatapianie w kleju), z drogiej coraz mocniejszą walkę niską ceną i zalewanie rynku elementami niższej jakości…</p>
+<p>I kto na tym traci? Czy "tylko" duży moloch, który produkuje oryginalne komponenty? Czy wszyscy? (nie zapominajmy, że produkcja tego wszystkiego to jednak jakieś obciążenie dla środowiska). <a href="https://www.telko.in/do-polski-trafiaja-zasilacze-i-ladowarki-marnej-jakosci" target="_blank" rel="nofollow noopener">A jeśli mowa jest o tanich ładowarkach i elementach, które potrafią się zapalić? </a></p>
+<p>Tak się zastanawiam, że hasłem klucz stało się Agile i inne metodyki zakładające mały, ale regularny postęp (i dopracowywanie drobnych elementów do perfekcji), tymczasem największe firmy wydają się pracować jak w poprzedniej epoce…</p>
+<p>Systemy operacyjne? Android i Windows to jednak spore monolity, w których w pakiecie dostajemy pełno potrzebnych i niepotrzebnych rzeczy (tymczasem powinno być tak, że sam rdzeń powinien zajmować megabajty, a wszystko cokolwiek bardziej zaawansowanego powinno być dostarczane w całkowicie odseparowanych pakietach).</p>
+<p>Procesory? (przynajmniej w wydaniu Intela) X86 trzyma zgodność z archaicznym 8086, i zamiast zmniejszania ilości tranzystorów dodawane jest tam, co tylko się da (tak, śledzę "sensacyjne" doniesienia o 12, 13 i 14 generacji, ale… szczerze mówiąc wymienianie laptopa z CPU powiedzmy 6-11 generacji jest często sztuką dla sztuki)</p>
+<p>itd. itd.</p>
+<p>Kończy się na tym, że użytkownicy są drenowani z pieniędzy, i w ostatecznym rozrachunku po kilku/nastu latach nie stać ich na „najwyższą” półkę, ale muszą się skupić na tej niższej czy najniższej.</p>
+<p>Tak więc panie i panowie, spodziewajcie się, że czasy dobrego computing dla wszystkich minęły – teraz będzie coraz większy podział na rzeczy „dobre” i „kiepskie” (a te pierwsze coraz częściej „dobre” okażą się głównie z nazwy).</p>
+<p>Doniesienia o chipie M2 wskazują na to, że niekoniecznie będzie szybszy i lepszy od M1. Podobnie widzimy coraz więcej słabych konstrukcji, sprzedawanych pod chwytliwą nazwą „efektywne” (efficient). „Optymalizację” robi nawet AMD, które po mocnym uderzeniu z AM4 i pierwszymi Ryzenami zaczyna kombinować z nazewnictwem i wykorzystywaniem odpadów produkcyjnych (z jednej strony nie jest to złe, z drugiej...)</p>
+Co bardziej sprytne firmy chcą jeszcze co nieco ugrać (stąd chociażby projekt Chrome OS Flex, Windows S czy planowane możliwości wirtualizacji w Android 13), ale to poniekąd łabędzi śpiew.
+<p>Nie rozwiązano podstawowych problemów takich jak dostępność całkowicie bezpiecznych źródeł magazynowania energii, przetwarzanie i wykorzystanie zebranych danych dla dobra ludzkości czy eliminowanie nic nie wartych śmieci. Dodatkowo budowanie monolitów powoduje, że w miarę dopracowany produkt dostajemy dopiero po wielu miesiącach.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/z86cM_Yo8Kk" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>I właściwie jedyną możliwością walki z tą patologią jest robienie zakupów dopiero „dobrych” wersji (nie można rzucać się na coś w przedsprzedaży), a gdzie się da (szczególnie w obszarze software), używanie darmowych zamienników.</p>
+<p>Ameryki może nie odkryłem, tylko co dalej?</p>
+<p>Nasi rodzice pisali na maszynach do pisania, my robimy coś na komputerach, czego będą używać kolejne pokolenia? Grafenowego sprzętu wykorzystującego ciepło ludzkiego ciała albo energię fal radiowych? (czy wreszcie uwolnimy się od litu, który i tu i tam lubi zapłonąć?) Urządzeń, w których nie będzie podziału na RAM i pamięć stałą? (od lat się o tym słyszy) Opasek komunikujących się przez nasze myśli? Podpinających się do naszego wzroku?
