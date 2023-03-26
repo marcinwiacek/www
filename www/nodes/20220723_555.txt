@@ -1,7 +1,7 @@
-﻿Title: Poczytaj mi tato 2.0 (2022)
+﻿Title: Czytaj fantastyka.pl (i nie tylko) z apki, czyli "Poczytaj mi tato" 2.0 (2022)
 Author:marcin
 When:23 Jul 2022
-Taxonomy:polski,polski blog,Android,Sobieski,poczytaj,EPUB
+Taxonomy:polski,polski blog,Android,Sobieski,poczytaj,EPUB,salon24.pl,dobreprogramy.pl
 
 <a href=https://play.google.com/store/apps/details?id=com.mwiacek.poczytaj.mi.tato&hl=pl>W Google Play umieściłem właśnie pewną aplikację.</a>
 Może ona mieć jedną lub wiele zakładek (zupełnie jak przeglądarka www),

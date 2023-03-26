@@ -34,7 +34,7 @@ Taxonomy:polski,polski blog,dobreprogramy.pl,Linux
 
 </ul>
 
-<p><center><img src="https://gallery.dpcdn.pl/imgc/UGC/96894/g_-_608x405_-_-_x9d5c8763-1d42-4129-89ab-640b0380cc36.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
+<p><center><img src="sites/default/files/397/lockheed-1412089_1920.jpg" style="width:608px;height:405px;" alt="image" title="image" /></center>
 
 <p>Celowo pominąłem tutaj setki ważnych wydarzeń. Przez lata możliwość latania była poza zasięgiem ludzkich możliwości, potem powstały dziesiątki różnych wytwórni, a jeszcze potem wszystko rosło, ruch lot spowszedniał i w naszej świadomości najbardziej wyryły się nazwy tylko dwóch wytwórców: Boeinga i Airbusa.</p>
 

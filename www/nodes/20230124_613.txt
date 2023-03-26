@@ -1,0 +1,30 @@
+﻿Title: Panie Areczku, cyferki i naprawy nie są dla pana. (2023)
+Author:marcin
+When:24 Jan 2023
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Producenci sprzętu mamią nas liczbami i pokazują, że ich produkty są szybsze, lepsze, zużywają mniej energii i generalnie będą służyć dłużej.</p>
+<p>W kilku miejscach dało się ostatnio przeczytać historię starą jak świat. Ktoś ważny (to pewnie istotne) kupił coś od renomowanej firmy, to coś wydaje się wybrakowane, a producent odmówił naprawy gwarancyjnej (wymiany). Sprawa zamknięta, można się rozejść.</p>
+<!--break-->
+<p>Rozbierzmy historię na elementy pierwsze:</p>
+<ol>
+<li>z jednej strony mamy technologicznego giganta, który, podobnie jak inni, w ostatnich latach wymieniał komponenty w swoich dyskach (chociażby kontroler w serii Evo 970 Plus).</li>
+<li>samo urządzenie jest z tych droższych (990 Pro 2TB).</li>
+<li>zarówno produkcja, jak i sprzedaż takich cudów techniki to ciężki kawałek chleba – potrafią pracować w nieprzyjaznych warunkach i czasami ciężko dojść, czy coś się popsuło z winy użytkownika (nie mówię o sytuacjach oczywistych, ale te pozostawmy odpowiednim wątkom na JoeMonster).</li>
+<li>producent wbudował w dysk odpowiednią diagnostykę, a ta ma informacje o ilości zapisów, odczytów i ogólnej kondycji, wyrażonej w procentach.</li>
+<li>elementy po jednym dniu pracy konkretnego egzemplarza podobno pokazały spadek kondycji o jeden procent, i tak w każdym w każdym kolejnym dniu (co pozwala przypuszczać, że po stu dniach dysk teoretycznie będzie się nadawał do wyrzucenia).</li>
+<li>użytkownik, słusznie zaniepokojony o dane, nie chciał doprowadzić do sytuacji, w której producent stwierdza, że dysk się psuł, a nie został oddany do centrum serwisowego.</li>
+<li>naprawa gwarancyjna nie przyniosła rezultatu, bo Samsung stwierdził, że diagnostyka urządzenia nie jest w sumie taka ważna i miarodajna.</li>
+</ol>
+<p>Tyle historii. Teoretycznie żyjemy w czasach, gdy wszystko da się zmierzyć, zważyć i przewidzieć (planowane postarzanie), ale chyba nie do końca - z jednej strony mogę zrozumieć dbałość o obniżanie kosztów napraw gwarancyjnych, z drugiej strony błędy się zdarzają, podobnie złe egzemplarze czy serie (nie ma nic w tym złego, o ile producent je wymienia albo naprawia).</p>
+<p>I teraz moja konkluzja dla wszystkich panów Arków i Areczków – jeżeli coś się psuje i ma funkcje diagnostyczne, to ich wynik nie jest ważny… jeżeli jednak pokażą przekroczenie parametrów gwarancyjnych (dla dysków SSD ilość zapisanych danych), to staje się świętością.</p>
+<p>Swoją drogą ciekawe, jak zachowałoby się Apple, gdyby przynieść komputer, na którym zapisano petabajty danych - czy przypadkiem nie stwierdziłoby ponadnormatywnego zużycia?</p>
+<p>Taką taktykę stosowała Nvidia (w niektórych kartach nie pozwała na używanie 24h/7dni w tygodniu).</p>
+<p>Swoją drogą, Samsung robi niezłe dyski, i jeden z moich pierwszych śmieciuszków po zapisaniu 18TB pokazał tylko 4% zużycia, ale chyba tylko dlatego, bo przez chwilę zajmowałem na nim 100% powierzchni (gdyby zużycie postępowało, to dostanę 450TB - dla tej wielkości dysku i użytych kości szacowałem 75TB czy góra 150TB).</p>
+<p>Jeżeli mówimy o liczbach, ciekawe zachowywał się również Intel przy pewnych płytach głównych. Tajemnicą poliszynela jest, że były zrobione zgodnie z jego specyfikacją i potrafiły się wyginać, w tej sytuacji pasta potrafiła tracić kontakt z procesorem, a ten oczywiście się grzał. Przepychanki w tej sprawie spowodowały, że producent stwierdził, że on przecież nie gwarantuje wartości zegarów turbo (jak to się ma do prezentacji?).</p>
+<p>Pewnym kuriozum są również działania producentów, którzy podwyższają temperatury pracy układów (dając np. słabe chłodzenie), a potem twierdzą, że na przykład 105 stopni jest normalne (ostatnio AMD przy Radeonach) – tutaj należy jednoznacznie stwierdzić, że im więcej ciepła, tym większy ruch elektronów i szybsze zużycie / prawdopodobieństwo uszkodzenia.</p>
+<p>Inną ciekawostką jest określanie klasy wytrzymałości urządzenia na wodę (znów cyferki), a potem twierdzenie, że ciecz jest podstawą do anulowania gwarancji.</p>
+<p>Tak więc panie Areczku – pan ma kupować, używać, wymieniać na nowe, a nie zawracać głowę jakimiś naprawami.</p>
+<p>A ja dodam od siebie, że w Polsce istnieje rękojmia… i często bardziej opłaca się z niej korzystać.</p>
+<p>PS. Telemetrię mają nie tylko dyski SSD - ta pojawia się w dyskach talerzowych, laptopach (baterie), komputerach (monitorowanie napięć, prędkości wentylatorów i temperatur), sprzęcie mobilnym (zużycie baterii u Apple), również w części monitorów (ilość godzin pracy) czy niektórych pamięciach eMMC (zużycie).</p>
+<p>PS2. Zamiast 990 Pro korzystniejszy może być Solidigm P44 Pro (jeżeli nie musimy mieć Samsunga) albo 980 Pro.</p>

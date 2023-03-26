@@ -1,0 +1,31 @@
+﻿Title: Jedna wielka ściema związana ze sztuczną inteligencją (2023)
+Author:marcin
+When:12 Mar 2023
+Taxonomy:polski,polski blog,salon24.pl
+
+<p><a href="https://spidersweb.pl/2023/03/llama-meta-ai.html" target="_blank" rel="nofollow noopener">Dzisiaj sobie przeczytałem „LlaMa Mety uciekła z jednostek badawczych i teraz w najlepsze hasa sobie po forum, które znane jest jako jedno z najgorszych miejsc w internecie”.</a></p>
+<!--break-->
+<p>Brzmi sensacyjnie, prawda?</p>
+<p>Tekst podaje poniżej, że chodzi o tzw. sztuczną inteligencję Facebooka, plik waży 219 GB i zwyczajnie został udostępniony publicznie w internecie. Przyjmijmy, że jest to najmniejsza wersja tego „kodu”, a największa (ok. 10x większa) zajmowałaby mniej więcej 2TB.</p>
+<p>Aż przecierałem oczy ze zdumienia, że nie przeczytałem czegoś takiego „kup dysk dobrej firmy 2TB za 500 PLN i przygarnij sobie własną sztuczną inteligencję znanej i renomowanej amerykańskiej korporacji”.</p>
+<p>Rzecz w tym, że każda epoka ma swoje wynalazki, których ludzie się boją, które podziwiają albo o których nie mają pojęcia, ale uważają, że przyniosą im zyski.</p>
+<p>Kiedyś elektryczność czy atom, a jeszcze niedawno bitcoin.</p>
+<p>Dzisiaj sprzęt i oprogramowanie komputerowe spowszedniały, o kryzysie czy zapaści w obszarze IT nie ma co już pisać, więc portale prześcigają się w pisaniu, co jest bardziej „inteligentne”.</p>
+<p>Ciekawe w tym jest kilka rzeczy. I tak mamy na przykład firmę Google, która przez lata stawiana była na piedestale w towarzystwie słowa „innowacja”. Przyszedł ktoś trzeci, zrobił coś lepszego (albo sprawiającego lepsze wrażenie), i nie pomogła nawet naprędce zrobiona prezentacja (zarządzona przez szefa Hindusa, któremu tym razem nie udało się zaczarować całego świata).</p>
+<p>Czy Google podzieli teraz los Yahoo, Nokii i innych dawnych gigantów?</p>
+<p>Wszyscy z nas kojarzą chyba Alicję Kołodziej alias (i tu lista jest długa).
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/JUXjae7Bt-g" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p><p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/9dZnIc6UhSM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Obecnie weszliśmy na nowy poziom imitowania zachowań ludzkich. Kolejna generacja automatów na pewno zmieni nasze życie na różne sposoby – już mamy różne grafiki czy filmy, zamianę mimiki twarzy w czasie rzeczywistym, imitowanie czyjegoś głosu, a nawet przedstawienie wyników wyszukiwań zgodnych z kontekstem zapytania.</p>
+<p>Czy można jednak mówić o inteligencji? I czy można ją zmieścić ledwo w 219 GB?</p>
+<p>Te wszystkie algorytmy i sieci karmione są bardzo konkretnymi danymi, i jeżeli dostarczymy im tylko informacji o złej strony mocy (np. teorie lewej strony politycznej), to tylko je będą przedstawiać.</p>
+<p>I gdzie tu samodzielne myślenie i podejmowanie decyzji?</p>
+<p>Niewątpliwie widać na rynku wyścig zbrojeń (ludzie nie kupują odgrzewanych kotletów i jednak jakiś postęp musi być) i możemy się spodziewać znacznie szybszych procesorów, a te pozwolą na upowszechnieniu podobnych rozwiązań.</p>
+<p>Ale żeby już teraz mówić o zastąpieniu człowieka?</p>
+<p>Tu chyba jednak jeszcze daleka droga, a obecne różne oferty z tym związane (np. kup telefon ze sztuczną inteligencją) to chyba jednak jeszcze próba wyłudzenia.</p>
+<p>I zdania nie zmienię pewnie przez kilka kolejnych lat.</p>

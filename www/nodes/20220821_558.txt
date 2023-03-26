@@ -1,0 +1,27 @@
+﻿Title: „Rewolucja” ARM się kończy? (2022)
+Author:marcin
+When:21 Aug 2022
+Taxonomy:polski,polski blog,salon24.pl,Apple
+
+<p>Dzisiaj malutkie podsumowanie. Zacznijmy od porównania zużycia energii kilku modeli Macbook Air (korzystam z danych notebookcheck.net, które, jakie by nie były, są mierzone w ten sam porównywalny sposób):</p>
+<!--break-->
+<ol>
+<li>Macbook Air 2020 Core i5 (8GB/512GB) – 0.04 / 0.23 / 2.4-10.5 / 25.7 – 30.4 Watt (odpowiednio stan wyłączony / standby / idle / obciążenie)</li>
+<li>Macbook Air M1 (8GB/256GB) - 0.03 / 0.04 / 1.9-7 / 25-30.3 Watt</li>
+<li>Macbook Air M2 (8/256) - 0.07 / 0.29 / 1.87-9.3 / 28.5 – 31 Watt.</li>
+<li>Macbook Air M2 (16GB/1TB) - 0.16 / 0.32 /1.9-9.7 / 32.4 – 35.7 Watt.</li>
+</ol>
+<p>To chyba jakiś ponury żart. O ile M1 był lepszy od Intela (wyższa wydajność CPU i GPU), to większa wydajność M2 wydaje się częściowo wynikać ze zwiększenia limitów energetycznych (przy czym większe limity, ale generalnie ten sam sposób chłodzenia), do tego zmieniły się wartości przy wyłączeniu i standby (zużycie jest odpowiednio 4x lub 8x większe!). Teoretycznie większa pamięć wymaga większego prądu, ale… czy coś nie poszło nie tak? Czy M2 nie przypomina modelu z Intelem? Albo czemu jest od niego gorszy? Czemu to ma służyć? Czy komputery z układem M1 okazały się zbyt atrakcyjne, że trzeba było je trochę „popsuć”? A może M2 robi cały czas coś w tle?</p>
+<p>Proszę zauważyć, że w obecnej wersji z najmniejszym dyskiem 256GB jego wydajność jest o połowę mniejsza niż przy M1 (zamiast dwóch układów flash zastosowano jeden), co niejako wymusza dopłatę przynajmniej do 16GB RAM (albo i dysku 512GB, do daje łącznie skromną dopłatę 2400 PLN).</p>
+<p>Dostaliśmy też notch, lutowanie kości dyskowych, jeszcze większe problemy z throttlingiem (czyli mamy większą moc, która jest szybciej dławiona)… i Apple narzeka na malejącą sprzedaż.</p>
+<p>Przez lata dało się słyszeć, że x86 to historia, że rozwiązania tam zastosowane to archaizm. Coś w tym jest. Kiedyś na rynku było iluś producentów takich układów, i mieliśmy różne próby świeżego spojrzenia na technologię. Obecnie w świadomości zjadaczy chleba istnieje tylko Intel i AMD, a my słyszymy o kolejnych lukach bezpieczeństwa w Intelach, a dzisiaj (zaraz przed premierą serii 7000) widzimy informacje o błędach we wszystkich Ryzenach.</p>
+<p>Jeżeli chodzi o same wartości - na swoim laptopie z Intelem w specyficznych scenariuszach bez wysiłku osiągam grubo ponad 30h. To jest przykład jednostkowy i raczej wyjątkowy. Bardzo boli, że urządzenia z Intelami x86 potrafią dochodzić prawie do 1Watt w trybie standby, a Ryzenów z serii 6000 jest jak na lekarstwo (te w trybie idle / standby również nie potrafią zejść do takich wartości jak M1). Wydajność przy pracy potrafi być porównywalna do M1, a nawet lepsza… ale błędy i kiepskie chłodzenie psują cały efekt.</p>
+<p>ARM miał być rozwiązaniem na wiele bolączek. I jest… ale tylko w segmencie mobilnym. I tak jak kiedyś mieliśmy x86 w tabletach czy telefonach, tak obecnie ARM święci tam triumfy. Ale… dlaczego praktycznie nie ma go w komputerach stacjonarnych, laptopach albo serwerach? Dlaczego kojarzony jest wyłącznie z mało wydajnymi konstrukcjami? M1 pokazał, że to niekoniecznie musi być prawda. A co oferuje konkurencja?</p>
+<p>Było kilka konstrukcji kadłubków, gdzie telefon wkładało się do środka. W takim rozwiązaniu był on podłączany do klawiatury i ekranu a’la notebook. I jak pamiętam nawet myślałem o czymś takim, ale ostatecznie zrezygnowałem ze względu na ekran (zawsze błyszczący).</p>
+<p>Cały czas czekam na prawdziwie modułowy Framework Laptop, ale na płytę z układami ARM ani matowy ekran doczekać się nie mogę.</p>
+<p>Ze Snapdragonem dostaliśmy Lenovo 13s (Snap 7c 3 generacja) czy Galaxy Book Go (2 generacja)… i to praktycznie wszystko. Jest Pinebook Pro (układ RockChip), może jeszcze kilka innych konstrukcji (najczęściej konwertowalnych). Ogólnie panuje tu posucha, i można co najwyżej się pośmiać (np. Lenovo 13s kosztuje jednak trochę więcej niż powinien, tak samo Bitblaze Titan z „rosyjskim” Bajkal-M jest zwyczajną kpiną).</p>
+<p>Dlaczego świat (czytaj: korporacje) nie chcą iść w tym kierunku? Dlaczego ARM musi się kojarzyć z niszą?</p>
+<p>Duopol Intel / AMD (teraz chyba należałoby powiedzieć tripol Intel / AMD / Apple) nie pomaga jakoś rynkowi. Czyżby USA (które jednak wiodło prym przez lata) nie jest już w stanie przejść na jakiś kolejny poziom? Czyżby wyprzedaże 100% i kłopoty wewnętrzne zbyt mocno przeszkadzają? (polecam wideo z Daily Mail, jakiś czas temu można było też poczytać o masowym rabowaniu paczek na kolei, jest też wiele wideo z różnych miast, które dobitnie pokazują upadek). A może zamiast zastanawiać się nad zaimkami osobowymi i różnorodnością należy rozwijać technologię?</p>
+<p>Ciągle słyszymy o „problemach” (czytaj: zdrowo myślący ludzie kupują mniej układów, bo te nie są jakoś wybitne). Producenci podwyższają ceny albo żyłują wydajność kosztem zużycia energii ewentualnie bawią się w ucinanie wsparcia (zagrywki z Windows 11, cyrk z AM4, itp.). To plus wypełnienie magazynów pogłębia całą sytuację, a najlepiej jednak chyba reaguje Apple, które zdecydowało się raczej na pójście w usługi niż na wyścig na numerki (stąd w każdej nowej generacji telefonów zapewne będziemy mieli do czynienia z dwoma różnymi SoC).</p>
+<p>Co jakiś czas można czytać o próbach wprowadzenia na rynek czegoś innego, np. Tachyum Progidy (32 rdzenie) czy LeapFive RISC-V N62 (RISC-V!).</p>
+<p>Czy przyszłość nie będzie należała już do własnościowego ARM?</p>

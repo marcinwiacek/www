@@ -1,0 +1,22 @@
+﻿Title: Laptopy PIS dla szkół – kilka uwag do specyfikacji (2023)
+Author:marcin
+When:28 Jan 2023
+Taxonomy:polski,polski blog,salon24.pl
+
+<p><a href="https://spidersweb.pl/2023/01/darmowe-laptopy-dla-uczniow-specyfikacja.html" target="_blank" rel="nofollow noopener">W internecie pojawiły się fragmenty wymagań, jakie mają spełniać laptopy dla szkół</a>. Dzisiaj pozwolę sobie skomentować niektóre z nich.</p>
+<!--break-->
+<p>I tak zacznijmy od ekranu. Matryca ma być matowa, z kolorami, minimum 13” i Full HD, a do tego jasność co najmniej 220 cd/m2.</p>
+<p>Całość wygląda dosyć sensownie, ale… zapomniano (a może nie zapomniano, tylko celowo pominięto) o wymogu używania podświetlenia bez PWM, o tym, że niektórzy producenci matem nazywają nawet matryce z częściowym połyskiem, a do tego liczy się również kontrast i pokrycie kolorami. W najniższej półce cenowej te dwa ostatnie parametry zazwyczaj się mizerne, do tego potrafi dojść właśnie mruganie (bardzo szkodliwe i wywołujące problemy u części populacji) i słaba jakość matu. Część z tych problemów widziałem w Medionie E4251, część w Acerze Swift 1 SF114-32, dodatkowo w tym ostatnim producent stosował coś, co nazywam loterią (gwarantowane są tylko podstawowe parametry takie jak rozdzielczość, a poszczególne egzemplarze mogą mieć diametralnie różne ekrany - wszystko zależy od tego, z której półki wzięto je w fabryce).</p>
+<p>Ogólnie nie potrafię powiedzieć z czystym sumieniem, że ten element jest wybrany dobrze.</p>
+<p>Przejdźmy do dysku, o którym napisano, że ma to być SSD o pojemności 256 GB. Tutaj zastanawia mnie brak informacji o wymienności elementu, brak informacji o standardzie NVME, jak również jakiegokolwiek wskazania na szacowaną żywotność.</p>
+<p>Teoretycznie ktoś może tu zaproponować nawet dysk SATA 2,5” albo przylutowane kości (takie ma Apple, ale w formie modułów eMMC również najniższa półka cenowa, a jak znam życie, ktoś może to podciągać pod SSD), jak również sprzedać mające złą opinię dyski na kościach QLC (przy dużym zużyciu mogą padać jak muchy).</p>
+<p>Ogólnie średnio.</p>
+<p>RAM określono jako 8GB z możliwością rozbudowy do min. 16GB. Tutaj nie ma żadnej informacji o ilości slotów, co pozwala na sprzedaż sprzętu, w którym rozszerzenie pamięci wymagać będzie zmiany kości zamiast jej dodania (nie wymagam tu już nawet pracy dwukanałowej).</p>
+<p>Bateria ma mieć tutaj co najmniej 37Wh. Mogę się domyślać, że wielkość wzięto np. z jednego z Chromebooków HP, szkoda, że nie próbowano nawet określić minimalnego czasu pracy pod pełnym obciążeniem przy nowości albo szacowanego spadku po iluś cyklach ładowania (oferent może próbować upłynnić ogniwa najniższej jakości).</p>
+<p>System operacyjny ma mieć 64 bity, a urządzenie powinno wspierać TPM 2.0. To teoretycznie wskazuje na Windows 11, ale… pod definicję zaliczają się również Chromebooki i tam robi się pewien problem – te urządzenia są tak blokowane, że nic innego się nie zainstaluje, tymczasem sprzęt „ogólny” kosztuje mniej więcej tyle samo i pozwala chociażby na zmianę Windows na Linuxa.</p>
+<p>Serwis ma być realizowany na miejscu. Takie pakiety zazwyczaj generują koszty i oferent albo musi zaproponować odpowiedni pakiet (wtedy sam sprzęt musi kosztować mniej i być odpowiednio słabszy) albo dostaniemy czas reakcji wyłącznie na papierze.</p>
+<p>I wreszcie wydajność CPU jest określona przez Cross Mark, a ten, jak wskazują różne serwisy, mocno preferuje Intela. Szkoda, wielka szkoda.</p>
+<p>Inne parametry są dosyć standardowe – karta graficzna zintegrowana, złącza USB, wifi 5, itp.</p>
+<p>W całej sprawie zastanawia mnie brak dodatkowych punktów za przykrycie na kamerkę, możliwość wyłączenia mikrofonu, obudową spełniającą MIL-STD 810G czy kilka innych rzeczy.</p>
+<p>Obawiam się tylko, że zamiast sprzętu uniwersalnego albo „normalnego” możemy dostać tanie Chromebooki, ewentualnie coś z łamiącymi się zawiasami czy podobnymi atrakcjami. Gdyby cena mogła być trochę wyższa niż prognozowana (mniej więcej 3500-4000PLN zamiast 2000-2500PLN), to bez problemu można by wybrać coś z „dobrej” serii biznesowej albo może nawet jeden z modeli Clevo, sprzedawany przez pewnego dystrybutora z Warszawy (ten ostatni sprzęt należy do pancernych i na pewno by posłużył, a ja na wszelki wypadek dodam, że z firmą nie mam prywatnie ani biznesowo żadnych układów).</p>
+<p>Wydaje się, że tę żabę będzie musiał zjeść kolejny rząd, na razie pozostaje czekać do lutego.</p>

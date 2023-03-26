@@ -1,0 +1,20 @@
+﻿Title: Cyfrowa dekarbonizacja, czyli prania mózgu ciąg dalszy (2022)
+Author:marcin
+When:5 Oct 2022
+Taxonomy:polski,polski blog,salon24.pl,drogowe
+
+<p>Z dnia na dzień na naszym podwórku bombardują nas różne katastroficzne newsy, i nie mówię już nawet o jakości naszej polityki, sprawach z węglem czy przenoszeniu terminów wyborów. Dużym echem odbijał się chociażby artykuł Interii o większej ilości wypadków po zabawach rządzących z kodeksem drogowym. Wielu z nas chciałoby uwierzyć, że to wyłącznie wynik większej pojazdów na drodze, z drugiej strony, to powstało nawet poniższe wideo:</p>
+<!--break-->
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/AU4dEQiE1QI" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p><a href="https://www.rp.pl/policja/art37173301-ponad-miliard-zlotych-z-mandatow-w-osiem-miesiecy-to-dwa-razy-wiecej-niz-przed-rokiem" target="_blank" rel="nofollow noopener">Oprócz tego dostaliśmy podsumowanie, jak bardzo podreperowany został budżet</a>, i rady, jak sobie radzić (chociażby na autokult.pl).</p>
+<p>„Można się rozejść” ktoś powie.</p>
+<p>Czy jednak rzeczywiście? Czy pieniądze z mandatów posłużą do wspierania jakichś programów edukacyjnych? Czy typowy pieszy zostanie uświadomiony, że nie można władowywać się bezpośrednio pod jadący pojazd? A może zostaną przebudowane jakieś przejścia?</p>
+<p>W całym tym zamieszaniu wokół mniej lub bardziej ważnych spraw umyka meritum, a granica naszej tolerancji jest powoli przesuwana.</p>
+<p>Podobnie jest w IT. Przez lata słyszeliśmy, jak fajnie jest zakładać darmowe konta i wtłaczać nasze dane w chmurę. Wielkie i małe firmy przekonywały nas do swoich ekosystemów. Chcemy telefonu z Androidem? Wypada mieć jakieś konto u Google, Samsunga i nie wiadomo kogo jeszcze. Co z tego, że wiele z tych kont jest jednorazowych?</p>
+<p>A dlaczego o tym mówię? <a href="https://www.chip.pl/2022/10/cyfrowa-dekarbonizacja-slad-weglowy" target="_blank" rel="nofollow noopener">Chip ostatnio zrobił przedruk artykułu dowodzącego, że może wypadałoby dokonać cyfrowej dekarbonizacji, czyli rezygnacji z niepotrzebnych danych</a>.</p>
+<p>Pomyślmy.</p>
+<p><a href="https://www.oxfam.org/en/press-releases/carbon-emissions-richest-1-percent-more-double-emissions-poorest-half-humanity" target="_blank" rel="nofollow noopener">1% najbogatszych generuje podobno 2x więcej CO2 niż najuboższa połowa ludzkości</a>, my (według różnych guru konsumpcji) do wczoraj mieliśmy wymieniać co chwilę telefony i inne gadżety, i żyć nowocześnie (czytaj: brać, co dają „za darmo”), a teraz nagle okazuje się, że największe firmy mogą mieć swoje serwerownie dla chmur (gdzie często i gęsto te same dane są przechowywane w wielu kopiach), a te mniejsze (i zapewne najmniejsi szaraczkowie) powinny być rozliczane z każdego zużytego bajta.</p>
+<p>Ciekawe jest to, że mogą powstawać takie dzieła jak pierścienie władzy czy różne produkcje netflixa (ich streaming przecież nic nie kosztuje), tak samo problemem nie są gigabajtowe lub terabajtowe pakiety ze sterownikami czy patchami do popularnych systemów operacyjnych (te kiedyś zajmowały skromne megabajty, ale co tam - tak wygląda nowoczesność).</p>
+<p>I wreszcie ciekawe jest też to, że BitCoin i inne "kryptowaluty" to bańka, a cyfrowe Euro i Dolar na pewno będą lepsze (szczególnie, jak nie będą anonimowe, albo dostaną datę ważności monet).
+<p>Toż to równość pełną gębą.</p>

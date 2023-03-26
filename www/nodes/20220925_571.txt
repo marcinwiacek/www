@@ -1,0 +1,31 @@
+﻿Title: Kup pan magiczną ramkę i kabelek, czyli o przekrętach rekinów rynku (+bonus) (2022)
+Author:marcin
+When:25 Sep 2022
+Taxonomy:polski,polski blog,salon24.pl,AMD,x86
+
+<p>Dawno, dawno temu samochody były proste, i bardzo tolerancyjne na złą obsługę albo kiepskie płyny eksploatacyjne. Z czasem pojemności silników malały, moce rosły, a zawodność... najczęściej też (a czasem i zużycie paliwa). I mamy różnego rodzaju filtry, zawory, turbiny, itp.</p>
+<p>To samo dzieje się w wielu innych dziedzinach, włączając w to IT. 
+<!--break-->
+I tak można przypuszczać, że wraz z każdą kolejną generacją komputerów elementy będą szybsze, bardziej wydajne i niezawodne. Nie zawsze jest to prawda i wielokrotnie pisałem chociażby o (za) wysokich temperaturach, które powodują pracę jedynie z podstawowym zegarem albo szybszą degradację. Mamy czasem oczywiście chłodzenie wodne (a woda i elektronika się nie lubią), a czasem ogromne bloki miedzi (których producenci mówią wprost, że na czas transportu komputera mają być zdemontowane). Innym tematem są pamięci SSD, w których standardem stał się zapis 4 wartości na komórkę (a bodajże Toshiba testuje już 7, co oczywiście dodatkowo zmniejszy żywotność). Komponenty są integrowane, i niestety uszkodzenie nawet małego elementu powoduje konieczność wyrzucenia całości (mistrzem jest tutaj Apple). Przez lata potrafiliśmy dostawać też baterie, których gwarantowana żywotność to 100 cykli.</p>
+<p>A kojarzy ktoś słynne pokazy garnków czy innych magicznych przedmiotów (np. czaszek po 800 PLN), dzięki którym nasze życie ma się diametralnie zmienić? I firmę Intel? Dzielnie walczą z AMD, ale poniekąd przyznają się do pewnych gorszych rozwiązań, które mają być gorsze do 2025.</p>
+<p>Niebiescy jakiś czas temu wypuścili generację jedenastą, która oczywiście miała być najbardziej super na świecie. Cechą charakterystyczną ich procesorów desktopowych jest rozmiar. Wyznaczono pewne normy dla producentów płyt głównych i to, co obejmują gwarancję. I tu dochodzimy do tematu przedmiotów magicznych:</p>
+<p>Nowe płyty główne (często za tysiące PLN) potrafią się wyginać. Ich producenci pewnie odsyłają tu do Intela, a ten rozkłada ręce, bo nie gwarantuje nic ponad pracę z zegarami bazowymi (czyli sytuacja jest taka, że ktoś nam może złożyć komputer za duże pieniądze, a ten działa z prędkością 2Ghz, bo brak jest dobrego styku chłodzenia z procesorem).</p>
+<p>I tu dochodzimy do cudów - niektóre firmy oferują rameczki za 200 PLN (a inne za 30 PLN), które zastępują oryginalny element wokół CPU i usztywniają całość. Wyciąganie kasy od naiwnego? <a href="https://www.telepolis.pl/artykuly/testy-sprzetu/intel-core-i9-temperatury-problem-naprawa-thermalright" target="_blank" rel="nofollow noopener">Zapraszam do testu z jednego portali, gdzie pokazano, że ma to sens.</a></p>
+<p>Śmieszne? No to pośmiejmy się dalej. Topowe karty graficzne (zresztą jak i procesory) miały zżerać coraz mniej prądu (wiadomo, że proces wykonania lepszy), tymczasem jest dokładnie na odwrót. Wymyślono nowe wtyczki do ich zasilania, który ten prąd mają dostarczyć. <a href="https://www.purepc.pl/zotac-geforce-rtx-4090-producent-przewiduje-wysoka-awaryjnosc-adaptera-przewodu-zasilajacego-pcie-5-0" target="_blank" rel="nofollow noopener">Wtyczki są odpowiednio masywne, ale niektórzy producenci przewidują ich żywotność na 30 połączeń - powyżej tego mogą tracić połączenie albo... może zaiskrzyć.</a></p>
+<p>I tak to się kręci - zamiast zdefiniować standard PC na nowo (inaczej rozłożyć komponenty, itp.), to mamy takie protezy. Wychodzi na to, że często i gęsto lepiej kupić komputer, w którym wszystkie elementy dobierał jeden producent. Np. taki (i nie jest to reklama, tylko bardziej pokazanie, że czas dużych skrzynek musi w końcu odejść):</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/ctlmMR9urf8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+</p>
+<p>Obecny rynek jest zacementowany, ale... można też spotkać zupełnie inne podejścia do techniki komputerowej, np. CPU z 80 rdzeniami ARM:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/m6-juFXR9c0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>albo komputery typu NUC, które można włożyć w kadłubek (tu niestety Intel):</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Ivi0ff_EDnA" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<br />
+</p>

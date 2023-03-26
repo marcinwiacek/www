@@ -1,0 +1,82 @@
+﻿Title: O RISC-V i innych potworach, czyli (głównie technologiczne) trendy na 2023 (2022)
+Author:marcin
+When:30 Dec 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Nazwy rozdziałów: CPU, karty graficzne, dyski, granie, Open Source i era darmowych rzeczy, streaming, media społecznościowe, automatyzacja, elektryfikacja, komórki i 5G, podsumowanie</p>
+<!--break-->
+<p><b>CPU</b></p>
+<p>Świat oszalał na punkcie x86, bo pewne elementy architektury były całkowicie otwarte. Z magnetofonów przeszliśmy na dyskietki, dyski twarde, pamięci flash, pojawiło się wiele rdzeni, ogromna ilość RAM, szybkie karty graficzne. W tym szaleństwie była pewna metoda, jednakże z czasem coraz bardziej widać to, że architektura z dużą listą rozkazów (tzw. CISC), złożoność platformy i opłaty licencyjne stały się kulą u nogi.</p>
+<p>Na rynku CPU x86 w świadomości konsumentów tkwią tylko dwie firmy, czyli AMD i Intel. Ich produkty w różnych segmentach to często wyłącznie mielenie tych samych rzeczy (o tej samej wydajności albo z użyciem rdzeni zaprojektowanych ileś generacji wstecz), i choć oczywiście postęp jest (chociażby w kolejnych seriach dla serwerów), to często niweczą go poprawki bezpieczeństwa w mikrokodzie (przypominają mi się rady, żeby całkowicie wyłączyć wielowątkowość czy inne funkcje, które powodują, że x86 w ogóle się liczy w kwestii wydajności).</p>
+<p>W przypadku PC od lat jak mantrę można powtarzać słowa o ciągle tych samych problemach, czyli relatywnie dużym zużyciu energii w trybie standby albo przy wyłączeniu (laptopy), powiększaniu TDP (chociażby nieszczęsne Ryzeny 7000) czy podbijaniu temperatur praktycznie na granicy throttlingu (ok. 100C). Zachodni producenci niespecjalnie mają pomysł na nowości, czego dowodzi chociażby <a href="https://www.intel.com/content/www/us/en/products/docs/boards-kits/nuc/mini-pcs/nuc-13-extreme.html" target="_blank" rel="nofollow noopener">ostatni „mini” komputerek Intel NUC Extreme, który w praktyce jest małym zestawem ITX</a>.</p>
+<p>Co dostaniemy w 2023? Oczywiście nowe modele… ale oczekiwać należy spowolnienia po chłodnym przyjęciu AM5 czy w związku z brakiem stabilizacji Intela w sprawie fabryk układów (te pojawią się w USA dopiero za kilka lat, a firma chyba nadal boryka się z najnowszymi procesami wytwarzania).</p>
+<p>Nowością mogłyby być kafelki niebieskich (produkowane kolejnych elementów w różnych procesach i łączenie ich na jednej płytce krzemowej), ale czy doczekamy się ich w 2023?</p>
+<p>Czy coś jeszcze może tu spowodować rewolucję? W większości wypadków nie… no chyba, że SOC z grafiką na RDNA 3 dadzą gigantyczny wzrost, albo systemy z pudełka w końcu będą w stanie wchodzić w najwyższe tryby energetyczne.</p>
+<p>Świat oczywiście ma również ARM. Producenci płacą odpowiednie tantiemy, a my dostajemy kolejne kostki w architekturze RISC (okrojona lista rozkazów). Kojarzone są one z energooszczędnością, w przypadku Apple również z wydajnością, ale jak na razie najczęściej nie można na nich uruchamiać z oszałamiającą prędkością kodu x86, a do tego każde rozwiązanie jest „vendor locked”. Ciekawostką w 2022 okazał się dev-kit Microsoft, ale ten wydajnością jest daleko w tyle nawet w stosunku do M1 sprzed kilku lat:<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/I3wmp9mstFM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Co dostaniemy w 2023? Kolejne generacje i magię cyferek (jak również w niebyt powinny odejść układy Samsunga), szkoda, że to raczej nie przyniesie ogromnej rewolucji.</p>
+<p>Zupełnie inaczej jest w przypadku RISC-V, czyli dostępnej za darmo architektury sprzętowej, która powinna dawać podobne lub znacznie lepsze rezultaty niż ARM (w wielkim skrócie). Na github pojawią się kolejne projekty z tym związane (chociażby gotowe schematy). Firmy produkują coraz więcej układów i oczywiście chwalą się wynikami. I tak można znaleźć w internecie opisy mówiące, że niektóre kości przy przy 3Ghz pobierają 69mW energii, a ich wydajność na Watt przewyższa wiele razy inne rozwiązania. Teoretycznie na początku przyszłego roku będzie można kupić fizycznie laptopa w tej technologii.</p>
+<p>Czy jest to interesujące dla przeciętnego użytkownika?</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/q7C6mo1R8xU" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Zarówno x86 (Windows, Linux) jak i ARM (Android, MacOS, może Windows) mają ogromną bazę oprogramowania. Ciężko byłoby z niego zrezygnować, i na chwilę obecną niestety musimy ponosić tego koszty.</p>
+<p>RISC-V może być jedyną alternatywą dla krajów rozwijających się… czy Chin (które zapewne będą odcinane od technologii zachodniej).</p>
+<p>Należy tu pamiętać o jednym aspekcie: z jednej strony świat mówi o bezpieczeństwie, z drugiej ciężko je zapewnić, gdy w krzemie może tkwić dosłownie wszystko. I nie mówię tu o jakichś wydumanych sprzętowych backdoorach, ale o tym, że praktycznie każdy komercyjny system ma układy, do których dostęp posiada wyłącznie dostawca (albo ludzie z odpowiednimi pieniędzmi, których stać na reverse engineering). Teoretycznie oczywiście dobrzy dostawcy zapewniają długie wsparcie, ale… <a href="https://antyweb.pl/najlepszy-macos-dla-macbook-air-2015" target="_blank" rel="nofollow noopener">czasami pojawiają się głosy, że jest ono środkiem na popsucie produktów</a> (ale <a href="https://antyweb.pl/7-lat-wiezienia-poniewaz-pracownik-nie-zaktualizowal-programu-to-rzeczywistosc" target="_blank" rel="nofollow noopener">trzeba je robić, bo inaczej można trafić do więzienia</a>).</p>
+<p>RISC-V jest tworzony od podstaw i pozwala wyeliminować wiele naleciałości - może się okazać rewolucją na miarę przejścia z 8-bitowych komputerków (Spectrum, Atari) na IBM PC / x86, ale na to trzeba zaczekać kilka lat. Do tego czasu nasze potrzeby są zaspokojone, i to zarówno w domach, jak i w firmach (nie mówię oczywiście tutaj o graniu w 8K czy innych ekstremach).<br />
+<p><b>Karty graficzne i obraz</b>
+<p><a href="https://www.tomshardware.com/news/sales-of-desktop-graphics-cards-hit-20-year-low" target="_blank" rel="nofollow noopener">Tom’s Hardware podaje, że sprzedaż kart jest najniższa od 20 lat (dane za II kwartał 2022)</a>. <a href="https://www.pcgamer.com/the-gtx-1650-is-now-the-most-commonly-used-gpu-among-steam-users/" target="_blank" rel="nofollow noopener">Najbardziej popularna karta graczy na Steam to obecnie GTX 1650</a>, a ten kosztuje mniej więcej 1000 PLN. Nie jest to układ bardzo wydajny, ale w zupełnie wystarcza. Można też powiedzieć, że Intel nie wyrobił sobie wielkiej marki (zdobył tylko kilka procent rynku, a o skali sukcesu świadczy chyba ostatnia reorganizacja), a dosyć chłodne przyjęcie ostatnich konstrukcji Nvidii i AMD pozwala sądzić, że w zastosowaniach konsumenckich czeka nas zastój.</p>
+<p>Czyżby ludzie również dokonali aż nadto zakupów w ostatnich latach? I nastała normalizacja po chorej sytuacji z górnikami?</p>
+<p>W obszarze wyświetlania obrazu mamy nowe konstrukcje z OLED, ale widać też pogorszenie się jakości (chociażby ekrany w laptopach biznesowych HP, które nie dość, że mają ciężki efekt PWM, to po włączeniu filtra prywatności oferują również drastycznie niższą jasność).</p>
+<p>Ogólnie w całym tym obszarze nie dopatrywałbym się wielkich zmian.</p>
+<b>Dyski</b></p>
+<p>W obszarze pamięci półprzewodnikowych powtarzają się dwa elementy, czyli obecność PCIe 5 i brak cache DRAM. Teoretycznie przewidywane są spadki cen, ale… kto wie.</p>
+<p>Myślę, że ciekawą kwestią pozostaje również to, czy doczekamy się wysypu zepsutych sprzętów Apple (komputery z serią M procesorów mogą być nagminnie używane do takich rzeczy jak montaż video, a to wymaga dużej ilości zapisów).</p>
+<p>Ogólnie ewolucja.</p>
+<b>Granie</b></p>
+<p><a href="https://www.benchmark.pl/aktualnosci/steam-replay-2022.html" target="_blank" rel="nofollow noopener">Gracze podobno preferują starsze gry (według Steam)</a>, a różne platformy co jakiś czas rozdają kolejne tytuły.</p>
+<p>Czy doczekamy się w końcu momentu, gdy gracze naprawdę masowo zaczną wyrażać oburzenie jakością nowych produkcji?</p>
+<p>Przyszły rok w CD Projekt to zapewne poprawki do CyberPunka i Wiedźmina III czy Phantom Liberty.<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/zrHb2p4YPT0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Z dużych innych premier można oczekiwać również Stalkera II.</p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/0ZqMt74hO6U" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<b>Open Source i era darmowych rzeczy</b></p>
+<p>„Darmowa” architektura RISC-V (pisze w cudzysłowie, gdyż układy scalone jednak swoje kosztują), „darmowe” starsze gry czy usługi (tutaj często i gęsto płacimy danymi) czy darmowe oprogramowanie - w różnych obszarach daje się zauważyć pewien trend i ten prawdopodobnie będzie się pogłębiał.</p>
+<p>Gdy chcemy sobie uruchomić jedną z wielu gier na Linuxie, można skorzystać z Protona (projekt rozwijany przez Steam) czy innych mutacji Wine. Od dawna nie musimy płacić za pakiety biurowe albo przeglądarki WWW, do tego (przy odrobinie samozaparcia) dochodzą chociażby systemy operacyjne.</p>
+<p>W 2023 prawdopodobnie zobaczymy kolejne wersje znanych aplikacji… i prawie ostateczną wersję języka Google o nazwie Carbon, który ma okazać się następcą C++.</p>
+<p>Ogólnie chyba bez rewolucji.</p>
+<p><b>Streaming</b></p>
+<p>Pan Janusz ma kochające otwarte serce i oddaje je wszystkim na dłoni. Mężczyzna stosuje zasadę „gość w dom, Bóg w dom” i kocha zasadę wolności szlacheckiej. Wie, że należy żyć w zgodzie z naturą. Niektóre rzeczy robi jak jego dziadkowie, gdzie może, stara się wprowadzać nowoczesność (przy czym różne rzeczy wybiera z ostrożnością, bo nie chce zniszczyć siebie i okolicy). Może się wydawać naiwny jak dziecko, ale jego życie jest bardzo bogate wewnętrznie.</p>
+<p>Poznajcie też pana kapitalistkę. On jest bardzo gruby i ma monokl. Poszczególne pionki na jego szachownicy dotyczą inwestycji. Pan kapitalista ma swój biznesplan, i jeżeli taniej jest sprowadzać czosnek z Chin, to wynajmuje nawet ogromne statki, byle wyrobiły się na czas. Człowiek ten ma prostą receptę na życie - ma na celu wyłącznie budowę dobrobytu swojego kraju, a nie podbitych kolonii, i jest miły, jak coś może zyskać, i bezwzględny, gdy coś nie idzie po swojej myśli.</p>
+<p>Nakreśliłem te dwie stereotypowe postacie z jednego powodu.</p>
+<p>Od kilku dni można usłyszeć o nowej produkcji Netflixa, w której do kosza spuszczono całą twórczość Sapkowskiego. Tak niestety wygląda obecnie streaming – produkcje dobre i wartościowe wypierane są przez ściek, a winni są zawsze wszyscy wokół, tylko nie twórcy tych dzieł.</p>
+<p>Streaming doszedł obecnie do jakości telewizji i chyba niestety nic tego nie zatrzyma.</p>
+<p>Dno.</p>
+<b>Media społecznościowe</b>
+<p><a href="https://wydarzenia.interia.pl/zagranica/news-polka-mieszkajaca-w-kalifornii-pokazuje-jak-amerykanski-sen-,nId,6474654" target="_blank" rel="nofollow noopener">Jakiś czas temu czytałem o Polce, która pokazywała realia życia w Kalifornii</a>. Można się z nią nie zgadzać (to USA przecież budowały lotniskowce atomowe, wspaniałe samoloty, itp.), ale… coś chyba poszło nie tak, jeśli chodzi o dążenie do rozwoju.</p>
+<p>Streaming firm zachodnich toczy rak, podobnie niestety stało się ze wszelkimi platformami społecznościowymi. Podam tylko dwa przykłady artykułów o tym traktujących:</p>
+<ol>
+<li><a href="https://ithardware.pl/aktualnosci/akta_twittera_trump_nie_zlamal_zadnych_zasad_przed_zbanowaniem_pracownicy_sluchali_polecen-24842.html" target="_blank" rel="nofollow noopener">Akta Twittera: Trump nie złamał żadnych zasad przed zbanowaniem. Pracownicy słuchali poleceń</a></li>
+<li><a href="https://www.chip.pl/2022/12/instagram-chcial-zebys-czula-sie-gorzej-nowe-dokumenty-odslaniaja-straszna-prawde" target="_blank" rel="nofollow noopener">Instagram chciał, żebyś czuła się gorzej. Nowe dokumenty odsłaniają straszną prawdę</a></li>
+</ol>
+<p>Można oczywiście pisać jeszcze o Mecie albo od razu uogólnić – platformy amerykańskie nie różnią się pod wieloma względami od Tik-Toka, którego uważa się za tubę propagandową czy sposób na niszczenie społeczeństw.</p>
+<p>To upadek.</p>
+<b>Automatyzacja</b>
+<p>Algorytmy są bezduszne i bardzo podoba mi się <a href="https://spidersweb.pl/bizblog/pracownicy-sa-coraz-mniej-wydajno/" target="_blank" rel="nofollow noopener">stwierdzenie w jednym artykułów, że doszliśmy do ściany (algorytmy wdrożono, ale zapomniano o ludziach, którzy muszą wykonywać zupełnie niedostosowane do nich czynności)</a>.</p>
+<p>Czy 2023 to pogłębi?</p>
+<p><b>Elektryfikacja</b></p>
+<p><a href="https://forsal.pl/swiat/ukraina/artykuly/8149925,ukraina-zloza-dla-zuchwalych.html" target="_blank" rel="nofollow noopener">Choć coraz mocniej mówi się o bogatych złożach litu na Ukrainie (czy to był powód do wojny?)</a>, to elektromobilność jest wciąż dla bogatych. I choć Chińczycy implementują chociażby bardzo szybkie ładowanie w komórkach (Xiaomi), to prawdziwa rewolucja tkwi w bateriach sodowych czy opartych w promieniotwórczości.</p>
+<p>Czy doczekamy się tego na masową skalę już w 2023?</p>
+<b>Komórki i 5G</b></p>
+<p>Jak ostatnio przeczytałem, Samsung nie jest zadowolony ze sprzedaży serii S22. Firma w kolejnym roku prawdopodobnie zrezygnuje z Exynosów.</p>
+<p>Z innych znaczących rzeczy można wymienić: usunięcie złącza Lighting czy możliwość samodzielnej instalacji apek w iOS.</p>
+<p>Ogólnie znacząco zapewne będzie wzrastać ilość urządzeń składanych… i tyle.</p>
+<p>W Polsce doczekamy się zapewne wyłączenia 3G (w T-Mobile), z drugiej strony ciekawe, że jakoś ucichł temat 5G – migracja użytkowników jest dokonywana w sposób naturalny, a nie wymuszony.</p>
+<p>Czyżby 4G było wystarczające do typowych zastosowań?</p>
+<b>Podsumowanie</b>
+<p>W większości obszarów czeka nas ewolucja, mamy też COVID w Chinach i wojnę technologiczną Chiny-USA (z Tajwanem w tle), a to również mocno wpływa na dostępność różnych komponentów.</p>
+<p>Nowym trendem jest na pewno budowanie nowych fabryk w różnych miejscach, nie należy jednak oczywiście ogromnych wzrostów sprzedaży albo rewolucyjnych konstrukcji – poza być może goglami VR Apple, wydajnymi RISC-V czy kilkoma innymi rzeczami w sprzęcie dostaniemy głównie kolejne wersje znanych produktów.</p>
+<p>Nadszedł czas, żeby software naprawdę wykorzystał obecny hardware do granic możliwości – mnie na przykład śmieszy, gdy czytam o „rewolucji” w Windows polegającej na rozdzieleniu pewnych elementów systemowych w explorer.exe.</p>

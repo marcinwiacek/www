@@ -1,0 +1,37 @@
+﻿Title: Przepisy drogowe 1.58 (2022)
+Author:marcin
+When:25 Sep 2022
+Taxonomy:polski,polski blog,salon24.pl,Android,drogowe
+
+<p>Dużych echem odbiły się zmiany w taryfikatorze mandatów od 1.1.2022, obecnie we wrześniu dwa dni przed wprowadzeniem zmienił się taryfikator punktów.</p>
+<p>Przez ostatni tydzień nie miałem niestety możliwości, żeby się tym poprawnie zająć, natomiast dzisiaj z przyjemnością prezentuję Przepisy Drogowe 1.58 (na razie wydanie dla Android, które za chwilę pojawi się w Google Play albo już jest), który zawiera przepisany 1:1 plik z przepisów - proszę o ewentualne uwagi na maila.</p>
+<p>W wersji 1.59 mam zamiar wydać wersję połączoną (gdzie punkty i mandaty będą opisane razem) - proszę o chwilę cierpliwości.</p>
+<!--break-->
+<p>Od stycznia 2022 mieliśmy do czynienia z różnymi rzeczami, m.in.:</p>
+<p>1. wojną na Ukrainie</p>
+<p>2. zubożeniem większości społeczeństwa polskiego i wieloma aferami i skandalami (chociażby sprawa z węglem, którego mamy przecież pod dostatkiem pod ziemią)</p>
+<p>3. sztucznie i celowo napędzanymi podwyżkami (węgiel, cukier i ogólnie wszystko)</p>
+<p>We wrześniu napisałem kilka notatek na tematy drogowe:</p>
+<p>1. <a href="?q=node/564">O przepisach drogowych i jakości prawa, czyli pajacyki edycja 2022.09</a> - ogólne wyjaśnienie, dlaczego nowe przepisy mają głównie na celu drenowanie Polaków z pieniędzy (w tym przegląd kilku typowych sytuacji takich jak ustawianie ograniczeń 80km/h na dwupasmowej drodze poza terenem zabudowanym)</p>
+<p>2. <a href="?q=node/565">Skończyło się rumakowanie… i PIS to wie.</a> - również ogólne podsumowanie</p>
+<p>3. <a href="?q=node/566">Rząd potraktował Polaków jak totalnych kretynów. Czy na to zasługują?</a> - tutaj o największej tragedii Polski czyli istnieniu duopolu PiS/PO + kilka wideo z przykładami patologii infrastruktury</p>
+<p>4. <a href="?q=node/567">Polska - kraj "prawa"? Czyli o drogowych szopkach ciąg dalszy</a> - przegląd patologii w przepisach z poglądowymi wideo (niestety również przykłady złych albo wątpliwych działań Policji)</p>
+<p>5. <a href="?q=node/568">Czy PiS zrobił z Policji policję granatową? (jak za okupacji)</a> - kolejne wideo</p>
+<p>6. <a href="?q=node/569">Zmiana definicji chodnika, a teraz... np. skrzyżowania</a> - post, który nie zainteresował Salon24, a który traktuje m.in. o cichej zmianie definicji skrzyżowania (co pozwala na wystawianie wielu nowych mandatów) czy niejasnościach związanych z chodnikami</p>
+<p>Ogólnie państwo polskie w mojej ocenie skupia się na ściąganiu z kierowców mandatów za wykroczenia, które nie zawsze związane z bezpieczeństwem (chodzi tu o wykorzystywanie różnych niuansów i kruczków). Różne dobre przepisy stały się karykaturą samych siebie, a Policja jest zmuszana do robienia pokazówek - jedni Polacy są napuszczani na innych.</p>
+<p>Szanuję funkcjonariuszy, w Internecie można spotkać wiele pozytywnych filmów z ich udziałem... ale widać, że państwo polskie nie ma żadnego interesu w tym, żeby upraszczać przepisy - stąd podwójny taryfikator, pokazywanie go 2 dni przed wprowadzeniem, drakońskie kary bez widełek, itp.</p>
+<p>Wiele osób pisze i mówi o tym, że Polska jest coraz mniej przyjazna, a ludzie coraz bardziej ubodzy. Dzisiaj spotkałem na YouTube pewien filmik o rabowaniu polskich zasobów:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/yKLuTNy-r94" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Może chodzi właśnie o to, żebyśmy się pogrążyli w biurokracji, a resztki tego, co pozostało, zostały wykupione przez inne narody?</p>
+<p>Przypomnijmy sobie Polski Ład, przekręty z wyborami (za które wszyscy zapłaciliśmy, a które się nie odbyły), respiratorami, ciągnikiem premiera i tysiącami innych rzeczy. Wiadome jest, że najgorzej jest uwierzyć w rzeczy wielkie - może jednak na pokazanym powyżej filmie jest jakaś prawda?<br />
+</p>
+<p>A jeżeli nie wierzymy w złe przepisy drogowe i "teorie spiskowe" (wiadomo, może ważniejsze jest 500+) to tu taka mała historyjka bliżej z życia:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/SnyBvcrWleM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>PS. Funkcjonariuszom życzę jak najmniej pokazówek i tego, żeby karali tylko za takie wykroczenia, które rzeczywiście spowodowały zagrożenie. A kierowcom tego, żeby państwo polskie było jednak coraz bardziej polskie.</p>
+<p>PS2. Pamiętajmy, że nad rządem stoi naród, i ten jednak powinien odsuwać od władzy tych, którzy stoją przeciwko niemu. PiS właśnie zrobił wielką pokazówkę pod tytułem "przekop mierzei", a teraz próbuje majstrować przy ordynacji wyborczej. Może czas z tym skończyć?</p>

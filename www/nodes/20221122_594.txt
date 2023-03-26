@@ -1,0 +1,51 @@
+﻿Title: Chcę kupić zwykły komputer i pograć… A wy narzekacie, że komunizm był nieefektywny… (2022)
+Author:marcin
+When:22 Nov 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Upłynął szmat czasu od premiery i uznałem, że czas pobawić się trochę więcej najlepszą najlepszą polską produkcją wszech czasów, czyli Cyberpunkiem 2077 (no dobrze, nie wiem czy najlepszą, ale na pewno najgłośniejszą i najbardziej kontrowersyjną).</p>
+<!--break-->
+<p>Jako że różne opinie krążyły o wersjach konsolowych, zdecydowałem się na wydanie dla PC (dodatkowo konsole są jednak jakieś takie ograniczone i ich specjalnie nie lubię). Dodanie kodu na gog.com było łatwe, proste i przyjemne, i teraz… miałem do wyboru pobranie kilkudziesięciu plików instalacyjnych (dokładnie ponad 30) albo użycie GOG Galaxy 2.0. O tym kliencie krążyły różne opinie, zdecydowałem się jednak zaryzykować. Plik zajmował 1 MB, ale za nic nie chciał się odpalić (wielce mówiący kod 0xc000005). Poguglowałem i okazało się, że istnieje magiczny link, który podaje do „pełnego” instalera. OK, pobrałem, zainstalowałem i zacząłem grać. I choć na początku pojawiły się pewne problemy (np. zawieszało się zapisywanie i obecnie jeśli nie chcę internetu, to muszę go włączyć, ale wyłączyć na ruterze), to całość jakoś sobie radzi na starszym sprzęcie (w niskich detalach).</p>
+<p>Refleksja przyszła potem – gdy oglądam filmy Motobiedy i ten narzeka, że w PRL produkowano aż dwa dublujące się dostawczaki (Żuka i Nysę), to zastanawiam się „a jak można opisać kapitalizm?”.</p>
+<p>I tak dawno temu ukuto termin „bloatware” – bardziej markowe sprzęty (a więc teoretycznie lepsze) przychodziły z taką ilością reklamowego śmiecia, że wszystkie te „darmowe cudowności” zajmowały 100% zasobów (komputer cały czas mielił dyskiem ewentualnie miał zużycie CPU 100% albo zajęty cały RAM).</p>
+<p>Dążenie wielkich korpo do walki z „niedobrymi” piratami doprowadziło do tego, że użytkownikom instalowano rootkity (pamięta ktoś Sony i ich CD?). Różne korporacyjne tematy przerabialiśmy czy też przerabiamy z płytami, potem z muzyką, filmami i innymi rzeczami. I teoretycznie za komunizmu już dwa modele to był urodzaj, teraz jest tego znacznie więcej, ale jak przychodzi do wybrania, to jest tego za dużo albo nie ma z czego wybrać (proponuję na jakimś legalnym VOD znaleźć trochę mniej popularne produkcje).</p>
+<p>Przy okazji gry w Cyberpunka pomyślałem, że może warto zacząć powoli myśleć o unowocześnieniu machiny do gier i z ciekawością zacząłem przeglądać różne oferty (żeby zorientować się, na co ewentualnie musiałbym zacząć odkładać pieniążki).</p>
+<p>Może laptop gamingowy? Są, ale generalnie w wysokich cenach, do tego odstrasza ich głośne chłodzenie (i nie uśmiecha mi się płacić za baterię albo ekran, no i całą tą miniaturyzację).</p>
+<p>Nowy desktop? Skrzynek (nawet gotowych) jest masa, tyle, że są najczęściej ogromniaste. Producentów konstrukcji markowych trzeba by chyba odrzucić (żeby nie było kwiatków jak poniżej), z kolei własnoręczne złożenie to frajda, ale zamienić jedną skrzynką na drugą to żaden deal.<br />
+<p><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/8ulhFi5N2hc" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Może więc sama karta graficzna albo nowy CPU do obecnego sprzętu? Graczem zawodowym nie jestem (więc palące się rodzynki w rodzaju RTX4090 Nvidii odpadają), a jak zamieniać, to raz, a dobrze (inaczej po wymianie jednego elementu wziąłbym się pewnie za kolejny, potem za kolejny i kolejny)</p>
+<p>OK, może w tej sytuacji mini itx? Tu już lepiej, ale po <a href="https://mwiacek.com/www/?q=node/404" target="_blank" rel="nofollow noopener">średnich doświadczeniach ze składaniem na AM4 i x570</a> pomimo obecności obudów typu Den Case czy Velka 7 z góry dałem sobie spokój (podobne maszyny często wymagają albo chłodzenia wodnego, albo się mocno grzeją i potrzebują ograniczenia TDP do 65W).</p>
+<p>A mini PC?</p>
+<p>Najczęściej ograniczone również do 65W i mające podobne wady jak laptopy (czasami wręcz wykorzystują ich płyty główne). I choć na YouTube można znaleźć naprawdę malutkie kosteczki (zaś ludzie grają na nich w niskich detalach)</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/xmzijWC_gwc" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>ostatecznie wyszło na to, że musiałbym zewnętrznie dorzucić kartę graficzną na tzw. riserze M2 (mało estetyczne) albo w obudowie Thunderbolt (cena mniej więcej 300 USD, co jest mało opłacalne) albo wybierać zaledwie z kilku modeli.</p>
+<p>Tu dochodzimy do modelu HX90G, który wydaje się być idealny – ma prawie wszystko (Ryzen 5900HX, może wkrótce 6900HX, do tego dodatkowa grafika, 2 dyski NVME, chyba też możliwość wyboru karty graficznej i tylko 2,5” do szczęścia brakuje), ale… jest z ciekłym metalem (<a href="https://www.youtube.com/watch?v=V4eazJIqRHg" target="_blank" rel="nofollow noopener">wcześniejszy egzemplarz HX90 miał problem, gdy wysłano go do jednego z ludzi z YouTube</a>) i nie można go tak sobie kupić w sklepie na rogu (a wsparcie może być jednorazowe).</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/kDOSJSgdSD0" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Tak mnie w tym momencie naszła refleksja, że nie ma nic za darmo, a skoro jest taki urodzaj, to ktoś za to wszystko płaci… i żeby te wszystkie urządzenia produkować, ktoś musi stać przy taśmie w fabryce, trzeba zatruć środowisko, etc. etc.</p>
+<p>Gdybym chciał kupić HX90G z Ryzenem 6900HX, to muszę czekać – przez pół roku wiele portali pisało o takiej konfiguracji, a obecnie wszędzie można zobaczyć informacje, że „wkrótce”.</p>
+<p>I teraz stwierdzenie i potem pytanie za 10 punktów – AMD naprodukowało Ryzenów 7xxx i chce je sprzedać, i myśli już o mobilnych Ryzenach 7xxx, tymczasem „hitem” są konfiguracje z serią 4xxx albo 5xxx. Dlaczego?</p>
+<p>Obecna technologia daje bardzo fajne możliwości, i tak na przykład ktoś uruchomił Windows XP na tablecie z M1:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/5BF4eVihFc8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Gdy jednak przychodzi do czegoś troszkę więcej (to troszkę więcej to jedynie chęć znalezienia urządzenia, które będzie kompletne i nie zirytuje kaleką implementacją podstawowych funkcji), to często wchodzimy w nicość – firmy zachodnie jakby celowo omijają ciekawe konfiguracje, a wszystko co najciekawsze przychodzi z Chin albo Tajwanu.</p>
+<p>Obecnie takie produkowanie niewiele różnych się bubli w dużej mierze hamuje postęp - w wielu wypadkach bardziej opłaca się czekać na nowszą generację niż coś wymieniać. Ktoś oczywiście mógłby to skwitować słowami „planowane postarzanie”, jednakże tak się zastanawiam na inną możliwością. I tak za mojego życia bardzo rozwinął się internet, telefonia komórkowa, laptopy i kilka innych rzeczy. Wszystko to oczywiście wpasowuje się w schemat „gwałtowny rozwój-stagnacja-upadek” (środek mamy przy nasyceniu rynku), niemniej jednak czy ta stagnacja nie pojawia się również wtedy, gdy daną technologią nie można już bardziej śledzić ludzi?</p>
+<p>I tak w internecie powstawały jak grzyby po deszczu nowe technologie i przeglądarki, obecnie w dobie baniek informacyjnych nie słyszy się już właściwie o niczym ciekawym.</p>
+<p>Komórki? 5G nie daje w sumie jakiejś znaczącej różnicy – nawet przy LTE można wystarczająco dokładnie określić położenie użytkownika albo ściągnąć jego dane.</p>
+<p>X86? Intel ME jest wszędzie, AMD też poniekąd ma chrapkę na podobne rozwiązania (a Apple też już zrobiło swoją rewolucję i wszystko trzyma w swoich rękach).</p>
+<p>Czy ktoś ostatnio ekscytował się jakimiś zmianami w przeglądarce Google albo czymś podobnym?</p>
+<p>No właśnie, te wszystkie technologie się wyczerpały, i poniekąd ciekawą tezę postawiono w wideo poniżej, gdzie twierdzi się, że właśnie z wymienionych powodów kolejną erą po erze PC i post PC będzie era okularów rzeczywistości rozszerzonej.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/l2l45rfD7CI" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Ktoś mógłby powiedzieć, że w ten schemat nie wpasowują się chociażby kryptowaluty – czy jednak nie zrobiono tutaj tricku polegającego wpierw na stworzeniu iluś piramid, przetestowaniu wszystkich opcji, a teraz na ich ucywilizowaniu w postaci cyfrowego Euro czy dolara? (które to oczywiście będą miały wszystkie „udogodnienia” jak możliwość ustawienia daty ważności albo określenia grupy towarów możliwych do zakupienia danymi środkami)</p>

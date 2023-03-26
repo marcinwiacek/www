@@ -1,0 +1,16 @@
+﻿Title: Czy premium to teraz obciach u Samsunga? (2023)
+Author:marcin
+When:9 Mar 2023
+Taxonomy:polski,polski blog,salon24.pl,GSM
+
+<p>Ostatnio przeczytałem czyjś komentarz po angielsku, że telefony budżetowe mają baterie 6000 mAh, te ze średniej półki 5000mAh, flagowce 4500 mAh, a te najdroższe nie powinny mieć baterii w ogóle.</p>
+<!--break-->
+<p>Chodziło tutaj o Samsunga i jego model M14 5G, a mnie coś zastanowiło. I tak tani model ma jacka 3,5 mm, dedykowany slot na kartę pamięci i niski współczynnik SAR w stronę głowy 0,48 W/kg (napiszę wyraźnie: podaje się go w W/kg). Jego wadą jest wysoki SAR w stronę ciała (aż 1,5 W/kg przy normie bodajże 2 W/kg), ekran LCD (ale za to z 400 ppi), brak wodoszczelności i bodajże e-SIM, i oczywiście Exynos, a o zdolnościach foto ciężko coś powiedzieć (ale pewnie są skromniejsze niż przy flagowcach).</p>
+<p>W swojej poprzedniej notce wspominałem o generalnej tendencji wzrostu współczynnika SAR w Samsungach (to jest zresztą trend, który widać nie tylko u tego producenta) – i tak modele S23, S23+ i S23 Ultra mogą „poszczycić się” wartościami do 0,96 W/kg (w stronę głowy) i do 1,45 W/kg (ciało), taki Fold 4 to już 1,3 W/kg / 1,51 W/kg, a Flip4 1,15 W/kg (głowa) / 1,20 W/kg.</p>
+<p>Teoretycznie mówimy o wartościach maksymalnych (telefon powinien korzystać z maksymalnej możliwej mocy) i teoretycznie generacja S22 czy S21 były gorsze, ale… S9 czy S7 też były o wiele lepsze (nie miały 5G, ale chyba nie dla wszystkich jest to problem).</p>
+<p>Moim zdaniem doszliśmy do ciekawej sytuacji, że producenci narzekają na niską sprzedaż, podwyższają ceny najdroższych produktów, a coraz więcej dają na półkach niższych. Wyrzucenie złącza jacka jest co najmniej dyskusyjne, brak karty pamięci być może można przeboleć, ale żeby nie zaprojektować anteny w sposób przemyślany i porządny?</p>
+<p>Mogę zrozumieć, że „inni” dają podobnie, ale czy po latach dopracowywania tych technologii wciąż musimy się męczyć z różnymi rzeczami?</p>
+<p>Proszę zauważyć, że kiedyś telefony w ogóle miały złącze do zewnętrznej anteny, i każdy mógł sobie wybrać, co i jak chce.</p>
+<p>Warto zauważyć jeszcze inną rzecz – operatorzy w Polsce będą wyłączać 3G, co poniekąd wymusza wymianę telefonu (2G zostało złamane dawno temu i jego używanie przypomina używanie Centertela, którego można było podsłuchiwać zwykłą radiostacją). Użytkownikom pozostają albo flagowce sprzed kilku lat (wolniejsze, z częściowo wypalonym ekranem czy zużytą baterią, i bez poprawek bezpieczeństwa) albo ciężki wybór między tanim i mającym to, co potrzebne, a drogim, wypasionym, ale wymagającym przejściówek lub innych wyrzeczeń.</p>
+<p>Czy naprawdę również w komórkach dożyliśmy czasów jak z nieśmiertelnym 1,9 TDI? I będziemy reanimować trupy, a podziwiać cacka i cacuszka? Czy świat tak się zmienił, że każdy ma wszystko głęboko gdzieś?</p>
+<p>PS. Eski wydają się mieć baterię litowo-jonową, a M14 baterię litowo-polimerową (a więc lepszą).</p>

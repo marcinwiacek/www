@@ -1,0 +1,51 @@
+﻿Title: Dzielimy się fantastyką (12.2022) (2022)
+Author:marcin
+When:8 Dec 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>W lipcu zeszłego roku udostępniłem <a href="https://www.salon24.pl/u/techracja/1148823,dzielimy-sie-fantastyka" target="_blank">notkę „Dzielimy się fantastyką”</a> o darmowych tekstach w języku polskim, obecnie czas na pewne uaktualnienia (szczególnie, że w ostatnich dniach pojawiły się aż trzy ebooki)</p>
+<!--break-->
+<p><a href="https://allegro.pl/legendy" target="_blank" rel="nofollow noopener">Allegro.pl/legendy</a><br />
+Zarzucony projekt Allegro – doskonałe filmiki i 2 ebooki.</p>
+<p><a href="https://www.fantastyka.pl/" target="_blank" rel="nofollow noopener">Fantastyka.pl</a><br />
+Serwis o wyglądzie trącącym myszką, w którym w najlepsze hula przestarzały PHP 5.x. Skansen z 2014 roku (ze starymi błędami i bez żadnych nowych funkcjonalności), za to z ciągle nowymi opowiadaniami (<a href="https://www.fantastyka.pl/opowiadania/wszystkie" target="_blank" rel="nofollow noopener">w dziale „Poczekalnia” jakość bywa różna</a>, <a href="https://www.fantastyka.pl/opowiadania/biblioteka/w/w/w/0/d" target="_blank" rel="nofollow noopener">w dziale „Biblioteka” mamy teoretycznie do czynienia z najlepszymi z najlepszych</a>, <a href="https://www.fantastyka.pl/opowiadania/piorka/w/w/w/0/d" target="_blank" rel="nofollow noopener">a w dziale "Piórka" z najlepszymi z najlepszych z najlepszych</a>).</p>
+<p>Moim bardzo skromnym zdaniem czasem widać tutaj mocny wpływ określonych osób czy trendów (treści nie zawsze są całkiem różnorodne, jak to w fantastyce być powinno), ale ogólnie jest naprawdę dobrze.</p>
+<p>Chcemy mieć dziesiątki tysięcy tekstów do czytania?</p>
+<p>Możliwe jest przygotowanie plików EPUB praktycznie ze wszystkich dostępnych tam publikacji – <a href="https://github.com/marcinwiacek/fantastyka" target="_blank" rel="nofollow noopener">dawno temu zrobiłem do tego odpowiednie skrypty (jedna wersja w PHP, druga niezależna w JavaScript)</a>, <a href="https://github.com/marcinwiacek/PoczytajMiTato" target="_blank" rel="nofollow noopener">udostępniam również darmową aplikację na Androida do czytania i konwersji (z kodem źródłowym).</a></p>
+<p>A do tego dochodzą jeszcze oficjalne <a href="https://www.fantastyka.pl/antologia" target="_blank" rel="nofollow noopener">antologie „Fantastyczne pióra 2018” i „Fantastyczne pióra 2019”, „Fantastyczne pióra 2020” i „Fantastyczne pióra 2021”</a>.</p>
+<p><a href="https://fantastykapolska.pl" target="_blank" rel="nofollow noopener">Fantastykapolska.pl</a><br />
+Porzucony projekt Roberta Szmidta.</p>
+<p><a href="https://github.com/marcinwiacek/fantastyka" target="_blank" rel="nofollow noopener">Dawno temu przygotowałem skrypt w PHP, który pozwala na stworzenie z dostępnych tam publikacji plików EPUB.</a></p>
+<p><a href="https://fantazmaty.pl/" target="_blank" rel="nofollow noopener">Fantazmaty.pl</a><br />
+Serwis udostępniający już 14 zbiorów opowiadań, wszystkie za darmo.</p>
+<p><a href="https://www.historiavita.pl/" target="_blank" rel="nofollow noopener">Historiavita.pl</a><br />
+Do pobrania „Ostatni dzień pary” i „Ostatni dzień pary II” - linki trochę ukryte na głównej, ale są.</p>
+<p><a href="https://www.legimi.pl/" target="_blank" rel="nofollow noopener">Legimi.pl</a><br />
+Nie jest to serwis darmowy (np. możliwość nieograniczonego czytania książek w trakcie trwania wykupionego abonamentu to koszt 39,99 PLN), ale… pozwala zapoznać się m.in. z twórczością takich autorów jak Machanienko, Lem, Przemysław Piotrowski (nie wszystko), Glukhovsky, Szmidt, Orson Scott Card („Gra Endera” i inne), Liu Cixin czy Corey (seria „Expanse”). Nie zawsze można się zgadzać z doborem autorem (np. w abonamencie brakuje Asimova), ale biorąc pod uwagę fantastyczną i niefantastyczną część (np. obecność Mroza, Kinga, itp.) - warto poczytać sobie przynajmniej przez kilka miesięcy albo skorzystać z darmowych promocji pozwalających na korzystanie przez 7 lub 30 dni.</p>
+<p><a href="https://www.krancowo-postapokaliptycznaopowiescinternetowa.com/" target="_blank" rel="nofollow noopener">www.krancowo-postapokaliptycznapowiescinternetowa.pl</a><br />
+Dziwny adres www, ale trzy bardzo zacne książki – w ostatniej zdarzają się literówki i jeden czy dwa błędy ortograficzne (widać pośpiech), ale ogólnie bardzo dobra i nietypowa historia, i doskonałe pióro autora.</p>
+<p><a href="https://metro2033.pl/" target="_blank" rel="nofollow noopener">Metro2033.pl</a><br />
+Kiedyś prężnie działająca strona, obecnie jej cień. Wspominam o niej, gdyż kiedyś w jej ramach udostępniano za darmo 4 zbiorki opowiadań (obecnie dostępne są za darmo w różnych księgarniach) - „W blasku ognia”, „Szepty zgładzonych”, „Echo zgasłego światach” i „W ruinie” (jak również opowiadanie „Koniec drogi” Glukhovskiego).</p>
+<p>Olbrzym.com.pl</p>
+<p>Adres obecnie nie odpowiada - nie wiem, czy to chwilowe, czy autor nie opłacił serwera czy zrezygnował (<a href="https://www.fantastyka.pl/profil/171269" target="_blank" rel="nofollow noopener">profilu na fantastyka.pl nie wykasował</a>).</p>
+<p>Wcześniej był tu „Olbrzym” autora ukrywającego się pod pseudonimem Bruno Siak. Moim zdaniem dobra, profesjonalna lektura...a do tego mnie się bardzo spodobało wyjaśnienie autora (dlaczego udostępnia tekst za darmo) rozpoczynające od słów "Nie mam złudzeń. Z pisarstwa nie da się żyć, chyba że dostanę Nobla albo zostanę drugim Sapkowskim. ".</p>
+<p><a href="https://www.opowi.pl/" target="_blank" rel="nofollow noopener">Opowi.pl</a><br />
+Teksty autorów o bardzo różnej jakości – zdarzają się gnioty, ale i perełki. Problemem i siłą strony jest prymitywizm.</p>
+<p><a href="https://github.com/marcinwiacek/PoczytajMiTato" target="_blank" rel="nofollow noopener">Można czytać i konwertować do EPUB w mojej darmowej apce na Android.</a></p>
+<p><a href="https://polona.pl/" target="_blank" rel="nofollow noopener">Polona.pl</a><br />
+np. Lem.</p>
+<p><a href="https://www.radosczpisania.pl/" target="_blank" rel="nofollow noopener">Radosczpisania.pl</a><br />
+E-zin</p>
+<p><a href="http://www.rw2010.pl/go.live.php" target="_blank" rel="nofollow noopener">Rw2010.pl</a><br />
+Udostępnili np. pozycję "Rok 2012 antologia" - dostępna w wielu księgarniach.</p>
+<p><a href="https://silmaris.pl/" target="_blank" rel="nofollow noopener">Silmaris.pl</a><br />
+16 darmowych numerów.</p>
+<p><a href="https://www.sekcjalogrus.slask.pl/" target="_blank" rel="nofollow noopener">Sekcjalogrus.slask.pl</a><br />
+„Zabawa w Boga" i inne.</p>
+<p><a href="https://wolnelektury.pl/" target="_blank" rel="nofollow noopener">Wolnelektury.pl</a><br />
+Klasyka, czyli np. Verne czy Żuławski.</p>
+<p><a href="https://zajdel.art.pl/" target="_blank" rel="nofollow noopener">Zajdel.art.pl</a><br />
+W każdym roku publikują w formie ebooka teksty nominowane... ale usuwają je pod koniec roku.</p>
+<p><a href="https://www.zapomnianesny.pl/projekt/" target="_blank" rel="nofollow noopener">Zapomnianesny.pl</a><br />
+Cztery darmowe książki.</p>
+<p><b>Pytanie za 100 punktów - o czym zapomniałem?</b></p>

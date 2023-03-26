@@ -1,0 +1,23 @@
+﻿Title: Czy nowe telefony Samsunga są bardziej szkodliwe dla użytkowników? (2023)
+Author:marcin
+When:6 Mar 2023
+Taxonomy:polski,polski blog,salon24.pl,GSM
+
+<p>Wszyscy chyba kojarzą etykietki z produktów spożywczych mówiące, jak bardzo jedna porcja zaspokaja nasze potrzeby w ciągu jednego dnia. Z jednej strony, jeśli spojrzymy z tej perspektywy na napoje gazowane, to nie są takie straszne, z drugiej skądś jednak bierze się epidemia otyłości.</p>
+<!--break-->
+<p>Ktoś mógłby powiedzieć, że jest to wina wielu czynników i samych konsumentów, i jest to oczywista oczywistość, z drugiej strony czy nie mamy tu do czynienia z sumowaniem się samych w sobie nieszkodliwych ilości, co razem mocno wpływa na nas samych?</p>
+<p>Trochę podobna sytuacja może panować w obszarze urządzeń mobilnych.</p>
+<p>Na rynku pojawiła się nowa generacja „galaktyk” Samsunga – modele S23, S23+ i S23 Ultra.</p>
+<p>Różne portale (podobno branżowe) prześcigają się w cytowaniu specyfikacji i tworzeniu recenzji typu „jest Snapdragon i jest dobrze” (bodajże tylko Speidersweb zauważył, że tak naprawdę nie ma za bardzo o czym pisać). Wszyscy się zachwycają, natomiast za dużo nie mówi się o różnych niuansach - i tak o tym, że zdjęcia z kamery 200 megapikseli (S23 Ultra) potrafią się procesować dłuższy, wspomniała tylko jedna strona.</p>
+<p>W tym całym tworzeniu „technicznych” opinii zupełnie pominięto jedną rzecz – nowe „galaktyki” w trakcie testów certyfikacyjnych osiągnęły znacznie wyższe wartości najwyższego promieniowania w stronę głowy niż modele sprzed kilku lat.</p>
+<p>I tak S7 Duos przy normach europejskich miał 0,41W/kg (głowa) / 0,62W/kg (ciało), S9 odpowiednio 0,36W/kg (głowa) / 1,18W/kg (ciało), a tegoroczna generacja odpowiednio 0,96W/kg / 1,30W/kg (S23), 0,77W/kg / 1,45W/kg (S23+) i 0,96W/kg / 1,40W/kg (S23 Ultra).</p>
+<p>Nie chciałbym tutaj szerzyć teorii spiskowych, ale jeśli spojrzymy na modele tego producenta w szerszym spojrzeniu, to trend generalnie jest wzrostowy.</p>
+<p>Czy jest to wina tego, że 5G jednak jest bardziej szkodliwe? Czy chodzi o „modny” design, inne materiały, itp.? A może producent nie ma już tak zdolnych inżynierów albo po prostu nie dba o ten temat?</p>
+<p>Myślę, że odpowiedź na każde z tych może w jakiejś mierze być prawdziwa. <a href="https://www.telepolis.pl/wiadomosci/wydarzenia/komputer-skaner-biuro-problem" target="_blank" rel="nofollow noopener">Ostatnio przeczytałem sobie artykuł o tym (nie w odniesieniu do Samsunga), że młodzi ludzie w ogóle przeżywają totalny analfabetyzm techniczny i nie potrafią nawet… włączyć monitora.</a></p>
+<p>Czy należy się bać?</p>
+<p>Teoretycznie wszystko jest w normie, z drugiej strony coraz częściej siedzimy godzinami z komórkami.</p>
+<p>Myślę, że wystarczyłoby w dokumentach dać jedną prostą tabelkę, w której podane byłoby, jak duże wartości wartości zmierzono dla 2G, 3G, 4G czy 5G (ewentualnie dla ich kombinacji i np. włączonego hotspota WiFi). Obecne wartości niewiele mówią i są po prostu mylące.</p>
+<p>Kolejną rzeczą, którą można by tu zmienić, byłaby dostępność menu z tymi wartościami i możliwością włączania / wyłączania poszczególnych pasm (obecnie być może to ostatnie dostępne przez kody serwisowe).</p>
+<p>Inną opcją byłoby dodanie maksymalnej transmitowanej mocy, którą użytkownik mógłby sobie sam ustawić.</p>
+<p>Tylko, czy kogoś to obchodzi? I czy jednak nie mają trochę racji ludzie mówiący, że obecne gotowanie żaby trwa w najlepsze?</p>
+<p>PS. <a href="https://www.notebookcheck.net/Galaxy-S23-S23-and-Galaxy-S23-Ultra-Modern-Bluetooth-codecs-are-still-left-out-by-Samsung.699131.0.html" target="_blank" rel="nofollow noopener">notebookcheck.net ostatnio dodał artykuł, że nowe galaktyki nie mają pewnych kodeków z 2016 pozwalających na transmisję z niską mocą dźwięku przez Bluetooth, a przez zapewne dodają też kamyczek do wydzielanego promieniowania.</a></p>

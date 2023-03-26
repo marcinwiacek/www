@@ -1,0 +1,38 @@
+﻿Title: Czy ktokolwiek chce, żeby x86 było bardziej oszczędne? (2022)
+Author:marcin
+When:14 Dec 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Dzisiaj obejrzałem sobie wideo, na którym pokazano, że rewolucja układów M Apple nie udała się w 100%.</p>
+<!--break-->
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/wH2xxVx601Y" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Swego czasu oglądałem Macbooka Air M1. Wskazywałem na błyszczący ekran, dławienie przy 8GB RAM, niezły czas pracy przy normalnych zadaniach (bez potrzeby limitowania wydajności), bardzo niskie zużycie energii w trybie idle i standby, pełną ciszę i niestety niewymienność pamięci dyskowej i archaiczne rozwiązania macOS (chociażby paskudne skalowanie elementów interfejsu).</p>
+<p>Przeciwwagą dla niego w pewnych zastosowaniach jest dla mnie Clevo L140MU – ma matowy ekran, w trybie idle pozwala na pracę do 2x dłużej (ale tylko przy określonych scenariuszach), potrafi być bezgłośny, ma lepszą bazę softwarową, wymienny dysk i kilka innych ogromnych zalet.</p>
+<p>X86 nie jest idealny, ale wciąż potrafi być lepszy od układów Apple. Z każdym rokiem słyszymy o coraz większej energooszczędności, kolejnych rekordach miniaturyzacji, wydajności i nowych architekturach. Z jednej strony cały czas słyszymy o problemach z uaktualnieniami Windows, z drugiej strony można przygotować sobie bezawaryjne środowisko pracy.</p>
+<p>Czy jednak o czymś nie zapomniano?</p>
+<p>Przeglądałem sobie ostatnio trochę specyfikacje.</p>
+<p>I tak w przypadku USB postawiony jest nacisk na to, żeby urządzenia kontrolowały cały czas zużycie energii (brakuje mi jednak jasnej informacji, czy możliwe jest zmniejszenie jej do prawdziwego zera w hubie, gdy nie ma tam podłączonych żadnych urządzeń).</p>
+<p>Przy DRAM jest coś takiego jak możliwość fizycznego wyłączania kości (gdy są nieużywane), wymaga to jednak wsparcia ze strony kontrolera. I tak odpowiednią opcję widzę na przykład w używanej płycie z Ryzenem, ale zbyt dużo na ten temat nie ma przy Intelach (w różnych miejscach znalazłem za to jasne wskazanie, że te układy tego nie mają).</p>
+<p>Dyski NVME? APST pozwala, żeby kontroler dysk sam zmniejszał zużycie energii w praktyce prawie do zera… ale w popularnych systemach operacyjnych brak jest np. możliwości ustawienia, żeby nieważne dane były zapisywane np. co pięć minut (a nie częściej), a w pozostałym czasie dysk był całkowicie wyłączony.</p>
+<p>Kompatybilność wsteczna (czasem źle rozumiana) powoduje, że w krzemie mamy nawet obsługę najstarszych nieużywanych standardów. Jeżeli do tego dodać niejasną implementację urządzeń peryferyjnych (czy klawiatura pobiera energię cały czas, bo chodzi tam jakiś kontroler odpytujący o stan klawiszy, czy tylko, gdy coś naciskamy? Czy touchpad wysyła tylko gotową informację o geście czy całość jest przetwarzana po stronie sterownika, co wymaga wzbudzenia cpu?), obecność rozwiązań typu Intel ME (dodatkowy ARM cały czas działający w tle), obecność chipsetów nawet na małych płytach miniITX (w sytuacji, gdy wystarczyłyby tylko funkcjonalności i kontrolery z CPU) i pewien problem z komputerami ogólnego zastosowania (zdarza się, że oprogramowanie nie może powiedzieć sprzętowi „oczekuję na takie i tak zdarzenie, w pozostałym czasie możesz wszystko wyłączyć”), to widać, że tu niekoniecznie da się zrobić coś więcej.</p>
+<p>To jednak nie wszystko. <a href="https://www.chip.pl/2022/12/przetestowano-core-i5-13400" target="_blank" rel="nofollow noopener">I tak wspomniane doskonalsze procesy technologiczne są "przejadane" na to, żeby elementy były szybsze, ale przez to zużywają tyle samo lub więcej energii</a>.</p>
+<p>Producenci starają się zdążyć przed konkurencją i niekoniecznie wypuszczają produkty dopracowane. Widzę to na przykładzie pewnego systemu z Ryzenem 3000, który nawet po trzech latach dostaje poprawki (w końcu daje się zauważyć poprawne napięcia Vcore i kilka innych rzeczy).</p>
+<p>W wielu wypadkach oszczędza się na serwisie i daje użytkownikom wyłącznie podstawową funkcjonalność – stąd tak popularne blokowanie BIOS i ustawianie różnych funkcji na wartościach „optymalnych”.</p>
+<p>Wchodzimy tutaj w to, że korporacje celowo i świadomie nie chcą stworzyć sprzętu dobrego. Weźmy na przykład tryb standby, w którym powinna działać wyłącznie pamięć DRAM.<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/OHKKcd3sx2c" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Ktoś w Microsoft wymyślił sobie, że trzeba wtedy wykonywać różne czynności, co gorsza, w wielu nowych laptopach „stary” tryb standby może nie działać albo trzeba go wymusić przez odpięcie ładowarki.</p>
+<p>To i inne decyzje (Intel ME?) powoduje, że M1 w tym obszarze stało się niedoścignionym wzorem (ciekawe, że M2 pogorszyło się mocno).</p>
+<p>Inną patologią jest podział na segment „mobile” i „desktop”. I tak typowy laptop potrafi zejść w trybie idle do 5-10W. A składak? Nawet 40-60W. Próbowałem np. w Ryzenie z serii 3000 wyłączyć jeden chiplet, ale to nie pomaga. Wygląda na to, że nawet jeśli technologie są, to nie są włączane albo właściwie implementowane (mój sztandarowy przykład – tryb C9 i C10 w Clevo L140MU).</p>
+<p>Pewne rzeczy nie są rozwiązywane, bo nikomu się to nie opłaca.</p>
+<p>Czy w związku z tym nie należy w ogóle zmieniać sprzętu?</p>
+<p>Oczywiście, że nie, przy czym zasada jest dosyć prosta – całość powinna być mniej więcej z tego samego okresu, a gdy jest używana rzadziej, czasem można użyć starszych gratów, jeśli je oczywiście już mamy (ja np. nie bawię się w wymiany dysków, dopóki nowe nie dają istotnych różnic).</p>
+<p>PS. Nie zapominajmy, że w wielu wypadkach sprzęt jest tworzony pod typowego Joe, który krzyczy „America is great again” i jedzie ogromnym truckiem na zakupy do Wallmartu, a na lunch do fast-foodu. Producenci narzekają na coraz niższą sprzedaż, ale może zaczną poprawiać chociaż niektóre drobiazgi? I tak np. ktoś ostatnio zrobił rozbiórkę jednego z „lepszych” modeli HP i pokazał, że ten w sumie jest naprawialny.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/m8lsUvil_S8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Musi być gorzej, żeby było lepiej?</p>

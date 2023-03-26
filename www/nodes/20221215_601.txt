@@ -1,0 +1,21 @@
+﻿Title: I znowu piękne wtopy na rynku PC… (2022)
+Author:marcin
+When:15 Dec 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p><a href="https://www.notebookcheck.net/AMD-s-flagship-RX-7900-XTX-GPUs-discovered-to-integrate-A0-silicon-revision-affected-by-serious-hardware-issues.674766.0.html" target="_blank" rel="nofollow noopener">Dzisiaj przeczytałem o tym, że AMD celową może sprzedawać wczesną wadliwą wersję układów RX 7900 XTX</a>. Oczywiście nie należy wierzyć we wszystko, co się przeczyta w internecie, ale z drugiej strony recenzje nowych kart tej firmy nie zachwycają.</p>
+<!--break-->
+<p>Błędy to ludzka rzecz i się zdarzają, ale… w tym roku widzieliśmy już chociażby problemy z serią 4090 Nvidii (można się przerzucać formalnymi argumentami, ale sprawa zaprojektowania i wykonania gniazda i wtyczek zasilania jest jednak dyskusyjna) czy za grube odpromienniki ciepła w Ryzenach serii 7000.</p>
+<p>Co tu się dzieje? Dlaczego kolejne z droższych lub najdroższych układów na rynku konsumenckim wydają się być niedopracowane? Czy doszliśmy już do takiej granicy miniaturyzacji układów na krzemie, że cała infrastruktura do produkowania kolejnych układów jest niewystarczająca? A może to jest wyłącznie polityczna gra na przeczekanie czasu aż układy 5 czy 3 nm będą produkowane masowo również w USA? (zauważmy, że dziwnym trafem również Samsung rezygnuje z Exynosów). Może w jakiś przedziwny magiczny sposób ktoś chce wymusić, żeby Tajwan stracił swoją pozycję? Albo doprowadzić do tego, żeby Intel / Nvidia straciły konkurencję?</p>
+<p>Nie chciałbym wybiegać aż w taką fikcję, faktem jednak pozostaje to, że na rynku konsumenckim nadal nie ma zbyt dużo laptopów czy mini PC z najnowszymi układami ADM (zupełnie jakby ktoś bardzo mocno racjonował), karty graficzne i CPU tej firmy budzą pewne kontrowersje, a jedyne układy numer jeden dotyczą rynku serwerowego</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/4TwfM3s2Wdw" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Poniekąd można tu zauważyć jedną ciekawą kwestię – za czasów COVID ludzie na potęgę obkupili się wszelkim możliwym sprzętem i szaleństwem byłoby twierdzić, że muszą go już zmieniać. Chiny w tym momencie stosują politykę „zero COVID” – może te „drobne” problemy z najnowszymi układami to element cichej wojny na linii Waszyngton-Pekin?</p>
+<p>A jeżeli o wtopach mówimy, to nie sposób nie wspomnieć o CD Projekt, który oczywiście „musiał” wypuścić starego-nowego Wieśka.<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Rx1EksahLos" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Sytuacja przypomina trochę Cyberpunka, który stał się w miarę dopracowany po iluś patchach (poniekąd jest to wciąż przykład zmarnowania zasobów – RedEngine potencjalnie mógłby być przecież rozwijany).</p>
+<p>Nowy Wiesiek nie ma filmików, <a href="https://ithardware.pl/artykuly/wiedzmin_3_dziki_gon_next_gen_na_pc-24866.html" target="_blank" rel="nofollow noopener">zdarzają się problemy z nowymi funkcjami. </a></p>
+<p>Czy deadline na święta koniecznie musiał być dotrzymany?</p>
+<p>PS. Troszeczkę gram w Cyberpunka 1.61 na Linuksie i poza jakimiś detalami (w jednej lokacji dwa przedmioty w powietrzu, rzadko, ale czasami jakaś postać przejdzie przez drugą) wygląda możliwie.</p>

@@ -1,0 +1,27 @@
+﻿Title: Korporacja jest dla ludzi czy ludzie dla korporacji? (2022)
+Author:marcin
+When:6 Nov 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>To trochę jak pytanie „Co jest pierwsze? Jajko czy kura?”, a do refleksji skłonił mnie tekst pod tytułem „Oto odpowiedź na pytanie, dlaczego Apple olewa Polskę”. Autor podaje tam przykłady niedziałających w Polsce usług (np. Siri debiutującej w 2011 roku, czyli 11 lat temu) i wypisuje konkluzję, że generalnie winni braku implementacji są użytkownicy, którzy w kraju nad Wisłą nie widzą w produktach amerykańskich zbyt dużo wartości dodanej.</p>
+<!--break-->
+<p>Zastanawiają tutaj dwie rzeczy:</p>
+<ol>
+<li>mentalność niewolnika i służalczość w stosunku do „American style of life”</li>
+<li>niedostosowanie cen do wartości nabywczej Polaka, które to oczywiście rosną również w wyniku działań rządzących (podwyższono nawet cenę słynnej ściereczki do wyświetlaczy i teraz zamiast 99PLN kosztuje 119PLN)</li>
+</ol>
+<p>Amerykanom nie można odmówić wpływu na cały świat, czy jednak obecnie nie widać pewnej mocnej stagnacji w tym co robią? Czy ich styl życia, czyli wiara w fast food, planowane postarzanie, big-pharmę, itp. nie stały się hamulcami rozwoju?<br />
+Korporacje są tworzone przez ludzi i powinny być dla ludzi. W ostatnich notatkach (które to nie zostały zauważone na salon24) wskazywałem, że dalsze poszukiwanie zysku tworzy patologie.</p>
+<p>Dodajmy kilka przykładów:</p>
+<ol>
+<li>Santander wprowadza w swojej bankowości śledzenie tzw. śladu węglowego, czyli z polskiego na naszego – przyzwyczaja się maluczkich, że są winni, bo żyją, a to, co robiły i robią wielkie firmy przez lata, nie jest ważne (włączając w to utrzymywanie wielkich farm serwerów, permanentne zatrucie wód deszczowych czy bezproduktywne spalanie wydobytego gazu w atmosferze)</li>
+<li>Credit Agrikole mówi, że najlepiej jest mieć u nich kartę, bo ta jest zrobiona z jakiegoś tam bio-plastiku - aż mi się przypomniały torby „ekologiczne”, których trzeba było używać więcej (ewentualnie torby z grubszego plastiku, które ze względu na wagę omijały podatek)</li>
+<li>Netflix zamiast produkować wartościowe produkcje wprowadza tańszy plan z reklamami, w którym nie ma części filmów (mówiąc krótko energia jest wykorzystywana na streaming coraz mniej wartościowych rzeczy, ale… przynajmniej równość i różnorodność jest)</li>
+<li>AMD tak bardzo chciało dzierżyć palmę pierwszeństwa, że podwyższyło taktowanie swoich procesorów, co z kolei wywołało zwiększenie zużycia energii (wymaga to poniekąd innych regulatorów napięcia i zużywa ileś tam metali do produkcji w sytuacji, gdy nowa platforma jest niekoniecznie o wiele lepsza niż poprzednia). Kwiatkiem jest tutaj zachowanie zgodności ze starymi chłodzeniami (do AM4), które wywołało znacznie wyższe temperatury CPU.</li>
+<li>NVidia i inne firmy tak stworzyło wtyczki i przejściówki w droższych kartach, że te ulegają spaleniu (śmieszne jest mówić, że nikt tego nie przewidział, i aż przypomina się historia Forda Pinto i Forda, który wolał płacić odszkodowania rodzinom spalonym ludzi niż przeprojektować odpowiednie elementy, albo historia bodajże DC9 czy DC10, w których otwierały się drzwi ładowni w locie)</li>
+<li>karty Intel ARC do uaktualniania firmware wymagają podejrzewanego o szpiegowanie Intela ME</li>
+</ol>
+<p>Ogólnie przez lata mieliśmy drapieżny kapitalizm hołdujący zasadzie planowanego postarzania (i masę śmieci w każdej dziedzinie życia), potem zarobek na różnorodności i równości, jak również pandemii (wisienką na torcie jest pierwsza „szczepionka” na COVID proponowana obecnie w USA za 130 USD za dawkę), a teraz mówimy o elektromobilności (podczas gdy jest chociażby technologia wodorowa) i unikaniu śladu węglowego (cokolwiek to nie znaczy). Firmy są tak skupione na swoich „rewolucjach”, że użytkownik po prostu cierpi (mam tu na myśli chociażby mrugające ekrany LCD i aż przypominają się drogie biznesowe laptopy HP, w których usunięto klawisz Ins, zastępując go słuchawką do Skype) albo umiera (Elon Musk i jego terminale nad Ukrainą). System jest tak skostniały, że nawet słuszne biznesowo decyzje (np. zwalnianie sporej części pracowników Twittera, czyli zapewne wszelkiej maści specjalistów od równości, różnorodności i moralności) spotykają się z ogromnym oporem.</p>
+<p>Można tu oczywiście mówić o tzw. szurach, ale gdzieś czytałem o raporcie jednej z fundacji, która koło 2011 wskazywała na możliwy scenariusz taki jak pandemia, niepokoje społeczne i nowy porządek, cokolwiek to nie znaczy.</p>
+<p>Brzmi znajomo?</p>
+<p>PS. Nie zapominajmy też o Hindusach – gdzie dwóch się bije (tzn. Chiny i USA), tam trzeci korzysta (a CEO w amerykańskich firmach o indyjskich korzeniach mamy już kilka)</p>

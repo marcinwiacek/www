@@ -1,0 +1,26 @@
+﻿Title: Kryzys? Jaki kryzys? (2022)
+Author:marcin
+When:21 Oct 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p><a href="https://twitter.com/WolnoscO/status/1581980752711143425" target="_blank" rel="nofollow noopener">Wpierw przypomnijmy sobie pewnego smutnego starszego pana, który mówi wprost, że pieniądze są przez rządzących wyciągane z portfeli</a> podatników (któż by się spodziewał?)</p>
+<p>Porównajmy sobie to z propagandą TVP, <a href="https://wiadomosci.tvp.pl/63769203/rzad-dal-pieniadze-polakom" target="_blank" rel="nofollow noopener">która twierdzi "Rząd dał pieniądze Polakom"</a>.</p>
+<p>W tym momencie widać tutaj jasno, że skoro znajdują się środki na wszelkiego rodzaju programy socjalne, to znaczy, że ludzie są bogaci (a skoro da się z nich ściągnąć, to chyba nie jest źle).</p>
+<p>Pójdźmy dalej - taki SpidersWeb zaczyna swój tekst od słów "Polacy płacą za nowe iPady o 30 proc. więcej" i choć dodaje, że "Ceny Apple'a pokazują marną kondycję złotego", to właściwie należy zasygnalizować trzy rzeczy:</p>
+<ol>
+<li>kto bogatemu zabroni? Skoro sprzęt się sprzedaje, to widocznie pieniądze są (a jak nie ma, to przecież NBP jest Polsce i zrobi co trzeba).</li>
+<li>w Polsce płaci się PLN i co kogo obchodzą jakieś dolary i inne wydumane rzeczy? Ten, kto tankuje za 50 PLN, zawsze płaci 50 PLN.</li>
+<li>jak coś idzie do góry, to i spada - tak zdaje się mówił pan Głapiński.</li>
+</ol>
+<p>Kolejny punkt tej układanki - po NVidii 4090 (która wciąga nawet 600W) przyszła kolej na trzynastą generację CPU Intela, która potrafi połknąć o wiele więcej niż Ryzeny (najdroższy model w obciążeniu bez OC w teście na PurePC nawet do 100W, w wielu innych recenzjach podobnie). Sprzęt przy przechodzeniu na coraz mniejsze wymiary tranzystorów miał generalnie zużywać coraz mniej energii, tymczasem wszyscy dokładają kolejne rdzenie i często stosują fabryczny overclocking. Hitem stają się też poradniki, jak szlifować czy zdejmować czapki z Ryzenem (traci się gwarancję, ale po co ona komu?)</p>
+<p>Kryzys? Jaki kryzys?</p>
+<p>Ludzie komentują (i to bardzo dużo) i piszą, jak to będą się modernizować (nie tylko w zakresie sprzętu IT, ale również jeśli chodzi o piece i inne zabawki). Starocie pójdą na Ukrainę, kupi się wszystko nowe i będzie dobrze (notka jest napisana w pewnym tonie, niemniej jednak przepraszam za dodatkowy cynizm, który wynika wyłącznie z przyjętej konwencji i stylu)... żeby było ciekawiej, w wielu miejscach mówi się o jakiejś telewizji 4K czy 8K czy 5G.</p>
+<p>A do tego przecież dochodzą szybko przyspieszające samochody, które nie będą zbyt dużo jeździć, a więc i baterie nie będą się w nich tak niszczyć.</p>
+<p>I podatki, dzięki którym mniej pijemy cukru i wdychamy mniej szkodliwych wyziewów z rur wydechowaych.</p>
+<p>Żyć nie umierać.</p>
+<p>A właśnie, podobno w Krakowie ludzie z przyjemnością wkrótce wymienią nawet 40% aut (o ile to się nie zmieni, wynikać to będzie z założeń związanych ze strefą czystego transportu). A w Warszawie planuje się wiele miejsc z ograniczeniem 30km/h (podobno trwają konsultacje) - wszyscy i tak mają jeździć mercami z komunikacji albo metrem, więc po co poruszać się szybciej?</p>
+<p>Czy o czymś nie zapomniałem?</p>
+<p>A zapomniałem - <a href="https://forsal.pl/praca/artykuly/8567825,wojna-menedzerow-z-pracownikami-o-powrot-do-biur.html" target="_blank" rel="nofollow noopener">w trosce o podtrzymywanie więzi miedzyludzkich menedżerowie proszą o powrót do biur, sami nie mogą, bo się zaharowywują na śmierć.</a></p>
+<p>Do tego pojawił się Windows 22H2 i nowe Ubuntu 22.10 - na ostatnim notuję obecnie chwilowe zużycie o wiele częściej wyższe o ok. 0.2-0.4W (laptop pokazuje mi krótszy czas pracy na baterii, który częściowo wynika ze zużycia baterii, ale nie tylko).</p>
+<p>Dostaniemy chyba też wkrótce 800+ zamiast 500+.</p>
+<p>W sumie nudy.</p>

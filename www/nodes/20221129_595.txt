@@ -1,0 +1,37 @@
+﻿Title: Firmy w IT zwalniają, czyli jak wpierw sprawę schrzanić, a potem się dziwić (2022)
+Author:marcin
+When:29 Nov 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Na wideo poniżej jest mowa o Dellu Precisionie 7770, czyli maszynie za grube pieniądze (topowe konfiguracje w różnych krajach kosztują ponad 10000 Euro). Poruszone są tutaj takie kwestie jak za mała moc zasilacza, złe chłodzenie czy za wysokie napięcie podawane na procesor – rezultatem jest throttling nawet w przypadku poruszania myszą.</p>
+<!--break-->
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/68rCeK3l0Os" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Przykłady niedoróbek można oczywiście podawać przy produktach różnych firm. Widzieliśmy palące się auta (słynny problem ze zbiornikami w Fordzie Pinto), spadające samoloty i rakiety, wyższą emisję szkodliwych cząstek silników spalinowych w trakcie jazdy niż przy certyfikacji (według Wikipedii diesle VW wypuszczały nawet 40x więcej tlenków azotu), skandale z zatrutą żywnością i inne.</p>
+<p>Ludzie ginęli albo byli skazywani na więzienie, bo komputer nie może się mylić:</p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Av3QP940L2c" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>W przypadku elektroniki mieliśmy do czynienia z masową sprzedażą w czasie „pandemii”, obecnie zaś tu i tam widać narzekania na brak wzrostu (poziomy sprzedaży spadły do tych sprzed kilku lat i najczęściej absolutnie nie ma powodu do niepokoju, jednak w Excelu wygląda to gorzej i dochodzi do tego, że zwalnia się ludzi, którzy za chwilę będą znów potrzebni)</p>
+<p>Swego czasu pisałem, że bardzo dużo różnych technologii jest rozwijanych tylko wtedy, gdy służą szpiegowaniu ludzi. Upłynęło kilka dni, i bang – <a href="https://www.notebookcheck.net/Electric-cars-to-become-the-biggest-data-collection-device-by-2030-when-self-driving-will-be-common-says-VW-CEO.670483.0.html" target="_blank" rel="nofollow noopener">„electric cars to become tha biggest data collection device by 2030 when self-driving will be so common, says VW CEO”</a></p>
+<p>Czy wiadomo już, dlaczego elektryki są tak mocno promowane?</p>
+<p>Jeśli to wszystko połączyć razem, to wychodzi na to, że łatwy zysk w IT chyba chwilowo się skończył. Nie jest to dziwne – sprzęt i oprogramowanie nie są już sztuką samą dla siebie (wielu z nas nie zmienia ich tylko dlatego, bo pojawił się nowy model), nowości nie dają zbyt wielkiej wartości dodanej, do tego wielu pośredników nie ma racji bytu.</p>
+<p>Przedstawię to na dwóch przykładach.</p>
+<p>I tak ostatnio bawię się grą Cyberpunk 2077 z gog.com (bez DRM!). Teoretycznie jest ona dostępna tylko dla Windows, ale… ja Windows używać nie chcę z różnych względów, a najważniejszy to dostępność całkiem darmowej alternatywy. I właśnie dlatego pobrałem sobie tę grę pod Ubuntu (przez aplikację minigalaxy), a potem skorzystałem ze Steam:</p>
+<p><ol><li>w menu „Steam / Settings / Steam Play” włączyłem „Enable Steam Play for all other titles”
+<li>wszedłem w opcję „Games / Add a Non-Steam Game to My Library”
+<li>wybrałem plik exe gry
+<li>w menu Properties gry w zakładce Compatibility zaznaczyłem „Force the use of a specific Steam Play Compatibility Tool” i wybrałem w miarę świeżą wersję Protona (to takie Wine na sterydach), a w Shortcut dodałem opcje „--into-skip –-launcher-skip -skipStartscreen”
+</ol></p>
+<p>Kilka klików i całość w trybie pojedynczego gracza działa wyśmienicie (gdybym był leniwy, to pewnie nie instalowałbym Steam, tylko wziął Protona bezpośrednio z GitHuba).</p>
+<p>Używam tu komputera stacjonarnego, który w trybie idle pobiera ok. 40W, a przy pełnym obciążeniu ok. 150W. Maszyna jest piekielnie szybka, cicha i nie ma sensu na razie jej ruszać (albo wydawać kilka tysięcy PLN dla kilku W mniej). Ubuntu jest wspierane do 2027, rozdzielczość grania to Full HD, detale są na medium i to w zupełności wystarcza (zawodowi gracze mnie pewnie wyśmieją, ale to nieważne).</p>
+<p>W poprzednim poście wspominałem o nowym mini PC HX90G, który na pokładzie ma Ryzena 9 5900HX i Radeona RX6600M. W różnych miejscach można spotkać informację, że to cudo w trybie obciążenia pobiera do 262W (w idle ok. 20W, przy wyłączeniu zewnętrznej karty nie powinno to być więcej niż ok. 10W).</p>
+<p>Gdyby sprzęt z generacji na generację był tak różny jak bywało to kiedyś, wtedy oczywiście obecną całość wyrzuciłbym do kosza (odsprzedał)… a tak chyba lepiej poczekać, aż słupki sprzedaży na rynku PC jeszcze trochę spadną (jak to się stało z Ryzenami 7000) i firmy będą się bić, żeby użytkownicy chcieli cokolwiek kupić (gdyby ktoś mi zaproponował miniPC z wydajnością Ryzena 5950x za grosze, to dlaczego nie? Podobno mobilne Ryzeny 7045 mają mieć 16 rdzeni, a wtedy kto wie...).</p>
+<p>Kupując co chwila nowości i wybierając abonamenty często tylko wspieramy patologie (na przykład Intel proponuje odblokowywanie funkcji w krzemie dla procesorów serwerowych i to nie jest żart, w chmurach mamy blokowanie różnych plików dla naszego dobra, niewielkie prowizje są niewielkie tylko na początek, itd., itd.) - najczęściej nie ma to nic wspólnego z ekologią, i <a href="https://magazynauto.pl/wiadomosci/nie-kupuj-nowych-aut-utrzymuj-przy-zyciu-stare-sugeruje-szefowa-bmw,aid,2634" target="_blank" rel="nofollow noopener">o tym doskonale mówi szefowa BMW, która sugeruje jeżdżenie używanymi samochodami</a>.</p>
+<p>Potrzeba więcej zmian – może wtedy dostaniemy więcej rozwiązań jak poniżej („mobilny” chipset wrzucony do „normalnej” karty graficznej ma naprawdę wiele zalet):<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Cwn963tsZVw" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Pamiętajmy też, że już się mówi o wyższym koszcie elektroniki na 3nm i niżej (winne mają być znacząco zwiększone ceny wafli krzemowych) – jeżeli ludzie będą chcieli kupować wszystko jak leci, koszt zostanie przerzucony na konsumentów.</p>
+<p>A na koniec małe podsumowanie, jak szybko mogą ulegać degeneracji obecne układy – są tu pokazane Ryzeny, jednakże wraz ze wzrostem miniaturyzacji problem dotyczy właściwie wszystkiego (z drugiej strony ciekawe jest, że generalnie zaleca się, żeby pamięci SSD nie były jednak zbyt chłodne):<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/ZAww0c2m-ks" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>

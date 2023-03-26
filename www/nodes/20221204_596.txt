@@ -1,0 +1,31 @@
+﻿Title: Świat komputerowej ułudy (2022)
+Author:marcin
+When:4 Dec 2022
+Taxonomy:polski,polski blog,salon24.pl
+
+<p><a href="https://www.purepc.pl/nvidia-geforce-rtx-4090-jak-karta-graficzna-radzi-sobie-z-nizszym-power-limitem-i-undervoltingiem-zaskakujaco-dobrze" target="_blank" rel="nofollow noopener">Ostatnio sobie przeczytałem nowe informacje o karcie graficznej RTX 4090 Founders Edition. Wynika z nich, że obniżenie zużywanej mocy o 40% skutkuje spadkiem wydajności o 6% (zyskujemy prawie 80W), a obniżenie napięcia o 15% (z 1000 mV do 850 mV) obniża wydajność o prawie 8%, ale daje zmniejszenie zużywanej mocy o 115W.</a></p>
+<!--break-->
+<p>Zamyśliłem się głęboko.</p>
+<p>Firmy żyłują sobie produkty do granic niemożliwości (minimalne wzrosty wydajności wymagają ogromnego wzrostu zużywanej mocy), a najbardziej cierpi na tym oczywiście środowisko. Dodajmy do tego mimo wszystko wątpliwe projekty wtyczek (RTX 4090) i przerzucanie odpowiedzialności na użytkowników, i robi się nieciekawie.</p>
+<p>Ludzie to wszystko kupują i się jeszcze cieszą. I tak w przypadku topowych Ryzenów 7000 podwyższono TDP, obniżono trochę wyjściową cenę i interes się kręci… tymczasem, gdyby czapka procesora była w porządku, wielu problemów by nie było. AMD zaproponuje teraz wersje bez X z fabrycznie zdławioną wydajnością i poziom euforii pewnie wyskoczy w kosmos.</p>
+<p>Zapomniano o jednej podstawowej rzeczy – modele niższe często mają gorszą jakość i potrafią wykazywać się degradacją (wątpię, żeby inaczej było w przyszłości):</p>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/ZAww0c2m-ks" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>W tej sytuacji często lepiej wziąć „droższego” Ryzena i samemu zmienić mu limity (tak, jest to możliwe)… tymczasem często nie jest on potem o wiele lepszy niż modele z serii 5000.</p>
+<p><a href="https://www.purepc.pl/intel-raptor-lake-charakterystyka-procesorow" target="_blank" rel="nofollow noopener">Weźmy kolejny przykład, czyli Intela 13-generacji. Premiera musiała być, tymczasem dziwnym trafem nie mówi się o braku zapowiadanej technologii DLVR (dodatkowy regulator napięcia).</a></p>
+<p>I tak dochodzimy do jednej smutnej kwestii – częste premiery powodują, że wiele rzeczy odkładanych jest na potem (a „wyścig” wymusza reklamowanie małych zmian jako ogromnych nowości), zaś firmy produkują również starsze układy (np. AMD nie kryje się z tym, że ciągle wprowadza na rynek rdzenie Zen 1 czy 2).</p>
+<p>Trochę przypomina to sytuację z Internetem – wszyscy udają, że walczą o jego wolność i niezależność, a limitowanie i cenzurowanie trwa w najlepsze (i to na całym świecie, włączając w to Polskę).</p>
+<p>Pójdźmy dalej – <a href="https://spidersweb.pl/2022/12/odnowiony-apple-macbook-mac-ceny-refurb.html" target="_blank" rel="nofollow noopener">taki SpidersWeb zauważył outleet Apple i nie mógł wyjść z zachwytu, że można kupić tańszy o 10% sprzęt</a>. Należałoby pominąć w tym momencie fakt dostępności komputerów czy tabletów w mniejszych cenach niż w oficjalnej dystrybucji, trzeba zauważyć, że te urządzenia mogą mieć na liczniku bardzo dużo zapisanych danych (Apple nic o tym nie pisze i w sumie ciekawe, że żaden z influencerów nigdy nie nabył czegoś takiego i nie sprawdził, czy mam rację czy nie).</p>
+<p>Czy jest to duży problem?</p>
+<p>I tak, i nie. Zwykły normalny użytkownik, który używa komputera do typowych zadań, zapewne nigdy nie zużyje pamięci SSD… ale ten, kto ciągle pracuje z dużymi projektami, może doprowadzić do tego, że taka używka wytrzyma góra rok czy dwa.</p>
+<p>Doszliśmy do tego, co jest standardem w przypadku nowych samochodów - są brane w leasing i nikogo nie interesuje, żeby przetrwały dziesięć czy dwadzieścia lat.</p>
+<p>Myślę, że spokojnie można powiedzieć, że technicznie mamy naprawdę duże możliwości, ale… brak przepisów wymuszających na firmach produkowanie sprzętu coraz bardziej efektywnego energetycznie i pozwalającego na wymianę pamięci dyskowej (jak również baterii) daje zielone światło na produkcję jednorazówek. Do tego dodajmy brak regulacji wymuszających sprzedaż sprzętu nie wpływającego na zdrowie użytkownika (chociażby mrugające ekrany) czy tak skonstruowanego, żeby reklamowana wydajność była dostępna przez kilka sekund, i dostajemy prawdziwy dziki zachód.</p>
+<p>Firmy mają środki na blokowanie legislacji, co widać w przypadku prawa do napraw, wymiennych baterii czy ładowarek. Dostajemy produkty, które czasem nawet nie mają żadnego wsparcia (skrajny przypadek w przypadku urządzeń z Androidem). Istnieją co prawda przepisy związane z telewizorami (dzięki nim w Unii być może z półek znikną telewizory 8K), ale ile osób jest obecnie nimi zainteresowanych?</p>
+<p>Żeby nie było wątpliwości – wiele zjawisk w obecnym świecie jest skutkiem tolerowania szkodliwych ideologii i braku reagowania na zło, które panoszyło szczególnie w 2020 i 2021 (wtedy miało lokalno-globalne apogeum). Ludzie zamiast mówić o patologiach pogrążają się w jałowych dyskusjach, czego skutkiem są takie rzeczy jak poniżej:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Fed5RzXyU20" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Przypomnijmy, że kraj uważany za najpotężniejszy na planecie, pozwolił już na takie rzeczy jak wejście dzikiego tłumu / tłuszczy na kapitol.</p>
+<p>I co dalej?</p>

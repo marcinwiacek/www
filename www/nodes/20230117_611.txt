@@ -1,0 +1,29 @@
+﻿Title: Nie ma nic wiecznego w IT (o Wykop, AMD i polityce słów kilka) (2023)
+Author:marcin
+When:17 Jan 2023
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>Oto pojawił się on, czyli nowy Wykop. Strona ładuje się o wiele dłużej (ewentualnie w przeglądarce widać pusty ekran), różne funkcjonalności nie działają, kolory są inne, itp. Można powiedzieć, że jest to kolejny z serwisów, w którym „stare” wymieniono na „nowoczesne”. Ciekawe, czy właściciel serwisu wykop zaryzykuje odpływ użytkowników (i będzie brnął dalej w swoją wizję) czy powróci do poprzedniej wersji.</p>
+<!--break-->
+<p>Przerabiałem w swoim życiu ileś takich rewolucji i choć młodzi fachowcy (którzy potrafili wyśpiewać listę różnego rodzaju frameworków, ułatwiaczy i przyspieszaczy) mieli trochę dobrych pomysłów, to całość ich pracy często prezentowała mierny poziom.</p>
+<p>Chciałbym w tym miejscu zauważyć, że czasami błędnie myślimy, że jeżeli coś w naszym otoczeniu czy internecie działa dobrze kilka lat, to będzie tak zawsze.</p>
+<p>Jest to kardynalny błąd.</p>
+<p>Weźmy chociażby dyski SSD. Urządzenia te osiągają duże prędkości na początku (bez zapisanych danych)… ale już po zapełnieniu części ich wydajność drastycznie spada. Tak samo dzieje się z większością elementów, gdy ich chłodzenie ma coraz mniejszą wydajność albo wtedy, gdy znajdowane są w nich luki.</p>
+<p><a href="https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1031" target="_blank" rel="nofollow noopener">Ta ostatnia sytuacja być może ma miejsce z procesorami AMD, w których opisano ostatnio 31 luk</a>. Firma zamierza udostępnić nowe wersje AGESA i temat można by zamknąć… ale doświadczenie mówi, że podobne poprawki w programowalnym układzie scalonym często wiążą się z pewną utratą wydajności. Nie chciałbym tu dywagować, jak będzie (należałoby przeprowadzić dokładne testy), ale ważne jest, że różne układy (np. nawet najnowsze mobilne Ryzeny serii 6000) weszły w kolejny etap swojego życia.</p>
+<p>Cykl życia produktu można tu zdefiniować następująco: projektowanie, wypuszczenie na rynek, testy zewnętrznych osób i firm (często i gęsto entuzjastyczne), poprawki (które potrafią zmniejszyć funkcjonalność albo wydajność), porzucenie przez producenta, porzucenie z powodu znudzenia się użytkownika lub degradacja z tytułu zużycia.</p>
+<p>Ten ostatni punkt został w całej okazałości pokazany na kanale:</p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/GNAihfrpO3c" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Układ po kilkunastu latach pracy wyzionął ducha. Prawda jest taka, że tak kończy wiele elementów i wynika to chociażby z dyfuzji elektronów (<a href="https://mwiacek.com/www/?q=node/454" target="_blank" rel="nofollow noopener">wspominałem o podobnych procesach w notce „Wszystko się zużywa?”</a>). Czyli mówiąc dosłownie – kupujemy sprzęt, a ten od pierwszej chwili przybliża się do swojego końca (im większa temperatura pracy, tym szybciej).</p>
+<p>A jak to się może mieć do sytuacji na świecie?</p>
+<p><a href="https://next.gazeta.pl/next/7,151003,29360604,tak-pruje-sie-globalizacja-biden-kupuje-amerykanskie-scholz.html" target="_blank" rel="nofollow noopener">Ostatnio przeczytałem artykuł w Gazecie Wyborczej m.in. o tym, jak Unia Europejska chciała pójść w „ekologię”, niestety jednak tani gaz z Rosji się skończył i gospodarki na starym kontynencie mają duży problem (eksport może być w każdym momencie zablokowany przez Amerykanów, którzy rozwijają „ekologiczne” tematy, nie potrzebując Europy, i prowadzą coraz większą ekspansję).</a></p>
+<p>Tyle przerywnika politycznego, wróćmy do IT.</p>
+<p>Wpierw nasze podwórko, czyli nieszczęsny Wykop. Można powiedzieć, że serwis przez ileś lat był jedną z bardziej znanych lokalnych stron.</p>
+<p>Czy to początek jego końca? Czy zostanie przejęty przez jakąś korporację i zobaczymy kolejny serwis „o wszystkim i o niczym” oparty na jakimś standardowym silniku?</p>
+<p>A AMD?</p>
+<p>Badacze coraz mocniej biorą się za układy firmy.</p>
+<p>Czy za chwilę zobaczymy podobny scenariusz jak w Intelu?</p>
+<p>Przypomnijmy: niebiescy przez kilka ładnych lat opierali się na architekturze Core, ta okazała się mocno dziurawa, a poprawki zmniejszały wydajność.</p>
+<p>Czy będziemy borykać się z wysypem przeróżnych luk w Ryzenach? I czy jako dbający o bezpieczeństwo będziemy „delikatnie” popchnięci do wymiany całego sprzętu? Tylko czy będzie nas wtedy stać? A może Ryzeny okazały się po prostu za dobre i stąd problemy z serią 7000 czy ostatnimi kartami graficznymi, a teraz opubliczniono te luki? Może to gra polityczna i "ktoś" chce podkopać pozycję firmy?</p>
+<p>Należy pamiętać o jednym – za kilka lat niebiescy będą mieli swoje fabryki w USA, być może nie będzie dostępu do Tajwanu czy Chin, i może się okazać, że nasze przywiązanie do nowych wyrobów wujka Sama będzie jeszcze większe.</p>
+<p>Pamiętajmy wtedy, że od niego przyszły dobre rzeczy, ale również np. Google (polecam tekst „<a href="https://www.purepc.pl/banka-informacyjna-algorytmy-google" target="_blank" rel="nofollow noopener">Algorytmy Google sprawiają, że społeczeństwa są coraz bardziej podzielone. Politycznie, religijnie, a ostatecznie także gospodarczo</a>”).</p>

@@ -1,0 +1,38 @@
+﻿Title: Wysyp nowości (2022)
+Author:marcin
+When:1 Oct 2022
+Taxonomy:polski,polski blog,salon24.pl,x86
+
+<p>Mamy wojnę, która nie dość, że niszczy życia ludzkie, to jeszcze wysysa pieniądze i stary sprzęt z rynku. Zapomnijmy chwilę o tym, że złoty polski ma coraz mniejszą wartość.</p>
+<!--break-->
+<p>Teoretycznie powinniśmy cieszyć, że urządzenia w IT są coraz wydajniejsze, dzisiaj dwa słowa na ten temat. I tak mamy całkiem udane konstrukcje z procesorami ARM M1 (jeśli wytrzymają w nich dyski, to w większości typowych zastosowań będą dobre na lata)... ale w M2 temperatury są znacznie wyższe. OK, być może Apple zdecydowało, że M1 jest zbyt dobre.</p>
+<p>Niedawno zobaczyliśmy premierę platformy Ryzen 7xxx. Pamięci DDR5, nowe chipsety, większa wydajność i ogólnie cud miód malina. Jeśli jednak porównywać to do cen serii 5xxx (a pojawiły się tam płyty główne z chipsetem B550!), to widać, że nowość to raczej pieśń przyszłości. Ludzie na razie piszą tu o dużych temperaturach, co jednak ciekawe, po zdjęciu radiatora te spadają aż o 20C</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/y_jaS_FZcjI" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Można pomyśleć, że cofnęliśmy się w tym momencie jakieś 20 czy 30 lat, gdy rdzenie były odsłonięte. Czy jest to jednak wpadka czy przemyślana strategia? Przecież w wielu portalach procesory te testowane są ze zmniejszonym TDP i wciąż dają lepsze wyniki od poprzedniej generacji.</p>
+<p>Przejdźmy do Intela - niektórzy ekscytują się wynikami jego kolejnych modeli, te jednak w dużej mierze wynikają też z podbijania limitów mocy (pamiętajmy, że seria 7xxx Ryzenów ma je powiększone, ale że to AMD, to wielu osób nie chce tego widzieć).</p>
+<p>Ogólnie na rynku pojawiło się i wiele używanych kart graficznych, a procesory mają zbyt dużą moc dla przeciętnego użytkownika. Doszliśmy do sytuacji, gdy temu ostatniego wystarcza co najwyżej półka średnia (nie, nie, o segmencie, do którego należy Threadripper, w ogóle nie wspominam) - co ciekawe pojawiają się takie konstrukcje jak poniżej:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/JfdtfP5MJ74" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/BxLE6ZWhhXA" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/3dFufJrHMzE" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>czy</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/KrjctL40F7o" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>(część z nich po zaaplikowaniu pasty może nawet przewyższać obecne Mac Mini).</p>
+<p>Gdy ktoś chciałby mieć tutaj zewnętrzną kartę graficzną, to EliteMini B550 ma taką możliwość.</p>
+<p>I co z tego wszystkiego wynika?</p>
+<p>Celerony i Pentiumy (czy to, co będziemy dostawać w najniższych konstrukcjach) z wyjątkiem jakichś zastosowań wbudowanych powinny odejść w niebyt - możliwe jest znalezienie gotowego wydajnego minikomputera (jakby się uprzeć, bo może dałoby się go podłączyć pod powerbank i mieć prawie laptopa). Cały hype wokół nowych modeli sprzętu odchodzi w niebyt - on jest i będzie (niezależnie od tego, co się będzie działo). Komputery straciły swoją magię, teraz jedynie trzeba szukać takich modeli, które nie będą budziły obrzydzenia np. głośnym chłodzeniem.</p>
+<p>A właśnie - standardy być może w końcu też się ruszą, np. <a href="https://www.notebookcheck.net/CAMM-memory-preview-The-Dell-SODIMM-revolution.658666.0.html" target="_blank" rel="nofollow noopener">Dell zaproponował pamięci CAMM zamiast SODIMM.</a></p>

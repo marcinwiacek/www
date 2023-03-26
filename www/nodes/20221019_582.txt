@@ -1,0 +1,94 @@
+﻿Title: Czy przyszłością jest darmowy computing? (m.in. o mini PC, desktopach, laptopach i walce) (2022)
+Author:marcin
+When:19 Oct 2022
+Taxonomy:polski,polski blog,salon24.pl,x86,Apple,AMD
+
+<p>Jesteśmy chwilę po prezentacji Apple, a tytuł celowo jest przewrotny. Pewne rzeczy (o których wielokrotnie pisałem) będę starał się tylko zasygnalizować, skupię się zaś na czymś zupełnie innym i spróbuję zwrócić uwagę na pewne trendy, które jednak widać.</p>
+<!--break-->
+<p>Przez lata korzystaliśmy z różnych rozwiązań – zanim się urodziłem, swoje konstrukcje budowali hobbiści (z czasem na tym fundamencie powstały ogromne korporacje), potem „w mainstream” standardem stało się x86 i ARM, komórki, tablety, itp. Dzisiaj korzystamy z WikiPedii, YouTube, Google, Gmaila, Office 365, itp. Możliwości są poniekąd nieograniczone, ale o ile w przypadku oprogramowania nie trzeba nic płacić (Open Source albo ewentualnie wszystko wliczone jest w cenę urządzeń), to sprzęt nadal swoje kosztuje.</p>
+<p>Wczoraj przeczytałem o tym, że AMD będzie zmniejszało produkcję Ryzenów, bo te zalegają w sklepach. Powody są oczywiste, i nie jest to bynajmniej tylko sztucznie nakręcany „kryzys”, a duża cena, takie sobie wzrosty wydajności i większe zużycie energii (o temperaturach nie wspomnę).</p>
+<p>Z innych ważnych nowości można wspomnieć serię RTX 4090 Nvidii, której wydajność mocno ociera się o półkę z najdroższymi układami do zastosowań profesjonalnych. Do tego dochodzą próby Intela, który podobno ma dodać nowe regulatory napięcia i inne cuda w trzynastej generacji procesorów (ale również rdzenie z generacji dwunastej).</p>
+<p>Z drugiej strony mamy Apple z procesorami ARM. Ktoś sobie zrobił test laptopów tej firmy i porównał je chociażby z Dellem.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Lf9sjtv3LYs" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/Q7RibmBWwHU" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Widać tu jasno, jak bardzo przez lata byliśmy (i jesteśmy) robieni w trąbkę. Jeżeli do tego dodamy „jakość” systemu Windows, wygląda na to, że w wielu wypadkach para idzie w gwizdek – krzemu jest dużo, mocy jeszcze więcej, a na różne rzeczy (np. otwarcie aplikacji) czekać w nieskończoność trzeba.</p>
+<p>A co w mobilkach? Samsung coraz większe zyski czerpie z półki niskiej i średniej (co poniekąd nie dziwi, bo Exynosy szczytem nie są), podobnie inni, a wyścig na cyferki jakby wyhamował, czego dowodem może być prędkość najnowszego Pixela.</p>
+<p>W każdej kategorii można znaleźć sobie coś dla siebie – od lekkich (ok. 1kg) laptopów z pasywnym chłodzeniem do używania przez cały dzień, przez szybkie telefony komórkowe, na zestawach dla pasjonatów (szesnaście albo więcej rdzeni) czy ogromnych potworach do płyt serwerowych skończywszy.</p>
+<p>Co i rusz jesteśmy bombardowani „nowymi” modelami, i nic tylko wymieniać i kupować (oczywiście w zalewie tandety trzeba przeczytać setki recenzji, itp. ale to poniekąd drobiazg).</p>
+<p>Coraz ciekawszą sprawą okazują się natomiast małe gotowe komputerki. Już jakiś czas zwracałem uwagę na recenzje Asusa PN52, Beelinka GTR5 (ten jest od Huwaei podejrzewanego o mocną współpracę z rządem chińskim), Nofflinka N600, Morefine S500+ czy Aerofara Tank 56 (mikroskopijny, ale ma na pokładzie Ryzena z ośmioma rdzeniami).</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/zdWEapT3y60" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Nie przekraczają one wielkości pudełka od ptasiego mleczka i z generacji na generację są coraz wydajniejsze (czy też będą z Ryzenami serii 6000 / kolejnymi Intelami, a jak komuś to nie wystarcza, nadal jest Mac Mini albo Mac Studio).</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/AYA83X9NwQQ" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Myślę, że takie małe urządzenia można spokojnie podzielić na kilka grup:</p>
+<ol>
+<li>o fantazyjnych kształtach (np. sticki)</li>
+<li>pudełka, w które wkłada się moduły NUC</li>
+<li>pudełka ze standardowymi komponentami (np. płytami ITX)</li>
+<li>pudełka, gdzie wszystko jest wlutowane i wbudowane (co najwyżej można dodać pamięć albo dysk)</li>
+</ol>
+<p>I teraz pytanie – czym takie konstrukcje chcą przyciągnąć użytkowników, skoro w wielu wypadkach oferują dokładnie to samo co przenośne odpowiedniki?</p>
+<p>Ceną? Nie musimy co prawda płacić za klawiaturę, ekran i baterię, ale… mamy równie wysokie wartości na fakturze (rynek nie jest nasycony, a producenci nie tworzą tego w ogromnych ilościach).</p>
+<p>Rozmiarem? Tylko nieliczne urządzenia są naprawdę małe.</p>
+<p>Możliwością rozbudowy? Może w pewnym sensie (karta Wifi, dysk, pamięć, może CPU)</p>
+<p>Dobrą kartą graficzną? Tu dopiero zaczynamy dochodzić do konkretów (wchodząca na rynek seria mobilnych Ryzenów 6000), ewentualnie jest taki komputerek EliteMini B550 od MinisForum, do którego można podłączyć zewnętrznie kartę graficzną (i chociaż wygląda to kuriozalnie, działa),</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/ctlmMR9urf8" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/ej0RoaUBMnw" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>ewentualnie można próbować użyć przejściówki M2 na PCI.</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/NNIoevOn5bk" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Może więc moc procesora jest duża? Pomińmy okazje z Celeronami, Pentium Gold czy Ryzen Embedded (które nadają się bardzo konkretnych zastosowań typu router, ale nie do sprzętu ogólnego użytku) – jeżeli weźmiemy porządnego Ryzena 9 czy Intela i7, to obecne tam rdzenie są całkiem przyzwoite, ale… ogólnie jest ich tylko tyle, co w laptopach.</p>
+<p>A może w końcu dostaniemy pełną ciszę?</p>
+<p>Jeżeli chodzi o wszelkiego rodzaju pudełka, to te bardziej wydajne praktycznie zawsze chłodzone są jakimś mikroskopijnym wentylatorkiem. Sytuacja wygląda podobnie jak w laptopach – dostajemy jeden, dwa czy trzy ciepłowody (czasem radiator ze śmigiełkiem jest przyklejony bezpośrednio), i o ile Mac Mini nie wydaje się być głośny, to inne urządzenia potrafią być mocno słyszalne.</p>
+<p>Wielu recenzentów wskazuje również na to, że już sama wymiana past fabrycznych (które serwowane są w mini PC i ogólnie nowym sprzęcie) daje bardzo dużo, jeśli chodzi o odprowadzanie ciepła. Sam mam dwa spostrzeżenia w tym temacie (w podobnym sprzęcie mobilnym):</p>
+<ol>
+<li>w nowym laptopie Clevo L140MU poprosiłem o zamianę pasty i w wielu wypadkach (pisanie tekstów) wentylator w ogóle się nie włącza</li>
+<li>w starym laptopie od Della (TDP 45W) wystarczyło samemu zdefiniować sobie profile włączania wentylatorów, żeby laptop zaczął być znośny (fabryczne były ustawione bardzo zapobiegawczo)</li>
+</ol>
+<p>Teoretycznie przejrzałem sobie listę różnych propozycji dotyczących chłodzenia pasywnego, i na szybko znalazłem konstrukcje od firmy Streacom, Akasa (TDP w obu wypadkach najczęściej do 65W) czy model HDPLEX H5 (tutaj TDP do 125W).</p>
+<p>Tu dochodzimy do tego, o czym wielokrotnie mówiłem, czyli skupiania w jednym miejscu wielu elementów wydzielających ciepło – gdyby możliwe byłoby np. rozłożenie rdzeni procesora w kilku miejscach, to myślę, że dostalibyśmy o wiele więcej konstrukcji, które są niesłyszalne.</p>
+<p>Nie wygląda to idealnie – gdy mamy podstawkę i zamiast „fabrycznego” CPU włożymy coś mocniejszego, problemem może pozostać brać zintegrowanej karty albo ograniczenia sekcji zasilającej, i teoretycznie nawet najbardziej topowe Ryzeny (poprzednich generacji) można przestawić w tryb ECO (TDP teoretycznie 65W), ale w praktyce może to być ciągła praca na granicy możliwości.</p>
+<p>Innym problemem jest cena powyższych pasywnych rozwiązań (dochodząca do kilkuset Euro) czy utrata gwarancji na zakupiony sprzęt (przykładowo <a href="https://www.anandtech.com/show/17502/intel-nuc11tnbi5-and-akasa-newton-tn-fanless-case-review-silencing-the-tiger/2" target="_blank" rel="nofollow noopener">AnandTech robił test obudowy Akasa Newton TN</a>, a ta wymagała przełożenia elektroniki z oryginalnej)</p>
+<p>Dlaczego jednak się tak się uczepiłem urządzeń tej klasy?</p>
+<p>Jeżeli ktoś chce używać Apple, to go będzie używał (fani będą mieć M2 czy kolejne generacje, ludzie myślący ekonomicznie zapewne dawno przesiedli się na M1). Firma zanotowała wzrost sprzedaży w ostatnim czasie o 40% (podczas gdy inni narzekają na spadki) i nie ma tu zdziwienia.</p>
+<p>Rozwoju nie upatrywałbym mocno w segmencie laptopów – owszem, pojawią się nowe Ryzeny mobilne (i starym zwyczajem producenci zapomną o dobrych matrycach czy czymś innym) czy Intel 13gen, ale nikt obecnie na to raczej się nie rzuci, tylko całość będzie zmieniona w ramach normalnego zużycia.</p>
+<p>Firmy eksperymentują z matrycami OLED albo z czymś takim jak przy składanych telefonach, ale to raczej jednostkowe przypadki (zapomniałbym: DELL jeszcze proponuje nowy własnościowy standard pamięci RAM)</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/IfogSiBxd8w" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>Z kolei w przypadku urządzeń stacjonarnych ci, którzy wstawili sobie Ryzeny na AM4, pewnie przy nich pozostaną (tak samo ludzie z ostatnimi Intelami), ale… rynek małych kostek może się mocno rozwinąć, szczególnie, jeśli dostaniemy wygodne sposoby na łączenie ich w klastry (np. bierzemy dwie kostki, programowo robimy klaster i już mamy 16 rdzeni przy 90W) albo pojawią się naprawdę atrakcyjne sposoby podłączania zewnętrznych kart graficznych.</p>
+<p>Pamiętajmy też o jednej rzeczy - producenci chociażby gier nie będą się nastawiać na topowe konstrukcje, gdy coraz więcej ludzi będzie miało mocne integry (może czasy optymalizacji jednak wrócą?)</p>
+<p>W przypadku sprzętu mobilnego podobnie nie oczekiwałbym rewolucji - ludzie oczekują rewolucji, tymczasem coraz o nią ciężej.</p>
+<p>Obecni producenci sprzętu również poniekąd wpadli we własną pułapkę – wydaje się, że chcą go sprzedawać, jednak mocne konfiguracje (jeśli pominąć nieszczęsne Ryzeny 7xxx) czy laptopy czy komórki są po prostu zbyt atrakcyjne, zaś małe, bezgłośne, oszczędne i mocne komputerki mogą zrobić rewolucję na miarę M1. I owszem, można zrobić bezgłośny komputer w starym stylu, ale za jaką cenę? Ile tu trzeba miedzi, aluminium i innych metali?</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/TFE9wfAfudE" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>(tak na marginesie, do desktopów można kupić albo można było kupić pasywne chłodzenie do kart graficznych czy CPU i takie modele jak Noctua NH-P1, kostrukcje NoFan, Silverstone Heligon HE02, DEEPCOOL K2 czy Zalmana FX100, i te też generalnie najczęściej były w stanie odpowadzić do 65W)</p>
+<p>AMD raczej skupi się na rynku serwerowym, gdzie radzi sobie coraz lepiej (ale będzie podgryzane np. przez 80-rdzeniowe konstrukcje ARM).</p>
+<p>Być może dojdziemy też do jakichś drobnych rewolucji w dziedzinie baterii i zasilaczy (tutaj arsenek galu). I tyle.</p>
+<p>I tu dochodzimy do pewnych paradoksów – przez lata słyszałem, że pieniądz nie ma narodowości. Jest to oczywista nieprawda. Duża część układów jest fizycznie tworzona na Tajwanie, i właśnie tam jest poniekąd gorąco (w sensie politycznym), a USA próbuje przenieść wszystko z powrotem do siebie. Czy „złe” Ryzeny 7xxx nie pojawiły się przypadkiem w dobrym momencie? Gdyby ludzie je wykupili, nie byłoby zbytu na CPU z USA . A tak… pojawią się „dobre” Intele 13-gen (albo bardziej późniejsze ich generacje), zarobią pracownicy z USA i wszyscy będą zadowoleni.</p>
+<p>Myślę, że choćby z tego względu w temacie x86 nie wydarzy się za dużo dobrego w najbliższym czasie – sam bym na przykład widział usunięcie z krzemu instrukcji 16 czy nawet 32-bitowych czy różnych starych elementów, które dawno stały się historią.</p>
+<p>Szansą na rozruszanie rynku byłyby układy Risc-V, które nie mają różnych wymogów licencyjnych. I tu dochodzę do sedna – przez lata monopol Intela powodował, że nie wierzyliśmy w rewolucję ARM (były jakieś próby Microsoftu, ale robione tak nieudolnie, że szkoda mówić). Obecnie nikt nie wyobraża sobie innej drogi niż x86 czy ARM, ale może jednak czas na kolejną rewolucję?</p>
+<p>Oprogramowanie Open Source wzniosło technologię na nieznane wcześniej wyżyny, może czas tak samo zrobić również sprzęt "darmowym"? (w sensie - bez licencji, bo za obróbkę krzemu zapłacić trzema).</p>
+<p>Ludzie już zaczynają mówić stop kolejnym generacji PCI czy USB (bo nie potrzebują w wielu wypadkach szybszych transferów), a teraz potrzebują innej formy sprzętu. A tej obecni giganci zapewnić raczej nie chcą.</p>

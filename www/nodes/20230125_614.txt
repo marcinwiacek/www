@@ -1,0 +1,46 @@
+﻿Title: Jestem gotowy na wasze poświęcenie – o „darmowych” laptopach PIS i nie tylko (2023)
+Author:marcin
+When:25 Jan 2023
+Taxonomy:polski,polski blog,salon24.pl
+
+<p>„Niektórzy z was zginą, ale ja jestem gotów ponieść to poświęcenie” – tak mniej więcej zły lord powiedział w pierwszym Shreku przed turniejem rycerskim.</p>
+<p>Słowa te przypomniały mi się, gdy przeczytałem o mailu CEO Google do pracowników, w którym mówił o to, że ponosi pełną odpowiedzialność za zwolnienia.</p>
+<!--break-->
+<p>Co to znaczy ta nowomowa? Czy CEO odejdzie? Zostanie jakoś ubiczowany? A może poniesie karę finansową?</p>
+<p>Trochę podobnie czuję się, gdy słyszę o staraniach światowej organizacji handlu i np. ustaleniach dotyczących baterii. Obecnie w UE mają one mieć paszport potwierdzający różne aspekty, między innymi miejsce wydobycia litu. Z jednej strony jest to inicjatywa słuszna, z drugiej zapewne będzie trzeba pewnie zatrudnić urzędników, którzy takie dokumenty wydają, sprawdzają, itp. Ludzie debatujący w Davos mówią o trosce o planetę i np. tym, że nie powinniśmy mieć nic (ewentualnie, że mamy mieszkać w miejscach, gdzie wszystko dostępne jest 15-minut od nas), z drugiej strony latają często prywatnymi odrzutowcami.</p>
+<p>Czy nie ma tu pewnego zgrzytu i hipokryzji? Czy to nie będzie tak, że oni pozostaną na obecnym poziomie, a reszta ma… wegetować?</p>
+<p>Jak wyglądają eksperymenty z „low traffic neighbourhood”, widać na załączonym obrazku (powtórzę, że ci, którzy to wprowadzają, tam nie mieszkają):</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/xLc-y685ceM" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>To taka sama hipokryzja jak zmuszanie do przesiadki na pojazdy elektryczne czy czystsze benzyniaki w ramach stref czystego transportu (w praktyce chodzi o to, żeby wielu ludzi pozbawić własnych kółek i przywiązać do jednego miejsca).</p>
+<p>Podobnie jest zresztą z „darmowymi” laptopami dla polskich dzieci.</p>
+<p>Zacznijmy od rzeczy podstawowej:</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/xvz8tg4MVpA" class="note-video-clip"   frameborder="0">
+</iframe></div>
+</p>
+<p>a jak ktoś nie wierzy, to mamy słowa prezesa (jemu chyba można ufać, prawda?):</p>
+<p>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/VVJ1Ekeg5Ao" class="note-video-clip"   frameborder="0">
+</iframe></div>
+<p>Nie da się tego powiedzieć bardziej dosadnie – pieniądze na ten sprzęt wydadzą rodzice, a nie „dobry” rząd (i proszę nie pisać, że za peło nie było nawet tego).</p>
+<p>Różne portale mówią, że koszt takiego laptopa na jednego ucznia to mniej więcej 2000 – 2500 PLN.</p>
+<p>Można się oczywiście zastanawiać, kto tu bardziej zapłaci w podatkach (czy rodzina wielodzietna czy single) – mnie to nie interesuje, a bardziej zastanawia, co można za to kupić.</p>
+<p>I tak powyższa półka cenowa dotyczy raczej konfiguracji podstawowych. Jeden z portali podaje wymagania i te są dosyć sensowne, ale…</p>
+<ol>
+<li>przy zakupie podobnego sprzętu zawsze wychodzi sprawa ekranu: podświetlenie obrazu nie powinno mrugać (PWM), a matryca musi być przyjazna dla oczu konkretnych użytkowników, a to dlatego, bo część z nich nie może pracować z ekranami pokrytymi szkłem czy niektórymi powłokami półmatowymi (ten, kto nie ma tego problemu, nie zrozumie)</li>
+<li>sprzęt nie będzie zbyt szybki i może zniechęcać do różnych rzeczy</li>
+<li>w różnych domach są już laptopy o wiele lepszej konfiguracji (szczególnie po COVID)</li>
+</ol>
+<p>Obawiam się szczególnie o punkt pierwszy – bawiłem się kiedyś pewnym Medionem i Acerem, i tam była to tragedia.</p>
+<p>Czy naprawdę chcemy, że dzieci dostaną sprzęt, od którego części z nich będą łzawiły oczy albo bolała głowa? Tego się nie przeskoczy, i nie zmienią tego żadne zaklęcia.</p>
+<p>Cała akcja miałaby większy sens, gdyby rząd na przykład stwierdził, że pozwoli na pełne odliczenie kosztu laptopa od podatku / refundację kosztu do pewnej kwoty. Obecnie bardzo mocno obawiam się, że dostaniemy sprzęt z niskiej jakości obudową (np. pękające zawiasy), niskiej jakości obrazem albo słabiutką baterią, do tego dochodzi kwestia platformy – w niższych cenach zazwyczaj są Chromebooki.</p>
+<p>Czy podobne decyzje zbiegające się z Davos służą do tego, żeby kochany rząd wpompował ileś pieniędzy w jedną z amerykańskich firm? A może wiele? Czy chodzi o to, żeby mieć pełen vendor lock na ileś lat? I wychować dzieci w duchu korzystania z oprogramowania własnościowego którejś korporacji?</p>
+<p>Dochodzą tu pewnie jeszcze koszty serwisu, supportu, itp. (a na koniec może się okazać, że za trzy lata (po gwarancji) i tak trzeba będzie wszystko kupować od nowa)</p>
+<p>Słowa lorda można tu sparafrazować i napisać „Niektórzy z was będą na to harować (nie chcę przeklinać) za miskę ryżu do końca życia, ale ja jestem gotów ponieść to poświęcenie”</p>
+<p>Jest mi bardzo przykro, że tak wygląda kiełbasa wyborcza, i to potrójnie – zostały tu wciągnięte dzieci, niektórzy z uporem maniaka wierzą, że tym razem na pewno z nieba spadnie darmowa manna (ile razy to już przerabialiśmy?), a do tego najniższa warstwa społeczna dostanie zabawki, które na przykład będzie można zastawić w lombardzie (nie podejrzewam wszystkich o niecne zamiary, ale takie są realia i ileś takich przypadków na pewno będzie mieć miejsce).</p>
+<p>Kraju biednego nie stać na rozwiązania tanie – one zawsze okazują się podwójnie drogie.</p>
+<p>To jak? Obstawiamy, który znajomy handlarz laptopami chce upłynnić leżaki magazynowe? I czy dostaniemy sprzęt amerykański czy chiński?</p>
+<p>PS. Generalnie mamy dopiero styczeń, a skoro gra wyborcza tak wygląda, to rok będzie ciekawy - w prognozie pogody mamy na przykład wprowadzanie jeszcze bardziej niezgodnych z EU przepisów dotyczących monitorowania ruchu elektronicznego (czytaj: inwigilacji).</p>
+<p>PS2. Sentencję ze Szreka podciągnąłbym też pod majstrowanie z przepisami ruchu drogowego - tak zmieniono w zeszłym roku definicję skrzyżowania, że jest inna, ale... niektóre instytucje państwowe twierdzą obecnie, że jednak nie (czytaj: jeżeli ktoś zapłacił z tego powodu mandat, to pewnie równocześnie jest on zasadny jak i nieważny).</p>

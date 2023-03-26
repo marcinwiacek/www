@@ -1,0 +1,41 @@
+﻿Title: Czy Ubuntu 22.10 jest komuś do szczęścia potrzebne? (+kilka słów o sprzęcie) (2022)
+Author:marcin
+When:2 Nov 2022
+Taxonomy:polski,polski blog,salon24.pl,Ubuntu,Linux,Hyperbook
+
+<p>Od czasu do czasu (a właściwie dosyć regularnie) zdarza mi się ponarzekać na oprogramowanie i sprzęt - w różnych sytuacjach nowe wersje często wydają się być gorsze niż poprzednie, a wynika to z tak prozaicznych przyczyn jak ludzka chciwość (głupie oszczędności na kluczowych drobiazgach) czy brak kompetencji osób, które zmian dokonały.</p>
+<!--break-->
+<p>Ostatnio zainstalowałem sobie nowe Ubuntu 22.10 na laptopie Clevo L14MU (dosyć typowy sprzęt 14-cali z Intelem 11-generacji, który wyróżnia się wagą 1kg, matrycą o niższym zużyciu energii i dużą baterią 73Wh).</p>
+<p>Entuzjaści Open Source na pewno jednym tchem wymienią wszystkie nowości nowego oprogramowania, takie jak jądro 5.19, Gnome 43 czy usunięcie starego PulsAudio. Uaktualnienie było proste, łatwe i przyjemne, niemniej jednak w nowym wspaniałym panelu z ustawieniami nie ma informacji o przewidywanym czasie pracy na baterii (nie ma i już i trzeba doinstalowywać dodatek), a przejście w tryb standby wymaga takiego skonfigurowania sprzętu, żeby to robił po zamknięciu pokrywy, albo trafiania w absurdalnie małą ikonkę wyłącznika (jest to strasznie niewygodne).<br />
+<img src="//m.salon24.pl/34365eff35d8f86eb5a391b7d24b74a8,860,0,0,0.png" style="width: 332.2px; height: 221.866px;" alt="image" />
+<p>Poniekąd są to drobiazgi, niemniej jednak z takich drobiazgów świat się składa. Pobawiłem się całością i zauważyłem, że czasami po przejściu w tryb standby i powrocie z niego komputer nie pyta o hasło (jest to ewidentny błąd Gnome), a powertop w trybie idle uparcie pokazuje zużycie energii ok. 2,1 W (podczas gdy z Ubuntu 22.04 LTS potrafiłem mieć 1,84 W), zaś jądro 5.19 uzyskało status EOL.</p>
+<p>W tej sytuacji przemyślałem wszystkie plusy i minusy i postanowiłem wrócić do poprzedniego wydania (tj. 22.04).</p>
+<p><a href="https://linuxconfig.org/how-to-downgrade-ubuntu-linux-system-to-its-previous-version" target="_blank" rel="nofollow noopener">Instrukcja z linuxconfig.org</a> tym razem nie zadziała i zmuszony zostałem do przeinstalowania całości. Przy konfiguracji skorzystałem m.in. ze swoich poprzednich poradników (m.in. "<a href="https://mwiacek.com/www/?q=node/480" target="_blank" rel="nofollow noopener">Producent / sprzedawca (obecnie) mówią o 20h na baterii, ja mam nawet prawie 36h</a>", <a href="https://mwiacek.com/www/?q=node/474" target="_blank" rel="nofollow noopener">"W poszukiwaniu urządzenia doskonałego… o HyperBooku L14, zarabianiu firm i innych rzeczach"</a> czy "<a href="https://mwiacek.com/www/?q=node/544" target="_blank" rel="nofollow noopener">Ubuntu 22.04 to (u mnie?) na razie porażka, czyli beznadziejna walka o każdy mW energii</a>"), dodałem do tego wyłączenie ambient-sensor w dconf (nie wiem, czy coś to daje) i zmianę ustawień LCD w innym miejscu niż wcześniej</p>
+<p class="a-img"><img src="//m.salon24.pl/f6620334d6cec1823825c1bb75a4f6ab,860,0,0,0.png" style="width: 370.2px; height: 266.569px;" alt="image" />
+<p>i praktycznie wyłączenie trybu nocnego (kiedyś w moich tekstach miałem inne ustawienie)<br />
+<p><img src="//m.salon24.pl/f91fb633538e25580ca608ab097dc6bc,860,0,0,0.png" style="width: 367.779px; height: 310.1px;" alt="image" />
+<p>Ogólnie wymagało to chwili pracy, ale warto było - Ubuntu 22.04 LTS jest wspierane do 2027 i wydaje mi się, że na tym komputerze pozostanie przez dłuższy czas.</p>
+<p>A co się może wydarzyć do 2027? Bardzo dużo.</p>
+<ol>
+<li>Moje Clevo ma nominalnie baterię 73,9Wh (która po trochę więcej niż roku ma 68,5Wh). Firma ostatnio w innym modelu 14-cali (Schenker Vision 14) zaczęła dawać akumulatory 99Wh, a to oznacza, że może niedługo takie ogniwo zobaczymy również w następcy L14MU</li>
+<li>Od 2022 do 2027 pojawi się kilka nowych generacji CPU Intela czy AMD, a te w połączeniu z płytą główną od Clevo i Linuxem może w końcu będą obsługiwać tryby energetyczne C9 i C10</li>
+<li>Może Clevo w końcu pozwoli na fizyczne odłączanie rzeczy takich jak kamera czy USB (podobnie jak Dell czy inni), da „normalne” klawisze Home, End, PgUp, PgDn albo pasywne chłodzenie</li>
+<li>Może pojawi się MacBook Air, jakiś dobry ARM albo inne dziadostwo z przyjemnym matowym wyświetlaczem (wtedy być może bym się zmigrował)</li>
+</ol>
+<p>Jeśli chodzi o ostatni punkt, czyli „odwieczną” walkę x86 z ARM, to już na dzień dzisiejszy robi się ciekawie.</p>
+<p>I tak na samym początku przy ogniwie 73,9Wh w bardzo specyficznych scenariuszach potrafiłem osiągać 36h czasu pracy na baterii, przy ogniwie 99Wh teoretycznie mógłbym mieć 48h. Jeśli to porównać do Macbooka Air M1, to ten przy ogniwie 49,9Wh i normalnej pracy ma do 18h pracy na baterii (przy ogniwie 99Wh mógłby mieć teoretycznie ok. 36h, a przy matrycy FullHD nawet więcej).</p>
+<p>W trybie standby wygląda to całkiem odwrotnie – L140MU wydaje się zużywać absurdalne 0,74W, a Air M1 ok. 0,04W (obie liczby według metodologii notebookcheck.net).</p>
+<p>Muszę tutaj jasno powiedzieć, że mimo wszystko zarówno sprzęt jak i oprogramowanie są w takim momencie rozwoju, że nie odczuwam mocnej potrzeby ich zmiany (nie daje to nic, a nawet wywołuje regres). Choć Clevo zasadniczo nie daje nowych BIOS-ów z poprawkami ME, klawiatura i jej podświetlenie nie są tak wygodne jak np. w Acerze Swift 1, a na jednym z klawiszy mam delikatne wytarcie (fakt, że sporo używam), to ogólnie jestem zadowolony (szczególnie, że do 2027 bateria powinna mieć jakieś 50% początkowej pojemności, co wciąż potencjalnie daje nawet 18h pracy).</p>
+<p>Ubuntu 22.10 można ewentualnie polecić tylko tym, którzy mają najnowszy sprzęt albo nie dbają o pracę na baterii (jak również są w stanie zaakceptować to, że mniej więcej w czerwcu przyszłego roku będą musieli uaktualniać całość). Oprogramowanie to nic nie kosztuje (to jest właściwa cena) i choć jest dojrzałe, to z wersji na wersję powiela niestety różne grzechy projektowe, np.</p>
+<ol>
+<li>brak możliwości downgrade systemu</li>
+<li>koszmarnie wolny start snapów (Canonical coś tam z tym robi, ale...)</li>
+<li>brak łatwej i przyjemnej regulacji gamma przy wayland</li>
+<li>kiepska konfiguracja szyfrowania (LUKS nie ma tej łatwości co chociażby VeraCrypt)</li>
+<li>zmiana hasła przez passwd z konsoli potrafi nie być dokonana pomimo komunikatu o sukcesie</li>
+<li>brak niektórych innych podstawowych funkcjonalności (chociażby tak głupia rzecz jak pokazywanie wartości liczbowej, jeśli w ustawieniach przesuwam suwak do jej wyboru)</li>
+<li>różne procesy wybudzające procesor (wydaje się, że różne zespoły nie mają jednej wizji i stąd zlepianie różnych elementów wykonanych w inny sposób).</li>
+</ol>
+<p>Szczególnie irytuje ta ostatnia właściwość – gdy użytkownik nic nie robi i komputer nie wykonuje żadnych operacji (wyświetlanie wideo, ściąganie czy kopiowanie pliku, itp.), energia powinna być pobierana właściwie tylko przez ekran i RAM (podtrzymywanie zawartości). Tak się nie dzieje, i jest to niestety urok sprzętu ogólnego zastosowania (gdzie różne rzeczy sprawdza oprogramowanie w pętli).</p>
+<p>Kto wie, może w 2027 takie cudo będzie dostępne? I kto wie, jaki tak naprawdę sprzęt będzie można wtedy kupić? (proszę zauważyć, że taki Ryzen 3950x w 2019 roku miał mniej więcej 1300 punktów w Geekbenchu w single-core, a obecne typowe procesory bez problemu dobijają do 2000).</p>
+<p>PS. A jeżeli chodzi o ciekawostki, to ostatnio czytałem o tabletach z e-ink i rysikiem.</p>
