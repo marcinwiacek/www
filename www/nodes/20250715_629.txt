@@ -1,0 +1,206 @@
+﻿Title: Is Gnome/GTK developed against Open-Source and Linux? (+few words about Korean/western and Chinese approach) (2025)
+Author:marcin
+When:15 Jul 2025
+Taxonomy:English,English blog,Linux,Ubuntu
+
+<p>Some time ago I had to replace my phone because of screen - after years of
+using Samsung devices I found, that new screens are so bright, that PWM with 240 or 480 Hz
+is not good for my eyes (note: it's not good for anybody eyes, but some people
+don't feel it).
+<!--break-->
+<p>I made long research and started using <a href=?q=node/627>Honor Magic 6 Pro - PWM up to 4320 Hz,
+big battery and various nice features</a>. Currently I have forgotten, what are
+phone problems. Device is just working. It can be discussed whether phones
+like this are secure, but... hardware and software support are light years
+ahead Samsung now (and screen is much better even than Apple AMOLEDs).
+
+<p>To be honest - I don't want to return to Samsung after OneUI 7 drama,
+utilizing old elements, using other companys components (I don't speak about
+Exynos, Sammy has got own SSDs and flash) and excuses for batteries (my favourite:
+proving, that 5000 mAh batteries are used because of legal limits, which is totally
+false, because it's enough to use two battery cells instead of one).
+
+<p>Let's go further - laptops. Long time ago I was tired with (battery) problems
+in Dell Precision 5510 and typical problems of x86 laptops. Finally I have
+found <a href=?q=taxonomy/term/Hyperbook>device with 73Wh battery, matt 14 inch Full HD screen and 1 kg from
+Taiwan Clevo</a>. It has got some weak touchpad and no BIOS updates, but simply worked
+and gave me up to 36h on the battery in reader mode (note: I was thinking
+about replacing it to Lunar Lake, but all models have something wrong, for
+example: after reading
+<a href=https://www.notebookcheck.net/Dell-XPS-13-9350-laptop-review-Intel-Lunar-Lake-is-the-perfect-fit.911314.0.html>info about 56h in standby</a>
+I wanted XPS13, but... white color is ugly; current Clevo L240TU has got power
+button with bright white color iluminating screen, etc.).
+
+<p>What about small x86 devices? Only from China, nobody else is producing them.
+I'm writing these words from <a href=?q=node/628>GEM12 and this device is some kind of success for me</a> -
+has got very rare reboots during gaming (I suspect AGESA or Linux compatibility
+rather than overheating or hardware), excluding this I have forgotten, where are problems
+(note: some people reported in Reddit about dying GEM12 & I'm using it around 8 months now).
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ohwI3V207Ts" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Motherboards? Always from Asia (Asus, Abit, Asrock, etc.)
+
+<p>Currently I see less and less valuable American products in normal price.
+Macbook Air is still very OK (if you can accept glare screen or will find nice
+matt foil), Mac Mini also, additionally some HP Elitebooks. Dell seems went
+down with quality, is overpriced or with strange design (my opinion, I can have it).
+
+<p>And that's it.
+
+<p>Hollywood movies are not top-top anymore (many people are looking more for
+Korean dramas & last American magic show for me was "Top Gun Maverick"), 
+You don't hear too much about American scifi anymore ("The Expanse", "The Orville"
+and Apple "For All Mankind" are exception, everything else like Apple "Foundation" or
+"Star-Trek Piccard" is just based on old worlds and ideas & you don't have anything
+fresh like "Stargate" or "Andromeda Ascendant" anymore), in internet there is just a lot about
+American food, Karens, pride and problems.
+
+<p>Now returning to Linux. I started to using it many years ago, played a lot with
+compiling kernel, programming, etc. After years I expect, that my machines
+(PC, whatever) will simply work and I can concentrate on my tasks. I tried to
+upgrade from Ubuntu 22.04LTS into 24.10 (yes, I'm lazy now) and booom - something
+wrong happened with my eyes. As experienced user I have found, that Gnome in
+24.10 is based on GTK4 and GTK4 devs simply removed some font options.
+Problem was reported and horror started... blocking posts or saying in open
+words about replacing monitors to 4K or even 8K (for displaying fonts? what?), etc. etc.
+
+<p>Let's summarize some of these "things":
+
+<p>"You need to replace monitor & go further" - my answer: don't close yourself in
+small sandbox + don't take my freedom and don't say, what I should use.
+Linux is known from support for weak hardware & is used in some other configs that one home PC
++ one monitor. My words *are* about moving forward (Linux needs technologies known for years)
+and maybe also about implementing things in new areas... many times you cannot change
+embedded hardware or ask for something else in corporate world (when things are not working
+out of the box, you're out of business).
+
+<p>"Change to KDE or other desktop" - my answer: this will not help.
+I speak not only about Gnome itself, but mainly about GTK. And GTK apps
+are looking worse. Note: Gnome is advertised as main graphic environment
+and this will be used in some companies (lack of good font support can
+be problem for people, who will be forced to use it).
+
+<p>"You're toxic or hater" - my answer again: Gnome is advertised as basic Linux
+GUI, starting from some level basic functions must work till world end,
+additionally words about hate are normally coming from people, who don't have any
+arguments.
+
+<p>"Something was removed because of edge case" - my answer: what is better: not having
+them or making things worse for 70%, 80% or 90% of users?
+
+<p>"There are good reasons for removing LCD antialiasing" - my answer: this is excuse,
+I don't see any good reason for excluding technology known from ca. 25 years
+(even Steam stats show, that it's highly required in Linux world - majority of users have
+screens with lower resolution).
+
+<p>"It's too difficult to implement" - my answer: the most often excuse from poor
+programmers hiding incompetence or lack of time (remember: something
+like this was implemented till GTK3).
+
+<p>"Nothing can be done" - my answer: always something can be done, again excuse from
+people, who simply don't want to change anything
+
+<p>"Apple doesn't have it too" - my answer: you're not Apple, they sell
+excellent Macbook Air M4 or Mac Mini and you don't.
+In the end we're speaking about functionality
+for niche OS, which wants (in theory?) make users happy & many of them are
+already very, very annoyed.
+
+<p>"use Windows" - my answer: comes from people, who want make Linux growing.
+It's ironic, isn't it?
+
+<p>"Gnome hate comes from Gnome 2 to 3 drama" - my answer: don't live
+in ther past. I don't care about super hiper config & I'm very flexible,
+I just want to see apps running and not hurting eyes.
+
+<p>"Write yourself" - my answer: for years the same, can we escape from
+childhood and have one golden rule, that new code shouldn't break basic
+functions? (additional note: somebody tried to make patch for GTK4, but it looks for me,
+that answers on it could be done with big delays on purpose and I'm not attacking
+or accusing, but only saying my opinion)
+
+<p>"We need to teach people how to use Gnome" - my answer: we heard already
+about "modern audience" in Concord case. How it end?
+And again: you're not Apple, they have power to force for something, you not.
+
+<p>"Gnome is written by people in free time" - my answer: really? Do you live
+in the past?
+
+<p>"Once again you should be thankfull for such nice environment" - my answer: 
+yes, but good code is good code and bad code is bad code.
+
+<p>"We don't understand why people don't like Gnome" - my answer: yeah, sure.
+This comes from nothing, right?
+
+<p>Gnome people speak a lot about diversity, equality, etc, but seems
+censoring a lot and simply dividing users. I remember, how
+Mozilla was involved in such mess, and now - Firefox doesn't have market
+anymore.
+
+<p>My open question: is Gnome/GTK development done against Open-Source and Linux?
+
+<p>To be honest let's extend things - currently we see a lot about American
+companies. Boeing, Microsoft, Intel, etc. don't have good reputation &
+the same goes with Samsung (mobiles, RAM, etc.).
+
+<p>Why I say about this?
+
+<p>If I see correctly, Gnome Foundation is located
+in California & we have problems too (fonts are only top of iceberg -
+from fresh things please look on X11 support removal or thread about
+lack of Lanczos resampling, from old plugins support broken from release
+to release).
+
+<p>In the opposite side we see Chinese or Taiwan devices, which just work...
+
+<p>Is it because devs from some places are simply underqualified or overloaded?
+Or because China wants to take market and "old" leaders are too lazy to make
+innovations? Or maybe, in the end, we have Concord versus Wukong situation here?
+(all these "modern audience" things)
+
+<p>I don't know, but I know, that users should start expecting some maturity
+from such projects like Gnome... and don't say: "this is my wallpaper,
+I'm happy, I don't care, if others have problems or not".
+
+<p>These kinds of behaviors in Gnome/GTK (ignorance, arrogance, censorship,
+diving people to worse and better, poor and rich, etc.) are working against
+Open-Source - in the end Linux has got wrong reputation, we have less bugs
+reports and less commits.
+
+<p>Ubuntu 22.04 LTS with extra support free till 5 machines will work till
+2032 (it means, that some users can wait with migration from GTK3 based Gnome
+and this also can decrease progress).
+
+<p>Few extra notes:
+
+<p>1. progress is required, but users should be always in first place.
+
+<p>2. I was writing about fonts in this post, but in few minutes I have found already few things
+about Wayland too:
+
+<ul>
+<li><a href=https://gist.github.com/probonopd/9feb7c20257af5dd915e3a9f2d1f2277>Think twice before abandoning Xorg. Wayland breaks everything!</a>
+- are problems removed?
+
+<li><a href=https://blogs.gnome.org/alatiera/2025/06/23/x11-session-removal-faq/>X11 Session Removal FAQ</a> - in this blog
+for moment there was a lot of politics, now it's almost fully removed (we still have something in the posts end), excluding this:
+author say, that all known problems are removed and all should generally work, but... (in the comment) says
+about lack of support for Nvidia 10xx series (my question: how many problems will come, when people will be forced
+to migrate to Wayland?)
+
+</ul>
+
+<p>3. No more excuses ladies & gentleman, boys & girls,
+you're not navel of the world. Problems were visible for years with 
+x86 hardware and other areas. Don't be like some
+chefs in Hells Kitchen (tasting food with fingers).
+Market is tired with incompetence. If you can't do something, please don't broke existing things.
+
+<p>4. The only (?) honest thing about fonts in GTK4 I have read in the
+Ubuntu bug report -
+<a href=https://bugs.launchpad.net/ubuntu/+source/font-manager/+bug/2092667>let's or more it's confirmed,
+we have political issue</a>.

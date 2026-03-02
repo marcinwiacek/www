@@ -1,0 +1,176 @@
+﻿Title: Honor Magic6 Pro – czy model chiński może się równać z tzw. uznanymi flagowcami? (2024)
+Author:marcin
+When:4 Aug 2024
+Taxonomy:polski,polski blog,GSM
+
+<p>Ostatnio w moje ręce wpadł Honor Magic6 Pro w kolorze czarnym. Pomyślałem, że krótko porównam go z Samsungiem S21+ (<a href=?q=node/626>pisałem o nim w styczniu</a>), jak również z innymi/nowszymi produktami koreańskiej firmy.
+<!--teaser-->
+
+<p><b>Pierwsze wrażenie</b>
+
+<p>W pudełko znalazłem kabel USB-C 6A i sam telefon, z fabrycznie nałożoną błyszczącą folią.
+
+<p>Pierwsze wrażenie było niezwykle pozytywne – metal i szkło dały przyjemne uczucie, spasowanie i sztywność pozostały na najwyższym poziomie, bateria aparatów z tyłu wyglądała imponująco, a lekko zakrzywione krawędzie ekranu i tzw. wyspa przy kamerze z przodu dały wrażenie, jakbym znalazł się w domu (poczułem się, jakbym widział Samsunga S9 i iPhone).
+
+<p>Ważne jest tu to, że sam telefon rozmiarowo jest porównywalny z S21+ (waży zauważalnie więcej, ale da się go pewnie chwycić). Po jego położeniu na płaskiej powierzchni ekran jest równomiernie pochylony, ewentualnie można tylko obawiać się o rysowanie się oczek aparatów (w Samsungu są delikatnie schowane) i to, że przy wyciąganiu z kieszeni chwyta się za wyspę.
+
+<p>Ocena: mimo wszystko 10/10 (nie zmienia to faktu, że z chęcią kupiłbym telefon z nałożoną fabrycznie matową folią).
+
+<p><b>Ekran</b>
+
+<p>To jest najważniejszy element, na który patrzymy, i tu absolutnie nie powinno być żadnych oszczędności. Zakrzywione krawędzie są dyskusyjne (mnie nie przeszkadzają, co nie zmienia wrażenia, że wolę proste ekrany, bo tam nie ma problemów z foliami), natomiast Honor Magic6 Pro w jednej kwestii mocno konkuruje z Samsungami.
+
+<p>Tak się składa, że Koreańczycy stosują podświetlanie ekranów z użyciem technologii PWM i częstotliwości do 480Hz (tanie modele mają 120Hz, starsza seria S 240Hz, a S24x 480Hz), co  wywołuje problemy zdrowotne u części użytkowników. Teoretycznie można zwiększyć jasność do 100% i użyć aplikacji typu Twillight (zakładających filtr na cały obraz), ale Samsung nie wyłącza mrugania nawet przy pełnej jasności.
+
+<p>Producenci chińscy poszli albo w podświetlanie DC (zmniejszanie napięcia diód podświetlających zamiast szybkiego ich włączania / wyłączania) albo podświetlanie PWM z częstotliwością nawet 4320Hz. Trzeba tu powiedzieć, że najlepsze wydaje się to pierwsze, z drugiej strony obecnie w przypadku PWM i częstotliwości ok. > 2000Hz uznaje się, że ekran (Amoled?) nie ma mrugającego podświetlenia (jest flicker-free).
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/_QUgEftJtMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Honor Magic6 Pro ma certyfikat TUV potwierdzający brak mrugania czy wysoką notę DxoMark, ale pewnym problemem jest to, że nawet uznane serwisy mają problem z określeniem wykorzystanej metody podświetlenia czy parametrów – przewijają się tam liczby 4320Hz i 360Hz i wychodzi na to, że <a href=https://www.reddit.com/r/PWM_Sensitive/comments/1brnso0/honor_magic_6_pro_opple_light_master_measurements/>do 30% zmiany jasności pojawiają się równocześnie z częstotliwością 4320Hz i 360Hz (z dużą amplitudą, więc raczej PWM), a powyżej używana jest wyłącznie składowa 360Hz (z uwagi na amplitudę zdania są podzielone, czy jest jeszcze tryb DC czy już PWM).</a>
+
+<p><a href=https://www.reddit.com/r/PWM_Sensitive/comments/1773t7h/honor_90_pwm_test_results_a_reevaluation_after_4/>Jest to zupełnie inne niż np. w przypadku Honora 90</a> czy <a href=https://www.youtube.com/watch?v=-Wzd4OHoYhM>200 Pro</a> (swoją drogą, dlaczego model najdroższy wygląda gorzej niż te ze średniej półki?) i potencjalnie wciąż może sprawiać problemy. Z drugiej strony 4320Hz w Magic to ok. 9x więcej niż w Samsungach, i w nich łatwo wykazać mruganie zwykłą kamerą w telefonie, a obraz w Magic6 Pro na pewno… jest inny.
+
+<p>Ciekawostką jest to, że Honor daje DPI ok. 450, a Samsung ok. 400 albo 500 (co powoduje, że aplikacje trochę inaczej się skalują, i trzeba się napracować, żeby uzyskać podobną wielkość czcionek i elementów na obu).
+
+<p>Ocena: 8/10 (inne chińskie firmy czy modele mogą dać znacznie więcej w kwestii podświetlenia, do tego potrzeban jet tu jednak większa przejrzystość w sprawie parametrów czy więcej ustawień)
+
+<p><b>Kamery</b>
+
+<p>Powiększenie ponad 20x czy 50x często nie ma większego sensu – obraz jest tak mocno rozmyty albo tak drży, że nie można zrobić rozsądnego zdjęcia (nie zapominajmy, że zoom optyczny to ledwo 2,5x).
+
+<p>Przy półmroku zdjęcia wydają się być wyraźnie mniej ostre niż w S21+ (głównie w przypadku przedniej kamery, ale nie tylko). Ostrość to w ogóle czasem problem tego telefonu – trzeba nim poruszyć nawet w dzień (żeby wszystko się łatwo ustawiło), nie wiem tylko jednoznacznie, czy to kwestia:
+
+<ul>
+<li>tego egzemplarza
+<li>zmiany nawyków (Samsung mógł mnie przyzwyczaić do czegoś innego)
+<li>modelu (jakości algorytmów Honora / Snapdragona)
+</ul>
+
+<p>To wszystko powoduje, że tym telefonem da się zrobić naprawdę fenomenalne zdjęcia czy video, ale czasem trzeba się troszkę napracować. Do tego bardzo spodobał mi się tryb wygładzania zmarszczek na twarzy (no dobrze, nie mi, tylko komuś innemu, a portrety wychodzą naprawdę artystycznie).
+
+<p>Ocena: 8/10 (obniżka za zoom, być może nie zawsze topową jakość i za to, że oczka aparatów umieszczone są za płaską szybą, a nie schowane milimetr w dół)
+
+<p><b>Bateria i reszta sprzętu</b>
+
+<p>Bateria w Honorze ma pojemność 5600 mAh (Samsung daje większe wyłącznie w nie-flagowcach),  plusem jest też to, że Ampere pokazuje ilość cykli ładowania.
+
+<p>Niektórzy użytkownicy wspomną starszą wersję Bluetooth, ale akurat dla mnie to bez większego znaczenia.
+
+<p>Bardzo mi się podoba obecność podczerwieni – aż mi się przypomniał Galaxy S1 i sterowanie telewizorem.
+
+<p>Pewne obawy budzi tylna klapa – po kilku dniach pod palcem daje się tam wyczuć jedno drobne przytarcie (nie jest widoczne i być może było tam od początku), a na wyspie aparatów (ale nie w polu widzenia aparatu) pod pewnymi kątami w jednym miejscu delikatnie widać jakby nierówną strukturę szkła (nie ma rys).
+
+<p>Ocena: mimo wszystko 10/10 (tylnej klapy zazwyczaj się nie ogląda, a całość naprawdę wygląda premium)
+
+<p><b>Android</b>
+
+<p>Znaleźć można większość funkcji znanych z OneUI 6.1 Samsunga. Na pierwszy rzut oka wszystko wygląda dobrze, ale im dalej w las, tym więcej grzybków:
+
+<ul>
+<li>skrót do kamery (wyłącznie przy zablokowanym ekranie!) to podwójne naciśnięcie głośności w dół, a nie wyłącznika (co powoduje, że to nie działa, gdy odtwarzamy coś w tle), dodatkowo czasem działa, a czasem nie (prawdopodobnie wynika to z tego, czy aplikacja do zdjęć jest w pamięci).
+<li>telefon ma trzy poziomy oszczędzania baterii, jednak nie do końca jasne jest, co i jak jest limitowane. Tryb „Ultra power saving mode” wygląda podobnie jak w Samsungu S5 (dostajemy dostęp tylko do kilku aplikacji), ale wtedy tracimy np. tryb czytelnika czy różne skróty (co w praktyce powoduje, że nie ma sensu jego używanie).
+<li>poziomów skalowania wielkości czcionek i ekranu jest tylko kilka, co powoduje problem z komfortowym ustawieniem całości – pomimo ich użycia wraz z aplikacją „Big Font” w przeglądarce www niektóre strony były bardzo duże, niektóre bardzo małe (dopiero ogarnęło to dodatkowe ustawienie „Smallest width” w „Developers options” systemu, ale wartość tam bywa resetowana do domyślnej)
+<li>brak wybierania, po jakim czasie jest blokowany ekran
+<li>uaktualnienia systemu działają chyba tylko przy transmisji danych, a nie przy Wi-Fi
+<li>brak odpowiednika Samsung Dex?
+<li>na ekranie blokady widać, która cyfra PIN jest wciskana (i nie można wyłączyć tam ikony kamery i innych opcji)
+<li>brak ustawienia mocy wibracji
+<li>nie można wyłączyć swap file
+<li>niektóre aplikacje systemowe nie działają w trybie ukrywania obszaru z kamerą (galeria)
+<li>opcje bywają w bardzo dziwnych miejscach, np. limitowanie transmisji danych aplikacji w tle nazywa się Smart Data Saver (swoją drogą opcję Saver trzeba wyłączać, gdy udostępniamy internet przez USB, co chyba jest sztucznym ograniczeniem).
+<li>miałem problemy z ustawieniem powiadomień tak, żeby np. widzieć informacje o konkretnych SMS (dodatkowo ikony na górze ekranu nie zawsze są czytelne)
+<li>mam spore problemy z określeniem, czy Parallel Space działa jak Samsung Knox – dla użytkownika wygląda tak samo, ale czy tak samo szyfruje dane?
+<li>USB tethering muszę włączać w „Developers options” systemu, gdyż normalnie nie można
+<li>raz aplikacja Messages pokazywała mi jedną wiadomość systemową (notification), ale system równocześnie wskazywał, że nie ma żadnej – wygląda to na błąd aplikacji od Google, mimo to twierdzę, że we flagowcu coś takiego nie powinno mieć miejsca
+<li>pokazywanie dwóch aplikacji naraz wymagania wpierw dodania ich na panel z boku ekranu i potem ich przeciąganie (musiałem szukać opisów w internecie, bo nie jest to zbyt intuicyjne)
+</ul>
+
+<p>Nie do końca śledzę obecnie czystego Androida, ale wydaje się, że dostajemy wszystko, a nawet więcej (np. do zabezpieczenia aplikacji i plików mamy Safe, App Lock, Parallel Space i PrivateSpace).
+
+<p>Przy czymś takim apetyt rośnie w miarę jedzenia. Z chęcią widziałbym zapisywania wybranego okna w galerii czy plikach (chodzi o to, żeby aplikacja była w tym samym miejscu po restarcie), ukrywanie SMS jak w Samsungu, lepszą apkę do zdjęć czy rozpoznawanie pisma w notatkach.
+
+<p>W kilku miejscach w oczy rzuca się magiczny skrót AI, jednak z tych funkcji specjalnie nie korzystałem (no dobrze, rozpoznawanie tekstu z obrazu miewa problemy z polskimi znakami i np. zamiast „ż” potrafi rozpoznać „ž”).
+
+<p>Ostatecznie ustawiając ten system skończyłem z Nova Launcher, w którym wybrałem własną wielkość ikon i podpisów. Do tego doszło 400dp w „Smallest width” (przypominam, że wymaga to ustawiania po restarcie systemu, i nie pomaga nawet „Big font”) i wielkość czcionki 104% w Big Font.
+
+<p>Ogólnie po zmianie nawyków wszystko wygląda naturalnie i działa, z trzema jednak zastrzeżeniami:
+
+<ul>
+<li>o ile w Samsungach od kilku lat nie zdarzyło mi się, że musiałem je resetować (nie pamiętam takiego faktu), po dodaniu różnych aplikacji w Honorze kilka razy musiałem się do tego uciec.
+<li>nie wiem, czy to kwestia tego telefonu, ale Tor (wersja 64-bit) nie ma wtyczki do ustawiania czarnego motywu na stronach WWW.
+<li>brakuje ikony „Parallel space” w Nova Launcher, co wymusza powrót do domyślnego launchera, gdy chcemy skorzystać z tej funkcjonalności
+</ul>
+
+<p>Z plusów:
+
+<ul>
+<li>Magic6 Pro można dołączyć do programu Android 15 beta
+<li>poprawki bezpieczeństwa wydają się być regularne
+<li>nie ma reklam znanych np. z Xiaomi
+</ul>
+
+<p>Ocena: 8 lub 9/10 (czasem mam wrażenie, że Honor, gdzie może, pozostawia czystego Androida czy kopiuje funkcje z innych telefonów, niezależnie od tego, czy to ma sens czy nie, natomiast nie  wypracował jeszcze własnej, spójnej drogi).
+
+<p><b>SAR</b>
+
+<p>0.82 / 1.25 W/kg. W porównaniu do S21+ jest gorzej, w porównaniu do S24+ właściwie dosyć podobnie.
+
+<p>Moim zdaniem bardzo przydałaby się informacja, jakie są maksymalne wartości w poszczególnych technologiach (dziwnym trafem współczynniki SAR skoczyły pod sufit po wprowadzeniu 5G, i jeżeli tego nie używamy, może być znacznie lepiej).
+
+<p>Bardzo bym chciał też tu widzieć możliwość wyłączenia 2G
+
+<p>Ocena: 8/10
+
+<p><b>Support</b>
+
+<p>W dniu 1 lipca wysłałem zapytanie do Honor Polska na oficjalnie podanego na stronie maila. Do dnia dzisiejszego nie dostałem żadnej odpowiedzi, nawet potwierdzenia typu „otrzymaliśmy Twoje zgłoszenie” (konkurent, czyli Samsung, w aplikacji Members odpowiada po kilku dniach).
+
+<p>W dniu 8 lipca wysłałem dwa zgłoszenia z menu telefonu (i też nie zobaczyłem żadnej odpowiedzi), z kolei aplikacja „My Honor” to coś na wzór serwisu społecznościowego (nie można wysłać tak od razu postu, tylko trzeba mieć pewien „staż”).
+
+<p>Jeżeli chodzi o uaktualnienia, to Honor mówi o 4 wersjach Androida i 5 latach poprawek bezpieczeństwa (Samsung daje nawet 7 lat).
+
+<p>Ocena: nie wiem, co tu wystawić. 1/10? 5/10?
+
+<p><b>Cena</b>
+
+<p>Firma Honor ma w swojej ofercie znacznie tańsze modele z ekranami bez mrugania (np. chwali się tym, że model 90 używa PWM z częstotliwością 3840Hz), tylko, że nie są one flagowcami i nie mają normy szczelności IP68. Biorąc pod uwagę reputację marki i siłę konkurencji, myślę, że cena Magic6 Pro jest skalkulowana odrobinę zbyt wysoko (nie mówię o Polsce, gdzie ok. 6000 PLN to totalne nieporozumienie).
+
+<p>Ocena: 8/10
+
+<p><b>Podsumowanie</b>
+
+<p>Firma Honor to poniekąd pozostałość po Huawei, a ten znany jest lub był z dosyć konkurencyjnych konstrukcji.
+
+<p>Czy Magic6 Pro wywołuje efekt „wow”? Być może, mnie jednak trochę zmęczyło kilka rzeczy.
+
+<p>Czy może się równać i przewyższać telefony innych producentów? Tak, tak i jeszcze raz tak (to taki produkt ostateczny, doskonale pokazujący, że ewolucja smartfonów w obecnej formie praktycznie się wyczerpała).
+
+<p>Jeżeli nie boimy się kupić urządzenia od firmy chińskiej (wiadomo, potencjalne szpiegowanie i te sprawy), to Magic6 Pro może być ciekawą opcją.
+
+<p>Mam mieszane uczucia co do kamer i podświetlenia ekranu. To ostatnie na papierze wygląda fantastycznie, ale jest jednak dyskusyjne (dodatkowo Honor w znacznie tańszym modelu 90 czy 200 Pro podobno dał „lepsze” podświetlenie DC). Z drugiej strony dostajemy rewelacyjną baterię i jakość wykonania, sprawne działanie, oficjalne Google Play i sporo funkcji w oprogramowaniu, a niedoróbki często głównie z niechlujstwa w samym Androidzie (ten typ „tak ma”, a u Samsunga maskują to rozwiązania autorskie).
+
+<p>Myślę, że największy dylemat użytkowników będzie wyglądał następująco: czy mieć telefon od uznanego koreańskiego/amerykańskiego producenta (być może z rysikiem), który ma bardzo złe rozwiązania, ale wszystko oferuje już dziś, czy czekać, że Honor poprawi to i owo aktualizacjami (moim zdaniem producent spokojnie może prześcignąć Koreańczyków, a Magic6 Pro pokazuje, jak bardzo Samsung osiadł na laurach).
+
+<p>Chińczycy są już obecnie bardzo często lepsi, a gdyby ktoś miał wątpliwości do działań koreańskiej firmy, to proszę bardzo:
+
+<ul>
+<li>na początku przy serii S24 były problemy z kolorami (naprawdę nikt nie przewidział, że użytkownicy nic nie powiedzą?)
+<li>utylizacja starych części (mimo to ludzie chyba nadal narzekają na problemy z soczewkami w kamerach)
+<li>blokowanie dotyku przy nieoryginalnych ekranach w S23 Ultra po uaktualnieniu do OneUI 6.1, wynikające prawdopodobnie z kasowania firmware ekranu
+<li>dziwne wytyczne w serwisach, np. obowiązek usuwania nieoryginalnych części klientów, za które ci przecież zapłacili
+<li>jak dla mnie zwiększenie częstotliwości PWM w serii S24x do 480Hz to bardziej zarządzanie kryzysem i minimalizacja strat wizerunkowych (i tylko wyrównywanie do Apple) niż chęć realnego rozwiązania problemu
+<li>gorszy zoom optyczny w S24 Ultra niż S23 Ultra (czytaj: weszli księgowi)
+<li>Samsung chwali się obecnie przepisywaniem OneUI, co widać było już wiele razy, a skończyło się jak zawsze (moim zdaniem firma powinna przedstawić nowy produkt zamiast pompować balonik)
+<li>mamy tak wiele wariantów i wersji, że część zwyczajnie staje się niebezpieczna (np. nie ma możliwości wyłączenia 2G), a producent ma za mało czasu na wprowadzenie prawdziwej rewolucji
+<li>firma zaczyna usuwać własne, unikalne rozwiązania w oprogramowaniu (np. Samsung Messages) i kilka rzeczy wskazuje na to, że kolejna generacja będzie wyglądać bardzo podobnie jak konkurencja
+<li>rozdzielanie świata i używanie Exynosów i Snapdragonów
+<li>konserwatyzm w kwestii baterii, szybkiego ładowania i kilku innych rzeczy
+</ul>
+
+<p>Jeżeli podobne działania będą kończyć się rosnącą sprzedażą, to nic nie zmieni się na rynku. Z drugiej strony nie zapominajmy też o strajku w jednej z koreańskich fabryk (ten pokazuje, jakie metody mogą być stosowane w środku tej korporacji i jaka stagnacja może tam panować), co jest zupełnie przeciwne do tego, co zrobiło Xiaomi (całkowicie autonomiczna fabryka z samymi robotami, wskazująca na inwestycje i mocny rozwój).
+
+<p>Gdybyśmy nie chcieli Magic6 Pro, to pozostaje wspomniany Honor 200 (norma IP tylko 65 i jednak średnia półka), Xiaomi 14 / 14 Pro / 14 Ultra (znane problemy z parującymi obiektywami, wynikające prawdopodobnie z użycia złego kleju, złożenia urządzeń w wilgotnej atmosferze czy defektu chłodzenia) czy modele OnePlus (tu zdania są podzielone, i niektórzy użytkownicy twierdzą, że firma wycofuje się z rozwiązań DC przy podświetlaniu), Vivo, Oppo, Redmi, Motoroli i kilku innych chińskich marek (część niedostępna w Europie).
+
+<p>Ogólnie nie zawsze wygląda to jakoś super, ale już teraz widać, że Samsung i Apple tracą rynek na swoje własne życzenie. To trochę jak z Boeingiem, Intelem, Google, Facebookiem/Metą czy Microsoft.
+
+<p>PS. kolejna generacja telefonów chińskich w standardzie może mieć baterie 6000mAh i zoom optyczny 10x.

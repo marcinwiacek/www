@@ -1,0 +1,132 @@
+﻿Title: Seria S Samsunga się zmienia, czyli kilka słów o dobrych i wstydliwych rzeczach (2024)
+Author:marcin
+When:9 Jan 2024
+Taxonomy:polski,polski blog,salon24.pl
+
+<p style="text-align: justify;">„Stało się! Samsung udostępnił nową, niesamowitą kompilację Androida 14! Już, już, wszyscy niech się spieszą i co kilka minut sprawdzają, czy jest u nich dostępna!”</p>
+<!--teaser-->
+<p style="text-align: justify;">Od kilkunastu tygodni taką wiadomość do znudzenia powtarzają różne portale. Wierszówka wyrobiona, biznes się kręci, użytkownicy ściągają gigabajty plików, tylko… czy na pewno jest o czym mówić?</p>
+<p style="text-align: justify;">W tekście chciałbym spojrzeć na nową wersję i między innymi poruszyć kilka kwestii, które zazwyczaj się przemilcza. Porównam tu Samsunga Galaxy S9 (Android 10 / One UI 2) z S21+ (Android 14 / One UI 6), i postaram się odpowiedzieć na kilka innych pytań.</p>
+<p style="text-align: justify;">Czy zmiana starszego z wymienionych modeli na nowszy ma sens czy wiąże się z jakimiś problemami? Czy należałoby wybrać może coś innego z oferty tego samego producenta? I czy „aż” dwuletni telefon ma coś do zaoferowania?</p>
+<p style="text-align: justify;">Zapraszam.</p>
+<p style="text-align: justify;"><b>Uaktualnienia</b></p>
+<p style="text-align: justify;">Google w przypadku ostatnich modeli Pixela daje gwarancję poprawek przez siedem lat, Samsung począwszy od serii 21 gwarantuje cztery nowe wersje Androida / OneUI i dodatkowo rok poprawek zabezpieczeń. Oznacza to mniej więcej tyle, że (według stanu obecnego) S21+ będzie miał Androida 15 (m. in. dodatkowe opcje związane z baterią) i 16, a potem gdzieś około 2026 zakończy się jego oficjalna historia.</p>
+<p style="text-align: justify;">Czy to długo czy nie?</p>
+<p style="text-align: justify;">Laicy mogą powiedzieć, że korporacje są po to, żeby zarabiać, z drugiej strony różne projekty (np. Treble) powodują, że koszt przygotowywania nowych wersji Android dla poszczególnych telefonów coraz bardziej spada do zera. Należy też zauważyć, że sam Samsung ma tu pewien problem z określeniem, co wspierać, a co nie, i świadczą o tym pierwsze doniesienia prasowe o OneUI 6 mówiące o dostępności dla serii S20.</p>
+<p style="text-align: justify;">Błąd? Zmiana planów w ostatniej chwili?</p>
+<p style="text-align: justify;">Można powiedzieć, że przeciętne telefony od dawna są wystarczające (szczególnie dla nietechnicznych) użytkowników, i jeśli ci je wymieniają, to nie ze względu na wsparcie czy bezpieczeństwo, tylko większą prędkość, lepszą kamerę, uszkodzenia mechaniczne obecnie używanych, itp.</p>
+<p style="text-align: justify;">W przypadku wspomnianego S21+ Android 14 (a właściwie OneUI 6) ma kilka irytujących błędów, i aż dziwi, że znany producent w ogóle do nich dopuścił. O tym za chwilę.</p>
+<p style="text-align: justify;">Inną kwestia jest to, że u mnie (przy moich ustawieniach?) konieczne jest oddzielne wchodzenie w opcję uaktualnienia Google Play, <br />
+<br />
+<img src="sites/default/files/626/32.Screenshot_20240107_203353_Google_Play_Store.jpg" style="width: 243.155px; height: 540.233px;" alt="image" /><br />
+<br />
+a uaktualnienia systemu dostępne są gdzieś indziej i nie działają w roamingu (co przypomina obecne przez lata ograniczenie iOS, że uaktualnienie systemu wymaga komputera lub Wi-Fi):<br />
+<br />
+<img src="sites/default/files/626/31.Screenshot_20231222_093434_Softwar_update.jpg" style="width: 239.9px; height: 533px;" alt="image" /><br />
+<br />
+<b>Wielkość</b></p>
+<p style="text-align: justify;">S9 miał ekran wielkości 5,9”, z kolei S21+ może pochwalić się obrazem o przekątnej 6,7”, o ile zaakceptujemy dziurę na kamerę do wideokonferencji (sam w praktyce w wielu apkach ją chowam, pokazując na górze czarny pasek, co daje trochę mniej miejsca niż 6,7”)</p>
+<p style="text-align: justify;">Część tej przestrzeni osiągnięto rozszerzając ekran do granic ramki (głośnik jest teraz schowany w szczelinie). Urządzenia nie da się wygodnie trzymać i obsługiwać jedną ręką, do tego jest wyraźnie cięższe (kwestia przyzwyczajenia i z czasem można o tym zapomnieć). Dźwięk z głośnika nie jest tak słyszalny jak w S9 i szczerze mówiąc, widzę tu jedną z bardzo złych decyzji projektowych.<br />
+<br />
+<b>Ekran</b></p>
+<p style="text-align: justify;">Największe zaskoczenie. Przez lata byłem przyzwyczajony do dobrej jakości paneli Samsunga - w opcjach miałem pięć możliwości wyboru kolorów, a obraz miał tak duże zagęszczenie pikseli, że problemem nie było dostosowanie wielkości elementów (te zawsze miały odpowiednio ostre krawędzie).</p>
+<p style="text-align: justify;">W przypadku S21+ PPI ma wartość jedynie 400, w „normalnym” menu dostajemy też wyłącznie dwa predefiniowane profile kolorów. Długo musiałem eksperymentować z ustawieniami, w końcu udało się uzyskać coś, co działa… ale czuję się jakbym wrócił do czasów S4 mini, a jakość znana z serii S6-S9 w ogóle nie istniała (jeżeli ktoś chce PPI 500, to musi kupić model Ultra, ale nawet ten w grze na cyferki będzie gorszy niż S7 czy S9).<br />
+<img src="sites/default/files/626/01.1.Screenshot_20240107_194002_Settings.jpg" style="width: 240.826px; height: 534.333px;" alt="image" /> <img src="sites/default/files/626/01a.Screenshot_20240107_194010_Settings.jpg" style="width: 240.112px; height: 533.667px;" alt="image" /><br />
+Teoretycznie można wskazać, że przeciętny człowiek nie rozróżnia większego zagęszczenia pikseli, z drugiej strony Apple np. w komputerach przenośnych daje znacznie więcej niż Full HD.</p>
+<p style="text-align: justify;">Przypadek?</p>
+<p style="text-align: justify;">Standardowo mamy wybór rodzaju czcionki i wielkości elementów ekranu i czcionek (kilka wartości do wyboru). <br />
+<img src="sites/default/files/626/02.Screenshot_20240107_195010_Settings.jpg" style="width: 236.18px; height: 525.5px;" alt="image" /> <img src="sites/default/files/626/03.Screenshot_20240107_195006_Settings.jpg" style="width: 236.749px; height: 526px;" alt="image" /><br />
+</p>
+<p style="text-align: justify;">I tu się pojawia problem - ich kombinacja nie zawsze daje komfort, a dodatkowo wielkość ikon w launcherze potrafi być nienaturalnie dobrana (mamy mikroskopijny tekst i ogromne obrazki). Z tego powodu używam tu aplikacji Big Font (z Google Play) do procentowej zmiany skalowania i dodatkowo Theme Park (z Samsung Store) do zmiany wielkości ikon, i dopiero wtedy uzyskuję zadowalający efekt.<br />
+</p>
+<p style="text-align: justify;"><img src="sites/default/files/626/04.03.Screenshot_20240107_194106_Theme_Park.jpg" style="width: 216.25px; height: 479.667px;" alt="image" /> <img src="sites/default/files/626/05.02.2.Screenshot_20240107_194029_Big_Font.jpg" style="width: 216.638px; height: 480.333px;" alt="image" /> <img src="sites/default/files/626/06.04.Screenshot_20231231_170748_One_UI_Home.jpg" alt="image" style="width: 216.55px; height: 481.607px;" /><br />
+Do tego dochodzi możliwość instalacji własnego motywu - na przykład dla mnie najlepiej sprawdza się zestaw Blue:<br />
+<br />
+<img src="sites/default/files/626/07.Screenshot_20240107_194128_Settings.jpg" style="width: 257.783px; height: 572.733px;" alt="image" /> <img src="sites/default/files/626/08.Screenshot_20231204_214727_Settings.jpg" style="width: 257.641px; height: 572.417px;" alt="image" /><br />
+Jest tu opcja ustawienia bardziej kontrastowych czcionek, ale tej nie polecam (w różnych aplikacjach pojawiają się bardzo brzydkie artefakty).</p>
+<p style="text-align: justify;">Z funkcji, które producent dodał, jest możliwość dodatkowego zmniejszenia jasności. I tu dochodzimy do pewnej prawidłowości. Obraz w nowych telefonach domyślnie bije po oczach, mniejsza jasność pojawia się w opcjach oszczędzania energii, jak również w opcjach ułatwień.</p>
+<p style="text-align: justify;">Samsung wydaje się rozumieć, że za dużo nitów może być problemem, ale z drugiej strony nie pokazuje ostrzeżeń, gdy mamy ustawioną jasność na maksimum - dla mnie wymowną oznaką problemu jest na przykład to, że po długim używaniu przy standardowych ustawieniach daje się zauważyć delikatne wypalenie w miejscu ikon na górze (jak również w miejscu ikony pokazującej używanie opcji Secure Folder). Nie wydaje się to być związane z błędem w OneUI 6 (część użytkowników raportuje, że telefon nie zmienia położenia tych samych elementów interfejsu).</p>
+<p style="text-align: justify;">Inną sprawą jest to, że dynamiczna zmiana częstotliwości odświeżania jest niedostępna, gdy chcemy oszczędzać energię (tutaj pomóc jedynie może zakup nowszego telefonu typu S23 Ultra)</p>
+<p style="text-align: justify;"><b>USB-C, złącza i łączność bezprzewodowa</b></p>
+<p style="text-align: justify;">Używam różnych urządzeń ze złączem USB-C i pewnym zaskoczeniem było dla mnie wypadanie kabla do ładowania w opisywanym S21+. Częściowo o tym pisano, ja poradziłem sobie czyszcząc złącze złożonym kawałkiem żółtej karteczki post-it (jej wciskanie i przesuwanie pozwoliło na usunięcie nagromadzonego brudu).</p>
+<p style="text-align: justify;">Innym zaskoczeniem jest to, że czasami trzeba restartować telefon, bo inaczej Windows pokazuje nieznane urządzenie z informacją o błędzie „Device Descriptor Request Failed”.</p>
+<p style="text-align: justify;">Nowe urządzenie nie ma również jacka 3,5mm. Producenci reklamują to oczywiście jako krok w dobrą stronę (chcą nas skłonić do używania słuchawek bezprzewodowych, mówią również o możliwości umieszczenia większej baterii czy oszczędnościach przy produkcji), ale… ilość ataków przez Bluetooth (i dobra praktyka jego wyłączania, gdy nie jest używany) prowokuje, żeby twierdzić, że słuchawki po kablu są lepsze.</p>
+<p style="text-align: justify;">I co wtedy?</p>
+<p style="text-align: justify;">Użytkownik musi dokupić przejściówkę, ale ta wymaga wewnętrznego układu DAC (tanie urządzenia bez niego nie działają). Nie chciałbym tu uprawiać kryptoreklamy, ale obecnie zdarza mi się używać urządzenia chińskiej firmy Ugreen (niską głośność maksymalną zwiększyłem używając Volume Booster GOODEV z Google Play, do tego jest możliwość ładowania, minusem jest zwisanie nieestetycznego pudełka z dołu telefonu i niestety lekkie pogorszenie dźwięku przy podbijaniu głośności).</p>
+<p style="text-align: justify;">Czy taka była idea? Czy chodziło naprawdę o to, żeby użytkownicy musieli zachowywać się jak fani Apple i nosić tony przejściówek?</p>
+<p style="text-align: justify;">Pamiętajmy, że ich jakość bywa różna, a do tego część z nich może mieć sprzętowe backdoory (i śmiesznie wygląda to, gdy dobry telefon generuje kiepski dźwięk).</p>
+<p style="text-align: justify;">Duża różnicą S21+ w stosunku do S9 jest implementacja WP3 i możliwość ukrywania identyfikatora sieci przy Wi-Fi (równocześnie brak jest zmiany ikony, gdy jakieś urządzenie jest podłączone do routera Wi-Fi)<br />
+<img src="sites/default/files/626/28.Screenshot_20231113_175954_Settings.jpg" style="width: 294.661px; height: 654.667px;" alt="image" /><br />
+Dobrą funkcją jest to, że w ustawieniach developerskich można ustawić, żeby po podłączeniu do komputera telefon od razu udostępniał internet po kablu (jest też kilka innych ciekawych opcji).<br />
+<img src="sites/default/files/626/21.Screenshot_20231231_195537_Settings.jpg" style="width: 152.683px; height: 339.417px;" alt="image" /> <img src="sites/default/files/626/22.Screenshot_20231231_195532_Settings.jpg" style="width: 151.89px; height: 337.667px;" alt="image" /> <img src="sites/default/files/626/23.Screenshot_20231231_195515_Settings.jpg" style="width: 152.85px; height: 339.667px;" alt="image" /> <img src="sites/default/files/626/24.Screenshot_20231231_195042_Settings.jpg" style="width: 153.782px; height: 341.667px;" alt="image" /> <img src="sites/default/files/626/25.Screenshot_20231231_195024_Settings.jpg" style="width: 154.382px; height: 343px;" alt="image" /><br />
+<b>Prędkość i zarządzanie energią</b></p>
+<p style="text-align: justify;">S21+ przy małym używaniu działa mi zazwyczaj 2 dni, a przy intensywnym około jeden dzień. Jeśli spojrzymy na to, co producenci piszą co roku o coraz lepszych procesorach (przy każdym wymieniona jest co najmniej 20% większa prędkość, energooszczędność i masa innych rzeczy), to teoretycznie dzisiaj powinniśmy już widzieć w testach 10 dni… ale tak nie jest.</p>
+<p style="text-align: justify;">Czy reklamy są tu nierealistyczne czy winny jest Exynos?</p>
+<p style="text-align: justify;">Układy te nie mają dobrej reputacji. Mogę potwierdzić, że już S9 wystarczał mi do normalnych zadań (pomijam granie) po zastosowaniu kilku tricków typu wyłączenie animacji menu, ale potrafił się (zbyt) mocno zgrzać na przykład przy rozmowach w Signalu. Nowszy model jest co najwyżej przyjemnie ciepły, a do tego szybszy. Ogólnie nie jest źle, ale… na Snapdragonie mogłoby być znacznie lepiej, i wskazują na to różne benchmarki (przykład dla zupełnie innego modelu S23 FE: Snapdragon według gsmarena pozwala na 35:15h rozmów, a Exynos 28:26h, podobne różnice są również przy innych scenariuszach)</p>
+<p style="text-align: justify;">Wspomniałem o oszczędności energii. Opcje z nią związane są zdefiniowane następująco:<br />
+<img src="sites/default/files/626/09.Screenshot_20240107_194201_Device_care.jpg" style="width: 224px; height: 497.907px;" alt="image" /><br />
+Inną funkcją jest wyłączanie aktywności w tle:<br />
+<img src="sites/default/files/626/10.Screenshot_20240107_202038_Device_care.jpg" style="width: 224px; height: 497.28px;" alt="image" /><br />
+Jest też opcja „Allowed networks for apps” (można tam ustawić, żeby dana apka miała dostęp tylko do Wi-Fi):<br />
+<img src="sites/default/files/626/11.Screenshot_20240107_194308_Settings.jpg" alt="image" style="width: 231px; height: 514.161px;" /><br />
+a przy każdej apce można też włączyć / wyłączyć transmisję w tle:<br />
+<img src="sites/default/files/626/12.Screenshot_20240107_194341_Settings.jpg" style="width: 230.448px; height: 512px;" alt="image" /><br />
+Bardzo złą decyzją jest brak obecności diody powiadomień w nowym modelu i bardzo jasne tło w różnych miejscach One UI 6 przy czarnym motywie:<br />
+<img src="sites/default/files/626/29.Screenshot_20231204_214536_One_UI_Home.jpg" style="width: 209.293px; height: 465px;" alt="image" /><br />
+Inną sprawą jest pokazywanie przez telefon, że podłączono szybką ładowarkę, ale wskazywanie na wolne ładowanie (myślę, że optymalna byłaby informacją, z jaką ilością watów ładujemy, jak również jaką pojemność i zużycie ma bateria). Obecnie z jednym z tych problemów poradziłem sobie stosując aplikację&nbsp; Ampere z Google Play:<br />
+<img src="sites/default/files/626/15.Screenshot_20240107_203501_Ampere.jpg" style="width: 244px; height: 543.513px;" alt="image" /><br />
+<b>Kamery</b></p>
+<p style="text-align: justify;">Jakiś postęp jest widoczny, nie ma co komentować (inną kwestią jest to, że procesory Snapdragon wydają się lepiej przetwarzać zdjęcia).</p>
+<p style="text-align: justify;">Inną sprawą jest to, że kamera przednia nie jest tak dobra jak tylna (zamiast trzech obiektywów z tyłu i jednego z przodu z chęcią widziałbym jeden, ale taki sam z obu stron).</p>
+<p style="text-align: justify;">W obu wypadkach, jeśli chcemy jeszcze lepszą jakość, musimy rozejrzeć się za nowszą generacją (S23 Ultra?).</p>
+<p style="text-align: justify;"><b>Pamięć</b></p>
+<p style="text-align: justify;">S21+ ma więcej RAM, domyślnie też posiada uaktywniony RAM Plus, który jest niczym innym jak swapem na dysku (wyłączyłem to u siebie, żeby oszczędzać pamięć flash).</p>
+<p style="text-align: justify;">W nowym modelu nie ma już wsparcia dla kart pamięci - nie korzystałem, ale można tu pisać&nbsp; o cenie wariantów z większą ilością (Samsung zarabia na tym ekstra pieniądze) i większej prędkości wbudowanych kości.</p>
+<p style="text-align: justify;"><b>Aplikacje</b></p>
+<p style="text-align: justify;">To jest właśnie siła i słabość Androida (apek jest dużo, ale zanim natrafi się na coś wartościowego, trzeba się naszukać). Samsung standardowo instaluje takie rzeczy jak produkty Microsoft (np. oneDrive czy Word), Netflixa czy Facebooka (Metę). Konieczna jest spora praca, że je powyłączać. Inną kwestią jest to, że Word, choć darmowy, wymaga założenia konta u Microsoft. Niektórzy użytkownicy wspomną tutaj o bloatware, ale moim zdaniem po spędzeniu mniej więcej godziny czy dwóch bez problemu można się pozbyć wszystkiego nawet na oryginalnym ROM. Samo urządzenie nie ma domyślnie całego dobrodziejstwa inwentarza producenta, i przykładowo można polecić doinstalowanie Secure Folder czy Camera Assistant. Nie do końca rozumiem logikę kryjącą się za tym wszystkim, ale nieważne.</p>
+<p style="text-align: justify;">Z darmowych aplikacji firm trzecich mógłbym polecić Cromite (świetna alternatywa do Chrome, pozwalająca wyłączyć większość reklam, dająca odtwarzanie muzyki w tle czy ciemny profil na różnych stronach), Tor Browser (w miarę anonimowe przeglądanie stron www), Lithium i PocketBook (czytniki ebooków), WriterP (pisanie w plikach tekstowych md), Navmii (navigacja), Gboard (klawiatura od Googla), Volume Booster GOODEV (zwiększenie głośności) czy Gcam (inne opcje kamery)</p>
+<p style="text-align: justify;"><b>Android 10, a 14</b></p>
+<p style="text-align: justify;">Dla nietechnicznego użytkownika niewiele się zmienia, może jakieś opcje dotyczące powiadomień czy różnych rzeczy pod maską.</p>
+<p style="text-align: justify;">I tak:<br />
+<br />
+<ol>
+<li>po starcie pojawia się pojawienie od Secure Folder (trzeba wpisać PIN, żeby zniknęło)<br />
+<img src="sites/default/files/626/16.Screenshot_20231212_215101_One_UI_Home.jpg" style="width: 235.849px; height: 524px;" alt="image" /><br />
+<li>domyślnie ukrywane są aplikacje systemowe w ustawieniach w Apps
+<li>brak jest pytania o kod przy starcie telefonu (jeżeli zaszyfrujemy całość)
+<li>domyślnie pokazywana jest kontrolka odtwarzania muzyki po zablokowaniu klawiatury (żeby to zmienić, trzeba użyć opcji Settings, Lock Screen, Widgets)
+<li>Samsung ma opcję blokowania instalacji z zewnętrznych źródeł i przez kabel (Auto Blocker)
+</ol>
+<img src="sites/default/files/626/17.16.Screenshot_20240107_194426_Auto_Blocker.jpg" style="width: 242px; height: 537.667px;" alt="image" /><br />
+<br />
+System jest poniekąd dojrzały, ba, on był dojrzały już kilka lat temu (przed oczami ciągle mam S7 z uptime ponad rok). <br />
+<img src="sites/default/files/626/18.Screenshot_20231222-195404_Settings.jpg" style="width: 221px; height: 392.686px;" alt="image" /><br />
+Opcji jest sporo, a presja do dodawania nowych powoduje, że przeklikanie przez wszystko zajmuje dłuższą chwilę (i trzeba się naszukać). Ogólnie ciężko tu dodać coś istotnie rewolucyjnego (mówiąc inaczej – kompatybilność wsteczna powoduje, że coraz ciężej np. wprowadzać kolejne elementy typu pełne oddzielenie danych między aplikacjami).</p>
+<p style="text-align: justify;">Zdarzają się nielogiczności w tym ekosystemie, np. po ustawieniu maksymalnego oszczędzania dla apek (nie są uruchamiane w tle i są „wyłączone”) Google Play nie potrafi znajdować ich uaktualnień (trzeba je uruchomić i wejść do opcji sklepu). <br />
+<img src="sites/default/files/626/30.Screenshot_20231220_221320_Google_Play_Store.jpg" style="width: 246px; height: 547.225px;" alt="image" /><br />
+Inną kwestią jest to, że w domyślnej galerii Samsunga podglądy zdjęć mogą być zbyt duże, a Notes nie daje możliwości rozpoznawania pisma (zarezerwowano to tylko dla rysików). W części menu systemowych dane nie są zapamiętywane, a ich odświeżanie zajmuje sporo czasu (przykład: gdy jesteśmy w opcji dotyczącej zużycia danych, po wejściu na ekran dotyczącej konkretnej aplikacji i powrocie wszystkie jest przeliczane od nowa). Jeżeli jeszcze można się czegoś czepić, to tego, że domyślnie nie można nagrywać rozmów telefonicznych (polityka Google), a cały system jest uważany za nieskończone narzędzie do zbierania telemetrii. Najlepiej pokazują to domyślne uprawnienia apek systemowych, ale również ustawienia apek od Google (domyślnie wszystko jest włączone):<br />
+<img src="sites/default/files/626/19.Screenshot_20231118_220213_Gmail.jpg" style="width: 272.306px; height: 605px;" alt="image" /> <img src="sites/default/files/626/20.Screenshot_20231118_220131_Google_Play_Store.jpg" style="width: 272.831px; height: 606.167px;" alt="image" /><br />
+To samo jest przy klawiaturze Google i w wielu innych miejscach.</p>
+<p style="text-align: justify;">Z ciekawostek można wymienić to, że nie działa już kod *#06# do sprawdzania IMEI w dialerze, jak również użytkownik ma dostęp do (zbyt) wielu funkcji bez odblokowania klawiatury (to bardzo zła cecha oneUI)<br />
+<img src="sites/default/files/626/14.Screenshot_20240107_194513_One_UI_Home.jpg" alt="image" style="width: 250.777px; height: 557.167px;" /><br />
+<b>Sieć</b></p>
+<p style="text-align: justify;">Obecne telefony 5G Samsunga mają praktycznie zawsze większe promieniowanie maksymalne niż starsze operujące na 4G (jedyną różnicą między modelami jest zwiększenie czynnika „przy głowie” kosztem współczynnika „przy ciele”) i właściwie najbardziej brakuje jasnej informacji, jak to wygląda na kolejnych pasmach (możliwe, że telefon promieniuje bardziej tylko przy konkretnych ustawieniach).</p>
+<p style="text-align: justify;">Teoretycznie sieci komórkowe są bardzo dojrzałe i w S21+ mamy wszystko, czyli wsparcie dla eSIM (karta SIM w postaci kodu), 5G, VoLTE czy Wi-Fi calling, ale…</p>
+<p style="text-align: justify;">
+<ol>
+<li>5G działa tylko dla karty SIM wybranej do transmisji danych (to chyba ograniczenie Samsunga),
+<li>konieczne jest posiadanie kart eSIM / USIM dla sieci 4G / 5G (wynika to ze standardów i jest ważne w Polsce, gdyż sieci 3G będą wkrótce wyłączone)
+<li>roaming VoLTE jest ciągle w powijakach (wynika to ze standardów), a sam telefon w jednym momencie może transmitować z użyciem wyłącznie jednej karty (jest to tzw. dual sim standby i związane to jest z ograniczeniami sprzętu)
+<li>Wi-Fi calling teoretycznie nie można użyć np. w następującej konfiguracji: włączamy transmisję danych na pierwszej karcie i nakazujemy działać karcie drugiej przez sieć udostępnianą przez kartę pierwszą (to wygląda na ograniczenie Androida, który podaje sprzeczne informacje na ten temat, co widać, gdy włączymy automatyczną opcję przełączania transmisji danych między kartami),
+</ol>
+<img src="sites/default/files/626/26.Screenshot_20231230_105919_Wi-Fi_Calling.jpg" style="width: 261.954px; height: 582px;" alt="image" /> <img src="sites/default/files/626/27.Screenshot_20231230_105830_Call_settings.jpg" style="width: 262.479px; height: 583.167px;" alt="image" /><br />
+<b>Podsumowanie</b></p>
+<p style="text-align: justify;">Teoretycznie człowiek jest jak świnia i do wszystkiego może się przyzwyczaić, a technologia się zmienia, niestety nie zawsze w sposób przyjazny dla użytkowników. Nie uważam nowszych modeli Samsunga za szczególnie udane lub atrakcyjne (wyróżniające się z tłumu), i poniekąd częściowo znajduje to odzwierciedlenie w statystykach sprzedaży.</p>
+<p style="text-align: justify;">Obecne telefony ogólnie nie mają tego „czegoś” i stały się czymś, co dostępne jest zawsze i po przejściu chorób wieku dziecięcego (często bardzo poważnych) po prostu działa, jak długopis czy młotek, o ile… poświęcimy dużo czasu na porządną konfigurację i wyłączenie wszystkich ulepszaczy i wspomagaczy.</p>
+<p style="text-align: justify;">Podobnych konstrukcji jak dzisiejsze można oczekiwać mniej więcej do 2027 (jeśli Unia będzie wciąż istnieć, mniej więcej wtedy wymusi wymienne baterie). Jednym z największych problemów obecnie nie jest ilość pikseli, megabajtów czy megaherców, tylko to, że wcześniejsze modele Samsunga przypominały Fiata 125 z początku produkcji (chromy, dobre wykonanie, ciekawy design, itp.), a obecne powoli niebezpiecznie dryfują w stronę „kanciaka” z końca produkcji (gdzie wszystko jest toporne i oszczędnościowe). W tym pędzie wydaje się, że w dążeniu do zwiększenia słupków sprzedaży zapomniano o podstawowych funkcjach, traktując je trochę po macoszemu.</p>
+<p style="text-align: justify;">Firma coraz bardziej wydaje się skupiać na niższej półce - urządzenia mają mniejsze promieniowanie (szczególnie wersje 4G), gniazdo jack i kilka innych rzeczy, które istotnie zwiększają ich podstawową funkcjonalność (gdyby nie kwestia normy IP67, to można nawet powiedzieć, że A34 to praktycznie S9).</p>
+<p style="text-align: justify;">Jak pisałem wcześniej, ekran w S21+ ma 6,7”. Tyle kiedyś umieszczano w topowych Galaxy Note.</p>
+<p style="text-align: justify;">Dlaczego nie ma tu wsparcia dla rysika? (teoretycznie można włączyć tryb pisania ręcznego w Gboard i kupić sobie rysik dla ekranów pojemnościowych, ale ten nie będzie mieć wszystkich funkcji, nie da się go schować w obudowie i może skrzypieć przy pisaniu, co widzę przy piórze od firmy Hama).</p>
+<p style="text-align: justify;">I czy nie lepiej byłoby produkować tylko modeli S i S Ultra?</p>
+<p style="text-align: justify;">Ogólnie mówiąc, S21+ przegrywa w wyścigu na cyferki (nowsze modele mają lepsze specyfikacje), myślę jednak, że jeśli pominiemy zdjęcia, dla przeciętnego użytkownika w codziennym użytkowaniu nie odstaje zbyt mocno od kolejnych generacji. Pamiętajmy, że obecnie jest wspierany do 2026, a już chwilę później mogą się pojawić konstrukcje z wymienną baterią (istotnie różne od obecnych).</p>
+<p style="text-align: justify;">PS. Modele rozkładane są o tyle niedobre, że (pomijając wytrzymałość) nie da się w nich nakleić folii matowej. A tzw. AI w wydaniu Samsunga ma być podobno płatna, i chociaż pewnie przyda się w obróbce zdjęć czy tłumaczeniu tekstów, to czy naprawdę istotnie zmieni jakość naszego życia? Czas pokaże. Premiera serii S24 już wkrótce.</p>

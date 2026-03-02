@@ -1,0 +1,56 @@
+﻿Title: Missed Clevo opportunity (2025)
+Author:marcin
+When:23 Nov 2025
+Taxonomy:English,English blog,Linux,Ubuntu,Hyperbook
+
+Few years ago I have bought Clevo L140MU branded by Polish Hyperbook. It was revolutionary in this time (36h after limiting power) 
+and <a href=?q=taxonomy/term/Hyperbook>I even wrote few articles about setting it up</a>.
+
+Shortly speaking: weight 1kg, battery 73Wh, LCD B140HAN06.2, fully black case, almost no holes in the bottom & SSD Samsung 980.
+<!--break-->
+I’m using it even now and have few notes:
+
+<ul>
+<li>speakers shouldn’t be on the bottom (many new laptops have them on the top)
+<li>need USB-A and USB-C on the left and right side
+<li>small arrow keys are very weak (much better is solution from Lenovo)
+<li>piano black area with cameras needs matt and privacy mechanism – I have to use electric tape to cover it
+<li>one of weakest elements is limited options BIOS without updates (I would like to disable Intel ME, camera, microphone, card reader, 
+USB, TPM, green power light and generally everything, what is not required for writing texts and takes battery energy)
+<li>touchpad is VERY bad (I don’t expect Macbook quality, but pressing it in all places should give some left / right key reaction)
+<li>I don’t use two SSD & would welcome even bigger battery (carbon technology already?)
+<li>hinges 180 degress and lack of ventilation holes on the bottom are good and useful
+<li>too big off / standby battery usage (I expect, that power is used just for RTC and eventually refreshing RAM,
+I could simply press concrete button to return from standby)
+<li>excellent full HD non PWM low power LCD makes good work, the only annoying thing is, that keyboard can make pressure on it, when laptop is closed
+<li>keyboard is not bad, but maximally medium (I like much more Macbook Air or Acer Swift 1 SF114-32)
+<li>build quality is max. 4 in school scale (up and down part are not ideally aligned, some edges are
+not perfect equal, etc.), but it doesn’t matter in the end
+<li>device doesn’t need any “power on” light – it’s only taking power and doesn’t give any added value
+</ul>
+
+<p>I was thinking about replacing this device with some later model from this line (L24xLUx with Lunar Lake), but:
+
+<ul>
+<li>it has ugly power button with bright white LED (enabled all the time & working like torch) –
+the biggest stupidity ever especially that this is second “power on” button
+<li>it seems to be just fast-done ugly refresh with place for one SSD and no USB-C in both sides
+<li>it’s <a href=https://www.pcspecialist.co.uk/notebooks/FusionVI-14/>provided by PC Specialists only</a>
+– they give probably medium screen (72 percent NTSC doesn’t sound very good)
+and their reviews (<a href=https://blog.alextldr.com/posts/fusion-series-14/>review1</a>,
+<a href=https://hardwareand.co/dossiers/systems/le-fusion-14-de-pcspecialist-passe-en-test-les-promesses-de-lunar-lake-enfin-tenues?start=1>review2</a>)
+say something about 16 Wi-fi or video playback hours, when other 
+Lunar Lake machines have even 24h (methodology can be different, but in this situation it’s better to buy something from known, better supported brand)
+<li>new generation won’t be probably so good supported in Linux because it’s not sold by Tuxedo (in old model theoretically I could disable fan and camera)
+</ul>
+
+<p>Generally speaking Clevo missed market opportunity. Current Macbook Air M1 or M4 with extra matt foil (when battery life is not critical), 
+XPS 13 with grey color (when ugly design is not problem) or Dell Pro Premium 13 (with small size SSD) are much more promising or 
+at least it’s possible to find their reviews. Big shame.
+
+<p>PS. My ideal scenario is simple – writing something in the Libre Office on the light silent machine with good input devices, black, 
+matt case & matt screen (no PWM please), long battery life (in idle, power off and standby), protection against small moisture 
+or liquid and good Linux support. I don’t need big speed or 4K screen or some latest technologies, it must be just very functional. 
+I don’t even want to have fan inside – it can be like Macbook Air, but just fully working with Open Source software (not only Gnome based)
+
+<p>PS. Mail marketing@clevo.com.tw from Clevo website seems to be unavailable.

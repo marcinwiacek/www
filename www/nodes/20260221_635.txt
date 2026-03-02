@@ -1,0 +1,167 @@
+﻿Title: Why Clevo laptop from 2021 is more functional than Dell XPS14 and others from 2026? (2026)
+Author:marcin
+When:21 Feb 2026
+Taxonomy:English,English blog,x86,Hyperbook
+
+First my reference system: black matt case, 1kg, 14” non-blinking Low Power LCD, 73Wh battery, 
+practically no holes on the bottom, hinges opening with 180 degrees, etc.
+
+<p>Now let’s look on the market. 
+
+<p>Few years ago Intel created X86S standard, where proposed removing some obsolete modes and instructions. Was it implemented? No.
+<!--break-->
+<p>In 2024 there was released Lunar Lake SoC, which could be competition in power usage area with Apple M series or Snapdragon. 
+In 2026 we have seen Panther Lake, theoretically better (I say theoretically, because
+<a href=https://www.pcworld.com/article/3034214/intel-core-ultra-x9-388h-review-epic-graphics-battery-life.html>you can already find, that Panther seems not immediately return to lower power</a>).
+
+<p>We have seen few interesting laptops, but:
+
+<ul>
+<li>some known brands (mainly Dell, but not only) started experimenting with things like zelo-lattice keyboards, 
+frameless touchpad and keys in the touch bar form – all very problematic in daily use (see 
+<a href=https://www.youtube.com/watch?v=YvGS-efW2ZU>Dell Thought They Were Apple...Got A Harsh Reality Check</a>)
+
+<li>(US) devices are still throttling – see for example 
+<a href=https://www.notebookcheck.net/Dell-XPS-14-Core-Ultra-7-355-review-Still-great-but-not-nearly-as-special.1222645.0.html>XPS14 2026 review</a>
+
+<li>in different models there is available power hungry OLED and high-res LCD ONLY
+
+<li>(especially USB-C) ports are put in one side / are very close to each other - it’s difficult to connect
+two devices or charger (exception: Framework devices)
+
+<li>they drain battery a lot in power off / standby – this is NOT normal and refreshing DRAM is probably taking much less energy
+
+<li>they’re normally heavy in America - it’s ca. 1,3kg (battery typically 50-60Wh), when Asian models are many times with ca. 1kg (battery even 73Wh)
+
+<li>screens are not marked with info „no PWM” or „no dithering” (generally speaking there are used different forms of blinking and user is not informed)
+
+<li>keyboards have more and more strange layouts – with small arrow keys, call button or power button next to backspace,
+offline button next to insert, etc.
+(and user doesn’t see anywhere clear pictures with layout anywhere)
+
+<li>at least one (Dell Pro 13 Premium) is using very unusual M2 2230 format
+
+<li>screen cover in some of them cannot be opened with one hand – see 
+<a href=https://www.youtube.com/watch?v=q-jKP-yZ5TQ>The Truth About the New XPS 14 & 16 (Unpaid Review)</a>
+
+<li>they’re using liquid metal (Asus only?) – earlier or later it’s making shortcuts
+
+<li>ventilation holes on top are difficult to clean
+
+<li>in many models parts are vulnerable to mechanical damages (like USB ports are connected directly to the mainboard) or overcomplicated
+and this is increasing risk of failure
+
+<li>mechanical switches for camera / microphone are still not very popular
+
+<li>ventilation holes on the bottom are not practical
+
+<li>outside US it's difficult to buy majority of configurations (big companies like Dell, HP, LG are highly limiting number of configs)
+
+<li>Windows support only (very risky for users in situation, when Microsoft qulity seems to be going totally down)
+</ul>
+
+<p>Let’s look, what we have in today x86 laptops:
+
+<ul>
+<li>mainboard with CPU
+<li>RAM and disk
+<li>touchpad and keyboard
+<li>ports
+<li>Embedded Controller (second CPU, normally ARM)
+<li>Intel ME for Intel (third CPU, ARM?)
+<li>other CPUs in controllers? (in NVME for example)
+<li>speakers
+<li>battery
+<li>screen
+<li>case
+</ul>
+
+<p>EC is normally working the whole time and is controlling fans, disabling / enabling main CPU, charging, etc. 
+I’ve tried to find some specs and power usage for typical chips, but it was a little difficult. Additional problem is complicated ACPI spec, 
+which is not correctly implemented for years.
+
+<p>Some info:
+
+<ul>
+<li>ASUS problems - <a href=https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive>https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive</a>
+<li>Modern standby on FreeBSD (S0ix) - <a href=https://obiw.ac/s0ix/>https://obiw.ac/s0ix/</a>
+<li>UEFI specs - <a href=https://uefi.org/htmlspecs/ACPI_Spec_6_4_html/>https://uefi.org/htmlspecs/ACPI_Spec_6_4_html/</a>
+<li>Hacking the Framework Laptop’s Embedded Controller (EC) - <a href=https://www.howett.net/posts/2021-12-framework-ec/>https://www.howett.net/posts/2021-12-framework-ec/</a>
+<li>Zephyr OS - <a href=https://www.zephyrproject.org/open-source-embedded-controller-firmware-development-with-the-zephyr-os/>https://www.zephyrproject.org/open-source-embedded-controller-firmware-development-with-the-zephyr-os/</a>
+</ul>
+
+<p>Are current X86 laptops good in this area? Why can’t we have just mechanical switch for enabling device or 
+resuming it from standby? Can we totally deactivate EC, when we don’t even charge device? What is power usage 
+from keyboard and touchpad? Are they disabled with closed lid? Does haptic touchpad need more power than classic one? 
+And finally… when these chip is so important, can be implemented in 3nm or better process? Or maybe RISC-V core would behave better than ARM?
+
+<p>Next question related to Intel:  as far we know, Intel ME is normally working the whole time and it’s another ARM (?) CPU. 
+How to disable it without loosing power? (old info – after deactivating  device doesn’t go fully into S3 mode)
+
+<p>Let’s look on numbers:
+
+<a href=https://www.notebookcheck.net/Apple-MacBook-Air-2020-M1-Entry-Review-Apple-M1-CPU-humbles-Intel-and-AMD.508057.0.html>According to notebookcheck Macbook Air M1 13”</a>
+is able to have 0.03W (off) / 0.04W (standby)  / 1.9W+ (idle), with Windows laptops we have 0.18W or much more (off state, normally 0.5W), even 4W in standby (typical 0.6-0.8W) and 1.6W+ in idle (typical 2-6W+).
+
+<p>It’s worse or much worse in x86 and we don’t see any changes for years. 
+
+<p>Where is this energy going? (please don’t say, it’s because Apple is controlling everything) And what is power saving after switching from SO-DIMM modules to LPDDR?
+
+<p>In theory new XPS14 with Panther Lake from Dell should be revolutionary (big battery, display with refresh rate 1Hz, mainboard with components upside, etc.), but in practice has got:
+
+<ul>
+<li>throttling and short battery life in some tests (<a href=https://www.notebookcheck.net/Dell-XPS-14-2026-review-Fully-reborn-with-Intel-Panther-Lake-X7.1218670.0.html>link1</a>
+and <a href=https://www.notebookcheck.net/Dell-XPS-14-Core-Ultra-7-355-review-Still-great-but-not-nearly-as-special.1222645.0.html>link2</a>)
+<li>problems with keyboard (<a href=https://www.youtube.com/watch?v=q-jKP-yZ5TQ>Just Josh</a>)
+<li>weight
+<li>only usb-c ports (no hdmi, USB-A or card reader)
+</ul>
+
+<p>This leads to questions – why it was even released, when it’s worse even that 13” Dells with Lunar Lake? Why Dell can’t make something so good like concurrence?
+
+<p>Few years ago Clevo designed my reference system, Fujitsu and Toshiba can deliver the same & currently we see more similar designs from China 
+(maybe not working long on battery yet, but look very promising for the future; see for example 
+<a href=https://www.notebookcheck.net/14-inch-notebook-at-a-low-price-Chuwi-CoreBook-Air-with-AMD-Ryzen-reviewed.1225339.0.html>Chuwi CoreBook Air</a>
+or <a href=https://www.notebookcheck.net/Compact-premium-ultrabook-with-powerful-2-8K-OLED-display-and-Core-Ultra-review-Geekom-GeekBook-X14-Pro.1225215.0.html>Geekom GeekBook X14 Pro</a>) 
+- they are eating many current American models on breakfast.
+
+<p>Why laptops especially from US companies are so heavy and limited? Why we have so many models with status LEDs and other stuff, which doesn’t give anything useful? 
+Why we can’t see everywhere USB-C on both sides, USB-A, HDMI and card readers? (or Framework design) Why screen specs don’t say 
+about PWM and other crucial elements? Why? Why? Why?
+
+<p>Is it because nobody cares? Or is it just connected with different life philosophy?
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fWIFJk2JUdY" title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>My opinion: today problems are not created from X86 complexity… it’s more cutting costs AND/OR doing things by incompetent people. 
+In theory new generations should be more economical and cheaper, but too many times good components are paired with the crap. 
+Companies are doing it again and again and instead of creating one or two good models they’re cloning many weak variants (additionally they 
+stopped R&D and laptops are working in reality max. 10-20h). 
+
+<p>And every system is so good like weakest element.
+
+<p>When I read about specs from upcoming Galaxy Book6 and 14” variants with 1,48kg, I see alternative 3rd explanation for the whole situation - 
+new/young companies are doing something better for getting market and old one (Intel, Dell, Samsung, Lenovo, etc.) are just mainly
+copying “safe” old ideas, which look obsolete now. This could be confirmed by Thinkpad design for example.
+
+<p>...and one more thing – we can see very clear in the youtube or internet, who is creating just advertisements and who is really testing devices today. 
+
+<p>Disclaimer: for me it’s crucial to see info about such things like throttling, bad keyboard and non consistent results 
+(because of it I like many times for example notebookcheck).
+
+<p>Remember: selling crap like next world miracle gives opposite effect.
+
+<p>Market needs fresh breath and laptops just for writing texts or watching videos (silent, light, functional, staying long on battery, 
+with non-blinking screens). They should be very adjustable and working not only with Windows (sorry Snapdragon). Framework has started going 
+into this direction, but needs to do much more & in next few days probably only Apple can deliver all these  with cheap Macbook (I don’t 
+have big expectations because of the screen done probably with glass and dithering, but maybe…).
+
+<p>What colors? At least two standards please (one matt black like in ThinkPad, one silver like in old Macbooks)
+
+<p>Which companies? Maybe System76+Framework+Tuxedo working together?
+
+<p>And when people don’t get good US laptops… are going into other devices (tablets, phones, etc.)… or China products.
+
+<p>PS. NPU chips for AI could be put into M2 slot – in CPU they’re just increasing price and getting place (+producing heat).

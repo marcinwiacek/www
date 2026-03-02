@@ -1,0 +1,94 @@
+﻿Title: Framework – 2026 will be yours! (2026)
+Author:marcin
+When:28 Jan 2026
+Taxonomy:English,English blog,x86
+
+<p>2026 started with CES (they’re about consumer products), where companies like AMD were just presenting
+government + corporate AI stuff. We have seen of course single laptops with (advertised) 29-40h battery life for video streaming
+and screens with 1Hz refresh rate (XPS 14 with Panther Lake), in short time we should get Nvidia ARM systems, 
+but... RAM / SSD are more expensive and power efficient CPU are paired with very power hungry screens
+or systems are not available immediately (XPS 13). Curtain. Another curtain, because first reviews are quite marketing now
+and are just saying, that 16h on the battery is amazing (really? I have seen it few years ago).
+<p>My opinion: in this situation people will not replace their PC just because of brand, 
+generation number or AI. They need hard facts showing how new systems could be better especially
+than you can buy thousands of new / used models today.
+<!--break-->
+<p>Framework has got currently at least few strong sell points:
+
+<ul>
+<li>modularity (much bigger than in other brands), 
+<li>environment friendly long support (components can be reused among
+generations)
+<li>real customization for hardware and BIOS (yes, I know, that every big company has the 
+same, but I will see rather water in Sahara than HP, Dell, Asus, Acer or others will do exactly what people want)
+<li>some nice security features like hardware switch for camera / microphone
+<li>good ideas and realized designs
+</ul>
+
+<p>Disclaimer: I haven't worked with any device from this company in reality and maybe some points below are not actual.
+
+<p>From the specs: I see some things for Framework 13 comparing to my 5 years old Clevo (it's because of other design strategy):
+
+<ul>
+<li>smaller battery (61 vs 73 Wh)
+<li>smaller screen (13,5 vs 14”)
+<li>no confirmed PWM-free backlight (it’s visible in reviews, but... company officially doesn’t say anything)
+<li>no low power screens (there are only 2,2K or 2,8K displays available)
+<li>bigger weight (1,3kg vs 990g)
+</ul>
+
+<p>If I can suggest something for the future (maybe for checking or investigation or just discussion):
+
+<ul>
+<li>start selling to more countries (for example lack of support for Switzerland looks at least interesting especially that world leaders make treir meetings in Davos)
+<li>14” case (it should allow for 70 or 80Wh battery)
+<li>work on decreasing weight:
+
+<ul><li>no magnets? (can be replaced with screws or „click-in, click-out” system like in card readers)
+<li>maybe using carbon?
+<li>providing 2x USB-C and only two extension modules?
+</ul>
+
+<li>no holes on the bottom
+<li>passive cooling (vapor chamber) or at least ability of disabling fan (silent mode in BIOS with low TDP)
+<li>new speakers? (many reviews are speaking about them)
+<li>experimenting with LPDDR? Is it possible to make sockets for them? And have just one SODIMM slot like in my Clevo?
+<li>three M2 slots? – one could be used for disk, one for NPU / FPGA
+and one eventually for Wifi (alternative: NPU/FPGA in extension card)
+<li>better power usage is always welcome – do everything (really everything) in next generations to make it 
+small in idle / off / standby state. I don't know, what is already done, but this includes:
+
+<ul>
+<li>disabling keyboard / touchpad when lid is closed, 
+<li>disabling USB controller, when nothing connected, 
+<li>decreasing touchpad / keyboard power to minimum, 
+<li>disabling sound card,
+<li>low power RAM and Full HD screens, etc.
+</ul>
+
+<li>starting with new extensions modules:
+
+<ul>
+<li>dummy (nothing provided outside)
+<li>USB-A / USB-C with mechanical
+switch for selecting charging / charging+data modes
+<li>2x USB-C in one
+<li>FPGA and NPU units
+<li>some debugging stuff
+(showing what is taking power)
+</ul>
+
+<li>providing keyboard layout pictures
+<li>again: Low Power Full HD screens
+<li>confirming „PWM-free” screens and generally giving used LCD models list
+<li>less stickers inside
+<li>market place in official shop? (I don’t want to search for 3rd party or used components and outleet is probably not enough)
+<li>black cases (Clevo or Lenovo-like design)
+<li>modular batteries – you can buy one or more cells
+<li>maybe Samsung SSD in default configs - some reviews are saying, that WD needs more power in idle
+</ul>
+
+<p>Some of things could be provided on request (user is making order and this is produced), some are just ideas.
+
+<p>Personally I would like to check too, what info is provided by battery (optimal: charging cycles count, etc.)
+and whether Framework motherboards are supporting S9 and S10 and SiOX (they should of course)

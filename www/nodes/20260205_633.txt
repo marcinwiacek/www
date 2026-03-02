@@ -1,0 +1,25 @@
+﻿Title: When (Asian?) laptops are light? (2026)
+Author:marcin
+When:5 Feb 2026
+Taxonomy:English,English blog,x86,Apple
+
+<p>Let's look on some thing:
+
+<table>
+<tr><td>Model</td><td>Battery</td><td>Screen</td><td>Weight</td></tr>
+<tr><td>Fujitsu Zero</td><td>31Wh</td><td>14"</td><td>634g</td></tr>
+<tr><td>Fujitsu FMV Note U</td><td>64Wh</td><td>14"</td><td>848g</td></tr>
+<tr><td>Toshina Portege X40L-M</td><td>65Wh</td><td>14"</td><td>from 875g (some docs say 1050g)</td></tr>
+<tr><td>Asus Zenbook A14</td><td>70Wh</td><td>14"</td><td>990g</td></tr>
+<tr><td>Clevo (the whole series including L14xMU)</td><td>72Wh</td><td>14"</td><td>990g</td></tr>
+<tr><td>GEEKOM GeeBook X14 Pro</td><td>72Wh</td><td>14"</td><td>999g</td></tr>
+<tr><td>HONOR MagicBook Art 14 2025</td><td>60Wh</td><td>14,6"</td><td>1030g</td></tr>
+<tr><td>Macbook Air 13 M4</td><td>53,8Wh</td><td>13,6"</td><td>1225g</td></tr>
+<tr><td>Framework 13</td><td>61Wh</td><td>13,5"</td><td>1300g</td></tr>
+<tr><td>upcoming Dell XPS 14</td><td>70Wh</td><td>14"</td><td>1380g</td></tr>
+</table>
+
+<p>Do you see pattern? Why so many Asian laptops can have max. ca. 1kg and it's so problematic in US?
+
+<p>Fujitsu (Japan) could sell millions of devices... if they only want.
+<!--break-->

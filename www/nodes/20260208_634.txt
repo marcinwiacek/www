@@ -1,0 +1,26 @@
+﻿Title: Laptop, phone, desktop or tablet? (2026)
+Author:marcin
+When:8 Feb 2026
+Taxonomy:English,English blog,x86
+
+Apple is preparing laptop with phone CPU, Android phones can be connected to external monitors and keyboards, laptops are
+used instead of desktops for gaming and there were some initiatives
+like Nextdock, where phone is connected to "notebook-like" case.
+
+<p>Where is currently border between all device classes?
+<!--break-->
+<p>I was thinking mainly about such scenarios:
+
+<ul>
+<li>take Framework 13 case with low power screen, put inside phone and big battery/powerbank (max. 99Wh) and use as laptop
+
+<li>make better laptop than mainstream (Fujitsu devices are examples with their weight 600-800g and keyboard with
+big arrow keys)
+
+<li>take tablet with matt screen and external keyboard and touchpad (additional battery too?)
+
+<li>make correctly "laptop" (big battery, good screen, etc.) with smallest possible x86 boards like LattePanda
+</ul>
+
+<p>Which one will be better equipped for typical tasks like writing texts or watching videos? Which one will
+provide longest battery life?

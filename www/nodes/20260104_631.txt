@@ -1,0 +1,107 @@
+﻿Title: Big Apple laptop chance (2026)
+Author:marcin
+When:4 Jan 2026
+Taxonomy:English,English blog,Apple,x86
+
+In last days I was deeply checking Macbook Air M4 Sky Blue version. You can find many reviews in the Internet, unfortunately they don’t say everything.
+
+<p>First some facts: Apple created very nice looking device with weight 1,24kg. It works without any sound (passive cooling), has got very nice keyboard and perfect touch-pad and offers quite stable 15h / 18h on the 53,8Wh battery (web browsing / video watching).
+<!--break-->
+
+<p>Let’s look on the notebookcheck.net review: 
+
+<ol>
+<li>0,15W (off) is better than practically all Windows laptops (typically 0,3W or more)
+<li>0,27W (standby) is much better too (Windows machines without external graphic need typically 0,6-0,8W)
+<li>1,9 – 8,8W (idle) gives mixed feeling (Windows machines can achieve even 1,3 – 4W here) 
+</ol>
+
+<p>It looks, that Air has got much better efficiency or optimization, but… screen is power hungry and is eating “amazing” effect. Not only this can be problem:
+
+<ol>
+<li>screen doesn’t have PWM (good), but seems to use various levels of dithering (it’s simulating more colors by fast disabling and enabling subpixels)
+<li>you cannot buy matt version from Apple (they have nanostructural glass in Macbook Pro, but MBP is using PWM)
+<li>MacOS has quite strange scaling and normally in the end you have much lower resolution than physically possible
+</ol>
+
+<p>Many people don’t see any problem, but some have to use 3rd party apps like StillColor or matt foil. It doesn’t always work (like for me).
+
+<p>This leads to some questions: what battery times could we see with Low Power low resolution screen? Why can’t we have laptop, which is *really* using all available today technologies for working long without charging?
+
+<p>I’m giving many times my Clevo example, which gave me few years ago 36h: 1kg, 73Wh battery, matt black case, Linux, Low Power Full HD screen and Intel 11gen.
+
+<p>I would like to see at least the same level with Apple Silicon or Lunar Lake.
+
+<p>Current laptops can be very uncomplicated:
+
+<ol>
+<li>screen (low power or with all bells and whistles)
+<li>keyboard
+<li>touch-pad
+<li>System on Chip with CPU, RAM, sound card, eventually TPM and controllers
+<li>disk (can be in Apple form without controller like in Mac Mini)
+<li>battery (makes sense to split it and sell configurations with one or many cells)
+<li>Wi-fi
+<li>(eventually) camera, card and fingerprint reader, microphone, light sensor, etc.
+<li>speakers
+</ol>
+
+<p>It must be functional:
+
+<ol>
+<li>black or silver case without funny LEDs (I don’t need to see indicator, if laptop is enabled)
+<li>no holes on the bottom
+<li>minimum one USB-C on the left and right (can be used for charging) added on the small extra board connected with main board with elastic connector
+<li>lid with 180 degrees angle
+<li>no fan using power from battery (probably we need vapor chamber like in phones)
+<li>no RTC battery
+<li>(optional) support for Framework modules
+<li>must give info about battery wearing or cycles (like in Apple)
+<li>disk can be taken out without anything (data security, which could help for example in having one disk for private things and one for corporate work)
+<li>if possible, all main settings (power limits, etc.) can be done from BIOS and saved for example on SSD – I want to avoid installing extra software coming from strange sources
+<li>small protection against dust and water
+</ol>
+
+<p>Everything in this device must be done for energy saving:
+
+<ol>
+<li>when you close lid, keyboard and touch-pad should be 100% disabled and don’t take take even 1mW from battery
+<li>when user wants to resume from standby, it can be done just with power button (no battery usage from keyboard and touch-pad)
+<li>when sound is off, sound card is 100% disabled
+<li>it’s possible to control how fast SSD is suspended
+<li>TPM, camera, card reader, wifi can be 100% disabled from BIOS (can’t take even 1mW from battery then)
+<li>everything on main board can enter S0iX
+<li>when device is OFF, only RTC can take power from battery (no more 0,15W please)
+</ol>
+
+<p>We don’t know, what Apple will provide in so called “cheap Macbook” with A chip – will it have smaller battery? Or screen like in Macbook Air M1? With dithering? PWM?
+
+<p>Company has got big chance, but will disappoint us or not? It this moment I don’t have big hope, but… maybe… (please note, that I’m not saying anything about Mac OS, which gives me mixed feelings, but in the end works)
+
+<p>I don’t want in the end Windows and Windows device – they are or were crappy for years (only “good enough”) and included a lot of garbage (for example Intel ME, non-working S0iX and x86 debugging modes)
+
+<p>PS. in my personal rating:
+
+<ol>
+<li>(excluding screens/display issues and repairability) Macbooks are on the first place
+<li>Dell has got only some good reviews (+ tried to be too much Apple) – see video
+<li>HP seems to be still acceptable
+<li>Lenovo could be interesting, but it comes from China (this can be the most important sometimes) + lives partially in the past (seems to duplicate input devices, etc.)
+<li>Clevo – I could buy their device especially after fixes, but it’s not possible anymore (geopolitical situation?)
+<li>others (Asus, Acer, MSI, Medion, TongFang, etc.) – no, thank you
+</ol>
+
+<p>When we speak about hardware platforms:
+
+<ol>
+<li>Apple Silicon or Snapdragon (ARM)
+<li>X86 (in laptops Lunar Lake, in desktops AMD)
+</ol>
+
+<p>And my software platform list:
+
+<ol>
+<li>Linux (but without Gnome) / MacOS
+<li>Android / iOS / iPadOS
+<li>Windows
+</ol>

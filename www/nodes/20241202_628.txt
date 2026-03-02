@@ -1,0 +1,163 @@
+﻿Title: GEM12 7840HS (2024)
+Author:marcin
+When:2 Dec 2024
+Taxonomy:English,English blog,AMD,Ubuntu,Linux,x86
+
+<h1>X86 - what's the future?</h1>
+<p>In this year we have seen:</p>
+<ol>
+<li>information about Intel CPU instability from voltage and manufacturing process (13 and 14 gen)</li>
+<li>relative weak performance of Arrow/Lunar Lake CPUs (Intel concentrated on power efficiency)</li>
+<li>(initial?) problems with Ryzen 9000 series</li>
+<li>Qualcomm delivering only part of promises &amp; without faith in own platform. Currently we see canceled SDK mini PC, we don't have full compatibility, Linux support and CPUs are normally paired with power-hungry screens and small batteries (which doesn't make any sence).</li>
+<li>AMD with paper AI 300 series. We don't have many systems with it, they seems to be too expensive (mini PC cost even 2x than prev gen), additionally almost all models come from Asus and sometimes we see such nonsenses like pairing with Nvidia cards.</li>
+<li>AMD working together with Intel on extending x86 (they probably feel pressure from ARM and RISC-V)</li>
+</ol>
+<p>Is x86 really dying?</p>
+<!--break-->
+<p>We see relative high power usage in many scenarios and idle, a lot of old interfaces and support for obsolete standards (no x86s cores yes and some potential security problems), additionally even smallest NPU is removing valuable space from CPU/GPU and increasing prices into sky. In mobile area we return into weak 4-6 cores and this seems to be done by AMD, in the same time we see Apple releasing powerfull M4 chips and very interesting Mac Mini PC (<a href="https://www.notebookcheck.net/The-M4-Mac-Mini-is-the-best-desktop-for-most-people.919251.0.html">see some comparison</a>).</p>
+<p>In terms of concrete prices:</p>
+<ol>
+<li>Mac Mini PC starts from 599 USD</li>
+<li>rear AI 300 systems cost too much (for example EliteMini AI370 1099 USD, Beelink SER9 999 USD)</li>
+<li>Microsoft is proposing terminal Windows 365 machine for 349 USD + subscription price (which seems to be totally rudicolous)</li>
+</ol>
+<p>Old gigants are very stagnated and Intel problems are increasing bad AMD behaviors. This is clear.</p>
+<h1>Requirement</h1>
+<p>For some tasks I didn't want laptop or "big PC" (for example Epyc/Threaddripper or Epyc/Ryzen on AM5) and I required x86 because of different apps (no, Mac is not good enough). I wanted small, silent, energy efficient and powerfull device (something for putting into backpack).</p>
+<p>These are opposite requirements and the only one sensible choice was mini PC.</p>
+<p>We don't see anything good from western companies and I had to look into Chinese brands. After short elimination I looked mainly into Geekom, Beelink, AOOSTAR, Acemagic &amp; Minisforum.</p>
+<p>And now:</p>
+<ul>
+<li>Geekom seems to have loud fans according to various reviews,</li>
+<li>Acemagic has got some "reputation",</li>
+<li>Beeling &amp; Minisforum are quite pricey (additionally Minisforum is using liquid metal, which I never liked, and for some models seems to be quite loud)</li>
+<li>AOOSTAR looks balanced.</li>
+</ul>
+<h1>GEM12</h1>
+<p>Selected because of price, good performance in Geekbench, features and connector to external graphic card.</p>
+<p>First impressions:</p>
+<ol>
+<li>design is a little bit less ascetic than with Apple (device looks more technical and this is really OK for me especially that it will be hidden a little bit and I don't need bells with whistles)</li>
+<li>build quality 99,99999999% (let's say I found smth what could be problem for really pedantic people)</li>
+<li>device has got two fans, which is good (better cooling) and bad (potential bigger power usage, because fans spin)</li>
+<li>for plus external charger on USB-C, which can be reused (it's not very big, but unfortunately blocks one connector)</li>
+<li>device in my usage will need connecting in the back and front, because has got only one jack switch, one USB-C in the back (charger) and only two USB-A on the back</li>
+<li>there are useless elements, which cannot be disabled (for example inside we have white LED diode &amp; second one outside enabled the whole time, when device is on)</li>
+<li>nice protectors for HDMI / DPI ports</li>
+<li>nice warnings for non-technical users about Oculink (it's not hot-plug) and opening cover (cables)</li>
+</ol>
+<p>Device seems to work correctly and stable &amp; makes very good impression, when you compare it to older x86. I was afraid about QLC SSD, but... in the end this is detail especially that my data are copied outside (additionally in Ubuntu I drastically decreases number of writes - I moved /tmp &amp; /var/tmp into RAM, disabled syslog and apport service generating crash reports &amp; disabled or moved Vivado logs into /tmp).</p>
+<p>There are some suspicious about Chinese PC and malware (see <a href="https://www.youtube.com/results?search_query=malware+mini+pc">Acemagic case</a>) - here happily I haven't seen any strange behaviours.</p>
+<p>In fact all issues I have seen were happening because x86 is quite open and not so "magic" like Apple:</p>
+<ol>
+<li>For years I have used Nvidia / Intel / Apple graphics and AMD is currently new for me (I have feeling, that they do some things differently even in 2D), which means a lot of extra setup.</li>
+<li>I have tried Ubuntu 24.10 and Canonical changed fonts and some scaling since 22.04 (unfortunately I'm still fighting with it), latest Ubuntu installer has got less options, system sometimes needs pressing power button for wakeup (or don't go into sleep with some connected USB devices), latest Vidado seems to have small software problems and bugs (hanging during starting simulation), one game is closing without warning, etc. etc.</li>
+</ol>
+<p>In this moment I don't see anything indicating problems from AAOSTAR/GEM12/hardware.</p>
+<p>AMI BIOS/UEFI doesn't have maybe all options, but in the end I managed to enable some security features and was able to get report below in Ubuntu (note: I haven't enabled "Firmware anti-rollback (FAR)" in BIOS):</p>
+<pre><code>HSI-1 Tests
+UEFI Bootservice Variables:                      Pass (Locked)
+UEFI Platform Key:                               Pass (Valid)
+TPM v2.0:                                        Pass (Found)
+UEFI Secure Boot:                                Pass (Enabled)
+BIOS Firmware Updates:                           Pass (Enabled)
+Fused Platform:                                  Pass (Locked)
+TPM Platform Configuration:                      Pass (Valid)
+
+HSI-2 Tests
+AMD Firmware Write Protection:                 ! Fail (Not Enabled)
+TPM Reconstruction:                              Pass (Valid)
+IOMMU Protection:                                Pass (Enabled)
+Platform Debugging:                              Pass (Locked)
+
+HSI-3 Tests
+Suspend To RAM:                                  Pass (Not Enabled)
+AMD Firmware Replay Protection:                ! Fail (Not Enabled)
+Pre-boot DMA Protection:                         Pass (Enabled)
+Control-flow Enforcement Technology:             Pass (Supported)
+Suspend To Idle:                                 Pass (Enabled)
+
+HSI-4 Tests
+Encrypted RAM:                                 ! Fail (Not Supported)
+Supervisor Mode Access Prevention:               Pass (Enabled)
+AMD Secure Processor Rollback Protection:      ! Fail (Not Enabled)
+
+Runtime Tests
+Linux Kernel Verification:                       Pass (Not Tainted)
+Firmware Updater Verification:                   Pass (Not Tainted)
+Linux Swap:                                      Pass (Not Enabled)
+Linux Kernel Lockdown:                           Pass (Enabled)
+Control-flow Enforcement Technology:             Pass (Supported)
+</code></pre>
+<p>Temperatures after typical day with continuous compiling, gaming, etc. (I haven't changed anything in BIOS and used values "from the box"):</p>
+<p><img alt="Temperatures" src="sites/default/files/628/temp.png"></p>
+<p>What is very important:</p>
+<ol>
+<li>device is not very loud (many times the only indication of usage is operating system CPU monitor) &amp; when fans are working very fast, it's not annoying (you hear more "szzzzzzzzzzz" than high frequency tones).</li>
+<li>needs better sensors support in Ubuntu with fan speed, voltages, etc. = monitoring chip should be probably more standard.</li>
+</ol>
+<p>Performance: <a href="https://browser.geekbench.com/v6/cpu/9012043">Geekbench in balance mode</a> (single core is higher even than with some 370HX AI systems!)</p>
+<p>Power usage:</p>
+<ul>
+<li>off - 3,2-3,9W (quite bad, I expect to see 0-0,1W and just mechanical on/off switch)</li>
+<li>standby - 3,6W (you need to give power for RAM, but laptops can be better?)</li>
+<li>BIOS - 14,1-15,4W (no idea)</li>
+<li>desktop - 14,1-15,4W (I think, it should be smaller especially that PPT reported in Linux is normally 4,11-7,20W)</li>
+</ul>
+<p>Memtest for 32 GB OK (I made 2 passes: time ca. 1:12:35, temperature 61/76C)</p>
+<h1>Summary</h1>
+<p>If I understand correctly, many of these mini PC are just APUs with mechanical connectors to RAM, fans, M2, etc. You don't have even chipset. Extra things are probably unnecesary (are adding extra power usage and increasing price) &amp; <a href="https://www.youtube.com/watch?v=NCQkky2Hmno">small Ryzen board from ETA prime review</a> and GEM12 are the most probably examples of quite similiar design (with few exceptions of course).</p>
+<p>Device from AOOSTAR works like should. Strong point is external graphic card connector, additionally there is everything, what you can expect (extra info: company is putting inside Crucial P3 Plus with QLC memory and different Crucial or Apacer Technology RAM chips).</p>
+<p>If you're afraid of security (want to open your bank webpage or have corporate security requirements), you can always buy Mac Mini, Macbook Air, Dell, HP or something else - there is Intel 14gen with discounts, some powerfull Ryzens/Epyc or laptops with Ryzen/Lunar Lake, eventually you can maybe wait and stay with current machine especially that PC from last few years are simply more than enough (disclaimer: in next year people will buy a lot of x86 because of Windows 11 and market can again move forward very fast).</p>
+<p>What I can advice for the future for AAOSTAR:</p>
+<p><strong>design</strong></p>
+<ol>
+<li>only one USB-A, one USB-C and 3,5mm jack on the front</li>
+<li>at least three USB-A and two USB-C and 3,5mm jack on the back (today: USB-4 on the back is used for charging and additionally seems to be supporting display, which means, that we immediately need external switch)</li>
+<li>Oculink on the back</li>
+<li>rubber foots should not cover screws</li>
+<li>making it smaller, if possible (or making GEM10 more silent and with 65W and GEM12 features)</li>
+<li>giving the most standard fans and connectors everywhere - I don't like some details of used fans (they don't look very standard &amp; it looks a little difficult to clean one of them)</li>
+<li>dust filters and easy ways to clean dust</li>
+</ol>
+<p><strong>power</strong></p>
+<ol>
+<li>concentrating on power usage especially in off, idle and standby &amp; giving options for disabling everything (wifi, Ethernet, LCD screen, fingerprint reader &amp; even fans, when possible)</li>
+<li>removing internal white diode &amp; adding one or two configurable leds on the front (you should be able to see network or disk activity with them)</li>
+<li>better temperature profiles? (for example setting up M2 disk temperature, when fan in bottom should be enabled - according to some sources 50-60C can be better for flash memory than 30-40C)</li>
+</ol>
+<p><strong>BIOS</strong></p>
+<ol>
+<li>giving all AGESA updates from AMD</li>
+<li>BIOS installation from BIOS or USB (FreeDOS) or Ubuntu level</li>
+<li>giving all possible options in BIOS</li>
+<li>preparing PDF describing BIOS options (<a href="https://www.youtube.com/watch?v=FUOvJHW1vmw">this video</a> is not enough) - for example write, which USB hub in BIOS is connected to which port</li>
+<li>supporting all security features mentioned by Ubuntu</li>
+<li>support page should look professional (files should be aoostar.com hosted, we should see versions, etc.), currently it's not clear, if file AR6000-MI2_PHX_240422A.rar is <strong>really</strong> for this device</li>
+<li>Coreboot or System76 firmware, if possible</li>
+</ol>
+<p><strong>other</strong></p>
+<ol>
+<li>external graphic card in very small 13cm x 13cm box for connecting with USB4/Oculus (this can have mobile chip like in laptops and box can be connected to main unit with screws and NOT magnets)</li>
+<li>selling barebone or RAM or RAM+disk configuration.</li>
+<li>making optional all elements, which are not required - LCD screen, fingerprint, Ethernet card, wifi card, speakers, microphone, cables &amp; manual in box, charger, etc.</li>
+<li>selling SSD with higher TBW (Kingston KC3000, WD Red SN700 or something else)</li>
+</ol>
+<p>and for AMD:</p>
+<ol>
+<li>AI should not make prices very high (the best please move NPU into M2 card and just sell separately from APU or CPU+GPU)</li>
+<li>we want X86S and more efficient / powerfull CPU cores, additionally better graphic</li>
+<li>power usage in suspend/off for cpu should be zero zero (note: I don't speak about RAM in suspend mode)</li>
+</ol>
+<p>These are just less or more reasonable wishes for next models (and other people can have different opinion about some things like ports location).</p>
+<p>Current GEM12 7840HS maintains good level &amp; seems to be ideal for putting in the monitor back. It's something between laptop (portability, many times loudness and throttling) and full system (high power usage, big size, but also speed). Price is fair &amp; you just need to agree with <strong>bigger power usage than with others brands</strong> and <strong>potential</strong> service inconvenience (it's difficult to estimate, if device will fail or not, but... in case of problems sending it to China won't probably have any sense).</p>
+<p>I played with it for few weeks with no problems. It can be used for internet, compiling normal size projects, some gaming (especially with external graphic) and typical home usage. This is good for hard work &amp; buying 8745HS, 8845HS or 370AI model will be probably wasting money (8845HS are questionable, because their main profit is a little bit increased NPU, but even this cannot handle big models; 8745HS has got little worse performancel 370AI is too expensive and soon we should see new models from AMD, which should beat it).</p>
+<p>We live in interesting times... especially, when you compare GEM12 to IBM PC 5150.</p>
+<p>I'm waiting for next more powerfull models:</p>
+<ul>
+<li>with CAMM2?</li>
+<li>with modular design maybe? (with support for framework laptop modules or with one box with mini pc, one with graphic card, one with disks)</li>
+<li>with better power usage?</li>
+<li>passive cooled (for extra, but fair money) - they can for example stay and everything can be done by gravity on both PCB sides</li>
+</ul>
