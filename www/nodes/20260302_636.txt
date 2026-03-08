@@ -1,6 +1,6 @@
 ﻿Title: Modern laptop design guidelines Release 1 draft 2 (2026)
 Author:marcin
-When:7 Mar 2026
+When:8 Mar 2026
 Taxonomy:English,English blog,x86,Hyperbook,modern_laptop,Apple,Acer
 
 <p>Different companies created for years great laptops, unfortunately in the end many of them suffered from the same mistakes.
@@ -52,7 +52,7 @@ example MIT or CC, whatever you prefer).</p>
 <p>Author(s) don’t take any responsibility for provided here content and some used names are provided for information
 purposes only (they belong to their respective owners).</p>
 <p><strong>Version history</strong></p>
-<p><em>Release 1 draft 2 – 7 March 2026</em></p>
+<p><em>Release 1 draft 2 – 8 March 2026</em></p>
 <p><em>Release 1 draft – 1 March 2026</em></p>
 <p>Notes can be sent on the git-hub or directly to the Marcin Wiącek: marcin (<strong><em>dot</em></strong>) wiacek (<strong><em>at</em></strong>) mwiacek(<strong><em>dot</em></strong>)com</p>
 <p><strong>Size and form</strong></p>
@@ -173,8 +173,8 @@ light devices and difference between 13” and 14” is so small, that 13,6”, 
 <li>battery as big as possible (starting from 72Wh, can be maximally 99Wh because of airlines regulations)</li>
 <li>small battery (for example 20Wh), which could be just used, when laptop is moved from desk to desk - in all companies and corporations devices are normally connected to the charger or docking station and it’s enough to have 20-30 minutes working time</li>
 </ol>
-<p>Battery should have easy ability of disconnecting, when user has got standard screwdriver. There shouldn’t be special manual skills required for this and connector should be designed this way, that user can easy connect it or disconnect without big force and making shortcuts on the motherboard.</p>
-<p>Power sources should give information about number of full charging cycles, designed and current capacity, charging power, manufacturing date, manufacturer and serial number. Users should be informed about estimated cycles, when battery is going into 80% of designed capacity (companies should provide similar information like for the phones in the EU).</p>
+<p>Battery should have easy ability of disconnecting, when user doesn’t have any tools or has got standard screwdriver only. There shouldn’t be special manual skills required for this and connector should be designed this way, that user can easy connect it or disconnect without big force and making shortcuts on the motherboard.</p>
+<p>Power sources should give information about number of full charging cycles, designed and current capacity, charging power, manufacturing date, manufacturer and serial number. Users should be informed about estimated cycles, when battery is going into 80% of designed capacity (companies should provide similar information like for the phones in the EU). It’s recommended to detect and provide info, when some cells totally lost capacity (and battery charged for example to 30% goes immediately to 0%).</p>
 <p>Good practice is implementing maximal charging levels or charging patterns in BIOS (Framework has got it latest 3.x BIOS releases, Dell and good companies for years)</p>
 <p>We welcome using modern chemistry (carbon batteries) and batteries with more charging cycles - please remember, that many customers can pay extra for bigger and better units.</p>
 <p><strong>Screen</strong></p>
@@ -207,7 +207,7 @@ light devices and difference between 13” and 14” is so small, that 13,6”, 
 <p>Please have in mind, that panels from first group (FullHD or 2K) in various devices can provide up to 10 more hours of battery work, they just need to be adjusted by user for comfortable work (it’s connected with setting up operating system, using correct font size, scaling and anti-aliasing and sometimes requires resigning from Linux distributions based on Gnome/GTK 4.x, because they provide just gray anti-aliasing and don’t handle especially such panels in very nice way).</p>
 <p>Although many companies are giving various useful information, we would like to appreciate especially Tuxedo and their clear statement “no PWM used”. In ideal situation for every class there should be provided list of hardware models (we cannot have so called “lottery”) and connector info and BIOS shouldn’t be locked to any specific module (model or part number).</p>
 <p>Device could have light sensor, but in any case user must have option for disabling it.</p>
-<p>We concentrate in this document on classic form and of course there are already some devices with foldable screens (Compal Inifinite or Thinkpad X1 Fold) or two displays (Asus Zenbook Duo) – all notes about picture quality apply to them.</p>
+<p>We concentrate in this document on classic form and of course there are already some devices with foldable screens (Compal Inifinite or Thinkpad X1 Fold) or two displays (Asus Zenbook Duo) – all notes about picture quality apply to them.  Companies can provide e-ink – it should be alternative to standard solutions.</p>
 <p><strong>Case colors</strong></p>
 <p>In ideal situation every device should be available at least in two variants:</p>
 <ol>
@@ -233,7 +233,7 @@ light devices and difference between 13” and 14” is so small, that 13,6”, 
 <li>motherboard has got all elements on the top and all heat goes up and could be taken by top cover working as big radiator</li>
 </ol>
 <p>We don’t recommend any ventilation holes on the top (left and right side of the keyboard) and bottom – all ventilation should go over sides (back part from the screen side, but created this way, that will not heat screen too much).</p>
-<p>MIL-STD 8106 or IP norm and protection against liquid and dust are very welcome. Case cannot be twisted and we don’t welcome any stickers on it (in the end user is paying for them and they don’t provide any added value). Additionally it should be possible to open screen just with one hand.</p>
+<p>MIL-STD 8106 or IP norm and protection against liquid and dust are very welcome. Case cannot be twisted and we don’t welcome any stickers on it (in the end user is paying for them and they don’t provide any added value). Additionally it should be possible to open screen just with one hand. Connector between screen and mainboard should be prepared for many open/close cycles (in some Apple devices it was made too short) and all higher voltage signals inside should be separated from the others (it cannot be, that even small overvoltage will damage it).</p>
 <p><strong>Keyboard</strong></p>
 <p>We don’t strictly define type of keyboard – we can only recommend, that keys feedback must be clear, keys can be pressed at least 1.5mm down, should be as silent as possible and there is required durability. We additionally highly recommend some kind of protection against liquids and making gaps among keys (zero-lattice keyboards are normally ending with pressing few keys or bad looking device after some time). We don’t want to see anywhere capacitive touch keys – Dell tried them for few years and it was not working.</p>
 <p>Good example of keyboard implementation are today Apple and Lenovo Thinkpad products.</p>
@@ -330,7 +330,7 @@ blinking red LED)</li>
 <p>In this specification we’re against using OEM disks – they come normally without any firmware updates (fixes) and without any TBW parameter info (estimated amount of data possible to write).</p>
 <p>We also very recommend to provide clear information about power usage with sold units – for example according to Techpowerup reviews some WD disks need even 1.058W in idle, when in the same time some Samsung are taking 0.023W.</p>
 <p><strong>Mainboard/motherboard</strong></p>
-<p>It should consist of three parts: main motherboard and flexible modules on two sides with external connectors (one on the left, one on the right)</p>
+<p>It should consist of three parts: main motherboard and flexible modules on two sides with external connectors (one on the left, one on the right). Everything should be connected on one side to help with easy repairing. There shouldn’t be used glue anywhere (sometimes it’s used to compensate thin laminate micro movements)</p>
 <p>It’s strongly advised, that motherboard is using standard market standards like M.2 2280 (NVME when possible, eventually SATA in cheaper devices), one or two M.2 2240 (for extension cards like second disk, NPU, FPGA, WWAN or Wifi). All slots should be fully disabled in BIOS – it can allow for example for using just one disk and switching between private and work configuration.</p>
 <p>Good practice is implementing info about first start date and counter of opening device case – it seems to be implemented in Framework products.</p>
 <p>Manufacturers could consider their mechanical compliance with Framework 13 motherboards and providing some schematics giving repair ability (in the same time we don’t like putting stickers with QR codes in internal components because of security and using some materials for their producing).</p>
@@ -347,7 +347,7 @@ blinking red LED)</li>
 <li>wrong flashing new version or changing settings should not be problem – especially better and more expensive motherboards could start from backup and should have automatically called “reset to default” after few incorrect POST procedures</li>
 <li>devices should not have RTC battery anymore (we like Framework suggestion that motherboard could use them just in some cases)</li>
 <li>there should be provided basic hardware info and upgrade from the BIOS level</li>
-<li>we don’t like QR codes in BIOS (they can potentially transfer to suspicious pages)</li>
+<li>we don’t like QR codes in BIOS (they can transfer potentially to suspicious pages)</li>
 </ol>
 <p><strong>TPM and Secure Boot</strong></p>
 <p>There are many reports, that Microsoft is using TPM for tracking user activities and Secure Boot could be potentially used for blocking alternative OS. We believe, that enabling/disabling such features is optional, but they must be available because of Windows 11 or enterprise requirements.</p>
@@ -538,13 +538,17 @@ green LED, when it’s done correctly (but only for moment)</li>
 <p>In our opinion devices should have as high note as possible according to iFixit (and for example good example is Lenovo T14 and T16 gen 7 with score 10/10).</p>
 <p>We strongly advice providing updates ability for older models (very good example is Framework giving few motherboards and other parts for the same case or Compal Adapt X concept). </p>
 <p>Locking components on the model/serial number (making “white lists”) is not acceptable and unfortunately Apple is good example of such bad behaviors. </p>
-<p>In the future it could be for example considered:</p>
+<p>It should be for example considered:</p>
 <ol>
-<li>replacing battery, motherboard, RAM, disk, touchpad and keyboard by user</li>
-<li>providing own external connector modules like earlier described (Framework compatible)</li>
+<li>replacing battery, motherboard, RAM, disk, touchpad, camera, speakers, keyboard, wifi by user</li>
+<li>providing own external connector modules like described earlier (Framework compatible)</li>
 <li>disconnecting the whole part with the screen and using it as separate monitor</li>
 <li>using motherboard outside in the mini PC case like proposed by Framework</li>
 <li>using keyboard and touchpad remotely/on the cable</li>
+<li>using standard screws with the same length each</li>
+<li>non-using glue</li>
+<li>putting all connectors in easy accessible and visible places</li>
+<li>reusing components among other models</li>
 </ol>
 <p><strong>Sales</strong></p>
 <p>User should have option of buying just device in the package (even without charger and external cables). Connected sales are very bad practice and we recommend, that laptops can be ordered  without OS and disks (eventually without RAM too, when possible). Region locking should not be visible and every company must provide ordering any configuration into all countries, which are not on the sanction list.</p>
@@ -578,4 +582,4 @@ green LED, when it’s done correctly (but only for moment)</li>
 <li>Lenovo T14s gen 6 Lunar Lake (heavier, fan on the bottom, smaller battery)</li>
 <li>Lenovo T14s gen 6 Snapdragon (heavier, fan on the bottom, smaller battery, Linux compatibility problems)</li>
 </ol>
-<p>We understand, that there is progress between 2021 and 2026… but too many things are on the same or worse level. New models don’t need new CPU only (problems are deeper and much more fundamental) and in this context interesting is, that innovations or correctly done projects are coming mainly from Asia or Japan.</p>
+<p>We understand, that there is progress between 2021 and 2026… but too many things are on the same or worse level. New models don’t need new CPU only (problems are deeper and much more fundamental) and in this context interesting is, that innovations or correctly done projects are coming mainly from Asia or Japan  today and US companies are in retreat (we have very self-descriptive situation with Apple - after migrating to 16GB RAM because of user comfort and progress they decided to release Macbook Neo with 8GB RAM, which the most probably even tomorrow will be e-waste)</p>
