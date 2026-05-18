@@ -1,0 +1,115 @@
+﻿Title: Mainstream Linux became next Windows and is going back instead forward (2026)
+Author:marcin
+When:15 May 2026
+Taxonomy:English,English blog,x86,Ubuntu,Linux,Thinkpad
+
+<p>Linux distributions are widely used in phones, servers and various embedded devices, but in desktop cannot achive more than few percent. Is it only because of games? AI sloop? Bad luck? Of just because of lack of qualified people?</p>
+<!--break-->
+<p>I’m fan of Linux for more than 30 years (ca. year 2000 I was already writing some software into it) and I’m tired with infinite rewrites, dramas and other things. This post will try to look on some popular distributions from normal user perspective (don’t expect checking thousands of installations, but rather just few of them). The purpose of it is NOT decreasing greatness of GNU and Open Source, but rather showing some basic human stupidity and lack of real motivation in creating better world (some people just preffer doing something without completing it).</p>
+<p>And now the situation: in last days I tried to setup some new VDIs and modern Thinkpad T14s gen6 (Intel) with popular Linux distributions (which could be the most visible in various environments) and immediately found a couple of basic issues. Let’s go into this fascinating journey.</p>
+<p>Please note, that I’m not crying or searching for help (I can take care on myself). I’m not also providing full bug report (I could do it, but my experience shows, that it will be ignored by Canonical and others). And although I could use correct therminology in various places, I will make some shortcuts to make this post more clear.</p>
+<p><strong>What was tried</strong></p>
+<ol>
+<li>Ubuntu 22.04 (GTK3 Gnome based) – installed, problem with brightness</li>
+<li>Ubuntu 26.04 (GTK4 Gnome based) – not even installed</li>
+<li>Lubuntu 26.04 (LXQT based) – installed few times, really stupid problems</li>
+<li>NixOS (LXQT) – installed, big problems with resume</li>
+<li>NixOS (KDE Plasma 6) – installed, small problems after resume, used longer</li>
+<li>NixOS (Cinnamon) - installed, some annoying problems, but seems to be quite close to Ubuntu 22.04</li>
+<li>Manjaro (Xfce) – installed, no problems</li>
+<li>Mint (Cinnamon) - looks worse than NixOS version</li>
+</ol>
+<p><strong>Installation</strong></p>
+<ul>
+<li>NixOS cannot be installed on the VirtualBox, because is always installing VirtualBox addons and fails (you can use QEMU, for cretaing disk <strong>qemu-img create -f qcow2 nixos-vm.qcow2 30G</strong> and for starting system <strong>qemu-system-x86_64 -m 10144 -smp 6 -drive file=nixos-vm.qcow2,format=qcow2 -boot d -net nic -net user -enable-kvm -cdrom ~/Downloads/nixos-graphical-25.11.10134.26ef669cffa9-x86_64-linux.iso</strong>)</li>
+<li>NixOS LXQT cannot resume system from standby – error „Password initialization failed”</li>
+<li>NixOS KDE cannot be switched to Xfce – fails when installing (<strong>nix-env -iA nixos.xfce</strong> cannot find Cmake 4)</li>
+<li>NixOS needs a lot of coding even for Secure Boot, which is of course generally pain (I attach <a href="sites/default/files/638/configuration.nix">example configuration.nix with some hints</a>)</li>
+<li>Lubuntu 26.04 cannot be installed without error, when you have LUKS partitions from other systems („Could not lose encrypted partition on the target system”) – it happens even, when we don’t touch them in the installer (interesting is that system actually seems to work)</li>
+<li>Lubuntu 26.04 installed with minimum set of apps (proposed by installer, so it should be fine) of course needs some extra installations, but for example Firefox (snap) needs ca. 4,1GB and libreoffice is not installed in snap version (looks absolutely ugly) and we don’t have Ubuntu store. This is mix without any consistency + system is complaining about problems with xdg-screensaver (cannot lock screen during entering standby and it makes it totally useless)</li>
+<li>Lubuntu 26.04 installer has got option for creating LUKS or LUKS2 partition type... and later crashes (correct is selecting for example EXT4 with "encryption" checkbox)</li>
+<li>Ubuntu 26.04 with Gnome cannot create encrypted partition in „manual partitioning” option at all – problem was introduced after 22.04 with new „improved” installer, reported and ignored (note: earlier version had it of course)</li>
+<li>When you want to have two or more Ubuntu/Mint in the disk, they overwrite by default bootloader – you should have obligatory warning, when replace something from other system in the disk. Some solutions:<ul>
+<li>(when you want to change entry for running system) reinstall grub with your name in UEFI <strong>sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id="Ubuntu 22.04" –recheck</strong> and delete old entry using correct index of course with something like <strong>sudo efibootmgr -b 0 -B</strong></li>
+<li>(when you want to add entry for other systems) <strong>efibootmgr -d /dev/nvme0n1p1 -c -L "Lubuntu" -l /EFI/ubuntu/shimx64.efi</strong> (when <strong>/EFI/...</strong> is path in EFI /dev/nvme0n1p1 partition for file running this system)</li>
+</ul>
+</li>
+<li>Older Ubuntu installers (and also Manjaro &amp; Mint) proposed by default option „erase the whole disk” – such destructive things should be visible in last place</li>
+<li>Ubuntu/Mint installers don’t give any info about separate /boot partitions, but require them (default Lubuntu 26.04 config is proposing 4GB for /boot partition – majority of this place is normally wasted). I never understood this especially that /boot can be put inside main filesystem even in encrypted version (I was doing this config many times and it’s working with NixOS und Manjaro, additionally Manjaro installer kindly proposed resigning from it)</li>
+<li>When you go back and forward in the Ubuntu 22.04 installer (or add and remove encrypted partition more times), you can get fast into „Configuration of encrypted volumes failed” error</li>
+<li>„Hanging up” in the installer of Ubuntu 26.04 – it was reading something from disk, but stopped responding (I had feeling, that I’m working with one core machine, which doesn’t want to do anything)</li>
+<li>Ubuntu ISO (at least 22.04) cannot be copied into pendrive using simple cp (you get into „Input/output error” error during installation), the same Manjaro needs dd – generally there are few USB memory standards and you could be suprised</li>
+<li>Ubuntu in some 26.04 flavors is LTS, but without LTS status – totall mess</li>
+<li>Manjaro doesn't support Secure Boot</li>
+<li>Linux kernel can sort partitions in non-deterministic way, but... installers don't show partition names and it's quite easy to make mistake (I have seen it with Lubuntu 26.04)</li>
+</ul>
+<p>There are just few typical scenarios for installation (every with encrypted and decrypted version):</p>
+<ol>
+<li>installing instead of existing system</li>
+<li>installing in the whole free space</li>
+<li>installing in the part of free space</li>
+</ol>
+<p>In every situation damaging data MUST be clearly marked, the same user MUST see warning with lack of something required for correct operating. This is really not rocket science to test various scenarios and I say it as tester with many years of experience. Modern installers should detect, if we have laptop or something else (and propose best set of tools). We need also taking care of SSD space and usage (standard should setting up /tmp as tmpfs or asking user, if really want swapfile or noatime option).</p>
+<p>We get here into last mile problem – it’s not important, that 99% is done, when 1% is blocking expected result (yes, nice installation and first feeling is very important). Saying, that user can select other distribution is not solution (for example Ubuntu is created since 2004 and 22 years is enough time to prepare working installers).</p>
+<p><strong>Hardware compatibility with Thinkpad T14s gen6 with Lunar Lake</strong></p>
+<p>Lubuntu 26.04 – no problems with hardware, ca. 1,21W in powertop in idle with brightness 11,8%</p>
+<p>Ubuntu 22.04 (kernel 6.8) with extended support till 2032 – no support for brightness and ca. 3.2W in powertop (something is obviously not initialized). I tried without success kernel 6.5 (it hanged in Gnome) or Ubuntu PPA and kernels 6.8, 6.12, 6.18 (in worst case problems with start), the same is with kernels from Zabbly (probably don’t support disk encryption). My conclusion: normal user won’t use and won’t setup this.</p>
+<p>NixOS Plasma 6 with kernel 7.x – few times after returning from standby sluggish response (+ user quite always see desktop for second before screen for entering password), excluding practically every person should be fully satisfied (amount of working options is really good). No problems with hardware (I don’t know, if this is possible, but maybe one detail missed: cannot disable case lights during standby), for example with disabled Wifi and all possible devices powertop showed me minimally 1.20W (brightness 20% = in theory ca. 100 nits) or 1.04W (brightness 10%)</p>
+<p>NixOS Cinnamon - 1.1W with brightness 11,8%.</p>
+<p>Manjaro with kernel 6.18 – no problems, 1.19W with 16,8% brightness (note: powertop doesn't show all information)</p>
+<p>Mint - 1,08W with 11,8% brightness</p>
+<p>Generally I could say, that Linux kernel/new distributions shouldn't have big problem with the most typical mass market hardware. OK, you can read about many problems with Nvidia or others, but this is not the biggest pain now.</p>
+<p><strong>Fonts</strong></p>
+<p>This is real HUGE problem in today Linux... and honestly I'm a little suprised, because Microsoft resolved it light years ago and solution is known (I remember, that ClearType was added with Windows XP and it was 2001).</p>
+<p>I normally didn't have any problems with it in Linux for decades and...boom. In 2024 I tried to exchange Ubuntu 22.04 with 24.04, unfortunately found some basic problems with fonts. Rendering quality was intentionally decreased by Gnome devs and they're proud of it. Topic closed.</p>
+<p><img alt="(Ubuntu 22.04 Gnome vs 24.04 Gnome)" src="sites/default/files/638/gnome.png"></p>
+<p>Screenshot is from askubuntu.com. As you can see in older version we had contrast elements on the edge, new version is simply not enough visible especially in darker background. This is change for worse against users (maybe even some kind of sabotage against Open Source). Some people will not see problem, some will notify, but not name it (they will not like apps and won't be able to say why) and some will know exactly, what is happening.</p>
+<p>It looks for me in 2026, that fonts are not improving (non-GTK environments haven't changed too much for years) or problem is even populating (because GTK4 is slowly used everywhere).</p>
+<p>Everybody home? Do we have any pilot flying with us?</p>
+<p>I don’t buy excuses, that user needs better monitor or this, that it’s absolute necessary for making code more simple. Wrong solution is always wrong. Although I have high res in handy and using MacOS with Retina, but buying 4K or something more doesn't have sence especially for small laptop or sometimes it's even not possible (yes, Linux is not only used in private computers).</p>
+<p>In NixOS Plasma 6 you still have some options for fonts, but unfortunately even with them it looks for me a little worse than in Ubuntu 22.04. Sorry. Xfce probably stays one level up than Plasma 6 in my ranking (although we see less options). The same LXQT (strange, that it looks for better on big monitor than on laptop).</p>
+<p>The winner in this moment is probably Cinnamon (but only version working inside NixOS). But how long?</p>
+<p><strong>Gamma</strong></p>
+<p>Another Linux problem is connected with gamma – you cannot control it with typical distributions with Wayland (no required extensions).</p>
+<p>And yes - technically Wayland is required. I don't have anything against it now.</p>
+<p><strong>Scaling</strong></p>
+<p>Third big problem. We have issues with correct scaling in various window managers – this can make people really annoying and again thing could be resolved over years.</p>
+<p><strong>Graphic environment</strong></p>
+<p>For me important is combination of edges, shape, density, scaling, functionality, etc.</p>
+<p>I liked very much Gnome based on GTK3, unfortunately GTK4 is totally useless. LXQT was promising, but I decided to abandom it for now (I see stupid problems in real hardware and zero of them in VDI). Plasma 6 looks very heavy (need to waiting for starting apps, etc.) and Xfce has got scaling/font problems like others.</p>
+<p>The most close to the old Ubuntu seems to be Cinnamon in the Nix OS with "Large fonts" and "High contrast" options... but even this environment is not perfect. I will give just examples - you cannot change background, terminal copied from Gnome 49 doesn't even have option for changing font, no consistency with login manager, etc.</p>
+<p>My opinion - graphic environments in Linux currectly generally suck (and I write it with full responsibility). Many people will be happy with them and it's good, unfortunately fragmentation, lack of shared standards and even basic options visible in Windows in 2000 is extremly decreasing opinion about Linux. And no, people don't need thousands of things, just basics. Examples:</p>
+<ol>
+<li>when you have some files with execution permission, you can't ask them - for example in NixOS by accident I "ran" PNG file and they were files created on disk</li>
+<li>clear and readable fonts - no grey, not thin, etc.</li>
+<li>things should be proportionally scaled in applications</li>
+<li>when I connect my pendrive, I shouldn't have stupid problems with permissions, opening many windows with content or questions like "what do you want to do with it?"</li>
+<li>one application for setting up everything (like Control Panel in Windows)</li>
+<li>application list, which will not hide part of data on big screen</li>
+<li>easy changing shortcuts in Start menu (or analogical place)</li>
+<li>seeing tree with devices (to easy find, which USB controller is handling each device)</li>
+<li>easy to find mount point for pendrives - for years Ubuntu and others had /mnt, now we have /run/media - why? (note: need of adding symlink even for it really helps in setting opinion, that Linux is difficult and not mature)</li>
+<li>hiding some partitions in file managers</li>
+</ol>
+<p>Just two examples (I could put here much more after few days, but in the end it doesn't have sense):</p>
+<p><img alt="Cinnamon in NixOS" src="sites/default/files/638/NixOS.png"></p>
+<p><img alt="Cinnamon in Mint" src="sites/default/files/638/Mint.png"></p>
+<p>This is Cinnamon in NixOS and one from Mint (for first look they're the same, but especially for people with eyes problems fonts in Mint are not good enough and with NixOS even medium hinting is more than enough)</p>
+<p><img alt="MC in Mint" src="sites/default/files/638/mc1.png"></p>
+<p><img alt="MC in NixOS" src="sites/default/files/638/mc2.png"></p>
+<p>Again Cinnamon and default experience with Midnight Commander. Please don't write, that second version is good and nice. This is very good example of big existing problem. And graphic desktops like Gnome should stop making it a point of honor redesigning way, how users are using their computer (which looks too often strange).</p>
+<p><strong>Software</strong></p>
+<p>Linux has got a lot of software... or can run a lot of software from other OS. I will give example - I'm running some games from DOS/Windows and in the end it works. But... main typical applications many times don't have basic options.</p>
+<p>We have a lot of things todo here. And popular distribution should stop distributing crap.</p>
+<p><strong>Why?</strong></p>
+<p>Installation in 2026 can be minefield, new hardware will generally work and usability experience is generally medium.</p>
+<p>I have often very strong feeling, that some distributions were created many years ago (by strong technical people) and later only updated by script kiddies, who don’t check even basic scenarios. Too much work is going into infinite changing the same things (example - backporting kernel things by Canonical). Currently after installation many times there is used typically 10-20GB of disk and nobody cares, if this software is really useful or not (for example with Ubuntu I can find some files for PPP modems or there are downloaded files for HP, when I have mini PC not done by HP).</p>
+<p>Mainstream Linux became Windows and good symptom of problem is bigger suggested RAM size for Ubuntu.</p>
+<p>You need /boot, /bin, /root, /home and many other standard directories. Some elements were not changed over years and this helps in achieving compatiblity… but in current computers we run not only software from „good” people and old rules don’t fit anymore.</p>
+<p>Let’s look into typical user home directory – it became mess.</p>
+<p>We need solutions adequate to modern times… for example separating apps. Good things are always welcome, but they must added always with head (Wayland implementations must support all typical graphic cards and things like gamma). During years we have seen too many dramas. Let’s name some of them – GTK3 (some people still want to maintain GTK2 based software), GTK4 (fonts), systemd (complexity), snap format, Unity, Xlibre, etc. From new things we have Rust and rewriting GNU Core tools using it (is it done because of licenses?) or AI.</p>
+<p>Currently too many projects are concentrating on Code of Conduct (which is not later used for anything else than political fight) or speaking about pronounces and fascists instead of good coding and better technical results. I know of course about creating software in catedra and baazar model, but something went too wrong, for example Gnome people are making totally everything to force people for using old versions and later ask for removing branding from old versions distributed with LTS distributions (drama with Calendar in Mint). People working for Canonical or Redhat will of course say, that their solutions are the best, but in the end nobody deeply cares, if something is really good or stable (the same nobody cares, if something is complete). In theory every user could find something in this world, but… testing many distributions can be very problematic (typical person doesn’t have knowledge or time for it).</p>
+<p><strong>Can be future more bright?</strong></p>
+<p>We need rolling distributions (you have never new „big” releases) and separating apps (Flatpak and bwrap are good beginning). This is done for example in Nix OS. I like some of solution there… but not everything is done in user friendly way (one simple example: setting up Secure Boot)</p>
+<p>We desperately need basic testing and real technical work, not "bla bla bla". There must be some logical thinking in this (for example for me big stupidy is lack of numeric value with scrolling options in GUI or showing stars with entering password in new Ubuntu, which is enabled by default - if you want to show, that user pressed key, it's enough to show one character and replace it, for example after first character show random digit, after second show in the same place another random digit, after third next digit, etc.)</p>
+<p>Distributions like Fedora, Ubuntu or Debian will stay with us long (and we need things like 10 years of support), but… we cannot fully agree on wrong things done there… not anymore.</p>
