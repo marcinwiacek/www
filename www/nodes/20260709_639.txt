@@ -1,0 +1,39 @@
+﻿Title: PLLinux - Every big journey has beginning (2026)
+Author:marcin
+When:9 Jul 2026
+Taxonomy:English,English blog,x86,Ubuntu,Linux,PLLinux
+
+<p>My Linux story started long before 2000 year in totally other time - internet was something new and not very available (for me) and distributions were normally provided on the CD
+(additionally configuring hardware and things like X-Windows was really something and sometimes I was using even floppy disks for some tasks like booting system). 
+Ca. 2000 I was already writing some universal software working in Windows AND Linux 
+(mainly with serial cable, infrared or bluetooth connections, but of course not only).
+
+<p>Some standards were created and market was growing. Later it was only better and more optimistic - Mandrake, Mandrive, RedHat, Debian, Ubuntu and many others were always adding something.
+<!--break-->
+
+<p>Today hardware is much more powerfull than ever, but PCs many times are used for the same things (writing texts, web browsing, gaming, etc.).
+Users don't see progress anymore - we have high prices, less and less diversity and good options (we went into monopol era), additionally technical and general
+knowledge goes down (there are everywhere paywalls or AI sloop and doing something more intelligent with PC is left for people with education). 
+Some changes for worse are visible even in Linux world - reputable distributions like Ubuntu (and companies like Canonical) are trying to rewrite something again and again (with too much politics), 
+unfortunately it ends practically always with worse quality.
+
+<p>Because of it I'm still searching for good distribution (temporarly it will be probably Debian or NixOS)
+and I started asking myself:
+
+<p>How difficult would be creating own distro, which could avoid mistakes visible in current Linux mainstream?
+
+<p>And here it goes - in April 2026 I started <a href=https://github.com/marcinwiacek/pllinux>PLLinux project</a>.
+
+<p>Stupid? Maybe. A lot of work? Oh yes. Fun? Definitely. Can I do it? I think so (disclaimer: I'm putting here all from more than 30 years, which includes formal engineer education, 
+experience from many years of developing, testing and using PC). Is it project just for short time? Rather not.
+
+<p>After some initial research PLLinux is currently marked as "Linux distro built around bwrap/busybox/dinit and other free tools (with app/user sandboxing) with extra app
+separation in main filesystem (more user-friendly than in NixOS)". In July 2026 I have basic set of tools and elements (bash, busybox, bwrap, dinit, e2fsprogs, git,
+gnupg, mc, nftables, openssl and more), practically ready basic package manager and script for building almost everything from the source and of course internet/pendrive access and some documentation. 
+And this is just beginning. There is created bigger roadmap and things are going further and further (on x86 VM, I hope to make all in real hardware soon)...
+
+<p>From nice things I should mention reactivating my account after 23 years:
+
+<p><img src=sites/default/files/639/source.png>
+
+<p>(I need some place to put packages until I will find maybe something better - if you need <a href=sites/default/files/639/app.publickey>public key, here it is</a>)

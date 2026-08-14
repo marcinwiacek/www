@@ -1,0 +1,57 @@
+﻿Title: Studium upadku na przykładzie pewnego portalu - jest źle, tylko użytkowników szkoda (2026)
+Author:marcin
+When:22 Jul 2026
+Taxonomy:Polski,Polski blog,Sobieski,S.F.,Android
+
+Co mają wspólnego takie sławy Janusz Zajdel, Stanistaw Lem, Andrzej Sapkowski i na przykład Jacek Karpiński?
+<!--break-->
+<p>Jest sobie pewien periodyk z ogromnymi tradycjami, na którym wychowało się m.in. moje pokolenie,
+a w którym pojawiały się teksty mistrzów polskich i zagranicznych. Tenże miesięcznik ma stronę, bardzo znaną w pewnych kręgach.
+Jest ona delikatnie mówiąc dosyć przestarzała (była już taka kilka ładnych lat temu).
+I żeby nie było, że jest tu coś niezwykle skomplikowanego - nie, jest to prosty HTML w PHP z jakąś niewielką bazą danych
+(pewnie MySQL, Postgres czy coś podobnego).
+
+<p>Teraz przejdźmy do polskiej informatyki. Ta ma naprawdę spore tradycje, i nie mówię tu nawet o legendzie Jacka Karpińskiego.
+Należałoby wspomnieć Jana Bieleckiego czy chociażby Pawła Wimmera albo doktora Jarosława Dudę.
+Specjalistów mieliśmy i mamy... niestety najczęściej pracują dla firm zagranicznych,
+bo w lokalnych spotykają się z murem niezrozumienia, nepotyzmu, januszerstwa i tysiąca innych problemów (w dużej mierze
+wymuszonych przez dławiące rozwój przepisy, ale nie tylko).
+
+<p>I teraz połączmy te dwa elementy - przestarzałą stronę i fachowców, którzy mogliby "coś" bez problemu zmienić.
+Nie wiem, jak wyglądały rozmowy z innymi osobami, ale opowiem co nieco moją historię (nie jestem może specjalistą specjalistą,
+ale swoje zrobić umiałem i umiem):
+
+<p>W 2020 publicznie zaproponowałem rozruszanie tematu. W mniej więcej trzy miesiące przygotowałem cały działający prototyp techniczny
+z migracją gotowych danych (ściągnięte przez WWW bez dostępu do sieci wewnętrznej).
+Nie wiem, czy ktoś się wtedy wystraszył czy jak, ale z dnia na dzień pojawiła się masa postów
+"nie wiem, ale się wypowiem" od tych użytkowników, którzy sądząc po treści co najwyżej chyba wiedzieli, jak odpalić komputer.
+Całość umarła... przygotowałem jeszcze aplikację WWW i na Androida do czytania i robienia plików EPUB z tekstów z oryginalnej strony.
+Zero zainteresowania ze strony właściciela ani nikogo innego, w międzyczasie jedynie archaiczny
+kod zmigrowany był do chmury (bodajże dwa lata później, tego nie jestem pewien).
+
+<p>Obecnie mamy rok 2026 i nagle strona zaczyna rzucać błędami http 500. Ktoś coś robi, a użytkownicy
+sypią tekstami typu "Tak musi być. To jest normalne przy pracach" (podobno chodzi o jakieś zmiany i nową wersję).
+
+<p>Czy nie widać tu typowego syndromu sztokholmskiego i totalnego rozkładu? (i to w kraju, który
+ma takie tradycje związane z fantastyką i informatyką).
+
+<p>Odpowiem krótko: migracje/modernizacje/aktualizacje/cokolwiek robi się tak, żeby zminimalizować niedogodności, a "katastrofy" nie dzieją się przez przypadek.
+Jeżeli strona jest niedostępna przez ponad tydzień czy półtora, to z logicznego punktu widzenia najczęściej oznacza to jedno z trzech:
+
+<ul>
+<li>ludzie robiący całość nie mają do końca pojęcia o swojej robocie i/albo
+<li>całość jest robiona po takich kosztach, że as strach i/albo
+<li>ktoś robi takie ograniczenia i tak pod górkę, że nawet najdrobniejszy ruch oznacza trzydzieści podpisów (samego szefa wszystkich szefów?)
+</ul>
+
+<p>Proszę nie mówić, że to jest skomplikowane. Nie jest. I danych też nie ma niewiadomo ile.
+
+<p>Pozostaje tylko zapytać: gdzie jest ten dumny kraj, w których wszystko dało się zrobić? Czy naprawdę kręgosłup tego narodu jest już tak
+zniszczony, że doszliśmy do tego poziomu rozkładu? I czy naprawdę legendarne pismo i użytkownicy nie zasługują na nic więcej? Na chociaż
+trochę szacunku? I na to, żeby nie musieli widzieć takich problemów jakie były i są normą na tamtym portalu? I czy naprawdę zmiany w prostej
+stronie PHP + baza to już szczyt naszych polskich możliwości? Czy tylko kolejny miś na miarę naszych czasów? Bo jeżeli tak, to użytkowników szkoda.
+
+<p>PS. Poniższy post wyraża tylko moją osobistą opinię. Mam do niej prawo
+i nie wydaje mi się, żebym naruszał czyjekolwiek dobra - nie obrażam ani nie zniesławiam przedstawiając tylko suche fakty.
+I żeby nie było - informatyką zajmuję się pewnie co najmniej ze trzydzieści lat, obecnie zresztą przygotowuję własną dystrybucję
+Linuksa o wdzięcznej nazwie PLLinux (wydaje się więc, że mogę coś powiedzieć we wspomnianym temacie)

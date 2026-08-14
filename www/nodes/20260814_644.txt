@@ -1,0 +1,41 @@
+﻿Title: Is is difficult to create own OS in the 2026? (2026)
+Author:marcin
+When:14 Aug 2026
+Taxonomy:English,English blog,x86,Linux,PLLinux
+
+<p>ReactOS was started somehow in 1996 (and still in alpha?), Haiku-OS is in beta 5 (initial release was in 2002 per Wikipedia)
+and Microsoft required years for <a href=https://www.youtube.com/watch?v=i_lWJNnOgKM&list=PLUS6aV5qyWClKFfbFT2P4Yd1RMNfxNhpM>creating Chicago/Windows 95</a>
+or <a href=https://www.youtube.com/watch?v=g-i-xBgE11Y&list=PLUS6aV5qyWClxoUi60ZOjx2j5xRmgNtN8>Longhorn/Vista</a>
+
+<p>How many years do you need to create own OS? Is it even possible?
+<!--break-->
+<p>PLLinux is mainly merging existing software and after four months
+there is quite useable text/console environment ready (with building ISO, installing
+system into new partition, app package manager, configurator and many other
+things). System in this moment is going with quite big steps into TP (Technology Preview)
+release.
+
+<p>But how even it is possible? Anw why many organizations need many people and money?
+
+<p>I will try to answer on first question:
+
+<ul>
+<li>text/console environment is quite easy
+<li>architecture implemented inside PLLinux is extremly modular (which makes work very fast)
+<li>changes to existing apps are marginal (two exceptions: some extra features need cosmetic update in bubblewrap +
+dynamic loader needs knowledge about PLLinux manifest files)
+<li>project tries to get away from politics and is concentrating just on real work
+(where the most important is technical excellence and results)
+</ul>
+
+<p>With this approach TP could be possible this year and full graphic environment
+maybe next year. No bla, bla.
+
+<p>And please note, that majority tasks are done on small mini PC. Laptop could be enough too.
+And no AI is required.
+
+<p>(you could say in this moment, that it will be always worse than things done
+by big companies with many employees and partially it will be the truth, from the other
+hand please check, how big and unnecessary effort is put by them into making some patches
+or other stuff just because architecture is overloaded and ineffective and cannot be changed
+because of agreements or because people want to make their work without end)

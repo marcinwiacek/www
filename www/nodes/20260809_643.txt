@@ -1,0 +1,61 @@
+﻿Title: Polskie piekiełko czyli jak użytkownicy stali się grubo ponad 10 lat zakładnikami "fantastycznego" układu (2026)
+Author:marcin
+When:9 Aug 2026
+Taxonomy:Polski,polski blog,Sobieski,S.F.
+
+Przyznam się, że ręce mi opadają, jak widzę idiotyzmy tu i tam. Ale zacznijmy od początku...
+<!--break-->
+<p>Dawno, dawno temu (na oko ze 12 lat) pewien człowiek za darmo zrobił co mógł
+i przygotował pewnemu Wydawnictwu stronę. Napisał ją w PHP i podłączył pod bazę danych
+(przez chwilę myślałem, że Oracle, ale bardzo możliwe, że to jednak raczej MySQL).
+W trakcie robót kontakt się urwał, sądząc po informacjach z Wydawnictwa
+dosyć gwałtownie, co moim zdaniem może sugerować brak chęci dalszej współpracy
+(gdybyśmy mieli jakąś katastrofę, której nikomu nie życzę, to przy dobrych relacjach
+raczej byłaby możliwość nawiązania kontaktu z bliskimi tego człowieka, prawda?)
+
+<p>Strona sobie działała coraz gorzej, co wcale nie dziwi - brak uaktualnień,
+problemy z wydajnością, itp.
+
+<p>I teraz nadszedł rok 2026:
+
+<ul>
+<li>13 lipca - strona zaczyna sypać błędami HTTP 500 internal server error
+<li>28 lipca - jeden z włodarzy jak gdyby nigdy nic wrzuca dwie reklamy
+<li>30 lipca - tenże sam Pan jest łaskawy skomentować problemy tworząc dosyć łzawą historyjkę
+o dwuletnich pracach nad nową wersją i niespodziewanych trudnościach (HTTP 500 widać w najlepsze dalej)
+<li>6 sierpnia - zauważam błąd "too many connections" do bazy danych
+</ul>
+
+<p>Użytkownicy są słusznie zdezorientowani do 30 lipca, tymczasem pod wątkiem z tego dnia pojawia się kilka komentarzy, że nie ma się co czepiać,
+i że każdy ma być wdzięczny, że strona w ogóle jest... A najciekawszy w ogóle jest tekst
+"kto potrzebował ten wiedział... to nie była wiedza tajemna" (co może sugerować kolesiostwo, prawda?).
+
+<p>I teraz tak się zastanawiam: skoro ktoś codziennie masowo łączył się do bazy,
+to chyba naturalne jest, że "główna" strona przestała działać? Skoro ten cały
+"development" można zrobić na wyciągniętym ze śmietnika dziesięcioletnim czy
+piętnastoletnim laptopie czy innym złomie, to czy działanie na produkcji
+i brak informacji dla użytkowników nie jest świadomym pokazywaniem im środkowego palca?
+
+<p>Przyznam się, że zażenowanie mnie bierze, jak widzę układy i układziki tu i tam.
+A jeszcze większe, jak niektórzy bronią tego zamiast budować lepsze jutro.
+I żeby była jasność - w 2020 proponowałem zrobienie nowej całości w sposób transparentny,
+bezstresowy i nieinwazyjny (na darmowej licencji), co skomentowano m.in. tak, że nikt tego nie chce
+i nikt mnie nie prosił.
+
+<p>"Partia" wybrała inaczej i najwyraźniej
+w końcu namaściła ludzi, którzy chyba nie potrafią czy nie chcą zrobić sobie prostej kopii bazy danych
+ani zlimitować połączeń "na boku" do minimum.
+Ja mógłbym zrozumieć, że komuś omsknęła się raz czy dwa ręka, ale przez tyle dni?
+Gdyby ktoś tak długo i notorycznie psuł aplikację produkcyjną w normalnej firmie,
+moim zdaniem z miejsca mogłaby to być podstawa do natychmiastowej dyscyplinarki.
+
+<p>I żeby była jasność: z jednej strony formalnie mówimy o portalu firmy prywatnej, z drugiej strony w jakiś sposób
+jest to powiązane z czasopismem wydawanym od 1981 i polskim dziedzictwem kulturowym, o które
+należy dbać, które należy rozwijać i pielęgnować. To nie są jakieś jolki, memy z kotkami czy graffiti najniższych lotów,
+tylko portal, któremu (podobno) zależy na użytkownikach i rozwijaniu tego, co najlepsze.
+
+<p>I tak to się jakoś kręci to polskie piekiełko. Tylko ludzi
+szkoda, szczególnie, że część przez lata uwierzyła w te brednie, że z problemami
+nie można nic zrobić...
+
+<p>PS. Nikogo nie obrażam ani nie zniesławiam, mam natomiast prawo do własnego zdania.

@@ -1,0 +1,106 @@
+﻿Title: Why PLLinux? (2026)
+Author:marcin
+When:29 Jul 2026
+Taxonomy:English,English blog,x86,Linux,PLLinux
+
+<p>Project goes further (see <a href=https://github.com/marcinwiacek/pllinux>GitHub repo</a>). 
+But why it could interesting for anybody?
+<!--break-->
+<p>Here are just few points, you could probably find much more yourself:
+
+<p><b>Not connected with existing structures</b>
+
+<p>Companies like Canoncial want to earn money. Starting from some size
+their interests and goals are more important than product and this is fact.
+PLLinux doesn't have this problem.
+
+<p><b>Created with experience</b>
+
+<p>I shouldn't maybe speak about it, but this is product done after more than
+30 years of experience with existing IT things (in some part also in such
+companies like Google).
+
+<p><b>Returning to roots</b>
+
+<p>Trying to manage existing apps in the most easy way, for example compiling
+package is best situation is connected with just few simple steps:
+
+<p><img src=sites/default/files/642/Untitled.png>
+
+<p>In other words: in many cases you don't need to update binaries & you just
+add simple text file showing some app elements. Done.
+
+<p><img src=sites/default/files/642/Untitled2.png>
+
+<p>And now please compare it with Debian or Ubuntu build scripts... or with their
+patching or backporting patches (for example to older kernel releases),
+which is time and resource consuming.
+
+<p><b>Fully modular</b>
+
+<p>Makes this much further than for example NixOS. This makes things easy,
+shows fast all weak points and helps with removing them. Additionall profit
+is connected with this, that you don't need various caches and bloat
+(example: libraries or man pages search).
+
+<p>Although it doesn't have anything common with Framework, you could say,
+that it's so modular like them, but in the software area.
+
+<p><b>Using the most simple elements</b>
+
+<p>Many parts are done just with Bash scripts - PLLinux has got one standard
+and doesn't need extra elements like Perl, etc.
+
+<p><b>100% free</b>
+
+<p>Some companies are trying to remove GPL and other elements. Here you don't
+have it and you can do with it whatever you want.
+
+<p><b>Using elements, which can give wide support</b>
+
+<p>Currently for example Linux kernel seems to be more compatible with
+various hardware than others.
+
+<p><b>Created step by step</b>
+
+<p>You can easy track progress.
+
+<p><b>Developed without burning money</b>
+
+<p>Typical modern "devs" are starting high-level configs and cry without
+64GB or more RAM or many strong CPU cores. Here you
+have pure engineering work - for example majority things is done from
+<a href=?q=node/628>Aoostar GEM12 with Ryzen 7840HS, QLC SSD and 16GB RAM</a> (quite
+medium powerfull components force big optimalization).
+
+<p>In other words: you can be part of this and work even on cheap laptop
+or some desktop from the trash.
+
+<p><b>Saying "as is"</b>
+
+<p>Open Source world is full of problems like everything created by human
+- project doesn't hide it.
+
+<p><b>No need for waiting</b>
+
+<p>You don't have to wait sometimes even half year or more for next/last version
+of something - if you want to test for example last GLibc, it can be available
+for some PLLinux users even in the release day (the rest can stay with known
+older release)
+
+<p><b>Easy debugging</b>
+
+<p>Classic "big" releeases are testing many changes at once - in PLLinux you
+can separate them, check things independly and have clean situation, what
+is failing.
+
+<p><b>No illusional progress</b>
+
+<p>Less code and bloat helps with creating less bugs. PLLinux has got this philosophy,
+than it's better to make something once (but good) and close instead of fixing
+it without end.
+
+<p><b>Reliable and reproducible results</b>
+
+<p>The same action on two machines should give the same with the same config
+(when of course resources are enough and you don't have any damage)

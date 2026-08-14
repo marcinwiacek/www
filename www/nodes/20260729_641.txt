@@ -1,0 +1,38 @@
+﻿Title: Framework 13 Pro - what is missed almost by everybody? (2026)
+Author:marcin
+When:29 Jul 2026
+Taxonomy:English,English blog,x86,modern_laptop
+
+<p>We have seen a lot of hype about new Framework 13 Pro. Various sources
+say a lot of good about it and this is true - Framework made huge progress
+and new device is really pearl.
+
+<p>But what is missed almost by everybody?
+<!--break-->
+<p>Laptop has got weight > 1,4kg and cooling, which seems to be not enough
+(device is throttling and it doesn't of course mean, that CPU will fail immediately, from the
+other hand this problem can make faster replacing motherboard or repair need).
+<a href=https://www.notebookcheck.net/Framework-Laptop-13-Pro-review-The-king-of-repairability-is-back.1351246.0.html>The last
+problem was notified by Notebookcheck (only?)</a> and it seems to be similar
+to the <a href=https://www.notebookcheck.net/Radeon-RX-7700S-performance-debut-Framework-Laptop-16-review.790807.0.html>problem in the Framework 16</a>
+(looks like general design flaw from this company).
+
+<p>Next problem is connected with the screen - it seems to be designed specially
+for Framework (this probably required a lot of money). And now the rethorical
+question - company is advertising producing less e-waste, but it's locking users
+to some specified screens. Isn't it opposite to the mission, they try to sell to world?
+Wouldn't be better for uses to be able to put into 13 Pro (or 14 Pro) any
+13/14" screen? (it could open it for OLED, Low Power screens and many other options)
+
+<p>Please note, that money used for designing new screen could be used for covering
+RAM prices increase - company promised it, but was not able to deliver (and after situation
+happen Framework didn't change preorder process to make sure, that prices in the preorder will be really
+not changed because order will be always done from parts available physically on the stock)
+
+<p>So, currently we have pearl, but also quite heavy and throttling laptop with something looking like
+non-standard screen (+big price and quite big standby/idle power usage). I like Framework mission, but...
+this American device in various points is worse than devices from Asia and you won't see it
+in American reviews.
+
+<p>PS. This and other laptop problems I'm trying to cover in my
+<a href=?q=taxonomy/term/modern_laptop>Modern laptop design guidelines</a>
